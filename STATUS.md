@@ -94,3 +94,6 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in draft data; roster resolution handles co_owners.
 - `data/cache/` is gitignored API cache (delete to force refresh);
   `data/intel/` is curated and committed.
+- **Git push**: the machine's active gh account is `antonioLBR`, but this
+  repo belongs to `AntonioCF5` (both are logged into gh). To push:
+  `gh auth switch --user AntonioCF5 && git push && gh auth switch --user antonioLBR`.
