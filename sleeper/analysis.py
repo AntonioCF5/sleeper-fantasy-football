@@ -1,0 +1,537 @@
+"""Analysis engine: lineups, power rankings, waivers, trades, draft boards."""
+
+from collections import defaultdict
+
+from . import api
+from .scoring import SLOT_ELIGIBILITY, score_stat_line
+
+INJURY_OUT = {"Out", "IR", "PUP", "Sus", "NA", "DNR", "COV"}
+INJURY_RISK = {"Questionable", "Doubtful"}
+
+
+# ---------------------------------------------------------------- helpers
+
+
+DEFAULT_POSITIONS = ("QB", "RB", "WR", "TE", "K", "DEF")
+
+# Two-way players (e.g. Travis Hunter, WR/CB) list an IDP tag in
+# fantasy_positions alongside their offensive one, and Sleeper doesn't
+# order it consistently (Hunter's is ['DB', 'WR'] — IDP first). Naively
+# taking index 0 leaks an IDP position tag onto an offensive player even
+# in leagues with no IDP slots at all. Offense is the primary fantasy
+# role whenever one is present; pure IDP/DEF players are unaffected.
+OFFENSE_POS_PRIORITY = ("QB", "RB", "WR", "TE", "K")
+
+
+def canonical_pos(entry: dict):
+    """Best single fantasy position for a player dict (a full record from
+    api.get_players(), or the lighter 'player' meta dict embedded in a
+    projection row) — see OFFENSE_POS_PRIORITY for why this isn't just
+    fantasy_positions[0]."""
+    fp = entry.get("fantasy_positions") or []
+    for p in OFFENSE_POS_PRIORITY:
+        if p in fp:
+            return p
+    if fp:
+        return fp[0]
+    return entry.get("position")
+
+
+def league_positions(league: dict) -> tuple:
+    """Which player positions to fetch projections for, given roster slots."""
+    slots = set(league.get("roster_positions", []))
+    pos = ["QB", "RB", "WR", "TE"]
+    if "K" in slots:
+        pos.append("K")
+    if "DEF" in slots:
+        pos.append("DEF")
+    if slots & {"DL", "LB", "DB", "IDP_FLEX"}:
+        pos += ["DL", "LB", "DB"]
+    return tuple(pos)
+
+
+def projection_map(season: str, week: int, scoring_settings: dict,
+                   positions=DEFAULT_POSITIONS) -> dict:
+    """player_id -> projected points under THIS league's scoring."""
+    projs = api.get_week_projections(season, week, positions)
+    return {
+        p["player_id"]: score_stat_line(p.get("stats") or {}, scoring_settings)
+        for p in projs
+    }
+
+
+def season_projection_map(season: str, scoring_settings: dict,
+                          positions=DEFAULT_POSITIONS) -> dict:
+    """player_id -> full-season projected points under this league's scoring."""
+    projs = api.get_season_projections(season, positions)
+    return {
+        p["player_id"]: score_stat_line(p.get("stats") or {}, scoring_settings)
+        for p in projs
+    }
+
+
+def player_label(players: dict, pid: str) -> str:
+    p = players.get(pid)
+    if not p:
+        return pid
+    pos = "/".join(p.get("fantasy_positions") or [p.get("position") or "?"])
+    inj = p.get("injury_status")
+    tag = f" [{inj}]" if inj else ""
+    return f"{p.get('first_name', '')} {p.get('last_name', '')} ({pos}, {p.get('team') or 'FA'}){tag}"
+
+
+def _positions(players: dict, pid: str) -> set:
+    p = players.get(pid) or {}
+    return set(p.get("fantasy_positions") or ([p["position"]] if p.get("position") else []))
+
+
+# ---------------------------------------------------------------- lineup
+
+
+def optimal_lineup(roster_player_ids, roster_positions, players, proj):
+    """Greedy-with-scarcity fill of starting slots by projected points.
+
+    Fills dedicated slots first (QB/RB/...), then flex slots, always giving
+    each slot the best remaining eligible player. Returns (lineup, bench)
+    where lineup is [(slot, player_id, points)].
+    """
+    slots = [s for s in roster_positions if s != "BN"]
+    # Dedicated slots before flex slots so flexes get true leftovers.
+    slots.sort(key=lambda s: len(SLOT_ELIGIBILITY.get(s, set())))
+    available = {
+        pid for pid in roster_player_ids
+        if (players.get(pid) or {}).get("injury_status") not in INJURY_OUT
+    }
+    lineup = []
+    for slot in slots:
+        eligible = [
+            pid for pid in available
+            if _positions(players, pid) & SLOT_ELIGIBILITY.get(slot, set())
+        ]
+        best = max(eligible, key=lambda pid: proj.get(pid, 0.0), default=None)
+        if best is not None:
+            available.discard(best)
+        lineup.append((slot, best, proj.get(best, 0.0) if best else 0.0))
+    # Restore league's display order
+    order = {s: i for i, s in enumerate(s for s in roster_positions if s != "BN")}
+    lineup.sort(key=lambda t: order.get(t[0], 99))
+    bench = sorted(
+        set(roster_player_ids) - {pid for _, pid, _ in lineup if pid},
+        key=lambda pid: -proj.get(pid, 0.0),
+    )
+    return lineup, bench
+
+
+def lineup_delta(current_starters, roster_player_ids, roster_positions, players, proj):
+    """Compare current starters vs optimal. Returns (optimal, bench, gain, swaps)."""
+    lineup, bench = optimal_lineup(roster_player_ids, roster_positions, players, proj)
+    optimal_pts = sum(pts for _, _, pts in lineup)
+    current_pts = sum(proj.get(pid, 0.0) for pid in current_starters or [])
+    optimal_ids = {pid for _, pid, _ in lineup if pid}
+    swaps_in = optimal_ids - set(current_starters or [])
+    swaps_out = set(current_starters or []) - optimal_ids - {"0", None}
+    return lineup, bench, round(optimal_pts - current_pts, 2), (swaps_in, swaps_out)
+
+
+# ------------------------------------------------------------- standings
+
+
+def power_rankings(league_id: str, through_week: int):
+    """All-play record + points-for based power score per roster."""
+    rosters = api.get_rosters(league_id)
+    weekly_scores = defaultdict(list)  # roster_id -> [pts]
+    for wk in range(1, max(through_week, 1) + 1):
+        try:
+            for m in api.get_matchups(league_id, wk) or []:
+                if m.get("points") is not None:
+                    weekly_scores[m["roster_id"]].append(m["points"])
+        except Exception:
+            break
+    allplay = {}
+    for rid, scores in weekly_scores.items():
+        wins = losses = 0
+        for wk_i, pts in enumerate(scores):
+            others = [s[wk_i] for r, s in weekly_scores.items() if r != rid and len(s) > wk_i]
+            wins += sum(1 for o in others if pts > o)
+            losses += sum(1 for o in others if pts < o)
+        allplay[rid] = (wins, losses)
+    out = []
+    for r in rosters:
+        rid = r["roster_id"]
+        s = r.get("settings", {})
+        pf = s.get("fpts", 0) + s.get("fpts_decimal", 0) / 100
+        w, l = allplay.get(rid, (0, 0))
+        out.append({
+            "roster_id": rid,
+            "owner_id": r.get("owner_id"),
+            "record": f"{s.get('wins', 0)}-{s.get('losses', 0)}"
+                      + (f"-{s['ties']}" if s.get("ties") else ""),
+            "pf": round(pf, 1),
+            "allplay": f"{w}-{l}",
+            "allplay_pct": w / (w + l) if (w + l) else 0.0,
+        })
+    out.sort(key=lambda x: (-x["allplay_pct"], -x["pf"]))
+    return out
+
+
+# --------------------------------------------------------------- waivers
+
+
+def waiver_targets(league_id: str, players: dict, proj: dict, season_proj: dict, limit: int = 15):
+    """Trending + high-projection free agents not on any roster."""
+    rostered = set()
+    for r in api.get_rosters(league_id):
+        rostered.update(r.get("players") or [])
+    trending = {t["player_id"]: t["count"] for t in api.get_trending("add", 24, 200)}
+    candidates = {}
+    for pid in set(trending) | {p for p, v in proj.items() if v >= 8}:
+        if pid in rostered or pid not in players:
+            continue
+        pl = players[pid]
+        if pl.get("injury_status") in INJURY_OUT or not pl.get("team"):
+            continue
+        candidates[pid] = {
+            "player_id": pid,
+            "trend_count": trending.get(pid, 0),
+            "week_proj": proj.get(pid, 0.0),
+            "season_proj": season_proj.get(pid, 0.0),
+        }
+    ranked = sorted(
+        candidates.values(),
+        key=lambda c: (-(c["trend_count"] > 0) * 1, -c["season_proj"], -c["week_proj"]),
+    )
+    # Blend: trending count signals breaking news the projections haven't caught.
+    ranked.sort(key=lambda c: -(c["season_proj"] + c["week_proj"] * 2 + min(c["trend_count"], 50000) / 2500))
+    return ranked[:limit]
+
+
+# ---------------------------------------------------------------- trades
+
+
+def positional_needs(roster_player_ids, roster_positions, players, season_proj):
+    """Per-position starter-quality surplus/deficit for one roster.
+
+    Returns {pos: {'starters_needed': n, 'quality': [top season projections]}}
+    """
+    need = defaultdict(int)
+    for slot in roster_positions:
+        if slot == "BN":
+            continue
+        elig = SLOT_ELIGIBILITY.get(slot, set())
+        if len(elig) == 1:
+            need[next(iter(elig))] += 1
+        else:  # count flex demand fractionally against RB/WR/TE pool
+            for p in elig:
+                need[p] += 1 / len(elig)
+    by_pos = defaultdict(list)
+    for pid in roster_player_ids:
+        for pos in _positions(players, pid):
+            by_pos[pos].append(season_proj.get(pid, 0.0))
+    out = {}
+    for pos, n in need.items():
+        vals = sorted(by_pos.get(pos, []), reverse=True)
+        n_int = max(1, round(n))
+        out[pos] = {
+            "starters_needed": n_int,
+            "top": vals[: n_int + 1],
+            "depth_score": sum(vals[: n_int + 1]),
+        }
+    return out
+
+
+def trade_suggestions(league_id: str, my_roster_id: int, players, season_proj, roster_positions):
+    """Find complementary-need trade partners: I'm deep where they're thin and vice versa."""
+    rosters = api.get_rosters(league_id)
+    needs = {
+        r["roster_id"]: positional_needs(r.get("players") or [], roster_positions, players, season_proj)
+        for r in rosters
+    }
+    mine = needs.get(my_roster_id, {})
+    ideas = []
+    for rid, theirs in needs.items():
+        if rid == my_roster_id:
+            continue
+        for pos in ("QB", "RB", "WR", "TE"):
+            m, t = mine.get(pos), theirs.get(pos)
+            if not m or not t:
+                continue
+            # I have surplus (bench piece projects near starter level), they're thin.
+            my_surplus = len(m["top"]) > m["starters_needed"] and m["top"][-1] > 90
+            their_thin = len(t["top"]) <= t["starters_needed"] or (t["top"] and t["top"][-1] < 80)
+            if my_surplus and their_thin:
+                ideas.append({"partner_roster_id": rid, "i_send_pos": pos,
+                              "note": f"They are thin at {pos}; my depth piece there has real value to them."})
+    return ideas
+
+
+# ------------------------------------------------------------- risk
+
+# Positional age curves: (age risk starts, points per year past it, cap).
+# Grounded in the established aging research: RBs cliff earliest (~27-28,
+# mileage-driven); WRs decline after ~29-30; TEs break out late and last
+# into their early 30s; QBs age slowest (pocket passers into late 30s);
+# IDP speed positions (LB/DB) fade in the late 20s, DL slightly later.
+# K/DEF: age is irrelevant.
+AGE_RISK = {
+    "RB": (26, 8, 35),
+    "WR": (29, 8, 30),
+    "TE": (30, 7, 28),
+    "QB": (34, 6, 25),
+    "LB": (29, 6, 20),
+    "DB": (29, 6, 20),
+    "DL": (30, 6, 20),
+}
+
+INJURY_RISK_POINTS = {
+    "Questionable": 10, "Doubtful": 20, "Out": 25, "Sus": 25,
+    "IR": 35, "PUP": 35, "NA": 35, "DNR": 35, "COV": 35,
+}
+
+RISK_VORP_DISCOUNT = 0.12  # max % of positive VORP shaved at risk score 100
+
+
+def risk_index(player: dict, pos: str, prev_games, style=None) -> dict:
+    """Composite 0-100 risk score with human-readable factors.
+
+    Components: positional age curve, last-season durability (games active),
+    current injury status, rookie uncertainty, weekly volatility (ceiling
+    style). Systematic by construction — no per-player judgment.
+    """
+    score, factors = 0, []
+    age = player.get("age")
+    curve = AGE_RISK.get(pos)
+    if age and curve:
+        start, per_year, cap = curve
+        if age >= start:
+            pts = min((age - start + 1) * per_year, cap)
+            score += pts
+            factors.append(f"Age {age} — past the typical {pos} decline point ({start}+)")
+    years_exp = player.get("years_exp")
+    if years_exp == 0:
+        score += 8
+        factors.append("Rookie — no NFL durability track record")
+    elif prev_games is not None:
+        if prev_games >= 16:
+            pass
+        elif prev_games >= 14:
+            score += 10; factors.append(f"Missed time last season ({prev_games:.0f} games active)")
+        elif prev_games >= 10:
+            score += 20; factors.append(f"Missed significant time last season ({prev_games:.0f} games)")
+        else:
+            score += 30; factors.append(f"Major missed time last season ({prev_games:.0f} games)")
+    elif years_exp and years_exp > 0 and pos not in ("DEF",):
+        score += 30
+        factors.append("No games last season (missed year / not on a roster)")
+    inj = player.get("injury_status")
+    if inj and inj in INJURY_RISK_POINTS:
+        score += INJURY_RISK_POINTS[inj]
+        part = player.get("injury_body_part")
+        factors.append(f"Currently {inj}" + (f" ({part})" if part and part != "Undisclosed" else ""))
+    if style == "ceiling":
+        score += 5
+        factors.append("TD/big-play dependent — volatile week to week")
+    score = min(score, 100)
+    band = "low" if score < 20 else "med" if score < 45 else "high"
+    return {"score": score, "band": band, "factors": factors}
+
+
+def apply_risk(board, risk_map):
+    """Shave up to RISK_VORP_DISCOUNT of positive VORP by risk score, then
+    re-rank. A systematic, documented discount for downside tail risk that
+    mean projections don't carry — NOT a per-player judgment call."""
+    for r in board:
+        risk = risk_map.get(r["player_id"])
+        if risk and r["vorp"] > 0 and risk["score"]:
+            r["vorp"] = round(r["vorp"] * (1 - RISK_VORP_DISCOUNT * risk["score"] / 100), 1)
+    board.sort(key=lambda r: -r["vorp"])
+    pos_rank = defaultdict(int)
+    for i, r in enumerate(board):
+        r["rank"] = i + 1
+        pos_rank[r["pos"]] += 1
+        r["pos_rank"] = f"{r['pos']}{pos_rank[r['pos']]}"
+        r["value"] = round((r["adp"] - r["rank"]), 1) if r.get("adp") else None
+    return board
+
+
+# ---------------------------------------------------- league winners
+
+
+def league_winners(league: dict, players: dict, season_proj: dict, adp: dict,
+                   superflex: bool = False, limit: int = 20):
+    """Late-round picks with contingent league-winning upside.
+
+    These are NOT best-available-now players: each has a realistic path to a
+    top-12 positional role that current projections can't price (an injury
+    ahead of them, a role battle, a year-2 leap). Draft capital: the last
+    3-4 rounds, where the alternative is a replacement-level veteran.
+    """
+    from .intel import team_env
+    env = team_env()
+    out = []
+
+    # Positional projection ranks for context
+    pos_rank = {}
+    by_pos = defaultdict(list)
+    for pid, v in season_proj.items():
+        for pos in _positions(players, pid):
+            by_pos[pos].append((v, pid))
+    for pos, vals in by_pos.items():
+        for i, (v, pid) in enumerate(sorted(vals, reverse=True), 1):
+            pos_rank.setdefault((pos, pid), i)
+
+    # Team RB rooms from depth charts
+    rooms = defaultdict(list)
+    for pid, p in players.items():
+        if p.get("position") == "RB" and p.get("team") and p.get("depth_chart_order"):
+            rooms[p["team"]].append((p["depth_chart_order"], pid))
+
+    for team, room in rooms.items():
+        room.sort()
+        if len(room) < 2:
+            continue
+        starter, backup = room[0][1], room[1][1]
+        st_rank = pos_rank.get(("RB", starter), 99)
+        bu_adp = adp.get(backup)
+        tier = (env.get(team) or {}).get("offense_tier", 3)
+        st = players[starter]
+        # 1. Handcuff to a heavy workload: starter is a top-18 RB, backup cheap
+        if st_rank <= 18 and (bu_adp is None or bu_adp > 110) and tier <= 3:
+            frail = " (starter already " + st["injury_status"] + ")" if st.get("injury_status") else ""
+            out.append({
+                "player_id": backup, "category": "handcuff",
+                "score": (19 - st_rank) * 3 + (4 - tier) * 5 + (10 if frail else 0),
+                "why": f"Direct backup to {st['first_name']} {st['last_name']} "
+                       f"(RB{st_rank}){frail}; inherits a top-12 workload on contact",
+            })
+        # 2. Ambiguous backfield on a good offense: top two project close
+        p1, p2 = season_proj.get(starter, 0), season_proj.get(backup, 0)
+        if tier <= 2 and p1 > 0 and p2 / max(p1, 1) > 0.72 and (bu_adp is None or bu_adp > 90):
+            out.append({
+                "player_id": backup, "category": "ambiguous-backfield",
+                "score": 20 + (3 - tier) * 6,
+                "why": f"Near-even timeshare with {st['first_name']} {st['last_name']} "
+                       f"on a tier-{tier} offense; winner becomes a weekly RB2",
+            })
+
+    # 3. Year-2/3 WR breakout profile on a functional offense
+    for pid, p in players.items():
+        if p.get("position") != "WR" or not p.get("team"):
+            continue
+        a = adp.get(pid)
+        tier = (env.get(p["team"]) or {}).get("offense_tier", 3)
+        wr_rank = pos_rank.get(("WR", pid), 999)
+        if (p.get("years_exp") in (1, 2) and (p.get("age") or 99) <= 24
+                and tier <= 3 and (a is None or a > 100) and 25 <= wr_rank <= 75):
+            out.append({
+                "player_id": pid, "category": "year2-breakout",
+                "score": (76 - wr_rank) * 0.5 + (4 - tier) * 4,
+                "why": f"Year-{p['years_exp']+1} WR, age {p.get('age')}, tier-{tier} "
+                       f"offense, already projects WR{wr_rank} with classic breakout profile",
+            })
+
+    # 4. Superflex only: cheap QBs with a path to every-week starter value
+    if superflex:
+        for pid, p in players.items():
+            if p.get("position") == "QB" and p.get("team") and p.get("depth_chart_order") == 2:
+                a = adp.get(pid)
+                q_rank = pos_rank.get(("QB", pid), 999)
+                if q_rank <= 40 and (a is None or a > 130):
+                    out.append({
+                        "player_id": pid, "category": "qb-stash",
+                        "score": 15, "why": "One depth-chart move from superflex starter value",
+                    })
+
+    seen, ranked = set(), []
+    for c in sorted(out, key=lambda c: -c["score"]):
+        if c["player_id"] not in seen:
+            seen.add(c["player_id"])
+            c["adp"] = adp.get(c["player_id"])
+            ranked.append(c)
+    return ranked[:limit]
+
+
+# ----------------------------------------------------------- draft board
+
+
+def draft_board(league: dict, season: str, players: dict, top_n: int = 200):
+    """VORP-based board under the league's exact scoring + roster settings."""
+    scoring = league.get("scoring_settings", {})
+    slots = [p for p in league.get("roster_positions", []) if p != "BN"]
+    n_teams = league.get("total_rosters", 12)
+    projs = api.get_season_projections(season, league_positions(league))
+    superflex = "SUPER_FLEX" in slots or slots.count("QB") >= 2
+
+    rows = []
+    for p in projs:
+        pl = p.get("player") or players.get(p["player_id"]) or {}
+        pos = canonical_pos(pl)
+        if not pos:
+            continue
+        pts = score_stat_line(p.get("stats") or {}, scoring)
+        adp_key = "adp_2qb" if superflex else (
+            "adp_ppr" if scoring.get("rec", 0) >= 1 else
+            "adp_half_ppr" if scoring.get("rec", 0) >= 0.5 else "adp_std")
+        adp = (p.get("stats") or {}).get(adp_key)
+        if pts > 0:
+            rows.append({"player_id": p["player_id"], "pos": pos, "proj": pts, "adp": adp})
+
+    # Replacement level via league-wide greedy starter fill: every team's
+    # slots get the best available player (so superflex slots naturally take
+    # QBs when QBs outscore flexes); replacement = next man up per position.
+    by_pos = defaultdict(list)
+    for r in rows:
+        by_pos[r["pos"]].append(r["proj"])
+    for vals in by_pos.values():
+        vals.sort(reverse=True)
+    taken = defaultdict(int)  # pos -> count consumed by starters
+    fill = sorted(slots * n_teams, key=lambda s: len(SLOT_ELIGIBILITY.get(s, set())))
+    for slot in fill:
+        elig = SLOT_ELIGIBILITY.get(slot, set()) & set(by_pos)
+        best = max(
+            (p for p in elig if taken[p] < len(by_pos[p])),
+            key=lambda p: by_pos[p][taken[p]],
+            default=None,
+        )
+        if best:
+            taken[best] += 1
+    replacement = {
+        pos: vals[min(taken[pos], len(vals) - 1)] for pos, vals in by_pos.items()
+    }
+
+    for r in rows:
+        r["vorp"] = round(r["proj"] - replacement.get(r["pos"], 0.0), 1)
+    rows.sort(key=lambda r: -r["vorp"])
+    pos_rank = defaultdict(int)
+    for i, r in enumerate(rows):
+        r["rank"] = i + 1
+        pos_rank[r["pos"]] += 1
+        r["pos_rank"] = f"{r['pos']}{pos_rank[r['pos']]}"
+        # Value flag: our rank vs market ADP.
+        r["value"] = round((r["adp"] - r["rank"]), 1) if r.get("adp") else None
+    _assign_tiers(rows)
+    return rows[:top_n], replacement
+
+
+def _assign_tiers(rows):
+    """Tier players within each position by natural VORP gaps.
+
+    A tier break = a projection cliff. Draft strategy: what matters is not
+    a player's rank but whether you're about to be caught on the wrong side
+    of a cliff — take the last player of a tier over a higher-ranked player
+    whose tier is deep.
+    """
+    by_pos = defaultdict(list)
+    for r in rows:
+        by_pos[r["pos"]].append(r)  # already sorted by vorp desc
+    for pos, plist in by_pos.items():
+        gaps = [plist[i]["vorp"] - plist[i + 1]["vorp"] for i in range(len(plist) - 1)]
+        top_gaps = sorted(gaps[:30], reverse=True)
+        # Break threshold: a gap notably larger than typical for the position,
+        # floor of 6 season points so flat positions form big honest tiers.
+        med = top_gaps[len(top_gaps) // 2] if top_gaps else 0
+        threshold = max(12.0, med * 3.0)
+        tier = 1
+        for i, r in enumerate(plist):
+            r["tier"] = tier
+            if i < len(gaps) and gaps[i] >= threshold:
+                tier += 1

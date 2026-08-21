@@ -1,0 +1,59 @@
+{
+  "username": "elmijo",
+  "user_id": "214122236888477696",
+  "display_name": "elmijo",
+  "season": "2026",
+  "leagues": [
+    {
+      "league_id": "1395839320077656064",
+      "name": "Gallamijos League",
+      "teams": 18,
+      "status": "pre_draft"
+    },
+    {
+      "league_id": "1388097370255794176",
+      "name": "Gallamijos Dynasty",
+      "teams": 12,
+      "status": "in_season"
+    },
+    {
+      "league_id": "1385473470141313024",
+      "name": "FANTASY MEXICA",
+      "teams": 18,
+      "status": "pre_draft",
+      "scoring_overrides": {
+        "idp_tkl_ast": 0.5
+      }
+    },
+    {
+      "league_id": "1338269686810300416",
+      "name": "Dynasty Mexica",
+      "teams": 12,
+      "status": "in_season"
+    },
+    {
+      "league_id": "1314652488325922816",
+      "name": "League of Record",
+      "teams": 12,
+      "status": "in_season"
+    },
+    {
+      "league_id": "1389739430259990528",
+      "name": "\ud83e\ude93 Guillotine MX",
+      "teams": 18,
+      "status": "pre_draft"
+    },
+    {
+      "league_id": "1389689013551517698",
+      "name": "\ud83e\ude93 Guillotine TRC",
+      "teams": 18,
+      "status": "pre_draft"
+    },
+    {
+      "league_id": "1315407698006646784",
+      "name": "DYNASTY TRC",
+      "teams": 10,
+      "status": "in_season"
+    }
+  ]
+}

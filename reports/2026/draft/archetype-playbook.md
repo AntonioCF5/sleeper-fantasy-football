@@ -1,0 +1,111 @@
+# Draft Archetype Playbook — 2026 Redraft Leagues
+
+*The archetypes are branches of one decision tree, not scripts. Every draft
+starts on a default branch chosen from the league's format + our board +
+draft slot; explicit triggers switch branches mid-draft. The live dashboard's
+urgency engine executes the tactics; this playbook sets the strategy.*
+
+## The archetypes (2026 state of the art)
+
+| Archetype | Definition | Wins when | Fails when |
+|---|---|---|---|
+| **Hero RB** | One elite anchor RB in R1, then WR/TE/upside for 4-6 rounds, RB depth late | Your anchor is a true 20+ PPG bell-cow; WR middle rounds are deep (they are in 2026) | Anchor gets hurt and you skipped the handcuff |
+| **Robust RB** | 2-3 RBs in first 3-4 rounds | Deep leagues where RB replacement is unplayable (our 18-teamers!); TD-driven scoring | League is PPR-flooded and WRs outscore your RB2/3 |
+| **Zero RB** | No RB until ~R6; load elite WR/TE; late RBs = upside/handcuffs | Full PPR, injuries hit RBs drafted early, your late RB darts hit | Deep leagues: RB pool evaporates and waivers can't save you |
+| **Hero WR** | Elite WR anchor R1, balanced after | WR tier 1 clearly out-projects RB tier at your slot; half/full PPR | RB cliff comes early (18 teams) and you're on the wrong side |
+| **Late-round QB** | Wait until R8+; stream matchups | 1QB league with a flat QB7-17 tier (2026 is exactly this); 4-pt pass TD | 6-pt pass TDs, superflex, or 18 teams draining the flat tier early |
+| **Early TE** | Bowers/McBride in R2-3 for a weekly positional edge | Elite-TE gap is real (2026: only 2 elites); TE-premium scoring | You pass a tier-1 RB/WR to do it in a league where TE12 is startable |
+| **QB Hammer** *(our name)* | 2-3 QBs in the first 5 rounds | Superflex/2QB, especially 18 teams where backup-tier QBs start weekly | 1QB anything — never |
+
+2026 consensus notes that match our math: Hero RB is the analyst default this
+year; late-round QB "is back" because QB7–17 project nearly flat (our boards
+show the same flat tier); only two elite TEs exist (Bowers, McBride — our
+boards put Bowers alone in T1); recommended Zero-RB targets (Corum, Bigsby)
+are literally our handcuff/league-winner list. Deep-league adjustments:
+role security > upside in early rounds, RB depth swings 18-teamers, the
+waiver wire cannot fix mistakes after week 1.
+
+---
+
+## League assignments
+
+### Gallamijos League — 18t, full PPR + PPFD, 4-pt pass TD, IDP · slot 2
+**Default branch: HERO RB → WR FLOOD → LATE-ROUND QB**
+- R1 (#2): Gibbs or Bijan — a true single-player-tier anchor. This is the
+  textbook Hero RB league: full PPR + deep WR middle + flat QB tier.
+- R2–R6: WRs (PPFD double-pays possession volume: Collins, St. Brown types),
+  one RB from T3/T4 when a tier is dying, TE only on the trigger below.
+- QB: **wait until R8–10** — 4-pt pass TDs + flat tier = classic late QB.
+  Emergency trigger below protects the floor.
+- IDP R10+, K/DEF last two rounds, final 3 picks = league-winner stashes.
+
+Pivot branches: Early TE (if Bowers reaches our value line ~R2/3 turn);
+Robust RB (if WR run rounds 2-3 leaves RB T3 intact at the turn — take two).
+
+### FANTASY MEXICA — 18t, half PPR, 6-pt pass TD, IDP, keeper · slot 10
+**Default branch: HERO RB + EARLY QB ("Anchor & Air") — NOT late-round QB**
+- 6-pt pass TDs + your only QB being Shough (QB20) + 17 QB-needy teams
+  kills the late-QB branch before it starts. R1 anchor RB, R2 Lamar/top-6 QB.
+- Then the Hero RB shape resumes: WR/RB value R3-7, IDP R8+, stashes late.
+- Full pick-by-pick plan: `fantasy-mexica-draft-plan.md`.
+
+Pivot branches: Hero WR (if 6+ RBs gone at #10, take Nacua/Chase tier);
+QB-first inversion (if a top-3 QB inexplicably reaches #10, take him, RB at 27).
+
+### 🪓 Guillotine MX — 18t, superflex, 6-pt pass TD, full PPR
+**Default branch: QB HAMMER — no other archetype is legal here**
+- 36 QB slots vs ~32 startable QBs: 3 QBs in your first 4-5 picks. Our board
+  has QBs as 15 of the top 17; the market (ADP) underprices the middle tier
+  by 30-50 picks — you can hammer QBs AND get value doing it.
+- After 3 QBs: floor RB/WR volume only (guillotine = survive weekly).
+  No stashes, no rookies-in-waiting, K/DEF don't exist here.
+
+Pivot branch (only one): if the room also hammers QBs early (QB run in R1-2),
+take the best RB/WR floor available and re-enter the QB queue one tier lower —
+never leave round 6 with fewer than 2 QBs.
+
+### 🪓 Guillotine TRC — 18t, full PPR, 1QB, $1000 FAAB
+**Default branch: ROBUST RB (floor variant) + LATE-ISH QB**
+- Guillotine floor logic + 18-team RB scarcity = two secure-role RBs in the
+  first three rounds beats a hero build; volatility is death in this format.
+- QB: flat tier says wait, but 18 teams drain it — target **R7-9**, never
+  past ~QB16. TE: mid-round floor guy; no early TE unless Bowers falls a round.
+- Every pick must produce week 1. Zero stashes. Hoard FAAB for eliminations.
+
+Pivot branches: Hero WR (if slot lands 1.13-1.18 and the RB tier is dead by
+your first pick); Balanced (if PPR WR value floods rounds 2-4).
+
+---
+
+## The switching protocol (live, at every one of your picks)
+
+State = current branch + roster so far + which tiers died since your last pick.
+Check the triggers **in this order** — first one that fires wins:
+
+1. **ELITE FALLER** — a single-player-tier guy (his own tier on our board) is
+   available ≥12 picks past his ADP → take him, then re-branch around him.
+   Value cliffs beat plans; a plan that refuses a falling Bowers/Allen is a
+   bad plan.
+2. **QB EMERGENCY** (1QB leagues running late-QB) — count startable QBs left
+   (our tier 2-3) vs QB-empty teams picking before your next turn. When
+   startable ≤ needy + 2 → take your QB NOW. This is the trigger that keeps
+   late-round QB from becoming no-QB.
+3. **TIER DEATH AT NEED** — the tier you planned to hit at this pick has ≤1
+   player left → take the last one now, or if already gone, switch to the
+   branch that draws from a living tier (Hero RB → Hero WR is the usual flip).
+4. **RUN DETECTED** — 3+ consecutive picks at one position since your last
+   turn → runs in 18-teamers don't stop; jump one round early on the next
+   tier at that position if you need it, or ignore the run entirely if your
+   branch doesn't (never chase a run into a dead tier).
+5. **NONE FIRED** → continue the branch: take the dashboard's top pick that
+   fits it.
+
+Branch switches are announced explicitly in my on-deck briefs during live
+drafts: "Branch: Hero RB, healthy" / "SWITCHING → Hero WR: RB T3 died at
+pick 40." The dashboard's urgency chips (⏳ gone, ⛰ last-in-tier) are the
+trigger inputs — the protocol is why the numbers say what they say.
+
+**Discipline rule:** one switch per trigger, never per hunch. The 2026
+consensus and our own math agree on the failure mode: managers who abandon
+structure mid-draft because of one surprising pick end up with no structure
+at all. Triggers are the only exits.

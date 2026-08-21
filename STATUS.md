@@ -1,0 +1,96 @@
+# Project Status
+
+*Living document — update at the end of any session that changes strategy,
+tooling, or league state. Last updated: **2026-08-21** (preseason week 2,
+draft season).*
+
+## What this project is
+
+Claude acts as the user's (elmijo, user_id 214122236888477696) fantasy
+football expert across 8 Sleeper leagues. Sleeper's API is read-only, so the
+loop is always: **Claude analyzes → user executes in the Sleeper app.**
+`CLAUDE.md` holds the operating playbook; this file holds current state.
+
+## League portfolio (2026)
+
+| League | Format | Status | Strategy |
+|---|---|---|---|
+| FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **pre_draft, slot 10** | Hero RB + early QB (Lamar @27). Keeper: Tyler Shough @R10 (locked, poor value, +6% Kellen Moore thesis applied). Full plan: `reports/2026/draft/fantasy-mexica-draft-plan.md` |
+| Gallamijos League | 18t, full PPR + PPFD, IDP | pre_draft, slot 2 | Hero RB → WR flood → late-round QB |
+| 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
+| 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
+| Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Trade chip: Burrow (benched behind Maye) → RB2 upgrade |
+| DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: trade QB surplus (Burrow/Goff benched) for WR2/TE |
+| League of Record | 12t, TE-prem, 6pt paTD | in_season, #8 of 12 | Stroud is the trade chip; Bowers untouchable; RB is the hole |
+| Gallamijos Dynasty | 12t, full PPR | in_season, #10 of 12 | Rebuild: sell Mahomes/Montgomery for youth + 2027 firsts |
+
+## Key decisions & standing rules (chronological)
+
+1. **FANTASY MEXICA scoring override**: league shows `idp_tkl_ast: 5.0` on
+   Sleeper — commissioner typo, real value 0.5. Corrected via
+   `scoring_overrides` in `config.json`; all analysis uses
+   `reports.get_league_corrected()`. If Sleeper gets fixed, remove override.
+2. **Shough keeper locked** (user confirmed unchangeable) — R10 pick #171.
+3. **Ranking rules R1-R15 agreed with user** (see conversation-derived rules
+   in CLAUDE.md): projections re-scored per league, VORP via league-wide
+   greedy fill, intel caps (±5% environment, -2% cold-Dec, ±15% research
+   with written reason), ECR tripwire at 15+ spots, tiers at 12+pt cliffs.
+4. **NO ad-hoc individual player adjustments** — user explicitly banned
+   nudging single players to match consensus (e.g. McBride was left T2
+   despite expert buzz). Only systematic rules, or explicit user request.
+   The coaching-scheme adjustments (Shough, McConkey, Herbert, Flowers,
+   Andrews, Ward, Egbuka, Godwin, D.Smith — all in
+   `data/intel/player_adjust.json` with written reasons) predate/comply.
+5. **Risk index is systematic** (age curves + durability + injury +
+   volatility), shaves ≤12% of positive VORP before ranking. Never hand-tune.
+6. **Elite = capped top-3 by VORP within tier 1 per position**, excludes K.
+7. **Travis Hunter positional fix**: `analysis.canonical_pos()` prefers
+   offensive tags for two-way players — never take `fantasy_positions[0]` raw.
+
+## Tooling state (all working, audited across all 8 leagues)
+
+- **Command center** (`scripts/draft_dashboard.py`, port 8787): Draft Room
+  (3-column desktop app-shell, mobile segmented tabs), Rankings
+  (search/sort/filter, ownership, tier-break lines, risk column), My Team
+  (category filter cards). League switcher, glossary, custom tooltips,
+  on-clock beep + auto-jump, collapsible sections. Launch config:
+  `.claude/launch.json`.
+- **Live draft engine** (`scripts/live_draft.py`): recs w/ urgency +
+  tier-scarcity + balance nudge, round plan (upside/sleeper/safe lanes),
+  sleeper queue w/ closing windows, league-winner stashes, risk-adjusted
+  boards. CLI + JSON (`compute_advice`).
+- **Intel layer** (`sleeper/intel.py` + `data/intel/*.json`): 32-team Vegas
+  win totals, offense tiers, venue/cold-Dec flags, full 2026 coaching map
+  (21 new OCs), 9 documented player adjustments.
+- **Reports** (`reports/2026/draft/`): VORP boards per league,
+  MEXICA draft plan + keeper analysis, archetype playbook.
+
+## Pending / next actions
+
+- [ ] **Draft dates**: all 4 redraft drafts unscheduled. When one is set →
+  run the draft-morning checklist (CLAUDE.md pre-draft checklist: fresh ADP,
+  injury sweep, ECR cross-check, Vegas moves, re-simulation) + dry-run the
+  dashboard with the user ~10 min before.
+- [ ] **Guillotine MX & TRC**: commissioner hasn't randomized draft order —
+  recs/round-plan appear automatically once slot is known.
+- [ ] **Coaching gaps**: ATL (Tommy Rees) and SEA (Fleury) have notes but no
+  player adjustments — revisit on draft morning with usage reports.
+- [ ] **FANTASY MEXICA**: remind commissioner to fix assist scoring to 0.5
+  before week 1. If league will play at 5.0, IDP strategy inverts (ask user).
+- [ ] **Dynasty trades**: construct concrete Burrow offers (Dynasty Mexica,
+  DYNASTY TRC) and Stroud offer (League of Record) when user says go.
+- [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
+  Mon/Tue, lineup calls, trending adds. Candidate feature: lineup/start-sit
+  view in the dashboard (user deferred until closer to week 1).
+- [ ] Commit generated reports after each draft so history shows how calls aged.
+
+## Known quirks / gotchas
+
+- Sleeper 404s on empty draft-picks lists — handled in `api._fetch` (returns
+  None). All callers use `or []`.
+- Dashboard port 8787; kill stale processes if `preview_start` reports the
+  port busy. LAN IP for phone access changes between sessions.
+- DYNASTY TRC: user is co-owner (roster owner charlyae17) — `slot` is None
+  in draft data; roster resolution handles co_owners.
+- `data/cache/` is gitignored API cache (delete to force refresh);
+  `data/intel/` is curated and committed.
