@@ -218,6 +218,17 @@ target share, 15%+ air yards); rookie-WR snap base rates (day-2/3 rookie
 WRs are waiver plays, not draft picks); sanctioned gut overrides must name
 the rule being broken.
 
+**Round translation (12-team convention):** when either source says
+"round N" they mean a 12-team league. Never carry their round numbers into
+our analysis raw — convert to overall picks ((N-1)*12+1 … N*12), then
+re-express per league (four of our leagues are 18-team: a 12t "round 3" =
+picks 25-36 = mid round 2; a 12t "round 7" = round 4-5; their R13-15
+fliers often don't exist by that point in an 18-team draft, and "last
+starting RB on the board" arrives ~3 rounds earlier in overall picks).
+Anchor redraft advice to the user's actual snake picks (MEXICA slot 10 of
+18: picks 10, 27, 46, 63, 82, 99, 118, 135…). ADP value gaps are already
+overall-pick-based and need no conversion.
+
 **How takes influence decisions (discipline rules):**
 - Takes are VISIBILITY by default: a 📺 flag + tooltip on boards. They never
   move projections by themselves.
