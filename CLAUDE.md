@@ -172,6 +172,39 @@ When the user asks for "this week's report/analysis" or similar:
   waivers. EXCEPTION — guillotine leagues invert this rule: no stashes,
   every roster spot must produce now, because you must survive each week.
 
+## Expert layer (weekly — The Fantasy Footballers + Sal Vetri)
+
+Two expert sources the user follows are integrated via
+`scripts/expert_watch.py` (YouTube RSS + InnerTube transcripts, curl-based —
+urllib gets 404'd, and the feed endpoint is edge-flaky so the script
+retries up to 25x; FF's feed is flakier than Sal's).
+
+**Weekly workflow** (part of the weekly cadence, and the draft-morning
+checklist during draft season):
+1. `python3 scripts/expert_watch.py --check` → unprocessed videos.
+2. `--fetch-new` → transcripts into `data/cache/transcripts/` (gitignored).
+3. **Delegate distillation to a subagent** (transcripts run 10k+ words each;
+   never read them all in the main context). The agent extracts structured
+   takes: player, direction (target/fade/sleeper/league-winner/bust-risk),
+   conviction, one-sentence mechanism, source videos.
+4. Merge into `data/intel/expert_takes.json` (committed). Prune takes older
+   than ~3 weeks — staleness is misinformation in-season.
+5. `--mark <video_ids>` to record processing; commit.
+
+**How takes influence decisions (discipline rules):**
+- Takes are VISIBILITY by default: a 📺 flag + tooltip on boards. They never
+  move projections by themselves.
+- A take may justify a `player_adjust.json` entry ONLY when it carries new
+  real-world information (role change, camp usage, injury detail) —
+  the coaching-layer standard — never "expert likes him" alone. Written
+  reason required, and the no-ad-hoc-adjustments rule still applies.
+- **Both sources agreeing + our board disagreeing sharply** = the same
+  review tripwire as ECR (R9): investigate, then either document why our
+  board stands or adjust with a reason.
+- Expert league-winner/sleeper calls cross-checked against our queue: names
+  we also flag = raised conviction; names we don't = check what mechanism
+  they see that our data misses.
+
 ## Intel layer (non-Sleeper signals)
 
 `sleeper/intel.py` folds outside context into every board via two curated

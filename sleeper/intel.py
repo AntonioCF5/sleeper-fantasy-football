@@ -52,6 +52,30 @@ def player_adjust():
     return _load("player_adjust.json")
 
 
+def expert_takes(players):
+    """data/intel/expert_takes.json (distilled weekly from The Fantasy
+    Footballers + Sal Vetri via scripts/expert_watch.py) resolved to
+    player_ids. Returns pid -> list of take dicts. Name resolution prefers
+    an exact first+last match on the right team; falls back to name-only
+    when unambiguous."""
+    data = _load("expert_takes.json")
+    takes = data.get("takes", []) if isinstance(data, dict) else []
+    by_name = {}
+    for pid, p in players.items():
+        if not p.get("team"):
+            continue
+        key = f"{p.get('first_name','')} {p.get('last_name','')}".strip().lower()
+        by_name.setdefault(key, []).append((pid, p))
+    out = {}
+    for t in takes:
+        cands = by_name.get((t.get("player") or "").strip().lower(), [])
+        if len(cands) > 1 and t.get("team"):
+            cands = [c for c in cands if c[1].get("team") == t["team"]]
+        if len(cands) == 1:
+            out.setdefault(cands[0][0], []).append(t)
+    return out
+
+
 def apply_intel(board_rows, players):
     """Adjust a draft_board's proj/vorp in place; returns list of note strings.
 
@@ -61,6 +85,7 @@ def apply_intel(board_rows, players):
     """
     env = team_env()
     adj = player_adjust()
+    takes = expert_takes(players)
     notes = []
     for r in board_rows:
         pl = players.get(r["player_id"]) or {}
@@ -82,6 +107,15 @@ def apply_intel(board_rows, players):
                 flags.append(a["flag"])
             if a.get("note"):
                 notes.append(f"{pl.get('first_name','')} {pl.get('last_name','')}: {a['note']}")
+        pt = takes.get(r["player_id"])
+        if pt:
+            # visibility only — expert takes never move projections by
+            # themselves (any adjustment goes through player_adjust.json
+            # with a documented reason, per the standing rules)
+            flags.append("📺")
+            r["expert"] = "; ".join(
+                f"[{t.get('source','?')}] {t.get('direction','?')}: {t.get('why','')}"
+                for t in pt[:3])
         if mult != 1.0:
             delta = r["proj"] * (mult - 1)
             r["proj"] = round(r["proj"] + delta, 1)

@@ -119,7 +119,7 @@ def build_board_payload(league_id, ctx):
             "adp": r.get("adp"), "value": r.get("value"), "flags": r.get("flags", ""),
             "injury": p.get("injury_status") or "",
             "style": style.get(r["player_id"]), "elite": r["player_id"] in elite_ids,
-            "risk": risk.get(r["player_id"]),
+            "risk": risk.get(r["player_id"]), "expert": r.get("expert"),
             "status": info["status"] if info else "available",
             "owner": info["owner"] if info else None,
             "pick_no": info["pick_no"] if info else None,
@@ -578,7 +578,8 @@ const GLOSSARY=[
  {t:"❄️ Cold December",i:"❄️",d:"Team's home stadium is cold-weather outdoor, and this player is a QB/WR/TE/K — the fantasy playoffs (weeks 15-17) are more likely to be a weather-affected passing game. Carries a small negative projection nudge. Not applied to RBs, since weather mainly disrupts the passing game."},
 ];
 const FLAG_MEANING={"🏟":"Dome team — stable conditions, no weather risk.",
-  "❄️":"Cold-weather outdoor stadium — passing game risk in the wk 15-17 fantasy playoffs."};
+  "❄️":"Cold-weather outdoor stadium — passing game risk in the wk 15-17 fantasy playoffs.",
+  "📺":"Fresh expert take (The Fantasy Footballers / Sal Vetri) — hover shows the distilled thesis."};
 function flagsTitle(flags){
   return Object.keys(FLAG_MEANING).filter(k=>flags.includes(k)).map(k=>FLAG_MEANING[k]).join(" ");
 }
@@ -971,7 +972,7 @@ function renderRankings(){
     return `<tr class="${rowClass}">
       <td class="num">${r.rank}</td>
       <td><div class="rk-name">${esc(r.name)}<span class="badge">${esc(r.team)}</span>${styleTag(r)}
-        ${r.injury?`<span class="inj">${esc(r.injury)}</span>`:""}${(r.flags&&flagsTitle(r.flags))?` <span class="term" data-tip="${esc(flagsTitle(r.flags))}">${r.flags}</span>`:(r.flags?` <span>${r.flags}</span>`:"")}</div></td>
+        ${r.injury?`<span class="inj">${esc(r.injury)}</span>`:""}${(r.flags&&(flagsTitle(r.flags)||r.expert))?` <span class="term" data-tip="${esc([flagsTitle(r.flags),r.expert].filter(Boolean).join(" — "))}">${r.flags}</span>`:(r.flags?` <span>${r.flags}</span>`:"")}</div></td>
       <td>${esc(r.pos_rank)}</td>
       <td><span class="tierpill${isBreak?' brk':''}">T${r.tier}</span></td>
       <td class="num">${r.proj.toFixed(0)}</td>

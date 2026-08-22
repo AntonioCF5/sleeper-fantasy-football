@@ -82,6 +82,10 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
   Mon/Tue, lineup calls, trending adds. Candidate feature: lineup/start-sit
   view in the dashboard (user deferred until closer to week 1).
+- [ ] **Expert layer weekly run** (CLAUDE.md "Expert layer"): expert_watch
+  --check/--fetch-new → subagent distillation → expert_takes.json → --mark.
+  User asked for this to be automated weekly — offer a scheduled task; not
+  yet set up (needs user OK for a standing schedule).
 - [ ] Commit generated reports after each draft so history shows how calls aged.
 
 ## Known quirks / gotchas
