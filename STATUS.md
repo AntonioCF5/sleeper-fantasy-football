@@ -87,12 +87,12 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   User asked for this to be automated weekly — offer a scheduled task; not
   yet set up (needs user OK for a standing schedule).
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Computable features from expert methods** (`data/intel/expert_methods.md`):
-  (a) target share + targets/route from 2025 season stats as board columns
-  (the experts' "stickiest" WR stats — we currently only use TD-share for
-  style); (b) per-team vacated-targets/carries accounting from 2025 stats +
-  roster moves; (c) draft-slot value via two-pick turn combos in the slot
-  rankings. All three are buildable from data we already fetch.
+- [x] **Computable features from expert methods** — built (Aug 22):
+  (a) '25 usage shares (target/carry/snap) on every board + sortable
+  Rankings column (`sleeper/usage.py`); (b) vacated-opportunity accounting
+  (`scripts/vacated_report.py` → report + team_env fields; validated vs
+  Sal's on-air numbers — GB 37.4% vs his "37%"); (c) draft-slot value
+  tables (`analysis.slot_values`) in every pre-draft board report.
 
 ## Known quirks / gotchas
 

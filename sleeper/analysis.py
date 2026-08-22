@@ -264,6 +264,49 @@ def trade_suggestions(league_id: str, my_roster_id: int, players, season_proj, r
     return ideas
 
 
+# ------------------------------------------------------- slot values
+
+
+def slot_values(league, board, k_rounds: int = 6):
+    """Expected value of each draft slot: simulate the first k_rounds with
+    opponents drafting by ADP while the evaluated slot takes best VORP at
+    each of its turns. Captures the experts' point that a slot's worth is
+    its two-pick turn combos, not its first pick.
+
+    Returns [{slot, total_vorp, picks: [(pick_no, name-ish row), ...]}, ...]
+    sorted best-first.
+    """
+    n = league.get("total_rosters", 12)
+    adp_pool = sorted((r for r in board if r.get("adp")), key=lambda r: r["adp"])
+    results = []
+    for slot in range(1, n + 1):
+        my_picks = set()
+        for rd in range(1, k_rounds + 1):
+            my_picks.add((rd - 1) * n + slot if rd % 2 else rd * n - slot + 1)
+        taken = set()
+        idx = 0
+        picks = []
+        for pick_no in range(1, k_rounds * n + 1):
+            if pick_no in my_picks:
+                best = next((r for r in board if r["player_id"] not in taken), None)
+                if best:
+                    taken.add(best["player_id"])
+                    picks.append((pick_no, best))
+            else:
+                while idx < len(adp_pool) and adp_pool[idx]["player_id"] in taken:
+                    idx += 1
+                if idx < len(adp_pool):
+                    taken.add(adp_pool[idx]["player_id"])
+                    idx += 1
+        results.append({
+            "slot": slot,
+            "total_vorp": round(sum(r["vorp"] for _, r in picks), 1),
+            "picks": picks,
+        })
+    results.sort(key=lambda s: -s["total_vorp"])
+    return results
+
+
 # ------------------------------------------------------------- risk
 
 # Positional age curves: (age risk starts, points per year past it, cap).

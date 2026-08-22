@@ -7,7 +7,9 @@
   "oc": "Nathaniel Hackett",
   "new_oc": true,
   "coach_note": "Hackett OC \u2014 career play-calling results poor; mild fade signal",
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 21.4,
+  "vac_rush_pct": 47.1
  },
  "ATL": {
   "win_total": 6.5,
@@ -16,7 +18,9 @@
   "cold_dec": false,
   "oc": "Tommy Rees",
   "new_oc": true,
-  "coach_note": "Tommy Rees new OC \u2014 Bijan/London usage worth draft-morning check"
+  "coach_note": "Tommy Rees new OC \u2014 Bijan/London usage worth draft-morning check",
+  "vac_tgt_pct": 30.0,
+  "vac_rush_pct": 33.5
  },
  "BAL": {
   "win_total": 11.5,
@@ -26,7 +30,9 @@
   "hc": "Jesse Minter",
   "coach_note": "Doyle (1st-time caller) under new HC Minter: Flowers & Lamar risers, Andrews inherits Likely role; install risk on tier-1 offense",
   "oc": "Declan Doyle",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 27.7,
+  "vac_rush_pct": 12.6
  },
  "BUF": {
   "win_total": 10.5,
@@ -35,7 +41,9 @@
   "cold_dec": true,
   "oc": "Pete Carmichael Jr.",
   "new_oc": true,
-  "coach_note": "Carmichael Jr. veteran hand for Allen \u2014 continuity-plus"
+  "coach_note": "Carmichael Jr. veteran hand for Allen \u2014 continuity-plus",
+  "vac_tgt_pct": 13.3,
+  "vac_rush_pct": 2.0
  },
  "CAR": {
   "win_total": 7.5,
@@ -43,7 +51,9 @@
   "venue": "outdoor",
   "cold_dec": false,
   "oc": "Brad Idzik",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 16.7,
+  "vac_rush_pct": 52.4
  },
  "CHI": {
   "win_total": 9.5,
@@ -54,7 +64,9 @@
   "hc": "Ben Johnson",
   "coach_note": "Elite play volume, motion-heavy scheme \u2014 target Bears skill players",
   "oc": "Press Taylor",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 30.3,
+  "vac_rush_pct": 4.0
  },
  "CIN": {
   "win_total": 10.5,
@@ -63,7 +75,9 @@
   "cold_dec": true,
   "note": "elite offense + bad defense = shootouts; Chase/Higgins/Brown concentration",
   "oc": "Dan Pitcher",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 6.8,
+  "vac_rush_pct": 2.3
  },
  "CLE": {
   "win_total": 5.5,
@@ -75,7 +89,9 @@
   "coach_note": "Complete overhaul; Monken's passing scheme on the league's worst environment",
   "oc": "Travis Switzer",
   "new_oc": true,
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 17.9,
+  "vac_rush_pct": 8.1
  },
  "DAL": {
   "win_total": 9.5,
@@ -84,7 +100,9 @@
   "cold_dec": false,
   "note": "15 of 17 games with 48+ O/U \u2014 league's best shootout environment",
   "oc": "Klayton Adams",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 6.9,
+  "vac_rush_pct": 4.3
  },
  "DEN": {
   "win_total": 9.5,
@@ -95,7 +113,9 @@
   "oc": "Davis Webb",
   "new_oc": true,
   "coach_note": "Davis Webb promoted \u2014 young passing-game mind, zero track record",
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 2.8,
+  "vac_rush_pct": 1.3
  },
  "DET": {
   "win_total": 10.5,
@@ -104,7 +124,9 @@
   "cold_dec": false,
   "oc": "Drew Petzing",
   "new_oc": true,
-  "coach_note": "Petzing new OC \u2014 scheme change off elite baseline"
+  "coach_note": "Petzing new OC \u2014 scheme change off elite baseline",
+  "vac_tgt_pct": 13.8,
+  "vac_rush_pct": 37.2
  },
  "GB": {
   "win_total": 9.5,
@@ -113,7 +135,9 @@
   "cold_dec": true,
   "note": "positive scripts, good for Jacobs",
   "oc": "Adam Stenavich",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 37.4,
+  "vac_rush_pct": 31.1
  },
  "HOU": {
   "win_total": 9.5,
@@ -121,7 +145,9 @@
   "venue": "dome",
   "cold_dec": false,
   "oc": "Nick Caley",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 18.0,
+  "vac_rush_pct": 28.6
  },
  "IND": {
   "win_total": 7.5,
@@ -130,7 +156,9 @@
   "cold_dec": false,
   "oc": "Jim Bob Cooter",
   "new_oc": false,
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 25.5,
+  "vac_rush_pct": 5.7
  },
  "JAX": {
   "win_total": 8.5,
@@ -138,7 +166,9 @@
   "venue": "outdoor",
   "cold_dec": false,
   "oc": "Grant Udinski",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 22.1,
+  "vac_rush_pct": 54.8
  },
  "KC": {
   "win_total": 10.5,
@@ -147,7 +177,9 @@
   "cold_dec": true,
   "oc": "Eric Bieniemy",
   "new_oc": true,
-  "coach_note": "Bieniemy returns as OC \u2014 Reid offense continuity"
+  "coach_note": "Bieniemy returns as OC \u2014 Reid offense continuity",
+  "vac_tgt_pct": 31.7,
+  "vac_rush_pct": 70.2
  },
  "LV": {
   "win_total": 5.5,
@@ -158,7 +190,9 @@
   "coach_note": "Complete overhaul; Kubiak wide-zone run scheme",
   "oc": "Andrew Janocko",
   "new_oc": true,
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 16.3,
+  "vac_rush_pct": 21.7
  },
  "LAC": {
   "win_total": 9.5,
@@ -168,7 +202,9 @@
   "note": "McDaniel OC hire = big scheme upgrade",
   "oc": "Mike McDaniel",
   "coach_note": "McDaniel: motion/YAC scheme \u2014 McConkey & Herbert risers, Hampton fits; risk = pass protection",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 29.5,
+  "vac_rush_pct": 7.2
  },
  "LAR": {
   "win_total": 11.5,
@@ -178,7 +214,9 @@
   "note": "highest implied PPG (26.5)",
   "oc": "Nathan Scheelhaase",
   "new_oc": true,
-  "coach_note": "Scheelhaase new OC under McVay \u2014 McVay still the brain"
+  "coach_note": "Scheelhaase new OC under McVay \u2014 McVay still the brain",
+  "vac_tgt_pct": 2.6,
+  "vac_rush_pct": 1.9
  },
  "MIA": {
   "win_total": 4.5,
@@ -189,7 +227,9 @@
   "coach_note": "Complete overhaul; defensive HC on bottom-5 environment",
   "oc": "Bobby Slowik",
   "new_oc": true,
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 51.5,
+  "vac_rush_pct": 6.5
  },
  "MIN": {
   "win_total": 8.5,
@@ -197,7 +237,9 @@
   "venue": "dome",
   "cold_dec": false,
   "oc": "Wes Phillips",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 14.5,
+  "vac_rush_pct": 5.4
  },
  "NE": {
   "win_total": 10.5,
@@ -205,7 +247,9 @@
   "venue": "outdoor",
   "cold_dec": true,
   "oc": "Josh McDaniels",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 27.5,
+  "vac_rush_pct": 15.1
  },
  "NO": {
   "win_total": 7.5,
@@ -215,7 +259,9 @@
   "hc": "Kellen Moore",
   "coach_note": "Moore's pass-friendly scheme + rebuilt weapons (Etienne, Fant, Tyson, Lance join Kamara/Olave); named top-5 most-improved offense; Shough committed starter after 5-4, 67.6% finish",
   "oc": "Doug Nussmeier",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 10.9,
+  "vac_rush_pct": 16.8
  },
  "NYG": {
   "win_total": 7.5,
@@ -225,7 +271,9 @@
   "hc": "John Harbaugh",
   "coach_note": "Harbaugh HC + Nagy OC: Nabers top-5 upside if healthy, Dart rushing floor, Skattebo goal-line; Nagy play-calling history mediocre",
   "oc": "Matt Nagy",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 35.4,
+  "vac_rush_pct": 4.1
  },
  "NYJ": {
   "win_total": 5.5,
@@ -235,7 +283,9 @@
   "oc": "Frank Reich",
   "new_oc": true,
   "coach_note": "Frank Reich veteran OC \u2014 stabilizer on bad environment",
-  "slow_start": true
+  "slow_start": true,
+  "vac_tgt_pct": 24.4,
+  "vac_rush_pct": 25.7
  },
  "PHI": {
   "win_total": 10.5,
@@ -244,7 +294,9 @@
   "cold_dec": true,
   "oc": "Sean Mannion",
   "new_oc": true,
-  "coach_note": "Mannion 1st-time caller: Saquon receiving role up, DeVonta uncontested targets; unpredictability risk"
+  "coach_note": "Mannion 1st-time caller: Saquon receiving role up, DeVonta uncontested targets; unpredictability risk",
+  "vac_tgt_pct": 36.9,
+  "vac_rush_pct": 2.5
  },
  "PIT": {
   "win_total": 8.5,
@@ -254,7 +306,9 @@
   "hc": "Mike McCarthy",
   "coach_note": "Complete overhaul",
   "oc": "Brian Angelichio",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 50.5,
+  "vac_rush_pct": 33.9
  },
  "SF": {
   "win_total": 9.5,
@@ -262,7 +316,9 @@
   "venue": "outdoor",
   "cold_dec": false,
   "oc": "Klay Kubiak",
-  "new_oc": false
+  "new_oc": false,
+  "vac_tgt_pct": 29.9,
+  "vac_rush_pct": 19.5
  },
  "SEA": {
   "win_total": 10.5,
@@ -271,7 +327,9 @@
   "cold_dec": false,
   "oc": "Brian Fleury",
   "new_oc": true,
-  "coach_note": "Fleury new OC \u2014 JSN target share worth monitoring"
+  "coach_note": "Fleury new OC \u2014 JSN target share worth monitoring",
+  "vac_tgt_pct": 7.7,
+  "vac_rush_pct": 44.6
  },
  "TB": {
   "win_total": 8.5,
@@ -280,7 +338,9 @@
   "cold_dec": false,
   "oc": "Zac Robinson",
   "new_oc": true,
-  "coach_note": "Zac Robinson (McVay tree): Egbuka lead role, Godwin absorbs departed Evans targets; backfield unclear (Irving shoulder)"
+  "coach_note": "Zac Robinson (McVay tree): Egbuka lead role, Godwin absorbs departed Evans targets; backfield unclear (Irving shoulder)",
+  "vac_tgt_pct": 29.7,
+  "vac_rush_pct": 30.1
  },
  "TEN": {
   "win_total": 6.5,
@@ -290,7 +350,9 @@
   "hc": "Robert Saleh",
   "oc": "Brian Daboll",
   "coach_note": "Daboll proven QB developer \u2014 Cam Ward year-2 leap thesis; Ridley/Wan'Dale stability",
-  "new_oc": true
+  "new_oc": true,
+  "vac_tgt_pct": 28.1,
+  "vac_rush_pct": 0.0
  },
  "WAS": {
   "win_total": 7.5,
@@ -300,6 +362,8 @@
   "note": "8 games with 48+ totals",
   "oc": "David Blough",
   "new_oc": true,
-  "coach_note": "Blough 1st-time caller \u2014 Daniels system continuity but unproven"
+  "coach_note": "Blough 1st-time caller \u2014 Daniels system continuity but unproven",
+  "vac_tgt_pct": 52.3,
+  "vac_rush_pct": 32.2
  }
 }

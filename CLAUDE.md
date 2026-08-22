@@ -237,7 +237,12 @@ files in `data/intel/` (committed, unlike the API cache):
   suspension news. Keep mult in 0.85–1.15; it's a thumb on the scale.
 
 **Pre-draft checklist (run the morning of every draft):**
-1. Refresh ADP + projections (clear `data/cache/`), re-run the board.
+1. Refresh ADP + projections (clear `data/cache/`), re-run the board, and
+   run `python3 scripts/vacated_report.py` (updates per-team vacated
+   targets/carries in team_env.json + the report — cross-reference high
+   vacated % with camp usage to find who absorbs it). Boards carry '25
+   usage shares (target/carry/snap) per player; draft-slot value tables
+   are in each pre-draft league's board report.
 2. Web-research: injury/camp report for every player in the first ~8 tiers;
    beat-writer depth charts for ambiguous backfields; any Vegas win-total
    moves > 1 game since `team_env.json` was last touched.

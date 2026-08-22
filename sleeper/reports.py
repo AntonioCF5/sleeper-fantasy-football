@@ -149,8 +149,25 @@ def draft_report(league_id: str, season: str, top_n: int = 120) -> str:
          "adjusted by the intel layer (team environment, venue, research)*", "",
          "**Format:** " + "; ".join(league_format_notes(league)), "",
          "**Replacement level (season pts):** "
-         + ", ".join(f"{p} {v:.0f}" for p, v in sorted(replacement.items())), "",
-         "| Rank | Player | Pos | Tier | Proj | VORP | ADP | Value | Flags |",
+         + ", ".join(f"{p} {v:.0f}" for p, v in sorted(replacement.items())), ""]
+
+    if league.get("status") == "pre_draft":
+        deep_board, _ = analysis.draft_board(league, season, players, top_n=300)
+        intel.apply_intel(deep_board, players)
+        slots = analysis.slot_values(league, deep_board)
+        L += ["## Draft-slot values (first 6 rounds, opponents draft by ADP)", "",
+              "*A slot's worth is its turn combos, not its first pick. VORP sums "
+              "assume you take best-on-board at each of your turns.*", "",
+              "| Rank | Slot | 6-round VORP | First three picks |",
+              "|------|------|--------------|-------------------|"]
+        for i, s in enumerate(slots, 1):
+            first3 = " → ".join(
+                analysis.player_label(players, r["player_id"]).split(" (")[0]
+                for _, r in s["picks"][:3])
+            L.append(f"| {i} | {s['slot']} | {s['total_vorp']} | {first3} |")
+        L.append("")
+
+    L += ["| Rank | Player | Pos | Tier | Proj | VORP | ADP | Value | Flags |",
          "|------|--------|-----|------|------|------|-----|-------|-------|"]
     prev_tier = {}
     for r in board:

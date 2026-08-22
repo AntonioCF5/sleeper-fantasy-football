@@ -120,6 +120,8 @@ def build_board_payload(league_id, ctx):
             "injury": p.get("injury_status") or "",
             "style": style.get(r["player_id"]), "elite": r["player_id"] in elite_ids,
             "risk": risk.get(r["player_id"]), "expert": r.get("expert"),
+            "tgt_share": r.get("tgt_share"), "rush_share": r.get("rush_share"),
+            "snap_share": r.get("snap_share"),
             "status": info["status"] if info else "available",
             "owner": info["owner"] if info else None,
             "pick_no": info["pick_no"] if info else None,
@@ -505,7 +507,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
         <th data-k="rank">Rank</th><th data-k="name">Player</th><th data-k="pos_rank">Pos</th>
         <th data-k="tier">Tier</th><th data-k="proj">Proj</th><th data-k="vorp">VORP</th>
         <th data-k="adp">ADP</th><th data-k="value">Value</th><th data-k="riskScore">Risk</th>
-        <th data-k="status">Status</th>
+        <th data-k="usageScore">'25 Usage</th><th data-k="status">Status</th>
       </tr></thead>
       <tbody id="rkBody"></tbody>
     </table></div>
@@ -552,6 +554,8 @@ const GLOSSARY=[
  {t:"VORP",i:"📊",d:"Value Over Replacement Player — projected points above the best player left at that position if everyone drafted starters first. This is our core rank; higher VORP = bigger edge over your bench/waiver alternative."},
  {t:"ADP",i:"🎯",d:"Average Draft Position on this platform, in this league's format (PPR/superflex/etc). It predicts where the ROOM will take a player — not his true value. Compare it to our rank: if ADP is much later than our rank, he's safe to wait on; if much earlier, the market will take him before you'd naturally pick him."},
  {t:"Tier",i:"⛰",d:"Players grouped by natural value cliffs (gaps in VORP), not straight rank. The rule: take from a tier that's about to run out; never reach inside a deep, flat tier where the 8th option is nearly as good as the 1st."},
+ {t:"'25 Usage",i:"📈",d:"Last season's real usage shares — the stats the experts call 'stickiest' year-over-year. WR/TE show target share (T%): 25%+ strong, 30%+ elite. RBs show carry share (R%). Hover for the full trio including offensive snap share. 'rookie' = no 2025 NFL stats. Visibility only — projections already price expected roles."},
+ {t:"Vacated opportunity",i:"🕳️",d:"Targets/carries from last season belonging to players no longer on that roster — someone must absorb them. Per-team numbers live in reports/<season>/draft/vacated-opportunity.md and team_env.json (refresh with scripts/vacated_report.py). The cross-reference that turns camp reports into draft picks."},
  {t:"Risk index",i:"⚠️",d:"A systematic 0-100 downside-risk score per player: positional age curve (RBs decline from ~26-27, WRs from ~29, TEs from ~30, QBs from ~34, K/DEF ageless), last-season durability (games active), current injury status, rookie uncertainty, and TD-dependence volatility. 🟢 under 20, 🟡 20-44, 🔴 45+. High risk shaves up to 12% off a player's VORP before ranking, so the board is risk-adjusted — two players with equal projections rank differently if one is a 29-year-old RB coming off injury. Same formula for everyone; no per-player judgment."},
  {t:"Elite",i:"👑",d:"Tier 1 at his position — a real value cliff separates him from the field, computed once from the full board (not the shrinking available pool), so he stays tagged 'elite' all draft long even after other tier-1 peers get drafted, and even once he's on your roster. Usually only 1-3 players per position qualify. Can combine with floor or ceiling — an elite player who's also high-floor is a true lock; an elite ceiling player is a true alpha. A genuine elite faller (way past his ADP) overrides any archetype plan — take him."},
  {t:"Gone by your next pick",i:"⏳",d:"His ADP falls inside the gap between now and your next turn — the room is very likely to take him before you pick again. Treat these as now-or-never."},
@@ -917,15 +921,19 @@ window.addEventListener("focus",()=>tick());
 // ---------- rankings ----------
 async function loadRankings(force){
   $("rkEmpty").style.display="none";
-  $("rkBody").innerHTML=`<tr><td colspan="10" class="empty">Loading…</td></tr>`;
+  $("rkBody").innerHTML=`<tr><td colspan="11" class="empty">Loading…</td></tr>`;
   try{
     const r=await fetch(`/api/board?league_id=${encodeURIComponent(currentLeague)}${force?"&force=1":""}`);
     rankingsData=await r.json();
-    rankingsData.forEach(r=>{r.riskScore=r.risk?r.risk.score:null;});
+    rankingsData.forEach(r=>{
+      r.riskScore=r.risk?r.risk.score:null;
+      // usage sort key: the position's primary share (WR/TE targets, RB rushes)
+      r.usageScore = ((r.pos==="RB"||r.pos==="QB") ? r.rush_share : r.tgt_share) ?? null;
+    });
     rankingsLoaded=true;
     buildPosFilter();
     renderRankings();
-  }catch(e){ $("rkBody").innerHTML=`<tr><td colspan="10" class="empty">Failed to load rankings.</td></tr>`; }
+  }catch(e){ $("rkBody").innerHTML=`<tr><td colspan="11" class="empty">Failed to load rankings.</td></tr>`; }
 }
 let posFilter="ALL";
 function buildPosFilter(){
@@ -980,6 +988,19 @@ function renderRankings(){
       <td class="num">${r.adp?r.adp.toFixed(0):"—"}</td>
       <td class="num">${val}</td>
       <td class="num">${r.risk?`<span class="term" data-tip="${esc((r.risk.factors||[]).join(". ")||"No specific risk factors")}">${RISK_ICON[r.risk.band]||""} ${r.risk.score}</span>`:"—"}</td>
+      <td class="num">${(()=>{
+        if(!["QB","RB","WR","TE"].includes(r.pos)) return "—";
+        if(r.usageScore==null) return `<span class="meta">rookie</span>`;
+        const parts=[];
+        if(r.tgt_share!=null) parts.push(`${r.tgt_share}% of team targets`);
+        if(r.rush_share!=null&&r.rush_share>=3) parts.push(`${r.rush_share}% of team carries`);
+        if(r.snap_share!=null) parts.push(`${r.snap_share}% of offensive snaps`);
+        let label;
+        if(r.pos==="QB") label = (r.rush_share!=null&&r.rush_share>=5)?`R${r.rush_share}%`:"—";
+        else label = r.pos==="RB" ? `R${r.rush_share}%` : `T${r.tgt_share}%`;
+        if(label==="—") return label;
+        return `<span class="term" data-tip="${esc("2025 season: "+parts.join(" · ")+". Target share is the stickiest year-over-year stat — 25%+ is strong, 30%+ elite (WR/TE). For RBs the shown number is carry share.")}">${label}</span>`;
+      })()}</td>
       <td>${statusHtml}</td>
     </tr>`;
   }).join("");

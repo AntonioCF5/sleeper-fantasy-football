@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from sleeper import analysis, api, intel  # noqa: E402
+from sleeper import analysis, api, intel, usage  # noqa: E402
 from sleeper.reports import get_league_corrected  # noqa: E402
 
 POLL_SECONDS = 10
@@ -104,6 +104,14 @@ def load_context(league_id):
             pl, r["pos"], prev_games.get(r["player_id"]), style.get(r["player_id"]))
     analysis.apply_risk(board, risk)
     analysis._assign_tiers(board)
+    # Last-season usage shares — the experts' "stickiest" stats (visibility
+    # columns; projections already price expected roles, so no VORP change).
+    try:
+        shares = usage.usage_shares(prev_season)
+        for r in board:
+            r.update(shares.get(r["player_id"], {}))
+    except Exception:
+        pass  # usage data unavailable: columns simply stay empty
     winners = {w["player_id"]: w for w in
                analysis.league_winners(league, players, sproj, adp, superflex)}
     return config, league, draft, players, board, adp, winners, style, risk
