@@ -188,9 +188,12 @@ command center: `reports/<season>/expert-daily/YYYY-MM-DD.md`. Reading order:
 Today's Top 3 → News → Injuries (owned players first, status deltas vs the previous
 edition) → per-video summaries → stats & facts the experts cited (stored in
 `expert_takes.json` under `facts`, pruned like takes; contradictions vs our
-data are flagged inline) → takes cross-checked against our boards
-(rank/VORP/ADP value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts) →
-methodology → portfolio impact → "for your review" (never acted on
+data are flagged inline) → takes cross-checked against **all 8 league boards**
+(rank/VORP/ADP value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts) —
+never one representative league: the same take is a steal in superflex and a
+trap in 1QB, so split into "verdict FLIPS by format" (naming the driver —
+superflex/TE-prem/PPFD/IDP/league size) and "holds across all 8" (value
+range) → methodology → portfolio impact → "for your review" (never acted on
 unattended). Everywhere a player the user owns appears, the name is bolded
 with the owning league(s); player/league names hyperlink to the Sleeper web
 app (sleeper.com/players/nfl/<pid>, sleeper.com/leagues/<league_id>).
