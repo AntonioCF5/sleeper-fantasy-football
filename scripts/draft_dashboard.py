@@ -453,7 +453,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
       </div>
       <div class="col" id="colB">
         <section class="sec" id="planSec" data-sec="plan" style="display:none">
-          <h2 class="term" data-tip="A live map of your next rounds, re-simulated after every pick: for each of your upcoming turns, the best available 🚀 high-upside, 💤 sleeper, and 🛡 safe pick projected to still be on the board. Each name appears once, at the earliest round you'd take him." onclick="toggleSec('plan')"><span class="chev">▾</span>📋 Round plan</h2>
+          <h2 class="term" data-tip="A live map of your next rounds, re-simulated after every pick: for each of your upcoming turns, one 🚀 high-upside, 💤 sleeper, and 🛡 safe pick. A player only appears at his NOW-OR-NEVER round — still available at that pick, but gone by your next one (per ADP). An empty lane means nothing there needs taking that round; wait. The last planned round shows best available (no horizon beyond it)." onclick="toggleSec('plan')"><span class="chev">▾</span>📋 Round plan</h2>
           <div class="sec-body"><div id="roundplan"></div></div></section>
         <section class="sec" data-sec="waiters">
           <h2 class="term" data-tip="His ADP is later than your NEXT-NEXT pick (the one after your upcoming turn), so the room probably won't take him before you get another shot — spend your upcoming pick elsewhere and still land him then." onclick="toggleSec('waiters')"><span class="chev">▾</span>🟢 Safe to wait</h2>
@@ -908,6 +908,10 @@ setInterval(()=>{
   $("stamp").textContent=(secs<2?"updated just now":`updated ${secs}s ago`);
 },1000);
 setInterval(tick,5000);
+// After laptop/tab sleep the elapsed-time pill can show hours until the next
+// poll fires — refresh immediately on wake instead.
+document.addEventListener("visibilitychange",()=>{if(!document.hidden) tick();});
+window.addEventListener("focus",()=>tick());
 
 // ---------- rankings ----------
 async function loadRankings(force){

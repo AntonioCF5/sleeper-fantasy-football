@@ -146,7 +146,8 @@ When the user asks for "this week's report/analysis" or similar:
   The dashboard's **Round Plan** (`live_draft._round_plan`) re-simulates
   after every pick: for each of the user's next ~6 turns it projects
   availability by ADP and offers one 🚀 upside / 💤 sleeper / 🛡 safe pick
-  per round, each name shown once at the earliest realistic round. Lanes
+  per round, each name shown only at his now-or-never round (available at
+  that pick, gone by the next per ADP — an empty lane means wait). Lanes
   cap any position at 2 appearances; upside compares best-ceiling vs
   best-balanced on VORP (+15 ceiling edge) so a weak pure-ceiling player
   never beats a stud.

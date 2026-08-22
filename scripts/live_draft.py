@@ -199,8 +199,16 @@ def _round_plan(live, mine, made, next_open, adp, style, winners, players, n, ro
     """For each of my next picks, simulate market removals by ADP and offer
     one candidate per lane: 🚀 upside (ceiling), 💤 sleeper (value gap or
     league-winner), 🛡 safe (floor). Recomputed on every pick, so the plan
-    adapts live as players come off the board. Each player appears in at
-    most one round — at the earliest pick we'd realistically take him.
+    adapts live as players come off the board.
+
+    A player is only offered at a round if it's his NOW-OR-NEVER moment:
+    still on the board at this pick, but his ADP says the room takes him
+    before my next turn. Offering a player any earlier wastes the pick —
+    e.g. an ADP-42 sleeper must never appear as a round-1 option when my
+    round-2 pick is #27; his slot is round 2, the last realistic moment.
+    A lane can legitimately be empty ("—"): nothing at that lane needs
+    taking this round, which is itself useful information. The final
+    planned round has no next-pick horizon, so anything available shows.
     """
     future = [p for p in mine if p >= next_open and p not in made][:6]
     if not future:
@@ -226,8 +234,20 @@ def _round_plan(live, mine, made, next_open, adp, style, winners, players, n, ro
             if idx < len(adp_sorted):
                 removed.add(adp_sorted[idx]); idx += 1
         cur = p + 1
+        # Now-or-never horizon: my next pick after this one (full schedule,
+        # not just the displayed window). Last planned round → no horizon.
+        next_mine = next((q for q in mine if q > p and q not in made), None)
+        is_last_planned = p == future[-1]
+
+        def dying(r):
+            if is_last_planned or next_mine is None:
+                return True
+            a = adp.get(r["player_id"])
+            return a is not None and a <= next_mine + 3
+
         avail = [r for r in live
-                 if r["player_id"] not in removed and r["player_id"] not in shown]
+                 if r["player_id"] not in removed and r["player_id"] not in shown
+                 and dying(r)]
 
         def best(pred, exclude_ids, lane):
             for r in avail:  # live is board-order (best value first)
