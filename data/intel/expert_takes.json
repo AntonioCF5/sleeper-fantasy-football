@@ -5,7 +5,7 @@
    "sal-vetri",
    "fantasy-footballers"
   ],
-  "note": "Distilled by subagent from video transcripts (rolling, Aug 2026). Visibility-only: takes never move projections; adjustments require player_adjust.json with documented reasons. Prune takes older than ~3 weeks."
+  "note": "Distilled by subagent from video transcripts (rolling, Aug 2026). Visibility-only: takes never move projections; adjustments require player_adjust.json with documented reasons. Prune takes AND facts older than ~3 weeks."
  },
  "takes": [
   {
@@ -894,5 +894,170 @@
   "Stefon Diggs \u2014 170 vacated targets; late-round steal.",
   "Bhayshul Tuten \u2014 Etienne's vacated touches with glowing camp reports.",
   "Camp-buzz rookies confirmed by preseason usage: De'Zhaun Stribling (SF), Caleb Douglas (MIA), Pat Bryant (DEN)."
+ ],
+ "facts": [
+  {
+   "fact": "Target share 24% -> 25% -> 28% across three seasons; career highs in targets/receptions/yards",
+   "about": "Zay Flowers",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "QB1/QB2 overall six straight years; top-5 last two years with no top-36 WR and no top-12 TE",
+   "about": "Josh Allen",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "41% of carries gained 5+ yards (6th-best); RB18 on 16.7 opportunities/game before injury; beat RJ Harvey in rush success rate and yards after contact",
+   "about": "J.K. Dobbins",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "QB9/3/2/6/8 finishes over five straight years; QB5 price, cheapest ADP in five seasons",
+   "about": "Jalen Hurts",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "9th rush success rate, 4th in 10+ yard run rate, 9th missed-tackle rate; Aaron Jones 54th of 55 in yards after contact",
+   "about": "Jordan Mason",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "~90% of RB opportunities and ~80% of RB receiving fantasy points come on early downs",
+   "about": "RB base rate",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "26% target share with everyone healthy (McBride 25%, Wilson 16%); 100% preseason wk-1 snaps while Wilson rotated",
+   "about": "Marvin Harrison",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "28% career target share; WR6 with four top-15 weeks before last year's week-6 injury",
+   "about": "Garrett Wilson",
+   "source": "fantasy-footballers",
+   "videos": [
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "23% target share and 30% red-zone share through last year's QB injuries; 13 TDs in last healthy Daniels season",
+   "about": "Terry McLaurin",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "Led the NFL in target share as a rookie; back in full team drills ~25 days before week 1 (ACL)",
+   "about": "Malik Nabers",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "1,400 total yards on a bad offense last year; Geno Smith threw 70+ RB checkdowns in '25",
+   "about": "Breece Hall",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "aDOT collapsed to 10.5 (58th) last season \u2014 role artifact, not player decline",
+   "about": "DK Metcalf",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "Averaged 30+ fantasy ppg during his rookie-year fantasy playoffs",
+   "about": "Jayden Daniels",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "Fresh 3yr/$50M extension",
+   "about": "Jayden Reed",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "70+ catches back-to-back seasons; only 3 games missed total",
+   "about": "Khalil Shakir",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "Projected 500+ pass attempts; Charbonnet out until ~November, Walker gone \u2014 RB room forces pass volume",
+   "about": "Seattle Seahawks",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "4 TDs in final 3 games at 6.1 ypc; top-tier rookie rush success rate",
+   "about": "Jacory Croskey-Merritt",
+   "source": "both",
+   "videos": [
+    "NSmbdG-BJaQ",
+    "QCTRQm9V-k0"
+   ],
+   "date": "2026-08-22"
+  },
+  {
+   "fact": "Multiple top-5 TE weeks late last year vs the same target competition; extended by JAX",
+   "about": "Brenton Strange",
+   "source": "sal-vetri",
+   "videos": [
+    "NSmbdG-BJaQ"
+   ],
+   "date": "2026-08-22"
+  }
  ]
 }

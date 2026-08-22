@@ -183,11 +183,18 @@ retries up to 25x; FF's feed is flakier than Sal's).
 (`expert-layer-weekly` in `~/.claude/scheduled-tasks/`, 9:08pm local Mon-Fri,
 timed for after that day's FF content posts) — so takes stay fresh even
 between sessions. Each run with new content also writes a **newsletter** the
-user reads directly: `reports/<season>/expert-daily/YYYY-MM-DD.md` — per-video
-summaries, every new take cross-checked against our boards (rank/VORP/ADP
-value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts), portfolio impact
-across the 8 leagues, and a "for your review" list of anything
-adjustment-worthy (never acted on unattended). **Still run it manually too at the START of every analysis
+user reads directly — their stated in-season source of truth alongside the
+command center: `reports/<season>/expert-daily/YYYY-MM-DD.md`. Reading order:
+TL;DR → News → Injuries (owned players first, status deltas vs the previous
+edition) → per-video summaries → stats & facts the experts cited (stored in
+`expert_takes.json` under `facts`, pruned like takes; contradictions vs our
+data are flagged inline) → takes cross-checked against our boards
+(rank/VORP/ADP value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts) →
+methodology → portfolio impact → "for your review" (never acted on
+unattended). Everywhere a player the user owns appears, the name is bolded
+with the owning league(s); player/league names hyperlink to the Sleeper web
+app (sleeper.com/players/nfl/<pid>, sleeper.com/leagues/<league_id>).
+News + Injuries publish daily even when no new videos exist. **Still run it manually too at the START of every analysis
 session** (draft prep, weekly report, or any strategy discussion) in case
 the scheduled run hasn't fired yet that day — it is incremental: state in
 `data/intel/expert_state.json` tracks processed videos, so each run fetches
