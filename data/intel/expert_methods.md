@@ -56,6 +56,29 @@ methods whenever a distillation pass reveals one; date additions.*
 - **Draft as late to kickoff as possible** — ideally after preseason week 3. [fantasy-footballers]
 - **Curated sources, not a feed** — named beat writers, PFF snap charts, Reception Perception route charting, film confirmation. [both]
 
+## Roster construction (added 2026-08-22)
+
+- **Early-down heuristic for late RBs** — ~90% of RB opportunities (and ~80%
+  of RB receiving points) come on early downs, so a strong early-down +
+  goal-line role on a good offense outweighs a missing receiving profile
+  when pricing end-of-draft RBs (their Jordan Mason case). [fantasy-footballers]
+- **Target-share trajectory beats TD totals as the within-tier WR
+  tiebreaker** — volume is sticky, TDs regress; a rising multi-year share
+  (Flowers 24→25→28%) outranks a flat one. [fantasy-footballers]
+- **Anchor-RB fragility principle** — once anchored on elite RBs, do NOT buy
+  mid-round insurance RBs ("if Gibbs gets hurt I'm not winning anyway");
+  spend those picks on a WR depth portfolio where one of three bench WRs
+  hitting covers a fragile starter. [sal-vetri]
+- **Sharp-room market read** — in expert leagues, onesie positions (QB/TE)
+  fall well past home-league ADP while RB/WR get pushed up; plan to buy the
+  falling QB/TE rather than reach at RB/WR turns. (Home leagues on
+  Sleeper's list behave the opposite way — our platform-list rule stands.)
+  [sal-vetri]
+- **Pre-week-1 camp-insurance picks** — when drafting 3+ weeks out, spend
+  final picks on direct handcuffs to injury-flagged starters purely to
+  pre-empt waiver bidding, with a stated plan to drop them for K/DEF by
+  week 1. Complements our week-1 cut discipline rule. [sal-vetri]
+
 ## Presentation techniques
 
 - **Every verdict is cost-anchored** — no take ends without the price and the reversal price. [sal-vetri]

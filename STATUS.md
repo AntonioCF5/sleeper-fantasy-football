@@ -100,6 +100,12 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
+- [ ] **Expert-daily review candidates (2026-08-22 edition)**: Nabers (back in
+  full team drills off ACL — projection may carry a stale discount), MHJ
+  (camp usage: 100% preseason wk-1 snaps, 27-spot ADP gap), Garrett Wilson
+  (20-spot gap, Geno-volume thesis). All single-source, none acted on —
+  decide on draft morning. Etienne is contested *within* FF (bust-risk vs
+  can't-stop-drafting) — price-sensitive only.
 - [x] **Computable features from expert methods** — built (Aug 22):
   (a) '25 usage shares (target/carry/snap) on every board + sortable
   Rankings column (`sleeper/usage.py`); (b) vacated-opportunity accounting
