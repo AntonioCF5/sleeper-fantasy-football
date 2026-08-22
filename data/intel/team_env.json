@@ -6,7 +6,8 @@
   "cold_dec": false,
   "oc": "Nathaniel Hackett",
   "new_oc": true,
-  "coach_note": "Hackett OC \u2014 career play-calling results poor; mild fade signal"
+  "coach_note": "Hackett OC \u2014 career play-calling results poor; mild fade signal",
+  "slow_start": true
  },
  "ATL": {
   "win_total": 6.5,
@@ -73,7 +74,8 @@
   "hc": "Todd Monken",
   "coach_note": "Complete overhaul; Monken's passing scheme on the league's worst environment",
   "oc": "Travis Switzer",
-  "new_oc": true
+  "new_oc": true,
+  "slow_start": true
  },
  "DAL": {
   "win_total": 9.5,
@@ -92,7 +94,8 @@
   "note": "good team, ZERO 48+ total games \u2014 fantasy-hostile",
   "oc": "Davis Webb",
   "new_oc": true,
-  "coach_note": "Davis Webb promoted \u2014 young passing-game mind, zero track record"
+  "coach_note": "Davis Webb promoted \u2014 young passing-game mind, zero track record",
+  "slow_start": true
  },
  "DET": {
   "win_total": 10.5,
@@ -126,7 +129,8 @@
   "venue": "dome",
   "cold_dec": false,
   "oc": "Jim Bob Cooter",
-  "new_oc": false
+  "new_oc": false,
+  "slow_start": true
  },
  "JAX": {
   "win_total": 8.5,
@@ -153,7 +157,8 @@
   "hc": "Klint Kubiak",
   "coach_note": "Complete overhaul; Kubiak wide-zone run scheme",
   "oc": "Andrew Janocko",
-  "new_oc": true
+  "new_oc": true,
+  "slow_start": true
  },
  "LAC": {
   "win_total": 9.5,
@@ -183,7 +188,8 @@
   "hc": "Jeff Hafley",
   "coach_note": "Complete overhaul; defensive HC on bottom-5 environment",
   "oc": "Bobby Slowik",
-  "new_oc": true
+  "new_oc": true,
+  "slow_start": true
  },
  "MIN": {
   "win_total": 8.5,
@@ -228,7 +234,8 @@
   "cold_dec": true,
   "oc": "Frank Reich",
   "new_oc": true,
-  "coach_note": "Frank Reich veteran OC \u2014 stabilizer on bad environment"
+  "coach_note": "Frank Reich veteran OC \u2014 stabilizer on bad environment",
+  "slow_start": true
  },
  "PHI": {
   "win_total": 10.5,

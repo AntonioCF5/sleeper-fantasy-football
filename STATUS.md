@@ -87,6 +87,12 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   User asked for this to be automated weekly — offer a scheduled task; not
   yet set up (needs user OK for a standing schedule).
 - [ ] Commit generated reports after each draft so history shows how calls aged.
+- [ ] **Computable features from expert methods** (`data/intel/expert_methods.md`):
+  (a) target share + targets/route from 2025 season stats as board columns
+  (the experts' "stickiest" WR stats — we currently only use TD-share for
+  style); (b) per-team vacated-targets/carries accounting from 2025 stats +
+  roster moves; (c) draft-slot value via two-pick turn combos in the slot
+  rankings. All three are buildable from data we already fetch.
 
 ## Known quirks / gotchas
 

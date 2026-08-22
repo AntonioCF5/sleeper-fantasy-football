@@ -179,8 +179,11 @@ Two expert sources the user follows are integrated via
 urllib gets 404'd, and the feed endpoint is edge-flaky so the script
 retries up to 25x; FF's feed is flakier than Sal's).
 
-**Weekly workflow** (part of the weekly cadence, and the draft-morning
-checklist during draft season):
+**Run at the START of every analysis session** (draft prep, weekly report,
+or any strategy discussion) — it is incremental: state in
+`data/intel/expert_state.json` tracks processed videos, so each run fetches
+only what's new since the last scrape, whether that was yesterday or two
+weeks ago. Quiet days cost two feed polls and nothing else.
 1. `python3 scripts/expert_watch.py --check` → unprocessed videos.
 2. `--fetch-new` → transcripts into `data/cache/transcripts/` (gitignored).
 3. **Delegate distillation to a subagent** (transcripts run 10k+ words each;
@@ -190,6 +193,21 @@ checklist during draft season):
 4. Merge into `data/intel/expert_takes.json` (committed). Prune takes older
    than ~3 weeks — staleness is misinformation in-season.
 5. `--mark <video_ids>` to record processing; commit.
+
+**Methodology mining:** `data/intel/expert_methods.md` is the permanent
+knowledge base of HOW these analysts think (metrics they trust, frameworks,
+process habits) — read it before drafts and when making judgment calls;
+append to it when a distillation pass reveals a new method. Lessons already
+adopted into our practice: preseason decoded by USAGE not box scores (who
+plays/is pulled with starters); camp-report filtering (beat-writer usage
+notes = signal, coach praise + hype aggregators = noise); injury actuarial
+rules (ACL 18-24mo to full burst, hamstring re-injury risk for RB/WR, turf
+toe ~28d median, second-opinions = bad sign); week-1 cut discipline on late
+fliers (insurance RBs exempt); `slow_start` flag in team_env.json (FF
+screen: underdogs in 3+ of first 4 games); TE streaming thresholds (17%+
+target share, 15%+ air yards); rookie-WR snap base rates (day-2/3 rookie
+WRs are waiver plays, not draft picks); sanctioned gut overrides must name
+the rule being broken.
 
 **How takes influence decisions (discipline rules):**
 - Takes are VISIBILITY by default: a 📺 flag + tooltip on boards. They never
