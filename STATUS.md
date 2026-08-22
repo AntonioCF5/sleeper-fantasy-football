@@ -86,15 +86,19 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
   Mon/Tue, lineup calls, trending adds. Candidate feature: lineup/start-sit
   view in the dashboard (user deferred until closer to week 1).
-- [x] **Expert layer weekly run — automated (2026-08-22)**: scheduled task
-  `expert-layer-weekly` runs every Monday 7:08am local (`~/.claude/scheduled-tasks/expert-layer-weekly/SKILL.md`).
-  Does expert_watch --check/--fetch-new → subagent distillation →
-  expert_takes.json merge/prune → --mark → commits + pushes ONLY
-  data/intel/expert_takes.json, expert_state.json, expert_methods.md.
+- [x] **Expert layer run — automated (2026-08-22, moved to daily-weekday 2026-08-22)**:
+  scheduled task `expert-layer-weekly` runs 9:08pm local Mon-Fri
+  (`~/.claude/scheduled-tasks/expert-layer-weekly/SKILL.md`), late enough
+  that each day's FF content is already posted (FF cadence: Tue waivers,
+  Wed = Thu-Night-Football analysis, Thu/Fri = rest of the slate; Sal's
+  cadence is less fixed). Does expert_watch --check/--fetch-new → subagent
+  distillation → expert_takes.json merge/prune → --mark → commits + pushes
+  ONLY data/intel/expert_takes.json, expert_state.json, expert_methods.md.
   Hard-fenced from player_adjust.json — never makes projection adjustments
   unattended; flags anything adjustment-worthy back to this checklist for
   the user to decide live. Runs independently of interactive sessions now,
   in addition to the existing "check at start of every session" rule.
+  Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
 - [x] **Computable features from expert methods** — built (Aug 22):
   (a) '25 usage shares (target/carry/snap) on every board + sortable

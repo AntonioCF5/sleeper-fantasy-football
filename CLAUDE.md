@@ -179,10 +179,14 @@ Two expert sources the user follows are integrated via
 urllib gets 404'd, and the feed endpoint is edge-flaky so the script
 retries up to 25x; FF's feed is flakier than Sal's).
 
-**Run at the START of every analysis session** (draft prep, weekly report,
-or any strategy discussion) — it is incremental: state in
+**Also runs automatically, daily on weekdays** via a scheduled task
+(`expert-layer-weekly` in `~/.claude/scheduled-tasks/`, 9:08pm local Mon-Fri,
+timed for after that day's FF content posts) — so takes stay fresh even
+between sessions. **Still run it manually too at the START of every analysis
+session** (draft prep, weekly report, or any strategy discussion) in case
+the scheduled run hasn't fired yet that day — it is incremental: state in
 `data/intel/expert_state.json` tracks processed videos, so each run fetches
-only what's new since the last scrape, whether that was yesterday or two
+only what's new since the last scrape, whether that was hours ago or two
 weeks ago. Quiet days cost two feed polls and nothing else.
 1. `python3 scripts/expert_watch.py --check` → unprocessed videos.
 2. `--fetch-new` → transcripts into `data/cache/transcripts/` (gitignored).
