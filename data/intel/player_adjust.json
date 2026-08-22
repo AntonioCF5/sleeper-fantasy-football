@@ -1,8 +1,8 @@
 {
  "12545": {
-  "mult": 1.06,
+  "mult": 1.03,
   "flag": "\ud83d\udcc8",
-  "note": "Shough: Kellen Moore scheme + rebuilt receiving corps; committed starter, finished 2025 hot (5-4, 67.6%). Projections lag the coaching thesis; market calls him a sleeper QB1 candidate."
+  "note": "Shough: Kellen Moore scheme + rebuilt receiving corps; committed starter, finished 2025 hot (5-4, 67.6%). Projections lag the coaching thesis; market calls him a sleeper QB1 candidate. UPDATE Aug 22: trimmed +6%\u2192+3% \u2014 Jordyn Tyson (WR1) re-aggravated hamstring, out ~2 months (expert layer, both sources)."
  },
  "11635": {
   "mult": 1.05,
@@ -43,5 +43,50 @@
   "mult": 1.03,
   "flag": "\ud83d\udcc8",
   "note": "DeVonta Smith: Uncontested target share under new play-caller"
+ },
+ "12533": {
+  "mult": 1.06,
+  "flag": "\ud83d\udcc8",
+  "note": "Jacory Croskey-Merritt: Expert layer (both sources) + our vacated data: Ekeler gone, WAS 52.3% vacated targets, team grooming him as three-down back; ADP RB37."
+ },
+ "12501": {
+  "mult": 1.05,
+  "flag": "\ud83d\udcc8",
+  "note": "Matthew Golden: Expert layer (both): confirmed starting X in 2-WR sets in preseason, ahead of Reed; 37.4% of GB targets vacated."
+ },
+ "8151": {
+  "mult": 1.04,
+  "flag": "\ud83d\udcc8",
+  "note": "Kenneth Walker: Expert layer (both): KC backfield emptied (Pacheco/Hunt gone), $45M guaranteed, new pass-catching role in Reid offense."
+ },
+ "8167": {
+  "mult": 1.04,
+  "flag": "\ud83d\udcc8",
+  "note": "Christian Watson: Expert layer (both): healthy off ACL (top-12 ppg when healthy), 37.4% GB targets vacated, $110M extension."
+ },
+ "11620": {
+  "mult": 1.04,
+  "flag": "\ud83d\udcc8",
+  "note": "Rome Odunze: Expert layer (both): DJ Moore gone, confirmed first read for Caleb Williams; ~20 ppg pre-injury stretch last year."
+ },
+ "8155": {
+  "mult": 1.03,
+  "flag": "\ud83d\udcc8",
+  "note": "Breece Hall: Expert layer (both): 91% of starter snaps in preseason \u2014 lone true round-3 workhorse; monitor 2-3wk groin."
+ },
+ "12493": {
+  "mult": 0.94,
+  "flag": "\ud83d\udcc9",
+  "note": "Oronde Gadsden: Expert layer (FF): no first-team work all camp, 27 preseason snaps with backups while Kolar/Njoku rested."
+ },
+ "7594": {
+  "mult": 0.95,
+  "flag": "\ud83d\udcc9",
+  "note": "Chuba Hubbard: Expert layer (both): losing work to Brooks, zero 15+yd runs last year, hamstring injury."
+ },
+ "8142": {
+  "mult": 0.95,
+  "flag": "\ud83d\udcc9",
+  "note": "Alec Pierce: Expert layer (both): ankle surgery, no return timeline (likely PUP), Keenan Allen signed; TD burst came without Daniel Jones."
  }
 }

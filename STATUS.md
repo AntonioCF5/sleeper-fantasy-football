@@ -39,8 +39,12 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
    nudging single players to match consensus (e.g. McBride was left T2
    despite expert buzz). Only systematic rules, or explicit user request.
    The coaching-scheme adjustments (Shough, McConkey, Herbert, Flowers,
-   Andrews, Ward, Egbuka, Godwin, D.Smith — all in
-   `data/intel/player_adjust.json` with written reasons) predate/comply.
+   Andrews, Ward, Egbuka, Godwin, D.Smith) predate/comply. Aug 22: user
+   approved a batch of 10 expert-layer FACT-based adjustments (JCM +6%,
+   Golden +5%, Walker/Watson/Odunze +4%, Hall +3%, Gadsden -6%,
+   Hubbard/Pierce -5%, Shough trimmed +6%→+3% on the Tyson injury) — all
+   in `player_adjust.json` with written reasons. Standard: real-world
+   info (usage/role/injury) only, never opinion.
 5. **Risk index is systematic** (age curves + durability + injury +
    volatility), shaves ≤12% of positive VORP before ranking. Never hand-tune.
 6. **Elite = capped top-3 by VORP within tier 1 per position**, excludes K.

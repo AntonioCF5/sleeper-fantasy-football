@@ -20,8 +20,8 @@
 | 7 | 3 | 450.2 | Puka Nacua → Lamar Jackson → Zay Flowers |
 | 8 | 17 | 445.6 | Derrick Henry → Josh Allen → Mike Evans |
 | 9 | 4 | 442.4 | Puka Nacua → Lamar Jackson → Zay Flowers |
-| 10 | 5 | 431.3 | Christian McCaffrey → Lamar Jackson → Zay Flowers |
-| 11 | 18 | 430.3 | Josh Allen → Kenneth Walker → Mike Evans |
+| 10 | 18 | 439.4 | Kenneth Walker → Josh Allen → Mike Evans |
+| 11 | 5 | 431.3 | Christian McCaffrey → Lamar Jackson → Zay Flowers |
 | 12 | 11 | 429.6 | Derrick Henry → George Pickens → D'Andre Swift |
 | 13 | 12 | 429.6 | Derrick Henry → George Pickens → D'Andre Swift |
 | 14 | 6 | 422.7 | Jonathan Taylor → Lamar Jackson → D'Andre Swift |
@@ -41,59 +41,59 @@
 | 7 | James Cook (RB, BUF) | RB5 | T3 | 256 | 130.9 | 10 | +2.6 |  |
 | 8 | Derrick Henry (RB, BAL) | RB6 | T3 | 248 | 123.6 | 18 | +9.8 |  |
 | 9 | Jaxon Smith-Njigba (WR, SEA) | WR3 | **T2** | 239 | 113.5 | 7 | -2.4 |  |
-| 10 | Amon-Ra St. Brown (WR, DET) | WR4 | T2 | 238 | 112.5 | 8 | -2.0 | 🏟 |
-| 11 | Chase Brown (RB, CIN) | RB7 | **T4** | 236 | 111.3 | 17 | +5.6 |  |
-| 12 | Josh Allen (QB, BUF) | QB1 | T1 | 404 | 108.2 | 21 | +9.0 | ❄️📺 |
-| 13 | CeeDee Lamb (WR, DAL) | WR5 | T2 | 233 | 107.3 | 10 | -2.5 | 🏟 |
-| 14 | Saquon Barkley (RB, PHI) | RB8 | T4 | 232 | 107.1 | 12 | -2.5 |  |
-| 15 | Kenneth Walker (RB, KC) | RB9 | T4 | 229 | 104.4 | 18 | +3.1 | 📺 |
-| 16 | Ashton Jeanty (RB, LV) | RB10 | T4 | 228 | 103.2 | 13 | -3.4 | 🏟 |
+| 10 | Kenneth Walker (RB, KC) | RB7 | T3 | 238 | 113.5 | 18 | +8.1 | 📈📺 |
+| 11 | Amon-Ra St. Brown (WR, DET) | WR4 | T2 | 238 | 112.5 | 8 | -3.0 | 🏟 |
+| 12 | Chase Brown (RB, CIN) | RB8 | T3 | 236 | 111.3 | 17 | +4.6 |  |
+| 13 | Josh Allen (QB, BUF) | QB1 | T1 | 404 | 108.2 | 21 | +8.0 | ❄️📺 |
+| 14 | CeeDee Lamb (WR, DAL) | WR5 | T2 | 233 | 107.3 | 10 | -3.5 | 🏟 |
+| 15 | Saquon Barkley (RB, PHI) | RB9 | T3 | 232 | 107.1 | 12 | -3.5 |  |
+| 16 | Ashton Jeanty (RB, LV) | RB10 | T3 | 228 | 103.2 | 13 | -3.4 | 🏟 |
 | 17 | Nico Collins (WR, HOU) | WR6 | **T3** | 220 | 94.7 | 23 | +6.1 | 🏟 |
-| 18 | Omarion Hampton (RB, LAC) | RB11 | T4 | 217 | 92.3 | 16 | -2.4 | 🏟 |
+| 18 | Omarion Hampton (RB, LAC) | RB11 | T3 | 217 | 92.3 | 16 | -2.4 | 🏟 |
 | 19 | George Pickens (WR, DAL) | WR7 | T3 | 216 | 90.7 | 26 | +7.1 | 🏟 |
-| 20 | De'Von Achane (RB, MIA) | RB12 | T4 | 214 | 89.6 | 14 | -6.4 | 📺 |
+| 20 | De'Von Achane (RB, MIA) | RB12 | T3 | 214 | 89.6 | 14 | -6.4 | 📺 |
 | 21 | Brock Bowers (TE, LV) | TE1 | T1 | 198 | 83.9 | 22 | +1.1 | 🏟📺 |
 | 22 | A.J. Brown (WR, NE) | WR8 | T3 | 208 | 82.3 | 20 | -2.5 | ❄️ |
 | 23 | Justin Jefferson (WR, MIN) | WR9 | T3 | 205 | 80.1 | 14 | -9.3 | 🏟 |
 | 24 | Drake London (WR, ATL) | WR10 | T3 | 205 | 79.9 | 21 | -3.4 | 🏟 |
-| 25 | Kyren Williams (RB, LAR) | RB13 | **T5** | 200 | 74.9 | 27 | +2.4 | 🏟 |
+| 25 | Kyren Williams (RB, LAR) | RB13 | **T4** | 200 | 74.9 | 27 | +2.4 | 🏟 |
 | 26 | Lamar Jackson (QB, BAL) | QB2 | **T2** | 370 | 74.7 | 34 | +8.2 | ❄️ |
 | 27 | Zay Flowers (WR, BAL) | WR11 | T3 | 200 | 74.5 | 42 | +14.6 | ❄️📈📺 |
-| 28 | Javonte Williams (RB, DAL) | RB14 | T5 | 197 | 72.6 | 34 | +5.6 | 🏟 |
+| 28 | Javonte Williams (RB, DAL) | RB14 | T4 | 197 | 72.6 | 34 | +5.6 | 🏟 |
 | 29 | Ladd McConkey (WR, LAC) | WR12 | T3 | 197 | 71.8 | 40 | +11.5 | 🏟📈📺 |
 | 30 | Chris Olave (WR, NO) | WR13 | T3 | 195 | 69.6 | 32 | +2.3 | 🏟 |
 | 31 | DeVonta Smith (WR, PHI) [Questionable] | WR14 | T3 | 195 | 69.5 | 34 | +3.5 | ❄️📈 |
 | 32 | Emeka Egbuka (WR, TB) [Questionable] | WR15 | T3 | 195 | 69.5 | 39 | +7.4 | 📈📺 |
-| 33 | D'Andre Swift (RB, CHI) | RB15 | T5 | 192 | 67.7 | 52 | +19.4 |  |
+| 33 | D'Andre Swift (RB, CHI) | RB15 | T4 | 192 | 67.7 | 52 | +19.4 |  |
 | 34 | Tee Higgins (WR, CIN) | WR16 | T3 | 192 | 67.0 | 39 | +4.6 | ❄️ |
 | 35 | Mike Evans (WR, SF) [Questionable] | WR17 | T3 | 191 | 65.6 | 60 | +25.3 |  |
-| 36 | David Montgomery (RB, HOU) | RB16 | T5 | 189 | 64.5 | 48 | +12.0 | 🏟📺 |
-| 37 | Travis Etienne (RB, NO) | RB17 | T5 | 189 | 64.1 | 42 | +4.7 | 🏟📺 |
+| 36 | David Montgomery (RB, HOU) | RB16 | T4 | 189 | 64.5 | 48 | +12.0 | 🏟📺 |
+| 37 | Travis Etienne (RB, NO) | RB17 | T4 | 189 | 64.1 | 42 | +4.7 | 🏟📺 |
 | 38 | Joe Burrow (QB, CIN) | QB3 | T2 | 359 | 63.6 | 54 | +16.4 | ❄️ |
-| 39 | Josh Jacobs (RB, GB) [Questionable] | RB18 | T5 | 188 | 63.2 | 30 | -9.4 |  |
+| 39 | Josh Jacobs (RB, GB) [Questionable] | RB18 | T4 | 188 | 63.2 | 30 | -9.4 |  |
 | 40 | Trey McBride (TE, ARI) | TE2 | **T2** | 175 | 61.1 | 24 | -15.9 | 🏟 |
-| 41 | Colston Loveland (TE, CHI) | TE3 | T2 | 173 | 59.7 | 44 | +3.4 | ❄️ |
-| 42 | Jameson Williams (WR, DET) | WR18 | T3 | 185 | 59.7 | 58 | +15.6 | 🏟📺 |
-| 43 | Dak Prescott (QB, DAL) | QB4 | T2 | 355 | 59.1 | 88 | +45.1 | 🏟 |
-| 44 | Rashee Rice (WR, KC) | WR19 | T3 | 184 | 58.9 | 28 | -16.0 | ❄️📺 |
-| 45 | Drake Maye (QB, NE) | QB5 | T2 | 354 | 58.0 | 52 | +6.5 | ❄️ |
-| 46 | Malik Nabers (WR, NYG) [Questionable] | WR20 | T3 | 183 | 57.3 | 30 | -15.9 | ❄️ |
-| 47 | Tetairoa McMillan (WR, CAR) | WR21 | T3 | 181 | 55.5 | 36 | -10.8 |  |
-| 48 | Terry McLaurin (WR, WAS) | WR22 | T3 | 180 | 55.0 | 54 | +5.6 | 📺 |
-| 49 | Cam Skattebo (RB, NYG) | RB19 | T5 | 179 | 54.6 | 38 | -11.3 |  |
-| 50 | Breece Hall (RB, NYJ) [Questionable] | RB20 | T5 | 179 | 54.5 | 31 | -18.7 | 📺 |
-| 51 | Sam LaPorta (TE, DET) [Questionable] | TE4 | T2 | 166 | 52.8 | 64 | +13.1 | 🏟 |
-| 52 | Bucky Irving (RB, TB) | RB21 | T5 | 177 | 52.7 | 46 | -6.2 | 📺 |
-| 53 | Jeremiyah Love (RB, ARI) [Questionable] | RB22 | T5 | 176 | 51.5 | 25 | -27.7 | 🏟📺 |
-| 54 | Parker Washington (WR, JAX) [Questionable] | WR23 | T3 | 176 | 51.1 | 74 | +20.4 |  |
-| 55 | Christian Watson (WR, GB) | WR24 | T3 | 176 | 50.7 | 69 | +13.8 | ❄️📺 |
-| 56 | Jaylen Waddle (WR, DEN) | WR25 | T3 | 175 | 50.0 | 48 | -8.5 | ❄️📺 |
-| 57 | Tyler Warren (TE, IND) [Questionable] | TE5 | T2 | 163 | 49.2 | 51 | -6.3 | 🏟 |
-| 58 | Rome Odunze (WR, CHI) | WR26 | T3 | 174 | 48.5 | 63 | +4.9 | ❄️📺 |
+| 41 | Breece Hall (RB, NYJ) [Questionable] | RB19 | T4 | 184 | 59.8 | 31 | -9.7 | 📈📺 |
+| 42 | Colston Loveland (TE, CHI) | TE3 | T2 | 173 | 59.7 | 44 | +2.4 | ❄️ |
+| 43 | Jameson Williams (WR, DET) | WR18 | T3 | 185 | 59.7 | 58 | +14.6 | 🏟📺 |
+| 44 | Dak Prescott (QB, DAL) | QB4 | T2 | 355 | 59.1 | 88 | +44.1 | 🏟 |
+| 45 | Rashee Rice (WR, KC) | WR19 | T3 | 184 | 58.9 | 28 | -17.0 | ❄️📺 |
+| 46 | Drake Maye (QB, NE) | QB5 | T2 | 354 | 58.0 | 52 | +5.5 | ❄️ |
+| 47 | Christian Watson (WR, GB) | WR20 | T3 | 183 | 57.8 | 69 | +21.8 | ❄️📈📺 |
+| 48 | Malik Nabers (WR, NYG) [Questionable] | WR21 | T3 | 183 | 57.3 | 30 | -17.9 | ❄️ |
+| 49 | Tetairoa McMillan (WR, CAR) | WR22 | T3 | 181 | 55.5 | 36 | -12.8 |  |
+| 50 | Rome Odunze (WR, CHI) | WR23 | T3 | 181 | 55.5 | 63 | +12.9 | ❄️📈📺 |
+| 51 | Terry McLaurin (WR, WAS) | WR24 | T3 | 180 | 55.0 | 54 | +2.6 | 📺 |
+| 52 | Cam Skattebo (RB, NYG) | RB20 | T4 | 179 | 54.6 | 38 | -14.3 |  |
+| 53 | Sam LaPorta (TE, DET) [Questionable] | TE4 | T2 | 166 | 52.8 | 64 | +11.1 | 🏟 |
+| 54 | Bucky Irving (RB, TB) | RB21 | T4 | 177 | 52.7 | 46 | -8.2 | 📺 |
+| 55 | Jeremiyah Love (RB, ARI) [Questionable] | RB22 | T4 | 176 | 51.5 | 25 | -29.7 | 🏟📺 |
+| 56 | Parker Washington (WR, JAX) [Questionable] | WR25 | T3 | 176 | 51.1 | 74 | +18.4 |  |
+| 57 | Jaylen Waddle (WR, DEN) | WR26 | T3 | 175 | 50.0 | 48 | -9.5 | ❄️📺 |
+| 58 | Tyler Warren (TE, IND) [Questionable] | TE5 | T2 | 163 | 49.2 | 51 | -7.3 | 🏟 |
 | 59 | Luther Burden (WR, CHI) [Questionable] | WR27 | T3 | 173 | 47.6 | 55 | -3.9 | ❄️ |
 | 60 | Brock Purdy (QB, SF) | QB6 | **T3** | 341 | 45.2 | 117 | +57.4 |  |
 | 61 | Davante Adams (WR, LAR) | WR28 | T3 | 169 | 43.8 | 58 | -3.0 | 🏟 |
-| 62 | Quinshon Judkins (RB, CLE) [Questionable] | RB23 | T5 | 168 | 43.7 | 46 | -16.0 |  |
+| 62 | Quinshon Judkins (RB, CLE) [Questionable] | RB23 | T4 | 168 | 43.7 | 46 | -16.0 |  |
 | 63 | Garrett Wilson (WR, NYJ) | WR29 | T3 | 169 | 43.6 | 43 | -19.9 | ❄️📺 |
 | 64 | Los Angeles Rams (DEF, LAR) | DEF1 | T1 | 195 | 43.3 | 131 | +67.0 | 🏟 |
 | 65 | Justin Herbert (QB, LAC) | QB7 | T3 | 338 | 41.8 | 79 | +14.4 | 🏟📈 |
@@ -102,53 +102,53 @@
 | 68 | Jayden Daniels (QB, WAS) | QB9 | T3 | 336 | 40.7 | 67 | -1.1 | 📺 |
 | 69 | Matthew Stafford (QB, LAR) | QB10 | T3 | 336 | 40.6 | 109 | +40.0 | 🏟 |
 | 70 | Brian Thomas (WR, JAX) | WR30 | T3 | 164 | 39.1 | 69 | -0.7 |  |
-| 71 | Jadarian Price (RB, SEA) | RB24 | T5 | 163 | 38.1 | 61 | -10.0 |  |
+| 71 | Jadarian Price (RB, SEA) | RB24 | T4 | 163 | 38.1 | 61 | -10.0 |  |
 | 72 | Jalen Hurts (QB, PHI) | QB11 | T3 | 333 | 37.8 | 62 | -9.7 | ❄️ |
 | 73 | Caleb Williams (QB, CHI) | QB12 | T3 | 332 | 36.6 | 76 | +3.2 | ❄️ |
 | 74 | Jayden Reed (WR, GB) | WR31 | T3 | 162 | 36.2 | 104 | +29.8 | ❄️ |
-| 75 | Bhayshul Tuten (RB, JAX) | RB25 | T5 | 158 | 33.2 | 60 | -15.1 | 📺 |
+| 75 | Bhayshul Tuten (RB, JAX) | RB25 | T4 | 158 | 33.2 | 60 | -15.1 | 📺 |
 | 76 | Trevor Lawrence (QB, JAX) | QB13 | T3 | 328 | 32.8 | 98 | +21.7 |  |
-| 77 | Rhamondre Stevenson (RB, NE) | RB26 | T5 | 157 | 32.0 | 79 | +1.6 |  |
-| 78 | TreVeyon Henderson (RB, NE) | RB27 | T5 | 156 | 31.0 | 49 | -29.1 | 📺 |
+| 77 | Rhamondre Stevenson (RB, NE) | RB26 | T4 | 157 | 32.0 | 79 | +1.6 |  |
+| 78 | TreVeyon Henderson (RB, NE) | RB27 | T4 | 156 | 31.0 | 49 | -29.1 | 📺 |
 | 79 | Seattle Seahawks (DEF, SEA) | DEF2 | **T2** | 182 | 29.6 | 132 | +53.1 |  |
-| 80 | Alec Pierce (WR, IND) [PUP] | WR32 | T3 | 154 | 28.6 | 93 | +12.8 | 🏟📺 |
-| 81 | Mark Andrews (TE, BAL) | TE6 | **T3** | 142 | 28.2 | 118 | +37.5 | ❄️📈 |
-| 82 | Houston Texans (DEF, HOU) | DEF3 | T2 | 180 | 28.0 | 133 | +50.9 | 🏟 |
-| 83 | Kyle Hamilton (DB, BAL) | DB1 | T1 | 113 | 27.9 | 999 | +916.0 |  |
-| 84 | George Kittle (TE, SF) [PUP] | TE7 | T3 | 141 | 27.5 | 91 | +6.8 |  |
-| 85 | Tucker Kraft (TE, GB) [Questionable] | TE8 | T3 | 141 | 27.2 | 67 | -17.9 | ❄️ |
-| 86 | Aidan Hutchinson (DL, DET) | DL1 | T1 | 88 | 25.7 | 999 | +913.0 | 🏟 |
-| 87 | DJ Moore (WR, BUF) | WR33 | T3 | 151 | 25.4 | 56 | -31.4 | ❄️ |
-| 88 | Roquan Smith (LB, BAL) | LB2 | **T2** | 122 | 25.3 | 999 | +911.0 |  |
-| 89 | Kyle Pitts (TE, ATL) | TE9 | T3 | 139 | 25.0 | 71 | -17.8 | 🏟 |
-| 90 | Baltimore Ravens (DEF, BAL) | DEF4 | T2 | 176 | 24.4 | 146 | +56.4 |  |
-| 91 | Philadelphia Eagles (DEF, PHI) | DEF5 | T2 | 175 | 23.4 | 138 | +46.7 |  |
-| 92 | Jaylen Warren (RB, PIT) | RB28 | T5 | 148 | 23.0 | 69 | -22.9 |  |
-| 93 | Nakobe Dean (LB, LV) | LB3 | T2 | 120 | 23.0 | 999 | +906.0 | 🏟 |
-| 94 | Patrick Mahomes (QB, KC) [Questionable] | QB14 | T3 | 319 | 22.9 | 107 | +12.8 | ❄️ |
+| 80 | Mark Andrews (TE, BAL) | TE6 | **T3** | 142 | 28.2 | 118 | +38.5 | ❄️📈 |
+| 81 | Houston Texans (DEF, HOU) | DEF3 | T2 | 180 | 28.0 | 133 | +51.9 | 🏟 |
+| 82 | Kyle Hamilton (DB, BAL) | DB1 | T1 | 113 | 27.9 | 999 | +917.0 |  |
+| 83 | George Kittle (TE, SF) [PUP] | TE7 | T3 | 141 | 27.5 | 91 | +7.8 |  |
+| 84 | Tucker Kraft (TE, GB) [Questionable] | TE8 | T3 | 141 | 27.2 | 67 | -16.9 | ❄️ |
+| 85 | Aidan Hutchinson (DL, DET) | DL1 | T1 | 88 | 25.7 | 999 | +914.0 | 🏟 |
+| 86 | DJ Moore (WR, BUF) | WR32 | T3 | 151 | 25.4 | 56 | -30.4 | ❄️ |
+| 87 | Roquan Smith (LB, BAL) | LB2 | **T2** | 122 | 25.3 | 999 | +912.0 |  |
+| 88 | Kyle Pitts (TE, ATL) | TE9 | T3 | 139 | 25.0 | 71 | -16.8 | 🏟 |
+| 89 | Baltimore Ravens (DEF, BAL) | DEF4 | T2 | 176 | 24.4 | 146 | +57.4 |  |
+| 90 | Philadelphia Eagles (DEF, PHI) | DEF5 | T2 | 175 | 23.4 | 138 | +47.7 |  |
+| 91 | Jaylen Warren (RB, PIT) | RB28 | T4 | 148 | 23.0 | 69 | -21.9 |  |
+| 92 | Nakobe Dean (LB, LV) | LB3 | T2 | 120 | 23.0 | 999 | +907.0 | 🏟 |
+| 93 | Patrick Mahomes (QB, KC) [Questionable] | QB14 | T3 | 319 | 22.9 | 107 | +13.8 | ❄️ |
+| 94 | Matthew Golden (WR, GB) | WR33 | T3 | 148 | 22.8 | 122 | +28.3 | ❄️📈📺 |
 | 95 | Travis Kelce (TE, KC) | TE10 | T3 | 136 | 22.7 | 98 | +2.9 | ❄️ |
 | 96 | Myles Garrett (DL, LAR) [Questionable] | DL2 | T1 | 84 | 22.0 | 999 | +903.0 | 🏟 |
 | 97 | Nick Cross (DB, WAS) | DB2 | T1 | 107 | 21.6 | 999 | +902.0 |  |
 | 98 | DK Metcalf (WR, PIT) [Questionable] | WR34 | T3 | 146 | 21.0 | 76 | -21.5 | ❄️ |
 | 99 | Byron Young (DL/LB, LAR) | DL3 | T1 | 83 | 21.0 | 999 | +900.0 | 🏟 |
-| 100 | Dalton Kincaid (TE, BUF) | TE11 | T3 | 134 | 20.8 | 94 | -5.8 | ❄️ |
-| 101 | Marvin Harrison (WR, ARI) | WR35 | T3 | 146 | 20.6 | 74 | -27.3 | 🏟 |
-| 102 | Kyle Monangai (RB, CHI) [Questionable] | RB29 | T5 | 145 | 20.3 | 87 | -14.8 |  |
-| 103 | J.K. Dobbins (RB, DEN) | RB30 | T5 | 144 | 19.7 | 87 | -16.3 |  |
-| 104 | Foyesade Oluokun (LB, JAX) | LB4 | T2 | 116 | 19.5 | 999 | +895.0 |  |
-| 105 | Chamarri Conner (DB, KC) | DB3 | T1 | 104 | 19.0 | 999 | +894.0 |  |
-| 106 | Sonny Styles (LB, WAS) | LB5 | T2 | 116 | 18.8 | 999 | +893.0 |  |
-| 107 | Harold Fannin (TE, CLE) | TE12 | T3 | 132 | 18.5 | 72 | -34.8 | ❄️ |
-| 108 | Jordan Mason (RB, MIN) | RB31 | T5 | 143 | 18.1 | 104 | -3.8 | 🏟📺 |
-| 109 | Brian Burns (DL/LB, NYG) | DL4 | T1 | 80 | 18.0 | 999 | +890.0 |  |
-| 110 | Tony Pollard (RB, TEN) | RB32 | T5 | 142 | 17.6 | 80 | -29.5 |  |
-| 111 | Denver Broncos (DEF, DEN) | DEF6 | T2 | 169 | 16.6 | 135 | +24.0 |  |
-| 112 | Carnell Tate (WR, TEN) [Questionable] | WR36 | T3 | 142 | 16.6 | 66 | -46.2 |  |
-| 113 | Jordan Addison (WR, MIN) | WR37 | T3 | 142 | 16.4 | 101 | -11.9 | 🏟 |
-| 114 | Brenton Strange (TE, JAX) | TE13 | T3 | 130 | 15.9 | 155 | +41.3 |  |
-| 115 | Matthew Golden (WR, GB) | WR38 | T3 | 141 | 15.7 | 122 | +7.3 | ❄️📺 |
+| 100 | Alec Pierce (WR, IND) [PUP] | WR35 | T3 | 146 | 20.9 | 93 | -7.2 | 🏟📉📺 |
+| 101 | Dalton Kincaid (TE, BUF) | TE11 | T3 | 134 | 20.8 | 94 | -6.8 | ❄️ |
+| 102 | Marvin Harrison (WR, ARI) | WR36 | T3 | 146 | 20.6 | 74 | -28.3 | 🏟 |
+| 103 | Kyle Monangai (RB, CHI) [Questionable] | RB29 | T4 | 145 | 20.3 | 87 | -15.8 |  |
+| 104 | J.K. Dobbins (RB, DEN) | RB30 | T4 | 144 | 19.7 | 87 | -17.3 |  |
+| 105 | Foyesade Oluokun (LB, JAX) | LB4 | T2 | 116 | 19.5 | 999 | +894.0 |  |
+| 106 | Chamarri Conner (DB, KC) | DB3 | T1 | 104 | 19.0 | 999 | +893.0 |  |
+| 107 | Sonny Styles (LB, WAS) | LB5 | T2 | 116 | 18.8 | 999 | +892.0 |  |
+| 108 | Harold Fannin (TE, CLE) | TE12 | T3 | 132 | 18.5 | 72 | -35.8 | ❄️ |
+| 109 | Jordan Mason (RB, MIN) | RB31 | T4 | 143 | 18.1 | 104 | -4.8 | 🏟📺 |
+| 110 | Brian Burns (DL/LB, NYG) | DL4 | T1 | 80 | 18.0 | 999 | +889.0 |  |
+| 111 | Tony Pollard (RB, TEN) | RB32 | T4 | 142 | 17.6 | 80 | -30.5 |  |
+| 112 | Denver Broncos (DEF, DEN) | DEF6 | T2 | 169 | 16.6 | 135 | +23.0 |  |
+| 113 | Carnell Tate (WR, TEN) [Questionable] | WR37 | T3 | 142 | 16.6 | 66 | -47.2 |  |
+| 114 | Jordan Addison (WR, MIN) | WR38 | T3 | 142 | 16.4 | 101 | -12.9 | 🏟 |
+| 115 | Brenton Strange (TE, JAX) | TE13 | T3 | 130 | 15.9 | 155 | +40.3 |  |
 | 116 | Courtland Sutton (WR, DEN) | WR39 | T3 | 139 | 13.8 | 84 | -32.5 | ❄️ |
-| 117 | Rico Dowdle (RB, PIT) | RB33 | T5 | 138 | 13.7 | 83 | -33.8 |  |
+| 117 | Rico Dowdle (RB, PIT) | RB33 | T4 | 138 | 13.7 | 83 | -33.8 |  |
 | 118 | Bo Nix (QB, DEN) | QB15 | T3 | 308 | 12.4 | 119 | +0.9 | ❄️📺 |
 | 119 | Jaxson Dart (QB, NYG) | QB16 | T3 | 307 | 11.6 | 96 | -22.5 | ❄️📺 |
 | 120 | Carson Schwesinger (LB, CLE) [Questionable] | LB6 | T2 | 107 | 9.7 | 999 | +879.0 |  |
@@ -156,12 +156,18 @@
 *Value = ADP minus our rank: positive means the market lets you draft them later than they're worth in THIS league's settings. Bold tier = first player after a projection cliff at his position — prefer the last player BEFORE a cliff over a deeper tier's best. Flags: ❄️ cold-weather venue in fantasy playoffs (wk 15-17), 🏟 dome, others per research note.*
 
 **Research notes applied:**
+- Kenneth Walker: Kenneth Walker: Expert layer (both): KC backfield emptied (Pacheco/Hunt gone), $45M guaranteed, new pass-catching role in Reid offense.
+- Breece Hall: Breece Hall: Expert layer (both): 91% of starter snaps in preseason — lone true round-3 workhorse; monitor 2-3wk groin.
 - DeVonta Smith: DeVonta Smith: Uncontested target share under new play-caller
 - Ladd McConkey: Ladd McConkey: McDaniel scheme riser: separation/YAC WR in motion-heavy system
 - Zay Flowers: Zay Flowers: Doyle motion/manufactured-touch system riser
 - Emeka Egbuka: Emeka Egbuka: Zac Robinson scheme: lead-role trajectory, WR9-PPG path
+- Christian Watson: Christian Watson: Expert layer (both): healthy off ACL (top-12 ppg when healthy), 37.4% GB targets vacated, $110M extension.
+- Rome Odunze: Rome Odunze: Expert layer (both): DJ Moore gone, confirmed first read for Caleb Williams; ~20 ppg pre-injury stretch last year.
 - Justin Herbert: Justin Herbert: McDaniel hire — QB1 buzz, best-transaction-of-offseason consensus
+- Alec Pierce: Alec Pierce: Expert layer (both): ankle surgery, no return timeline (likely PUP), Keenan Allen signed; TD burst came without Daniel Jones.
 - Mark Andrews: Mark Andrews: Inherits TE role vacated by Likely under new OC
+- Matthew Golden: Matthew Golden: Expert layer (both): confirmed starting X in 2-WR sets in preseason, ahead of Reed; 37.4% of GB targets vacated.
 
 ## Late-Round League Winners
 
