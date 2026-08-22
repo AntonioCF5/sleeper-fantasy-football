@@ -230,7 +230,10 @@ main{flex:1;min-height:0;width:100%;max-width:1560px;margin:0 auto;
 .teamplayer{display:flex;align-items:center;gap:10px;background:var(--surface);
   border:1px solid var(--border);border-radius:11px;padding:10px 14px;margin-bottom:6px}
 .teamplayer .tp-name{font-weight:650;font-size:14px;display:flex;align-items:center;gap:7px}
-.teamplayer .tp-vorp{margin-left:auto;font-weight:700;font-size:15px}
+.tp-vorp-wrap{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;
+  gap:1px}
+.teamplayer .tp-vorp{font-weight:700;font-size:15px}
+.tp-vorp-label{font-size:9px;color:var(--ink3);text-transform:uppercase;letter-spacing:.4px}
 @media(max-width:640px){#view-team{padding:0}
   .teamhead{padding:12px 14px;gap:8px}
   .teamhead-stat{min-width:52px}
@@ -891,7 +894,7 @@ function renderTeam(d){
       <h3>${esc(pos)} <span class="cnt">${players.length}</span></h3>
       ${players.map(p=>`
         <div class="teamplayer">${player(p)}
-          <span class="tp-vorp num">${p.vorp!=null?p.vorp.toFixed(0):"—"}</span>
+          <span class="tp-vorp-wrap"><span class="tp-vorp num term" data-tip="${esc(TERMDEF["VORP"])}">${p.vorp!=null?p.vorp.toFixed(0):"—"}</span><span class="tp-vorp-label">VORP</span></span>
         </div>`).join("")}
     </div>`;
   }).join("");
