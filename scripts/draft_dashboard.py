@@ -733,8 +733,25 @@ function player(p,extra=""){return `<span class="pname">${esc(p.name)}
 
 let leaguesList=[];
 async function loadLeagues(){
-  const r=await fetch("/api/leagues"); leaguesList=await r.json();
-  if(!currentLeague) currentLeague=leaguesList[0]?.league_id;
+  // The first request can race the server's initial board computation (which
+  // can take a minute). Retry instead of letting one failure kill init() and
+  // leave the league switcher permanently empty.
+  for(let attempt=0; attempt<40 && !leaguesList.length; attempt++){
+    try{
+      const r=await fetch("/api/leagues");
+      const j=await r.json();
+      if(Array.isArray(j) && j.length){ leaguesList=j; break; }
+    }catch(e){ /* server still warming up */ }
+    $("err").textContent="loading leagues…";
+    await new Promise(res=>setTimeout(res,1500));
+  }
+  $("err").textContent="";
+  if(!leaguesList.length){
+    $("err").textContent="could not load leagues — is the server still starting?";
+    return;
+  }
+  if(!currentLeague || !leaguesList.some(l=>l.league_id===currentLeague))
+    currentLeague=leaguesList[0]?.league_id;
   $("leagueSel").innerHTML=leaguesList.map(l=>
     `<option value="${l.league_id}" ${l.league_id===currentLeague?"selected":""}>${esc(l.name)} — ${l.teams}t</option>`).join("");
   paintLeagueStatus(leaguesList.find(l=>l.league_id===currentLeague));
@@ -900,14 +917,22 @@ function renderTeam(d){
   }).join("");
 }
 
-let lastStamp=null, lastTickAt=0;
+let lastStamp=null, lastTickAt=0, everRendered=false;
 async function tick(){
   try{
     const r=await fetch("/data?league_id="+encodeURIComponent(currentLeague||""));
     const j=await r.json();
-    if(j.data && (j.stamp!==lastStamp)){render(j.data);lastStamp=j.stamp;}
+    if(j.data && (j.stamp!==lastStamp)){render(j.data);lastStamp=j.stamp;everRendered=true;}
     lastTickAt=Date.now();
     $("err").textContent=j.error?("api: "+j.error):"";
+    // A blank page with a tiny red "loading" line reads as broken. Until the
+    // first render lands, say plainly that boards are being computed.
+    if(!everRendered){
+      $("draftBanner").innerHTML=
+        `<div class="banner">⏳ Computing boards for this league — projections are
+         re-scored under its exact settings, which takes up to a minute on a
+         cold start. This panel fills in automatically.</div>`;
+    }
   }catch(e){$("err").textContent="connection lost — retrying";}
 }
 setInterval(()=>{
@@ -1010,11 +1035,17 @@ function renderRankings(){
 }
 
 (async function init(){
-  renderGlossary();
-  await loadLeagues();
-  setView(currentView);
-  await selectLeague();
-  tick();
+  try{
+    renderGlossary();
+    await loadLeagues();
+    setView(currentView);
+    if(leaguesList.length) await selectLeague();
+    tick();
+  }catch(e){
+    // Never leave the UI half-booted and silent — say what broke.
+    $("err").textContent="startup error: "+(e&&e.message?e.message:e);
+    tick();
+  }
 })();
 </script></body></html>"""
 
