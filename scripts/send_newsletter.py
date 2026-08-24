@@ -4,12 +4,15 @@
 Zero dependencies: a purpose-built converter for the newsletter's markdown
 subset (h1-h3, bold, italic, links, tables, lists, hr) + smtplib over Gmail.
 
-Credentials: data/secrets/email.json (gitignored), created BY THE USER:
-    {"from": "antonio.contreras.fa@gmail.com",
-     "to": "antonio.contreras.fa@gmail.com",
-     "app_password": "xxxx xxxx xxxx xxxx"}
-The app password is a Gmail App Password (Google Account -> Security ->
-2-Step Verification -> App passwords). Never commit it.
+Credentials: the Gmail App Password lives in the macOS login Keychain, not
+in any repo file. Store it yourself, in your own terminal:
+    security add-generic-password -a "<gmail address>" \
+      -s sleeper-newsletter-gmail -w
+(prompts with echo off; get the app password first at
+https://myaccount.google.com/apppasswords — requires 2-Step Verification).
+Sender/recipient addresses are not secret and default to the user's own
+address; override with data/secrets/email.json (gitignored):
+    {"from": "you@gmail.com", "to": "you@gmail.com"}
 
 Usage:
     python3 scripts/send_newsletter.py                # today's edition
@@ -22,6 +25,7 @@ import json
 import re
 import smtplib
 import ssl
+import subprocess
 import sys
 from datetime import date
 from email.mime.multipart import MIMEMultipart
@@ -29,6 +33,34 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+KEYCHAIN_SERVICE = "sleeper-newsletter-gmail"
+DEFAULT_EMAIL = "antonio.contreras.fa@gmail.com"
+
+
+def _keychain_password(account: str) -> str:
+    """Fetch the Gmail app password from the macOS login Keychain.
+
+    The password is never stored in a repo file — `security` decrypts it
+    from the encrypted Keychain only for this lookup. Store it yourself
+    (not via this script) with:
+        security add-generic-password -a "<gmail address>" \\
+          -s sleeper-newsletter-gmail -w
+    which prompts for the password with terminal echo off.
+    """
+    try:
+        out = subprocess.run(
+            ["security", "find-generic-password", "-a", account,
+             "-s", KEYCHAIN_SERVICE, "-w"],
+            capture_output=True, text=True, check=True)
+        return out.stdout.strip()
+    except subprocess.CalledProcessError:
+        sys.exit(
+            f"No Keychain entry for account={account!r} service={KEYCHAIN_SERVICE!r}.\n"
+            "Store the Gmail App Password yourself, in your own terminal (not through me), with:\n\n"
+            f'  security add-generic-password -a "{account}" -s {KEYCHAIN_SERVICE} -w\n\n'
+            "It will prompt for the password with the terminal not echoing what you type.\n"
+            "Get the app password first at https://myaccount.google.com/apppasswords\n"
+            "(requires 2-Step Verification enabled).")
 
 # ---------------------------------------------------------------- palette
 INK = "#1a1f2e"
@@ -162,24 +194,26 @@ def main():
     if html_only:
         return
 
-    secrets_path = ROOT / "data" / "secrets" / "email.json"
-    if not secrets_path.exists():
-        sys.exit(
-            "data/secrets/email.json missing — create it yourself (never commit):\n"
-            '  {"from": "you@gmail.com", "to": "you@gmail.com", "app_password": "xxxx xxxx xxxx xxxx"}\n'
-            "App password: Google Account -> Security -> 2-Step Verification -> App passwords.")
-    cfg = json.loads(secrets_path.read_text())
+    # From/to addresses are not secret — an optional data/secrets/email.json
+    # may override them ({"from": "...", "to": "..."}), else both default
+    # to the user's own address. The password never lives in a repo file.
+    addr_path = ROOT / "data" / "secrets" / "email.json"
+    addrs = json.loads(addr_path.read_text()) if addr_path.exists() else {}
+    sender = addrs.get("from", DEFAULT_EMAIL)
+    recipient = addrs.get("to", DEFAULT_EMAIL)
+    app_password = _keychain_password(sender)
+
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"🏈 Expert Daily — {day}"
-    msg["From"] = cfg["from"]
-    msg["To"] = cfg["to"]
+    msg["From"] = sender
+    msg["To"] = recipient
     msg.attach(MIMEText(md_path.read_text(), "plain"))
     msg.attach(MIMEText(doc, "html"))
     ctx = ssl.create_default_context()
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ctx) as s:
-        s.login(cfg["from"], cfg["app_password"])
-        s.sendmail(cfg["from"], [cfg["to"]], msg.as_string())
-    print(f"sent to {cfg['to']}")
+        s.login(sender, app_password)
+        s.sendmail(sender, [recipient], msg.as_string())
+    print(f"sent to {recipient}")
 
 
 if __name__ == "__main__":
