@@ -47,7 +47,9 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
    info (usage/role/injury) only, never opinion.
 5. **Risk index is systematic** (age curves + durability + injury +
    volatility), shaves ≤12% of positive VORP before ranking. Never hand-tune.
-6. **Elite = capped top-3 by VORP within tier 1 per position**, excludes K.
+6. **Elite = capped top-3 by VORP within tier 1 per position**, excludes K
+   everywhere and DEF in dynasty leagues (2026-08-24: DEF is a streaming
+   commodity there — a crown invites paying up for one).
 7. **Travis Hunter positional fix**: `analysis.canonical_pos()` prefers
    offensive tags for two-way players — never take `fantasy_positions[0]` raw.
 8. **IDP excluded from all boards** (2026-08-24, user decision): DL/LB/DB

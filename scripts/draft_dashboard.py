@@ -90,7 +90,7 @@ def build_board_payload(league_id, ctx):
     completion, roster ownership once the draft is done — this is what makes
     the Rankings view double as a free-agent/waiver board in season)."""
     config, league, draft, players, board, adp, winners, style, risk = ctx
-    elite_ids = live_draft.compute_elite_ids(board)
+    elite_ids = live_draft.compute_elite_ids(board, league)
     owners = _owner_names(league_id)
     taken = {}
     if draft.get("status") != "complete":

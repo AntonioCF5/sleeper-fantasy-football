@@ -143,7 +143,7 @@ def _player_dict(players, pid, adp=None):
 ELITE_CAP_PER_POS = 3
 
 
-def compute_elite_ids(board):
+def compute_elite_ids(board, league=None):
     """'Elite' = the true standout tier at a position, not just 'no cliff
     found yet.' Tier 1 from analysis._assign_tiers can balloon to 100+
     players on flat, low-differentiation positions (deep IDP, kickers)
@@ -154,10 +154,16 @@ def compute_elite_ids(board):
     (meaningfully above replacement), so elite stays a small, real signal —
     usually 1-3 players per position, matching how the term is actually used.
     """
+    # K is excluded everywhere (flat position, no real elite tier). In
+    # DYNASTY leagues DEF is excluded too (user decision 2026-08-24): DEF is
+    # a streaming commodity there, and a crown invites paying up for one.
+    exclude = {"K"}
+    if league is not None and (league.get("settings") or {}).get("type") == 2:
+        exclude.add("DEF")
     by_pos = defaultdict(list)
     for r in board:
-        if r["pos"] == "K":
-            continue  # kickers are a genuinely flat position — no real elite tier exists
+        if r["pos"] in exclude:
+            continue
         if r.get("tier") == 1 and r["vorp"] > 0:
             by_pos[r["pos"]].append(r)
     ids = set()
@@ -331,7 +337,7 @@ def compute_advice(league_id, exclude=frozenset(), ctx=None):
     # Computed once from the full frozen `board` (not the shrinking `live`
     # pool), so a player stays tagged elite all draft long even after other
     # tier-1 peers get drafted, and it still applies to rostered players.
-    elite_ids = compute_elite_ids(board)
+    elite_ids = compute_elite_ids(board, league)
 
     out = {
         "league": league["name"],
