@@ -79,6 +79,37 @@ methods whenever a distillation pass reveals one; date additions.*
   pre-empt waiver bidding, with a stated plan to drop them for K/DEF by
   week 1. Complements our week-1 cut discipline rule. [sal-vetri]
 
+## Mechanism audit — verify the WHY, not just the WHO (added 2026-08-24)
+
+A take bundles a **conclusion** ("Shaheed is underpriced") with a
+**mechanism** ("because the gutted RB room forces Seattle to pass"). These
+fail independently: a right conclusion can rest on a wrong mechanism. Check
+them separately, and when a mechanism is testable against our data, test it
+before repeating it — a mechanism restated as shorthand becomes an
+established fact in the next document that cites it.
+
+**Known-weak causal chains to challenge on sight:**
+
+- **"Thin/injured backfield → team passes more → WR volume."** Mostly false
+  for good teams. Pass rate is driven by *game script* (trailing teams
+  throw), down/distance, and coaching philosophy — not RB quality. A team
+  with a high Vegas win total leads more, and leading teams **run** more.
+  Vacated carries get absorbed by whoever is next up, not converted to
+  throws. Caught live 2026-08-24 on Sal's Shaheed take (SEA, 10.5-win
+  total), and in our own writing on Reed (GB, 9.5) and Evans (SF, 9.5).
+  The chain IS legitimate for genuinely bad teams — New Orleans at a 7.5-win
+  total will trail and throw — so check the win total before accepting it.
+- **The stronger argument is usually already in our data.** In all three
+  cases above, `team_env.json` carried a far better reason than the
+  narrative one: vacated TARGET share (GB 37.4%, SF 29.9%). Reach for the
+  measured input over the story. If a take's stated mechanism is weak but
+  a measured one supports the same conclusion, say so explicitly — swap the
+  reasoning, keep the conclusion, and note the swap.
+- **Cross-position claims need an explicit transmission channel.** Linking
+  a RB's injury to a WR's value requires naming the channel (pass rate,
+  target share, red-zone role) and checking it. "Same team" is not a
+  mechanism.
+
 ## Presentation techniques
 
 - **Every verdict is cost-anchored** — no take ends without the price and the reversal price. [sal-vetri]

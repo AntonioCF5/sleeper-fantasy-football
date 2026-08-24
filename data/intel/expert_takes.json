@@ -697,8 +697,8 @@
    "pos": "WR",
    "source": "sal-vetri",
    "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Beat reports say 'major factor'; non-JSN competition is aging Kupp + injured rookie, and with the RB room gutted (Walker gone, Charbonnet out ~Nov) Seattle must lean pass.",
+   "conviction": "low",
+   "why": "Listed WR2 on the depth chart with weak target competition behind JSN (Kupp 33 and declining, Horton young/banged up); beat reports say 'major factor'. NOTE: Sal also argued the gutted RB room forces pass volume \u2014 our check rejects that leg (SEA is a 10.5-win favorite, and leading teams run MORE; vacated carries get absorbed, not converted to passes). Target competition is the load-bearing mechanism, not the backfield.",
    "videos": [
     "NSmbdG-BJaQ"
    ]
@@ -1032,13 +1032,14 @@
    "date": "2026-08-22"
   },
   {
-   "fact": "Projected 500+ pass attempts; Charbonnet out until ~November, Walker gone \u2014 RB room forces pass volume",
+   "fact": "Sal projects 500+ pass attempts, reasoning the gutted RB room (Walker gone, Charbonnet out ~Nov) forces pass volume. CONTRADICTED by our data: 10.5-win total + tier-2 offense means SEA leads often, and leading teams run more; 44.6% vacated rush share gets absorbed by Price/Charbonnet, not thrown.",
    "about": "Seattle Seahawks",
    "source": "sal-vetri",
    "videos": [
     "NSmbdG-BJaQ"
    ],
-   "date": "2026-08-22"
+   "date": "2026-08-22",
+   "our_check": "contradicted"
   },
   {
    "fact": "4 TDs in final 3 games at 6.1 ypc; top-tier rookie rush success rate",

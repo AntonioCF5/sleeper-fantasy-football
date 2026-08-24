@@ -259,6 +259,16 @@ overall-pick-based and need no conversion.
 **How takes influence decisions (discipline rules):**
 - Takes are VISIBILITY by default: a 📺 flag + tooltip on boards. They never
   move projections by themselves.
+- **Audit the mechanism separately from the conclusion.** Every take bundles
+  a call with a stated reason, and they fail independently. Before repeating
+  a mechanism — especially as shorthand in another section — test it against
+  our data if it is testable. The recurring offender is "thin/injured
+  backfield → team passes more → WR volume": pass rate follows game script,
+  so a favorite (high Vegas win total) runs MORE, and vacated carries get
+  absorbed, not thrown. See the mechanism-audit section of
+  `expert_methods.md` for the full list. When the conclusion survives but
+  the stated reason doesn't, swap in the measured driver (vacated target
+  share, usage) and say that you did.
 - A take may justify a `player_adjust.json` entry ONLY when it carries new
   real-world information (role change, camp usage, injury detail) —
   the coaching-layer standard — never "expert likes him" alone. Written
