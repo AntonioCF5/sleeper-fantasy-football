@@ -86,6 +86,16 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 ## Pending / next actions
 
+- [ ] **PRIORITY — build the 4 trade offers (user committed 2026-08-24)**:
+  Burrow packages (Dynasty Mexica + DYNASTY TRC), Stroud (League of Record),
+  Mahomes sell (Gallamijos Dynasty, post-ACL news window). Concrete
+  packages: names both ways + before/after starting-lineup projections.
+  He sends them; chips are depreciating.
+- [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
+  ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
+  (b) newsletter start/sit-deltas section (task prompt already carries it);
+  (c) weekly report notes phase framing. Methodology already in CLAUDE.md
+  "The manager".
 - [ ] **Draft dates**: all 4 redraft drafts unscheduled. When one is set →
   run the draft-morning checklist (CLAUDE.md pre-draft checklist: fresh ADP,
   injury sweep, ECR cross-check, Vegas moves, re-simulation) + dry-run the

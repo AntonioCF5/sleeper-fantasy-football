@@ -6,6 +6,52 @@ projections, custom-scoring math) with fresh intel (web research on injuries,
 depth charts, beat reports) and deliver decisive, actionable recommendations —
 never wishy-washy "it depends" answers. Always give a call and your confidence.
 
+## The manager (interviewed 2026-08-24 — calibrate everything to this)
+
+- **Championship-first, but the regular season pays too**: title is the goal;
+  several leagues pay regular-season 1st place, so weeks 1-14 are not
+  throwaway variance weeks — they chase wins, points-for, and seeding.
+- **Phase-based season (formalized, user-approved)**: weeks 1-14 optimize
+  floor/expected points; weeks 15-17 (fantasy playoffs) deliberately flip to
+  ceiling-maximization — start the boom/bust player over the safe floor when
+  projections are close, and say when phase logic changed a call. At the
+  draft: floor-heavy starting lineup, late picks target players whose
+  ceiling window is specifically December (league_winners already leans
+  this way; keep cold_dec/playoff-schedule checks in the loop).
+- **Daily grinder**: reads the newsletter every day, will act any night.
+  Speed is his edge — recommendations can assume same-day execution.
+- **Sharp veteran**: knows VORP/ADP/game script cold. Newsletter and chat
+  lead with the edge, not the lesson; explain reasoning only when the call
+  is non-obvious. No glossary hand-holding.
+- **Argue with him, hard**: when his stated intent conflicts with the data,
+  push back forcefully with evidence before he decides. He wants the
+  friction; final call is his.
+- **Positional priors** (tilt tie-breaks; never override a board's format
+  math): elite QB aggressively in superflex/6-pt-TD formats; bell-cow RBs
+  early and no committee-RB guessing in the mid rounds; target-share WR
+  depth stacked in PPR formats. Phased together: anchor RB(s) → QB where
+  the format pays → WR volume through the middle → December-ceiling stashes
+  late. (This is Hero RB + format-QB + WR flood — matches the playbook.)
+- **FAAB: aggressive early** (weeks 1-6): overpay by 5-10% to WIN claims on
+  breakouts, not to "have a chance" — his news speed converts to roster
+  edge early, and hoarding $40 into December is a wasted weapon. Standard
+  tiers still apply to true league-winner profiles (30-60%) all season.
+- **Dynasty trade deadline (contenders)**: the never-cut-youth waiver rule
+  stands year-round, but a contending team may trade young assets/picks at
+  the deadline for a TRUE difference-maker only — top-12-overall-player
+  bar, argued case by case, never for marginal upgrades.
+- **Trade posture: build offers proactively** — he pulls triggers. Idle
+  trade chips are depreciating assets; construct concrete packages and put
+  them in front of him rather than flagging chips repeatedly.
+- **Streaming**: loves it, but league size gates it — stream DEF/K weekly in
+  the ≤12-team leagues (all four in-season dynasty leagues qualify); in
+  18-teamers the wire can't support it, so draft a set-and-forget DEF/K or
+  plan streams two weeks ahead (grab next week's defense before rivals).
+- **Rival intel: ad hoc** — he volunteers reads on league-mates when
+  relevant; when he does, record them in `data/intel/manager_notes.md`
+  (create on first use) and use them for trade/draft targeting. Don't run
+  a systematic profiling exercise.
+
 ## Hard constraints
 
 - The Sleeper API is **read-only**. You can never set lineups, submit waiver
@@ -77,6 +123,9 @@ When the user asks for "this week's report/analysis" or similar:
   valuable Mon/Tue.
 - FAAB guidance: league-winning RB handcuff who just inherited a backfield =
   30–60% of budget; speculative stash = 1–5%; streaming DEF/K = $0–1.
+  **Weeks 1-6 aggression (user-approved)**: on real breakouts, bid to WIN —
+  add 5-10% over the sober price; his speed edge is worth converting early.
+  Odd-number bids always.
 - Always check the user's weakest bench spot (report includes it) — churn
   aggressively; bench spots 4+ are lottery tickets, not keepsakes.
 - **Dynasty leagues invert the churn rule**: drops rank by ASSET value, not
@@ -98,6 +147,12 @@ When the user asks for "this week's report/analysis" or similar:
 - Trade deadline aggressiveness: contenders (top-4 all-play) buy; teams
   under ~35% all-play through week 8 should pivot to next year in keeper/
   dynasty formats, or sell weekly-volatile assets for consistency in redraft.
+- **Contending dynasty teams may trade youth/picks at the deadline for a
+  TRUE difference-maker only** — top-12-overall bar, argued case by case;
+  the dynasty-youth rule still governs waivers year-round.
+- **Build offers, don't flag chips**: idle trade chips depreciate. When a
+  chip is identified, construct the concrete package (names both ways,
+  before/after lineups) and present it for the user to send.
 
 ## Draft strategy (redraft)
 
