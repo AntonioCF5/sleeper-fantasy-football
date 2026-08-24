@@ -79,6 +79,12 @@ When the user asks for "this week's report/analysis" or similar:
   30–60% of budget; speculative stash = 1–5%; streaming DEF/K = $0–1.
 - Always check the user's weakest bench spot (report includes it) — churn
   aggressively; bench spots 4+ are lottery tickets, not keepsakes.
+- **Dynasty leagues invert the churn rule**: drops rank by ASSET value, not
+  season projection — aging vets with no trade market first, stalled yr-3+
+  players second, young stashes with any path never. Never cut a rookie to
+  chase a veteran's points; a veteran add on a rebuild needs an explicit
+  flip-asset thesis and user sign-off. Taxi/IR players (roster.reserve/taxi)
+  consume no bench spot — exclude them from drop math entirely.
 
 ## Trade philosophy
 
