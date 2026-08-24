@@ -106,8 +106,6 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   player adjustments — revisit on draft morning with usage reports.
 - [ ] **FANTASY MEXICA**: remind commissioner to fix assist scoring to 0.5
   before week 1. If league will play at 5.0, IDP strategy inverts (ask user).
-- [ ] **Dynasty trades**: construct concrete Burrow offers (Dynasty Mexica,
-  DYNASTY TRC) and Stroud offer (League of Record) when user says go.
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
   Mon/Tue, lineup calls, trending adds. Candidate feature: lineup/start-sit
   view in the dashboard (user deferred until closer to week 1).
