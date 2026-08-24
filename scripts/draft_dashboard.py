@@ -610,7 +610,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <button data-m="queue" onclick="setMTab('queue')">💤 Queue</button>
   </div>
   <div class="progress"><i id="progressbar" style="width:0%"></i></div>
-  <div id="trailBar" style="display:none"><span class="trail-label term" data-tip="Your recent places in the command center — one click jumps back without re-navigating. Browser back/forward works too.">🧭</span><span id="trailChips"></span></div>
+  <div id="pathBar"><span class="path-back term" data-tip="Go back to where you were (browser back works too)" onclick="history.back()">←</span><span id="pathCrumbs" class="term" data-tip="Where you are: league / view / selection. Click any segment to jump straight there."></span></div>
 </header>
 
 <div id="tooltip"></div>
@@ -739,14 +739,19 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
 .ownerlink{color:var(--accent);cursor:pointer;text-decoration:underline;
   text-decoration-style:dotted;text-underline-offset:2px}
 .ownerlink:hover{filter:brightness(1.2)}
-#trailBar{display:flex;align-items:center;gap:6px;padding:4px 14px 6px;
-  overflow-x:auto;scrollbar-width:none;white-space:nowrap}
-#trailBar::-webkit-scrollbar{display:none}
-.trail-label{font-size:12px;flex:0 0 auto}
-.trailchip{display:inline-block;background:var(--surface2);border:1px solid var(--border);
-  border-radius:20px;padding:2px 10px;font-size:11.5px;color:var(--ink2);
-  cursor:pointer;margin-right:4px;flex:0 0 auto}
-.trailchip:hover{border-color:var(--accent);color:var(--ink)}
+#pathBar{display:flex;align-items:center;gap:8px;padding:4px 14px 6px;
+  overflow-x:auto;scrollbar-width:none;white-space:nowrap;
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+#pathBar::-webkit-scrollbar{display:none}
+.path-back{color:var(--ink2);cursor:pointer;border:1px solid var(--border);
+  border-radius:6px;padding:1px 8px;background:var(--surface2);flex:0 0 auto;
+  user-select:none}
+.path-back:hover{color:var(--ink);border-color:var(--accent)}
+#pathCrumbs{color:var(--ink3)}
+.crumb{color:var(--ink2);cursor:pointer;padding:1px 2px}
+.crumb:hover{color:var(--accent);text-decoration:underline}
+.crumb.here{color:var(--ink);cursor:default;text-decoration:none}
+.crumb-sep{color:var(--ink3);margin:0 4px;user-select:none}
 #glossary{position:fixed;top:0;right:0;bottom:0;width:380px;max-width:92vw;
   background:var(--surface);border-left:1px solid var(--border);z-index:21;
   transform:translateX(100%);transition:transform .22s ease;
@@ -890,6 +895,7 @@ document.addEventListener("keydown",e=>{
 let currentView=qs.get("view")||localStorage.getItem("ff_view")||"draft";
 let currentLeague=qs.get("league")||localStorage.getItem("ff_league")||null;
 let wasOnClock=false, rankingsLoaded=false, rankingsData=[], sortKey="vorp", sortDir=-1, availOnly=false;
+let currentRival=qs.get("rival")||null;
 
 function setView(v){
   currentView=v; localStorage.setItem("ff_view",v);
@@ -908,10 +914,11 @@ function setView(v){
 }
 function updateUrl(){
   const p=new URLSearchParams(); p.set("league",currentLeague||""); p.set("view",currentView);
+  if(currentView==="rivals"&&currentRival) p.set("rival",currentRival);
   const url="?"+p.toString();
   if(typeof popNav!=="undefined" && popNav){history.replaceState(null,"",url);}
   else if(location.search!==url){history.pushState(null,"",url);}
-  if(typeof pushTrail==="function") try{pushTrail({league:currentLeague,view:currentView});renderTrail();}catch(e){}
+  try{renderPath();}catch(e){}
 }
 // Mobile section tabs (Draft Room only; CSS-gated to <=820px)
 let mTab=localStorage.getItem("ff_mtab")||"picks";
@@ -1215,7 +1222,6 @@ async function showRoster(owner, skipTrail){
     ${team.reserve.length?`<h3>IR (${team.reserve.length})</h3>${rosterRows(team.reserve)}`:""}
     ${team.taxi.length?`<h3>Taxi (${team.taxi.length})</h3>${rosterRows(team.taxi)}`:""}`;
   $("rosterPane").classList.add("open");$("rosterBack").classList.add("open");
-  if(!skipTrail) pushTrail({league:currentLeague,view:currentView,roster:team.owner});
 }
 function closeRoster(){$("rosterPane").classList.remove("open");$("rosterBack").classList.remove("open");}
 async function showRosterIndex(){
@@ -1249,9 +1255,11 @@ function rivalTeamHtml(team){
 async function loadRivals(leagueChanged){
   const j=await fetchRosters(false);
   if(j.error||!j.teams){$("rivalBody").innerHTML=`<div class="empty">Couldn't load rosters.</div>`;return;}
-  const saved=localStorage.getItem("ff_rival_"+currentLeague);
+  const saved=(currentRival&&j.teams.some(x=>x.owner===currentRival))?currentRival
+            :localStorage.getItem("ff_rival_"+currentLeague);
   let pick=(!leagueChanged&&saved&&j.teams.some(x=>x.owner===saved))?saved
            :(j.teams.find(x=>!x.mine)||j.teams[0]).owner;
+  currentRival=pick;
   $("rivalSel").innerHTML=j.teams.map(x=>
     `<option value="${esc(x.owner)}" ${x.owner===pick?"selected":""}>${esc(x.owner)}${x.mine?" (you)":""} — ${esc(x.record)} · proj ${x.starters_proj}</option>`).join("");
   renderRival(j, pick);
@@ -1262,53 +1270,34 @@ function renderRival(j, owner){
 }
 async function selectRival(owner){
   localStorage.setItem("ff_rival_"+currentLeague, owner);
+  currentRival=owner;
   const j=await fetchRosters(false);
   if(!j.error&&j.teams) renderRival(j, owner);
-  pushTrail({league:currentLeague,view:"rivals",roster:owner});
+  updateUrl();
 }
 
-// ---------- navigation trail ----------
-// Recent places, one click back — no re-navigating through dropdown+tabs.
+// ---------- breadcrumb path (terminal-style) ----------
+// The URL is the path: league / view [ / rival ]. ← is real history-back.
 const VIEW_LABEL={draft:"Draft Room",rankings:"Rankings",team:"My Team",moves:"Moves",rivals:"Rivals"};
-let trail=[]; try{trail=JSON.parse(localStorage.getItem("ff_trail")||"[]");}catch(e){}
 function leagueShort(lid){
   const l=leaguesList.find(x=>x.league_id===lid);
-  return l?l.name.replace(/^🪓 /,"").slice(0,14):"…";
+  return l?l.name.replace(/^🪓 /,""):"…";
 }
-function locKey(l){return l.league+"|"+l.view+"|"+(l.roster||"");}
-function pushTrail(loc){
-  loc.ts=Date.now();
-  trail=trail.filter(x=>locKey(x)!==locKey(loc));
-  trail.push(loc);
-  if(trail.length>10) trail=trail.slice(-10);
-  localStorage.setItem("ff_trail",JSON.stringify(trail));
-  renderTrail();
-}
-function renderTrail(){
+function renderPath(){
   if(!leaguesList.length) return;
-  const cur={league:currentLeague,view:currentView,roster:""};
-  const others=trail.filter(x=>locKey(x)!==locKey(cur)).slice(-5).reverse();
-  $("trailBar").style.display=others.length?"":"none";
-  $("trailChips").innerHTML=others.map((l,i)=>
-    `<span class="trailchip" data-ti="${trail.indexOf(l)}">↩ ${esc(leagueShort(l.league))} · ${l.roster?("👥 "+esc(l.roster)):VIEW_LABEL[l.view]||l.view}</span>`).join("");
+  const segs=[{label:leagueShort(currentLeague),act:"league"},
+              {label:VIEW_LABEL[currentView]||currentView,act:"view"}];
+  if(currentView==="rivals"&&currentRival) segs.push({label:currentRival,act:"rival"});
+  $("pathCrumbs").innerHTML=segs.map((s,i)=>{
+    const here=i===segs.length-1;
+    return `<span class="crumb${here?" here":""}" data-act="${s.act}">${esc(s.label)}</span>`;
+  }).join(`<span class="crumb-sep">/</span>`);
 }
-document.addEventListener("click",async e=>{
-  const chip=e.target.closest(".trailchip");
-  if(!chip) return;
-  const loc=trail[+chip.dataset.ti];
-  if(!loc) return;
-  if(loc.league!==currentLeague){
-    currentLeague=loc.league; localStorage.setItem("ff_league",currentLeague);
-    const sel=$("leagueSel"); if(sel) sel.value=currentLeague;
-    paintLeagueStatus(leaguesList.find(l=>l.league_id===currentLeague));
-    rankingsLoaded=false;
-    await selectLeague();
-  }
-  setView(loc.view);
-  if(loc.roster){
-    if(loc.view==="rivals"){ localStorage.setItem("ff_rival_"+currentLeague, loc.roster); loadRivals(); }
-    else showRoster(loc.roster,true);
-  }
+document.addEventListener("click",e=>{
+  const c=e.target.closest(".crumb");
+  if(!c||c.classList.contains("here")) return;
+  if(c.dataset.act==="league") setView("draft");        // league root = Draft Room
+  else if(c.dataset.act==="view") setView(currentView); // re-affirm view (drops rival)
 });
 // Browser back/forward: URL is pushed on each navigation (see updateUrl),
 // popstate restores without re-pushing.
@@ -1317,6 +1306,7 @@ window.addEventListener("popstate",async ()=>{
   const q=new URLSearchParams(location.search);
   const lg=q.get("league"), vw=q.get("view")||"draft";
   popNav=true;
+  currentRival=q.get("rival")||null;
   if(lg && lg!==currentLeague){
     currentLeague=lg; localStorage.setItem("ff_league",lg);
     const sel=$("leagueSel"); if(sel) sel.value=lg;

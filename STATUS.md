@@ -76,9 +76,11 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   drops, trade cards — is a link opening their roster: starters/bench/IR/
   taxi with projections, /api/rosters cached 10 min). Also a **👥 Rivals tab**: rival dropdown
   (record + projected lineup in each option, per-league selection
-  remembered) with the full roster inline. **🧭 Navigation
-  trail**: recent places (league · view · roster) as one-click jump-back
-  chips under the tabs, plus real browser back/forward via pushState.
+  remembered) with the full roster inline. **Breadcrumb path bar**
+  (terminal-style, monospace): `← League / View / Rival` under the tabs —
+  segments clickable (league = that league's Draft Room), ← is true
+  history-back, and the URL carries the full path incl. selected rival so
+  browser back/forward restores everything.
   League switcher, glossary, custom tooltips, on-clock beep + auto-jump,
   collapsible sections. `/api/moves` caches 10 min (force=1 to refresh).
   Launch config: `.claude/launch.json`. NOTE for the daily task + future
