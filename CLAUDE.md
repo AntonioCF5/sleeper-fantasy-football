@@ -206,7 +206,7 @@ superflex/TE-prem/PPFD/IDP/league size) and "holds across all 8" (value
 range) → methodology → portfolio impact → "for your review" (never acted on
 unattended). Everywhere a player the user owns appears, the name is bolded
 with the owning league(s); player/league names hyperlink to the Sleeper web
-app (sleeper.com/players/nfl/<pid>, sleeper.com/leagues/<league_id>).
+app (sleeper.com/nfl/players/<pid>, sleeper.com/leagues/<league_id>/league).
 News + Injuries publish daily even when no new videos exist. Each edition is
 also **emailed** to the user as a styled HTML email via
 `scripts/send_newsletter.py` (stdlib markdown→HTML renderer + Gmail SMTP;
