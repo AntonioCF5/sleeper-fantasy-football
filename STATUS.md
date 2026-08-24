@@ -19,10 +19,10 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 | Gallamijos League | 18t, full PPR + PPFD, IDP | pre_draft, slot 2 | Hero RB → WR flood → late-round QB |
 | 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
 | 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
-| Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Trade chip: Burrow (benched behind Maye) → RB2 upgrade |
-| DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: trade QB surplus (Burrow/Goff benched) for WR2/TE |
+| Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Burrow UNTRADEABLE (Bengals fan) — he's Maye insurance; TE surplus (LaPorta) is the RB2 trade capital |
+| DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: Goff is the tradeable QB surplus (Burrow untouchable) → WR2/TE; pounce trigger armed |
 | League of Record | 12t, **dynasty**, TE-prem, 6pt paTD | in_season, #8 of 12 | Stroud is the trade chip; Bowers untouchable; RB is the hole. (Confirmed settings.type=2 — apply dynasty rules here, incl. dynasty-value waivers and trade-posture framing.) |
-| Gallamijos Dynasty | 12t, full PPR | in_season, #10 of 12 | Rebuild: sell Mahomes/Montgomery for youth + 2027 firsts |
+| Gallamijos Dynasty | 12t, full PPR | in_season, #10 of 12 | Rebuild: sell Mahomes/Montgomery for youth + 2027 firsts (offer out to ElGeneral4 for Jeanty) |
 
 ## Key decisions & standing rules (chronological)
 
@@ -89,18 +89,19 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 - [ ] **STANDING TRADE OFFERS — built 2026-08-24, user to send** (full
   packages + pitch scripts in the 2026-08-22 newsletter "Recommended
   trades"; update state here as sent/countered/dead):
-  1. Dynasty Mexica → Mexicas: Burrow for Breece Hall (both lineups +5 —
-     mutual win, lead offer).
-  2. League of Record → Gernant88: Stroud + Corum for Breece Hall (me +64);
-     fallback Stroud for Bucky Irving (me +53, them -3). Their QB2 is
-     Flacco — insurance sell.
+  UNTOUCHABLES (user, 2026-08-24): **Joe Burrow — never tradeable, any
+  league (Bengals fan)**; **Blake Corum — keep** (young, real LAR path).
+  1. Dynasty Mexica → Juliosg: LaPorta for D'Andre Swift (ask) or Etienne
+     (fallback) — TE surplus buys the RB2; Burrow stays as Maye insurance.
+     Never ask Walker (-42 their side, auto-decline).
+  2. League of Record → Gernant88: Stroud for Breece (ask); settle at
+     Stroud for Bucky Irving (me +53, them -3). Their QB2 is Flacco.
   3. Gallamijos Dynasty → ElGeneral4: Mahomes + Montgomery for Ashton
      Jeanty (their lineup +5; rebuild takes the 22yo). Alternate ask:
      2027 1st + Addison. Do not take less.
-  4. DYNASTY TRC: NO trade — no QB-needy buyer exists (checked all 9
-     rivals). POUNCE TRIGGER armed: any rival QB1 injury/benching → offer
-     Goff (or Burrow to a contender) at a premium same day. The daily
-     task checks this trigger against injury data every run.
+  4. DYNASTY TRC: NO trade — no QB-needy buyer (all 9 rivals checked).
+     POUNCE TRIGGER armed, Goff ONLY: any rival QB1 injury/benching →
+     same-day premium offer. Daily task checks the trigger every run.
 - [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
   ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
   (b) newsletter start/sit-deltas section (task prompt already carries it);

@@ -40,6 +40,12 @@ never wishy-washy "it depends" answers. Always give a call and your confidence.
   stands year-round, but a contending team may trade young assets/picks at
   the deadline for a TRUE difference-maker only — top-12-overall-player
   bar, argued case by case, never for marginal upgrades.
+- **Untouchables (fan/attachment constraints, absolute)**: Joe Burrow is
+  NEVER traded, in any league — the user is a Bengals fan and this is a
+  values call, not a valuation error; treat Burrow as roster infrastructure
+  (QB insurance), never as a chip. Blake Corum is a keep (young, real LAR
+  path). When a player is declared untouchable, record it here and route
+  trade construction around it without re-litigating.
 - **Trade posture: build offers proactively** — he pulls triggers. Idle
   trade chips are depreciating assets; construct concrete packages and put
   them in front of him rather than flagging chips repeatedly.
