@@ -1,0 +1,48 @@
+{
+ "updated": "2026-08-24",
+ "note": "Standing trade offers, curated (built 2026-08-24 from full rival-roster analysis; lineup deltas are season-total optimal-lineup projections). The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
+ "offers": [
+  {
+   "league_id": "1338269686810300416",
+   "partner": "Juliosg",
+   "give": ["Sam LaPorta"],
+   "get": ["D'Andre Swift"],
+   "fallback": "Travis Etienne instead of Swift (FF internally split on him; Kamara back ~Oct)",
+   "state": "ready to send",
+   "lineup_delta": "you 1951→1953, them 1804→1798",
+   "why": "TE surplus (Loveland+LaPorta, one slot) buys the RB2; your RB2 becomes Swift instead of Tyjae Spears (97). Never ask Walker (-42 their side).",
+   "pitch": "You upgrade TE by 30 a season and still start two RBs. Third RB for your TE hole."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "partner": "Gernant88",
+   "give": ["C.J. Stroud"],
+   "get": ["Breece Hall"],
+   "fallback": "Settle at Bucky Irving (you +53, them -3 — near-free insurance)",
+   "state": "ready to send",
+   "lineup_delta": "Bucky version: you 1709→1762, them 1947→1944",
+   "why": "They're the #2 contender with Jayden Daniels and Joe Flacco behind him; four startable RBs. Stroud (24) is also a dynasty asset. Corum stays home.",
+   "pitch": "You're one Daniels ankle from wasting Gibbs' prime. Stroud starts for half this league."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "partner": "ElGeneral4",
+   "give": ["Patrick Mahomes", "David Montgomery"],
+   "get": ["Ashton Jeanty"],
+   "fallback": "Alternate ask: their 2027 1st + Jordan Addison — do not take less",
+   "state": "ready to send",
+   "lineup_delta": "you 1831→1681 (fine — rebuild, assets are the currency), them 1973→1978",
+   "why": "Rebuild trade: shed a 30yo QB at peak post-ACL sellability + 29yo RB for the 22yo cornerstone. Their shaky Dart/Shough/Ward room gets stabilized; their lineup improves, which makes it sellable.",
+   "pitch": "You're two pieces from the title race and I'm selling both of them."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "partner": null,
+   "give": [],
+   "get": [],
+   "state": "pounce trigger armed",
+   "why": "No QB-needy buyer exists (all 9 rivals checked — every QB room is settled). Chip is Goff ONLY (Burrow untouchable). Trigger: any rival QB1 injury/benching → same-day premium offer. WR2 need is being addressed via waivers (Hutchinson $21, Vele $9).",
+   "pitch": null
+  }
+ ]
+}

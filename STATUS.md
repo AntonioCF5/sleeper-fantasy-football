@@ -67,9 +67,16 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 - **Command center** (`scripts/draft_dashboard.py`, port 8787): Draft Room
   (3-column desktop app-shell, mobile segmented tabs), Rankings
   (search/sort/filter, ownership, tier-break lines, risk column), My Team
-  (category filter cards). League switcher, glossary, custom tooltips,
-  on-clock beep + auto-jump, collapsible sections. Launch config:
-  `.claude/launch.json`.
+  (category filter cards + **🤝 Trade center**: standing offers from
+  `data/intel/trade_offers.json` + algorithmic partner ideas), and
+  **🔥 Moves tab** (in-season: FAAB state, drop-it-like-it's-hot scan,
+  waiver targets, weakest active bench; pre-draft shows an empty state).
+  League switcher, glossary, custom tooltips, on-clock beep + auto-jump,
+  collapsible sections. `/api/moves` caches 10 min (force=1 to refresh).
+  Launch config: `.claude/launch.json`. NOTE for the daily task + future
+  sessions: `data/intel/trade_offers.json` is the single source of truth
+  for standing offers — update states there (the newsletter and dashboard
+  both read it).
 - **Live draft engine** (`scripts/live_draft.py`): recs w/ urgency +
   tier-scarcity + balance nudge, round plan (upside/sleeper/safe lanes),
   sleeper queue w/ closing windows, league-winner stashes, risk-adjusted

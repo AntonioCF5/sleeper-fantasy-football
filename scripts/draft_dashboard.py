@@ -27,8 +27,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 import live_draft  # noqa: E402
-from sleeper import api  # noqa: E402
-from sleeper.reports import _owner_names  # noqa: E402
+from sleeper import analysis, api  # noqa: E402
+from sleeper.reports import _owner_names, get_league_corrected  # noqa: E402
 
 REFRESH_SECONDS = 5
 CTX_TTL = 3600          # rebuild a league's context at most hourly (or on /api/refresh)
@@ -54,6 +54,116 @@ def get_ctx(league_id, force=False):
     with _lock:
         _ctx_cache[league_id] = (ctx, time.time())
     return ctx
+
+
+_moves_cache = {}          # league_id -> (payload, loaded_at)
+MOVES_TTL = 600            # waiver/trade data refreshes at most every 10 min
+
+
+def moves_payload(league_id, force=False):
+    """Waivers + drops + trades for one league (the Moves tab / Trade center).
+
+    Standing offers come from data/intel/trade_offers.json (curated — the
+    same file the daily newsletter maintains). Everything else is computed:
+    recent drops still unclaimed, top free agents vs the weakest ACTIVE
+    bench spots (taxi/IR excluded — they consume no bench space), FAAB
+    budget state, and algorithmic trade-target ideas.
+    """
+    with _lock:
+        cached = _moves_cache.get(league_id)
+    if cached and not force and time.time() - cached[1] < MOVES_TTL:
+        return cached[0]
+
+    league = get_league_corrected(league_id)
+    players = api.get_players()
+    my_id = _config.get("user_id")
+    season = str(_config.get("season") or api.get_state()["league_season"])
+    scoring = league.get("scoring_settings", {})
+    sp = analysis.season_projection_map(season, scoring, analysis.league_positions(league))
+    rosters = api.get_rosters(league_id) or []
+    owners = _owner_names(league_id)
+    mine = next((r for r in rosters if r.get("owner_id") == my_id
+                 or my_id in (r.get("co_owners") or [])), None)
+    dynasty = (league.get("settings") or {}).get("type") == 2
+    in_season = league.get("status") == "in_season"
+
+    def pdict(pid):
+        p = players.get(pid) or {}
+        return {"player_id": pid, "name": p.get("full_name") or pid,
+                "pos": analysis.canonical_pos(p) or "?", "team": p.get("team") or "FA",
+                "age": p.get("age"), "injury": p.get("injury_status") or "",
+                "proj": round(sp.get(pid, 0))}
+
+    out = {"league": league.get("name"), "in_season": in_season, "dynasty": dynasty,
+           "drops": [], "waiver_targets": [], "weakest_bench": [], "faab": None,
+           "trade_offers": [], "trade_targets": []}
+
+    # Standing offers (curated file)
+    tf = ROOT / "data" / "intel" / "trade_offers.json"
+    if tf.exists():
+        data = json.loads(tf.read_text())
+        out["trade_offers"] = [o for o in data.get("offers", [])
+                               if o.get("league_id") == league_id]
+
+    if in_season and mine:
+        # FAAB state
+        s = league.get("settings") or {}
+        if s.get("waiver_type") == 2:
+            budget = s.get("waiver_budget", 0)
+            used = (mine.get("settings") or {}).get("waiver_budget_used", 0)
+            spent = [((r.get("settings") or {}).get("waiver_budget_used", 0)) for r in rosters]
+            out["faab"] = {"budget": budget, "used": used, "left": budget - used,
+                           "rival_max_spent": max(spent)}
+        # Weakest ACTIVE bench (dynasty ordering happens in the UI copy; here
+        # we exclude taxi/IR — they consume no bench spot)
+        starters = set(mine.get("starters") or [])
+        ir_taxi = set((mine.get("reserve") or []) + (mine.get("taxi") or []))
+        bench = [p for p in (mine.get("players") or [])
+                 if p not in starters and p not in ir_taxi]
+        out["weakest_bench"] = sorted((pdict(p) for p in bench),
+                                      key=lambda x: x["proj"])[:5]
+        # Drop it like it's hot
+        try:
+            drops = analysis.recent_drops(league_id, players, sp, hours=96)
+            out["drops"] = [{**pdict(d["player_id"]),
+                             "dropped_by": d["dropped_by"], "hours_ago": d["hours_ago"],
+                             "trend": d["trend_count"]} for d in drops[:8]]
+        except Exception:
+            pass
+        # Top free agents (proj + trending), excluding rostered
+        rostered = set()
+        for r in rosters:
+            rostered.update(r.get("players") or [])
+        trending = {t["player_id"]: t["count"]
+                    for t in api.get_trending("add", 24, 300) or []}
+        fas = []
+        for pid, v in sp.items():
+            if pid in rostered or pid not in players:
+                continue
+            pl = players[pid]
+            if not pl.get("team") or analysis.canonical_pos(pl) in ("K", "DEF"):
+                continue
+            tr = trending.get(pid, 0)
+            if v >= 60 or tr >= 8000:
+                fas.append((v + min(tr, 50000) / 500, pid, tr))
+        fas.sort(reverse=True)
+        out["waiver_targets"] = [{**pdict(pid), "trend": tr}
+                                 for _, pid, tr in fas[:8]]
+        # Algorithmic trade ideas (complementary needs)
+        try:
+            ideas = analysis.trade_suggestions(
+                league_id, mine["roster_id"], players, sp,
+                league.get("roster_positions", []))
+            out["trade_targets"] = [
+                {"partner": owners.get(next((r.get("owner_id") for r in rosters
+                                             if r["roster_id"] == i["partner_roster_id"]), None), "?"),
+                 "note": i["note"]} for i in (ideas or [])[:5]]
+        except Exception:
+            pass
+
+    with _lock:
+        _moves_cache[league_id] = (out, time.time())
+    return out
 
 
 def recompute(league_id, ctx=None):
@@ -198,7 +308,8 @@ select#leagueSel{background:var(--surface2);border:1px solid var(--border);color
 main{flex:1;min-height:0;width:100%;max-width:1560px;margin:0 auto;
   padding:14px 20px 6px}
 #view-draft{height:100%;min-height:0}
-#view-rankings,#view-team{height:100%;min-height:0;overflow-y:auto;scrollbar-width:thin}
+#view-rankings,#view-team,#view-moves{height:100%;min-height:0;overflow-y:auto;scrollbar-width:thin}
+#view-moves{max-width:760px;margin:0 auto;width:100%;padding-bottom:24px}
 #view-team{max-width:760px;margin:0 auto;width:100%}
 .teampill{cursor:pointer;font-weight:650;color:var(--ink)!important}
 .teampill:hover{border-color:var(--accent)}
@@ -427,6 +538,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <div class="tab active" data-view="draft" onclick="setView('draft')">Draft Room</div>
     <div class="tab" data-view="rankings" onclick="setView('rankings')">Rankings</div>
     <div class="tab" data-view="team" onclick="setView('team')">👤 My Team</div>
+    <div class="tab" data-view="moves" onclick="setView('moves')">🔥 Moves</div>
   </div>
   <div class="mseg" id="mseg">
     <button data-m="picks" onclick="setMTab('picks')">🎯 Picks</button>
@@ -496,6 +608,11 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <div class="card" id="teamFilterEmpty" style="display:none">
       <div class="empty">No players in this category yet.</div>
     </div>
+    <div id="teamTrades"></div>
+  </div>
+
+  <div id="view-moves" style="display:none">
+    <div id="movesBody"><div class="empty">Loading moves…</div></div>
   </div>
 
   <div id="view-rankings" style="display:none">
@@ -675,8 +792,11 @@ function setView(v){
   $("view-draft").style.display=v==="draft"?"":"none";
   $("view-rankings").style.display=v==="rankings"?"":"none";
   $("view-team").style.display=v==="team"?"":"none";
+  $("view-moves").style.display=v==="moves"?"":"none";
   updateUrl();
   if(v==="rankings" && !rankingsLoaded) loadRankings();
+  if(v==="moves") loadMoves();
+  if(v==="team") loadTeamTrades();
 }
 function updateUrl(){
   const p=new URLSearchParams(); p.set("league",currentLeague||""); p.set("view",currentView);
@@ -761,6 +881,8 @@ async function loadLeagues(){
     rankingsLoaded=false; updateUrl();
     await selectLeague();
     if(currentView==="rankings") loadRankings();
+    if(currentView==="moves") loadMoves();
+    if(currentView==="team") loadTeamTrades();
   };
 }
 function paintLeagueStatus(l){
@@ -949,6 +1071,75 @@ setInterval(tick,5000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden) tick();});
 window.addEventListener("focus",()=>tick());
 
+// ---------- moves + trade center ----------
+let movesCache={};   // league_id -> payload
+async function fetchMoves(force){
+  if(!force && movesCache[currentLeague]) return movesCache[currentLeague];
+  const r=await fetch("/api/moves?league_id="+encodeURIComponent(currentLeague)+(force?"&force=1":""));
+  const j=await r.json();
+  if(!j.error) movesCache[currentLeague]=j;
+  return j;
+}
+function offerCard(o){
+  if(!o.partner) return `
+    <div class="card"><b>⏱ Pounce trigger armed</b>
+      <div class="sq-why">${esc(o.why||"")}</div></div>`;
+  return `
+    <div class="card">
+      <div><b>📬 To ${esc(o.partner)}</b> <span class="meta">· ${esc(o.state||"")}</span></div>
+      <div style="margin:6px 0"><span class="badge">GIVE</span> ${esc((o.give||[]).join(" + "))}
+        &nbsp;→&nbsp; <span class="badge">GET</span> <b>${esc((o.get||[]).join(" + "))}</b></div>
+      ${o.lineup_delta?`<div class="meta num">${esc(o.lineup_delta)}</div>`:""}
+      <div class="sq-why">${esc(o.why||"")}</div>
+      ${o.fallback?`<div class="sq-why">↩ Fallback: ${esc(o.fallback)}</div>`:""}
+      ${o.pitch?`<div class="sq-why">🗣 “${esc(o.pitch)}”</div>`:""}
+    </div>`;
+}
+async function loadTeamTrades(){
+  const el=$("teamTrades"); if(!el) return;
+  const j=await fetchMoves(false);
+  if(j.error){el.innerHTML="";return;}
+  const offers=(j.trade_offers||[]).map(offerCard).join("");
+  const targets=(j.trade_targets||[]).map(i=>`
+    <div class="card"><b>${esc(i.partner)}</b><div class="sq-why">${esc(i.note)}</div></div>`).join("");
+  el.innerHTML = (offers||targets) ? `
+    <h2 style="margin:18px 0 8px">🤝 Trade center</h2>
+    ${offers?`<div class="meta" style="margin-bottom:6px">Standing offers (you send in the Sleeper app; Burrow &amp; Corum are untouchable):</div>${offers}`:""}
+    ${targets?`<div class="meta" style="margin:10px 0 6px">Complementary-need partners (algorithmic — raw ideas, not vetted offers):</div>${targets}`:""}` : "";
+}
+async function loadMoves(){
+  const el=$("movesBody");
+  el.innerHTML=`<div class="empty">Scanning waivers, drops and trades…</div>`;
+  const j=await fetchMoves(false);
+  if(j.error){el.innerHTML=`<div class="empty">Couldn't load: ${esc(j.error)}</div>`;return;}
+  if(!j.in_season){
+    el.innerHTML=`
+      ${(j.trade_offers||[]).length?`<h2>🤝 Standing trades</h2>${j.trade_offers.map(offerCard).join("")}`:""}
+      <div class="card"><div class="empty">Waivers &amp; drops activate once this league is in season —
+      it hasn't drafted yet. Use <b>Rankings</b> for the pre-draft board.</div></div>`;
+    return;
+  }
+  const faab=j.faab?`<div class="pill" style="margin:0 0 10px;white-space:normal;height:auto;line-height:1.5;padding:8px 12px">💰 FAAB
+      <b class="num">$${j.faab.left}</b>/<span class="num">$${j.faab.budget}</span> left
+      · most aggressive rival has spent <b class="num">$${j.faab.rival_max_spent}</b></div>`:"";
+  const drops=(j.drops||[]).map(d=>`
+    <div class="card">${player(d)}
+      <span class="meta num">proj ${d.proj} · ${d.trend?d.trend.toLocaleString()+" adds/24h · ":""}dropped by ${esc(d.dropped_by)} ${d.hours_ago}h ago</span>
+    </div>`).join("")||`<div class="empty">No valuable drops in the last 4 days.</div>`;
+  const fas=(j.waiver_targets||[]).map(d=>`
+    <div class="card">${player(d)}
+      <span class="meta num">proj ${d.proj}${d.trend?` · ${d.trend.toLocaleString()} adds/24h`:""}</span>
+    </div>`).join("")||`<div class="empty">Nothing on the wire beats your bench.</div>`;
+  const bench=(j.weakest_bench||[]).map(d=>`
+    <div class="card">${player(d)}<span class="meta num">proj ${d.proj}${d.age?` · age ${d.age}`:""}</span></div>`).join("");
+  el.innerHTML=`
+    ${faab}
+    <h2 class="term" data-tip="Players other managers dropped recently who are still free agents — a good drop is the cheapest acquisition in fantasy, and drops often precede news going wide.">🔥 Drop it like it's hot</h2>${drops}
+    <h2 class="term" data-tip="Top free agents by projection + trending adds under THIS league's scoring. Compare against your weakest bench before claiming; in dynasty leagues never cut young stashes for veteran points.">📈 Waiver targets</h2>${fas}
+    ${bench?`<h2 class="term" data-tip="Your lowest-projected ACTIVE bench players (taxi/IR excluded — they consume no bench spot). Drop candidates — but in dynasty leagues rank drops by ASSET value: aging vets first, stalled year-3+ second, young stashes never.">🪑 Weakest bench</h2>${bench}`:""}
+    <div class="meta" style="margin-top:10px">Claims + FAAB bid sizes with full reasoning arrive in the daily newsletter — this view is the live snapshot.</div>`;
+}
+
 // ---------- rankings ----------
 async function loadRankings(force){
   $("rkEmpty").style.display="none";
@@ -1101,6 +1292,16 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 ctx = get_ctx(lid, force=force)
                 return self._json(build_board_payload(lid, ctx))
+            except Exception as e:
+                return self._json({"error": str(e)})
+
+        if path == "/api/moves":
+            lid = params.get("league_id", [_active["league_id"]])[0]
+            force = params.get("force", ["0"])[0] == "1"
+            if not lid:
+                return self._json({})
+            try:
+                return self._json(moves_payload(lid, force=force))
             except Exception as e:
                 return self._json({"error": str(e)})
 
