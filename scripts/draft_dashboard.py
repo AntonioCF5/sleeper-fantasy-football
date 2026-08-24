@@ -166,6 +166,64 @@ def moves_payload(league_id, force=False):
     return out
 
 
+_rosters_cache = {}
+ROSTERS_TTL = 600
+
+
+def rosters_payload(league_id, force=False):
+    """Every team in a league: owner, record, starters/bench/IR/taxi with
+    projections — powers the rival-roster viewer (owner names anywhere in
+    the UI open this)."""
+    with _lock:
+        cached = _rosters_cache.get(league_id)
+    if cached and not force and time.time() - cached[1] < ROSTERS_TTL:
+        return cached[0]
+    league = get_league_corrected(league_id)
+    players = api.get_players()
+    my_id = _config.get("user_id")
+    season = str(_config.get("season") or api.get_state()["league_season"])
+    sp = analysis.season_projection_map(
+        season, league.get("scoring_settings", {}), analysis.league_positions(league))
+    rosters = api.get_rosters(league_id) or []
+    owners = _owner_names(league_id)
+
+    def pdict(pid):
+        pl = players.get(pid) or {}
+        return {"player_id": pid, "name": pl.get("full_name") or pid,
+                "pos": analysis.canonical_pos(pl) or "?", "team": pl.get("team") or "FA",
+                "age": pl.get("age"), "injury": pl.get("injury_status") or "",
+                "proj": round(sp.get(pid, 0))}
+
+    teams = []
+    for r in rosters:
+        own = r.get("owner_id")
+        mine = own == my_id or my_id in (r.get("co_owners") or [])
+        name = owners.get(own, "?")
+        st = r.get("settings") or {}
+        starters = [p for p in (r.get("starters") or []) if p and p != "0"]
+        reserve = r.get("reserve") or []
+        taxi = r.get("taxi") or []
+        bench = [p for p in (r.get("players") or [])
+                 if p not in set(starters) and p not in set(reserve) and p not in set(taxi)]
+        skey = lambda x: -x["proj"]
+        teams.append({
+            "roster_id": r["roster_id"], "owner": name, "mine": mine,
+            "record": f"{st.get('wins', 0)}-{st.get('losses', 0)}"
+                      + (f"-{st.get('ties')}" if st.get("ties") else ""),
+            "fpts": st.get("fpts", 0),
+            "starters": [pdict(p) for p in starters],
+            "starters_proj": round(sum(sp.get(p, 0) for p in starters)),
+            "bench": sorted((pdict(p) for p in bench), key=skey),
+            "reserve": [pdict(p) for p in reserve],
+            "taxi": [pdict(p) for p in taxi],
+        })
+    teams.sort(key=lambda x: (-x["starters_proj"]))
+    out = {"league": league.get("name"), "teams": teams}
+    with _lock:
+        _rosters_cache[league_id] = (out, time.time())
+    return out
+
+
 def recompute(league_id, ctx=None):
     ctx = ctx or get_ctx(league_id)
     try:
@@ -533,6 +591,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <span class="pill"><span class="dot"></span><span id="stamp">connecting…</span></span>
     <button class="iconbtn" onclick="manualRefresh()">⟳ Refresh</button>
     <button class="iconbtn" onclick="openGlossary()">📖 Glossary</button>
+    <button class="pill" onclick="showRosterIndex()">👥 Rosters</button>
   </div>
   <div class="tabs">
     <div class="tab active" data-view="draft" onclick="setView('draft')">Draft Room</div>
@@ -546,9 +605,16 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <button data-m="queue" onclick="setMTab('queue')">💤 Queue</button>
   </div>
   <div class="progress"><i id="progressbar" style="width:0%"></i></div>
+  <div id="trailBar" style="display:none"><span class="trail-label term" data-tip="Your recent places in the command center — one click jumps back without re-navigating. Browser back/forward works too.">🧭</span><span id="trailChips"></span></div>
 </header>
 
 <div id="tooltip"></div>
+<div id="rosterBack" onclick="closeRoster()"></div>
+<aside id="rosterPane" aria-label="Team roster">
+  <div class="ghead"><h2 id="rosterTitle">Roster</h2>
+    <button class="gclose" onclick="closeRoster()" aria-label="Close">&times;</button></div>
+  <div class="gbody" id="rosterBody"></div>
+</aside>
 <div id="glossaryBack" onclick="closeGlossary()"></div>
 <aside id="glossary" aria-label="Glossary">
   <div class="ghead"><h2>Glossary</h2>
@@ -638,9 +704,37 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
 <footer><span id="foot"></span><span class="err" id="err"></span></footer>
 
 <style>
-#glossaryBack{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;
+#glossaryBack,#rosterBack{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;
   display:none;backdrop-filter:blur(2px)}
-#glossaryBack.open{display:block}
+#glossaryBack.open,#rosterBack.open{display:block}
+#rosterPane{position:fixed;top:0;right:0;bottom:0;width:400px;max-width:94vw;
+  background:var(--surface);border-left:1px solid var(--border);z-index:21;
+  transform:translateX(100%);transition:transform .22s ease;
+  display:flex;flex-direction:column}
+#rosterPane.open{transform:translateX(0)}
+#rosterPane .ghead{padding:16px 18px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between}
+#rosterPane .ghead h2{font-size:14px;color:var(--ink);margin:0}
+#rosterPane .gclose{background:none;border:none;color:var(--ink3);font-size:20px;
+  cursor:pointer;line-height:1;padding:2px 6px}
+#rosterPane .gbody{overflow-y:auto;padding:10px 14px;flex:1}
+#rosterPane h3{font-size:11px;color:var(--ink3);text-transform:uppercase;
+  letter-spacing:.6px;margin:14px 0 6px}
+.rosterrow{display:flex;align-items:center;gap:8px;padding:7px 8px;
+  border-bottom:1px solid var(--border);font-size:13px}
+.rosterrow:last-child{border-bottom:none}
+.rosterrow .rp-proj{margin-left:auto;color:var(--ink2)}
+.ownerlink{color:var(--accent);cursor:pointer;text-decoration:underline;
+  text-decoration-style:dotted;text-underline-offset:2px}
+.ownerlink:hover{filter:brightness(1.2)}
+#trailBar{display:flex;align-items:center;gap:6px;padding:4px 14px 6px;
+  overflow-x:auto;scrollbar-width:none;white-space:nowrap}
+#trailBar::-webkit-scrollbar{display:none}
+.trail-label{font-size:12px;flex:0 0 auto}
+.trailchip{display:inline-block;background:var(--surface2);border:1px solid var(--border);
+  border-radius:20px;padding:2px 10px;font-size:11.5px;color:var(--ink2);
+  cursor:pointer;margin-right:4px;flex:0 0 auto}
+.trailchip:hover{border-color:var(--accent);color:var(--ink)}
 #glossary{position:fixed;top:0;right:0;bottom:0;width:380px;max-width:92vw;
   background:var(--surface);border-left:1px solid var(--border);z-index:21;
   transform:translateX(100%);transition:transform .22s ease;
@@ -800,7 +894,10 @@ function setView(v){
 }
 function updateUrl(){
   const p=new URLSearchParams(); p.set("league",currentLeague||""); p.set("view",currentView);
-  history.replaceState(null,"","?"+p.toString());
+  const url="?"+p.toString();
+  if(typeof popNav!=="undefined" && popNav){history.replaceState(null,"",url);}
+  else if(location.search!==url){history.pushState(null,"",url);}
+  if(typeof pushTrail==="function") try{pushTrail({league:currentLeague,view:currentView});renderTrail();}catch(e){}
 }
 // Mobile section tabs (Draft Room only; CSS-gated to <=820px)
 let mTab=localStorage.getItem("ff_mtab")||"picks";
@@ -1071,6 +1168,115 @@ setInterval(tick,5000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden) tick();});
 window.addEventListener("focus",()=>tick());
 
+// ---------- rival roster viewer ----------
+let rostersCache={};   // league_id -> payload
+async function fetchRosters(force){
+  if(!force && rostersCache[currentLeague]) return rostersCache[currentLeague];
+  const r=await fetch("/api/rosters?league_id="+encodeURIComponent(currentLeague)+(force?"&force=1":""));
+  const j=await r.json();
+  if(!j.error) rostersCache[currentLeague]=j;
+  return j;
+}
+function ownerLink(name){
+  if(!name||name==="?"||name==="ME") return esc(name||"");
+  return `<span class="ownerlink" data-owner="${esc(name)}">${esc(name)}</span>`;
+}
+function rosterRows(list){
+  return (list||[]).map(pl=>`
+    <div class="rosterrow">${player(pl)}
+      <span class="rp-proj num">${pl.proj}</span></div>`).join("")
+    || `<div class="empty">—</div>`;
+}
+async function showRoster(owner, skipTrail){
+  const j=await fetchRosters(false);
+  if(j.error||!j.teams) return;
+  const team=j.teams.find(x=>x.owner===owner)||(owner==="ME"&&j.teams.find(x=>x.mine));
+  if(!team) return;
+  $("rosterTitle").innerHTML=`${esc(team.owner)}${team.mine?" (you)":""}
+    <span class="meta num" style="margin-left:8px">${esc(team.record)} · starters proj ${team.starters_proj}</span>`;
+  $("rosterBody").innerHTML=`
+    <h3>Starters (${team.starters.length}) — proj ${team.starters_proj}</h3>${rosterRows(team.starters)}
+    <h3>Bench (${team.bench.length})</h3>${rosterRows(team.bench)}
+    ${team.reserve.length?`<h3>IR (${team.reserve.length})</h3>${rosterRows(team.reserve)}`:""}
+    ${team.taxi.length?`<h3>Taxi (${team.taxi.length})</h3>${rosterRows(team.taxi)}`:""}`;
+  $("rosterPane").classList.add("open");$("rosterBack").classList.add("open");
+  if(!skipTrail) pushTrail({league:currentLeague,view:currentView,roster:team.owner});
+}
+function closeRoster(){$("rosterPane").classList.remove("open");$("rosterBack").classList.remove("open");}
+async function showRosterIndex(){
+  const j=await fetchRosters(false);
+  if(j.error||!j.teams) return;
+  $("rosterTitle").textContent=`${j.league} — all rosters`;
+  $("rosterBody").innerHTML=`<h3>By projected starting lineup</h3>`+j.teams.map(tm=>`
+    <div class="rosterrow rosterjump" style="cursor:pointer" data-owner="${esc(tm.owner)}">
+      <b>${esc(tm.owner)}${tm.mine?" (you)":""}</b>
+      <span class="meta num">${esc(tm.record)}</span>
+      <span class="rp-proj num">${tm.starters_proj}</span></div>`).join("");
+  $("rosterPane").classList.add("open");$("rosterBack").classList.add("open");
+}
+document.addEventListener("click",e=>{
+  const el=e.target.closest(".ownerlink,.rosterjump");
+  if(el&&el.dataset.owner) showRoster(el.dataset.owner);
+});
+
+// ---------- navigation trail ----------
+// Recent places, one click back — no re-navigating through dropdown+tabs.
+const VIEW_LABEL={draft:"Draft Room",rankings:"Rankings",team:"My Team",moves:"Moves"};
+let trail=[]; try{trail=JSON.parse(localStorage.getItem("ff_trail")||"[]");}catch(e){}
+function leagueShort(lid){
+  const l=leaguesList.find(x=>x.league_id===lid);
+  return l?l.name.replace(/^🪓 /,"").slice(0,14):"…";
+}
+function locKey(l){return l.league+"|"+l.view+"|"+(l.roster||"");}
+function pushTrail(loc){
+  loc.ts=Date.now();
+  trail=trail.filter(x=>locKey(x)!==locKey(loc));
+  trail.push(loc);
+  if(trail.length>10) trail=trail.slice(-10);
+  localStorage.setItem("ff_trail",JSON.stringify(trail));
+  renderTrail();
+}
+function renderTrail(){
+  if(!leaguesList.length) return;
+  const cur={league:currentLeague,view:currentView,roster:""};
+  const others=trail.filter(x=>locKey(x)!==locKey(cur)).slice(-5).reverse();
+  $("trailBar").style.display=others.length?"":"none";
+  $("trailChips").innerHTML=others.map((l,i)=>
+    `<span class="trailchip" data-ti="${trail.indexOf(l)}">↩ ${esc(leagueShort(l.league))} · ${l.roster?("👥 "+esc(l.roster)):VIEW_LABEL[l.view]||l.view}</span>`).join("");
+}
+document.addEventListener("click",async e=>{
+  const chip=e.target.closest(".trailchip");
+  if(!chip) return;
+  const loc=trail[+chip.dataset.ti];
+  if(!loc) return;
+  if(loc.league!==currentLeague){
+    currentLeague=loc.league; localStorage.setItem("ff_league",currentLeague);
+    const sel=$("leagueSel"); if(sel) sel.value=currentLeague;
+    paintLeagueStatus(leaguesList.find(l=>l.league_id===currentLeague));
+    rankingsLoaded=false;
+    await selectLeague();
+  }
+  setView(loc.view);
+  if(loc.roster) showRoster(loc.roster,true);
+});
+// Browser back/forward: URL is pushed on each navigation (see updateUrl),
+// popstate restores without re-pushing.
+let popNav=false;
+window.addEventListener("popstate",async ()=>{
+  const q=new URLSearchParams(location.search);
+  const lg=q.get("league"), vw=q.get("view")||"draft";
+  popNav=true;
+  if(lg && lg!==currentLeague){
+    currentLeague=lg; localStorage.setItem("ff_league",lg);
+    const sel=$("leagueSel"); if(sel) sel.value=lg;
+    paintLeagueStatus(leaguesList.find(l=>l.league_id===lg));
+    rankingsLoaded=false;
+    await selectLeague();
+  }
+  setView(vw);
+  popNav=false;
+});
+
 // ---------- moves + trade center ----------
 let movesCache={};   // league_id -> payload
 async function fetchMoves(force){
@@ -1086,7 +1292,7 @@ function offerCard(o){
       <div class="sq-why">${esc(o.why||"")}</div></div>`;
   return `
     <div class="card">
-      <div><b>📬 To ${esc(o.partner)}</b> <span class="meta">· ${esc(o.state||"")}</span></div>
+      <div><b>📬 To ${ownerLink(o.partner)}</b> <span class="meta">· ${esc(o.state||"")}</span></div>
       <div style="margin:6px 0"><span class="badge">GIVE</span> ${esc((o.give||[]).join(" + "))}
         &nbsp;→&nbsp; <span class="badge">GET</span> <b>${esc((o.get||[]).join(" + "))}</b></div>
       ${o.lineup_delta?`<div class="meta num">${esc(o.lineup_delta)}</div>`:""}
@@ -1101,7 +1307,7 @@ async function loadTeamTrades(){
   if(j.error){el.innerHTML="";return;}
   const offers=(j.trade_offers||[]).map(offerCard).join("");
   const targets=(j.trade_targets||[]).map(i=>`
-    <div class="card"><b>${esc(i.partner)}</b><div class="sq-why">${esc(i.note)}</div></div>`).join("");
+    <div class="card"><b>${ownerLink(i.partner)}</b><div class="sq-why">${esc(i.note)}</div></div>`).join("");
   el.innerHTML = (offers||targets) ? `
     <h2 style="margin:18px 0 8px">🤝 Trade center</h2>
     ${offers?`<div class="meta" style="margin-bottom:6px">Standing offers (you send in the Sleeper app; Burrow &amp; Corum are untouchable):</div>${offers}`:""}
@@ -1124,7 +1330,7 @@ async function loadMoves(){
       · most aggressive rival has spent <b class="num">$${j.faab.rival_max_spent}</b></div>`:"";
   const drops=(j.drops||[]).map(d=>`
     <div class="card">${player(d)}
-      <span class="meta num">proj ${d.proj} · ${d.trend?d.trend.toLocaleString()+" adds/24h · ":""}dropped by ${esc(d.dropped_by)} ${d.hours_ago}h ago</span>
+      <span class="meta num">proj ${d.proj} · ${d.trend?d.trend.toLocaleString()+" adds/24h · ":""}dropped by ${ownerLink(d.dropped_by)} ${d.hours_ago}h ago</span>
     </div>`).join("")||`<div class="empty">No valuable drops in the last 4 days.</div>`;
   const fas=(j.waiver_targets||[]).map(d=>`
     <div class="card">${player(d)}
@@ -1192,8 +1398,8 @@ function renderRankings(){
   const lastTierSeen={};
   $("rkBody").innerHTML=rows.slice(0,400).map(r=>{
     const statusHtml = r.status==="available" ? `<span class="meta">Free</span>`
-      : r.status==="drafted" ? `<span class="ownerpill">Drafted · ${esc(r.owner)} #${r.pick_no}</span>`
-      : `<span class="ownerpill">${term("Rostered","Rostered")} · ${esc(r.owner)}</span>`;
+      : r.status==="drafted" ? `<span class="ownerpill">Drafted · ${ownerLink(r.owner)} #${r.pick_no}</span>`
+      : `<span class="ownerpill">${term("Rostered","Rostered")} · ${ownerLink(r.owner)}</span>`;
     // ADP beyond ~400 is noise (undrafted-pool artifact), not real waiver value
     const val = (r.value==null||(r.adp||0)>400) ? "—" : (r.value>0?"+":"")+r.value;
     // Tier break: this position's value just dropped to the next tier down —
@@ -1292,6 +1498,16 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 ctx = get_ctx(lid, force=force)
                 return self._json(build_board_payload(lid, ctx))
+            except Exception as e:
+                return self._json({"error": str(e)})
+
+        if path == "/api/rosters":
+            lid = params.get("league_id", [_active["league_id"]])[0]
+            force = params.get("force", ["0"])[0] == "1"
+            if not lid:
+                return self._json({})
+            try:
+                return self._json(rosters_payload(lid, force=force))
             except Exception as e:
                 return self._json({"error": str(e)})
 
