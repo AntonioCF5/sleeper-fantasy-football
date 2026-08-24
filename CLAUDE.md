@@ -185,8 +185,12 @@ timed for after that day's FF content posts) — so takes stay fresh even
 between sessions. Each run with new content also writes a **newsletter** the
 user reads directly — their stated in-season source of truth alongside the
 command center: `reports/<season>/expert-daily/YYYY-MM-DD.md`. Reading order:
-Today's Top 3 → News → Injuries (owned players first, status deltas vs the previous
-edition) → per-video summaries → stats & facts the experts cited (stored in
+Today's Top 3 → News (Sleeper's own wire via `api.get_player_news` — GraphQL,
+rotowire/rotoballer — cross-checked against expert claims, plus trending +
+web) → Injuries (owned players first, status deltas vs the previous
+edition) → **Drop it like it's hot 🔥** (`analysis.recent_drops`: valuable
+players other managers dropped who are still FAs — drops often precede news
+going wide) → per-video summaries → stats & facts the experts cited (stored in
 `expert_takes.json` under `facts`, pruned like takes; contradictions vs our
 data are flagged inline) → takes cross-checked against **all 8 league boards**
 (rank/VORP/ADP value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts) —

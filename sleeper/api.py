@@ -129,6 +129,48 @@ def get_trending(kind: str = "add", lookback_hours: int = 24, limit: int = 50):
     )
 
 
+def get_player_news(player_ids, limit_per_player: int = 3, ttl: int = HOUR):
+    """Sleeper's in-app news feed (rotowire/rotoballer syndication).
+
+    Undocumented GraphQL endpoint the Sleeper app itself uses. Batched via
+    aliases (~20 players per request). Returns {player_id: [items]} where each
+    item has source, published (ms epoch), and metadata {title, description,
+    analysis?, url?}.
+    """
+    player_ids = [str(p) for p in player_ids]
+    out = {}
+    for i in range(0, len(player_ids), 20):
+        batch = player_ids[i:i + 20]
+        parts = [
+            f'p{pid}: get_player_news(sport: "nfl", player_id: "{pid}", '
+            f"limit: {int(limit_per_player)}) {{ source published metadata }}"
+            for pid in batch
+        ]
+        query = "query { " + " ".join(parts) + " }"
+        url = f"{BASE}/graphql"
+        key = hashlib.sha1((url + query).encode()).hexdigest()
+        path = CACHE_DIR / f"{key}.json.gz"
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        if ttl and path.exists() and time.time() - path.stat().st_mtime < ttl:
+            with gzip.open(path, "rt") as f:
+                data = json.load(f)
+        else:
+            body = json.dumps({"query": query}).encode()
+            req = urllib.request.Request(
+                url, data=body,
+                headers={"User-Agent": "sleeper-ff-toolkit",
+                         "Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                data = json.load(resp)
+            with gzip.open(path, "wt") as f:
+                json.dump(data, f)
+        for pid in batch:
+            items = (data.get("data") or {}).get(f"p{pid}") or []
+            if items:
+                out[pid] = items
+    return out
+
+
 # ------------------------------------------------- projections & stats
 # Undocumented but stable endpoints used by the Sleeper app itself.
 

@@ -205,6 +205,55 @@ def waiver_targets(league_id: str, players: dict, proj: dict, season_proj: dict,
     return ranked[:limit]
 
 
+def recent_drops(league_id: str, players: dict, season_proj: dict,
+                 hours: int = 72, min_season_proj: float = 40.0):
+    """Players other managers dropped recently who are still free agents.
+
+    The "drop it like it's hot" scan: a good player hitting waivers is the
+    cheapest acquisition in fantasy, and drops often precede news going wide
+    (the dropper knows something, or is making a mistake worth pouncing on).
+    Returns [{player_id, dropped_by, hours_ago, season_proj, trend_count}],
+    best value first. Transactions live in round/week buckets; scans the
+    current-week bucket plus the previous one so nothing at a boundary hides.
+    """
+    import time as _time
+    now_ms = _time.time() * 1000
+    state = api.get_state() or {}
+    week = max(state.get("week") or 1, 1)
+    txs = []
+    for w in {week, max(week - 1, 1), 1}:
+        txs.extend(api.get_transactions(league_id, w) or [])
+    rostered = set()
+    for r in api.get_rosters(league_id) or []:
+        rostered.update(r.get("players") or [])
+    users = {u["user_id"]: u.get("display_name") or "?"
+             for u in api.get_league_users(league_id) or []}
+    roster_owner = {r["roster_id"]: users.get(r.get("owner_id"), "?")
+                    for r in api.get_rosters(league_id) or []}
+    trending = {t["player_id"]: t["count"] for t in api.get_trending("add", 24, 300) or []}
+    seen, out = set(), []
+    for t in txs:
+        ts = t.get("status_updated") or 0
+        if t.get("status") != "complete" or (now_ms - ts) > hours * 3600 * 1000:
+            continue
+        for pid, rid in (t.get("drops") or {}).items():
+            if pid in seen or pid in rostered:
+                continue  # already re-claimed, or duplicated across buckets
+            seen.add(pid)
+            sp = season_proj.get(pid, 0.0)
+            if sp < min_season_proj and trending.get(pid, 0) < 5000:
+                continue
+            out.append({
+                "player_id": pid,
+                "dropped_by": roster_owner.get(rid, "?"),
+                "hours_ago": round((now_ms - ts) / 3600000),
+                "season_proj": round(sp),
+                "trend_count": trending.get(pid, 0),
+            })
+    out.sort(key=lambda d: -(d["season_proj"] + min(d["trend_count"], 50000) / 500))
+    return out
+
+
 # ---------------------------------------------------------------- trades
 
 

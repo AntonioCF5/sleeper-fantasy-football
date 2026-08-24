@@ -63,6 +63,12 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   tier-scarcity + balance nudge, round plan (upside/sleeper/safe lanes),
   sleeper queue w/ closing windows, league-winner stashes, risk-adjusted
   boards. CLI + JSON (`compute_advice`).
+- **In-season scavenging**: `api.get_player_news(pids)` — Sleeper's own news
+  wire (undocumented GraphQL, rotowire/rotoballer; same feed the app shows);
+  `analysis.recent_drops(league_id, players, season_proj)` — valuable
+  players dropped by other managers still sitting as FAs ("drop it like
+  it's hot" — first live scan found Hutchinson dropped in DYNASTY TRC 5
+  days before the Higgins ACL news made him the #1 add in fantasy).
 - **Intel layer** (`sleeper/intel.py` + `data/intel/*.json`): 32-team Vegas
   win totals, offense tiers, venue/cold-Dec flags, full 2026 coaching map
   (21 new OCs), 9 documented player adjustments.
