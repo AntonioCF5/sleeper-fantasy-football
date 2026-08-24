@@ -86,11 +86,21 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 ## Pending / next actions
 
-- [ ] **PRIORITY — build the 4 trade offers (user committed 2026-08-24)**:
-  Burrow packages (Dynasty Mexica + DYNASTY TRC), Stroud (League of Record),
-  Mahomes sell (Gallamijos Dynasty, post-ACL news window). Concrete
-  packages: names both ways + before/after starting-lineup projections.
-  He sends them; chips are depreciating.
+- [ ] **STANDING TRADE OFFERS — built 2026-08-24, user to send** (full
+  packages + pitch scripts in the 2026-08-22 newsletter "Recommended
+  trades"; update state here as sent/countered/dead):
+  1. Dynasty Mexica → Mexicas: Burrow for Breece Hall (both lineups +5 —
+     mutual win, lead offer).
+  2. League of Record → Gernant88: Stroud + Corum for Breece Hall (me +64);
+     fallback Stroud for Bucky Irving (me +53, them -3). Their QB2 is
+     Flacco — insurance sell.
+  3. Gallamijos Dynasty → ElGeneral4: Mahomes + Montgomery for Ashton
+     Jeanty (their lineup +5; rebuild takes the 22yo). Alternate ask:
+     2027 1st + Addison. Do not take less.
+  4. DYNASTY TRC: NO trade — no QB-needy buyer exists (checked all 9
+     rivals). POUNCE TRIGGER armed: any rival QB1 injury/benching → offer
+     Goff (or Burrow to a contender) at a premium same day. The daily
+     task checks this trigger against injury data every run.
 - [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
   ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
   (b) newsletter start/sit-deltas section (task prompt already carries it);
