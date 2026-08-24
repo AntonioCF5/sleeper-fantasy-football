@@ -207,7 +207,11 @@ range) → methodology → portfolio impact → "for your review" (never acted o
 unattended). Everywhere a player the user owns appears, the name is bolded
 with the owning league(s); player/league names hyperlink to the Sleeper web
 app (sleeper.com/players/nfl/<pid>, sleeper.com/leagues/<league_id>).
-News + Injuries publish daily even when no new videos exist. **Still run it manually too at the START of every analysis
+News + Injuries publish daily even when no new videos exist. Each edition is
+also **emailed** to the user as a styled HTML email via
+`scripts/send_newsletter.py` (stdlib markdown→HTML renderer + Gmail SMTP;
+credentials live in `data/secrets/email.json`, user-created and gitignored —
+never read or echo that file). **Still run it manually too at the START of every analysis
 session** (draft prep, weekly report, or any strategy discussion) in case
 the scheduled run hasn't fired yet that day — it is incremental: state in
 `data/intel/expert_state.json` tracks processed videos, so each run fetches
