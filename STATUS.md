@@ -106,6 +106,13 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
+- [ ] **Waiver claims recommended 2026-08-22 (user executes in Sleeper)**:
+  DYNASTY TRC — add Hutchinson / drop J'Mari Taylor, add Vele / drop
+  Kaytron Allen. Dynasty Mexica — add Malik Davis / drop Tillman, add
+  Hutchinson / drop Randall. Gallamijos Dynasty — add Waller (flip asset) /
+  drop Cowing. League of Record — no claims (wire doesn't fix RB; Stroud
+  trade is the fix). Beat-report note: Malik Davis named DAL RB2 favorite —
+  contradicts Sal's Jaydon Blue handcuff take; Blue is watch-list only.
 - [ ] **Expert-daily review candidates (2026-08-22 edition)**: Nabers (back in
   full team drills off ACL — projection may carry a stale discount), MHJ
   (camp usage: 100% preseason wk-1 snaps, 27-spot ADP gap), Garrett Wilson
