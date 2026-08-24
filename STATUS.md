@@ -74,7 +74,9 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   **👥 Rival roster viewer** (header button lists all teams by projected
   lineup; every manager-name mention anywhere — rankings owner pills,
   drops, trade cards — is a link opening their roster: starters/bench/IR/
-  taxi with projections, /api/rosters cached 10 min). **🧭 Navigation
+  taxi with projections, /api/rosters cached 10 min). Also a **👥 Rivals tab**: rival dropdown
+  (record + projected lineup in each option, per-league selection
+  remembered) with the full roster inline. **🧭 Navigation
   trail**: recent places (league · view · roster) as one-click jump-back
   chips under the tabs, plus real browser back/forward via pushState.
   League switcher, glossary, custom tooltips, on-clock beep + auto-jump,

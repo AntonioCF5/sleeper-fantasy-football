@@ -366,7 +366,11 @@ select#leagueSel{background:var(--surface2);border:1px solid var(--border);color
 main{flex:1;min-height:0;width:100%;max-width:1560px;margin:0 auto;
   padding:14px 20px 6px}
 #view-draft{height:100%;min-height:0}
-#view-rankings,#view-team,#view-moves{height:100%;min-height:0;overflow-y:auto;scrollbar-width:thin}
+#view-rankings,#view-team,#view-moves,#view-rivals{height:100%;min-height:0;overflow-y:auto;scrollbar-width:thin}
+#view-rivals{max-width:760px;margin:0 auto;width:100%;padding-bottom:24px}
+.rival-controls{padding:10px 0 4px}
+#rivalSel{background:var(--surface2);border:1px solid var(--border);color:var(--ink);
+  border-radius:8px;padding:8px 12px;font-size:14px;width:100%;max-width:340px}
 #view-moves{max-width:760px;margin:0 auto;width:100%;padding-bottom:24px}
 #view-team{max-width:760px;margin:0 auto;width:100%}
 .teampill{cursor:pointer;font-weight:650;color:var(--ink)!important}
@@ -598,6 +602,7 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
     <div class="tab" data-view="rankings" onclick="setView('rankings')">Rankings</div>
     <div class="tab" data-view="team" onclick="setView('team')">👤 My Team</div>
     <div class="tab" data-view="moves" onclick="setView('moves')">🔥 Moves</div>
+    <div class="tab" data-view="rivals" onclick="setView('rivals')">👥 Rivals</div>
   </div>
   <div class="mseg" id="mseg">
     <button data-m="picks" onclick="setMTab('picks')">🎯 Picks</button>
@@ -675,6 +680,13 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
       <div class="empty">No players in this category yet.</div>
     </div>
     <div id="teamTrades"></div>
+  </div>
+
+  <div id="view-rivals" style="display:none">
+    <div class="rival-controls">
+      <select id="rivalSel" onchange="selectRival(this.value)"></select>
+    </div>
+    <div id="rivalBody"><div class="empty">Loading rosters…</div></div>
   </div>
 
   <div id="view-moves" style="display:none">
@@ -887,10 +899,12 @@ function setView(v){
   $("view-rankings").style.display=v==="rankings"?"":"none";
   $("view-team").style.display=v==="team"?"":"none";
   $("view-moves").style.display=v==="moves"?"":"none";
+  $("view-rivals").style.display=v==="rivals"?"":"none";
   updateUrl();
   if(v==="rankings" && !rankingsLoaded) loadRankings();
   if(v==="moves") loadMoves();
   if(v==="team") loadTeamTrades();
+  if(v==="rivals") loadRivals();
 }
 function updateUrl(){
   const p=new URLSearchParams(); p.set("league",currentLeague||""); p.set("view",currentView);
@@ -980,6 +994,7 @@ async function loadLeagues(){
     if(currentView==="rankings") loadRankings();
     if(currentView==="moves") loadMoves();
     if(currentView==="team") loadTeamTrades();
+    if(currentView==="rivals") loadRivals(true);
   };
 }
 function paintLeagueStatus(l){
@@ -1219,9 +1234,42 @@ document.addEventListener("click",e=>{
   if(el&&el.dataset.owner) showRoster(el.dataset.owner);
 });
 
+// ---------- rivals tab ----------
+function rivalTeamHtml(team){
+  return `
+    <div class="card" style="margin-bottom:10px">
+      <b>${esc(team.owner)}${team.mine?" (you)":""}</b>
+      <span class="meta num" style="margin-left:8px">${esc(team.record)} · starters proj ${team.starters_proj}${team.fpts?` · PF ${team.fpts}`:""}</span>
+    </div>
+    <h3 style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;margin:12px 0 6px">Starters (${team.starters.length})</h3>${rosterRows(team.starters)}
+    <h3 style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;margin:12px 0 6px">Bench (${team.bench.length})</h3>${rosterRows(team.bench)}
+    ${team.reserve.length?`<h3 style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;margin:12px 0 6px">IR (${team.reserve.length})</h3>${rosterRows(team.reserve)}`:""}
+    ${team.taxi.length?`<h3 style="font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.6px;margin:12px 0 6px">Taxi (${team.taxi.length})</h3>${rosterRows(team.taxi)}`:""}`;
+}
+async function loadRivals(leagueChanged){
+  const j=await fetchRosters(false);
+  if(j.error||!j.teams){$("rivalBody").innerHTML=`<div class="empty">Couldn't load rosters.</div>`;return;}
+  const saved=localStorage.getItem("ff_rival_"+currentLeague);
+  let pick=(!leagueChanged&&saved&&j.teams.some(x=>x.owner===saved))?saved
+           :(j.teams.find(x=>!x.mine)||j.teams[0]).owner;
+  $("rivalSel").innerHTML=j.teams.map(x=>
+    `<option value="${esc(x.owner)}" ${x.owner===pick?"selected":""}>${esc(x.owner)}${x.mine?" (you)":""} — ${esc(x.record)} · proj ${x.starters_proj}</option>`).join("");
+  renderRival(j, pick);
+}
+function renderRival(j, owner){
+  const team=j.teams.find(x=>x.owner===owner);
+  $("rivalBody").innerHTML=team?rivalTeamHtml(team):`<div class="empty">Team not found.</div>`;
+}
+async function selectRival(owner){
+  localStorage.setItem("ff_rival_"+currentLeague, owner);
+  const j=await fetchRosters(false);
+  if(!j.error&&j.teams) renderRival(j, owner);
+  pushTrail({league:currentLeague,view:"rivals",roster:owner});
+}
+
 // ---------- navigation trail ----------
 // Recent places, one click back — no re-navigating through dropdown+tabs.
-const VIEW_LABEL={draft:"Draft Room",rankings:"Rankings",team:"My Team",moves:"Moves"};
+const VIEW_LABEL={draft:"Draft Room",rankings:"Rankings",team:"My Team",moves:"Moves",rivals:"Rivals"};
 let trail=[]; try{trail=JSON.parse(localStorage.getItem("ff_trail")||"[]");}catch(e){}
 function leagueShort(lid){
   const l=leaguesList.find(x=>x.league_id===lid);
@@ -1257,7 +1305,10 @@ document.addEventListener("click",async e=>{
     await selectLeague();
   }
   setView(loc.view);
-  if(loc.roster) showRoster(loc.roster,true);
+  if(loc.roster){
+    if(loc.view==="rivals"){ localStorage.setItem("ff_rival_"+currentLeague, loc.roster); loadRivals(); }
+    else showRoster(loc.roster,true);
+  }
 });
 // Browser back/forward: URL is pushed on each navigation (see updateUrl),
 // popstate restores without re-pushing.
