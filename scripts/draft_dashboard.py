@@ -974,7 +974,9 @@ function toggleAvailOnly(){availOnly=!availOnly;$("rkAvailToggle").classList.tog
 $("rkSearch")?.addEventListener("input",renderRankings);
 document.querySelectorAll("table.rk thead th").forEach(th=>th.addEventListener("click",()=>{
   const k=th.dataset.k;
-  if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir = (k==="adp")?1:-1;}
+  // First click gives the natural "best first" order per column: rank/tier/
+  // ADP ascending (1 is best), value columns descending. Second click flips.
+  if(sortKey===k) sortDir*=-1; else {sortKey=k; sortDir = (k==="adp"||k==="rank"||k==="tier")?1:-1;}
   document.querySelectorAll("table.rk thead th").forEach(x=>x.classList.remove("sorted"));
   th.classList.add("sorted");
   renderRankings();
