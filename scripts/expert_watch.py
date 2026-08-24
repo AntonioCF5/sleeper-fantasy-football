@@ -124,9 +124,16 @@ def check(state, quiet=False):
         if entries is None:
             print(f"!! feed failed for {ch['name']} (YouTube edge flakiness — retry later)")
             continue
-        for e in entries:
-            if e["video_id"] not in state["seen"]:
-                new.append({**e, "source": key})
+        fresh = [e for e in entries if e["video_id"] not in state["seen"]]
+        # YouTube RSS only carries the latest ~15 uploads. If EVERY entry is
+        # new despite prior runs, older videos may have scrolled out of the
+        # window since the last successful run — flag it instead of missing
+        # them silently.
+        if state["seen"] and entries and len(fresh) == len(entries):
+            print(f"!! {ch['name']}: all {len(entries)} feed entries are new — "
+                  "the RSS window (~15) may have dropped older uploads since "
+                  "the last run; check the channel page for anything missed.")
+        new.extend({**e, "source": key} for e in fresh)
     if not quiet:
         if not new:
             print("No unprocessed videos.")
