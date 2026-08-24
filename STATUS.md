@@ -21,7 +21,7 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 | 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
 | Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Trade chip: Burrow (benched behind Maye) → RB2 upgrade |
 | DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: trade QB surplus (Burrow/Goff benched) for WR2/TE |
-| League of Record | 12t, TE-prem, 6pt paTD | in_season, #8 of 12 | Stroud is the trade chip; Bowers untouchable; RB is the hole |
+| League of Record | 12t, **dynasty**, TE-prem, 6pt paTD | in_season, #8 of 12 | Stroud is the trade chip; Bowers untouchable; RB is the hole. (Confirmed settings.type=2 — apply dynasty rules here, incl. dynasty-value waivers and trade-posture framing.) |
 | Gallamijos Dynasty | 12t, full PPR | in_season, #10 of 12 | Rebuild: sell Mahomes/Montgomery for youth + 2027 firsts |
 
 ## Key decisions & standing rules (chronological)
