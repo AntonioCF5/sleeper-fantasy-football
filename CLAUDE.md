@@ -106,7 +106,14 @@ When the user asks for "this week's report/analysis" or similar:
   *in this league's format*. Those are your targets.
 2. Format adjustments the board already handles: superflex (uses `adp_2qb`),
   TE premium, PPR variants, extra flex slots, roster-slot-derived
-  replacement levels, IDP.
+  replacement levels. **IDP players are excluded from all boards** (user
+  decision 2026-08-24, `analysis.IDP_BOARD_EXCLUDE`): single-starter slots
+  with bottomless replacement depth — ranking them alongside offense only
+  distorted the offensive board and the Value column (all-position rank vs
+  offense-only ADP). Fill DL/LB/DB with final-round picks/waivers; weekly
+  lineup optimization still handles IDP starters. If a league ever scores
+  IDP heavily enough to matter (e.g. the MEXICA 5.0-assist scenario),
+  re-enable per league deliberately.
 3. **Draft by tiers, not ranks.** The board's Tier column breaks each
   position at projection cliffs (`analysis._assign_tiers`). At every pick:
   count how many players remain in each position's current tier vs picks

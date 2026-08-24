@@ -545,10 +545,22 @@ def league_winners(league: dict, players: dict, season_proj: dict, adp: dict,
 # ----------------------------------------------------------- draft board
 
 
+IDP_BOARD_EXCLUDE = {"DL", "LB", "DB", "IDP_FLEX"}
+
+
 def draft_board(league: dict, season: str, players: dict, top_n: int = 200):
-    """VORP-based board under the league's exact scoring + roster settings."""
+    """VORP-based board under the league's exact scoring + roster settings.
+
+    IDP players are excluded by user decision (2026-08-24): IDP slots are
+    single-starter positions with enormous replacement depth, so ranking
+    defenders alongside offense only distorted the offensive board (and the
+    Value column compared an all-position rank against offense-only ADP).
+    Fill IDP slots with final-round picks/waivers; weekly lineup optimization
+    (optimal_lineup + projection_map) still covers IDP starters unchanged.
+    """
     scoring = league.get("scoring_settings", {})
-    slots = [p for p in league.get("roster_positions", []) if p != "BN"]
+    slots = [p for p in league.get("roster_positions", [])
+             if p != "BN" and p not in IDP_BOARD_EXCLUDE]
     n_teams = league.get("total_rosters", 12)
     projs = api.get_season_projections(season, league_positions(league))
     superflex = "SUPER_FLEX" in slots or slots.count("QB") >= 2
@@ -557,7 +569,7 @@ def draft_board(league: dict, season: str, players: dict, top_n: int = 200):
     for p in projs:
         pl = p.get("player") or players.get(p["player_id"]) or {}
         pos = canonical_pos(pl)
-        if not pos:
+        if not pos or pos in IDP_BOARD_EXCLUDE:
             continue
         pts = score_stat_line(p.get("stats") or {}, scoring)
         adp_key = "adp_2qb" if superflex else (

@@ -50,6 +50,15 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 6. **Elite = capped top-3 by VORP within tier 1 per position**, excludes K.
 7. **Travis Hunter positional fix**: `analysis.canonical_pos()` prefers
    offensive tags for two-way players — never take `fantasy_positions[0]` raw.
+8. **IDP excluded from all boards** (2026-08-24, user decision): DL/LB/DB
+   are single-starter slots with bottomless depth — ranking them alongside
+   offense distorted the offensive board and the Value column (all-position
+   rank vs offense-only ADP; Tre' Harris was "rank 508" in MEXICA with 314
+   defenders above him, rank 225 after). `analysis.IDP_BOARD_EXCLUDE` filters
+   board rows + starter-fill slots; weekly lineup optimization still covers
+   IDP starters. Fill IDP slots with final-round picks/waivers. If MEXICA's
+   assist scoring ever really plays at 5.0, re-enable deliberately for that
+   league (see draft plan standing rules).
 
 ## Tooling state (all working, audited across all 8 leagues)
 

@@ -22,9 +22,12 @@ RBs are gone at #10) and QB-first inversion (if a top-3 QB falls to #10).
 2. **6-pt passing TDs + your QB situation.** Your keeper Shough is QB20 —
    a backup, not a plan. 17 other teams need QBs and Lawrence is already
    kept. Leave round 2–3 with a top-8 QB. Lamar Jackson at #27 is the play.
-3. **IDPs are late-round filler.** Top IDP (Jack Campbell, LB) ranks just
-   69th overall with corrected scoring, and market ADP agrees (93+). Take
-   exactly 3–4 IDPs, all after round 8. Never reach.
+3. **IDPs are off the board entirely** (user decision 2026-08-24: single
+   starter slots, bottomless replacement depth — boards and the dashboard
+   now show offense only). Fill DL/LB/DB with the final picks or post-draft
+   waivers; any warm body starts. The live assistant won't suggest IDP
+   names — just grab a starting DL, LB, and DB somewhere in the last 3-4
+   rounds alongside the league-winner stashes, and never earlier.
 
 ## Round-by-round plan
 
@@ -65,7 +68,9 @@ RBs are gone at #10) and QB-first inversion (if a top-3 QB falls to #10).
   on the next tier player at that position; 18-team runs don't stop.
 - If the commissioner has NOT fixed the assist scoring by draft day, tell
   me — at 5.0/assist the IDP plan inverts completely (Campbell becomes a
-  round-4 pick and IDP depth wins leagues).
+  round-4 pick and IDP depth wins leagues). That inversion would also mean
+  putting IDP back on the boards: remove the position filter in
+  `analysis.draft_board` (`IDP_BOARD_EXCLUDE`) for this league first.
 
 *Regenerate this plan the morning of the draft — ADP shifts, injuries, and
 depth-chart news move targets. During the live draft I can poll picks in
