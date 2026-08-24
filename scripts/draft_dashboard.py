@@ -852,11 +852,14 @@ function render(d){
       </div>
     </div>`).join("");
   const TYPE_ICON={value:"💤",winner:"🎟",both:"💤🎟"};
+  const TYPE_TIP={value:TERMDEF["Sleeper"],
+                  winner:TERMDEF["League-winner / stash"],
+                  both:"Both a sleeper (market underprices him here) AND a league-winner stash (late-round contingent upside). "};
   $("squeuesec").style.display=(d.sleeper_queue||[]).length?"":"none";
   $("squeue").innerHTML=(d.sleeper_queue||[]).map(s=>`
     <div class="card sq-row${s.closing?" closing":""}">
       <div class="sq-round num">R${s.window_round}</div>
-      ${player(s,` <span>${TYPE_ICON[s.type]||""}</span>${s.closing?` <span class="sq-closing-tag">⚠ WINDOW CLOSING</span>`:""}`)}
+      ${player(s,` <span class="term" data-tip="${esc(TYPE_TIP[s.type]||"")}">${TYPE_ICON[s.type]||""}</span>${s.closing?` <span class="sq-closing-tag">⚠ WINDOW CLOSING</span>`:""}`)}
       <span class="meta num">${s.value!=null?("+"+s.value+" val"):""}</span>
       <div class="sq-why">${esc(s.why)}</div>
     </div>`).join("");
