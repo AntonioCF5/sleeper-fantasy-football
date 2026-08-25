@@ -99,11 +99,13 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    más húmeda del vestidor". Miroslava jura que ella nomás pasaba por ahí.
    Las "fuentes del vestidor" siguen existiendo como frase de ella, pero la
    sección se llama así.
-3. 🏆 **Premios**: MVP de la semana · 💩 La Cagada de la Semana (peor decisión
-   de lineup/waiver) · 🪦 El Muerto (peor equipo) · 🤡 Trade del Payaso (cuando
-   aplique)
-4. 📊 **Power Ranking burlón** 1-N: una línea de carrilla por equipo, del trono
-   al sótano
+3. 🏆 **REPARTO DE MEDALLAS Y VERGAZOS**: MVP de la semana · 💩 La Cagada de
+   la Semana (peor decisión de lineup/waiver) · 🪦 El Muerto (peor equipo) ·
+   🤡 Trade del Payaso (cuando aplique). Al MVP su medalla, al resto su verdad.
+4. 📊 **DEL PENTHOUSE AL SÓTANO** — el power ranking 1-N: una línea de
+   carrilla por franquicia, del trono a la humedad. Bonus permanente: con el
+   Faraón en la liga, el chiste del penthouse ya viene cargado ("el único que
+   tiene penthouse real y ranking de sótano").
 5. ⚔️ **Marcador de la Guerra**: Gallas vs Mijos (head-to-head entre bandos) y
    qué hicieron Los Sin Bandera
 6. 🔮 **EL PALPITOTE DEL ESCOTE** — la predicción troll de la próxima semana
