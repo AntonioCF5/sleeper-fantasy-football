@@ -94,6 +94,11 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 1. Apertura de Miroslava (saludo con personalidad + algo trending de la semana)
 2. 🥊 **La Putiza de la Semana** + SOLO los partidos que valgan la pena
    (infartos, ridículos, puntos podridos en la banca) — NO recap de todos
+2b. 🚿 **SE DICE EN LA REGADERA** — la sección de chismes (antes "mis fuentes
+   del vestidor"): el run-rún de la liga en bullets, recogido "de la fuente
+   más húmeda del vestidor". Miroslava jura que ella nomás pasaba por ahí.
+   Las "fuentes del vestidor" siguen existiendo como frase de ella, pero la
+   sección se llama así.
 3. 🏆 **Premios**: MVP de la semana · 💩 La Cagada de la Semana (peor decisión
    de lineup/waiver) · 🪦 El Muerto (peor equipo) · 🤡 Trade del Payaso (cuando
    aplique)
