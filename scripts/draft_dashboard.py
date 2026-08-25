@@ -131,30 +131,63 @@ def moves_payload(league_id, force=False):
         droppable = [b for b in bench_all if (b.get("age") or 0) >= 26] if dynasty else bench_all
         bench_floor = (droppable[0]["proj"] if droppable
                        else bench_all[0]["proj"] if bench_all else 0)
-        # Positional glut: don't recommend claiming a QB the roster can't use.
-        my_qbs = sum(1 for pl in (mine.get("players") or [])
-                     if analysis.canonical_pos(players.get(pl) or {}) == "QB")
-        slots_l = league.get("roster_positions", [])
+        # Starting-slot exposure per position (dedicated + flex eligibility),
+        # and the user's Nth-best active player there — a claim must upgrade a
+        # slot the roster can actually use, not just beat the bench floor.
+        slots_l = [s for s in league.get("roster_positions", []) if s != "BN"]
         sf = "SUPER_FLEX" in slots_l or slots_l.count("QB") >= 2
-        qb_glut = my_qbs >= (3 if sf else 2)
+        FLEX_ELIG = {"FLEX": ("RB", "WR", "TE"), "WRRB_FLEX": ("RB", "WR"),
+                     "REC_FLEX": ("WR", "TE"), "SUPER_FLEX": ("QB", "RB", "WR", "TE")}
+        exposure = {}
+        for pos in ("QB", "RB", "WR", "TE", "K", "DEF"):
+            n = slots_l.count(pos)
+            n += sum(1 for s in slots_l if pos in FLEX_ELIG.get(s, ()))
+            exposure[pos] = max(n, 1) if pos in ("QB", "RB", "WR", "TE") else slots_l.count(pos)
+        active = [pl for pl in (mine.get("players") or []) if pl not in ir_taxi]
+        by_pos_proj = {}
+        for pl in active:
+            pos = analysis.canonical_pos(players.get(pl) or {})
+            by_pos_proj.setdefault(pos, []).append(sp.get(pl, 0))
+        for v in by_pos_proj.values():
+            v.sort(reverse=True)
+
+        def nth_best(pos):
+            n = exposure.get(pos, 1)
+            vals = by_pos_proj.get(pos, [])
+            return round(vals[n - 1]) if len(vals) >= n else 0
+
+        n_teams = league.get("total_rosters", 12)
 
         def verdict(proj, trend, pos=None, age=None):
-            """Systematic claim signal, methodology-compliant: clear points
-            upgrade over the weakest DROPPABLE bench spot, or breakout-level
-            trending (projections lag news — the user's speed edge). Caps:
-            in dynasty, a 29+ veteran without breaking news never exceeds
-            WATCH (veteran points-chasing needs the user's sign-off), and a
-            QB when the roster already has a surplus never exceeds WATCH."""
+            """Claim = a startable upgrade: beats the user's Nth-best active
+            player at the position (N = starting exposure incl. flex) AND
+            the droppable bench floor — or breakout-level trending
+            (projections lag news; the user's speed edge). Caps, per the
+            methodology: DEF/K never auto-claim (streaming commodity in
+            ≤12-team leagues, set-and-forget in 18s); dynasty 29+ veterans
+            without breaking news cap at watch; a position where the
+            candidate doesn't beat the user's startable depth caps at watch."""
             v, why = None, ""
-            if proj >= bench_floor + 25 or trend >= 30000:
+            slot_bar = nth_best(pos) if pos else 0
+            startable_up = proj > slot_bar + 10
+            if (proj >= bench_floor + 25 and startable_up) or trend >= 30000:
                 v = "claim"
-                why = (f"beats your weakest droppable bench spot ({proj} vs {bench_floor})"
-                       if proj >= bench_floor + 25 else
+                why = (f"upgrades a startable slot: {proj} vs your #{exposure.get(pos,1)} {pos} ({slot_bar})"
+                       if proj >= bench_floor + 25 and startable_up else
                        f"breaking: {trend:,} adds/24h — projections lag news")
             elif proj >= bench_floor + 5 or trend >= 8000:
-                v, why = "watch", f"marginal vs droppable-bench floor {bench_floor}"
-            if v == "claim" and pos == "QB" and qb_glut:
-                v, why = "watch", f"you already carry {my_qbs} QBs — no roster use"
+                v, why = "watch", (f"doesn't beat your startable {pos} depth ({proj} vs {slot_bar})"
+                                   if not startable_up and proj >= bench_floor + 5
+                                   else f"marginal vs droppable-bench floor {bench_floor}")
+            if v == "claim" and trend >= 30000 and proj < 15:
+                v, why = "watch", f"trending hard ({trend:,}/24h) but projects ~nothing — investigate the news before bidding"
+            if v == "claim" and pos in ("DEF", "K"):
+                v = "watch"
+                why = ("streaming commodity — matchup call, not a roster upgrade"
+                       if n_teams <= 12 else
+                       "set-and-forget league size — swap only if clearly better than yours")
+            if v == "claim" and pos and not startable_up and trend < 30000:
+                v, why = "watch", f"roster already deep at {pos} ({proj} vs your #{exposure.get(pos,1)}: {slot_bar})"
             if v == "claim" and dynasty and (age or 0) >= 29 and trend < 15000:
                 v, why = "watch", "veteran points in a dynasty league — your call, not a default claim"
             return v, why
