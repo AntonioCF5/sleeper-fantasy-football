@@ -122,12 +122,54 @@ def moves_payload(league_id, force=False):
                  if p not in starters and p not in ir_taxi]
         out["weakest_bench"] = sorted((pdict(p) for p in bench),
                                       key=lambda x: x["proj"])[:5]
+        # Bench floor = weakest DROPPABLE bench spot. In dynasty the
+        # dynasty-value rule protects young stashes, so the floor comes from
+        # age-26+ players only (falls back to overall floor if none) —
+        # otherwise a protected 24yo handcuff makes everything look like an
+        # upgrade and every card screams CLAIM.
+        bench_all = sorted((pdict(pl) for pl in bench), key=lambda x: x["proj"])
+        droppable = [b for b in bench_all if (b.get("age") or 0) >= 26] if dynasty else bench_all
+        bench_floor = (droppable[0]["proj"] if droppable
+                       else bench_all[0]["proj"] if bench_all else 0)
+        # Positional glut: don't recommend claiming a QB the roster can't use.
+        my_qbs = sum(1 for pl in (mine.get("players") or [])
+                     if analysis.canonical_pos(players.get(pl) or {}) == "QB")
+        slots_l = league.get("roster_positions", [])
+        sf = "SUPER_FLEX" in slots_l or slots_l.count("QB") >= 2
+        qb_glut = my_qbs >= (3 if sf else 2)
+
+        def verdict(proj, trend, pos=None, age=None):
+            """Systematic claim signal, methodology-compliant: clear points
+            upgrade over the weakest DROPPABLE bench spot, or breakout-level
+            trending (projections lag news — the user's speed edge). Caps:
+            in dynasty, a 29+ veteran without breaking news never exceeds
+            WATCH (veteran points-chasing needs the user's sign-off), and a
+            QB when the roster already has a surplus never exceeds WATCH."""
+            v, why = None, ""
+            if proj >= bench_floor + 25 or trend >= 30000:
+                v = "claim"
+                why = (f"beats your weakest droppable bench spot ({proj} vs {bench_floor})"
+                       if proj >= bench_floor + 25 else
+                       f"breaking: {trend:,} adds/24h — projections lag news")
+            elif proj >= bench_floor + 5 or trend >= 8000:
+                v, why = "watch", f"marginal vs droppable-bench floor {bench_floor}"
+            if v == "claim" and pos == "QB" and qb_glut:
+                v, why = "watch", f"you already carry {my_qbs} QBs — no roster use"
+            if v == "claim" and dynasty and (age or 0) >= 29 and trend < 15000:
+                v, why = "watch", "veteran points in a dynasty league — your call, not a default claim"
+            return v, why
         # Drop it like it's hot
         try:
             drops = analysis.recent_drops(league_id, players, sp, hours=96)
-            out["drops"] = [{**pdict(d["player_id"]),
-                             "dropped_by": d["dropped_by"], "hours_ago": d["hours_ago"],
-                             "trend": d["trend_count"]} for d in drops[:8]]
+            out["drops"] = []
+            for d in drops[:8]:
+                row = {**pdict(d["player_id"]), "dropped_by": d["dropped_by"],
+                       "hours_ago": d["hours_ago"], "trend": d["trend_count"]}
+                row["verdict"], row["verdict_why"] = verdict(
+                    row["proj"], row["trend"], row["pos"], row.get("age"))
+                out["drops"].append(row)
+            out["drops"].sort(key=lambda r: ({"claim": 0, "watch": 1}.get(r["verdict"], 2),
+                                             -(r["proj"] + min(r["trend"], 50000) / 500)))
         except Exception:
             pass
         # Top free agents (proj + trending), excluding rostered
@@ -147,8 +189,14 @@ def moves_payload(league_id, force=False):
             if v >= 60 or tr >= 8000:
                 fas.append((v + min(tr, 50000) / 500, pid, tr))
         fas.sort(reverse=True)
-        out["waiver_targets"] = [{**pdict(pid), "trend": tr}
-                                 for _, pid, tr in fas[:8]]
+        out["waiver_targets"] = []
+        for _, pid, tr in fas[:8]:
+            row = {**pdict(pid), "trend": tr}
+            row["verdict"], row["verdict_why"] = verdict(
+                row["proj"], tr, row["pos"], row.get("age"))
+            out["waiver_targets"].append(row)
+        out["waiver_targets"].sort(key=lambda r: ({"claim": 0, "watch": 1}.get(r["verdict"], 2),
+                                                  -(r["proj"] + min(r["trend"], 50000) / 500)))
         # Algorithmic trade ideas (complementary needs)
         try:
             ideas = analysis.trade_suggestions(
@@ -736,6 +784,11 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
   border-bottom:1px solid var(--border);font-size:13px}
 .rosterrow:last-child{border-bottom:none}
 .rosterrow .rp-proj{margin-left:auto;color:var(--ink2)}
+.vbadge{font-size:10px;font-weight:700;letter-spacing:.5px;border-radius:5px;
+  padding:2px 7px;margin-left:6px;vertical-align:1px}
+.vclaim{background:rgba(255,120,60,.16);color:#ff9b63;border:1px solid rgba(255,120,60,.4)}
+.vwatch{background:var(--surface3);color:var(--ink2);border:1px solid var(--border)}
+.card.vhot{border-color:rgba(255,120,60,.45)}
 .ownerlink{color:var(--accent);cursor:pointer;text-decoration:underline;
   text-decoration-style:dotted;text-underline-offset:2px}
 .ownerlink:hover{filter:brightness(1.2)}
@@ -1369,12 +1422,16 @@ async function loadMoves(){
   const faab=j.faab?`<div class="pill" style="margin:0 0 10px;white-space:normal;height:auto;line-height:1.5;padding:8px 12px">💰 FAAB
       <b class="num">$${j.faab.left}</b>/<span class="num">$${j.faab.budget}</span> left
       · most aggressive rival has spent <b class="num">$${j.faab.rival_max_spent}</b></div>`:"";
+  const vBadge=d=>d.verdict==="claim"
+      ?`<span class="vbadge vclaim term" data-tip="${esc("Recommended acquisition: "+(d.verdict_why||""))}">🔥 CLAIM</span>`
+    :d.verdict==="watch"
+      ?`<span class="vbadge vwatch term" data-tip="${esc("Watch-list: "+(d.verdict_why||""))}">👀 watch</span>`:"";
   const drops=(j.drops||[]).map(d=>`
-    <div class="card">${player(d)}
+    <div class="card${d.verdict==="claim"?" vhot":""}">${player(d,vBadge(d))}
       <span class="meta num">proj ${d.proj} · ${d.trend?d.trend.toLocaleString()+" adds/24h · ":""}dropped by ${ownerLink(d.dropped_by)} ${d.hours_ago}h ago</span>
     </div>`).join("")||`<div class="empty">No valuable drops in the last 4 days.</div>`;
   const fas=(j.waiver_targets||[]).map(d=>`
-    <div class="card">${player(d)}
+    <div class="card${d.verdict==="claim"?" vhot":""}">${player(d,vBadge(d))}
       <span class="meta num">proj ${d.proj}${d.trend?` · ${d.trend.toLocaleString()} adds/24h`:""}</span>
     </div>`).join("")||`<div class="empty">Nothing on the wire beats your bench.</div>`;
   const bench=(j.weakest_bench||[]).map(d=>`
@@ -1384,7 +1441,7 @@ async function loadMoves(){
     <h2 class="term" data-tip="Players other managers dropped recently who are still free agents — a good drop is the cheapest acquisition in fantasy, and drops often precede news going wide.">🔥 Drop it like it's hot</h2>${drops}
     <h2 class="term" data-tip="Top free agents by projection + trending adds under THIS league's scoring. Compare against your weakest bench before claiming; in dynasty leagues never cut young stashes for veteran points.">📈 Waiver targets</h2>${fas}
     ${bench?`<h2 class="term" data-tip="Your lowest-projected ACTIVE bench players (taxi/IR excluded — they consume no bench spot). Drop candidates — but in dynasty leagues rank drops by ASSET value: aging vets first, stalled year-3+ second, young stashes never.">🪑 Weakest bench</h2>${bench}`:""}
-    <div class="meta" style="margin-top:10px">Claims + FAAB bid sizes with full reasoning arrive in the daily newsletter — this view is the live snapshot.</div>`;
+    <div class="meta" style="margin-top:10px">🔥 CLAIM = clear upgrade over your weakest active bench spot, or breakout-level trending that projections haven't caught. FAAB bid sizes + full reasoning arrive in the daily newsletter; in dynasty leagues pick the DROP by asset value (aging vets first, young stashes never).</div>`;
 }
 
 // ---------- rankings ----------
