@@ -111,7 +111,9 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
    aciertos ("el Palpitote va 3 de 4").
-7. Cierre que empuje a moverse (wire, trades, retas) + besos
+7. 📣 **CIERRE DE MIROSLAVA, PERO NO DE PATAS** — el cierre que empuja a
+   moverse (agencia libre, trades, retas) + besos. El nombre es el chiste y
+   no se explica (regla 4).
 
 ## Las ligas
 
