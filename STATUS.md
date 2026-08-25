@@ -2,7 +2,7 @@
 
 *Living document — update at the end of any session that changes strategy,
 tooling, or league state. Last updated: **2026-08-21** (preseason week 2,
-draft season).*
+draft season). Expert-daily run 2026-08-24.*
 
 ## What this project is
 
@@ -118,9 +118,15 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   3. Gallamijos Dynasty → ElGeneral4: Mahomes + Montgomery for Ashton
      Jeanty (their lineup +5; rebuild takes the 22yo). Alternate ask:
      2027 1st + Addison. Do not take less.
-  4. DYNASTY TRC: NO trade — no QB-needy buyer (all 9 rivals checked).
-     POUNCE TRIGGER armed, Goff ONLY: any rival QB1 injury/benching →
-     same-day premium offer. Daily task checks the trigger every run.
+  4. DYNASTY TRC — **SUPERSEDED 2026-08-24**: Goff → **RGV95** for Rome
+     Odunze (you 2087.9→2124.4, them 2067.7→2067.3). He isn't QB-needy,
+     he's WR-choked: seven WRs projecting 160+ into four skill slots, and
+     Odunze is his WR4. Fallback Marvin Harrison (you +14.8, them ±0).
+     **Retire the pounce trigger** — it fired today (albertonp95 rosters
+     Mahomes, KC non-committal on week 1) and the math killed it: he also
+     rosters Mayfield (298.7), so Goff (314.5) is a +16 upgrade, and
+     **Geno Smith (242 proj) is a free agent in that league**. There is no
+     QB scarcity premium in DYNASTY TRC. User to confirm retiring it.
 - [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
   ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
   (b) newsletter start/sit-deltas section (task prompt already carries it);
@@ -132,8 +138,14 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   dashboard with the user ~10 min before.
 - [ ] **Guillotine MX & TRC**: commissioner hasn't randomized draft order —
   recs/round-plan appear automatically once slot is known.
-- [ ] **Coaching gaps**: ATL (Tommy Rees) and SEA (Fleury) have notes but no
-  player adjustments — revisit on draft morning with usage reports.
+- [ ] **ATL COACHING GAP — now urgent (2026-08-24)**: `team_env.json` has ATL
+  with `hc: null` and Tommy Rees at OC. **Kevin Stefanski has been Atlanta's
+  head coach since 2026-01-17** (web-verified). His offenses fed the TE
+  26%+ of team targets in each of his last six years as HC (32% in 2025) —
+  that is the entire FF Kyle Pitts thesis, and our board is neutral on Pitts
+  because it doesn't know. Fix `team_env.json` and decide the Pitts
+  adjustment LIVE (real-world role info, meets the player_adjust standard,
+  but the daily task is fenced from making it). SEA (Fleury) still open too.
 - [ ] **FANTASY MEXICA**: remind commissioner to fix assist scoring to 0.5
   before week 1. If league will play at 5.0, IDP strategy inverts (ask user).
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
@@ -153,7 +165,17 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims recommended 2026-08-22, CORRECTED for dynasty value
+- [ ] **Waiver claims — CURRENT SET 2026-08-24** (source of truth:
+  `data/intel/waiver_claims.json`; dashboard Moves tab overlays it):
+  DYNASTY TRC — **CLAIM Barion Brown (22) $9, drop Trey Benson** (ARI
+  waived/injured him Monday — path gone). Hutchinson **downgraded to
+  optional $11** (drop Conner, 31) after Houston traded for Kayshon Boutte,
+  which dilutes the exact WR2 snaps the $21 bid bought. Vele **reversed to
+  skip** (28, edge expires when Tyson returns; Brown is the same vacancy at
+  22). Dynasty Mexica — Hutchinson **optional $7** over Tillman (26).
+  Gallamijos Dynasty & League of Record — no claims. Jerome Ford (released
+  by WAS with an injury settlement) is the next Gallamijos Dyn drop.
+- [ ] *(superseded)* **Waiver claims recommended 2026-08-22, CORRECTED for dynasty value
   (user executes in Sleeper)**: DYNASTY TRC — add Hutchinson (26) / drop
   James Conner (31, Q); optional add Vele / drop Jennings (29) or Parkinson
   (27), user's call. Dynasty Mexica — add Hutchinson / drop Tillman (stalled
@@ -164,6 +186,15 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   spots. New standing rule in memory (dynasty-value-waivers) + scheduled
   task. Beat note: Malik Davis named DAL RB2 favorite — contradicts Sal's
   Jaydon Blue handcuff take; Blue watch-list only.
+- [ ] **Expert-daily review candidates (2026-08-24 edition)**: (a) ATL/Pitts
+  — see the coaching-gap item above, the highest-value open decision;
+  (b) Eli Stowers is a **review tripwire** — our TE-premium board has him
+  +74 / rank 176 in League of Record while Sal spent a segment saying he's
+  a third-string non-asset (14 snaps with the backups, now a hamstring
+  DNP); (c) FF's "Texans WR2" segment never named the player on the day
+  Boutte was traded there — unresolved, used only as directional caution.
+  Contested-within-FF and therefore NOT tripwires: Jonathon Brooks, Josh
+  Jacobs, Kyle Pitts, De'Von Achane.
 - [ ] **Expert-daily review candidates (2026-08-22 edition)**: Nabers (back in
   full team drills off ACL — projection may carry a stale discount), MHJ
   (camp usage: 100% preseason wk-1 snaps, 27-spot ADP gap), Garrett Wilson
