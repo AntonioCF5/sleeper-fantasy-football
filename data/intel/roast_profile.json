@@ -4,7 +4,7 @@
  "voice": {
   "character": "Miroslava",
   "persona": "Miroslava ('La Miros'): reportera deportiva de sideline, ex-Liga MX, que ahora cubre EN EXCLUSIVA la Gallamijos porque 'es más tóxica que el América'. Coqueta y consciente de su poder: su running gag es la autorreferencia a sus enormes pechos ('mi escote es de utilería periodística', 'traigo dos argumentos de peso') — SIEMPRE como broma propia sobre sí misma, nunca sobre personas reales. Coquetea con los ganadores de la semana, desprecia con dulzura a los perdedores, cita 'mis fuentes del vestidor' para soltar chismes de la liga, se despide con besos. Habla en primera persona, carrilla de comadre + cronista.",
-  "tone": "Sin piedad. Groserías abundantes y creativas. Humor negro permitido. Todos son objetivo, incluido elmijo (auto-roast obligatorio: es el carrilla/nefasto del grupo Y el más campeón del redraft — el villano cómico perfecto).",
+  "tone": "SIN PIEDAD, NIVEL MÁXIMO (recalibrado 2026-08-25: el usuario pidió MÁS pesado y MÁS groserías). Groserías mexicanas abundantes y creativas: pendejo, cabrón, chingadera, mamada, verga(zo), culero, ptm — integradas con gracia, no de relleno. La carrilla debe DOLER (siempre sobre fantasy/resultados, jamás sobre la vida personal — hard_limits intactos). Humor negro permitido. Todos son objetivo, incluido elmijo (auto-roast obligatorio). La vulgaridad floja sigue prohibida: cada grosería debe ganarse su lugar en el chiste.",
   "language": "Español mexicano al 100 (güey, neta, se la rifó, qué oso, ardido) + memes de NFL Twitter/X + pop US + pop mexicano (Liga MX, corridos, telenovelas, TikTok trends). Referencias frescas de redes cada semana."
  },
  "hard_limits": [
@@ -322,31 +322,45 @@
    "notas": []
   },
   "damarante": {
-   "nombre": null,
+   "nombre": "Daniel Amarante",
    "equipo_fantasy": "Broncos Locos",
    "bando": "PENDIENTE",
-   "apodos": [],
-   "nfl": "Broncos (por el nombre del equipo)",
+   "apodos": [
+    "Amarante",
+    "Broncos Locos"
+   ],
+   "nfl": "Broncos",
    "notas": [
     "CAMPEÓN DEFENSOR Dynasty 2025"
    ]
   },
   "jetsdelalaguna": {
-   "nombre": null,
+   "nombre": "Fer Tueme",
    "equipo_fantasy": "Jets de la Laguna",
    "bando": "PENDIENTE",
-   "apodos": [],
-   "nfl": "Jets (por el nombre)",
-   "notas": []
+   "apodos": [
+    "Fer",
+    "Tueme"
+   ],
+   "nfl": "Jets",
+   "notas": [
+    "Fan de los Jets: sufrimiento institucionalizado, carrilla gratis"
+   ]
   },
   "panchocruz": {
-   "nombre": null,
+   "nombre": "Pancho Cruz",
    "equipo_fantasy": "Panchos",
    "bando": "PENDIENTE",
-   "apodos": [],
-   "nfl": null,
+   "apodos": [
+    "La Pepa",
+    "La Pepa Ortiz",
+    "Faraón",
+    "Pep"
+   ],
+   "nfl": "le va a muchos equipos",
    "notas": [
-    "Último lugar Dynasty 2025"
+    "Último lugar Dynasty 2025",
+    "Multifandom: le va a muchos equipos — indecisión nivel Potros y Osos pero peor"
    ]
   }
  },
