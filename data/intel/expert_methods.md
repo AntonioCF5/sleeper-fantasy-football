@@ -127,3 +127,86 @@ vacated volume + role reports vs ADP); FF are base-rate actuaries
 doctrine — both converge on target share > box scores, vacated-opportunity
 math, Vegas as ground truth, price-relative verdicts, and ruthless week-1
 cut discipline.
+
+
+## Preseason snap-chart reading (added 2026-08-24, both sources)
+
+Third-weekend preseason games put starters on the field, which converts camp
+rumor into usage data. Both sources graded that weekend, and the process
+lessons generalize:
+
+- **Grade "X of Y starter snaps", never box scores.** Sal reads every
+  situation off PFF first-team snap charts (Loveland 8/9, Braelon Allen
+  10/10, Woody Marks 100% of the backfield, Jonathon Brooks 11-12/13).
+  A touchdown against third-stringers is noise; a route on 4 of 5 starter
+  dropbacks is signal.
+- **Who RESTS is as informative as who plays.** A veteran or established
+  starter sitting with no reported injury (Tre Tucker, Barion Brown,
+  David Montgomery) is the team signalling his role is already locked. The
+  inverse also holds: a high-pedigree rookie playing with the backups
+  (Eli Stowers) is a negative, not a neutral.
+- **Exit order is the depth-chart tell in a positional battle.** Track who
+  starts AND who leaves first, week over week. Malik Davis started and left
+  before Jaydon Blue — the exact reverse of the prior week — which is what
+  turned a settled DAL RB2 job back into a three-way battle.
+- **Read week-over-week rotation deltas, not a single game.** Omar Cooper
+  went from losing snaps to Isaiah Williams to a 60%-vs-1-snap advantage in
+  seven days.
+- **Slot-vs-outside alignment on the first drive is a live variable for
+  veterans.** A slot-only alignment caps a WR's ceiling relative to his ADP
+  (the Stefon Diggs flag).
+
+## Injury red-alert protocol (added 2026-08-24, fantasy-footballers)
+
+When a scary injury breaks mid-draft, do NOT swing to season-ending without
+a diagnosis. The correct move is to move the player down a little AND raise
+his risk rating, then wait. Sites that pulled Ashton Jeanty from rankings
+entirely created a market where his backup went in the 4th round on zero
+information — and dynasty managers paid a first, a 2027 second, Blake Corum
+and Brian Thomas Jr. for him inside 24 hours.
+
+- **Low vs high ankle sprain is the entire pricing decision.** Low = hold
+  him out, week-1 fine. High = 4-6 weeks plus a degraded ramp. Until the
+  team releases a diagnosis, both branches are live and the correct output
+  is a widened range, not a new point estimate.
+- **Stalling a slow-draft pick to gather information is correct play**, not
+  bad manners — if you rush, the next manager harvests the information.
+- **Discount every injury vacancy for the post-cutdown veteran signing.**
+  Free-agent RBs hitting the market after roster cuts routinely torch a
+  backup's projected workload before week 1. (Sal predicted Arizona would
+  cut Trey Benson before James Conner on this logic — Sleeper's wire
+  confirmed the Benson waiver the same day.)
+
+## Screens worth stealing (added 2026-08-24)
+
+- **Touchdown-source audit as a bust screen** [FF]: split a back's points
+  into rushing efficiency vs touchdown luck, then ask whether the TD *type*
+  is historically repeatable. Etienne's 6 receiving TDs on 36 catches is a
+  three-player, 25-year outlier and 43% of his points — the baseline must
+  regress hard regardless of the offense.
+- **Red-zone conversion inside the 10 and inside the 5** [FF] is a distinct
+  efficiency screen from overall efficiency. A 15% inside-10 TD rate is a
+  bust flag independent of volume.
+- **Handcuffs are only worth a pick when the backup role is unambiguous**
+  [FF]. Two candidates splitting the backup job, or one of them hurt, means
+  take the role off waivers instead. Sal's version ranks contingent backs by
+  (a) clarity of the RB2 role in preseason usage, (b) offense quality, and
+  (c) fragility of the starter ahead — injury history, age, new team,
+  suspension risk.
+- **The WR breakout year has moved** [FF]: a wave of year-one breakouts
+  produced year-two regressions (McConkey, Brian Thomas Jr.), so the live
+  pattern for high-draft-capital receivers is now the YEAR-THREE breakout
+  (the JSN template). Applies to Odunze and Marvin Harrison this season.
+- **Beat-writer usage quotes outrank host intuition on backfield splits**
+  [FF] — and outrank preseason snap counts too. The Patriots call was made
+  purely on two named writers' explicit language.
+- **College target share is the carry-forward metric for late-round rookie
+  WR sleepers** [Sal] — consistency of share beats raw production
+  (Malachi Fields 25/23/20%, Barion Brown 24/23/16/19%).
+- **Rookie TEs get a structural grace period** [Sal] — the position takes
+  3-4 years (protections, alignments), so a rookie TE struggling in camp is
+  the expected outcome and should be read as a BOOST to the incumbent
+  (Stowers struggling → Goedert's TD competition never materialized).
+- **Playoff-week (15-17) planning risk is bad teams tanking to a random
+  QB, not good teams resting starters** [FF] — resting is a week-18
+  phenomenon. Elite offenses staying elite is exactly what you want.

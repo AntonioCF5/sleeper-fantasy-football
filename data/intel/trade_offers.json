@@ -1,16 +1,27 @@
 {
  "updated": "2026-08-24",
- "note": "Standing trade offers, curated (built 2026-08-24 from full rival-roster analysis; lineup deltas are season-total optimal-lineup projections). The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
+ "note": "Standing trade offers, curated. Lineup deltas are season-total optimal-lineup projections under each league's corrected scoring. The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
  "offers": [
+  {
+   "league_id": "1315407698006646784",
+   "partner": "RGV95",
+   "give": ["Jared Goff"],
+   "get": ["Rome Odunze"],
+   "fallback": "Marvin Harrison instead of Odunze (you +14.8, them ±0) — take it only if Odunze is refused",
+   "state": "NEW 2026-08-24 — ready to send",
+   "lineup_delta": "you 2087.9 → 2124.4 (+36.5), them 2067.7 → 2067.3 (−0.4)",
+   "why": "Replaces the 'no QB-needy buyer' finding: the buyer isn't QB-needy, he's WR-choked. RGV95 rosters SEVEN wide receivers projecting 160+ into two WR slots and two flexes — Odunze is his WR4 and costs him 0.4 points to move. Your WR2 is DJ Moore (179); Odunze is a 24yo with a +22.6 value gap on the DTR board (positive gap on a rival-owned player = buy-low). Both experts are on Odunze this week. Burrow stays home; Goff was always the only chip.",
+   "pitch": "You're starting four of seven WRs and your QB2 is a 38-year-old Stafford. Odunze is your WR4 — Goff is a top-12 QB who insures Caleb Williams all season."
+  },
   {
    "league_id": "1338269686810300416",
    "partner": "Juliosg",
    "give": ["Sam LaPorta"],
    "get": ["D'Andre Swift"],
-   "fallback": "Travis Etienne instead of Swift (FF internally split on him; Kamara back ~Oct)",
+   "fallback": "Travis Etienne instead of Swift — but see note: FF made Etienne their official bust of the year on 2026-08-24, so prefer Swift or hold",
    "state": "ready to send",
    "lineup_delta": "you 1951→1953, them 1804→1798",
-   "why": "TE surplus (Loveland+LaPorta, one slot) buys the RB2; your RB2 becomes Swift instead of Tyjae Spears (97). Never ask Walker (-42 their side).",
+   "why": "TE surplus (Loveland+LaPorta, one slot) buys the RB2; your RB2 becomes Swift instead of Tyjae Spears (97). Never ask Walker (-42 their side). 2026-08-24: Mike (FF) calls Swift a fringe RB1 at an RB24 price on the rebuilt Bears line — the ask side just got stronger, the Etienne fallback just got weaker.",
    "pitch": "You upgrade TE by 30 a season and still start two RBs. Third RB for your TE hole."
   },
   {
@@ -21,7 +32,7 @@
    "fallback": "Settle at Bucky Irving (you +53, them -3 — near-free insurance)",
    "state": "ready to send",
    "lineup_delta": "Bucky version: you 1709→1762, them 1947→1944",
-   "why": "They're the #2 contender with Jayden Daniels and Joe Flacco behind him; four startable RBs. Stroud (24) is also a dynasty asset. Corum stays home.",
+   "why": "They're the #2 contender with Jayden Daniels and Joe Flacco behind him; four startable RBs. Stroud (24) is also a dynasty asset. Corum stays home. 2026-08-24 note: FF saw a genuine Irving/Gainwell split in preseason — the Bucky fallback is worth slightly less than it was, the Breece ask slightly more (Sal reads Hall's groin as a 2-3 week precaution, week-1 fine).",
    "pitch": "You're one Daniels ankle from wasting Gibbs' prime. Stroud starts for half this league."
   },
   {
@@ -30,19 +41,10 @@
    "give": ["Patrick Mahomes", "David Montgomery"],
    "get": ["Ashton Jeanty"],
    "fallback": "Alternate ask: their 2027 1st + Jordan Addison — do not take less",
-   "state": "ready to send",
+   "state": "ready to send — TIME-SENSITIVE, see why",
    "lineup_delta": "you 1831→1681 (fine — rebuild, assets are the currency), them 1973→1978",
-   "why": "Rebuild trade: shed a 30yo QB at peak post-ACL sellability + 29yo RB for the 22yo cornerstone. Their shaky Dart/Shough/Ward room gets stabilized; their lineup improves, which makes it sellable.",
+   "why": "Rebuild trade: shed a 30yo QB at peak post-ACL sellability + 29yo RB for the 22yo cornerstone. 2026-08-24: BOTH sides moved today. Jeanty left practice with an ankle injury (Schefter/Rapoport: believed a sprain, not long-term; no team diagnosis released) — that is the buy-low window on a 22-year-old, and it shuts the moment a 'low ankle sprain, week 1 fine' report lands. Against that, KC went non-committal on Mahomes' week-1 status, which cuts our sell-side leverage. Net: same trade, less leverage, shorter clock — send today or take the picks version.",
    "pitch": "You're two pieces from the title race and I'm selling both of them."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "partner": null,
-   "give": [],
-   "get": [],
-   "state": "pounce trigger armed",
-   "why": "No QB-needy buyer exists (all 9 rivals checked — every QB room is settled). Chip is Goff ONLY (Burrow untouchable). Trigger: any rival QB1 injury/benching → same-day premium offer. WR2 need is being addressed via waivers (Hutchinson $21, Vele $9).",
-   "pitch": null
   }
  ]
 }
