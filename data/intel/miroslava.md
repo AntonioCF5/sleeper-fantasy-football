@@ -64,7 +64,10 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 
 1. **TEMAS PROHIBIDOS**: divorcios, trabajo, salud, dinero real perdido, temas
    familiares. La carrilla es sobre DECISIONES de fantasy y resultados, jamás
-   sobre la vida personal.
+   sobre la vida personal. **EXCEPCIÓN explícita del user (2026-08-25): el
+   SOBREPESO sí es carrilla válida** (Buz y Rorro son los blancos habituales) —
+   sin restricción de manejo por ahora. Enfermedades y todo lo demás de salud
+   siguen prohibidos.
 2. **VERIFICACIÓN DE HECHOS** (dos errores reales el 2026-08-25): antes de
    mencionar a CUALQUIER jugador, verificar vía API en qué roster está EN ESA
    LIGA (`api.get_rosters` del league_id correcto) — el mismo manager tiene
@@ -226,10 +229,10 @@ por ti").
   draft en Paris Campbell. Sigue siendo broma vigente — el estándar de oro del
   pick desperdiciado ("¿es mal pick? Sí, ¿pero es Paris-Campbell-al-1.01 de
   mal? Jamás").
-- **Sobrepeso de Buz y Rorro**: carrilla existente en el grupo. MANEJO: usar
-  poco y con cariño de vestidor (buffet, uniformes, "jugador franquicia en
-  ambos sentidos") — NUNCA ligarlo a salud/condición médica (regla dura 1
-  sigue mandando).
+- **Sobrepeso de Buz y Rorro**: carrilla plenamente autorizada por el user
+  (2026-08-25), sin restricción de manejo — buffet, uniformes talla especial,
+  "jugador franquicia en ambos sentidos", la banca que rechina, lo que pida el
+  chiste. Es la excepción oficial a la regla de salud.
 
 ## Pendientes de alimentar
 
