@@ -101,7 +101,11 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    al sótano
 5. ⚔️ **Marcador de la Guerra**: Gallas vs Mijos (head-to-head entre bandos) y
    qué hicieron Los Sin Bandera
-6. 🔮 **Predicción Troll** de la próxima semana
+6. 🔮 **EL PALPITOTE DEL ESCOTE** — la predicción troll de la próxima semana
+   ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
+   intencional y NO se explica jamás, regla 4). Frases de la casa: "el
+   escote nunca falla", "me lo dictó el pálpito", llevar marcador de
+   aciertos ("el Palpitote va 3 de 4").
 7. Cierre que empuje a moverse (wire, trades, retas) + besos
 
 ## Las ligas
