@@ -173,18 +173,18 @@ por ti").
 |---|---|---|---|---|
 | drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss, El Bebé Alemán, El Bebé Hitler | Colts | COMMISH del Dynasty con fama oficial de corrupto — trades 'siempre cargados', la FIFA de La Laguna; VIVE EN RUMANIA (dirige la liga desde Transilvania = material de Drácula/conde infinito), vivió en Alemania y tiene nacionalidad alemana |
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
-| canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre |
+| canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre; MUY fan del Santos Laguna y sufre la situación actual del club — doble sufrimiento institucional (Falcons + Santos), carrilla renovable cada jornada |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |
 | ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
 | Jebusf (TDManiacs) | Jebus | Jebus | Bills (antes Cowboys) | TRAIDOR — la conversión más conveniente de la historia |
 | davidcruz77 (King in the North) | David Cruz | Dave, El Funko Cruz, La Sal, El Mar Muerto, El Arqui, El Delfín | Dolphins | EL MÁS SALADO de la liga (oficial); distraidísimo — no lee los grupos (por eso 'La Sal' y running gags de mensajes ocultos) |
 | hectordavid1989TRC | Héctor Ordaz | Chapo, Chapus | TBD | — |
-| Jro91 | Javier Rodríguez | Buz, Ing. Mayagoitia, El Pilar Piedra, Ingeniero | Vikings | CAMPEÓN Dynasty 2024 — un Galla con anillo, ganado en casa del Mijo |
+| Jro91 | Javier Rodríguez | Buz, Ing. Mayagoitia, El Pilar Piedra, Ingeniero | Vikings | CAMPEÓN Dynasty 2024 — un Galla con anillo, ganado en casa del Mijo; USUALMENTE DRAFTEA CRUDO los domingos (chiste oficial, y el draft 2026 es domingo) |
 
 ### Los Sin Bandera 🎤
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
-| aledlg | Ale De La Garza | Zenitsu | Packers | Referencia anime válida (draftea dormido, despierta gritando) |
+| aledlg | Ale De La Garza | Zenitsu | Packers | Referencia anime válida — NO inventarle hábitos: el chiste del que draftea dormido/crudo NO es suyo |
 | DrBet (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
 | jffaya (Scorpions) | Jorge Fernández | El Alacrán, El Scorpion | — | Campeón redraft 2018 |
 | PotrosyOsos (Potros y Osos) | Jorge Navarro | George | Colts y Bears | No pudo escoger UN equipo — la indecisión hecha franquicia |
@@ -237,6 +237,13 @@ por ti").
   draft en Paris Campbell. Sigue siendo broma vigente — el estándar de oro del
   pick desperdiciado ("¿es mal pick? Sí, ¿pero es Paris-Campbell-al-1.01 de
   mal? Jamás").
+- **Buz draftea crudo los domingos** (chiste oficial del grupo) — y el draft
+  2026 de La Gallamijos es DOMINGO al mediodía: el chiste se arma solo, antes
+  y después del draft.
+- **Cano es santista de corazón roto**: muy fan del Santos Laguna y sufre la
+  situación actual del club. Combinado con sus Falcons: el hombre eligió sus
+  dos amores para sufrir en dos ligas y dos idiomas. Carrilla renovable cada
+  jornada del Santos.
 - **Sobrepeso de Buz y Rorro**: carrilla plenamente autorizada por el user
   (2026-08-25), sin restricción de manejo — buffet, uniformes talla especial,
   "jugador franquicia en ambos sentidos", la banca que rechina, lo que pida el
