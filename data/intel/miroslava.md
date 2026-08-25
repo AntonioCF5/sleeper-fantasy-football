@@ -98,8 +98,42 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 
 | Liga | Nombre en el chat | Formato | Lore |
 |---|---|---|---|
-| Gallamijos League (`1395839320077656064`) | **La Gallamijos** | Redraft, 18 equipos, full PPR + PPFD | SUPER dominada por los Mijos. Los Gallaghers tienen UN título en toda la historia (palmarés pre-Sleeper pendiente: años, campeones y ese único título Galla). elmijo es el más campeón. **Draft: domingo 30 ago 2026, 12pm.** |
+| Gallamijos League (`1395839320077656064`) | **La Gallamijos** | Redraft, 18 equipos, full PPR + PPFD | SUPER dominada por los Mijos: 8 de 11 títulos. Ver palmarés completo abajo. **Draft: domingo 30 ago 2026, 12pm.** |
 | Gallamijos Dynasty (`1388097370255794176`) | **El Dynasty / La Dinastía** | Dynasty, 12 equipos, full PPR | 2024: campeón Jro91 (Gallagher) EN LA FINAL contra elmijo; último Rul. 2025: campeón Amarante (Sin Bandera); subcampeón Gallaghers4 (otra final perdida); último La Pepa (Mijo). La corona vigente es MERCENARIA y el sótano vigente es MIJO. |
+
+## Palmarés de La Gallamijos (redraft, 2015-2025 — dictado por el user)
+
+| Año | Campeón | Equipo | Bando |
+|---|---|---|---|
+| 2015 | Pedro *(ya no está en la liga)* | The Benchwarmers | Mijo |
+| 2016 | **El Mijo** | Pythons | Mijo |
+| 2017 | Sharky/Sharly | EL PULPO PAUL | Mijo |
+| 2018 | El Alacrán | Scorpions | Sin Bandera |
+| 2019 | **El Mijo** | Pythons | Mijo |
+| 2020 | Amarante *(ya no está en la redraft)* | Broncos Locos | Sin Bandera |
+| 2021 | **El Mijo** | Pythons | Mijo |
+| 2022 | La Dona | My Son Dave | Mijo |
+| 2023 | **El Mijo** | Pythons | Mijo |
+| 2024 | Gallagher (El Fashionista) | Gallagher | **GALLAGHER — EL ÚNICO** |
+| 2025 | La Rorra | Los hijos de Pooh | Mijo |
+
+**Conteo: Mijos 8 · Sin Bandera 2 · Gallaghers 1.** Filones narrativos:
+
+- **El Mijo tiene 4 títulos** (2016, 2019, 2021, 2023) — venía ganando cada año
+  non desde 2019... y en 2025 (non) NO ganó: la racha se rompió. Carrilla en
+  ambas direcciones: su dominio histórico Y su corona perdida.
+- **El único título Gallagher es 2024** — tras NUEVE temporadas en blanco
+  (2015-2023). No es sequía eterna: es UN oasis reciente rodeado de desierto.
+  Ojo: en 2024 el Fashionista ganó la redraft Y perdió la final del Dynasty
+  2025 — le dio a su bando la única gloria y la siguió con una final tirada.
+- **Los Sin Bandera tienen DOBLE de títulos (2) que los nueve Gallaghers
+  juntos (1)** — cinco mercenarios superan a nueve soldados. Citable siempre.
+- **Amarante es el mercenario bicoronado**: redraft 2020 + Dynasty 2025, en
+  formatos distintos, y ya ni juega la redraft. Ganó y se fue.
+- **La Rorra es el campeón defensor de la redraft** con "Los hijos de Pooh" —
+  el nombre del equipo es material por sí solo.
+- **Dos pulpos en la historia**: EL PULPO PAUL (Sharky, campeón 2017) y Pulpo
+  Power (El Bebé, Galla, sin título) — el pulpo Mijo sí adivinó campeón.
 
 ## La guerra de bandos
 
@@ -118,17 +152,17 @@ por ti").
 ### Mijos 🐍
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
-| elmijo (Pythons / La Dinastía de Pitones) | Antonio Contreras | El Mijo, El Mijo Di María, Monfils | Bengals | El carrilla/nefasto del grupo; más títulos del redraft; subcampeón Dynasty 2024 (un Galla le ganó la final); Burrow intocable EN SUS OTRAS ligas (aquí no lo tiene) |
-| alealvarez7 (My Son Dave / Dave´s Daddy) | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Sufrimiento anual garantizado con Dallas |
-| charlyae17 (LaviboradeLamar) | Charly Alonso | Carlos, Sharky | Patriots | — |
-| RodrigoDiaz | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | — |
+| elmijo (Pythons / La Dinastía de Pitones) | Antonio Contreras | El Mijo, El Mijo Di María, Monfils | Bengals | El carrilla/nefasto del grupo; TETRACAMPEÓN redraft (2016/19/21/23 — la racha de años nones se le rompió en 2025); subcampeón Dynasty 2024 (un Galla le ganó la final); Burrow intocable EN SUS OTRAS ligas (aquí no lo tiene) |
+| alealvarez7 (My Son Dave / Dave´s Daddy) | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Campeón redraft 2022; sufrimiento anual garantizado con Dallas |
+| charlyae17 (LaviboradeLamar) | Charly Alonso | Carlos, Sharky, Sharly | Patriots | Campeón redraft 2017 con EL PULPO PAUL — el pulpo que sí adivinó |
+| RodrigoDiaz (Los hijos de Pooh) | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | CAMPEÓN DEFENSOR de la redraft (2025) — le rompió la racha de años nones al Mijo |
 | panchocruz (Panchos) | Pancho Cruz | La Pepa, La Pepa Ortiz, Faraón, Pep | le va a muchos | ÚLTIMO lugar Dynasty 2025; en La Dinastía acapara a Maye Y Burrow (dos espadas para terminar último) |
 
 ### Gallaghers 🍀
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
 | drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss | Colts | — |
-| Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Subcampeón Dynasty 2025 — el bando lleva su nombre y él pierde las finales |
+| Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El nombre de su equipo ya es un crimen culinario |
 | ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
@@ -142,10 +176,10 @@ por ti").
 |---|---|---|---|---|
 | aledlg | Ale De La Garza | Zenitsu | Packers | Referencia anime válida (draftea dormido, despierta gritando) |
 | DrBet (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
-| jffaya | Jorge Fernández | El Alacrán, El Scorpion | — | — |
+| jffaya (Scorpions) | Jorge Fernández | El Alacrán, El Scorpion | — | Campeón redraft 2018 |
 | PotrosyOsos (Potros y Osos) | Jorge Navarro | George | Colts y Bears | No pudo escoger UN equipo — la indecisión hecha franquicia |
 | maudlgarza (Frijolinsky) | Mauricio de la Garza | El Frijol, El Frijaal, El Frijol Brisset, El Bean | Saints | Evolución de apodos tipo Pokémon |
-| damarante (Broncos Locos) | Daniel Amarante | Amarante, Broncos Locos | Broncos | CAMPEÓN DEFENSOR Dynasty 2025 — mercenario coronado |
+| damarante (Broncos Locos) | Daniel Amarante | Amarante, Broncos Locos | Broncos | El mercenario BICORONADO: redraft 2020 + Dynasty 2025 (vigente) — ganó la redraft y se fue |
 | jetsdelalaguna (Jets de la Laguna) | Fer Tueme | Fer, Tueme | Jets | Fandom = autolesión con licencia; nombre de equipo ya lagunero |
 
 ## Chistes internos vivos
@@ -165,8 +199,7 @@ por ti").
 
 ## Pendientes de alimentar
 
-- [ ] Palmarés del redraft pre-Sleeper: años, campeones, y el ÚNICO título
-  Gallagher (quién y cuándo — merece sección propia).
+- [x] Palmarés del redraft 2015-2025 — entregado y grabado (2026-08-25).
 - [ ] Momentos legendarios que el user irá soltando sobre la marcha.
 - [ ] Apodos que se ganen a punta de resultados esta temporada (proponerlos en
   cada edición; el user aprueba antes de que entren aquí).
