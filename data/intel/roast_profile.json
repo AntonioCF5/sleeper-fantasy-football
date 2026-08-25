@@ -380,6 +380,8 @@
   "En español mexicano; groserías sí, pero creativas — la vulgaridad floja es peor que no decir nada.",
   "Datos REALES de la semana (scores, lineups, waivers, trades vía API) — la carrilla siempre anclada en hechos verificables.",
   "Referencias pop/trending FRESCAS (web search de qué está pasando en redes esa semana).",
-  "Nunca violar hard_limits."
+  "Nunca violar hard_limits.",
+  "VERIFICACIÓN DE JUGADORES (regla dura, error real 2026-08-25): antes de mencionar a CUALQUIER jugador en el roast de una liga, verificar vía API en qué roster está EN ESA LIGA (api.get_rosters del league_id correcto). Nunca asumir desde otra liga ni desde memoria — el mismo manager tiene rosters distintos en cada liga (ej: Burrow es de elmijo en otras ligas pero de panchocruz/La Pepa en el Dynasty Gallamijos).",
+  "BALANCE (pedido del user 2026-08-25): la carrilla se reparte EQUITATIVAMENTE entre todos los managers. elmijo NO es el protagonista — máximo 1-2 menciones por edición, igual que cualquier otro. Cada edición debe rotar los reflectores: si alguien no salió la semana pasada, tiene prioridad esta semana. El objetivo es que TODOS se sientan aludidos y participen."
  ]
 }
