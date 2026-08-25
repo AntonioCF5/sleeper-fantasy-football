@@ -3,7 +3,7 @@
  "note": "Perfil curado del roast semanal de WhatsApp (martes AM) para las dos ligas Gallamijos. La tarea programada lee este archivo; los apodos/chistes/momentos se agregan sobre la marcha conforme el usuario los suelte en chat — SIEMPRE persistir aquí lo nuevo en el mismo commit (regla de coherencia).",
  "voice": {
   "character": "Miroslava",
-  "persona": "PENDIENTE — el usuario define su historia/tono (o pedirá que se invente completa). NO generar ediciones hasta tener esto.",
+  "persona": "Miroslava ('La Miros'): reportera deportiva de sideline, ex-Liga MX, que ahora cubre EN EXCLUSIVA la Gallamijos porque 'es más tóxica que el América'. Coqueta y consciente de su poder: su running gag es la autorreferencia a sus enormes pechos ('mi escote es de utilería periodística', 'traigo dos argumentos de peso') — SIEMPRE como broma propia sobre sí misma, nunca sobre personas reales. Coquetea con los ganadores de la semana, desprecia con dulzura a los perdedores, cita 'mis fuentes del vestidor' para soltar chismes de la liga, se despide con besos. Habla en primera persona, carrilla de comadre + cronista.",
   "tone": "Sin piedad. Groserías abundantes y creativas. Humor negro permitido. Todos son objetivo, incluido elmijo (auto-roast obligatorio: es el carrilla/nefasto del grupo Y el más campeón del redraft — el villano cómico perfecto).",
   "language": "Español mexicano al 100 (güey, neta, se la rifó, qué oso, ardido) + memes de NFL Twitter/X + pop US + pop mexicano (Liga MX, corridos, telenovelas, TikTok trends). Referencias frescas de redes cada semana."
  },
@@ -21,29 +21,342 @@
    "name_in_chat": "El Dynasty / La Dinastía",
    "type": "dynasty 12 equipos",
    "history_sleeper": {
-    "2024": {"campeon": "Jro91", "subcampeon": "elmijo", "ultimo": "ElGeneral4",
-             "nota": "elmijo PERDIÓ la final — material de auto-roast permanente."},
-    "2025": {"campeon": "damarante", "subcampeon": "Gallaghers4", "ultimo": "panchocruz",
-             "nota": "damarante (Broncos Locos) es el campeón defensor; Gallaghers4 perdió otra final (patrón Gallagher)."}
+    "2024": {
+     "campeon": "Jro91",
+     "subcampeon": "elmijo",
+     "ultimo": "ElGeneral4",
+     "nota": "elmijo PERDIÓ la final — material de auto-roast permanente."
+    },
+    "2025": {
+     "campeon": "damarante",
+     "subcampeon": "Gallaghers4",
+     "ultimo": "panchocruz",
+     "nota": "damarante (Broncos Locos) es el campeón defensor; Gallaghers4 perdió otra final (patrón Gallagher)."
+    }
    }
   }
  },
  "factions": {
   "concept": "Gallamijos = Gallaghers + Mijos, los dos grupos de amigos fundadores. La rivalidad central de TODO el contenido: cada semana se narra como guerra de bandos. Los terceros son 'Los Sin Bandera' (como el grupo romántico — carrilla musical cuando pierden: 'suelta mi mano', etc.).",
-  "gallaghers": ["PENDIENTE — usuario etiqueta"],
-  "mijos": ["PENDIENTE — usuario etiqueta"],
-  "sin_bandera": ["PENDIENTE — usuario etiqueta"],
-  "score_idea": "Llevar marcador semanal Gallas vs Mijos (victorias head-to-head entre bandos) como sección recurrente."
+  "gallaghers": [
+   "drw25",
+   "Gallaghers4",
+   "canogutierrez",
+   "tbarg91",
+   "ElGeneral4",
+   "Jebusf",
+   "davidcruz77",
+   "hectordavid1989TRC",
+   "Jro91"
+  ],
+  "mijos": [
+   "elmijo",
+   "alealvarez7",
+   "charlyae17",
+   "RodrigoDiaz"
+  ],
+  "sin_bandera": [
+   "aledlg",
+   "DrBet",
+   "jffaya",
+   "PotrosyOsos",
+   "maudlgarza"
+  ],
+  "score_idea": "Llevar marcador semanal Gallas vs Mijos (victorias head-to-head entre bandos) como sección recurrente.",
+  "pendientes": {
+   "nota": "Solo en Dynasty, bando por confirmar con el user",
+   "managers": [
+    "jetsdelalaguna",
+    "damarante",
+    "panchocruz"
+   ]
+  },
+  "dato_clave": "Jro91 es GALLAGHER y le ganó la final del Dynasty 2024 a elmijo (Mijo mayor). El 'un solo título Gallagher' aplica a LA REDRAFT — en el Dynasty los Gallas sí han mordido."
  },
  "managers": {
-  "elmijo": {"apodo": null, "notas": ["El carrilla/nefasto del grupo", "Más títulos del redraft", "Subcampeón Dynasty 2024 (perdió la final vs Jro91)"]},
-  "damarante": {"apodo": null, "notas": ["Campeón defensor del Dynasty 2025 (Broncos Locos)"]},
-  "Jro91": {"apodo": null, "notas": ["Campeón Dynasty 2024 (le ganó la final a elmijo)"]},
-  "Gallaghers4": {"apodo": null, "notas": ["Subcampeón Dynasty 2025 — otra final perdida"]},
-  "panchocruz": {"apodo": null, "notas": ["Último lugar Dynasty 2025"]},
-  "ElGeneral4": {"apodo": null, "notas": ["Último lugar Dynasty 2024"]}
+  "elmijo": {
+   "nombre": "Antonio Contreras",
+   "equipo_fantasy": "Pythons / La Dinastía de Pitones",
+   "bando": "Mijos",
+   "apodos": [
+    "El Mijo",
+    "El Mijo Di María",
+    "Monfils"
+   ],
+   "nfl": "Bengals",
+   "notas": [
+    "El carrilla/nefasto del grupo",
+    "Más títulos del redraft",
+    "Subcampeón Dynasty 2024 — Jro91 (un GALLA) le ganó la final",
+    "Fan de Burrow al nivel de que es intocable en todas sus ligas"
+   ]
+  },
+  "alealvarez7": {
+   "nombre": "Alejandro Alvarez",
+   "equipo_fantasy": "My Son Dave / Dave´s Daddy",
+   "bando": "Mijos",
+   "apodos": [
+    "La Dona",
+    "Alvarez"
+   ],
+   "nfl": "Cowboys",
+   "notas": [
+    "Fan de los Cowboys = sufrimiento anual garantizado, carrilla gratis"
+   ]
+  },
+  "charlyae17": {
+   "nombre": "Charly Alonso",
+   "equipo_fantasy": "LaviboradeLamar (dynasty)",
+   "bando": "Mijos",
+   "apodos": [
+    "Carlos",
+    "Sharky"
+   ],
+   "nfl": "Patriots",
+   "notas": [
+    "Co-owner de DYNASTY TRC con elmijo"
+   ]
+  },
+  "RodrigoDiaz": {
+   "nombre": "Rodrigo",
+   "equipo_fantasy": null,
+   "bando": "Mijos",
+   "apodos": [
+    "Rorro",
+    "La Rorra",
+    "The Rorr"
+   ],
+   "nfl": "Steelers",
+   "notas": []
+  },
+  "drw25": {
+   "nombre": "Daniel Roiz",
+   "equipo_fantasy": "Pulpo Power / House RW",
+   "bando": "Gallaghers",
+   "apodos": [
+    "El Bebé",
+    "El Bebé Moreira",
+    "El Bebé Duarte",
+    "Mr. Walss"
+   ],
+   "nfl": "Colts",
+   "notas": []
+  },
+  "Gallaghers4": {
+   "nombre": "Jorge Luis",
+   "equipo_fantasy": "Gallagher",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Galla",
+    "El Fashionista"
+   ],
+   "nfl": "Eagles",
+   "notas": [
+    "Subcampeón Dynasty 2025 — otra final perdida",
+    "El bando lleva su nombre"
+   ]
+  },
+  "canogutierrez": {
+   "nombre": "Alejandro Gutiérrez",
+   "equipo_fantasy": "PepeSilvia: Resurrection",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Cano",
+    "El Licenciado",
+    "El Abogado del Diablo",
+    "El Abogado"
+   ],
+   "nfl": "Falcons",
+   "notas": [
+    "Fan de los Falcons: 28-3 es carrilla válida por siempre"
+   ]
+  },
+  "tbarg91": {
+   "nombre": "Tomás Barrios",
+   "equipo_fantasy": "Taquito con catsup",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Tommy",
+    "Tobias Smith",
+    "Tobias",
+    "Bafanana Bafana",
+    "El Boliviano"
+   ],
+   "nfl": "TBD",
+   "notas": [
+    "Su equipo se llama 'Taquito con catsup', lo cual ya es un crimen culinario"
+   ]
+  },
+  "ElGeneral4": {
+   "nombre": "Raúl Galindo",
+   "equipo_fantasy": "El General / Dinastía Lombardi",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Rul",
+    "Rul Del Toro",
+    "Rul D'Onofrio",
+    "Rul Fisk",
+    "El General",
+    "Rul Lubezki"
+   ],
+   "nfl": "Packers",
+   "notas": [
+    "Último lugar Dynasty 2024",
+    "Los apodos son directores de cine — material infinito"
+   ]
+  },
+  "Jebusf": {
+   "nombre": "Jebus",
+   "equipo_fantasy": "TDManiacs",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Jebus"
+   ],
+   "nfl": "Bills",
+   "notas": [
+    "TRAIDOR: le iba a los Cowboys y se cambió a los Bills — la conversión religiosa más conveniente desde Enrique VIII"
+   ]
+  },
+  "davidcruz77": {
+   "nombre": "David Cruz",
+   "equipo_fantasy": "King in the North (dynasty)",
+   "bando": "Gallaghers",
+   "apodos": [
+    "Dave",
+    "El Funko Cruz",
+    "La Sal",
+    "El Mar Muerto",
+    "El Arqui",
+    "El Delfín"
+   ],
+   "nfl": "Dolphins",
+   "notas": []
+  },
+  "hectordavid1989TRC": {
+   "nombre": "Héctor Ordaz",
+   "equipo_fantasy": null,
+   "bando": "Gallaghers",
+   "apodos": [
+    "Chapo",
+    "Chapus"
+   ],
+   "nfl": "TBD",
+   "notas": []
+  },
+  "Jro91": {
+   "nombre": "Javier Rodríguez",
+   "equipo_fantasy": null,
+   "bando": "Gallaghers",
+   "apodos": [
+    "Buz",
+    "Ing. Mayagoitia",
+    "El Pilar Piedra",
+    "Ingeniero"
+   ],
+   "nfl": "Vikings",
+   "notas": [
+    "CAMPEÓN Dynasty 2024 — le ganó la final a elmijo; un Galla con anillo de dinastía"
+   ]
+  },
+  "aledlg": {
+   "nombre": "Ale De La Garza",
+   "equipo_fantasy": null,
+   "bando": "Sin Bandera",
+   "apodos": [
+    "Zenitsu"
+   ],
+   "nfl": "Packers",
+   "notas": [
+    "Apodo de Demon Slayer — referencia anime válida"
+   ]
+  },
+  "DrBet": {
+   "nombre": "Luis Tiburcio",
+   "equipo_fantasy": "Matasanos FC",
+   "bando": "Sin Bandera",
+   "apodos": [
+    "El Tibu",
+    "Doctor",
+    "Dr. Salud",
+    "Dr. Bet"
+   ],
+   "nfl": "Colts",
+   "notas": [
+    "Doctor — chistes de receta/diagnóstico"
+   ]
+  },
+  "jffaya": {
+   "nombre": "Jorge Fernández",
+   "equipo_fantasy": null,
+   "bando": "Sin Bandera",
+   "apodos": [
+    "El Alacrán",
+    "El Scorpion"
+   ],
+   "nfl": null,
+   "notas": []
+  },
+  "PotrosyOsos": {
+   "nombre": "Jorge Navarro",
+   "equipo_fantasy": "Potros y Osos",
+   "bando": "Sin Bandera",
+   "apodos": [
+    "George"
+   ],
+   "nfl": "Colts y Bears",
+   "notas": [
+    "No pudo escoger UN equipo — la indecisión hecha franquicia"
+   ]
+  },
+  "maudlgarza": {
+   "nombre": "Mauricio de la Garza",
+   "equipo_fantasy": "Frijolinsky",
+   "bando": "Sin Bandera",
+   "apodos": [
+    "El Frijol",
+    "El Frijaal",
+    "El Frijol Brisset",
+    "El Bean"
+   ],
+   "nfl": "Saints",
+   "notas": []
+  },
+  "damarante": {
+   "nombre": null,
+   "equipo_fantasy": "Broncos Locos",
+   "bando": "PENDIENTE",
+   "apodos": [],
+   "nfl": "Broncos (por el nombre del equipo)",
+   "notas": [
+    "CAMPEÓN DEFENSOR Dynasty 2025"
+   ]
+  },
+  "jetsdelalaguna": {
+   "nombre": null,
+   "equipo_fantasy": "Jets de la Laguna",
+   "bando": "PENDIENTE",
+   "apodos": [],
+   "nfl": "Jets (por el nombre)",
+   "notas": []
+  },
+  "panchocruz": {
+   "nombre": null,
+   "equipo_fantasy": "Panchos",
+   "bando": "PENDIENTE",
+   "apodos": [],
+   "nfl": null,
+   "notas": [
+    "Último lugar Dynasty 2025"
+   ]
+  }
  },
- "inside_jokes": ["PENDIENTE — se agregan sobre la marcha"],
+ "inside_jokes": [
+  "Jebus cambió Cowboys→Bills: todo éxito de los Bills 'no cuenta' y toda derrota de Dallas 'también la sufre retroactivamente'.",
+  "Los apodos de Rul son puros directores/actores de cine (Del Toro, D'Onofrio, Lubezki) — Miroslava puede 'estrenar' uno nuevo cuando haga algo cinematográficamente malo.",
+  "28-3 para Cano (Falcons) siempre que su equipo desperdicie una ventaja.",
+  "Cowboys de La Dona: 'este año sí' es el chiste que se cuenta solo.",
+  "El Frijol tiene evolución de apodos tipo Pokémon: Frijol → Frijaal → Frijol Brisset → Bean."
+ ],
  "sections": [
   "Apertura de Miroslava (saludo con personalidad, referencia a algo trending de la semana)",
   "🥊 La Putiza de la Semana + SOLO los partidos que valgan la pena (infartos, ridículos, puntos podridos en la banca) — NO recap de todos",
