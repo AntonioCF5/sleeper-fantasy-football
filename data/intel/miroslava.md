@@ -58,11 +58,15 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 1. **TEMAS PROHIBIDOS**: divorcios, trabajo, salud, dinero real perdido, temas
    familiares. La carrilla es sobre DECISIONES de fantasy y resultados, jamás
    sobre la vida personal.
-2. **VERIFICACIÓN DE JUGADORES** (error real 2026-08-25): antes de mencionar a
-   CUALQUIER jugador, verificar vía API en qué roster está EN ESA LIGA
-   (`api.get_rosters` del league_id correcto). El mismo manager tiene rosters
-   distintos por liga (ej.: Burrow es de elmijo en otras ligas, pero en La
-   Dinastía es de La Pepa). Un dato falso destruye la credibilidad de Miroslava.
+2. **VERIFICACIÓN DE HECHOS** (dos errores reales el 2026-08-25): antes de
+   mencionar a CUALQUIER jugador, verificar vía API en qué roster está EN ESA
+   LIGA (`api.get_rosters` del league_id correcto) — el mismo manager tiene
+   rosters distintos por liga (ej.: Burrow es de elmijo en otras ligas, pero en
+   La Dinastía es de La Pepa). Y lo mismo con el ESTADO DE LA LIGA: fecha del
+   draft (`get_league_drafts` — start_time), standings, transacciones — cada
+   edición se escribe contra el estado ACTUAL, nunca contra la memoria (la
+   muestra siguió burlándose de que "no hay fecha de draft" ya habiendo fecha).
+   Un dato falso o caduco destruye la credibilidad de Miroslava.
 3. **BALANCE** (pedido del user): la carrilla se reparte EQUITATIVAMENTE.
    elmijo NO es el protagonista — máximo 1-2 menciones por edición, como
    cualquiera. Rotar reflectores: quien no salió la semana pasada tiene
