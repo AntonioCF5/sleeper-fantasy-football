@@ -201,8 +201,7 @@ def moves_payload(league_id, force=False):
                 row["verdict"], row["verdict_why"] = verdict(
                     row["proj"], row["trend"], row["pos"], row.get("age"))
                 out["drops"].append(row)
-            out["drops"].sort(key=lambda r: ({"claim": 0, "watch": 1}.get(r["verdict"], 2),
-                                             -(r["proj"] + min(r["trend"], 50000) / 500)))
+
         except Exception:
             pass
         # Top free agents (proj + trending), excluding rostered
@@ -228,8 +227,32 @@ def moves_payload(league_id, force=False):
             row["verdict"], row["verdict_why"] = verdict(
                 row["proj"], tr, row["pos"], row.get("age"))
             out["waiver_targets"].append(row)
-        out["waiver_targets"].sort(key=lambda r: ({"claim": 0, "watch": 1}.get(r["verdict"], 2),
-                                                  -(r["proj"] + min(r["trend"], 50000) / 500)))
+
+        # Curated overlay: newsletter rulings (data/intel/waiver_claims.json)
+        # ALWAYS win over auto signals for the players they cover — the
+        # dashboard and the newsletter must never disagree.
+        wc = ROOT / "data" / "intel" / "waiver_claims.json"
+        rulings = {}
+        if wc.exists():
+            for c in json.loads(wc.read_text()).get("claims", []):
+                if c.get("league_id") == league_id:
+                    rulings[c["player"]] = c
+        for lst in (out["drops"], out["waiver_targets"]):
+            for row in lst:
+                c = rulings.get(row["name"])
+                if c:
+                    row["verdict"] = c["verdict"]
+                    row["verdict_why"] = c["why"]
+                    row["source"] = "newsletter"
+                    if c.get("bid") is not None:
+                        row["bid"] = c["bid"]
+                    if c.get("drop"):
+                        row["drop_for"] = c["drop"]
+        order = {"claim": 0, "optional": 1, "watch": 2, "skip": 3}
+        for lst in (out["drops"], out["waiver_targets"]):
+            lst.sort(key=lambda r: (order.get(r["verdict"], 2),
+                                    0 if r.get("source") == "newsletter" else 1,
+                                    -(r["proj"] + min(r["trend"], 50000) / 500)))
         # Algorithmic trade ideas (complementary needs)
         try:
             ideas = analysis.trade_suggestions(
@@ -821,6 +844,8 @@ table.rk tbody tr.taken td:nth-child(2){background:var(--surface)}
   padding:2px 7px;margin-left:6px;vertical-align:1px}
 .vclaim{background:rgba(255,120,60,.16);color:#ff9b63;border:1px solid rgba(255,120,60,.4)}
 .vwatch{background:var(--surface3);color:var(--ink2);border:1px solid var(--border)}
+.voptional{background:rgba(240,200,60,.14);color:#e8c766;border:1px solid rgba(240,200,60,.35)}
+.vskip{background:var(--surface2);color:var(--ink3);border:1px solid var(--border);text-decoration:line-through}
 .card.vhot{border-color:rgba(255,120,60,.45)}
 .ownerlink{color:var(--accent);cursor:pointer;text-decoration:underline;
   text-decoration-style:dotted;text-underline-offset:2px}
@@ -1455,10 +1480,15 @@ async function loadMoves(){
   const faab=j.faab?`<div class="pill" style="margin:0 0 10px;white-space:normal;height:auto;line-height:1.5;padding:8px 12px">💰 FAAB
       <b class="num">$${j.faab.left}</b>/<span class="num">$${j.faab.budget}</span> left
       · most aggressive rival has spent <b class="num">$${j.faab.rival_max_spent}</b></div>`:"";
-  const vBadge=d=>d.verdict==="claim"
-      ?`<span class="vbadge vclaim term" data-tip="${esc("Recommended acquisition: "+(d.verdict_why||""))}">🔥 CLAIM</span>`
-    :d.verdict==="watch"
-      ?`<span class="vbadge vwatch term" data-tip="${esc("Watch-list: "+(d.verdict_why||""))}">👀 watch</span>`:"";
+  const vBadge=d=>{
+    const nl=d.source==="newsletter";
+    const tipPrefix=nl?"Newsletter ruling: ":"Auto signal (newsletter hasn't ruled on him): ";
+    if(d.verdict==="claim") return `<span class="vbadge vclaim term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🔥 CLAIM${d.bid!=null?` $${d.bid}`:""}${d.drop_for?` · drop ${esc(d.drop_for)}`:""}</span>`;
+    if(d.verdict==="optional") return `<span class="vbadge voptional term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🟡 OPTIONAL${d.bid!=null?` $${d.bid}`:""}</span>`;
+    if(d.verdict==="skip") return `<span class="vbadge vskip term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">✋ SKIP</span>`;
+    if(d.verdict==="watch") return `<span class="vbadge vwatch term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">👀 watch</span>`;
+    return "";
+  };
   const drops=(j.drops||[]).map(d=>`
     <div class="card${d.verdict==="claim"?" vhot":""}">${player(d,vBadge(d))}
       <span class="meta num">proj ${d.proj} · ${d.trend?d.trend.toLocaleString()+" adds/24h · ":""}dropped by ${ownerLink(d.dropped_by)} ${d.hours_ago}h ago</span>
@@ -1474,7 +1504,7 @@ async function loadMoves(){
     <h2 class="term" data-tip="Players other managers dropped recently who are still free agents — a good drop is the cheapest acquisition in fantasy, and drops often precede news going wide.">🔥 Drop it like it's hot</h2>${drops}
     <h2 class="term" data-tip="Top free agents by projection + trending adds under THIS league's scoring. Compare against your weakest bench before claiming; in dynasty leagues never cut young stashes for veteran points.">📈 Waiver targets</h2>${fas}
     ${bench?`<h2 class="term" data-tip="Your lowest-projected ACTIVE bench players (taxi/IR excluded — they consume no bench spot). Drop candidates — but in dynasty leagues rank drops by ASSET value: aging vets first, stalled year-3+ second, young stashes never.">🪑 Weakest bench</h2>${bench}`:""}
-    <div class="meta" style="margin-top:10px">🔥 CLAIM = clear upgrade over your weakest active bench spot, or breakout-level trending that projections haven't caught. FAAB bid sizes + full reasoning arrive in the daily newsletter; in dynasty leagues pick the DROP by asset value (aging vets first, young stashes never).</div>`;
+    <div class="meta" style="margin-top:10px">Badges with a $ bid are the newsletter's rulings — the two surfaces always agree. Plain badges are auto signals for players the newsletter hasn't ruled on yet (🔥 = startable upgrade or breakout trending; DEF/K and dynasty vets never auto-claim). In dynasty leagues pick the DROP by asset value: aging vets first, young stashes never.</div>`;
 }
 
 // ---------- rankings ----------

@@ -1,0 +1,23 @@
+{
+ "updated": "2026-08-24",
+ "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip.",
+ "claims": [
+  {"league_id": "1315407698006646784", "player": "Xavier Hutchinson", "verdict": "claim",
+   "bid": 21, "drop": "James Conner",
+   "why": "Dropped 5 days before the Higgins ACL news; new HOU WR2, multi-year role at 26. Loud news — bid to win, but he's a role bet, not an inherited backfield: stay out of the 30s."},
+  {"league_id": "1315407698006646784", "player": "Devaughn Vele", "verdict": "optional",
+   "bid": 9, "drop": "Jauan Jennings or Colby Parkinson",
+   "why": "Saints' #2 behind Olave while Tyson misses ~2 months — but the edge expires when Tyson returns, and the honest cost is your own depth. Your call; stash money only."},
+  {"league_id": "1315407698006646784", "player": "Malik Davis", "verdict": "skip",
+   "why": "27-year-old journeyman handcuff of a back you don't own — veteran points-chasing the dynasty rule exists to prevent, however loud the trending."},
+  {"league_id": "1338269686810300416", "player": "Xavier Hutchinson", "verdict": "claim",
+   "bid": 13, "drop": "Cedric Tillman",
+   "why": "Luxury upside add for the #1 seed, not a need — if a WR-desperate rival goes higher, let them."},
+  {"league_id": "1338269686810300416", "player": "Malik Davis", "verdict": "skip",
+   "why": "Beat report naming him DAL RB2 favorite is real (and contradicts Sal's Jaydon Blue take), but a 27yo journeyman handcuff of a back you don't own is veteran points-chasing — skipped per the dynasty rule."},
+  {"league_id": "1388097370255794176", "player": "Darren Waller", "verdict": "skip",
+   "why": "33-year-old TE points don't move a rebuild — the flip-asset thesis was cancelled per your dynasty-value rule."},
+  {"league_id": "1314652488325922816", "player": "Jack Strand", "verdict": "skip",
+   "why": "The 84k-add spike is an ATL camp-reps story; projects ~nothing. Ignore."}
+ ]
+}

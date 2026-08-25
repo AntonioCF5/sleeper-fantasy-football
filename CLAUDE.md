@@ -388,6 +388,20 @@ files in `data/intel/` (committed, unlike the API cache):
 5. Check bye-week stacking on planned builds (never 3+ same-bye starters)
    and playoff-week (15-17) schedules for the top targets.
 
+## Coherence across surfaces (user mandate 2026-08-24)
+
+The newsletter, the command center, and chat must NEVER disagree on a
+recommendation, analysis, or insight. Mechanism: recommendations live in
+curated data files that every surface reads — waiver rulings in
+`data/intel/waiver_claims.json` (dashboard Moves tab overlays these over
+its automatic signals; a ruling always wins), standing trades in
+`data/intel/trade_offers.json`, expert takes in `expert_takes.json`,
+adjustments in `player_adjust.json`. Whenever any surface (newsletter run,
+chat session) makes or changes a recommendation, update the data file in
+the same commit — stating a recommendation without persisting it is the
+bug that causes drift. Dashboard auto signals are labeled as such
+("newsletter hasn't ruled on him") so the two layers are distinguishable.
+
 ## Report style
 
 - Reports are markdown files in `reports/` — commit them so history shows
