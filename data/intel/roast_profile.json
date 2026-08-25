@@ -1,0 +1,63 @@
+{
+ "updated": "2026-08-25",
+ "note": "Perfil curado del roast semanal de WhatsApp (martes AM) para las dos ligas Gallamijos. La tarea programada lee este archivo; los apodos/chistes/momentos se agregan sobre la marcha conforme el usuario los suelte en chat — SIEMPRE persistir aquí lo nuevo en el mismo commit (regla de coherencia).",
+ "voice": {
+  "character": "Miroslava",
+  "persona": "PENDIENTE — el usuario define su historia/tono (o pedirá que se invente completa). NO generar ediciones hasta tener esto.",
+  "tone": "Sin piedad. Groserías abundantes y creativas. Humor negro permitido. Todos son objetivo, incluido elmijo (auto-roast obligatorio: es el carrilla/nefasto del grupo Y el más campeón del redraft — el villano cómico perfecto).",
+  "language": "Español mexicano al 100 (güey, neta, se la rifó, qué oso, ardido) + memes de NFL Twitter/X + pop US + pop mexicano (Liga MX, corridos, telenovelas, TikTok trends). Referencias frescas de redes cada semana."
+ },
+ "hard_limits": [
+  "PROHIBIDO: divorcios, trabajo, salud, dinero real perdido, temas familiares.",
+  "La carrilla es sobre DECISIONES de fantasy y resultados, nunca sobre la vida personal."
+ ],
+ "leagues": {
+  "1395839320077656064": {
+   "name_in_chat": "La Gallamijos",
+   "type": "redraft 18 equipos",
+   "lore": "SUPER dominada por los Mijos. Los Gallaghers tienen UN (1) título en toda la historia — recordárselos es deporte oficial. elmijo es el más campeón (palmarés pre-Sleeper pendiente: años y campeones los pasa el usuario)."
+  },
+  "1388097370255794176": {
+   "name_in_chat": "El Dynasty / La Dinastía",
+   "type": "dynasty 12 equipos",
+   "history_sleeper": {
+    "2024": {"campeon": "Jro91", "subcampeon": "elmijo", "ultimo": "ElGeneral4",
+             "nota": "elmijo PERDIÓ la final — material de auto-roast permanente."},
+    "2025": {"campeon": "damarante", "subcampeon": "Gallaghers4", "ultimo": "panchocruz",
+             "nota": "damarante (Broncos Locos) es el campeón defensor; Gallaghers4 perdió otra final (patrón Gallagher)."}
+   }
+  }
+ },
+ "factions": {
+  "concept": "Gallamijos = Gallaghers + Mijos, los dos grupos de amigos fundadores. La rivalidad central de TODO el contenido: cada semana se narra como guerra de bandos. Los terceros son 'Los Sin Bandera' (como el grupo romántico — carrilla musical cuando pierden: 'suelta mi mano', etc.).",
+  "gallaghers": ["PENDIENTE — usuario etiqueta"],
+  "mijos": ["PENDIENTE — usuario etiqueta"],
+  "sin_bandera": ["PENDIENTE — usuario etiqueta"],
+  "score_idea": "Llevar marcador semanal Gallas vs Mijos (victorias head-to-head entre bandos) como sección recurrente."
+ },
+ "managers": {
+  "elmijo": {"apodo": null, "notas": ["El carrilla/nefasto del grupo", "Más títulos del redraft", "Subcampeón Dynasty 2024 (perdió la final vs Jro91)"]},
+  "damarante": {"apodo": null, "notas": ["Campeón defensor del Dynasty 2025 (Broncos Locos)"]},
+  "Jro91": {"apodo": null, "notas": ["Campeón Dynasty 2024 (le ganó la final a elmijo)"]},
+  "Gallaghers4": {"apodo": null, "notas": ["Subcampeón Dynasty 2025 — otra final perdida"]},
+  "panchocruz": {"apodo": null, "notas": ["Último lugar Dynasty 2025"]},
+  "ElGeneral4": {"apodo": null, "notas": ["Último lugar Dynasty 2024"]}
+ },
+ "inside_jokes": ["PENDIENTE — se agregan sobre la marcha"],
+ "sections": [
+  "Apertura de Miroslava (saludo con personalidad, referencia a algo trending de la semana)",
+  "🥊 La Putiza de la Semana + SOLO los partidos que valgan la pena (infartos, ridículos, puntos podridos en la banca) — NO recap de todos",
+  "🏆 Premios: MVP de la semana, 💩 La Cagada de la Semana (peor decisión lineup/waiver), 🪦 El Muerto (peor equipo), 🤡 Trade del Payaso (cuando aplique)",
+  "📊 Power Ranking burlón 1-N: una línea de carrilla por equipo, del trono al sótano",
+  "⚔️ Marcador de la Guerra: Gallas vs Mijos (y qué hicieron Los Sin Bandera)",
+  "🔮 Predicción Troll de la próxima semana",
+  "Cierre que empuje a moverse (wire abierto, trades, retas)"
+ ],
+ "format_rules": [
+  "UN mensaje por liga, listo para copiar/pegar a WhatsApp: negritas con *asteriscos* (formato WhatsApp, NO markdown), emojis abundantes, escaneable en el teléfono.",
+  "En español mexicano; groserías sí, pero creativas — la vulgaridad floja es peor que no decir nada.",
+  "Datos REALES de la semana (scores, lineups, waivers, trades vía API) — la carrilla siempre anclada en hechos verificables.",
+  "Referencias pop/trending FRESCAS (web search de qué está pasando en redes esa semana).",
+  "Nunca violar hard_limits."
+ ]
+}

@@ -127,6 +127,18 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
      rosters Mayfield (298.7), so Goff (314.5) is a +16 upgrade, and
      **Geno Smith (242 proj) is a free agent in that league**. There is no
      QB scarcity premium in DYNASTY TRC. User to confirm retiring it.
+- [ ] **Roast semanal (WhatsApp) — esqueleto listo, faltan insumos del user**:
+  tarea `roast-semanal-gallamijos` (martes 7:30am) genera dos textos en
+  español (La Gallamijos + El Dynasty) firmados por "Miroslava" — perfil
+  curado en `data/intel/roast_profile.json` (facciones Gallaghers vs Mijos
+  vs Los Sin Bandera, sin piedad, temas prohibidos: divorcios/trabajo/
+  salud/dinero real/familia). BLOQUEADO hasta que el user entregue:
+  (1) persona de Miroslava (o pida inventarla), (2) etiquetas de bando de
+  los 20 managers, (3) apodos/chistes internos, (4) palmarés del redraft
+  pre-Sleeper (incl. el único título Gallagher). On-demand: el user pide
+  "roast" en chat cuando quiera regenerar. Historia Sleeper ya minada:
+  Dynasty 2024 campeón Jro91 (final vs elmijo), 2025 damarante; últimos
+  ElGeneral4/panchocruz.
 - [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
   ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
   (b) newsletter start/sit-deltas section (task prompt already carries it);
