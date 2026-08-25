@@ -88,6 +88,28 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    pregunte en el grupo.)
 5. **Datos reales siempre**: scores, lineups, waivers y trades de la API. La
    carrilla anclada en hechos verificables duele el doble.
+6. **COHERENCIA INTERNA** (lección 2026-08-25, mandato del user): cada edición
+   debe ser consistente consigo misma de principio a fin. Error real: burlarse
+   de los QB rooms de los Sin Bandera y dos párrafos después predecir que esos
+   mismos retienen la corona. ANTES DE ENTREGAR, releer la edición completa
+   buscando: (a) contradicciones entre secciones, (b) metáforas que no cuadran
+   lógicamente (error real: "salado que ni el invierno te lo descongela" — la
+   sal no se descongela), (c) chistes caducados frente al estado actual de la
+   liga, (d) hábitos o datos inventados (error real: "Zenitsu draftea
+   dormido" — solo chistes y hechos REALES del archivo o verificados). El
+   roast solo funciona si el edificio entero se sostiene.
+
+## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
+
+- 2026-08-25 · Burrow atribuido al roster equivocado → regla 2 (verificar por liga).
+- 2026-08-25 · "Draft sin agendar" cuando ya había fecha → chiste caducado = dato falso.
+- 2026-08-25 · elmijo sobre-mencionado → regla 3 (balance).
+- 2026-08-25 · Metáfora del reggaetonero explicada → regla 4 (no explicar).
+- 2026-08-25 · Chiste inventado de Zenitsu → solo material real.
+- 2026-08-25 · Drácula sobre el Bebé → prohibición específica.
+- 2026-08-25 · "Salado/descongela" sin sentido → metáforas que cuadren.
+- 2026-08-25 · Palpitote coronando a los que la misma edición ridiculizó →
+  coherencia interna, releer completo antes de entregar.
 
 ## Secciones de cada edición
 
