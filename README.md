@@ -66,3 +66,11 @@ open it on a second monitor or your phone (same Wi-Fi, use the Mac's LAN IP):
   (`reports/2026/draft/archetype-playbook.md`).
 
 No API keys, no scraping, no dependencies beyond Python 3.9+.
+
+## EL DESTAPE DE MIROSLAVA (capa social)
+
+Roast semanal de WhatsApp para las ligas Gallamijos, escrito por el personaje
+"Miroslava" (reportera de sideline, sin piedad, español lagunero). Canon:
+`data/intel/miroslava.md`. Generación automática los martes 7:30am
+(`roast-semanal-gallamijos`) + on-demand; entrega en formato WhatsApp nativo
+por archivo y correo. Ver CLAUDE.md → "EL DESTAPE DE MIROSLAVA".

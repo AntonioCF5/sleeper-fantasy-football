@@ -388,6 +388,27 @@ files in `data/intel/` (committed, unlike the API cache):
 5. Check bye-week stacking on planned builds (never 3+ same-bye starters)
    and playoff-week (15-17) schedules for the top targets.
 
+## EL DESTAPE DE MIROSLAVA (capa social — roast semanal de WhatsApp)
+
+Newsletter de carrilla en español para los grupos de WhatsApp de las dos
+ligas Gallamijos, firmado por el personaje "Miroslava". **El canon completo
+vive en `data/intel/miroslava.md`** — personaje, tono (sin piedad, groserías
+calibradas con ejemplo canónico), 6 reglas duras (temas prohibidos con la
+excepción de sobrepeso; verificación de hechos POR LIGA vía API; balance
+equitativo con elmijo en máx 1-2 menciones; no explicar chistes jamás; datos
+reales; COHERENCIA INTERNA con pase final de relectura), secciones bautizadas
+(La Putiza de la Semana · Se Dice en la Regadera · Reparto de Medallas y
+Vergazos · Del Penthouse al Sótano · Marcador de la Guerra · El Palpitote del
+Escote · Cierre de Miroslava, Pero No de Patas), la guerra Gallaghers vs
+Mijos vs Los Sin Bandera, 21 managers con apodos/expedientes, palmarés
+2015-2025 y bitácora de lecciones editoriales. Generación: tarea
+`roast-semanal-gallamijos` (martes 7:30am, con gate de semana jugada) +
+on-demand cuando el user pida "roast". Entrega: textos en formato WhatsApp
+nativo (*asteriscos*, no markdown) por archivo Y por correo en texto plano
+para copiar/pegar. Toda corrección editorial del user se persiste en
+miroslava.md en el mismo commit; los chistes solo salen del archivo o de
+hechos verificados — nunca inventados.
+
 ## Coherence across surfaces (user mandate 2026-08-24)
 
 The newsletter, the command center, and chat must NEVER disagree on a

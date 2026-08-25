@@ -1,8 +1,8 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-21** (preseason week 2,
-draft season). Expert-daily run 2026-08-24.*
+tooling, or league state. Last updated: **2026-08-25** (preseason final
+week; Gallamijos draft dom 30 ago; Destape de Miroslava completo).*
 
 ## What this project is
 
@@ -127,18 +127,15 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
      rosters Mayfield (298.7), so Goff (314.5) is a +16 upgrade, and
      **Geno Smith (242 proj) is a free agent in that league**. There is no
      QB scarcity premium in DYNASTY TRC. User to confirm retiring it.
-- [ ] **EL DESTAPE DE MIROSLAVA (roast semanal WhatsApp) — COMPLETO, esperando semana 1**:
-  tarea `roast-semanal-gallamijos` (martes 7:30am) genera dos textos en
-  español (La Gallamijos + El Dynasty) firmados por "Miroslava" — perfil
-  curado en `data/intel/miroslava.md` (facciones Gallaghers vs Mijos
-  vs Los Sin Bandera, sin piedad, temas prohibidos: divorcios/trabajo/
-  salud/dinero real/familia). Todo entregado y consolidado en `data/intel/miroslava.md` (fuente única:
-  personaje, reglas duras incl. no-explicar-chistes y verificación de
-  jugadores por liga, 21 managers con bandos/apodos, sabor lagunero).
-  Solo falta el palmarés del redraft pre-Sleeper (lo suelta el user). On-demand: el user pide
-  "roast" en chat cuando quiera regenerar. Historia Sleeper ya minada:
-  Dynasty 2024 campeón Jro91 (final vs elmijo), 2025 damarante; últimos
-  ElGeneral4/panchocruz.
+- [ ] **EL DESTAPE DE MIROSLAVA — COMPLETO Y CALIBRADO, esperando semana 1**:
+  canon único en `data/intel/miroslava.md` (personaje, 6 reglas duras incl.
+  coherencia interna con pase final, secciones todas bautizadas, 21 managers,
+  palmarés redraft 2015-2025 COMPLETO — Mijos 8/SB 2/Gallas 1 —, bitácora de
+  lecciones editoriales con 8 correcciones del user). Ediciones 0 (v5)
+  aprobadas y enviadas por correo para estreno en los grupos. Tarea martes
+  7:30am con gate de semana jugada + on-demand ("roast" en chat). La primera
+  edición real: martes post-semana 1, con edición especial post-draft de La
+  Gallamijos disponible si el user la pide el domingo/lunes.
 - [ ] **Phase-system build items (before week 1)**: (a) lineup optimizer
   ceiling mode for weeks 15-17 (prefer boom/bust when projections close);
   (b) newsletter start/sit-deltas section (task prompt already carries it);
