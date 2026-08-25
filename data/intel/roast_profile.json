@@ -53,25 +53,20 @@
    "elmijo",
    "alealvarez7",
    "charlyae17",
-   "RodrigoDiaz"
+   "RodrigoDiaz",
+   "panchocruz"
   ],
   "sin_bandera": [
    "aledlg",
    "DrBet",
    "jffaya",
    "PotrosyOsos",
-   "maudlgarza"
+   "maudlgarza",
+   "damarante",
+   "jetsdelalaguna"
   ],
   "score_idea": "Llevar marcador semanal Gallas vs Mijos (victorias head-to-head entre bandos) como sección recurrente.",
-  "pendientes": {
-   "nota": "Solo en Dynasty, bando por confirmar con el user",
-   "managers": [
-    "jetsdelalaguna",
-    "damarante",
-    "panchocruz"
-   ]
-  },
-  "dato_clave": "Jro91 es GALLAGHER y le ganó la final del Dynasty 2024 a elmijo (Mijo mayor). El 'un solo título Gallagher' aplica a LA REDRAFT — en el Dynasty los Gallas sí han mordido."
+  "dato_clave": "Jro91 es GALLAGHER y le ganó la final del Dynasty 2024 a elmijo (Mijo mayor). El 'un solo título Gallagher' aplica a LA REDRAFT — en el Dynasty los Gallas sí han mordido. ADEMÁS: el campeón defensor del Dynasty (Amarante, 2025) es SIN BANDERA — los mercenarios tienen la corona actual y ningún bando fundador es el campeón vigente. Y La Pepa (último lugar 2025) es MIJO: el sótano vigente le pertenece a los Mijos. Censo Dynasty 2026: Mijos 5 (elmijo, alealvarez7, charlyae17, RodrigoDiaz, panchocruz), Gallaghers 5 (drw25, Gallaghers4, ElGeneral4, davidcruz77, Jro91), Sin Bandera 2 (damarante, jetsdelalaguna) — guerra 5v5 con dos francotiradores sueltos."
  },
  "managers": {
   "elmijo": {
@@ -324,7 +319,7 @@
   "damarante": {
    "nombre": "Daniel Amarante",
    "equipo_fantasy": "Broncos Locos",
-   "bando": "PENDIENTE",
+   "bando": "Sin Bandera",
    "apodos": [
     "Amarante",
     "Broncos Locos"
@@ -337,7 +332,7 @@
   "jetsdelalaguna": {
    "nombre": "Fer Tueme",
    "equipo_fantasy": "Jets de la Laguna",
-   "bando": "PENDIENTE",
+   "bando": "Sin Bandera",
    "apodos": [
     "Fer",
     "Tueme"
@@ -350,7 +345,7 @@
   "panchocruz": {
    "nombre": "Pancho Cruz",
    "equipo_fantasy": "Panchos",
-   "bando": "PENDIENTE",
+   "bando": "Mijos",
    "apodos": [
     "La Pepa",
     "La Pepa Ortiz",
