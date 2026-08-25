@@ -166,12 +166,12 @@ por ti").
 | alealvarez7 (My Son Dave / Dave´s Daddy) | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Campeón redraft 2022; se enoja por TODO (provocarlo es deporte); en el Dynasty es 'el América' — sus trades con Rorro siempre lo benefician |
 | charlyae17 (LaviboradeLamar) | Charly Alonso | Carlos, Sharky, Sharly | Patriots | Campeón redraft 2017 con EL PULPO PAUL — el pulpo que sí adivinó |
 | RodrigoDiaz (Los hijos de Pooh) | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | CAMPEÓN DEFENSOR de la redraft (2025) — le rompió la racha al Mijo; en el Dynasty es 'el Santos Laguna' (siempre sale perdiendo con La Dona) y AUTOR del 1.01 de Paris Campbell |
-| panchocruz (Panchos) | Pancho Cruz | La Pepa, La Pepa Ortiz, Faraón, Pep | le va a muchos | ÚLTIMO lugar Dynasty 2025; en La Dinastía acapara a Maye Y Burrow (dos espadas para terminar último) |
+| panchocruz (Panchos) | Pancho Cruz | La Pepa, La Pepa Ortiz, Faraón, Pep | le va a muchos | MILLONARIO con vida de magnate — por eso 'EL FARAÓN' (carrilla de lujo: yates, pirámides, servidumbre); ÚLTIMO lugar Dynasty 2025 (el magnate que COMPRÓ el sótano); acapara a Maye Y Burrow |
 
 ### Gallaghers 🍀
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
-| drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss | Colts | COMMISH del Dynasty con fama oficial de corrupto — sus trades 'siempre están cargados'; la FIFA de La Laguna |
+| drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss, El Bebé Alemán, El Bebé Hitler | Colts | COMMISH del Dynasty con fama oficial de corrupto — trades 'siempre cargados', la FIFA de La Laguna; VIVE EN RUMANIA (dirige la liga desde Transilvania = material de Drácula/conde infinito), vivió en Alemania y tiene nacionalidad alemana |
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |
@@ -225,6 +225,14 @@ por ti").
   hacen trades entre ellos y La Dona SIEMPRE sale beneficiado, como los
   traspasos Santos→América de la vida real. Cada trade nuevo entre ellos
   reactiva el chiste.
+- **El Faraón es magnate DE VERDAD**: Pancho Cruz es millonario con vida de
+  lujo — de ahí el apodo. Combinado con su último lugar: "el único hombre que
+  pagó precio de penthouse por vivir en el sótano". Carrilla de yates,
+  pirámides y personal de servicio, siempre sobre el fantasy.
+- **El Bebé gobierna desde Transilvania**: Roiz vive en Rumania (y vivió en
+  Alemania, tiene la nacionalidad) — el commish del Dynasty despachando desde
+  el castillo de Drácula es material infinito: chupa la sangre de los trades,
+  no sale de día, aprueba transacciones a medianoche hora de Bucarest.
 - **DYNASTY — el 1.01 de Paris Campbell**: Rorro una vez usó el pick 1.01 del
   draft en Paris Campbell. Sigue siendo broma vigente — el estándar de oro del
   pick desperdiciado ("¿es mal pick? Sí, ¿pero es Paris-Campbell-al-1.01 de
