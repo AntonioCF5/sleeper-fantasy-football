@@ -100,17 +100,17 @@
    "league_id": "1388097370255794176",
    "partner": "Gallaghers4",
    "give": [
-    "Jaylen Waddle"
+    "Jaylen Waddle",
+    "Alvin Kamara"
    ],
    "get": [
     "Caleb Williams",
-    "MarShawn Lloyd",
-    "(push: + Mike Washington)"
+    "Mike Washington"
    ],
-   "state": "COUNTERED BY HIM 2026-08-25: Caleb+Lloyd for Waddle — ACCEPT EITHER WAY; push once for Washington first",
-   "lineup_delta": "you 1831.4 -> 1762.1 (-69.3, rebuild-correct; Caleb 289 becomes QB1 over Mahomes 275), them 1923.8 -> 1971.2 (+47.4)",
-   "why": "His counter UPGRADES our ask: Caleb (24, 289.3, dynasty ADP 51) is a strictly better asset than Nix (26, 283.7, ADP 81) — younger, more points, twice the market value. Caleb enters as the rebuild's QB1 immediately and fully unlocks the Mahomes sale (alealvarez7 offer). Lloyd (25) is the clean Jacobs handcuff. The one push: include Mike Washington (Jeanty insurance) using HIS roster problem — he is 26/23 and must cut 3; giving 3 bodies leaves him one cut from legal instead of two, and Washington is his RB5. If he refuses: ACCEPT SAME NIGHT — a 97-proj lottery ticket never risks a won trade; chase Washington separately later (price rises if Jeanty lands; acceptable). Our roster after: 24/23 post-compliance -> paired cut Alvin Kamara (31).",
-   "pitch": "Va. Y aviéntame a Washington de una vez — igual estás 3 arriba del límite y contigo dando 3 cuerpos te queda un solo corte en vez de dos. Es tu RB5, ni lo vas a extrañar."
+   "state": "ACCEPT 2026-08-25 — the Caleb+Washington-for-Waddle+Kamara variant is the best on the table",
+   "lineup_delta": "you 1831.4 -> 1762.1 (-69.3, rebuild-correct; Caleb 289 = new QB1 over Mahomes 275), them +47.4 (Waddle in, Kamara doesn't crack his lineup)",
+   "why": "Best variant: Kamara (31) was already tonight's designated compliance cut — this converts a free cut into a trade piece, and the second asset back is Mike Washington (23), the DIRECT Jeanty handcuff = insurance for the incoming crown asset of the ElGeneral4 package, two years younger than Lloyd. Caleb (24, 289.3, dynasty ADP 51) enters as the rebuild's QB1 immediately and fully unlocks the Mahomes sale. 2-for-2 leaves the roster exactly 23/23 legal post-compliance, no extra cut. Preference order if renegotiated: (1) Caleb+Lloyd+Washington for Waddle, (2) THIS ONE, (3) Caleb+Lloyd for Waddle — all three are wins, close same night.",
+   "pitch": "Hecho. Caleb y Washington por Waddle y Kamara — mándala y cerramos."
   }
  ]
 }
