@@ -7,16 +7,16 @@
    "player": "Barion Brown",
    "verdict": "claim",
    "bid": 9,
-   "drop": "Brian Robinson",
-   "why": "REPAIRED 2026-08-25: roster was OVER 30/25 — five compliance cuts tonight (see roster_compliance), Benson to IR already done by user. At the legal 25, Wednesday claims still need pairs: Brown ($9) pairs with Brian Robinson (27, ATL committee, low path). Brown (22) is the Saints WR3-and-climbing; you already made this add in Dynasty Mexica."
+   "drop": "Jauan Jennings",
+   "why": "CORRECTED 2026-08-25 (user caught a handcuff-blind drop): the prior pairing dropped Brian Robinson — the DIRECT handcuff to Bijan Robinson (ATL depth 1->2, clean, league_winners flags him) — contingent league-winner value never funds a non-league-winner add. New drop: Jauan Jennings (29, MIN depth 3, buried, no market) — first out by the aging-vet rule. Brown (22) is the Saints WR3-and-climbing, rested with the starters in the finale. $9."
   },
   {
    "league_id": "1315407698006646784",
    "player": "Xavier Hutchinson",
-   "verdict": "claim",
-   "bid": 13,
-   "drop": "MarShawn Lloyd",
-   "why": "REPAIRED 2026-08-25: Conner became a tonight compliance cut, so the claim pairs with MarShawn Lloyd (25, GB RB4, stalled yr-3 profile — second bucket of the dynasty drop order). Hutchinson $13: FF named him the day-one Texans starter despite the Boutte trade."
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "SKIP 2026-08-25 (handcuff-protection rule, user-driven): every candidate drop fails the asset test. Robinson (Bijan handcuff), Lloyd (Jacobs handcuff, 25), Tracy (Skattebo handcuff) and Keaton Mitchell (Hampton handcuff) are all clean depth-2 RBs behind 200+ point workloads — contingent league-winner value the dynasty rule protects; Kelce/Godwin/DJ Moore are startable points you don't burn for a role bet. Hutchinson (26) is a WR role bet, not a league-winner — he does not outrank any protected asset on this roster. If you personally rate the Texans WR2 role over one of the handcuffs, that's an override only you can make: say so and we pair him deliberately."
   },
   {
    "league_id": "1315407698006646784",

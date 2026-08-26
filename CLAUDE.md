@@ -152,6 +152,18 @@ When the user asks for "this week's report/analysis" or similar:
   chase a veteran's points; a veteran add on a rebuild needs an explicit
   flip-asset thesis and user sign-off. Taxi/IR players (roster.reserve/taxi)
   consume no bench spot — exclude them from drop math entirely.
+- **Handcuff protection (user rule 2026-08-25)**: a CLEAN handcuff — RB at
+  depth-chart 2 directly behind a 200+ point workload, with no depth-3+
+  back projecting ≥80 (committee dilution) — carries contingent
+  league-winner value and is PROTECTED from drops regardless of age or
+  standalone projection, exactly like a young stash. Contingent value is
+  only ever spent on a same-or-better class add (a true league-winner
+  profile), never on role bets; the "stalled yr-3+" drop bucket does NOT
+  apply to a player whose path is one injury from a bell-cow role. When no
+  droppable non-protected asset exists, the ruling is skip — an override is
+  the user's call, made explicitly, never a default. The dashboard's
+  droppable-floor math applies the same test mechanically
+  (`_clean_handcuff` in draft_dashboard).
 
 ## Trade philosophy
 

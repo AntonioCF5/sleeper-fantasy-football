@@ -137,9 +137,33 @@ def moves_payload(league_id, force=False):
         # otherwise a protected 24yo handcuff makes everything look like an
         # upgrade and every card screams CLAIM.
         bench_all = sorted((pdict(pl) for pl in bench), key=lambda x: x["proj"])
-        # Unknown age = fringe veteran, not a protected young stash.
-        droppable = ([b for b in bench_all if (b.get("age") if b.get("age") is not None else 30) >= 26]
-                     if dynasty else bench_all)
+
+        def _clean_handcuff(pid):
+            """RB who is the DIRECT depth-2 backup to a top-12-workload
+            starter, with no committee dilution — contingent league-winner
+            value the dynasty rule protects regardless of standalone proj
+            (user rule 2026-08-25: Brian Robinson behind Bijan is a stash,
+            not a drop). Dilution test: any depth-3+ back with a real
+            projection (>=80) means committee, not handcuff — one injury
+            yields a timeshare there, e.g. the NYG backfield."""
+            pl = players.get(pid) or {}
+            if analysis.canonical_pos(pl) != "RB" or pl.get("depth_chart_order") != 2:
+                return False
+            mates = [q for q in players.values()
+                     if q.get("team") == pl.get("team") and q.get("position") == "RB"]
+            starter = next((q for q in mates if q.get("depth_chart_order") == 1), None)
+            if not starter or sp.get(starter.get("player_id"), 0) < 200:
+                return False
+            return all(sp.get(q.get("player_id"), 0) < 80 for q in mates
+                       if (q.get("depth_chart_order") or 9) >= 3)
+
+        if dynasty:
+            # Unknown age = fringe veteran, not a protected young stash.
+            droppable = [b for b in bench_all
+                         if (b.get("age") if b.get("age") is not None else 30) >= 26
+                         and not _clean_handcuff(b.get("player_id"))]
+        else:
+            droppable = bench_all
         bench_floor = (droppable[0]["proj"] if droppable
                        else bench_all[0]["proj"] if bench_all else 0)
         # Starting-slot exposure per position (dedicated + flex eligibility),
