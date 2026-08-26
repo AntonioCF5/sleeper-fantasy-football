@@ -210,3 +210,68 @@ and Brian Thomas Jr. for him inside 24 hours.
 - **Playoff-week (15-17) planning risk is bad teams tanking to a random
   QB, not good teams resting starters** [FF] — resting is a week-18
   phenomenon. Elite offenses staying elite is exactly what you want.
+
+## Wild cards, stale ADP and priced risk (added 2026-08-25)
+
+- **Three-outcome (wild-card) classification, with a roster cap** [FF].
+  Sort every pick into "guaranteed to produce on some level" vs wild cards
+  whose range genuinely spans worthless / flex-worthy / league-winning, and
+  deliberately carry only **one or two wild cards** on a roster — "you
+  really don't want a bunch of those." The classification doubles as a hype
+  filter: a player who cannot plausibly reach the league-winning end (Bucky
+  Irving with the pass-catching role gone to Gainwell; R.J. Harvey behind
+  two names) does not belong in the bucket no matter how exciting he is.
+  This is the discipline our `league_winners` stash list lacks — it flags
+  contingent upside but never caps how many we take.
+- **Stale-ADP trap on news-flip players** [FF]. An ADP formed during a
+  player's bad-news window (Nabers' ACL pessimism) is obsolete the moment
+  the news flips, and every manager in the room is staring at the same
+  number hoping for the same steal. Never plan a build around the printed
+  ADP of a player whose situation just improved — assume he goes a full
+  round or more earlier. This is the ADP-side twin of our rule 5 ("a player
+  Sleeper's list loves will NOT last"), and it means a large positive Value
+  gap on a recently-recovered player is partly an artifact, not an edge.
+- **Do not double- and triple-count a risk that is already in the price**
+  [Sal]. For aging or injury-prone veterans, age + injury history + a camp
+  tightness report are often the same risk restated three ways; once ADP has
+  fallen to reflect the known profile, extra narrative is not new
+  information. The test he applies: *does the report change the week-1
+  availability branch?* Caveat learned the same week — the test is only as
+  good as the report. Sal cleared Mike Evans on "quad tightness, not
+  serious"; 24 hours later the wire had him missing practice with a **groin**
+  injury. A different body part is a new branch, not the priced one.
+- **Price an injury backup against the real starter tiers, not the hype**
+  [FF]. When a starter goes down and the backup's ADP spikes, ask where he
+  would rank *if you knew he was starting*, and place him next to the actual
+  committee starters (Tuten, Price, Warren, Stevenson). That anchor exposed
+  a pick-37 ADP on a day-3 back with no college production. Pair it with the
+  combine-vs-production check (elite testing, never produced in college).
+- **Camp reception counts by quarterback as a target-pecking-order proxy**
+  [FF]. For every team they want the ordered list of how many catches each
+  pass catcher made *from the starting QB* across camp, and treat that
+  ordering as real signal while dismissing preseason completion percentage
+  as noise ("they should be failing in preseason"). It is a usage metric
+  available before any snap chart exists — it resolved their New England
+  order: A.J. Brown > Doubs > Stevenson > Douglas > Henry > Boutte.
+- **Price a stack by naming the players you pass on** [FF]. Before drafting
+  a stack partner, pull the platform ADP for that exact pick and say out
+  loud who else is on the board. If the opportunity cost is real, don't
+  force it — wait a round or switch to a cheaper correlated piece.
+- **Off-field/suspension risk to an incumbent is a legitimate accelerant
+  for a rookie's snap timeline** [FF]. The day-2/day-3 rookie-WR base rate
+  (slow start, second-half relevance) can be overridden when the player
+  ahead of him is under league investigation. Check the incumbent's status,
+  not just the rookie's draft capital. Live case: the NFL opened a
+  personal-conduct investigation into Rashod Bateman, which is the
+  transmission channel behind the Ja'Kobi Lane sleeper call.
+- **Sanctioned buy conditions for a 30+ receiver** [Sal]. He normally avoids
+  aging WRs but names the exact conjunction that overrides it: (a) target
+  competition in the room has been vacated, (b) a real QB upgrade arrived,
+  and (c) ADP has already fallen for the age/injury narrative. All three
+  must hold. Efficiency stats that survived the down year (YPRR, first downs
+  per route run, zero drops) are the confirmation.
+- **Four to six games is the read-the-team threshold** [FF]. Refuse to judge
+  a team before week 4; make the call in weeks 4-6 — early enough to act
+  before the fantasy playoffs, late enough that schedule strength evens out.
+  They validate it against prior-year week-4 standings rather than
+  asserting it (2025: Baltimore 1-3, Arizona 2-2 and never winning again).

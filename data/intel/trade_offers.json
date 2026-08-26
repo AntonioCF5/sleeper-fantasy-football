@@ -1,50 +1,100 @@
 {
- "updated": "2026-08-24",
- "note": "Standing trade offers, curated. Lineup deltas are season-total optimal-lineup projections under each league's corrected scoring. The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
+ "updated": "2026-08-25",
+ "note": "Standing trade offers, curated. Lineup deltas are season-total optimal-lineup projections under each league's corrected scoring, recomputed every run. The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
  "offers": [
   {
    "league_id": "1315407698006646784",
    "partner": "RGV95",
-   "give": ["Jared Goff"],
-   "get": ["Rome Odunze"],
-   "fallback": "Marvin Harrison instead of Odunze (you +14.8, them ±0) — take it only if Odunze is refused",
-   "state": "NEW 2026-08-24 — ready to send",
-   "lineup_delta": "you 2087.9 → 2124.4 (+36.5), them 2067.7 → 2067.3 (−0.4)",
-   "why": "Replaces the 'no QB-needy buyer' finding: the buyer isn't QB-needy, he's WR-choked. RGV95 rosters SEVEN wide receivers projecting 160+ into two WR slots and two flexes — Odunze is his WR4 and costs him 0.4 points to move. Your WR2 is DJ Moore (179); Odunze is a 24yo with a +22.6 value gap on the DTR board (positive gap on a rival-owned player = buy-low). Both experts are on Odunze this week. Burrow stays home; Goff was always the only chip.",
+   "give": [
+    "Jared Goff"
+   ],
+   "get": [
+    "Rome Odunze"
+   ],
+   "fallback": "Marvin Harrison instead of Odunze (you +15, them ±0) — take it only if Odunze is refused",
+   "state": "ready to send — re-verified 2026-08-25, both sides still own the pieces",
+   "lineup_delta": "you 2087.9 → 2124.4 (+36.5), them 2100.7 → 2100.3 (−0.3)",
+   "why": "The buyer isn't QB-needy, he's WR-choked: RGV95 rosters SEVEN wide receivers projecting 160+ into two WR slots and two flexes — Odunze is his WR4 and costs him 0.3 points to move. Your WR2 is DJ Moore (179); Odunze is 24 with a +22.6 value gap on this board (positive gap on a rival-owned player = buy-low). Burrow stays home; Goff was always the only chip. The 'rival QB1 injury' pounce trigger stays retired: Geno Smith (242 proj) is still a free agent in this league, so there is no QB scarcity premium to harvest.",
    "pitch": "You're starting four of seven WRs and your QB2 is a 38-year-old Stafford. Odunze is your WR4 — Goff is a top-12 QB who insures Caleb Williams all season."
   },
   {
    "league_id": "1338269686810300416",
    "partner": "Juliosg",
-   "give": ["Sam LaPorta"],
-   "get": ["D'Andre Swift"],
-   "fallback": "Travis Etienne instead of Swift — but see note: FF made Etienne their official bust of the year on 2026-08-24, so prefer Swift or hold",
-   "state": "ready to send",
-   "lineup_delta": "you 1951→1953, them 1804→1798",
-   "why": "TE surplus (Loveland+LaPorta, one slot) buys the RB2; your RB2 becomes Swift instead of Tyjae Spears (97). Never ask Walker (-42 their side). 2026-08-24: Mike (FF) calls Swift a fringe RB1 at an RB24 price on the rebuilt Bears line — the ask side just got stronger, the Etienne fallback just got weaker.",
+   "give": [
+    "Sam LaPorta"
+   ],
+   "get": [
+    "D'Andre Swift"
+   ],
+   "fallback": "Travis Etienne instead of Swift — but FF made Etienne their official bust of the year on 2026-08-24, so prefer Swift or hold",
+   "state": "ready to send — ask side improved 2026-08-25",
+   "lineup_delta": "you 1950.6 → 1953.2 (+2.6), them 1804.2 → 1797.8 (−6.4)",
+   "why": "TE surplus (Loveland + LaPorta, one slot) buys the RB2; your RB2 becomes Swift instead of Tyjae Spears (97). Never ask Walker (−42 their side, auto-decline). 2026-08-25: LaPorta returned to practice Tuesday after the hip issue, which removes the discount a buyer would have argued for — send it now while the tag is fresh off. It costs Juliosg 6 lineup points, so lead with the TE upgrade, not the RB count.",
    "pitch": "You upgrade TE by 30 a season and still start two RBs. Third RB for your TE hole."
   },
   {
    "league_id": "1314652488325922816",
    "partner": "Gernant88",
-   "give": ["C.J. Stroud"],
-   "get": ["Breece Hall"],
-   "fallback": "Settle at Bucky Irving (you +53, them -3 — near-free insurance)",
-   "state": "ready to send",
-   "lineup_delta": "Bucky version: you 1709→1762, them 1947→1944",
-   "why": "They're the #2 contender with Jayden Daniels and Joe Flacco behind him; four startable RBs. Stroud (24) is also a dynasty asset. Corum stays home. 2026-08-24 note: FF saw a genuine Irving/Gainwell split in preseason — the Bucky fallback is worth slightly less than it was, the Breece ask slightly more (Sal reads Hall's groin as a 2-3 week precaution, week-1 fine).",
+   "give": [
+    "C.J. Stroud"
+   ],
+   "get": [
+    "Breece Hall"
+   ],
+   "fallback": "Settle at Bucky Irving (you +54, them −3) — but see note, this fallback keeps getting weaker",
+   "state": "ready to send — push the Breece version harder",
+   "lineup_delta": "Breece version: you 1708.8 → 1775.7 (+66.9), them 1946.7 → 1930.4 (−16.3). Bucky version: you 1709 → 1762 (+54), them 1947 → 1944 (−3)",
+   "why": "They're the #2 contender with Jayden Daniels and Joe Flacco behind him; four startable RBs. Stroud (24) is also a dynasty asset. Corum stays home. 2026-08-25: FF reported that Kenneth Gainwell has LOCKED the Tampa pass-catching role ahead of Bucky Irving and put Irving in the 'capped, not a league-winning outcome' bucket — that is the second straight day the fallback lost value, so aim at Breece and treat Irving as a floor, not a target. Sal reads Hall's groin as a 1-2 week precaution the Jets are being cautious about.",
    "pitch": "You're one Daniels ankle from wasting Gibbs' prime. Stroud starts for half this league."
   },
   {
    "league_id": "1388097370255794176",
+   "partner": "jetsdelalaguna",
+   "give": [
+    "David Montgomery"
+   ],
+   "get": [
+    "Marvin Harrison"
+   ],
+   "fallback": "Aggressive version: Montgomery for Tre' Harris + Jordyn Tyson (both sit outside his lineup, so it still scores +78 for him). Do not settle below one real 24-and-under asset.",
+   "state": "NEW 2026-08-25 — ready to send",
+   "lineup_delta": "MHJ version: you 1831 → 1778 (−53, correct for a rebuild), them 1721 → 1756 (+34). Harris+Tyson version: them 1721 → 1799 (+78)",
+   "why": "Replaces the dead ElGeneral4 package. jetsdelalaguna is the most RB-starved roster in the league — his RB room is TreVeyon Henderson (171), Jacory Croskey-Merritt (128) and James Conner (57) — while carrying FOUR quarterbacks (Purdy, Geno, Mendoza, Brissett) in a one-QB league. Montgomery walks in as his RB1 and is worth +34 to +78 to his starting lineup depending on the return. Your side: Montgomery is 29, risk index 32, explicitly past the RB decline curve, and priced fairly right now (−4.9 value gap) — that is the definition of selling a depreciating asset at par. Marvin Harrison is 24 with the smallest value gap (−16) of any real young asset on that roster, i.e. the least market-premium you have to pay for youth.",
+   "pitch": "You're starting TreVeyon Henderson and Croskey-Merritt at running back with four quarterbacks on your bench. Montgomery is your RB1 the day he lands."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "partner": "alealvarez7",
+   "give": [
+    "Patrick Mahomes"
+   ],
+   "get": [
+    "Bhayshul Tuten"
+   ],
+   "fallback": "Jalen Coker (24) instead of Tuten, or Coker + a 2027 2nd. Both cost him nothing in lineup terms.",
+   "state": "NEW 2026-08-25 — ready to send",
+   "lineup_delta": "you 1831 → 1700 (−131, correct for a rebuild), them 2155 → 2149 (−6). In the Coker version it is exactly ±0 for him.",
+   "why": "The other half of the Mahomes/Montgomery sell, rebuilt around a partner who will actually say yes. alealvarez7 is the league's best roster (Bijan 325, CMC 291, Lamb 270, Henry 247) and his QB room is Jayden Daniels (300) backed by Deshaun Watson (96) — a 200-point cliff. This is a one-QB league, so Mahomes never enters his starting lineup: the trade costs him nothing on the board and buys championship insurance. Your side of the rule fires cleanly: Mahomes carries a −52.3 value gap in this league (the market prices him 52 picks above our board) and −9.1 VORP as a 1QB starter, i.e. a textbook sell-high window on a player you own. Burrow is not involved and never is.",
+   "pitch": "Your QB2 is Deshaun Watson. Bijan and McCaffrey don't win you anything if Daniels misses three weeks — Mahomes costs you a bench receiver."
+  },
+  {
+   "league_id": "1388097370255794176",
    "partner": "ElGeneral4",
-   "give": ["Patrick Mahomes", "David Montgomery"],
-   "get": ["Ashton Jeanty"],
-   "fallback": "Alternate ask: their 2027 1st + Jordan Addison — do not take less",
-   "state": "ready to send — TIME-SENSITIVE, see why",
-   "lineup_delta": "you 1831→1681 (fine — rebuild, assets are the currency), them 1973→1978",
-   "why": "Rebuild trade: shed a 30yo QB at peak post-ACL sellability + 29yo RB for the 22yo cornerstone. 2026-08-24: BOTH sides moved today. Jeanty left practice with an ankle injury (Schefter/Rapoport: believed a sprain, not long-term; no team diagnosis released) — that is the buy-low window on a 22-year-old, and it shuts the moment a 'low ankle sprain, week 1 fine' report lands. Against that, KC went non-committal on Mahomes' week-1 status, which cuts our sell-side leverage. Net: same trade, less leverage, shorter clock — send today or take the picks version.",
-   "pitch": "You're two pieces from the title race and I'm selling both of them."
+   "give": [
+    "Trey McBride",
+    "David Montgomery",
+    "Woody Marks",
+    "2027 1st"
+   ],
+   "get": [
+    "Ashton Jeanty",
+    "Zay Flowers",
+    "Gunnar Helm",
+    "2027 4th"
+   ],
+   "state": "RECOMMENDED ACCEPT 2026-08-25 — user evaluating; try Ferguson-for-Helm swap first",
+   "lineup_delta": "you 1831.4 -> 1812.7 (-18.7), them 2005.9 -> 1984.8 (-21.1)",
+   "why": "Jeanty (22) is the best asset in the deal by a wide margin and the top-12-overall bar the deadline rule requires. Near-zero 2026 cost while getting drastically younger: Jeanty>Monty +28, Flowers displaces Golden in flex +58, offsetting the McBride->Helm TE cliff (-105). Real costs: elite TE out plus the 2027 1st. Ankle is a LOW sprain, 'on the mend' per Kubiak, Week 1 optimism — buy window mostly closed, which is why the price rose from the dead Mahomes+Monty construction. Improvement to ask: Jake Ferguson (159.8) instead of Gunnar Helm (130.3) — ElGeneral would hold McBride+Loveland+Ferguson otherwise, TE overkill; costs him nothing real, shrinks our TE hole ~30 pts. Accept even if refused. Note: handcuff Mike Washington owned by Gallaghers4, no free insurance."
   }
  ]
 }

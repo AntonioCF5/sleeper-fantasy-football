@@ -2,7 +2,8 @@
 
 *Living document — update at the end of any session that changes strategy,
 tooling, or league state. Last updated: **2026-08-25** (preseason final
-week; Gallamijos draft dom 30 ago; Destape de Miroslava completo).*
+week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
+expert-daily 8/25 run refreshed trades + claims).*
 
 ## What this project is
 
@@ -105,28 +106,42 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 ## Pending / next actions
 
-- [ ] **STANDING TRADE OFFERS — built 2026-08-24, user to send** (full
-  packages + pitch scripts in the 2026-08-22 newsletter "Recommended
-  trades"; update state here as sent/countered/dead):
+- [ ] **STANDING TRADE OFFERS — refreshed 2026-08-25, user to send** (full
+  packages + pitch scripts in the 2026-08-25 newsletter "Recommended
+  trades"; single source of truth is `data/intel/trade_offers.json` —
+  update state there AND here as sent/countered/dead):
   UNTOUCHABLES (user, 2026-08-24): **Joe Burrow — never tradeable, any
   league (Bengals fan)**; **Blake Corum — keep** (young, real LAR path).
   1. Dynasty Mexica → Juliosg: LaPorta for D'Andre Swift (ask) or Etienne
-     (fallback) — TE surplus buys the RB2; Burrow stays as Maye insurance.
-     Never ask Walker (-42 their side, auto-decline).
-  2. League of Record → Gernant88: Stroud for Breece (ask); settle at
-     Stroud for Bucky Irving (me +53, them -3). Their QB2 is Flacco.
-  3. Gallamijos Dynasty → ElGeneral4: Mahomes + Montgomery for Ashton
-     Jeanty (their lineup +5; rebuild takes the 22yo). Alternate ask:
-     2027 1st + Addison. Do not take less.
-  4. DYNASTY TRC — **SUPERSEDED 2026-08-24**: Goff → **RGV95** for Rome
-     Odunze (you 2087.9→2124.4, them 2067.7→2067.3). He isn't QB-needy,
-     he's WR-choked: seven WRs projecting 160+ into four skill slots, and
-     Odunze is his WR4. Fallback Marvin Harrison (you +14.8, them ±0).
-     **Retire the pounce trigger** — it fired today (albertonp95 rosters
-     Mahomes, KC non-committal on week 1) and the math killed it: he also
-     rosters Mayfield (298.7), so Goff (314.5) is a +16 upgrade, and
-     **Geno Smith (242 proj) is a free agent in that league**. There is no
-     QB scarcity premium in DYNASTY TRC. User to confirm retiring it.
+     (fallback, weakened — FF's official bust of the year). You +2.6, them
+     -6.4. LaPorta practiced 8/25, so the hip discount a buyer would argue
+     for is gone — send now. Never ask Walker (-42 their side).
+  2. League of Record → Gernant88: Stroud for Breece Hall (you +66.9, them
+     -16.3); fallback Bucky Irving (you +54, them -3) but **push Breece** —
+     FF report Gainwell has LOCKED the TB pass-catching role, second
+     straight day the Irving fallback lost value. Their QB2 is Flacco.
+  3. DYNASTY TRC → RGV95: Goff for Rome Odunze (you 2087.9→2124.4, them
+     2100.7→2100.3). Fallback Marvin Harrison (you +15, them ±0). He isn't
+     QB-needy, he's WR-choked (7 WRs at 160+ into 4 skill slots). **Pounce
+     trigger stays retired** — Geno Smith (242) is still a FA there, so no
+     QB scarcity premium exists.
+  4. Gallamijos Dynasty → jetsdelalaguna (**NEW 8/25**): David Montgomery
+     for Marvin Harrison Jr. — you 1831→1778 (-53, correct for a rebuild),
+     them 1721→1756 (+34). Most RB-starved roster in the league carrying
+     FOUR QBs in a 1QB format. Aggressive version: Montgomery for Tre'
+     Harris + Jordyn Tyson (still +78 for him). Never settle below one
+     24-and-under asset.
+  5. Gallamijos Dynasty → alealvarez7 (**NEW 8/25**): Patrick Mahomes for
+     Bhayshul Tuten — them -6 (Coker version ±0: a QB2 never starts in a
+     1QB league, so it's pure insurance). His QB room is Jayden Daniels
+     backed by Deshaun Watson (96) — a 200-pt cliff. Your side: Mahomes has
+     a -52.3 value gap and -9.1 VORP there = textbook sell-high.
+  6. ~~Gallamijos Dynasty → ElGeneral4: Mahomes + Montgomery for Jeanty~~
+     **DEAD 2026-08-25.** Rapoport has Jeanty's ankle "more low than high,"
+     Kubiak says "on the mend" — the buy-low window shut on exactly the
+     trigger the 8/24 edition named. Recomputed it is **-27.8 to their
+     starting lineup** (their QB1 Jaxson Dart projects 285 vs Mahomes 275),
+     i.e. an auto-decline. Superseded by items 4 and 5.
 - [ ] **EL DESTAPE DE MIROSLAVA — COMPLETO Y CALIBRADO, esperando semana 1**:
   canon único en `data/intel/miroslava.md` (personaje, 6 reglas duras incl.
   coherencia interna con pase final, secciones todas bautizadas, 21 managers,
@@ -176,16 +191,22 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims — CURRENT SET 2026-08-24** (source of truth:
+- [ ] **Waiver claims — CURRENT SET 2026-08-25** (source of truth:
   `data/intel/waiver_claims.json`; dashboard Moves tab overlays it):
-  DYNASTY TRC — **CLAIM Barion Brown (22) $9, drop Trey Benson** (ARI
-  waived/injured him Monday — path gone). Hutchinson **downgraded to
-  optional $11** (drop Conner, 31) after Houston traded for Kayshon Boutte,
-  which dilutes the exact WR2 snaps the $21 bid bought. Vele **reversed to
-  skip** (28, edge expires when Tyson returns; Brown is the same vacancy at
-  22). Dynasty Mexica — Hutchinson **optional $7** over Tillman (26).
-  Gallamijos Dynasty & League of Record — no claims. Jerome Ford (released
-  by WAS with an injury settlement) is the next Gallamijos Dyn drop.
+  DYNASTY TRC — **CLAIM Barion Brown (22) $9, drop Trey Benson** (now
+  settled: cleared waivers, all 31 teams passed, season-ending IR, and this
+  league has no IR slots so he is a dead bench spot); **CLAIM Xavier
+  Hutchinson (26) $13, drop James Conner (31)** — UPGRADED from optional
+  because the reason for Monday's downgrade resolved in reverse: FF's
+  unnamed "Texans WR2 is undraftable" segment got a name on 8/25 and it was
+  positive ("could very well be the starter from day one despite the Boutte
+  trade"). Vele/Malik Davis/Ryan Flournoy = skip. Gallamijos Dynasty —
+  **CLAIM Colbie Young (24) $5, drop Mack Hollins (32)**: leads CIN in
+  preseason targets AND yards, officially WR4 pushing Iosivas; skip Darius
+  Slayton (29) and Waller (33) per the dynasty-value rule. Dynasty Mexica
+  and League of Record — no claims (Hutchinson + Barion Brown already
+  landed in DMX; the LoR wire is TE-only and Joe Royer has no path through
+  22yo Harold Fannin).
 - [ ] *(superseded)* **Waiver claims recommended 2026-08-22, CORRECTED for dynasty value
   (user executes in Sleeper)**: DYNASTY TRC — add Hutchinson (26) / drop
   James Conner (31, Q); optional add Vele / drop Jennings (29) or Parkinson
@@ -197,6 +218,34 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   spots. New standing rule in memory (dynasty-value-waivers) + scheduled
   task. Beat note: Malik Davis named DAL RB2 favorite — contradicts Sal's
   Jaydon Blue handcuff take; Blue watch-list only.
+- [ ] **Expert-daily review candidates (2026-08-25 edition)**:
+  (a) **GALLAMIJOS LEAGUE IS NOT A PPFD LEAGUE — fix before Sunday's draft.**
+  `reports/2026/draft/archetype-playbook.md` line 32 labels it "full PPR +
+  PPFD" and line 36 builds the R2-R6 WR plan on first downs double-paying
+  possession volume. Live settings show every `bonus_fd_*` field at 0.0;
+  what it actually has is bonus_rec_yd_100/200 and bonus_rush_yd_100/200.
+  Boards were always computed from live settings so no number is wrong —
+  but the stated reasoning is, and yardage bonuses tilt toward big-play
+  receivers rather than possession slot types. Highest-value open item.
+  (b) **Eli Stowers tripwire now fires on BOTH sources** — Sal repeated the
+  fade on 8/25 with a beat report ("struggling with NFL physicality, may
+  not be active weeks 1-2") while our TE-premium League of Record board
+  still shows +63 / rank 176-186. Two independent expert reads vs our board
+  = the CLAUDE.md review standard. Likely cause: TE-prem bonus applied to a
+  projection assuming a role he doesn't have. User's call.
+  (c) **Keaton Mitchell: `league_winners` flags him in ALL 8 leagues** while
+  FF call availability the disqualifier and the wire confirms a mild
+  setback + two missed practices. Looks like a systematic gap —
+  `league_winners` scores contingent role upside but doesn't consult
+  `risk_index` (which already has him at 30). Decide whether to wire them.
+  (d) Josh Downs is contested BETWEEN sources same-day (Sal targets at ADP
+  89, FF say the Keenan Allen signing hits him hardest) and he missed
+  practice 8/25 — our positive gap is mostly pre-Allen ADP lag, so it's
+  weak evidence either way. Not adjustment-worthy.
+  (e) Rashod Bateman is under NFL personal-conduct investigation (up to a
+  6-game suspension per FF) — that is the real transmission channel behind
+  the Ja'Kobi Lane sleeper call (BAL vac_tgt 27.7%). Single-source with an
+  unresolved league process; flagged, NOT written to player_adjust.json.
 - [ ] **Expert-daily review candidates (2026-08-24 edition)**: (a) ATL/Pitts
   — see the coaching-gap item above, the highest-value open decision;
   (b) Eli Stowers is a **review tripwire** — our TE-premium board has him
