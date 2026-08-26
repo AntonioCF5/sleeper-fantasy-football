@@ -95,6 +95,22 @@
    "state": "RECOMMENDED ACCEPT 2026-08-25 — user evaluating; try Ferguson-for-Helm swap first",
    "lineup_delta": "you 1831.4 -> 1812.7 (-18.7), them 2005.9 -> 1984.8 (-21.1)",
    "why": "Jeanty (22) is the best asset in the deal by a wide margin and the top-12-overall bar the deadline rule requires. Near-zero 2026 cost while getting drastically younger: Jeanty>Monty +28, Flowers displaces Golden in flex +58, offsetting the McBride->Helm TE cliff (-105). Real costs: elite TE out plus the 2027 1st. Ankle is a LOW sprain, 'on the mend' per Kubiak, Week 1 optimism — buy window mostly closed, which is why the price rose from the dead Mahomes+Monty construction. Improvement to ask: Jake Ferguson (159.8) instead of Gunnar Helm (130.3) — ElGeneral would hold McBride+Loveland+Ferguson otherwise, TE overkill; costs him nothing real, shrinks our TE hole ~30 pts. Accept even if refused. Note: handcuff Mike Washington owned by Gallaghers4, no free insurance. DATA FLAG 2026-08-25: Sleeper injury_body_part field says KNEE while all four news items say low-ANKLE sprain — a Sleeper field-entry inconsistency, no knee story exists on the wire. Before hitting accept, re-check the news once: if a genuine KNEE report has appeared, pause and re-evaluate."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "partner": "Gallaghers4",
+   "give": [
+    "Jaylen Waddle"
+   ],
+   "get": [
+    "Bo Nix",
+    "Mike Washington",
+    "MarShawn Lloyd"
+   ],
+   "state": "PROPOSED 2026-08-25 — user requested construction (no QB outgoing); ready to send",
+   "lineup_delta": "you 1831.4 -> 1756.5 (-74.9, rebuild-correct), them 1923.8 -> 1971.2 (+47.4)",
+   "why": "He rosters THREE startable QBs in a 1QB league (Hurts 302, Caleb 289, Nix 284) — Nix literally cannot enter his lineup — AND he is over the roster limit 26/23, so a 1-for-3 sheds two bodies he must cut anyway. Waddle (27) slots in as his WR2 (+47.4, DeVonta/Waddle/Jamo/Sutton). Our side: Nix (26) becomes the rebuild's QB1 — younger AND higher-projecting than Mahomes (283.7 vs 274.7), which unlocks selling Mahomes (alealvarez7 offer) with zero QB risk; Mike Washington (23) is THE Jeanty handcuff — insurance for the incoming crown asset of the ElGeneral4 package; Lloyd (25) is a clean Jacobs handcuff (protected-stash profile). Selling a 27yo WR at peak with McConkey (24), Golden (23), Downs (25) + incoming Flowers (25) behind him. Sweetener if he asks for a body: Aaron Jones (31) or Kamara (31) — NEVER Golden or any young asset. Roster math our side: after tonight's compliance cuts (23/23) this lands us 25/23 -> pair with cuts Kamara (31) + Nailor (27). No conflict with the Jeanty package (no shared pieces, different partner).",
+   "pitch": "Tienes tres QBs titulares y un solo slot — Nix no va a jugar un snap para ti, y estás 3 arriba del límite de roster. Te doy a Waddle, tu WR2 real desde el día uno, y de paso sueltas dos cuerpos que igual ibas a cortar esta semana."
   }
  ]
 }
