@@ -270,21 +270,21 @@ retries up to 25x; FF's feed is flakier than Sal's).
 timed for after that day's FF content posts) — so takes stay fresh even
 between sessions. Each run with new content also writes a **newsletter** the
 user reads directly — their stated in-season source of truth alongside the
-command center: `reports/<season>/expert-daily/YYYY-MM-DD.md`. Reading order:
-Today's Top 3 → News (Sleeper's own wire via `api.get_player_news` — GraphQL,
-rotowire/rotoballer — cross-checked against expert claims, plus trending +
-web) → Injuries (owned players first, status deltas vs the previous
-edition) → **Drop it like it's hot 🔥** (`analysis.recent_drops`: valuable
-players other managers dropped who are still FAs — drops often precede news
-going wide) → per-video summaries → stats & facts the experts cited (stored in
-`expert_takes.json` under `facts`, pruned like takes; contradictions vs our
-data are flagged inline) → takes cross-checked against **all 8 league boards**
-(rank/VORP/ADP value gap/risk/usage, AGREE/DISAGREE/NEW-INFO verdicts) —
-never one representative league: the same take is a steal in superflex and a
-trap in 1QB, so split into "verdict FLIPS by format" (naming the driver —
-superflex/TE-prem/PPFD/IDP/league size) and "holds across all 8" (value
-range) → methodology → portfolio impact → "for your review" (never acted on
-unattended). Everywhere a player the user owns appears, the name is bolded
+command center: `reports/<season>/expert-daily/YYYY-MM-DD.md`.
+**SHORT by mandate (2026-08-25): ≤ ~1,200 words / ~8KB — a 3-4 minute
+read.** The analysis runs in full (news wire via `api.get_player_news`,
+coaching watch, injury second-order impact, drops via
+`analysis.recent_drops`, takes scored vs all 8 boards with mechanism
+audit); what shrinks is what gets printed: the page states calls and
+DELTAS one line each, and the full reasoning lives in the data files
+(waiver_claims.json whys = dashboard tooltips, takes/facts in
+expert_takes.json = 📺 flags on boards). Reading order: Today's Top 3 →
+News (≤5 one-liners, coaching watch inline) → Injuries (deltas only;
+unchanged tags in one names-only line) → Moves 🔥 (one ruling per line) →
+Trades 📬 (status lines; prose only for new offers) → Experts (one line
+per video + only the ACTIONABLE takes with a compressed all-8 verdict;
+the rest filed silently) → for your review (only when non-empty).
+Everywhere a player the user owns appears, the name is bolded
 with the owning league(s); player names hyperlink to the Sleeper web app
 (sleeper.com/nfl/players/<pid> — the reversed order 404s). League names are
 NEVER linked: Sleeper redirects /leagues/ URLs on mobile browsers to the App
