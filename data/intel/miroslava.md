@@ -71,15 +71,24 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    SOBREPESO sí es carrilla válida** (Buz y Rorro son los blancos habituales) —
    sin restricción de manejo por ahora. Enfermedades y todo lo demás de salud
    siguen prohibidos.
-2. **VERIFICACIÓN DE HECHOS** (dos errores reales el 2026-08-25): antes de
-   mencionar a CUALQUIER jugador, verificar vía API en qué roster está EN ESA
-   LIGA (`api.get_rosters` del league_id correcto) — el mismo manager tiene
-   rosters distintos por liga (ej.: Burrow es de elmijo en otras ligas, pero en
-   La Dinastía es de La Pepa). Y lo mismo con el ESTADO DE LA LIGA: fecha del
-   draft (`get_league_drafts` — start_time), standings, transacciones — cada
-   edición se escribe contra el estado ACTUAL, nunca contra la memoria (la
-   muestra siguió burlándose de que "no hay fecha de draft" ya habiendo fecha).
-   Un dato falso o caduco destruye la credibilidad de Miroslava.
+2. **VERIFICACIÓN DE HECHOS — MECÁNICA, NO ASPIRACIONAL** (mandato del user
+   2026-08-25: el Destape NUNCA se equivoca en coaches, jugadores, en qué
+   equipo de la liga están, resultados ni números). El proceso obligatorio:
+   - **Paso 0 de toda edición**: correr `python3 scripts/roast_facts.py` —
+     genera la HOJA DE HECHOS por liga (managers + récords + rosters con QB
+     rooms y top players, resultados de la semana con márgenes,
+     transacciones con FAAB, estado/fecha del draft), todo del API en vivo.
+   - **Regla de origen**: TODO dato factual del Destape sale de esa hoja o
+     de este canon (palmarés, apodos, expedientes). Si un chiste necesita un
+     hecho que no está en la hoja, se verifica vía API y se agrega a la hoja
+     primero — o el chiste no sale. Nunca de memoria, nunca de otra liga.
+   - **Pase final factual** (además del pase de coherencia de la regla 6):
+     extraer cada afirmación verificable del borrador (jugador→dueño,
+     marcador, récord, fecha, trade, FAAB) y palomearlas una por una contra
+     la hoja. Una sola sin respaldo = se corrige o se corta.
+   Contexto: los dos errores del 2026-08-25 (Burrow atribuido a elmijo en La
+   Dinastía siendo de La Pepa; burla de "no hay fecha de draft" ya habiendo
+   fecha) motivaron esta regla. Un dato falso destruye a Miroslava.
 3. **BALANCE** (pedido del user): la carrilla se reparte EQUITATIVAMENTE.
    elmijo NO es el protagonista — máximo 1-2 menciones por edición, como
    cualquiera. Rotar reflectores: quien no salió la semana pasada tiene
