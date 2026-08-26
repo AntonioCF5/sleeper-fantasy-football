@@ -54,7 +54,7 @@ def league_format_notes(league: dict) -> list[str]:
         notes.append("6pt passing TDs — QBs score closer to elite RB/WR range")
     if slots.count("SUPER_FLEX") or slots.count("QB") >= 2:
         notes.append("Superflex/2QB — QBs are the scarcest asset; draft 2 early, 3 total")
-    if any(k in s for k in ("rush_fd", "rec_fd", "pass_fd")):
+    if any(s.get(k, 0) for k in ("rush_fd", "rec_fd", "pass_fd")):
         notes.append("Points per first down — volume/possession receivers gain value")
     flex_n = sum(slots.count(f) for f in ("FLEX", "WRRB_FLEX", "REC_FLEX"))
     if flex_n >= 2:

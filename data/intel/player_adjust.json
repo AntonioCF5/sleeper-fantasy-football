@@ -1,92 +1,97 @@
 {
  "12545": {
   "mult": 1.03,
-  "flag": "\ud83d\udcc8",
-  "note": "Shough: Kellen Moore scheme + rebuilt receiving corps; committed starter, finished 2025 hot (5-4, 67.6%). Projections lag the coaching thesis; market calls him a sleeper QB1 candidate. UPDATE Aug 22: trimmed +6%\u2192+3% \u2014 Jordyn Tyson (WR1) re-aggravated hamstring, out ~2 months (expert layer, both sources)."
+  "flag": "📈",
+  "note": "Shough: Kellen Moore scheme + rebuilt receiving corps; committed starter, finished 2025 hot (5-4, 67.6%). Projections lag the coaching thesis; market calls him a sleeper QB1 candidate. UPDATE Aug 22: trimmed +6%→+3% — Jordyn Tyson (WR1) re-aggravated hamstring, out ~2 months (expert layer, both sources)."
  },
  "11635": {
   "mult": 1.05,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Ladd McConkey: McDaniel scheme riser: separation/YAC WR in motion-heavy system"
  },
  "6797": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
-  "note": "Justin Herbert: McDaniel hire \u2014 QB1 buzz, best-transaction-of-offseason consensus"
+  "flag": "📈",
+  "note": "Justin Herbert: McDaniel hire — QB1 buzz, best-transaction-of-offseason consensus"
  },
  "9997": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Zay Flowers: Doyle motion/manufactured-touch system riser"
  },
  "5012": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Mark Andrews: Inherits TE role vacated by Likely under new OC"
  },
  "12522": {
   "mult": 1.05,
-  "flag": "\ud83d\udcc8",
-  "note": "Cam Ward: Daboll proven QB developer \u2014 year-2 leap thesis"
+  "flag": "📈",
+  "note": "Cam Ward: Daboll proven QB developer — year-2 leap thesis"
  },
  "12514": {
   "mult": 1.05,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Emeka Egbuka: Zac Robinson scheme: lead-role trajectory, WR9-PPG path"
  },
  "4037": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Chris Godwin: Absorbs departed Evans target share in new scheme"
  },
  "7525": {
   "mult": 1.03,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "DeVonta Smith: Uncontested target share under new play-caller"
  },
  "12533": {
   "mult": 1.06,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Jacory Croskey-Merritt: Expert layer (both sources) + our vacated data: Ekeler gone, WAS 52.3% vacated targets, team grooming him as three-down back; ADP RB37."
  },
  "12501": {
   "mult": 1.05,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Matthew Golden: Expert layer (both): confirmed starting X in 2-WR sets in preseason, ahead of Reed; 37.4% of GB targets vacated."
  },
  "8151": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Kenneth Walker: Expert layer (both): KC backfield emptied (Pacheco/Hunt gone), $45M guaranteed, new pass-catching role in Reid offense."
  },
  "8167": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Christian Watson: Expert layer (both): healthy off ACL (top-12 ppg when healthy), 37.4% GB targets vacated, $110M extension."
  },
  "11620": {
   "mult": 1.04,
-  "flag": "\ud83d\udcc8",
+  "flag": "📈",
   "note": "Rome Odunze: Expert layer (both): DJ Moore gone, confirmed first read for Caleb Williams; ~20 ppg pre-injury stretch last year."
  },
  "8155": {
   "mult": 1.03,
-  "flag": "\ud83d\udcc8",
-  "note": "Breece Hall: Expert layer (both): 91% of starter snaps in preseason \u2014 lone true round-3 workhorse; monitor 2-3wk groin."
+  "flag": "📈",
+  "note": "Breece Hall: Expert layer (both): 91% of starter snaps in preseason — lone true round-3 workhorse; monitor 2-3wk groin."
  },
  "12493": {
   "mult": 0.94,
-  "flag": "\ud83d\udcc9",
+  "flag": "📉",
   "note": "Oronde Gadsden: Expert layer (FF): no first-team work all camp, 27 preseason snaps with backups while Kolar/Njoku rested."
  },
  "7594": {
   "mult": 0.95,
-  "flag": "\ud83d\udcc9",
+  "flag": "📉",
   "note": "Chuba Hubbard: Expert layer (both): losing work to Brooks, zero 15+yd runs last year, hamstring injury."
  },
  "8142": {
   "mult": 0.95,
-  "flag": "\ud83d\udcc9",
+  "flag": "📉",
   "note": "Alec Pierce: Expert layer (both): ankle surgery, no return timeline (likely PUP), Keenan Allen signed; TD burst came without Daniel Jones."
+ },
+ "7553": {
+  "mult": 1.08,
+  "flag": "coach_up",
+  "note": "2026-08-25 Stefanski-ATL thesis: new HC fed TEs 26%+ team target share in each of his last six HC seasons (32% in 2025). Coaching-layer standard (documented role info), NOT consensus-matching. Capped at +8% (not +15) because the ATL QB competition (Tua vs Penix) is unresolved."
  }
 }

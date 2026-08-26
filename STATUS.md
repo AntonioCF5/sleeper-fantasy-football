@@ -27,10 +27,11 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 ## Key decisions & standing rules (chronological)
 
-1. **FANTASY MEXICA scoring override**: league shows `idp_tkl_ast: 5.0` on
-   Sleeper — commissioner typo, real value 0.5. Corrected via
-   `scoring_overrides` in `config.json`; all analysis uses
-   `reports.get_league_corrected()`. If Sleeper gets fixed, remove override.
+1. **FANTASY MEXICA scoring override**: RESOLVED 2026-08-25 — Sleeper now
+   returns `idp_tkl_ast: 0.5` natively (commissioner fixed the 5.0 typo);
+   the config.json override was removed per this rule. The 5-pt-assist IDP
+   edge no longer exists; the IDP board exclusion stands on its own merits.
+   `get_league_corrected()` remains the read path (no-op without overrides).
 2. **Shough keeper locked** (user confirmed unchangeable) — R10 pick #171.
 3. **Ranking rules R1-R15 agreed with user** (see conversation-derived rules
    in CLAUDE.md): projections re-scored per league, VORP via league-wide
@@ -164,16 +165,19 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   dashboard with the user ~10 min before.
 - [ ] **Guillotine MX & TRC**: commissioner hasn't randomized draft order —
   recs/round-plan appear automatically once slot is known.
-- [ ] **ATL COACHING GAP — now urgent (2026-08-24)**: `team_env.json` has ATL
-  with `hc: null` and Tommy Rees at OC. **Kevin Stefanski has been Atlanta's
-  head coach since 2026-01-17** (web-verified). His offenses fed the TE
-  26%+ of team targets in each of his last six years as HC (32% in 2025) —
-  that is the entire FF Kyle Pitts thesis, and our board is neutral on Pitts
-  because it doesn't know. Fix `team_env.json` and decide the Pitts
-  adjustment LIVE (real-world role info, meets the player_adjust standard,
-  but the daily task is fenced from making it). SEA (Fleury) still open too.
-- [ ] **FANTASY MEXICA**: remind commissioner to fix assist scoring to 0.5
-  before week 1. If league will play at 5.0, IDP strategy inverts (ask user).
+- [x] **COACHING DATA — VERIFIED ALL 32 (2026-08-25)**: 4-agent web sweep vs
+  team sites/ESPN/NFL.com confirmed every HC/OC in `team_env.json`; added a
+  `play_caller` field for all 32 (13 offenses where the caller ≠ OC — key
+  scheme reads on the caller, not the OC résumé). ATL HC filled (Stefanski;
+  Rees calls plays) and **Pitts +8% written to player_adjust.json** on the
+  Stefanski TE-usage thesis (26%+ six straight years, 32% in '25; capped
+  below +15 for the Tua/Penix QB mess). ARI HC filled (Mike LaFleur, who
+  CALLS the plays — the old Hackett-fade mechanism was void and is
+  rewritten). SEA resolved: Fleury confirmed OC + first-time caller,
+  Kubiak-scheme continuity with execution risk. Only unverified play-callers:
+  BAL (Doyle presumed), NYG (Nagy presumed) — recheck week 1.
+- [x] **FANTASY MEXICA assist scoring**: RESOLVED — Sleeper now returns 0.5
+  natively; config.json override removed (see standing rule 1).
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers
   Mon/Tue, lineup calls, trending adds. Candidate feature: lineup/start-sit
   view in the dashboard (user deferred until closer to week 1).

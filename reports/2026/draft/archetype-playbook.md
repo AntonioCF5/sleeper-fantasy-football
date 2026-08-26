@@ -29,12 +29,18 @@ waiver wire cannot fix mistakes after week 1.
 
 ## League assignments
 
-### Gallamijos League — 18t, full PPR + PPFD, 4-pt pass TD, IDP · slot 2
-**Default branch: HERO RB → WR FLOOD → LATE-ROUND QB**
+### Gallamijos League — 18t, full PPR + yardage bonuses, 4-pt pass TD, IDP · slot 2
+*(CORRECTED 2026-08-25: earlier version claimed PPFD — every first-down field
+in this league scores 0.0. Real quirk: +1 at 100 rush/rec yds, +2 at 200,
++1/+2 at 300/400 pass yds — a CEILING tilt, not a possession-floor tilt.)*
+**Default branch: HERO RB → WR FLOOD → LATE-ROUND QB** (branch unchanged —
+it stood on full-PPR volume + deep WR middle, not on PPFD)
 - R1 (#2): Gibbs or Bijan — a true single-player-tier anchor. This is the
   textbook Hero RB league: full PPR + deep WR middle + flat QB tier.
-- R2–R6: WRs (PPFD double-pays possession volume: Collins, St. Brown types),
-  one RB from T3/T4 when a tier is dying, TE only on the trigger below.
+- R2–R6: WRs — full PPR pays targets, and the 100-yd bonus nudges toward
+  high-yardage X receivers over pure short-target compilers when a tie
+  needs breaking. One RB from T3/T4 when a tier is dying, TE only on the
+  trigger below.
 - QB: **wait until R8–10** — 4-pt pass TDs + flat tier = classic late QB.
   Emergency trigger below protects the floor.
 - IDP R10+, K/DEF last two rounds, final 3 picks = league-winner stashes.
