@@ -281,9 +281,10 @@ DELTAS one line each, and the full reasoning lives in the data files
 expert_takes.json = 📺 flags on boards). Reading order: Today's Top 3 →
 News (≤5 one-liners, coaching watch inline) → Injuries (deltas only;
 unchanged tags in one names-only line) → Moves 🔥 (one ruling per line) →
-Trades 📬 (status lines; prose only for new offers) → Experts (one line
-per video + only the ACTIONABLE takes with a compressed all-8 verdict;
-the rest filed silently) → for your review (only when non-empty).
+Trades 📬 (status lines; prose only for new offers) → Experts (2-sentence
+summary per video + the ACTIONABLE takes with a compressed all-8 verdict +
+a names-only digest of the whole haul by direction, owned players bolded)
+→ for your review (only when non-empty).
 Everywhere a player the user owns appears, the name is bolded
 with the owning league(s); player names hyperlink to the Sleeper web app
 (sleeper.com/nfl/players/<pid> — the reversed order 404s). League names are
