@@ -74,7 +74,7 @@
     "2027 2nd (open at his 1st, floor a 3rd)"
    ],
    "fallback": "Jalen Coker (24) instead of Tuten, or Coker + a 2027 2nd. Both cost him nothing in lineup terms.",
-   "state": "UPGRADED 2026-08-25 (user construction) — GATED: send ONLY after the Gallaghers4 Caleb trade closes (QB room = Tua alone otherwise)",
+   "state": "REJECTED by him 2026-08-25 — dead as constructed, do NOT resend. His TE emergency (Likely only TE) persists; revisit only if HE reopens or after the Mahomes chip resolves elsewhere.",
    "lineup_delta": "you (post-consolidation baseline 1776.4) -> 1790.1 (+13.7 — Tuten 174.8 is JAX's STARTING RB1, replaces Dowdle as RB2), them 2155.4 -> 2146.5 (-8.9)",
    "why": "Upgraded from the straight Mahomes-for-Tuten: adding Otton extracts a pick because it hits his second emergency — Isaiah Likely (26, FF fade) is his ONLY rostered TE. He receives his two exact holes (QB2 behind the Daniels 200-pt cliff — Watson/Mariota behind him; TE2 behind his only TE) for a 23yo RB who never cracks his Bijan/CMC/Henry lineup plus a late contender pick. He holds all his own 2027 picks (none traded league-wide). Otton over Theo Johnson: identical lineup math, but Otton (27, 122) actually fixes his TE room and earns the bigger pick; asset rule agrees (vet out, 25yo stays). 2-for-2 keeps both sides at 23/23. Our TE room after: Helm + Theo — thin, rebuild-par, fixable with remaining vet sales (Jones, Dowdle).",
    "pitch": "Tienes UN tight end en todo el roster y a Watson de QB2 con Bijan y CMC en modo campeonato. Te cubro los dos huecos por un RB que no entra a tu lineup y un pick que va a ser el 12 de la ronda."
@@ -109,7 +109,7 @@
     "Caleb Williams",
     "Mike Washington"
    ],
-   "state": "ACCEPT 2026-08-25 — the Caleb+Washington-for-Waddle+Kamara variant is the best on the table",
+   "state": "EXECUTED 2026-08-25 ✅ — Caleb + Mike Washington acquired for Waddle + Kamara (verified on rosters via API). Caleb (24, 289) is the new QB1; Washington = Jeanty insurance in hand.",
    "lineup_delta": "you 1831.4 -> 1762.1 (-69.3, rebuild-correct; Caleb 289 = new QB1 over Mahomes 275), them +47.4 (Waddle in, Kamara doesn't crack his lineup)",
    "why": "Best variant: Kamara (31) was already tonight's designated compliance cut — this converts a free cut into a trade piece, and the second asset back is Mike Washington (23), the DIRECT Jeanty handcuff = insurance for the incoming crown asset of the ElGeneral4 package, two years younger than Lloyd. Caleb (24, 289.3, dynasty ADP 51) enters as the rebuild's QB1 immediately and fully unlocks the Mahomes sale. 2-for-2 leaves the roster exactly 23/23 legal post-compliance, no extra cut. Preference order if renegotiated: (1) Caleb+Lloyd+Washington for Waddle, (2) THIS ONE, (3) Caleb+Lloyd for Waddle — all three are wins, close same night.",
    "pitch": "Hecho. Caleb y Washington por Waddle y Kamara — mándala y cerramos."
@@ -123,7 +123,7 @@
    "get": [
     "Quinshon Judkins (accept Skattebo counter too)"
    ],
-   "state": "PROPOSED 2026-08-25 — PRIORITY market for the Mahomes chip; 24-48h fuse, then pivot to the alealvarez7 Tuten offer. GATED: only after the Gallaghers4 Caleb trade closes. MUTUALLY EXCLUSIVE with the alealvarez7 offer (one Mahomes).",
+   "state": "ACTIVE — SEND NOW 2026-08-25: gate lifted (Caleb trade executed) and the alealvarez7 fallback died, so this is the ONLY live Mahomes market. Mahomes for Judkins; accept a Skattebo counter; sweeteners vets only; 24-48h fuse. If it dies too, hold Mahomes — with Caleb as QB1 he is pure trade inventory, no rush to dump at a discount.",
    "lineup_delta": "you (post-consolidation 1776.4) -> 1811.3 (+34.9) with Judkins / 1816.5 (+40.1) with Skattebo; him ~0 either way (RB surplus never starts, Mahomes doesn't beat Lawrence)",
    "why": "Better return than Tuten+pick for the same chip: Judkins (22, CLE starting RB1, dynasty ADP 41) ~= Tuten (ADP 68) + a real 2nd, consolidated into one player two years younger — and this version keeps Otton (TE room stays Helm+Otton+Theo). Jro91 has FIVE startable RBs (Cook 261, Swift 208, Skattebo 201, Judkins 196, Monangai 155) for two slots — Judkins is pure surplus he cannot start. His incentive is the weak point: Lawrence 291 is his QB1, so Mahomes is a luxury QB2 over Darnold (29) for a #6 contender — hence the short fuse and the motivated-buyer fallback. If Jeanty also lands: Jeanty (22) + Judkins (22) backfield, both starting RB1s. Skattebo counter (24, ADP 45, +40.1) is also a clean accept.",
    "pitch": "Tienes cinco RBs para dos slots y a Darnold de respaldo en plena ventana de campeonato. Judkins no va a jugar un snap para ti; Mahomes te asegura la temporada si Lawrence truena."
