@@ -34,8 +34,11 @@ def _fetch(url: str, ttl: int):
     key = hashlib.sha1(url.encode()).hexdigest()
     path = CACHE_DIR / f"{key}.json.gz"
     if ttl and path.exists() and time.time() - path.stat().st_mtime < ttl:
-        with gzip.open(path, "rt") as f:
-            return json.load(f)
+        try:
+            with gzip.open(path, "rt") as f:
+                return json.load(f)
+        except (OSError, EOFError, json.JSONDecodeError):
+            path.unlink(missing_ok=True)  # corrupt cache (interrupted write) → refetch
     req = urllib.request.Request(url, headers={"User-Agent": "sleeper-ff-toolkit"})
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
@@ -151,17 +154,27 @@ def get_player_news(player_ids, limit_per_player: int = 3, ttl: int = HOUR):
         key = hashlib.sha1((url + query).encode()).hexdigest()
         path = CACHE_DIR / f"{key}.json.gz"
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        data = None
         if ttl and path.exists() and time.time() - path.stat().st_mtime < ttl:
-            with gzip.open(path, "rt") as f:
-                data = json.load(f)
-        else:
+            try:
+                with gzip.open(path, "rt") as f:
+                    data = json.load(f)
+            except (OSError, EOFError, json.JSONDecodeError):
+                path.unlink(missing_ok=True)
+        if data is None:
             body = json.dumps({"query": query}).encode()
             req = urllib.request.Request(
                 url, data=body,
                 headers={"User-Agent": "sleeper-ff-toolkit",
                          "Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = json.load(resp)
+            try:
+                with urllib.request.urlopen(req, timeout=60) as resp:
+                    data = json.load(resp)
+            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+                continue  # news is best-effort — degrade to "no news", never crash
+            # A GraphQL error payload must not be cached as "no news" for an hour.
+            if data.get("errors"):
+                continue
             with gzip.open(path, "wt") as f:
                 json.dump(data, f)
         for pid in batch:
