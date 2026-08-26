@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25",
+ "updated": "2026-08-25 (roster-compliance audit — user caught overages)",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip.",
  "claims": [
   {
@@ -7,17 +7,16 @@
    "player": "Barion Brown",
    "verdict": "claim",
    "bid": 9,
-   "drop": null,
-   "why": "CORRECTED 2026-08-25 (user caught a false league fact): DYNASTY TRC HAS 4 IR slots (reserve_slots=4, allows OUT/SUS/IR) and all 4 are empty. Benson carries the IR designation — move him to an IR slot instead of dropping: frees the bench spot for free and keeps a 24-year-old RB asset, exactly what the dynasty rule prescribes. Claim Barion Brown ($9) into the freed spot. Brown (22) is the Saints' WR3-and-climbing behind Olave while Jordyn Tyson is out; rested with the STARTERS in the preseason finale. You already made this add in Dynasty Mexica.",
-   "ir_move": "Trey Benson"
+   "drop": "Brian Robinson",
+   "why": "REPAIRED 2026-08-25: roster was OVER 30/25 — five compliance cuts tonight (see roster_compliance), Benson to IR already done by user. At the legal 25, Wednesday claims still need pairs: Brown ($9) pairs with Brian Robinson (27, ATL committee, low path). Brown (22) is the Saints WR3-and-climbing; you already made this add in Dynasty Mexica."
   },
   {
    "league_id": "1315407698006646784",
    "player": "Xavier Hutchinson",
    "verdict": "claim",
    "bid": 13,
-   "drop": "James Conner",
-   "why": "UPGRADED from optional/$11. Monday's downgrade rested on one unresolved item — FF had run a 'Texans WR2 is undraftable' segment without naming the player, on the day Houston traded for Kayshon Boutte. Today they named him: Hutchinson 'could very well be the starter from day one in Houston despite the Boutte trade.' The reason for the downgrade resolved in the opposite direction, so the price goes back up (not all the way to the original $21 — Boutte still takes snaps). He is 26, not aging out, and ran a 56.6% snap share last year. Drop is Conner: 31, foot, risk index 50, rank 336 on this board."
+   "drop": "MarShawn Lloyd",
+   "why": "REPAIRED 2026-08-25: Conner became a tonight compliance cut, so the claim pairs with MarShawn Lloyd (25, GB RB4, stalled yr-3 profile — second bucket of the dynasty drop order). Hutchinson $13: FF named him the day-one Texans starter despite the Boutte trade."
   },
   {
    "league_id": "1315407698006646784",
@@ -35,15 +34,15 @@
    "league_id": "1315407698006646784",
    "player": "Malik Davis",
    "verdict": "skip",
-   "why": "27-year-old journeyman handcuff of a back you don't own — veteran points-chasing the dynasty rule exists to prevent, however loud the trending (127k adds, #1 in fantasy). Sal also flags the DAL RB2 job as a three-way battle."
+   "why": "Skip HERE stands — you do not own Javonte Williams in this league and a 27-year-old pure handcuff to a rival RB is not a dynasty asset. CORRECTED CONTEXT 2026-08-25 (user caught the shallow dismissal): Davis is trending 128k because he is emerging as the Dallas RB2 — the direct handcuff to YOUR Javonte Williams in League of Record, where he is owned by ExpiredBagels. Rulings must state the mechanism and cross-check handcuffs against owned players."
   },
   {
    "league_id": "1388097370255794176",
    "player": "Colbie Young",
    "verdict": "claim",
    "bid": 5,
-   "drop": "Mack Hollins",
-   "why": "NEW 2026-08-25. Rebuild-correct stash: 24-year-old CIN rookie fourth-rounder who leads the Bengals in preseason targets AND yards through two games, with a TD Saturday, and is officially WR4 pushing Andrei Iosivas (26, whom you already roster) for the WR3 job behind Chase and Higgins. He projects ~nothing in 2026 — that is the point; this is a bench spot converted from a 32-year-old into a 24-year-old with a documented usage story. Funded by Mack Hollins: 32, risk index 30, past the WR decline curve, no trade market. Exactly the drop order the dynasty rule prescribes (aging vets first)."
+   "drop": "Evan Engram",
+   "why": "REPAIRED 2026-08-25: Hollins is now a tonight compliance cut (roster over 27/23), so the Wednesday claim pairs with Evan Engram (31, TE3, no market) instead. Young (24, CIN) leads Cincinnati in preseason targets/yards, official WR4 pushing Iosivas. $5 wins it."
   },
   {
    "league_id": "1388097370255794176",
@@ -80,6 +79,44 @@
    "player": "Jack Strand",
    "verdict": "skip",
    "why": "The 51k-add spike is an ATL camp-reps story on a QB who projects zero. Ignore — and note Tua is now reportedly making the job 'impossible' for Penix to win, which is not a Strand story either."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "player": "Malik Davis",
+   "verdict": "watch",
+   "bid": null,
+   "drop": null,
+   "why": "WATCH 2026-08-25: Davis is the direct handcuff to your Javonte Williams (DAL depth 1->2) and is OWNED by ExpiredBagels — your RB1-insurance lives on a rival roster. If Javonte consolidates the backfield, Bagels holds leverage; a cheap trade for Davis (he has spent all $100 FAAB and may value picks) is the pre-emptive move. Roster is 28/28 — any acquisition needs a drop."
   }
- ]
+ ],
+ "roster_compliance": {
+  "1388097370255794176": {
+   "status": "OVER LIMIT: active 27/23, taxi 8/6 — cuts required before waivers can process",
+   "cut_now_active": [
+    "Jacob Cowing",
+    "Cedric Tillman",
+    "CAR DEF",
+    "Mack Hollins"
+   ],
+   "cut_now_taxi": [
+    "Tai Felton",
+    "Kaelon Black"
+   ],
+   "why": "Asset-ranked per the dynasty drop rules: Cowing (25, 1.7 proj) and Tillman (26, 6.6) are dead assets; CAR DEF is a second defense in a 12-team streaming league (zero asset value, re-streamable any week); Hollins is 32 with no market. Taxi: Felton (buried MIN WR5, 29 proj) and Black (SF RB depth, 42) are the two weakest of eight stashes — Bond/Bryant/Coleman/Allen/Benson/Howard all rank ahead on age+path. No IR relief available: league accepts OUT/SUS only and every injured active is merely Questionable."
+  },
+  "1315407698006646784": {
+   "status": "OVER LIMIT: active 30/25 — 5 cuts required before waivers can process (Benson already moved to IR)",
+   "cut_now_active": [
+    "Jacoby Brissett",
+    "James Conner",
+    "Colby Parkinson",
+    "GB DEF",
+    "Calvin Ridley"
+   ],
+   "why": "Brissett is a 33-year-old FIFTH QB in a 1QB league (Burrow untouchable, Maye 23, Young 25, Goff is the Odunze trade chip); Conner is 31/foot and was already the designated Hutchinson drop; Parkinson is a 27-year-old TE3 behind Kraft and Kelce; GB DEF is a second defense in a 10-team streaming league; Ridley is 31 with fading market — the aging-vets-first rule takes him before 25-year-old Lloyd or 23-year-old Kaleb Johnson (young stashes, never cut)."
+  },
+  "1314652488325922816": {
+   "status": "LEGAL but full: active 28/28, taxi 8/8, zero open spots — any future claim must name a drop; IR here accepts COVID only, so no relief that way."
+  }
+ }
 }

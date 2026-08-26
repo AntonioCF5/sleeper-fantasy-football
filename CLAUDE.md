@@ -134,6 +134,16 @@ When the user asks for "this week's report/analysis" or similar:
   Odd-number bids always.
 - Always check the user's weakest bench spot (report includes it) — churn
   aggressively; bench spots 4+ are lottery tickets, not keepsakes.
+- **Verify before asserting (user mandate 2026-08-25)**: league-structure
+  facts (IR/taxi slots, roster caps, FAAB type) are READ from league
+  settings in the same session, never stated from memory — a false "no IR
+  slots" claim ordered a wrongful rookie drop. Before any add/claim/trade
+  proposal, audit the roster limits (active/taxi/IR occupancy vs caps):
+  over-limit rosters can't process waivers, so cuts lead; at-limit rosters
+  pair every add with a named drop. Before dismissing a trending player,
+  resolve WHY he trends and cross-check handcuff relationships against the
+  user's players in all 8 leagues (a rival owning the handcuff to the
+  user's RB1 is a watch/trade note, not a "skip").
 - **Dynasty leagues invert the churn rule**: drops rank by ASSET value, not
   season projection — aging vets with no trade market first, stalled yr-3+
   players second, young stashes with any path never. Never cut a rookie to
