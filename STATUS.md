@@ -16,8 +16,8 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 | League | Format | Status | Strategy |
 |---|---|---|---|
-| FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **pre_draft, slot 10** | Hero RB + early QB (Lamar @27). Keeper: Tyler Shough @R10 (locked, poor value, +6% Kellen Moore thesis applied). Full plan: `reports/2026/draft/fantasy-mexica-draft-plan.md` |
-| Gallamijos League | 18t, full PPR + PPFD, IDP | **DRAFT: dom 30 ago 12pm, slot 2/18, snake 17R** | Hero RB → WR flood → late-round QB. Picks: 2, 35/38, 71/74, 107/110, 143/146, 179/182, 215/218, 251/254, 287/290 (pares por la vuelta del snake). Tarea `draft-morning-gallamijos` corre 8:30am ese día (checklist completo + plan file) |
+| FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **pre_draft, slot 10** | Hero RB + early QB (Lamar @27). Keeper: Tyler Shough @R10 (locked, poor value; Kellen Moore thesis currently +3% tras el recorte por la lesión de Tyson). Full plan: `reports/2026/draft/fantasy-mexica-draft-plan.md` |
+| Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **DRAFT: dom 30 ago 12pm, slot 2/18, snake 17R** | Hero RB → WR flood → late-round QB. Picks: 2, 35/38, 71/74, 107/110, 143/146, 179/182, 215/218, 251/254, 287/290 (pares por la vuelta del snake). Tarea `draft-morning-gallamijos` corre 8:30am ese día (checklist completo + plan file) |
 | 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
 | 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
 | Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Burrow UNTRADEABLE (Bengals fan) — he's Maye insurance; TE surplus (LaPorta) is the RB2 trade capital |
@@ -66,6 +66,30 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 ## Tooling state (all working, audited across all 8 leagues)
 
+**Full-system audit 2026-08-25 (4 parallel agents: library code, scripts/
+dashboard, data-vs-API facts, doc consistency) — all findings fixed same
+night**: optimal_lineup is now EXACT (DP assignment; greedy mis-slotted
+dual-eligible players) and weekly reports exclude taxi/IR from lineups and
+bench math; draft reports run the same risk pipeline as the dashboard
+(`analysis.apply_standard_risk` — one pipeline, coherent ranks); power
+rankings align all-play strictly by week; ADP-999 sentinel filtered;
+send_newsletter rejects unknown flags (a bare `--help` used to SEND the
+email); dashboard waiver rulings now ALWAYS render (injected when auto
+signals miss them, name-matching normalized) and league-switch races can't
+poison caches or paint stale boards; live_draft honors draft type
+(linear/reversal_round) and attributes picks by picked_by; roast_facts
+falls back to the last played week and prints Spanish dates; expert_watch
+--mark refuses unfetched ids. Data fixes: Gainwell take re-teamed PIT→TB,
+Waddle take re-teamed MIA→DEN (its Nix caveat was itself the stale part),
+80 takes got player_ids and 30 got dates backfilled, two moot skip-rulings
+removed (Strand, Davis-DMX both since claimed), team_env now carries
+hc+oc+play_caller for ALL 32 teams. KNOWN LIMITATION (accepted): the live
+draft pick SCHEDULE ignores traded future picks (attribution is correct);
+revisit before the 2027 rookie drafts. Jeanty data flag: Sleeper's
+injury field says Knee while its own news wire says low-ankle — offer file
+tells the user to re-check news once before accepting.
+
+
 - **Command center** (`scripts/draft_dashboard.py`, port 8787): Draft Room
   (3-column desktop app-shell, mobile segmented tabs), Rankings
   (search/sort/filter, ownership, tier-break lines, risk column), My Team
@@ -101,7 +125,7 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   days before the Higgins ACL news made him the #1 add in fantasy).
 - **Intel layer** (`sleeper/intel.py` + `data/intel/*.json`): 32-team Vegas
   win totals, offense tiers, venue/cold-Dec flags, full 2026 coaching map
-  (21 new OCs), 9 documented player adjustments.
+  (21 new OCs), 19 documented player adjustments.
 - **Reports** (`reports/2026/draft/`): VORP boards per league,
   MEXICA draft plan + keeper analysis, archetype playbook.
 
@@ -195,22 +219,23 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims — CURRENT SET 2026-08-25** (source of truth:
-  `data/intel/waiver_claims.json`; dashboard Moves tab overlays it):
-  DYNASTY TRC — **CLAIM Barion Brown (22) $9, drop Trey Benson** (now
-  settled: cleared waivers, all 31 teams passed, season-ending IR, and this
-  league has no IR slots so he is a dead bench spot); **CLAIM Xavier
-  Hutchinson (26) $13, drop James Conner (31)** — UPGRADED from optional
-  because the reason for Monday's downgrade resolved in reverse: FF's
-  unnamed "Texans WR2 is undraftable" segment got a name on 8/25 and it was
-  positive ("could very well be the starter from day one despite the Boutte
-  trade"). Vele/Malik Davis/Ryan Flournoy = skip. Gallamijos Dynasty —
-  **CLAIM Colbie Young (24) $5, drop Mack Hollins (32)**: leads CIN in
-  preseason targets AND yards, officially WR4 pushing Iosivas; skip Darius
-  Slayton (29) and Waller (33) per the dynasty-value rule. Dynasty Mexica
-  and League of Record — no claims (Hutchinson + Barion Brown already
-  landed in DMX; the LoR wire is TE-only and Joe Royer has no path through
-  22yo Harold Fannin).
+- [ ] **Waiver claims — CURRENT SET 2026-08-25 (corrected by the
+  roster-compliance audit; `data/intel/waiver_claims.json` is the source of
+  truth and ALWAYS wins over this summary)**: FIRST the compliance cuts —
+  rosters were over limit and waivers can't process until legal. DYNASTY
+  TRC (was 30/25): cut Brissett, Conner, Parkinson, GB DEF, Ridley; Benson
+  moved to IR by the user (the league HAS 4 IR slots — an earlier version
+  falsely said none and ordered dropping him; corrected). Gallamijos
+  Dynasty (was 27/23 + taxi 8/6): cut Cowing, Tillman, CAR DEF, Hollins;
+  taxi-cut Felton + Black. THEN the Wednesday claims: TRC — **Barion Brown
+  (22) $9, drop Brian Robinson**; **Xavier Hutchinson (26) $13, drop
+  MarShawn Lloyd** (upgraded: FF named him day-one Texans starter despite
+  the Boutte trade). Vele/Flournoy = skip; Malik Davis = skip in TRC but
+  WATCH in League of Record (he is the handcuff to the user's Javonte and
+  is owned by ExpiredBagels). Gallamijos Dynasty — **Colbie Young (24) $5,
+  drop Evan Engram**; skip Slayton (29) and Waller (33) per dynasty-value.
+  Dynasty Mexica and League of Record — no claims (LoR is full at 28/28;
+  its wire is TE-only, Joe Royer has no path through 22yo Harold Fannin).
 - [ ] *(superseded)* **Waiver claims recommended 2026-08-22, CORRECTED for dynasty value
   (user executes in Sleeper)**: DYNASTY TRC — add Hutchinson (26) / drop
   James Conner (31, Q); optional add Vele / drop Jennings (29) or Parkinson
@@ -223,14 +248,11 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
   task. Beat note: Malik Davis named DAL RB2 favorite — contradicts Sal's
   Jaydon Blue handcuff take; Blue watch-list only.
 - [ ] **Expert-daily review candidates (2026-08-25 edition)**:
-  (a) **GALLAMIJOS LEAGUE IS NOT A PPFD LEAGUE — fix before Sunday's draft.**
-  `reports/2026/draft/archetype-playbook.md` line 32 labels it "full PPR +
-  PPFD" and line 36 builds the R2-R6 WR plan on first downs double-paying
-  possession volume. Live settings show every `bonus_fd_*` field at 0.0;
-  what it actually has is bonus_rec_yd_100/200 and bonus_rush_yd_100/200.
-  Boards were always computed from live settings so no number is wrong —
-  but the stated reasoning is, and yardage bonuses tilt toward big-play
-  receivers rather than possession slot types. Highest-value open item.
+  (a) **RESOLVED same night** — Gallamijos League is NOT PPFD: the
+  archetype playbook was corrected (yardage-bonus ceiling tilt, branch
+  survives on full-PPR volume), the `scoring.py` presence-vs-value bug that
+  generated the false note was fixed, and STATUS's portfolio row updated.
+  Boards were always computed from live settings; only prose was wrong.
   (b) **Eli Stowers tripwire now fires on BOTH sources** — Sal repeated the
   fade on 8/25 with a beat report ("struggling with NFL physicality, may
   not be active weeks 1-2") while our TE-premium League of Record board

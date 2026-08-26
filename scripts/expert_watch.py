@@ -169,13 +169,23 @@ def main():
         for e in check(state, quiet=True):
             fetch_one(e["video_id"], e, state)
     elif "--fetch" in args:
-        vid = args[args.index("--fetch") + 1]
-        fetch_one(vid, {}, state)
+        i = args.index("--fetch") + 1
+        if i >= len(args):
+            sys.exit("--fetch needs a video id")
+        fetch_one(args[i], {}, state)
     elif "--mark" in args:
         vids = args[args.index("--mark") + 1:]
         if vids == ["all"]:
             # everything with a fetched transcript counts as processed
             vids = [f.stem for f in TRANSCRIPT_DIR.glob("*.txt")]
+        if not vids:
+            sys.exit("--mark needs video id(s) or 'all'")
+        # A typo'd id marked as processed becomes permanently invisible to
+        # --check — refuse ids with no fetched transcript.
+        missing = [v for v in vids if not (TRANSCRIPT_DIR / f"{v}.txt").exists()]
+        if missing:
+            sys.exit("refusing to mark ids with no fetched transcript "
+                     f"(typo would hide the video forever): {' '.join(missing)}")
         new = {e["video_id"]: e for e in check(state, quiet=True)}
         for v in vids:
             meta = new.get(v, {})

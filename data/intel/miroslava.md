@@ -155,7 +155,7 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 
 | Liga | Nombre en el chat | Formato | Lore |
 |---|---|---|---|
-| Gallamijos League (`1395839320077656064`) | **La Gallamijos** | Redraft, 18 equipos, full PPR + PPFD | SUPER dominada por los Mijos: 8 de 11 títulos. Ver palmarés completo abajo. **Draft: domingo 30 ago 2026, 12pm.** |
+| Gallamijos League (`1395839320077656064`) | **La Gallamijos** | Redraft, 18 equipos, full PPR + bonos de yardaje (100/200 acarreo-recepción, 300/400 pase — NO es PPFD, corregido 2026-08-25) | SUPER dominada por los Mijos: 8 de 11 títulos. Ver palmarés completo abajo. **Draft: domingo 30 ago 2026, 12pm.** |
 | Gallamijos Dynasty (`1388097370255794176`) | **El Dynasty / La Dinastía** | Dynasty, 12 equipos, full PPR | 2024: campeón Jro91 (Gallagher) EN LA FINAL contra elmijo; último Rul. 2025: campeón Amarante (Sin Bandera); subcampeón Gallaghers4 (otra final perdida); último La Pepa (Mijo). La corona vigente es MERCENARIA y el sótano vigente es MIJO. |
 
 ## Palmarés de La Gallamijos (redraft, 2015-2025 — dictado por el user)
@@ -199,8 +199,9 @@ central: cada semana se narra como guerra. Los terceros son **Los Sin Bandera**
 (como el dueto — carrilla musical cuando pierden: "suelta mi mano", "que lloro
 por ti").
 
-- Redraft: Mijos 5 · Gallaghers 9 · Sin Bandera 5 — *nueve Gallas para un
-  título es material eterno.*
+- Redraft: Mijos 4 · Gallaghers 9 · Sin Bandera 5 = 18 (verificado vs API
+  2026-08-25: La Pepa es Mijo pero SOLO juega la Dinastía, no la redraft) —
+  *nueve Gallas para un título es material eterno.*
 - Dynasty: Mijos 5 · Gallaghers 5 · Sin Bandera 2 — *guerra pareja y dos
   francotiradores; la corona la tiene un mercenario.*
 
@@ -210,9 +211,9 @@ por ti").
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
 | elmijo (Pythons / La Dinastía de Pitones) | Antonio Contreras | El Mijo, El Mijo Di María, Monfils | Bengals | El carrilla/nefasto del grupo; TETRACAMPEÓN redraft (2016/19/21/23 — la racha de años nones se le rompió en 2025); subcampeón Dynasty 2024 (un Galla le ganó la final); Burrow intocable EN SUS OTRAS ligas (aquí no lo tiene) |
-| alealvarez7 (My Son Dave / Dave´s Daddy) | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Campeón redraft 2022; se enoja por TODO (provocarlo es deporte); en el Dynasty es 'el América' — sus trades con Rorro siempre lo benefician |
+| alealvarez7 (My Son Dave; en Dynasty 2026: "Aquiles Brinco") | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Campeón redraft 2022; se enoja por TODO (provocarlo es deporte); en el Dynasty es 'el América' — sus trades con Rorro siempre lo benefician. NOTA: los nombres de equipo cambian por temporada — SIEMPRE tomar el team_name vigente de la hoja de hechos (roast_facts.py), nunca de esta tabla |
 | charlyae17 (LaviboradeLamar) | Charly Alonso | Carlos, Sharky, Sharly | Patriots | Campeón redraft 2017 con EL PULPO PAUL — el pulpo que sí adivinó |
-| RodrigoDiaz (Los hijos de Pooh) | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | CAMPEÓN DEFENSOR de la redraft (2025) — le rompió la racha al Mijo; en el Dynasty es 'el Santos Laguna' (siempre sale perdiendo con La Dona) y AUTOR del 1.01 de Paris Campbell |
+| RodrigoDiaz ("Los hijos de Pooh" fue su nombre CAMPEÓN 2025; en 2026 aún sin team_name — usar hoja de hechos) | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | CAMPEÓN DEFENSOR de la redraft (2025) — le rompió la racha al Mijo; en el Dynasty es 'el Santos Laguna' (siempre sale perdiendo con La Dona) y AUTOR del 1.01 de Paris Campbell |
 | panchocruz (Panchos) | Pancho Cruz | La Pepa, La Pepa Ortiz, Faraón, Pep | le va a muchos | MILLONARIO con vida de magnate — por eso 'EL FARAÓN' (carrilla de lujo: yates, pirámides, servidumbre); ÚLTIMO lugar Dynasty 2025 (el magnate que COMPRÓ el sótano); acapara a Maye Y Burrow |
 
 ### Gallaghers 🍀

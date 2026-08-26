@@ -45,6 +45,12 @@ def weekly_report(league_id: str, my_user_id: str, season: str, week: int) -> st
     mine = next((r for r in rosters if r.get("owner_id") == my_user_id
                  or my_user_id in (r.get("co_owners") or [])), None)
 
+    def _active(roster):
+        """Roster minus taxi/IR — those players can't start and consume no
+        bench spot (standing rule: exclude them from lineup + drop math)."""
+        off = set((roster.get("taxi") or []) + (roster.get("reserve") or []))
+        return [p for p in roster.get("players") or [] if p not in off]
+
     L = [f"# {league['name']} — Week {week} Report",
          f"*Generated {date.today().isoformat()} · {league.get('season')} season*", ""]
     L.append("**Format:** " + "; ".join(league_format_notes(league)))
@@ -72,7 +78,7 @@ def weekly_report(league_id: str, my_user_id: str, season: str, week: int) -> st
                 opp_roster = next((r for r in rosters if r["roster_id"] == opp["roster_id"]), {})
                 opp_name = owners.get(opp_roster.get("owner_id"), "?")
                 opp_lineup, _ = analysis.optimal_lineup(
-                    opp.get("players") or opp_roster.get("players") or [],
+                    _active(opp_roster) or opp.get("players") or [],
                     roster_positions, players, proj)
                 opp_pts = sum(p for _, _, p in opp_lineup)
                 L += [f"## Week {week} Matchup vs {opp_name}", ""]
@@ -80,7 +86,7 @@ def weekly_report(league_id: str, my_user_id: str, season: str, week: int) -> st
         # ---- Lineup
         starters = (my_m.get("starters") if my_m else None) or mine.get("starters") or []
         lineup, bench, gain, (swap_in, swap_out) = analysis.lineup_delta(
-            starters, mine.get("players") or [], roster_positions, players, proj)
+            starters, _active(mine), roster_positions, players, proj)
         total = sum(p for _, _, p in lineup)
         L += [f"## Recommended Lineup — projected {total:.1f} pts", ""]
         if my_m and my_m.get("matchup_id") and opp:
@@ -140,9 +146,15 @@ def weekly_report(league_id: str, my_user_id: str, season: str, week: int) -> st
 def draft_report(league_id: str, season: str, top_n: int = 120) -> str:
     league = get_league_corrected(league_id)
     players = api.get_players()
-    board, replacement = analysis.draft_board(league, season, players, top_n=top_n)
+    # Build deep so intel/risk can move a player onto the board, then cut
+    # for display; risk runs through the ONE shared pipeline so this report
+    # ranks identically to the dashboard (coherence rule).
+    board, replacement = analysis.draft_board(
+        league, season, players, top_n=max(300, top_n))
     intel_notes = intel.apply_intel(board, players)
-    analysis._assign_tiers(board)  # re-tier after intel adjustments
+    analysis.apply_standard_risk(board, league, season, players)
+    analysis._assign_tiers(board)  # re-tier after intel + risk adjustments
+    board = board[:top_n]
 
     L = [f"# {league['name']} — Draft Board ({season})",
          f"*Generated {date.today().isoformat()} · VORP under this league's exact scoring, "

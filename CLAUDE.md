@@ -127,8 +127,10 @@ When the user asks for "this week's report/analysis" or similar:
 
 - Waivers usually clear Tue night/Wed morning — recommendations are most
   valuable Mon/Tue.
-- FAAB guidance: league-winning RB handcuff who just inherited a backfield =
-  30–60% of budget; speculative stash = 1–5%; streaming DEF/K = $0–1.
+- FAAB guidance (one ladder, all surfaces): league-winning RB handcuff who
+  just inherited a backfield = 30–60% of budget; strong role bet (named
+  starter role, non-league-winner ceiling) = 15–25%; speculative stash =
+  1–5%; streaming DEF/K = $0–1.
   **Weeks 1-6 aggression (user-approved)**: on real breakouts, bid to WIN —
   add 5-10% over the sober price; his speed edge is worth converting early.
   Odd-number bids always.

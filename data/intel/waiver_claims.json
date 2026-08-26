@@ -58,12 +58,6 @@
   },
   {
    "league_id": "1338269686810300416",
-   "player": "Malik Davis",
-   "verdict": "skip",
-   "why": "27yo journeyman handcuff of a back you don't own — skipped per the dynasty rule, whatever the add count says."
-  },
-  {
-   "league_id": "1338269686810300416",
    "player": "Andrei Iosivas",
    "verdict": "skip",
    "why": "NEW 2026-08-25. Loudest add available here (24.6k) and the #1 seed can afford a luxury, but he is a 26-year-old WR3 whose job is actively being pushed by a rookie (Colbie Young leads Cincinnati's preseason in targets and yards). 75.3 projected does not move a team that is already first of twelve. No claims in this league this week."
@@ -73,12 +67,6 @@
    "player": "Joe Royer",
    "verdict": "skip",
    "why": "NEW 2026-08-25. The top free agent here by projection (52.0) and tempting in a TE-premium dynasty league, but he is CLE's TE2 behind 22-year-old Harold Fannin on a tier-5 offense with a 5.5 win total, and he is carrying a Questionable (personal) tag. 'Young' is not the same as 'ascending' — there is no path through Fannin. The wire has nothing here; the Stroud trade is still the fix for this roster."
-  },
-  {
-   "league_id": "1314652488325922816",
-   "player": "Jack Strand",
-   "verdict": "skip",
-   "why": "The 51k-add spike is an ATL camp-reps story on a QB who projects zero. Ignore — and note Tua is now reportedly making the job 'impossible' for Penix to win, which is not a Strand story either."
   },
   {
    "league_id": "1314652488325922816",
@@ -102,7 +90,7 @@
     "Tai Felton",
     "Kaelon Black"
    ],
-   "why": "Asset-ranked per the dynasty drop rules: Cowing (25, 1.7 proj) and Tillman (26, 6.6) are dead assets; CAR DEF is a second defense in a 12-team streaming league (zero asset value, re-streamable any week); Hollins is 32 with no market. Taxi: Felton (buried MIN WR5, 29 proj) and Black (SF RB depth, 42) are the two weakest of eight stashes — Bond/Bryant/Coleman/Allen/Benson/Howard all rank ahead on age+path. No IR relief available: league accepts OUT/SUS only and every injured active is merely Questionable."
+   "why": "Asset-ranked per the dynasty drop rules: Cowing (25, 1.7 proj) and Tillman (26, 6.6) are dead assets; CAR DEF is a second defense in a 12-team streaming league (zero asset value, re-streamable any week); Hollins is 32 with no market. Taxi: Felton (buried MIN WR5, 29 proj) and Black (SF RB depth, 42) are the two weakest of eight stashes — Bond/Bryant/Coleman/Allen/Benson/Howard all rank ahead on age+path. No IR relief available: league accepts OUT/SUS/COV/NA and every injured active is merely Questionable."
   },
   "1315407698006646784": {
    "status": "OVER LIMIT: active 30/25 — 5 cuts required before waivers can process (Benson already moved to IR)",

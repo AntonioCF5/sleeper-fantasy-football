@@ -88,21 +88,9 @@ def load_context(league_id):
     # Risk index: last-season durability (games active) + age curve +
     # current injury + volatility. Applied as a systematic VORP discount
     # BEFORE tiers form, so tiers/ranks reflect risk-adjusted value.
+    # ONE shared pipeline with reports.draft_report (coherence rule).
     prev_season = str(int(season) - 1)
-    prev_games = {}
-    try:
-        for p in api.get_season_stats(prev_season, analysis.league_positions(league)) or []:
-            g = (p.get("stats") or {}).get("gms_active")
-            if g is not None:
-                prev_games[p["player_id"]] = g
-    except Exception:
-        pass  # durability data unavailable: risk falls back to age+injury only
-    risk = {}
-    for r in board:
-        pl = players.get(r["player_id"]) or {}
-        risk[r["player_id"]] = analysis.risk_index(
-            pl, r["pos"], prev_games.get(r["player_id"]), style.get(r["player_id"]))
-    analysis.apply_risk(board, risk)
+    analysis.apply_standard_risk(board, league, season, players, style_map=style)
     analysis._assign_tiers(board)
     # Last-season usage shares — the experts' "stickiest" stats (visibility
     # columns; projections already price expected roles, so no VORP change).
@@ -118,12 +106,24 @@ def load_context(league_id):
 
 
 def my_pick_numbers(draft, user_id, n_teams, rounds):
+    """Pick schedule honoring the draft's real type: snake (default),
+    linear (Sleeper's rookie-draft default — every round runs 1..N), and
+    snake's reversal_round setting (e.g. 3rd-round reversal doubles the
+    same direction once, flipping parity from that round on)."""
     slot = (draft.get("draft_order") or {}).get(user_id)
     if not slot:
         return None, []
+    dtype = draft.get("type") or "snake"
+    reversal = (draft.get("settings") or {}).get("reversal_round") or 0
     picks = []
     for r in range(1, rounds + 1):
-        pk = (r - 1) * n_teams + slot if r % 2 else r * n_teams - slot + 1
+        if dtype == "linear":
+            forward = True
+        else:  # snake, with optional reversal round
+            forward = r % 2 == 1
+            if reversal and r >= reversal:
+                forward = not forward
+        pk = (r - 1) * n_teams + slot if forward else r * n_teams - slot + 1
         picks.append(pk)
     return slot, picks
 
@@ -329,8 +329,12 @@ def compute_advice(league_id, exclude=frozenset(), ctx=None):
                           if r.get("owner_id") == uid or uid in (r.get("co_owners") or [])), None)
         my_ids = set((my_roster or {}).get("players") or [])
     else:
+        # picked_by is the ACTUAL picker — draft_slot alone misattributes a
+        # traded pick made by its new owner at the user's original slot.
+        # Slot is only the fallback for autopicks that carry no picked_by.
         my_ids = {p["metadata"]["player_id"] for p in picks
-                  if p.get("picked_by") == uid or p.get("draft_slot") == slot}
+                  if p.get("picked_by") == uid
+                  or (not p.get("picked_by") and p.get("draft_slot") == slot)}
     next_open = next(i for i in range(1, rounds * n + 2) if i not in made)
     my_next = next((p for p in mine if p >= next_open and p not in made), None)
     vorp_of = {r["player_id"]: r["vorp"] for r in board}

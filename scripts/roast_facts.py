@@ -39,10 +39,21 @@ def _proj_map(season, scoring_settings):
     return out
 
 
+MESES = ["", "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+         "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+
+
+def _fecha_es(dt):
+    return f"{DIAS[dt.weekday()]} {dt.day} de {MESES[dt.month]} {dt.year}, {dt:%H:%M}"
+
+
 def _fmt_player(players, pid, proj):
     p = players.get(pid, {})
     name = p.get("full_name") or pid
-    return f"{name} ({p.get('position')} {p.get('team')}, proy {proj.get(pid, 0)})"
+    pos = p.get("position") or "?"
+    team = p.get("team") or "FA"
+    return f"{name} ({pos} {team}, proy {proj.get(pid, 0)})"
 
 
 def league_facts(lg_cfg, season, week, players):
@@ -58,7 +69,7 @@ def league_facts(lg_cfg, season, week, players):
     drafts = api.get_league_drafts(lid) or []
     for d in drafts:
         when = d.get("start_time")
-        when_s = datetime.fromtimestamp(when / 1000).strftime("%A %d %B %Y, %H:%M") if when else "SIN FECHA"
+        when_s = _fecha_es(datetime.fromtimestamp(when / 1000)) if when else "SIN FECHA"
         lines.append(f"**Draft**: status `{d.get('status')}`, fecha {when_s}, tipo {d.get('type')}")
     lines.append("")
 
@@ -87,23 +98,35 @@ def league_facts(lg_cfg, season, week, players):
         if r.get("taxi"):
             lines.append("- Taxi: " + ", ".join(players.get(p, {}).get("full_name") or p for p in r["taxi"]))
 
-    lines.append("\n## Resultados de la semana " + str(week))
-    matchups = api.get_matchups(lid, week) or []
-    by_m = {}
-    for m in matchups:
-        by_m.setdefault(m.get("matchup_id"), []).append(m)
-    played = False
-    for mid, pair in sorted(by_m.items(), key=lambda kv: str(kv[0])):
-        if mid is None or len(pair) != 2:
-            continue
-        a, b = sorted(pair, key=lambda m: -(m.get("points") or 0))
-        pa, pb = a.get("points") or 0, b.get("points") or 0
-        if pa == 0 and pb == 0:
-            continue
-        played = True
-        lines.append(f"- **{rid_owner.get(a['roster_id'], '?')}** {pa:.1f} vs {pb:.1f} "
-                     f"{rid_owner.get(b['roster_id'], '?')} (margen {pa - pb:.1f})")
-    if not played:
+    # El martes en la mañana Sleeper ya suele haber rolado a la semana
+    # siguiente — si la semana actual no tiene puntos, cae a la anterior:
+    # esos son los resultados que el Destape roastea.
+    def _week_results(wk):
+        matchups = api.get_matchups(lid, wk) or []
+        by_m = {}
+        for m in matchups:
+            by_m.setdefault(m.get("matchup_id"), []).append(m)
+        rows = []
+        for mid, pair in sorted(by_m.items(), key=lambda kv: str(kv[0])):
+            if mid is None or len(pair) != 2:
+                continue
+            a, b = sorted(pair, key=lambda m: -(m.get("points") or 0))
+            pa, pb = a.get("points") or 0, b.get("points") or 0
+            if pa == 0 and pb == 0:
+                continue
+            tie = " — EMPATE (no hay ganador, no inventar uno)" if pa == pb else ""
+            rows.append(f"- **{rid_owner.get(a['roster_id'], '?')}** {pa:.1f} vs {pb:.1f} "
+                        f"{rid_owner.get(b['roster_id'], '?')} (margen {pa - pb:.1f}){tie}")
+        return rows
+
+    shown_week, rows = week, _week_results(week)
+    if not rows and week > 1:
+        shown_week, rows = week - 1, _week_results(week - 1)
+    lines.append(f"\n## Resultados de la semana {shown_week}"
+                 + (" (semana anterior — la actual aún no se juega)" if shown_week != week else ""))
+    if rows:
+        lines.extend(rows)
+    else:
         lines.append("- SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.")
 
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")

@@ -3,10 +3,10 @@
 *18-team snake · half PPR · 6-pt pass TD · IDP (DL/LB/DB) · 19 rounds ·
 17 keepers frozen on the board · Your R10 pick = Tyler Shough (keeper, locked)*
 
-> Scoring note: the league currently shows 5.0 pts per assisted tackle on
-> Sleeper — confirmed to be a typo; the intended value is **0.5** and all
-> numbers below use the corrected scoring (override stored in config.json).
-> Nudge the commissioner to fix it before Week 1.
+> Scoring note — RESOLVED 2026-08-25: the 5.0 assisted-tackle typo was fixed
+> on Sleeper's side (API now returns **0.5** natively, verified live). The
+> config.json override was removed; all numbers below already used 0.5, so
+> nothing changes. No commissioner reminder needed.
 
 **Archetype: HERO RB + EARLY QB ("Anchor & Air")** — see
 `archetype-playbook.md` for the branch definitions and the live switching
@@ -66,8 +66,9 @@ RBs are gone at #10) and QB-first inversion (if a top-3 QB falls to #10).
   (the Value column on the main board) unless the position is capped.
 - If a run starts (3+ same-position picks in a row), jump one round early
   on the next tier player at that position; 18-team runs don't stop.
-- If the commissioner has NOT fixed the assist scoring by draft day, tell
-  me — at 5.0/assist the IDP plan inverts completely (Campbell becomes a
+- ~~Assist-scoring contingency~~ RESOLVED: Sleeper now returns 0.5 natively
+  (2026-08-25), the inversion scenario is dead. Kept for history only: at
+  5.0/assist the IDP plan would have inverted completely (Campbell becomes a
   round-4 pick and IDP depth wins leagues). That inversion would also mean
   putting IDP back on the boards: remove the position filter in
   `analysis.draft_board` (`IDP_BOARD_EXCLUDE`) for this league first.

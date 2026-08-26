@@ -41,6 +41,14 @@ _active = {"league_id": None}
 _config = json.loads((ROOT / "config.json").read_text())
 
 
+def _norm_name(name):
+    """Match curated rulings to Sleeper names robustly: case/diacritics/
+    punctuation-insensitive so 'D.J. Moore' == 'DJ Moore'."""
+    import unicodedata
+    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
+    return "".join(ch for ch in s.lower() if ch.isalnum())
+
+
 def _leagues():
     return _config.get("leagues", [])
 
@@ -111,9 +119,10 @@ def moves_payload(league_id, force=False):
         if s.get("waiver_type") == 2:
             budget = s.get("waiver_budget", 0)
             used = (mine.get("settings") or {}).get("waiver_budget_used", 0)
-            spent = [((r.get("settings") or {}).get("waiver_budget_used", 0)) for r in rosters]
+            spent = [((r.get("settings") or {}).get("waiver_budget_used", 0))
+                     for r in rosters if r is not mine]
             out["faab"] = {"budget": budget, "used": used, "left": budget - used,
-                           "rival_max_spent": max(spent)}
+                           "rival_max_spent": max(spent, default=0)}
         # Weakest ACTIVE bench (dynasty ordering happens in the UI copy; here
         # we exclude taxi/IR — they consume no bench spot)
         starters = set(mine.get("starters") or [])
@@ -128,7 +137,9 @@ def moves_payload(league_id, force=False):
         # otherwise a protected 24yo handcuff makes everything look like an
         # upgrade and every card screams CLAIM.
         bench_all = sorted((pdict(pl) for pl in bench), key=lambda x: x["proj"])
-        droppable = [b for b in bench_all if (b.get("age") or 0) >= 26] if dynasty else bench_all
+        # Unknown age = fringe veteran, not a protected young stash.
+        droppable = ([b for b in bench_all if (b.get("age") if b.get("age") is not None else 30) >= 26]
+                     if dynasty else bench_all)
         bench_floor = (droppable[0]["proj"] if droppable
                        else bench_all[0]["proj"] if bench_all else 0)
         # Starting-slot exposure per position (dedicated + flex eligibility),
@@ -152,7 +163,7 @@ def moves_payload(league_id, force=False):
             v.sort(reverse=True)
 
         def nth_best(pos):
-            n = exposure.get(pos, 1)
+            n = max(exposure.get(pos, 1), 1)  # 0-exposure K/DEF: compare vs best
             vals = by_pos_proj.get(pos, [])
             return round(vals[n - 1]) if len(vals) >= n else 0
 
@@ -236,11 +247,13 @@ def moves_payload(league_id, force=False):
         if wc.exists():
             for c in json.loads(wc.read_text()).get("claims", []):
                 if c.get("league_id") == league_id:
-                    rulings[c["player"]] = c
+                    rulings[_norm_name(c["player"])] = c
+        covered = set()
         for lst in (out["drops"], out["waiver_targets"]):
             for row in lst:
-                c = rulings.get(row["name"])
+                c = rulings.get(_norm_name(row["name"]))
                 if c:
+                    covered.add(_norm_name(row["name"]))
                     row["verdict"] = c["verdict"]
                     row["verdict_why"] = c["why"]
                     row["source"] = "newsletter"
@@ -248,6 +261,24 @@ def moves_payload(league_id, force=False):
                         row["bid"] = c["bid"]
                     if c.get("drop"):
                         row["drop_for"] = c["drop"]
+        # A ruling ALWAYS renders, even when the auto signals didn't surface
+        # the player — inject a row for it so the tab can never contradict
+        # the newsletter by omission.
+        name_to_pid = {_norm_name(players[p].get("full_name") or ""): p
+                       for p in rostered | set(sp) if p in players}
+        for key, c in rulings.items():
+            if key in covered:
+                continue
+            pid = name_to_pid.get(key)
+            row = {**(pdict(pid) if pid else
+                      {"name": c["player"], "pos": "?", "team": "?", "proj": 0}),
+                   "trend": 0, "verdict": c["verdict"], "verdict_why": c["why"],
+                   "source": "newsletter", "injected": True}
+            if c.get("bid") is not None:
+                row["bid"] = c["bid"]
+            if c.get("drop"):
+                row["drop_for"] = c["drop"]
+            out["waiver_targets"].append(row)
         order = {"claim": 0, "optional": 1, "watch": 2, "skip": 3}
         for lst in (out["drops"], out["waiver_targets"]):
             lst.sort(key=lambda r: (order.get(r["verdict"], 2),
@@ -350,7 +381,11 @@ def _updater():
                 st = _state.get(lid)
                 if st is None or st.get("picks_seen") != len(picks):
                     recompute(lid, ctx)
-                    _state[lid]["picks_seen"] = len(picks)
+                    # Only mark the pick count consumed when the recompute
+                    # actually succeeded — otherwise retry next cycle instead
+                    # of sitting on an error for a whole pick.
+                    if not _state.get(lid, {}).get("error"):
+                        _state[lid]["picks_seen"] = len(picks)
             except Exception as e:
                 with _lock:
                     _state.setdefault(lid, {})["error"] = str(e)
@@ -1127,7 +1162,10 @@ async function selectLeague(){
 function manualRefresh(){
   $("stamp").textContent="refreshing…";
   fetch("/api/refresh?league_id="+encodeURIComponent(currentLeague)).then(tick);
+  delete movesCache[currentLeague]; delete rostersCache[currentLeague];
   if(currentView==="rankings") loadRankings(true);
+  if(currentView==="moves") loadMoves();
+  if(currentView==="rivals") loadRivals&&loadRivals();
 }
 
 function render(d){
@@ -1274,9 +1312,11 @@ function renderTeam(d){
 
 let lastStamp=null, lastTickAt=0, everRendered=false;
 async function tick(){
+  const lg=currentLeague;
   try{
-    const r=await fetch("/data?league_id="+encodeURIComponent(currentLeague||""));
+    const r=await fetch("/data?league_id="+encodeURIComponent(lg||""));
     const j=await r.json();
+    if(lg!==currentLeague) return;  // league switched mid-poll — stale payload
     if(j.data && (j.stamp!==lastStamp)){render(j.data);lastStamp=j.stamp;everRendered=true;}
     lastTickAt=Date.now();
     $("err").textContent=j.error?("api: "+j.error):"";
@@ -1302,12 +1342,15 @@ document.addEventListener("visibilitychange",()=>{if(!document.hidden) tick();})
 window.addEventListener("focus",()=>tick());
 
 // ---------- rival roster viewer ----------
-let rostersCache={};   // league_id -> payload
+let rostersCache={};   // league_id -> {t:epoch_ms, j:payload}
+const CLIENT_TTL_MS=10*60*1000;  // always-open tab: refetch stale data
 async function fetchRosters(force){
-  if(!force && rostersCache[currentLeague]) return rostersCache[currentLeague];
-  const r=await fetch("/api/rosters?league_id="+encodeURIComponent(currentLeague)+(force?"&force=1":""));
+  const lg=currentLeague;  // capture NOW — the await below can outlive a league switch
+  const hit=rostersCache[lg];
+  if(!force && hit && Date.now()-hit.t<CLIENT_TTL_MS) return hit.j;
+  const r=await fetch("/api/rosters?league_id="+encodeURIComponent(lg)+(force?"&force=1":""));
   const j=await r.json();
-  if(!j.error) rostersCache[currentLeague]=j;
+  if(!j.error) rostersCache[lg]={t:Date.now(),j};  // keyed by the league we fetched
   return j;
 }
 function ownerLink(name){
@@ -1408,7 +1451,7 @@ document.addEventListener("click",e=>{
   const c=e.target.closest(".crumb");
   if(!c||c.classList.contains("here")) return;
   if(c.dataset.act==="league") setView("draft");        // league root = Draft Room
-  else if(c.dataset.act==="view") setView(currentView); // re-affirm view (drops rival)
+  else if(c.dataset.act==="view"){currentRival=null;setView(currentView);} // drop the rival segment
 });
 // Browser back/forward: URL is pushed on each navigation (see updateUrl),
 // popstate restores without re-pushing.
@@ -1430,12 +1473,14 @@ window.addEventListener("popstate",async ()=>{
 });
 
 // ---------- moves + trade center ----------
-let movesCache={};   // league_id -> payload
+let movesCache={};   // league_id -> {t:epoch_ms, j:payload}
 async function fetchMoves(force){
-  if(!force && movesCache[currentLeague]) return movesCache[currentLeague];
-  const r=await fetch("/api/moves?league_id="+encodeURIComponent(currentLeague)+(force?"&force=1":""));
+  const lg=currentLeague;  // capture NOW — see fetchRosters
+  const hit=movesCache[lg];
+  if(!force && hit && Date.now()-hit.t<CLIENT_TTL_MS) return hit.j;
+  const r=await fetch("/api/moves?league_id="+encodeURIComponent(lg)+(force?"&force=1":""));
   const j=await r.json();
-  if(!j.error) movesCache[currentLeague]=j;
+  if(!j.error) movesCache[lg]={t:Date.now(),j};
   return j;
 }
 function offerCard(o){
@@ -1468,7 +1513,9 @@ async function loadTeamTrades(){
 async function loadMoves(){
   const el=$("movesBody");
   el.innerHTML=`<div class="empty">Scanning waivers, drops and trades…</div>`;
+  const lg=currentLeague;
   const j=await fetchMoves(false);
+  if(lg!==currentLeague) return;  // league switched while loading — stale response
   if(j.error){el.innerHTML=`<div class="empty">Couldn't load: ${esc(j.error)}</div>`;return;}
   if(!j.in_season){
     el.innerHTML=`
@@ -1483,8 +1530,8 @@ async function loadMoves(){
   const vBadge=d=>{
     const nl=d.source==="newsletter";
     const tipPrefix=nl?"Newsletter ruling: ":"Auto signal (newsletter hasn't ruled on him): ";
-    if(d.verdict==="claim") return `<span class="vbadge vclaim term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🔥 CLAIM${d.bid!=null?` $${d.bid}`:""}${d.drop_for?` · drop ${esc(d.drop_for)}`:""}</span>`;
-    if(d.verdict==="optional") return `<span class="vbadge voptional term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🟡 OPTIONAL${d.bid!=null?` $${d.bid}`:""}</span>`;
+    if(d.verdict==="claim") return `<span class="vbadge vclaim term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🔥 CLAIM${d.bid!=null?` $${esc(String(d.bid))}`:""}${d.drop_for?` · drop ${esc(d.drop_for)}`:""}</span>`;
+    if(d.verdict==="optional") return `<span class="vbadge voptional term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">🟡 OPTIONAL${d.bid!=null?` $${esc(String(d.bid))}`:""}</span>`;
     if(d.verdict==="skip") return `<span class="vbadge vskip term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">✋ SKIP</span>`;
     if(d.verdict==="watch") return `<span class="vbadge vwatch term" data-tip="${esc(tipPrefix+(d.verdict_why||""))}">👀 watch</span>`;
     return "";
@@ -1511,9 +1558,12 @@ async function loadMoves(){
 async function loadRankings(force){
   $("rkEmpty").style.display="none";
   $("rkBody").innerHTML=`<tr><td colspan="11" class="empty">Loading…</td></tr>`;
+  const lg=currentLeague;
   try{
-    const r=await fetch(`/api/board?league_id=${encodeURIComponent(currentLeague)}${force?"&force=1":""}`);
-    rankingsData=await r.json();
+    const r=await fetch(`/api/board?league_id=${encodeURIComponent(lg)}${force?"&force=1":""}`);
+    const data=await r.json();
+    if(lg!==currentLeague) return;  // league switched while loading — stale response
+    rankingsData=data;
     rankingsData.forEach(r=>{
       r.riskScore=r.risk?r.risk.score:null;
       // usage sort key: the position's primary share (WR/TE targets, RB rushes)

@@ -1,8 +1,8 @@
-# HOJA DE HECHOS — Gallamijos Dynasty — 2026-08-26 04:13Z
+# HOJA DE HECHOS — Gallamijos Dynasty — 2026-08-26 04:36Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
-**Draft**: status `complete`, fecha Wednesday 29 July 2026, 09:30, tipo linear
+**Draft**: status `complete`, fecha miércoles 29 de julio 2026, 09:30, tipo linear
 
 ## Managers, récords y rosters
 
@@ -66,7 +66,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - Top jugadores: Jaxon Smith-Njigba (WR SEA, proy 284.6), Ashton Jeanty (RB LV, proy 233.9), Zay Flowers (WR BAL, proy 228.2), Colston Loveland (TE CHI, proy 215.4), Breece Hall (RB NYJ, proy 211.0), Christian Watson (WR GB, proy 207.6)
 - Taxi: Ben Sinnott, Elic Ayomanor, Skyler Bell, Bryce Lance, Eli Raridon, Eli Heidenreich
 
-## Resultados de la semana 3
+## Resultados de la semana 2 (semana anterior — la actual aún no se juega)
 - SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.
 
 ## Transacciones (últimas 2 semanas de rondas)

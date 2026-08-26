@@ -1,8 +1,8 @@
-# HOJA DE HECHOS — Gallamijos League — 2026-08-26 04:13Z
+# HOJA DE HECHOS — Gallamijos League — 2026-08-26 04:36Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
-**Draft**: status `pre_draft`, fecha Sunday 30 August 2026, 12:00, tipo snake
+**Draft**: status `pre_draft`, fecha domingo 30 de agosto 2026, 12:00, tipo snake
 
 ## Managers, récords y rosters
 
@@ -78,7 +78,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - QB room: ninguno
 - Top jugadores: 
 
-## Resultados de la semana 3
+## Resultados de la semana 2 (semana anterior — la actual aún no se juega)
 - SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.
 
 ## Transacciones (últimas 2 semanas de rondas)

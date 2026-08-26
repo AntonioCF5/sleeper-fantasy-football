@@ -1,12 +1,12 @@
 """Analysis engine: lineups, power rankings, waivers, trades, draft boards."""
 
 from collections import defaultdict
+from math import ceil
 
 from . import api
 from .scoring import SLOT_ELIGIBILITY, score_stat_line
 
 INJURY_OUT = {"Out", "IR", "PUP", "Sus", "NA", "DNR", "COV"}
-INJURY_RISK = {"Questionable", "Doubtful"}
 
 
 # ---------------------------------------------------------------- helpers
@@ -53,7 +53,7 @@ def league_positions(league: dict) -> tuple:
 def projection_map(season: str, week: int, scoring_settings: dict,
                    positions=DEFAULT_POSITIONS) -> dict:
     """player_id -> projected points under THIS league's scoring."""
-    projs = api.get_week_projections(season, week, positions)
+    projs = api.get_week_projections(season, week, positions) or []
     return {
         p["player_id"]: score_stat_line(p.get("stats") or {}, scoring_settings)
         for p in projs
@@ -63,7 +63,7 @@ def projection_map(season: str, week: int, scoring_settings: dict,
 def season_projection_map(season: str, scoring_settings: dict,
                           positions=DEFAULT_POSITIONS) -> dict:
     """player_id -> full-season projected points under this league's scoring."""
-    projs = api.get_season_projections(season, positions)
+    projs = api.get_season_projections(season, positions) or []
     return {
         p["player_id"]: score_stat_line(p.get("stats") or {}, scoring_settings)
         for p in projs
@@ -89,32 +89,62 @@ def _positions(players: dict, pid: str) -> set:
 
 
 def optimal_lineup(roster_player_ids, roster_positions, players, proj):
-    """Greedy-with-scarcity fill of starting slots by projected points.
+    """Exact max-points fill of starting slots (DP over slot subsets).
 
-    Fills dedicated slots first (QB/RB/...), then flex slots, always giving
-    each slot the best remaining eligible player. Returns (lineup, bench)
-    where lineup is [(slot, player_id, points)].
+    Greedy filling mis-assigns dual-eligible players (a WR/TE dual consumed
+    by the WR slot can strand the TE slot with a scrub); this solves the
+    assignment exactly. Returns (lineup, bench) where lineup is
+    [(slot, player_id, points)] in the league's display order.
     """
     slots = [s for s in roster_positions if s != "BN"]
-    # Dedicated slots before flex slots so flexes get true leftovers.
-    slots.sort(key=lambda s: len(SLOT_ELIGIBILITY.get(s, set())))
-    available = {
+    available = [
         pid for pid in roster_player_ids
         if (players.get(pid) or {}).get("injury_status") not in INJURY_OUT
+    ]
+    elig = {
+        pid: [i for i, s in enumerate(slots)
+              if _positions(players, pid) & SLOT_ELIGIBILITY.get(s, set())]
+        for pid in available
     }
-    lineup = []
-    for slot in slots:
-        eligible = [
-            pid for pid in available
-            if _positions(players, pid) & SLOT_ELIGIBILITY.get(slot, set())
-        ]
-        best = max(eligible, key=lambda pid: proj.get(pid, 0.0), default=None)
-        if best is not None:
-            available.discard(best)
-        lineup.append((slot, best, proj.get(best, 0.0) if best else 0.0))
-    # Restore league's display order
-    order = {s: i for i, s in enumerate(s for s in roster_positions if s != "BN")}
-    lineup.sort(key=lambda t: order.get(t[0], 99))
+    # Prune: only the top-(n_slots) eligible players per slot can matter.
+    cands = set()
+    for i in range(len(slots)):
+        el = sorted((p for p in available if i in elig[p]),
+                    key=lambda p: -proj.get(p, 0.0))
+        cands.update(el[: len(slots)])
+    pool = sorted(cands, key=lambda p: -proj.get(p, 0.0))
+
+    # layers[k][mask] = best total after considering pool[:k] with `mask`
+    # slots filled; choice[(k, mask)] = slot index pool[k] took to reach mask.
+    layers = [{0: 0.0}]
+    choice = {}
+    for k, pid in enumerate(pool):
+        prev = layers[-1]
+        cur = dict(prev)
+        pts = proj.get(pid, 0.0)
+        for mask, val in prev.items():
+            for i in elig[pid]:
+                bit = 1 << i
+                if not mask & bit:
+                    v2 = val + pts
+                    if v2 > cur.get(mask | bit, -1.0):
+                        cur[mask | bit] = v2
+                        choice[(k, mask | bit)] = i
+        layers.append(cur)
+    final = layers[-1]
+    best_mask = max(final, key=lambda m: (final[m], bin(m).count("1")))
+
+    assigned = {}  # slot index -> pid
+    mask = best_mask
+    for k in range(len(pool) - 1, -1, -1):
+        i = choice.get((k, mask))
+        if i is not None and layers[k + 1][mask] > layers[k].get(mask, -1.0):
+            assigned[i] = pool[k]
+            mask &= ~(1 << i)
+    lineup = [
+        (s, assigned.get(i), proj.get(assigned[i], 0.0) if i in assigned else 0.0)
+        for i, s in enumerate(slots)
+    ]
     bench = sorted(
         set(roster_player_ids) - {pid for _, pid, _ in lineup if pid},
         key=lambda pid: -proj.get(pid, 0.0),
@@ -138,23 +168,30 @@ def lineup_delta(current_starters, roster_player_ids, roster_positions, players,
 
 def power_rankings(league_id: str, through_week: int):
     """All-play record + points-for based power score per roster."""
-    rosters = api.get_rosters(league_id)
-    weekly_scores = defaultdict(list)  # roster_id -> [pts]
+    rosters = api.get_rosters(league_id) or []
+    # Align strictly by week number — index-based pairing miscounts when a
+    # roster is missing a week, and one bad fetch must not truncate history.
+    weeks = {}  # wk -> {roster_id: pts}
     for wk in range(1, max(through_week, 1) + 1):
         try:
-            for m in api.get_matchups(league_id, wk) or []:
-                if m.get("points") is not None:
-                    weekly_scores[m["roster_id"]].append(m["points"])
+            ms = api.get_matchups(league_id, wk) or []
         except Exception:
-            break
-    allplay = {}
-    for rid, scores in weekly_scores.items():
-        wins = losses = 0
-        for wk_i, pts in enumerate(scores):
-            others = [s[wk_i] for r, s in weekly_scores.items() if r != rid and len(s) > wk_i]
-            wins += sum(1 for o in others if pts > o)
-            losses += sum(1 for o in others if pts < o)
-        allplay[rid] = (wins, losses)
+            continue
+        scores = {m["roster_id"]: m["points"] for m in ms
+                  if m.get("points") is not None}
+        # A week nobody has scored in yet is an unplayed week, not 0-0 ties.
+        if scores and any(v > 0 for v in scores.values()):
+            weeks[wk] = scores
+    allplay = defaultdict(lambda: [0, 0])
+    for scores in weeks.values():
+        for rid, pts in scores.items():
+            for orid, o in scores.items():
+                if orid == rid:
+                    continue
+                if pts > o:
+                    allplay[rid][0] += 1
+                elif pts < o:
+                    allplay[rid][1] += 1
     out = []
     for r in rosters:
         rid = r["roster_id"]
@@ -180,9 +217,9 @@ def power_rankings(league_id: str, through_week: int):
 def waiver_targets(league_id: str, players: dict, proj: dict, season_proj: dict, limit: int = 15):
     """Trending + high-projection free agents not on any roster."""
     rostered = set()
-    for r in api.get_rosters(league_id):
+    for r in api.get_rosters(league_id) or []:
         rostered.update(r.get("players") or [])
-    trending = {t["player_id"]: t["count"] for t in api.get_trending("add", 24, 200)}
+    trending = {t["player_id"]: t["count"] for t in api.get_trending("add", 24, 200) or []}
     candidates = {}
     for pid in set(trending) | {p for p, v in proj.items() if v >= 8}:
         if pid in rostered or pid not in players:
@@ -196,12 +233,10 @@ def waiver_targets(league_id: str, players: dict, proj: dict, season_proj: dict,
             "week_proj": proj.get(pid, 0.0),
             "season_proj": season_proj.get(pid, 0.0),
         }
+    # Blend: trending count signals breaking news the projections haven't caught.
     ranked = sorted(
         candidates.values(),
-        key=lambda c: (-(c["trend_count"] > 0) * 1, -c["season_proj"], -c["week_proj"]),
-    )
-    # Blend: trending count signals breaking news the projections haven't caught.
-    ranked.sort(key=lambda c: -(c["season_proj"] + c["week_proj"] * 2 + min(c["trend_count"], 50000) / 2500))
+        key=lambda c: -(c["season_proj"] + c["week_proj"] * 2 + min(c["trend_count"], 50000) / 2500))
     return ranked[:limit]
 
 
@@ -279,7 +314,10 @@ def positional_needs(roster_player_ids, roster_positions, players, season_proj):
     out = {}
     for pos, n in need.items():
         vals = sorted(by_pos.get(pos, []), reverse=True)
-        n_int = max(1, round(n))
+        # Ceil, not round: superflex adds fractional QB demand (1.25) that
+        # rounding erased — a superflex team wants 2 startable QBs. The
+        # epsilon absorbs float dust from summed 1/3 flex shares.
+        n_int = max(1, ceil(n - 1e-9))
         out[pos] = {
             "starters_needed": n_int,
             "top": vals[: n_int + 1],
@@ -445,6 +483,67 @@ def apply_risk(board, risk_map):
     return board
 
 
+def style_class(stats, scoring, pos):
+    """Classify a projected stat line as floor / ceiling / balanced.
+
+    Heuristic: production built on volume (receptions, carries, attempts)
+    is stable week to week; production concentrated in touchdowns and big
+    plays is volatile. Floor = low TD-share + real volume. Ceiling = high
+    TD-share or thin volume. A championship roster wants both kinds.
+    """
+    if pos in ("K", "DEF", "DL", "LB", "DB"):
+        return None
+    total = score_stat_line(stats, scoring)
+    if total <= 40:
+        return None
+    td = score_stat_line(
+        {k: v for k, v in stats.items() if k.endswith("_td")}, scoring)
+    gp = stats.get("gp") or 17
+    volume = ((stats.get("rec") or 0) / gp >= 4.5
+              or (stats.get("rush_att") or 0) / gp >= 11
+              or (stats.get("pass_att") or 0) / gp >= 28)
+    td_share = td / total if total else 0
+    if td_share <= 0.32 and volume:
+        return "floor"
+    if td_share >= 0.38 or (not volume and td_share >= 0.30):
+        return "ceiling"
+    return "balanced"
+
+
+def apply_standard_risk(board, league, season, players, style_map=None):
+    """The ONE risk pipeline every board surface must run (coherence rule:
+    draft reports and the dashboard must rank identically). Builds the
+    style map (unless given), prior-season durability, per-player risk
+    index, then applies the systematic VORP discount and re-ranks.
+    Returns the style map so callers can reuse it."""
+    scoring = league.get("scoring_settings", {})
+    positions = league_positions(league)
+    if style_map is None:
+        style_map = {}
+        for p in api.get_season_projections(season, positions) or []:
+            st = p.get("stats") or {}
+            pl = p.get("player") or players.get(p["player_id"]) or {}
+            s = style_class(st, scoring, canonical_pos(pl))
+            if s:
+                style_map[p["player_id"]] = s
+    prev_games = {}
+    try:
+        for p in api.get_season_stats(str(int(season) - 1), positions) or []:
+            g = (p.get("stats") or {}).get("gms_active")
+            if g is not None:
+                prev_games[p["player_id"]] = g
+    except Exception:
+        pass  # durability data unavailable: risk falls back to age+injury only
+    risk = {}
+    for r in board:
+        pl = players.get(r["player_id"]) or {}
+        risk[r["player_id"]] = risk_index(
+            pl, r["pos"], prev_games.get(r["player_id"]),
+            style_map.get(r["player_id"]))
+    apply_risk(board, risk)
+    return style_map
+
+
 # ---------------------------------------------------- league winners
 
 
@@ -576,6 +675,8 @@ def draft_board(league: dict, season: str, players: dict, top_n: int = 200):
             "adp_ppr" if scoring.get("rec", 0) >= 1 else
             "adp_half_ppr" if scoring.get("rec", 0) >= 0.5 else "adp_std")
         adp = (p.get("stats") or {}).get(adp_key)
+        if adp is not None and adp >= 999:
+            adp = None  # Sleeper's undrafted sentinel — not a real market price
         if pts > 0:
             rows.append({"player_id": p["player_id"], "pos": pos, "proj": pts, "adp": adp})
 
@@ -631,7 +732,7 @@ def _assign_tiers(rows):
         gaps = [plist[i]["vorp"] - plist[i + 1]["vorp"] for i in range(len(plist) - 1)]
         top_gaps = sorted(gaps[:30], reverse=True)
         # Break threshold: a gap notably larger than typical for the position,
-        # floor of 6 season points so flat positions form big honest tiers.
+        # floor of 12 season points so flat positions form big honest tiers.
         med = top_gaps[len(top_gaps) // 2] if top_gaps else 0
         threshold = max(12.0, med * 3.0)
         tier = 1

@@ -89,6 +89,9 @@ def _inline(text: str) -> str:
 
 
 def _table(rows):
+    if len(rows) < 2:  # a lone pipe-line is prose, not a table
+        return "".join(f'<p style="margin:10px 0;line-height:1.6;font-size:14.5px">'
+                       f"{_inline(r)}</p>" for r in rows)
     head, sep, body = rows[0], rows[1], rows[2:]
     cells = [c.strip() for c in head.strip().strip("|").split("|")]
     out = [f'<table role="presentation" width="100%" style="border-collapse:collapse;'
@@ -116,7 +119,9 @@ def md_to_email_html(md: str, edition_date: str) -> str:
     i, in_list, title, subtitle = 0, False, "Expert Daily", ""
     while i < len(lines):
         line = lines[i]
-        if line.startswith("|") and i + 1 < len(lines) and set(lines[i + 1].replace("|", "").strip()) <= set("-: "):
+        if (line.startswith("|") and i + 1 < len(lines)
+                and lines[i + 1].strip()  # blank line ≠ separator row
+                and set(lines[i + 1].replace("|", "").strip()) <= set("-: ")):
             j = i
             while j < len(lines) and lines[j].startswith("|"):
                 j += 1
@@ -146,7 +151,9 @@ def md_to_email_html(md: str, edition_date: str) -> str:
             item = re.sub(r"^(\d+\.|-)\s+", "", line.lstrip())
             parts.append(f'<li style="margin:7px 0;line-height:1.55;font-size:14.5px">{_inline(item)}</li>')
         elif line.startswith("*") and line.endswith("*") and not line.startswith("**") and len(line) > 2:
-            if not subtitle:
+            # The subtitle is only ever the italic line directly under the H1
+            # (first ~4 lines); later fully-italic lines are body content.
+            if not subtitle and i <= 3:
                 subtitle = _inline(line.strip("*").strip())
             else:
                 parts.append(f'<p style="margin:8px 0;color:{INK2};font-size:13px;'
@@ -180,7 +187,16 @@ Full history in <span style="font-family:monospace">reports/2026/expert-daily/</
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    USAGE = ("usage: send_newsletter.py [YYYY-MM-DD] [--html-only]\n"
+             "  Renders reports/<season>/expert-daily/<day>.md to HTML and "
+             "EMAILS it.\n  --html-only renders without sending. Any other "
+             "flag aborts — sending mail must never be a typo's side effect.")
+    flags = [a for a in sys.argv[1:] if a.startswith("-")]
+    unknown = [f for f in flags if f not in ("--html-only",)]
+    if unknown:  # includes --help/-h: print usage, send nothing
+        print(USAGE)
+        sys.exit(0 if set(unknown) <= {"--help", "-h"} else f"unknown flag(s): {' '.join(unknown)}")
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
     html_only = "--html-only" in sys.argv
     day = args[0] if args else date.today().isoformat()
     season = day[:4]

@@ -49,7 +49,8 @@
   "coach_note": "Carmichael Jr. veteran hand for Allen — continuity-plus",
   "vac_tgt_pct": 13.3,
   "vac_rush_pct": 2.0,
-  "play_caller": "Joe Brady (HC)"
+  "play_caller": "Joe Brady (HC)",
+  "hc": "Joe Brady"
  },
  "CAR": {
   "win_total": 7.5,
@@ -61,7 +62,8 @@
   "vac_tgt_pct": 16.7,
   "vac_rush_pct": 52.4,
   "play_caller": "Brad Idzik (OC — Canales handed off for 2026)",
-  "coach_note": "Idzik takes over play-calling from Canales for 2026 — a real change, reversal of Canales end-of-2025 stance."
+  "coach_note": "Idzik takes over play-calling from Canales for 2026 — a real change, reversal of Canales end-of-2025 stance.",
+  "hc": "Dave Canales"
  },
  "CHI": {
   "win_total": 9.5,
@@ -87,7 +89,8 @@
   "new_oc": false,
   "vac_tgt_pct": 6.8,
   "vac_rush_pct": 2.3,
-  "play_caller": "Zac Taylor (HC)"
+  "play_caller": "Zac Taylor (HC)",
+  "hc": "Zac Taylor"
  },
  "CLE": {
   "win_total": 5.5,
@@ -115,7 +118,8 @@
   "vac_tgt_pct": 6.9,
   "vac_rush_pct": 4.3,
   "play_caller": "Brian Schottenheimer (HC — confirmed 8/13 over Adams camp buzz)",
-  "coach_note": "Schottenheimer (HC) confirmed 8/13 he keeps regular-season play-calling; Adams ran preseason calls only."
+  "coach_note": "Schottenheimer (HC) confirmed 8/13 he keeps regular-season play-calling; Adams ran preseason calls only.",
+  "hc": "Brian Schottenheimer"
  },
  "DEN": {
   "win_total": 9.5,
@@ -129,7 +133,8 @@
   "slow_start": true,
   "vac_tgt_pct": 2.8,
   "vac_rush_pct": 1.3,
-  "play_caller": "Davis Webb (OC — Payton handed off, first time since 2006)"
+  "play_caller": "Davis Webb (OC — Payton handed off, first time since 2006)",
+  "hc": "Sean Payton"
  },
  "DET": {
   "win_total": 10.5,
@@ -141,7 +146,8 @@
   "coach_note": "Petzing new OC — scheme change off elite baseline",
   "vac_tgt_pct": 13.8,
   "vac_rush_pct": 37.2,
-  "play_caller": "Drew Petzing (OC — Campbell relinquished)"
+  "play_caller": "Drew Petzing (OC — Campbell relinquished)",
+  "hc": "Dan Campbell"
  },
  "GB": {
   "win_total": 9.5,
@@ -153,7 +159,8 @@
   "new_oc": false,
   "vac_tgt_pct": 37.4,
   "vac_rush_pct": 31.1,
-  "play_caller": "Matt LaFleur (HC)"
+  "play_caller": "Matt LaFleur (HC)",
+  "hc": "Matt LaFleur"
  },
  "HOU": {
   "win_total": 9.5,
@@ -164,7 +171,8 @@
   "new_oc": false,
   "vac_tgt_pct": 18.0,
   "vac_rush_pct": 28.6,
-  "play_caller": "Nick Caley (OC, retained calling)"
+  "play_caller": "Nick Caley (OC, retained calling)",
+  "hc": "DeMeco Ryans"
  },
  "IND": {
   "win_total": 7.5,
@@ -176,7 +184,8 @@
   "slow_start": true,
   "vac_tgt_pct": 25.5,
   "vac_rush_pct": 5.7,
-  "play_caller": "Shane Steichen (HC)"
+  "play_caller": "Shane Steichen (HC)",
+  "hc": "Shane Steichen"
  },
  "JAX": {
   "win_total": 8.5,
@@ -187,7 +196,8 @@
   "new_oc": false,
   "vac_tgt_pct": 22.1,
   "vac_rush_pct": 54.8,
-  "play_caller": "Liam Coen (HC)"
+  "play_caller": "Liam Coen (HC)",
+  "hc": "Liam Coen"
  },
  "KC": {
   "win_total": 10.5,
@@ -199,7 +209,8 @@
   "coach_note": "Bieniemy returns as OC — Reid offense continuity",
   "vac_tgt_pct": 31.7,
   "vac_rush_pct": 70.2,
-  "play_caller": "Andy Reid (HC — Bieniemy oversees run game)"
+  "play_caller": "Andy Reid (HC — Bieniemy oversees run game)",
+  "hc": "Andy Reid"
  },
  "LV": {
   "win_total": 5.5,
@@ -226,7 +237,8 @@
   "new_oc": true,
   "vac_tgt_pct": 29.5,
   "vac_rush_pct": 7.2,
-  "play_caller": "Mike McDaniel (OC)"
+  "play_caller": "Mike McDaniel (OC)",
+  "hc": "Jim Harbaugh"
  },
  "LAR": {
   "win_total": 11.5,
@@ -239,7 +251,8 @@
   "coach_note": "Scheelhaase new OC under McVay — McVay still the brain",
   "vac_tgt_pct": 2.6,
   "vac_rush_pct": 1.9,
-  "play_caller": "Sean McVay (HC)"
+  "play_caller": "Sean McVay (HC)",
+  "hc": "Sean McVay"
  },
  "MIA": {
   "win_total": 4.5,
@@ -264,7 +277,8 @@
   "new_oc": false,
   "vac_tgt_pct": 14.5,
   "vac_rush_pct": 5.4,
-  "play_caller": "Kevin O'Connell (HC)"
+  "play_caller": "Kevin O'Connell (HC)",
+  "hc": "Kevin O'Connell"
  },
  "NE": {
   "win_total": 10.5,
@@ -275,7 +289,8 @@
   "new_oc": false,
   "vac_tgt_pct": 27.5,
   "vac_rush_pct": 15.1,
-  "play_caller": "Josh McDaniels (OC)"
+  "play_caller": "Josh McDaniels (OC)",
+  "hc": "Mike Vrabel"
  },
  "NO": {
   "win_total": 7.5,
@@ -314,7 +329,8 @@
   "slow_start": true,
   "vac_tgt_pct": 24.4,
   "vac_rush_pct": 25.7,
-  "play_caller": "Frank Reich (OC)"
+  "play_caller": "Frank Reich (OC)",
+  "hc": "Aaron Glenn"
  },
  "PHI": {
   "win_total": 10.5,
@@ -326,7 +342,8 @@
   "coach_note": "Mannion 1st-time caller: Saquon receiving role up, DeVonta uncontested targets; unpredictability risk",
   "vac_tgt_pct": 36.9,
   "vac_rush_pct": 2.5,
-  "play_caller": "Sean Mannion (OC)"
+  "play_caller": "Sean Mannion (OC)",
+  "hc": "Nick Sirianni"
  },
  "PIT": {
   "win_total": 8.5,
@@ -350,7 +367,8 @@
   "new_oc": false,
   "vac_tgt_pct": 29.9,
   "vac_rush_pct": 19.5,
-  "play_caller": "Kyle Shanahan (HC)"
+  "play_caller": "Kyle Shanahan (HC)",
+  "hc": "Kyle Shanahan"
  },
  "SEA": {
   "win_total": 10.5,
@@ -362,7 +380,8 @@
   "coach_note": "Fleury (first-time play-caller at ANY level, 7yr Shanahan-tree assistant) keeps Kubiak 2025 scheme but Macdonald says calling \"will be different\" — execution risk, scheme continuity. JSN target share worth monitoring.",
   "vac_tgt_pct": 7.7,
   "vac_rush_pct": 44.6,
-  "play_caller": "Brian Fleury (OC, first-time caller ever)"
+  "play_caller": "Brian Fleury (OC, first-time caller ever)",
+  "hc": "Mike Macdonald"
  },
  "TB": {
   "win_total": 8.5,
@@ -374,7 +393,8 @@
   "coach_note": "Zac Robinson (McVay tree): Egbuka lead role, Godwin absorbs departed Evans targets; backfield unclear (Irving shoulder)",
   "vac_tgt_pct": 29.7,
   "vac_rush_pct": 30.1,
-  "play_caller": "Zac Robinson (OC)"
+  "play_caller": "Zac Robinson (OC)",
+  "hc": "Todd Bowles"
  },
  "TEN": {
   "win_total": 6.5,
@@ -400,7 +420,8 @@
   "coach_note": "Blough 1st-time caller — hard scheme break from Kingsbury: Daniels heavily under center, zone-run/play-action, away from league-leading shotgun rates.",
   "vac_tgt_pct": 52.3,
   "vac_rush_pct": 32.2,
-  "play_caller": "David Blough (OC)"
+  "play_caller": "David Blough (OC)",
+  "hc": "Dan Quinn"
  },
  "coaches_verified": "2026-08-25 — all 32 HC/OC verified vs team sites/ESPN/NFL.com by 4-agent sweep; play_caller field added; no changes in last 30 days"
 }
