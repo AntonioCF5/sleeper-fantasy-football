@@ -103,14 +103,14 @@
     "Jaylen Waddle"
    ],
    "get": [
-    "Bo Nix",
-    "Mike Washington",
-    "MarShawn Lloyd"
+    "Caleb Williams",
+    "MarShawn Lloyd",
+    "(push: + Mike Washington)"
    ],
-   "state": "PROPOSED 2026-08-25 — user requested construction (no QB outgoing); ready to send",
-   "lineup_delta": "you 1831.4 -> 1756.5 (-74.9, rebuild-correct), them 1923.8 -> 1971.2 (+47.4)",
-   "why": "He rosters THREE startable QBs in a 1QB league (Hurts 302, Caleb 289, Nix 284) — Nix literally cannot enter his lineup — AND he is over the roster limit 26/23, so a 1-for-3 sheds two bodies he must cut anyway. Waddle (27) slots in as his WR2 (+47.4, DeVonta/Waddle/Jamo/Sutton). Our side: Nix (26) becomes the rebuild's QB1 — younger AND higher-projecting than Mahomes (283.7 vs 274.7), which unlocks selling Mahomes (alealvarez7 offer) with zero QB risk; Mike Washington (23) is THE Jeanty handcuff — insurance for the incoming crown asset of the ElGeneral4 package; Lloyd (25) is a clean Jacobs handcuff (protected-stash profile). Selling a 27yo WR at peak with McConkey (24), Golden (23), Downs (25) + incoming Flowers (25) behind him. Sweetener if he asks for a body: Aaron Jones (31) or Kamara (31) — NEVER Golden or any young asset. Roster math our side: after tonight's compliance cuts (23/23) this lands us 25/23 -> pair with cuts Kamara (31) + Nailor (27). No conflict with the Jeanty package (no shared pieces, different partner).",
-   "pitch": "Tienes tres QBs titulares y un solo slot — Nix no va a jugar un snap para ti, y estás 3 arriba del límite de roster. Te doy a Waddle, tu WR2 real desde el día uno, y de paso sueltas dos cuerpos que igual ibas a cortar esta semana."
+   "state": "COUNTERED BY HIM 2026-08-25: Caleb+Lloyd for Waddle — ACCEPT EITHER WAY; push once for Washington first",
+   "lineup_delta": "you 1831.4 -> 1762.1 (-69.3, rebuild-correct; Caleb 289 becomes QB1 over Mahomes 275), them 1923.8 -> 1971.2 (+47.4)",
+   "why": "His counter UPGRADES our ask: Caleb (24, 289.3, dynasty ADP 51) is a strictly better asset than Nix (26, 283.7, ADP 81) — younger, more points, twice the market value. Caleb enters as the rebuild's QB1 immediately and fully unlocks the Mahomes sale (alealvarez7 offer). Lloyd (25) is the clean Jacobs handcuff. The one push: include Mike Washington (Jeanty insurance) using HIS roster problem — he is 26/23 and must cut 3; giving 3 bodies leaves him one cut from legal instead of two, and Washington is his RB5. If he refuses: ACCEPT SAME NIGHT — a 97-proj lottery ticket never risks a won trade; chase Washington separately later (price rises if Jeanty lands; acceptable). Our roster after: 24/23 post-compliance -> paired cut Alvin Kamara (31).",
+   "pitch": "Va. Y aviéntame a Washington de una vez — igual estás 3 arriba del límite y contigo dando 3 cuerpos te queda un solo corte en vez de dos. Es tu RB5, ni lo vas a extrañar."
   }
  ]
 }
