@@ -90,7 +90,7 @@ def load_context(league_id):
     # BEFORE tiers form, so tiers/ranks reflect risk-adjusted value.
     # ONE shared pipeline with reports.draft_report (coherence rule).
     prev_season = str(int(season) - 1)
-    analysis.apply_standard_risk(board, league, season, players, style_map=style)
+    risk = analysis.apply_standard_risk(board, league, season, players, style_map=style)
     analysis._assign_tiers(board)
     # Last-season usage shares — the experts' "stickiest" stats (visibility
     # columns; projections already price expected roles, so no VORP change).

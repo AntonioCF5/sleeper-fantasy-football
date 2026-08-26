@@ -515,7 +515,7 @@ def apply_standard_risk(board, league, season, players, style_map=None):
     draft reports and the dashboard must rank identically). Builds the
     style map (unless given), prior-season durability, per-player risk
     index, then applies the systematic VORP discount and re-ranks.
-    Returns the style map so callers can reuse it."""
+    Returns the per-player risk map (callers display it as the risk column)."""
     scoring = league.get("scoring_settings", {})
     positions = league_positions(league)
     if style_map is None:
@@ -541,7 +541,7 @@ def apply_standard_risk(board, league, season, players, style_map=None):
             pl, r["pos"], prev_games.get(r["player_id"]),
             style_map.get(r["player_id"]))
     apply_risk(board, risk)
-    return style_map
+    return risk
 
 
 # ---------------------------------------------------- league winners
