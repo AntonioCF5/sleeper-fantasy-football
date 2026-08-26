@@ -118,15 +118,20 @@
    "league_id": "1388097370255794176",
    "partner": "Jro91",
    "give": [
-    "Patrick Mahomes"
+    "Patrick Mahomes",
+    "Aaron Jones",
+    "Cyrus Allen (taxi)",
+    "2027 2nd (own)"
    ],
    "get": [
-    "Quinshon Judkins (accept Skattebo counter too)"
+    "Quinshon Judkins",
+    "Cam Skattebo",
+    "Sam Darnold"
    ],
-   "state": "ACTIVE — SEND NOW 2026-08-25: gate lifted (Caleb trade executed) and the alealvarez7 fallback died, so this is the ONLY live Mahomes market. Mahomes for Judkins; accept a Skattebo counter; sweeteners vets only; 24-48h fuse. If it dies too, hold Mahomes — with Caleb as QB1 he is pure trade inventory, no rush to dump at a discount.",
-   "lineup_delta": "you (post-consolidation 1776.4) -> 1811.3 (+34.9) with Judkins / 1816.5 (+40.1) with Skattebo; him ~0 either way (RB surplus never starts, Mahomes doesn't beat Lawrence)",
-   "why": "Better return than Tuten+pick for the same chip: Judkins (22, CLE starting RB1, dynasty ADP 41) ~= Tuten (ADP 68) + a real 2nd, consolidated into one player two years younger — and this version keeps Otton (TE room stays Helm+Otton+Theo). Jro91 has FIVE startable RBs (Cook 261, Swift 208, Skattebo 201, Judkins 196, Monangai 155) for two slots — Judkins is pure surplus he cannot start. His incentive is the weak point: Lawrence 291 is his QB1, so Mahomes is a luxury QB2 over Darnold (29) for a #6 contender — hence the short fuse and the motivated-buyer fallback. If Jeanty also lands: Jeanty (22) + Judkins (22) backfield, both starting RB1s. Skattebo counter (24, ADP 45, +40.1) is also a clean accept.",
-   "pitch": "Tienes cinco RBs para dos slots y a Darnold de respaldo en plena ventana de campeonato. Judkins no va a jugar un snap para ti; Mahomes te asegura la temporada si Lawrence truena."
+   "state": "SENT BY USER 2026-08-25, REVIEWED = APPROVED — aggressive-correct double-RB consolidation; awaiting his answer",
+   "lineup_delta": "you (post-cuts) 1762.1 -> 1861.1 (+99.0 — BOTH RBs start); with the Jeanty package on top: 1842.4, every skill starter <=25. Him 1982.8 -> 1964.9 (-17.9)",
+   "why": "User-built and better than my single-Judkins version: consolidates BOTH young starting RB1s (Judkins 22/ADP 41, Skattebo 24/ADP 45) plus Darnold (251) as the flippable QB2 behind Caleb. Costs named and accepted: the own 2027 2nd (with the 1st in the Jeanty deal, 2027 capital is now nearly empty — NO MORE 2027 pick trades after this) and Cyrus Allen (youth out, but he was taxi-overflow 8/6, 4th-5th in the cut line — converting a forced cut into trade grease, the Kamara play). His side is fair, not a fleece: Mahomes upgrades his QB2 insurance over Darnold, the early 2nd is his prize, Cook/Swift/Monangai remain. IF ACCEPTED: actives go 24/23 -> extra cut Nailor (27); taxi 8->7/6 -> cut only Felton, Black survives. COUNTER RULES: if he pulls Judkins, pull the 2nd (Mahomes+Jones for Darnold+Skattebo is the fair core); any ask for Golden/McConkey/young = no.",
+   "pitch": "(ya enviada por el user)"
   }
  ]
 }
