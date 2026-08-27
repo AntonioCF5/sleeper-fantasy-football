@@ -275,3 +275,64 @@ and Brian Thomas Jr. for him inside 24 hours.
   before the fantasy playoffs, late enough that schedule strength evens out.
   They validate it against prior-year week-4 standings rather than
   asserting it (2025: Baltimore 1-3, Arizona 2-2 and never winning again).
+
+## Added 2026-08-26 (Sal "7 rules" + FF "My Guys" Ep. 1958)
+
+- **Coach-speak filter: the unprompted name is the signal** [FF]. When a
+  coach answers a question about player A by volunteering player B, B is
+  the tell. Archetype: Jets OC Frank Reich, asked about Omar Cooper Jr.,
+  volunteered that Garrett Wilson is the offense's "bell cow." This is the
+  positive counterpart to the existing camp-report filter (coach *praise*
+  is noise) — what makes it signal is that the pivot was unsolicited.
+- **For QBs, weight avoided sacks over completion percentage** [FF, via
+  Ryan Heath / Fantasy Points]. Completion % is near the bottom of the
+  correlation list to next-season fantasy PPG; avoided sacks correlates
+  roughly 3x as strongly, and pressure-to-sack ratio is also high. Use this
+  when a QB's public knock is accuracy — it is usually the wrong stat.
+- **Receiver-room consolidation is a mechanical, screenable projection
+  input** [FF]. When a team removes the rotational bodies (Doubs/Wicks in
+  GB, Keenan Allen in LAC), the remaining WR1's volume concentration is
+  predictable — unlike the thin-backfield fallacy, this one has a real
+  channel (routes previously run by departed players must be re-assigned).
+  Screen: departures minus arrivals in a receiving room, then check whether
+  the survivor's ADP moved.
+- **Route-usage diversity as the proof a role actually changed** [FF, via
+  Josh Norris]. Snap count alone can't distinguish "same job, more snaps"
+  from "new job." The rate of horizontal-breaking (out) routes is the
+  evidence: Christian Watson went 7.7% (2022-24) → 35% last year.
+- **Suspension-risk pairing rule** [FF]. Don't pay a fade discount at the
+  pick for an incumbent under unresolved suspension risk — draft him at
+  price and force his direct backup onto your bench late. Live case: Josh
+  Jacobs / MarShawn Lloyd. This is the draft-side twin of our handcuff
+  protection rule, and it argues the pair should be *acquired together*.
+- **The only-path-to-failure-is-injury buy signal** [FF]. When role, depth
+  chart, offense and contract are all already resolved in a player's favor,
+  the residual risk is injury — which every player carries — so that
+  profile is precisely where conviction is cheapest. (Their Kenneth Walker
+  case; the useful part is the checklist, not the player.)
+- **Draft-capital floors** [FF]. A top-10 NFL draft pick at WR is
+  effectively guaranteed ~100 targets and near-100% snaps from week one, so
+  his floor is set by capital independent of QB quality. Companion base
+  rates recorded this run: 12 of 15 first-round RBs averaged 18+
+  opportunities per game in year two; 60% of first-round QBs who finished
+  top-10 in year two exceeded 20 FPPG in year three.
+- **Ignore preseason box scores, read preseason usage** [Sal + FF, now
+  agreed across both sources]. Sal: starters play a drive or two and that
+  is enough to read the OL, the third-down and red-zone backfield, and who
+  plays slot in 3-WR sets. FF supply the counter-evidence for production:
+  Chase 1-of-5, London 1-of-1, A.J. Brown 1-of-3 this preseason. Our
+  existing "decode preseason by usage" note now has both sources behind it.
+- **Bye weeks should never influence a draft pick** [Sal]. Even seven
+  shared byes is fine — by the time the bye arrives the roster has churned
+  through trades, waivers and bench promotions. (Note: this is a *draft*
+  rule; our weekly bye-stacking check for planned starting lineups is a
+  different question and stands.)
+- **Never draft a worse player to fill a lineup slot** [Sal]. Having three
+  RBs and three WRs by round 6 does not obligate a TE or QB next.
+- **Roster-need espionage after round 4** [Sal]. Read which positions your
+  league-mates have already filled: if three managers already have three
+  RBs, wait an extra round on RB; if everyone has a QB by round 8, a second
+  QB run won't come. Our live-draft engine already models survival-to-next-
+  turn from ADP — this is the manual override when the room deviates.
+- **Keep 5-6 names queued at all times** [Sal]. The damage from getting
+  sniped is not the lost player, it's the panic pick that follows.

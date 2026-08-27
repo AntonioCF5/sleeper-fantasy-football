@@ -1,7 +1,7 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-25** (preseason final
+tooling, or league state. Last updated: **2026-08-26** (preseason final
 week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
 expert-daily 8/25 run refreshed trades + claims).*
 
@@ -219,7 +219,28 @@ tells the user to re-check news once before accepting.
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims — CURRENT SET 2026-08-25 (corrected by the
+- [ ] **Waiver claims — CURRENT SET 2026-08-26** (`data/intel/waiver_claims.json`
+  is the source of truth and ALWAYS wins over this summary). COMPLIANCE
+  FIRST — both dynasty rosters are still ILLEGAL and no waiver can process:
+  **DYNASTY TRC** 30 active vs 25 cap → cut Brissett (33), Conner (31),
+  Ridley (31), Parkinson (27), Packers DEF (IR is unusable — this league
+  allows Out/Sus/NA only and everyone left is Questionable). **Gallamijos
+  Dynasty** 27 vs 23 + taxi 8 vs 6 → cut Cowing, Tillman, Hollins, Engram;
+  taxi Felton + Black (if the Jro91 trade lands: Cyrus Allen leaves taxi so
+  only Felton goes, and it nets +1 active → one more cut, Nailor). THEN:
+  GALD claim **Colbie Young (24) $5, drop Panthers DEF** (re-paired — Engram
+  became a compliance cut). CHANGED 8/26: the **Barion Brown claim is DEAD**
+  (RGV95 rostered him before waivers ran — do not re-bid), **Xavier
+  Hutchinson stays skip** (after the five cuts TRC sits exactly 25/25 and
+  every remaining body is startable, a protected handcuff, or a 23yo stash),
+  **MarShawn Lloyd is a protected hold in Dynasty Mexica AND DYNASTY TRC** —
+  Packers GM Gutekunst confirmed on the record they are preparing for a Josh
+  Jacobs suspension, he is the #1 add in fantasy (171,684), and the
+  clean-handcuff test passes on live data (Jacobs 202.6 at depth 1, best
+  depth-3+ Packer 56.3; Emanuel Wilson left for Seattle). New skips: Justice
+  Hill (clean Henry handcuff but 28 on a rebuild), Darren Waller (33).
+  Dynasty Mexica and League of Record: no claims, both legal and full.
+- [ ] *(superseded 2026-08-26)* **Waiver claims — SET 2026-08-25 (corrected by the
   roster-compliance audit; `data/intel/waiver_claims.json` is the source of
   truth and ALWAYS wins over this summary)**: FIRST the compliance cuts —
   rosters were over limit and waivers can't process until legal. DYNASTY
@@ -247,6 +268,21 @@ tells the user to re-check news once before accepting.
   spots. New standing rule in memory (dynasty-value-waivers) + scheduled
   task. Beat note: Malik Davis named DAL RB2 favorite — contradicts Sal's
   Jaydon Blue handcuff take; Blue watch-list only.
+- [ ] **Expert-daily review candidates (2026-08-26 edition)**:
+  (a) **Eli Stowers tripwire has now fired on THREE independent sources** —
+  Jimmy Kempski (PhillyVoice) reported 8/26 he may be a game-day inactive
+  even once the hamstring clears, joining Sal's and FF's fades, while our
+  TE-premium League of Record board still shows +63 / rank 176-186. Second
+  consecutive edition. Likely cause unchanged: a TE-premium bonus applied to
+  a projection that assumes a role he does not have. Needs a live decision —
+  either document why the board stands or adjust with a written reason.
+  (b) **Puka Nacua suspension claim is single-source and unverified** — FF
+  said he is "facing a possible suspension pending NFL investigation";
+  Sleeper's wire attributes his two-week absence from team drills entirely
+  to a groin/psoas issue and mentions no investigation. NOT repeated in the
+  edition and NOT allowed to move the Terrance Ferguson take. Recheck.
+  (c) BAL/NYG play-callers (Doyle, Nagy) are still presumed, not confirmed —
+  recheck at week 1 as planned. No coaching changes anywhere on 8/26.
 - [ ] **Expert-daily review candidates (2026-08-25 edition)**:
   (a) **RESOLVED same night** — Gallamijos League is NOT PPFD: the
   archetype playbook was corrected (yardage-bonus ceiling tilt, branch

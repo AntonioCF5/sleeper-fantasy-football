@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "sources": [
    "sal-vetri",
    "fantasy-footballers"
@@ -2063,6 +2063,437 @@
    ],
    "date": "2026-08-24",
    "player_id": "6797"
+  },
+  {
+   "player": "Colston Loveland",
+   "player_id": "12517",
+   "team": "CHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Mike's my guy at a 4th-round ADP; he believes Loveland finishes overall TE1, past McBride and contending with Bowers.",
+   "mechanism": "Closed his rookie year as the centerpiece of the Bears offense (49 targets, four straight double-digit-target games over the final four incl. playoffs), deployed all over the formation rather than in-line, and is the No. 1 option in a Ben Johnson offense whose stated goal is a scoring record.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R4"
+  },
+  {
+   "player": "Garrett Wilson",
+   "player_id": "8146",
+   "team": "NYJ",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Jason's my guy — drafted at his floor around WR20-22 with top-10 upside.",
+   "mechanism": "Target share is the stickiest year-over-year WR stat; Wilson averages 28% over four seasons (30% last year) and every other player at 27%+ goes inside the top 12, so the discount is priced off the Jets passing environment, which improves with Geno Smith.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R4, 12t R5"
+  },
+  {
+   "player": "De'Zhaun Stribling",
+   "player_id": "13417",
+   "team": "SF",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Andy's my guy — a rare 'safe rookie WR' worth taking in the 8th despite a 10th-13th-round ADP.",
+   "mechanism": "33rd overall draft capital plus a Shanahan offense that game-plans around individual players, a wide-open depth chart (Pearsall out, Kirk hurt, Kittle post-Achilles, Deebo behind Malik Turner) and a record preseason rookie target share — with real traits (6'2\" 207, 4.36).",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R10, 12t R8"
+  },
+  {
+   "player": "Kenneth Walker",
+   "player_id": "8151",
+   "team": "KC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Mike's my guy — mid-2nd-round cost for a player he'd take in round 1; overall RB2 upside if healthy.",
+   "mechanism": "KC signed him to fix a specific deficiency (last in explosive rush rate and forced-missed-tackle rate) that his profile solves (10 runs of 20+, 3rd-best 10+ yard rush rate, No. 1 in forced missed tackle rate), no real depth-chart competition, and Andy Reid's RB1 historically averaged 22 opportunities and ~20 PPR points per game.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R2"
+  },
+  {
+   "player": "Carnell Tate",
+   "player_id": "13279",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Jason's my guy — a 7th-round WR29-30 with top-15 upside who can't realistically finish worse than ADP.",
+   "mechanism": "Top-10 NFL draft picks at WR are effectively guaranteed ~100 targets and near-100% snaps from week one, and Brian Daboll historically funnels enormous volume to his WR1 (Diggs, then Nabers with a similar WR2 and bad QB play).",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R7"
+  },
+  {
+   "player": "Caleb Williams",
+   "player_id": "11560",
+   "team": "CHI",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Andy's my guy — a 7th/8th-round QB7 ADP that prices in zero growth; expects a big year-three jump.",
+   "mechanism": "The main knock (completion %) is one of the lowest-correlating QB stats to next-season PPG while avoided sacks correlates ~3x as strongly and the Bears repaired the line and pressure-to-sack ratio; add rushing upside, three elite weapons, 4th-most end-zone attempts, a 28th-to-9th jump in points per game under Ben Johnson, and the base rate that 60% of first-round QBs top-10 in year two exceed 20 FPPG in year three.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R7, 12t R8"
+  },
+  {
+   "player": "Christian Watson",
+   "player_id": "8167",
+   "team": "GB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Mike's my guy — a late-6th pick he thinks can swing seasons; draft as WR3, finish WR2 or better.",
+   "mechanism": "His problem was volume, not talent, and volume is now solved by receiver-room consolidation (Doubs and Wicks gone), a new extension, a scheme shift to under-center play action, a move to Z, and an out-route rate jump from 7.7% (2022-24) to 35% — backed by finishing WR11 from week 11 on.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R6"
+  },
+  {
+   "player": "Omarion Hampton",
+   "player_id": "12507",
+   "team": "LAC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Jason's my guy — a three-down back he'd take over Ashton Jeanty.",
+   "mechanism": "Already owns the goal-line role (80% of goal-line carries) and a pass-catching role with a checkdown QB (19 routes, 3.6 receptions per game as a rookie), the line is far better with Alt and Slater back, Alec Ingold imports the McDaniel outside-zone fullback scheme, and 12 of 15 first-round RBs averaged 18+ opportunities per game in year two.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Ladd McConkey",
+   "player_id": "11635",
+   "team": "LAC",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Andy's most locked-in name all offseason — 'this year's JSN' at a round's discount.",
+   "mechanism": "The sophomore dip was a catch-rate collapse from Herbert under constant pressure plus Keenan Allen soaking targets, not a target decline (only six fewer targets); with Allen gone, a better line, McDaniel moving him around, and no volume threat from Tre' Harris or Quentin Johnston, he is the clear focal point.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Kyle Pitts",
+   "player_id": "7553",
+   "team": "ATL",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Andy expects Pitts on many of his teams at a late-6th/7th cost, with PPR value 'through the roof.'",
+   "mechanism": "Pitts led the Falcons in routes, targets, receptions and receiving yards last season (only McBride matched that) and is now used in a low-aDOT role with 63% of targets under 10 yards, converting volume straight into PPR points.",
+   "videos": [
+    "m7ttmO4eggE"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R7"
+  },
+  {
+   "player": "Josh Jacobs",
+   "player_id": "5850",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Mike raised Jacobs' risk rating in the UDK; still draftable at the right spot, but if you take him you must bench-stash MarShawn Lloyd.",
+   "mechanism": "The Packers GM said the team is actively preparing to sustain a possible Jacobs suspension, with wording implying it could land mid-season — an unresolvable variable on a top-three-round pick.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R3"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "player_id": "11581",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "A last-round pick and a mandatory bench stash for anyone who drafts Josh Jacobs.",
+   "mechanism": "A pending Jacobs suspension would open the backfield, and Lloyd's draft capital is barely below Jonathon Brooks' — the market wrote him off purely on injury history with no NFL sample.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R15"
+  },
+  {
+   "player": "Keenan Allen",
+   "player_id": "1479",
+   "team": "IND",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Jason expects a top-20 PPR week every week in the first month; Andy isn't sure he wants him — consensus is a late-round grab in deeper leagues only.",
+   "mechanism": "The Colts' pass-catching room is decimated (Pierce and Downs injured, Warren's groin), which is why Indianapolis signed him, so early-season target volume defaults to him.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Bijan Robinson",
+   "player_id": "9509",
+   "team": "ATL",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "low",
+   "why": "They won't argue him off consensus RB2, but flag that things outside his control can go wrong.",
+   "mechanism": "The Atlanta team environment: games could be started by Jack Strand or Cooper Rush, and the Penix/Tua situation is a mess.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "player_id": "12527",
+   "team": "LV",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Take Amon-Ra St. Brown over Jeanty in the round 1-2 range.",
+   "mechanism": "Rounds 1-2 are where you buy reliability and proven production; Jeanty is a projection-type player and those don't belong in that range.",
+   "videos": [
+    "TaMp1eWL_XQ"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Amon-Ra St. Brown",
+   "player_id": "7547",
+   "team": "DET",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Preferred over Jeanty as the early-round pick.",
+   "mechanism": "Proven, reliable production is the specific asset rounds 1-2 buy, as opposed to projection.",
+   "videos": [
+    "TaMp1eWL_XQ"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Drake London",
+   "player_id": "8112",
+   "team": "ATL",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Jason would rather take Garrett Wilson in the 4th/5th than London in the 2nd.",
+   "mechanism": "Both carry the same bad-QB discount but London's isn't priced in — and last year, with equally bad QB play, Garrett Wilson outscored London by about a point per game in shared games.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26",
+   "round_or_adp": "12t R2"
+  },
+  {
+   "player": "Alec Pierce",
+   "player_id": "8142",
+   "team": "IND",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Was a locked my guy most of the offseason and was dropped in the last month.",
+   "mechanism": "Not enough progress, compounded by his injury situation.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Deebo Samuel",
+   "player_id": "5872",
+   "team": "SF",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Deebo is buried and won't meaningfully cut into Stribling's role.",
+   "mechanism": "Malik Turner was reportedly taking snaps above him on the WR depth chart.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Terrance Ferguson",
+   "player_id": "12487",
+   "team": "LAR",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Jason floats him as a quick waiver add if Puka Nacua misses time; Andy and Mike doubt he'd even be the team's top-scoring TE.",
+   "mechanism": "The Rams have no receiving depth behind Puka (Atwell gone), Ferguson is effectively the WR3 and the team plans heavy three-TE usage — but the room is crowded and he's spent two years learning X/Y/Z.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Jordan Love",
+   "player_id": "6804",
+   "team": "GB",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Mike argues Love is being ignored and the Watson consolidation case applies to him too.",
+   "mechanism": "The pass-rate concern (GB 28th) is offset by elite efficiency among 38 QBs with 200+ dropbacks — 1st in EPA with a clean pocket, 6th in passer rating, 7th in CPOE, 4th in pressure-to-sack ratio — plus a reported shift toward under-center play action.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Matthew Golden",
+   "player_id": "12501",
+   "team": "GB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "A secondary beneficiary of the Packers thesis, now one of two starters alongside Watson.",
+   "mechanism": "Receiver-room consolidation after Doubs and Wicks left removed the rotation that suppressed snap counts.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Tucker Kraft",
+   "player_id": "9484",
+   "team": "GB",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Named as another player the Packers consolidation argument applies to.",
+   "mechanism": "Same consolidation mechanism — fewer bodies rotating through the passing game.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Jayden Reed",
+   "player_id": "10222",
+   "team": "GB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "They like his role for Jordan Love even though he isn't reliable week to week.",
+   "mechanism": "Consolidation plus an established slot role, offset by week-to-week volatility.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Quentin Johnston",
+   "player_id": "9754",
+   "team": "LAC",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Andy: you're not going to get volume production out of Johnston.",
+   "mechanism": "The Chargers' passing volume funnels through Ladd McConkey as the focal point.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Tre' Harris",
+   "player_id": "12509",
+   "team": "LAC",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Andy likes him as a downfield piece but says there's no volume production there.",
+   "mechanism": "Same funnel argument — McConkey absorbs the vacated Keenan Allen volume, leaving a big-play-only role.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Rome Odunze",
+   "player_id": "11620",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Mike's answer to 'which Bear do you want' is Loveland, not Odunze or Burden — though a wideout can still pay off.",
+   "mechanism": "A tight end clears a much lower bar to finish top-three at his position than a WR does, so even if a wideout leads the team in targets, Loveland is the better fantasy bet.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "player": "Luther Burden",
+   "player_id": "12519",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Same Bears framing — Loveland over Burden, though Burden could still pay off.",
+   "mechanism": "Positional bar argument: the TE needs less volume than a WR to return top-three positional value.",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
   }
  ],
  "strategy_notes": [
@@ -3233,6 +3664,246 @@
     "Hk17wF7j17U"
    ],
    "date": "2026-08-24"
+  },
+  {
+   "fact": "Led the Falcons in routes, targets, receptions and receiving yards last season — the only other NFL TE to do that for his team was Trey McBride; 63% of his targets came under 10 yards.",
+   "about": "Kyle Pitts",
+   "about_player_id": "7553",
+   "source": "fantasy-footballers",
+   "videos": [
+    "m7ttmO4eggE"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Tenth overall pick who led the Bears in receiving yards as a 21-year-old rookie TE — first rookie TE to do that for the franchise since Mike Ditka.",
+   "about": "Colston Loveland",
+   "about_player_id": "12517",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Over the Bears' final four games he saw 49 targets with four straight double-digit-target games, was targeted on 35% of his routes, had 7 red-zone targets, and caught 8 for 137 and a TD in the wild card vs GB.",
+   "about": "Colston Loveland",
+   "about_player_id": "12517",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "One of only five players ever to begin a career with three straight 80-catch, 1,000-yard seasons, done with eight different QBs; 28% target share over four seasons and 30% last year in seven games.",
+   "about": "Garrett Wilson",
+   "about_player_id": "8146",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Was WR5 before his injury last year with four top-15 finishes in the first five weeks; excluding TDs he was on pace for 112 receptions and 1,300 yards.",
+   "about": "Garrett Wilson",
+   "about_player_id": "8146",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "The Jets passing offense failed to reach 2,800 team passing yards last year — only one other team in the last decade threw for fewer yards per game.",
+   "about": "New York Jets",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "The 27%+ target-share group drafted in the top 12 is JSN, Chase, Nacua, St. Brown, Jefferson, London, Flowers, A.J. Brown and Olave — Garrett Wilson is the lone member going around WR20.",
+   "about": "Garrett Wilson",
+   "about_player_id": "8146",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "33rd overall pick, 6'2\" 207, 4.36 combine; averaged 84 receiving yards per game over his last five college games; has broken every record for preseason target share by a rookie.",
+   "about": "Dajon Stribling",
+   "about_player_id": "13417",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Since 2019 at least four rookie WRs have finished inside the top 36 every year, except last year when only two did.",
+   "about": "rookie wide receivers",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Signed a three-year deal worth up to $45 million with Kansas City — the fifth-highest fully guaranteed RB contract in the league.",
+   "about": "Kenneth Walker",
+   "about_player_id": "8151",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Kansas City was dead last in explosive rush rate last year with one 20+ yard run as a team, tied for fewest 20+ yard plays that scored (four), and dead last in forced missed tackle rate.",
+   "about": "Kansas City Chiefs",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Had 10 runs of 20+ yards last year, 15% of carries went for 10+ (third best among RBs), No. 1 among RBs in forced missed tackle rate; in three playoff games 74 touches for 417 scrimmage yards, 23.4 fantasy PPG.",
+   "about": "Kenneth Walker",
+   "about_player_id": "8151",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "From 2004 to 2018 Andy Reid's RB1 averaged 22 opportunities per game, 110 total yards per game and nearly 20 PPR points per game.",
+   "about": "Andy Reid offenses",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Lead backs on teams with a 10.5-win total average over 1,250 total yards and 10.5 TDs; the Chiefs are favored in all of their first five games with a week 5 bye.",
+   "about": "Kansas City Chiefs",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Drafted 4th overall; led the nation in passer rating when targeted, 875 yards and nine TDs in a season sharing the field with Jeremiah Smith, five TDs of 40+, caught 12 of 14 contested targets, never dropped a pass; 5 targets and 0 receptions in the preseason.",
+   "about": "Carnell Tate",
+   "about_player_id": "13279",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Preseason lines for established stars: Ja'Marr Chase 1 reception on 5 targets, Drake London 1 catch on 1 target, A.J. Brown 1 catch on 3 targets.",
+   "about": "preseason WR production",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Per a Ryan Heath (Fantasy Points) correlation chart, completion percentage is one of the lowest-correlating QB stats to next-season fantasy PPG, while avoided sacks correlates roughly three times as strongly.",
+   "about": "quarterback projection",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Had the 4th-most end-zone pass attempts in the league, dropped 15 pounds this offseason, ADP is QB7 — the same finish as last year; the Bears jumped from 28th to 9th in points per game in year one under Ben Johnson. 60% of first-round QBs who finished top-10 in year two topped 20 fantasy PPG in year three.",
+   "about": "Caleb Williams",
+   "about_player_id": "11560",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "One of only three WRs since 2000 to average 17+ yards per reception with 20 TDs through their first four years; from week 11 on last year he was WR11, 2nd in yards per route run, tied 3rd in targets per route run and 1st in the NFL in first downs per route run; out-route rate went from 7.7% in 2022-24 to 35% last year (Josh Norris). Just signed a four-year extension.",
+   "about": "Christian Watson",
+   "about_player_id": "8167",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Among 38 qualifying QBs with 200+ dropbacks, Jordan Love was 1st in EPA with a clean pocket, 6th in passer rating, 7th in CPOE and 4th in pressure-to-sack ratio, while the Packers ranked 28th in pass rate.",
+   "about": "Jordan Love",
+   "about_player_id": "6804",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Took 80% of the goal-line carries last year (would have ranked 4th in the NFL), averaged 19 routes and 3.6 receptions per game, and led all RBs in avoided tackles per carry over the first five weeks before his injury.",
+   "about": "Omarion Hampton",
+   "about_player_id": "12507",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "12 of 15 first-round running backs in their second season averaged 18 or more opportunities per game, with those players averaging 10.3 touchdowns.",
+   "about": "second-year first-round running backs",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "One of seven WRs in the last decade with 200+ targets, 1,900 receiving yards and 13 TDs through two seasons — every player who has ever done it was a top-24 pick the following year. His sophomore drop was six fewer targets with a collapsed catch rate; 4th in yards per route run on go routes.",
+   "about": "Ladd McConkie",
+   "about_player_id": "11635",
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
+  },
+  {
+   "fact": "Keenan Allen was the Chargers' leading receiver last year and is now gone.",
+   "about": "Los Angeles Chargers",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "jM_iY5SDms4"
+   ],
+   "date": "2026-08-26"
   }
  ]
 }
