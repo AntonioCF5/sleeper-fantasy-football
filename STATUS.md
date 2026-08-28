@@ -1,7 +1,7 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-26** (preseason final
+tooling, or league state. Last updated: **2026-08-27** (preseason final
 week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
 expert-daily 8/25 run refreshed trades + claims).*
 
@@ -131,7 +131,11 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
-- [ ] **STANDING TRADE OFFERS — refreshed 2026-08-25, user to send** (full
+- [ ] **STANDING TRADE OFFERS — all six re-verified live 2026-08-27** (every
+  piece still on the correct side; none executed, none dead). **NEW FLAG:
+  the jetsdelalaguna offer and the ElGeneral4 accept both spend David
+  Montgomery — mutually exclusive, pick one before sending.** Details below,
+  refreshed 2026-08-25, user to send** (full
   packages + pitch scripts in the 2026-08-25 newsletter "Recommended
   trades"; single source of truth is `data/intel/trade_offers.json` —
   update state there AND here as sent/countered/dead):
@@ -218,8 +222,38 @@ tells the user to re-check news once before accepting.
   the user to decide live. Runs independently of interactive sessions now,
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
+- [ ] **Expert feed outage 2026-08-27**: both YouTube feeds (Sal Vetri AND
+  The Fantasy Footballers) failed all 25 curl retries, on two separate full
+  attempts — no scrape that day. Nothing was marked processed so the next
+  run picks it up automatically. If a second consecutive day fails on BOTH
+  channels, investigate `expert_watch._fetch_feed` rather than retrying.
+
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims — CURRENT SET 2026-08-26** (`data/intel/waiver_claims.json`
+- [ ] **Waiver claims — CURRENT SET 2026-08-27** (`data/intel/waiver_claims.json`
+  is the source of truth and ALWAYS wins over this summary). COMPLIANCE
+  FIRST — both dynasty rosters were re-read live on 8/27 and are STILL
+  ILLEGAL; no waiver can process. **DYNASTY TRC** 30 active vs 25 cap → cut
+  Brissett (33), Conner (31, now ARI depth 3 at 57.2), Ridley (31),
+  Parkinson (27), Packers DEF (IR re-checked and still unusable: 3 slots
+  open but the league takes Out/Sus/NA only and every injured body is
+  Questionable). **Gallamijos Dynasty** 27 vs 23 + taxi 8 vs 6 → active cuts
+  Cowing, Tillman (RELEASED by CLE 8/27, no team), Hollins, Engram; **TAXI
+  CUTS CORRECTED 8/27 → Will Howard + Tai Felton**. **Kaelon Black is now a
+  PROTECTED clean handcuff and must NOT be cut** — SF depth 2, McCaffrey
+  291.0 at depth 1 (Questionable, age 30), best depth-3+ Niner Jordan James
+  59.7 (< 80). Will Howard replaces him: PIT QB3 behind Rodgers/Rudolph,
+  projects 20.5, and was being evaluated for a concussion 8/27 with Allar in
+  line to take QB3 by default. If the Jro91 trade lands, Cyrus Allen leaves
+  the taxi → only ONE taxi cut needed (Howard), keep Felton, and it nets +1
+  active slot. THEN: GALD claim **Colbie Young (24) $5, drop Panthers DEF**
+  (re-verified FA 8/27). Standing skips: Barion Brown DEAD, Xavier
+  Hutchinson skip, Justice Hill (28) skip, Darren Waller (33) skip, **Jonnu
+  Smith skip NEW 8/27** (44.7k adds but the "competition for Kraft"
+  mechanism fails — Kraft TE1 174.4 vs Jonnu 31yo depth 2 at 35.9).
+  **MarShawn Lloyd remains a protected hold** in Dynasty Mexica AND DYNASTY
+  TRC. Dynasty Mexica and League of Record: no claims, both legal and full.
+
+- [ ] *(superseded 2026-08-27)* **Waiver claims — CURRENT SET 2026-08-26** (`data/intel/waiver_claims.json`
   is the source of truth and ALWAYS wins over this summary). COMPLIANCE
   FIRST — both dynasty rosters are still ILLEGAL and no waiver can process:
   **DYNASTY TRC** 30 active vs 25 cap → cut Brissett (33), Conner (31),
