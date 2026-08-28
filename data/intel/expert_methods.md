@@ -336,3 +336,24 @@ and Brian Thomas Jr. for him inside 24 hours.
   turn from ADP — this is the manual override when the room deviates.
 - **Keep 5-6 names queued at all times** [Sal]. The damage from getting
   sniped is not the lost player, it's the panic pick that follows.
+
+## Added 2026-08-28 (Sal RB Top-50 + FF Mock Draft Ep. 1959)
+
+- **Cross-season/cross-team opportunity normalization as a "was it real"
+  screen** [FF]. To test whether a breakout was opportunity-driven
+  (repeatable) or context-dependent (a one-off), line up the raw counting
+  stats against a DIFFERENT season on a DIFFERENT team and see what actually
+  moved. Rico Dowdle's 2024 Dallas line (284 opportunities, 235 carries,
+  1,079 yards, 39 catches, 2 TDs) is almost a carbon copy of his 2025
+  Carolina line (286/236/1,076/39/6) — touch-for-touch production repeated
+  almost exactly, and only the touchdown total varied. That converts "he got
+  hot for a few weeks" into "this is his true per-touch level," which is a
+  meaningfully different and more bettable claim.
+- **Beware team-name/coach-name corruption when transcribing rapid-fire
+  banter.** Fast, cross-talking podcast segments (and auto-captioned
+  monologues) occasionally garble a name into a phonetically-similar but
+  wrong one — e.g. a JAX committee breakdown got auto-captioned with the
+  wrong lead-back name entirely. Cross-check any team/coach/player pairing
+  against our own roster data (`sleeper/api.get_players()`) before trusting
+  it, and flag (don't silently correct) any claim the roster data
+  contradicts.

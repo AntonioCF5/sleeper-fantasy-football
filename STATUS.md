@@ -222,11 +222,20 @@ tells the user to re-check news once before accepting.
   the user to decide live. Runs independently of interactive sessions now,
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
-- [ ] **Expert feed outage 2026-08-27**: both YouTube feeds (Sal Vetri AND
-  The Fantasy Footballers) failed all 25 curl retries, on two separate full
-  attempts — no scrape that day. Nothing was marked processed so the next
-  run picks it up automatically. If a second consecutive day fails on BOTH
-  channels, investigate `expert_watch._fetch_feed` rather than retrying.
+- [x] **Expert feed outage 2026-08-27 — RESOLVED 2026-08-28**: was transient
+  (feeds responded normally the next check, one-day outage, not a code
+  bug — `_fetch_feed` needs no changes). The 3 videos missed that day were
+  caught up and distilled: 35 new takes + 23 new facts merged into
+  `expert_takes.json`, one methodology lesson added (cross-season/cross-team
+  opportunity normalization). One rookie WR take flagged `player_id: null`
+  — ASR-garbled name ("De'Jon Kumerow") with no confident match in the
+  player DB; left unresolved rather than guessed. **For your review**:
+  Gallamijos Dynasty now carries a same-roster-spot conflict — Rico Dowdle
+  AND Woody Marks are fresh high-conviction targets while David Montgomery
+  (same roster) is a fresh fade ("no upside/shaky floor") — worth a look
+  before next week's lineup call. If a future outage repeats on BOTH
+  channels a second consecutive day, that's when to investigate the fetch
+  code instead of just retrying.
 
 - [ ] Commit generated reports after each draft so history shows how calls aged.
 - [ ] **Waiver claims — CURRENT SET 2026-08-27** (`data/intel/waiver_claims.json`
