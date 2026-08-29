@@ -3061,6 +3061,70 @@
     "X7FAwwXDGMY"
    ],
    "date": "2026-08-27"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "His #1 league-winner at RB — Travis Etienne is gone and over 300 touches from this offense are up for grabs.",
+   "mechanism": "Etienne's departure vacates 300+ touches; the only competition, Chris Rodriguez, came into camp with a foot injury, offers nothing in the passing game and is not explosive — which is precisely Tuten's entire game.",
+   "round_or_adp": null,
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Tyler Warren",
+   "player_id": "12518",
+   "team": "IND",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "His #1 league-winner at TE — already a top-10 fantasy TE last year and the target competition just thinned out.",
+   "mechanism": "Ranked 3rd overall in TE targets in 2025 despite his QB getting hurt in Week 13; Michael Pittman's 111 targets are gone, Alec Pierce is coming off March surgery, and Daniel Jones (post-Achilles) will be less mobile and lean on the short-to-intermediate field where Warren operates.",
+   "round_or_adp": null,
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Kyler Murray",
+   "player_id": "5849",
+   "team": "MIN",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "His #1 league-winner at QB — mobile-QB upside going as roughly the QB10-11 despite the best situation of his career.",
+   "mechanism": "Rushing floor plus the best receiving room he has ever had (Justin Jefferson, Jordan Addison, Jauan Jennings, T.J. Hockenson), a good offensive line, and Kevin O'Connell as play-caller — a coach with a record of maximizing veteran quarterbacks.",
+   "round_or_adp": "going around QB10-11 overall at the position",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Rashee Rice",
+   "player_id": "10229",
+   "team": "KC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "His #1 league-winner at WR — 'feels like cheating' to get him in round 3 (12-team).",
+   "mechanism": "Led the NFL in red-zone target rate and designed target rate in 2025 and has produced as a top-5 fantasy WR whenever he has played over the last two years; no new target competition arrived (an aging Travis Kelce back, Marquise Brown let go), and the case rests on Mahomes being available Week 1.",
+   "round_or_adp": "12-team round 3 = overall picks 25-36 = mid-round 2 in an 18-teamer (MEXICA pick 27)",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
   }
  ],
  "strategy_notes": [
@@ -4701,6 +4765,86 @@
     "zrM8x7YIalw"
    ],
    "date": "2026-08-27"
+  },
+  {
+   "fact": "Travis Etienne's departure leaves over 300 touches from the 2025 Jacksonville offense up for grabs.",
+   "about": "Jacksonville Jaguars",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Chris Rodriguez entered 2026 training camp with a foot injury, hoping to be ready by Week 1; he offers nothing in the passing game and is not explosive.",
+   "about": "Chris Rodriguez",
+   "about_player_id": "10219",
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Tyler Warren finished as a top-10 fantasy tight end in 2025 and ranked 3rd overall in tight end targets, despite his quarterback getting hurt in Week 13.",
+   "about": "Tyler Warren",
+   "about_player_id": "12518",
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Michael Pittman's 111 targets from 2025 are gone from the Indianapolis offense.",
+   "about": "Indianapolis Colts",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Rashee Rice led the NFL in both red-zone target rate and designed target rate in 2025.",
+   "about": "Rashee Rice",
+   "about_player_id": "10229",
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Over the last two seasons, Rashee Rice has produced as a top-5 fantasy wide receiver in the games he has played.",
+   "about": "Rashee Rice",
+   "about_player_id": "10229",
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Kansas City brought back an aging Travis Kelce and Tyquan Thornton and let Marquise Brown go, adding no new target competition for Rashee Rice.",
+   "about": "Kansas City Chiefs",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "Kyler Murray is being drafted around the QB10-11 range despite being named Minnesota's Week 1 starter.",
+   "about": "Kyler Murray",
+   "about_player_id": "5849",
+   "source": "sal-vetri",
+   "videos": [
+    "Cym_IkTptAQ"
+   ],
+   "date": "2026-08-28"
   }
  ]
 }
