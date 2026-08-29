@@ -2079,10 +2079,11 @@
    "source": "fantasy-footballers",
    "direction": "target",
    "conviction": "high",
-   "why": "Mike's my guy at a 4th-round ADP; he believes Loveland finishes overall TE1, past McBride and contending with Bowers.",
+   "why": "Mike's my guy at a 4th-round ADP; he believes Loveland finishes overall TE1, past McBride and contending with Bowers. Re-cut 2026-08-28: he names Loveland as the answer to the offseason 'Luther Burden or Rome Odunze?' debate — Loveland is the Bears pass-catcher to own.",
    "mechanism": "Closed his rookie year as the centerpiece of the Bears offense (49 targets, four straight double-digit-target games over the final four incl. playoffs), deployed all over the formation rather than in-line, and is the No. 1 option in a Ben Johnson offense whose stated goal is a scoring record.",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "15x0TfcBhBs"
    ],
    "date": "2026-08-26",
    "round_or_adp": "12t R4"
@@ -2098,7 +2099,8 @@
    "why": "Jason's my guy — drafted at his floor around WR20-22 with top-10 upside.",
    "mechanism": "Target share is the stickiest year-over-year WR stat; Wilson averages 28% over four seasons (30% last year) and every other player at 27%+ goes inside the top 12, so the discount is priced off the Jets passing environment, which improves with Geno Smith.",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "gNhGg-EXCR8"
    ],
    "date": "2026-08-26",
    "round_or_adp": "12t R4, 12t R5"
@@ -3125,6 +3127,288 @@
     "Cym_IkTptAQ"
    ],
    "date": "2026-08-28"
+  },
+  {
+   "player": "Josh Jacobs",
+   "player_id": "5850",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Both hosts are now off him: Jason flipped from refusing to fade to \"he's off my board\", Andy was already out — the price is only tolerable in the pick-60-75 tier (they'd take Breece Hall, Jadarian Price, Bhayshul Tuten and Bucky Irving over him, and slot him just ahead of Jaylen Warren), and if you draft him you must roster the insurance back.",
+   "mechanism": "Formally charged with two misdemeanors (battery and criminal damage to property) from the May arrest, court appearance Nov 17; the NFL normally lets the legal process finish first and the Nov 17 date is expected to be a not-guilty plea with trial pushed to Jan/Feb, so the base case is a full 17-game 2026 with any suspension landing in 2027 (~4 games). The live tail risk is the garage surveillance video that produced the charges leaking publicly, which would trigger the commissioner's exempt list immediately — possibly the week he gets you to the fantasy playoffs. Mitigant they flag: no felony charge and the counts are NOT classified as domestic violence, which caps the exposure.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "12t ~R6, overall picks 60-75 (they say his ADP will fall a couple of rounds)"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "player_id": "11581",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "Named as the back who would inherit the Green Bay job outright if Jacobs is suspended — 'that is in fact the starter' — and therefore the mandatory pairing for anyone drafting Jacobs; conviction capped by durability, not role.",
+   "mechanism": "Jacobs' suspension tail is a knockout risk with no warning, and Lloyd is the depth-2 back; the hosts' own caveat is that betting on Lloyd to play a full game and exit healthy has historically been the wrong bet.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "last-round / bench stash"
+  },
+  {
+   "player": "Chris Brooks",
+   "player_id": "11370",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Explicit dynasty instruction: 'in dynasty leagues, please make sure Chris Brooks is on a roster' — he is the insurance back to the insurance back in Green Bay.",
+   "mechanism": "Two-deep contingency: Jacobs carries suspension risk and Lloyd carries injury risk, so the depth-3 back in a bell-cow backfield inherits a real workload in a non-trivial share of outcomes.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "undrafted in redraft; dynasty roster spot"
+  },
+  {
+   "player": "David Montgomery",
+   "player_id": "5892",
+   "team": "HOU",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Andy's pick as the 2026 Javonte Williams (RB39 ADP -> RB11 finish): an unexciting veteran on a contender, drafted outside the top-24 RBs, who owns the goal line — NOTE this directly contradicts Sal's 2026-08-27 high-conviction fade and our own board's bust-risk flag.",
+   "mechanism": "Houston converted only ~17% of their attempts inside the five-yard line last year and then went out and acquired a goal-line back, committing to Montgomery in that role; the offense is favored in six of its first seven games before the bye, and whatever Woody Marks does between the twenties, nobody disputes who is on the field near the goal line.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "12t 6.11 = overall pick ~71"
+  },
+  {
+   "player": "Jadarian Price",
+   "player_id": "13286",
+   "team": "SEA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Their cleanest 'you'll look back and say duh' pick: a late-drafted rookie RB who looks like he gets everything on the defending Super Bowl champs; Mike drafted him the same day.",
+   "mechanism": "Kenneth Walker is gone and Seattle's own draft-room footage (Hard Knocks) has the GM calling running back their biggest need; the only competition, George Holani, has roughly 25 career touches and is not pushing a first-round pick off the field. The one hole in the profile — no receiving work in college — is being answered by early camp reports and coach comments putting him in the passing game.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "12t 5.11 = overall pick ~59"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A situation worth 100% taking a chance on rather than a settled role: Etienne is out of the way, and the top-12 outcome is genuinely in his range at an RB25 price — the hosts note Jacksonville locked into a single back last year once they picked one, and the same could happen here.",
+   "mechanism": "Efficiency profile backs the volume bet: last year he converted 5 of 7 carries inside the five into touchdowns, and among 55 qualifying RBs finished 5th in rush success rate, 5th in percentage of yards after contact, and tied for 11th with Breece Hall in forced missed tackle rate. Committee risk is real but bounded — Chris Rodriguez is the goal-line variable and LeQuint Allen the receiving-down variable.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "RB25, 12t 6.01 = overall pick ~61"
+  },
+  {
+   "player": "Kyler Murray",
+   "player_id": "5849",
+   "team": "MIN",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Andy's 2026 Trevor Lawrence (QB21 ADP -> QB4 finish): a mobile QB going as the QB17 in the 13th round with a new offensive mind and a real WR1 — Mike pushed back hard, so treat conviction as split, not unanimous.",
+   "mechanism": "55% of his 82 career starts have been top-12 QB weeks, and he now gets Kevin O'Connell plus Justin Jefferson after an Arizona scheme that visibly failed to get anyone open; he is also a full year removed from the ACL. Mike's counter, which is the real audit: in his five healthy games last year he averaged 35 rushing yards a game and still never finished as a top-15 QB, and much of that 55% is front-loaded in his early career.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "QB17, 12t R13 = overall picks ~145-156"
+  },
+  {
+   "player": "Tyler Shough",
+   "player_id": "12545",
+   "team": "NO",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Still Andy's answer at the QB22 price, but he explicitly pulled back 'a bit' on the Jordyn Tyson injury — the thesis is a week-6-ish waiver-wire streamer you never give back, especially if Tyson returns in the second half.",
+   "mechanism": "Over weeks 14-18 last year he completed 70% of his passes, added 27 rushing yards a game and averaged 20 fantasy points per game — a mark Kyler Murray never hit in the same window; among 28 rookie QBs with 100+ attempts in the last five years he ranks 2nd in completion rate, 4th in passing yards per game and 6th in yards per attempt. Kellen Moore raises the play volume, and he did all of it without Tyson, with Chris Olave and Juwan Johnson as the early-season weapons.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "QB22, late-round"
+  },
+  {
+   "player": "Baker Mayfield",
+   "player_id": "4892",
+   "team": "TB",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Jason's pick as the 2026 Trevor Lawrence — the reverse comp, since Lawrence was arguably the 2025 Baker: a disrespected, undervalued QB in a contract year who was already producing before injuries wrecked the season.",
+   "mechanism": "He was the QB3 in 2024 with 378 rushing yards and ran for MORE last year (382) after everyone said the rushing wouldn't repeat; he was the QB4 through the first six weeks of last season and an MVP candidate before the Evans/his own/offensive-line injuries collapsed the offense. He is not under contract for next season and opens week 1 at Cincinnati with a 51.5 total.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "12t middle rounds"
+  },
+  {
+   "player": "Javonte Williams",
+   "player_id": "7588",
+   "team": "DAL",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Last year's version of this exact screen still hasn't been repriced — 'whenever I look at his ADP I still don't want to draft him, and I should' — the hosts agree he should be going higher than he is.",
+   "mechanism": "He is the bell-cow back on an offense they like, and everything that produced the RB11 finish (workload monopoly, good offense) is still in place; the discount is a perception lag from his pre-Dallas years, not a change in role.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Jalen Coker",
+   "player_id": "11646",
+   "team": "CAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Andy's 2026 Michael Wilson (undrafted -> WR11): a functionally free late-round WR he believes is an every-down player all year, and the late-round shot he is most willing to defend on tape, not just opportunity.",
+   "mechanism": "He already produced at the end of last year — four top-24 finishes in his final seven games plus 9 catches on 12 targets for 134 yards and a TD in the playoff loss to the Rams — is healthy again, and was rewarded with a three-year extension, which is the team telling you what his role is. Open variable is Tetairoa McMillan moving into the slot, and the QB is still Bryce Young.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "12t R13-R14 or undrafted = overall picks ~145-168"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "player_id": "9486",
+   "team": "PHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Mike's end-of-draft pick two days running and an upgrade in conviction from his 2026-08-27 'cheap dart' framing: with A.J. Brown gone he is locked in as the true No. 2 and the beat reporters are raving about the separation.",
+   "mechanism": "Targets per route run of 23% (2023), 30% (2024) and 21% (2025) — a higher per-route target rate over three years than Zay Flowers, Christian Watson or George Pickens; the historic knock is drops, not usage. The path cleared because the rookie competition faded: Makai Lemon missed heavy camp time and the Stowers hype went backwards.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "WR73, end of draft"
+  },
+  {
+   "player": "Makai Lemon",
+   "player_id": "13294",
+   "team": "PHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "The sexy first-round-pick name in Philadelphia, but the hosts are out this season — 'it will take more time' — and expect Wicks to take the role while he catches up.",
+   "mechanism": "He missed a large share of camp, and for a player who has never taken an NFL snap those are exactly the reps that cannot be skipped; the hosts describe the Lemon/Stowers hype train as running backwards.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Jack Bech",
+   "player_id": "12483",
+   "team": "LV",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Jason's deliberately absurd deep flier ('I recognize this is insane') as the 2026 Michael Wilson — the whole point of the screen is a near-zero-probability profile attached to a player they actually think is good.",
+   "mechanism": "He went team-by-team looking for a depth chart with no solidified WR1, and Las Vegas was the one: Jalen Nailor isn't good enough and Tre Tucker has flashes but no real emergence, so the room is genuinely open. Beat reporters say Bech has won the starting slot role and he is a better fit in Kubiak's system; the missing ingredient is snaps, which for Michael Wilson only arrived via a Marvin Harrison injury.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "round_or_adp": "final pick of the draft"
+  },
+  {
+   "player": "Jalen Nailor",
+   "player_id": "8180",
+   "team": "LV",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Considered and rejected as the Raiders' breakout candidate — 'he's just not good enough, we have seen enough of him to know he's not that dude.'",
+   "mechanism": "Sample-size-is-sufficient argument: he has had enough NFL exposure that continued non-production is treated as a talent read rather than an opportunity read.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Tre Tucker",
+   "player_id": "10213",
+   "team": "LV",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Also considered and rejected in the same Raiders screen — flashes, but not a player they expect to actually emerge as the WR1.",
+   "mechanism": "Flash plays without a sustained role; the hosts' framing is that his physical profile caps the workload he'll be given.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Dallas Goedert",
+   "player_id": "5022",
+   "team": "PHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Passing endorsement: 'what they've done this offseason is to make me like Dontayvion Wicks and Dallas Goedert' — the Eagles' pass-catcher uncertainty concentrates targets on the two proven bodies.",
+   "mechanism": "A.J. Brown's departure vacates targets and the rookie replacements (Lemon, Stowers) are not camp-ready, so the returning tight end absorbs share by default. Audit note: this is a vacated-target argument, which is the mechanism class that DOES hold — routes must be re-assigned — not the thin-backfield fallacy.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "player": "Davante Adams",
+   "player_id": "2133",
+   "team": "LAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Jason bought him in one of his own leagues and still feels good: 'if he's healthy, I don't know how he doesn't score a bunch' — a touchdown-equity bet, not a volume bet, and explicitly NOT a claim on his old statistical level.",
+   "mechanism": "Red-zone/target-quality reputation on a good offense; the hosts' own framing invokes the 33-year-old-Jerry-Rice comp, i.e. they are pricing decline and betting only on scoring.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
   }
  ],
  "strategy_notes": [
@@ -3281,6 +3565,30 @@
     "GgWSAJq9V1Y",
     "T_1YzK8gLgo"
    ]
+  },
+  {
+   "source": "fantasy-footballers",
+   "note": "Middle-round RB and middle-round TE are the two worst-priced blocks on the 2026 board [FF/Jason] — 'the opportunity cost is too great' there this year. The paired swing: late-round QB has gone so far out of fashion that QBs are falling past their value, so the current edge is the middle-round QB, not the last-round one. Strategy rotates every couple of years as ADP self-corrects; the job is to find whichever block the market has mispriced THIS season, not to re-run last year's rule.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "source": "fantasy-footballers",
+   "note": "Sleeper-definition inflation [FF]. With ADP now accurate front-to-back and the average manager far more informed, a genuine sleeper can no longer be a known player at a modest discount — it has to be a player where 'right now it seems impossible' and the honest base rate is near-total failure. Corollary they apply on the same breath: late-round shots must go to players you believe are actually GOOD, because 'there are late-round guys who just stink' and opportunity alone on a bad player is a wasted ticket. This is the same bar our league_winners screen enforces.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "source": "fantasy-footballers",
+   "note": "Dynasty horizon is three years, not ten [FF]. They rejected their own 10-year 'who would you take' question on principle: player trajectories are not forecastable past ~3 years, so dynasty value should be argued on a three-year window. Directly relevant to our never-cut-youth rule — a young stash's thesis should be defensible inside three seasons, not on an indefinite 'someday'.",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
   }
  ],
  "agreements": [
@@ -4312,7 +4620,8 @@
    "about_player_id": "12517",
    "source": "fantasy-footballers",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "15x0TfcBhBs"
    ],
    "date": "2026-08-26"
   },
@@ -4322,7 +4631,8 @@
    "about_player_id": "12517",
    "source": "fantasy-footballers",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "15x0TfcBhBs"
    ],
    "date": "2026-08-26"
   },
@@ -4332,7 +4642,8 @@
    "about_player_id": "8146",
    "source": "fantasy-footballers",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "gNhGg-EXCR8"
    ],
    "date": "2026-08-26"
   },
@@ -4342,7 +4653,8 @@
    "about_player_id": "8146",
    "source": "fantasy-footballers",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "gNhGg-EXCR8"
    ],
    "date": "2026-08-26"
   },
@@ -4362,7 +4674,8 @@
    "about_player_id": "8146",
    "source": "fantasy-footballers",
    "videos": [
-    "jM_iY5SDms4"
+    "jM_iY5SDms4",
+    "gNhGg-EXCR8"
    ],
    "date": "2026-08-26"
   },
@@ -4845,6 +5158,245 @@
     "Cym_IkTptAQ"
    ],
    "date": "2026-08-28"
+  },
+  {
+   "fact": "Josh Jacobs was formally charged with two misdemeanors stemming from the May arrest — misdemeanor battery and criminal damage to property (Tom Pelissero) — with a court appearance scheduled for November 17.",
+   "about": "Josh Jacobs",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5850"
+  },
+  {
+   "fact": "The NFL CBA minimum suspension for domestic abuse is six games, and that minimum applies in a felony circumstance; Jacobs was not charged with felonies and the counts were not classified as domestic violence.",
+   "about": "Josh Jacobs",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5850"
+  },
+  {
+   "fact": "A garage surveillance video was a component of the charges against Josh Jacobs; if it reaches the public, the commissioner's exempt list becomes an immediate in-season risk.",
+   "about": "Josh Jacobs",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5850"
+  },
+  {
+   "fact": "Expected legal calendar for Josh Jacobs (per Drew Davenport's read): the Nov 17 appearance is a not-guilty plea with a waived speedy trial, pushing an actual trial to January or February — so absent a video leak, a 2026-season suspension is unlikely and the hosts' bet is roughly four missed games in 2027.",
+   "about": "Josh Jacobs",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5850"
+  },
+  {
+   "fact": "Green Bay's contingency ladder behind Josh Jacobs: MarShawn Lloyd is the direct insurance back and would be the starter; Chris Brooks is the insurance back behind Lloyd.",
+   "about": "MarShawn Lloyd",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "11581"
+  },
+  {
+   "fact": "Javonte Williams was drafted as the RB39 last year and finished as the RB11 — the template for the 'RB drafted outside the top 24, attached to a good offense' screen.",
+   "about": "Javonte Williams",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "7588"
+  },
+  {
+   "fact": "Houston converted about 17% of their attempts inside the five-yard line last year, then acquired a goal-line back and committed to David Montgomery in that role; the Texans are favored in six of their first seven games before the bye.",
+   "about": "David Montgomery",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5892"
+  },
+  {
+   "fact": "12-team ADPs cited for the three 'outside the top-24 RB' picks: Jadarian Price 5.11 (overall ~59), Bhayshul Tuten 6.01 (overall ~61, RB25), David Montgomery 6.11 (overall ~71, RB26 and the latest of the three).",
+   "about": "David Montgomery",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5892"
+  },
+  {
+   "fact": "Seattle's Hard Knocks premiere shows GM John Schneider calling running back the team's biggest need in the draft room; George Holani, the only competition for Jadarian Price, has roughly 25 career touches.",
+   "about": "Jadarian Price",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "13286"
+  },
+  {
+   "fact": "Bhayshul Tuten last year converted 5 of his 7 carries inside the five-yard line into touchdowns; among 55 qualifying running backs he was 5th in rush success rate, 5th in percentage of yards after contact, and tied for 11th with Breece Hall in forced missed tackle rate.",
+   "about": "Bhayshul Tuten",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "12490"
+  },
+  {
+   "fact": "Jacksonville's other backfield variables are Chris Rodriguez at the goal line and LeQuint Allen on receiving downs.",
+   "about": "Bhayshul Tuten",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "12490"
+  },
+  {
+   "fact": "Trevor Lawrence was drafted as the QB21 last year and finished as the QB4 — the template for the late-round QB screen (outside the top 12, new OC or upgraded weapons, rushing floor).",
+   "about": "Trevor Lawrence",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28"
+  },
+  {
+   "fact": "55% of Kyler Murray's 82 career starts have been top-12 QB performances; he is being drafted as the QB17 in the 13th round (12-team). Counterpoint raised on the show: in his five healthy games last year he averaged 35 rushing yards per game and still never finished as a top-15 QB.",
+   "about": "Kyler Murray",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "5849"
+  },
+  {
+   "fact": "Tyler Shough over weeks 14-18 last year completed 70% of his passes, averaged 27 rushing yards per game and 20 fantasy points per game; among 28 rookie QBs with 100+ pass attempts over the past five years he ranks 2nd in completion rate, 4th in passing yards per game and 6th in yards per attempt. He is being drafted as the QB22.",
+   "about": "Tyler Shough",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "12545"
+  },
+  {
+   "fact": "Baker Mayfield was the QB3 in 2024 with 378 rushing yards and ran for 382 yards last year; he was the QB4 through the first six weeks of last season before the Mike Evans, personal and offensive-line injuries; he is not under contract for next season and opens week 1 at Cincinnati with a 51.5 over/under.",
+   "about": "Baker Mayfield",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "4892"
+  },
+  {
+   "fact": "Michael Wilson went undrafted in fantasy drafts last year and finished as the WR11 — the template for the 'non-rookie WR buried on a depth chart who breaks out' screen; his opportunity arrived only when Marvin Harrison Jr. was injured.",
+   "about": "Michael Wilson",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "10232"
+  },
+  {
+   "fact": "Jalen Coker had four top-24 weekly finishes in his final seven games last year and put up 9 catches on 12 targets for 134 yards and a touchdown in Carolina's playoff loss to the Rams; he is healthy and was rewarded with a three-year contract extension. He goes in the 13th-14th round or undrafted.",
+   "about": "Jalen Coker",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "11646"
+  },
+  {
+   "fact": "Dontayvion Wicks' targets per route run: 23% in 2023, 30% in 2024, 21% in 2025 — over the last three years a higher per-route target rate than Zay Flowers, Christian Watson or George Pickens. Now traded to Philadelphia and locked in by beat reporters as the No. 2 opposite DeVonta Smith with A.J. Brown gone; ADP is WR73.",
+   "about": "Dontayvion Wicks",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "9486"
+  },
+  {
+   "fact": "Beat reporters say Jack Bech has won the Raiders' starting slot role and that he is a better fit in Kubiak's system; Bech has 20 career receptions to date.",
+   "about": "Jack Bech",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "12483"
+  },
+  {
+   "fact": "TreVeyon Henderson should be good to go for week 1 (Boston Globe).",
+   "about": "TreVeyon Henderson",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "12529"
+  },
+  {
+   "fact": "Isiah Pacheco's knee injury is not a concern to Dan Campbell, but he is now dealing with a back issue as well.",
+   "about": "Isiah Pacheco",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "8205"
+  },
+  {
+   "fact": "There were rumors that a suspension for Puka Nacua was imminent; Sean McVay said specifically that Nacua's absence was not related to that.",
+   "about": "Puka Nacua",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "9493"
+  },
+  {
+   "fact": "Jordyn Tyson's injury is significant enough that the hosts pulled back on Tyler Shough; the Shough thesis is explicitly staged around Tyson returning in the second half of the season.",
+   "about": "Jordyn Tyson",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gh1WTjOcfLQ"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "13281"
+  },
+  {
+   "fact": "The Jets did not reach 2,800 team passing yards last year — only one other team in the last decade gained fewer passing yards per game, and the second-worst passing team last year (Cleveland) threw for 400 more yards than they did.",
+   "about": "Garrett Wilson",
+   "source": "fantasy-footballers",
+   "videos": [
+    "gNhGg-EXCR8"
+   ],
+   "date": "2026-08-28",
+   "about_player_id": "8146"
   }
  ]
 }

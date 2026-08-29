@@ -357,3 +357,45 @@ and Brian Thomas Jr. for him inside 24 hours.
   against our own roster data (`sleeper/api.get_players()`) before trusting
   it, and flag (don't silently correct) any claim the roster data
   contradicts.
+
+## Added 2026-08-29 (FF Ep. 1960 "Fantasy Time Machine" + two My Guy shorts)
+
+- **The "time machine" archetype screen** [FF]. To find this year's version
+  of last year's breakout, don't chase the name — decompose last year's
+  breakout into its *structural* preconditions and screen the current pool
+  against them, then hold the threshold honestly. Their three templates,
+  reusable as-is: (a) 2025 Javonte Williams = RB drafted outside the top 24
+  + attached to a good, favored offense + a monopoly role (they flagged
+  their own RB25/RB26 picks as "a toenail hanging over the line" rather than
+  quietly widening the filter); (b) 2025 Trevor Lawrence = QB drafted
+  outside the top 12 + new play-caller or upgraded weapons + enough rushing
+  to fill the gap; (c) 2025 Michael Wilson = non-rookie WR buried on a depth
+  chart with an unsettled WR1 room, whose opportunity arrives via injury or
+  departure. This is the same shape as our `league_winners` screen and
+  should be run as an explicit filter, not a vibe.
+- **A court date is not a suspension date** [FF, refining the existing
+  suspension-risk pairing rule]. The NFL normally lets the legal process
+  finish before disciplining, and a first appearance is typically a
+  not-guilty plea plus a waived speedy trial that pushes the trial months
+  out — so a fall court date usually means the current season is intact and
+  the discipline lands the *following* year. Two modifiers that actually
+  move the number: (1) charge severity — the CBA's six-game DV minimum is a
+  felony-circumstance floor, so a downgrade to misdemeanors, especially
+  counts not classified as domestic violence, materially caps exposure;
+  (2) public evidence — if video reaches the public, the commissioner's
+  exempt list fires immediately and without warning, which is a mid-season
+  knockout, not a scheduled absence. Practical pricing: treat the player as
+  a full-season asset carrying an unhedgeable tail, and make his direct
+  backup a mandatory pairing. Live case: Josh Jacobs / MarShawn Lloyd
+  (and, in dynasty, Chris Brooks one rung further down).
+- **Sleeper-definition inflation** [FF]. ADP has become accurate front to
+  back, so a "sleeper" at a modest discount no longer exists — a real one
+  now has to look impossible today, with an honest base rate near zero.
+  Paired filter for the last picks: the player still has to be one you
+  believe is *good*. Opportunity attached to a bad player is a dead ticket;
+  talent without opportunity at least has a trigger. When our board and a
+  late-round expert flier disagree, this is the question to ask first.
+- **Dynasty horizon is three years, not ten** [FF]. They rejected their own
+  ten-year question on principle — trajectories aren't forecastable that far
+  out. A young stash we protect from drops should have a thesis that can pay
+  inside three seasons; "someday" is not a thesis.
