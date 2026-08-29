@@ -8,6 +8,11 @@ from .scoring import SLOT_ELIGIBILITY, score_stat_line
 
 INJURY_OUT = {"Out", "IR", "PUP", "Sus", "NA", "DNR", "COV"}
 
+# Tiering: the top BREAK_PCTL share of a position's VORP gaps count as cliffs,
+# and no tier may exceed MAX_TIER_SIZE (a tier you can't count isn't a tier).
+BREAK_PCTL = 0.15
+MAX_TIER_SIZE = 12
+
 
 # ---------------------------------------------------------------- helpers
 
@@ -729,14 +734,33 @@ def _assign_tiers(rows):
     for r in rows:
         by_pos[r["pos"]].append(r)  # already sorted by vorp desc
     for pos, plist in by_pos.items():
-        gaps = [plist[i]["vorp"] - plist[i + 1]["vorp"] for i in range(len(plist) - 1)]
-        top_gaps = sorted(gaps[:30], reverse=True)
-        # Break threshold: a gap notably larger than typical for the position,
-        # floor of 12 season points so flat positions form big honest tiers.
-        med = top_gaps[len(top_gaps) // 2] if top_gaps else 0
-        threshold = max(12.0, med * 3.0)
-        tier = 1
+        n = len(plist)
+        if n <= 1:
+            for r in plist:
+                r["tier"] = 1
+            continue
+        gaps = [plist[i]["vorp"] - plist[i + 1]["vorp"] for i in range(n - 1)]
+        # Threshold adapts to THIS position's whole gap distribution: the top
+        # ~15% of gaps are cliffs. A fixed floor (the old max(12.0, ...)) plus
+        # sampling only the first 30 gaps made the tail one giant tier — 124
+        # of 129 WRs landed in T3, which tells a drafter nothing.
+        srt = sorted(gaps, reverse=True)
+        threshold = srt[max(0, int(len(srt) * BREAK_PCTL) - 1)]
+        tier, run, run_start = 1, 0, 0
         for i, r in enumerate(plist):
             r["tier"] = tier
-            if i < len(gaps) and gaps[i] >= threshold:
-                tier += 1
+            run += 1
+            if i >= len(gaps):
+                continue
+            # Cliff, or a tier grown too long to be actionable — in which case
+            # split it at its own largest gap rather than at an arbitrary spot.
+            forced = run >= MAX_TIER_SIZE
+            if gaps[i] >= threshold and gaps[i] > 0:
+                tier, run, run_start = tier + 1, 0, i + 1
+            elif forced:
+                window = gaps[run_start:i + 1]
+                if window and max(window) > 0:
+                    cut = run_start + window.index(max(window))
+                    for j in range(cut + 1, i + 1):
+                        plist[j]["tier"] = tier + 1
+                    tier, run, run_start = tier + 1, i - cut, cut + 1

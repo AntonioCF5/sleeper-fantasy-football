@@ -1637,9 +1637,14 @@ function renderRankings(){
       : `<span class="ownerpill">${term("Rostered","Rostered")} · ${ownerLink(r.owner)}</span>`;
     // ADP beyond ~400 is noise (undrafted-pool artifact), not real waiver value
     const val = (r.value==null||(r.adp||0)>400) ? "—" : (r.value>0?"+":"")+r.value;
-    // Tier break: this position's value just dropped to the next tier down —
-    // tracked independently per position, so it works in any sort/filter view.
-    const isBreak = lastTierSeen[r.pos]!==undefined && lastTierSeen[r.pos]!==r.tier;
+    // Tier break: this position's value just dropped to the next tier down.
+    // Only meaningful when the table is in board order (rank ascending) — in
+    // any other sort the rows aren't tier-ordered, so the line would fire on
+    // nearly every row and read as noise. Tracked per position so it stays
+    // correct when the position filter is on.
+    const tierOrdered = (sortKey==="rank" && sortDir===1);
+    const isBreak = tierOrdered && lastTierSeen[r.pos]!==undefined
+                    && lastTierSeen[r.pos]!==r.tier;
     lastTierSeen[r.pos]=r.tier;
     const rowClass=[r.status!=='available'?'taken':'', isBreak?'tierbreak':''].filter(Boolean).join(" ");
     return `<tr class="${rowClass}">
