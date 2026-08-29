@@ -260,5 +260,15 @@
    "source": "sal-vetri",
    "processed": "2026-08-28"
   }
+ },
+ "feed_health": {
+  "sal-vetri": {
+   "consecutive_failures": 0,
+   "last_success": "2026-08-29"
+  },
+  "fantasy-footballers": {
+   "consecutive_failures": 0,
+   "last_success": "2026-08-29"
+  }
  }
 }

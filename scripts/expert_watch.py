@@ -54,7 +54,11 @@ def _curl(url, post_json=None, retries=1, ok=lambda b: True):
         out = subprocess.run(cmd, capture_output=True).stdout
         if out and ok(out):
             return out
-        time.sleep(1 + attempt)
+        # Backoff capped at 5s: uncapped linear growth made a full 25-retry
+        # cycle sleep 5.4 min (24 min worst case with curl timeouts) per
+        # channel, long enough for a scheduled run to be abandoned mid-fetch.
+        # Capped, the same 25 attempts spread over ~2 min and actually finish.
+        time.sleep(min(1 + attempt, 5))
     return None
 
 
@@ -119,11 +123,32 @@ def fetch_transcript(video_id):
 
 def check(state, quiet=False):
     new = []
+    health = state.setdefault("feed_health", {})
     for key, ch in CHANNELS.items():
         entries = fetch_feed(ch["channel_id"])
         if entries is None:
-            print(f"!! feed failed for {ch['name']} (YouTube edge flakiness — retry later)")
+            # Record the miss so consecutive failures are visible across runs
+            # instead of depending on someone noticing an absent section.
+            h = health.setdefault(key, {})
+            h["consecutive_failures"] = h.get("consecutive_failures", 0) + 1
+            h["last_failure"] = time.strftime("%Y-%m-%d")
+            n = h["consecutive_failures"]
+            print(f"!! feed failed for {ch['name']} — {n} consecutive miss(es); "
+                  f"last success {h.get('last_success', 'unknown')}. Nothing was "
+                  "marked processed, so the next successful run catches up "
+                  "automatically (RSS carries ~15 uploads).")
+            if n >= 3:
+                print(f"!! {ch['name']} has now missed {n} runs in a row — "
+                      "investigate the feed/channel_id rather than retrying.")
+            _save_state(state)
             continue
+        h = health.setdefault(key, {})
+        if h.get("consecutive_failures"):
+            print(f"** {ch['name']} feed recovered after "
+                  f"{h['consecutive_failures']} miss(es).")
+        h["consecutive_failures"] = 0
+        h["last_success"] = time.strftime("%Y-%m-%d")
+        _save_state(state)
         fresh = [e for e in entries if e["video_id"] not in state["seen"]]
         # YouTube RSS only carries the latest ~15 uploads. If EVERY entry is
         # new despite prior runs, older videos may have scrolled out of the

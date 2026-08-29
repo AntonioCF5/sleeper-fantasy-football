@@ -226,13 +226,26 @@ tells the user to re-check news once before accepting.
   the user to decide live. Runs independently of interactive sessions now,
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
-- [ ] **FF feed flakiness — WATCH ITEM 2026-08-28 (second miss in three days)**:
-  tonight's `--check` and `--fetch-new` both failed for The Fantasy Footballers
-  while Sal's feed returned clean, after the 8/27 double-channel outage was
-  declared transient. One channel failing while the other works is edge
-  flakiness, not a code bug, and the 25x internal retry already ran — but this
-  is now a pattern. If FF misses a THIRD time, investigate `_fetch_feed`
-  (channel-id/URL for the FF feed specifically) instead of retrying again.
+- [x] **FF feed flakiness — INVESTIGATED AND FIXED 2026-08-29**: diagnosed
+  properly instead of retrying a third time. Findings: the FF `channel_id`
+  is correct and the feed is healthy (6/6 clean fetches on manual test,
+  both channels) — the misses are genuine upstream edge flakiness at the
+  moment of the 9:08pm run, not a code bug. **But the retry loop had a real
+  defect**: uncapped linear backoff (`sleep(1+attempt)`) made a full 25-retry
+  cycle sleep 5.4 min, up to **24 min worst case per channel** with curl
+  timeouts — long enough for a run to be abandoned mid-fetch. Backoff is now
+  capped at 5s (same 25 attempts, ~2 min, and they actually complete).
+  Added `feed_health` per channel in `expert_state.json`
+  (consecutive_failures / last_success / last_failure) with recovery and
+  miss lines printed, and the daily task now MUST report channel health in
+  the Experts section — an absent Experts section can no longer look like a
+  quiet day. Escalation rule moved into the code: 3+ consecutive misses on
+  one channel prints an investigate-don't-retry warning. An InnerTube browse
+  fallback was tested and rejected — the response carries no cleanly
+  parseable video list, so no speculative code was added.
+  The 3 FF videos missed on 8/28 (incl. Ep. 1960) were caught up manually
+  on 8/29 — the weekday-only schedule meant no automatic run would have
+  recovered them before Sunday's draft.
 - [x] **Expert feed outage 2026-08-27 — RESOLVED 2026-08-28**: was transient
   (feeds responded normally the next check, one-day outage, not a code
   bug — `_fetch_feed` needs no changes). The 3 videos missed that day were
