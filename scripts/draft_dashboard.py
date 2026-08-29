@@ -727,6 +727,13 @@ table.rk tbody td{padding:8px 10px;border-bottom:1px solid var(--border);white-s
 table.rk tbody tr:hover{background:var(--surface2)}
 table.rk tbody tr.taken{opacity:.45}
 table.rk tbody tr.tierbreak td{border-top:2px solid var(--tier)}
+.tierpill.t1{background:#1b5e20;color:#fff}
+.tierpill.t2{background:#2e7d32;color:#fff}
+.tierpill.t3{background:#558b2f;color:#fff}
+.tierpill.t4{background:#9e9d24;color:#fff}
+.tierpill.t5{background:#ef6c00;color:#fff}
+.tierpill.t6{background:#c62828;color:#fff}
+.tierpill.tx{background:#5d4037;color:#fff}
 table.rk tbody tr.tierbreak td:nth-child(2){position:relative}
 table.rk tbody tr.tierbreak td:nth-child(2)::before{content:"⛰ new tier for this position";
   position:absolute;top:-9px;left:8px;font-size:9px;font-weight:700;color:var(--tier);
@@ -1642,7 +1649,10 @@ function renderRankings(){
     // any other sort the rows aren't tier-ordered, so the line would fire on
     // nearly every row and read as noise. Tracked per position so it stays
     // correct when the position filter is on.
-    const tierOrdered = (sortKey==="rank" && sortDir===1);
+    // Both of these follow the board's own ordering, so tiers run in sequence:
+    // rank ascending and VORP descending (tiers are BUILT from VORP desc).
+    const tierOrdered = (sortKey==="rank" && sortDir===1)
+                     || (sortKey==="vorp" && sortDir===-1);
     const isBreak = tierOrdered && lastTierSeen[r.pos]!==undefined
                     && lastTierSeen[r.pos]!==r.tier;
     lastTierSeen[r.pos]=r.tier;
@@ -1652,7 +1662,7 @@ function renderRankings(){
       <td><div class="rk-name">${esc(r.name)}<span class="badge">${esc(r.team)}</span>${styleTag(r)}
         ${r.injury?`<span class="inj">${esc(r.injury)}</span>`:""}${(r.flags&&(flagsTitle(r.flags)||r.expert))?` <span class="term" data-tip="${esc([flagsTitle(r.flags),r.expert].filter(Boolean).join(" — "))}">${r.flags}</span>`:(r.flags?` <span>${r.flags}</span>`:"")}</div></td>
       <td>${esc(r.pos_rank)}</td>
-      <td><span class="tierpill${isBreak?' brk':''}">T${r.tier}</span></td>
+      <td><span class="tierpill t${r.tier<=6?r.tier:'x'}${isBreak?' brk':''}">T${r.tier}</span></td>
       <td class="num">${r.proj.toFixed(0)}</td>
       <td class="num">${r.vorp.toFixed(0)}</td>
       <td class="num">${r.adp?r.adp.toFixed(0):"—"}</td>
