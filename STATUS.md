@@ -1,7 +1,7 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-27** (preseason final
+tooling, or league state. Last updated: **2026-08-28** (preseason final
 week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
 expert-daily 8/25 run refreshed trades + claims).*
 
@@ -131,10 +131,14 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
-- [ ] **STANDING TRADE OFFERS — all six re-verified live 2026-08-27** (every
-  piece still on the correct side; none executed, none dead). **NEW FLAG:
-  the jetsdelalaguna offer and the ElGeneral4 accept both spend David
-  Montgomery — mutually exclusive, pick one before sending.** Details below,
+- [ ] **STANDING TRADE OFFERS — re-verified live 2026-08-28** (every piece
+  still on the correct side; `data/intel/trade_offers.json` is the source of
+  truth). **MONTGOMERY CONFLICT RESOLVED 2026-08-28: accept the ElGeneral4
+  Jeanty package; the jetsdelalaguna Marvin Harrison offer is SHELVED (not
+  dead) and gets sent only if the Jeanty deal collapses.** The alealvarez7
+  Mahomes-for-Tuten ask stays DEAD and got more expensive on 8/28 (Sal named
+  Tuten the #1 league-winner at RB in all of fantasy) — do not reopen.
+  Judkins health verified on the Jro91 offer (Thursday's absence was rest). Details below,
   refreshed 2026-08-25, user to send** (full
   packages + pitch scripts in the 2026-08-25 newsletter "Recommended
   trades"; single source of truth is `data/intel/trade_offers.json` —
@@ -222,6 +226,13 @@ tells the user to re-check news once before accepting.
   the user to decide live. Runs independently of interactive sessions now,
   in addition to the existing "check at start of every session" rule.
   Quiet weekends/Mondays are expected, not a failure.
+- [ ] **FF feed flakiness — WATCH ITEM 2026-08-28 (second miss in three days)**:
+  tonight's `--check` and `--fetch-new` both failed for The Fantasy Footballers
+  while Sal's feed returned clean, after the 8/27 double-channel outage was
+  declared transient. One channel failing while the other works is edge
+  flakiness, not a code bug, and the 25x internal retry already ran — but this
+  is now a pattern. If FF misses a THIRD time, investigate `_fetch_feed`
+  (channel-id/URL for the FF feed specifically) instead of retrying again.
 - [x] **Expert feed outage 2026-08-27 — RESOLVED 2026-08-28**: was transient
   (feeds responded normally the next check, one-day outage, not a code
   bug — `_fetch_feed` needs no changes). The 3 videos missed that day were
@@ -238,7 +249,26 @@ tells the user to re-check news once before accepting.
   code instead of just retrying.
 
 - [ ] Commit generated reports after each draft so history shows how calls aged.
-- [ ] **Waiver claims — CURRENT SET 2026-08-27** (`data/intel/waiver_claims.json`
+- [ ] **Waiver claims — CURRENT SET 2026-08-28** (`data/intel/waiver_claims.json`
+  is the source of truth and ALWAYS wins over this summary). COMPLIANCE FIRST,
+  both dynasty rosters re-read live 8/28 and STILL ILLEGAL. **Gallamijos Dyn**
+  25/23 + taxi 7/6 — Cowing, Tillman and Will Howard CONFIRMED already cut;
+  three remain: **Mack Hollins (32) + Panthers DEF** active, **Tai Felton (23)**
+  taxi. Kaelon Black stays a PROTECTED clean handcuff. **DYNASTY TRC** 30/25,
+  zero movement — the same five (Brissett 33, Conner 31, Ridley 31, Parkinson
+  27, Packers DEF); IR re-read again and still unusable (Out/Sus/NA only, every
+  injured body Questionable). THEN: GALD claim **Colbie Young (24) $5 — DROP
+  RE-PAIRED to Evan Engram** (Panthers DEF became a compliance cut and cannot
+  fund the claim too). New skips 8/28: **Dohnte Meyers (26)** both dynasty
+  leagues (the Ja'Marr Chase knee scare that drove his 71.7k adds is already
+  closed) and **Mike Gesicki (30)** in GALD. **Jonnu Smith skip is now
+  PERMANENT** — Tucker Kraft is full-go for Week 1 (his Sleeper "Knee — ACL"
+  tag is last season's Week 9 tear, not a new event), so the "competition for
+  Kraft" mechanism is dead. Justice Hill (28), Waller (33), MarShawn Lloyd
+  protected-hold, Malik Davis watch in LoR — all unchanged. Dynasty Mexica and
+  League of Record: no claims, both legal and full.
+
+- [ ] *(superseded 2026-08-28)* **Waiver claims — SET 2026-08-27** (`data/intel/waiver_claims.json`
   is the source of truth and ALWAYS wins over this summary). COMPLIANCE
   FIRST — both dynasty rosters were re-read live on 8/27 and are STILL
   ILLEGAL; no waiver can process. **DYNASTY TRC** 30 active vs 25 cap → cut
