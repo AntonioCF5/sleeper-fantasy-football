@@ -1,78 +1,105 @@
-# FANTASY MEXICA — Draft Battle Plan (Slot 10 of 18)
+# FANTASY MEXICA — Plan de Draft
+*Sábado 29 de agosto 2026, 12:00 · slot 10 de 18 · snake · 19 rondas · board recalculado con ADP fresco el mismo día*
 
-*18-team snake · half PPR · 6-pt pass TD · IDP (DL/LB/DB) · 19 rounds ·
-17 keepers frozen on the board · Your R10 pick = Tyler Shough (keeper, locked)*
+## Formato (leído en vivo del API, no de memoria)
 
-> Scoring note — RESOLVED 2026-08-25: the 5.0 assisted-tackle typo was fixed
-> on Sleeper's side (API now returns **0.5** natively, verified live). The
-> config.json override was removed; all numbers below already used 0.5, so
-> nothing changes. No commissioner reminder needed.
+- **18 equipos, half PPR (0.5), 6 pts por TD de pase**, sin TE premium
+- Titulares (12): QB · RB · RB · WR · WR · TE · FLEX · K · DEF · **DL · LB · DB**
+- Banca: 7 · **19 rondas = 19 lugares exactos.** Cada pick es un lugar de roster; no hay margen para desperdiciar.
+- Keeper: **Tyler Shough en R10 (pick 171)** — consume ese pick.
 
-**Archetype: HERO RB + EARLY QB ("Anchor & Air")** — see
-`archetype-playbook.md` for the branch definitions and the live switching
-triggers. Late-round QB is explicitly dead in this league (6-pt pass TDs,
-Shough-only keeper, 17 QB-needy teams); pivot branches are Hero WR (if 6+
-RBs are gone at #10) and QB-first inversion (if a top-3 QB falls to #10).
+**Mis picks:** 10, 27, 46, 63, 82, 99, 118, 135, 154, ~~171 (keeper)~~, 190, 207, 226, 243, 262, 279, 298, 315, 334
 
-## The three realities of this draft
+---
 
-1. **RBs rule the board.** Under corrected scoring, 8 of my top 12 are RBs
-   (replacement level RB125 vs WR125 but far steeper RB dropoff). The RB1
-   tier will not survive from pick #10 to #27 — urgency +46.
-2. **6-pt passing TDs + your QB situation.** Your keeper Shough is QB20 —
-   a backup, not a plan. 17 other teams need QBs and Lawrence is already
-   kept. Leave round 2–3 with a top-8 QB. Lamar Jackson at #27 is the play.
-3. **IDPs are off the board entirely** (user decision 2026-08-24: single
-   starter slots, bottomless replacement depth — boards and the dashboard
-   now show offense only). Fill DL/LB/DB with the final picks or post-draft
-   waivers; any warm body starts. The live assistant won't suggest IDP
-   names — just grab a starting DL, LB, and DB somewhere in the last 3-4
-   rounds alongside the league-winner stashes, and never earlier.
+## 🚨 EL CAMBIO GRANDE: el QB se espera, no se adelanta
 
-## Round-by-round plan
+**El playbook decía "R1 anchor RB, R2 Lamar/top-6 QB" (Anchor & Air). Los datos de hoy lo contradicen y hay que cambiarlo.**
 
-| Rd | Pick | Target | Backup plan |
-|----|------|--------|-------------|
-| 1 | #10 | **Best RB standing: Ashton Jeanty / Derrick Henry / De'Von Achane / Saquon** | CeeDee Lamb if 6+ RBs already gone |
-| 2 | #27 | **Lamar Jackson / best top-6 QB** (6-pt TDs; Allen will be gone) | A.J. Brown / Chris Olave, then QB hard at R3 |
-| 3 | #46 | **RB2: David Montgomery / Travis Etienne / D'Andre Swift** (urg +30) | Sam LaPorta if TE tier about to break |
-| 4 | #63 | **Best WR: Mike Evans / Parker Washington tier** | George Kittle |
-| 5 | #82 | **WR2 or TE1** (Kittle/Strange tier if no TE yet) | Jack Campbell if you want the top LB locked |
-| 6 | #99 | Best offensive player available — WR/RB depth | Brock Purdy as QB insurance if Lamar missed |
-| 7 | #118 | WR3 (Jayden Reed tier) / RB3 | — |
-| 8 | #135 | RB depth (Jordan Mason type) or **LB: Jack Campbell / Nakobe Dean** if still around | — |
-| 9 | #154 | WR4 upside (Matthew Golden tier) | LB if not yet filled |
-| 10 | #171 | 🔒 Tyler Shough (keeper) | — |
-| 11 | #190 | **Contested handcuff if one slid** (Pacheco ADP 172 / Bigsby 166 / B.Robinson 160) else DL: Van Ginkel / Hutchinson | DB: Travis Hunter / Kyle Hamilton |
-| 12 | #207 | RB4 upside swing (ambiguous backfield) or TE2 | DL if not filled |
-| 13 | #226 | **DB: Chamarri Conner / best available box safety** | — |
-| 14 | #243 | 🎟 **League-winner stash #1: handcuff to YOUR RB1** (whoever you drafted R1 — e.g. Justice Hill if Henry, Ty Johnson if Cook) | Last IDP piece |
-| 15 | #262 | 🎟 **League-winner stash #2**: DJ Giddens (IND, ADP 672) / Samaje Perine (CIN, 614) — free top-5-offense handcuffs | TE2 if empty |
-| 16 | #279 | 🎟 **League-winner stash #3**: Xavier Worthy (KC, year-3 WR) / Jalen McMillan / Tre' Harris breakout profiles | — |
-| 17 | #298 | **DEF** (stream all season; they're all within 4 pts of each other) | — |
-| 18 | #315 | **K** | — |
-| 19 | #334 | 🎟 **League-winner stash #4**: best remaining from the board's Late-Round League Winners table | — |
+El razonamiento viejo era: 6 pts por TD de pase + Shough (QB20) como único QB + 17 equipos necesitados = el pool se seca. **Falso en este board.** El acantilado de QB está solo entre los dos primeros; de QB3 a QB12 hay apenas 27 puntos repartidos en nueve QBs:
 
-## Build target (19 roster spots)
+| QB | proj | ADP | valor |
+|---|---|---|---|
+| Josh Allen | 404 | 20 | +7 |
+| Lamar | 370 | 34 | +5 |
+| Burrow | 359 | 55 | +17 |
+| **Purdy** | **341** | **123** | **+60** |
+| **Goff** | **336** | **139** | **+73** |
+| *(Shough, keeper)* | *297* | *191* | *—* |
 
-- 2 QB (top-8 QB + Shough) · 5–6 RB · 5–6 WR · 2 TE
-- **3–4 IDP, all after round 8** (1 DL + 1–2 LB + 1 DB). Only 3 start and
-  the position is flat — churn from waivers in-season.
-- K + DEF in the last 3 rounds, never earlier.
+**La cuenta que decide:**
+- Camino A (QB temprano): Lamar en 27 (VORP 71.3) + un WR cualquiera en 135 (~13.6) = **84.9**
+- Camino B (QB tardío): Zay Flowers en 27 (VORP 73.6) + Goff en 135 (39.4) = **113.0**
 
-## Standing rules during the draft
+**Camino B gana por ~28 VORP.** Y ojo al lente correcto: Allen tiene más puntos crudos que Gibbs (404 vs 314), pero su **VORP es 106 contra 189 de Gibbs** — porque el reemplazo de QB es altísimo aquí. Los puntos crudos mienten; el VORP no.
 
-- Never pass a player whose ADP is 25+ picks later than my board rank
-  (the Value column on the main board) unless the position is capped.
-- If a run starts (3+ same-position picks in a row), jump one round early
-  on the next tier player at that position; 18-team runs don't stop.
-- ~~Assist-scoring contingency~~ RESOLVED: Sleeper now returns 0.5 natively
-  (2026-08-25), the inversion scenario is dead. Kept for history only: at
-  5.0/assist the IDP plan would have inverted completely (Campbell becomes a
-  round-4 pick and IDP depth wins leagues). That inversion would also mean
-  putting IDP back on the boards: remove the position filter in
-  `analysis.draft_board` (`IDP_BOARD_EXCLUDE`) for this league first.
+**Ventana:** 14 QBs titulares se van antes del pick 139. Con 18 equipos, cuatro esperan más que eso. **Toma QB en el pick 118 (Purdy, ADP 123)** — un pick antes de su ADP, la ventana segura. Si arranca una corrida de QBs antes, adelántalo al 99. Goff en 135 es el plan B y cierra igual de bien.
 
-*Regenerate this plan the morning of the draft — ADP shifts, injuries, and
-depth-chart news move targets. During the live draft I can poll picks in
-real time and call audibles.*
+---
+
+## Estructura de picks
+
+**Picks 10 · 27 · 46 · 63 · 82 · 99 — seis picks premium, SOLO RB/WR.**
+Aquí está la escasez real. Nada de QB, TE, K, DEF ni IDP en este bloque.
+
+- **Pick 10** — mejor disponible. Por ADP deben llegar: **Derrick Henry** (rank 8, +9), **Kenneth Walker** (+7), **Chase Brown** (+6), **James Cook** (+3). Si cae alguien del top-5 del board (Gibbs, Bijan, Nacua, Chase, JT), tómalo sin pensar.
+- **Pick 27** — **Zay Flowers (+15)** y **Ladd McConkey (+12)** son los dos mejores valores esperados. Pickens (+8) si prefieres el techo.
+- **Pick 46** — **Mike Evans (+22)**, **Christian Watson (+23)**, **D'Andre Swift (+16)**, Jameson Williams (+15).
+- **Pick 63** — Watson (+23), **Rome Odunze (+11)**, **Sam LaPorta (+12)** si quieres cerrar TE temprano.
+- **Pick 82 · 99** — profundidad RB/WR. **Jayden Reed (+30, ADP 102)** cae justo en el 99.
+
+**Pick 118 — QB (Purdy).** La ventana. También vive aquí **Mark Andrews (TE, +41 en ADP 122)** si prefieres TE y esperar a Goff en 135.
+
+**Pick 135 — lo que no tomaste en 118** (Goff o TE).
+
+**Pick 154 — TE tardío o el handcuff de tu RB1.** **Brenton Strange (+61, ADP 167)** es el mejor TE tardío del board.
+
+**Picks 190 → 243 — obligaciones, y aquí está el regalo:**
+> **La DEF está brutalmente subvaluada en este scoring.** Nuestro board tiene defensas con **+105, +104, +80 y +76 de valor** en ADP 174-228. El mercado las cobra 100+ picks tarde. En liga de 18 no se puede stremear (el waiver no da), así que aquí tomas **una DEF sólida y te olvidas** — y te sale casi gratis.
+> Igual con **K: +55 y +52 en ADP 190-224.** Última ronda, sin culpa.
+
+En este bloque van: **DEF, K, DL, LB, DB** (5 obligaciones) — los IDP no están en el board por decisión nuestra, se llenan aquí y con waivers.
+
+**Picks 279 → 334 — boletos de lotería.** Nunca un veterano de relleno.
+
+---
+
+## 🎟 La jugada de stack: handcuff de tu propio RB1
+
+Si en el pick 10 sale un RB elite, **su handcuff está disponible en el 154/190**:
+
+| Si tomas… | Su handcuff | ADP |
+|---|---|---|
+| Gibbs | Isiah Pacheco | 171 |
+| Bijan | Brian Robinson | 172 |
+| CMC | Kaelon Black | 178 |
+| Saquon | Tank Bigsby | 165 |
+| Hampton | Keaton Mitchell | 164 |
+
+Eso es valor contingente de league-winner por un pick que ibas a gastar en relleno. Otros: **Matthew Golden** (year-2 breakout, ADP 121) y **Kyle Monangai** (backfield ambiguo, ADP 91).
+
+---
+
+## Disparadores en vivo (revisar en cada turno, en orden)
+
+1. **Faller elite** — alguien 12+ picks debajo de su ADP → tómalo y re-ramifica.
+2. **Corrida de QB** — si se van 4+ QBs entre tus turnos antes del 99, adelanta a Purdy/Goff un turno.
+3. **Muerte de tier** — cuenta cuántos quedan en el tier actual de la posición vs picks hasta tu siguiente turno.
+4. **Corrida de posición** — adelántate una ronda o ignórala; nunca persigas hacia un tier muerto.
+5. Ninguno → sigue el plan.
+
+**Vetos duros:**
+- No QB antes del 99 (salvo que Allen o Lamar caigan absurdamente).
+- No K ni DEF antes del 190. No IDP antes del 207.
+- No veteranos de relleno en los últimos 4 picks.
+- El keeper Shough (171) ya está pagado — no gastes otro pick en QB de respaldo salvo que sea valor de +40.
+
+---
+
+## Command center
+
+Corriendo en **http://localhost:8787** — Draft Room ya apuntando a FANTASY MEXICA (slot 10, 19 rondas, tu pick 10 al frente).
+
+- **Draft Room** se actualiza solo cada 5s durante el draft: recomendaciones, plan por ronda, cola de sleepers, balance floor/ceiling, y beep cuando estés en el reloj.
+- **Rankings** (400 filas): buscador, orden por columna, filtro por posición, columna de valor y riesgo, líneas de corte de tier.
+- Cambia de liga desde el header sin reiniciar.

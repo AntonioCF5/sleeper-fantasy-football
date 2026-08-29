@@ -49,9 +49,26 @@ Pivot branches: Early TE (if Bowers reaches our value line ~R2/3 turn);
 Robust RB (if WR run rounds 2-3 leaves RB T3 intact at the turn — take two).
 
 ### FANTASY MEXICA — 18t, half PPR, 6-pt pass TD, IDP, keeper · slot 10
-**Default branch: HERO RB + EARLY QB ("Anchor & Air") — NOT late-round QB**
-- 6-pt pass TDs + your only QB being Shough (QB20) + 17 QB-needy teams
-  kills the late-QB branch before it starts. R1 anchor RB, R2 Lamar/top-6 QB.
+**Branch REVISED 2026-08-29 (draft morning, fresh ADP): HERO RB + LATE QB**
+*(was "Anchor & Air / early QB" — the data killed it; see
+`fantasy-mexica-draft-plan.md` for the full math.)*
+- The 6-pt-paTD "elite QB" heuristic does NOT survive this board: the QB
+  cliff is only between the top two, and QB3→QB12 spans just 27 points
+  across nine QBs. Purdy sits at ADP 123 (+60) and Goff at ADP 139 (+73),
+  so a 336-point QB costs a pick in the 118-139 range.
+- The decisive comparison: Lamar at 27 (VORP 71.3) + filler WR at 135
+  (~13.6) = 84.9, versus Flowers at 27 (73.6) + Goff at 135 (39.4) = 113.0.
+  **Late QB wins by ~28 VORP.** Note the lens: Allen out-scores Gibbs on
+  raw points (404 vs 314) but loses badly on VORP (106 vs 189) because QB
+  replacement level here is enormous.
+- Plan: picks 10/27/46/63/82/99 are RB/WR only; QB at 118 (Purdy, one pick
+  ahead of ADP); DEF and K deliberately last (both carry +50 to +105 value
+  at ADP 174-228 in this scoring).
+- FORMAT VETO NOTE: CLAUDE.md's general "late-round QB is dead in 6-pt-TD
+  leagues" rule is a heuristic, not a law — it assumed a QB-less roster and
+  a draining pool. Here a keeper QB already exists and 18 one-QB teams
+  cannot drain 14+ startable arms before pick 139. Verify per board, per
+  season; do not carry this revision forward blindly.
 - Then the Hero RB shape resumes: WR/RB value R3-7, IDP R8+, stashes late.
 - Full pick-by-pick plan: `fantasy-mexica-draft-plan.md`.
 
