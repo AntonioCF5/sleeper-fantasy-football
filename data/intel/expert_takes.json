@@ -5,7 +5,12 @@
    "sal-vetri",
    "fantasy-footballers"
   ],
-  "note": "Distilled by subagent from video transcripts (rolling, Aug 2026). Visibility-only: takes never move projections; adjustments require player_adjust.json with documented reasons. Prune takes AND facts older than ~3 weeks. Each take carries a separate 'mechanism' field — audit the mechanism independently of the conclusion before repeating it (see expert_methods.md -> Mechanism audit). direction 'contested' = the sources, or the FF hosts internally, disagree."
+  "note": "Distilled by subagent from video transcripts (rolling, Aug 2026). Visibility-only: takes never move projections; adjustments require player_adjust.json with documented reasons. Prune takes AND facts older than ~3 weeks. Each take carries a separate 'mechanism' field — audit the mechanism independently of the conclusion before repeating it (see expert_methods.md -> Mechanism audit). direction 'contested' = the sources, or the FF hosts internally, disagree.",
+  "last_updated": "2026-08-30",
+  "last_videos": [
+   "rtXZBTk5IMU",
+   "3DID0RXlVLk"
+  ]
  },
  "takes": [
   {
@@ -3409,6 +3414,1142 @@
     "gh1WTjOcfLQ"
    ],
    "date": "2026-08-28"
+  },
+  {
+   "player": "Puka Nacua",
+   "player_id": "9493",
+   "team": "LAR",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Take him over Ja'Marr Chase if both are there at the turn.",
+   "mechanism": "Attached to the reigning MVP in Sean McVay's number-one projected offense, and he outproduced Chase as a fantasy WR last season while Chase just hyperextended his knee.",
+   "round_or_adp": "Sal 3 vs ADP 4",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "CeeDee Lamb",
+   "player_id": "6786",
+   "team": "DAL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "At pick 9 take Lamb, not the RBs who go after him like James Cook.",
+   "mechanism": "The Cowboys' offense is set up for a repeat of his overall-WR1 season from two years ago.",
+   "round_or_adp": "Sal 9 vs ADP 9.8",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Chase Brown",
+   "player_id": "9224",
+   "team": "CIN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Borderline first-round pick; the ideal round-2 double-RB anchor.",
+   "mechanism": "Cincinnati added zero backfield competition (Tahj Brooks and a 30-plus-year-old Trayveon Perine), and with Burrow healthy he averaged 20 fantasy points per game and finished top-5 down the stretch for the second straight year.",
+   "round_or_adp": "Sal 13 vs ADP 15.1",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "A.J. Brown",
+   "player_id": "5859",
+   "team": "NE",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "His biggest positive difference in round 2 — a walking top-10 fantasy WR.",
+   "mechanism": "Drake Maye is the best QB of his career and his target competition downgraded from DeVonta Smith and Dallas Goedert to Romeo Doubs and Hunter Henry after Kayshon Boutte was traded away.",
+   "round_or_adp": "Sal 14 vs ADP 18.2",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "George Pickens",
+   "player_id": "8137",
+   "team": "DAL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Half a round ahead of market; take him over Drake London in round 2.",
+   "mechanism": "MECHANISM AUDIT: environment-only ('that Dallas offense is hard to ignore'); no usage or role data offered — do not repeat as a reason.",
+   "round_or_adp": "Sal 19 vs ADP 23.5",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Nico Collins",
+   "player_id": "7569",
+   "team": "HOU",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A round-2 WR he is buying after camp injuries reshaped the tier.",
+   "mechanism": "Jayden Higgins' injury removes his main target competition, and newly acquired Kayshon Boutte still needs time to ramp up.",
+   "round_or_adp": "Sal 20 vs ADP 25.2",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Chris Olave",
+   "player_id": "8144",
+   "team": "NO",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Moves up his board and the market hasn't caught up yet.",
+   "mechanism": "Jordyn Tyson — a rookie with a third straight injury to the same right hamstring — misses at least two months, vacating Saints target share.",
+   "round_or_adp": "Sal 22 vs ADP 30.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "player_id": "12527",
+   "team": "LV",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Fell from a top-15 player to 24th; expect the market to follow him down.",
+   "mechanism": "An ankle injury whose real status is unknowable until the Wednesday practice report before week 1, because teams file nothing during camp.",
+   "round_or_adp": "Sal 24 vs ADP 14.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Malik Nabers",
+   "player_id": "11632",
+   "team": "NYG",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Borderline top-24 player and still climbing; top-3 WR finish would not be a shock.",
+   "mechanism": "He has shed the red non-contact jersey and is cutting freely in camp, and his 170-target, 35% target-share rookie year came alongside Wan'Dale Robinson's 140 targets, now vacated.",
+   "round_or_adp": "Sal 25 vs ADP 27.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Zay Flowers",
+   "player_id": "9997",
+   "team": "BAL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "He has never been a Flowers guy and is buying in now.",
+   "mechanism": "He is the only real target earner left in Declan Doyle's offense — Isaiah Likely is gone, Rashod Bateman has off-field issues, and Ja'Kobi Lane is 'all Twitter hype.'",
+   "round_or_adp": "Sal 27 vs ADP 41.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Travis Etienne",
+   "player_id": "7543",
+   "team": "NO",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "His biggest positive difference in round 3 — a great pick at the 3-4 turn.",
+   "mechanism": "VERIFIED 8/30 vs Sleeper: Kamara MCL (Questionable, out >=1mo), Ty Chandler on IR, Devin Neal Questionable, Etienne listed depth-chart RB1 — he is the lead back in an offense that leans on RB targets.",
+   "round_or_adp": "Sal 29 vs ADP 44.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Trey McBride",
+   "player_id": "8130",
+   "team": "ARI",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "'Completely out' — last year was the year to own him, this year isn't.",
+   "mechanism": "His 126-catch season came from historic garbage-time volume with Marvin Harrison Jr. banged up, and a third-round rookie likely replaces Brissett for six-to-eight weeks including the fantasy playoffs.",
+   "round_or_adp": "Sal 31 vs ADP 22.9",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Kyren Williams",
+   "player_id": "8150",
+   "team": "LAR",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Only the offense justifies the price; TD upside but not the volume.",
+   "mechanism": "Camp reports point to a roughly even backfield split with Blake Corum.",
+   "round_or_adp": "Sal 32 vs ADP 29.5",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Garrett Wilson",
+   "player_id": "8146",
+   "team": "NYJ",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Amazing pick — a third-round price on a player who usually goes late fourth.",
+   "mechanism": "Best QB of his career plus zero target competition, on a player who averages 140 targets and 1,000-plus yards whenever he stays healthy.",
+   "round_or_adp": "Sal 34 vs ADP 45.9",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jeremiyah Love",
+   "player_id": "13287",
+   "team": "ARI",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "He won't get him in most drafts and is fine with that.",
+   "mechanism": "A high ankle sprain cost him all of camp and the preseason, and a rookie needing reps must now beat out James Conner and Tyler Allgeier.",
+   "round_or_adp": "Sal 36 vs ADP 26.3",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Josh Allen",
+   "player_id": "4984",
+   "team": "BUF",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Do not take him in round 2; take Jayden Daniels four rounds later for similar upside.",
+   "mechanism": "He outscored Maye, Stafford, Mahomes, Purdy and Lawrence by roughly a point per game or less last year and was not the top scorer over the second half, so a round-2 price buys no positional edge.",
+   "round_or_adp": "Sal 38 vs ADP 21.6",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "D'Andre Swift",
+   "player_id": "6790",
+   "team": "CHI",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "One of the best RBs available right now — a borderline third-round player going in round 5.",
+   "mechanism": "Nearly 1,400 total yards and 10 TDs last year while splitting the backfield, and Kyle Monangai's knee injury (Sleeper: Questionable, Knee) may cost him weeks, in a top-three run game under Ben Johnson.",
+   "round_or_adp": "Sal 40 vs ADP 52.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Terry McLaurin",
+   "player_id": "5927",
+   "team": "WAS",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Shoo-in for 70-plus catches, 1,000-plus yards and 7-plus TDs at a round 5-6 price.",
+   "mechanism": "Top-5 in first downs per route run and 13th in yards per route run last season despite the holdout and injury; his only real target competition is an older Stefon Diggs who was slot-only in preseason.",
+   "round_or_adp": "Sal 42 vs ADP 55.3",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Cam Skattebo",
+   "player_id": "12481",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Very concerned at a third-round price; he has him as a late fourth.",
+   "mechanism": "Preseason usage split with Tyrone Tracy, and the Giants signed Najee Harris, who is taking first-team pass-protection reps.",
+   "round_or_adp": "Sal 46 vs ADP 43.2",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Luther Burden",
+   "player_id": "12519",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Great spot to get him while he is falling in drafts.",
+   "mechanism": "Back at practice with two-plus weeks of recovery banked and trending to play week 1 (Sleeper wire 8/30: 'looks 100%').",
+   "round_or_adp": "Sal 49 vs ADP 54.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Mike Evans",
+   "player_id": "2216",
+   "team": "SF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Great pick now that injury noise pushed him to round 6.",
+   "mechanism": "The string of camp absences reads as a 33-year-old established WR1 managing load rather than breaking down — he'd only re-rate on missed Thursday/Friday practices in season.",
+   "round_or_adp": "Sal 51 vs ADP 61.4",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Parker Washington",
+   "player_id": "9487",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Should be a sixth-round pick and the public still isn't drafting him high enough. CONFLICT: Fantasy Footballers fade him same day on target share.",
+   "mechanism": "He and Jakobi Meyers were neck-and-neck in target share down the stretch, he finished top-10 weekly in the final month and camp reports have him as the team's number one.",
+   "round_or_adp": "Sal 54 vs ADP 75.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Quinshon Judkins",
+   "player_id": "12512",
+   "team": "CLE",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "A bad pick in round 5 — no upside path without breaking 20-yard runs constantly.",
+   "mechanism": "46th among RBs in routes run, 51st in route participation and just 26 catches last year, with Dylan Sampson the better receiving back on an offense that generates few red-zone chances.",
+   "round_or_adp": "Sal 56 vs ADP 53.1",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Lamar Jackson",
+   "player_id": "4881",
+   "team": "BAL",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "A late fifth-round pick for him; he starts looking at QB in round 6.",
+   "mechanism": "Pure cost discipline — comparable production is available four rounds later.",
+   "round_or_adp": "Sal 57 vs ADP 31.2",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "TreVeyon Henderson",
+   "player_id": "12529",
+   "team": "NE",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "A little lower than market; the injury scares him.",
+   "mechanism": "An ankle/leg injury (Sleeper: Questionable, Leg) on top of New England trusting Rhamondre Stevenson over him in the postseason and Super Bowl.",
+   "round_or_adp": "Sal 59 vs ADP 55.5",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Christian Watson",
+   "player_id": "8167",
+   "team": "GB",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "He has been on Watson all offseason as the Packers' number-one receiver.",
+   "mechanism": "MECHANISM AUDIT: his 'GB will throw more because Jacobs is older' leg is the banned RB-decline->pass-volume chain (GB is a 9.5-win favorite; favorites run). Keep the measured driver: 37.4% vacated target share and his WR1 status.",
+   "round_or_adp": "Sal 60 vs ADP 70.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Carnell Tate",
+   "player_id": "13279",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "The market is artificially dropping him; 13-14 spots ahead of consensus.",
+   "mechanism": "Top-5 draft capital in a Brian Daboll offense, with the price depressed by roughly four ugly preseason drives.",
+   "round_or_adp": "Sal 61 vs ADP 66.3",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "player_id": "7611",
+   "team": "NE",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "He is the RB1 on this team. R9 TRIPWIRE: both sources say Stevenson leads, but Sleeper's depth chart lists Henderson RB1 and prices him 26 picks earlier.",
+   "mechanism": "New England trusted him over Henderson in the postseason and the Super Bowl, and Henderson is dealing with a leg injury.",
+   "round_or_adp": "Sal 67 vs ADP 81.8",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "DK Metcalf",
+   "player_id": "5846",
+   "team": "PIT",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "'An absolute slam dunk' — his biggest positive difference in round 6.",
+   "mechanism": "His average depth of target collapsed to 10.5 yards (58th) because Pittsburgh had no underneath game; Michael Pittman now takes the short work and McCarthy's reunion with Rodgers restores Metcalf downfield. CONFLICT: FF declare Rodgers finished on film.",
+   "round_or_adp": "Sal 68 vs ADP 74.6",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Drake Maye",
+   "player_id": "11564",
+   "team": "NE",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "A borderline fourth-round price he will not pay.",
+   "mechanism": "Cost discipline — Daniels and Hurts are available rounds later.",
+   "round_or_adp": "Sal 69 vs ADP 47.9",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Rico Dowdle",
+   "player_id": "7021",
+   "team": "PIT",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Prefers him over Jaylen Warren, by one pick.",
+   "mechanism": "He projects to lead the Pittsburgh backfield in carries and touchdowns.",
+   "round_or_adp": "Sal 70 vs ADP 85.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jaylen Warren",
+   "player_id": "8228",
+   "team": "PIT",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "One pick behind Dowdle — the PPR half of the split.",
+   "mechanism": "He projects to lead the Pittsburgh backfield easily in targets and receptions.",
+   "round_or_adp": "Sal 71 vs ADP 71.9",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Joe Burrow",
+   "player_id": "6770",
+   "team": "CIN",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Not worth a fifth-round price; 20 picks below market. CONFLICT: FF predict a record season same day.",
+   "mechanism": "No rushing upside plus a five-year injury track record, disqualifying next to mobile QBs in the same range.",
+   "round_or_adp": "Sal 73 vs ADP 51.8",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jayden Reed",
+   "player_id": "10222",
+   "team": "GB",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "His single biggest difference of the entire video — more than three rounds ahead of the market.",
+   "mechanism": "MECHANISM AUDIT: drop the 'Jacobs older -> GB throws more' leg (banned chain). Measured driver stands: Wicks and Doubs gone (37.4% vacated targets) and a shift to far more 11 personnel puts him on the field more than ever.",
+   "round_or_adp": "Sal 76 vs ADP 111.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Tucker Kraft",
+   "player_id": "9484",
+   "team": "GB",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Liked him earlier in the summer, not at the current price.",
+   "mechanism": "The market priced in a clean week-1 return, but he is likely limited for at least the first month.",
+   "round_or_adp": "Sal 78 vs ADP 63.3",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Blake Corum",
+   "player_id": "11586",
+   "team": "LAR",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A nice RB3 if you started with an elite-RB build.",
+   "mechanism": "He projects to split the Rams backfield close to evenly with Kyren Williams per camp reports.",
+   "round_or_adp": "Sal 82 vs ADP 102.5",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Josh Downs",
+   "player_id": "9500",
+   "team": "IND",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Same profile as Jayden Reed — safe floor, massive ceiling, badly underpriced.",
+   "mechanism": "Alec Pierce is still limping five months after March ankle surgery on a 4-6 month timeline and likely misses September, leaving only a 34-year-old Keenan Allen competing for targets.",
+   "round_or_adp": "Sal 83 vs ADP 110.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Sam LaPorta",
+   "player_id": "10859",
+   "team": "DET",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Fine if he falls half a round to a round; not at market.",
+   "mechanism": "Price-only: TEs got steamed up on draft boards and he'd rather wait for double-digit-round options.",
+   "round_or_adp": "Sal 84 vs ADP 59.6",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jordan Addison",
+   "player_id": "9756",
+   "team": "MIN",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "Top-five 'way ahead of market' name on his board — 'so disrespected.'",
+   "mechanism": "108 targets as a rookie next to Justin Jefferson and a top-24 WR season in year 2 with 9 and 10 TDs in his first two years; last year's WR44 finish was entirely QB play.",
+   "round_or_adp": "Sal 85 vs ADP 103.9",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jacory Croskey-Merritt",
+   "player_id": "12533",
+   "team": "WAS",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "high",
+   "why": "'An unbelievable pick' 14 spots ahead of consensus.",
+   "mechanism": "Reports have him as Washington's RB1 with the team trying to make him a three-down back, Rachaad White limited to third downs, and his groin issue non-significant with individual drills resumed.",
+   "round_or_adp": "Sal 87 vs ADP 115.7",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jordan Mason",
+   "player_id": "8408",
+   "team": "MIN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "About a round ahead of consensus; a 10-TD season is in the range of outcomes.",
+   "mechanism": "Reported best player in Vikings camp and the clear early-down runner.",
+   "round_or_adp": "Sal 89 vs ADP 114.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "J.K. Dobbins",
+   "player_id": "6806",
+   "team": "DEN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A starting RB going this late is worth it if he stays upright.",
+   "mechanism": "Starting back on a good offense that should play with leads — but he has missed at least five games in each of the last five seasons.",
+   "round_or_adp": "Sal 92 vs ADP 94.8",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Makai Lemon",
+   "player_id": "13294",
+   "team": "PHI",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Rising up his rankings now that he's healthy.",
+   "mechanism": "Recovered from the hamstring and should start in three-wide sets as the slot receiver.",
+   "round_or_adp": "Sal 95 vs ADP 89.4",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Kyle Pitts",
+   "player_id": "7553",
+   "team": "ATL",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Almost two rounds below market. NOTE: conflicts with our +8% Stefanski-TE adjustment.",
+   "mechanism": "MECHANISM AUDIT: environment-only ('the QB situation makes this a bottom-3 offense'); no usage evidence offered.",
+   "round_or_adp": "Sal 96 vs ADP 68.2",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Drake London",
+   "player_id": "8112",
+   "team": "ATL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "'Becoming a less appealing second-round pick' — he'd take five other WRs first.",
+   "mechanism": "MECHANISM AUDIT: environment-only Atlanta call; no usage input.",
+   "round_or_adp": "Sal 21 vs ADP 17.8",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Harold Fannin",
+   "player_id": "12506",
+   "team": "CLE",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "'My biggest bet against this year' — almost three rounds below consensus.",
+   "mechanism": "Terrible offense and QB room, and the designed touches he lived on now go to KC Concepcion, with a second-round rookie standing out on the boundary.",
+   "round_or_adp": "Sal 98 vs ADP 69.4",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Alec Pierce",
+   "player_id": "8142",
+   "team": "IND",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Effectively in his void.",
+   "mechanism": "March ankle surgery on a 4-6 month recovery, still visibly limping and at best doing individual drills, so he is not close to week 1.",
+   "round_or_adp": "Sal 100 vs ADP 99.0",
+   "videos": [
+    "rtXZBTk5IMU"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Joe Burrow",
+   "player_id": "6770",
+   "team": "CIN",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Mike's bold prediction: Burrow breaks the single-season passing yardage AND passing TD records.",
+   "mechanism": "MECHANISM AUDIT: his game-script legs contradict each other (needs a bottom-10 defense AND favored in 15 of 17). Surviving measured drivers: 2nd in seconds per play, 2nd in pass rate, 2nd in red-zone TD%.",
+   "round_or_adp": "ADP 51.8",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Chase Brown",
+   "player_id": "9224",
+   "team": "CIN",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Both Andy and Mike would take Chase Brown over Trey McBride.",
+   "mechanism": "No Joe Mixon-style TD vulture left in the backfield and he is a genuine reception threat, on an offense favored in 15 of 17 games.",
+   "round_or_adp": "ADP 15.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Bijan Robinson",
+   "player_id": "9509",
+   "team": "ATL",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Named in Andy's 'the bell cow is back' prediction — five RBs hit 350 touches this year vs a decade average of two.",
+   "mechanism": "Depth-chart concentration: Brian Robinson Jr. is not a real threat to take work from him.",
+   "round_or_adp": "ADP 2.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jonathan Taylor",
+   "player_id": "6813",
+   "team": "IND",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Named in the five-bell-cow list; 350-plus touches.",
+   "mechanism": "DJ Giddens and Seth McGowan cannot take meaningful work from him.",
+   "round_or_adp": "ADP 7.3",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "player_id": "9221",
+   "team": "DET",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Named in the five-bell-cow list; 350-plus touches.",
+   "mechanism": "Isaiah Pacheco is the only back behind him and is not a threat to the workload.",
+   "round_or_adp": "ADP 1.5",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "player_id": "4034",
+   "team": "SF",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Named in the five-bell-cow list — but the same show ran SF as 'Final Destination' for injuries.",
+   "mechanism": "Over 400 touches last year with only Kaelon Black and Jordan James behind him, against a franchise that led the NFL in games lost to injury 2013-2021 and three weeks of camp 'tightness'.",
+   "round_or_adp": "ADP 5.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "James Cook",
+   "player_id": "8138",
+   "team": "BUF",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Named in the five-bell-cow list; 350-plus touches.",
+   "mechanism": "Only Ty Johnson and an injured Ray Davis sit behind him on the depth chart.",
+   "round_or_adp": "ADP 10.4",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "player_id": "7611",
+   "team": "NE",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Andy's 'Rhamondre is RB1' flag — he holds the job to start the year.",
+   "mechanism": "Beat reporters are clear that Stevenson is ahead on the depth chart and New England likes him. NOTE: Sleeper's depth chart disagrees (Henderson RB1).",
+   "round_or_adp": "ADP 81.8",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Ashton Jeanty",
+   "player_id": "12527",
+   "team": "LV",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Headline name in Jason's 'year-2 RB class disappoints' — 'he's being drafted at his ceiling.'",
+   "mechanism": "Priced as RB7 on a Raiders team favored in only 3 of 17 games, so negative game script caps volume and touchdowns — before the ankle.",
+   "round_or_adp": "ADP 14.7",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Omarion Hampton",
+   "player_id": "12507",
+   "team": "LAC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "low",
+   "why": "Jason is 'the lowest' on him; Andy openly disagrees and Mike drafted him in round 1 on air.",
+   "mechanism": "Drafted at his ceiling as RB9 on a Chargers team whose center is already out.",
+   "round_or_adp": "ADP 15.7",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Cam Skattebo",
+   "player_id": "12481",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Jason's cleanest year-2 fade — 'Matt Nagy, need I say more.'",
+   "mechanism": "Nagy's play-calling profile: second-lowest motion rate of any play caller since 2021 and third-lowest play-action dropback rate.",
+   "round_or_adp": "ADP 43.2",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Quinshon Judkins",
+   "player_id": "12512",
+   "team": "CLE",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "His 'not fire' pick, repeated here.",
+   "mechanism": "Cleveland's offensive line is in shambles and the starting quarterback situation is a liability.",
+   "round_or_adp": "ADP 53.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Trevor Lawrence",
+   "player_id": "7523",
+   "team": "JAX",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Anchor of the 'Jacksonville is my fantasy trap team' prediction.",
+   "mechanism": "Nine rushing TDs last year, four on red-zone scrambles — the most in the NFL and not a repeatable skill.",
+   "round_or_adp": "ADP 101.6",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Parker Washington",
+   "player_id": "9487",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "'Which one — Parker Washington or Brian Thomas? How about maybe neither.' CONFLICT: Sal's #54 high-conviction target.",
+   "mechanism": "Jakobi Meyers out-targeted him 61 to 51 after the trade to Jacksonville and is still there, with Travis Hunter taking targets and Brenton Strange on an 85-target pace.",
+   "round_or_adp": "ADP 75.7",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Brian Thomas",
+   "player_id": "11631",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Same trap-team ruling — too many mouths for a weekly start.",
+   "mechanism": "Target dilution across Meyers, Washington, Travis Hunter and Brenton Strange in one offense.",
+   "round_or_adp": "ADP 73.5",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Fading him despite Mike's interest.",
+   "mechanism": "Tuten profiles as a goal-line back only, with LeQuint Allen taking the passing-down role.",
+   "round_or_adp": "ADP 62.8",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Colston Loveland",
+   "player_id": "12517",
+   "team": "CHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Top-3 TE in Andy's Bears-breakout prediction; prefers his price to McBride's.",
+   "mechanism": "Crushing camp again with Ben Johnson's explicit endorsement, after becoming the first rookie to lead his team in receiving yards since Ditka in 1983.",
+   "round_or_adp": "ADP 39.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Caleb Williams",
+   "player_id": "11560",
+   "team": "CHI",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Top-5 fantasy QB call; Andy's 'my guy.'",
+   "mechanism": "Just under 20 fantasy points per game in year 1 with clear in-season improvement, plus rushing production, entering year 2 with Ben Johnson.",
+   "round_or_adp": "ADP 71.1",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Luther Burden",
+   "player_id": "12519",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Top-10 WR bold prediction — 'I'm buying Luther Burden stock right now.'",
+   "mechanism": "A projected 25% target share on 110 targets with DJ Moore gone to Buffalo, following an 18-catch, 289-yard, 3-TD final three games.",
+   "round_or_adp": "ADP 54.7",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "D'Andre Swift",
+   "player_id": "6790",
+   "team": "CHI",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Top-12 RB call — agreement with Sal same day.",
+   "mechanism": "Straight opportunity math: good offense, scoring opportunities, receiving work and enough carries.",
+   "round_or_adp": "ADP 52.0",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Rome Odunze",
+   "player_id": "11620",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Top-20 WR call and the softest of the Bears predictions.",
+   "mechanism": "He led the team in first-read target share and last year's problem was a foot injury, not the role.",
+   "round_or_adp": "ADP 63.6",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Marvin Harrison",
+   "player_id": "11628",
+   "team": "ARI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "'Marvin Harrison Jr. is finally good' — top-15 WR and leads Arizona in fantasy points.",
+   "mechanism": "In healthy games with Brissett he ran 8.8 targets and 14.4 PPR points per game and led the team in target share ahead of Trey McBride; last year was wrecked by concussion, appendicitis and a foot injury, and Mike LaFleur now has a big goal-line receiver to use.",
+   "round_or_adp": "ADP 76.7",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Trey McBride",
+   "player_id": "8130",
+   "team": "ARI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Soft price fade only — Jason insists he stays a top-3 TE.",
+   "mechanism": "He won't lap the field again because Brissett's roughly 700-pass volume that fed last season is gone.",
+   "round_or_adp": "ADP 22.9",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
+  },
+  {
+   "player": "Aaron Rodgers",
+   "player_id": "96",
+   "team": "PIT",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "'Weekend at Bernie's' — 'I watched the film on Rodgers, it is over.' CONFLICT: undercuts Sal's DK Metcalf thesis.",
+   "mechanism": "Film review says he is finished as a driver of the offense, with DK Metcalf and Michael Pittman doing all the heavy lifting.",
+   "round_or_adp": "outside top-120 ADP",
+   "videos": [
+    "3DID0RXlVLk"
+   ],
+   "date": "2026-08-29"
   }
  ],
  "strategy_notes": [

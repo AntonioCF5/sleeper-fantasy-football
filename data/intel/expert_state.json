@@ -271,16 +271,30 @@
   "15x0TfcBhBs": {
    "title": "MY GUY... Colston Loveland",
    "processed": "2026-08-29"
+  },
+  "rtXZBTk5IMU": {
+   "video_id": "rtXZBTk5IMU",
+   "title": "My Top 100 Rankings for 2026 Fantasy Football",
+   "published": "2026-08-29",
+   "source": "sal-vetri",
+   "processed": "2026-08-30"
+  },
+  "3DID0RXlVLk": {
+   "video_id": "3DID0RXlVLk",
+   "title": "THE MEGALASHOW! Bold Predictions LIVE in PHX | Fantasy Football 2026 - Ep. 1961",
+   "published": "2026-08-29",
+   "source": "fantasy-footballers",
+   "processed": "2026-08-30"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-08-29"
+   "last_success": "2026-08-30"
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-08-29"
+   "last_success": "2026-08-30"
   }
  }
 }

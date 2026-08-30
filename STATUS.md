@@ -1,7 +1,7 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-28** (preseason final
+tooling, or league state. Last updated: **2026-08-30** (preseason final
 week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
 expert-daily 8/25 run refreshed trades + claims).*
 
@@ -17,7 +17,7 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 | League | Format | Status | Strategy |
 |---|---|---|---|
 | FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **pre_draft, slot 10** | Hero RB + early QB (Lamar @27). Keeper: Tyler Shough @R10 (locked, poor value; Kellen Moore thesis currently +3% tras el recorte por la lesión de Tyson). Full plan: `reports/2026/draft/fantasy-mexica-draft-plan.md` |
-| Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **DRAFT: dom 30 ago 12pm, slot 2/18, snake 17R** | Hero RB → WR flood → late-round QB. Picks: 2, 35/38, 71/74, 107/110, 143/146, 179/182, 215/218, 251/254, 287/290 (pares por la vuelta del snake). Tarea `draft-morning-gallamijos` corre 8:30am ese día (checklist completo + plan file) |
+| Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **DRAFT: dom 30 ago 13:00 (API), slot 2/18, snake 17R** | **Branch EN DISPUTA**: checklist del 30/8 recomienda ANCLA RB en el 2 (Gibbs si cae, si no Bijan) sobre el Chase que el user eligió el 29/8 — Bijan supera a Chase por 38.0 VORP en simulación de 50 drafts; decisión final del user. Picks: 2, 35/38, 71/74, 107/110, 143/146, 179/182, 215/218, 251/254, 287/290 (pares por la vuelta del snake). Tarea `draft-morning-gallamijos` corre 8:30am ese día (checklist completo + plan file) |
 | 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
 | 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
 | Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Burrow UNTRADEABLE (Bengals fan) — he's Maye insurance; TE surplus (LaPorta) is the RB2 trade capital |

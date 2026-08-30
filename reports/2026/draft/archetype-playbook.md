@@ -33,14 +33,21 @@ waiver wire cannot fix mistakes after week 1.
 *(CORRECTED 2026-08-25: earlier version claimed PPFD — every first-down field
 in this league scores 0.0. Real quirk: +1 at 100 rush/rec yds, +2 at 200,
 +1/+2 at 300/400 pass yds — a CEILING tilt, not a possession-floor tilt.)*
-**Branch RESUELTA en vivo 2026-08-30: WR ANCHOR (Chase #2) → RB-RB EN EL
-TURNO 35/38 → WR otra vez en 71/74 → QB tardío**
-*(El user eligió Chase en el 2, lo que descarta el ancla RB. Los datos del
-mismo día muestran por qué eso NO habilita Zero RB: entre el pick 38 y el 71
-el mejor RB disponible cae de 72.9 a 27.1 de VORP — 46 puntos — mientras el
-WR solo baja de 104.8 a 77.7. Ruta RB-RB en el turno = 291.7 VORP contra
-253.4 de la ruta WR-WR. Confirma el veto del playbook: Zero RB está muerto
-en 18 equipos. Plan completo: `gallamijos-league-draft-plan.md`.)*
+**Branch EN DISPUTA — revisión de la mañana del draft (2026-08-30, 8:30am):
+la tarea pre-draft RECOMIENDA revertir a ANCLA RB (Gibbs si cae, si no
+Bijan). Decisión final del user, pendiente al momento de escribir.**
+*(El 29/8 el user eligió Chase en el 2 y de ahí salió la ruta RB-RB forzada
+en el 35/38. La simulación fresca del 30/8 — 50 drafts con ruido de ADP,
+cada ancla jugando su MEJOR línea — dice: Bijan 547.1 · Nacua 516.5 ·
+Chase 509.1. **Bijan supera a Chase por 38.0 VORP**, y por +36.9 incluso
+borrando a Flowers del board. Mecanismo: con el RB anclado en el 2, el pick
+38 compra a Flowers (104.8); con Chase, el 38 está obligado a Swift (66.8).
+Además solo hay UN pick antes del nuestro, así que es imposible que Gibbs y
+Bijan se vayan los dos: el ancla RB no nos la pueden quitar, el WR élite sí.
+Sal Vetri (29/8) ordena igual que nuestro board: 1 Gibbs, 2 Bijan, 3 Nacua,
+4 Chase. Nacua queda vetado por psoas — 2 semanas sin drills de equipo.
+Plan completo y la línea alterna si el user sostiene a Chase:
+`gallamijos-league-draft-plan.md`.)*
 - R1 (#2): Gibbs or Bijan — a true single-player-tier anchor. This is the
   textbook Hero RB league: full PPR + deep WR middle + flat QB tier.
 - R2–R6: WRs — full PPR pays targets, and the 100-yd bonus nudges toward
