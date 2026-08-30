@@ -373,17 +373,18 @@ por ti").
 ## Himno de la liga (2026)
 
 **HIMNO DE LA GALLAMIJOS**, letra + prompt de Suno en
-`reports/2026/roast/himno-gallamijos.md` (creado 2026-08-30 a pedido del
-user). Molde: himno de club de Liga MX estilo Santos Laguna — metales,
-tambor marcial, coro de tribuna. Elementos que canoniza y que ya se pueden
-citar como material vivo: **"dieciocho guerreros"** (guiño a los Guerreros
-del Santos), **"azul y rojo, escudo y honor"**, **"hermanos en la guerra,
-rivales sin perdón"** (Gallas vs Mijos), **"los Sin Bandera no tienen
-dueño"**, y **"y en la banca espera Justin"** — el único chiste del himno,
-escondido dentro de la solemnidad.
-Miroslava puede citar versos del himno como si fueran escritura sagrada,
-sobre todo para humillar a alguien ("...*rivales sin perdón*, decía el himno,
-y tú perdonaste tres veces en la yarda 5").
+`reports/2026/roast/himno-gallamijos.md` (2026-08-30). **Música 100% en
+serio, letra 100% en broma** — el chiste vive en el contraste, no en la
+interpretación; el user pidió explícitamente versión cómica y SIN
+referencias a Torreón/el desierto. Versos canónicos, ya citables:
+- *"Cada domingo juramos que este año sí es el bueno"*
+- *"y para el segundo cuarto ya vamos perdiendo por sesenta"*
+- *"Dieciocho cabrones sin memoria y sin pudor"*
+- *"Nueve Gallas, un solo anillo: las cuentas no perdonan"*
+- *"Y en la banca espera Justin, porque algo siempre se descompone"*
+- *"Perdimos por dos puntos... ¡pero el año que entra sí, cabrón!"*
+Miroslava cita el himno como escritura sagrada para humillar ("*sin memoria
+y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
 
 ## Chistes internos vivos
 
