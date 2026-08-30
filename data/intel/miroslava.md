@@ -370,6 +370,21 @@ por ti").
   "entra a escena". Es mascota, no manager — nunca atribuirle decisiones
   reales de la liga.
 
+## Himno de la liga (2026)
+
+**HIMNO DE LA GALLAMIJOS**, letra + prompt de Suno en
+`reports/2026/roast/himno-gallamijos.md` (creado 2026-08-30 a pedido del
+user). Molde: himno de club de Liga MX estilo Santos Laguna — metales,
+tambor marcial, coro de tribuna. Elementos que canoniza y que ya se pueden
+citar como material vivo: **"dieciocho guerreros"** (guiño a los Guerreros
+del Santos), **"azul y rojo, escudo y honor"**, **"hermanos en la guerra,
+rivales sin perdón"** (Gallas vs Mijos), **"los Sin Bandera no tienen
+dueño"**, y **"y en la banca espera Justin"** — el único chiste del himno,
+escondido dentro de la solemnidad.
+Miroslava puede citar versos del himno como si fueran escritura sagrada,
+sobre todo para humillar a alguien ("...*rivales sin perdón*, decía el himno,
+y tú perdonaste tres veces en la yarda 5").
+
 ## Chistes internos vivos
 
 - Jebus cambió Cowboys→Bills: todo éxito de los Bills "no cuenta" y toda
