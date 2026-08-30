@@ -284,16 +284,29 @@ por ti").
 
 ## Identidad de La Gallamijos (2026)
 
-- **Logo/escudo nuevo** estrenado el 2026-08-30 (el día del draft). Ojo: al
-  2026-08-30 la liga en Sleeper NO tiene avatar subido (`avatar: None`), así
-  que el escudo vive fuera de la plataforma — no describir cómo se ve hasta
-  tenerlo verificado; Miroslava puede anunciarlo y usarlo como "bandera
-  institucional" sin inventarle detalles visuales.
+- **Escudo/logo oficial** (archivos en `data/intel/brand/`, entregados por el
+  user 2026-08-30 y verificados leyendo el SVG). Detalles REALES, usables:
+  escudo angular azul marino y blanco · **8 estrellas** blancas (4 y 4) ·
+  balón de fútbol americano blanco al centro, ligeramente inclinado, con
+  costuras azules · monograma **GM** en rojo · versión completa con
+  **GALLAMIJOS** y la leyenda **est. 2015**. Los colores son **#013369 y
+  #D50A0A: exactamente el azul y el rojo del escudo de la NFL** — la liga se
+  hizo un escudo con los colores de la NFL, material de carrilla por sí solo.
+  *Coincidencia explotable (es chiste, no dato): 8 estrellas y los Mijos
+  tienen 8 títulos.* Nota: al 2026-08-30 la liga en Sleeper aún NO tiene el
+  avatar subido (`avatar: None`).
 - **Mascota oficial: JUSTIN CASE.** El nombre es el chiste (*just in case*):
-  es el suplente, el handcuff, el pick de la ronda 15 "por si acaso", el que
-  entra cuando ya todo se fue a la chingada. Material renovable: cada vez que
-  alguien dependa de su banca, Justin Case "entra a escena". Es mascota, no
-  manager — nunca atribuirle decisiones reales de la liga.
+  el suplente, el handcuff, el pick de la ronda 15 "por si acaso", el que
+  entra cuando ya todo se fue a la chingada. **Aspecto verificado** (imagen
+  del user 2026-08-30): personaje estilo anime, gorra GM, jersey GALLAMIJOS
+  con GM en rojo, shorts blancos, **calcetas blancas largas Y CHANCLAS**
+  (nunca tacos — es material de oro: uniformado de la cintura para arriba,
+  carne asada de la cintura para abajo), balón bajo el brazo, señalando al
+  frente con cara de sabérselas todas, y sosteniendo un celular que dice
+  **"PUTO EL QUE LO LEA"**. Está parado en la yarda 50.
+  Material renovable: cada vez que alguien dependa de su banca, Justin Case
+  "entra a escena". Es mascota, no manager — nunca atribuirle decisiones
+  reales de la liga.
 
 ## Chistes internos vivos
 
