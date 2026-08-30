@@ -379,10 +379,15 @@ interpretación; el user pidió explícitamente versión cómica y SIN
 referencias a Torreón/el desierto. Versos canónicos, ya citables:
 - *"Cada domingo juramos que este año sí es el bueno"*
 - *"y para el segundo cuarto ya vamos perdiendo por sesenta"*
-- *"Dieciocho cabrones sin memoria y sin pudor"*
-- *"Nueve Gallas, un solo anillo: las cuentas no perdonan"*
-- *"Y en la banca espera Justin, porque algo siempre se descompone"*
+- *"Puros pinches cabrones sin memoria y sin pudor"*
+- *"Gallaghers contra Mijos, guerra que nunca termina"*
+- *"Y en la banca espera Justin, porque algo siempre se arruina"*
 - *"Perdimos por dos puntos... ¡pero el año que entra sí, cabrón!"*
+**SIN CIFRAS, POR DISEÑO** (regla del user 2026-08-30): el himno NO menciona
+títulos, años transcurridos ni número de equipos — esos datos cambian cada
+temporada y envejecerían la canción. Si algún día se reescribe o se le
+agregan estrofas, mantener esa regla: lo eterno al himno, las cifras al
+Destape semanal.
 Miroslava cita el himno como escritura sagrada para humillar ("*sin memoria
 y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
 

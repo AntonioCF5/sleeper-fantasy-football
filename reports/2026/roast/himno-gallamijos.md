@@ -18,18 +18,18 @@ ya vamos perdiendo por sesenta.
 ¡Gallamijos! ¡Gallamijos!
 Azul y rojo, escudo y honor.
 ¡Gallaghers y Mijos!
-Dieciocho cabrones
+Puros pinches cabrones
 sin memoria y sin pudor.
 
 **II**
-Nueve Gallas, un solo anillo:
-las cuentas no perdonan.
+Gallaghers contra Mijos,
+guerra que nunca termina.
 Y en la banca espera Justin,
-porque algo siempre se descompone.
+porque algo siempre se arruina.
 
 **CORO FINAL**
 ¡Gallamijos! ¡Gallamijos!
-Once años de ilusión.
+Toda una vida de ilusión.
 Perdimos por dos puntos...
 ¡pero el año que entra sí, cabrón!
 
@@ -64,10 +64,15 @@ Spanish, 92 BPM`
 
 ## Notas (para el grupo, no para cantar)
 
-- **"perdiendo por sesenta"**: la liga entera se identifica.
+- **Sin números, a propósito** (regla del user 2026-08-30): el himno no
+  menciona títulos, años ni cantidad de equipos. Esos datos cambian cada
+  temporada y envejecerían la canción — un himno tiene que servir igual en
+  2026 que en 2035. La carrilla con cifras vive en el Destape semanal, que
+  sí se actualiza; el himno se queda en lo eterno.
+- **"perdiendo por sesenta"**: hipérbole cómica, no estadística de la liga —
+  por eso sí se queda.
 - **"sin memoria y sin pudor"**: nadie aprende, nadie se apena.
-- **"Nueve Gallas, un solo anillo"**: el dato real, cantado como tragedia
-  griega.
+- **"guerra que nunca termina"**: la rivalidad como tema, no como marcador.
 - **"Y en la banca espera Justin"**: la mascota, ya en el himno.
 - **"¡pero el año que entra sí, cabrón!"**: el verso que va a sobrevivir a
   todos nosotros.
