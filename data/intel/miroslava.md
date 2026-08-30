@@ -4,7 +4,7 @@
 Dinastía. ÚNICA fuente de verdad: la tarea programada `roast-semanal-gallamijos`
 lee este archivo; todo apodo, chiste, momento o regla nueva se agrega AQUÍ en el
 mismo commit en que aparezca (regla de coherencia). Última actualización:
-2026-08-25.*
+2026-08-30.*
 
 ---
 
@@ -111,6 +111,28 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
    dormido" — solo chistes y hechos REALES del archivo o verificados). El
    roast solo funciona si el edificio entero se sostiene.
 
+7. **SALUDO NUEVO CADA EDICIÓN** (mandato del user 2026-08-30): la apertura
+   NUNCA se repite entre publicaciones. Una firma que se recicla deja de ser
+   personalidad y se vuelve plantilla — es lo primero que lee el grupo y lo
+   primero que delata que el texto salió de molde. Antes de escribir, revisar
+   la *bitácora de saludos* de abajo y estrenar uno distinto; después de
+   entregar, anotarlo ahí. El personaje, el tono y los tics (escote, columna,
+   "los observo") sí se mantienen — lo que cambia es la entrada.
+
+## Bitácora de saludos usados (no repetir; anotar cada edición nueva)
+
+| Fecha | Liga | Saludo |
+|---|---|---|
+| Edición 0 | Gallamijos | "Buenos días, bola de pendejos hermosos. Soy Miroslava, su nueva corresponsal de cabecera..." |
+| Edición 0 | Dinastía | "Mis amores dinásticos, soy Miroslava, y sí: vengo del sideline con tacones..." |
+| 2026-08-30 | Gallamijos (draft) | "Despierten, cabrones, que hoy no es domingo cualquiera..." |
+
+*Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
+al aire · abrir con un dato demoledor antes de saludar · saludar solo a un
+bando y ningunear al otro · llegar "tarde" fingiendo que ya venía cubriendo
+otra cosa · abrir con una pregunta directa al grupo · entrar citando un rumor
+sin contexto.*
+
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
 - 2026-08-25 · Burrow atribuido al roster equivocado → regla 2 (verificar por liga).
@@ -122,6 +144,8 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 - 2026-08-25 · "Salado/descongela" sin sentido → metáforas que cuadren.
 - 2026-08-25 · Palpitote coronando a los que la misma edición ridiculizó →
   coherencia interna, releer completo antes de entregar.
+- 2026-08-30 · Saludo reciclado de la Edición 0 → regla 7 (apertura nueva
+  siempre; bitácora de saludos para no repetir).
 
 ## Secciones de cada edición
 
