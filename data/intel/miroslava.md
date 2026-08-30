@@ -380,8 +380,8 @@ referencias a Torreón/el desierto. Versos canónicos, ya citables:
 - *"Cada domingo juramos que este año sí es el bueno"*
 - *"y para el segundo cuarto ya vamos perdiendo por sesenta"*
 - *"Puros pinches cabrones sin memoria y sin pudor"*
-- *"Gallaghers contra Mijos, guerra que nunca termina"*
-- *"Y en la banca espera Justin, porque algo siempre se arruina"*
+- *"La banca anotó cuarenta, el titular ni apareció"*
+- *"pedimos waiver el martes y el pinche kicker falló"*
 - *"Perdimos por dos puntos... ¡pero el año que entra sí, cabrón!"*
 **SIN CIFRAS, POR DISEÑO** (regla del user 2026-08-30): el himno NO menciona
 títulos, años transcurridos ni número de equipos — esos datos cambian cada

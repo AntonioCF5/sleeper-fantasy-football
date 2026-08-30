@@ -10,9 +10,9 @@
 
 **I**
 Cada domingo juramos
-que este año sí es el bueno,
+que este año sí la hacemos,
 y para el segundo cuarto
-ya vamos perdiendo por sesenta.
+ya sabemos que perdemos.
 
 **CORO**
 ¡Gallamijos! ¡Gallamijos!
@@ -22,10 +22,10 @@ Puros pinches cabrones
 sin memoria y sin pudor.
 
 **II**
-Gallaghers contra Mijos,
-guerra que nunca termina.
-Y en la banca espera Justin,
-porque algo siempre se arruina.
+La banca anotó cuarenta,
+el titular ni apareció,
+pedimos waiver el martes
+y el pinche kicker falló.
 
 **CORO FINAL**
 ¡Gallamijos! ¡Gallamijos!
@@ -69,11 +69,11 @@ Spanish, 92 BPM`
   temporada y envejecerían la canción — un himno tiene que servir igual en
   2026 que en 2035. La carrilla con cifras vive en el Destape semanal, que
   sí se actualiza; el himno se queda en lo eterno.
-- **"perdiendo por sesenta"**: hipérbole cómica, no estadística de la liga —
-  por eso sí se queda.
+- **Todo el verso 2 son dolores universales de fantasy** (petición del user
+  2026-08-30): puntos dejados en la banca, el titular que no apareció, el
+  waiver del martes y el kicker que falla. Sin nombres propios y sin la
+  mascota — así cualquiera de la liga se ve retratado, este año y en diez.
 - **"sin memoria y sin pudor"**: nadie aprende, nadie se apena.
-- **"guerra que nunca termina"**: la rivalidad como tema, no como marcador.
-- **"Y en la banca espera Justin"**: la mascota, ya en el himno.
 - **"¡pero el año que entra sí, cabrón!"**: el verso que va a sobrevivir a
   todos nosotros.
 
