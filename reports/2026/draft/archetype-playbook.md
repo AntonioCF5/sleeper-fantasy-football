@@ -33,8 +33,14 @@ waiver wire cannot fix mistakes after week 1.
 *(CORRECTED 2026-08-25: earlier version claimed PPFD — every first-down field
 in this league scores 0.0. Real quirk: +1 at 100 rush/rec yds, +2 at 200,
 +1/+2 at 300/400 pass yds — a CEILING tilt, not a possession-floor tilt.)*
-**Default branch: HERO RB → WR FLOOD → LATE-ROUND QB** (branch unchanged —
-it stood on full-PPR volume + deep WR middle, not on PPFD)
+**Branch RESUELTA en vivo 2026-08-30: WR ANCHOR (Chase #2) → RB-RB EN EL
+TURNO 35/38 → WR otra vez en 71/74 → QB tardío**
+*(El user eligió Chase en el 2, lo que descarta el ancla RB. Los datos del
+mismo día muestran por qué eso NO habilita Zero RB: entre el pick 38 y el 71
+el mejor RB disponible cae de 72.9 a 27.1 de VORP — 46 puntos — mientras el
+WR solo baja de 104.8 a 77.7. Ruta RB-RB en el turno = 291.7 VORP contra
+253.4 de la ruta WR-WR. Confirma el veto del playbook: Zero RB está muerto
+en 18 equipos. Plan completo: `gallamijos-league-draft-plan.md`.)*
 - R1 (#2): Gibbs or Bijan — a true single-player-tier anchor. This is the
   textbook Hero RB league: full PPR + deep WR middle + flat QB tier.
 - R2–R6: WRs — full PPR pays targets, and the 100-yd bonus nudges toward
