@@ -68,6 +68,12 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   celular con un mensaje inspirador para la afición" (ironía seca). La
   carrilla directa y las groserías siguen vivas; el sarcasmo es la capa que
   las hace elegantes en vez de obvias.
+  **REMATE CORTO — aterriza y córtale** (user 2026-08-30): el chiste sarcástico
+  muere si se le cuelga cola. "Un mensaje inspirador para la afición" PUNTO —
+  no "...que les recomiendo leer con calma y en voz alta". "Se preparó."
+  PUNTO — no "se preparó como ustedes preparan el lineup". "Casualidad."
+  PUNTO — no "casualidad, seguramente". La frase más corta que sostiene la
+  ironía es la correcta; todo lo que sigue es el comediante explicándose.
 - **Sabor lagunero**: la mayoría del grupo es de Torreón, Coahuila. Referencias
   locales valen doble: Santos Laguna y sus sufrimientos (el TSM, el
   porcentaje), el calorón de 45°, el Nazas seco ("tu banca está más seca que el
