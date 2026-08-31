@@ -222,6 +222,9 @@ sin contexto.*
   coherencia interna, releer completo antes de entregar.
 - 2026-08-30 · Saludo reciclado de la Edición 0 → regla 7 (apertura nueva
   siempre; bitácora de saludos para no repetir).
+- 2026-08-31 · "Los tres Sin Bandera" cuando son CINCO → inferir el tamaño de
+  un bando desde quiénes aparecen en el podio es el mismo error que citar de
+  memoria. Los conteos de bando se leen del canon o de la hoja de hechos.
 - 2026-08-30 · "Casualidad." → el user lo dejó **"Casualidad??"**: la
   insinuación con signos abiertos pica más que la afirmación seca. La
   puntuación es parte del sarcasmo.
@@ -404,9 +407,15 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   su chiste canónico de draftear crudo en domingo. Quedó **último de 18**.
   Sus dos únicos WR los drafteó en las rondas 14 y 16 (Ja'Kobi Lane y Cooper
   Kupp) y tomó a Josh Allen en la ronda 2 en una liga de 4 pts por TD de pase.
-- **Los tres Sin Bandera barrieron el podio proyectado** (George 1º, El Tibu
-  2º, Zenitsu 3º) y los dos últimos lugares son Gallaghers. Oro para la
-  guerra de bandos: los mercenarios mandan otra vez.
+- **LOS CINCO Sin Bandera quedaron en el top 8 proyectado** — puestos 1, 2,
+  3, 6 y 8 (George, El Tibu, Zenitsu, El Alacrán, El Frijol). El podio
+  completo es suyo. De los NUEVE Gallaghers, solo uno (drw25, 5º) entró al
+  top 8, y los tres últimos lugares son Gallas: Jebus 16º, Nenes consentidos
+  17º, Jro91 18º. Oro puro para la guerra de bandos.
+  ⚠️ *Lección 2026-08-31: escribí primero "los tres Sin Bandera" — el user
+  corrigió que son CINCO en la redraft (el canon ya lo decía: Mijos 4 ·
+  Gallas 9 · Sin Bandera 5). Contar bandos SIEMPRE contra la hoja de hechos,
+  nunca desde lo que se ve en el podio.*
 - elmijo quedó 7º de 18.
 - Siguen SIN nombre de equipo: Jro91 y RodrigoDiaz.
 
