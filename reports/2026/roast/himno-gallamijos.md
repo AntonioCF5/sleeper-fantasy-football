@@ -1,8 +1,9 @@
 # HIMNO DE LA GALAMIJOS
 *est. 2015 · para cantarse antes del draft y después de cada putiza*
 
-> La música va **completamente en serio**: trompetas, tambor marcial, coro de
-> tribuna. La letra no. Ahí está el chiste.
+> La música va **completamente en serio**: banda de guerra colegial gringa —
+> batería, sousafones, trompetas y grada coreando. La letra no. Ahí está el
+> chiste.
 
 > **Ojo con la ortografía de la letra:** aquí va **Galamijos** y **Galaghers**
 > con UNA sola L, a propósito. En español la doble L suena /y/, y el
@@ -45,40 +46,51 @@ Perdimos por dos puntos...
 
 ---
 
-## PROMPT PARA SUNO (v2 — corregido)
+## PROMPT PARA SUNO (v3 — banda de guerra colegial gringa)
 
-**Por qué cambió:** la v1 decía "club de fútbol *mexicano*", "estilo *Liga
-MX*" y "**banda** de metales". Suno no lee eso como estadio: lo lee como
-género. "Mexicano" + "banda" lo manda directo a banda sinaloense, mariachi y
-norteño. La solución es describir el SONIDO (metales sinfónicos, coro de
-tribuna, marcha) y dejar el español solo como idioma de canto, nunca como
-género. Va en inglés a propósito — el motor de estilo de Suno responde mejor
-a tags en inglés; la letra en español manda sobre el idioma cantado.
+**Lo que cambió y por qué.** v1 pedía "mexicano/Liga MX/**banda** de metales"
+y el motor entregaba banda sinaloense — a un generador se le describe el
+SONIDO, nunca el país. v3 cambia además el género completo: ya no es himno
+solemne de tribuna, es **fight song de marching band universitaria**. Eso
+mueve tres cosas: sube el tempo (de 92 a ~150), el protagonista pasa de las
+trompetas a la **batería de guerra** (redoblantes, quads, bombos, platillos)
+con sousafones abajo, y la voz deja de cantar solemne para **corear a grito
+de tribuna**. El español se queda solo como idioma de canto, jamás como
+género.
 
 **Campo de estilo:**
 
 ```
-Epic European football club anthem, symphonic orchestral brass fanfare,
-bright trumpets and trombones, timpani and military snare drums, massive
-male terrace crowd choir singing in unison, powerful solo baritone on the
-verses, mid-tempo march, 92 BPM, major key, extremely singable memorable
-melody, opening trumpet fanfare, explosive chorus with crowd and handclaps,
-big stadium reverb, live terrace ambience, completely serious and grandiose
-delivery with no comedic inflection, sung in Spanish. 1:30-2:00.
+American college football marching band fight song, halftime show on the
+field, full drumline front and center (snare line, tenor quads, bass drum
+line, crash cymbals), blazing trumpet and mellophone section, trombones,
+sousaphone bass line, piccolo counter-melody, brass stabs and shout chorus,
+fast bright march tempo 150 BPM, B-flat major, triumphant rowdy singalong,
+huge student crowd chanting in unison, cheer squad energy, stadium PA and
+open-air reverb, recorded live at a packed college stadium, completely
+serious and proud delivery with no comedic inflection, sung in Spanish.
+1:30-2:00.
 ```
 
-**Campo "Exclude styles" (esto es lo que salva el track):**
+**Campo "Exclude styles" (es lo que salva el track):**
 
 ```
 mariachi, banda sinaloense, norteño, ranchera, corrido, cumbia, regional
-mexicano, latin pop, accordion, guitarrón, vihuela, nylon guitar, trumpet
-mariachi phrasing, comedic vocals, parody, novelty, autotune
+mexicano, latin pop, accordion, guitarrón, vihuela, nylon guitar, orchestral
+strings, cinematic score, ballad, slow tempo, electric guitar, rock drum
+kit, comedic vocals, parody, novelty, autotune
 ```
 
-**Tags cortos (si solo hay un campo):** `european football anthem, symphonic
-brass fanfare, marching snare, male crowd choir, stadium reverb, anthemic,
-proud, straight-faced, sung in Spanish, 92 BPM — no mariachi, no banda, no
-regional`
+**Tags cortos (si solo hay un campo):** `college marching band fight song,
+drumline, sousaphone, trumpet section, stadium crowd chant, 150 BPM, B-flat
+major, triumphant, straight-faced, sung in Spanish — no mariachi, no banda,
+no strings`
+
+**Nota de tempo:** a 150 la letra se canta a la mitad de tiempo por sílaba
+que en la versión marcha. Si el resultado sale atropellado, baja a **132 BPM**
+antes de tocar la letra — es el tempo clásico de fight song y le deja aire a
+"sin memoria y sin pudor". El grito final **¡GA-LA-MI-JOS!** está escrito
+para caer sobre golpes de bombo: cuatro sílabas, cuatro golpes.
 
 ---
 

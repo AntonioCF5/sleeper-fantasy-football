@@ -530,6 +530,13 @@ va **Galamijos** y **Galaghers** con una L porque en español la doble L suena
 cambio de nombre: en el Destape, el chat y todo lo demás sigue siendo
 **Gallamijos**.
 
+**Género definitivo (user, 2026-08-31): fight song de marching band
+universitaria de Estados Unidos** — batería de guerra al frente, sousafones,
+trompetas y grada coreando, ~150 BPM. Encaja con el deporte y con el
+contraste que hace el chiste: música de himno colegial gringo, letra de
+perdedores crónicos. La versión de himno solemne de tribuna (marcha 92 BPM)
+queda descartada.
+
 **Lección del prompt de Suno (2026-08-31):** describir el género como
 "mexicano" fue el error — "club de fútbol *mexicano*", "estilo *Liga MX*" y
 "***banda*** de metales" hicieron que el motor entregara banda sinaloense y
