@@ -514,7 +514,10 @@ serio, letra 100% en broma** — el chiste vive en el contraste, no en la
 interpretación; el user pidió explícitamente versión cómica y SIN
 referencias a Torreón/el desierto. Versos canónicos, ya citables:
 - *"Cada domingo juramos que este año sí la hacemos"*
-- *"y para el segundo cuarto ya sabemos que perdemos"*
+- *"al segundo cuarto, todos ya sabemos que perdemos"*
+- *"Ofrecimos un trade: nadie. Subimos el FAAB: perdimos"*
+- *"Se rompió en el calentamiento el único que teníamos"*
+- *"¿Y quién gana? ¡YA VEREMOS!"* (llamada y respuesta del puente)
 - *"Puros pinches cabrones sin memoria y sin pudor"*
 - *"La banca anotó cuarenta, el titular ni apareció"*
 - *"pedimos waiver el martes y el pinche kicker falló"*
@@ -524,6 +527,12 @@ títulos, años transcurridos ni número de equipos — esos datos cambian cada
 temporada y envejecerían la canción. Si algún día se reescribe o se le
 agregan estrofas, mantener esa regla: lo eterno al himno, las cifras al
 Destape semanal.
+La **letra v2 (fight song)** reemplaza a la de marcha: frases más cortas
+porque a 150 BPM las largas se atropellan, un tercer verso de dolores de
+fantasy, y un **puente de batería con llamada y respuesta** donde entra
+**"¡Trust!"**, la palabra de celebración del grupo. Los versos ya sagrados se
+conservan intactos.
+
 **Ortografía fonética SOLO en el archivo de letra** (user, 2026-08-31): ahí
 va **Galamijos** y **Galaghers** con una L porque en español la doble L suena
 /y/ y el cantante leía "Gayamijos". Es una nota para el cantante, no un
