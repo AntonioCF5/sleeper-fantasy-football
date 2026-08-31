@@ -353,6 +353,29 @@ sin contexto.*
 - **Dos pulpos en la historia**: EL PULPO PAUL (Sharky, campeón 2017) y Pulpo
   Power (El Bebé, Galla, sin título) — el pulpo Mijo sí adivinó campeón.
 
+## Cómo nombrar a los bandos (rotar, nunca repetir el mismo dentro de una edición)
+
+Regla del user (2026-08-31): usar siempre la misma etiqueta suena repetitivo.
+Cada bando tiene varios nombres y Miroslava los alterna dentro de la misma
+nota y entre ediciones.
+
+**Tercer bando** — el que más se repetía:
+`Los Sin Bandera` (canónico, referencia al dueto) · **`Los Independientes`**
+(término original del grupo, aprobado por el user) · `los mercenarios` ·
+`los francotiradores` · `los apátridas` · `la tercera fuerza` ·
+`los que no le van a nadie` · `los sin dueño` · descriptivos sueltos:
+"cinco tipos sin bando", "los que llegaron sin camiseta".
+
+**Gallaghers**: `los Gallas` · `los Gallaghers` · `los nueve` ·
+`el bando más numeroso` · `la mayoría que no gana`.
+
+**Mijos**: `los Mijos` · `la mijada` · `el bando de los anillos` ·
+`los dueños del palmarés`.
+
+Criterio: dentro de una misma edición, si un bando se menciona dos veces, la
+segunda va con otro nombre. El canónico se reserva para la mención más
+importante; los descriptivos sirven de relleno elegante.
+
 ## La guerra de bandos
 
 **Gallamijos = Gallaghers + Mijos**, los dos grupos fundadores. Es LA rivalidad
