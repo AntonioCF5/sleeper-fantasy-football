@@ -96,3 +96,16 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - [free_agent] DrBet: altas: Malik Davis→DrBet; bajas: Jaydon Blue (dropeado por DrBet)
 - [free_agent] canogutierrez: altas: ATL→canogutierrez; bajas: Tykee Smith (dropeado por canogutierrez)
 - [free_agent] canogutierrez: altas: Tua Tagovailoa→canogutierrez; bajas: Dillon Thieneman (dropeado por canogutierrez)
+
+## Datos verificados post-draft (agregados 2026-08-31 al escribir la columna)
+
+- Roster de Jro91 (Buz) incluye: Myles Garrett, Aidan Hutchinson, T.J. Watt,
+  Nick Bosa (cuatro cazamariscales) y Odell Beckham (firmado post-draft).
+  NO tiene ninguna defensa de equipo. Último de 18 en proyección (1366.4).
+- Roster de hectordavid1989TRC (Chapo) incluye: Bijan Robinson, Rashee Rice,
+  Tetairoa McMillan, Kyle Pitts, Jayden Daniels (sus primeras cinco rondas).
+  Un solo RB en 17 rondas. 17º de 18 (1440.5).
+- Ranking con ROSTERS ACTUALES: 1 PotrosyOsos (S) 1825.3 · 2 drw25 (G) 1813.2
+  · 3 DrBet (S) · 4 aledlg (S) · 5 charlyae17 (M) · 6 jffaya (S) · 7 elmijo (M)
+  · 8 maudlgarza (S) · … · 16 alealvarez7 (M) · 17 Chapo (G) · 18 Buz (G).
+  Los CINCO Sin Bandera en top 8; UN solo Galla en top 8; los DOS últimos son Gallas.

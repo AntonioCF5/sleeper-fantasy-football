@@ -102,6 +102,22 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Nazas"), el Cristo de las Noas, Gómez y Lerdo. "Jets de la Laguna" ya es
   referencia local viva.
 
+## Bitácora de chistes usados (no repetir entre ediciones)
+
+Regla nueva (user, 2026-08-31): un chiste no se reutiliza en la edición
+siguiente aunque haya funcionado. El validador mecánico NO detecta esto —
+lo cachó el user cuando repetí a Aleco de un día para otro. Antes de enviar,
+comparar el borrador contra la edición anterior.
+
+| Fecha | Chiste / referencia | Estado |
+|---|---|---|
+| 2026-08-30 | Aleco / Orlegi "proyecto a largo plazo" | usado — descansar |
+| 2026-08-30 | Jorge Campos narrando una final | usado — descansar |
+| 2026-08-30 | Justin Case y las chanclas | usado — descansar |
+| 2026-08-31 | El robot dormido que quedó arriba del humano | usado — descansar |
+| 2026-08-31 | Los cuatro cazamariscales sin defensa (Buz) | usado — descansar |
+| 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
+
 ## Control editorial (obligatorio antes de enviar)
 
 Ninguna edición sale sin pasar dos filtros. Se creó el 2026-08-31 porque cada
@@ -213,7 +229,7 @@ existe solo para re-revisar algo ya enviado.
 | 2026-08-30 | Gallamijos (draft) | "Despierten, cabrones, que hoy no es domingo cualquiera..." |
 | 2026-08-30 | Gallamijos (logo) | "Buenos días corazones, HAPPY DRAFT DAY humanos promedio." *(versión final del user)* |
 | — sin usar | — | "...perdón, sigo al aire. Interrumpo la previa porque la directiva por fin hizo algo..." *(escrita, no publicada — disponible)* |
-| 2026-08-31 | Gallamijos (post-draft) | "Se acabó, coaches. Diecisiete rondas, trescientos seis picks y una liga entera fingiendo que sabía lo que hacía." |
+| 2026-08-31 | Gallamijos (post-draft) | "Un equipo salió del draft con un solo corredor. Otro salió sin defensa. Los dos son Gallaghers. / Buenos días, coaches." |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -222,7 +238,7 @@ existe solo para re-revisar algo ya enviado.
 | Edición 0 | Gallamijos | "Besitos. Los amo, pero a unos nomás por lástima." |
 | Edición 0 | Dinastía | "Besitos dinásticos. Los observo. Sé dónde draftean." |
 | 2026-08-30 | Gallamijos (logo) | "...tú desde la banca, yo desde el escote. / Miroslava, que ahora también cubre la fuente institucional" |
-| 2026-08-31 | Gallamijos (post-draft) | "Nos leemos el martes. Yo ya tengo la libreta abierta. / Miroslava, que vio el draft completo para que ustedes no tuvieran que recordarlo" |
+| 2026-08-31 | Gallamijos (post-draft) | "Nos leemos la próxima semana. Traigan roster, no excusas. / Los observo. / Miroslava, que ya sabe quién no va a mover un dedo" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
@@ -427,15 +443,29 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   está verificado: **un solo RB en todo el draft y 10 picks de IDP**, con seis
   defensivos SEGUIDOS de la ronda 6 a la 11. Terminó 17º de 18. Carrilla
   renovable toda la temporada: va a alinear un linebacker de RB2.
-- **Buz (Jro91) se puso una pedota el SÁBADO** (dato del user) — variación de
-  su chiste canónico de draftear crudo en domingo. Quedó **último de 18**.
-  Sus dos únicos WR los drafteó en las rondas 14 y 16 (Ja'Kobi Lane y Cooper
-  Kupp) y tomó a Josh Allen en la ronda 2 en una liga de 4 pts por TD de pase.
-- **LOS CINCO Sin Bandera quedaron en el top 8 proyectado** — puestos 1, 2,
-  3, 6 y 8 (George, El Tibu, Zenitsu, El Alacrán, El Frijol). El podio
-  completo es suyo. De los NUEVE Gallaghers, solo uno (drw25, 5º) entró al
-  top 8, y los tres últimos lugares son Gallas: Jebus 16º, Nenes consentidos
-  17º, Jro91 18º. Oro puro para la guerra de bandos.
+- **Buz (Jro91) y el Chapo se pusieron una pedota JUNTOS el sábado** (dato del
+  user). El Chapo ni se conectó al draft — de ahí el autopick. Buz sí se
+  conectó, y ahí está el chiste: **el robot dormido del Chapo (17º) quedó
+  arriba de Buz (18º, último)**.
+- **Buz drafteó los mismos QB que receptores** (dos y dos, con los WR en
+  rondas 14 y 16), se llevó **cuatro cazamariscales élite** (Garrett,
+  Hutchinson, T.J. Watt, Bosa) para una sola casilla de DL, y **no tiene NI
+  UNA defensa de equipo**. Su corrección post-draft fue firmar a Odell
+  Beckham. Todo verificado vía API.
+- **El robot del Chapo arrancó BIEN**: Bijan, Rashee Rice, McMillan, Pitts,
+  Jayden Daniels en las primeras cinco rondas. Se fundió en la sexta. Ese
+  matiz es mejor chiste que "autopick tonto" — el algoritmo tuvo criterio
+  cinco rondas y luego se botó.
+- **LOS CINCO Sin Bandera en el top 8** (recalculado 2026-08-31 con ROSTERS
+  ACTUALES): 1 George · 3 El Tibu · 4 Zenitsu · 6 El Alacrán · 8 El Frijol.
+  De los NUEVE Gallaghers solo uno entró al top 8 (drw25, 2º), y los **DOS**
+  últimos lugares son Gallas (Chapo 17º, Buz 18º) — el 16º es alealvarez7,
+  que es Mijo. Oro puro para la guerra de bandos.
+  ⚠️ *Lección 2026-08-31 (segunda del día): el primer conteo salió de los
+  PICKS DEL DRAFT y para el día siguiente ya no servía — la agencia libre
+  movió rosters (drw25 subió 58 pts, Jebus 58). Las posiciones se
+  recalculan SIEMPRE desde `api.get_rosters` el día de publicar, nunca desde
+  los picks ni desde el ranking de ayer.*
   ⚠️ *Lección 2026-08-31: escribí primero "los tres Sin Bandera" — el user
   corrigió que son CINCO en la redraft (el canon ya lo decía: Mijos 4 ·
   Gallas 9 · Sin Bandera 5). Contar bandos SIEMPRE contra la hoja de hechos,
