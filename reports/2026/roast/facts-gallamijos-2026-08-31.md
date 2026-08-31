@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos League — 2026-08-31 13:25Z
+# HOJA DE HECHOS — Gallamijos League — 2026-08-31 13:56Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -52,7 +52,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### PotrosyOsos — "Fill Up, Rivers" — 0-0, 0.0 pts
 - QB room: Sam Darnold (QB SEA, proy 262.7)
-- Top jugadores: Puka Nacua (WR LAR, proy 312.5), Jaylen Waddle (WR DEN, proy 221.0), Colston Loveland (TE CHI, proy 215.4), Matthew Golden (WR GB, proy 170.1), Rhamondre Stevenson (RB NE, proy 169.0), Chris Rodriguez (RB JAX, proy 132.5)
+- Top jugadores: Puka Nacua (WR LAR, proy 312.5), Jaylen Waddle (WR DEN, proy 221.0), Colston Loveland (TE CHI, proy 215.4), Matthew Golden (WR GB, proy 170.0), Rhamondre Stevenson (RB NE, proy 169.0), Chris Rodriguez (RB JAX, proy 132.5)
 
 ### RodrigoDiaz — "RodrigoDiaz" — 0-0, 0.0 pts
 - QB room: Caleb Williams (QB CHI, proy 299.3), Aaron Rodgers (QB PIT, proy 177.0)
@@ -68,7 +68,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### maudlgarza — "Frijolinsky" — 0-0, 0.0 pts
 - QB room: Drake Maye (QB NE, proy 320.8), Fernando Mendoza (QB LV, proy 212.2)
-- Top jugadores: Jonathan Taylor (RB IND, proy 272.3), Tee Higgins (WR CIN, proy 224.4), Javonte Williams (RB DAL, proy 207.3), Carnell Tate (WR TEN, proy 177.3), Dalton Kincaid (TE BUF, proy 163.6), Romeo Doubs (WR NE, proy 161.2)
+- Top jugadores: Jonathan Taylor (RB IND, proy 272.3), Tee Higgins (WR CIN, proy 224.4), Javonte Williams (RB DAL, proy 212.0), Carnell Tate (WR TEN, proy 177.3), Dalton Kincaid (TE BUF, proy 163.6), Romeo Doubs (WR NE, proy 161.2)
 
 ### hectordavid1989TRC — "Nenes consentidos " — 0-0, 0.0 pts
 - QB room: Jayden Daniels (QB WAS, proy 308.7)
@@ -76,10 +76,32 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### Jro91 — "Jro91" — 0-0, 0.0 pts
 - QB room: Josh Allen (QB BUF, proy 361.5), Jaxson Dart (QB NYG, proy 296.5)
-- Top jugadores: Saquon Barkley (RB PHI, proy 246.7), Josh Jacobs (RB GB, proy 202.6), Tyler Warren (TE IND, proy 201.1), Ja'Kobi Lane (WR BAL, proy 104.9), Kenyon Sadiq (TE NYJ, proy 100.2), Cooper Kupp (WR SEA, proy 86.4)
+- Top jugadores: Saquon Barkley (RB PHI, proy 246.7), Tyler Warren (TE IND, proy 201.1), Ja'Kobi Lane (WR BAL, proy 104.9), Kenyon Sadiq (TE NYJ, proy 100.2), Josh Jacobs (RB GB, proy 87.2), Cooper Kupp (WR SEA, proy 86.4)
 
 ## Resultados de la semana 1
 - SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.
+
+## Ranking por proyección DE SLEEPER (pts_ppr, rosters de hoy)
+*Es el número que el grupo ve en la app — úsalo para el roast, no nuestro VORP.*
+
+1. **Matasanos FC** (DrBet) — 1796.2
+2. **Pulpo Power** (drw25) — 1794.2
+3. **Zenitsu** (aledlg) — 1775.9
+4. **Fill Up, Rivers** (PotrosyOsos) — 1775.7
+5. **Scorpions 2.0** (jffaya) — 1738.2
+6. **#ItIsTheYear** (charlyae17) — 1731.1
+7. **Pythons ⭐ ⭐ ⭐ ⭐ ** (elmijo) — 1721.8
+8. **Frijolinsky** (maudlgarza) — 1720.6
+9. **El General ** (ElGeneral4) — 1706.3
+10. **Ryomen Sukuna** (davidcruz77) — 1691.0
+11. **My Son Dave** (alealvarez7) — 1684.4
+12. **Gallagher** (Gallaghers4) — 1664.6
+13. **TDManiacs** (Jebusf) — 1654.4
+14. **PepeSilvia: Resurrection** (canogutierrez) — 1651.5
+15. **Taquito con catsup** (tbarg91) — 1650.9
+16. **RodrigoDiaz** (RodrigoDiaz) — 1643.5
+17. **Nenes consentidos ** (hectordavid1989TRC) — 1435.5
+18. **Jro91** (Jro91) — 1272.0
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] drw25: altas: Jacob Saylors→drw25; bajas: Rashod Bateman (dropeado por drw25)
@@ -96,16 +118,3 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - [free_agent] DrBet: altas: Malik Davis→DrBet; bajas: Jaydon Blue (dropeado por DrBet)
 - [free_agent] canogutierrez: altas: ATL→canogutierrez; bajas: Tykee Smith (dropeado por canogutierrez)
 - [free_agent] canogutierrez: altas: Tua Tagovailoa→canogutierrez; bajas: Dillon Thieneman (dropeado por canogutierrez)
-
-## Datos verificados post-draft (agregados 2026-08-31 al escribir la columna)
-
-- Roster de Jro91 (Buz) incluye: Myles Garrett, Aidan Hutchinson, T.J. Watt,
-  Nick Bosa (cuatro cazamariscales) y Odell Beckham (firmado post-draft).
-  NO tiene ninguna defensa de equipo. Último de 18 en proyección (1366.4).
-- Roster de hectordavid1989TRC (Chapo) incluye: Bijan Robinson, Rashee Rice,
-  Tetairoa McMillan, Kyle Pitts, Jayden Daniels (sus primeras cinco rondas).
-  Un solo RB en 17 rondas. 17º de 18 (1440.5).
-- Ranking con ROSTERS ACTUALES: 1 PotrosyOsos (S) 1825.3 · 2 drw25 (G) 1813.2
-  · 3 DrBet (S) · 4 aledlg (S) · 5 charlyae17 (M) · 6 jffaya (S) · 7 elmijo (M)
-  · 8 maudlgarza (S) · … · 16 alealvarez7 (M) · 17 Chapo (G) · 18 Buz (G).
-  Los CINCO Sin Bandera en top 8; UN solo Galla en top 8; los DOS últimos son Gallas.

@@ -23,10 +23,38 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from sleeper import api, scoring  # noqa: E402
+from sleeper import analysis, api, scoring  # noqa: E402
 
 ROAST_LEAGUES = ("Gallamijos League", "Gallamijos Dynasty")
 TOP_SKILL = 6  # jugadores top por proyección mostrados por manager
+
+
+def _limpiar_cache():
+    """Borra el caché del API antes de cada hoja (regla del user 2026-08-31:
+    los equipos cambian de nombre y los rosters se mueven con la agencia
+    libre; una hoja con datos de ayer es una hoja con datos falsos)."""
+    import shutil
+    cache = os.path.join(os.path.dirname(__file__), "..", "data", "cache")
+    n = 0
+    if os.path.isdir(cache):
+        for f in os.listdir(cache):
+            if f.endswith(".json.gz"):
+                os.remove(os.path.join(cache, f))
+                n += 1
+    print(f"[fresco] {n} entradas de caché borradas antes de generar la hoja")
+
+
+def _sleeper_pts(season):
+    """Proyección PROPIA DE SLEEPER (pts_ppr) — es la que ve el grupo en la
+    app. Para el roast se usa ESTA, no nuestro VORP re-scoreado: si Miroslava
+    dice que alguien es 17º, el grupo lo va a verificar en Sleeper y tiene que
+    cuadrar. (El análisis serio del portafolio sigue usando nuestro scoring.)"""
+    out = {}
+    for r in api.get_season_projections(season):
+        pid = r.get("player_id")
+        if pid:
+            out[pid] = (r.get("stats") or {}).get("pts_ppr", 0) or 0
+    return out
 
 
 def _proj_map(season, scoring_settings):
@@ -129,6 +157,22 @@ def league_facts(lg_cfg, season, week, players):
     else:
         lines.append("- SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.")
 
+    # Ranking con NÚMEROS DE SLEEPER (lo que ve el grupo en la app)
+    spts = _sleeper_pts(season)
+    tabla = []
+    for r in rosters:
+        u = users.get(r.get("owner_id"), {})
+        eq = (u.get("metadata") or {}).get("team_name") or u.get("display_name", "?")
+        lu, _ = analysis.optimal_lineup(r.get("players") or [], league["roster_positions"],
+                                        players, spts)
+        tabla.append((round(sum(v for _, _, v in lu), 1), eq, u.get("display_name", "?")))
+    tabla.sort(reverse=True)
+    lines.append("\n## Ranking por proyección DE SLEEPER (pts_ppr, rosters de hoy)")
+    lines.append("*Es el número que el grupo ve en la app — úsalo para el roast, "
+                 "no nuestro VORP.*\n")
+    for i, (pts, eq, h) in enumerate(tabla, 1):
+        lines.append(f"{i}. **{eq}** ({h}) — {pts}")
+
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False
     for wk in range(max(1, week - 1), week + 1):
@@ -160,6 +204,7 @@ def main():
     season = cfg.get("season") or str(datetime.now().year)
     if week is None:
         week = max(1, api.get_state().get("week") or 1)
+    _limpiar_cache()
     players = api.get_players()
     outdir = os.path.join(os.path.dirname(__file__), "..", "reports", str(season), "roast")
     os.makedirs(outdir, exist_ok=True)

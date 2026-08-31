@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos Dynasty — 2026-08-31 13:25Z
+# HOJA DE HECHOS — Gallamijos Dynasty — 2026-08-31 13:56Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -8,7 +8,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### damarante — "Broncos Locos" — 0-0, 0.0 pts
 - QB room: Jordan Love (QB GB, proy 268.5), Malik Willis (QB MIA, proy 261.1), Bryce Young (QB CAR, proy 224.6), Daniel Jones (QB IND, proy 212.5)
-- Top jugadores: Puka Nacua (WR LAR, proy 312.5), Chase Brown (RB CIN, proy 255.2), Drake London (WR ATL, proy 250.2), A.J. Brown (WR NE, proy 247.2), Saquon Barkley (RB PHI, proy 246.7), Travis Etienne (RB NO, proy 207.7)
+- Top jugadores: Puka Nacua (WR LAR, proy 312.5), Chase Brown (RB CIN, proy 255.2), Drake London (WR ATL, proy 250.2), A.J. Brown (WR NE, proy 247.2), Saquon Barkley (RB PHI, proy 246.7), Javonte Williams (RB DAL, proy 212.0)
 - Taxi: Ray Davis, Devaughn Vele, Jordan James, Tez Johnson, Tahj Brooks, CJ Daniels, Cade Klubnik, Demond Claiborne
 
 ### drw25 — "House RW" — 0-0, 0.0 pts
@@ -23,7 +23,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### elmijo — "La Dinastía de Pitones" — 0-0, 0.0 pts
 - QB room: Caleb Williams (QB CHI, proy 289.3), Patrick Mahomes (QB KC, proy 274.7), Tua Tagovailoa (QB ATL, proy 87.0)
-- Top jugadores: Trey McBride (TE ARI, proy 234.9), Ladd McConkey (WR LAC, proy 228.2), David Montgomery (RB HOU, proy 206.1), Josh Downs (WR IND, proy 172.3), Matthew Golden (WR GB, proy 170.1), Rico Dowdle (RB PIT, proy 161.1)
+- Top jugadores: Trey McBride (TE ARI, proy 234.9), Ladd McConkey (WR LAC, proy 228.2), David Montgomery (RB HOU, proy 206.1), Josh Downs (WR IND, proy 172.3), Matthew Golden (WR GB, proy 170.0), Rico Dowdle (RB PIT, proy 161.1)
 - Taxi: Pat Bryant, Tai Felton, Isaiah Bond, Malik Benson, Jonah Coleman, Cyrus Allen, Kaelon Black
 
 ### jetsdelalaguna — "Same Old Jets" — 0-0, 0.0 pts
@@ -43,7 +43,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ### panchocruz — "Panchos" — 0-0, 0.0 pts
 - QB room: Drake Maye (QB NE, proy 309.8), Joe Burrow (QB CIN, proy 296.1)
-- Top jugadores: Amon-Ra St. Brown (WR DET, proy 280.5), Garrett Wilson (WR NYJ, proy 224.9), Jeremiyah Love (RB ARI, proy 211.8), Josh Jacobs (RB GB, proy 202.6), Travis Kelce (TE KC, proy 171.4), Dalton Kincaid (TE BUF, proy 163.6)
+- Top jugadores: Amon-Ra St. Brown (WR DET, proy 280.5), Garrett Wilson (WR NYJ, proy 224.9), Jeremiyah Love (RB ARI, proy 211.8), Travis Kelce (TE KC, proy 171.4), Dalton Kincaid (TE BUF, proy 163.6), Jonathon Brooks (RB CAR, proy 154.9)
 - Taxi: DJ Giddens, Savion Williams, Kaleb Johnson, Trevor Etienne, Germie Bernard, Max Klare
 
 ### RodrigoDiaz — "RodrigoDiaz" — 0-0, 0.0 pts
@@ -68,6 +68,22 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 
 ## Resultados de la semana 1
 - SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.
+
+## Ranking por proyección DE SLEEPER (pts_ppr, rosters de hoy)
+*Es el número que el grupo ve en la app — úsalo para el roast, no nuestro VORP.*
+
+1. **Aquiles Brinco** (alealvarez7) — 2202.8
+2. **Broncos Locos** (damarante) — 2173.8
+3. **House RW** (drw25) — 2158.1
+4. **LaviboradeLamar** (charlyae17) — 2090.6
+5. **Dinastía Lombardi ** (ElGeneral4) — 2046.9
+6. **Mayagoitias ** (Jro91) — 2024.8
+7. **Gallagher** (Gallaghers4) — 2007.2
+8. **RodrigoDiaz** (RodrigoDiaz) — 1939.9
+9. **Panchos** (panchocruz) — 1846.8
+10. **King in the North** (davidcruz77) — 1827.3
+11. **La Dinastía de Pitones** (elmijo) — 1798.0
+12. **Same Old Jets** (jetsdelalaguna) — 1774.1
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] Gallaghers4: bajas: Jack Endries (dropeado por Gallaghers4)

@@ -45,8 +45,12 @@ def _norm(s):
     return re.sub(r"[^a-z0-9 ]", "", s.lower()).strip()
 
 
-def _bitacora(nombre):
-    """Frases ya usadas, extraídas de una tabla markdown del canon."""
+def _bitacora(nombre, saltar_fecha=None):
+    """Frases ya usadas, extraídas de una tabla markdown del canon.
+
+    `saltar_fecha` omite las filas de esa fecha: al revisar una edición se
+    ignoran sus propias entradas, para poder re-validar un borrador que ya
+    quedó anotado (pasa al corregir una nota el mismo día)."""
     if not CANON.exists():
         return []
     txt = CANON.read_text()
@@ -57,6 +61,8 @@ def _bitacora(nombre):
     for linea in m.group(1).split("\n"):
         celdas = [c.strip() for c in linea.strip().strip("|").split("|")]
         if len(celdas) >= 3 and not set(celdas[0]) <= set("-: "):
+            if saltar_fecha and saltar_fecha in celdas[0]:
+                continue
             frases.append(celdas[-1].strip('"').strip())
     return [f for f in frases if len(f) > 15]
 
@@ -100,8 +106,10 @@ def revisar(path, liga, tipo, ya_publicado=False):
     else:
         saludo = next((l for l in cuerpo[1:] if not l.startswith(("💋", "_", "*"))), "")
         cierre = next((l for l in reversed(cuerpo) if not l.startswith("—")), "")
-        for etiqueta, frase, bit in (("saludo", saludo, _bitacora("saludos")),
-                                     ("cierre", cierre, _bitacora("despedidas"))):
+        m = re.search(r"(\d{4}-\d{2}-\d{2})", Path(path).name)
+        propia = m.group(1) if m else None
+        for etiqueta, frase, bit in (("saludo", saludo, _bitacora("saludos", propia)),
+                                     ("cierre", cierre, _bitacora("despedidas", propia))):
             for usada in bit:
                 if _solapamiento(frase, usada):
                     errores.append(f"El {etiqueta} recicla uno ya publicado: «{usada[:60]}…» (regla 7).")

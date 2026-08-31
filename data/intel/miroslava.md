@@ -102,6 +102,18 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Nazas"), el Cristo de las Noas, Gómez y Lerdo. "Jets de la Laguna" ya es
   referencia local viva.
 
+## Fuente de números para el roast (regla del user 2026-08-31)
+
+Los rankings y proyecciones del Destape se citan **con los números de
+Sleeper** (`pts_ppr`), no con nuestro VORP re-scoreado: el grupo va a
+verificar en la app y tiene que cuadrar. El análisis serio del portafolio
+sigue usando nuestro scoring — son dos propósitos distintos y no se mezclan.
+`roast_facts.py` ya publica esa tabla en cada hoja.
+
+Además, la hoja **borra el caché del API antes de generarse**: los equipos
+cambian de nombre y la agencia libre mueve rosters, así que una hoja de ayer
+es una hoja con datos falsos. Nunca reutilizar una hoja vieja.
+
 ## Bitácora de chistes usados (no repetir entre ediciones)
 
 Regla nueva (user, 2026-08-31): un chiste no se reutiliza en la edición
@@ -443,10 +455,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   está verificado: **un solo RB en todo el draft y 10 picks de IDP**, con seis
   defensivos SEGUIDOS de la ronda 6 a la 11. Terminó 17º de 18. Carrilla
   renovable toda la temporada: va a alinear un linebacker de RB2.
-- **Buz (Jro91) y el Chapo se pusieron una pedota JUNTOS el sábado** (dato del
-  user). El Chapo ni se conectó al draft — de ahí el autopick. Buz sí se
-  conectó, y ahí está el chiste: **el robot dormido del Chapo (17º) quedó
-  arriba de Buz (18º, último)**.
+- **La peda del sábado fue de TODOS los Gallaghers** (dato del user,
+  corregido 2026-08-31). De todos ellos, solo DOS no llegaron al draft del
+  domingo: el Chapo y Buz — y son justo los dos últimos de la tabla.
+  El Chapo **nunca se conectó**. Buz se conectó **hasta la ronda 15**, cuando
+  el autopick ya llevaba 14 rondas hechas; su aportación personal fue Cooper
+  Kupp en la 16. El chiste: **el robot del Chapo (17º) quedó arriba del robot
+  de Buz (18º)**.
 - **Buz drafteó los mismos QB que receptores** (dos y dos, con los WR en
   rondas 14 y 16), se llevó **cuatro cazamariscales élite** (Garrett,
   Hutchinson, T.J. Watt, Bosa) para una sola casilla de DL, y **no tiene NI
