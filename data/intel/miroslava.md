@@ -145,6 +145,13 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 | — | criaturas | libre |
 | — | señores del fantasy | libre |
 
+**Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
+auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
+nunca pudo escoger equipo y escogió bien 16 · la secuela con más presupuesto ·
+"ni Del Toro rescata este guion" · La Dona enojado antes de leer · el único
+Galla con anillo diez lugares abajo · la resurrección como la del Santos · de
+taquito a quinceavo · "ni nombre le puso, para qué".
+
 ## Control editorial (obligatorio antes de enviar)
 
 Ninguna edición sale sin pasar dos filtros. Se creó el 2026-08-31 porque cada

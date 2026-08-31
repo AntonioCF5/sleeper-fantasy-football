@@ -29,7 +29,10 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 CANON = ROOT / "data" / "intel" / "miroslava.md"
-PRESUPUESTO = {"boletin": 300, "columna": 600}
+# Presupuestos por tipo. "columna-ranking" es más alto a propósito: un power
+# ranking de 18 equipos son 18 líneas obligatorias (~180 palabras) que son
+# CONTENIDO, no relleno. No usar este tipo para justificar prosa de más.
+PRESUPUESTO = {"boletin": 300, "columna": 600, "columna-ranking": 780}
 
 # Conteos de bando en la REDRAFT, leídos del canon (no inferir jamás)
 BANDOS_REDRAFT = {"mijos": 4, "gallaghers": 9, "gallas": 9, "sin bandera": 5}
@@ -197,7 +200,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("archivo")
     ap.add_argument("--liga", required=True, choices=["gallamijos", "dynasty"])
-    ap.add_argument("--tipo", default="columna", choices=["boletin", "columna"])
+    ap.add_argument("--tipo", default="columna", choices=["boletin", "columna", "columna-ranking"])
     ap.add_argument("--ya-publicado", action="store_true",
                     help="re-revisar una edición ya enviada (salta saludo/cierre)")
     a = ap.parse_args()
