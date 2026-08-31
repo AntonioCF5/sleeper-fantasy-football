@@ -130,6 +130,21 @@ comparar el borrador contra la edición anterior.
 | 2026-08-31 | Los cuatro cazamariscales sin defensa (Buz) | usado — descansar |
 | 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
 
+**Apodos y términos de trato** — misma regla: el que se usó la edición
+pasada descansa la siguiente. El validador los lee de esta tabla, así que
+hay que MOVER el estado a "libre" cuando ya pasó una edición.
+
+| Última vez | Término | Estado |
+|---|---|---|
+| 2026-08-30 | humanos promedio | usado — descansar |
+| 2026-08-30 | corazones | usado — descansar |
+| 2026-08-31 | mis amores | usado — descansar |
+| 2026-08-31 | coaches | usado — descansar |
+| — | bola de pendejos hermosos | libre |
+| — | cabrones | libre (comodín, no cuenta como apodo de trato) |
+| — | criaturas | libre |
+| — | señores del fantasy | libre |
+
 ## Control editorial (obligatorio antes de enviar)
 
 Ninguna edición sale sin pasar dos filtros. Se creó el 2026-08-31 porque cada

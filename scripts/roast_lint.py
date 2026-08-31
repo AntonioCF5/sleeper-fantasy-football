@@ -34,6 +34,16 @@ PRESUPUESTO = {"boletin": 300, "columna": 600}
 # Conteos de bando en la REDRAFT, leídos del canon (no inferir jamás)
 BANDOS_REDRAFT = {"mijos": 4, "gallaghers": 9, "gallas": 9, "sin bandera": 5}
 
+# Palabras vacías: una frase repetida solo cuenta si trae contenido real
+COMUNES = {"que", "de", "la", "el", "los", "las", "un", "una", "y", "a", "en",
+           "por", "con", "para", "su", "sus", "se", "no", "es", "son", "del",
+           "al", "lo", "le", "les", "mas", "pero", "como", "ya", "esta", "este",
+           "esa", "ese", "hay", "va", "van", "ni", "si", "tu", "yo", "mi"}
+# Frases estructurales del formato — no son reciclaje
+CABECERA = {"destape de", "destape de miroslava", "de miroslava", "el destape",
+            "el destape de", "edicion post", "post draft", "de la liga",
+            "la gallamijos", "de la gallamijos", "los observo", "miroslava que"}
+
 NUMEROS = {"un": 1, "uno": 1, "dos": 2, "tres": 3, "cuatro": 4, "cinco": 5,
            "seis": 6, "siete": 7, "ocho": 8, "nueve": 9, "diez": 10,
            "once": 11, "doce": 12, "trece": 13, "catorce": 14, "quince": 15,
@@ -65,6 +75,27 @@ def _bitacora(nombre, saltar_fecha=None):
                 continue
             frases.append(celdas[-1].strip('"').strip())
     return [f for f in frases if len(f) > 15]
+
+
+def _descansando(saltar_fecha=None):
+    """Términos, apodos y chistes marcados 'descansar' en la bitácora del
+    canon — se usaron en la edición anterior y no se repiten.
+    `saltar_fecha` omite las filas de la propia edición (igual que en las
+    bitácoras de saludos): sus términos son los que ESTÁ estrenando."""
+    if not CANON.exists():
+        return []
+    txt = CANON.read_text()
+    m = re.search(r"## Bitácora de chistes.*?\n\n(.*?)(?:\n\n##|\Z)", txt, re.S)
+    if not m:
+        return []
+    fuera = []
+    for linea in m.group(1).split("\n"):
+        celdas = [c.strip() for c in linea.strip().strip("|").split("|")]
+        if len(celdas) >= 3 and "descansar" in celdas[-1].lower():
+            if saltar_fecha and saltar_fecha in celdas[0]:
+                continue
+            fuera.append(_norm(celdas[1]))
+    return [f for f in fuera if f]
 
 
 def _solapamiento(a, b, n=6):
@@ -132,7 +163,17 @@ def revisar(path, liga, tipo, ya_publicado=False):
     if re.search(r"dr[áa]cula|vampir", texto, re.I):
         errores.append("Prohibido el ángulo Drácula/vampiros sobre el Bebé Roiz.")
 
-    # 7 · jugadores contra la hoja de hechos
+    # 7 · términos y chistes marcados "descansar" en el canon
+    # Un detector genérico de n-gramas daba ruido (el español repite frases
+    # comunes) y fallaba en lo distintivo. La lista curada del canon —igual
+    # que las bitácoras de saludos y cierres, que sí funcionan— es precisa.
+    _m = re.search(r"(\d{4}-\d{2}-\d{2})", Path(path).name)
+    for termino in _descansando(_m.group(1) if _m else None):
+        if re.search(rf"\b{re.escape(termino)}\b", _norm(texto)):
+            errores.append(f"«{termino}» está marcado DESCANSAR en el canon "
+                           "(se usó en la edición anterior). Busca otro.")
+
+    # 8 · jugadores contra la hoja de hechos    # 8 · jugadores contra la hoja de hechos
     hojas = sorted((ROOT / "reports").glob(f"*/roast/facts-{liga}-*.md"))
     if not hojas:
         avisos.append(f"No hay hoja de hechos para '{liga}' — corre roast_facts.py primero.")
