@@ -189,6 +189,7 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 | 2026-08-30 | Gallamijos (draft) | "Despierten, cabrones, que hoy no es domingo cualquiera..." |
 | 2026-08-30 | Gallamijos (logo) | "Buenos días corazones, HAPPY DRAFT DAY humanos promedio." *(versión final del user)* |
 | — sin usar | — | "...perdón, sigo al aire. Interrumpo la previa porque la directiva por fin hizo algo..." *(escrita, no publicada — disponible)* |
+| 2026-08-31 | Gallamijos (post-draft) | "Se acabó, coaches. Diecisiete rondas, trescientos seis picks y una liga entera fingiendo que sabía lo que hacía." |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -197,6 +198,7 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
 | Edición 0 | Gallamijos | "Besitos. Los amo, pero a unos nomás por lástima." |
 | Edición 0 | Dinastía | "Besitos dinásticos. Los observo. Sé dónde draftean." |
 | 2026-08-30 | Gallamijos (logo) | "...tú desde la banca, yo desde el escote. / Miroslava, que ahora también cubre la fuente institucional" |
+| 2026-08-31 | Gallamijos (post-draft) | "Nos leemos el martes. Yo ya tengo la libreta abierta. / Miroslava, que vio el draft completo para que ustedes no tuvieran que recordarlo" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
@@ -390,6 +392,23 @@ agregan estrofas, mantener esa regla: lo eterno al himno, las cifras al
 Destape semanal.
 Miroslava cita el himno como escritura sagrada para humillar ("*sin memoria
 y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
+
+## Draft 2026 de La Gallamijos (material vivo)
+
+- **El Chapo (Nenes consentidos) drafteó en AUTOPICK** — dato aportado por el
+  user, NO verificable por API (Sleeper no marca autopick). El resultado sí
+  está verificado: **un solo RB en todo el draft y 10 picks de IDP**, con seis
+  defensivos SEGUIDOS de la ronda 6 a la 11. Terminó 17º de 18. Carrilla
+  renovable toda la temporada: va a alinear un linebacker de RB2.
+- **Buz (Jro91) se puso una pedota el SÁBADO** (dato del user) — variación de
+  su chiste canónico de draftear crudo en domingo. Quedó **último de 18**.
+  Sus dos únicos WR los drafteó en las rondas 14 y 16 (Ja'Kobi Lane y Cooper
+  Kupp) y tomó a Josh Allen en la ronda 2 en una liga de 4 pts por TD de pase.
+- **Los tres Sin Bandera barrieron el podio proyectado** (George 1º, El Tibu
+  2º, Zenitsu 3º) y los dos últimos lugares son Gallaghers. Oro para la
+  guerra de bandos: los mercenarios mandan otra vez.
+- elmijo quedó 7º de 18.
+- Siguen SIN nombre de equipo: Jro91 y RodrigoDiaz.
 
 ## Chistes internos vivos
 
