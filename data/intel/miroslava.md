@@ -126,8 +126,11 @@ comparar el borrador contra la edición anterior.
 | 2026-08-30 | Aleco / Orlegi "proyecto a largo plazo" | usado — descansar |
 | 2026-08-30 | Jorge Campos narrando una final | usado — descansar |
 | 2026-08-30 | Justin Case y las chanclas | usado — descansar |
-| 2026-08-31 | El robot dormido que quedó arriba del humano | usado — descansar |
-| 2026-08-31 | Los cuatro cazamariscales sin defensa (Buz) | usado — descansar |
+| 2026-08-31 | Los cuatro cazacabezas sin defensa (Buz) | usado — descansar |
+| 2026-08-31 | "Parecen quinceañeros con sus pedas de 20 horas" | usado — descansar |
+| 2026-08-31 | Los Gallaghers "pasearse como las perras que son" | usado — descansar |
+| 2026-08-31 | "En la sexta se acordó que era Galla" | usado — descansar |
+| — | El robot dormido que quedó arriba del humano | escrito, NO publicado — libre |
 | 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
@@ -136,8 +139,8 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-08-30 | humanos promedio | usado — descansar |
-| 2026-08-30 | corazones | usado — descansar |
+| 2026-08-30 | humanos promedio | libre (ya descansó la edición del 31) |
+| 2026-08-30 | corazones | libre (ya descansó la edición del 31) |
 | 2026-08-31 | mis amores | usado — descansar |
 | 2026-08-31 | coaches | usado — descansar |
 | — | bola de pendejos hermosos | libre |
@@ -147,7 +150,9 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
-nunca pudo escoger equipo y escogió bien 16 · la secuela con más presupuesto ·
+nunca pudo escoger equipo y aquí escogió buenos jugadores · la secuela con más
+presupuesto · "meh" para el equipo del user · "mejor sin catsup, corazón" ·
+el campeón que "defiende" el título con un equipo basura ·
 "ni Del Toro rescata este guion" · La Dona enojado antes de leer · el único
 Galla con anillo diez lugares abajo · la resurrección como la del Santos · de
 taquito a quinceavo · "ni nombre le puso, para qué".
@@ -305,6 +310,35 @@ sin contexto.*
 - 2026-08-30 · Tercer golpe del trío: el user cerró con **"Justin Case
   entra..."** usando el nombre completo tras dos "Justin" — el nombre
   completo en el remate final le da peso de sentencia.
+
+**Del pase final del user a la edición post-draft (2026-08-31)** — seis
+cambios suyos sobre mi borrador, cada uno una regla:
+
+- *La grosería puede ir más arriba de donde la dejo.* Mi "salieron a echarse
+  unas" quedó **"salieron a pasearse como las perras que son"**. El insulto
+  frontal a un bando entero es material válido, no exceso.
+- *Si hay chiste de bando disponible, ese gana al genérico.* "En la sexta se
+  le botó un cable" → **"En la sexta se acordó que era Galla"**. La guerra de
+  bandos explica más y pega más que cualquier metáfora nueva.
+- *El jab a la causa real le gana al chiste estructural elegante.* Cerré la
+  sección con el meta-chiste del robot dormido que quedó arriba del humano;
+  él lo cambió por **"Parecen quinceañeros con sus pedas de 20 horas"**.
+  Cuando existe el pecado original (la peda), se nombra.
+- *En la línea accionable, el término de la app le gana a la traducción
+  creativa.* "Cazamariscales" y "el robot" son buenos DENTRO del chiste; en
+  el cierre útil él puso **"DLs"**, **"el autopick"**, **"nueve días para el
+  kickoff"**, **"el juego en Australia el jueves"**. La crónica florida es
+  para la carrilla; la instrucción va en el idioma del grupo.
+- *La puntuación y las comillas hacen trabajo de sarcasmo* (refuerza la
+  lección del 30): "no es una mentira" → **"no es una mentira?"**; "el campeón
+  defensor defiende el título" → **el campeón *"defiende"* el título con un
+  equipo basura**.
+- *Ninguna línea es neutral.* Para su propio equipo yo escribí "presente"; él
+  puso **"meh."** Aun la línea que por regla no lleva carrilla lleva actitud.
+  Y el cariñito con veneno remata bien: **"Mejor sin catsup, corazón."**
+- *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
+  va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
+  corredor en diecisiete rondas" ya estaba dicho.
 
 ## Secciones de cada edición
 
