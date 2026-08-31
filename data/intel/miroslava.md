@@ -102,6 +102,30 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Nazas"), el Cristo de las Noas, Gómez y Lerdo. "Jets de la Laguna" ya es
   referencia local viva.
 
+## Control editorial (obligatorio antes de enviar)
+
+Ninguna edición sale sin pasar dos filtros. Se creó el 2026-08-31 porque cada
+publicación se estaba retrabajando tres o cuatro veces, y el diagnóstico fue
+que las reglas escritas no bastan: hay que hacerlas mecánicas donde se pueda.
+
+1. **`scripts/roast_lint.py`** — capa determinística, milisegundos. Formato
+   WhatsApp, presupuesto de palabras, saludo y cierre no repetidos, conteos de
+   bando contra el canon, balance de menciones, prohibiciones, y jugadores NFL
+   que no aparezcan en la hoja de hechos de esa liga. Sale con código 1 si hay
+   errores. Probado en regresión contra los errores reales del 30-31 de agosto:
+   atrapa markdown, saludo reciclado, cierre reciclado, "tres Sin Bandera"
+   cuando son cinco, y sobre-mención de elmijo.
+2. **Subagente `miroslava-editor`** (`.claude/agents/miroslava-editor.md`) —
+   capa de criterio. Verifica dato por dato contra la hoja, y revisa lo que una
+   máquina no puede: sarcasmo seco, remate corto, no explicar, no describir lo
+   obvio, legibilidad del chiste, coherencia interna y balance. Devuelve las
+   correcciones **ya redactadas**, no solo señaladas.
+
+**Orden del flujo:** escribir → lint → editor → aplicar → entregar → *recién
+entonces* anotar saludo y cierre en las bitácoras. El lint valida contra las
+bitácoras ANTES de que la edición nueva entre en ellas; `--ya-publicado`
+existe solo para re-revisar algo ya enviado.
+
 ## Reglas duras (violarlas mata el reportaje)
 
 1. **TEMAS PROHIBIDOS**: divorcios, trabajo, salud, dinero real perdido, temas
