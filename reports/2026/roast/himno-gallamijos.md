@@ -1,12 +1,19 @@
-# HIMNO DE LA GALLAMIJOS
+# HIMNO DE LA GALAMIJOS
 *est. 2015 · para cantarse antes del draft y después de cada putiza*
 
 > La música va **completamente en serio**: trompetas, tambor marcial, coro de
 > tribuna. La letra no. Ahí está el chiste.
 
+> **Ojo con la ortografía de la letra:** aquí va **Galamijos** y **Galaghers**
+> con UNA sola L, a propósito. En español la doble L suena /y/, y el
+> cantante leía "Gayamijos". Es ortografía fonética PARA EL CANTANTE — el
+> nombre de la liga sigue siendo **Gallamijos** en todos lados. No lo
+> "corrijas" en este archivo.
+
 ---
 
 ## LETRA
+*(pégala tal cual en el campo de lyrics)*
 
 **I**
 Cada domingo juramos
@@ -15,9 +22,9 @@ y para el segundo cuarto
 ya sabemos que perdemos.
 
 **CORO**
-¡Gallamijos! ¡Gallamijos!
+¡Galamijos! ¡Galamijos!
 Azul y rojo, escudo y honor.
-¡Gallaghers y Mijos!
+¡Galaghers y Mijos!
 Puros pinches cabrones
 sin memoria y sin pudor.
 
@@ -28,37 +35,50 @@ pedimos waiver el martes
 y el pinche kicker falló.
 
 **CORO FINAL**
-¡Gallamijos! ¡Gallamijos!
+¡Galamijos! ¡Galamijos!
 Toda una vida de ilusión.
 Perdimos por dos puntos...
 ¡pero el año que entra sí, cabrón!
 
 *(grito de estadio)*
-**¡GA-LLA-MI-JOS!**
+**¡GA-LA-MI-JOS!**
 
 ---
 
-## PROMPT PARA SUNO
+## PROMPT PARA SUNO (v2 — corregido)
 
-Pégalo en el campo de estilo, y la letra de arriba en lyrics.
+**Por qué cambió:** la v1 decía "club de fútbol *mexicano*", "estilo *Liga
+MX*" y "**banda** de metales". Suno no lee eso como estadio: lo lee como
+género. "Mexicano" + "banda" lo manda directo a banda sinaloense, mariachi y
+norteño. La solución es describir el SONIDO (metales sinfónicos, coro de
+tribuna, marcha) y dejar el español solo como idioma de canto, nunca como
+género. Va en inglés a propósito — el motor de estilo de Suno responde mejor
+a tags en inglés; la letra en español manda sobre el idioma cantado.
+
+**Campo de estilo:**
 
 ```
-Himno oficial de club de fútbol mexicano, épico y solemne, estilo Liga MX
-clásico. Banda de metales protagonista: trompetas brillantes y trombones.
-Tambores marciales de estadio, redoble militar. Coro masculino
-multitudinario cantando al unísono, voces de afición, con solista masculino
-potente y varonil en los versos. Tempo marcial medio ~92 BPM, tonalidad
-mayor, melodía muy coreable y memorable. Fanfarria de trompetas en la
-introducción. Coro explosivo con multitud y palmas. Producción de estadio:
-reverb amplio, ambiente de tribuna, sensación en vivo. Interpretación
-totalmente seria y grandilocuente, sin guiños cómicos en la voz — la
-solemnidad es intencional. Español mexicano, pronunciación clara y
-orgullosa. Duración 1:30–2:00.
+Epic European football club anthem, symphonic orchestral brass fanfare,
+bright trumpets and trombones, timpani and military snare drums, massive
+male terrace crowd choir singing in unison, powerful solo baritone on the
+verses, mid-tempo march, 92 BPM, major key, extremely singable memorable
+melody, opening trumpet fanfare, explosive chorus with crowd and handclaps,
+big stadium reverb, live terrace ambience, completely serious and grandiose
+delivery with no comedic inflection, sung in Spanish. 1:30-2:00.
 ```
 
-**Tags cortos:** `mexican football club anthem, epic brass band, marching
-drums, male crowd choir, stadium reverb, anthemic, proud, straight-faced,
-Spanish, 92 BPM`
+**Campo "Exclude styles" (esto es lo que salva el track):**
+
+```
+mariachi, banda sinaloense, norteño, ranchera, corrido, cumbia, regional
+mexicano, latin pop, accordion, guitarrón, vihuela, nylon guitar, trumpet
+mariachi phrasing, comedic vocals, parody, novelty, autotune
+```
+
+**Tags cortos (si solo hay un campo):** `european football anthem, symphonic
+brass fanfare, marching snare, male crowd choir, stadium reverb, anthemic,
+proud, straight-faced, sung in Spanish, 92 BPM — no mariachi, no banda, no
+regional`
 
 ---
 
@@ -76,6 +96,9 @@ Spanish, 92 BPM`
 - **"sin memoria y sin pudor"**: nadie aprende, nadie se apena.
 - **"¡pero el año que entra sí, cabrón!"**: el verso que va a sobrevivir a
   todos nosotros.
+- **Si "Galaghers" sigue sonando mal**, la siguiente parada fonética es
+  **"Gálagers"**. Se ve peor escrito pero canta mejor; el archivo de letra
+  existe para que el cantante lo lea, no para enmarcarlo.
 
 *Nota de producción: la clave es que Suno lo cante 100% en serio. Si la voz
 suena chistosa, se arruina — el humor sale del contraste entre la épica y la

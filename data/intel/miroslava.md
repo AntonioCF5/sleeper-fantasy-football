@@ -513,8 +513,8 @@ por ti").
 serio, letra 100% en broma** — el chiste vive en el contraste, no en la
 interpretación; el user pidió explícitamente versión cómica y SIN
 referencias a Torreón/el desierto. Versos canónicos, ya citables:
-- *"Cada domingo juramos que este año sí es el bueno"*
-- *"y para el segundo cuarto ya vamos perdiendo por sesenta"*
+- *"Cada domingo juramos que este año sí la hacemos"*
+- *"y para el segundo cuarto ya sabemos que perdemos"*
 - *"Puros pinches cabrones sin memoria y sin pudor"*
 - *"La banca anotó cuarenta, el titular ni apareció"*
 - *"pedimos waiver el martes y el pinche kicker falló"*
@@ -524,6 +524,21 @@ títulos, años transcurridos ni número de equipos — esos datos cambian cada
 temporada y envejecerían la canción. Si algún día se reescribe o se le
 agregan estrofas, mantener esa regla: lo eterno al himno, las cifras al
 Destape semanal.
+**Ortografía fonética SOLO en el archivo de letra** (user, 2026-08-31): ahí
+va **Galamijos** y **Galaghers** con una L porque en español la doble L suena
+/y/ y el cantante leía "Gayamijos". Es una nota para el cantante, no un
+cambio de nombre: en el Destape, el chat y todo lo demás sigue siendo
+**Gallamijos**.
+
+**Lección del prompt de Suno (2026-08-31):** describir el género como
+"mexicano" fue el error — "club de fútbol *mexicano*", "estilo *Liga MX*" y
+"***banda*** de metales" hicieron que el motor entregara banda sinaloense y
+mariachi. A un generador de música se le describe el SONIDO (metales
+sinfónicos, coro de tribuna, marcha, reverb de estadio) y el español se deja
+únicamente como idioma de canto, jamás como género. La v2 corregida
+—incluyendo la lista de exclusión, que es la que salva el track— vive en el
+mismo archivo.
+
 Miroslava cita el himno como escritura sagrada para humillar ("*sin memoria
 y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
 
