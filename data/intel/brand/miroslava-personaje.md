@@ -1,5 +1,14 @@
 # MIROSLAVA — identidad visual (para Nano Banana Pro)
 
+> **REFERENCIA APROBADA (2026-08-31): `miroslava-ref.png`** en esta carpeta —
+> "así queda", palabras del user. Es LA cara del personaje: toda imagen
+> futura se genera adjuntándola, nunca desde el prompt maestro solo (ese
+> queda como documentación del casting). Detalles tal como quedaron: cabello
+> rubio dorado con reflejos cobrizos, pecas en nariz y mejillas, lunar sobre
+> la comisura derecha y un segundo lunar abajo a la izquierda, aros dorados,
+> collar fino, gafete "GM SPORTS PRESSE" (así se aprobó, con todo y el
+> PRESSE — no "corregirlo" sin que lo pida el user).
+
 Personaje FICTICIO. Regla dura: no debe parecerse a ninguna reportera real —
 si una generación recuerda a una persona real, se descarta.
 
@@ -11,9 +20,9 @@ si una generación recuerda a una persona real, se descarta.
   (decisión del user 2026-08-31): piel clara porcelana, ojos azul claro,
   rubia natural — la güera del sideline. El personaje sigue siendo mexicano
   en voz y acento; el look es escandinavo.
-- Cabello rubio dorado claro natural, voluminoso, ondulado, con movimiento.
-  (Evolución 2026-08-31: castaña → rubia → nórdica, siempre por ajuste del
-  user sobre generaciones reales.)
+- Cabello rubio dorado con reflejos cobrizos (strawberry blonde), voluminoso,
+  ondulado, con movimiento. (Evolución del casting 2026-08-31: castaña →
+  rubia → nórdica → esbelta → joven/natural → APROBADA.)
 - Ojos azul claro con mirada cómplice/burlona directo a cámara; una ceja
   ligeramente levantada, media sonrisa de "yo sé algo que tú no".
 - **Labios rojos intensos** (el 💋 es su emblema; sobreviven al look natural
@@ -79,8 +88,8 @@ mid-report expression, broadcast television still frame, 16:9.
 
 ## Receta de consistencia
 
-1. Generar el PROMPT MAESTRO hasta aprobar UNA imagen. Esa se guarda como
-   `data/intel/brand/miroslava-ref.png` — la referencia eterna.
+1. ~~Generar el PROMPT MAESTRO hasta aprobar UNA imagen.~~ HECHO — la
+   referencia eterna ya vive en `data/intel/brand/miroslava-ref.png`.
 2. Toda imagen futura se genera ADJUNTANDO esa referencia + "keep her face
    identical to the reference". Nunca redescribirla de cero: cada
    redescripción es una cara nueva.
