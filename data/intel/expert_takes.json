@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-08-28",
+  "updated": "2026-08-31",
   "sources": [
    "sal-vetri",
    "fantasy-footballers"
@@ -4550,6 +4550,561 @@
     "3DID0RXlVLk"
    ],
    "date": "2026-08-29"
+  },
+  {
+   "player": "Josh Jacobs",
+   "player_id": "5850",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "high",
+   "why": "Still worth a last-round pick because the payoff if he ever returns as GB's starting RB is huge, but they put a greater-than-10% chance he never plays football again and warn he cannot be IR'd, so he eats a real bench spot.",
+   "mechanism": "NFL placed him on the commissioner's exempt list days AFTER the (reduced) charges were filed, which they read as the league having information — likely a video not yet public — that it is getting ahead of, Ray Rice style; the exempt-list precedent range is wide (Kareem Hunt 5 games to Adrian Peterson/Greg Hardy 15 games, some never return) and a lost season could roll into a 6-game 2027 suspension at an older age.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "player_id": "11581",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Re-ranked into the RB24-30 band (one host has him ~RB24) as the clear back to roster in Green Bay — draft him over Tony Pollard, and he's a coin flip with Jadarian Price, but take Rhamondre Stevenson over him if you want production safety.",
+   "mechanism": "Stated reason is role value plus scheme fit, not talent proof: the Green Bay starting RB job is a top-12 fantasy role if one back gets the work, and GB has shifted toward vertical wide zone (beat reporters questioned how Jacobs even fit it) which Lloyd has been excelling in. The stated risk is durability — 'has first-round talent, hasn't stayed healthy' — and the open question is whether he can hold up IF given the workload.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Kaleb Johnson",
+   "player_id": "12504",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Explicit do-not-add: 'a nothing loser burger' who is depth behind Lloyd and Chris Brooks, and dropping MarShawn Lloyd to grab him (which listeners were doing) is a mistake. ASR renders him 'Caleb Johnson' throughout.",
+   "mechanism": "Stated depth-chart order is Lloyd first, then Brooks, then Johnson; Johnson only matters if Lloyd gets hurt. Note the internal tension worth auditing: the same segment argues the Johnson trade is EVIDENCE GB expects a long Jacobs absence, and one host is openly (jokingly) short-selling him as part of a running bet, which colors the conviction.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Chris Brooks",
+   "player_id": "11370",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Named as the next man up behind Lloyd — the contingency if Lloyd's durability problem shows up again.",
+   "mechanism": "Stated depth-chart placement only ('Brooks is the next man up... I think it'll be Brooks and Caleb behind Lloyd'), no usage or scheme evidence offered.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Jordan Love",
+   "player_id": "6804",
+   "team": "GB",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Called 'sneaky' with potential for a big season without Jacobs; they actively bumped his touchdown projection.",
+   "mechanism": "Stated mechanism is red-zone and balance, not raw volume: Love doesn't run, so he needs ~35 passing TDs, and Jacobs was so good near the goal line that GB ran there; a more balanced offense with a now-healthy WR corps throws more in the red zone. NOTE this is the classic pass-rate-follows-game-script trap in reverse and should be audited — they also concede the 'number one in rushing / 28th in passing' split as the thing capping his volume.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Tucker Kraft",
+   "player_id": "9484",
+   "team": "GB",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Bumped up in their rankings specifically in the touchdown department after the Jacobs news.",
+   "mechanism": "Stated reason is red-zone target redistribution — 'when you get in the red zone, you're going to be throwing more than running without Josh Jacobs.' Same auditable mechanism as the Love take.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Matthew Golden",
+   "player_id": "12501",
+   "team": "GB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Bumped in the touchdown department post-Jacobs alongside Kraft and Watson.",
+   "mechanism": "Red-zone pass-rate increase without Jacobs at the goal line; healthy GB receiver corps absorbing the scoring work.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Christian Watson",
+   "player_id": "8167",
+   "team": "GB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Bumped in the touchdown department post-Jacobs, grouped with Kraft and Golden.",
+   "mechanism": "Same red-zone-throws-replace-Jacobs-runs reasoning; no individual usage evidence cited for Watson.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Kyle Pitts",
+   "player_id": "7553",
+   "team": "ATL",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Unprompted preseason takeaway — 'Kyle Pitts is going to be great, I'm just telling you' in Atlanta's offense.",
+   "mechanism": "Stated reason is an eye-test athleticism marker, not usage: a 37-yard run up the sideline where he escaped the defense, read as pre-injury young Pitts speed returning. Purely visual evidence, no target-share or route data offered.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Chris Bell",
+   "player_id": "13311",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Rookie WR called 'a first round talent' who makes the Dolphins offense more interesting in redraft — but the same host says he isn't drafting him even with a last pick, so this is a watchlist name, not a draft call.",
+   "mechanism": "Stated reason is availability plus roster context: he played in the final preseason game after camp doubts, and with Waddle gone Miami's supporting cast is better than the 'they have nobody' narrative. The fantasy conclusion is second-order — a mid-pack (not bottom-10) Miami offense.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "De'Von Achane",
+   "player_id": "9226",
+   "team": "MIA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "'A little safer than people think' — the Miami offense being middle-of-the-pack rather than bottom-10 raises his floor. ASR renders him 'a Chan' / 'Devon H'.",
+   "mechanism": "Stated reason is team-offense environment, not his own usage: Chris Bell available, Greg Dulcich, Caleb Douglas, and Malik Willis's rushing keeping defenses accountable add up to a non-bottom-10 unit.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Makai Lemon",
+   "player_id": "13294",
+   "team": "unknown",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Worth a shot at a late-round redraft pick if healthy — confidence went UP despite a bad statistical showing. ASR renders him 'McKay Lemon'; team never stated.",
+   "mechanism": "Stated reason is availability, explicitly separated from performance: he played and is healthy as a first-round wide receiver. They openly note the box score was bad (3 catches, 3 yards, a drop that became an interception) and discount it — a usage-over-box-score read.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Cyrus Allen",
+   "player_id": "13413",
+   "team": "KC",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Fade in redraft despite the strong camp drumbeat; they still like the dynasty outlook.",
+   "mechanism": "Stated reason is a snap-share base rate applied to preseason alignment: he lined up behind Worthy, Rice and Thornton in the final game, and as a non-first-round rookie WR he is unlikely to hit the ~70%+ snap threshold that makes a rookie WR matter; those players historically take a full season to emerge (Puka Nacua named as the outlier that proves the rule).",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Jadarian Price",
+   "player_id": "13286",
+   "team": "SEA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "'Getting more and more bullish' — he is the lead back to open the year with a huge chance to establish the role, and one host takes him over MarShawn Lloyd. Team inferred from the Charbonnet/Holani context, not stated as a label.",
+   "mechanism": "Stated reason is pure opportunity, and they flag it as opportunity rather than talent ('he wasn't my favorite prospect coming in, but it's a layup of obvious upside'): Zach Charbonnet stays on PUP to start the season, leaving Price ahead of only an undrafted back (ASR 'Helani', likely George Holani) with ~25 career touches.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Tank Bigsby",
+   "player_id": "9225",
+   "team": "PHI",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "'Should be drafted in 100% of leagues' — the only question is the appropriate spot.",
+   "mechanism": "Stated reason is contingent-value insurance: you are drafting the Saquon Barkley injury outcome, and 'crazy stuff happens every week.' Explicitly not a day-one contributor.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Emeka Egbuka",
+   "player_id": "12514",
+   "team": "TB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "high",
+   "why": "Bearish even though Todd Bowles is hopeful he's ready for week 1 — 'I am at this level' (gesturing low) on him. ASR renders him 'Ibuka'.",
+   "mechanism": "Four stated actuarial reasons, all injury-mechanism rather than role: turf toe takes longer than expected to heal, it can recur, players don't produce at the same level while recovering from it, and he specifically did not play well through injuries last year.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Chris Godwin",
+   "player_id": "4037",
+   "team": "TB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "'Undrafted or late round — pay attention to him.'",
+   "mechanism": "Stated reason is vacated opportunity from teammates' injuries: Egbuka compromised by turf toe and McMillan also hurt, leaving the target opportunity open. This is the beneficiary half of the injury take and is testable against actual target share.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Ted Hurst",
+   "player_id": "13317",
+   "team": "TB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "'The opportunity is there for him to start the year' given the Tampa Bay receiver injuries — name is badly garbled by ASR ('Ted Hurst', possibly Tez Johnson), treat the identification as unconfirmed.",
+   "mechanism": "Stated reason is depth-chart vacancy from the Egbuka/McMillan injuries, hedged immediately with 'we'll see how much they lean on the running game.'",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Wan'Dale Robinson",
+   "player_id": "8126",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "The three hosts put his odds of finishing as Tennessee's fantasy WR1 at 3%, 15% and 35%; and even the hit outcome isn't a win — if he's the WR1, the offense has gone terribly wrong.",
+   "mechanism": "Stated reason inverts the usual logic: his best fantasy season comes if Carnell Tate is GOOD (a functional offense lifting the WR2 role), not if he wins the target-share crown on a broken team. Full-PPR scoring shifts the odds upward.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Carnell Tate",
+   "player_id": "13279",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Treated as the presumptive Titans WR1 — the entire Wandale question is framed as an upset scenario against him.",
+   "mechanism": "Stated as the baseline assumption ('the hopefully Carnell Tate led Tennessee Titans'), with no supporting usage evidence given.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Malik Nabers",
+   "player_id": "11632",
+   "team": "NYG",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Half of their favorite underrated stack — take him in the third round; a healthy best-season Nabers 'does not belong anywhere near there.' ASR renders him 'Neighbors'.",
+   "mechanism": "Stated reason is ADP mispricing conditional on health, explicitly acknowledged as risk-on ('it is playing with fire'). No usage, scheme, or QB-play evidence offered — the whole case is range-of-outcomes vs draft cost.",
+   "videos": [
+    "C8-ACrRn9lM"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Jaxson Dart",
+   "player_id": "12508",
+   "team": "NYG",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "The stack partner — draft him in the ninth round; the good version of Dart badly outproduces that ADP. ASR renders him 'Jackson Dart'.",
+   "mechanism": "Same pure ADP-range argument as Nabers: both are priced where the downside is already baked in and the upside is uncapped. Stacking correlation is implied but never argued.",
+   "videos": [
+    "C8-ACrRn9lM"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Caleb Williams",
+   "player_id": "11560",
+   "team": "CHI",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "One host's standing breakout call, reinforced by the Bears adding another field-stretching weapon.",
+   "mechanism": "Stated reason is weapon depth: 'Xavier Thomas' (ASR, a 4.28 / 190-lb Bears rookie WR) showing blazing speed gives Chicago a fourth weapon who can burn the field. They explicitly say the speedster himself isn't fantasy-relevant — only the QB effect is.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Luther Burden",
+   "player_id": "12519",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Positive health note — 'looks 100%' per Ben Johnson.",
+   "mechanism": "Direct coach report on health status; no usage or role claim attached.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Keenan Allen",
+   "player_id": "1479",
+   "team": "unknown",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Explicitly NOT a Jacobs-style situation — 'this will not affect Keenan Allen this year'; don't discount him for the Sunday DWI arrest.",
+   "mechanism": "Stated legal reasoning via Drew Davenport: he was under 0.08, was in a parked vehicle rather than driving, the case won't resolve until year's end, and the expectation is it gets pled down to something innocuous.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Seth McGowan",
+   "player_id": "13424",
+   "team": "IND",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "He, not DJ Giddens, is the insurance back behind Jonathan Taylor — a direct correction to the assumed handcuff.",
+   "mechanism": "Stated as a preseason depth-chart read ('it looks like he is the insurance back'), confirmed over Giddens by explicit question. No snap counts cited.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "DJ Giddens",
+   "player_id": "12471",
+   "team": "IND",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Passed over as the Jonathan Taylor handcuff in favor of Seth McGowan.",
+   "mechanism": "Implicit from the depth-chart read above; no independent evidence given against Giddens.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Mike Washington",
+   "player_id": "13305",
+   "team": "LV",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "'Not only does he look like the direct insurance running back to Jeanty, but he looks like a player who might actually get on the field.' Name is ASR-uncertain and the team is inferred from the Jeanty reference ('Gentee').",
+   "mechanism": "Two separate stated claims: depth-chart position behind Jeanty (contingent value) AND standalone preseason on-field ability (immediate value) — they are asserted, not evidenced with usage numbers.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Emmett Johnson",
+   "player_id": "13337",
+   "team": "KC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Now looks like the true KC backup RB after the incumbent was waived, and 'has looked fantastic'. ASR only says 'Emmitt in Kansas City' — first name only, identification uncertain.",
+   "mechanism": "Stated reason is a roster-cut vacancy plus a play-style comp: the back who had been running as the backup got waived, and he runs violently/aggressively with 'hilarious similarities to Isaiah Pacheco at his best.' The comp is stylistic, not statistical.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Jacob Saylors",
+   "player_id": "11237",
+   "team": "DET",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Detroit is willing to go into the season with him as the backup — Dan Campbell said he's comfortable with him. ASR renders it 'Sailors'/'Sailor Jerry'; the hosts themselves had never heard of him.",
+   "mechanism": "Direct coach quote as the only evidence, which is exactly the 'coach praise' category worth discounting relative to beat-writer usage notes.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Adam Randall",
+   "player_id": "13302",
+   "team": "BAL",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Rookie RB who 'was looking very good' but was put on short-term IR, so the first four weeks are off the table.",
+   "mechanism": "Stated as preseason performance interrupted by a transaction; the ASR says 'so he won't miss the first four weeks' which almost certainly should read WILL miss — short-term IR is four games. Treat the direction of that sentence as an ASR error.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Zach Charbonnet",
+   "player_id": "9753",
+   "team": "SEA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Remains on PUP to start the season — he is off the board for the opening stretch and the reason Jadarian Price is startable.",
+   "mechanism": "Roster transaction, stated as fact rather than projection.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "player_id": "7611",
+   "team": "NE",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Unanimously drafted over MarShawn Lloyd in the head-to-head exercise. ASR renders him 'Ramondre'.",
+   "mechanism": "Stated as a risk-tolerance choice, not a talent gap: he offers known production where Lloyd is 'a complete unknown.' The framing explicitly concedes Lloyd has the higher ceiling.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Tony Pollard",
+   "player_id": "5967",
+   "team": "TEN",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Loses the head-to-head to MarShawn Lloyd — take Lloyd over Pollard.",
+   "mechanism": "Implicit ceiling argument: the Green Bay starting RB role can be a top-12 fantasy player, and that contingent upside outranks Pollard's known role. No Pollard-specific evidence cited.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Zach Ertz",
+   "player_id": "1339",
+   "team": "PHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "A reported Eagles reunion is 'on the table' and they react to it as bad news — 'that is nasty' — for the incumbent Philadelphia tight end.",
+   "mechanism": "Stated as target-competition dilution at TE (Dallas Goedert named in the same breath), asserted by reaction rather than argued.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": null,
+   "player_id": null,
+   "team": "unknown",
+   "pos": "DL",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Unretiring is the rare piece of GOOD news before kickoff and is IDP-relevant; the surrounding super-team is not expected to work out.",
+   "mechanism": "Stated reason for the team-level skepticism is a base rate they cite loosely: the last 20 teams favored by this wide a Super Bowl margin went 0-20, plus age/health risk across Stafford, Davante Adams, Donald and Myles Garrett.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "player": "Sean Tucker",
+   "player_id": "9506",
+   "team": "TB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Survived the cutdown on a reduced one-year deal — he is still on the roster, which is the only fantasy-relevant part.",
+   "mechanism": "Contract/roster fact: a $3.5M deal cut to $2.5M as a take-it-or-leave-it at the end of camp. One host reads it as the team having no leverage competition for him, i.e. mild negative signal on his standing.",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
   }
  ],
  "strategy_notes": [
@@ -6538,6 +7093,326 @@
    ],
    "date": "2026-08-28",
    "about_player_id": "8146"
+  },
+  {
+   "fact": "Jordan Love finished as the QB5 in fantasy three years ago at just under 19 points per game, before Josh Jacobs arrived; his QB production dropped over the past two years with Jacobs.",
+   "about": "Jordan Love",
+   "about_player_id": "6804",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Green Bay ranked number one in rushing and 28th in passing, which caps Jordan Love's passing volume; the hosts say he needs ~35 passing TDs to matter for fantasy because he doesn't run.",
+   "about": "Green Bay Packers / Jordan Love",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Commissioner's exempt list precedent cited from a Connor Allen tweet: Julius Peppers 47 days; Adrian Peterson 15 games; Greg Hardy 15 games; Reuben Foster 5 games; Kareem Hunt 5 games; Jabrill Peppers 7 games. Some players placed on the list never played again.",
+   "about": "Josh Jacobs / commissioner's exempt list",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "The minimum NFL suspension for a domestic violence situation is six games.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "The charges filed against Josh Jacobs were REDUCED from the original arrest, and the NFL put him on the exempt list a few days AFTER those charges came out.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Jacobs' court case is scheduled to be heard in November, but per Drew Davenport that court date is irrelevant to the NFL's process/timeline.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Josh Jacobs cannot be placed on fantasy IR while on the commissioner's exempt list — he occupies an active bench spot.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "The Fantasy Footballers moved MarShawn Lloyd to roughly RB24-RB30 in their UDK rankings within a day of the Jacobs news (one host has him about RB24), and re-ranked the entire Packers offense.",
+   "about": "MarShawn Lloyd / Green Bay Packers",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Green Bay has been running more vertical wide zone; beat reporters questioned how Josh Jacobs fit that scheme, while MarShawn Lloyd (and Kaleb Johnson) fit it.",
+   "about": "Green Bay Packers backfield",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "MarShawn Lloyd was a third-round NFL draft pick by Green Bay (NFL draft round, not fantasy).",
+   "about": "MarShawn Lloyd",
+   "about_player_id": "11581",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Keenan Allen was arrested Sunday morning and charged with DWI and DWI endangering a person; he was under 0.08 and was in a parked vehicle, not driving. Per Drew Davenport the legal situation won't be resolved until the end of the year.",
+   "about": "Keenan Allen",
+   "about_player_id": "1479",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Kyle Pitts had a 37-yard run up the sideline in the final preseason game, escaping the defense.",
+   "about": "Kyle Pitts",
+   "about_player_id": "7553",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "'McKay Lemon' (ASR; likely Makai Lemon), a first-round rookie WR, played in the final preseason game and had 3 catches for 3 yards plus a drop that turned into an interception.",
+   "about": "Makai Lemon",
+   "about_player_id": "13294",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "'Xavier Thomas' (ASR-uncertain), a Bears wide receiver, ran a 4.28 at about 190 pounds and showed that speed in preseason.",
+   "about": "Chicago Bears WR (ASR 'Xavier Thomas')",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Cyrus Allen played behind Xavier Worthy, Rashee Rice and Tyquan Thornton in the final KC preseason game, despite a strong camp drumbeat and reports he was working exclusively with Mahomes.",
+   "about": "Cyrus Allen",
+   "about_player_id": "13413",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Dallas waived all of their backup running backs other than Malik Davis — Jaydon Blue and Phil Mafah both gone.",
+   "about": "Dallas Cowboys backfield",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Zach Charbonnet will remain on the PUP list to start the season.",
+   "about": "Zach Charbonnet",
+   "about_player_id": "9753",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "The undrafted back behind Jadarian Price (ASR 'Helani', likely George Holani) has touched the ball roughly 25 times in his career.",
+   "about": "Jadarian Price's backfield competition",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Rookie RB Adam Randall was placed on short-term IR by Baltimore (four-game absence), after looking very good in preseason.",
+   "about": "Adam Randall",
+   "about_player_id": "13302",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Season-opening IR placements named: Jordyn Tyson, Tank Dell, James Conner, Christian Kirk. Arizona also waived Trey Benson injured.",
+   "about": "Week 1 IR list",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Puka Nacua returned to practice on Sunday after dealing with a hip flexor.",
+   "about": "Puka Nacua",
+   "about_player_id": "9493",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Todd Bowles reported he is hopeful Emeka Egbuka will be ready for week 1; Egbuka is recovering from turf toe.",
+   "about": "Emeka Egbuka",
+   "about_player_id": "12514",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Jeremiyah Love's ankle is probably good to go.",
+   "about": "Jeremiyah Love",
+   "about_player_id": "13287",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Luther Burden looks 100% according to Ben Johnson.",
+   "about": "Luther Burden",
+   "about_player_id": "12519",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Cutdown-day waivers named: Will Levis, Jaydon Blue, Phil Mafah, 'Demarcato' waived by the Chiefs, Jaleel McLaughlin waived by the Broncos, Jonah Coleman, Damien Pierce waived by the Eagles, Greg Dortch left the Lions, Jalen Hyatt cut.",
+   "about": "53-man cutdown",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Odell Beckham Jr. is a member of the Giants, and Jalen Hyatt — who wore his number — is no longer on the team.",
+   "about": "New York Giants",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Sean Tucker agreed to a one-year deal with Tampa Bay and was not cut; his $3.5M deal was reduced to $2.5M at the end of training camp. He had been tendered.",
+   "about": "Sean Tucker",
+   "about_player_id": "9506",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Aaron Donald is returning, with his deal going from $20 million up to $30 million, joining a roster that also has Matthew Stafford, Davante Adams and Myles Garrett.",
+   "about": "Aaron Donald",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "The last 20 teams favored by this wide a Super Bowl margin went 0-20 (as cited by the hosts).",
+   "about": "Super Bowl favorites base rate",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "Host odds that Wandale Robinson finishes as Tennessee's fantasy WR1: 3%, 15% and 35% across the three hosts.",
+   "about": "Wandale Robinson",
+   "about_player_id": "8126",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "In their 18-team chopped/guillotine league, teams got chopped regularly in the weeks their stars were on bye (Jonathan Taylor's bye week named as an example).",
+   "about": "Guillotine/chopped league format",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
+  },
+  {
+   "fact": "One host took Josh Jacobs in their chopped league before the news broke, and considers that roster already effectively eliminated.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "fantasy-footballers",
+   "videos": [
+    "OO357jcpMKE"
+   ],
+   "date": "2026-08-31"
   }
  ]
 }

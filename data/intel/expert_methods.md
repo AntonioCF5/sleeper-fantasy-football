@@ -399,3 +399,43 @@ and Brian Thomas Jr. for him inside 24 hours.
   ten-year question on principle — trajectories aren't forecastable that far
   out. A young stash we protect from drops should have a thesis that can pay
   inside three seasons; "someday" is not a thesis.
+- **Read transactions as inference about information you don't have** [FF].
+  A roster move made moments before a suspension/injury announcement is
+  evidence about the expected LENGTH of the absence, not just depth-chart
+  noise: "I don't think the Packers add Kaleb Johnson moments before this
+  news comes down if they know he'll be off the list in a week." Generalize
+  it — when a team spends an asset on a position right before bad news at
+  that position, price a long absence. Live case 2026-08-30: GB traded a
+  2028 6th for Kaleb Johnson minutes before Jacobs hit the exempt list.
+- **Guillotine/chopped strategy inverts the normal upside rules** [FF].
+  Directly applicable to both 🪓 leagues. (1) Draft only players with
+  CERTAIN week-1 opportunity — no stashes, no contingent tickets, because
+  you must survive every week; (2) prefer workhorse RBs over even top-6
+  WRs, since WR week-to-week variance is the enemy when you only need to
+  not finish last; (3) pull the QB trigger earlier than usual; (4) save
+  FAAB early but never hoard — you must still have money late to win.
+  Corollary: bye weeks matter enormously here specifically. Teams get
+  chopped in the weeks their stars are on bye, and the resulting desperation
+  makes FAAB prices wildly non-linear — a marginal player can go for more
+  than a superstar did the week before. This confirms and sharpens the
+  existing "guillotine leagues invert the league-winner rule" note.
+- **Non-first-round rookie WRs need ~70% snap share to matter in redraft**
+  [FF], and preseason ALIGNMENT ORDER tells you in August whether it's
+  coming: if he opens below the established starters, he is irrelevant to
+  the start of the season and normally takes a full year to emerge. Nacua
+  is the named super-outlier that proves the base rate. Sharpens our
+  existing day-2/3 rookie-WR rule with a testable threshold, and note the
+  split it licenses — the dynasty outlook can stay positive while the
+  redraft call is a fade.
+- **At the turn, stop drafting by ADP and draft by conviction** [FF]. You
+  cannot play "will he fall back to me" across a long wait in a competent
+  league; ask instead "of everyone in this wide range, who do I genuinely
+  believe scores the most points at a position I need?" Related: from
+  round 9 on they treat ADP as noise ("it's all just crapshoots") and will
+  take a player three rounds early on belief. Relevant to our slot-2 and
+  slot-10 turns, where two picks come back-to-back.
+- **Separate availability from box score when reading preseason** [FF].
+  A bad stat line from a player returning off injury is discounted to near
+  zero — the signal is that he was on the field at all. Complements the
+  existing usage-not-box-scores rule: for healthy players read usage, for
+  returning players read participation.
