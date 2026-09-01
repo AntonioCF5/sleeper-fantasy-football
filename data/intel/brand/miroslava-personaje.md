@@ -6,7 +6,9 @@ si una generación recuerda a una persona real, se descarta.
 ## Rasgos canónicos (fijos en TODA imagen, para consistencia)
 
 - Mexicana, ~35 años, reportera de sideline ex-Liga MX.
-- Cabello castaño oscuro chocolate, voluminoso, con movimiento.
+- Cabello **rubio dorado cálido con raíces suaves más oscuras** (cambio del
+  user 2026-08-31 sobre la primera generación, que salió castaña), voluminoso,
+  ondulado, con movimiento.
 - Ojos cafés con mirada cómplice/burlona directo a cámara; una ceja
   ligeramente levantada, media sonrisa de "yo sé algo que tú no".
 - **Labios rojos intensos** (el 💋 es su emblema) + **lunar pequeño sobre la
@@ -25,8 +27,8 @@ Photorealistic editorial portrait of Miroslava, a fictional Mexican
 sideline sports reporter in her mid-30s, waist-up, standing on the sideline
 of a packed American football stadium at golden hour. She holds a
 professional broadcast microphone with a navy-blue mic flag bearing a red
-"GM" monogram. Glamorous and self-assured: voluminous dark chocolate-brown
-hair with movement, warm brown eyes looking straight into the camera with a
+"GM" monogram. Glamorous and self-assured: voluminous warm golden-blonde
+hair with soft darker roots and movement, warm brown eyes looking straight into the camera with a
 knowing, mischievous expression, one eyebrow slightly raised, a half-smile
 that says she knows something you don't. Bold red lipstick, a small beauty
 mark above the right corner of her lip, gold hoop earrings. Curvaceous,
