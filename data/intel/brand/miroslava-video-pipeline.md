@@ -24,9 +24,11 @@ texto aprobado (.txt)
    linter + editor. Nada se auto-publica.
 2. **Guion ≠ texto de WhatsApp.** El paso 1 quita asteriscos/emojis/URLs,
    convierte listas (el power ranking se lee, no se deletrea), y marca
-   pausas. Dos modos: `--completo` (toda la columna, ~3-4 min) y
-   `--resumen` (60-90 seg: cagada de la semana + top/fondo del ranking +
-   cierre). Para WhatsApp el resumen es el default: nadie ve 4 minutos.
+   pausas. Dos modos: `--completo` (toda la columna, ~3-4 min — puede
+   exceder los 3 min de HeyGen; el script avisa) y `--resumen` (~2-2.5 min:
+   gancho + primera sección completa + top/fondo del ranking + remate del
+   cierre). El resumen es el default. `scripts/destape_guion.py` YA EXISTE
+   y está probado con la columna post-draft.
 3. **Voz fija.** Se diseña UNA voz en ElevenLabs (Voice Design: español
    mexicano, mujer ~35, entrega de crónica deportiva, sarcasmo seco, ritmo
    de reportera de sideline) y se congela el `voice_id`. La voz es parte del

@@ -93,6 +93,7 @@ picks up where this one left off.
 | `python3 scripts/draft_prep.py [league_id]` | League-specific VORP draft board → `reports/<season>/draft/` |
 | `python3 scripts/live_draft.py <league_id> [--watch]` | Live draft assistant: reads the draft room in real time, tracks the user's roster, recommends picks (tier scarcity, survival-to-next-turn, roster needs, league-winner window). `--exclude pid,pid` is a safety valve if the API lags. |
 | `python3 scripts/draft_dashboard.py [league_id] [port]` | Fantasy command center (default :8787): live Draft Room + a full searchable/sortable Rankings view, switchable across all leagues from the header with no restart. `league_id` optional — defaults to the first league in config.json; the browser remembers the last-picked league and view. Meant to stay open all season, not just draft day — Rankings doubles as a free-agent/waiver board once a draft is complete (shows current roster owner per player). |
+| `python3 scripts/destape_guion.py <destape.txt> [--completo]` | Paso 1 del video del Destape: WhatsApp → guion hablado para la voz de Miroslava en Artlist (quita formato/emojis, ranking a "Número N", estima duración vs el tope de 3 min de HeyGen). Pipeline completo en `data/intel/brand/miroslava-video-pipeline.md`. |
 
 Library modules (import from repo root with `sys.path` trick, see scripts):
 
