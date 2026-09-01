@@ -1,9 +1,10 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-08-30** (preseason final
-week; Gallamijos draft dom 30 ago; Destape de Miroslava completo;
-expert-daily 8/25 run refreshed trades + claims).*
+tooling, or league state. Last updated: **2026-09-01** (Gallamijos League
+AND FANTASY MEXICA drafts COMPLETE — 6 of 8 leagues now in_season, only the
+two Guillotines remain pre_draft; Josh Jacobs to the Commissioner's Exempt
+List; expert-daily 9/1 edition refreshed claims + trades).*
 
 ## What this project is
 
@@ -16,8 +17,8 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 
 | League | Format | Status | Strategy |
 |---|---|---|---|
-| FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **pre_draft, slot 10** | Hero RB + early QB (Lamar @27). Keeper: Tyler Shough @R10 (locked, poor value; Kellen Moore thesis currently +3% tras el recorte por la lesión de Tyson). Full plan: `reports/2026/draft/fantasy-mexica-draft-plan.md` |
-| Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **DRAFT: dom 30 ago 13:00 (API), slot 2/18, snake 17R** | **Branch EN DISPUTA**: checklist del 30/8 recomienda ANCLA RB en el 2 (Gibbs si cae, si no Bijan) sobre el Chase que el user eligió el 29/8 — Bijan supera a Chase por 38.0 VORP en simulación de 50 drafts; decisión final del user. Picks: 2, 35/38, 71/74, 107/110, 143/146, 179/182, 215/218, 251/254, 287/290 (pares por la vuelta del snake). Tarea `draft-morning-gallamijos` corre 8:30am ese día (checklist completo + plan file) |
+| FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **in_season — DRAFTED (slot 10)** | Post-draft: Kenneth Walker (1.10) + Bowers (2.27) + Garrett Wilson (3.46); Shough kept at R10 as the starting QB with Daniel Jones behind him. Pre-draft plan preserved at `reports/2026/draft/fantasy-mexica-draft-plan.md`. K. Walker's foot (Q) is the live risk. |
+| Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **in_season — DRAFTED from slot 2**. Took Ja'Marr Chase at 1.02 (the user's call over the checklist's RB anchor), then Swift/Egbuka/Dobbins/MHJ. ⚠️ **DL starting slot left EMPTY** — see pending actions. | Post-draft: WR-anchored (Chase / Egbuka / MHJ) with a five-deep RB room (Swift, Dobbins, Corum, Marks, Mitchell) and Mayfield at QB. Two DEFs carried for two-week-ahead streaming, per the 18-team rule. Egbuka's turf toe is the live Week-1 risk. |
 | 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
 | 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
 | Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Burrow UNTRADEABLE (Bengals fan) — he's Maye insurance; TE surplus (LaPorta) is the RB2 trade capital |
@@ -130,6 +131,52 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **EMPTY DL STARTING SLOT IN BOTH NEW LEAGUES (found 2026-09-01)** —
+  Gallamijos League and FANTASY MEXICA each finished their draft with the DL
+  slot holding Sleeper's '0' sentinel and NO defensive lineman anywhere on
+  the roster: a guaranteed weekly zero in leagues that start DL/LB/DB.
+  Rulings are in `data/intel/waiver_claims.json`: **Gallamijos Lg — add
+  Poona Ford (69.0), drop Jack Bech**; **MEXICA — add Jared Verse (75.0),
+  drop Nicholas Singleton**. Both are unrostered free agents (no waiver
+  wait, and neither league is FAAB — Gallamijos is rolling priority, MEXICA
+  is reverse standings). LESSON FOR FUTURE DRAFTS: the live-draft engine and
+  the boards exclude IDP, which is correct for value, but nothing checks
+  that every REQUIRED starting slot ends the draft filled. Worth a
+  post-draft slot-coverage assertion in the dashboard/live_draft.
+- [ ] **MEXICA second move**: add Tre' Harris (93.4, FA, dropped by
+  LopezAmor), drop Jonah Coleman. Optional third: Jacob Saylors (Gibbs
+  handcuff, role bet not a clean handcuff).
+- [ ] **ROSTER COMPLIANCE — re-read live 2026-09-01.** **Gallamijos Dyn
+  active is now LEGAL (23/23)** ✅ — Legette and Hollins confirmed cut; only
+  the **taxi is over at 7/6 → cut Tai Felton (23, 29.2)**; Kaelon Black
+  stays protected. Then the standing **Colbie Young $5, drop Evan Engram**.
+  **DYNASTY TRC is still 29/25** and the cut list CHANGED: **Brissett (33),
+  Ridley (31), Parkinson (27), PHI DEF** — Conner has since been IR'd by the
+  user so he is off the list, and GB DEF is now the starter so the spare
+  defense is PHI. IR re-read again: 2 slots open but Out/Sus/NA only and
+  every injured body is Questionable — still unusable. **Kaleb Johnson (23)
+  is NOT a cut** despite FF's high-conviction fade.
+- [ ] **MarShawn Lloyd — the protected-hold trigger FIRED 2026-08-30.** Josh
+  Jacobs is on the Commissioner's Exempt List (two misdemeanors, cannot
+  practice or attend games); Lloyd is GB's RB1 and the #2 add in fantasy
+  (547k). Owned in **Dynasty Mexica** and **DYNASTY TRC**, where the user now
+  holds the entire viable GB backfield (Lloyd + Kaleb Johnson). HOLD — this
+  is a role change, not a spike to sell into. The 8/28 legal-jeopardy method
+  in `expert_methods.md` called this exact tail; it is worth keeping.
+- [ ] **Sal Vetri feed: 3 consecutive misses** (last success 2026-08-30) —
+  past the escalation threshold set on 8/29. Investigate channel_id/feed
+  rather than retrying. FF recovered clean on 9/1.
+- [ ] **Aaron Donald is unretiring** and is a FANTASY MEXICA free agent
+  projecting 31.0 — that number encodes "retired," not a forecast of LAR's
+  DT1 playing. Flagged for a live user decision (ceiling swing at DL instead
+  of Jared Verse); deliberately NOT hand-tuned, per the no-ad-hoc rule.
+- [ ] **Mechanism audit on record 2026-09-01**: FF bumped Jordan Love,
+  Tucker Kraft, Matthew Golden and Christian Watson on one shared mechanism
+  — "no Jacobs at the goal line → more red-zone throws." It FAILS: GB is a
+  9.5-win team flagged "positive scripts" in team_env (favorites run more),
+  and the Packers traded FOR a running back the same day. No projections
+  moved; hold all three owned names, buy none at a premium.
 
 - [ ] **STANDING TRADE OFFERS — re-verified live 2026-08-28** (every piece
   still on the correct side; `data/intel/trade_offers.json` is the source of
