@@ -5,7 +5,9 @@ si una generación recuerda a una persona real, se descarta.
 
 ## Rasgos canónicos (fijos en TODA imagen, para consistencia)
 
-- Reportera de sideline ex-Liga MX, ~35 años. **Aspecto nórdico/europeo**
+- Reportera de sideline ex-Liga MX, **finales de los 20** (rejuvenecida por
+  el user 2026-08-31; antes ~35). Rostro dulce, natural y coqueto — cute con
+  un dejo de travesura, no femme fatale dura. **Aspecto nórdico/europeo**
   (decisión del user 2026-08-31): piel clara porcelana, ojos azul claro,
   rubia natural — la güera del sideline. El personaje sigue siendo mexicano
   en voz y acento; el look es escandinavo.
@@ -14,8 +16,10 @@ si una generación recuerda a una persona real, se descarta.
   user sobre generaciones reales.)
 - Ojos azul claro con mirada cómplice/burlona directo a cámara; una ceja
   ligeramente levantada, media sonrisa de "yo sé algo que tú no".
-- **Labios rojos intensos** (el 💋 es su emblema) + **lunar pequeño sobre la
-  comisura derecha** (la marca que ancla la consistencia entre generaciones).
+- **Labios rojos intensos** (el 💋 es su emblema; sobreviven al look natural
+  por decisión editorial) + **lunar pequeño sobre la comisura derecha** +
+  **pecas sutiles en nariz y mejillas** (anclas de consistencia entre
+  generaciones). Maquillaje ligero, piel fresca.
 - Aretes de aro dorados.
 - Figura esbelta —cintura fina, rostro afilado— pero con el busto prominente
   del running gag intacto; vestido azul marino **#013369** entallado con
@@ -28,8 +32,10 @@ si una generación recuerda a una persona real, se descarta.
 
 ```
 Photorealistic editorial portrait of Miroslava, a fictional sideline
-sports reporter in her mid-30s with a Northern European / Scandinavian
-look — fair porcelain skin, light blue eyes, waist-up, standing on the sideline
+sports reporter in her late 20s with a Northern European / Scandinavian
+look — fair porcelain skin with subtle freckles across the nose and cheeks,
+large expressive light blue eyes, a sweet natural cute face with light
+fresh makeup, waist-up, standing on the sideline
 of a packed American football stadium at golden hour. She holds a
 professional broadcast microphone with a navy-blue mic flag bearing a red
 "GM" monogram. Glamorous and self-assured: voluminous naturally light
