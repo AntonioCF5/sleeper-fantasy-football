@@ -39,20 +39,37 @@ texto aprobado (.txt)
    Servicios: `miroslava-elevenlabs`, `miroslava-video` (avatar API),
    `miroslava-gemini` (imágenes, opcional).
 
-## Proveedor de video (por decidir — la única pieza abierta)
+## Proveedor: ARTLIST (decidido por el user, 2026-08-31)
 
-| Opción | Cómo funciona | Pro | Contra |
-|---|---|---|---|
-| **HeyGen** (recomendada) | photo avatar + audio propio → lip-sync | API madura, acepta NUESTRO mp3 (la voz de ElevenLabs manda), estable semana a semana | suscripción aparte |
-| Hedra Character | igual: imagen + audio → personaje hablando | expresividad facial alta | API más joven |
-| Veo 3.1 (Gemini) | referencia + prompt, audio generado por el modelo | un solo proveedor con Nano Banana | NO acepta guion exacto ni voz fija: la voz cambiaría cada semana — mata la consistencia del personaje |
+El user ya paga Artlist, y su AI Toolkit trae exactamente las piezas:
+**HeyGen Avatar 4** (imagen + audio propio → avatar hablando, hasta 3 min
+— cabe el resumen y casi cualquier columna), con OmniHuman 1.5 / Lip Sync
+V2 como alternativas si HeyGen decepciona, y **voces ElevenLabs** para el
+voiceover. Costo extra: $0.
 
-Veo se descarta para el reportaje por la voz; sirve solo para b-roll/intro.
+**Limitación que redefine el pipeline: Artlist es web, sin API.** Los pasos
+2 y 3 no se automatizan por script — se hacen en el navegador. Dos modos:
+
+- **Modo asistido (default):** Claude genera el guion (paso 1
+  automatizable), y con la sesión de Artlist del user abierta en Chrome,
+  Claude conduce el navegador: pega el guion en la voz fija, descarga el
+  mp3, lo sube a HeyGen Avatar 4 con `miroslava-avatar.png`, descarga el
+  video y corre el montaje ffmpeg (paso 4, automatizable). Un solo "haz el
+  video" del user dispara todo; él solo aprueba y envía.
+- **Modo manual (fallback):** Claude entrega guion + instrucciones y el
+  user hace los 3 clics en Artlist.
+
+**La voz igual se congela:** se elige UNA voz ElevenLabs dentro de Artlist
+(mujer, español mexicano, entrega de crónica, sarcasmo seco), se prueba con
+un párrafo del Destape, y su nombre queda registrado AQUÍ para usar siempre
+la misma. La voz es parte del personaje.
+
+> Voz elegida: **(pendiente — anotar nombre exacto del modelo/voz al
+> aprobarla)**
 
 ## Implementación (cuando haya proveedor + llaves)
 
-`scripts/destape_video.py <texto.txt> [--resumen|--completo]` — stdlib +
-curl como el resto del repo; ffmpeg ya presente en macOS vía brew o se pide.
-Estado incremental en `data/intel/video_state.json` (no regenerar audio si
-el texto no cambió). Costos por edición: ElevenLabs ~centavos; HeyGen
-~1 crédito/min.
+Lo que sí es script: `scripts/destape_guion.py <texto.txt>
+[--resumen|--completo]` (paso 1: WhatsApp → guion hablado) y el montaje
+ffmpeg del paso 4. Los pasos 2-3 viven en Artlist vía navegador. Sin llaves
+que registrar: la sesión de Artlist del user en Chrome es la credencial.
