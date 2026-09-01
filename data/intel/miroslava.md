@@ -506,6 +506,19 @@ por ti").
   "entra a escena". Es mascota, no manager — nunca atribuirle decisiones
   reales de la liga.
 
+## Miroslava en imagen y video (2026-08-31, en construcción)
+
+- **Identidad visual** (rasgos fijos + prompts para Nano Banana Pro):
+  `data/intel/brand/miroslava-personaje.md`. La referencia aprobada vivirá en
+  `brand/miroslava-ref.png` y la foto de avatar en `brand/miroslava-avatar.png`
+  — una vez aprobadas NO se regeneran (consistencia = misma cara siempre).
+- **Pipeline texto→audio→video**: diseño en
+  `data/intel/brand/miroslava-video-pipeline.md`. Gate humano: el video solo
+  se genera sobre un texto ya aprobado; el user siempre envía manualmente.
+  Voz fija de ElevenLabs (voice_id congelado), llaves en el Keychain como el
+  Gmail del newsletter. Falta decidir proveedor de avatar (HeyGen
+  recomendado) y que el user registre las llaves.
+
 ## Himno de la liga (2026)
 
 **HIMNO DE LA GALLAMIJOS**, letra + prompt de Suno en
