@@ -63,6 +63,9 @@ character and must not resemble any real celebrity or journalist.
 
 ## VARIACIÓN B — foto para avatar de video (la que consume el pipeline)
 
+> **APROBADA (2026-08-31): `miroslava-avatar.png`** en esta carpeta — la
+> foto que consume HeyGen Avatar 4 en Artlist. NO se regenera.
+
 Las herramientas de avatar (HeyGen/Hedra) piden: frente a cámara, luz
 pareja, boca cerrada, fondo limpio, hombros arriba. Esta es la foto
 CANÓNICA del pipeline, no el retrato de estadio:
@@ -93,6 +96,6 @@ mid-report expression, broadcast television still frame, 16:9.
 2. Toda imagen futura se genera ADJUNTANDO esa referencia + "keep her face
    identical to the reference". Nunca redescribirla de cero: cada
    redescripción es una cara nueva.
-3. La variación B aprobada se guarda como
-   `data/intel/brand/miroslava-avatar.png` — es la que consume el pipeline
-   de video y NO se regenera (regenerarla = otra "actriz" cada semana).
+3. ~~La variación B aprobada se guarda...~~ HECHO — `miroslava-avatar.png`
+   guardada; es la que consume el pipeline de video y NO se regenera
+   (regenerarla = otra "actriz" cada semana).
