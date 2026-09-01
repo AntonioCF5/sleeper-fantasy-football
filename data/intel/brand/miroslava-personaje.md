@@ -5,11 +5,14 @@ si una generación recuerda a una persona real, se descarta.
 
 ## Rasgos canónicos (fijos en TODA imagen, para consistencia)
 
-- Mexicana, ~35 años, reportera de sideline ex-Liga MX.
-- Cabello **rubio dorado cálido con raíces suaves más oscuras** (cambio del
-  user 2026-08-31 sobre la primera generación, que salió castaña), voluminoso,
-  ondulado, con movimiento.
-- Ojos cafés con mirada cómplice/burlona directo a cámara; una ceja
+- Reportera de sideline ex-Liga MX, ~35 años. **Aspecto nórdico/europeo**
+  (decisión del user 2026-08-31): piel clara porcelana, ojos azul claro,
+  rubia natural — la güera del sideline. El personaje sigue siendo mexicano
+  en voz y acento; el look es escandinavo.
+- Cabello rubio dorado claro natural, voluminoso, ondulado, con movimiento.
+  (Evolución 2026-08-31: castaña → rubia → nórdica, siempre por ajuste del
+  user sobre generaciones reales.)
+- Ojos azul claro con mirada cómplice/burlona directo a cámara; una ceja
   ligeramente levantada, media sonrisa de "yo sé algo que tú no".
 - **Labios rojos intensos** (el 💋 es su emblema) + **lunar pequeño sobre la
   comisura derecha** (la marca que ancla la consistencia entre generaciones).
@@ -23,12 +26,13 @@ si una generación recuerda a una persona real, se descarta.
 ## PROMPT MAESTRO (retrato editorial — la imagen de marca)
 
 ```
-Photorealistic editorial portrait of Miroslava, a fictional Mexican
-sideline sports reporter in her mid-30s, waist-up, standing on the sideline
+Photorealistic editorial portrait of Miroslava, a fictional sideline
+sports reporter in her mid-30s with a Northern European / Scandinavian
+look — fair porcelain skin, light blue eyes, waist-up, standing on the sideline
 of a packed American football stadium at golden hour. She holds a
 professional broadcast microphone with a navy-blue mic flag bearing a red
-"GM" monogram. Glamorous and self-assured: voluminous warm golden-blonde
-hair with soft darker roots and movement, warm brown eyes looking straight into the camera with a
+"GM" monogram. Glamorous and self-assured: voluminous naturally light
+golden-blonde hair with movement, looking straight into the camera with a
 knowing, mischievous expression, one eyebrow slightly raised, a half-smile
 that says she knows something you don't. Bold red lipstick, a small beauty
 mark above the right corner of her lip, gold hoop earrings. Curvaceous,
