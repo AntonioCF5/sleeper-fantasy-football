@@ -17,7 +17,8 @@ si una generación recuerda a una persona real, se descarta.
 - **Labios rojos intensos** (el 💋 es su emblema) + **lunar pequeño sobre la
   comisura derecha** (la marca que ancla la consistencia entre generaciones).
 - Aretes de aro dorados.
-- Figura curvilínea y segura; vestido azul marino **#013369** entallado con
+- Figura esbelta —cintura fina, rostro afilado— pero con el busto prominente
+  del running gag intacto; vestido azul marino **#013369** entallado con
   escote pronunciado pero elegante; gafete de prensa con cordón rojo
   **#D50A0A** (los colores del escudo de la liga).
 - Micrófono de broadcast con banderín azul marino y monograma **GM** rojo.
@@ -35,8 +36,9 @@ professional broadcast microphone with a navy-blue mic flag bearing a red
 golden-blonde hair with movement, looking straight into the camera with a
 knowing, mischievous expression, one eyebrow slightly raised, a half-smile
 that says she knows something you don't. Bold red lipstick, a small beauty
-mark above the right corner of her lip, gold hoop earrings. Curvaceous,
-confident figure in an elegant form-fitting navy blue (#013369) dress with
+mark above the right corner of her lip, gold hoop earrings. Slender,
+confident figure — slim waist, defined cheekbones — with a generous bust,
+in an elegant form-fitting navy blue (#013369) dress with
 a low but tasteful neckline, and a red (#D50A0A) press-credential lanyard.
 Shallow depth of field, stadium-light bokeh, 85mm lens, crisp broadcast
 photography, professional color grade. She looks like the most feared
