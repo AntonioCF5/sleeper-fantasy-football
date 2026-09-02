@@ -439,3 +439,50 @@ and Brian Thomas Jr. for him inside 24 hours.
   zero — the signal is that he was on the field at all. Complements the
   existing usage-not-box-scores rule: for healthy players read usage, for
   returning players read participation.
+- **Draft the scoring ENVIRONMENT, and read Vegas as the market's built-in
+  regression** [FF, Ep. 1963]. Rank offenses by Vegas projected points per
+  game *against last year's actual scoring rank*; the gap is the regression
+  or growth already priced in. Small differentials are noise — a large gap
+  deserves a real explanation before you fade it, "because they're pretty
+  smart." Two refinements worth carrying: (a) Vegas PPG bakes in the
+  KICKING game, so weight teams that reach the red zone and punch it in
+  over teams that merely move the ball; (b) the base rate for offense
+  turnover is brutal — exactly THREE teams went bottom-10 to top-10 in
+  scoring from 2024 to 2025 (NE, JAX, CHI) and one went the other way
+  (MIN). Use it to discount "new hotness offense" calls. This is the
+  external check on our own `offense_tier` field in team_env.json: when our
+  tier and the Vegas-vs-last-year gap disagree, one of them is stale.
+- **Injury-return discipline: practice film is not evidence of readiness**
+  [FF]. Buying the injury dip is usually not valuable, and "look how fast
+  he's running" in August is the least reliable input there is — trust
+  published recovery timelines and expect returning players not to be truly
+  100%. Applied on air to Nabers, Kittle and Kraft. This is the corrective
+  to our own 8/28 reasoning on Tucker Kraft, where a "full go" beat quote
+  was allowed to close the question; the actuarial timeline should outrank
+  the practice report, not the reverse.
+- **Do not pay the "new flashy toy" premium on an inherited backfield**
+  [Sal]. An unproven back rarely inherits his predecessor's full touch
+  count, so price the replacement at the ADP of the comparable ROLE
+  veteran, not at the departed starter's value (his worked example:
+  MarShawn Lloyd belongs in the Rhamondre Stevenson / Rico Dowdle /
+  Jaylen Warren range, rounds 6-7, and rounds 4-5 is "a complete mistake").
+  Directly relevant to how we value our own protected handcuffs the moment
+  their trigger fires — the hold is right, the re-rating should be sober.
+- **Identify handcuffs by rushing profile and body type, not draft capital**
+  [Sal]. The bigger back who wins on early downs and at the goal line is
+  the real contingent RB1, even when a higher-drafted, TD-propped teammate
+  looks like the obvious name (his case: the Denver rookie over R.J.
+  Harvey, whose 14 PPG fill-in was TD-propped on 3.4 YPC — 65th in the NFL
+  — and 34th in yards per touch). Our `_clean_handcuff` test is purely
+  structural (depth_chart_order == 2, starter 200+, no depth-3+ ≥ 80); this
+  is the qualitative tiebreaker for when two backs sit at the same depth or
+  the depth chart is stale. Paired trigger: a lead back who has missed 5+
+  games in each of the last four seasons should be handcuffed PROACTIVELY —
+  read "if he goes down" as "when."
+- **Post-hype rookie TE rule: don't spend the pick, buy the evidence** [FF].
+  For a Fannin/Sadiq-profile rookie tight end who missed offseason time, do
+  not burn a late pick — wait for week-1 evidence (their trigger: ~8 targets
+  and looking good) and then go hard on waivers. Preserves the late pick for
+  a player with an already-defined role, and fits our own rule that the last
+  3-4 picks are league-winner tickets rather than lottery tickets on
+  usage that does not yet exist.

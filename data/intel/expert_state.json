@@ -299,17 +299,59 @@
    "published": "2026-08-31",
    "source": "fantasy-footballers",
    "processed": "2026-09-01"
+  },
+  "cNcEtR-MmgI": {
+   "video_id": "cNcEtR-MmgI",
+   "title": "The #1 Must Have Fantasy Players at Each Position",
+   "published": "2026-08-30",
+   "source": "sal-vetri",
+   "processed": "2026-09-02"
+  },
+  "mt5hm8e1OCQ": {
+   "video_id": "mt5hm8e1OCQ",
+   "title": "You Drafted The Wrong Running Backs (Add These 5 Instead)",
+   "published": "2026-08-31",
+   "source": "sal-vetri",
+   "processed": "2026-09-02"
+  },
+  "y5gkLcusPDE": {
+   "video_id": "y5gkLcusPDE",
+   "title": "You Drafted The Wrong Wide Receivers (Add These 5 Instead)",
+   "published": "2026-09-01",
+   "source": "sal-vetri",
+   "processed": "2026-09-02"
+  },
+  "Xr5hIxFhzFY": {
+   "video_id": "Xr5hIxFhzFY",
+   "title": "Best Offenses Mock Draft + Draft Day Regrets | Fantasy Football 2026 - Ep. 1963",
+   "published": "2026-09-01",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-02"
+  },
+  "Mvlvss8TJrI": {
+   "video_id": "Mvlvss8TJrI",
+   "title": "Zach Charbonnet Injury News | Jadarian Price Fantasy Reaction",
+   "published": "2026-09-02",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-02"
+  },
+  "-ueR-SHvIVo": {
+   "video_id": "-ueR-SHvIVo",
+   "title": "WIN YOUR FANTASY LEAGUE",
+   "published": "2026-09-02",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-02"
   }
  },
  "feed_health": {
   "sal-vetri": {
-   "consecutive_failures": 3,
-   "last_success": "2026-08-30",
+   "consecutive_failures": 0,
+   "last_success": "2026-09-02",
    "last_failure": "2026-09-01"
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-01"
+   "last_success": "2026-09-02"
   }
  }
 }

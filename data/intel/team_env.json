@@ -6,7 +6,7 @@
   "cold_dec": false,
   "oc": "Nathaniel Hackett",
   "new_oc": true,
-  "coach_note": "CORRECTED 2026-08-25: NEW HC Mike LaFleur (Gannon fired) CALLS THE PLAYS \u2014 Hackett is a non-calling booth OC (\"setting the menu\"). The old Hackett-fade mechanism is void; LaFleur is Shanahan-tree, neutral-to-positive for McBride/Harrison. No projection change without new usage evidence.",
+  "coach_note": "CORRECTED 2026-08-25: NEW HC Mike LaFleur (Gannon fired) CALLS THE PLAYS — Hackett is a non-calling booth OC (\"setting the menu\"). The old Hackett-fade mechanism is void; LaFleur is Shanahan-tree, neutral-to-positive for McBride/Harrison. No projection change without new usage evidence.",
   "slow_start": true,
   "vac_tgt_pct": 21.9,
   "vac_rush_pct": 50.4,
@@ -37,7 +37,7 @@
   "new_oc": true,
   "vac_tgt_pct": 27.7,
   "vac_rush_pct": 12.6,
-  "play_caller": "Declan Doyle (OC, presumed \u2014 not explicitly reported)"
+  "play_caller": "Declan Doyle (OC — CONFIRMED 2026-09-02: Ravens' own site, first time calling plays in his career, called both preseason games from the booth)"
  },
  "BUF": {
   "win_total": 10.5,
@@ -46,7 +46,7 @@
   "cold_dec": true,
   "oc": "Pete Carmichael Jr.",
   "new_oc": true,
-  "coach_note": "Carmichael Jr. veteran hand for Allen \u2014 continuity-plus",
+  "coach_note": "Carmichael Jr. veteran hand for Allen — continuity-plus",
   "vac_tgt_pct": 13.6,
   "vac_rush_pct": 2.0,
   "play_caller": "Joe Brady (HC)",
@@ -61,8 +61,8 @@
   "new_oc": false,
   "vac_tgt_pct": 16.7,
   "vac_rush_pct": 52.4,
-  "play_caller": "Brad Idzik (OC \u2014 Canales handed off for 2026)",
-  "coach_note": "Idzik takes over play-calling from Canales for 2026 \u2014 a real change, reversal of Canales end-of-2025 stance.",
+  "play_caller": "Brad Idzik (OC — Canales handed off for 2026)",
+  "coach_note": "Idzik takes over play-calling from Canales for 2026 — a real change, reversal of Canales end-of-2025 stance.",
   "hc": "Dave Canales"
  },
  "CHI": {
@@ -72,7 +72,7 @@
   "cold_dec": true,
   "note": "Ben Johnson scheme, elite play volume",
   "hc": "Ben Johnson",
-  "coach_note": "Elite play volume, motion-heavy scheme \u2014 target Bears skill players",
+  "coach_note": "Elite play volume, motion-heavy scheme — target Bears skill players",
   "oc": "Press Taylor",
   "new_oc": true,
   "vac_tgt_pct": 30.3,
@@ -97,7 +97,7 @@
   "offense_tier": 5,
   "venue": "outdoor",
   "cold_dec": true,
-  "note": "11 of 17 games with O/U <= 42 \u2014 worst environment in NFL",
+  "note": "11 of 17 games with O/U <= 42 — worst environment in NFL",
   "hc": "Todd Monken",
   "coach_note": "Complete overhaul; Monken's passing scheme on the league's worst environment",
   "oc": "Travis Switzer",
@@ -112,12 +112,12 @@
   "offense_tier": 1,
   "venue": "dome",
   "cold_dec": false,
-  "note": "15 of 17 games with 48+ O/U \u2014 league's best shootout environment",
+  "note": "15 of 17 games with 48+ O/U — league's best shootout environment",
   "oc": "Klayton Adams",
   "new_oc": false,
   "vac_tgt_pct": 6.9,
   "vac_rush_pct": 4.3,
-  "play_caller": "Brian Schottenheimer (HC \u2014 confirmed 8/13 over Adams camp buzz)",
+  "play_caller": "Brian Schottenheimer (HC — confirmed 8/13 over Adams camp buzz)",
   "coach_note": "Schottenheimer (HC) confirmed 8/13 he keeps regular-season play-calling; Adams ran preseason calls only.",
   "hc": "Brian Schottenheimer"
  },
@@ -126,14 +126,14 @@
   "offense_tier": 4,
   "venue": "outdoor",
   "cold_dec": true,
-  "note": "good team, ZERO 48+ total games \u2014 fantasy-hostile",
+  "note": "good team, ZERO 48+ total games — fantasy-hostile",
   "oc": "Davis Webb",
   "new_oc": true,
-  "coach_note": "Davis Webb promoted \u2014 young passing-game mind, zero track record",
+  "coach_note": "Davis Webb promoted — young passing-game mind, zero track record",
   "slow_start": true,
   "vac_tgt_pct": 2.8,
   "vac_rush_pct": 1.3,
-  "play_caller": "Davis Webb (OC \u2014 Payton handed off, first time since 2006)",
+  "play_caller": "Davis Webb (OC — Payton handed off, first time since 2006)",
   "hc": "Sean Payton"
  },
  "DET": {
@@ -143,10 +143,10 @@
   "cold_dec": false,
   "oc": "Drew Petzing",
   "new_oc": true,
-  "coach_note": "Petzing new OC \u2014 scheme change off elite baseline",
+  "coach_note": "Petzing new OC — scheme change off elite baseline",
   "vac_tgt_pct": 13.8,
   "vac_rush_pct": 37.2,
-  "play_caller": "Drew Petzing (OC \u2014 Campbell relinquished)",
+  "play_caller": "Drew Petzing (OC — Campbell relinquished)",
   "hc": "Dan Campbell"
  },
  "GB": {
@@ -206,10 +206,10 @@
   "cold_dec": true,
   "oc": "Eric Bieniemy",
   "new_oc": true,
-  "coach_note": "Bieniemy returns as OC \u2014 Reid offense continuity",
+  "coach_note": "Bieniemy returns as OC — Reid offense continuity",
   "vac_tgt_pct": 31.7,
   "vac_rush_pct": 70.2,
-  "play_caller": "Andy Reid (HC \u2014 Bieniemy oversees run game)",
+  "play_caller": "Andy Reid (HC — Bieniemy oversees run game)",
   "hc": "Andy Reid"
  },
  "LV": {
@@ -233,7 +233,7 @@
   "cold_dec": false,
   "note": "McDaniel OC hire = big scheme upgrade",
   "oc": "Mike McDaniel",
-  "coach_note": "McDaniel: motion/YAC scheme \u2014 McConkey & Herbert risers, Hampton fits; risk = pass protection",
+  "coach_note": "McDaniel: motion/YAC scheme — McConkey & Herbert risers, Hampton fits; risk = pass protection",
   "new_oc": true,
   "vac_tgt_pct": 29.5,
   "vac_rush_pct": 7.2,
@@ -248,7 +248,7 @@
   "note": "highest implied PPG (26.5)",
   "oc": "Nathan Scheelhaase",
   "new_oc": true,
-  "coach_note": "Scheelhaase new OC under McVay \u2014 McVay still the brain",
+  "coach_note": "Scheelhaase new OC under McVay — McVay still the brain",
   "vac_tgt_pct": 0.0,
   "vac_rush_pct": 1.9,
   "play_caller": "Sean McVay (HC)",
@@ -303,7 +303,7 @@
   "new_oc": false,
   "vac_tgt_pct": 10.9,
   "vac_rush_pct": 16.8,
-  "play_caller": "Kellen Moore (HC \u2014 Nussmeier non-calling)"
+  "play_caller": "Kellen Moore (HC — Nussmeier non-calling)"
  },
  "NYG": {
   "win_total": 7.5,
@@ -316,7 +316,7 @@
   "new_oc": true,
   "vac_tgt_pct": 36.2,
   "vac_rush_pct": 4.1,
-  "play_caller": "Matt Nagy (OC, presumed \u2014 not explicitly reported)"
+  "play_caller": "Matt Nagy (OC, presumed — not explicitly reported)"
  },
  "NYJ": {
   "win_total": 5.5,
@@ -325,7 +325,7 @@
   "cold_dec": true,
   "oc": "Frank Reich",
   "new_oc": true,
-  "coach_note": "Frank Reich veteran OC \u2014 stabilizer on bad environment",
+  "coach_note": "Frank Reich veteran OC — stabilizer on bad environment",
   "slow_start": true,
   "vac_tgt_pct": 24.4,
   "vac_rush_pct": 25.7,
@@ -377,7 +377,7 @@
   "cold_dec": false,
   "oc": "Brian Fleury",
   "new_oc": true,
-  "coach_note": "Fleury (first-time play-caller at ANY level, 7yr Shanahan-tree assistant) keeps Kubiak 2025 scheme but Macdonald says calling \"will be different\" \u2014 execution risk, scheme continuity. JSN target share worth monitoring.",
+  "coach_note": "Fleury (first-time play-caller at ANY level, 7yr Shanahan-tree assistant) keeps Kubiak 2025 scheme but Macdonald says calling \"will be different\" — execution risk, scheme continuity. JSN target share worth monitoring.",
   "vac_tgt_pct": 7.7,
   "vac_rush_pct": 44.6,
   "play_caller": "Brian Fleury (OC, first-time caller ever)",
@@ -403,7 +403,7 @@
   "cold_dec": false,
   "hc": "Robert Saleh",
   "oc": "Brian Daboll",
-  "coach_note": "Daboll proven QB developer \u2014 Cam Ward year-2 leap thesis; Ridley/Wan'Dale stability",
+  "coach_note": "Daboll proven QB developer — Cam Ward year-2 leap thesis; Ridley/Wan'Dale stability",
   "new_oc": true,
   "vac_tgt_pct": 28.1,
   "vac_rush_pct": 0.0,
@@ -417,11 +417,11 @@
   "note": "8 games with 48+ totals",
   "oc": "David Blough",
   "new_oc": true,
-  "coach_note": "Blough 1st-time caller \u2014 hard scheme break from Kingsbury: Daniels heavily under center, zone-run/play-action, away from league-leading shotgun rates.",
+  "coach_note": "Blough 1st-time caller — hard scheme break from Kingsbury: Daniels heavily under center, zone-run/play-action, away from league-leading shotgun rates.",
   "vac_tgt_pct": 52.3,
   "vac_rush_pct": 32.2,
   "play_caller": "David Blough (OC)",
   "hc": "Dan Quinn"
  },
- "coaches_verified": "2026-08-25 \u2014 all 32 HC/OC verified vs team sites/ESPN/NFL.com by 4-agent sweep; play_caller field added; no changes in last 30 days"
+ "coaches_verified": "2026-08-25 — all 32 HC/OC verified vs team sites/ESPN/NFL.com by 4-agent sweep; play_caller field added; no changes in last 30 days"
 }

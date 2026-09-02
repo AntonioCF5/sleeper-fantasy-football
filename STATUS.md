@@ -1,10 +1,10 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-01** (Gallamijos League
-AND FANTASY MEXICA drafts COMPLETE — 6 of 8 leagues now in_season, only the
-two Guillotines remain pre_draft; Josh Jacobs to the Commissioner's Exempt
-List; expert-daily 9/1 edition refreshed claims + trades).*
+tooling, or league state. Last updated: **2026-09-02** (expert-daily 9/2:
+Sal's feed RECOVERED after 3 misses; two of the 9/1 claims were sniped
+overnight and replaced; both DL starting slots still empty; BAL play-caller
+confirmed).*
 
 ## What this project is
 
@@ -132,6 +132,19 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+- [ ] 🔴 **EMPTY DL STARTING SLOTS — STILL OPEN, DAY 2 (2026-09-02).**
+  Neither add was executed, and the MEXICA fix was CLAIMED BY A RIVAL
+  overnight: **Jared Verse went to WillyDays** (who also took Boye Mafe, the
+  runner-up), voiding the 9/1 ruling. Recomputed board: MEXICA now takes
+  **Tuli Tuipulotu (71.0), drop Nicholas Singleton**; Gallamijos League is
+  unchanged — **Poona Ford (69.0), drop Jack Bech**, re-verified free. The
+  two IDP leagues score differently (Ford is only 57.0 in MEXICA), so they
+  need different players. Also sniped overnight: **Colbie Young**
+  (jetsdelalaguna, Gallamijos Dyn) → replaced by **Darnell Washington (25)
+  $7, drop Evan Engram**; and **Jacob Saylors** (MEXICA), whose optional
+  ruling is dead. LESSON: rulings that sit unexecuted for a day get taken in
+  active leagues — the daily edition now re-verifies FA availability before
+  restating any claim. Original entry follows.
 - [ ] 🔴 **EMPTY DL STARTING SLOT IN BOTH NEW LEAGUES (found 2026-09-01)** —
   Gallamijos League and FANTASY MEXICA each finished their draft with the DL
   slot holding Sleeper's '0' sentinel and NO defensive lineman anywhere on
@@ -164,9 +177,26 @@ tells the user to re-check news once before accepting.
   holds the entire viable GB backfield (Lloyd + Kaleb Johnson). HOLD — this
   is a role change, not a spike to sell into. The 8/28 legal-jeopardy method
   in `expert_methods.md` called this exact tail; it is worth keeping.
-- [ ] **Sal Vetri feed: 3 consecutive misses** (last success 2026-08-30) —
-  past the escalation threshold set on 8/29. Investigate channel_id/feed
-  rather than retrying. FF recovered clean on 9/1.
+- [x] **Sal Vetri feed — RECOVERED 2026-09-02, no investigation needed.**
+  The escalation flagged on 9/1 resolved on the very next run: the feed
+  returned normally and the catch-up pulled all 3 backlogged videos (8/30,
+  8/31, 9/1) automatically, exactly as the incremental design intends. This
+  confirms the 8/29 diagnosis — the misses are upstream edge flakiness at
+  the moment of the run, not a channel_id or code defect. `feed_health` is
+  back to 0 consecutive failures. One FF promo clip (mnIWyNh5dqU) has no
+  captions and `--mark` correctly refuses to mark it, so it will keep
+  showing as unprocessed; harmless, but if captionless promos accumulate,
+  consider a `--mark-no-captions` escape hatch.
+- [ ] **Dontayvion Wicks is adjustment-worthy (flagged 2026-09-02, needs a
+  live user decision).** Sal reports he has LOCKED the Eagles' WR2 job
+  opposite DeVonta Smith, inheriting an A.J. Brown vacancy that averaged 131
+  targets / 85 catches / 1,200+ yards over four years. The mechanism passes
+  audit — measured vacated target share, not the thin-backfield fallacy. Our
+  board has him at **57.4 in FANTASY MEXICA**, where the user owns him: the
+  widest board-vs-reality gap on any owned player right now. This meets the
+  coaching-layer standard for a `player_adjust.json` entry (real role
+  information, not opinion), but the no-unattended-adjustment rule stands —
+  NOT written. User decides live.
 - [ ] **Aaron Donald is unretiring** and is a FANTASY MEXICA free agent
   projecting 31.0 — that number encodes "retired," not a forecast of LAR's
   DT1 playing. Flagged for a live user decision (ceiling swing at DL instead
@@ -255,6 +285,10 @@ tells the user to re-check news once before accepting.
   rewritten). SEA resolved: Fleury confirmed OC + first-time caller,
   Kubiak-scheme continuity with execution risk. Only unverified play-callers:
   BAL (Doyle presumed), NYG (Nagy presumed) — recheck week 1.
+  **UPDATE 2026-09-02: BAL CONFIRMED** — the Ravens' own site has Declan
+  Doyle calling plays for the first time in his career (he worked both
+  preseason games from the booth); `team_env.json` updated. **NYG/Nagy is
+  now the only unconfirmed play-caller of 32.**
 - [x] **FANTASY MEXICA assist scoring**: RESOLVED — Sleeper now returns 0.5
   natively; config.json override removed (see standing rule 1).
 - [ ] **In-season (from week 1)**: weekly cadence per CLAUDE.md — waivers

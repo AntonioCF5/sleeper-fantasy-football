@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 (daily edition — FANTASY MEXICA and Gallamijos League entered in_season after their drafts; BOTH left an EMPTY DL starting slot, which is now the highest-value ruling in the file. DYNASTY TRC compliance recut against live rosters (Conner is now IR'd, PHI DEF replaces GB DEF as the spare defense). Gallamijos Dyn active is legal at last; only the taxi overage remains.",
+ "updated": "2026-09-02 (daily edition — TWO OF YESTERDAY'S CLAIMS WERE SNIPED OVERNIGHT and are replaced here: Jared Verse went to WillyDays in MEXICA (-> Tuli Tuipulotu 71.0 is the new DL fix) and Colbie Young went to jetsdelalaguna in Gallamijos Dyn (-> Darnell Washington, 25, $7 is the new claim). Jacob Saylors was also taken in MEXICA and is now the #1 add in fantasy after Pacheco's IR — added as a resolved skip with a trade-desk note, since you own Gibbs nowhere. BOTH DL STARTING SLOTS ARE STILL EMPTY, second straight edition. Compliance unchanged: Gallamijos Dyn taxi 7/6, DYNASTY TRC active 29/25.)",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip.",
  "claims": [
   {
@@ -75,15 +75,6 @@
   },
   {
    "league_id": "1388097370255794176",
-   "player": "Colbie Young",
-   "verdict": "claim",
-   "bid": 5,
-   "drop": "Evan Engram",
-   "why": "Re-verified free agent 2026-08-28. 24-year-old WR, the only add on this wire that fits a rebuild. $5 is a speculative-stash bid (1-5% tier) and odd-numbered. DROP RE-PAIRED 2026-08-28: the original pairing was Panthers DEF, but CAR DEF is now itself a compliance cut, so it can't also fund a claim — Evan Engram (31, DEN, 70.7 proj) is the correct funder under the dynasty-value rule (aging vet with no trade market goes before any young asset). Dead on arrival until the three outstanding compliance cuts are made; over-limit rosters cannot process waivers.",
-   "date": "2026-08-27"
-  },
-  {
-   "league_id": "1388097370255794176",
    "player": "Justice Hill",
    "verdict": "skip",
    "bid": null,
@@ -136,15 +127,8 @@
    "verdict": "claim",
    "bid": null,
    "drop": "Jack Bech",
-   "why": "NEW 2026-09-01, and the highest-value ruling in this file. The draft finished with the DL starting slot EMPTY (Sleeper starters array carries the '0' sentinel) and NO defensive lineman anywhere on the roster — a guaranteed zero every week in a league that starts DL/LB/DB. Ford is the top unrostered DL under this league's exact scoring at 69.0 (next best FA: Boye Mafe 65.0; Verse and Tuipulotu are both rostered here). Waiver_type 0 = rolling priority, NOT FAAB, so no bid applies, and Ford was never rostered so he is a straight free-agent add — no need to wait for Wednesday. DROP LOGIC: Bech (WR LV, depth 4, 77.9) is the weakest asset that never enters the lineup. Chose him over Tyler Shough (270.9) deliberately even though Shough projects higher — Shough is QB2 insurance in an 18-team 1QB league where a lost QB1 cannot be replaced off the wire, whereas if Egbuka's turf toe costs him time the FLEX is covered by a five-deep RB room (Corum 135.3, Marks 83.8, Mitchell 96.9). Woody Marks was NOT considered: HOU depth 2 behind Montgomery, a protected clean handcuff."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "player": "Jared Verse",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Nicholas Singleton",
-   "why": "NEW 2026-09-01. Same defect as Gallamijos League: the draft ended with the DL starting slot EMPTY and no DL rostered — a guaranteed weekly zero. Verse is the top unrostered DL under MEXICA scoring at 75.0 (Tuipulotu 71.0 second, Poona Ford only 57.0 here — the scoring differs between the two IDP leagues, so the picks differ). waiver_type 1 = reverse-standings priority, NOT FAAB; Verse is unrostered so this is a straight FA add today. DROP LOGIC: Singleton (RB TEN, depth 3, 56.7) is the lowest-value body on the roster. Clean-handcuff test run before naming him: depth_chart_order 3, so he fails the depth==2 requirement and carries no contingent protection. ALTERNATIVE ON RECORD: Aaron Donald is unretiring and is a FREE AGENT here, but his 31.0 projection encodes 'retired' rather than a forecast of LAR's DT1 playing — flagged to the user for a live decision rather than hand-tuned, per the no-ad-hoc-adjustment rule."
+   "why": "RE-VERIFIED FREE AGENT 2026-09-02, second straight edition — STILL UNEXECUTED and still the highest-value ruling in this file. The DL starting slot remains EMPTY on the live roster (Sleeper starters array carries the '0' sentinel at index 9) with NO defensive lineman anywhere on the 17-man active roster: a guaranteed weekly zero in a league that starts DL/LB/DB. Board recomputed today under this league's exact scoring: Ford is the ONLY unrostered DL in the top 14 (69.0); every name above him — Hutchinson 85.5, Garrett 80.0, Burns 80.0, Van Ginkel 79.5, Byron Young 79.0, Verse 75.0, Hunter 73.0, Tuipulotu 71.0, Simmons 70.0, Bonitto 69.5 — is rostered. Jared Verse was taken here by DrBet, so the MEXICA answer does not transfer. waiver_type 0 = rolling priority, NOT FAAB, so no bid applies, and Ford has never been rostered: this is a straight free-agent add that processes immediately, no Wednesday wait. DROP LOGIC UNCHANGED AND RE-CHECKED TODAY: Bech (WR LV, depth 3, 77.9) is the weakest asset that never enters the lineup. Chosen over Tyler Shough (270.9) deliberately despite the raw gap — Shough is QB2 insurance in an 18-team 1QB league where a lost QB1 cannot be replaced off the wire, whereas the FLEX is covered five-deep at RB (Corum 135.3, Mitchell 96.9, Marks 83.8) if Egbuka's toe costs him time. Woody Marks and Keaton Mitchell were both re-tested and remain PROTECTED clean handcuffs. Roster is 17/17, so the add REQUIRES this drop.",
+   "date": "2026-09-02"
   },
   {
    "league_id": "1385473470141313024",
@@ -152,15 +136,8 @@
    "verdict": "claim",
    "bid": null,
    "drop": "Jonah Coleman",
-   "why": "NEW 2026-09-01. Dropped by LopezAmor ~20h ago and still unrostered in an 18-team league; 93.4 under MEXICA scoring vs the 57.9 body he replaces, a clean +36 bench upgrade on a 24-year-old in a keeper format. LAC WR3 behind McConkey (187.7) and Quentin Johnston (134.9) — a WR5 with standalone value, not a dart. DROP LOGIC: Jonah Coleman (RB DEN, depth 3, 57.9) has no path; clean-handcuff test fails at depth 3, so no protection. NOTE ON A REJECTED CLAIM: an FF transcript line said Coleman was waived by Denver at cutdown, but Sleeper still lists him Active on DEN at depth 3 — the ASR claim is UNVERIFIED and was deliberately not repeated in the edition. The drop stands on the depth-chart math alone. Dontayvion Wicks (57.4) was left alone because the user added him himself 44h ago."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "player": "Jacob Saylors",
-   "verdict": "optional",
-   "bid": null,
-   "drop": "Dontayvion Wicks",
-   "why": "NEW 2026-09-01, third-priority and explicitly optional. Free agent here; Dan Campbell said on the record he is comfortable with Saylors as the RB2 behind Jahmyr Gibbs (298.9 at depth 1) while Isiah Pacheco (depth 2, 47.6) is Questionable with back/knee, and Saylors ran 17-100 in the preseason finale. FF also filed him as a low-conviction sleeper, so our data and theirs agree. HONEST FRAMING: he is depth 3, so this is a ROLE BET, not a clean handcuff by our formal test — his 23.5 projection is a floor read, and the value is entirely contingent on a Gibbs absence. Ranked below Verse (fills an empty starting slot) and Tre' Harris (real weekly value); take it only if the user wants a third move."
+   "why": "RE-VERIFIED FREE AGENT 2026-09-02 — still unrostered in an 18-team league two days after LopezAmor dropped him, and still unexecuted. 93.4 under MEXICA scoring vs the 57.9 body he replaces: a clean +36 bench upgrade on a 24-year-old in a keeper format. LAC WR3 behind McConkey (187.7) and Quentin Johnston (134.9) — a WR5 with real standalone value, not a dart. DROP LOGIC re-checked live: Jonah Coleman (RB DEN, depth 3, 57.9) is still yours and still has no path; clean-handcuff test fails at depth 3, so no protection applies. NOTE ON A REJECTED CLAIM, restated: an FF transcript line said Coleman was waived by Denver at cutdown, but Sleeper still lists him Active on DEN at depth 3 — the ASR claim remains UNVERIFIED and is deliberately not repeated. The drop stands on the depth-chart math alone. Dontayvion Wicks (57.4) is left alone because the user added him himself. ORDERING: this is the second move behind Tuipulotu, which fills an empty starting slot.",
+   "date": "2026-09-02"
   },
   {
    "league_id": "1315407698006646784",
@@ -168,7 +145,8 @@
    "verdict": "claim",
    "bid": null,
    "drop": "Jacoby Brissett (33), Calvin Ridley (31), Colby Parkinson (27), PHI DEF",
-   "why": "RE-CUT 2026-09-01 against live rosters — the list CHANGED since 8/28 and the old one is stale. Roster read live: 29 active vs 25 cap, IR 2/4, taxi 5/5. James Conner has since been moved to IR by the user, so he is no longer a cut; GB DEF is now the STARTING defense and PHI DEF is the spare, so the second-defense cut flips from GB to PHI. The four named are the only bodies with near-zero starting-lineup utility: Brissett is the QB5 on a roster already carrying Maye/Burrow/Goff/Bryce Young in a 1QB league; Ridley is 31 at TEN depth 3; Parkinson is the TE3 behind Kraft and Kelce; PHI DEF is a second defense in a 10-teamer where DEF is a streaming commodity (standing rule 6). IR RE-READ LIVE AGAIN: 2 of 4 slots are open but reserve_allow is Out/Sus/NA only (doubtful=0, dnr=0) and every injured body on the roster is Questionable — still unusable, exactly as on 8/26, 8/27 and 8/28. PROTECTED AND EXPLICITLY NOT CUT: Kaleb Johnson (23) despite FF's high-conviction fade — a young stash with a path, and now the third man in a GB backfield the user controls outright; Keaton Mitchell (LAC depth 2, Hampton 242.9 at depth 1, best depth-3+ Vidal 60.0 < 80 = clean handcuff); Brian Robinson (ATL depth 2, Bijan 324.9, best depth-3+ 0.0 = clean handcuff); Ja'Kobi Lane and Makai Lemon (both 22). Travis Kelce (36) and Jauan Jennings (29) were CONSIDERED and kept — both retain real starting-lineup utility (171.4 and 105.7), which the four named do not. Until these four cuts land, no waiver can process in this league."
+   "why": "RE-VERIFIED LIVE 2026-09-02 — unchanged, all four still on the roster, still 29 active vs the 25 cap, IR 2/4, taxi 5/5. Brissett (33) is the QB5 on a roster already carrying Maye/Burrow/Goff/Bryce Young in a 1QB league; Ridley (31) is TEN depth 3; Parkinson (27) is the TE3 behind Kraft and Kelce; PHI DEF is the spare defense in a 10-teamer where DEF is a streaming commodity (standing rule 6). All four confirmed still yours via live roster read. IR RE-READ AGAIN TODAY: 2 of 4 slots open but reserve_allow is Out/Sus/NA/COV only (doubtful=0, dnr=0) and every injured active body is merely Questionable — McCaffrey, Shakir, Kraft, Tracy, Keaton Mitchell — so IR remains unusable, now for the sixth consecutive edition. PROTECTED AND EXPLICITLY NOT CUT: Kaleb Johnson (23), Keaton Mitchell, Brian Robinson — and Robinson's protection got STRONGER today, with The Athletic's Josh Kendall reporting he has locked a goal-line role in Atlanta. Kelce (171.4) and Jennings (105.7) keep real lineup utility. Until these four cuts land, no waiver processes in this league — which is why Jaydon Blue (22, PHI, 56.6), dropped here 7 hours ago, cannot be claimed even though he clears the dynasty age bar.",
+   "date": "2026-09-02"
   },
   {
    "league_id": "1388097370255794176",
@@ -176,37 +154,66 @@
    "verdict": "claim",
    "bid": null,
    "drop": "Tai Felton (23)",
-   "why": "UPDATED 2026-09-01 — the active roster is LEGAL at last. Live read: 23 active vs 23 cap (Legette and Hollins confirmed dropped by the user 24h ago), IR 0/4, taxi 7 vs 6. Only ONE cut remains and it is on the taxi. Felton (WR MIN, depth 4, 29.2) is the weakest taxi body by a wide margin — next lowest is Malik Benson at 60.6. Kaelon Black stays PROTECTED: SF depth 2 behind McCaffrey (291.0) with best depth-3+ Jordan James at 59.7 (< 80), a clean handcuff by the standing test. If the pending Jro91 trade lands, Cyrus Allen leaves the taxi and this cut becomes unnecessary."
+   "why": "RE-VERIFIED LIVE 2026-09-02 — unchanged and still outstanding. Active roster remains LEGAL at 23/23 (Legette and Hollins confirmed dropped by the user, both visible in the 96h drop log). IR 0/4, taxi 7 vs 6. ONE cut remains and it is on the taxi. Felton (WR MIN, depth 4, 29.2) is the weakest taxi body by a wide margin — next lowest is Malik Benson at 60.6. Kaelon Black stays PROTECTED: SF depth 2 behind McCaffrey (291.0) with best depth-3+ Jordan James at 59.7 (< 80), a clean handcuff by the standing test, and he is trending 31k adds today on the back of McCaffrey's undisclosed tag — exactly the contingent value the protection exists for. This cut is the gate on the Darnell Washington claim. If the pending Jro91 trade lands, Cyrus Allen leaves the taxi and the cut becomes unnecessary.",
+   "date": "2026-09-02"
+  },
+  {
+   "league_id": "1385473470141313024",
+   "player": "Tuli Tuipulotu",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Nicholas Singleton",
+   "date": "2026-09-02",
+   "why": "NEW 2026-09-02 — REPLACES THE DEAD JARED VERSE RULING. Verse was claimed by WillyDays overnight (he also took Boye Mafe, the second name on yesterday's list), so yesterday's fix is void. The defect is unchanged: the DL starting slot is still EMPTY on the live roster with no defensive lineman on the 19-man active roster — a guaranteed weekly zero. DL board recomputed today under MEXICA's exact scoring: Tuipulotu (DL LAC) is now the TOP unrostered DL at 71.0, behind only rostered names (Hutchinson 83.5, Garrett 80.0, Burns 80.0, Byron Young 79.0, Van Ginkel 77.5, Verse 75.0, Hunter 73.0). Note the scoring genuinely differs between the two IDP leagues — Poona Ford is the right answer in Gallamijos League (69.0) but only 57.0 here, and Tuipulotu is rostered in Gallamijos League, so the two leagues need different players. Healthy, no injury tag. waiver_type 1 = reverse-standings priority, NOT FAAB; Tuipulotu is unrostered, so this is a straight FA add today. DROP LOGIC (unchanged from the Verse ruling, re-verified live): Nicholas Singleton (RB TEN, depth 3, 56.7) is the lowest-value body on the roster and still yours. Clean-handcuff test run before naming him — depth_chart_order 3 fails the depth==2 requirement, so he carries no contingent protection. ALTERNATIVE STILL ON RECORD: Aaron Donald remains an unrostered free agent here, but his 31.0 projection encodes 'retired' rather than a forecast of LAR's DT1 actually playing — flagged for a live user decision, deliberately not hand-tuned per the no-ad-hoc-adjustment rule."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "player": "Darnell Washington",
+   "verdict": "claim",
+   "bid": 7,
+   "drop": "Evan Engram",
+   "date": "2026-09-02",
+   "why": "NEW 2026-09-02 — REPLACES THE DEAD COLBIE YOUNG RULING. Young was claimed by jetsdelalaguna overnight, so the standing $5 claim is void. Washington is the replacement and is a better fit: dropped by Gallaghers4 ~24h ago, he is the highest-projecting AGE-APPROPRIATE free agent on this wire (85.1) at 25 years old, on a roster that is rebuilding. Everything projecting above him fails the dynasty age bar and is already ruled skip — Mike Gesicki (30, 104.9), Kendrick Bourne (31, 77.4), Dawson Knox (29, 76.4), Darius Slayton (29, 76.3). HONEST FRAMING, because the projection flatters him: Pittsburgh beat coverage has Washington as a blocking complement to Pat Freiermuth who is 'rarely targeted,' so 85.1 is optimistic against his actual route role. This is therefore an ASSET swap, not a points upgrade — and it is still clearly right, because the incoming asset is 25 with a fresh four-year, $42M extension ($21M guaranteed) signalling real organizational commitment, while the outgoing one is 32. DROP LOGIC: Evan Engram (TE DEN, 32, 70.7) is the same funder named for the dead Young claim and the reasoning is unchanged — the dynasty-value rule sends the aging vet with no trade market before any young asset. The TE room absorbs it (McBride, Theo Johnson 25, Otton, incoming Washington). BID: $7 — speculative-stash tier (1-5%) nudged up inside the weeks-1-6 aggression window, odd-numbered, out of a completely untouched $100 budget. SEQUENCING: dead on arrival until the taxi overage is cured; an over-limit roster cannot process a claim, so cut Tai Felton first."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "player": "Jacob Saylors",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-09-02",
+   "also_applies_to": [
+    "1314652488325922816",
+    "1315407698006646784"
+   ],
+   "why": "NEW 2026-09-02. He is the #1 trending add in ALL of fantasy tonight (260,785) and a free agent in three of your leagues — Gallamijos League, League of Record and DYNASTY TRC — so this needed a resolved mechanism, not a bare skip. WHY HE TRENDS, verified on the wire: Detroit placed Isiah Pacheco (back/MCL) on injured reserve Tuesday, out until at least Week 5. That moved Saylors to DET depth_chart_order 2 behind Jahmyr Gibbs. He PASSES our clean-handcuff test outright — depth 2, Gibbs projects 331.4 (>= 200), and the best depth-3+ Lion is Sione Vaki at 4.0 (< 80, no committee dilution). So the contingent value is real and the trend is justified. THE REASON IT IS STILL A SKIP: handcuff value is worthless to a manager who does not own the starter, and the handcuff cross-reference across all six in-season rosters comes back empty — you own Gibbs in ZERO leagues. He is a rival's insurance policy everywhere: DrBet (Gallamijos League), Gernant88 (League of Record), RGV95 (DYNASTY TRC), Gallaghers4, pgarza, huguinem. Standalone he is 23.5-25.5, i.e. a bench zero while Gibbs is healthy. TRADE-DESK NOTE, which is the actually useful output here: two of the Gibbs owners are your standing trade partners — Gernant88 (the Stroud-for-Breece Hall offer) and RGV95 (the Goff-for-Odunze offer). Neither has yet spent anything to protect a 331-point back whose only insurance just became the most-added player in fantasy. That is leverage in both negotiations, not a waiver claim. Sione Vaki (46k adds, DET depth 3, 4.0) is the same story one rung lower and is a flat skip."
   }
  ],
  "roster_compliance": {
   "1388097370255794176": {
-   "status": "OVER LIMIT: active 27/23, taxi 8/6 — cuts required before waivers can process",
-   "cut_now_active": [
-    "Jacob Cowing",
-    "Cedric Tillman",
-    "CAR DEF",
-    "Mack Hollins"
-   ],
+   "status": "ACTIVE LEGAL 23/23; TAXI OVER 7/6 — one taxi cut (Tai Felton) required before any waiver processes. IR 0/4 and unusable (Out/Sus/NA/COV only; Bond's concussion cleared, Stribling/Downs/Mahomes/Theo Johnson all merely Questionable).",
+   "cut_now_active": [],
    "cut_now_taxi": [
-    "Tai Felton",
-    "Kaelon Black"
+    "Tai Felton"
    ],
-   "why": "Asset-ranked per the dynasty drop rules: Cowing (25, 1.7 proj) and Tillman (26, 6.6) are dead assets; CAR DEF is a second defense in a 12-team streaming league (zero asset value, re-streamable any week); Hollins is 32 with no market. Taxi: Felton (buried MIN WR5, 29 proj) and Black (SF RB depth, 42) are the two weakest of eight stashes — Bond/Bryant/Coleman/Allen/Benson/Howard all rank ahead on age+path. No IR relief available: league accepts OUT/SUS/COV/NA and every injured active is merely Questionable."
+   "why": "Re-read live 2026-09-02. Legette and Hollins confirmed cut, which fixed the active roster. Felton (23, WR MIN depth 4, 29.2) is the weakest of seven taxi bodies; next lowest is Malik Benson at 60.6. Kaelon Black is a PROTECTED clean handcuff (SF depth 2, McCaffrey 291.0, best depth-3+ Jordan James 59.7) and is trending 31k today on McCaffrey's tag."
   },
   "1315407698006646784": {
-   "status": "OVER LIMIT: active 30/25 — 5 cuts required before waivers can process (Benson already moved to IR)",
+   "status": "OVER LIMIT: active 29/25 — four cuts required before any waiver processes. IR 2/4 open but unusable (Out/Sus/NA/COV only; every injured body is Questionable).",
    "cut_now_active": [
     "Jacoby Brissett",
-    "James Conner",
+    "Calvin Ridley",
     "Colby Parkinson",
-    "GB DEF",
-    "Calvin Ridley"
+    "PHI DEF"
    ],
-   "why": "Brissett is a 33-year-old FIFTH QB in a 1QB league (Burrow untouchable, Maye 23, Young 25, Goff is the Odunze trade chip); Conner is 31/foot and was already the designated Hutchinson drop; Parkinson is a 27-year-old TE3 behind Kraft and Kelce; GB DEF is a second defense in a 10-team streaming league; Ridley is 31 with fading market — the aging-vets-first rule takes him before 25-year-old Lloyd or 23-year-old Kaleb Johnson (young stashes, never cut)."
+   "why": "Re-read live 2026-09-02, sixth consecutive edition with no movement. All four confirmed still rostered by the user and all four carry near-zero starting-lineup utility. Kaleb Johnson (23), Keaton Mitchell, Brian Robinson (goal-line role newly reported) and the young WRs stay protected; Kelce and Jennings keep real utility."
   },
   "1314652488325922816": {
-   "status": "LEGAL but full: active 28/28, taxi 8/8, zero open spots — any future claim must name a drop; IR here accepts COVID only, so no relief that way."
+   "status": "LEGAL with ONE open active spot (27/28) — changed 2026-09-02, previously 28/28 full. Conner, McNichols and Guerendo now occupy 3 of 8 IR slots, which freed the spot. Taxi 8/8 full. IR here accepts COVID only.",
+   "why": "No claim recommended to fill it: the entire top of this wire is kickers and defenses, and this league starts neither. Hold the slack for in-season news."
+  },
+  "1338269686810300416": {
+   "status": "LEGAL but full: active 26/26, IR 1/4, taxi 4/4. Any future claim must name a drop. Top of the wire is all K/DEF — no claim this edition."
   }
  }
 }
