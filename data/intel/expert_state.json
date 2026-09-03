@@ -346,12 +346,12 @@
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-02",
+   "last_success": "2026-09-03",
    "last_failure": "2026-09-01"
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-02"
+   "last_success": "2026-09-03"
   }
  }
 }

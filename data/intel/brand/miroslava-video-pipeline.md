@@ -66,8 +66,10 @@ voiceover. Costo extra: $0.
 un párrafo del Destape, y su nombre queda registrado AQUÍ para usar siempre
 la misma. La voz es parte del personaje.
 
-> Voz elegida: **(pendiente — anotar nombre exacto del modelo/voz al
-> aprobarla)**
+> Voz elegida (user, 2026-09-03): **"Dani - Podcast Host"** (ElevenLabs
+> dentro de Artlist). CONGELADA: es la voz de Miroslava para siempre —
+> misma regla que la cara. Siempre seleccionarla por ese nombre exacto;
+> si Artlist la renombra o la retira, avisar al user antes de tocar nada.
 
 ## Implementación (cuando haya proveedor + llaves)
 
