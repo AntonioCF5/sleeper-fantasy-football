@@ -4,3 +4,4 @@ data/cache/
 .DS_Store
 data/secrets/
 reports/*/expert-daily/*.html
+reports/*/roast/video/

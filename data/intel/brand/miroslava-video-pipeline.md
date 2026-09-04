@@ -101,7 +101,15 @@ la misma. La voz es parte del personaje.
 
 ## Implementación (cuando haya proveedor + llaves)
 
-Lo que sí es script: `scripts/destape_guion.py <texto.txt>
-[--resumen|--completo]` (paso 1: WhatsApp → guion hablado) y el montaje
-ffmpeg del paso 4. Los pasos 2-3 viven en Artlist vía navegador. Sin llaves
+Lo que sí es script: `scripts/destape_guion.py` (paso 1) y
+`scripts/destape_montaje.py <heygen.mp4> <salida.mp4> [--subtitulo "…"]`
+(paso 4): recorta el letterbox de HeyGen (detección negate+cropdetect — las
+barras son BLANCAS), compone el lienzo 1080x1920 de marca (escudo, título,
+barra roja, pie EST. 2015), cartas de intro/outro con fades y concatena.
+Los textos se rasterizan de SVG con `sips` porque el ffmpeg de brew no trae
+drawtext. Salida a `reports/<season>/roast/video/` (gitignored — pesa ~30MB).
+PENDIENTE deliberado: el himno como cama del outro cuando exista el mp3 de
+Suno. NOTA para HeyGen: la foto de avatar es apaisada, por eso llega
+letterboxed; el montaje ya cuenta con eso — no "arreglarlo" recortando la
+foto sin recalibrar el montaje. Los pasos 2-3 viven en Artlist vía navegador. Sin llaves
 que registrar: la sesión de Artlist del user en Chrome es la credencial.
