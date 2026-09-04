@@ -36,6 +36,7 @@ def _habla(linea):
     s = EMOJI.sub("", linea)
     s = re.sub(r"https?://\S+", "", s)
     s = s.replace("*", "").replace("_", "")
+    s = re.sub(r"\s*\b(LOL|XD|JAJA[JA]*)\b\.?", "", s, flags=re.I)  # risa escrita: el TTS la lee literal
     # ranking: "N. Equipo — chiste" → "Número N: Equipo. Chiste."
     m = re.match(r"\s*(\d+)\.\s*([^—-]+?)\s*[—-]\s*(.+)$", s)
     if m:
