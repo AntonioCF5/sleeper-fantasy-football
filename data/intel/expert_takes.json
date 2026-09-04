@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "sources": [
    "sal-vetri",
    "fantasy-footballers"
   ],
-  "note": "Expert takes + checkable facts from The Fantasy Footballers and Sal Vetri. Pruned to ~3 weeks. Takes are VISIBILITY ONLY (📺 flags/tooltips on boards) — they never move projections by themselves. `mechanism` is stored separately from `why` so the stated reason can be audited independently of the call.",
+  "note": "Merged 31 takes + 39 facts from 2 Sal Vetri videos (j4FAcNd2nXo, blxWfjiXdIw). Pruned entries dated before 2026-08-13. The Fantasy Footballers feed failed 3 consecutive runs — nothing marked processed, catch-up is automatic.",
   "last_updated": "2026-08-30",
   "last_videos": [
    "rtXZBTk5IMU",
@@ -5762,6 +5762,507 @@
     "Xr5hIxFhzFY"
    ],
    "date": "2026-09-02"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "player_id": "11581",
+   "team": "GB",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Add him on waivers this week but cap the bid around 60-70% of FAAB rather than emptying the budget.",
+   "mechanism": "Josh Jacobs was placed on the commissioner's exempt list with no known return date, and Lloyd has finally stayed healthy through an NFL camp and looks like the week-1 starter over Chris Brooks and the newly acquired Kaleb Johnson.",
+   "round_or_adp": "somebody I would take in like round six or seven; 60-70% of FAB, not 100%",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Jonah Coleman",
+   "player_id": "13345",
+   "team": "DEN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "Stash him now, before week 1, as a potential immediate league winner.",
+   "mechanism": "He is the RB3 on paper but the size/efficiency profile (220+ lb, 1,000-yard college season, 31 catches last year) that would jump R.J. Harvey for early-down and red-zone work if J.K. Dobbins - who has missed 5+ games in each of the last four seasons - goes down.",
+   "round_or_adp": "available in 70-80% of leagues; would cost 100% of FAB the week after Dobbins goes down",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "RJ Harvey",
+   "player_id": "12489",
+   "team": "DEN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Do not treat Harvey as the Denver contingency starter if Dobbins misses time.",
+   "mechanism": "Harvey lacks the 220+ pound early-down/red-zone profile; he projects to stay the passing-down back while Coleman absorbs the grinder role.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Kaelon Black",
+   "player_id": "13414",
+   "team": "SF",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "Add him as the contingent San Francisco bell cow while he is still free in 80%+ of leagues.",
+   "mechanism": "He is the clear RB2 behind a 30-year-old Christian McCaffrey coming off 400+ touches, has impressed since returning from a camp injury, pass-protects well, and RB3 Jordan James is still banged up - the same setup that made Jordan Mason a top back for five weeks two years ago.",
+   "round_or_adp": "available in over 80% of leagues",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Woody Marks",
+   "player_id": "12474",
+   "team": "HOU",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "One of the few waiver RBs worth real FAAB right now - add him before week 1.",
+   "mechanism": "Reports point to a near 50-50 Houston split; Marks is younger, entering year two and by far the better pass catcher, and would inherit a full workload behind an aging, never-explosive David Montgomery on a team whose defense produces leading game scripts.",
+   "round_or_adp": "available in 63% of leagues (55% available / 45% rostered per Yahoo)",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "David Montgomery",
+   "player_id": "5892",
+   "team": "HOU",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "His workload is not safe - expect a committee and treat him as a fading asset.",
+   "mechanism": "He is aging, has never been explosive in his NFL career, and reporting has the backfield near 50-50 with Woody Marks; he holds the red-zone/early-down role only to start the season.",
+   "round_or_adp": null,
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Chris Rodriguez",
+   "player_id": "10219",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "His No. 1 waiver RB add - boring, but grab him while he is free in half of all leagues.",
+   "mechanism": "The last two weeks of camp reporting have him as the short-yardage, red-zone and possibly early-down back, and there is a real chance he leads the backfield in carries to start the year in Liam Coen's offense.",
+   "round_or_adp": "available in over 50% of leagues (52% as of recording)",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "He can still break out this season, but do not count on him as a week-1 workhorse.",
+   "mechanism": "Camp has the Jacksonville backfield splitting, with Chris Rodriguez potentially taking the larger early-season share of carries.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Zach Charbonnet",
+   "player_id": "9753",
+   "team": "SEA",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "A last-round pick worth making specifically to park in your IR slot and free a live roster spot.",
+   "mechanism": "He is on the PUP list and will miss at least the first four weeks, so he occupies an IR slot rather than a bench spot while you add an extra player immediately after the draft.",
+   "round_or_adp": "last-round pick outside of a defense",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Christian Kirk",
+   "player_id": "4950",
+   "team": "SF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Free IR-slot stash even if you do not believe in him.",
+   "mechanism": "He is on the short-term IR/PUP list, so he costs no bench spot, and if Mike Evans gets hurt or De'Zhaun Stribling does not pay off he steps into a top-two role in that offense by week five.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Jordyn Tyson",
+   "player_id": "13281",
+   "team": "NO",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Named as a short-term IR/PUP body worth grabbing for a free IR-slot stash.",
+   "mechanism": "Players on the short-term IR/PUP list consume no bench spot, so rostering them is costless optionality.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Caleb Douglas",
+   "player_id": "13296",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "Stash him now while he is free in 90%+ of leagues; drop him after week 1 if the usage is not there.",
+   "mechanism": "Miami's post-cutdown receiver room has no proven NFL starter, three of five are rookies, and Douglas has been running as the team's WR1 in camp and the preseason with a 6'4/200+ build and 4.39 speed on back-to-back 800-yard college seasons at a ~20% target share.",
+   "round_or_adp": "available in over 90% of fantasy leagues",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Dallas Cowboys",
+   "player_id": "DAL",
+   "team": "DAL",
+   "pos": "DEF",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "His No. 1 week-1 streaming defense - stream it for $1-2 of FAAB.",
+   "mechanism": "Prime-time divisional matchup against a Giants offense with a new play caller, an inexperienced Jaxson Dart, a questionable Malik Nabers and a third-round rookie or Isaiah Likely as the No. 2 option, against a Dallas defense that has invested heavily (Caleb Downs, an improved defensive line).",
+   "round_or_adp": "available in over 70% of leagues; 1-2% of FAB or free",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Chicago Bears",
+   "player_id": "CHI",
+   "team": "CHI",
+   "pos": "DEF",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Second-best week-1 stream behind the Cowboys.",
+   "mechanism": "They face Carolina, which has one of the worst QB situations in the NFL and a bottom-10 offense where taking away Tetairoa McMillan leaves essentially nothing.",
+   "round_or_adp": "available in over 70% of leagues",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Tyler Allgeier",
+   "player_id": "8132",
+   "team": "ARI",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Add him now - he is a tier-1 FAAB target he cannot believe is this available.",
+   "mechanism": "James Conner is on IR and Jeremiyah Love is dealing with a high ankle that may keep him out of week 1, which would leave Allgeier as Arizona's starting running back to open the year.",
+   "round_or_adp": "available in 55% of leagues",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Tank Bigsby",
+   "player_id": "9225",
+   "team": "PHI",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "Get him right now; if you cannot stash him, be ready to unload 80-100% of FAAB the moment Saquon misses time.",
+   "mechanism": "He would instantly become a top-12 fantasy RB because he is a clear No. 1 backup rather than a committee piece, and Saquon Barkley has missed time in multiple seasons with ankle and knee injuries - a tier-1 handcuff in his handcuff rankings.",
+   "round_or_adp": "$80 bid example; tier-1 handcuff",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Tyjae Spears",
+   "player_id": "9508",
+   "team": "TEN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Cheap pre-week-1 stash - keep only if week 1 shows Tennessee is not clear-cut Pollard, otherwise drop him.",
+   "mechanism": "Tony Pollard should be the RB1, but Spears reportedly had a nice camp and preseason, and week-1 usage is what resolves the split.",
+   "round_or_adp": "explicitly a lesser FAAB priority than Marks/Allgeier/Bigsby",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "DJ Moore",
+   "player_id": "4983",
+   "team": "BUF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Put him at the top of your buy-low list now and trade for him after an expected week-1 stinker.",
+   "mechanism": "He draws Houston in week 1 - the best team defense in the NFL at limiting explosive plays and a top-two secondary - and as the outside receiver who beats teams for 20+ yard gains he is exactly what they will take away, while the market still prices him as a borderline top-50 overall player.",
+   "round_or_adp": "going 51st overall, a fifth-round pick in current drafts",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Rome Odunze",
+   "player_id": "11620",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Use him as the outgoing piece - flip him after a good week 1 in a softer matchup to buy DJ Moore low.",
+   "mechanism": "Week-1 matchup asymmetry, not talent: his soft opener versus Moore's Houston draw creates a one-week valuation gap you can arbitrage.",
+   "round_or_adp": "drafted a couple of rounds later than DJ Moore",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Parker Washington",
+   "player_id": "9487",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Sell him into a week-1 spike - a 5-catch, 70-yard game is enough to flip him for DJ Moore.",
+   "mechanism": "The market overreacts to one week; a modest 12-13 point opener from a popular late pick buys a discounted top-50 asset.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Rashid Shaheed",
+   "player_id": "8676",
+   "team": "SEA",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Worth a waiver-wire roster spot ahead of your backup QB or TE.",
+   "mechanism": "He should take a step forward this year and profiles as a clear-cut No. 2 receiver on his own team, i.e. real upside rather than a dead bench slot.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Khalil Shakir",
+   "player_id": "8134",
+   "team": "BUF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A stable-floor flex option worth rostering off waivers, though banged up entering week 1.",
+   "mechanism": "He has caught 70+ passes from Josh Allen in each of the last two seasons - volume attached to an elite QB.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Denzel Boston",
+   "player_id": "13346",
+   "team": "CLE",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Listed as an upside waiver-wire shot worth taking over a backup QB/TE.",
+   "mechanism": "Rookie with a lot of hype - a pure upside dart, not a floor play.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Tre Tucker",
+   "player_id": "10213",
+   "team": "LV",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Fine as a free roster-spot add, but never spend 20-40% of FAAB on him.",
+   "mechanism": "He is the No. 1 receiver on his own team but his production profile is spike-week driven - last year's 100-yard, multi-TD game with Geno Smith is the archetype of a bid you should not make.",
+   "round_or_adp": "do not blow 20-40% of FAB on this profile",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Ja'Kobi Lane",
+   "player_id": "13293",
+   "team": "BAL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "He is generating camp buzz but Sal does not believe in the Baltimore situation for him.",
+   "mechanism": "Stated as a belief about the offense/target competition, not a measured usage signal - mechanism is thin and should be audited.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Baker Mayfield",
+   "player_id": "4892",
+   "team": "TB",
+   "pos": "QB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Drop your backup QB - he was named as the example of the QB2 taking up a bench spot.",
+   "mechanism": "A QB2 on the bench in a 1-QB league generates zero weekly value while the same slot could hold a contingent starting RB or a high-upside WR.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Mark Andrews",
+   "player_id": "5012",
+   "team": "BAL",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Cut him if you already roster a starting-caliber TE like Tucker Kraft.",
+   "mechanism": "A TE2 you will never start is a wasted roster spot when 50%+-available running backs are sitting on the wire.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Kyle Pitts",
+   "player_id": "7553",
+   "team": "ATL",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Drop him if you already have an early-round TE such as Brock Bowers.",
+   "mechanism": "Double-tapping the tight end position is a roster-construction error; the second TE should be converted into an RB/WR lottery ticket.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Hunter Henry",
+   "player_id": "3214",
+   "team": "NE",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Another named TE2 drop candidate if you already roster a decent tight end.",
+   "mechanism": "Waiver-wire-caliber tight ends are replaceable weekly, so holding one costs you a live RB/WR shot.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Cam Skattebo",
+   "player_id": "12481",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Watch week-1 Giants backfield usage to decide whether he is a sell-high candidate.",
+   "mechanism": "Tyrone Tracy and Najee Harris usage in week 1 determines whether Skattebo's role justifies his draft price; the read is a usage check, not a projection.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Najee Harris",
+   "player_id": "7528",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Not interested in him (or Tyrone Tracy) as an add - only as a signal about Skattebo.",
+   "mechanism": "Stated preference; the only scenario that changes it is week-1 usage showing him seriously involved.",
+   "round_or_adp": null,
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
   }
  ],
  "strategy_notes": [
@@ -8869,6 +9370,400 @@
    "videos": [
     "mt5hm8e1OCQ",
     "y5gkLcusPDE"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Josh Jacobs has been placed on the commissioner's exempt list with no known timeline for a return to football.",
+   "about": "Josh Jacobs",
+   "about_player_id": "5850",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "MarShawn Lloyd is available in over 70% of fantasy leagues as of the 2026-09-02 recording.",
+   "about": "MarShawn Lloyd",
+   "about_player_id": "11581",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Lloyd stayed healthy through an NFL training camp for the first time and projects as Green Bay's week-1 starter, competing with Chris Brooks.",
+   "about": "MarShawn Lloyd",
+   "about_player_id": "11581",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Green Bay traded for Kaleb Johnson from the Pittsburgh Steelers.",
+   "about": "Kaleb Johnson",
+   "about_player_id": "12504",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "J.K. Dobbins has missed at least five games in each of the last four seasons, averaging over 10 missed games per season during that stretch.",
+   "about": "J.K. Dobbins",
+   "about_player_id": "6806",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Jonah Coleman is listed as the RB3 on the Denver depth chart and is available in 70-80% of fantasy leagues.",
+   "about": "Jonah Coleman",
+   "about_player_id": "13345",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Jonah Coleman is a 220+ pound back with a 1,000-yard college season and 31 receptions last year in a split backfield.",
+   "about": "Jonah Coleman",
+   "about_player_id": "13345",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Kaelon Black is available in over 80% of fantasy leagues and is San Francisco's clear RB2 behind Christian McCaffrey.",
+   "about": "Kaelon Black",
+   "about_player_id": "13414",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Christian McCaffrey is 30 years old and coming off a 400+ touch season.",
+   "about": "Christian McCaffrey",
+   "about_player_id": "4034",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "49ers RB3 Jordan James is still banged up; Kaelon Black has been impressive since returning from a camp injury and has looked like a strong pass protector in preseason.",
+   "about": "Jordan James",
+   "about_player_id": "12467",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Precedent cited: when McCaffrey missed time two years ago, Jordan Mason was a strong fantasy back for the first five weeks.",
+   "about": "Jordan Mason",
+   "about_player_id": "8408",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Woody Marks is available in 63% of fantasy leagues (elsewhere cited as 55% available / 45% rostered per Yahoo).",
+   "about": "Woody Marks",
+   "about_player_id": "12474",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Reports indicate Houston could run a near 50-50 backfield split between Woody Marks and David Montgomery, with Montgomery still the early-down and red-zone back to open the season.",
+   "about": "Houston Texans backfield",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Chris Rodriguez is available in over 50% of fantasy leagues (52% as of the 2026-09-03 recording).",
+   "about": "Chris Rodriguez",
+   "about_player_id": "10219",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo",
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Per the last two weeks of Jacksonville training camp reporting, Chris Rodriguez looks like the short-yardage back and potentially the early-down and red-zone back.",
+   "about": "Chris Rodriguez",
+   "about_player_id": "10219",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Zach Charbonnet is on the PUP list and will miss at least the first four weeks of the season.",
+   "about": "Zach Charbonnet",
+   "about_player_id": "9753",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "James Conner, Christian Kirk and Jordyn Tyson are on the short-term IR/PUP list.",
+   "about": "James Conner",
+   "about_player_id": "4137",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Caleb Douglas is available in over 90% of fantasy leagues.",
+   "about": "Caleb Douglas",
+   "about_player_id": "13296",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Caleb Douglas is a third-round rookie out of Texas Tech with back-to-back 800-yard seasons at roughly a 20% target share, is 6'4 and over 200 pounds with 4.39 speed (top 10% percentile), and lined up as Miami's WR1 in their preseason game.",
+   "about": "Caleb Douglas",
+   "about_player_id": "13296",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "After cutdowns Miami's receiver room is Jalen Tolbert, Caleb Douglas, Malik Washington, Chris Bell and Kevin Coleman - three of the five are rookies and none has been a proven NFL starter.",
+   "about": "Miami Dolphins WR room",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Miami traded Tutu Atwell back to the Rams.",
+   "about": "Tutu Atwell",
+   "about_player_id": "7562",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Chris Bell is a Miami third-round pick coming off an ACL tear and should be ready for week 1.",
+   "about": "Chris Bell",
+   "about_player_id": "13311",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "The Cowboys and Bears defenses are each available in over 70% of fantasy leagues.",
+   "about": "Dallas Cowboys / Chicago Bears DEF",
+   "about_player_id": "DAL",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "The Giants enter week 1 with a new play caller, an inexperienced Jaxson Dart, uncertainty over Malik Nabers' health, and a third-round rookie receiver or Isaiah Likely as the No. 2 target option.",
+   "about": "New York Giants offense",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Dallas drafted Caleb Downs, described as possibly already one of the best players at his position, and has improved its defensive line.",
+   "about": "Caleb Downs",
+   "about_player_id": "13376",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Carolina has one of the worst QB situations in the NFL and a bottom-10 offense; if Chuba Hubbard is healthy, a Hubbard/Jonathon Brooks split is their best week-1 attack, with Tetairoa McMillan the only other real threat.",
+   "about": "Carolina Panthers offense",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "The Broncos, Texans and Seahawks are the defenses that will not be available on waivers.",
+   "about": "Elite fantasy defenses",
+   "about_player_id": "DEN",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "DJ Moore is going 51st overall - a fifth-round pick - in fantasy drafts still happening now.",
+   "about": "DJ Moore",
+   "about_player_id": "4983",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "The Texans were the best team defense in the NFL at limiting explosive plays last year and have at worst a top-three, most likely top-two, secondary.",
+   "about": "Houston Texans defense",
+   "about_player_id": "HOU",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Tyler Allgeier is available in 55% of fantasy leagues; James Conner is on IR and Jeremiyah Love is dealing with a high ankle that may keep him out of week 1, which would make Allgeier Arizona's starter.",
+   "about": "Tyler Allgeier",
+   "about_player_id": "8132",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Saquon Barkley has missed time in multiple seasons of his career with ankle and knee injuries; Tank Bigsby would instantly become a top-12 fantasy running back if he did, and is graded in the No. 1 handcuff tier.",
+   "about": "Tank Bigsby",
+   "about_player_id": "9225",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Khalil Shakir has caught 70+ passes from Josh Allen in each of the last two seasons and is banged up entering week 1.",
+   "about": "Khalil Shakir",
+   "about_player_id": "8134",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Tre Tucker's cited spike week last year with the Raiders was roughly 100 yards and a touchdown or two with Geno Smith at QB.",
+   "about": "Tre Tucker",
+   "about_player_id": "10213",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Michael Wilson was a midseason league winner last season, and many managers missed him by forgetting the waiver wire.",
+   "about": "Michael Wilson",
+   "about_player_id": "10232",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Uncertain backfields flagged as week-1 clarity opportunities: Jacksonville (Tuten/Rodriguez), Tennessee (Pollard/Spears), Denver (Harvey/Coleman), the Giants (Skattebo/Tracy/Najee Harris), Washington (Rachaad White/Jacory Croskey-Merritt) and Carolina (Hubbard/Brooks).",
+   "about": "Uncertain backfields",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Tyjae Spears reportedly had a nice camp and preseason behind Tony Pollard, who should be the Tennessee RB1.",
+   "about": "Tyjae Spears",
+   "about_player_id": "9508",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Ja'Kobi Lane has been popping off in Baltimore camp.",
+   "about": "Ja'Kobi Lane",
+   "about_player_id": "13293",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "DJ Moore is now on the Buffalo Bills as their clear-cut WR1, attached to Josh Allen; Sal considers him less talented than Stefon Diggs was and older than Diggs was on arrival.",
+   "about": "DJ Moore",
+   "about_player_id": "4983",
+   "source": "sal-vetri",
+   "videos": [
+    "j4FAcNd2nXo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Rico Dowdle is used as the FAAB price benchmark: Sal would bid close to but not all of his budget - 60-70% - on that class of waiver back.",
+   "about": "Rico Dowdle",
+   "about_player_id": "7021",
+   "source": "sal-vetri",
+   "videos": [
+    "blxWfjiXdIw"
    ],
    "date": "2026-09-02"
   }

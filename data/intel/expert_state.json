@@ -341,17 +341,32 @@
    "published": "2026-09-02",
    "source": "fantasy-footballers",
    "processed": "2026-09-02"
+  },
+  "j4FAcNd2nXo": {
+   "video_id": "j4FAcNd2nXo",
+   "title": "10 Moves to Make AFTER You Draft Your Fantasy Team",
+   "published": "2026-09-03",
+   "source": "sal-vetri",
+   "processed": "2026-09-03"
+  },
+  "blxWfjiXdIw": {
+   "video_id": "blxWfjiXdIw",
+   "title": "You Drafted the Wrong Running Backs (Add These 5 Instead)",
+   "published": "2026-09-02",
+   "source": "sal-vetri",
+   "processed": "2026-09-03"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
    "last_success": "2026-09-03",
-   "last_failure": "2026-09-01"
+   "last_failure": "2026-09-03"
   },
   "fantasy-footballers": {
-   "consecutive_failures": 0,
-   "last_success": "2026-09-03"
+   "consecutive_failures": 4,
+   "last_success": "2026-09-03",
+   "last_failure": "2026-09-03"
   }
  }
 }

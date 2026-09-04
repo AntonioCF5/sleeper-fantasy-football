@@ -486,3 +486,37 @@ and Brian Thomas Jr. for him inside 24 hours.
   a player with an already-defined role, and fits our own rule that the last
   3-4 picks are league-winner tickets rather than lottery tickets on
   usage that does not yet exist.
+- **The IR slot is a free roster spot — convert it deliberately** [Sal,
+  2026-09-03]. Immediately after a draft, add a player who carries a real
+  IR/PUP designation (out 4+ weeks) so the reserve slot becomes an extra
+  live roster spot from day one; better still, spend a last-round pick on
+  a known PUP body instead of a replacement-level veteran. Only usable
+  where the league's `reserve_allow_*` settings accept that status — READ
+  them, never assume (our own verify-before-asserting rule). Live example:
+  Gallamijos League carries 2 empty reserve slots and FANTASY MEXICA has
+  none, a difference that only a settings read reveals.
+- **Buy the contingency before week 1, not after** [Sal, 2026-09-03]. The
+  same handcuff costs 0% of FAAB as a pre-week-1 stash and 80-100% the
+  Tuesday after the starter goes down. Corollary he states explicitly: cut
+  bait after ~2 weeks if the contingency never materializes. This sharpens
+  our league-winner-ticket rule with a timing edge — the tickets are
+  cheapest in the dead week between the draft and kickoff.
+- **QB2 and TE2 in 1-QB leagues are dead bench slots** [Sal, 2026-09-03].
+  A backup QB you will never start produces zero every week; the same slot
+  can hold a contingent starting RB. Real but NOT unconditional — the
+  counter-case is an 18-team league where the QB wire is one Questionable
+  body deep, which is exactly the Gallamijos League situation where we kept
+  Tyler Shough and dropped the redundant second DEF instead. Treat it as a
+  prior, and check what the wire actually replaces before applying it.
+- **Handcuff tiering: only pay for tier 1** [Sal, 2026-09-03]. Pay FAAB
+  only for a backup who would be the CLEAR No. 1 back if the starter
+  missed time, never for a committee piece. This is an independent
+  restatement of the "no depth-3+ back projecting ≥ 80" clause in our own
+  `_clean_handcuff` test — convergent validation of a rule we already run
+  mechanically, and a reason to trust the protection list.
+- **Set the buy-low list BEFORE week 1** [Sal, 2026-09-03]. Rank buy-low
+  targets purely on week-1 matchup difficulty while results cannot generate
+  emotion, and pair each target with one of your own players facing a soft
+  opener as the flip piece. His worked pair: DJ Moore (draws Houston, the
+  league's best explosive-play defense) bought with Rome Odunze or a
+  popular late pick coming off a soft opener.
