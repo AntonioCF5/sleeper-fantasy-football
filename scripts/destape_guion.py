@@ -37,6 +37,10 @@ def _habla(linea):
     s = re.sub(r"https?://\S+", "", s)
     s = s.replace("*", "").replace("_", "")
     s = re.sub(r"\s*\b(LOL|XD|JAJA[JA]*)\b\.?", "", s, flags=re.I)  # risa escrita: el TTS la lee literal
+    # ortografía fonética (regla del himno, extendida a guiones por el user
+    # 2026-09-03): la doble L suena /y/ en el TTS. "Gallaghers" se queda.
+    for dob, sen in (("Gallamijos", "Galamijos"), ("Gallas", "Galas"), ("Galla", "Gala")):
+        s = re.sub(rf"\b{dob}\b", sen, s)
     # ranking: "N. Equipo — chiste" → "Número N: Equipo. Chiste."
     m = re.match(r"\s*(\d+)\.\s*([^—-]+?)\s*[—-]\s*(.+)$", s)
     if m:

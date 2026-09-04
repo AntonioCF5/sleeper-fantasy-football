@@ -81,6 +81,16 @@ la misma. La voz es parte del personaje.
   con las pausas del guion que con el slider); Stability bajo (~30%,
   "Creative" si v3 lo nombra así); Similarity alto (~75-80%); Style
   Exaggeration medio (~35%) — en cero suena leído.
+- **Del pase final del user al guion piloto (2026-09-03):** (a) los títulos
+  de sección se convierten en TRANSICIONES habladas con conector ("Y AHORA
+  VEMOS CÓMO ESTAMOS DEL PENTHOUSE AL SÓTANO", "POR ÚLTIMO, CIERRE…") — un
+  título seco leído en voz suena a robot cambiando de archivo; (b) cuando el
+  chiste revela el nombre al final, NO adelantarlo en la entrada del ranking
+  ("Número dieciséis: El actual campeón… llamado… RodrigoDiaz" — no
+  "Número dieciséis: RodrigoDiaz. El actual campeón…"); (c) la ortografía
+  fonética del himno aplica a TODO guion de TTS: Galamijos/Gala con una L
+  ("Gallaghers" se queda — el user lo dejó tal cual). destape_guion.py ya
+  aplica (c) mecánicamente; (a) y (b) son parte del pase editorial semanal.
 - v3 no es determinista: generar 2-3 tomas y elegir. La toma buena se nota
   en "pasearse como las perras que son" y en el [whispers] del cierre.
 
