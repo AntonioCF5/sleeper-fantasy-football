@@ -66,6 +66,24 @@ voiceover. Costo extra: $0.
 un párrafo del Destape, y su nombre queda registrado AQUÍ para usar siempre
 la misma. La voz es parte del personaje.
 
+**Receta de audio (calibrada 2026-09-03, tras el primer intento robótico):**
+
+- **Modelo: Eleven v3** — NUNCA Multilingual v2: v2 lee, v3 actúa. v3 acepta
+  etiquetas de actuación en el guion: `[sarcastic]`, `[laughs]`, `[giggles]`,
+  `[sighs]`, `[whispers]`, `[mischievously]` (solo esas seis, en inglés,
+  con moderación: 1 por párrafo máximo — de más degradan la voz).
+- El pase de etiquetas es EDITORIAL (dónde va el sarcasmo lo decide quien
+  conoce el chiste): Claude lo hace cada semana sobre el guion mecánico y
+  entrega `*-guion-v3.txt`. Convenciones: MAYÚSCULAS en la palabra de
+  énfasis, puntos suspensivos como pausa, números en letra ("Número
+  dieciséis"), párrafos separados = respiraciones.
+- Sliders: Speed un punto ABAJO del centro (lo "muy seguido" se arregla más
+  con las pausas del guion que con el slider); Stability bajo (~30%,
+  "Creative" si v3 lo nombra así); Similarity alto (~75-80%); Style
+  Exaggeration medio (~35%) — en cero suena leído.
+- v3 no es determinista: generar 2-3 tomas y elegir. La toma buena se nota
+  en "pasearse como las perras que son" y en el [whispers] del cierre.
+
 > Voz elegida (user, 2026-09-03): **"Dani - Podcast Host"** (ElevenLabs
 > dentro de Artlist). CONGELADA: es la voz de Miroslava para siempre —
 > misma regla que la cara. Siempre seleccionarla por ese nombre exacto;
