@@ -108,8 +108,16 @@ barras son BLANCAS), compone el lienzo 1080x1920 de marca (escudo, título,
 barra roja, pie EST. 2015), cartas de intro/outro con fades y concatena.
 Los textos se rasterizan de SVG con `sips` porque el ffmpeg de brew no trae
 drawtext. Salida a `reports/<season>/roast/video/` (gitignored — pesa ~30MB).
-PENDIENTE deliberado: el himno como cama del outro cuando exista el mp3 de
-Suno. NOTA para HeyGen: la foto de avatar es apaisada, por eso llega
+**Escaleta (petición del user 2026-09-03):** `--escaleta cues.json` hace el
+video de noticiero — cintillo rojo que nombra la sección en curso + zona de
+datos bajo el video (estadística/emoji de lo que Miroslava dice en ese
+momento). Los TIEMPOS se estiman por proporción de palabras del guion
+(~155 ppm) y el CONTENIDO de las tarjetas es pase editorial semanal, igual
+que las etiquetas v3 — la escaleta del piloto
+(`reports/2026/roast/destape-gallamijos-2026-08-31-escaleta.json`) es la
+plantilla. Todo dato de tarjeta sale de la hoja de hechos o del texto
+aprobado, nunca inventado. PENDIENTE deliberado: el himno como cama del
+outro cuando exista el mp3 de Suno. NOTA para HeyGen: la foto de avatar es apaisada, por eso llega
 letterboxed; el montaje ya cuenta con eso — no "arreglarlo" recortando la
 foto sin recalibrar el montaje. Los pasos 2-3 viven en Artlist vía navegador. Sin llaves
 que registrar: la sesión de Artlist del user en Chrome es la credencial.

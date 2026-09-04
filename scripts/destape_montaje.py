@@ -14,7 +14,17 @@ blancas; cropdetect pelón solo ve bordes negros).
 
 Uso: python3 scripts/destape_montaje.py <heygen.mp4> <salida.mp4>
          [--subtitulo "Edición post-draft · La Gallamijos"]
+         [--escaleta cues.json]
+
+La ESCALETA hace el video "de noticiero": un cintillo rojo que nombra la
+sección en curso y una zona de datos bajo el video (estadística + emoji de
+lo que Miroslava está diciendo). Formato del JSON: lista de
+  {"t0": seg, "t1": seg, "tipo": "seccion"|"dato",
+   "grande": "…", "chico": "…"}   (tiempos relativos al CUERPO del video)
+Los tiempos los estima el pase editorial semanal por proporción de palabras
+del guion — ver la escaleta del piloto como ejemplo.
 """
+import json
 import re
 import subprocess
 import sys
@@ -65,9 +75,44 @@ def detectar_banda(video):
     return max(votos, key=votos.get).split("=")[1]
 
 
+def _esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _ancho(base, texto, tope):
+    """Tamaño de fuente que cabe en ~980px (Arial Black ≈ 0.75em/char)."""
+    return min(tope, max(34, int(1306 / max(1, len(texto)))))
+
+
+def cue_pngs(tmp, cues):
+    """Un PNG 1080x1920 transparente por cue, para overlay con enable."""
+    out = []
+    for i, c in enumerate(cues):
+        g, ch = _esc(c.get("grande", "")), _esc(c.get("chico", ""))
+        if c["tipo"] == "seccion":
+            fs = _ancho(46, c.get("grande", ""), 46)
+            cuerpo = (f'<rect x="0" y="575" width="1080" height="76" fill="{ROJO}"/>'
+                      f'<text x="540" y="628" text-anchor="middle" {FF} '
+                      f'font-size="{fs}" fill="#FFF">{g}</text>')
+        else:
+            fs = _ancho(68, c.get("grande", ""), 68)
+            cuerpo = (f'<text x="540" y="1500" text-anchor="middle" {FF} '
+                      f'font-size="{fs}" fill="#FFF">{g}</text>')
+            if ch:
+                cuerpo += (f'<text x="540" y="1600" text-anchor="middle" {FR} '
+                           f'font-size="42" fill="{GRIS}">{ch}</text>')
+        out.append(texto_png(tmp, f"cue{i}", cuerpo))
+    return out
+
+
 def main():
     argv = sys.argv[1:]
     sub = "El Destape · La Gallamijos"
+    escaleta = None
+    if "--escaleta" in argv:
+        i = argv.index("--escaleta")
+        escaleta = json.load(open(argv[i + 1]))
+        del argv[i:i + 2]
     if "--subtitulo" in argv:
         i = argv.index("--subtitulo")
         sub = argv[i + 1]
@@ -89,11 +134,14 @@ def main():
 <text x="540" y="1330" text-anchor="middle" {FF} font-size="104" fill="#FFF">EL DESTAPE</text>
 <text x="540" y="1460" text-anchor="middle" {FF} font-size="104" fill="{ROJO}">DE MIROSLAVA</text>
 <text x="540" y="1590" text-anchor="middle" {FR} font-size="42" fill="{GRIS}">{sub}</text>''')
+        sub_estatico = "" if escaleta else (f'<text x="540" y="640" text-anchor="middle" '
+                                            f'{FR} font-size="38" fill="{GRIS}">{_esc(sub)}</text>')
         t_body = texto_png(tmp, "body", f'''
-<text x="540" y="560" text-anchor="middle" {FF} font-size="58" fill="#FFF">EL DESTAPE DE MIROSLAVA</text>
-<text x="540" y="640" text-anchor="middle" {FR} font-size="38" fill="{GRIS}">{sub}</text>
+<text x="540" y="545" text-anchor="middle" {FF} font-size="58" fill="#FFF">EL DESTAPE DE MIROSLAVA</text>
+{sub_estatico}
 <rect x="0" y="1290" width="1080" height="8" fill="{ROJO}"/>
 <text x="540" y="1790" text-anchor="middle" {FR} font-size="34" fill="{GRISOSC}">GALLAMIJOS · EST. 2015</text>''')
+        cues_png = cue_pngs(tmp, escaleta) if escaleta else []
         t_outro = texto_png(tmp, "outro", f'''
 <text x="540" y="1200" text-anchor="middle" {FF} font-size="96" fill="#FFF">Los observo.</text>
 <text x="540" y="1350" text-anchor="middle" {FR} font-size="48" fill="{ROJO}">— Miroslava</text>''')
@@ -105,11 +153,15 @@ def main():
                  "anullsrc=r=48000:cl=stereo", "-i", str(escudo), "-i", str(t_intro)],
              "[2:v]scale=-1:760[e];[0:v][e]overlay=(W-w)/2:330[v1];[v1][3:v]overlay,"
              "fade=t=in:st=0:d=0.5,fade=t=out:st=2.5:d=0.5[v]"),
-            (dur, ["-i", str(video), "-i", str(escudo), "-i", str(t_body)],
+            (dur, ["-i", str(video), "-i", str(escudo), "-i", str(t_body),
+                   *sum([["-i", str(p)] for p in cues_png], [])],
              f"{base}:d={dur}[bg];[1:v]scale=-1:300[e];"
              f"[0:v]crop={crop},scale=1080:600:flags=lanczos[band];"
              "[bg][e]overlay=(W-w)/2:130[b1];[b1][band]overlay=0:690[b2];"
-             "[b2][2:v]overlay,fade=t=in:st=0:d=0.3[v]"),
+             "[b2][2:v]overlay[c0];" + "".join(
+                 f"[c{j}][{3 + j}:v]overlay=0:0:enable='between(t,{c['t0']},{c['t1']})'[c{j + 1}];"
+                 for j, c in enumerate(escaleta or [])) +
+             f"[c{len(escaleta or [])}]fade=t=in:st=0:d=0.3[v]"),
             (3.5, ["-f", "lavfi", "-i", f"{base}:d=3.5", "-f", "lavfi", "-t", "3.5",
                    "-i", "anullsrc=r=48000:cl=stereo", "-i", str(escudo), "-i", str(t_outro)],
              "[2:v]scale=-1:520[e];[0:v][e]overlay=(W-w)/2:400[v1];[v1][3:v]overlay,"

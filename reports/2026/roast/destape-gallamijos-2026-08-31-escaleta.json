@@ -1,0 +1,23 @@
+[
+  {"t0": 0,     "t1": 14.3,  "tipo": "seccion", "grande": "EDICIÓN POST-DRAFT"},
+  {"t0": 14.3,  "t1": 99.5,  "tipo": "seccion", "grande": "💩 LA CAGADA DE LA SEMANA"},
+  {"t0": 99.5,  "t1": 140.6, "tipo": "seccion", "grande": "📊 DEL PENTHOUSE AL SÓTANO"},
+  {"t0": 140.6, "t1": 164.8, "tipo": "seccion", "grande": "📣 CIERRE DE MIROSLAVA"},
+
+  {"t0": 3.7,   "t1": 12.9,  "tipo": "dato", "grande": "🚨 1 corredor · 0 defensas", "chico": "Los dos son Gallaghers"},
+  {"t0": 19.9,  "t1": 38.4,  "tipo": "dato", "grande": "🍺 PEDA DE 20 HORAS", "chico": "Conectados al draft: 16 de 18"},
+  {"t0": 38.4,  "t1": 53.2,  "tipo": "dato", "grande": "🤖 EL ROBOT DEL CHAPO", "chico": "Bijan · Rice · McMillan · Pitts · Daniels"},
+  {"t0": 53.2,  "t1": 63.4,  "tipo": "dato", "grande": "🛡️ 10 PICKS DEFENSIVOS", "chico": "Corredores en 17 rondas: 1"},
+  {"t0": 63.4,  "t1": 87.4,  "tipo": "dato", "grande": "🤖 BUZ DESPERTÓ EN LA R15", "chico": "Su aporte: Cooper Kupp · R16"},
+  {"t0": 87.4,  "t1": 99.5,  "tipo": "dato", "grande": "💀 ÚLTIMO DE 18", "chico": "Quinceañeros con pedas de 20 horas"},
+
+  {"t0": 103.6, "t1": 110.1, "tipo": "dato", "grande": "🥇 1 · MATASANOS FC", "chico": "Se auto-recetó el primer lugar"},
+  {"t0": 110.1, "t1": 117.0, "tipo": "dato", "grande": "🥈 2 · PULPO POWER", "chico": "Aquí nadie le aprueba nada"},
+  {"t0": 117.0, "t1": 121.2, "tipo": "dato", "grande": "🥉 3 · ZENITSU", "chico": "Sospechoso 👀"},
+  {"t0": 123.5, "t1": 131.4, "tipo": "dato", "grande": "📉 16 · RODRIGODIAZ", "chico": "El campeón «defiende» el título"},
+  {"t0": 131.4, "t1": 135.5, "tipo": "dato", "grande": "🤖 17 · NENES CONSENTIDOS", "chico": "El autopick hizo lo que pudo"},
+  {"t0": 135.5, "t1": 140.6, "tipo": "dato", "grande": "💀 18 · JRO91", "chico": "Ni nombre le puso… para qué"},
+
+  {"t0": 144.3, "t1": 159.1, "tipo": "dato", "grande": "⏰ 6 DÍAS PARA EL KICKOFF", "chico": "Arranca MIÉRCOLES 9 · juego en Australia"},
+  {"t0": 159.1, "t1": 164.7, "tipo": "dato", "grande": "👀💋"}
+]
