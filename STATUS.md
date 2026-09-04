@@ -1,10 +1,12 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-02** (expert-daily 9/2:
-Sal's feed RECOVERED after 3 misses; two of the 9/1 claims were sniped
-overnight and replaced; both DL starting slots still empty; BAL play-caller
-confirmed).*
+tooling, or league state. Last updated: **2026-09-03** (expert-daily 9/3:
+Gallamijos League found to have TWO empty starting slots, not one — DB was
+never filled either; DYNASTY TRC compliance RESOLVED at 25/25 after six
+editions; Tre' Harris downgraded from claim to skip; D'Andre Swift left
+practice and his handcuff is already owned by a rival; FF feed at 4
+consecutive misses and escalated to investigation).*
 
 ## What this project is
 
@@ -132,7 +134,57 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
-- [ ] 🔴 **EMPTY DL STARTING SLOTS — STILL OPEN, DAY 2 (2026-09-02).**
+- [ ] 🔴 **THREE EMPTY IDP STARTING SLOTS — AND IT IS WORSE THAN REPORTED
+  (2026-09-03).** A full starters-vs-roster_positions read tonight found
+  **Gallamijos League has TWO empty slots, not one: DL *and* DB.** Every
+  prior edition only caught the DL; the DB slot has been a `0` sentinel
+  since the draft ended, a second guaranteed weekly zero that went
+  unreported for three days. Current rulings (`waiver_claims.json`):
+  **Gallamijos Lg — add Xavier Watts (DB, ATL, 24, 97.5) drop Jack Bech**,
+  and **add Poona Ford (DL, 69.0) drop the Steelers DEF** (drop re-paired:
+  Bech now funds Watts; Tyler Shough is KEPT over the spare DEF because
+  Mayfield is 31 in a contract year and this wire's only startable QB is
+  Michael Penix at 143.2 carrying a Questionable tag). **FANTASY MEXICA —
+  add Tuli Tuipulotu (DL, 71.0) drop Nicholas Singleton**, third edition
+  unexecuted. LESSON REINFORCED: the post-draft slot-coverage assertion
+  proposed on 9/1 must check EVERY required starting slot, not just DL.
+- [x] ✅ **DYNASTY TRC COMPLIANCE RESOLVED 2026-09-03** after six editions.
+  Live read: active 25/25, taxi 5/5, IR 2/4 — legal, waivers process again.
+  Co-owner charlyae17 executed the cuts (Brissett 33 and Jauan Jennings 29
+  among them) about an hour before tonight's edition. One asset-value
+  quibble on record, no action: the dynasty ladder would have sent Calvin
+  Ridley (31) before Jennings (29); Ridley is still on the bench.
+- [ ] **Gallamijos Dyn taxi still 7/6** — cut **Tai Felton (23, 29.2)**;
+  it blocks the standing **Darnell Washington (25) $7, drop Evan Engram**
+  claim. Active roster is legal at 23/23. Kaelon Black stays protected
+  (Sal named him a league-winner again on 9/3).
+- [ ] 🔴 **SWIFT / ROSCHON JOHNSON — trade-desk item, Gallamijos League.**
+  D'Andre Swift (the user's starting RB) left Thursday's practice holding
+  his midsection (ESPN: cramp; Chicago Tribune: "significant discomfort")
+  and Kyle Monangai is week-to-week on a hyperextended knee. Roschon
+  Johnson is the #1 add in all of fantasy (395k) and is **already rostered
+  by DrBet in that league** — no claim exists. Open the trade conversation
+  BEFORE Wednesday's first official Bears injury report sets the price.
+- [ ] **Tre' Harris DOWNGRADED from claim to skip (2026-09-03)** — a
+  correction of my own 9/1-9/2 recommendation. He has missed all three
+  preseason games with an undisclosed injury and is LAC's projected WR3;
+  the 93.4 projection is stale against that, and the drop got more
+  expensive when Jonah Coleman drew a defined between-the-tackles role in
+  Denver (The Athletic) the same day Sal called Coleman a league-winner.
+- [ ] 🔴 **FF FEED: 4 CONSECUTIVE MISSES (2026-09-03) — INVESTIGATE, DO NOT
+  RETRY.** The 8/29 diagnosis (upstream edge flakiness, code is fine) held
+  for exactly one week; four straight misses is a different pattern.
+  Manually `curl` the Fantasy Footballers channel feed in a live session
+  before Tuesday's waiver video. Sal is healthy (recovered on a second
+  check tonight; both backlogged videos processed and marked). Nothing was
+  lost — FF's backlog catches up automatically on its next success.
+- [ ] **IR-slot conversion is available in exactly one league** (Sal's 9/3
+  method, appended to `expert_methods.md`). Read live from settings:
+  **Gallamijos League has 2 empty reserve slots**, **FANTASY MEXICA has
+  zero**. Christian Kirk (SF, IR-tagged) is free there at 46.4 and would
+  cost no active roster spot. Free contingency ticket — needs a live user
+  decision, not spent unattended.
+- [ ] *(superseded 2026-09-03)* 🔴 **EMPTY DL STARTING SLOTS — STILL OPEN, DAY 2 (2026-09-02).**
   Neither add was executed, and the MEXICA fix was CLAIMED BY A RIVAL
   overnight: **Jared Verse went to WillyDays** (who also took Boye Mafe, the
   runner-up), voiding the 9/1 ruling. Recomputed board: MEXICA now takes
