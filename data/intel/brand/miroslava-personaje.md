@@ -89,6 +89,19 @@ logo with a red "GM" monogram and eight white stars, papers in hand,
 mid-report expression, broadcast television still frame, 16:9.
 ```
 
+## Guardarropa (prompts de outfit — siempre sobre la referencia)
+
+Todos comienzan con: *"Using the attached reference image of Miroslava,
+keep her face, hair, freckles, beauty marks, red lipstick, and gold hoop
+earrings IDENTICAL. Only change her outfit and setting:"* y UNA variante
+por generación. Variantes escritas (2026-09-08): sideline de diciembre
+(puffer navy GM, para semanas de frío/playoffs) · estudio formal (blazer
+rojo, anchor desk) · jersey GALLAMIJOS (draft day/tailgate) · gala de
+premios (vestido rojo, alfombra con escudos GM) · gabardina de
+corresponsal (ediciones de crisis) · suéter navideño (semanas 15-17).
+Los prompts completos están en el historial y se re-derivan de esta lista;
+un outfit aprobado se guarda como `miroslava-<outfit>.png` en esta carpeta.
+
 ## Receta de consistencia
 
 1. ~~Generar el PROMPT MAESTRO hasta aprobar UNA imagen.~~ HECHO — la
