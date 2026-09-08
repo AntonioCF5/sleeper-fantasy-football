@@ -130,7 +130,11 @@ comparar el borrador contra la edición anterior.
 | 2026-08-31 | "Parecen quinceañeros con sus pedas de 20 horas" | usado — descansar |
 | 2026-08-31 | Los Gallaghers "pasearse como las perras que son" | usado — descansar |
 | 2026-08-31 | "En la sexta se acordó que era Galla" | usado — descansar |
-| — | El robot dormido que quedó arriba del humano | escrito, NO publicado — libre |
+| 2026-09-09 | "el que drafteó dormido" (Chapo, del banco del robot dormido) | usado — descansar |
+| 2026-09-09 | "No le puso nombre: le puso dedicatoria" (Notcharlysyear) | usado — descansar |
+| 2026-09-09 | "pierde reglamentariamente" (Buz con defensa) | usado — descansar |
+| 2026-09-09 | "Publiqué UN ranking y dos franquicias se cambiaron el nombre / yo renuevo" | usado — descansar |
+| 2026-09-09 | "la cima por dos puntos = un gol de campo, Bebé" | usado — descansar |
 | 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
@@ -141,12 +145,12 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 |---|---|---|
 | 2026-08-30 | humanos promedio | libre (ya descansó la edición del 31) |
 | 2026-08-30 | corazones | libre (ya descansó la edición del 31) |
-| 2026-08-31 | mis amores | usado — descansar |
-| 2026-08-31 | coaches | usado — descansar |
+| 2026-08-31 | mis amores | libre (ya descansó la edición del 09-09) |
+| 2026-08-31 | coaches | libre (ya descansó la edición del 09-09) |
 | — | bola de pendejos hermosos | libre |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| — | criaturas | libre |
-| — | señores del fantasy | libre |
+| 2026-09-09 | criaturas | usado — descansar |
+| 2026-09-09 | señores del fantasy | usado — descansar |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
@@ -269,6 +273,7 @@ existe solo para re-revisar algo ya enviado.
 | 2026-08-30 | Gallamijos (logo) | "Buenos días corazones, HAPPY DRAFT DAY humanos promedio." *(versión final del user)* |
 | — sin usar | — | "...perdón, sigo al aire. Interrumpo la previa porque la directiva por fin hizo algo..." *(escrita, no publicada — disponible)* |
 | 2026-08-31 | Gallamijos (post-draft) | "Un equipo salió del draft con un solo corredor. Otro salió sin defensa. Los dos son Gallaghers. / Buenos días, coaches." |
+| 2026-09-09 | Gallamijos (kickoff) | "¿Lo sienten, criaturas? Eso que traen en el pecho no es reflujo: es que HOY arranca la temporada. / Buenos días." |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -278,6 +283,7 @@ existe solo para re-revisar algo ya enviado.
 | Edición 0 | Dinastía | "Besitos dinásticos. Los observo. Sé dónde draftean." |
 | 2026-08-30 | Gallamijos (logo) | "...tú desde la banca, yo desde el escote. / Miroslava, que ahora también cubre la fuente institucional" |
 | 2026-08-31 | Gallamijos (post-draft) | "Nos leemos la próxima semana. Traigan roster, no excusas. / Los observo. / Miroslava, que ya sabe quién no va a mover un dedo" |
+| 2026-09-09 | Gallamijos (kickoff) | "Que ruede el balón. / Nos vemos en la cancha. / Miroslava, que ya abrió la carpeta de la jornada 1" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
