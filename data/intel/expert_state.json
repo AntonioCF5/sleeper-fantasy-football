@@ -355,18 +355,67 @@
    "published": "2026-09-02",
    "source": "sal-vetri",
    "processed": "2026-09-03"
+  },
+  "Z_G4peqTf04": {
+   "video_id": "Z_G4peqTf04",
+   "title": "You Drafted the Wrong Wide Receivers (Add These 5 Instead)",
+   "published": "2026-09-04",
+   "source": "sal-vetri",
+   "processed": "2026-09-07"
+  },
+  "McNocPJLAyc": {
+   "video_id": "McNocPJLAyc",
+   "title": "5 Running Backs That Will Win Your League (Trade For Them Now)",
+   "published": "2026-09-05",
+   "source": "sal-vetri",
+   "processed": "2026-09-07"
+  },
+  "OiqO9TlnDHw": {
+   "video_id": "OiqO9TlnDHw",
+   "title": "The Running Backs You Need to Trade for BEFORE Week 1",
+   "published": "2026-09-06",
+   "source": "sal-vetri",
+   "processed": "2026-09-07"
+  },
+  "V5xkV33Yalc": {
+   "video_id": "V5xkV33Yalc",
+   "title": "5 Wide Receivers About to Explode in Fantasy (Trade for them ASAP)",
+   "published": "2026-09-07",
+   "source": "sal-vetri",
+   "processed": "2026-09-07"
+  },
+  "6DihE7syzkQ": {
+   "processed": "2026-09-07"
+  },
+  "JTVW4tRdKik": {
+   "processed": "2026-09-07"
+  },
+  "yImdTEkRQCo": {
+   "processed": "2026-09-07"
+  },
+  "71Xc1VrpR-Q": {
+   "processed": "2026-09-07"
+  },
+  "umr8llJ05TE": {
+   "processed": "2026-09-07"
+  },
+  "ifJrhAUE8WQ": {
+   "processed": "2026-09-07"
+  },
+  "Nt56n4_forg": {
+   "processed": "2026-09-07"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-03",
+   "last_success": "2026-09-07",
    "last_failure": "2026-09-03"
   },
   "fantasy-footballers": {
-   "consecutive_failures": 4,
-   "last_success": "2026-09-03",
-   "last_failure": "2026-09-03"
+   "consecutive_failures": 1,
+   "last_success": "2026-09-07",
+   "last_failure": "2026-09-07"
   }
  }
 }

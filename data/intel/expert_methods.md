@@ -520,3 +520,174 @@ and Brian Thomas Jr. for him inside 24 hours.
   opener as the flip piece. His worked pair: DJ Moore (draws Houston, the
   league's best explosive-play defense) bought with Rome Odunze or a
   popular late pick coming off a soft opener.
+
+## 2026-09-07 — Sal Vetri, four videos (9/4–9/7)
+
+- **A public trade database is the price-discovery tool, and verdicts are a
+  one-for-one ladder** [sal-vetri]. He prices every buy against completed
+  trades in the FantasyCalc database (noting openly that it aggregates sharp
+  and bad leagues alike), then rules on six to ten real one-for-ones per
+  player instead of issuing one valuation ("Etienne over Garrett Wilson? yes.
+  Over Tee Higgins? closer."). Directly adoptable for `trade_offers.json`:
+  state the ladder, not the tier — it converts a ranking into an executable
+  list and shows exactly where the line sits.
+- **Attach a sell-by date to every buy.** The Etienne case is explicitly a
+  rental: buy now, harvest the top-10 weeks while Kamara is out, sell *before*
+  Kamara returns. A buy whose thesis is contingent on someone else's injury is
+  incomplete without a stated exit. Rides alongside our protected-handcuff
+  re-rating rule.
+- **Anchoring on the FIRST injury descriptor is a repeatable market
+  inefficiency.** Breece Hall's groin was first reported "non-contact" and the
+  market froze there even after every later update came back benign. Screen
+  for it: scary first descriptor + benign updates = the price is still paying
+  for the first report. The reverse anchor is the same error — a player whose
+  reports keep getting worse should not be priced off a reassuring first one.
+- **Benchmark a rookie WR's preseason against past top-10 WRs' preseasons, and
+  count TARGETS not catches.** Marvin Harrison caught zero passes in his;
+  Terrace Marshall went 2-for-7. Six targets in ~2.5 quarters of starter snaps
+  is strong usage regardless of the catch total. This gives our "read usage,
+  not box scores" rule an actual reference distribution.
+- **Joint/inter-squad practice production outranks preseason-game
+  production** — starters vs starters with no game-management noise. A
+  7-of-12, 2-TD joint-practice line is signal the market discounts as "just
+  practice." Sits one level ABOVE our preseason snap-chart reading.
+- **The information calendar: camps go dark 7–10 days before Week 1.** Between
+  the end of preseason and the Week-1 Wednesday practice report there is a
+  genuine reporting blackout. Silence in that window is not news, and an
+  absent update on a minor injury is mildly positive. Do not re-litigate an
+  injury during the blackout; schedule the re-check for that Wednesday.
+- **A player refusing to commit to Week-1 status is a communications-control
+  signal, not a health signal** — the team reserves the announcement, and
+  against a division opponent the ambiguity makes the opponent prepare two
+  game plans. Weight the participation record over the quote.
+- **Head-coach play volume as a quantified multiplier.** Per-coach season play
+  counts against a ~1,057-play league average (Kellen Moore: 1,106 / 1,114 /
+  1,075) convert to 5–10 extra plays per game. Cleaner and more auditable than
+  a narrative "they play fast" — candidate for a pace field alongside
+  `offense_tier` in `team_env.json`.
+- **Backfield opportunity share (carries + targets) is the RB analog of target
+  share** — Etienne ~70%, Breece Hall 74% and top-5 — and yields a floor
+  independent of touchdowns and offense quality. Our boards consume
+  projections; this is the sticky input underneath them.
+- **Read the depth chart only AFTER final cutdowns** — the surviving room is
+  the team's revealed target ordering, because it is the roster they chose to
+  pay for. Pre-cut depth analysis is provisional; this is the annual reset
+  point.
+- **The incumbent veteran usually keeps the job through the year the rookie is
+  hyped.** Pattern set: Elliott over Pollard, Gordon over Ekeler, now
+  Stevenson over TreVeyon Henderson. The stated channel is coach trust earned
+  through pass protection and "the little things," not talent — so the screen
+  is whether the veteran can pass-protect and play three downs, and the
+  handoff usually comes a year later than the market prices it.
+- **Cross-source conflict, recorded not resolved: practice film as evidence.**
+  This file already carries FF's rule that practice film is not evidence of
+  readiness and that the published recovery timeline outranks the beat report.
+  Sal does the opposite — he reads stride extension and change-of-direction
+  off practice video (citing a PT and a physician) for both Breece Hall and
+  Nabers. Reconcilable version: **participation and movement quality are
+  evidence of AVAILABILITY; neither is evidence of restored BURST**, which is
+  what the actuarial timeline governs.
+- **Speculative, logged not adopted: the veteran camp-management discount.**
+  Sal floats (and hedges) that a 33-year-old star's string of minor camp
+  soft-tissue reports may be him opting out of camp reps with the team's tacit
+  consent rather than decline. This cuts directly against our own 2026-08-25
+  correction that a different body part is a new branch — and Mike Evans is
+  the same player both notes are about. Falsifiable version: do the reports
+  continue once games start?
+
+### Mechanism audit log (this batch)
+
+- ❌ **Rashid Shaheed (9/4) — banned mechanism, SECOND offense on the same
+  player** (first caught 2026-08-24). "Walker's gone and Charbonnet's hurt, so
+  Seattle throws more" is the thin-backfield-to-passing inference; Seattle is
+  a **10.5-win, tier-2** team in `team_env.json`, and favorites run MORE. The
+  contract-and-vacated-competition half stands on its own — swap the reason if
+  the conclusion is ever repeated.
+- ✅ **Denzel Boston (9/4) — passes.** The pass-volume claim rests on Cleveland
+  being bad and trailing, not on a thin backfield; CLE is **5.5 wins, tier 5**,
+  so the trailing-script variant survives the favorite test.
+- ✅ **Jordan Mason (9/5) — passes, and is the correct INVERSE** of the banned
+  chain: a better offense sustains drives and runs more, which is our own
+  standing rule stated back to us.
+
+## 2026-09-07 — The Fantasy Footballers, seven-video backlog (9/2–9/5)
+
+- **Bold-prediction laundering — click through before a blurb moves anything.**
+  FF issued an explicit PSA: aggregators strip single items out of "32 bold
+  predictions" articles and republish them as standalone news, so a line whose
+  author's whole premise was *this probably won't happen* reaches your feed
+  looking like reporting. Directly relevant to our own pipeline — a laundered
+  bold prediction is the easiest way for a fabricated mechanism to enter
+  `player_adjust.json` or the news section. Open the source before using it.
+- **Late-named starting QB as an offense-quality screen.** Naming a Week-1
+  starter after September 1 is rare and correlates with a horrific season:
+  Trubisky (PIT, Sept 6 2022), Tyrod Taylor (2021), the Cardinals — and now
+  Kirk Cousins in Las Vegas. Cheap dated screen to run against
+  `offense_tier` whenever a QB competition drags past cutdowns.
+- **Split positions at the turn to buy optionality, not the best two players.**
+  At a 2-3 or 4-5 turn take one RB and one WR rather than doubling up — not
+  for value but because you then have no pick for ~24 selections, and a
+  balanced start lets you take whatever the board leaves. Our live-draft engine
+  models survival-to-next-turn from ADP but has no notion of positional
+  optionality across a long gap; this is the manual complement.
+- **Buy the hedge against your OWN prior with a late pick.** Mike drafted
+  Tuten's direct backfield competitor in the 10th "in the event maybe I'm wrong
+  about Tuten." Distinct from handcuffing your own starter: it is insurance
+  against your own analysis, for ambiguous backfields where you have taken a
+  strong position.
+- **Pre-draft ritual: manually flag contingent backups the projections
+  structurally hide.** FF mark inheritor RBs in their draft app before draft
+  day precisely because a ranking system cannot represent contingent value.
+  `league_winners` partially fixes this for us; the operational step we lack is
+  annotating those names into the draft surface itself beforehand.
+- **Injury terminology: "sprain, not turf toe" is not a distinction.** Turf toe
+  IS a sprain of the big toe — the real question is which toe, and the
+  functional tell is whether the player can cut on it. Their four-part turf-toe
+  stack: it takes longer than expected, it recurs, production is degraded
+  during recovery even when active, and a history of playing poorly through
+  injury compounds all three. Extends our "turf toe ~28d median" rule with a
+  report-parsing step.
+- **Age-controlled ADP-cheapness screen for receivers.** To prove a WR is
+  genuinely mispriced rather than merely liked, pull every 1,000-yard receiver
+  from the last five years, find where each was drafted the following season,
+  and check who went LATER than your target. A stronger form of a raw
+  Value/ADP gap because it controls for the two legitimate reasons a producer
+  gets discounted — age and situation change. Computable on our data.
+- **Rush success rate is the corrective to YPC for short-yardage backs.** A low
+  YPC is not an efficiency verdict when the carry mix is short-yardage-heavy
+  (Tuten: 3.7 YPC, 25% of carries in short yardage, 5th in rush success rate).
+  Pair the two before fading a back on efficiency, and treat goal-line
+  conversion as the separate role-security signal. Companion threshold: 11% of
+  a college team's receptions is the bar for an NFL RB1 receiving profile.
+- **Favored-game count as the positive twin of our `slow_start` flag.** We
+  already carry FF's "underdog in 3+ of the first 4 games" screen; the inverse
+  is 3rd in average implied team total AND favored in 14 of 17 games, paired
+  with a weak defense, as a shootout screen. Worth recording next to win total.
+- **The fantasy-MVP tier: a named rung below "My Guys."** Stated on air — MVP
+  picks are my-guy candidates the analyst *couldn't fully commit to*, taken
+  from a discounted ADP band. Useful for grading takes: an MVP-tier call
+  carries real conviction plus an explicitly acknowledged unresolved risk, and
+  should not be scored as top-conviction.
+- **Week-1 overreaction: claim aggressively, START conservatively.** Genuine
+  out-of-nowhere breakouts do not survive to week 5, so you must claim them —
+  but for a player with no NFL track record who explodes once, give yourself
+  one more week before starting him. The named failure mode is confirmation
+  bias: a Week-1 spike from a player you already liked is the most dangerous
+  data point of the season.
+- **"Skill makes the playoffs; luck wins the championship."** The same managers
+  make the playoffs every year, so the regular season is a skill filter — which
+  independently validates the user's regular-season-pays framing — while
+  single-elimination weeks are luck-dominated. Consequence: weeks 1-14 floor
+  optimization is the part you control, and the December ceiling flip is a
+  deliberate variance purchase, not an edge.
+
+### Mechanism audit log (FF batch)
+
+- ✅ No take in this batch used the banned thin-backfield-to-passing chain. The
+  nearest relative, Chris Bell ("not when you're down 28 at halftime"), is the
+  trailing-script variant on a genuinely bad team and passes the favorite test;
+  so does the Jeremiyah Love receiving-volume claim (Arizona projects
+  third-to-last in points).
+- ⚠️ **Davante Adams — no stated mechanism at all.** Conviction with no
+  testable channel; recorded as unsupported opinion, never to be repeated as
+  reasoning.

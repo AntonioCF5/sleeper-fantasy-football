@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 (daily edition — NEW MISS CAUGHT: Gallamijos League has TWO empty starting slots, not one — DB was never filled either, and Xavier Watts (97.5) is the biggest single lineup gain available in any league. DYNASTY TRC COMPLIANCE RESOLVED after six editions (25/25 legal). Tre' Harris DOWNGRADED from claim to skip — he has missed all three preseason games and is LAC's projected WR3; that is a correction of my own 9/1 call. Roschon Johnson, the #1 add in fantasy after D'Andre Swift's practice exit, is already rostered by DrBet in Gallamijos League — the rival now holds the handcuff to the user's starting RB.)",
+ "updated": "2026-09-07 (daily edition — first since 9/3; Week 1 opens Wednesday. THREE IDP starting slots still broken with two days to kickoff, and the rulings are UPGRADED rather than restated: Arvell Reese (NYG, No. 5 overall, DL+LB eligible, 85.5) is free in BOTH IDP leagues and beats both standing picks (Poona Ford 69.0, Tuli Tuipulotu 71.0). The drop side changed twice tonight: the user executed the 9/3 DrBet trade and now owns Roschon Johnson, whose value collapsed Monday when Swift AND Monangai both practiced (he is Chicago's RB3 at 7.6) — he funds Reese; and the Fantasy Footballers' high-conviction Egbuka turf-toe fade took Jack Bech off the drop list entirely, so the spare Steelers DEF funds Watts and the Jamien Sherwood LB claim became CONDITIONAL on Wednesday's reports. Cedric Gray entered concussion protocol after a UTV accident, which is what created the third hole.)",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip.",
  "claims": [
   {
@@ -123,22 +123,6 @@
   },
   {
    "league_id": "1395839320077656064",
-   "player": "Xavier Watts",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Jack Bech (23, WR, LV depth 3, 77.9)",
-   "why": "NEW 2026-09-03 — and it corrects a miss. Gallamijos League finished its draft with TWO required starting slots holding Sleeper's '0' sentinel, not one: DL *and* DB. Prior editions only caught the DL. Watts (ATL, 24) is the top unrostered DB in this league at 97.5 under its exact scoring — sixth-best DB overall, and the roster has no DB anywhere. This is +97.5 replacing a guaranteed weekly zero, the single largest starting-lineup gain available to the user in any league. Re-verified free 2026-09-03. Roster is 17/17 so the add needs a drop: Jack Bech is the WR6 on a roster starting Chase/Egbuka/Marvin Harrison, sits third on the Raiders' depth chart, and is the only non-protected skill body — all four bench RBs (Corum, Keaton Mitchell, Woody Marks, Jacob Saylors) pass the clean-handcuff test and are protected. No FAAB in this league (rolling priority), so no bid."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "player": "Poona Ford",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Steelers DEF (spare DEF; LAR is the set-and-forget starter)",
-   "why": "UNCHANGED RULING, THIRD EDITION, re-verified free 2026-09-03 (69.0 under this league's scoring, the only unrostered DL inside its top 14). The DROP is re-paired: Jack Bech now funds the Xavier Watts claim, so this one takes the second defense. CLAUDE.md's 18-team streaming guidance allows carrying two DEFs to grab next week's early, but that is a convenience; the DL slot is a guaranteed weekly zero, and LAR is a genuine set-and-forget starter. Tyler Shough (270.9) is deliberately KEPT over the spare DEF: Mayfield is 31, in a contract year, and the only startable QB on this wire is Michael Penix at 143.2 carrying a Questionable tag."
-  },
-  {
-   "league_id": "1395839320077656064",
    "player": "Roschon Johnson",
    "verdict": "dead",
    "bid": null,
@@ -160,14 +144,6 @@
    "bid": null,
    "drop": null,
    "why": "RESOLVED 2026-09-03 — the user added him here, overriding the 9/2 skip. Fair override: Pacheco is on IR through Week 5 and Saylors is now Detroit's depth-2 back behind Jahmyr Gibbs (331), with the best depth-3+ Lion at 54 — a textbook clean handcuff, so he is now PROTECTED from drops in this league even though the user does not own Gibbs here."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "player": "Tuli Tuipulotu",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Nicholas Singleton (22, RB, TEN depth 3, 56.7)",
-   "why": "UNCHANGED, SECOND EDITION, re-verified free 2026-09-03 at 71.0 under MEXICA's exact scoring. The DL starting slot has been an empty '0' sentinel since the draft ended — a guaranteed weekly zero, now in its third edition. Poona Ford scores only 57.0 here, so the two IDP leagues genuinely need different players; Tuipulotu is the best unrostered DL in this one. No FAAB (reverse-standings waivers). Drop is Singleton: Tennessee's depth-3 back, lowest projection on the roster, and not a clean handcuff (depth 3). Contract-dispute note on Tuipulotu is from August and he has been practicing since."
   },
   {
    "league_id": "1385473470141313024",
@@ -216,6 +192,54 @@
    "bid": null,
    "drop": null,
    "why": "2026-09-03: legal and full at 28/28 (taxi 8/8, IR 3/8). The wire tops out at Joe Royer (52.0), already ruled a skip. Nothing here; the Stroud-for-Breece trade is still this roster's fix."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "player": "Arvell Reese",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Roschon Johnson (25, RB, CHI depth 3, 7.6)",
+   "why": "NEW 2026-09-07 and it SUPERSEDES the three-edition Poona Ford ruling. Reese (NYG, 21, the No. 5 overall pick, listed LILB depth-1 and eligible at BOTH DL and LB in Sleeper) projects 85.5 in this league's scoring vs Ford's 69.0 — a +16.5 upgrade on the same guaranteed-zero DL slot, and the dual eligibility also covers the LB slot if Cedric Gray's concussion protocol runs long. Re-verified free tonight; this league's unrostered players add as free agents instantly (three rivals executed free_agent adds at 18:02 tonight), so there is no waiver wait. THE DROP CHANGED: Roschon Johnson, acquired by the user in the 9/3 trade with DrBet for Jacob Saylors, is now Chicago's RB3 at 7.6 projected — D'Andre Swift AND Kyle Monangai both returned to practice Monday (Cronin/ESPN, Biggs/Chicago Tribune) and rotowire explicitly places Johnson at the rear of the depth chart. He fails the clean-handcuff test on depth_chart_order == 3, so he is not protected. The insurance thesis that justified the trade expired Monday morning; a roster spot that produces 7.6 cannot outrank a starting slot that produces 0."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "player": "Xavier Watts",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Steelers DEF (spare DEF, 150.0; LAR is the set-and-forget starter at 178.0)",
+   "why": "UPDATED 2026-09-07 — the DROP CHANGED after the Fantasy Footballers backlog came in. Watts (ATL, 24) is unchanged as the pick: best free DB in the league at 97.5, +6.4/wk into a slot that has held Sleeper's '0' sentinel since the draft, and re-verified free tonight. But the drop is no longer Jack Bech. FF went HIGH-CONVICTION FADE on Emeka Egbuka ('he's a bummer') on a four-part turf-toe stack — it takes longer than expected, it recurs, production is degraded during recovery even when active, and Egbuka specifically played poorly through injuries last year — and they made the sharp terminology point that Tampa's 'toe sprain, not turf toe' resolves nothing, because turf toe IS a sprain of the big toe. With Ja'Marr Chase also Questionable, Bech is the only WR4 behind two shaky starters and is no longer spendable. The spare Steelers DEF pays instead. STATED COST: PIT is actually the better Week 1 defense than LAR (11.9 vs 9.6), so this costs ~2.3 points this week, and it ends the two-week-ahead DEF streaming plan that CLAUDE.md prescribes for 18-team leagues. Accepted: a starting slot reading 0 costs more than a spare defense wins."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "player": "Jamien Sherwood",
+   "verdict": "conditional",
+   "bid": null,
+   "drop": "Jack Bech (23, WR, LV depth 3, 77.9) — ONLY if Egbuka is cleared to play",
+   "why": "DOWNGRADED FROM CLAIM TO CONDITIONAL 2026-09-07, same night it was written, because the FF Egbuka fade removed the drop it depended on. The case for Sherwood stands: he projects 105.0 vs Cedric Gray's 98.5, so he is an outright LB upgrade even in the world where Gray clears, and Gray entered the concussion protocol Monday after a weekend UTV accident with Tennessee playing Sunday. The problem is that after Reese and Watts consume the two spendable roster spots, the only remaining drop is Bech — and Bech is now the insurance behind two Questionable WR starters. You cannot cover both holes with one roster spot. TRIGGER, checked Wednesday when the first official injury reports post: if Gray has NOT cleared protocol AND Egbuka is cleared to play, drop Bech and claim Sherwood. If Egbuka is downgraded, keep Bech and accept the LB slot. Demetrius Knight (98.0) is the equivalent fallback if Sherwood is taken first."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "player": "Poona Ford",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "SUPERSEDED 2026-09-07 after three editions as the DL claim. Still free at 69.0, but Arvell Reese is free in the same league at 85.5 and is dual DL/LB eligible. Ford is the fallback only if Reese is claimed before the user acts."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "player": "Arvell Reese",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Nicholas Singleton (22, RB, TEN depth 3, 56.7)",
+   "why": "NEW 2026-09-07, SUPERSEDING the Tuli Tuipulotu ruling that has stood unexecuted for three editions. Reese projects 85.5 under MEXICA scoring vs Tuipulotu's 71.0 — same fourth consecutive edition of a guaranteed weekly zero at DL, +14.5 better player, and he is free here too (Xavier Watts, Sherwood and Kam Curl are all already rostered in this league, so the IDP wire here is thinner than Gallamijos League's — Reese is the one real body left). The drop is unchanged and got easier: rotoballer flagged Singleton falling on 3.8 YPC across 15 preseason carries behind Tony Pollard. NOTE ON TIMING: this league runs daily waivers with waiver_clear_days=2 and waiver_type=1 (reverse standings), so a claim entered tonight is not instant — enter it now so it processes before Sunday. Tuipulotu (71.0) is the fallback if Reese is claimed ahead of the user."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "player": "Tuli Tuipulotu",
+   "verdict": "optional",
+   "bid": null,
+   "drop": "Nicholas Singleton (22, RB, TEN depth 3, 56.7)",
+   "why": "DEMOTED TO FALLBACK 2026-09-07. Still free at 71.0 and still fixes the empty DL slot; take him only if Arvell Reese (85.5) is gone when the user acts."
   }
  ],
  "roster_compliance": {

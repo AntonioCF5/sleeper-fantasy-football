@@ -1,11 +1,11 @@
 {
  "meta": {
-  "updated": "2026-09-03",
+  "updated": "2026-09-07",
   "sources": [
    "sal-vetri",
    "fantasy-footballers"
   ],
-  "note": "Merged 31 takes + 39 facts from 2 Sal Vetri videos (j4FAcNd2nXo, blxWfjiXdIw). Pruned entries dated before 2026-08-13. The Fantasy Footballers feed failed 3 consecutive runs — nothing marked processed, catch-up is automatic.",
+  "note": "Merged 4 Sal Vetri videos (9/4-9/7) and the 7-video Fantasy Footballers backlog (9/2-9/5, recovered after a feed outage) on 2026-09-07. Takes/facts older than 2026-08-17 pruned.",
   "last_updated": "2026-08-30",
   "last_videos": [
    "rtXZBTk5IMU",
@@ -6263,6 +6263,1091 @@
     "j4FAcNd2nXo"
    ],
    "date": "2026-09-03"
+  },
+  {
+   "player": "Caleb Douglas",
+   "player_id": "13296",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Add Miami's third-round rookie now — he is their de facto WR1 and still available in 95% of leagues.",
+   "mechanism": "Waddle and Hill are both gone; Douglas stood out in camp and lined up as WR1 with the starters in the preseason game.",
+   "round_or_adp": null,
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Denzel Boston",
+   "player_id": "13346",
+   "team": "CLE",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Pick up Cleveland's second-round rookie — locked starter, available in 75% of leagues, heavy rookie target volume.",
+   "mechanism": "Tillman released leaving Concepcion/Jeudy/Boston as the starting three; a bad defense without Myles Garrett means 500+ pass attempts. MECHANISM AUDIT PASS: this is the trailing-script variant, not the banned thin-backfield one — CLE is a 5.5-win, tier-5 team in team_env, so the volume claim survives the favorite test.",
+   "round_or_adp": null,
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Dontayvion Wicks",
+   "player_id": "9486",
+   "team": "PHI",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Add Wicks (91% available) as a first-month dart — he is about to be Philadelphia's No. 2 receiver.",
+   "mechanism": "A.J. Brown gone, DeVonta Smith the clear No. 1, rookie slot Makai Lemon behind after hamstring issues all camp; Wicks was extremely efficient as a Packers rookie. SECOND independent Sal flag in six days.",
+   "round_or_adp": null,
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Rashid Shaheed",
+   "player_id": "8676",
+   "team": "SEA",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Add Shaheed (60% available) — clear No. 2 target behind JSN, and the organization has paid him like it.",
+   "mechanism": "STATED: a 4th and a 5th traded for him plus a 3yr/$35M+ extension with no other WR added; PLUS 'they should throw more because Walker's gone and Charbonnet's hurt.' MECHANISM AUDIT FAIL on the second half — that is the banned thin-backfield-to-more-passing inference and it is the SECOND time on this same player (first caught 2026-08-24). Seattle is a 10.5-win tier-2 team, i.e. a favorite, and favorites run MORE. The contract/target-competition half stands alone; use that if the conclusion is repeated.",
+   "round_or_adp": null,
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "De'Zhaun Stribling",
+   "player_id": "13417",
+   "team": "SF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "His No. 1 add: SF's second-round rookie is a Week 1 starter and still available in 45% of leagues.",
+   "mechanism": "He sat the third preseason game with the starters (the rest-is-a-signal tell), sits ahead of Demarcus Robinson and an IR'd Christian Kirk, and reports have him used in motion.",
+   "round_or_adp": null,
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Travis Etienne",
+   "player_id": "7543",
+   "team": "NO",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Trade for Etienne now — a top-30 overall player who just became an unchallenged workhorse; Sal has publicly reversed his own earlier fade.",
+   "mechanism": "Kamara's sprained MCL costs him a month-plus (third occurrence; one cost six weeks), Devin Neal and Ty Chandler are both on season-ending IR, leaving only Kendre Miller and Audric Estime — none of whom take pass-down work — inside a Kellen Moore offense that runs ~1,100 plays vs a ~1,057 league average.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Travis Etienne",
+   "player_id": "7543",
+   "team": "NO",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Plan the exit with the entry: sell Etienne before Kamara returns, roughly after week 4.",
+   "mechanism": "The top-10 window is specifically the weeks Kamara is out; once he is healthy the backfield reverts to the early-down/third-down split the staff described all camp.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Breece Hall",
+   "player_id": "8155",
+   "team": "NYJ",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy low aggressively — a borderline top-25 overall player being sold at 5th/6th-round prices over a groin tweak.",
+   "mechanism": "The injury is minor (2-3 weeks, on track for Week 1); the Jets refused to trade him during a fire sale, extended him 3yr/$45M, and OC Frank Reich volunteered 'Breece Hall is the bellcow'; he produced 1,400 total yards on a 74% backfield opportunity share inside the league's worst passing offense, which Geno Smith should improve.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "player_id": "7611",
+   "team": "NE",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "The most slept-on starting RB in the league — and no longer a pure buy-low only because Henderson got hurt.",
+   "mechanism": "Confirmed RB1 in beat-writer language as of Aug 27, and New England trusted him over Henderson through the playoffs and Super Bowl; a 230-lb three-down/red-zone back who pass-protects better, now with A.J. Brown, Romeo Doubs and two added offensive linemen.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "TreVeyon Henderson",
+   "player_id": "12529",
+   "team": "NE",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Fade Henderson at his price — he is going a pick AHEAD of the actual RB1 while not practicing.",
+   "mechanism": "Ten days without practicing on an 'ankle sprain' one week out starts to look like more than a sprain, and even healthy he lost the job back to Stevenson last season.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Jordan Mason",
+   "player_id": "8408",
+   "team": "MIN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Trade for Mason at his RB38 / round-7-8 price — the bell-cow frontrunner in a better offense than backs going three rounds earlier.",
+   "mechanism": "Camp reports have him the clear 1A with Aaron Jones isolated to pass work; Jones is 31-going-32 with serial soft-tissue injuries; whenever Mason has had a featured role he has averaged ~16-17 PPG on ~5.0 YPC. MECHANISM AUDIT PASS and notable: the pace half is the CORRECT inverse of the banned chain — a better offense sustains drives and RUNS more. Stated flaw is honest (3/11/14 career receptions).",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Aaron Jones",
+   "player_id": "4199",
+   "team": "MIN",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Do not buy Aaron Jones at any price — he is being reduced to a pass-down role.",
+   "mechanism": "31-and-a-half, turning 32 in-season, with hamstring injuries in each of the last two seasons plus shoulder, hip and rib issues; a repeating hamstring pattern in an explosiveness-dependent back, and camp reports say the opposite of what they say about Mason.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Jacory Croskey-Merritt",
+   "player_id": "12533",
+   "team": "WAS",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Cheapest buy on the board — a round-9/10 price for genuine league-winning upside.",
+   "mechanism": "~900 total yards and 8 TDs as a seventh-round rookie on a broken offense at 4.7 yards per touch (top-25); the groin is minor; and the staff wants him on the field all three downs so the offense has no personnel tell.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Jacory Croskey-Merritt",
+   "player_id": "12533",
+   "team": "WAS",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "low",
+   "why": "The stated downside is the Washington offensive line, not the committee.",
+   "mechanism": "Laremy Tunsil is out effectively all season and the line already fell apart last year; Sal is also skeptical the pass-catching role survives Rachaad White.",
+   "round_or_adp": null,
+   "videos": [
+    "McNocPJLAyc",
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "player": "Carnell Tate",
+   "player_id": "13279",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy the top-5 rookie now that he has fallen to round 6-7 on an empty preseason box score.",
+   "mechanism": "Six targets in ~2.5 quarters is strong usage regardless of zero catches, and the last ten top-10 drafted WRs produced nearly identical preseason lines (Marvin Harrison caught nothing); 7-of-12 for 2 TDs in joint practices; Daboll historically funnels 150-170 targets to a designated WR1.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Wan'Dale Robinson",
+   "player_id": "8126",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Do not price his 140-target Giants seasons forward — he is a slot receiver here, not the Daboll WR1.",
+   "mechanism": "His New York volume was forced by everyone else getting hurt in an extremely high-play season; in Tennessee he projects to the slot with a top-5 pick installed at X.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Malik Nabers",
+   "player_id": "11632",
+   "team": "NYG",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Go get Nabers from anyone panicking about his Week 1 status — he plays, and he is a top-10 receiver.",
+   "mechanism": "He shed the red non-contact jersey ~3 weeks out and has practiced a month, ten months post-ACL; the 'won't commit' quote is communications control and divisional gamesmanship, not a health signal; a ~40% rookie target share and ~44% first-read rate survive a QB20-caliber Dart.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Mike Evans",
+   "player_id": "2216",
+   "team": "SF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Buy Evans at his round-6 price (or right after a Week 1 absence) — the clear WR1 and red-zone alpha in San Francisco.",
+   "mechanism": "Cooks gone, Kirk on IR, Pearsall out for the year, leaving a 30-plus Deebo and a second-round rookie; the groin/adductor is reported minor with a Week 1 plan; Adams and Keenan Allen both drew 100+ targets at the same age.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Ladd McConkey",
+   "player_id": "11635",
+   "team": "LAC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Pay up now — after one good Week 1 he becomes a second-round rest-of-season asset and the window closes.",
+   "mechanism": "The down year was injury-segmented, not decline (17.5 PPG on 9 targets across the six games he and Herbert were both healthy); Keenan Allen's 120+ targets vacated with no real replacement; and new play-caller Mike McDaniel plans to use him the way he used Tyreek Hill.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Rashee Rice",
+   "player_id": "10229",
+   "team": "KC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Rice is a slam-dunk third-round value and people are panic-selling him — buy.",
+   "mechanism": "The 'sluggish' clips are half-speed camp reps; he led the NFL with a 46.2% red-zone target share and a 55% designed-target rate while finishing top-5 in PPG over eight games; markets price him at 95.5-99.5 receptions and his target competition is unchanged.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Travis Kelce",
+   "player_id": "1466",
+   "team": "KC",
+   "pos": "TE",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Treat Kelce as a sell/downgrade — Sal uses him repeatedly as the throw-in he is happy to trade away.",
+   "mechanism": "Turning 37, and 'we haven't seen prime Travis Kelce in three years'; he is listed as diminished target competition for Rice rather than as a threat.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc",
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "Deebo Samuel",
+   "player_id": "5872",
+   "team": "SF",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Deebo will not be San Francisco's WR1 at this point in his career.",
+   "mechanism": "30-plus, injured last year and 'looked slow' — a specific problem for a player whose game is built on explosiveness.",
+   "round_or_adp": null,
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "player": "DJ Moore",
+   "player_id": "4983",
+   "team": "BUF",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Below ADP (they rank him 25-26 vs WR22 ADP) but the whole room is afraid to be wrong — upside is a top-10 WR, and if you draft him, stack him with Josh Allen.",
+   "mechanism": "Stefon Diggs 2020 template: a good WR who never had a great QB becomes the uncontested WR1 for Allen, with Joe Brady scheming him back to slants/crossers/screens (only 21% of his routes last year). Counterweight: age 29 and he stopped breaking tackles in 2025.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "JTVW4tRdKik"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Jaxson Dart",
+   "player_id": "12508",
+   "team": "NYG",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "At/slightly above ADP but the take Mike is most afraid of — he doubts anything on the Giants offense works early.",
+   "mechanism": "Dart holds the ball, extends plays and runs recklessly — he was in the injury tent in half his starts last year and again this preseason; layered on a Nabers absence and a week-2 pass-rush gauntlet.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Jayden Daniels",
+   "player_id": "11566",
+   "team": "WAS",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Raising his risk rating (still drafting him at the price) because the environment is degrading, not because the rushing upside is gone.",
+   "mechanism": "Three stacked negatives: a beat report calling this the worst Commanders offense in years with an 'inoperable' line; a first-time play-caller replacing Kingsbury and moving under center; and a top-two WR room of two 30-plus receivers. No team has had two 30-plus WRs finish 1-2 in receptions since 2010.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Saquon Barkley",
+   "player_id": "4866",
+   "team": "PHI",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "None of the three hosts has drafted Barkley anywhere — they take Chase Brown or Kenneth Walker over him at the same price every time.",
+   "mechanism": "The breakaway runs disappeared until the very end of last season; the market is paying for the RB1-overall memory. Acknowledged bull case: 13 carries inside the 5 for one rushing TD is real positive TD regression.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Tucker Kraft",
+   "player_id": "9484",
+   "team": "GB",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "high",
+   "why": "Jason and Mike are OUT at the price everywhere; Andy dissents and took him a round later.",
+   "mechanism": "Price, not talent: an ACL return with reported first-half snap-count management, priced as if healthy. 'If the ACL got me a 10th-round pick I would do that.' Reported plan is a snap count for the first half of the season, then unleashed.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "ifJrhAUE8WQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Emeka Egbuka",
+   "player_id": "12514",
+   "team": "TB",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "OUT despite Todd Bowles saying he is hopeful for Week 1 — 'he's a bummer' — and they expect his ADP to drop.",
+   "mechanism": "Four stacked actuarial reasons: turf toe takes longer than expected, it recurs, production is degraded during the recovery window even when active, and Egbuka specifically played poorly through injuries last year. Nuance: Tampa says toe SPRAIN not turf toe, but turf toe IS a sprain of the big toe — the real question is which toe, and he is still working to cut on it.",
+   "round_or_adp": null,
+   "videos": [
+    "71Xc1VrpR-Q",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Brian Thomas",
+   "player_id": "11631",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Afraid the market has flipped Brian Thomas and Parker Washington completely upside down.",
+   "mechanism": "Past success is the best predictor of future success — a top-10 fantasy WR as a first-round rookie with nothing about his health changed; the re-rating is narrative flow toward Parker Washington. Counter used to pass on him: a minimal route tree, big plays and nothing else.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Parker Washington",
+   "player_id": "9487",
+   "team": "JAX",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "So universally called as a breakout that FF treat him as consensus, not a bold prediction.",
+   "mechanism": "Crowding — 3rd round of a $100k buy-in league and the most-repeated Foot Clan bold prediction; the stated tiebreak against him was environment.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Marvin Harrison",
+   "player_id": "11628",
+   "team": "ARI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Drafted slightly ahead of ADP over Parker Washington; expected to outkick his price.",
+   "mechanism": "Target security plus red-zone role: 16.8 fantasy PPG in games with 7+ targets, and trust in Brissett to feed him — taken DESPITE the environment (Arizona projects third-to-last in points), so role overruled environment.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Jeremiyah Love",
+   "player_id": "13287",
+   "team": "ARI",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "'An absolute world' where everyone looks like an idiot for not taking him in the top eight picks — possibly a better talent than Bijan.",
+   "mechanism": "Elite prospect grade (the Felix model ranks him 3rd all-time behind Gibbs and Elliott) plus a receiving-volume script on a bad team that trails, with Conner not healthy. Precedent: Allgeier never stopped Bijan, so a committee body is not a blocker.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Jadarian Price",
+   "player_id": "13286",
+   "team": "SEA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "A fantasy-MVP pick and an early reach two rounds ahead of ADP — a first-round rookie RB on a top-tier offense whose printed ADP will not survive real drafts.",
+   "mechanism": "Draft capital plus a cleared path: Charbonnet on IR and slow-played on return, leaving George Holani; Macdonald says nobody on his championship defense has covered Price in practice. His discount exists only because he played behind Jeremiyah Love in college.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "high",
+   "why": "Fantasy MVP pick: RB26 ADP against their own RB21 consensus, in a Liam Coen offense they expect to be high-powered.",
+   "mechanism": "Short-yardage trust plus speed, not efficiency: his 3.7 YPC is an artifact of 25% of carries coming in short yardage, where he ranked 5th among all RBs in rush success rate and turned 7 inside-the-5 carries into 5 TDs; he also clears the 11%-of-team-receptions college threshold. Risk acknowledged: a genuinely ambiguous backfield, and Coen's Tampa usage fed a clear No. 2.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Alec Pierce",
+   "player_id": "8142",
+   "team": "IND",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Fantasy MVP pick: the highest-paid free-agent receiver in NFL history going as WR23, practicing for Week 1.",
+   "mechanism": "Room consolidation plus contract as revealed belief — Pittman departed, Pierce got $114M, and the one-trick-deep-threat claim is false (55% of routes were digs/ins/crossers/gos). Screen used: of every 1,000-yard receiver in five years, only players aged 32-34 and a just-traded WR were drafted later the next season.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Jameson Williams",
+   "player_id": "8148",
+   "team": "DET",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Last year's WR9 going as WR25 at the back of the 5th — and one host is 'completely turned around' on him.",
+   "mechanism": "Two channels: role change (Dan Campbell took over play-calling and deliberately expanded him beyond the deep-ball role) and environment (Detroit is 3rd in average implied team total and favored in 14 of 17 games with a weak secondary). Support: 2+ YPRR in back-to-back seasons.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Colston Loveland",
+   "player_id": "12517",
+   "team": "CHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "A fantasy-MVP pick — 'going to score the most points of any tight end this season' — and FF have 'no notes.'",
+   "mechanism": "Route-level usage that ended his rookie year at a TE1-overall rate (31% target-per-route and 2.34 YPRR over the final five games on 81% of dropbacks), plus scheme: Ben Johnson leans on 12/13 personnel and moving Burden into DJ Moore's role leaves Loveland as the de facto slot.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Luther Burden",
+   "player_id": "12519",
+   "team": "CHI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "A fantasy-MVP pick, and the groin injury has made him draftable again — WR26 after going inside the top 20 a month ago.",
+   "mechanism": "Scheme fit for YAC creation: 98th-percentile avoided tackles per reception in college, already translated to the 3rd-best rookie YPRR of any wideout since 2011. FF's own caveat: it all rests on Caleb Williams leveling up, and Bears bets are historically bad bets.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Christian McCaffrey",
+   "player_id": "4034",
+   "team": "SF",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A fantasy-MVP pick, but FF are split — one would take him around pick 7 rather than 4.",
+   "mechanism": "The case is monopoly volume and offensive dependence (top-3 in 3 of the last 4 semi-healthy years); the discount is not the injury but perceived loss of explosiveness plus 'San Francisco vibes.'",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "A.J. Brown",
+   "player_id": "5859",
+   "team": "NE",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "A fantasy-MVP pick and a 2nd-round WR ranked ahead of Justin Jefferson and Drake London, with a genuine WR1-overall range.",
+   "mechanism": "Volume transfer plus QB upgrade: he moves from a 3,400-yard passing offense to a 4,400-yard one with Diggs' targets vacated, and Drake May throws 10+ yards downfield at the 5th-highest rate while leading all QBs in completion rate, success rate and passer rating on those throws. Age answered with the age-29-30 elite-WR-changes-teams precedent list.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Omarion Hampton",
+   "player_id": "12507",
+   "team": "LAC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "A fantasy-MVP pick and a my-guy — 'every piece of Hampton this year.'",
+   "mechanism": "Scheme-runner fit: McDaniel wants his backs outside the tackles and Hampton went 5.5 YPC there last year, tied for the league lead in EPA per carry outside the tackles behind a bad line.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Keaton Mitchell",
+   "player_id": "9511",
+   "team": "LAC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Owned in dynasty and not being started — his health is the open question, and he is not seen as a threat to Hampton.",
+   "mechanism": "McDaniel's stated willingness to run a lead back into the ground (Achane at 238 carries) means the pass-catching carve-out that would give Mitchell value is exactly what McDaniel does not reliably concede.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Chris Bell",
+   "player_id": "13311",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "league-winner",
+   "conviction": "medium",
+   "why": "A fantasy-MVP pick and a last-round shot — a pre-injury first-round talent available at the end of home-league drafts with a path past 100 targets.",
+   "mechanism": "Empty depth chart plus negative game script: Miami has nobody else to throw to and will be trailing. MECHANISM AUDIT PASS — this is the trailing-script variant on a genuinely bad team (Miami 7-10, post-regime-change), not the banned thin-backfield inference.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE",
+    "Nt56n4_forg"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "Caleb Douglas",
+   "player_id": "13296",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Preferred to Chris Bell for the first month, with 75%+ snaps expected in September.",
+   "mechanism": "Availability over talent: Bell missed all of training camp and gets worked in slowly off the knee, while Douglas was drafted ahead of him and has been great all offseason. Room disagreement on record — another host passed on Douglas for Michael Pittman citing the day-2/3 rookie-WR base rate.",
+   "round_or_adp": null,
+   "videos": [
+    "umr8llJ05TE",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "player": "De'Von Achane",
+   "player_id": "9226",
+   "team": "MIA",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Table-banged as the third-best all-around RB in football and worth a late first-round pick.",
+   "mechanism": "Talent and consistency independent of environment — the most consistent RB in football last year with a checkdown-happy, bad QB; the market is fading the Miami offense, not the player.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo",
+    "Nt56n4_forg"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "TreVeyon Henderson",
+   "player_id": "12529",
+   "team": "NE",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Do NOT start him Week 1 even if active — while still believing he is the primary back by the second half.",
+   "mechanism": "Availability and role, not talent: no practice since Aug 24, the opener is on a Wednesday with no extra runway, pre-injury reports already had Stevenson leading, and Henderson's pass-protection deficiency is what keeps a rookie off the field against the defending champs.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Rhamondre Stevenson",
+   "player_id": "7611",
+   "team": "NE",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "'Top of season Rhamondre is a steal' — ugly but genuinely productive early-season volume.",
+   "mechanism": "Direct beneficiary of Henderson's ankle plus the pre-existing coach-trust ordering. Cost-anchored: they would rather guarantee a Week-1 starter than take Judkins, Bucky Irving or David Montgomery in the same band.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "George Kittle",
+   "player_id": "4217",
+   "team": "SF",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Active in Australia but start-at-your-own-risk in Week 1; they would start Juwan Johnson or Hunter Henry over him.",
+   "mechanism": "Snap-count management off the Achilles — the beat says he won't be near his usual 95% share. Counter carve-out: if reports say he plays in the red zone, a 3-17-2 line is live, so hunt red-zone usage, not total snaps.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Puka Nacua",
+   "player_id": "9493",
+   "team": "LAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "No longer a comfortable top-4 pick — one host now takes him behind McCaffrey, St. Brown and JSN.",
+   "mechanism": "Unresolved off-field risk with a season-ending tail: still under NFL review, a new video surfaced, and the tell they weight most is that the Rams have not extended a receiver of that caliber. Unlike a late-round suspension risk, a first-round hit is unrecoverable.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Garrett Wilson",
+   "player_id": "8146",
+   "team": "NYJ",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Very bullish at his 4.10/5.01 price, but the 2-3 turn is a smidge too high — take DeVonta Smith or George Pickens there instead.",
+   "mechanism": "Pure price arbitrage with the offense as the discount: at the turn you are choosing him over receivers on better offenses with better QBs; two rounds later the same player is outrageous value.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Joe Burrow",
+   "player_id": "6770",
+   "team": "CIN",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Burrow in the 6th is 'outrageous' value, especially as a two-stack with Tee Higgins.",
+   "mechanism": "Market drift — elite QBs are going later than their production warrants this year, so the edge is procedural: keep flipping to the QB tab mid-draft instead of executing a fixed positional plan.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "D'Andre Swift",
+   "player_id": "6790",
+   "team": "CHI",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "'Swift is a great pick right now' — expected to be a steal specifically in the early season.",
+   "mechanism": "Vacated early-season workload (Monangai week-to-week with a knee and effectively out for Week 1) layered on Swift's pass-catching role in a Ben Johnson offense; Roschon Johnson is the named next man up. Health note: the Thursday exit was a cramp, and he is fine for Week 1.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "umr8llJ05TE",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Brian Robinson",
+   "player_id": "8154",
+   "team": "ATL",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "A live threat to Bijan Robinson's touchdown ceiling — The Athletic reports managers won't like how many goal-line carries he gets.",
+   "mechanism": "A prototypical 225-lb bruiser inheriting a role Atlanta has used before: Tyler Allgeier took 19 carries inside the 10 last year, and they do not expect that number to fall much.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Jahmyr Gibbs",
+   "player_id": "9221",
+   "team": "DET",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Unanimous 1.01 and now 'in a tier of his own' after Isaiah Pacheco went to IR.",
+   "mechanism": "Monopoly workload with no goal-line competitor — Detroit did not sign Kareem Hunt after his visit and endorsed a backup with no track record, so the backfield share consolidates.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ",
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "MarShawn Lloyd",
+   "player_id": "11581",
+   "team": "GB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Would not draft him over Cam Skattebo or Bucky Irving at the 4-5 turn, but price him NOW before someone else does.",
+   "mechanism": "Contingent workload with a fragility discount — Jacobs is unavailable but Lloyd is 'a super fragile guy,' Kendre Miller keeps leaving practice, and Green Bay added Kaleb Johnson. Do not pay a bell-cow price for an unproven inheritor.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "J.K. Dobbins",
+   "player_id": "6806",
+   "team": "DEN",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Taken as an RB2 in the 6th on the belief he is Denver's lead back at least to start the year.",
+   "mechanism": "Depth-chart read with a named threat: Jonah Coleman is scarier than RJ Harvey as the eventual usurper, but neither displaces Dobbins in September.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Cam Skattebo",
+   "player_id": "12481",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "An RB3, not an RB2 — the risk read is getting worse even though they rate him well above the rest of the room.",
+   "mechanism": "Coaching and opportunity, not talent or the injury: they suspect the staff does not love him and that the Giants will rotate. The 'considered retiring' headline is explicitly discounted as context-free clickbait.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Bucky Irving",
+   "player_id": "11584",
+   "team": "TB",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "One host refuses to draft him at all; another will take him at the 4-5 turn while calling him 'a fascinating story.'",
+   "mechanism": "Role erosion — every camp and preseason report has Kenny Gainwell taking the passing work while Irving handles primary rushing, which caps the PPR ceiling that made him valuable.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Jonathon Brooks",
+   "player_id": "11583",
+   "team": "CAR",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "A 50-50 Week-1 split with Chuba Hubbard getting the first carry, and a hot-hand committee all season — neither back is countable.",
+   "mechanism": "Health plus precedent: one healthy season since high school and already missing practice with 'general soreness'; last year's Carolina backfield resolved into a week-to-week hot hand.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo",
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "DK Metcalf",
+   "player_id": "5846",
+   "team": "PIT",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "'A WR1 that nobody wants to touch' in the 8th round — preferred over Josh Jacobs at that price.",
+   "mechanism": "A coaching/scheme change fixing a borderline-unplayable Rodgers-era season. Counter named on air: Michael Pittman joining the room is a negative.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Davante Adams",
+   "player_id": "2133",
+   "team": "LAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "'More and more bullish' at the 4-5 turn.",
+   "mechanism": "NO STATED MECHANISM — conviction without a testable channel; the only named risk is age-related injury recovery. Treat as unsupported opinion.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Michael Wilson",
+   "player_id": "10232",
+   "team": "ARI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "The new three-year, $47M-guaranteed extension is a real commitment signal, but usage is still the open question.",
+   "mechanism": "Contract as revealed belief — the money slots below Zay Flowers and Alec Pierce but is real; the counter is that he has been good yet unused, so the money does not yet prove volume.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Tyler Shough",
+   "player_id": "12545",
+   "team": "NO",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "He was on the whiteboard as an intended third 'my guy' all offseason before the slot went elsewhere — a previously unstated positive signal.",
+   "mechanism": "Not argued on air; recorded as a conviction signal from their rationed my-guy process, not as a case.",
+   "round_or_adp": null,
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "player": "Jordyn Tyson",
+   "player_id": "13281",
+   "team": "ARI",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "medium",
+   "why": "Stashed on IR in the 9th and not expected to survive the turn — an IR-slot stash, not a Week-1 asset.",
+   "mechanism": "The IR-slot conversion play: an injured rookie occupying a reserve slot costs no bench spot, so the pick is free optionality on his return.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Michael Pittman",
+   "player_id": "6819",
+   "team": "PIT",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Taken as a 10th-round veteran over Caleb Douglas, going 'with the data' rather than the rookie.",
+   "mechanism": "Two base rates applied against a rookie: Douglas was not a first-round WR, and Miami is not a good offense. Live negative: Pittman has been hurt most of camp and Rodgers sounded frustrated about the lost reps.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "player": "Chris Rodriguez",
+   "player_id": "10219",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Taken in the 10th explicitly as a hedge against their own Tuten conviction.",
+   "mechanism": "Ambiguous-backfield insurance: at a 10th-round cost you buy the other half of a backfield you have already invested in, so being wrong about the split costs nothing.",
+   "round_or_adp": null,
+   "videos": [
+    "yImdTEkRQCo",
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-03"
   }
  ],
  "strategy_notes": [
@@ -9766,6 +10851,458 @@
     "blxWfjiXdIw"
    ],
    "date": "2026-09-02"
+  },
+  {
+   "fact": "Caleb Douglas is available in 95% of leagues; Miami's third-round rookie lined up as WR1 with the starters in the preseason game, with Waddle and Hill both gone.",
+   "about": "Caleb Douglas",
+   "about_player_id": "13296",
+   "source": "sal-vetri",
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Denzel Boston is available in 75% of leagues; Cleveland released Cedric Tillman, leaving KC Concepcion, Jerry Jeudy and Boston as the starting three, and the team projects 500+ pass attempts.",
+   "about": "Denzel Boston",
+   "about_player_id": "13346",
+   "source": "sal-vetri",
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Dontayvion Wicks is available in 91% of leagues; Philadelphia's new OC comes out of the McVay/LaFleur/Shanahan tree and rookie slot Makai Lemon had hamstring issues all camp.",
+   "about": "Dontayvion Wicks",
+   "about_player_id": "9486",
+   "source": "sal-vetri",
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Seattle traded a 4th and a 5th for Rashid Shaheed and signed him to a 3-year, $35M+ extension while adding no other receiver; Tory Horton is hurt again and Cooper Kupp (33-34) is in the slot.",
+   "about": "Rashid Shaheed",
+   "about_player_id": "8676",
+   "source": "sal-vetri",
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "De'Zhaun Stribling is available in 45% of leagues while going around round 9 elsewhere; he sat the third preseason game with the starters and sits ahead of Demarcus Robinson and an IR'd Christian Kirk.",
+   "about": "De'Zhaun Stribling",
+   "about_player_id": "13417",
+   "source": "sal-vetri",
+   "videos": [
+    "Z_G4peqTf04"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "League-average pace is ~1,057 offensive plays per season; Kellen Moore averages 1,100+ (1,106 with the 2023 Chargers, 1,114 with the 2024 Eagles, 1,075 with the 2025 Saints) — roughly 5-10 extra plays per game.",
+   "about": "Kellen Moore",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Travis Etienne finished last season RB13 but averaged 16+ fantasy points and 16+ carries over his final 10 games on roughly a 70% backfield opportunity share.",
+   "about": "Travis Etienne",
+   "about_player_id": "7543",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Breece Hall produced ~1,400 total yards with 36 catches on 74% of the Jets' backfield carries and targets — a top-5 opportunity share — inside an offense that threw for a league-low 140 yards per game.",
+   "about": "Breece Hall",
+   "about_player_id": "8155",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "The Jets gave Breece Hall a 3-year, $45M extension and refused to trade him during last year's fire sale; OC Frank Reich, asked about other players, volunteered 'Breece Hall is the bellcow, Garrett Wilson is the bellcow.'",
+   "about": "Breece Hall",
+   "about_player_id": "8155",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Patriots beat writer Mark Daniels wrote on Aug 27 there was 'never a doubt this summer' about Rhamondre Stevenson being the RB1; TreVeyon Henderson has not practiced since August 24.",
+   "about": "Rhamondre Stevenson",
+   "about_player_id": "7611",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "In the four games Aaron Jones missed last season, Jordan Mason averaged 15 fantasy points, 15 carries and 70 rushing yards; in the five 2024 games he started for San Francisco he averaged 17 points, 21 carries and 107 rushing yards.",
+   "about": "Jordan Mason",
+   "about_player_id": "8408",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Jordan Mason has 3, 11 and 14 receptions in his three NFL seasons — he has never been a pass-catching back.",
+   "about": "Jordan Mason",
+   "about_player_id": "8408",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Aaron Jones is 31.5 and turns 32 in-season, with hamstring injuries in each of the last two seasons plus shoulder, hip and rib issues.",
+   "about": "Aaron Jones",
+   "about_player_id": "4199",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Jacory Croskey-Merritt posted 805 rushing and ~900 total yards with 8 TDs as a seventh-round rookie at 4.7 yards per touch — top-25 in the NFL — on only 9 receptions.",
+   "about": "Jacory Croskey-Merritt",
+   "about_player_id": "12533",
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Reports had Jordan Mason as not just the best running back in Vikings camp but the best player on either side of the ball in camp.",
+   "about": "Jordan Mason",
+   "about_player_id": "8408",
+   "source": "sal-vetri",
+   "videos": [
+    "OiqO9TlnDHw"
+   ],
+   "date": "2026-09-06"
+  },
+  {
+   "fact": "Nick Suss's base rate for the last 10 top-10 drafted WRs' preseasons: Travis Hunter 2 catches on 2 targets, Terrace Marshall 2 on 7, Marvin Harrison 0 catches, Malik Nabers 4 on 6 — Ja'Marr Chase, DeVonta Smith and Drake London also did little.",
+   "about": "rookie WR preseason base rate",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "Carnell Tate's preseason was 0 catches on 6 targets across ~2.5 quarters of starter snaps; in joint practices against the Bears he went 7-of-12 for 2 touchdowns. Matt Harmon: his 77% success rate vs man coverage is the seventh-best prospect mark since 2021.",
+   "about": "Carnell Tate",
+   "about_player_id": "13279",
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "Under Brian Daboll, Malik Nabers drew 170 targets as a rookie, Wan'Dale Robinson had 140 targets in each of the last two seasons, and Stefon Diggs had 150+ target seasons in Buffalo.",
+   "about": "Brian Daboll",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "Malik Nabers led all players in target share as a rookie at nearly 40% on 170 targets; last year he ran a 28% share, 8.8 targets per game and roughly a 44% first-read rate before tearing his ACL in week 4.",
+   "about": "Malik Nabers",
+   "about_player_id": "11632",
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "In the six games last season where Ladd McConkey and Justin Herbert were both healthy (weeks 5-10) McConkey averaged 17.5 fantasy points on 9 targets; from week 11 on, with knee and toe issues, he averaged about 7. Keenan Allen's 120+ targets are vacated with only a fourth-round rookie added.",
+   "about": "Ladd McConkey",
+   "about_player_id": "11635",
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "Rashee Rice led the NFL with a 46.2% red-zone target share and a 55% designed-target rate, and his 18 red-zone targets ranked seventh among all WRs despite playing 8 of 17 games; his market reception prop sits at 95.5-99.5.",
+   "about": "Rashee Rice",
+   "about_player_id": "10229",
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "San Francisco's receiver room: Cooks gone, Christian Kirk on IR, Ricky Pearsall out for the season — leaving Mike Evans (33), a 30-plus Deebo Samuel, rookie De'Zhaun Stribling, Jordan Watkins and Demarcus Robinson.",
+   "about": "SF",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "V5xkV33Yalc"
+   ],
+   "date": "2026-09-07"
+  },
+  {
+   "fact": "NFL camps go dark roughly 7-10 days before week 1; the week-1 Wednesday practice report is the next official injury information.",
+   "about": "NFL information calendar",
+   "about_player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "McNocPJLAyc"
+   ],
+   "date": "2026-09-05"
+  },
+  {
+   "fact": "Tucker Kraft was the TE2 in fantasy points per game before the ACL tear, leading Green Bay through eight games in fantasy points, targets, yards and first downs per route run plus red-zone targets. The reported plan is a snap count for the first half of the season, then unleashed.",
+   "about": "Tucker Kraft",
+   "about_player_id": "9484",
+   "source": "fantasy-footballers",
+   "videos": [
+    "ifJrhAUE8WQ",
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Turf toe is by definition a sprain of the big toe, so 'toe sprain, not turf toe' resolves nothing — the real question is which toe, and the functional tell is whether the player can cut on it.",
+   "about": "Injury terminology (Emeka Egbuka)",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Colston Loveland played 81% of Chicago's dropbacks over the final five games with a 31% target-per-route rate and 2.34 yards per route run; Chicago was 6th in 12-personnel and 2nd in 13-personnel over that stretch.",
+   "about": "Colston Loveland",
+   "about_player_id": "12517",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Luther Burden III posted the third-best rookie yards per route run of any wideout since 2011 (min 100 routes) and ranked 2nd in YPRR and 5th in PPR points per route run from week 11 on.",
+   "about": "Luther Burden",
+   "about_player_id": "12519",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Alec Pierce signed for $114M — the highest-paid free-agent receiver in NFL history at signing — and ran 55% of his routes as digs/ins/crossers/gos, not just gos.",
+   "about": "Alec Pierce",
+   "about_player_id": "8142",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Of every 1,000-yard receiver in the last five years, the only ones drafted later the following season than Alec Pierce is now were a 34-year-old Adam Thielen, a 32-year-old DeAndre Hopkins, a 33-year-old Stefon Diggs and a just-traded Wan'Dale Robinson.",
+   "about": "ADP screen for 1,000-yard receivers",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Bhayshul Tuten's 3.7 YPC came with 25% of his carries in short yardage, where he ranked 5th among all RBs in rush success rate; he turned 7 carries inside the 5 into 5 touchdowns. The college threshold for an NFL RB1 receiving profile is 11% of team receptions — Tuten caught 12% of Virginia Tech's.",
+   "about": "Bhayshul Tuten",
+   "about_player_id": "12490",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Detroit is 3rd in the NFL in average implied team total and favored in 14 of 17 games, with a secondary projected to struggle — a shootout screen.",
+   "about": "Detroit offense",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Jameson Williams finished WR9 last season and is being drafted WR25, 58th overall; he has averaged 2+ yards per route run in back-to-back seasons.",
+   "about": "Jameson Williams",
+   "about_player_id": "8148",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Drake May threw 10+ yards downfield at the fifth-highest rate in the NFL and led ALL quarterbacks in completion rate, success rate and passer rating on those throws.",
+   "about": "Drake May",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Elite-WR-changes-teams age precedents: Randy Moss at 30 (23 TDs, 1,500 yards), Davante Adams at 29 (1,500/14), Brandon Marshall at 31 (1,500/14), Terrell Owens at 30 (1,200/14 in 14 games).",
+   "about": "Aging elite WR base rate",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "No team has had two 30-or-older wide receivers finish 1-2 in receptions since 2010 (Owens and Chad Johnson).",
+   "about": "Aging WR base rate",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Omarion Hampton averaged 5.5 yards per carry outside the tackles last year and tied for the NFL lead in EPA per carry outside the tackles, behind a bad line. De'Von Achane took 238 carries under Mike McDaniel.",
+   "about": "Omarion Hampton / McDaniel workload",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Marvin Harrison Jr. averages 16.8 fantasy points per game in games with 7 or more targets; Arizona projects third-to-last in the NFL in points.",
+   "about": "Marvin Harrison",
+   "about_player_id": "11628",
+   "source": "fantasy-footballers",
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "The Felix RB prospect model all-time: 1. Jahmyr Gibbs, 2. Ezekiel Elliott, 3. Jeremiyah Love, 4. Bijan Robinson.",
+   "about": "Jeremiyah Love prospect grade",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Naming a Week-1 starting QB after September 1 is rare and historically ominous — Trubisky (PIT, Sept 6 2022), Tyrod Taylor (2021), the Cardinals, and now Kirk Cousins (LV, 2026).",
+   "about": "Late QB naming base rate",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "yImdTEkRQCo"
+   ],
+   "date": "2026-09-03"
+  },
+  {
+   "fact": "Saquon Barkley had 13 carries inside the 5 last year and only one rushing touchdown; Tyler Allgeier had 19 carries inside the 10 for Atlanta.",
+   "about": "Goal-line usage",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "DJ Moore is 29; only 21% of his routes last year were the slants/crossers/screens he has always thrived on. Stefon Diggs was 27 when Buffalo traded for him.",
+   "about": "DJ Moore",
+   "about_player_id": "4983",
+   "source": "fantasy-footballers",
+   "videos": [
+    "6DihE7syzkQ",
+    "JTVW4tRdKik"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Matt Barrows: George Kittle 'won't be on the field for his usual 95% of the offensive snaps' in Week 1.",
+   "about": "George Kittle",
+   "about_player_id": "4217",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Under Liam Coen at Tampa Bay, Bucky Irving had 200+ carries and 52 targets while Rachaad White still had 144 carries and 57 targets.",
+   "about": "Liam Coen backfield distribution",
+   "about_player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
+  },
+  {
+   "fact": "Jayden Daniels was on a 17-game pace for 742 rushing yards in his healthy games but was a top-12 weekly QB in only one of them.",
+   "about": "Jayden Daniels",
+   "about_player_id": "11566",
+   "source": "fantasy-footballers",
+   "videos": [
+    "6DihE7syzkQ"
+   ],
+   "date": "2026-09-02"
+  },
+  {
+   "fact": "Jadarian Price's fantasy ADP is 69th overall; of every first-round NFL RB in the last decade, only Sony Michel and Rashaad Penny were drafted later in redraft.",
+   "about": "Jadarian Price",
+   "about_player_id": "13286",
+   "source": "fantasy-footballers",
+   "videos": [
+    "umr8llJ05TE"
+   ],
+   "date": "2026-09-04"
   }
  ]
 }

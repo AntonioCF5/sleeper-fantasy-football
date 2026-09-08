@@ -1,12 +1,14 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-03** (expert-daily 9/3:
-Gallamijos League found to have TWO empty starting slots, not one — DB was
-never filled either; DYNASTY TRC compliance RESOLVED at 25/25 after six
-editions; Tre' Harris downgraded from claim to skip; D'Andre Swift left
-practice and his handcuff is already owned by a rival; FF feed at 4
-consecutive misses and escalated to investigation).*
+tooling, or league state. Last updated: **2026-09-07** (expert-daily 9/7,
+first edition since 9/3 — Week 1 opens Wednesday 9/9: the three broken IDP
+starting slots are STILL unfilled and the rulings were UPGRADED, not
+restated (Arvell Reese beats both standing picks in both leagues); Cedric
+Gray entered concussion protocol, making a third slot a coin flip; the user
+EXECUTED the DrBet trade and now owns Roschon Johnson, whose value collapsed
+Monday; NYG/Nagy confirmed as the last of 32 play-callers; three scheduled
+editions (9/4-9/6) never ran despite successful feed polls).*
 
 ## What this project is
 
@@ -133,6 +135,49 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **THREE BROKEN IDP STARTING SLOTS — DAY 6 UNEXECUTED, TWO DAYS TO
+  KICKOFF (2026-09-07).** Rulings in `waiver_claims.json` were UPGRADED
+  tonight, not restated. **Gallamijos Lg** (adds are instant free agents, no
+  waiver wait): add **Arvell Reese** (NYG, 21, No. 5 overall, DL+LB eligible,
+  85.5) drop **Roschon Johnson** (7.6); add **Xavier Watts** (DB, 97.5) drop
+  **Jack Bech** (77.9); add **Jamien Sherwood** (LB, 105.0) drop the Steelers
+  DEF. **FANTASY MEXICA** (daily waivers, 2-day clear): add **Arvell Reese**
+  (85.5) drop **Nicholas Singleton** (56.7). Reese SUPERSEDES the three-edition
+  Poona Ford ruling (69.0) and the three-edition Tuli Tuipulotu ruling (71.0)
+  — both are now fallbacks only. **NEW third slot:** Cedric Gray entered the
+  concussion protocol Monday after a UTV accident (Titans play Sunday), which
+  is what funds the Sherwood claim; Sherwood also outprojects a healthy Gray
+  (105.0 vs 98.5). Stated cost on record: dropping Bech leaves NO WR4 behind
+  two Questionable starters, and dropping the spare DEF ends the two-week-ahead
+  streaming plan.
+- [x] ✅ **ROSCHON JOHNSON DESK ITEM — EXECUTED BY THE USER 2026-09-03** (traded
+  Jacob Saylors to DrBet). The insurance expired within four days: Swift AND
+  Monangai both returned to practice Monday 9/7 and rotowire has Johnson as
+  Chicago's RB3 at 7.6. Lesson recorded: handcuff insurance bought at the peak
+  of a news cycle depreciates fastest — four days later he is the cheapest drop
+  on the roster.
+- [ ] 🔴 **THREE EDITIONS NEVER RAN (9/4, 9/5, 9/6).** `feed_health` records a
+  successful Fantasy Footballers poll on **9/5** and seven FF transcripts were
+  already cached on disk when tonight's run started — so a scheduled run did
+  fetch, and then produced no newsletter and no commit. This is a different
+  failure from the feed flakiness and needs the task logs checked before Week
+  1. (The FF feed itself is healthy: it failed the first two polls tonight and
+  recovered on the third; the 9/3 four-miss escalation is closed.)
+- [x] ✅ **NYG/NAGY CONFIRMED 2026-09-07** — ESPN's 32-team play-caller survey
+  and The Ringer's play-caller taxonomy both name Matt Nagy as the Giants'
+  play-caller. `team_env.json` updated. **All 32 play-callers are now verified;
+  none are presumed.** No in-season staff changes found.
+- [ ] **Start/sit calls carried into Week 1 (from the 9/7 edition):**
+  **Gallamijos Dyn** start Rico Dowdle + Josh Downs over De'Zhaun Stribling
+  (shoulder) and Adonai Mitchell = **+11.7**; **Dynasty Mexica** start MarShawn
+  Lloyd over Jeremiyah Love — a deliberate override of our own projection
+  (which prefers Love by 1.8) on role certainty in the floor phase.
+- [ ] **DYNASTY TRC — CMC watch.** McCaffrey did not practice Monday
+  (undisclosed) and SF plays **Thursday** in Australia. His clean handcuff,
+  Kaelon Black, is owned by **DiegoTostado** there; Guerendo (6.2, PUP) is the
+  only free SF back. Open the trade conversation before the news, not after.
+  (The user owns Black himself on the **Gallamijos Dyn** taxi.)
 
 - [ ] 🔴 **THREE EMPTY IDP STARTING SLOTS — AND IT IS WORSE THAN REPORTED
   (2026-09-03).** A full starters-vs-roster_positions read tonight found
