@@ -151,6 +151,7 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 | — | bola de pendejos hermosos | libre |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
 | 2026-09-09 | criaturas | usado — descansar |
+| 2026-09-09 | pinches salados | usado — descansar (tema de la sal: viene del himno, es vocabulario renovable) |
 | 2026-09-09 | señores del fantasy | usado — descansar |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
@@ -284,7 +285,7 @@ existe solo para re-revisar algo ya enviado.
 | Edición 0 | Dinastía | "Besitos dinásticos. Los observo. Sé dónde draftean." |
 | 2026-08-30 | Gallamijos (logo) | "...tú desde la banca, yo desde el escote. / Miroslava, que ahora también cubre la fuente institucional" |
 | 2026-08-31 | Gallamijos (post-draft) | "Nos leemos la próxima semana. Traigan roster, no excusas. / Los observo. / Miroslava, que ya sabe quién no va a mover un dedo" |
-| 2026-09-09 | Gallamijos (kickoff) | "Que ruede el balón. / Nos vemos en la cancha. / Miroslava, que ya abrió la carpeta de la jornada 1" |
+| 2026-09-09 | Gallamijos (kickoff) | "Que vuele el ovoide, pinches salados... / Nos vemos en la cancha. / Miroslava, que ya abrió la carpeta de la jornada 1" *(cierre final del user)* |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
@@ -343,6 +344,13 @@ cambios suyos sobre mi borrador, cada uno una regla:
 - *Ninguna línea es neutral.* Para su propio equipo yo escribí "presente"; él
   puso **"meh."** Aun la línea que por regla no lleva carrilla lleva actitud.
   Y el cariñito con veneno remata bien: **"Mejor sin catsup, corazón."**
+- 2026-09-09 · Dos toques del user al cierre de la edición kickoff: la
+  amenaza apunta al pecado REAL y a toda la ventana ("el que llegue al
+  DOMINGO con INACTIVOS", no "al jueves con el lineup del draft" — el
+  crimen de la jornada 1 es el inactivo del domingo), y estrenó despedida
+  de kickoff **"Que vuele el ovoide, pinches salados..."** — "ovoide" es
+  crónica deportiva pura y "salados" conecta con el tema de la sal del
+  himno: el vocabulario del himno ya permea al Destape, úsalo.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
