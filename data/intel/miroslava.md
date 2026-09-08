@@ -135,6 +135,7 @@ comparar el borrador contra la edición anterior.
 | 2026-09-09 | "pierde reglamentariamente" (Buz con defensa) | usado — descansar |
 | 2026-09-09 | "Publiqué UN ranking y dos franquicias se cambiaron el nombre / yo renuevo" | usado — descansar |
 | 2026-09-09 | "la cima por dos puntos = un gol de campo, Bebé" | usado — descansar |
+| 2026-09-09 | Anuncio del himno + verso "este año sí la hacemos" citado | usado — el himno queda ANUNCIADO al grupo; citarlo ya es costumbre válida (regla del canon), no repetición |
 | 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
