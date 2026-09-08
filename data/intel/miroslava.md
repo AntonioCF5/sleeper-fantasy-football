@@ -533,11 +533,14 @@ por ti").
 serio, letra 100% en broma** — el chiste vive en el contraste, no en la
 interpretación; el user pidió explícitamente versión cómica y SIN
 referencias a Torreón/el desierto. Versos canónicos, ya citables:
-- *"Cada domingo juramos que este año sí la hacemos"*
-- *"al segundo cuarto, todos ya sabemos que perdemos"*
-- *"Ofrecimos un trade: nadie. Subimos el FAAB: perdimos"*
-- *"Se rompió en el calentamiento el único que teníamos"*
-- *"¿Y quién gana? ¡YA VEREMOS!"* (llamada y respuesta del puente)
+- *"Cada agosto juramos que este año sí la hacemos"*
+- *"al segundo pick, todos ya sabemos que perdemos"*
+- *"Ofrecimos un trade: nadie. Metimos un sliper: perdimos"*
+- *"El primer pick se rompió y mi core la cagó"*
+- *"Pura pinche sal, sin memoria y sin pudor"* (segundo coro — varía una línea)
+- *"Puro pinche salado / ¡YA VEREMOS!"* (puente) · *"¡Trooost!"*
+(GRABADO 2026-09-08 — letra final del user en himno-gallamijos.md; citar
+SIEMPRE de esa letra, con ortografía normal al escribir: agosto, waiver.)
 - *"Puros pinches cabrones sin memoria y sin pudor"*
 - *"La banca anotó cuarenta, el titular ni apareció"*
 - *"pedimos waiver el martes y el pinche kicker falló"*

@@ -13,8 +13,7 @@
 
 ---
 
-## LETRA (v2 — versión fight song)
-*(pégala tal cual en el campo de lyrics, con las etiquetas y todo)*
+## LETRA (FINAL — versión del user, 2026-09-08, la que se grabó)
 
 ```
 [Intro - drumline, la grada corea]
@@ -22,9 +21,9 @@
 ¡GA! ¡LA! ¡MI! ¡JOS!
 
 [Verso 1]
-Cada domingo juramos
+Cada Agosto juramos
 que este año sí la hacemos;
-al segundo cuarto, todos
+al segundo pick, todos
 ya sabemos que perdemos.
 
 [Coro]
@@ -37,28 +36,28 @@ sin memoria y sin pudor.
 [Verso 2]
 La banca anotó cuarenta,
 el titular ni apareció,
-pedimos waiver el martes
+pedimos weiver el martes
 y el pinche kicker falló.
 
 [Coro]
 ¡Galamijos! ¡Galamijos!
 Azul y rojo, escudo y honor.
 ¡Galaghers y Mijos!
-Puros pinches cabrones
+Pura pinche sal
 sin memoria y sin pudor.
 
 [Verso 3]
 Ofrecimos un trade: nadie.
-Subimos el FAAB: perdimos.
-Se rompió en el calentamiento
-el único que teníamos.
+Metimos un sliper: perdimos.
+El primer pick se rompió
+Y mi core la cagó.
 
 [Puente - solo batería, grito de tribuna]
 ¿Quiénes somos?
 ¡GALAMIJOS!
-¿Y quién gana?
+Puro pinche salado
 ¡YA VEREMOS!
-¡Trust! ¡Trust! ¡Trust!
+¡Trooost!
 
 [Coro final]
 ¡Galamijos! ¡Galamijos!
@@ -70,18 +69,15 @@ Perdimos por dos puntos...
 ¡GA-LA-MI-JOS!
 ```
 
-**Qué cambió respecto a la versión marcha.** La letra vieja estaba escrita
-para 92 BPM: frases largas que a 150 se atropellan. Esta corta el verso 1 (se
-fue "y para el"), suma un verso 3 con tres dolores más de fantasy, y mete un
-**puente de batería con llamada y respuesta** — que es la firma de un fight
-song y lo que hace que la grada participe sin saberse la letra. Entra
-**"¡Trust!"**, la palabra de celebración del grupo, justo donde el estadio
-grita. Se conservan intactos los versos que ya son escritura sagrada: *"sin
-memoria y sin pudor"*, *"La banca anotó cuarenta"* y *"¡pero el año que entra
-sí, cabrón!"*.
-
-Sigue **sin cifras y sin nombres propios**, por la regla de siempre: el himno
-tiene que servir igual en 2026 que en 2035.
+**Ediciones del user sobre mi v2 (lecciones):** "cada domingo/segundo
+cuarto" → **"cada Agosto/segundo pick"** — el juramento de fantasy es en
+agosto y se muere en el draft, no en la cancha: lo específico del juego le
+gana a lo genérico del deporte. El **segundo coro varía una línea** ("Pura
+pinche sal") en vez de repetirse idéntico. La **fonética se extiende a los
+términos en inglés**: weiver, sliper, Trooost (alargado como grito). Entra
+el tema de **la sal / el salado** ("Puro pinche salado") — vocabulario
+nuclear del grupo. Y el verso 3 cierra en primera persona: "mi core la
+cagó" — el himno lo canta el que sufre.
 
 ---
 
