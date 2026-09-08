@@ -33,6 +33,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ESCUDO_SVG = ROOT / "data" / "intel" / "brand" / "gallamijos-escudo.svg"
+HIMNO = ROOT / "data" / "intel" / "brand" / "himno-gallamijos.mp3"
+# Con himno el outro dura 10s (la entrada del track es drumline + porra
+# "¡GA-LA-MI-JOS!" — cama perfecta para "Los observo."); sin himno, 3.5s
+# mudos como antes. El mp3 trae carátula embebida: mapear 0:a, nunca 0:v.
 NAVY, ROJO, GRIS, GRISOSC = "#0A1428", "#D50A0A", "#AFBBD0", "#5B6B85"
 FF = 'font-family="Arial Black, Arial" font-weight="900"'
 FR = 'font-family="Arial" font-weight="bold"'
@@ -141,6 +145,10 @@ def main():
 {sub_estatico}
 <rect x="0" y="1290" width="1080" height="8" fill="{ROJO}"/>
 <text x="540" y="1790" text-anchor="middle" {FR} font-size="34" fill="{GRISOSC}">GALLAMIJOS · EST. 2015</text>''')
+        con_himno = HIMNO.exists()
+        d_out = 10 if con_himno else 3.5
+        audio_outro = (["-i", str(HIMNO)] if con_himno else
+                       ["-f", "lavfi", "-t", str(d_out), "-i", "anullsrc=r=48000:cl=stereo"])
         cues_png = cue_pngs(tmp, escaleta) if escaleta else []
         t_outro = texto_png(tmp, "outro", f'''
 <text x="540" y="1200" text-anchor="middle" {FF} font-size="96" fill="#FFF">Los observo.</text>
@@ -162,13 +170,15 @@ def main():
                  f"[c{j}][{3 + j}:v]overlay=0:0:enable='between(t,{c['t0']},{c['t1']})'[c{j + 1}];"
                  for j, c in enumerate(escaleta or [])) +
              f"[c{len(escaleta or [])}]fade=t=in:st=0:d=0.3[v]"),
-            (3.5, ["-f", "lavfi", "-i", f"{base}:d=3.5", "-f", "lavfi", "-t", "3.5",
-                   "-i", "anullsrc=r=48000:cl=stereo", "-i", str(escudo), "-i", str(t_outro)],
+            (d_out, ["-f", "lavfi", "-i", f"{base}:d={d_out}", *audio_outro,
+                     "-i", str(escudo), "-i", str(t_outro)],
              "[2:v]scale=-1:520[e];[0:v][e]overlay=(W-w)/2:400[v1];[v1][3:v]overlay,"
-             "fade=t=in:st=0:d=0.4,fade=t=out:st=3:d=0.5[v]"),
+             f"fade=t=in:st=0:d=0.4,fade=t=out:st={d_out - 1}:d=1[v]"
+             + (f";[1:a]atrim=0:{d_out},volume=0.9,afade=t=out:st={d_out - 2}:d=2[a]"
+                if con_himno else "")),
         ]):
             seg = tmp / f"seg{n}.mp4"
-            amap = "0:a" if n == 1 else "1:a"
+            amap = "0:a" if n == 1 else ("[a]" if n == 2 and con_himno else "1:a")
             run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", fc,
                  "-map", "[v]", "-map", amap, *ENC, str(seg)])
             segs.append(seg)
@@ -179,7 +189,8 @@ def main():
         run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0",
              "-i", str(lista), "-c", "copy", str(salida)])
     mb = salida.stat().st_size / 1e6
-    print(f"[montaje] {salida} listo ({mb:.1f} MB, {dur + 6.5:.0f}s)")
+    print(f"[montaje] {salida} listo ({mb:.1f} MB, {dur + 3 + d_out:.0f}s"
+          f"{', outro con himno' if con_himno else ''})")
 
 
 if __name__ == "__main__":

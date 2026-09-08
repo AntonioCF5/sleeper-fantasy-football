@@ -82,6 +82,7 @@ envío directo) + commit de escaleta/guion. El video final está gitignored.
 
 ## Pendientes vivos
 
-- Himno de Suno como cama musical del outro (esperando el mp3 del user).
+- ~~Himno como cama del outro~~ HECHO (2026-09-08): `brand/himno-gallamijos.mp3`,
+  el montaje lo detecta y alarga el outro a 10s con fade.
 - Sincronía por transcripción real (whisper) si el desfase estimado por
   palabras resulta molesto en la práctica.
