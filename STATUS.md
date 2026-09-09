@@ -1,14 +1,15 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-07** (expert-daily 9/7,
-first edition since 9/3 — Week 1 opens Wednesday 9/9: the three broken IDP
-starting slots are STILL unfilled and the rulings were UPGRADED, not
-restated (Arvell Reese beats both standing picks in both leagues); Cedric
-Gray entered concussion protocol, making a third slot a coin flip; the user
-EXECUTED the DrBet trade and now owns Roschon Johnson, whose value collapsed
-Monday; NYG/Nagy confirmed as the last of 32 play-callers; three scheduled
-editions (9/4-9/6) never ran despite successful feed polls).*
+tooling, or league state. Last updated: **2026-09-08** (expert-daily 9/8 —
+Week 1 opens Wednesday 9/9. BOTH expert feeds missed this run (Sal 1, FF 2
+consecutive), so no takes were distilled; news/injuries published as normal.
+The three broken IDP starting slots are STILL unexecuted on day 7, and the
+rulings were re-verified free tonight. Two corrections went on record: the
+9/7 Dynasty Mexica start/sit was REVERSED (GB's OC declared a committee),
+and the user does NOT own Kaleb Johnson in DYNASTY TRC — RGV95 does.
+TreVeyon Henderson was ruled OUT of Wednesday's opener, which locks
+Rhamondre Stevenson into the TRC lineup before kickoff.)*
 
 ## What this project is
 
@@ -135,6 +136,64 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **THREE BROKEN IDP STARTING SLOTS — DAY 7, WEEK 1 OPENS TOMORROW
+  (2026-09-08).** Re-verified live tonight: **Arvell Reese** (85.5) is STILL
+  free in both IDP leagues and **Xavier Watts** (97.5) STILL free in
+  Gallamijos Lg. **Gallamijos Lg** (instant adds, roster FULL 17/17): add
+  Reese drop **Roschon Johnson** (7.6, CHI depth 3 — he trends #1 in fantasy
+  again at 264k on Monangai's Questionable knee, but depth 3 fails the
+  clean-handcuff test and he projects 0.26 this week); add Watts drop the
+  **Steelers DEF** (NOT Jack Bech — Chase and Egbuka are both still
+  Questionable). LB slot stays CONDITIONAL on Wednesday's reports; new fork
+  recorded — **Demetrius Knight** is the better Week-1 body (7.27) than
+  Sherwood (6.34), Sherwood the better season (105.0 vs 98.0).
+  **FANTASY MEXICA** (FULL 19/19, waiver_type 1, 2-day clear): add Reese drop
+  **Nicholas Singleton** — **entered Tuesday night it lands Thursday; entered
+  Thursday it misses Sunday.** Tuipulotu was claimed in Gallamijos Lg today
+  (Jebusf), so **Poona Ford** is the only fallback there; Tuipulotu is still
+  free in MEXICA.
+- [ ] 🔴 **START/SIT BEFORE WEDNESDAY'S OPENER (DYNASTY TRC, +4.6).**
+  TreVeyon Henderson was **ruled OUT** of Wednesday's NE-SEA opener
+  (Reiss/ESPN): start **Rhamondre Stevenson** (15.4) over **MarShawn Lloyd**
+  (10.9) and **Travis Kelce** (11.0) over **Tucker Kraft** (10.9). Leave
+  **Chris Godwin** in the flex — do NOT insert Khalil Shakir, who has not
+  practiced since Aug 20.
+- [x] ✅ **DYNASTY MEXICA START/SIT REVERSED 2026-09-08** — start **Jeremiyah
+  Love** (11.7) over **MarShawn Lloyd** (9.9), undoing the 9/7 override. That
+  override's premise was "Lloyd is Green Bay's RB1"; OC Adam Stenavich said
+  Tuesday the Packers will run "running back by committee for a little bit"
+  with Kaleb Johnson and Chris Brooks. Arizona listed **Tyler Allgeier** RB1
+  over Love the same afternoon, so both backfields are now splits — the
+  tiebreak goes to the No. 3 overall pick whose coach expects him to play.
+  Allgeier is rostered in **all six** in-season leagues; no claim exists.
+- [x] ✅ **CMC WATCH CLOSED 2026-09-08** — McCaffrey is off San Francisco's
+  first injury report entirely (Maiocco), back to 100%. No trade approach to
+  DiegoTostado for Kaelon Black is needed.
+- [ ] 🔴 **CORRECTION ON RECORD 2026-09-08: the user does NOT own Kaleb
+  Johnson in DYNASTY TRC — RGV95 does** (live ownership sweep). Prior
+  editions and the MarShawn Lloyd protected-hold ruling both stated he held
+  "the entire viable GB backfield"; that is retracted in
+  `waiver_claims.json`. It matters because Kaleb Johnson is one of the backs
+  Stenavich named as splitting Lloyd's work — and RGV95 is also the partner
+  on the standing Goff-for-Odunze offer.
+- [ ] **Baker Mayfield signed a 3yr/$165M extension 2026-09-08.** This
+  retires the reason given on 9/3 for holding Tyler Shough over the spare
+  Gallamijos Lg defense ("Mayfield is 31 in a contract year"). Shough still
+  stays, but on his own merits (270.9), not on QB insurance.
+- [ ] 🔴 **EXPERT FEEDS: BOTH MISSED 2026-09-08.** Sal Vetri 1 consecutive
+  miss, The Fantasy Footballers 2 consecutive — FF's second escalation cycle
+  in six days (it hit 4 on 9/3). One more FF miss crosses the 3+ escalation
+  threshold, and the miss that matters is Tuesday's waivers video. Nothing
+  was marked processed, so both backlogs catch up automatically. Worth a
+  manual `curl` of the FF channel feed in a live session.
+- [ ] **Gallamijos Lg IR correction (2026-09-08)**: 2 reserve slots are open
+  and all `reserve_allow_*` flags read 0, so the league takes Sleeper-tagged
+  **IR players only** — Christian Kirk (46.4) qualifies. Correcting the 9/7
+  phrasing: the drop it costs is **permanent**; the IR slot only means Kirk
+  never occupies an active spot.
+- [ ] **Aaron Donald is now tagged Out** and projects 0.00 in Week 1. The
+  MEXICA unretirement ceiling swing is dead for now; Reese is the DL fix.
 
 - [ ] 🔴 **THREE BROKEN IDP STARTING SLOTS — DAY 6 UNEXECUTED, TWO DAYS TO
   KICKOFF (2026-09-07).** Rulings in `waiver_claims.json` were UPGRADED
