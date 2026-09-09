@@ -101,6 +101,10 @@ premios (vestido rojo, alfombra con escudos GM) · gabardina de
 corresponsal (ediciones de crisis) · suéter navideño (semanas 15-17).
 Los prompts completos están en el historial y se re-derivan de esta lista;
 un outfit aprobado se guarda como `miroslava-<outfit>.png` en esta carpeta.
+**Aprobado y en uso: `miroslava-jersey.png`** (jersey GALLAMIJOS anudado,
+gorra al revés, tailgate con asadores) — estrenado en el video-anuncio del
+himno, 2026-09-09. Sirve como avatar de HeyGen igual que el frontal: la
+cara se mantuvo idéntica a la referencia.
 
 ## Receta de consistencia
 

@@ -1,0 +1,10 @@
+[
+  {"t0": 0, "t1": 39.4, "tipo": "seccion", "grande": "🎺 AVISO INSTITUCIONAL"},
+
+  {"t0": 0.8,  "t1": 4.9,  "tipo": "dato", "grande": "🎺 HIMNO OFICIAL", "chico": "La Gallamijos · est. 2015"},
+  {"t0": 8.0,  "t1": 17.1, "tipo": "dato", "grande": "🎵 «cada agosto juramos»", "chico": "…que este año sí la hacemos"},
+  {"t0": 17.4, "t1": 24.4, "tipo": "dato", "grande": "🎵 «sin memoria y sin pudor»", "chico": "El coro — ahí están todos"},
+  {"t0": 25.0, "t1": 30.9, "tipo": "dato", "grande": "🤚 UNA MANO EN EL PECHO", "chico": "La otra en el waiver"},
+  {"t0": 31.2, "t1": 36.9, "tipo": "dato", "grande": "📚 VIENE EXAMEN", "chico": "Se cita en cada tropiezo"},
+  {"t0": 37.2, "t1": 39.4, "tipo": "dato", "grande": "👀💋"}
+]

@@ -116,10 +116,13 @@ momento). Los TIEMPOS se estiman por proporción de palabras del guion
 que las etiquetas v3 — la escaleta del piloto
 (`reports/2026/roast/destape-gallamijos-2026-08-31-escaleta.json`) es la
 plantilla. Todo dato de tarjeta sale de la hoja de hechos o del texto
-aprobado, nunca inventado. RESUELTO 2026-09-08: el himno grabado vive en
-`data/intel/brand/himno-gallamijos.mp3` (2:24) y el montaje lo usa solo:
-si el archivo existe, el outro dura 10s con la entrada del track (drumline
-+ porra) como cama, fade de 2s al final; sin archivo, outro mudo de 3.5s. NOTA para HeyGen: la foto de avatar es apaisada, por eso llega
+aprobado, nunca inventado. RESUELTO 2026-09-08/09: el himno grabado vive en
+`data/intel/brand/himno-gallamijos.mp3` (2:24) y el montaje lo usa solo, en
+LAS DOS cartas y con fragmentos DISTINTOS (repetir el mismo pedazo en un
+video corto se siente pobre): **intro 3s** con la apertura (drumline +
+porra) y **outro 10s** con el FINAL del track (clímax + «¡GA-LA-MI-JOS!»),
+de modo que el video termina justo cuando termina la canción. Sin el
+archivo, cartas mudas como antes. NOTA para HeyGen: la foto de avatar es apaisada, por eso llega
 letterboxed; el montaje ya cuenta con eso — no "arreglarlo" recortando la
 foto sin recalibrar el montaje. Los pasos 2-3 viven en Artlist vía navegador. Sin llaves
 que registrar: la sesión de Artlist del user en Chrome es la credencial.

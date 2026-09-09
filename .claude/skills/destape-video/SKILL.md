@@ -77,12 +77,19 @@ envío directo) + commit de escaleta/guion. El video final está gitignored.
 - Las barras del letterbox de HeyGen son BLANCAS: cropdetect necesita
   `negate` antes.
 - zsh no divide variables sin comillas: `${=VAR}` o listas explícitas.
+- El mp3 del himno trae CARÁTULA embebida (stream mjpeg): todo filtro o
+  medición de audio sobre él necesita `-map 0:a` / selector `[N:a]`, o la
+  cadena falla EN SILENCIO (sin error, sin salida).
+- El avatar no tiene que ser el frontal de estudio: `brand/miroslava-jersey.png`
+  (tailgate) funcionó igual en HeyGen. El guardarropa de
+  `miroslava-personaje.md` da variantes por ocasión — la cara no cambia.
 - Cambios de proceso ordenados por el user → actualizar este skill + el
   pipeline doc en el mismo commit.
 
 ## Pendientes vivos
 
-- ~~Himno como cama del outro~~ HECHO (2026-09-08): `brand/himno-gallamijos.mp3`,
-  el montaje lo detecta y alarga el outro a 10s con fade.
+- ~~Himno como cama del outro~~ HECHO (2026-09-08/09): el montaje detecta
+  `brand/himno-gallamijos.mp3` y lo pone en intro (apertura, 3s) y outro
+  (final del track, 10s) — fragmentos distintos a propósito.
 - Sincronía por transcripción real (whisper) si el desfase estimado por
   palabras resulta molesto en la práctica.
