@@ -404,17 +404,66 @@
   },
   "Nt56n4_forg": {
    "processed": "2026-09-07"
+  },
+  "2sn8gIwtACo": {
+   "video_id": "2sn8gIwtACo",
+   "title": "I'm Facing Jynxzi In The Flock League This Week",
+   "published": "2026-09-09",
+   "source": "sal-vetri",
+   "processed": "2026-09-09"
+  },
+  "3CyMYwx-B88": {
+   "video_id": "3CyMYwx-B88",
+   "title": "7 Players Who Will Ruin Your Fantasy Team (trade them now)",
+   "published": "2026-09-08",
+   "source": "sal-vetri",
+   "processed": "2026-09-09"
+  },
+  "o2XP6h6FOmc": {
+   "video_id": "o2XP6h6FOmc",
+   "title": "It's FOOTBALL TIME + Super Bowl Picks | Fantasy Football 2026 - Ep. 1968",
+   "published": "2026-09-09",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-09"
+  },
+  "or6Qm97rTE8": {
+   "video_id": "or6Qm97rTE8",
+   "title": "Malik Willis a better Week 1 start than Nix and Mahomes? \ud83d\udc40",
+   "published": "2026-09-09",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-09"
+  },
+  "eXFit4QaLzc": {
+   "video_id": "eXFit4QaLzc",
+   "title": "TreVeyon Henderson has been ruled OUT for the SEA vs NE game...",
+   "published": "2026-09-08",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-09"
+  },
+  "XskfUUZs59I": {
+   "video_id": "XskfUUZs59I",
+   "title": "Undrafted Gems + ALMOST Football Time! | Fantasy Football 2026 - Ep. 1967",
+   "published": "2026-09-08",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-09"
+  },
+  "31kxOjll4Pw": {
+   "video_id": "31kxOjll4Pw",
+   "title": "Last Place Fantasy Punishment for the LOR",
+   "published": "2026-09-08",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-09"
   }
  },
  "feed_health": {
   "sal-vetri": {
-   "consecutive_failures": 1,
-   "last_success": "2026-09-07",
-   "last_failure": "2026-09-08"
+   "consecutive_failures": 0,
+   "last_success": "2026-09-09",
+   "last_failure": "2026-09-09"
   },
   "fantasy-footballers": {
-   "consecutive_failures": 2,
-   "last_success": "2026-09-07",
+   "consecutive_failures": 0,
+   "last_success": "2026-09-09",
    "last_failure": "2026-09-08"
   }
  }

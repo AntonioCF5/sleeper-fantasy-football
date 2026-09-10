@@ -691,3 +691,46 @@ and Brian Thomas Jr. for him inside 24 hours.
 - ⚠️ **Davante Adams — no stated mechanism at all.** Conviction with no
   testable channel; recorded as unsupported opinion, never to be repeated as
   reasoning.
+
+## 2026-09-09 — Week-1 lineup craft + the pre-Week-1 sell window (Sal 9/8-9/9, FF Ep. 1967-1968)
+
+- **Early-week players never go in the FLEX** [Sal]: a Wednesday/Thursday
+  player sits in his positional slot so the flex stays open to absorb Sunday
+  injury news. Free lineup insurance; adopt for every Thursday-game week.
+- **Kicker selection is an offense-behavior read, not a leg read** [Sal]:
+  a good kicker on a mediocre, non-aggressive offense (settles for 40-60-yard
+  FGs, rarely goes for it on 4th) beats a better kicker on an aggressive,
+  TD-heavy offense (DET/LAR/DAL) whose drives end in PATs. Our K projections
+  are volume-agnostic on 4th-down tendency — treat this as a tie-break, not a
+  swap trigger (we hold Bates in two leagues with no alternative rostered).
+- **Vegas reception props are a usage read** [Sal]: a player whose Week-1
+  receptions O/U is 3 (Matthew Golden) is a flex, not a WR2, whatever the
+  season projection says. Cheap to check every Thursday for owned flex calls.
+- **"Undisclosed soreness" on a previously-injured joint is the injury** [Sal]:
+  when a team refuses to name where a two-time-ACL back is sore, read it as
+  the knee. Extends the second-opinions-are-bad-news rule.
+- **The days before Week 1 are the sell-high peak for camp-hype players**
+  [Sal]: benchmark offers against trades actually clearing that week in other
+  leagues (his comps: Lloyd → Waddle/Odunze/Harrison/Watson). Applied tonight:
+  the RGV95 offer was rebuilt from Goff to Lloyd because the comp market and
+  our own negative gap on Lloyd (-36.9 TRC) point the same way.
+- **Depth-chart order does not name the injury successor** [FF]: evaluate the
+  more talented backup (Coleman over Harvey, Vidal behind Hampton, Gordon
+  over Wright), not the listed two. Matches our rushing-profile handcuff rule.
+- **Exempt-list players cannot be placed on IR** [FF]: a Jacobs stash costs a
+  real bench spot for the life of the case.
+
+### Mechanism audit log (this batch)
+
+- ⚠️ **Sal's Josh Downs sit** bundles two mechanisms that pull opposite ways:
+  "3rd/4th option behind Warren, Pierce, Keenan Allen" (a share claim, testable —
+  Pierce is back but not 100%) and "QB off an Achilles" (which FF's own
+  framework says pushes volume to SHORT-area targets — i.e. the slot WR). The
+  conclusion gets a discount, not a sit: 12.5 vs Aaron Jones 8.8 survives it.
+- ⚠️ **Sal's London sell = "Tua craters the offense"** — a QB-quality claim
+  stated with no number; our ATL environment tier already prices the Tua
+  start. Recorded as opinion; the London posture stays hold (fair market gap
+  -3.2 in Dynasty Mexica).
+- ✅ **Lloyd sell-high** passes: 9 career touches, 116-carry college high,
+  29th-ranked O-line, exempt-list precedent (5-15 games) — all checkable and
+  all aligned with our negative gap. Mechanism and conclusion agree.

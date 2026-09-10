@@ -1,15 +1,16 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-08** (expert-daily 9/8 —
-Week 1 opens Wednesday 9/9. BOTH expert feeds missed this run (Sal 1, FF 2
-consecutive), so no takes were distilled; news/injuries published as normal.
-The three broken IDP starting slots are STILL unexecuted on day 7, and the
-rulings were re-verified free tonight. Two corrections went on record: the
-9/7 Dynasty Mexica start/sit was REVERSED (GB's OC declared a committee),
-and the user does NOT own Kaleb Johnson in DYNASTY TRC — RGV95 does.
-TreVeyon Henderson was ruled OUT of Wednesday's opener, which locks
-Rhamondre Stevenson into the TRC lineup before kickoff.)*
+tooling, or league state. Last updated: **2026-09-09** (expert-daily 9/9 —
+Week 1 is live; NE-SEA played Wednesday. Both expert feeds recovered (7
+videos, 144 takes). Brock Bowers had a meniscus trim and misses 1-2 games:
+MEXICA has NO backup TE (Mayer claim, Dulcich second), and the user added
+Mayer in Gallamijos Lg himself by cutting Cedric Gray — so that league now
+has THREE empty IDP starting slots (Reese / Watts / NEW Devin Lloyd). The
+RGV95 offer was rebuilt from Goff-for-Odunze to LLOYD-for-Odunze (+36.5)
+on Sal's sell-high comps + our negative Lloyd gap. Two league-state
+discoveries: the user is NOT in Guillotine MX any more (drafted 9/6
+without him) and Guillotine TRC drafted 9/8 (14/14, $1000 FAAB).)*
 
 ## What this project is
 
@@ -24,10 +25,10 @@ loop is always: **Claude analyzes → user executes in the Sleeper app.**
 |---|---|---|---|
 | FANTASY MEXICA | 18t, half PPR, 6pt paTD, IDP, keeper | **in_season — DRAFTED (slot 10)** | Post-draft: Kenneth Walker (1.10) + Bowers (2.27) + Garrett Wilson (3.46); Shough kept at R10 as the starting QB with Daniel Jones behind him. Pre-draft plan preserved at `reports/2026/draft/fantasy-mexica-draft-plan.md`. K. Walker's foot (Q) is the live risk. |
 | Gallamijos League | 18t, full PPR + bonos de yardaje (100/200 rush-rec, 300/400 pase — NO es PPFD), IDP | **in_season — DRAFTED from slot 2**. Took Ja'Marr Chase at 1.02 (the user's call over the checklist's RB anchor), then Swift/Egbuka/Dobbins/MHJ. ⚠️ **DL starting slot left EMPTY** — see pending actions. | Post-draft: WR-anchored (Chase / Egbuka / MHJ) with a five-deep RB room (Swift, Dobbins, Corum, Marks, Mitchell) and Mayfield at QB. Two DEFs carried for two-week-ahead streaming, per the 18-team rule. Egbuka's turf toe is the live Week-1 risk. |
-| 🪓 Guillotine MX | 18t, superflex, 6pt paTD | pre_draft, **order not set** | QB Hammer: 3 QBs in first 5 picks |
-| 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | pre_draft, **order not set** | Robust RB floor + QB R7-9; hoard FAAB |
+| 🪓 Guillotine MX | 18t, superflex, 6pt paTD | ⚠️ **USER NOT IN LEAGUE** — drafted 2026-09-06 with 18 rosters, none his (found 9/9). config.json still lists it; re-run setup_user.py or confirm intentional. | — |
+| 🪓 Guillotine TRC | 18t, full PPR, 1QB, $1000 FAAB | **in_season — DRAFTED 2026-09-08** (14/14: Lamar, Gibbs, G.Wilson, Godwin, Likely, MHJ, Shakir, Marks, Willis, Tucker, Dotson, Kolar, Saylors, Kaleb Johnson) | Survive weekly; $1000 FAAB untouched — hoard for the post-Week-1 cut wire. Week 1: Tre Tucker over MHJ in the flex (+1.2). |
 | Dynasty Mexica | 12t, half PPR | in_season, **#1 of 12** | Win-now. Burrow UNTRADEABLE (Bengals fan) — he's Maye insurance; TE surplus (LaPorta) is the RB2 trade capital |
-| DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: Goff is the tradeable QB surplus (Burrow untouchable) → WR2/TE; pounce trigger armed |
+| DYNASTY TRC | 10t, full PPR (co-owned w/ charlyae17) | in_season, #7 of 10 | One move away: **Lloyd-for-Odunze to RGV95 (rebuilt 9/9, +36.5; Goff version is the fallback — RGV95 carries three QBs)**; Burrow untouchable |
 | League of Record | 12t, **dynasty**, TE-prem, 6pt paTD | in_season, #8 of 12 | Stroud is the trade chip; Bowers untouchable; RB is the hole. (Confirmed settings.type=2 — apply dynasty rules here, incl. dynasty-value waivers and trade-posture framing.) |
 | Gallamijos Dynasty | 12t, full PPR | in_season, #10 of 12 | Rebuild: sell Mahomes/Montgomery for youth + 2027 firsts (offer out to ElGeneral4 for Jeanty) |
 
@@ -136,6 +137,43 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **MEXICA TE ZERO (2026-09-09).** Bowers: meniscus trim Tuesday, out
+  "a game or two" (Schefter), Doubtful, projects 0.0 — and the roster has NO
+  other TE. Claim **Michael Mayer** (LV TE1, 6.4) with **Greg Dulcich** (5.7)
+  as the ordered second claim, both dropping the **spare Arizona DEF**
+  (drop switched from Jonah Coleman after FF named Coleman the DEN successor
+  over Harvey). waiver_type 1 (reverse-standings priority), 2-day clear:
+  **entered Wednesday night it lands Friday; entered Friday it misses Sunday.**
+  Same clock for the day-8 **Arvell Reese** claim (drop Singleton).
+- [ ] 🔴 **GALLAMIJOS LG — THREE EMPTY IDP SLOTS (2026-09-09).** The user
+  added Mayer ~3pm by dropping **Cedric Gray** (his LB), so DL, LB and DB all
+  read 0. Instant adds: **Reese** for Roschon Johnson (Monangai cleared —
+  Johnson is a healthy team's RB3), **Xavier Watts** for the Steelers DEF
+  (~2.4 cost Sunday; LAR is the keeper), and NEW **Devin Lloyd** (CAR LB,
+  107.0 / 7.4 — cut by alealvarez7 9/8) for Jack Bech; the Bech condition is
+  met (Chase and Egbuka both full practice, no designation). Fallbacks:
+  Sherwood (105.0), Knight (98.0).
+- [ ] 🔴 **RGV95 OFFER REBUILT (DYNASTY TRC): Lloyd for Odunze.** RGV95 has
+  three QBs (Goff was never landing), RB3 is an OUT Henderson, and he owns
+  Kaleb Johnson. You 2077.9 → 2114.4 (+36.5), him −0.4. Sal's 9/8 sell-high
+  video lists Lloyd-for-Odunze among trades clearing this week; our gaps
+  agree (Lloyd −36.9, Odunze +22.6). Lloyd stays a HOLD in Dynasty Mexica.
+- [ ] **Sam Darnold (hip) left the Wednesday opener** — he is a piece the user
+  RECEIVES in the Jro91 package. Hold the package as built; if Jro91 pulls
+  Darnold, take the 2-for-3. JSN (LoR WR1) carries an unapplied Drew Lock
+  discount if this is multi-week.
+- [ ] **Start/sit for Week 1 (from 9/9):** Gallamijos Dyn Downs + Nailor in
+  for Aaron Jones + Mike Washington (+8.0, Dowdle half already done);
+  DYNASTY TRC Godwin over Lloyd, Kraft over Kelce (+2.8); Dynasty Mexica
+  Love over Lloyd (+2.3, still unexecuted — Love limited Wed, check Friday);
+  LoR Stroud over Mahomes (+1.6); Guillotine TRC Tucker over MHJ (+1.2).
+- [ ] **🪓 Guillotine MX: the user is NOT in the league** (18 rosters, none
+  his; drafted 9/6). config.json still lists it — needs the user's word or a
+  `setup_user.py` re-run. Guillotine TRC drafted 9/8; first-guillotine plan
+  due in the next edition.
+- [x] ✅ **Expert feeds recovered 2026-09-09** — Sal 2 misses, FF 2 misses,
+  both caught up (7 videos), nothing lost. Escalation closed.
 
 - [ ] 🔴 **THREE BROKEN IDP STARTING SLOTS — DAY 7, WEEK 1 OPENS TOMORROW
   (2026-09-08).** Re-verified live tonight: **Arvell Reese** (85.5) is STILL
