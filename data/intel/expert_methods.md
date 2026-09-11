@@ -734,3 +734,56 @@ and Brian Thomas Jr. for him inside 24 hours.
 - ✅ **Lloyd sell-high** passes: 9 career touches, 116-carry college high,
   29th-ranked O-line, exempt-list precedent (5-15 games) — all checkable and
   all aligned with our negative gap. Mechanism and conclusion agree.
+
+## 2026-09-11 batch (Sal Week-1 RB top-40 + FF Ep. 1969 / shorts)
+
+- **Week-1 RB ranks start from Vegas, not touches** [Sal]: implied team total
+  + spread first, then role. A favorite with a top-8 implied total gets volume
+  AND TD equity (Hampton RB3-4 case at 28.5/−9.5); a low-total dog is capped
+  regardless of touches (Judkins at CLE 16.5 = RB22 ceiling). Reusable every
+  Tuesday: pull implied totals before re-ranking owned flex RBs.
+- **Official depth charts are ignored** [Sal: "a PR intern puts it out"]:
+  splits come from camp usage and role shape (pass-catcher vs early-down/
+  goal-line body). Same rule as our vacated-share approach — never cite a
+  depth chart as the mechanism for a start/sit.
+- **Judge a debut by usage, not efficiency** [FF, Stevenson]: snap share
+  (60/71), yards-after-contact share (50/51), YPC excluding backfield hits
+  (4.69) separate an OL failure from an RB decline. Extends the
+  O-line-independent metrics rule to the in-season buy-low decision.
+- **Week 1 is a WATCH week** [FF]: snap counts and pecking order in ambiguous
+  rooms (TB WR3, HOU RB, JAX WR, NE WR, CAR RB) set Week-2+ waiver priority;
+  starts-of-the-week are borderline calls with a matchup edge, not the
+  top projection.
+- **Betz meniscus rule**: a trim on a knee with a prior PCL strain = recurring
+  instability, rest-of-season effectiveness risk (Pearsall precedent); team
+  "1-2 game" timelines are aggressive, 3-4 weeks is realistic. Adds to the
+  actuarial table (ACL/hamstring/turf toe).
+- **Coach injury statements are noise** [FF]: Kubiak's "everyone will suit
+  up" landed an hour before Bowers' surgery news. Practice/medical reporting
+  over podium optimism — already our camp-report rule, now confirmed
+  in-season.
+- **Scheme-matchup stacking** [FF]: an OC's run-type rate (Robinson #1 zone
+  rate over 5 yrs) × the defense's YPC allowed on that run type (CIN ~5.0 vs
+  zone) is a legitimate, checkable start-of-the-week mechanism.
+- **Ceiling-TE snap threshold** [FF]: the breakout case needs ~75% snaps; a
+  50% Week-1 share kills it (Kincaid). Pairs with the 17%-target-share
+  streaming rule.
+- **Rookie-hype RB in a designed committee** [FF, Price]: a good debut peaks
+  at RB17-25 — the SEA box score mirrors last year's Walker/Charbonnet
+  split; do not project a bell cow off one game.
+
+### Mechanism audit log (this batch)
+
+- ⚠️ **Source conflict on Bucky Irving**: Sal RB23 (game-script risk as a
+  3.5-pt dog; Gainwell takes trailing work) vs FF's RB start of the week
+  (zone-run stack + Sean Tucker out). Both mechanisms are testable and both
+  survive — they price different tails. Board keeps the projection; the 📺
+  flag carries both.
+- ⚠️ **FF's Etienne short** repeats "Saints trailing → RB targets" — a
+  game-script claim for a 7-pt dog, which is the legitimate direction of the
+  script rule (dogs pass more), and FF itself notes Kellen Moore offenses
+  rarely target RBs. Conclusion survives on the vacated-Kamara volume, not
+  on the target thesis.
+- ✅ **Stevenson buy-low** passes on measured usage (snaps, YAC share,
+  targets with A.J. Brown out 4+ weeks — a vacated-share channel, not the
+  thin-backfield fallacy).

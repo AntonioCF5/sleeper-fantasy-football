@@ -1,16 +1,16 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-09** (expert-daily 9/9 —
-Week 1 is live; NE-SEA played Wednesday. Both expert feeds recovered (7
-videos, 144 takes). Brock Bowers had a meniscus trim and misses 1-2 games:
-MEXICA has NO backup TE (Mayer claim, Dulcich second), and the user added
-Mayer in Gallamijos Lg himself by cutting Cedric Gray — so that league now
-has THREE empty IDP starting slots (Reese / Watts / NEW Devin Lloyd). The
-RGV95 offer was rebuilt from Goff-for-Odunze to LLOYD-for-Odunze (+36.5)
-on Sal's sell-high comps + our negative Lloyd gap. Two league-state
-discoveries: the user is NOT in Guillotine MX any more (drafted 9/6
-without him) and Guillotine TRC drafted 9/8 (14/14, $1000 FAAB).)*
+tooling, or league state. Last updated: **2026-09-11** (expert-daily 9/11 —
+Friday of Week 1; SF 27-7 LAR in Melbourne Thursday. Five videos (Sal's
+Week-1 RB top-40, FF Ep. 1969 + 3 shorts), 124 takes. The MEXICA Mayer
+claim WON but the user dropped Moehrig (his only DB) instead of the ARI
+DEF, so MEXICA now has TWO empty IDP slots (DL + DB). Gallamijos Lg still
+has all three IDP slots empty on day 9; Nakobe Dean (cut by charlyae17) is
+the new LB ruling over Devin Lloyd, and the Watts drop switched to the
+already-played Rams DEF. Gallamijos Dyn taxi overage now has a NO-CUT fix:
+Stribling (Out, ankle) to IR + promote Felton. A.J. Brown out 4+ weeks;
+Jacobs no-contest plea, suspension expected (Lloyd pitch upgrade).)*
 
 ## What this project is
 
@@ -137,6 +137,46 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **MEXICA — TWO EMPTY IDP SLOTS (2026-09-11).** The Mayer claim won
+  Thursday (~2am run) but the drop was **Tre'von Moehrig** (the only DB), not
+  the ARI DEF. Rulings: **Arvell Reese** (DL, drop Singleton — day 9) and NEW
+  **Cooper DeJean** (DB, 23, 90/6.0, drop the ARI DEF). Fallbacks Tuipulotu
+  (Q) / Moehrig re-add (on the 2-day clock from the user's own drop) / Cole
+  Bishop. Timing lesson: a Wednesday-night claim processed Thursday ~2am —
+  one overnight run, not two days.
+- [ ] 🔴 **GALLAMIJOS LG — ALL THREE IDP SLOTS STILL EMPTY, DAY 9 (2026-09-11).**
+  Reese for Roschon Johnson · **Xavier Watts** for the **RAMS** DEF (switched
+  from PIT: LAR already played, allowed 27; PIT hosts a possibly Rush-led ATL)
+  · NEW **Nakobe Dean** (LB, LV, 25, 122/7.1 — cut by charlyae17 for Ferguson
+  9/10, 1-day waiver clock) for Bech, with Devin Lloyd → Sherwood as
+  fallbacks. Optional fourth: **Omar Cooper** (22, NYJ, 127 season, cut by
+  Jro91) for Keaton Mitchell (LAC depth 3, not a clean handcuff).
+- [ ] 🔴 **GALLAMIJOS DYN TAXI 7/6 — NO-CUT FIX (2026-09-11).** Stribling went
+  down non-contact Thursday (Out, ankle, Achilles intact, "likely to miss
+  time"); reserve_allow_out=1 and IR is 0/4 → **Stribling to IR, promote
+  Tai Felton** off the taxi (6/6 legal). The Felton cut ruling is withdrawn.
+  Then Darnell Washington $7 for Engram can process (fourth edition).
+- [ ] **Week 1 start/sit (from 9/11):** Corum banked ~5.4 Thursday — MEXICA
+  keep Jones + Golden (Corum call moot); LoR swap Nailor (8.0) into Corum's
+  flex (+2.6); Dynasty Mexica **LaPorta over Loveland** (coin flip broken on
+  FF's TE start of the week — also the Juliosg shop window), Love over Lloyd
+  only if Love plays; unexecuted: DYNASTY TRC Godwin/Kraft (+3.3), Gallamijos
+  Dyn Nailor for M. Washington (+3.1), LoR Stroud (+1.6), Guillotine TRC
+  Tucker (+0.8).
+- [ ] **Trades 9/11:** RGV95 Lloyd-for-Odunze — send before Sunday (Jacobs
+  no-contest plea + Sal RB26 = peak; never sweeten after a suspension
+  announcement). Juliosg ninth edition — send. ElGeneral4 ACCEPT (Jeanty
+  playing, Flowers full). Jro91 hold as built (Darnold: unusual hip strain,
+  no IR, out Week 2). Gernant88 ready.
+- [ ] **Guillotine TRC first-cut plan** due before Week 2 waivers; bottom four
+  by projection: Saylors / Kaleb Johnson / Kolar / Dotson. Mayer went to
+  anibalr248 (skip was right); $1000 intact.
+- [ ] **A.J. Brown (NE) high-ankle, 4+ weeks** — Doubs (Dynasty Mexica) ran
+  4th in NE WR snaps before the injury and is that roster's named first drop
+  when a claim needs one; Stevenson (DYNASTY TRC) inherits targets — hold.
+- [ ] **CMC 55% snaps / Kaelon Black 14 carries in the Melbourne blowout** —
+  not a demotion, but DiegoTostado's price on Black (DYNASTY TRC) rose.
 
 - [ ] 🔴 **MEXICA TE ZERO (2026-09-09).** Bowers: meniscus trim Tuesday, out
   "a game or two" (Schefter), Doubtful, projects 0.0 — and the roster has NO
