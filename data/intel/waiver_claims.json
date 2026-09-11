@@ -3,6 +3,14 @@
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip.",
  "claims": [
   {
+   "league_id": "1395839320077656064",
+   "player": "T.J. Watt",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Roschon Johnson (CHI RB3, 7.6 season / 0.3 wk — dead roster spot)",
+   "why": "USER'S CALL 2026-09-11, and the data backs it: Watt is DL/LB-eligible in Sleeper (goes in the DL slot), a free agent, 31, not on the injury report. Under THIS league's scoring (1.0 solo / 0.5 ast / 2.0 sack / 2.5 PD / 2.0 FF) his 2025 actuals paced 6.4 pts/game — the best per-game rate of any DL-eligible player on the wire — vs Reese's PROJECTED 5.0 (85.5/17). The 2026 projection (67.5) undersells him because Sleeper projects ZERO passes defensed for him after 8 last year (20 pts at 2.5 each); add those back and he's ~80. Reese is a 21-year-old rookie with no NFL snaps — Watt is the proven every-down edge with the splash ceiling (a 2-sack + FF game is 10+). Risk: age 31, missed 3 games in 2025. Drop Roschon Johnson: Monangai cleared, Johnson is a healthy team's RB3 at 0.3/wk."
+  },
+  {
    "league_id": "1315407698006646784",
    "player": "Devaughn Vele",
    "verdict": "skip",
@@ -189,18 +197,18 @@
   {
    "league_id": "1395839320077656064",
    "player": "Arvell Reese",
-   "verdict": "claim",
+   "verdict": "optional",
    "bid": null,
    "drop": "Roschon Johnson (25, RB, CHI depth 3, 7.6)",
-   "why": "DAY 8, UNCHANGED PICK, RE-VERIFIED FREE 2026-09-09 (85.5 season, 5.3 this week; DL+LB eligible). The drop is now beyond argument: Kyle Monangai was CLEARED Wednesday (not on the Bears' Week 1 report) and Swift is off it too, so Johnson is Chicago's RB3 with two healthy backs ahead of him — 0.3 projected this week. He still trends (253k) on Monday's stale Monangai scare; ignore it. Instant free-agent add in this league (waiver_type 0). Roster is 17/17 so the drop must go in the same move."
+   "why": "DOWNGRADED TO FALLBACK 2026-09-11 — the user chose T.J. Watt for the DL slot. DAY 8, UNCHANGED PICK, RE-VERIFIED FREE 2026-09-09 (85.5 season, 5.3 this week; DL+LB eligible). The drop is now beyond argument: Kyle Monangai was CLEARED Wednesday (not on the Bears' Week 1 report) and Swift is off it too, so Johnson is Chicago's RB3 with two healthy backs ahead of him — 0.3 projected this week. He still trends (253k) on Monday's stale Monangai scare; ignore it. Instant free-agent add in this league (waiver_type 0). Roster is 17/17 so the drop must go in the same move."
   },
   {
    "league_id": "1395839320077656064",
    "player": "Xavier Watts",
    "verdict": "claim",
    "bid": null,
-   "drop": "Los Angeles Rams DEF (played Thursday — allowed 27 in Melbourne, score banked; PIT 12.0 starts Sunday vs a Cooper Rush-led ATL)",
-   "why": "UPDATED 2026-09-11 — drop switched from the Steelers DEF to the RAMS DEF: LAR already played Thursday night (27-7 loss at SF), so its Week-1 score is banked and bad, while PIT (12.0) hosts an ATL offense that may start Cooper Rush (Tua oblique, day-to-day, Rush took every first-team rep Thursday). Watts (ATL, 24) is still free: 98 season / 6.3 wk, the top DB on the wire. DB slot has been empty since the draft — day 9. Next Tuesday, re-grab a second DEF for the two-week-ahead plan."
+   "drop": "Keaton Mitchell (LAC RB depth 3, Questionable, 97 season) — NOT a DEF",
+   "why": "DROP SWITCHED 2026-09-11 — the user keeps BOTH DEFs (LAR + PIT): in an 18-team league the wire can't support weekly DEF streaming, so two DEFs for the two-week-ahead plan is the standing rule and my Rams-DEF drop contradicted it. New drop: Keaton Mitchell — LAC depth-3 back, Questionable, fails the clean-handcuff test (not depth-2 behind a 200+ workload), so his contingent value doesn't protect him. The trade-off: ~97 bench points you'd rarely start vs an empty DB slot scoring ZERO every week (Watts 98 season / 6.3 wk). If you'd rather keep Mitchell, the DB slot stays empty — your call. UPDATED 2026-09-11 — drop switched from the Steelers DEF to the RAMS DEF: LAR already played Thursday night (27-7 loss at SF), so its Week-1 score is banked and bad, while PIT (12.0) hosts an ATL offense that may start Cooper Rush (Tua oblique, day-to-day, Rush took every first-team rep Thursday). Watts (ATL, 24) is still free: 98 season / 6.3 wk, the top DB on the wire. DB slot has been empty since the draft — day 9. Next Tuesday, re-grab a second DEF for the two-week-ahead plan."
   },
   {
    "league_id": "1395839320077656064",

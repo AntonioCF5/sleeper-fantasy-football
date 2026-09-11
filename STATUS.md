@@ -145,13 +145,17 @@ tells the user to re-check news once before accepting.
   (Q) / Moehrig re-add (on the 2-day clock from the user's own drop) / Cole
   Bishop. Timing lesson: a Wednesday-night claim processed Thursday ~2am —
   one overnight run, not two days.
-- [ ] 🔴 **GALLAMIJOS LG — ALL THREE IDP SLOTS STILL EMPTY, DAY 9 (2026-09-11).**
-  Reese for Roschon Johnson · **Xavier Watts** for the **RAMS** DEF (switched
-  from PIT: LAR already played, allowed 27; PIT hosts a possibly Rush-led ATL)
-  · NEW **Nakobe Dean** (LB, LV, 25, 122/7.1 — cut by charlyae17 for Ferguson
-  9/10, 1-day waiver clock) for Bech, with Devin Lloyd → Sherwood as
-  fallbacks. Optional fourth: **Omar Cooper** (22, NYJ, 127 season, cut by
-  Jro91) for Keaton Mitchell (LAC depth 3, not a clean handcuff).
+- [ ] 🔴 **GALLAMIJOS LG — ALL THREE IDP SLOTS STILL EMPTY, DAY 9 (2026-09-11, revised
+  midday with the user).** **LB: Nakobe Dean** for Bech — confirmed BY ROLE
+  (green-dot MIKE in LV's 3-4; Walker is the one who comes off in nickel);
+  cleared the 1-day clock ~10:29, FREE AGENT — add instantly. **DL: T.J. Watt**
+  (user's call; DL/LB-eligible, free; 6.4 ppg in 2025 under this scoring — the
+  best DL-eligible pace on the wire; projection undersells him by zeroing his
+  PDs) for Roschon Johnson; Reese → fallback. **DB: Xavier Watts** for
+  **Keaton Mitchell**, NOT a DEF — the user keeps LAR + PIT for two-week-ahead
+  streaming (the 18-team standing rule; the Rams-DEF drop was wrong). Cedric
+  Gray (cut 9/9) is OUT Sunday — concussion protocol after a UTV accident —
+  stash candidate later, no room now.
 - [ ] 🔴 **GALLAMIJOS DYN TAXI 7/6 — NO-CUT FIX (2026-09-11).** Stribling went
   down non-contact Thursday (Out, ankle, Achilles intact, "likely to miss
   time"); reserve_allow_out=1 and IR is 0/4 → **Stribling to IR, promote
