@@ -488,18 +488,60 @@
    "published": "2026-09-10",
    "source": "fantasy-footballers",
    "processed": "2026-09-11"
+  },
+  "i4Tlw5qsuFc": {
+   "video_id": "i4Tlw5qsuFc",
+   "title": "My Top 55 Wide Receivers Rankings for Week 1",
+   "published": "2026-09-11",
+   "source": "sal-vetri",
+   "processed": "2026-09-11"
+  },
+  "soMIEvgxqtI": {
+   "video_id": "soMIEvgxqtI",
+   "title": "Week 1 Matchups + Fantasy FACEOFF! | Fantasy Football 2026 - Ep. 1970",
+   "published": "2026-09-11",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-11"
+  },
+  "6NOCrqsEpEA": {
+   "video_id": "6NOCrqsEpEA",
+   "title": "Running Back Start of the Week",
+   "published": "2026-09-11",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-11"
+  },
+  "zfkuWSSKf-4": {
+   "video_id": "zfkuWSSKf-4",
+   "title": "Bucky Irving is gonna EAT against the Bengals Sunday \ud83d\udcaa",
+   "published": "2026-09-12",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-11"
+  },
+  "nugVEwupLTU": {
+   "video_id": "nugVEwupLTU",
+   "title": "The Running Backs Who Will Win You Your Fantasy League",
+   "published": "2026-09-12",
+   "source": "sal-vetri",
+   "processed": "2026-09-14"
+  },
+  "aPbEMVzrY48": {
+   "video_id": "aPbEMVzrY48",
+   "title": "You Drafted The Wrong Players (Add These 10 Instead)",
+   "published": "2026-09-14",
+   "source": "sal-vetri",
+   "processed": "2026-09-14"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-11",
-   "last_failure": "2026-09-09"
+   "last_success": "2026-09-14",
+   "last_failure": "2026-09-14"
   },
   "fantasy-footballers": {
-   "consecutive_failures": 0,
-   "last_success": "2026-09-11",
-   "last_failure": "2026-09-08"
+   "consecutive_failures": 4,
+   "last_success": "2026-09-12",
+   "last_failure": "2026-09-14"
   }
  }
 }

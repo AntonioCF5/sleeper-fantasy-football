@@ -1,16 +1,17 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-11** (expert-daily 9/11 —
-Friday of Week 1; SF 27-7 LAR in Melbourne Thursday. Five videos (Sal's
-Week-1 RB top-40, FF Ep. 1969 + 3 shorts), 124 takes. The MEXICA Mayer
-claim WON but the user dropped Moehrig (his only DB) instead of the ARI
-DEF, so MEXICA now has TWO empty IDP slots (DL + DB). Gallamijos Lg still
-has all three IDP slots empty on day 9; Nakobe Dean (cut by charlyae17) is
-the new LB ruling over Devin Lloyd, and the Watts drop switched to the
-already-played Rams DEF. Gallamijos Dyn taxi overage now has a NO-CUT fix:
-Stribling (Out, ankle) to IR + promote Felton. A.J. Brown out 4+ weeks;
-Jacobs no-contest plea, suspension expected (Lloyd pitch upgrade).)*
+tooling, or league state. Last updated: **2026-09-14** (expert-daily 9/14 —
+Monday after Week 1, DEN-KC live at press time. Sal only (2 videos, 34
+takes); the FF RSS edge returned HTTP 500 all night (4 counter misses, all
+tonight). Week 1: W in Gallamijos Lg, MEXICA, LoR, DYNASTY TRC; L in
+Gallamijos Dyn (to ElGeneral4) and Dynasty Mexica (86.0, last in the
+league); Guillotine TRC top score 122.6 — sscordoba (64.9) is the guillotine
+→ Collins $477 / Judkins $255. Gallamijos Dyn taxi STILL 7/6 (fix revised:
+Stribling IR + promote Kaelon Black); MEXICA DL slot STILL empty day 12
+(Booker for Coleman). New offer: Bryce Young for Addison to Germanvbc5 on the
+Murray concussion. Friday's 9/11 PM run merged 4 videos but never wrote a
+newsletter or committed — committed with this edition.)*
 
 ## What this project is
 
@@ -137,6 +138,46 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **GUILLOTINE TRC — FIRST HAUL (2026-09-14).** sscordoba (64.9, no MNF
+  players) is the eliminated roster; men2a07 (69.7, Kelce/Sutton live) can only
+  rise. Ordered bids before Tuesday's run: **Nico Collins $477** (drop Saylors)
+  and **Quinshon Judkins $255** (drop Kaleb Johnson). Contingency if a stat
+  correction flips it: McCaffrey $477 / Javonte $255. Confirm the eliminated
+  roster Tuesday morning. Lineup: Shakir into the flex for Tucker (+2.7).
+- [ ] 🔴 **GALLAMIJOS DYN TAXI STILL 7/6 — DAY 4 (2026-09-14).** Fix REVISED:
+  Stribling (Out, one month) → IR, promote **Kaelon Black** (14-65 with CMC
+  active, Sal's #1 RB add) — not Felton. Then Washington $7 for Engram stays
+  optional. McConkey (rib/chest) monitored; Aaron Jones into the flex for
+  Adonai Mitchell (+3.1).
+- [ ] 🔴 **MEXICA DL SLOT STILL EMPTY — DAY 12 (2026-09-14).** Reese (Juliosg)
+  and Tuipulotu (LopezAmor) are gone; the user filled LB (Carter) and DB
+  (McKinney) himself. **Austin Booker** (CHI) for Jonah Coleman — entered
+  tonight lands Wednesday; fallbacks Latu → Diaby. Lineup: Corum RB2, Aaron
+  Jones flex, Tate sits (+2.8); Shough stays over D. Jones.
+- [ ] **DYNASTY TRC (2026-09-14):** Vele $15 for Ridley (Bateman $9 fallback);
+  Kraft over Kelce (+2.1); NEW OFFER Bryce Young for Jordan Addison to
+  Germanvbc5 (Murray in concussion protocol, Ward his starter) — fallbacks
+  Young-for-Brooks, Goff-for-Addison. Sampson (knee, significant time) and
+  Lane (fractured wrist) are taxi hits, no roster cost.
+- [ ] **Trades 9/14:** ElGeneral4 ACCEPT stands (Jeanty 2-TD game, Flowers
+  hamstring day-to-day = discount not asset change, Montgomery 3 TDs on 3.0
+  YPC in a 50-50 split) — offer state on Sleeper unknown. Juliosg: Swift 33.4,
+  expect a no, don't sweeten. RGV95 / Gernant88: send as built. Jro91: hold.
+- [ ] **Dynasty Mexica:** McMillan (Out) → IR to bank a spot; no claims; Doubs
+  stays the named drop (Sal add vs FF drop — zero targets on 40 snaps).
+  Scored last in Week 1 (86.0).
+- [ ] **Gallamijos Lg (2026-09-14):** all three IDP slots filled by the user
+  (Watt/Reese/Hufanga — Hufanga, not Watts). No claims (Dean +1.7 costs Bech).
+  Week 2: LAR DEF over PIT (+4.4), Corum over Dobbins (+2.5), Watt stays at DL
+  despite the 3.8 projection (PDs zeroed).
+- [ ] 🔴 **FF FEED: 4 counter misses 2026-09-14** (all tonight — channel RSS
+  returns HTTP 500 on direct curl; Sal's feed 404'd then recovered). Last
+  success 9/12. Tuesday's waivers video is the one that matters; check in a
+  live session.
+- [x] ✅ **Friday 9/11 PM run** fetched/merged 4 videos (Sal WR top-55, FF Ep.
+  1970 + 2 shorts) into takes/state/methods/waiver_claims but wrote no
+  newsletter and no commit — committed 2026-09-14 with this edition.
 
 - [ ] 🔴 **MEXICA — TWO EMPTY IDP SLOTS (2026-09-11).** The Mayer claim won
   Thursday (~2am run) but the drop was **Tre'von Moehrig** (the only DB), not

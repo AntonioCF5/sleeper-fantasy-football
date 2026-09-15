@@ -787,3 +787,103 @@ and Brian Thomas Jr. for him inside 24 hours.
 - ✅ **Stevenson buy-low** passes on measured usage (snaps, YAC share,
   targets with A.J. Brown out 4+ weeks — a vacated-share channel, not the
   thin-backfield fallacy).
+
+## 2026-09-11 PM — Sal Week-1 WR top-55 + FF Ep. 1970
+
+- **Spread AND total together, not just the total** [Sal]: a slight
+  underdog with a middling total (GB -1.5 dog, 22.5 implied) is a pass-
+  volume signal; a rare favorite with a low total (TEN -2.5, 21 implied) is
+  a run-lean signal that caps its WRs even at a 25% target share (Tate:
+  20-24 attempts × 25% = 5-6 targets). Extends the 9/11 "implied total
+  first" rule with the direction of the script.
+- **Depth-chart competition audit before accepting a consensus rank**
+  [Sal]: list who the WR2/WR3 actually competes with (rookies, converted
+  TEs, special-teamers) — Watson (no WR drafted, Skyy Moore is a special
+  teamer), Vele/A. Mitchell (rookie TE missed camp, Cooper is WR3). A team
+  declining to sign a veteran at the position is a positive signal for the
+  incumbent (KC and Rice).
+- **A player's own injury language is a tell** [FF]: "the decision is
+  mine, I can't risk my career" (Nabers) reads as a sit; "I'll play at
+  50-75% if the coach wants" (Love) reads as plays-but-limited. Pairs with
+  the coach-statements-are-noise rule: player quotes carry more signal than
+  podium optimism, less than the practice log.
+- **Prop lines are usage intel** [FF]: the lowest QB rushing-attempt line
+  of the week off a knee injury is a bench reason for a rushing-driven QB
+  (Mahomes QB19-20 in a 1-QB league); the reception-vs-target distinction
+  matters when reading them (Jeudy under 3 receptions can lose to volume).
+- **Discount Week-1 snap counts of older stars on protective teams and in
+  blowouts** [FF]: CMC 55% snaps / Black +4 carries in a 27-7 game with
+  cramps is not a timeshare read; FF's buy-low is the right direction, and
+  we already hold him.
+
+### Mechanism audit log (this batch)
+
+- ✅ **Sal's Marvin Harrison WR21** (biggest dog of the week, +9.5, 19
+  implied → plays from behind and throws; Love limited) is the legitimate
+  direction of the script rule. Our week projection has him ~WR43 — the
+  gap is a projection question (ARI pass volume), not new real-world
+  information, so no adjustment; he starts in both leagues either way.
+- ✅ **Sal's Tate sit** survives: favorite + low total = run lean is
+  measured, not the thin-backfield fallacy. His long-term buy on the same
+  player (Titans as 6-10 pt dogs most weeks → forced passing) is the same
+  rule pointed the other way.
+- ⚠️ **FF's Bijan haircut on Rush** ("defenses game-plan 'Bijan doesn't
+  beat us'") is a narrative; the checkable part is the Rush-era Dallas
+  pace (3,900/26/9 over ~7 starts) — the QB downgrade is small, the
+  goal-line-trip loss is real only if ATL's implied total moves.
+- ⚠️ **Sal's Watson mechanism** mixes measured (YPRR top-5, no WR added,
+  22.5 implied as a dog) with the "no Jacobs → pass-heavy" clause: GB is a
+  1.5-pt dog so the script direction is right, but vacated Jacobs carries
+  go to Lloyd/Brooks, not to the air — the conclusion stands on the dog
+  script and the depth chart, not on the backfield.
+
+## 2026-09-14 — Sal Week-2 waivers (aPbEMVzrY48) + league-winner RBs (nugVEwupLTU)
+
+- **Week-1 usage triad, normalized** [Sal]: read snaps + routes + targets
+  together and express targets as a share of REAL pass attempts (minus
+  throwaways/batted balls) — 4 targets on 22 real attempts is a 25% share
+  (Wicks), not a dud. Then normalize for play count and script: an 82-snap /
+  58-route / 56-attempt comeback (Vele) roughly doubles normal opportunity —
+  project next week at about half the routes before pricing the add.
+- **Trailing-but-not-throwing is a red flag** [Sal]: when a team down 2-4
+  scores still won't pass (Browns/Watson), route leaders (Boston, Concepcion)
+  are not buys — route share without targets is worthless.
+- **Blowout-context discount for veteran workhorses** [Sal]: a snap dip in a
+  game decided by the 3rd quarter, for an older back off 400 touches with no
+  preseason and a 24-hour flight (CMC), is rest, not a role change — but the
+  RB2 who looked good in that window (Black) becomes a top handcuff.
+- **Fool's-gold test** [Sal]: a veteran whose career high (Raymond, never
+  616 yds) sits far below his Week-1 pace, competing with more talented
+  young targets, is a blip — 18-20-team leagues only.
+- **Actuarial reference points** (Chona/Mueller via Sal): WR hamstring 3-5
+  weeks; wrist fracture 6-8; rib fracture 2-3; meniscus trim 4-6 with a
+  two-week ramp after return; returning WRs lose 20%+ production for 4-6
+  weeks — bake the dip into the injured player's projection, not only the
+  absence.
+- **Pre-emptive backup stash before the late game** [Sal]: when the starter
+  carries a documented injury base rate (Dobbins: 5+ missed games in each of
+  the last four seasons), roster the rookie backup BEFORE kickoff rather than
+  bidding after. (Note for our IDP leagues: the stash competes with an empty
+  starting slot — a certain zero beats a contingent role.)
+- **Spend FAAB early** [Sal, converges with the user's weeks-1-6 rule]:
+  ~20% on the top breakout even off a one-game sample; roles revealed by real
+  usage are when money is worth most.
+
+### Mechanism audit log (this batch)
+
+- ❌ **Sal 9/12: Swift is the #1 league-winner "because his backup has a
+  pretty serious knee injury"** — the wire contradicts it: Kyle Monangai
+  played Sunday and went 10-100-1 with a 61-yard TD. Swift's 33.4 stands on
+  his own (RB1 on a 59-point offense); the backfield-consolidation mechanism
+  is stale. Same for "Etienne is the only healthy Saint" — Kendre Miller
+  ran 9-30-1 and vultured a TD. Conclusions filed, mechanisms flagged.
+- ✅ **Sal's Shough/Vele thesis** ("bad defense → 35-45 attempts") is the
+  measured game-script rule pointed the right way for a 7.5-win-total team;
+  he already discounts the 56-attempt outlier himself.
+- ✅ **Caleb Douglas** mechanism is camp route leadership + an empty depth
+  chart (Hill gone, Waddle traded, Bell off an ACL) — the usage standard,
+  not the box score.
+- ⚠️ **Sal's Doubs "#1 add" vs FF's 9/11 "genuinely a drop"** (same player,
+  three days apart): the mechanism is vacated A.J. Brown targets, which is
+  a real channel — but Doubs drew ZERO targets on 40 snaps Sunday. Hold in
+  Dynasty Mexica (nothing to add for), keep him as the named drop.
