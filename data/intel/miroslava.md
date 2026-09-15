@@ -142,6 +142,16 @@ comparar el borrador contra la edición anterior.
 | 2026-09-15 | "El titular ni apareció" cantado a tres voces (Chapo, tres titulares en cero) | usado — descansar (citar el himno sigue siendo válido; la "tres voces" no) |
 | 2026-09-15 | Jebus "me regaló mi primera columna" con un inactivo (Emmanwori) / "como es de los Bills, no cuenta" | usado — descansar (el chiste base de los Bills es canon renovable) |
 | 2026-09-15 | Rul Lubezki: "fotografía preciosa, sin historia" (Watson 33.7 / Nix 6.4) | usado — descansar |
+| 2026-09-15 | "firmó la patria potestad" (La Dona sobre Dave) | usado — descansar (el concepto padre/hijo es permanente; la frase descansa) |
+| 2026-09-15 | "Doble metida, misma franquicia, mismo domingo" (Cano/Steelers) | usado — descansar |
+| 2026-09-15 | "Se maldijo solo" (Ryomen Sukuna) | usado — descansar |
+| 2026-09-15 | "Hasta su sufrimiento es selectivo" (La Dona/Cowboys) | usado — descansar |
+| 2026-09-15 | "El trono tiene goteras" (King in the North) | usado — descansar |
+| 2026-09-15 | "La FIFA de La Laguna no tiene favoritos, tiene clientela" | usado — descansar |
+| 2026-09-15 | "cobró la cuota otra vez" (La Dona sobre Dave, versión Dinastía) | usado — descansar |
+| 2026-09-15 | "Ni el Doctor cura a Brandon Aubrey" | usado — descansar |
+| 2026-09-15 | "Los Steelers sí ganaron; él no es los Steelers" (Rorro) | usado — descansar |
+| — | "El Rey del Norte perdió en el norte, en el sur y en Miami" | escrito, NO publicado (el editor lo cortó por repetir la Putiza) — libre |
 | 2026-09-15 | "Ganó sin querer queriendo" (Alacrán con Likely en banca) | usado — descansar |
 | 2026-09-15 | "pidió tanque lleno; le echaron 82" (Fill Up, Rivers) | usado — descansar |
 | 2026-09-15 | Faraón "compró el sótano en 2025 y salió de él con cambio de a peso" (ganó por 0.6) | usado — descansar |
@@ -178,6 +188,12 @@ Galla con anillo diez lugares abajo · la resurrección como la del Santos · de
 taquito a quinceavo · "ni nombre le puso, para qué".
 
 ## Control editorial (obligatorio antes de enviar)
+
+**OJO con `roast_facts.py` (lección 2026-09-15):** sobreescribe la hoja del
+día. Si el roast programado ya corrió y la hoja trae un *addendum de lineups
+verificados*, NO regenerarla — se pierden 200+ líneas de verificación y el
+linter empieza a marcar jugadores "fuera de la hoja". Regenerar solo si no
+existe hoja de hoy; si existe, leerla.
 
 Ninguna edición sale sin pasar dos filtros. Se creó el 2026-08-31 porque cada
 publicación se estaba retrabajando tres o cuatro veces, y el diagnóstico fue
@@ -369,6 +385,23 @@ cambios suyos sobre mi borrador, cada uno una regla:
   de kickoff **"Que vuele el ovoide, pinches salados..."** — "ovoide" es
   crónica deportiva pura y "salados" conecta con el tema de la sal del
   himno: el vocabulario del himno ya permea al Destape, úsalo.
+- 2026-09-15 · **"Un dato, una vez" aplica también a hechos EXTERNOS (NFL)**:
+  el "Colts recibieron 41" salió dos veces en el mismo ranking (Matasanos y
+  Fill Up, Rivers). El editor lo cachó; el linter no lo ve. Y aplica al
+  ranking contra las secciones de arriba: Waddle 1.2, "dos ceros" y los
+  Delfines en 13 se repitieron del Payaso/MVP/Putiza al ranking — cada
+  línea del ranking necesita material NUEVO de la hoja (mejores/peores
+  titulares por manager están en el addendum justo para eso).
+- 2026-09-15 · **Las dos ediciones del mismo martes comparten lectores**:
+  muchos managers están en los dos grupos. Un hecho cruzado de liga (La
+  Dona/Dave) NO se cuenta con la misma oración en las dos notas — la edición
+  donde PASÓ lleva el relato completo; la otra, un callback distinto.
+- 2026-09-15 · **Mi propio resumen es una fuente de error**: comprimí "tres
+  trades: Collins, Hampton y picks con Buz" a "tres trades, todos con Buz" —
+  dato falso fabricado al recortar. Recortar es reescribir: se re-verifica.
+- 2026-09-15 · Técnica que funcionó de punta a punta (editor): cada línea de
+  "Del Penthouse al Sótano" = un dato del roster propio + el cruce con el
+  resultado NFL del equipo del manager. Estándar cuando haya marcador NFL.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -727,6 +760,30 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   (2026-08-25), sin restricción de manejo — buffet, uniformes talla especial,
   "jugador franquicia en ambos sentidos", la banca que rechina, lo que pida el
   chiste. Es la excepción oficial a la regla de salud.
+
+- **LA HEGEMONÍA DE LA DONA SOBRE DAVE** (user, 2026-09-15): Alejandro
+  Álvarez lleva años registrándose en sus ligas como **"My Son Dave"** o
+  **"Dave's Daddy"** — Dave es su hijo, oficialmente y por nombre de equipo.
+  Cada vez que se enfrentan y La Dona gana (jornada 1 de la Dinastía 2026:
+  205.2-142.9, el marcador más alto de las dos ligas), "firma la patria
+  potestad". Material permanente; se activa en cada duelo entre ellos.
+- **RUL ES EL PAPÁ DEL MIJO** (user, 2026-09-15): en los últimos años Rul le
+  ha ganado sistemáticamente a elmijo, y la jornada 1 de la Dinastía 2026 lo
+  volvió a demostrar (172.0-159.2). Chiste vigente cada vez que se topan.
+  Cuenta como mención de elmijo (regla 3): usarlo dentro de una mención ya
+  existente, no como mención extra.
+- **LA DOBLE METIDA DE CANO** (user, 2026-09-15): en la jornada 1 los
+  Steelers le ganaron a sus Falcons 20-13 y, en el fantasy, la defensiva de
+  Pittsburgh (28) y T.J. Watt (17) le ganaron el duelo por 8.1 — y él alineó
+  a DK Metcalf (Steeler). Plantilla reutilizable: cuando el equipo NFL de un
+  coach pierde Y el fantasy lo remata con jugadores del mismo verdugo.
+- **LOS EQUIPOS NFL DE CADA COACH SON MATERIAL SEMANAL** (user, 2026-09-15):
+  cada jornada, cruzar el resultado NFL del equipo del que es fan cada
+  manager (tabla de managers) con su resultado de fantasy. Triples (Dave:
+  perdió en las dos ligas Y sus Delfines 13-27), "sufrimiento selectivo" (La
+  Dona: Cowboys perdieron, él 205), ganó-en-la-NFL-perdió-aquí (Fer: Jets
+  ganaron, Same Old Jets perdió), y el 'no cuenta' de Jebus con los Bills.
+  Los marcadores NFL se verifican (CBS/NFL.com) igual que los de Sleeper.
 
 ## Pendientes de alimentar
 
