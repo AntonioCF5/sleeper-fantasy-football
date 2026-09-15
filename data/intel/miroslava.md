@@ -815,9 +815,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   ser primo de el Señor Sal"** (y en la Dinastía/himno: "pura pinche sal",
   "puro pinche salado"). Rotarlos; la sal no descansa, las frases sí.
 - **ÁRBOL FAMILIAR (user, 2026-09-15) — Dave es el centro:**
-  · **El Licenciado (Cano) es primo de Dave por el lado CRUZ.**
-  · **Zenitsu (Ale De La Garza), Dave y El Frijol (Mauricio de la Garza) son
-    primos por el lado DE LA GARZA.**
+  · **Lado CRUZ: El Licenciado (Cano), Fer Tueme (Same Old Jets), el Faraón
+    (Pancho Cruz) y Dave son primos.** (Pancho y Dave comparten apellido —
+    Cruz — y Fer y Cano entran por ese lado.)
+  · **Lado DE LA GARZA: Zenitsu (Ale De La Garza), Dave y El Frijol (Mauricio
+    de la Garza) son primos.**
+  Dave tiene primos en las DOS ligas: en la Dinastía, Fer y el Faraón (lado
+  Cruz); en la redraft, Cano, Zenitsu y el Frijol.
   Consecuencias de carrilla: la sal "viene de familia" (cuando Zenitsu o el
   Frijol la riegan, es herencia; cuando Cano pierde, "los Cruz no se salvan
   ni por el otro apellido"); los duelos entre primos son "reunión familiar";
