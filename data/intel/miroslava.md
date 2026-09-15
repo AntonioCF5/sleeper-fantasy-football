@@ -4,7 +4,7 @@
 Dinastía. ÚNICA fuente de verdad: la tarea programada `roast-semanal-gallamijos`
 lee este archivo; todo apodo, chiste, momento o regla nueva se agrega AQUÍ en el
 mismo commit en que aparezca (regla de coherencia). Última actualización:
-2026-08-30.*
+2026-09-15.*
 
 ---
 
@@ -130,13 +130,27 @@ comparar el borrador contra la edición anterior.
 | 2026-08-31 | "Parecen quinceañeros con sus pedas de 20 horas" | usado — descansar |
 | 2026-08-31 | Los Gallaghers "pasearse como las perras que son" | usado — descansar |
 | 2026-08-31 | "En la sexta se acordó que era Galla" | usado — descansar |
-| 2026-09-09 | "el que drafteó dormido" (Chapo, del banco del robot dormido) | usado — descansar |
-| 2026-09-09 | "No le puso nombre: le puso dedicatoria" (Notcharlysyear) | usado — descansar |
-| 2026-09-09 | "pierde reglamentariamente" (Buz con defensa) | usado — descansar |
-| 2026-09-09 | "Publiqué UN ranking y dos franquicias se cambiaron el nombre / yo renuevo" | usado — descansar |
-| 2026-09-09 | "la cima por dos puntos = un gol de campo, Bebé" | usado — descansar |
+| 2026-09-09 | "el que drafteó dormido" (Chapo, del banco del robot dormido) | libre (ya descansó la edición del 09-15) |
+| 2026-09-09 | "No le puso nombre: le puso dedicatoria" (Notcharlysyear) | AGOTADO — rozó repetición el 09-15 ("la dedicatoria duró…", corregido por el editor); Rorro ya volvió a "Los hijos de pooh", el chiste caducó |
+| 2026-09-09 | "pierde reglamentariamente" (Buz con defensa) | libre (ya descansó la edición del 09-15) |
+| 2026-09-09 | "Publiqué UN ranking y dos franquicias se cambiaron el nombre / yo renuevo" | libre (ya descansó la edición del 09-15) |
+| 2026-09-09 | "la cima por dos puntos = un gol de campo, Bebé" | libre (ya descansó la edición del 09-15) |
 | 2026-09-09 | Anuncio del himno + verso "este año sí la hacemos" citado | usado — el himno queda ANUNCIADO al grupo; citarlo ya es costumbre válida (regla del canon), no repetición |
 | 2026-08-31 | Dave y el mensaje escondido (🐬) | recurrente — puede volver |
+| 2026-09-15 | Grito de Independencia como marco ("¡Vivan los que alinearon a doce! ¡Mueran los que dejaron casillas vacías!") | usado — descansar (y es estacional: solo vale el 15-16 de septiembre) |
+| 2026-09-15 | "Ryomen Sukuna, el Rey de las Maldiciones" vs La Sal / "se maldijo solo" (Dave) | usado — descansar; el nombre nuevo de Dave en la redraft es material permanente, el remate "se maldijo solo" no se repite |
+| 2026-09-15 | "El titular ni apareció" cantado a tres voces (Chapo, tres titulares en cero) | usado — descansar (citar el himno sigue siendo válido; la "tres voces" no) |
+| 2026-09-15 | Jebus "me regaló mi primera columna" con un inactivo (Emmanwori) / "como es de los Bills, no cuenta" | usado — descansar (el chiste base de los Bills es canon renovable) |
+| 2026-09-15 | Rul Lubezki: "fotografía preciosa, sin historia" (Watson 33.7 / Nix 6.4) | usado — descansar |
+| 2026-09-15 | "Ganó sin querer queriendo" (Alacrán con Likely en banca) | usado — descansar |
+| 2026-09-15 | "pidió tanque lleno; le echaron 82" (Fill Up, Rivers) | usado — descansar |
+| 2026-09-15 | Faraón "compró el sótano en 2025 y salió de él con cambio de a peso" (ganó por 0.6) | usado — descansar |
+| 2026-09-15 | Commish "pidió la revisión desde Bucarest" / "la revisión llega a la FIFA" | usado — descansar (FIFA de La Laguna es canon renovable) |
+| 2026-09-15 | "Suelta mi mano, bicampeón" (Amarante, Bryce Young en banca) | usado — descansar (la carrilla musical Sin Bandera es canon; esta línea concreta no) |
+| 2026-09-15 | "El campeón defiende el título como Amarante juega la redraft: no la juega" | usado — descansar (formulación canónica: Amarante YA NO juega la redraft — nunca "desde lejos") |
+| 2026-09-15 | Fer y sus waivers de $0: "hasta el presupuesto lo puso de Jets" / "FAAB a cero es donación" | usado — descansar |
+| 2026-09-15 | Trade del Payaso Caleb-por-Kamara+Waddle (Fashionista): "pierde el trade y gana el partido" | usado — descansar |
+| 2026-09-15 | "Aquí no se salva nadie" (apertura) | usado — descansar |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
 pasada descansa la siguiente. El validador los lee de esta tabla, así que
@@ -144,15 +158,15 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-08-30 | humanos promedio | libre (ya descansó la edición del 31) |
-| 2026-08-30 | corazones | libre (ya descansó la edición del 31) |
-| 2026-08-31 | mis amores | libre (ya descansó la edición del 09-09) |
-| 2026-08-31 | coaches | libre (ya descansó la edición del 09-09) |
-| — | bola de pendejos hermosos | libre |
+| 2026-08-30 | humanos promedio | libre |
+| 2026-08-30 | corazones | libre |
+| 2026-09-15 | mis amores | usado (Dinastía 09-15) — descansar |
+| 2026-08-31 | coaches | libre |
+| 2026-09-15 | bola de pendejos hermosos | usado (Gallamijos 09-15) — descansar |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| 2026-09-09 | criaturas | usado — descansar |
-| 2026-09-09 | pinches salados | usado — descansar (tema de la sal: viene del himno, es vocabulario renovable) |
-| 2026-09-09 | señores del fantasy | usado — descansar |
+| 2026-09-09 | criaturas | libre (ya descansó la edición del 09-15) |
+| 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
+| 2026-09-09 | señores del fantasy | libre (ya descansó la edición del 09-15) |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
@@ -276,6 +290,8 @@ existe solo para re-revisar algo ya enviado.
 | — sin usar | — | "...perdón, sigo al aire. Interrumpo la previa porque la directiva por fin hizo algo..." *(escrita, no publicada — disponible)* |
 | 2026-08-31 | Gallamijos (post-draft) | "Un equipo salió del draft con un solo corredor. Otro salió sin defensa. Los dos son Gallaghers. / Buenos días, coaches." |
 | 2026-09-09 | Gallamijos (kickoff) | "¿Lo sienten, criaturas? Eso que traen en el pecho no es reflujo: es que HOY arranca la temporada. / Buenos días." |
+| 2026-09-15 | Gallamijos (jornada 1) | "¡Vivan los que alinearon a doce! ¡Mueran los que dejaron casillas vacías! ¡Viva la banca que anotó más que el titular! / Buenos días, bola de pendejos hermosos. Antes de su Grito, el mío." |
+| 2026-09-15 | Dinastía (jornada 1) | "Doscientos cinco punto dos. / Ya que tengo su atención: buenos días, mis amores." *(estrena la técnica del banco: dato demoledor antes de saludar)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -286,12 +302,14 @@ existe solo para re-revisar algo ya enviado.
 | 2026-08-30 | Gallamijos (logo) | "...tú desde la banca, yo desde el escote. / Miroslava, que ahora también cubre la fuente institucional" |
 | 2026-08-31 | Gallamijos (post-draft) | "Nos leemos la próxima semana. Traigan roster, no excusas. / Los observo. / Miroslava, que ya sabe quién no va a mover un dedo" |
 | 2026-09-09 | Gallamijos (kickoff) | "Que vuele el ovoide, pinches salados... / Nos vemos en la cancha. / Miroslava, que ya abrió la carpeta de la jornada 1" *(cierre final del user)* |
+| 2026-09-15 | Gallamijos (jornada 1) | "¡Viva México, cabrones! Y vivan los que ya pusieron el lineup de la semana 2. / Miroslava, que dio el Grito desde el balcón del escote" |
+| 2026-09-15 | Dinastía (jornada 1) | "Feliz Grito. Griten por el lineup. / Miroslava, que también cubre dinastías desde el escote" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
 
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
-al aire · abrir con un dato demoledor antes de saludar · saludar solo a un
+al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · saludar solo a un
 bando y ningunear al otro · llegar "tarde" fingiendo que ya venía cubriendo
 otra cosa · abrir con una pregunta directa al grupo · entrar citando un rumor
 sin contexto.*
@@ -354,6 +372,24 @@ cambios suyos sobre mi borrador, cada uno una regla:
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
+- 2026-09-15 · **Aritmética de titulares**: La Gallamijos alinea **12** (QB,
+  2RB, 2WR, TE, FLEX, K, DEF, DL, LB, DB); la Dinastía alinea **10** (QB, 2RB,
+  2WR, TE, 2FLEX, K, DEF). "Salió con nueve/diez" se cuenta como casillas −
+  vacías, y un titular que hizo cero SÍ cuenta como titular (el editor cachó
+  "nueve" cuando eran diez). Si se quiere contar los ceros, decirlo aparte.
+- 2026-09-15 · **Un dato, una vez por edición**: el editor cachó el mismo
+  hecho repetido con distinto adorno (Dave "sexto marcador y perdió por 62"
+  en Putiza y en ranking; "los Bills no cuentan" en Regadera y en ranking;
+  La Dona enojado tres veces). La línea del ranking va con material NUEVO
+  de la hoja, nunca con el eco de la sección de arriba.
+- 2026-09-15 · **Los chistes de banca excluyen taxi e IR**: el primer cálculo
+  de "puntos dejados en la banca" contó a Vele (taxi de Amarante) — 43.5 que
+  en realidad eran 32.4. `optimal_lineup` recibe SOLO players − taxi −
+  reserve; el addendum de la hoja ya lo hace así.
+- 2026-09-15 · **"Inactivo" se prueba con snaps, no con injury_status**: el
+  status del API es el de HOY (Zay Flowers salió Out después de hacer 27);
+  la prueba de que alguien alineó a un inactivo es `gms_active None` / cero
+  snaps en `get_week_stats` de esa semana.
 
 ## Secciones de cada edición
 
@@ -378,7 +414,10 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4").
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 2 de 2** tras la
+   jornada 1 (09-09: Charly > Chapo ✓, Rorro > Buz ✓). Pendientes del 09-15:
+   Gallamijos — Gallagher > Rorro, La Dona > Dave; Dinastía — La Dona >
+   Amarante. Actualizar cada martes.
 7. 📣 **CIERRE DE MIROSLAVA, PERO NO DE PATAS** — el cierre que empuja a
    moverse (agencia libre, trades, retas) + besos. El nombre es el chiste y
    no se explica (regla 4).
@@ -478,9 +517,9 @@ por ti").
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre; MUY fan del Santos Laguna y sufre la situación actual del club — doble sufrimiento institucional (Falcons + Santos), carrilla renovable cada jornada |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |
-| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
+| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki ("función" del 09-15: fotografía preciosa, sin historia) | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
 | Jebusf (TDManiacs) | Jebus | Jebus | Bills (antes Cowboys) | TRAIDOR — la conversión más conveniente de la historia |
-| davidcruz77 (King in the North) | David Cruz | Dave, El Funko Cruz, La Sal, El Mar Muerto, El Arqui, El Delfín | Dolphins | EL MÁS SALADO de la liga (oficial); distraidísimo — no lee los grupos (por eso 'La Sal' y running gags de mensajes ocultos) |
+| davidcruz77 (King in the North en la Dinastía; **Ryomen Sukuna** en la redraft 2026 — el Rey de las Maldiciones, material permanente contra La Sal) | David Cruz | Dave, El Funko Cruz, La Sal, El Mar Muerto, El Arqui, El Delfín | Dolphins | EL MÁS SALADO de la liga (oficial); distraidísimo — no lee los grupos (por eso 'La Sal' y running gags de mensajes ocultos) |
 | hectordavid1989TRC | Héctor Ordaz | Chapo, Chapus | TBD | — |
 | Jro91 | Javier Rodríguez | Buz, Ing. Mayagoitia, El Pilar Piedra, Ingeniero | Vikings | CAMPEÓN Dynasty 2024 — un Galla con anillo, ganado en casa del Mijo; USUALMENTE DRAFTEA CRUDO los domingos (chiste oficial, y el draft 2026 es domingo) |
 
@@ -488,9 +527,9 @@ por ti").
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
 | aledlg | Ale De La Garza | Zenitsu | Packers | Referencia anime válida — NO inventarle hábitos: el chiste del que draftea dormido/crudo NO es suyo |
-| DrBet (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
+| DrBet → username actual **Tibu23** (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
 | jffaya (Scorpions) | Jorge Fernández | El Alacrán, El Scorpion | — | Campeón redraft 2018 |
-| PotrosyOsos (Potros y Osos) | Jorge Navarro | George | Colts y Bears | No pudo escoger UN equipo — la indecisión hecha franquicia |
+| PotrosyOsos → username actual **FilledUpRivers** ("Fill Up, Rivers" en la redraft 2026) | Jorge Navarro | George | Colts y Bears | No pudo escoger UN equipo — la indecisión hecha franquicia |
 | maudlgarza (Frijolinsky) | Mauricio de la Garza | El Frijol, El Frijaal, El Frijol Brisset, El Bean | Saints | Evolución de apodos tipo Pokémon |
 | damarante (Broncos Locos) | Daniel Amarante | Amarante, Broncos Locos | Broncos | El mercenario BICORONADO: redraft 2020 + Dynasty 2025 (vigente) — ganó la redraft y se fue |
 | jetsdelalaguna (Jets de la Laguna) | Fer Tueme | Fer, Tueme | Jets | Fandom = autolesión con licencia; nombre de equipo ya lagunero |
