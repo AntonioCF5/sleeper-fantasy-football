@@ -820,8 +820,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
     Cruz — y Fer y Cano entran por ese lado.)
   · **Lado DE LA GARZA: Zenitsu (Ale De La Garza), Dave y El Frijol (Mauricio
     de la Garza) son primos.**
+  · **El Alacrán (jffaya, Scorpions) es TÍO de Dave y de Cano** (user,
+    2026-09-15) — el patriarca del lado Cruz. Carrilla: el MVP de la
+    jornada 1 es el tío de los dos que peor la pasaron; "en esa familia el
+    fantasy se hereda, pero saltó una generación"; el tío que no le presta
+    ni un punto a los sobrinos.
   Dave tiene primos en las DOS ligas: en la Dinastía, Fer y el Faraón (lado
-  Cruz); en la redraft, Cano, Zenitsu y el Frijol.
+  Cruz); en la redraft, Cano, Zenitsu y el Frijol — y al tío Alacrán.
   Consecuencias de carrilla: la sal "viene de familia" (cuando Zenitsu o el
   Frijol la riegan, es herencia; cuando Cano pierde, "los Cruz no se salvan
   ni por el otro apellido"); los duelos entre primos son "reunión familiar";
