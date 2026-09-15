@@ -150,6 +150,8 @@ comparar el borrador contra la edición anterior.
 | 2026-09-15 | "La FIFA de La Laguna no tiene favoritos, tiene clientela" | usado — descansar |
 | 2026-09-15 | "cobró la cuota otra vez" (La Dona sobre Dave, versión Dinastía) | usado — descansar |
 | 2026-09-15 | "Ni el Doctor cura a Brandon Aubrey" | usado — descansar |
+| 2026-09-15 | "Cloruro de Sodio al por mayor" (user) | usado — descansar |
+| 2026-09-15 | "Debe ser primo de el Señor Sal" (user, y es literal: Zenitsu ES primo de Dave) | usado — descansar |
 | 2026-09-15 | "Los Steelers sí ganaron; él no es los Steelers" (Rorro) | usado — descansar |
 | — | "El Rey del Norte perdió en el norte, en el sur y en Miami" | escrito, NO publicado (el editor lo cortó por repetir la Putiza) — libre |
 | 2026-09-15 | "Ganó sin querer queriendo" (Alacrán con Likely en banca) | usado — descansar |
@@ -402,6 +404,13 @@ cambios suyos sobre mi borrador, cada uno una regla:
 - 2026-09-15 · Técnica que funcionó de punta a punta (editor): cada línea de
   "Del Penthouse al Sótano" = un dato del roster propio + el cruce con el
   resultado NFL del equipo del manager. Estándar cuando haya marcador NFL.
+- 2026-09-15 · Pase final del user a la redraft J1: agregó **sal** donde yo
+  había cerrado sin ella ("Cloruro de Sodio al por mayor" tras "Se maldijo
+  solo"; "Debe ser primo de el Señor Sal" a Zenitsu — literal, son primos).
+  Lección: el remate de una desgracia casi siempre admite una capa de sal;
+  y el parentesco real es material que yo no tenía — ya está en el canon.
+  También "Waivers mañana" → **"Hoy se meten waiver mis amores"**: el
+  llamado a la acción va en presente y con cariño, no en aviso de agenda.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -460,8 +469,9 @@ cambios suyos sobre mi borrador, cada uno una regla:
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
    aciertos ("el Palpitote va 3 de 4"). **Marcador real: 2 de 2** tras la
    jornada 1 (09-09: Charly > Chapo ✓, Rorro > Buz ✓). Pendientes del 09-15:
-   Gallamijos — Gallagher > Rorro, La Dona > Dave; Dinastía — La Dona >
-   Amarante. Actualizar cada martes.
+   Gallamijos — La Dona > Dave (el de Gallagher > Rorro se cortó antes de
+   publicar, no cuenta); Dinastía — La Dona > Amarante. Actualizar cada
+   martes.
 7. 📣 **CIERRE DE MIROSLAVA, PERO NO DE PATAS** — el cierre que empuja a
    moverse (agencia libre, trades, retas) + besos. El nombre es el chiste y
    no se explica (regla 4).
@@ -795,6 +805,24 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   Dona: Cowboys perdieron, él 205), ganó-en-la-NFL-perdió-aquí (Fer: Jets
   ganaron, Same Old Jets perdió), y el 'no cuenta' de Jebus con los Bills.
   Los marcadores NFL se verifican (CBS/NFL.com) igual que los de Sleeper.
+
+- **LA SAL ES MATERIAL CLAVE, CON QUIEN SEA** (user, 2026-09-15): bromear
+  con la salazón no es exclusivo de Dave — es el eje de la carrilla del
+  grupo y se le aplica a CUALQUIERA que pierda feo, sea proyectado alto y
+  caiga, o deje puntos en la banca. Dave es el Señor Sal titular; los demás
+  son sal por contagio, parentesco o mérito propio. Vocabulario que el user
+  estrenó: **"Cloruro de Sodio al por mayor"**, **"el Señor Sal"**, **"debe
+  ser primo de el Señor Sal"** (y en la Dinastía/himno: "pura pinche sal",
+  "puro pinche salado"). Rotarlos; la sal no descansa, las frases sí.
+- **ÁRBOL FAMILIAR (user, 2026-09-15) — Dave es el centro:**
+  · **El Licenciado (Cano) es primo de Dave por el lado CRUZ.**
+  · **Zenitsu (Ale De La Garza), Dave y El Frijol (Mauricio de la Garza) son
+    primos por el lado DE LA GARZA.**
+  Consecuencias de carrilla: la sal "viene de familia" (cuando Zenitsu o el
+  Frijol la riegan, es herencia; cuando Cano pierde, "los Cruz no se salvan
+  ni por el otro apellido"); los duelos entre primos son "reunión familiar";
+  y el que le gane a Dave "le ganó al primo de medio grupo". Hechos, no
+  chistes: verificados por el user — usar sin inventar más parentescos.
 
 ## Pendientes de alimentar
 
