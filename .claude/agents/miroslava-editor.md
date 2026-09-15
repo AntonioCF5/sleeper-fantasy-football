@@ -64,6 +64,13 @@ canon, que son las que más se han roto:
 - **Groserías**: abundantes pero ganándose el lugar. Marca la vulgaridad de
   relleno.
 
+**B2 · DEL PENTHOUSE AL SÓTANO (regla del user 2026-09-15).** El orden
+DEBE ser la tabla real de la liga (récord, luego puntos), no la proyección;
+cada línea trae W-L, puntos y el rank proyectado entre paréntesis, y el
+comentario contrasta con lo proyectado (🐎 caballo negro / sorpresa / 📉
+decepción / "donde lo proyectaban"). Verifica el orden y las etiquetas
+contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
+
 **C · COHERENCIA INTERNA (regla 6).** Lee la edición completa de corrido
 buscando: contradicciones entre secciones (error real: burlarse de unos QB
 rooms y dos párrafos después coronar a esos mismos), metáforas que no cuadran

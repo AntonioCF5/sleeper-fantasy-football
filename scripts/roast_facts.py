@@ -173,6 +173,20 @@ def league_facts(lg_cfg, season, week, players):
     for i, (pts, eq, h) in enumerate(tabla, 1):
         lines.append(f"{i}. **{eq}** ({h}) — {pts}")
 
+    # TABLA DE POSICIONES REAL vs proyección (regla del user 2026-09-15):
+    # "Del Penthouse al Sótano" se ordena por la tabla de la liga, y el
+    # comentario compara con lo proyectado — caballos negros (🐎, tabla
+    # muy arriba de su proyección), decepciones (📉, muy abajo).
+    prank = {eq: i for i, (_, eq, _) in enumerate(tabla, 1)}
+    lines.append("\n## TABLA DE POSICIONES (récord, puntos) vs rank de proyección")
+    lines.append("*Orden de 'Del Penthouse al Sótano'. Delta = rank proyectado − lugar "
+                 "real: +4 o más = 🐎 caballo negro; −4 o menos = 📉 decepción.*\n")
+    for i, (dn, team, w, l, t_, fpts, r) in enumerate(standings, 1):
+        pr = prank.get(team, 0)
+        d = pr - i
+        tag = " 🐎 CABALLO NEGRO" if d >= 4 else (" 📉 DECEPCIÓN" if d <= -4 else "")
+        lines.append(f"{i}. **{team}** ({dn}) — {w}-{l}, {fpts:.1f} pts · proy #{pr} ({d:+d}){tag}")
+
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False
     for wk in range(max(1, week - 1), week + 1):

@@ -29,10 +29,13 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 CANON = ROOT / "data" / "intel" / "miroslava.md"
-# Presupuestos por tipo. "columna-ranking" es más alto a propósito: un power
-# ranking de 18 equipos son 18 líneas obligatorias (~180 palabras) que son
-# CONTENIDO, no relleno. No usar este tipo para justificar prosa de más.
-PRESUPUESTO = {"boletin": 300, "columna": 600, "columna-ranking": 780}
+# Presupuestos por tipo. "columna-ranking" escala con la liga: desde
+# 2026-09-15 cada línea de "Del Penthouse al Sótano" lleva lugar real,
+# récord, puntos y rank proyectado (regla del user) — ~20 palabras por
+# franquicia entre dato obligatorio y remate (18 equipos → 960, 12 → 840).
+# Es contenido, no relleno; no usar este tipo para justificar prosa de más.
+PRESUPUESTO = {"boletin": 300, "columna": 600, "columna-ranking": 600}
+EQUIPOS = {"gallamijos": 18, "dynasty": 12}
 
 # Conteos de bando en la REDRAFT, leídos del canon (no inferir jamás)
 BANDOS_REDRAFT = {"mijos": 4, "gallaghers": 9, "gallas": 9, "sin bandera": 5}
@@ -125,7 +128,7 @@ def revisar(path, liga, tipo, ya_publicado=False):
 
     # 2 · presupuesto
     n = len(texto.split())
-    tope = PRESUPUESTO[tipo]
+    tope = PRESUPUESTO[tipo] + (20 * EQUIPOS[liga] if tipo == "columna-ranking" else 0)
     if n > tope:
         errores.append(f"Largo: {n} palabras, tope {tope} para '{tipo}'. "
                        "Recorta relleno, no contenido de decisión.")

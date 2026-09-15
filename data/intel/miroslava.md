@@ -437,10 +437,21 @@ cambios suyos sobre mi borrador, cada uno una regla:
 3. 🏆 **REPARTO DE MEDALLAS Y VERGAZOS**: MVP de la semana · 💩 La Cagada de
    la Semana (peor decisión de lineup/waiver) · 🪦 El Muerto (peor equipo) ·
    🤡 Trade del Payaso (cuando aplique). Al MVP su medalla, al resto su verdad.
-4. 📊 **DEL PENTHOUSE AL SÓTANO** — el power ranking 1-N: una línea de
-   carrilla por franquicia, del trono a la humedad. Bonus permanente: con el
-   Faraón en la liga, el chiste del penthouse ya viene cargado ("el único que
-   tiene penthouse real y ranking de sótano").
+4. 📊 **DEL PENTHOUSE AL SÓTANO** — **REGLA DEL USER (2026-09-15): el orden
+   es la TABLA REAL de la liga** (récord, desempate por puntos — como la ve
+   el grupo en Sleeper), NO el ranking de proyección. Cada línea lleva
+   `lugar. *Equipo* W-L, puntos (Nº proyectado)` y el comentario se hace
+   CONTRA lo proyectado: **🐎 caballos negros** (tabla ≥4 lugares arriba de
+   su proyección), **sorpresas** (ganan sin que nadie los esperara),
+   **📉 decepciones** (proyectados arriba, tabla abajo) y "justo donde lo
+   proyectaban" para los que cumplen. `roast_facts.py` ya publica la sección
+   "TABLA DE POSICIONES vs rank de proyección" con el delta y las etiquetas
+   — se lee de ahí, no se calcula a mano. Una línea de carrilla por
+   franquicia, del trono a la humedad; cada línea con material NUEVO de la
+   hoja (no repetir datos ya usados arriba). Bonus permanente: con el
+   Faraón en la liga, el chiste del penthouse ya viene cargado ("el único
+   que tiene penthouse real y ranking de sótano"). Presupuesto del linter:
+   `columna-ranking` = 600 + 20 palabras por franquicia.
 5. ⚔️ **Marcador de la Guerra**: Gallas vs Mijos (head-to-head entre bandos) y
    qué hicieron Los Sin Bandera
 6. 🔮 **EL PALPITOTE DEL ESCOTE** — la predicción troll de la próxima semana

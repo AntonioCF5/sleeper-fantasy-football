@@ -356,3 +356,19 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - jetsdelalaguna: 7 waivers en la hoja, cuatro con FAAB $0 (Vaki, Erick All, Jonnu Smith, Perine), Hunt $1, TEN $2, Holani $2.
 - Bears-Panthers sumaron 96 puntos, récord para una semana 1 (NFL.com): Caleb Williams 37.3, Jalen Coker 34.8 (alealvarez7), Bryce Young 31.4 en la banca de damarante.
 - Ranking de marcadores semana 1: 205.2 alealvarez7 · 172.0 ElGeneral4 · 167.0 Jro91 · 159.2 elmijo · 150.7 charlyae17 · 142.9 davidcruz77 (6º y perdió) · 137.9 Gallaghers4 · 121.4 panchocruz · 120.8 drw25 · 116.9 damarante · 107.3 jetsdelalaguna · 102.9 rodrigodiaz.
+
+## TABLA DE POSICIONES (récord, puntos) vs rank de proyección
+*Orden de 'Del Penthouse al Sótano'. Delta = rank proyectado − lugar real: +4 o más = 🐎 caballo negro; −4 o menos = 📉 decepción.*
+
+1. **Aquiles Brinco** (alealvarez7) — 1-0, 205.2 pts · proy #1 (+0)
+2. **Dinastía Lombardi** (ElGeneral4) — 1-0, 172.0 pts · proy #6 (+4) 🐎 CABALLO NEGRO
+3. **Mayagoitias** (Jro91) — 1-0, 167.0 pts · proy #4 (+1)
+4. **LaviboradeLamar** (charlyae17) — 1-0, 150.7 pts · proy #8 (+4) 🐎 CABALLO NEGRO
+5. **Gallagher** (Gallaghers4) — 1-0, 137.9 pts · proy #5 (+0)
+6. **Panchos** (panchocruz) — 1-0, 121.4 pts · proy #10 (+4) 🐎 CABALLO NEGRO
+7. **La Dinastía de Pitones** (elmijo) — 0-1, 159.2 pts · proy #11 (+4) 🐎 CABALLO NEGRO
+8. **King in the North** (davidcruz77) — 0-1, 142.9 pts · proy #9 (+1)
+9. **House RW** (drw25) — 0-1, 120.8 pts · proy #2 (-7) 📉 DECEPCIÓN
+10. **Broncos Locos** (damarante) — 0-1, 116.9 pts · proy #3 (-7) 📉 DECEPCIÓN
+11. **Same Old Jets** (jetsdelalaguna) — 0-1, 107.3 pts · proy #12 (+1)
+12. **Los hijos de pooh** (rodrigodiaz) — 0-1, 102.9 pts · proy #7 (-5) 📉 DECEPCIÓN

@@ -298,3 +298,25 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - Jro91 dropeó a T.J. Watt (lo firmó elmijo: 17 pts en DL) y a Nick Bosa (lo reclamó charlyae17 en waivers).
 - Marcador de bandos semana 1: Mijos 4-0 (3-0 vs Gallaghers, 1-0 vs Sin Bandera) · Gallaghers 2-7 (Gallaghers4 venció a drw25; Jebusf venció a aledlg) · Sin Bandera 3-2 (jffaya, maudlgarza, Tibu23 vencieron a Gallas; aledlg perdió vs Jebusf; FilledUpRivers perdió vs alealvarez7).
 - Palpitote 2026-09-09: Scary Terry vs Nenes (pronóstico implícito Charly) ✓ · Notcharlysyear vs Jro91 (pronóstico implícito Rorro) ✓ → va 2 de 2.
+
+## TABLA DE POSICIONES (récord, puntos) vs rank de proyección
+*Orden de 'Del Penthouse al Sótano'. Delta = rank proyectado − lugar real: +4 o más = 🐎 caballo negro; −4 o menos = 📉 decepción.*
+
+1. **Scorpions 2.0** (jffaya) — 1-0, 163.8 pts · proy #4 (+3)
+2. **Gallagher** (Gallaghers4) — 1-0, 163.5 pts · proy #13 (+11) 🐎 CABALLO NEGRO
+3. **Matasanos FC** (Tibu23) — 1-0, 155.5 pts · proy #1 (-2)
+4. **Los hijos de pooh** (rodrigodiaz) — 1-0, 150.9 pts · proy #12 (+8) 🐎 CABALLO NEGRO
+5. **Frijolinsky** (maudlgarza) — 1-0, 139.1 pts · proy #6 (+1)
+6. **My Son Dave** (alealvarez7) — 1-0, 136.4 pts · proy #8 (+2)
+7. **Pythons ⭐ ⭐ ⭐ ⭐** (elmijo) — 1-0, 131.7 pts · proy #5 (-2)
+8. **Scary Terry** (charlyae17) — 1-0, 128.6 pts · proy #15 (+7) 🐎 CABALLO NEGRO
+9. **TDManiacs** (Jebusf) — 1-0, 127.5 pts · proy #16 (+7) 🐎 CABALLO NEGRO
+10. **Pulpo Power** (drw25) — 0-1, 144.9 pts · proy #2 (-8) 📉 DECEPCIÓN
+11. **Taquito con catsup** (tbarg91) — 0-1, 137.6 pts · proy #11 (+0)
+12. **El General** (ElGeneral4) — 0-1, 130.0 pts · proy #7 (-5) 📉 DECEPCIÓN
+13. **PepeSilvia: Resurrection** (canogutierrez) — 0-1, 123.6 pts · proy #10 (-3)
+14. **Ryomen Sukuna** (davidcruz77) — 0-1, 106.0 pts · proy #9 (-5) 📉 DECEPCIÓN
+15. **Jro91** (Jro91) — 0-1, 103.5 pts · proy #18 (+3)
+16. **Zenitsu** (aledlg) — 0-1, 102.4 pts · proy #3 (-13) 📉 DECEPCIÓN
+17. **Nenes consentidos** (hectordavid1989TRC) — 0-1, 99.6 pts · proy #14 (-3)
+18. **Fill Up, Rivers** (FilledUpRivers) — 0-1, 82.0 pts · proy #17 (-1)
