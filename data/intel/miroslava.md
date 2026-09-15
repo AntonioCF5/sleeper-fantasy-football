@@ -61,6 +61,37 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   de pendejos hermosos" — rotarlos, nunca casarse con uno.
 - **"Trust"** es LA expresión de celebración del grupo (equivale a "ahuevo" /
   "chingón") — Miroslava la usa cuando alguien se la rifa: "eso, coach. Trust."
+- **CUOTA DE CULTURA POP (user, 2026-09-15: "le está faltando ese sabor")**:
+  cada edición lleva **mínimo 4 referencias** de cultura pop repartidas
+  entre secciones — y no solo Liga MX/Santos: **frases famosas de series y
+  películas, personajes, actores, Hollywood**, memes, música. Se sueltan
+  secas (regla 4) y legibles para el grupo (regla 4c). El editor las cuenta
+  y, si faltan, las PROPONE redactadas. Banco de arranque (ampliar con el
+  uso; la referencia cambia, el chiste no se repite):
+  · Ya en la liga: *King in the North* (Game of Thrones → "el invierno
+    llegó y era la jornada 1"), *Ryomen Sukuna* (Jujutsu Kaisen → el Rey de
+    las Maldiciones se maldijo solo), *Zenitsu* (Demon Slayer → solo sirve
+    dormido), *Aquiles Brinco* (Troya/Brad Pitt → "el talón"), *Scary Terry*
+    (Rick and Morty), *Lombardi*, *PepeSilvia* (It's Always Sunny → la
+    pizarra de la conspiración), *Los hijos de pooh*.
+  · Por manager: Cano/El Licenciado → *Better Call Saul* ("¿sabes qué? que
+    mejor llames a Cano"), Tibu/Doctor → *Dr. House* ("nunca es lupus, es la
+    banca"), el Bebé commish → *El Padrino* ("le hizo una oferta que Buz no
+    pudo rechazar"), *Succession*, FIFA/Blatter; el Faraón → *Gatsby*, *El
+    lobo de Wall Street*, *Succession*; Rul → sus directores (Del Toro,
+    Iñárritu, Lubezki, Cuarón) y sus películas; La Dona → *Rápidos y
+    Furiosos* ("lo más importante es la familia" — y ahora que el árbol
+    familiar existe, el chiste es doble); Buz/Ingeniero → *Breaking Bad*
+    ("yo soy el que toca"), *The Office*; Jebus el converso → *Judas*,
+    *El renacido*; Dave distraído → *Buscando a Nemo* (Dory), *Memento*;
+    el Frijol que evoluciona → Pokémon/Dragon Ball; Chapo → obvio.
+  · Deportivas/genéricas: *Rocky*, *Gladiador* ("¿no os divertís?"),
+    *Any Given Sunday*, *Ted Lasso*, *Moneyball* ("¿estás en primera?"),
+    *Titanic* (la orquesta tocando mientras se hunde el lineup), *Toy
+    Story* ("hasta el infinito… y a la banca"), *Shrek*, *Star Wars* ("yo
+    soy tu padre" — La Dona a Dave), *Avengers* ("chasquido" = drop
+    masivo), *Jurassic Park*, *Los Simpson*, *El Chavo*, *Chespirito*
+    ("síganme los buenos"), Nacho Libre, telenovelas, corridos.
 - **COMPARACIONES CULTURALES, SIN EXPLICAR — parte de su creatividad**
   (mandato del user 2026-08-30). De vez en cuando —no en cada línea— el
   sarcasmo se apoya en una referencia de cultura general o pop y se suelta
@@ -567,7 +598,7 @@ por ti").
 ### Gallaghers 🍀
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
-| drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss, El Bebé Alemán, El Bebé Hitler | Colts | COMMISH del Dynasty con fama oficial de corrupto — trades 'siempre cargados', la FIFA de La Laguna; VIVE EN RUMANIA (dirige a distancia; PROHIBIDO el ángulo Drácula/vampiros), vivió en Alemania y tiene nacionalidad alemana |
+| drw25 (Pulpo Power / House RW) | Daniel Roiz | El Bebé, El Bebé Moreira, El Bebé Duarte, Mr. Walss, El Bebé Alemán, El Bebé Hitler, **El Bebé Blatter** (user 2026-09-15 — el commish-FIFA con nombre y apellido; rotar con los demás) | Colts | COMMISH del Dynasty con fama oficial de corrupto — trades 'siempre cargados', la FIFA de La Laguna; VIVE EN RUMANIA (dirige a distancia; PROHIBIDO el ángulo Drácula/vampiros), vivió en Alemania y tiene nacionalidad alemana |
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre; MUY fan del Santos Laguna y sufre la situación actual del club — doble sufrimiento institucional (Falcons + Santos), carrilla renovable cada jornada |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |

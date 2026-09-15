@@ -56,8 +56,13 @@ canon, que son las que más se han roto:
   falló. Error real: "cada pendejada se comete bajo bandera". No se explica,
   se cambia — y un callback a algo ya establecido en la misma edición suele
   ser el mejor reemplazo.
-- **Referencias culturales sin explicar**, de vez en cuando y legibles para el
-  grupo lagunero (Aleco/Orlegi manejando al Santos es material permanente).
+- **CUOTA DE CULTURA POP — mínimo 4 por edición** (user 2026-09-15, "le
+  está faltando ese sabor"): cuenta las referencias reales (series,
+  películas, frases famosas, personajes, actores, Hollywood, memes, Liga MX)
+  — los nombres de equipo por sí solos NO cuentan. Si hay menos de 4, es
+  REQUIERE CAMBIOS: propón las que faltan YA REDACTADAS, pegadas a un dato
+  real de la edición (el banco está en la sección de tono del canon). Secas,
+  sin explicar, legibles para el grupo.
 - **Estructura**: no repetir el esqueleto de la edición anterior. Un anuncio
   puntual va como boletín corto, no metido en el molde semanal — el molde
   grande obliga a rellenar, y el relleno es lo que se siente repetido.
