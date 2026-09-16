@@ -530,17 +530,87 @@
    "published": "2026-09-14",
    "source": "sal-vetri",
    "processed": "2026-09-14"
+  },
+  "AkeiGCo4rTw": {
+   "video_id": "AkeiGCo4rTw",
+   "title": "7 Players I'm Panicking About in Fantasy Football",
+   "published": "2026-09-15",
+   "source": "sal-vetri",
+   "processed": "2026-09-15"
+  },
+  "Z65Hl22YzL8": {
+   "video_id": "Z65Hl22YzL8",
+   "title": "Week 2 Waivers + Bounce Back or Buns? | Fantasy Football 2026 - Ep. 1972",
+   "published": "2026-09-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "rzXDemil7mM": {
+   "video_id": "rzXDemil7mM",
+   "title": "Week 1 Studs & Duds + Rapid (Over)-Reactions? | Fantasy Football 2026 - Ep. 1971",
+   "published": "2026-09-14",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "ecHFLjwqVtQ": {
+   "video_id": "ecHFLjwqVtQ",
+   "title": "Mike Wright is LIVE! Week 1 Fantasy Football Start/Sit Advice + Injury News",
+   "published": "2026-09-13",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "Xj4C8yNa38k": {
+   "video_id": "Xj4C8yNa38k",
+   "title": "Place your claims on these WRs \ud83d\udc4f (Fantasy Football Waiver Wire)",
+   "published": "2026-09-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "PHoR69F4GN4": {
+   "video_id": "PHoR69F4GN4",
+   "title": "Running back waiver wire pickups \ud83d\udcaf",
+   "published": "2026-09-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "7hX52WFHH-4": {
+   "video_id": "7hX52WFHH-4",
+   "title": "#1 TE waiver target? \ud83d\udc40",
+   "published": "2026-09-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "mF9v2iIdMzg": {
+   "video_id": "mF9v2iIdMzg",
+   "title": "\"After week 1, what is the hottest off-season question you believe is already solved...?\"",
+   "published": "2026-09-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "KgpNoDozJPQ": {
+   "video_id": "KgpNoDozJPQ",
+   "title": "WEEK 1 VICTORY LAP TIME (this is 100% going to age well)",
+   "published": "2026-09-14",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
+  },
+  "6LF-RzQJ-no": {
+   "video_id": "6LF-RzQJ-no",
+   "title": "We've got Dart vs Dak in week one... whose the better play for fantasy?",
+   "published": "2026-09-12",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-15"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-14",
+   "last_success": "2026-09-15",
    "last_failure": "2026-09-14"
   },
   "fantasy-footballers": {
-   "consecutive_failures": 4,
-   "last_success": "2026-09-12",
+   "consecutive_failures": 0,
+   "last_success": "2026-09-15",
    "last_failure": "2026-09-14"
   }
  }

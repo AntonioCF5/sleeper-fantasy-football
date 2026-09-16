@@ -1,17 +1,17 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-14** (expert-daily 9/14 —
-Monday after Week 1, DEN-KC live at press time. Sal only (2 videos, 34
-takes); the FF RSS edge returned HTTP 500 all night (4 counter misses, all
-tonight). Week 1: W in Gallamijos Lg, MEXICA, LoR, DYNASTY TRC; L in
-Gallamijos Dyn (to ElGeneral4) and Dynasty Mexica (86.0, last in the
-league); Guillotine TRC top score 122.6 — sscordoba (64.9) is the guillotine
-→ Collins $477 / Judkins $255. Gallamijos Dyn taxi STILL 7/6 (fix revised:
-Stribling IR + promote Kaelon Black); MEXICA DL slot STILL empty day 12
-(Booker for Coleman). New offer: Bryce Young for Addison to Germanvbc5 on the
-Murray concussion. Friday's 9/11 PM run merged 4 videos but never wrote a
-newsletter or committed — committed with this edition.)*
+tooling, or league state. Last updated: **2026-09-15** (expert-daily 9/15 —
+Tuesday, Week 2 waivers night. FF feed RECOVERED (4 misses closed, 9 videos
+caught up incl. Ep. 1972 waivers) + Sal's panic-7: 124 takes. Guillotine TRC:
+sscordoba CHOPPED (on the log) — Collins $477 / Judkins $255 stand; the roster
+is co-owned (alealvarez7 owner, elmijo co-owner). Gallamijos Dyn compliance
+RESOLVED (Stribling IR, Felton promoted, taxi 6/6, one open spot). DYNASTY TRC
+reads 23/25 with Lloyd on the taxi and Sampson/Stowers on IR → Vele $15 +
+Raheim Sanders $3, no drops; LoR Sanders $3 for Dortch (practice squad).
+MEXICA DL slot STILL empty day 13 (Booker for Coleman). Two trades to send
+tonight: RGV95 Lloyd-for-Odunze (FF "buns", trending drop) and Germanvbc5
+Young-for-Addison (Wentz named starter).)*
 
 ## What this project is
 
@@ -138,6 +138,46 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **GUILLOTINE TRC — BIDS PROCESS TONIGHT (2026-09-15).** sscordoba's
+  chop is confirmed on the league log (14 players on the wire). **Collins $477**
+  (drop Saylors) / **Judkins $255** (drop Kaleb Johnson); skip London/Stafford/
+  Loveland — $268 stays banked because the guillotine wire strengthens weekly.
+  ⚠️ The roster is CO-OWNED: alealvarez7 is the listed owner, elmijo the
+  co-owner — agree who enters the bids. Lineup: Shakir over Tucker.
+- [ ] 🔴 **SEND TWO TRADES TONIGHT (2026-09-15).** RGV95 (DYNASTY TRC): Lloyd
+  for Odunze — FF called Lloyd "buns, droppable", #6 trending drop; the user
+  moved Lloyd to the taxi (legal, taxi_allow_vets=1, still tradeable);
+  Henderson (RGV95's RB3) is back at practice so his hole is closing. Do not
+  sweeten; a no = hold, never cut. Germanvbc5 (DYNASTY TRC): Bryce Young for
+  Addison — Wentz confirmed Week-2 starter, Murray no timeline; Brooks fallback
+  DROPPED (Sal: "toast").
+- [ ] 🔴 **MEXICA DL SLOT STILL EMPTY — DAY 13.** Booker for Jonah Coleman
+  (zero touches Monday; FF: droppable). Bowers now tagged Out (Kubiak
+  day-to-day, base rate 3-4 wks) — Mayer holds TE. Lineup: Corum in, Tate sits.
+- [ ] **DYNASTY TRC (2026-09-15):** two open active spots (23/25) → Vele $15
+  (Bateman $9 fallback) + Raheim Sanders $3 (CLE RB2 after Sampson's IR;
+  Judkins is Germanvbc5's) — no drops; Tracy is the first drop if ever needed.
+  Lineup: Shakir into the flex for Godwin (+0.5, high BUF-DET total), Kraft
+  over Kelce, Burrow over Maye (Sal: sit Maye 2-3 weeks). Lane: wrist
+  surgery, ~1 month (taxi).
+- [ ] **LoR (2026-09-15):** Sanders $3 for Greg Dortch (reverted to BUF
+  practice squad — free drop). Coker plays (boot precautionary). Stroud over
+  Mahomes stands. Bowers Out with no IR path — if it becomes weeks, TE is the
+  portfolio's weakest slot (Parkinson 4.8) and Goedert/Juwan/Henry are all
+  rostered → trade item.
+- [x] ✅ **GALLAMIJOS DYN COMPLIANCE RESOLVED 2026-09-15** — Stribling to IR,
+  Felton promoted (Black stays on the taxi, protected). Active 22/23 → the
+  Darnell Washington $7 claim now costs no drop (optional). McConkey "not
+  significant", flak jacket likely — keep him in; Aaron Jones for Mitchell.
+- [ ] **Dynasty Mexica / Gallamijos Lg:** no claims. London: Sal "extremely
+  panicked" (18% share with Rush) — hold as WR2, sell into the first good
+  week. Raheim Sanders is free in Gallamijos Lg but costs Bech — skip.
+- [ ] **Coaching watch:** staffs unchanged; DEN's Davis Webb under public fire
+  after 31-10, Payton NOT taking play-calling back yet — re-check before
+  Week 3 (Dobbins run rate, Bryant targets).
+- [x] ✅ **FF FEED RECOVERED 2026-09-15** — the 9/14 four-miss escalation is
+  closed; 9 FF videos caught up, nothing lost.
 
 - [ ] 🔴 **GUILLOTINE TRC — FIRST HAUL (2026-09-14).** sscordoba (64.9, no MNF
   players) is the eliminated roster; men2a07 (69.7, Kelce/Sutton live) can only

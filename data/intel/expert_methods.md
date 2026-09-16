@@ -887,3 +887,97 @@ and Brian Thomas Jr. for him inside 24 hours.
   three days apart): the mechanism is vacated A.J. Brown targets, which is
   a real channel — but Doubs drew ZERO targets on 40 snaps Sunday. Hold in
   Dynasty Mexica (nothing to add for), keep him as the named drop.
+
+## 2026-09-15 — Sal "7 players I'm panicking about" (AkeiGCo4rTw) + FF Ep. 1971 studs/duds (rzXDemil7mM) + Ep. 1972 Week-2 waivers (Z65Hl22YzL8) + Mike Wright live (ecHFLjwqVtQ) + 6 shorts
+
+- **Week-1 triage — "don't overreact, but you must react"** [FF]: sort duds
+  by usage, not points. Routes/snap share/first-read targets intact
+  (Loveland 89-93% routes, Chase 97% routes, Downs 94%) = variance, bounce
+  back; usage itself bad (Brooks 19% snaps / 12% routes, Price in a designed
+  50-50, Rice 2 targets in the Bieniemy scheme) = role change, react.
+- **Sal's three league-winning RB buckets** for reading a bad box score:
+  pass-game usage (target/route share), inside-the-10 snap share, and
+  explosive-run rate. A back who aces all three in a "bad" game (CMC: 24%
+  target share, 67% inside-10 snaps) is noise; one failing all three
+  (Brooks, 0 of 5 inside-the-5 carries) is toast. Apply before any
+  hero-RB sell or handcuff overpay.
+- **Low-information games** [both]: 24-hour international travel with no
+  preseason, in-game cramping, a blowout by mid-3rd, or a 6-rushing-TD /
+  29-attempt script — discount every split from them. Our weekly reads
+  should tag the game context before scoring a usage delta.
+- **FAAB when no "dump the budget" player exists** [FF]: cap the top bids
+  at 10-15% (Coker 12-15, Black 10-15, Deebo 8-10) and spread ~8% bids
+  across 4-5 interchangeable WRs to land one or two; $0-1 on rookies who
+  played real snaps (Fields 73%, A. Williams). Pay only for rest-of-season
+  assets; expiring fill-ins (Vele while Barion Brown is out, Mayer while
+  Bowers is out, Wicks until Lemon develops) are start-if-needed adds,
+  never FAAB investments. Converges with our ladder: their 12-15% top bid
+  is our "strong role bet" tier, not the 30-60 league-winner tier.
+- **Insurance-back ranking** [FF]: (a) the starter's injury history and
+  workload (Walker, CMC), (b) offense quality, (c) the backup's
+  demonstrated competence; owners of the starter overpay slightly to
+  protect the asset. Tie-break is probabilistic — prefer the backup who
+  can carve a STANDALONE role (Black, ~12 weekly opportunities) over one
+  who would still split if the starter fell (Bigsby with Shipley).
+- **Rookie churn after week-1 IR casualties** [FF]: Lane/Stribling/Cooper
+  free stash spots — refill with cheap rookies who played real snaps, not
+  veterans (Demarcus Robinson). Matches our dynasty ladder exactly.
+- **Touches-per-snap, not snaps** [FF]: Marks matched Montgomery's snaps
+  but the ball went to Montgomery in both phases; Gainwell's 46% snaps vs
+  Irving's 7 targets is the reverse warning that targets can migrate.
+- **Alignment as a role signal** [FF]: Golden's slot rate fell ~41% → 5%
+  (dedicated outside role — bullish, 31% target share); Downs 78% slot
+  (capped); Burden more slot / fewer 2-WR sets than wanted; Concepcion 63%
+  slot. Slot rate changes precede target-share changes.
+- **Pressure rate as offense health** [FF]: Hurts 48% pressured (offense
+  broken despite the points), Stroud 21% (lowest — the run game works).
+  Separates "good bad games" from structural problems.
+- **Contract extensions as usage tells** [FF]: Swift 3yr/$33M says the
+  Bears aren't drafting an RB (dynasty-relevant); Mayer's 3yr/$45M was
+  signed pre-Bowers for an inline role — not a Bowers demotion.
+- **Streaming twofers** [FF]: pick a DEF whose next TWO opponents are bad
+  (CAR: ATL/Rush then CLE; KC: IND, MIA, LV) so the spot isn't churned
+  weekly — the 18-team two-week-ahead rule, now with expert backing. QB
+  streamers come from three pools: benched good QBs as heavy favorites
+  (Purdy -13.5), starters oddly under-rostered (Mahomes started in 31%),
+  and backups elevated into a high total (Wentz vs CHI, 3rd-highest O/U).
+- **Close-start tie-breaks** [Mike Wright]: spread + implied team total
+  (highest underdog implied total; favorites drain clock with the lead
+  back) and hard snap constraints (a 20-30-snap player loses to any
+  full-time starter — Pierce).
+- **"Wait until the game is over"** [FF]: Shough went from negative points
+  at half to 410/3; conversely Bengals stars start slowly every year, so
+  Chase's dud is a pattern, not a signal. Base rates from prior seasons
+  belong in the week-1 read.
+- **Buy-low on invisible usage** [both]: Loveland (2nd-most TE routes),
+  Kincaid (elite per-route metrics now at 72% snaps — needs 65%+ to
+  matter), Metcalf (#1 points-below-expected). Expected fantasy points and
+  yards per route run (Flowers 13.6) are the metrics, not the box score.
+- **Sell-high on a TD that masks bad usage** [FF]: Rice's TD on 2 targets is
+  a flip window — trade for a player whose usage backs the box score
+  (Parker Washington).
+
+### Mechanism audit log (this batch)
+
+- ✅ **Sal: Drake London "extremely panicked"** — the mechanism is a QB
+  room (Rush, then Penix off a third ACL) plus 18% target share on 96%
+  routes. That is a measured driver, not the thin-backfield fallacy. He is
+  a starter for us in Dynasty Mexica (11.7 wk) with no better bench WR —
+  hold and sell into the first good week, exactly as Sal says.
+- ✅ **FF: Kaelon Black "protect the asset" overpay** — usage-based (50% of
+  team carries in the CMC rest window) + the starter's documented base
+  rate. We own him (Gallamijos Dyn taxi) — nothing to buy.
+- ⚠️ **FF: Coker #1 WR add** — 8-132-2 on 84% snaps; mechanism (tied
+  McMillan in first-read targets, led in air yards) is real usage, but the
+  game was a 59-37 shootout against the Bears' 28th-ranked yards-per-play
+  defense. We own him in LoR; the rolled ankle / walking boot is the
+  live risk, not the role.
+- ⚠️ **FF: "Purdy streamer" mechanism is the -13.5 spread** — a favorite
+  runs more, not less (our game-script rule); the case survives on the
+  implied TOTAL, not the spread. Same for Mahomes (-6.5, high total).
+- ❌ **FF: Hunter Henry "someone has to catch Maye's TDs without Brown"** —
+  vacated-target reasoning without a measured share; Henry drew 4-41 on
+  Sunday (our 8.2 wk). Filed as low-conviction only; Doubs' zero targets
+  on 40 snaps is the counter-evidence on the same offense.
+- ✅ **Sal: Brooks "toast"** — 19% snaps, 12% routes, zero inside-the-5
+  carries; Hubbard 70% snaps and every high-value touch. Pure usage.
