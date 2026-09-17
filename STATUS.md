@@ -1,17 +1,16 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-15** (expert-daily 9/15 —
-Tuesday, Week 2 waivers night. FF feed RECOVERED (4 misses closed, 9 videos
-caught up incl. Ep. 1972 waivers) + Sal's panic-7: 124 takes. Guillotine TRC:
-sscordoba CHOPPED (on the log) — Collins $477 / Judkins $255 stand; the roster
-is co-owned (alealvarez7 owner, elmijo co-owner). Gallamijos Dyn compliance
-RESOLVED (Stribling IR, Felton promoted, taxi 6/6, one open spot). DYNASTY TRC
-reads 23/25 with Lloyd on the taxi and Sampson/Stowers on IR → Vele $15 +
-Raheim Sanders $3, no drops; LoR Sanders $3 for Dortch (practice squad).
-MEXICA DL slot STILL empty day 13 (Booker for Coleman). Two trades to send
-tonight: RGV95 Lloyd-for-Odunze (FF "buns", trending drop) and Germanvbc5
-Young-for-Addison (Wentz named starter).)*
+tooling, or league state. Last updated: **2026-09-16** (expert-daily 9/16 —
+Wednesday, Week 2 waivers RECONCILED. Both expert feeds 404'd twice (RSS edge,
+2 misses each, nothing lost). Bids went in at $0/below rulings everywhere:
+Guillotine Collins $101 lost to $388, Judkins $0 lost to $35; Vele/Sanders/
+Singletary $0 all lost. User cut IDP starters for WR fliers → Gallamijos Lg
+LB+DB EMPTY, MEXICA DL+DB EMPTY (Booker never entered). Rulings: D. Lloyd +
+Thieneman (Gallamijos Lg), Booker + Mustapha (MEXICA), Sanders $3 for Tracy
+(DYNASTY TRC — still free; roster now 25/25, Mason IR-stuck active). Trades:
+send RGV95 + Germanvbc5 TODAY (Odunze off the report; Germanvbc5 patched QB
+with Brissett $0).)*
 
 ## What this project is
 
@@ -138,6 +137,29 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **FOUR EMPTY IDP STARTERS (2026-09-16).** Gallamijos Lg: LB → Devin
+  Lloyd (for Bech), DB → Thieneman (for Antonio Williams); priority 18/18 so
+  only free agents are winnable — add instantly. MEXICA: DL → Booker (for
+  Coleman, day 14), DB → Mustapha (for Bech). Both leagues project as losses
+  this week (97.6 vs 132.8; 105.6 vs 118.0).
+- [ ] 🔴 **BID-ENTRY LEAK (2026-09-16).** Every FAAB bid this cycle was entered
+  at $0 or below the ruling (Collins $101 vs $477 — $388 won; Judkins $0 vs
+  $255 — $35 won; Vele/Sanders/Singletary $0). Guillotine TRC (alealvarez7)
+  and DYNASTY TRC (charlyae17) are co-owned — settle who enters bids and that
+  the ruling number is entered, before the post-Week-2 guillotine chop.
+- [ ] **DYNASTY TRC (2026-09-16):** Sanders $3 for Tracy (still free). Roster
+  25/25, IR 4/4 with Mason (thumb, IR, 4+ wks) stuck active — legal; Conner
+  (31, IR) is the dynasty-rule cut if a spot is ever needed. Collins hamstring
+  tests Thursday → Hollins contingency. Kraft/Shakir swaps still unexecuted;
+  QB = Burrow if full Friday, Maye if limited (same in Dynasty Mexica).
+- [ ] **Trades 9/16:** RGV95 Lloyd-for-Odunze and Germanvbc5 Young-for-Addison
+  both still UNSENT — send today; shelve on a no. ElGeneral4 accept stands
+  (offer state on Sleeper unknown). Juliosg/Gernant88 send; Jro91 hold.
+- [ ] **Lineups 9/16:** Gallamijos Dyn Dowdle for Mitchell (+4.3); LoR Bowers
+  over Parkinson only if active; Gallamijos Lg Corum+Dobbins/LAR DEF and
+  MEXICA Corum-for-Tate still unexecuted.
+- [x] ✅ Gallamijos Dyn Washington claim withdrawn (23/23, costs a drop now).
 
 - [ ] 🔴 **GUILLOTINE TRC — BIDS PROCESS TONIGHT (2026-09-15).** sscordoba's
   chop is confirmed on the league log (14 players on the wire). **Collins $477**
