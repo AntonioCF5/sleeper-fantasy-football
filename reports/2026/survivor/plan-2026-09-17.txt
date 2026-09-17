@@ -35,3 +35,11 @@ Entrar a la semana 12 con al menos una vida en reserva.
 Regla: solo se compromete la semana en curso; el resto es mapa. Recalcular
 cada martes: python3 scripts/survivor_plan.py --avoid-week18 --max-fade 4
 tras anotar el pick de la semana en data/intel/survivor.json ("used").
+
+--- TRIPWIRE ARIZONA (pregunta del user 2026-09-17) ---
+El plan fadea a ARI en las semanas 6, 7, 8 y 9. Medido: diversificar a máx 2
+por rival baja P(sobrevivir) de 19.9% a 13.1%; el plan ARI×4 solo pierde
+contra el diversificado si el mercado está equivocado con ARI por 5+ puntos.
+Las cuatro son una SECUENCIA, no un compromiso: se sale de ella si, antes de
+la semana 6, ARI está en .500 o mejor, o la línea LAR −13.5 baja de −9. El
+sustituto es PHI (vs CAR, 71% en la semana 6) — quedó libre para eso.
