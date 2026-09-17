@@ -19,6 +19,7 @@ boards under the rules in CLAUDE.md ("Expert layer").
 """
 
 import json
+import re
 import subprocess
 import sys
 import time
@@ -73,10 +74,17 @@ def _save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=1))
 
 
-def fetch_feed(channel_id):
-    """Recent uploads via RSS. Edge-flaky: ~1 in 3 requests 404s, hence retries."""
+# How each channel's list was obtained on this run ("rss" | "innertube"),
+# so check() can report a fallback instead of a silent success.
+FEED_VIA = {}
+
+
+def _fetch_feed_rss(channel_id):
+    """Recent uploads via RSS (~15 newest). The RSS edge is flaky — and on
+    2026-09-07/13/16 it 404'd or 500'd for BOTH channels for the whole
+    9pm run window, 25 retries deep — so this is no longer the only path."""
     out = _curl(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}",
-                retries=25, ok=lambda b: b.lstrip().startswith(b"<?xml"))
+                retries=10, ok=lambda b: b.lstrip().startswith(b"<?xml"))
     if not out:
         return None
     ns = {"a": "http://www.w3.org/2005/Atom",
@@ -90,6 +98,101 @@ def fetch_feed(channel_id):
             "published": e.find("a:published", ns).text[:10],
         })
     return entries
+
+
+def _relative_date(text):
+    """'20 hours ago' / '3 days ago' / 'Streamed 2 weeks ago' → YYYY-MM-DD
+    (approximate; InnerTube gives relative dates only)."""
+    import datetime as _dt
+    m = re.search(r"(\d+)\s+(minute|hour|day|week|month|year)s?\s+ago", text or "")
+    today = _dt.date.today()
+    if not m:
+        return today.isoformat()
+    n, unit = int(m.group(1)), m.group(2)
+    days = {"minute": 0, "hour": 0, "day": 1, "week": 7, "month": 30, "year": 365}[unit] * n
+    return (today - _dt.timedelta(days=days)).isoformat()
+
+
+def _innertube_browse(channel_id, params):
+    body = {"context": {"client": {"clientName": "WEB",
+                                   "clientVersion": "2.20240101.00.00"}},
+            "browseId": channel_id, "params": params}
+    out = _curl("https://www.youtube.com/youtubei/v1/browse", post_json=body,
+                retries=3, ok=lambda b: b.lstrip().startswith(b"{"))
+    return json.loads(out) if out else None
+
+
+def _fetch_feed_innertube(channel_id):
+    """Fallback catalogue via the InnerTube browse API — the backend the
+    YouTube web app itself uses, independent of the RSS edge. Videos tab
+    (30 newest, relative dates) + Shorts tab (no dates; capped to the 8
+    newest so a fallback night doesn't dredge up months of old shorts the
+    RSS window never showed us)."""
+    entries = []
+    d = _innertube_browse(channel_id, "EgZ2aWRlb3PyBgQKAjoA")  # Videos tab
+    if d:
+        def walk(o):
+            if isinstance(o, dict):
+                if "lockupViewModel" in o:
+                    lv = o["lockupViewModel"]
+                    md = lv.get("metadata", {}).get("lockupMetadataViewModel", {})
+                    rows = (md.get("metadata", {}).get("contentMetadataViewModel", {})
+                            .get("metadataRows", []))
+                    parts = [p.get("text", {}).get("content", "") for r in rows
+                             for p in r.get("metadataParts", [])]
+                    when = next((x for x in parts if "ago" in x), "")
+                    if lv.get("contentId") and md.get("title", {}).get("content"):
+                        entries.append({"video_id": lv["contentId"],
+                                        "title": md["title"]["content"],
+                                        "published": _relative_date(when)})
+                for x in o.values():
+                    walk(x)
+            elif isinstance(o, list):
+                for x in o:
+                    walk(x)
+        walk(d)
+    d = _innertube_browse(channel_id, "EgZzaG9ydHPyBgUKA5oBAA%3D%3D")  # Shorts tab
+    shorts = []
+    if d:
+        def walk_s(o):
+            if isinstance(o, dict):
+                if "shortsLockupViewModel" in o:
+                    s = o["shortsLockupViewModel"]
+                    vid = ((s.get("onTap", {}).get("innertubeCommand", {})
+                            .get("reelWatchEndpoint", {}) or {}).get("videoId"))
+                    title = s.get("overlayMetadata", {}).get("primaryText", {}).get("content")
+                    if vid and title:
+                        shorts.append({"video_id": vid, "title": title,
+                                       "published": time.strftime("%Y-%m-%d")})
+                for x in o.values():
+                    walk_s(x)
+            elif isinstance(o, list):
+                for x in o:
+                    walk_s(x)
+        walk_s(d)
+    # Only what the RSS window would plausibly have shown: the Videos tab
+    # goes 30 deep and dredges up preseason uploads that predate this
+    # system's first run (never "seen") — in-season, anything older than
+    # 10 days is stale, not new.
+    import datetime as _dt
+    cutoff = (_dt.date.today() - _dt.timedelta(days=10)).isoformat()
+    entries = [e for e in entries if e["published"] >= cutoff]
+    entries += shorts[:8]
+    return entries or None
+
+
+def fetch_feed(channel_id):
+    """Recent uploads: RSS first (exact dates), InnerTube browse if the RSS
+    edge is down. Records which path worked in FEED_VIA."""
+    entries = _fetch_feed_rss(channel_id)
+    if entries is not None:
+        FEED_VIA[channel_id] = "rss"
+        return entries
+    entries = _fetch_feed_innertube(channel_id)
+    if entries is not None:
+        FEED_VIA[channel_id] = "innertube"
+        return entries
+    return None
 
 
 def fetch_transcript(video_id):
@@ -148,6 +251,15 @@ def check(state, quiet=False):
                   f"{h['consecutive_failures']} miss(es).")
         h["consecutive_failures"] = 0
         h["last_success"] = time.strftime("%Y-%m-%d")
+        via = FEED_VIA.get(ch["channel_id"], "rss")
+        h["via"] = via
+        if via == "innertube":
+            h["rss_failures"] = h.get("rss_failures", 0) + 1
+            print(f"** {ch['name']}: RSS edge down — catalogue recovered via "
+                  f"InnerTube browse ({len(entries)} items; dates approximate, "
+                  f"shorts capped at 8). RSS misses so far: {h['rss_failures']}.")
+        else:
+            h["rss_failures"] = 0
         _save_state(state)
         fresh = [e for e in entries if e["video_id"] not in state["seen"]]
         # YouTube RSS only carries the latest ~15 uploads. If EVERY entry is

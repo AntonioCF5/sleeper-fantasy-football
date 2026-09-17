@@ -276,8 +276,11 @@ When the user asks for "this week's report/analysis" or similar:
 
 Two expert sources the user follows are integrated via
 `scripts/expert_watch.py` (YouTube RSS + InnerTube transcripts, curl-based —
-urllib gets 404'd, and the feed endpoint is edge-flaky so the script
-retries up to 25x; FF's feed is flakier than Sal's).
+urllib gets 404'd, and the RSS edge is flaky — it 404'd/500'd BOTH channels
+for whole 9pm run windows on 9/7, 9/13 and 9/16 — so `fetch_feed` retries
+RSS 10x and then falls back to the InnerTube browse API (Videos tab with a
+10-day cutoff + 8 newest Shorts; dates approximate). `feed_health.via` in
+expert_state.json records which path served each run).
 
 **Also runs automatically, daily on weekdays** via a scheduled task
 (`expert-layer-weekly` in `~/.claude/scheduled-tasks/`, 9:08pm local Mon-Fri,
