@@ -1,0 +1,26 @@
+{
+ "lives": 3,
+ "used": {
+  "1": "PIT"
+ },
+ "pool": "survivor NFL 2026 \u2014 3 vidas, sin repetir equipo",
+ "plan_generated": {
+  "2": "SF",
+  "3": "KC",
+  "4": "CHI",
+  "5": "NE",
+  "6": "LAR",
+  "7": "DEN",
+  "8": "DAL",
+  "9": "SEA",
+  "10": "BUF",
+  "11": "LAC",
+  "12": "CIN",
+  "13": "MIN",
+  "14": "DET",
+  "15": "GB",
+  "16": "BAL",
+  "17": "JAX",
+  "18": "HOU"
+ }
+}

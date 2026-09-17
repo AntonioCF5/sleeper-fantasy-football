@@ -1,0 +1,37 @@
+SURVIVOR — 3 vidas, usados: S1:PIT
+Plan óptimo semanas 2-18 (líneas DraftKings via ESPN, hoy)
+
+regresión 0.03/sem · máx 4 fades por rival · semana 18 descontada
+
+Sem Pick vs        mercado  ajust.  línea        alternativas libres (mercado)
+2   SF   vs MIA       86%     86%  SF -13.5     TB vs CLE 79%, PHI @ TEN 73%, CAR @ ATL 58%
+3   KC   @ MIA        79%     78%  KC -8.5      NYG vs TEN 69%, NO vs LV 60%, CAR @ CLE 56%
+4   CHI  vs NYJ       77%     76%  CHI -8.5     NYG vs ARI 73%, NO vs ATL 55%, WSH vs IND 52%
+5   NE   vs LV        77%     74%  NE -8.5      WSH vs NYG 54%, NYJ vs CLE 54%, PHI @ JAX 53%
+6   LAR  vs ARI       85%     80%  LAR -13.5    PHI vs CAR 71%, IND vs TEN 63%, NYG vs NO 56%
+7   DEN  @ ARI        76%     72%  DEN -7.5     PHI vs DAL 59%, NYJ vs MIA 56%, TEN vs CLE 55%
+8   DAL  vs ARI       81%     75%  DAL -10.5    TB vs ATL 66%, PHI @ WSH 53%, NYJ vs LV 53%
+9   SEA  vs ARI       85%     78%  SEA -13.5    PHI vs NYG 68%, NO vs CLE 63%, IND vs DAL 47%
+10  BUF  @ NYJ        74%     68%  BUF -7       IND vs MIA 72%, NYG vs WSH 53%, NO vs CAR 52%
+11  LAC  vs NYJ       78%     70%  LAC -9.5     PHI vs PIT 68%, WSH vs CIN 47%, NYG vs JAX 47%
+12  CIN  vs NO        71%     65%  CIN -6.5     WSH @ ARI 66%, TB vs CAR 64%, IND vs NYG 55%
+13  MIN  vs CAR       64%     59%  MIN -3.5     PHI @ ARI 77%, WSH @ TEN 53%, TEN vs WSH 47%
+14  DET  vs TEN       75%     66%  DET -7.5     PHI vs IND 69%, CAR vs NO 55%, CLE vs ATL 53%
+15  GB   vs MIA       83%     70%  GB -10.5     NYG vs CLE 64%, TB vs NO 64%, WSH vs ATL 62%
+16  BAL  vs CLE       77%     66%  BAL -10      NO vs ARI 68%, PHI vs HOU 55%, TB @ ATL 53%
+17  JAX  vs WSH       62%     57%  JAX -3.5     IND @ CLE 55%, LV @ ARI 54%, ATL vs NO 53%
+18  HOU  vs TEN       72%     57%  HOU -7       PHI @ NYG 59%, CAR vs ATL 55%, TB @ NO 53%
+
+Rivales 'fadeados': ARI×4, MIA×3, NYJ×3, TEN×2
+P(ganar TODAS, a mercado) = 1.0%   |   P(sobrevivir con 3 vidas) = 19.8%
+Semanas apretadas (pick < 65%): 12, 13, 17, 18 — ahí se gastan vidas, no favoritos.
+
+--- LECTURA DEL PLAN (2026-09-17, antes de la semana 2) ---
+Repuestos élite que el plan NO usa: PHI y TB (sus mejores semanas chocan con
+mejores opciones). Son el seguro: si una línea se mueve o un rival "fadeado"
+resulta bueno, entran ellos. Otros libres: IND, NO, NYG, WSH, ATL, CAR, TEN.
+Semanas apretadas (pick < 65%): 12, 13, 17, 18 — ahí se gastan las vidas.
+Entrar a la semana 12 con al menos una vida en reserva.
+Regla: solo se compromete la semana en curso; el resto es mapa. Recalcular
+cada martes: python3 scripts/survivor_plan.py --avoid-week18 --max-fade 4
+tras anotar el pick de la semana en data/intel/survivor.json ("used").
