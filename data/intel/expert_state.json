@@ -600,18 +600,78 @@
    "published": "2026-09-12",
    "source": "fantasy-footballers",
    "processed": "2026-09-15"
+  },
+  "GH0BI7Vt9rk": {
+   "video_id": "GH0BI7Vt9rk",
+   "title": "7 Players About to Explode in Fantasy (Trade For Them Now)",
+   "published": "2026-09-16",
+   "source": "sal-vetri",
+   "processed": "2026-09-18"
+  },
+  "sFmKJ95PbPU": {
+   "video_id": "sFmKJ95PbPU",
+   "title": "What are you TALKING ABOUT JASON \ud83d\ude05 \ud83e\udd23",
+   "published": "2026-09-16",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
+  },
+  "CW2BbLdq_eo": {
+   "video_id": "CW2BbLdq_eo",
+   "title": "Buy low candidate after week 1 \ud83d\udc40",
+   "published": "2026-09-16",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
+  },
+  "sdZn1qgxrVY": {
+   "video_id": "sdZn1qgxrVY",
+   "title": "How We Feelin? + TNF Preview, Trade Q's | Fantasy Football 2026 - Ep. 1973",
+   "published": "2026-09-16",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
+  },
+  "vLy6oMNO2uw": {
+   "video_id": "vLy6oMNO2uw",
+   "title": "5 Players I\u2019m Trading Away in Fantasy Football Right Now ",
+   "published": "2026-09-17",
+   "source": "sal-vetri",
+   "processed": "2026-09-18"
+  },
+  "_HHcH6UuBTc": {
+   "video_id": "_HHcH6UuBTc",
+   "title": "Trade away AJ Brown?",
+   "published": "2026-09-17",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
+  },
+  "-4MQF5u_pW8": {
+   "video_id": "-4MQF5u_pW8",
+   "title": "Starts of the Week + Week 2 Preview, Thanks Khloe! | Fantasy Football 2026 - Ep. 1974",
+   "published": "2026-09-17",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
+  },
+  "QbOTETuENeY": {
+   "video_id": "QbOTETuENeY",
+   "title": "Jameson Williams a MUST START? \ud83d\udc40",
+   "published": "2026-09-17",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-18"
   }
  },
  "feed_health": {
   "sal-vetri": {
-   "consecutive_failures": 2,
-   "last_success": "2026-09-15",
-   "last_failure": "2026-09-16"
+   "consecutive_failures": 0,
+   "last_success": "2026-09-18",
+   "last_failure": "2026-09-16",
+   "via": "rss",
+   "rss_failures": 0
   },
   "fantasy-footballers": {
-   "consecutive_failures": 2,
-   "last_success": "2026-09-15",
-   "last_failure": "2026-09-16"
+   "consecutive_failures": 0,
+   "last_success": "2026-09-18",
+   "last_failure": "2026-09-16",
+   "via": "rss",
+   "rss_failures": 0
   }
  }
 }

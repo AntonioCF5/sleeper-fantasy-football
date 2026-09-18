@@ -1,16 +1,15 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-16** (expert-daily 9/16 —
-Wednesday, Week 2 waivers RECONCILED. Both expert feeds 404'd twice (RSS edge,
-2 misses each, nothing lost). Bids went in at $0/below rulings everywhere:
-Guillotine Collins $101 lost to $388, Judkins $0 lost to $35; Vele/Sanders/
-Singletary $0 all lost. User cut IDP starters for WR fliers → Gallamijos Lg
-LB+DB EMPTY, MEXICA DL+DB EMPTY (Booker never entered). Rulings: D. Lloyd +
-Thieneman (Gallamijos Lg), Booker + Mustapha (MEXICA), Sanders $3 for Tracy
-(DYNASTY TRC — still free; roster now 25/25, Mason IR-stuck active). Trades:
-send RGV95 + Germanvbc5 TODAY (Odunze off the report; Germanvbc5 patched QB
-with Brissett $0).)*
+tooling, or league state. Last updated: **2026-09-18** (expert-daily 9/18 —
+Friday, TNF played. 8 videos / 171 takes merged (Sal explode-7 + trade-away-5,
+FF Ep. 1973-1974 + shorts). Nico Collins Grade-1 hamstring → Hollins into the
+DYNASTY TRC lineup; DJ Moore AC joint on TNF (locked). Maye over Burrow in both
+dynasties (back, limited Thu; FF two hosts outside top-12). DB slots STILL
+empty in both 18-teamers: Starks for A. Williams (Gallamijos Lg), Mustapha for
+Coleman (MEXICA). New stash rulings: DeeJay Dallas $3 for Tua (Gallamijos Dyn),
+Sanders $3 for Tracy still free (DYNASTY TRC). Doubs off the Dynasty Mexica
+drop list. All six offers re-verified; RGV95 + Germanvbc5 still unsent.)*
 
 ## What this project is
 
@@ -137,6 +136,35 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **DB SLOTS STILL EMPTY IN BOTH 18-TEAMERS — DAY 3 (2026-09-18).**
+  Gallamijos Lg: Starks (BAL, free agent) for Antonio Williams (alt drop:
+  PIT DEF — ends two-week-ahead streaming). MEXICA: Mustapha (SF, free agent,
+  plays Sunday) for Jonah Coleman; Bishop already played Thursday. LB/DL are
+  filled (Bernard / Bosa + D. Lloyd). Lineups: Corum in, MHJ/Tate out; LAR DEF
+  over PIT (Gallamijos Lg).
+- [ ] 🔴 **DYNASTY TRC LINEUP (2026-09-18):** Hollins for Collins (Grade-1
+  hamstring, DNP Thu, imaging); Maye for Burrow; Kraft over Kelce. DJ Moore
+  (AC joint, TNF) locked — day-to-day for Week 3. Sanders $3 for Tracy still
+  free. Same Maye-over-Burrow call in Dynasty Mexica.
+- [ ] **Gallamijos Dyn:** Dowdle for Mitchell (+4.3, still undone); Nailor in
+  only if McConkey (DNP Wed+Thu) is ruled out; DeeJay Dallas $3 for Tua
+  (Aaron Jones stash — listed 3rd, speculative price). Kaelon Black groin
+  (taxi) — Friday report.
+- [ ] **Trades 9/18:** RGV95 (Lloyd-for-Odunze — LaFleur praise = first
+  up-tick; Henderson back = RGV95's hole closing) and Germanvbc5
+  (Young-for-Addison — Sal fades Young's 361/3) both STILL unsent — send
+  today. ElGeneral4 accept stands (Sal: Montgomery "definite sell-high").
+  Juliosg/Gernant88 send; Jro91 hold. Offer states on Sleeper unknown.
+- [ ] **Jameson Williams** is the consensus buy both sources + our boards
+  agree on (r38 v ADP ~58 everywhere; owners pgarza in Dynasty Mexica,
+  jetsdelalaguna in DYNASTY TRC) — build a package once the user names a
+  free chip (LaPorta is committed to Juliosg).
+- [ ] **Sell-high chips on record (Sal 9/17, board-confirmed):** Stevenson
+  (DYNASTY TRC, r110 / VORP 1.3 — package only), Coker (LoR — start vs ATL,
+  sell after Sunday).
+- [x] ✅ **Expert feeds recovered 2026-09-18** — 2 misses each, 8 videos
+  caught up via InnerTube (RSS edge still 404s). Nothing lost.
 
 - [ ] 🔴 **FOUR EMPTY IDP STARTERS (2026-09-16).** Gallamijos Lg: LB → Devin
   Lloyd (for Bech), DB → Thieneman (for Antonio Williams); priority 18/18 so

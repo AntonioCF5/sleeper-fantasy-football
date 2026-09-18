@@ -981,3 +981,88 @@ and Brian Thomas Jr. for him inside 24 hours.
   on 40 snaps is the counter-evidence on the same offense.
 - ✅ **Sal: Brooks "toast"** — 19% snaps, 12% routes, zero inside-the-5
   carries; Hubbard 70% snaps and every high-value touch. Pure usage.
+
+## 2026-09-18 — Sal "7 about to explode" (GH0BI7Vt9rk) + "5 I'm trading away" (vLy6oMNO2uw) + FF Ep. 1973 TNF/trade Qs (sdZn1qgxrVY) + Ep. 1974 Starts of the Week (-4MQF5u_pW8) + 4 shorts
+
+- **The trade-completion feed IS the price list** [Sal]: he reads which
+  1-for-1s actually cleared in public leagues this week (Deebo-for-Metcalf,
+  Vele-for-Doubs, Mason-for-Tuten, Golden-for-McMillan) and treats them as
+  market prices — when a player is being traded straight-up for a waiver
+  add, the buy is on. Adopt: before pricing an offer, check what the
+  market cleared this week for that name, not just our VORP gap.
+- **ROS top-150 as the sell-high ruler** [Sal]: every sell candidate gets a
+  rank (Coker #85, Likely #94, Goedert ~#105, Etienne #51, Montgomery #47)
+  and any 1-for-1 for a player ranked above him is a win. Makes "sell high"
+  concrete; our equivalent is the board rank + value gap, already computed.
+- **Play-count normalization** [Sal]: NO ran 86 plays (67 next-best) in an
+  OT game with 56 attempts — divide every Saints usage stat (Etienne 9+9,
+  Vele, Shough's 56) by plays before trusting it. FF independently posted
+  the same pace table (NO 86, GB/KC 67, PIT 64; MIN slowest).
+- **Situational snap splits beat raw snap share** [Sal]: short-yardage %,
+  3rd-and-long %, and 2-minute % reveal committee roles the snap count hides
+  (Donaldson 43% of short-yardage, Marks 100% of 2-minute in HOU). Read the
+  situational split before calling a 50-50 backfield "even".
+- **Expected-vs-realized fantasy points as the Week-1 sort key** [both,
+  independently]: good players beat their opportunity (JSN, ARSB, Olave,
+  Gibbs); the buy list is high-opportunity/low-output (Metcalf ~19 expected,
+  Golden, Malik Washington, Jameson Williams). Both sources named the same
+  four — our raised-conviction tripwire fired; Golden is ours in two
+  leagues (hold, never sell for less than a McMillan-class asset).
+- **Imaging ordered = plan the pivot now** [FF]: teams don't image a
+  hamstring for no reason; the moment imaging is reported (Collins), move
+  the replacement into the lineup before the grade is announced.
+- **Star endorsing a timeshare outranks coach-speak** [FF]: CMC publicly
+  citing Bijan/Allgeier and Gibbs/Montgomery as the model for Kaelon Black
+  is a usage signal on the STAR's ceiling, not just the backup's floor.
+- **Bad-QB funnel** [FF]: with a backup QB (Rush) the WR1 loses value but
+  the RB who already owns the team's receiving share (Bijan, 63% of ATL
+  receiving yards) becomes an RB1-of-the-week — route value migrates DOWN
+  the target tree, not sideways to WR2.
+- **Veteran-system-knowledge snap watch** [FF]: a year-10 receiver who
+  knows the new OC's scheme (Kalif Raymond from Ben Johnson's DET, 34.6%
+  target share) steals early snaps from the drafted young WRs; track his
+  snap %, not his target share, for the Odunze/Burden/Loveland outlook.
+- **Practice-week plan > single day** [FF]: Wednesday FULL off an ankle =
+  playing (Henderson); Wednesday DNP on ribs with a stated Thu-limited/
+  Fri-full plan is not a red flag (McConkey). Read the plan.
+- **Offense-quality veto** [FF short]: after a week-1 "graveyard" showing
+  (CLE), every skill player on the offense is unstartable regardless of
+  talent (Judkins, Concepcion) — but Monken always feeds a second back, so
+  the backup (Sanders) is a stash, not a zero.
+- **Bail on a stack by starting a different QB** [FF]: Purdy over Nix, keep
+  Waddle — a stack is never a reason to keep starting a slumping QB.
+- **Guillotine FAAB timing** [FF]: last year's survivors did not spend until
+  weeks 4-5; early on you only have to not be the worst of 16-18 teams —
+  matches our $1000-hoard rule for Guillotine TRC.
+- **Veto policy** [FF]: never veto outside open collusion — lopsided trades
+  flip fast and roster context (zero WRs) can make an ugly deal rational.
+- **Same-shape committee read** [FF]: JAX (Tuten/Rodriguez) and HOU
+  (Montgomery/Marks) both ran ~even snaps with one back getting the work —
+  the TD back is the sell, the efficient back is the hold.
+
+### Mechanism audit log (this batch)
+
+- ❌ **FF: "bench London if Rush starts — ATL leads and feeds Bijan"** —
+  fails its own Vegas check: CAR is -2.5, so ATL is the home DOG and a
+  trailing script keeps London's targets. Conclusion not adopted; London
+  stays our Dynasty Mexica WR2 (11.4 vs Boutte 7.8).
+- ⚠️ **Sal: Stevenson sell-high on "A.J. Brown out → loaded boxes"** —
+  an unmeasured cross-position claim. The measured driver is Henderson's
+  full practice ("ready to go") and the 2.8 ypc / worst RYOE line; the
+  conclusion survives on those. He is our DYNASTY TRC RB2 (board r110,
+  VORP 1.3 — replacement level), so the sell-high is correct on our board
+  too, but only in a package for a real asset.
+- ✅ **Sal: Bears pass-catcher buys** — script regression (300/6 rushing
+  unrepeatable), not the thin-backfield fallacy. FF adds the measurable
+  risk to the same thesis: Raymond's 34.6% target share and Odunze's 48%
+  snaps. Both filed; Loveland (ours, Dynasty Mexica) is the cleanest buy.
+- ✅ **Sal: Doubs de facto NE WR1** — measured driver is 76% of routes on
+  55% snaps plus the 13.1 ppg base rate without Watson in 2025; FF's
+  counter ("half-snap usage feels like information we don't have") is
+  logged. Net: Doubs' "first drop" status in Dynasty Mexica is withdrawn.
+- ✅ **FF: Aaron Jones start of the week** — Mason IR + 46% snaps already
+  + O'Connell's pass-pro caveat on Claiborne = usage, not vibes. Ours in
+  two leagues; DeeJay Dallas is the speculative stash behind him.
+- ⚠️ **Sal: Kamara takes Etienne's checkdowns** — coach praise (Moore on
+  his camp) + "better receiver" is opinion until snaps show it; Kamara is
+  ours in LoR and stays benched behind Tuten until the split is measured.
