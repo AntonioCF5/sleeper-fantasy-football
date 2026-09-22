@@ -218,10 +218,27 @@ def league_facts(lg_cfg, season, week, players):
         if banca:
             lines.append("- Mejor banca: " + ", ".join(
                 f"{players.get(p, {}).get('full_name') or p} {v:.1f}" for v, p in banca[:3]))
-            peor_tit = min(titulares)[0] if titulares else 0
-            perdido = sum(v for v, _ in banca if v > peor_tit)
-            if perdido > 0:
-                lines.append(f"- Puntos dejados en la banca (sobre el peor titular): {perdido:.1f}")
+            # PUNTOS RECUPERABLES DE VERDAD (regla del user 2026-09-22): no se
+            # suma toda la banca que superó al peor titular — eso cuenta dos
+            # QB cuando solo se alinea uno. Se calcula el LINEUP ÓPTIMO de esa
+            # semana (mismo DP que usa el resto del sistema) y se resta el
+            # marcador real: esa diferencia sí se podía ganar. El injury_status
+            # de hoy no aplica a una semana ya jugada, así que se neutraliza.
+            meta = {pid: dict(players.get(pid) or {}, injury_status=None)
+                    for pid in (m.get("players") or [])}
+            pts = {pid: pp.get(pid, 0) for pid in (m.get("players") or [])}
+            mejor, _ = analysis.optimal_lineup(m.get("players") or [],
+                                               league["roster_positions"], meta, pts)
+            optimo = sum(v for _, _, v in mejor)
+            perdido = optimo - (m.get("points") or 0)
+            if perdido > 0.05:
+                entrarian = [(v, pid) for _, pid, v in mejor if pid not in st]
+                entrarian.sort(reverse=True)
+                lines.append(f"- RECUPERABLE (lineup óptimo {optimo:.1f} − real "
+                             f"{m.get('points', 0):.1f}): **{perdido:.1f}**"
+                             + ("; debieron entrar: " + ", ".join(
+                                 f"{players.get(pid, {}).get('full_name') or pid} {v:.1f}"
+                                 for v, pid in entrarian[:4]) if entrarian else ""))
 
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False

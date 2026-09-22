@@ -133,6 +133,18 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Nazas"), el Cristo de las Noas, Gómez y Lerdo. "Jets de la Laguna" ya es
   referencia local viva.
 
+## Puntos de banca: SOLO los recuperables (regla del user 2026-09-22)
+
+Cuando el Destape diga "dejó X puntos en la banca", X es **lineup óptimo −
+marcador real**, no la suma de todo el que superó al peor titular. El cálculo
+viejo contaba dos quarterbacks cuando solo se alinea uno, e inflaba las
+cifras al doble o al triple (Rul: 117.5 inflado vs **57.4** real; la Dinastía
+entera: 1,155 vs **390.5**). `roast_facts.py` publica el campo
+**RECUPERABLE** con el óptimo, el real, la diferencia y QUÉ jugadores
+debieron entrar — se cita de ahí, nunca se suma a mano. Corolario: un manager
+con la banca llena de suplentes de su misma posición no desperdició nada;
+el chiste, si lo hay, es otro.
+
 ## Fuente de números para el roast (regla del user 2026-08-31)
 
 Los rankings y proyecciones del Destape se citan **con los números de
@@ -191,6 +203,10 @@ comparar el borrador contra la edición anterior.
 | 2026-09-15 | Commish "pidió la revisión desde Bucarest" / "la revisión llega a la FIFA" | usado — descansar (FIFA de La Laguna es canon renovable) |
 | 2026-09-15 | "Suelta mi mano, bicampeón" (Amarante) | **AGOTADO** — se intentó reutilizar el 09-22 y el editor lo cachó. No volver sin variación sustancial |
 | 2026-09-22 | "Aquí está la foto" / archivar casillas vacías con nombre y fecha | usado — descansar |
+| 2026-09-22 | "Como en Memento: se le olvida hasta que ya perdió" (Dave) | usado — descansar |
+| 2026-09-22 | "El karma cobra sin intereses, pero cobra" (Pan Ocha Cruz) | usado — descansar |
+| 2026-09-22 | "el castigado invicto; el sótano le quedó chico y el nombre también" | usado — descansar |
+| — | "el Rey de las Maldiciones" (Sukuna) | SIGUE EN DESCANSO: se intentó reutilizar dos ediciones seguidas |
 | 2026-09-22 | "No pierde partidos: los dona" (La Dona por 1.2) | usado — descansar |
 | 2026-09-22 | "Eso no fue un partido: fue una autopsia, y el forense cobró consulta" (Tibu-Chapo 92.9) | usado — descansar |
 | 2026-09-22 | "dejó dos casillas solas en casa como mi pobre angelito" (Charly) | usado — descansar |
@@ -454,6 +470,11 @@ cambios suyos sobre mi borrador, cada uno una regla:
   y el parentesco real es material que yo no tenía — ya está en el canon.
   También "Waivers mañana" → **"Hoy se meten waiver mis amores"**: el
   llamado a la acción va en presente y con cariño, no en aviso de agenda.
+- 2026-09-22 · **Las comparaciones "más que N equipos" se CUENTAN, no se
+  estiman**: escribí "más que ocho equipos con victoria" (eran siete) y "más
+  que cuatro de los seis que ganaron" (eran tres). Las dos sonaban bien y las
+  dos eran falsas. Cualquier frase con un número comparativo se verifica
+  contando la lista, siempre.
 - 2026-09-22 · **El descanso de un chiste se cuenta en EDICIONES, no en
   semanas**: el editor cachó dos moldes del 09-15 reutilizados en la edición
   inmediata siguiente ("fotografía preciosa" de Rul Lubezki, "llenó el
@@ -539,6 +560,11 @@ cambios suyos sobre mi borrador, cada uno una regla:
    cuenta — y por eso toda predicción debe nombrar ganador o no va.
    Pendientes del 09-22: Gallamijos — Tommy > Zenitsu, Gallagher > Charly;
    Dinastía — el Faraón > Buz, Rul > Amarante. Actualizar cada martes.
+6b. 🧂 **EL SALADO DE LA SEMANA** (sección fija desde 2026-09-22, pedida por
+   el user): el que perdió sin merecerlo — más puntos que varios ganadores,
+   derrota por margen mínimo, o la desgracia pura. NO es el que la cagó (esa
+   es La Cagada): el salado hizo su parte y el universo se la cobró. La sal
+   es el eje de la carrilla del grupo y se le aplica a quien sea.
 7. 📣 **CIERRE DE MIROSLAVA, PERO NO DE PATAS** — el cierre que empuja a
    moverse (agencia libre, trades, retas) + besos. El nombre es el chiste y
    no se explica (regla 4).
@@ -865,6 +891,28 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   Pittsburgh (28) y T.J. Watt (17) le ganaron el duelo por 8.1 — y él alineó
   a DK Metcalf (Steeler). Plantilla reutilizable: cuando el equipo NFL de un
   coach pierde Y el fantasy lo remata con jugadores del mismo verdugo.
+- **NO MEZCLAR LIGAS** (user, 2026-09-22): cada edición vive dentro de SU
+  liga. Los roles son por liga —**el Bebé es commish de la DINASTÍA, no de la
+  redraft**, así que el chiste de comisionado corrupto no existe en la
+  Gallamijos— y las plantillas también: **panchocruz (el Faraón) SOLO juega
+  la Dinastía**, nunca se le menciona en la redraft. Un cruce entre ligas solo
+  se permite cuando el hecho es de la persona y está verificado en las dos
+  hojas (Dave perdiendo en ambas el mismo domingo, por ejemplo), y se cuenta
+  UNA vez, en una sola de las dos notas.
+- **"PAN OCHA CRUZ" ES UN CASTIGO, NO UN CAPRICHO** (user, 2026-09-22): en la
+  Dinastía **el campeón bautiza al sotanero** y el sotanero carga el nombre
+  toda la temporada. Amarante (campeón 2025) se lo puso a Pancho (último
+  2025). El nombre que de VERDAD le tocaba y que Pancho se ha negado a poner
+  es *"La Panocha tragamecos Cruz"* — **#ReglasSonReglas** es el hashtag del
+  grupo para exigirlo. Miroslava alude al nombre verdadero sin escribirlo
+  completo y le recuerda que sigue a tiempo. Material renovable toda la
+  temporada, y doblemente sabroso mientras el castigado gane y el que lo
+  bautizó pierda.
+- **ELECCIONES CONTRA LA TIRANÍA DEL BEBÉ** (user, 2026-09-22): en la
+  Dinastía se habla de juntar firmas para convocar elecciones y acabar con la
+  dictadura del **Bebé Hitler**. Se trabaja por el lado autoritario-burocrático
+  (mandato sin urnas, despacho en Bucarest, que cuente los votos cualquiera
+  menos él) — la prohibición de Drácula/vampiros sigue intacta.
 - **LOS EQUIPOS NFL DE CADA COACH SON MATERIAL SEMANAL** (user, 2026-09-15):
   cada jornada, cruzar el resultado NFL del equipo del que es fan cada
   manager (tabla de managers) con su resultado de fantasy. Triples (Dave:

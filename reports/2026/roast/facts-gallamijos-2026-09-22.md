@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos League — 2026-09-22 13:19Z
+# HOJA DE HECHOS — Gallamijos League — 2026-09-22 13:58Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -140,95 +140,91 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 **Tibu23** — 177.3 pts, 12 alineados de 12
 - Mejores: Patrick Mahomes 30.0, DeVonta Smith 29.7, Travis Kelce 26.1
 - Mejor banca: Xavier Hutchinson 6.7, Demond Claiborne 1.2, Emari Demercado 0.8
-- Puntos dejados en la banca (sobre el peor titular): 7.9
 
 **jffaya** — 176.9 pts, 12 alineados de 12
 - Mejores: Jaxon Smith-Njigba 43.5, Davante Adams 41.5, Jared Goff 30.8
 - Mejor banca: Daniel Jones 12.4, Braelon Allen 8.5, Isaiah Likely 8.3
-- Puntos dejados en la banca (sobre el peor titular): 33.1
+- RECUPERABLE (lineup óptimo 185.5 − real 176.9): **8.6**; debieron entrar: Braelon Allen 8.5, Isaiah Likely 8.3
 
 **canogutierrez** — 165.9 pts, 12 alineados de 12
 - Mejores: Amon-Ra St. Brown 36.2, Matthew Stafford 29.0, CIN 22.0
 - Mejor banca: AJ Barner 7.9, NYG 7.0, Carson Wentz 6.3
-- Puntos dejados en la banca (sobre el peor titular): 26.1
+- RECUPERABLE (lineup óptimo 166.3 − real 165.9): **0.4**; debieron entrar: AJ Barner 7.9
 
 **maudlgarza** — 141.0 pts, 12 alineados de 12
 - Mejores: Jonathan Taylor 29.2, Dalton Kincaid 22.5, SF 17.0
 - Mejor banca: Dalton Schultz 27.0, Kirk Cousins 21.2, NO 11.0
-- Puntos dejados en la banca (sobre el peor titular): 63.7
+- RECUPERABLE (lineup óptimo 174.5 − real 141.0): **33.5**; debieron entrar: Dalton Schultz 27.0, Kirk Cousins 21.2
 
 **FilledUpRivers** — 134.7 pts, 12 alineados de 12
 - Mejores: CAR 35.0, Jaylen Waddle 22.8, Drew Lock 21.4
 - Mejor banca: MIN 29.0, Darren Waller 18.3, Tank Bigsby 11.8
-- Puntos dejados en la banca (sobre el peor titular): 65.8
+- RECUPERABLE (lineup óptimo 161.0 − real 134.7): **26.3**; debieron entrar: Darren Waller 18.3, Tank Bigsby 11.8
 
 **ElGeneral4** — 134.5 pts, 12 alineados de 12
 - Mejores: Omarion Hampton 17.5, Bo Nix 15.1, Rachaad White 14.3
 - Mejor banca: Brian Thomas 7.0, Demarcus Robinson 6.4, Jaylen Wright 1.1
-- Puntos dejados en la banca (sobre el peor titular): 13.4
 
 **drw25** — 126.9 pts, 12 alineados de 12
 - Mejores: Christian McCaffrey 22.6, Parker Washington 17.8, Lamar Jackson 15.8
 - Mejor banca: DEN 14.0, Devaughn Vele 11.4, Jaylin Noel 5.4
-- Puntos dejados en la banca (sobre el peor titular): 30.8
+- RECUPERABLE (lineup óptimo 139.2 − real 126.9): **12.3**; debieron entrar: DEN 14.0, Devaughn Vele 11.4
 
 **Gallaghers4** — 124.1 pts, 12 alineados de 12
 - Mejores: Tre Tucker 23.9, Garrett Wilson 16.7, Joe Burrow 16.2
 - Mejor banca: Denzel Boston 20.5, Cam Ward 20.0, Tyjae Spears 9.0
-- Puntos dejados en la banca (sobre el peor titular): 55.2
+- RECUPERABLE (lineup óptimo 142.8 − real 124.1): **18.7**; debieron entrar: Denzel Boston 20.5, Cam Ward 20.0, Tyjae Spears 9.0
 
 **tbarg91** — 123.2 pts, 12 alineados de 12
 - Mejores: Brock Purdy 28.5, Stefon Diggs 21.7, Trey McBride 18.1
 - Mejor banca: Geno Smith 15.6, Rashid Shaheed 6.9, Makai Lemon 2.9
-- Puntos dejados en la banca (sobre el peor titular): 25.4
 
 **Jro91** — 117.2 pts, 12 alineados de 12
 - Mejores: Josh Allen 40.8, Tyler Warren 14.4, CHI 14.0
 - Mejor banca: DeeJay Dallas 3.0, Sione Vaki 3.0, Raheim Sanders 2.1
-- Puntos dejados en la banca (sobre el peor titular): 8.1
 
 **aledlg** — 111.9 pts, 12 alineados de 12
 - Mejores: Dak Prescott 29.8, James Cook 21.9, Bucky Irving 13.0
 - Mejor banca: Nick Bolton 9.5, Jacoby Brissett 7.5, Khalil Shakir 6.8
-- Puntos dejados en la banca (sobre el peor titular): 23.8
+- RECUPERABLE (lineup óptimo 125.3 − real 111.9): **13.4**; debieron entrar: Nick Bolton 9.5, Khalil Shakir 6.8
 
 **Jebusf** — 105.5 pts, 12 alineados de 12
 - Mejores: CeeDee Lamb 36.3, Mark Andrews 10.9, Justin Herbert 10.9
 - Mejor banca: Malik Willis 12.5, CLE 10.0, Alvin Kamara 7.2
-- Puntos dejados en la banca (sobre el peor titular): 32.4
+- RECUPERABLE (lineup óptimo 121.2 − real 105.5): **15.7**; debieron entrar: Malik Willis 12.5, CLE 10.0, Alvin Kamara 7.2
 
 **rodrigodiaz** — 105.3 pts, 12 alineados de 12
 - Mejores: Kenneth Walker 24.8, Kyren Williams 15.7, Xavier Worthy 13.5
 - Mejor banca: Pat Freiermuth 7.4, Aaron Rodgers 6.0, Jordan Addison 4.1
-- Puntos dejados en la banca (sobre el peor titular): 23.4
+- RECUPERABLE (lineup óptimo 106.8 − real 105.3): **1.5**; debieron entrar: Pat Freiermuth 7.4
 
 **alealvarez7** — 103.3 pts, 12 alineados de 12
 - Mejores: NE 34.0, Jalen Hurts 18.2, MarShawn Lloyd 8.6
 - Mejor banca: C.J. Stroud 18.0, KC Concepcion 8.2, Ladd McConkey 6.5
-- Puntos dejados en la banca (sobre el peor titular): 34.6
+- RECUPERABLE (lineup óptimo 110.4 − real 103.3): **7.1**; debieron entrar: KC Concepcion 8.2, Ladd McConkey 6.5
 
 **elmijo** — 103.2 pts, 11 alineados de 12, **1 CASILLA(S) VACÍA(S)**
 - Mejores: Ja'Marr Chase 26.5, Baker Mayfield 13.2, PIT 13.0
 - TITULARES EN CERO: Marvin Harrison
 - Mejor banca: Tyler Shough 22.4, LAR 21.0, Terrance Ferguson 17.4
-- Puntos dejados en la banca (sobre el peor titular): 89.9
+- RECUPERABLE (lineup óptimo 149.2 − real 103.2): **46.0**; debieron entrar: Tyler Shough 22.4, LAR 21.0, Terrance Ferguson 17.4, Blake Corum 10.2
 
 **davidcruz77** — 102.1 pts, 12 alineados de 12
 - Mejores: George Kittle 18.0, Derrick Henry 17.7, Jordan Love 13.8
 - TITULARES EN CERO: DJ Moore, Minkah Fitzpatrick
 - Mejor banca: TreVeyon Henderson 13.6, Malik Washington 8.7, Courtland Sutton 5.5
-- Puntos dejados en la banca (sobre el peor titular): 30.2
+- RECUPERABLE (lineup óptimo 120.6 − real 102.1): **18.5**; debieron entrar: TreVeyon Henderson 13.6, Malik Washington 8.7
 
 **charlyae17** — 89.8 pts, 10 alineados de 12, **2 CASILLA(S) VACÍA(S)**
 - Mejores: Bryce Young 24.1, Jalen Coker 14.6, Chase Brown 11.2
 - Mejor banca: Brian Robinson 8.7, Trevor Lawrence 7.2, Jakobi Meyers 3.8
-- Puntos dejados en la banca (sobre el peor titular): 22.9
+- RECUPERABLE (lineup óptimo 96.4 − real 89.8): **6.6**; debieron entrar: Brian Robinson 8.7, None 0.0, None 0.0
 
 **hectordavid1989TRC** — 84.3 pts, 12 alineados de 12
 - Mejores: Tetairoa McMillan 16.1, Jayden Daniels 14.7, Rashee Rice 12.3
 - TITULARES EN CERO: Isaiah Davis, WAS
 - Mejor banca: Rashod Bateman 22.8, Deshaun Watson 19.7, TEN 10.0
-- Puntos dejados en la banca (sobre el peor titular): 56.5
+- RECUPERABLE (lineup óptimo 120.5 − real 84.3): **36.2**; debieron entrar: Rashod Bateman 22.8, Deshaun Watson 19.7, TEN 10.0
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] FilledUpRivers: altas: Darnell Mooney→FilledUpRivers; bajas: Kayshon Boutte (dropeado por FilledUpRivers)
