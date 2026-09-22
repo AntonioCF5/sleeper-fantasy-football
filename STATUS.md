@@ -1,15 +1,16 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-18** (expert-daily 9/18 —
-Friday, TNF played. 8 videos / 171 takes merged (Sal explode-7 + trade-away-5,
-FF Ep. 1973-1974 + shorts). Nico Collins Grade-1 hamstring → Hollins into the
-DYNASTY TRC lineup; DJ Moore AC joint on TNF (locked). Maye over Burrow in both
-dynasties (back, limited Thu; FF two hosts outside top-12). DB slots STILL
-empty in both 18-teamers: Starks for A. Williams (Gallamijos Lg), Mustapha for
-Coleman (MEXICA). New stash rulings: DeeJay Dallas $3 for Tua (Gallamijos Dyn),
-Sanders $3 for Tracy still free (DYNASTY TRC). Doubs off the Dynasty Mexica
-drop list. All six offers re-verified; RGV95 + Germanvbc5 still unsent.)*
+tooling, or league state. Last updated: **2026-09-21** (expert-daily 9/21 —
+Monday after Week 2, MNF pending. 11 videos / 224 takes merged (Sal must-add
+10 + Flock power rankings + RB top-50; FF Ep. 1975-1976 + Mike Wright live +
+5 shorts). Caleb Williams hamstring week-to-week → Mahomes starts, Caleb to
+IR in Gallamijos Dyn; Jonah Coleman = consensus #1 add and he is on the
+Gallamijos Lg wire as Dobbins' handcuff (priority claim). ElGeneral4 ACCEPT
+is now urgent (Montgomery 6-10). New build: Stevenson + Tucker for Jameson
+Williams to jetsdelalaguna (DYNASTY TRC). Germanvbc5 shelved (Murray
+cleared); RGV95 gets one last send. Week-3 QB flips: Shough over Mayfield,
+Burrow over Maye (DMX), Mahomes over Stroud (LoR), Goff over Burrow (TRC).)*
 
 ## What this project is
 
@@ -136,6 +137,37 @@ tells the user to re-check news once before accepting.
   MEXICA draft plan + keeper analysis, archetype playbook.
 
 ## Pending / next actions
+
+- [ ] 🔴 **GALLAMIJOS LG WAIVERS (2026-09-21, ranked, priority 14/18):** Jonah
+  Coleman (drop Ferguson — Dobbins' handcuff, consensus #1 add) → Malaki
+  Starks DB (drop Fields — DB slot started 0.0 two weeks running; fallback
+  Mustapha) → Gadsden TE (drop Sadiq — LAC TE1 after Njoku/Kolar IR).
+  Lineup: Shough over Mayfield (FLIP), LAR DEF over PIT, Corum RB2 if Dobbins
+  (hamstring, "good") is limited Wednesday.
+- [ ] 🔴 **GALLAMIJOS DYN (2026-09-21):** Caleb Williams (hamstring,
+  week-to-week) → IR (reserve_allow_out=1), Mahomes starts (+21.5); then
+  DeeJay Dallas $3 (Aaron Jones Q knee, "pretty sore"; Claiborne "not
+  ready"). Dowdle (Out, toe) → IR optional. ElGeneral4: ACCEPT TONIGHT —
+  Montgomery 6-10 rushing, Marks out-targeted him; re-send if pulled. Jro91
+  hold as built (Mahomes now the starter — rebuild math still says yes).
+- [ ] **DYNASTY TRC (2026-09-21):** NEW offer built — Stevenson + Tre Tucker
+  for Jameson Williams (jetsdelalaguna; +37.2 season, he is RB-needy with
+  Etienne/Dowdle). Germanvbc5 SHELVED (Murray cleared). RGV95 Lloyd-for-
+  Odunze: last send, then shelve. Lineup: Goff over Burrow, Shakir for
+  Hollins (Collins "could miss two"), Kelce for Moore (day-to-day), GB DEF
+  (TNF). Sanders ruling dead (DiegoTostado $6).
+- [ ] **Week-3 lineup flips (2026-09-21):** Dynasty Mexica Burrow over Maye
+  (back tag gone; FF "Mayday"), LaPorta over Loveland, London flex (Penix
+  starts TNF — set Thursday). LoR Mahomes over Stroud, Parkinson over Bates
+  (Bowers if active — practices this week). MEXICA Wicks flex over Corum,
+  Bowers over Mayer only on a full Friday; Douglas (boot) is the Dallas drop
+  if ruled out Wednesday. Guillotine Tucker flex for Hutchinson.
+- [ ] **Guillotine chop wire (Tue 9/22):** SergioCarloss out (52.6+Mooney).
+  Nacua up to $451 (drop Singletary), Henderson $151 (drop Hutchinson); skip
+  Etienne/Flowers/Kraft. Co-owned — alealvarez7 must key in the numbers.
+- [ ] **Pat Bryant** was dropped in MEXICA Sunday (for Nubin) against both
+  sources' WR2-in-waiting read — roster full, nothing to undo; still on the
+  Gallamijos Dyn taxi.
 
 - [ ] 🔴 **DB SLOTS STILL EMPTY IN BOTH 18-TEAMERS — DAY 3 (2026-09-18).**
   Gallamijos Lg: Starks (BAL, free agent) for Antonio Williams (alt drop:

@@ -656,22 +656,95 @@
    "published": "2026-09-17",
    "source": "fantasy-footballers",
    "processed": "2026-09-18"
+  },
+  "2gL1EQBAZss": {
+   "video_id": "2gL1EQBAZss",
+   "title": "10 Must Add Players to Pick Up in Your Fantasy League Right Now",
+   "published": "2026-09-21",
+   "source": "sal-vetri",
+   "processed": "2026-09-21"
+  },
+  "LzdM9lXT3LY": {
+   "video_id": "LzdM9lXT3LY",
+   "title": "My Updated Flock League Power Rankings (Week 2)",
+   "published": "2026-09-19",
+   "source": "sal-vetri",
+   "processed": "2026-09-21"
+  },
+  "3Kl2gsEzWY4": {
+   "video_id": "3Kl2gsEzWY4",
+   "title": "My Updated Top 50 Running Back Rankings for Week 2",
+   "published": "2026-09-18",
+   "source": "sal-vetri",
+   "processed": "2026-09-21"
+  },
+  "htyR4ZP4bBU": {
+   "video_id": "htyR4ZP4bBU",
+   "title": "Week 2 Studs & Duds + Trade Drama, Bye Guys! | Fantasy Football 2026 - Ep. 1976",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "MzhocTiUG4E": {
+   "processed": "2026-09-21"
+  },
+  "68x4onu7g00": {
+   "video_id": "68x4onu7g00",
+   "title": "Week 2 Matchups + WHEEL OF SHAME! | Fantasy Football 2026 - Ep. 1975",
+   "published": "2026-09-18",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "fALBMtx7Rsg": {
+   "video_id": "fALBMtx7Rsg",
+   "title": "Time to hit the panic button on Saints RB Travis Etienne \ud83d\udea8",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "yQghogY3o1I": {
+   "video_id": "yQghogY3o1I",
+   "title": "If you drafted Kenneth Walker you may have already won your league",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "q7mOPT90n9M": {
+   "video_id": "q7mOPT90n9M",
+   "title": "\ud83d\udea8 TRADE DRAMA IN THE LEAGUE OF RECORD ALERT \ud83d\udea8",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "jZmXF0XYuBA": {
+   "video_id": "jZmXF0XYuBA",
+   "title": "Running back start of the week \ud83d\udd25 \ud83d\udcaa",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
+  },
+  "0Ox9rRU10cY": {
+   "video_id": "0Ox9rRU10cY",
+   "title": "Getting ready for the the LOR Documentary \ud83d\udc40 \ud83e\udd23",
+   "published": "2026-09-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-21"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-18",
+   "last_success": "2026-09-21",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 2
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-18",
+   "last_success": "2026-09-21",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 2
   }
  }
 }

@@ -1066,3 +1066,108 @@ and Brian Thomas Jr. for him inside 24 hours.
 - ⚠️ **Sal: Kamara takes Etienne's checkdowns** — coach praise (Moore on
   his camp) + "better receiver" is opinion until snaps show it; Kamara is
   ours in LoR and stays benched behind Tuten until the split is measured.
+
+## 2026-09-21 — Sal "10 must-add" (2gL1EQBAZss) + Flock power rankings (LzdM9lXT3LY) + RB top-50 (3Kl2gsEzWY4) + FF Ep. 1975 (68x4onu7g00) / Ep. 1976 studs-duds (htyR4ZP4bBU) / Mike Wright live (MzhocTiUG4E) + 5 shorts
+
+- **FAAB as a % of REMAINING budget** [Sal]: 20-25% of $75 left is a
+  different number than 20% of $100 — rulings auto-scale as budgets shrink.
+  Adopted: every bid in `waiver_claims.json` is sized against the live
+  `faab_left`, never the original budget.
+- **Route share > snap share for WR/TE role reads** [Sal]: the WR running
+  36 routes when the next-highest runs 23 (Bateman) or 40 of the team's
+  routes in 3-WR sets (Mitchell) owns the funnel whatever the snap count.
+  Corollary [FF]: route share and target share fail independently —
+  targets present + routes absent (Burden) = hold for the snaps; routes
+  present + targets absent (Harrison, 6.5% TPRR) = a player problem, fade.
+- **Rental discount** [Sal]: targets that exist only because a starter is
+  day-to-day (Keon Coleman/Moore, Bateman/Flowers, Bernard/Pittman) are
+  priced near zero; real FAAB goes to role changes from multi-week
+  injuries or depth-chart wins. Our week-1-6 "bid to WIN" rule applies
+  only to the second class.
+- **Injury actuarial additions** [Sal]: WR high-ankle = 5-6 wks + 2-3 wks
+  ramp; RB/WR hamstring = usually two games, midweek hamstring on a
+  hamstring-IR history = that week plus likely the next (Collins); a
+  stinger that needs an MRI is a neck red flag for an RB (Saquon); chest
+  with negative X-rays = 0-2 games; AC joint = pain tolerance, day-to-day.
+- **Script-and-scheme filter before repricing a snap share** [Sal]: an
+  86% blitz rate forces the pass-protector on (Brooks over Lloyd), a
+  trailing script inflates the passing-down back (Harvey 54%), a 20-point
+  lead with a cramping star inflates the backup (Black). Reprice on roles
+  that survive the filter (Rice's separation rank, Etienne's 3-way split),
+  never on box scores (Montgomery's 3 TDs on 3.0 ypc).
+- **"If we redrafted today" list = trade calculator** [Sal]: 1-for-1 any
+  player for anyone ranked above him, and stress-test the ordinal with
+  concrete swap questions ("Rice for Evans?"). Matches our two-currency
+  rule — in-season dynasty takes are trade posture, not draft language.
+- **Prospect pedigree breaks waiver-WR ties** [Sal]: draft capital +
+  athletic profile + a multi-game usage sample (Mitchell, Boston) beats a
+  veteran's one-week spike whose history is known (Tucker, Hutchinson,
+  Keon Coleman).
+- **6-pt-TD 1QB leagues are decided at the flex** [Sal]: with 20-point QBs
+  on the wire the QB slot is a wash; convert surplus RB3s to WR2 quality
+  before injuries land. (Our LoR/MEXICA read: same — Stroud/D. Jones are
+  chips, the flex is the edge.)
+- **TE FAAB tier** [Sal]: 10-15% only when the add is your STARTING TE;
+  never real money on a backup TE.
+- **On/off EPA split as a WR-value test** [FF]: LAC -0.41 EPA/play without
+  McConkey, +0.12 with him — when the whole offense only works with one
+  receiver, hold him through a limited-snap stretch and fade his teammates.
+- **Snap-share trajectory is the health signal for a returning player**
+  [FF]: Kraft 66% → 98% in two games says the knee is back; the empty box
+  score in a sub-200-yard game is noise. Buy the snap curve, especially
+  when the target is weeks 15-17.
+- **Guaranteed money does not predict usage** [FF]: NO paid Etienne $28M
+  guaranteed and still split 57/40 with a 1.7-ypc Kamara. Read the actual
+  rotation and treat irrational coaching as a persistent state.
+- **Play-caller habits do not transfer automatically** [FF]: Achane is on
+  pace for MORE targets after McDaniel left; Hampton has 2 targets under
+  him. The QB's checkdown habits matter as much as the scheme.
+- **No defensive matchups until ~Week 5** [FF]: two-week samples confound
+  a bad defense with an elite opponent. Log which is which; start playing
+  matchups around Week 5.
+- **One-alpha offenses collapse for the QB too** [FF]: Ravens without
+  Flowers, Patriots without Brown — downgrade the QB, not just the WRs
+  (our Maye-over-Burrow call reversed on exactly this).
+- **Practice-report pattern** [FF]: Wednesday practice then a Thursday miss
+  is a bad weekend sign (Pierce); rib injuries have no practice path — those
+  are game-time by nature, price the bench alternative instead.
+- **Weather-game discipline** [FF]: throw a 9-3 rain game out for
+  target-share panic, keep its snap-share read (Raymond 62% v Burden 57%) —
+  snap allocation is a coaching choice independent of weather.
+
+### Mechanism audit log (this batch)
+
+- ✅ **Both: Jonah Coleman #1 add** — measured: 25 snaps / 10 carries / 3
+  targets / TD after Dobbins left, Harvey Out, Dobbins' missed-games
+  history (7/4/16/9). Ours in MEXICA and on the Gallamijos Dyn taxi; on the
+  wire in Gallamijos Lg where Dobbins is OUR RB2 — claimed there (priority 1).
+- ✅ **Sal: Mitchell / Boston role adds** — route-share driven (40 of the
+  team's routes; 33 routes v 26). Both already ours (Gallamijos Dyn, Dynasty
+  Mexica) — raised conviction, both start.
+- ⚠️ **Sal: Josh Downs "terrible flex" vs FF "top of the waiver show"** —
+  a genuine disagreement. FF's mechanism is measured (Pierce Out several
+  weeks → Downs' target share; Allen "donezo"); Sal's is none stated. FF
+  wins on mechanism; Downs starts in the Gallamijos Dyn flex (7-9-72
+  Sunday, 54/65 snaps).
+- ⚠️ **Sal: Tre Tucker "rental until Bowers returns"** — testable: Tucker's
+  11 targets in two weeks came with Bowers OUT both games; Kubiak says
+  Bowers practices this week. Conclusion adopted at the margin — Tucker
+  starts the Guillotine flex this week (over a 1-target Harrison) but is
+  spent as the second piece of the Jamo package in DYNASTY TRC.
+- ❌ **Sal: Golden sell-high** — his own stated fact refutes it: Reed's
+  neck injury leaves Golden and Watson as the only real GB WRs, which
+  consolidates targets. Not adopted; hold in both leagues.
+- ⚠️ **Sal: Coker sell-high vs FF "that guy, start over Waddle/Odunze"** —
+  both cite usage (34 routes; out-producing McMillan). Board: replacement-
+  level VORP in LoR → the sell-high stands as posture, but only into a real
+  WR2 asset; meanwhile he starts.
+- ✅ **FF: Maye "Mayday"** — measured (no reliable target with Brown out,
+  Boutte traded, Diggs gone; 8.0 on 55 snaps). Reverses last edition's
+  Maye-over-Burrow in both dynasties: Burrow's back tag is gone (60/60
+  snaps) and Goff (33.1) is the DYNASTY TRC starter.
+- ✅ **FF: Etienne full panic** — 57/40 touch split measured over two
+  weeks, not a one-game read. Not ours; matters as the reason
+  jetsdelalaguna is RB-needy (the Jamo package).
+- ✅ **FF: Shough "incrustable"** — leads the NFL in passing yards, 9 rushes,
+  two 22+ games; Mayfield the counter-fade (no 20-point game since Week 10
+  last year). Flips the Gallamijos Lg QB call to Shough.
