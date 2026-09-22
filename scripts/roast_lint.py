@@ -168,11 +168,21 @@ def revisar(path, liga, tipo, ya_publicado=False):
     # 6 · prohibiciones
     if re.search(r"dr[áa]cula|vampir", texto, re.I):
         errores.append("Prohibido el ángulo Drácula/vampiros sobre el Bebé Roiz.")
-    if re.search(r"\bfoto\b|\bfotos\b|fotograf[íi]", texto, re.I):
-        errores.append("Prohibido el ángulo 'sale aquí con foto' / fotografiar coaches "
-                       "(user 2026-09-22). La carrilla va con datos, no con exhibir "
-                       "imágenes. OJO: 'fotografía' como metáfora de cine (Rul Lubezki) "
-                       "también cae aquí — usa otra imagen.")
+    # Lo prohibido es AMENAZAR con exhibir a alguien en foto, no la palabra.
+    # Las metáforas de cinematografía ("fotografía preciosa" de Rul Lubezki,
+    # "dirección de fotografía") SÍ pasan — user 2026-09-22.
+    AMENAZA_FOTO = (
+        r"\bcon foto\b",                              # "sale aquí con foto"
+        r"(sale|salen|sales|saldrá\w*)[^.!?]{0,40}\bfotos?\b",
+        r"\b(te|lo|la|los|las|me)\s+fotograf\w+",     # "los fotografío"
+        r"\bfotograf\w+\s+(a\s+)?(ustedes|los coaches|cada uno)\b",
+        r"\b(exhib|public)\w*[^.!?]{0,25}\bfotos?\b",
+    )
+    if any(re.search(rx, texto, re.I) for rx in AMENAZA_FOTO):
+        errores.append("Prohibido amenazar con exhibir a alguien en foto "
+                       "(user 2026-09-22): nada de 'sale aquí con foto' ni 'los "
+                       "fotografío'. La carrilla va con datos. Las metáforas de "
+                       "cinematografía ('fotografía preciosa') sí están permitidas.")
 
     # 7 · términos y chistes marcados "descansar" en el canon
     # Un detector genérico de n-gramas daba ruido (el español repite frases

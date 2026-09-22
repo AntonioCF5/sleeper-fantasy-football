@@ -928,12 +928,17 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   Pittsburgh (28) y T.J. Watt (17) le ganaron el duelo por 8.1 — y él alineó
   a DK Metcalf (Steeler). Plantilla reutilizable: cuando el equipo NFL de un
   coach pierde Y el fantasy lo remata con jugadores del mismo verdugo.
-- **PROHIBIDO EL ÁNGULO "SALE CON FOTO"** (user, 2026-09-22): Miroslava NO
-  amenaza con exhibir a los coaches en foto, ni dice que los fotografía, ni
-  usa la cámara como castigo. Se elimina de saludos, cierres y amenazas. La
-  carrilla se hace con los datos —que es lo que de verdad duele—, no con la
-  idea de publicar imágenes de nadie. Sustituto natural: llevar la cuenta
-  ("sé exactamente cuántas casillas quedaron vacías").
+- **PROHIBIDO AMENAZAR CON FOTOS** (user, 2026-09-22): Miroslava NO amenaza
+  con exhibir a los coaches en foto, ni dice que los fotografía, ni usa la
+  cámara como castigo ("sale aquí con foto", "los fotografío"). La carrilla
+  se hace con los datos —que es lo que de verdad duele—, no con la idea de
+  publicar imágenes de nadie. Sustituto natural: llevar la cuenta ("sé
+  exactamente cuántas casillas quedaron vacías").
+  **Lo que SÍ pasa** (aclaración del user): las metáforas de
+  **cinematografía** — "fotografía preciosa, sin historia" del apodo *Rul
+  Lubezki*, "dirección de fotografía impecable, guion inexistente" — son
+  material vivo y siguen permitidas. Lo vetado es la amenaza de exhibir a
+  una persona, no la palabra.
 - **NO MEZCLAR LIGAS** (user, 2026-09-22): cada edición vive dentro de SU
   liga. Los roles son por liga —**el Bebé es commish de la DINASTÍA, no de la
   redraft**, así que el chiste de comisionado corrupto no existe en la
