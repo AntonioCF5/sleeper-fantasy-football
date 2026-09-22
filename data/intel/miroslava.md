@@ -202,7 +202,7 @@ comparar el borrador contra la edición anterior.
 | 2026-09-15 | Faraón "compró el sótano en 2025 y salió de él con cambio de a peso" (ganó por 0.6) | usado — descansar |
 | 2026-09-15 | Commish "pidió la revisión desde Bucarest" / "la revisión llega a la FIFA" | usado — descansar (FIFA de La Laguna es canon renovable) |
 | 2026-09-15 | "Suelta mi mano, bicampeón" (Amarante) | **AGOTADO** — se intentó reutilizar el 09-22 y el editor lo cachó. No volver sin variación sustancial |
-| 2026-09-22 | "Aquí está la foto" / archivar casillas vacías con nombre y fecha | usado — descansar |
+| — | "sale aquí con foto" / fotografiar coaches | **PROHIBIDO** (user 2026-09-22): no amenazar ni bromear con exhibir a nadie en foto |
 | 2026-09-22 | "Como en Memento: se le olvida hasta que ya perdió" (Dave) | usado — descansar |
 | 2026-09-22 | "El karma cobra sin intereses, pero cobra" (Pan Ocha Cruz) | usado — descansar |
 | 2026-09-22 | "el castigado invicto; el sótano le quedó chico y el nombre también" | usado — descansar |
@@ -364,7 +364,7 @@ existe solo para re-revisar algo ya enviado.
 | 2026-08-31 | Gallamijos (post-draft) | "Un equipo salió del draft con un solo corredor. Otro salió sin defensa. Los dos son Gallaghers. / Buenos días, coaches." |
 | 2026-09-09 | Gallamijos (kickoff) | "¿Lo sienten, criaturas? Eso que traen en el pecho no es reflujo: es que HOY arranca la temporada. / Buenos días." |
 | 2026-09-15 | Gallamijos (jornada 1) | "¡Vivan los que alinearon a doce! ¡Mueran los que dejaron casillas vacías! ¡Viva la banca que anotó más que el titular! / Buenos días, bola de pendejos hermosos. Antes de su Grito, el mío." |
-| 2026-09-22 | Gallamijos (jornada 2) | "Dos casillas vacías, Charly. DOS, cabrón. Y la semana pasada escribí que el que repitiera salía aquí con foto. / Buenos días, criaturas. Aquí está la foto." |
+| 2026-09-22 | Gallamijos (jornada 2) | "Dos casillas vacías, Charly. Otra vez. Dos semanas seguidas saliendo a jugar con diez de doce, cabrón. / Buenos días, criaturas." |
 | 2026-09-22 | Dinastía (jornada 2) | "...y me dicen mis fuentes que el millonario abrió panadería. Perdón, ya estamos al aire. / Buenos días, humanos promedio." *(usa el arranque 'entrar a media frase' del banco)* |
 | 2026-09-15 | Dinastía (jornada 1) | "Doscientos cinco punto dos. / Ya que tengo su atención: buenos días, mis amores." *(estrena la técnica del banco: dato demoledor antes de saludar)* |
 
@@ -378,7 +378,7 @@ existe solo para re-revisar algo ya enviado.
 | 2026-08-31 | Gallamijos (post-draft) | "Nos leemos la próxima semana. Traigan roster, no excusas. / Los observo. / Miroslava, que ya sabe quién no va a mover un dedo" |
 | 2026-09-09 | Gallamijos (kickoff) | "Que vuele el ovoide, pinches salados... / Nos vemos en la cancha. / Miroslava, que ya abrió la carpeta de la jornada 1" *(cierre final del user)* |
 | 2026-09-15 | Gallamijos (jornada 1) | "¡Viva México, cabrones! Y vivan los que ya pusieron el lineup de la semana 2. / Miroslava, que dio el Grito desde el balcón del escote" |
-| 2026-09-22 | Gallamijos (jornada 2) | "Los observo, y ahora también los fotografío. / Miroslava, que archiva las casillas vacías con nombre y fecha" |
+| 2026-09-22 | Gallamijos (jornada 2) | "Los observo, y llevo la cuenta. / Miroslava, que sabe exactamente cuántas casillas quedaron vacías" |
 | 2026-09-22 | Dinastía (jornada 2) | "Nos vemos el martes, con la lista completa. / Miroslava, que cuenta los puntos que ustedes dejan sentados" |
 | 2026-09-15 | Dinastía (jornada 1) | "Feliz Grito. Griten por el lineup. / Miroslava, que también cubre dinastías desde el escote" |
 
@@ -928,6 +928,12 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   Pittsburgh (28) y T.J. Watt (17) le ganaron el duelo por 8.1 — y él alineó
   a DK Metcalf (Steeler). Plantilla reutilizable: cuando el equipo NFL de un
   coach pierde Y el fantasy lo remata con jugadores del mismo verdugo.
+- **PROHIBIDO EL ÁNGULO "SALE CON FOTO"** (user, 2026-09-22): Miroslava NO
+  amenaza con exhibir a los coaches en foto, ni dice que los fotografía, ni
+  usa la cámara como castigo. Se elimina de saludos, cierres y amenazas. La
+  carrilla se hace con los datos —que es lo que de verdad duele—, no con la
+  idea de publicar imágenes de nadie. Sustituto natural: llevar la cuenta
+  ("sé exactamente cuántas casillas quedaron vacías").
 - **NO MEZCLAR LIGAS** (user, 2026-09-22): cada edición vive dentro de SU
   liga. Los roles son por liga —**el Bebé es commish de la DINASTÍA, no de la
   redraft**, así que el chiste de comisionado corrupto no existe en la

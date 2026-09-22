@@ -168,6 +168,11 @@ def revisar(path, liga, tipo, ya_publicado=False):
     # 6 · prohibiciones
     if re.search(r"dr[áa]cula|vampir", texto, re.I):
         errores.append("Prohibido el ángulo Drácula/vampiros sobre el Bebé Roiz.")
+    if re.search(r"\bfoto\b|\bfotos\b|fotograf[íi]", texto, re.I):
+        errores.append("Prohibido el ángulo 'sale aquí con foto' / fotografiar coaches "
+                       "(user 2026-09-22). La carrilla va con datos, no con exhibir "
+                       "imágenes. OJO: 'fotografía' como metáfora de cine (Rul Lubezki) "
+                       "también cae aquí — usa otra imagen.")
 
     # 7 · términos y chistes marcados "descansar" en el canon
     # Un detector genérico de n-gramas daba ruido (el español repite frases
