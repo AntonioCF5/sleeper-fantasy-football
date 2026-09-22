@@ -498,6 +498,13 @@ cambios suyos sobre mi borrador, cada uno una regla:
   tiene los TAMAÑOS de cada bando (redraft 4/9/5) pero no la membresía por
   manager, y la regla prohíbe inferirla. Pendiente: que el user dicte los 18
   nombres con su bando para poder publicar la sección otra vez.
+- 2026-09-22 · **Un empate no tiene líder**: la imagen del Marcador de la
+  Guerra coronó a los Gallaghers estando 6-4 igual que los Mijos, solo por
+  ir primeros en la lista. El user lo cachó. Corregido en el generador: la
+  corona va a TODOS los que comparten el mejor porcentaje y el pie dice
+  "empatados arriba", no "lideran". Regla general: cualquier jerarquía visual
+  (corona, resaltado, orden) debe verificar si hay empate antes de premiar al
+  primero de una lista ordenada.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.

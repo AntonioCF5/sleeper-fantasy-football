@@ -78,24 +78,37 @@ def main():
     # bloque de título 380-505, encabezados 578, filas desde 660.
     y0 = 660
     filas_svg = []
+    # Empate en la cima: la corona va a TODOS los que comparten el mejor
+    # porcentaje, no al primero de la lista (error 2026-09-22: Gallaghers y
+    # Mijos iban 6-4 y la imagen coronaba solo a los Gallaghers).
+    pcts = [g / max(1, g + p) for _, g, p in filas]
+    mejor = max(pcts)
+    lideres = [i for i, x in enumerate(pcts) if x == mejor]
     for i, (bando, g, p) in enumerate(filas):
         y = y0 + i * 118
-        pct = g / max(1, g + p)
-        color = BLANCO if i == 0 else GRIS
-        medalla = "👑 " if i == 0 else ""
+        pct = pcts[i]
+        es_lider = i in lideres
+        color = BLANCO if es_lider else GRIS
+        medalla = "👑 " if es_lider else ""
         filas_svg.append(
             f'<rect x="70" y="{y - 62}" width="940" height="96" rx="14" '
-            f'fill="{"#12203A" if i % 2 == 0 else "#0E1A30"}"/>'
+            f'fill="{"#16294A" if es_lider else "#0E1A30"}"/>'
             f'<text x="105" y="{y}" {FF} font-size="52" fill="{color}">{medalla}{bando}</text>'
             f'<text x="800" y="{y}" text-anchor="middle" {FF} font-size="52" '
             f'fill="{BLANCO}">{g} - {p}</text>'
             f'<text x="960" y="{y}" text-anchor="middle" {FR} font-size="40" '
-            f'fill="{ROJO if i == 0 else GRIS}">.{int(round(pct * 1000)):03d}</text>')
+            f'fill="{ROJO if es_lider else GRIS}">.{int(round(pct * 1000)):03d}</text>')
 
     # Dato destacado: el contraste que cuenta la historia de la semana.
-    lider, ultimo = filas[0], filas[-1]
-    remate = (f"{lider[0]} lideran con {lider[1]}-{lider[2]}; "
-              f"{ultimo[0]}, {ultimo[1]}-{ultimo[2]}")
+    # Respeta el empate — "lideran" en singular sería falso con dos arriba.
+    ultimo = filas[-1]
+    if len(lideres) > 1:
+        nombres = " y ".join(filas[i][0] for i in lideres)
+        cab = f"{nombres} empatados arriba con {filas[lideres[0]][1]}-{filas[lideres[0]][2]}"
+    else:
+        l = filas[lideres[0]]
+        cab = f"{l[0]} lideran con {l[1]}-{l[2]}"
+    remate = f"{cab}; {ultimo[0]}, {ultimo[1]}-{ultimo[2]}"
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}">
 <text x="540" y="392" text-anchor="middle" {FF} font-size="74" fill="{BLANCO}">MARCADOR</text>
 <text x="540" y="470" text-anchor="middle" {FF} font-size="74" fill="{ROJO}">DE LA GUERRA</text>
