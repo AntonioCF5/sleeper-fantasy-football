@@ -76,6 +76,22 @@ comentario contrasta con lo proyectado (🐎 caballo negro / sorpresa / 📉
 decepción / "donde lo proyectaban"). Verifica el orden y las etiquetas
 contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
 
+**B3 · SECCIONES FIJAS NUEVAS (desde 2026-09-22).**
+- **⚔️ MARCADOR DE LA GUERRA**: va como TABLA monoespaciada (bloque con
+  ```), copiada literal de la sección "Tabla para WhatsApp" de la hoja.
+  Verifica que los números coincidan carácter por carácter con la hoja y que
+  el orden sea por PORCENTAJE (6-12 nunca arriba de 5-3). La prosa de abajo
+  cuenta la HISTORIA; si solo repite los números de la tabla, sobra.
+  **Empates**: si dos bandos comparten el mejor (o el peor) récord, ninguna
+  frase puede darle el liderato (o el sótano) a uno solo.
+- **🧂 EL SALADO DE LA SEMANA**: el que perdió sin merecerlo. Verifica que NO
+  sea el mismo que La Cagada — son opuestos: el salado hizo su parte y el
+  universo se la cobró; el de La Cagada se la buscó. Toda comparación del
+  tipo "más puntos que N equipos" se cuenta contra la tabla, no se estima.
+- **Cifras de banca**: solo del campo RECUPERABLE de la hoja (lineup óptimo −
+  real). Si el borrador cita un número de banca que no está ahí, es inválido
+  aunque suene plausible.
+
 **C · COHERENCIA INTERNA (regla 6).** Lee la edición completa de corrido
 buscando: contradicciones entre secciones (error real: burlarse de unos QB
 rooms y dos párrafos después coronar a esos mismos), metáforas que no cuadran
