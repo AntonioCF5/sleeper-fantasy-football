@@ -82,17 +82,22 @@ def main():
     # porcentaje, no al primero de la lista (error 2026-09-22: Gallaghers y
     # Mijos iban 6-4 y la imagen coronaba solo a los Gallaghers).
     pcts = [g / max(1, g + p) for _, g, p in filas]
-    mejor = max(pcts)
+    mejor, peor = max(pcts), min(pcts)
     lideres = [i for i, x in enumerate(pcts) if x == mejor]
+    # 💩 para el último — y para TODOS si comparten el peor porcentaje, por la
+    # misma razón que la corona (un empate abajo tampoco tiene un solo dueño).
+    # Si hay un solo bando, o todos empatados, nadie es el último: sin popó.
+    sotano = ([i for i, x in enumerate(pcts) if x == peor]
+              if mejor != peor else [])
     for i, (bando, g, p) in enumerate(filas):
         y = y0 + i * 118
         pct = pcts[i]
-        es_lider = i in lideres
+        es_lider, es_sotano = i in lideres, i in sotano
         color = BLANCO if es_lider else GRIS
-        medalla = "👑 " if es_lider else ""
+        medalla = "👑 " if es_lider else ("💩 " if es_sotano else "")
         filas_svg.append(
             f'<rect x="70" y="{y - 62}" width="940" height="96" rx="14" '
-            f'fill="{"#16294A" if es_lider else "#0E1A30"}"/>'
+            f'fill="{"#16294A" if es_lider else ("#2A1418" if es_sotano else "#0E1A30")}"/>'
             f'<text x="105" y="{y}" {FF} font-size="52" fill="{color}">{medalla}{bando}</text>'
             f'<text x="800" y="{y}" text-anchor="middle" {FF} font-size="52" '
             f'fill="{BLANCO}">{g} - {p}</text>'
