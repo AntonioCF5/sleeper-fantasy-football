@@ -187,6 +187,42 @@ def league_facts(lg_cfg, season, week, players):
         tag = " 🐎 CABALLO NEGRO" if d >= 4 else (" 📉 DECEPCIÓN" if d <= -4 else "")
         lines.append(f"{i}. **{team}** ({dn}) — {w}-{l}, {fpts:.1f} pts · proy #{pr} ({d:+d}){tag}")
 
+    # ADDENDUM DE LINEUPS VERIFICADOS (permanente desde 2026-09-22; antes lo
+    # anexaba a mano la tarea programada y se perdía al regenerar la hoja).
+    # Es el material del que salen La Cagada, El Muerto y medio ranking:
+    # titulares en cero, casillas VACÍAS, y banca que anotó más que el titular.
+    # Aritmética de titulares: los ceros NO cuentan como jugador alineado.
+    lines.append(f"\n## ADDENDUM — lineups verificados de la semana {shown_week}")
+    lines.append("*Puntos REALES por jugador (players_points de Sleeper). "
+                 "'Casilla vacía' = slot sin jugador; 'cero' = alineado que no anotó.*\n")
+    slots = [s for s in league["roster_positions"] if s != "BN"]
+    for m in sorted(api.get_matchups(lid, shown_week) or [],
+                    key=lambda x: -(x.get("points") or 0)):
+        dn = rid_owner.get(m["roster_id"], "?")
+        pp = m.get("players_points") or {}
+        st = m.get("starters") or []
+        vacias = sum(1 for s in st if s in ("0", 0, "", None))
+        titulares = [(pp.get(p, 0), p) for p in st if p not in ("0", 0, "", None)]
+        banca = sorted(((pp.get(p, 0), p) for p in (m.get("players") or []) if p not in st),
+                       reverse=True)
+        lines.append(f"\n**{dn}** — {m.get('points', 0):.1f} pts, "
+                     f"{len(titulares)} alineados de {len(slots)}"
+                     + (f", **{vacias} CASILLA(S) VACÍA(S)**" if vacias else ""))
+        best = sorted(titulares, reverse=True)[:3]
+        lines.append("- Mejores: " + ", ".join(
+            f"{players.get(p, {}).get('full_name') or p} {v:.1f}" for v, p in best))
+        ceros = [p for v, p in titulares if v <= 0]
+        if ceros:
+            lines.append("- TITULARES EN CERO: " + ", ".join(
+                f"{players.get(p, {}).get('full_name') or p}" for p in ceros))
+        if banca:
+            lines.append("- Mejor banca: " + ", ".join(
+                f"{players.get(p, {}).get('full_name') or p} {v:.1f}" for v, p in banca[:3]))
+            peor_tit = min(titulares)[0] if titulares else 0
+            perdido = sum(v for v, _ in banca if v > peor_tit)
+            if perdido > 0:
+                lines.append(f"- Puntos dejados en la banca (sobre el peor titular): {perdido:.1f}")
+
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False
     for wk in range(max(1, week - 1), week + 1):
