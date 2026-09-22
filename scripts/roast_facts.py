@@ -36,6 +36,10 @@ ROAST_LEAGUES = ("Gallamijos League", "Gallamijos Dynasty")
 # 2-7 con una intra-bando, francotiradores 3-2; mijada 3-2 y los dos
 # francotiradores 0-2 en la Dinastía). NUNCA inferir un bando: si aparece un
 # manager nuevo, se pregunta al user y se agrega aquí.
+# Etiquetas de display para la tabla de WhatsApp (el bando canónico es la
+# clave; el nombre que se imprime rota según la edición — ver canon).
+ETIQUETA = {"Sin Bandera": "Independientes", "Mijo": "Mijos", "Gallagher": "Gallaghers"}
+
 BANDOS = {
     # Mijos — 4 en la redraft, 5 en la Dinastía (La Pepa solo juega Dinastía)
     "elmijo": "Mijo", "alealvarez7": "Mijo", "charlyae17": "Mijo",
@@ -298,6 +302,20 @@ def league_facts(lg_cfg, season, week, players):
                      + " · ".join(f"{k} {v[0]}-{v[1]}" for k, v in sorted(rec.items()))
                      + (" | head-to-head: " + ", ".join(
                          f"{k[0]} {v[0]}-{v[1]} {k[1]}" for k, v in sorted(h2h.items())) if h2h else ""))
+
+    # Tabla lista para PEGAR en WhatsApp: monoespaciado con ``` (formato
+    # nativo de WhatsApp, no markdown), alineada para pantalla de teléfono.
+    # Orden por PORCENTAJE, no por victorias: 6-12 no va arriba de 5-3.
+    orden = sorted(rec.items(), key=lambda kv: -kv[1][0] / max(1, sum(kv[1])))
+    ancho = max(len(ETIQUETA.get(k, k)) for k, _ in orden)
+    tabla = ["```", f"{'BANDO'.ljust(ancho)}   G -  P    %", "-" * (ancho + 16)]
+    for b, (g, pp) in orden:
+        pct = g / max(1, g + pp)
+        tabla.append(f"{ETIQUETA.get(b, b).ljust(ancho)}  {g:>2} - {pp:>2}  {pct:.3f}"
+                     .replace("0.", " ."))
+    tabla.append("```")
+    lines.append("\n### Tabla para WhatsApp (copiar tal cual, con los backticks)")
+    lines.append("\n".join(tabla))
 
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False

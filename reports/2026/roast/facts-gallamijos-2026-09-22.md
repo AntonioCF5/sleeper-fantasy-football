@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos League — 2026-09-22 14:13Z
+# HOJA DE HECHOS — Gallamijos League — 2026-09-22 14:23Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -230,6 +230,15 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 Integrantes: Gallagher 9 · Mijo 4 · Sin Bandera 5
 - **Esta semana**: Gallagher 4-5 · Mijo 1-3 · Sin Bandera 4-1 | head-to-head: Gallagher 2-1 Mijo, Gallagher 0-2 Sin Bandera, Mijo 0-1 Sin Bandera
 - **Acumulado**: Gallagher 6-12 · Mijo 5-3 · Sin Bandera 7-3 | head-to-head: Gallagher 2-4 Mijo, Gallagher 1-5 Sin Bandera, Mijo 1-1 Sin Bandera
+
+### Tabla para WhatsApp (copiar tal cual, con los backticks)
+```
+BANDO            G -  P    %
+------------------------------
+Independientes   7 -  3   .700
+Mijos            5 -  3   .625
+Gallaghers       6 - 12   .333
+```
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] FilledUpRivers: altas: Darnell Mooney→FilledUpRivers; bajas: Kayshon Boutte (dropeado por FilledUpRivers)

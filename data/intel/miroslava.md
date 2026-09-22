@@ -560,6 +560,15 @@ cambios suyos sobre mi borrador, cada uno una regla:
    cuenta — y por eso toda predicción debe nombrar ganador o no va.
    Pendientes del 09-22: Gallamijos — Tommy > Zenitsu, Gallagher > Charly;
    Dinastía — el Faraón > Buz, Rul > Amarante. Actualizar cada martes.
+5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
+   el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
+   ("Tabla para WhatsApp"), con sus ``` incluidos — es formato nativo de
+   WhatsApp, no markdown, y el linter no lo marca. Ordenada por PORCENTAJE
+   (6-12 nunca va arriba de 5-3). Debajo, una o dos líneas de prosa con la
+   historia, no con los números que la tabla ya dice.
+   **Imagen compartible**: `python3 scripts/roast_imagen_guerra.py <liga>`
+   genera un 1080x1080 de marca con Miroslava, el escudo y la tabla, en
+   `reports/<season>/roast/img/`. Se manda junto al texto.
 6b. 🧂 **EL SALADO DE LA SEMANA** (sección fija desde 2026-09-22, pedida por
    el user): el que perdió sin merecerlo — más puntos que varios ganadores,
    derrota por margen mínimo, o la desgracia pura. NO es el que la cagó (esa

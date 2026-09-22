@@ -13,9 +13,9 @@ Y que conste: el nombre que de verdad le tocaba, todos lo sabemos. *#ReglasSonRe
 
 🚿 *SE DICE EN LA REGADERA*
 
-• Se habla de juntar firmas: hay managers pidiendo *elecciones* para acabar con la tiranía del Bebé Hitler. Años de mandato, cero urnas y un despacho en Bucarest. Que cuente los votos cualquiera menos él.
+• Se habla de juntar firmas: hay managers pidiendo *elecciones* para acabar con la tiranía del Bebé Hitler. Años de mandato, cero urnas, despacho en Bucarest. Que cuente los votos cualquiera menos él.
 • El Bebé levantó a Tom Brady y a Carson Wentz en waivers, los dos por cero dólares. La directiva no gasta: requisa.
-• Fer estrenó quarterback y siguió perdiendo. Hay cosas que no se arreglan en la agencia libre.
+• Fer estrenó quarterback y siguió perdiendo. Hay cosas que la agencia libre no arregla.
 
 🏆 *MEDALLAS Y VERGAZOS*
 
@@ -33,14 +33,14 @@ Y que conste: el nombre que de verdad le tocaba, todos lo sabemos. *#ReglasSonRe
 2. *Pan Ocha Cruz* 2-0, 287.0 (9º) — 🐎 el castigado invicto. El sótano le quedó chico.
 3. *Mayagoitias* 2-0, 278.8 (2º) — el Ingeniero invicto y sobrio. Dos cosas que rara vez coinciden.
 4. *King in the North* 1-1, 294.3 (10º) — 🐎 81 puntos entre Allen y Adams, y dos titulares en cero. Gana con una mano y se dispara con la otra.
-5. *Dinastía Lombardi* 1-1, 286.6 (6º) — el mejor jugador de la jornada y una derrota. Ver la Cagada.
+5. *Dinastía Lombardi* 1-1, 286.6 (6º) — el mejor jugador de la jornada y derrota. Ver la Cagada.
 6. *House RW* 1-1, 277.0 (1º) — 📉 el proyectado número uno, a media tabla. Puro Succession: se investiga a sí mismo y sale limpio.
-7. *La Dinastía de Pitones* 1-1, 276.7 (12º) — 🐎 ganó con Mahomes (29) en la banca. Cosas que pasan.
+7. *La Dinastía de Pitones* 1-1, 276.7 (12º) — 🐎 ganó con Mahomes (29) en la banca.
 8. *Gallagher* 1-1, 274.9 (3º) — 📉 el salado: 137 puntos y derrota. Tercero en proyección, octavo en la realidad.
 9. *LaviboradeLamar* 1-1, 251.5 (8º) — 52 puntos alineables sin usar, con Goff (29.8) de espectador.
 10. *Broncos Locos* 0-2, 218.1 (5º) — 📉 quinto en el papel, décimo en la cancha. La orquesta de Amarante sigue tocando mientras el barco se hunde.
 11. *Los hijos de pooh* 0-2, 190.5 (7º) — 📉 87.6 puntos con Dak (29.8) en la banca. El Santos de la liga.
-12. *Same Old Jets* 0-2, 188.8 (11º) — cero y dos, y sus Jets también. Coherencia institucional.
+12. *Same Old Jets* 0-2, 188.8 (11º) — cero y dos, y sus Jets también. Coherencia total.
 
 ⚖️ *LA CUENTA DE LA BANCA*
 
@@ -48,7 +48,14 @@ Entre los doce dejaron *390.5* puntos que de verdad cabían en su alineación. N
 
 ⚔️ *MARCADOR DE LA GUERRA*
 
-Empate arriba: *Gallaghers 6-4, Mijos 6-4*, con el head-to-head 4-3 para los Gallas. Abajo, el desastre: *los dos francotiradores, 0-4*. Amarante y Fer no ganan un solo partido entre los dos, y uno es el bicampeón.
+```
+BANDO            G -  P    %
+------------------------------
+Gallaghers       6 -  4   .600
+Mijos            6 -  4   .600
+Independientes   0 -  4   .000
+```
+Empate arriba, head-to-head 4-3 para los Gallas. Abajo el desastre: los dos francotiradores no ganan un partido entre ambos, y uno es el bicampeón.
 
 🔮 *EL PALPITOTE DEL ESCOTE — jornada 3* (va 4 de 4)
 
@@ -58,7 +65,7 @@ Empate arriba: *Gallaghers 6-4, Mijos 6-4*, con el head-to-head 4-3 para los Gal
 
 📣 *CIERRE DE MIROSLAVA, PERO NO DE PATAS*
 
-Dos semanas y las dos coronas llevan más derrotas que festejos. La dinastía se defiende alineando, no recordando. Revisen su banca: ahí tienen el equipo que juran que no tienen.
+Dos semanas y las dos coronas llevan más derrotas que festejos. La dinastía se defiende alineando, no recordando. Revisen su banca: ahí está el equipo que juran no tener.
 
 Nos vemos el martes, con la lista completa. 👀💋
 — *Miroslava, que cuenta los puntos que ustedes dejan sentados*

@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos Dynasty — 2026-09-22 14:13Z
+# HOJA DE HECHOS — Gallamijos Dynasty — 2026-09-22 14:23Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -178,6 +178,15 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 Integrantes: Gallagher 5 · Mijo 5 · Sin Bandera 2
 - **Esta semana**: Gallagher 3-2 · Mijo 3-2 · Sin Bandera 0-2 | head-to-head: Gallagher 2-1 Mijo, Mijo 2-0 Sin Bandera
 - **Acumulado**: Gallagher 6-4 · Mijo 6-4 · Sin Bandera 0-4 | head-to-head: Gallagher 4-3 Mijo, Gallagher 1-0 Sin Bandera, Mijo 3-0 Sin Bandera
+
+### Tabla para WhatsApp (copiar tal cual, con los backticks)
+```
+BANDO            G -  P    %
+------------------------------
+Gallaghers       6 -  4   .600
+Mijos            6 -  4   .600
+Independientes   0 -  4   .000
+```
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] jetsdelalaguna: altas: Geno Smith→jetsdelalaguna; bajas: Jason Sanders (dropeado por jetsdelalaguna)
