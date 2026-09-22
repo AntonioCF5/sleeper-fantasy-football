@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos League — 2026-09-22 13:58Z
+# HOJA DE HECHOS — Gallamijos League — 2026-09-22 14:13Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -201,7 +201,7 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 **alealvarez7** — 103.3 pts, 12 alineados de 12
 - Mejores: NE 34.0, Jalen Hurts 18.2, MarShawn Lloyd 8.6
 - Mejor banca: C.J. Stroud 18.0, KC Concepcion 8.2, Ladd McConkey 6.5
-- RECUPERABLE (lineup óptimo 110.4 − real 103.3): **7.1**; debieron entrar: KC Concepcion 8.2, Ladd McConkey 6.5
+- RECUPERABLE (lineup óptimo 110.4 − real 103.3): **7.1**; debieron entrar: KC Concepcion 8.2
 
 **elmijo** — 103.2 pts, 11 alineados de 12, **1 CASILLA(S) VACÍA(S)**
 - Mejores: Ja'Marr Chase 26.5, Baker Mayfield 13.2, PIT 13.0
@@ -225,6 +225,11 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - TITULARES EN CERO: Isaiah Davis, WAS
 - Mejor banca: Rashod Bateman 22.8, Deshaun Watson 19.7, TEN 10.0
 - RECUPERABLE (lineup óptimo 120.5 − real 84.3): **36.2**; debieron entrar: Rashod Bateman 22.8, Deshaun Watson 19.7, TEN 10.0
+
+## MARCADOR DE LA GUERRA (bandos leídos de BANDOS, nunca inferidos)
+Integrantes: Gallagher 9 · Mijo 4 · Sin Bandera 5
+- **Esta semana**: Gallagher 4-5 · Mijo 1-3 · Sin Bandera 4-1 | head-to-head: Gallagher 2-1 Mijo, Gallagher 0-2 Sin Bandera, Mijo 0-1 Sin Bandera
+- **Acumulado**: Gallagher 6-12 · Mijo 5-3 · Sin Bandera 7-3 | head-to-head: Gallagher 2-4 Mijo, Gallagher 1-5 Sin Bandera, Mijo 1-1 Sin Bandera
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] FilledUpRivers: altas: Darnell Mooney→FilledUpRivers; bajas: Kayshon Boutte (dropeado por FilledUpRivers)

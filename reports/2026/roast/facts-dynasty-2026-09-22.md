@@ -1,4 +1,4 @@
-# HOJA DE HECHOS — Gallamijos Dynasty — 2026-09-22 13:58Z
+# HOJA DE HECHOS — Gallamijos Dynasty — 2026-09-22 14:13Z
 
 Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o de miroslava.md.
 
@@ -173,6 +173,11 @@ Fuente: API de Sleeper en vivo. Todo chiste factual del Destape sale de aquí o 
 - TITULARES EN CERO: Marvin Harrison
 - Mejor banca: Darren Waller 18.3, Geno Smith 15.6, CIN 11.0
 - RECUPERABLE (lineup óptimo 119.8 − real 81.5): **38.3**; debieron entrar: Darren Waller 18.3, CIN 11.0, Kalif Raymond 9.0, AJ Barner 7.9
+
+## MARCADOR DE LA GUERRA (bandos leídos de BANDOS, nunca inferidos)
+Integrantes: Gallagher 5 · Mijo 5 · Sin Bandera 2
+- **Esta semana**: Gallagher 3-2 · Mijo 3-2 · Sin Bandera 0-2 | head-to-head: Gallagher 2-1 Mijo, Mijo 2-0 Sin Bandera
+- **Acumulado**: Gallagher 6-4 · Mijo 6-4 · Sin Bandera 0-4 | head-to-head: Gallagher 4-3 Mijo, Gallagher 1-0 Sin Bandera, Mijo 3-0 Sin Bandera
 
 ## Transacciones (últimas 2 semanas de rondas)
 - [free_agent] jetsdelalaguna: altas: Geno Smith→jetsdelalaguna; bajas: Jason Sanders (dropeado por jetsdelalaguna)

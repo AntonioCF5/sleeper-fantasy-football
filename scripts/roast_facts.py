@@ -26,6 +26,30 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 from sleeper import analysis, api, scoring  # noqa: E402
 
 ROAST_LEAGUES = ("Gallamijos League", "Gallamijos Dynasty")
+
+# BANDOS POR MANAGER — la fuente de verdad (fijado 2026-09-22 tras que el
+# Marcador de la Guerra se omitiera una edición por no tenerlo escrito).
+# Derivado del canon (palmarés 2015-2025 + el recuento del top-8 del 08-31 +
+# expedientes) y VALIDADO contra los tres conteos publicados: redraft
+# 4/9/5 y dinastía 5/5/2 cuadran exacto, igual que los récords de la
+# jornada 1 ya impresos (Mijos 4-0 con tres contra Gallaghers, los nueve
+# 2-7 con una intra-bando, francotiradores 3-2; mijada 3-2 y los dos
+# francotiradores 0-2 en la Dinastía). NUNCA inferir un bando: si aparece un
+# manager nuevo, se pregunta al user y se agrega aquí.
+BANDOS = {
+    # Mijos — 4 en la redraft, 5 en la Dinastía (La Pepa solo juega Dinastía)
+    "elmijo": "Mijo", "alealvarez7": "Mijo", "charlyae17": "Mijo",
+    "rodrigodiaz": "Mijo", "panchocruz": "Mijo",
+    # Sin Bandera / Los Independientes — 5 en la redraft, 2 en la Dinastía
+    "jffaya": "Sin Bandera", "Tibu23": "Sin Bandera", "aledlg": "Sin Bandera",
+    "maudlgarza": "Sin Bandera", "FilledUpRivers": "Sin Bandera",
+    "damarante": "Sin Bandera", "jetsdelalaguna": "Sin Bandera",
+    # Gallaghers — 9 en la redraft, 5 en la Dinastía
+    "drw25": "Gallagher", "Gallaghers4": "Gallagher", "Jro91": "Gallagher",
+    "hectordavid1989TRC": "Gallagher", "tbarg91": "Gallagher",
+    "ElGeneral4": "Gallagher", "Jebusf": "Gallagher",
+    "davidcruz77": "Gallagher", "canogutierrez": "Gallagher",
+}
 TOP_SKILL = 6  # jugadores top por proyección mostrados por manager
 
 
@@ -239,6 +263,41 @@ def league_facts(lg_cfg, season, week, players):
                              + ("; debieron entrar: " + ", ".join(
                                  f"{players.get(pid, {}).get('full_name') or pid} {v:.1f}"
                                  for v, pid in entrarian[:4]) if entrarian else ""))
+
+    # MARCADOR DE LA GUERRA, calculado (no inferido) — semana y acumulado.
+    lines.append("\n## MARCADOR DE LA GUERRA (bandos leídos de BANDOS, nunca inferidos)")
+    faltan = sorted({dn for dn in rid_owner.values() if dn not in BANDOS})
+    if faltan:
+        lines.append(f"⚠️ SIN BANDO REGISTRADO: {', '.join(faltan)} — preguntar al "
+                     "user y agregarlos a BANDOS antes de publicar la sección.")
+    plantel = {}
+    for dn in rid_owner.values():
+        plantel[BANDOS.get(dn, "???")] = plantel.get(BANDOS.get(dn, "???"), 0) + 1
+    lines.append("Integrantes: " + " · ".join(f"{k} {v}" for k, v in sorted(plantel.items())))
+    for etiqueta, semanas in (("Esta semana", [shown_week]),
+                              ("Acumulado", list(range(1, shown_week + 1)))):
+        rec, h2h = {}, {}
+        for wk in semanas:
+            by = {}
+            for mm in api.get_matchups(lid, wk) or []:
+                by.setdefault(mm.get("matchup_id"), []).append(
+                    (mm.get("points") or 0, rid_owner.get(mm["roster_id"])))
+            for pair in by.values():
+                if len(pair) != 2 or pair[0][0] == pair[1][0]:
+                    continue
+                (_, gana), (_, pierde) = sorted(pair, reverse=True)
+                bg, bp = BANDOS.get(gana, "???"), BANDOS.get(pierde, "???")
+                for b, w in ((bg, 1), (bp, 0)):
+                    g, p = rec.get(b, (0, 0))
+                    rec[b] = (g + w, p + (1 - w))
+                if bg != bp:
+                    k = tuple(sorted((bg, bp)))
+                    a, b_ = h2h.get(k, (0, 0))
+                    h2h[k] = (a + (1 if bg == k[0] else 0), b_ + (1 if bg == k[1] else 0))
+        lines.append(f"- **{etiqueta}**: "
+                     + " · ".join(f"{k} {v[0]}-{v[1]}" for k, v in sorted(rec.items()))
+                     + (" | head-to-head: " + ", ".join(
+                         f"{k[0]} {v[0]}-{v[1]} {k[1]}" for k, v in sorted(h2h.items())) if h2h else ""))
 
     lines.append("\n## Transacciones (últimas 2 semanas de rondas)")
     any_tx = False

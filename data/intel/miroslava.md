@@ -633,6 +633,27 @@ Criterio: dentro de una misma edición, si un bando se menciona dos veces, la
 segunda va con otro nombre. El canónico se reserva para la mención más
 importante; los descriptivos sirven de relleno elegante.
 
+## BANDO DE CADA MANAGER (fuente de verdad — fijado 2026-09-22)
+
+El canon tenía los TAMAÑOS pero la membresía estaba dispersa en tres lugares
+(palmarés, el recuento del top-8 del 08-31, expedientes sueltos), y por eso
+una edición salió sin Marcador de la Guerra. Queda aquí, y además en el dict
+`BANDOS` de `roast_facts.py`, que calcula el marcador solo. **Validado**: los
+18/12 cuadran exacto con los conteos del canon (4/9/5 y 5/5/2) y reproducen
+los récords ya publicados de la jornada 1. Si aparece un manager nuevo, se
+PREGUNTA y se agrega; jamás se infiere.
+
+| Bando | Redraft (18) | Dinastía (12) |
+|---|---|---|
+| **Mijos** | elmijo · alealvarez7 (La Dona) · charlyae17 (Charly/Sharky) · rodrigodiaz (La Rorra) — **4** | los mismos 4 + panchocruz (La Pepa/el Faraón) — **5** |
+| **Gallaghers** | drw25 (el Bebé) · Gallaghers4 (el Fashionista) · Jro91 (Buz) · hectordavid1989TRC (el Chapo) · tbarg91 (Tommy) · ElGeneral4 (Rul) · Jebusf · davidcruz77 (Dave) · canogutierrez (Cano) — **9** | drw25 · Gallaghers4 · Jro91 · ElGeneral4 · davidcruz77 — **5** |
+| **Sin Bandera / Independientes** | jffaya (el Alacrán) · Tibu23 (el Doctor) · aledlg (Zenitsu) · maudlgarza (el Frijol) · FilledUpRivers (George) — **5** | damarante (Amarante) · jetsdelalaguna (Fer) — **2** |
+
+*Notas de derivación, por si alguien la audita: La Rorra es Mijo por el
+palmarés 2025; los cinco Sin Bandera de la redraft son exactamente los del
+top-8 del 08-31; La Pepa es Mijo y solo juega Dinastía; Amarante es Sin
+Bandera por el palmarés 2020 y por la corona mercenaria de 2025.*
+
 ## La guerra de bandos
 
 **Gallamijos = Gallaghers + Mijos**, los dos grupos fundadores. Es LA rivalidad
