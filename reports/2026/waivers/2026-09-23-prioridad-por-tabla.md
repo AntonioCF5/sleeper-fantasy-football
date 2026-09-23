@@ -107,3 +107,43 @@ Los otros 12 jugadores repartidos hoy no cambian de dueño.
 | Tibu23 | 2 | LV (DEF) | *preguntar* |
 
 Todos están 17/17, así que cada alta exige su baja.
+
+## ¿Se puede ver a quién iban a tirar en los claims perdidos?
+
+**No.** Volqué el objeto completo de las 53 transacciones fallidas: el campo
+`drops` viene **`null`** en todas. Sleeper no guarda la baja que el manager
+había atado a un claim que no ganó. No es que no la haya buscado bien — no
+existe en el API.
+
+**Pero sí apareció algo mejor que mis inferencias:** cada claim fallido trae
+`metadata.notes` con la razón EXACTA del fallo, escrita por Sleeper.
+
+| Razón | Claims |
+|---|---|
+| "This player was claimed by another owner" (perdió por prioridad) | **49** |
+| "Your roster will have too many players" (roster lleno, sin baja atada) | **4** |
+
+Los 4 bloqueados por roster:
+
+| Equipo | Pedía |
+|---|---|
+| davidcruz77 | Bobby Okereke |
+| Jro91 | Ryan Flournoy |
+| ElGeneral4 | IND (DEF) |
+| alealvarez7 | Zach Ertz *(primer intento sin baja; lo reenvió con baja y ganó)* |
+
+Esto **confirma por evidencia directa** la corrección anterior: Okereke,
+Flournoy e IND no se perdieron por prioridad sino por roster, y siguen fuera
+del análisis. El caso de alealvarez7 explica de paso los claims duplicados —
+mandó Zach Ertz sin baja (falló), lo reenvió con DeMario Douglas y ganó.
+
+Consecuencia para los 7 que cambian de manos: sus claims perdedores dicen
+"claimed by another owner", no "too many players". Eso significa que Sleeper
+ni siquiera llegó a revisarles el roster — perdieron antes, en la fila. Así
+que **sigue siendo necesario preguntarle a cada manager** a quién habría
+tirado; el dato no está en ningún lado.
+
+*(Nota menor: los claims ganados traen a veces `settings.priority` con el
+número de prioridad, pero solo en 7 de 19, así que no sirve para reconstruir
+la fila completa. La reconstrucción por orden de proceso sigue siendo la
+buena — reproduce 19/19.)*
