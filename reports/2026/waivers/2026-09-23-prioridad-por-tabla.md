@@ -65,81 +65,45 @@ un claim se va al final de la fila dentro de la misma corrida, así que un equip
 con prioridad alta no se lleva todo. El orden interno de cada equipo (a cuál
 jugador le tiene más ganas) se toma del `seq` real de sus claims.
 
-## A QUIÉN LE TOCABA CADA JUGADOR (sin tope de bajas)
+## A QUIÉN LE TOCABA CADA JUGADOR
 
 Decisión del user: la baja de un claim perdido **no existe en el API** (53 de 53
 fallidos vienen sin `drops`), así que no se estima — se le pregunta a cada
-manager a quién habría tirado. Aquí va el reparto puro por prioridad de tabla,
-respetando solo la regla de rodada (el que gana pasa al final de la fila).
+manager a quién habría tirado.
 
-### Lista para consultar, manager por manager
-
-| Manager | Lugar | Le tocaba | Hoy se lo llevó |
-|---|---|---|---|
-| hectordavid1989TRC | 18 | Keon Coleman | *(ya era suyo)* |
-| **davidcruz77** | 17 | Devin Lloyd *(suyo)* · **Dax Hill** · **Bobby Okereke** · Lukas Van Ness *(suyo)* | drw25 · nadie |
-| aledlg | 16 | Derrick Barnes | *(ya era suyo)* |
-| **ElGeneral4** | 14 | **Jonah Coleman** · Jameis Winston *(suyo)* · **IND DEF** | alealvarez7 · nadie |
-| **FilledUpRivers** | 13 | **Adonai Mitchell** | canogutierrez |
-| **charlyae17** | 12 | **Emanuel Wilson** | drw25 |
-| **Jro91** | 11 | **Oronde Gadsden** · Ted Hurst *(suyo)* · **Ryan Flournoy** | Gallaghers4 · nadie |
-| elmijo | 9 | Roman Wilson | *(ya era suyo)* |
-| rodrigodiaz | 8 | Dexter Lawrence | *(ya era suyo)* |
-| **drw25** | 7 | **Quentin Lake** | aledlg |
-| canogutierrez | 6 | **nada** | pierde a Adonai Mitchell |
-| alealvarez7 | 5 | Zach Ertz *(suyo)* | pierde a Jonah Coleman |
-| Gallaghers4 | 3 | Cade Otton *(suyo)* | pierde a Oronde Gadsden |
-| **Tibu23** | 2 | **LV DEF** · Kaleb Johnson *(suyo)* · Brian Burns *(suyo)* | ElGeneral4 |
+⚠️ **Corrección (la cachó el user):** en una versión previa repartí a **Bobby
+Okereke, Ryan Flournoy e IND (DEF)** como si hubieran quedado libres. No es
+cierto. Esos tres claims **fallaron por roster lleno, no por prioridad**:
+nadie más los pidió, y el equipo que los pidió ya había gastado todas sus
+bajas del día (davidcruz77 2 de 2, Jro91 1 de 1, ElGeneral4 2 de 2). Ese
+claim muere igual en cualquier orden de prioridad, así que salen del análisis.
+Regla general verificada hoy: **ningún equipo ganó más claims que bajas tenía
+disponibles.**
 
 ### Los 7 que cambian de manos
 
-1. **Jonah Coleman** → ElGeneral4 (era de alealvarez7)
-2. **Adonai Mitchell** → FilledUpRivers (era de canogutierrez)
-3. **Emanuel Wilson** → charlyae17 (era de drw25)
-4. **Oronde Gadsden** → Jro91 (era de Gallaghers4)
-5. **Dax Hill** → davidcruz77 (era de drw25)
-6. **Quentin Lake** → drw25 (era de aledlg)
-7. **LV (DEF)** → Tibu23 (era de ElGeneral4)
+| Jugador | Hoy se lo llevó | Le tocaba |
+|---|---|---|
+| **Jonah Coleman** (RB DEN) | alealvarez7 (5º, 2-0) | **ElGeneral4** (14º) |
+| **Adonai Mitchell** (WR NYJ) | canogutierrez (6º) | **FilledUpRivers** (13º) |
+| **Emanuel Wilson** (RB SEA) | drw25 (7º) | **charlyae17** (12º) |
+| **Oronde Gadsden** (TE LAC) | Gallaghers4 (3º, 2-0) | **Jro91** (11º) |
+| **Dax Hill** (DB CIN) | drw25 (7º) | **davidcruz77** (17º) |
+| **Quentin Lake** (DB LAR) | aledlg (16º) | **drw25** (7º) |
+| **LV** (DEF) | ElGeneral4 (14º) | **Tibu23** (2º) |
 
-Más dos que hoy nadie alcanzó y sí se repartirían: **Bobby Okereke** a
-davidcruz77, **Ryan Flournoy** a Jro91, e **IND (DEF)** a ElGeneral4.
+Los otros 12 jugadores repartidos hoy no cambian de dueño.
 
-**Pendiente de consultar a cada manager:** a quién habría tirado por cada
-jugador nuevo. Todos están 17/17, así que cada alta exige una baja.
+### Para consultar
 
-## Validación del motor (y el caso Dax Hill)
-
-Objeción del user: *"¿por qué le tocaba Dax Hill a david si él ya tenía a
-Devin Lloyd reclamado? El que reclama pasa a ser la última prioridad y va
-avanzando conforme otros reclaman."*
-
-**La regla es exactamente esa, y así está implementada.** Para probarlo, corrí
-el motor con la prioridad REAL de hoy y comparé contra los ganadores reales:
-
-| Modelo | Reproduce |
-|---|---|
-| **Uno por turno, el que gana se va al final** | **19 de 19** ✅ |
-| Cada equipo resuelve todos sus claims de un jale | 17 de 19 ❌ |
-
-El modelo bueno acierta el 100%. El otro falla justo en Emanuel Wilson y
-Devin Lloyd. Así que la mecánica de rotación está bien.
-
-### Por qué Dax Hill termina en davidcruz77
-
-| Paso | Qué pasa | davidcruz77 | drw25 |
+| Manager | Lugar | Se quedaría con | A quién tiraría |
 |---|---|---|---|
-| 2 | davidcruz77 (#1) toma **Devin Lloyd** → al final | #1 → **#18** | #11 |
-| 10 | drw25 (#3) toma **Quentin Lake** → al final | #11 | #3 → **#18** |
-| 14 | davidcruz77 (#7) toma **Dax Hill** | **#7** | #15 |
+| davidcruz77 | 17 | Dax Hill | *preguntar* |
+| ElGeneral4 | 14 | Jonah Coleman | *preguntar* |
+| FilledUpRivers | 13 | Adonai Mitchell | *preguntar* |
+| charlyae17 | 12 | Emanuel Wilson | *preguntar* |
+| Jro91 | 11 | Oronde Gadsden | *preguntar* |
+| drw25 | 7 | Quentin Lake | *preguntar* |
+| Tibu23 | 2 | LV (DEF) | *preguntar* |
 
-La clave está en el paso 10: **drw25 sí tuvo el turno antes que davidcruz77**
-(iba #3 contra #11), pero lo gastó en Quentin Lake, no en Dax Hill. ¿Por qué?
-Porque en su propio orden de claims drw25 puso Quentin Lake (`seq` 48) por
-delante de Dax Hill (`seq` 49) — es la preferencia que él mismo mandó. Al
-ganar se fue al final, y para cuando Dax Hill volvió a estar en juego,
-davidcruz77 ya había subido de #18 a #7 (doce equipos ganaron detrás de él) y
-drw25 había caído a #15.
-
-O sea: davidcruz77 no se "saltó" la fila — drw25 eligió otro jugador con su
-turno y quedó detrás. El orden interno de cada manager (qué jugador quiere
-más) sale del `seq` real de sus claims, no de mi criterio.
+Todos están 17/17, así que cada alta exige su baja.
