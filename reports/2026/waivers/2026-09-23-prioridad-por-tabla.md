@@ -106,3 +106,40 @@ davidcruz77, **Ryan Flournoy** a Jro91, e **IND (DEF)** a ElGeneral4.
 
 **Pendiente de consultar a cada manager:** a quién habría tirado por cada
 jugador nuevo. Todos están 17/17, así que cada alta exige una baja.
+
+## Validación del motor (y el caso Dax Hill)
+
+Objeción del user: *"¿por qué le tocaba Dax Hill a david si él ya tenía a
+Devin Lloyd reclamado? El que reclama pasa a ser la última prioridad y va
+avanzando conforme otros reclaman."*
+
+**La regla es exactamente esa, y así está implementada.** Para probarlo, corrí
+el motor con la prioridad REAL de hoy y comparé contra los ganadores reales:
+
+| Modelo | Reproduce |
+|---|---|
+| **Uno por turno, el que gana se va al final** | **19 de 19** ✅ |
+| Cada equipo resuelve todos sus claims de un jale | 17 de 19 ❌ |
+
+El modelo bueno acierta el 100%. El otro falla justo en Emanuel Wilson y
+Devin Lloyd. Así que la mecánica de rotación está bien.
+
+### Por qué Dax Hill termina en davidcruz77
+
+| Paso | Qué pasa | davidcruz77 | drw25 |
+|---|---|---|---|
+| 2 | davidcruz77 (#1) toma **Devin Lloyd** → al final | #1 → **#18** | #11 |
+| 10 | drw25 (#3) toma **Quentin Lake** → al final | #11 | #3 → **#18** |
+| 14 | davidcruz77 (#7) toma **Dax Hill** | **#7** | #15 |
+
+La clave está en el paso 10: **drw25 sí tuvo el turno antes que davidcruz77**
+(iba #3 contra #11), pero lo gastó en Quentin Lake, no en Dax Hill. ¿Por qué?
+Porque en su propio orden de claims drw25 puso Quentin Lake (`seq` 48) por
+delante de Dax Hill (`seq` 49) — es la preferencia que él mismo mandó. Al
+ganar se fue al final, y para cuando Dax Hill volvió a estar en juego,
+davidcruz77 ya había subido de #18 a #7 (doce equipos ganaron detrás de él) y
+drw25 había caído a #15.
+
+O sea: davidcruz77 no se "saltó" la fila — drw25 eligió otro jugador con su
+turno y quedó detrás. El orden interno de cada manager (qué jugador quiere
+más) sale del `seq` real de sus claims, no de mi criterio.
