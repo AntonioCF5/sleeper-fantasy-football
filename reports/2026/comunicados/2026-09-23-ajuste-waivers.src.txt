@@ -1,0 +1,28 @@
+# Ajuste de waivers
+
+> Coaches: hubo un cambio en cómo funcionan los waivers y una corrección a los claims que se procesaron hoy. Aquí está todo.
+
+## Lo que cambió
+
+La liga estaba configurada en <b>waivers rodantes</b>: el orden se heredaba del draft y solo te ibas al final de la fila cuando ganabas un claim. Eso dejó a equipos 2-0 con prioridad alta y a equipos 0-2 hasta atrás.
+
+A partir de ahora la liga usa <b>prioridad por tabla</b>: cada semana el orden se resetea al inverso de la tabla. <b>El último de la liga elige primero.</b>
+
+## Los 7 claims corregidos de hoy
+
+Se reprocesaron los claims de hoy con el orden nuevo. Siete jugadores cambiaron de dueño:
+
+| Jugador | Va para | Lo tenía |
+| Jonah Coleman | El General | La Dona |
+| Adonai Mitchell | Fill Up, Rivers | PepeSilvia |
+| Emanuel Wilson | Scary Terry | Pulpo Power |
+| Oronde Gadsden | Jro91 | Gallagher |
+| Dax Hill | Ryomen Sukuna | Pulpo Power |
+| Quentin Lake | Pulpo Power | Zenitsu |
+| LV (defensa) | Matasanos FC | El General |
+
+Los otros 12 jugadores que se repartieron hoy no se movieron: con cualquiera de los dos sistemas les tocaban a los mismos.
+
+## Importante: 4 equipos quedaron con 18 jugadores
+
+! Recibieron a su jugador pero no tiraron a nadie. <b>Un roster sobre el límite no procesa waivers</b>, así que hay que bajar a 17 antes del próximo martes:<br/><br/><b>El General &nbsp;·&nbsp; Matasanos FC &nbsp;·&nbsp; Jro91 &nbsp;·&nbsp; Scary Terry</b>

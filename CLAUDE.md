@@ -97,6 +97,7 @@ picks up where this one left off.
 | `python3 scripts/destape_montaje.py <heygen.mp4> <out.mp4> [--subtitulo "…"]` | Paso 4: montaje de marca del video del Destape (recorta letterbox de HeyGen, lienzo 1080x1920 con escudo/título/barra roja, intro y outro con fades). |
 | `python3 scripts/survivor_plan.py [--week N] [--avoid-week18] [--regress R] [--max-fade N]` | NFL survivor pool planner: full remaining schedule with DraftKings lookahead lines (ESPN), win probabilities (de-vigged ML / spread), exact assignment (Hungarian) of one team per week with no repeats maximizing survival, time-regressed lookahead edges, opponent-fade cap, P(survive) with N lives. State (lives, used picks) in `data/intel/survivor.json`; commit only the current week, re-run every Tuesday. |
 | `python3 scripts/roast_imagen_guerra.py <gallamijos\|dynasty>` | Imagen 1080x1080 compartible del Marcador de la Guerra con Miroslava, el escudo y la tabla (lee la hoja de hechos, no recalcula) → `reports/<season>/roast/img/`. |
+| `python3 scripts/comunicado_pdf.py <entrada.txt> <salida.pdf>` | Comunicado oficial de liga en PDF membretado (escudo, franja #013369, filete rojo, pie con fecha y paginación). El .txt usa `#` título, `>` entrada, `##` sección, `-` viñeta, `\|` tabla, `!` caja de aviso; acepta `<b>` inline. Para avisos de comisionado, NO para el Destape. Salidas en `reports/<season>/comunicados/`. |
 
 Library modules (import from repo root with `sys.path` trick, see scripts):
 
