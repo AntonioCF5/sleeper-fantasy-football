@@ -1171,3 +1171,98 @@ and Brian Thomas Jr. for him inside 24 hours.
 - ✅ **FF: Shough "incrustable"** — leads the NFL in passing yards, 9 rushes,
   two 22+ games; Mayfield the counter-fade (no 20-point game since Week 10
   last year). Flips the Gallamijos Lg QB call to Shough.
+
+## 2026-09-22 — Sal "7 players I'm panicking about" (1mLq3K9W5SI) + FF Ep. 1977 Week-3 waivers (LfnCr6GAjAI) + 3 shorts (IlFd-0JhTgA Shough, mGXpWMwYwa8 Waddle, HBMkHnu4OJg Boston)
+
+**Contingency pricing (FF, explicit rule).** "Add him NOW, not next week when he's a full
+FAAB dump." A must-roster handcuff is worth a bench spot precisely because today's price is
+zero and tomorrow's is the whole budget. This is the buy-side twin of our handcuff-protection
+rule: we already refuse to DROP a clean handcuff; FF's addition is that you must ACQUIRE it
+before the injury, not after.
+
+**FAAB tiering is manager-relative, not player-relative.** The same player carries two
+different prices: Jonah Coleman is "a few bucks" for a neutral roster and "a priority, pay
+up" for the manager who already owns J.K. Dobbins. The bid is a function of how much of YOUR
+roster the injury would break, not of the player's standalone projection. Our ladder
+(30-60 / 15-25 / 1-5 / 0-1) should be read one tier higher when the add insures a starter
+you own.
+
+**Sal's panic meter is calibrated to price paid.** The same production is a 10/10 panic for a
+4th-round pick and a 1/10 for a late flier — the decision is opportunity cost of the roster
+spot, not raw points. Useful translation for us: a "panic" call is a statement about the
+roster slot, so it converts to a DROP ruling only in shallow leagues; in our 18-teamers it
+converts to a bench call.
+
+**Sal's three usage buckets, checked independently.** Early-down carry share · route
+participation / passing-down role · red-zone share. A back failing all three (Etienne: 30%
+carries, 30% routes, no red-zone work) is a bench player regardless of name or contract.
+A back failing one is noise.
+
+**Efficiency tiebreakers Sal actually uses.**
+- *Rushing yards over expected per attempt* separates a back failed by his situation from one
+  not earning more role (Etienne 6th-worst, Judkins 3rd-worst, Saquon top-six).
+- *Targets per route run, as a percentile against a minimum-route qualifier pool*, is his
+  cleanest "is he done" read for a receiver: MHJ at 6.9% ranked better than only three of 90
+  WRs with 30+ routes — that single number carried the whole argument.
+
+**Sell windows are matchup-timed.** Once the sell-high moment has passed, map the next 3-5
+opponents, find the game most likely to produce another 12-14 point line, and pre-commit to
+selling into it (Montgomery vs IND/DAL/TEN). Don't sell into the trough.
+
+**Condensed offenses are a floor multiplier.** When three pass-catchers run 95%+ of routes
+and nobody else is involved (DET: St. Brown 96%, Jameson Williams 95%, TeSlaa 78%), a bad
+two-game stretch is noise, not role loss — hold. Related: route-TYPE mix is a volatility
+read, not a volume read (Jamo's go-route rate 28% → 13% trades ceiling for a steadier
+intermediate profile).
+
+**The 30% target-share bright line.** A receiver who reaches a 30% target share is "almost
+guaranteed" to be a fantasy WR1 (used on JSN's 44%). Pairs with the TE streaming thresholds
+already in this file.
+
+**QB streaming criteria stack, with a protection check.** Pace-of-play rank + pass rate over
+expectation + home-favorite status + yards per attempt — and then an explicit pass-protection
+audit. FF still calls Shough a rest-of-season QB1 but flags Kelvin Banks Jr. to IR against
+Maxx Crosby as a real downgrade. We had no protection term in our QB math; add it as a
+qualitative check on any streamer.
+
+**Stream defenses by OPPONENT with a back-to-back window.** They keep a running list of
+offenses to attack (Miami, Tennessee, Atlanta, Washington, Cleveland) and buy the defense
+that draws two of them in a row — MIN (TB, then MIA), KC (MIA, then LV), GB. Also: "show me
+more than one week" before crowning a unit.
+
+**Discard anomalous environments before averaging.** The Week 1 Australia game (travel) and
+the Bears-Vikings mud game (cleats sinking ~3 inches) are thrown out, not averaged in. And
+the *perfect test* framing: pre-designate which upcoming matchup is diagnostic — an average
+defense that can score, not a give-me team — and only update on that one. That is how they
+resolved Jaylen Waddle instead of reacting to the Week 1 dud.
+
+**Give the coaching explanation a fair hearing.** Arizona's answer for MHJ (McBride and
+Bourne own the short middle; you don't waste a downfield threat on manufactured touches) was
+judged logical — so the indictment moved to effort on film rather than scheme. Dismissing a
+team's stated reason without testing it is the same error as repeating an expert's mechanism
+without testing it.
+
+### Mechanism audit log (this batch)
+
+1. **FF: "if Nacua needs hernia surgery, Terrance Ferguson is the #1 overall pickup."**
+   Stated channel: Nacua out → LAR targets redistribute → the TE eats. TESTED against Week-2
+   stats: Ferguson 9 targets, 6-54-TD on 36 of 62 snaps with Nacua inactive; Stafford 327/4.
+   **Mechanism confirmed** — this is measured redistribution, not the thin-backfield fallacy.
+   Adopted: Ferguson stops being a drop candidate in Gallamijos Lg (he was yesterday's named
+   drop).
+2. **Sal "Stevenson is losing the job" / FF "Henderson is taking over."** Measured: Henderson
+   16 carries on 33 of 55 snaps, Stevenson 6 carries on 20 of 55, and Stevenson owns the most
+   RB fumbles since 2021 (18, PFF). Both conclusion and mechanism survive → sell Stevenson in
+   DYNASTY TRC now, and Henderson is the Guillotine bid.
+3. **FF: "Emanuel Wilson is the one RB who could be a pick-up-and-start guy."** Usage check
+   says committee, not takeover: 21 carries but only 29 of 70 snaps (41%) and one target,
+   with Jadarian Price day-to-day rather than out. Conclusion **downgraded to speculative**.
+   (Also a data fix: the transcript places Wilson and Price in Green Bay; Sleeper's roster and
+   its own news wire both say Seattle. Merged as SEA.)
+4. **FF: Jonah Coleman "a few bucks — unless you're the Dobbins manager, then pay up."** The
+   premise moved the same day: Mike Klis (9NEWS) reported the Week-2 exit was **leg cramps**,
+   not a hamstring strain. The conclusion (own the contingency) survives on Dobbins' injury
+   history; the URGENCY does not. Re-ranked behind claims that fill guaranteed starting points.
+5. **Both sources fade Marvin Harrison Jr.** with a measured driver (6.9% TPRR, 87th of 90
+   qualifiers; 89% route share with a 7% target share). Adopted as a bench call in every
+   league — not a cut in 18-team formats, where Sal's 10-12-team drop advice doesn't translate.

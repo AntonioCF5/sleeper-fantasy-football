@@ -729,22 +729,57 @@
    "published": "2026-09-21",
    "source": "fantasy-footballers",
    "processed": "2026-09-21"
+  },
+  "1mLq3K9W5SI": {
+   "video_id": "1mLq3K9W5SI",
+   "title": "7 Players I'm Panicking About in Fantasy Football",
+   "published": "2026-09-22",
+   "source": "sal-vetri",
+   "processed": "2026-09-22"
+  },
+  "LfnCr6GAjAI": {
+   "video_id": "LfnCr6GAjAI",
+   "title": "Week 3 Waivers + Someone to Blame | Fantasy Football 2026 - Ep. 1977",
+   "published": "2026-09-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-22"
+  },
+  "IlFd-0JhTgA": {
+   "video_id": "IlFd-0JhTgA",
+   "title": "Tyler Shough is not rostered in enough fantasy leagues",
+   "published": "2026-09-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-22"
+  },
+  "mGXpWMwYwa8": {
+   "video_id": "mGXpWMwYwa8",
+   "title": "We got a BIG bounce back from Jaylen Waddle \ud83d\udd25",
+   "published": "2026-09-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-22"
+  },
+  "HBMkHnu4OJg": {
+   "video_id": "HBMkHnu4OJg",
+   "title": "May want to check your waiver wire for this guy...",
+   "published": "2026-09-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-22"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-21",
+   "last_success": "2026-09-22",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 2
+   "via": "rss",
+   "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-21",
+   "last_success": "2026-09-22",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 2
+   "via": "rss",
+   "rss_failures": 0
   }
  }
 }
