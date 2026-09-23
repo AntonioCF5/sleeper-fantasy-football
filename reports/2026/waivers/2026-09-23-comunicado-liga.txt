@@ -13,7 +13,7 @@ A partir de ahora la liga usa *prioridad por tabla*: cada semana el orden se res
 Se reprocesaron los claims de hoy con el orden nuevo. Siete jugadores cambiaron de dueño:
 
 • *Jonah Coleman* → El General (antes La Dona)
-• *Adonai Mitchell* → Fill Up Rivers (antes Cano)
+• *Adonai Mitchell* → Fill Up, Rivers (antes PepeSilvia)
 • *Emanuel Wilson* → Scary Terry (antes Pulpo Power)
 • *Oronde Gadsden* → Jro91 (antes Gallagher)
 • *Dax Hill* → Ryomen Sukuna (antes Pulpo Power)
@@ -32,6 +32,6 @@ Recibieron a su jugador pero no tiraron a nadie. *Un roster sobre el límite no 
 
 Varios traen casillas en cero, algunas por el ajuste de hoy. Una casilla vacía es cero puntos garantizados el domingo. Revisen su alineación:
 
-Gallagher (DL, DB) · Scary Terry (LB, DB) · Pythons (LB, DB) · Zenitsu (DB) · Cano (FLEX) · Pulpo Power (DB) · Los hijos de pooh (DL) · El General (DEF)
+Gallagher (DL, DB) · Scary Terry (LB, DB) · Pythons (LB, DB) · Zenitsu (DB) · PepeSilvia (FLEX) · Pulpo Power (DB) · Los hijos de pooh (DL) · El General (DEF)
 
 Cualquier duda me dicen. El siguiente proceso de waivers corre el martes con el orden nuevo.
