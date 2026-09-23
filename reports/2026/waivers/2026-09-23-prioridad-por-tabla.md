@@ -64,3 +64,35 @@ Nota de método: la simulación respeta la regla de waivers rodadas — el que g
 un claim se va al final de la fila dentro de la misma corrida, así que un equipo
 con prioridad alta no se lleva todo. El orden interno de cada equipo (a cuál
 jugador le tiene más ganas) se toma del `seq` real de sus claims.
+
+## ¿Y qué tiraría cada quien? — hasta dónde llega el dato
+
+**Límite duro del API (verificado hoy):** Sleeper **NO guarda el drop de un
+claim que perdió**. De los 53 claims fallidos, 53 vienen sin `drops`; la baja
+solo se escribe en la transacción que sí se ejecutó. Así que *quién gana* se
+puede calcular con certeza, pero *a quién habría tirado* NO es recuperable —
+solo estimable.
+
+⚠️ Primer intento fallido, anotado para no repetirlo: modelé la capacidad de
+roster tratando "sin drop registrado" como "sin drop intencionado". Como los
+18 equipos están 17/17, eso invalidó TODOS los claims perdedores y arrojó un
+falso "no cambia nada". El claim perdedor sí traía su drop al momento de
+enviarse; el API simplemente no lo conserva.
+
+### Estimación de bajas (por proyección bajo el scoring de la liga)
+
+| Jugador | Nuevo dueño | Baja más probable |
+|---|---|---|
+| Jonah Coleman | ElGeneral4 | Jameis Winston (QB, 12.9) |
+| Adonai Mitchell | FilledUpRivers | Drew Lock (QB, 0.0) |
+| Emanuel Wilson | charlyae17 | Andy Borregales (K) o Nick Bosa (DE), ambos 59.0 |
+| Oronde Gadsden | Jro91 | **sin baja limpia** — sus cuatro peores son handcuffs protegidos |
+| Dax Hill | davidcruz77 | Kalif Raymond (WR, 27.7) |
+| Quentin Lake | drw25 | George Holani (RB, 25.2) |
+| LV (DEF) | Tibu23 | Demond Claiborne (RB, 24.8) |
+
+El caso de **Jro91** es el interesante: está 17/17 y sus cuatro jugadores de
+menor proyección son handcuffs limpios (Dallas, Vaki, Sanders, Brooks), que
+por la regla de protección no se cortan. Para quedarse con Gadsden tendría
+que romper esa regla a propósito o tocar un titular — es decir, ganar el
+claim le costaría más de lo que parece.
