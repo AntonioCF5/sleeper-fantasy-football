@@ -1,0 +1,37 @@
+📋 *AJUSTE DE WAIVERS — LA GALLAMIJOS*
+
+Coaches: hubo un cambio en cómo funcionan los waivers y una corrección a los claims que se procesaron hoy. Aquí está todo.
+
+⚙️ *LO QUE CAMBIÓ*
+
+La liga estaba configurada en *waivers rodantes*: el orden se heredaba del draft y solo te ibas al final de la fila cuando ganabas un claim. Eso dejó a equipos 2-0 con prioridad alta y a equipos 0-2 hasta atrás.
+
+A partir de ahora la liga usa *prioridad por tabla*: cada semana el orden se resetea al inverso de la tabla. *El último de la liga elige primero.*
+
+🔄 *LOS 7 CLAIMS CORREGIDOS DE HOY*
+
+Se reprocesaron los claims de hoy con el orden nuevo. Siete jugadores cambiaron de dueño:
+
+• *Jonah Coleman* → El General (antes La Dona)
+• *Adonai Mitchell* → Fill Up Rivers (antes Cano)
+• *Emanuel Wilson* → Scary Terry (antes Pulpo Power)
+• *Oronde Gadsden* → Jro91 (antes Gallagher)
+• *Dax Hill* → Ryomen Sukuna (antes Pulpo Power)
+• *Quentin Lake* → Pulpo Power (antes Zenitsu)
+• *LV (defensa)* → Matasanos FC (antes El General)
+
+Los otros 12 jugadores que se repartieron hoy no se movieron: con cualquiera de los dos sistemas les tocaban a los mismos.
+
+⚠️ *OJO — 4 EQUIPOS QUEDARON CON 18 JUGADORES*
+
+Recibieron a su jugador pero no tiraron a nadie. *Un roster sobre el límite no procesa waivers*, así que hay que bajar a 17 antes del próximo martes:
+
+*El General · Matasanos FC · Jro91 · Scary Terry*
+
+⛔ *CASILLAS TITULARES VACÍAS*
+
+Varios traen casillas en cero, algunas por el ajuste de hoy. Una casilla vacía es cero puntos garantizados el domingo. Revisen su alineación:
+
+Gallagher (DL, DB) · Scary Terry (LB, DB) · Pythons (LB, DB) · Zenitsu (DB) · Cano (FLEX) · Pulpo Power (DB) · Los hijos de pooh (DL) · El General (DEF)
+
+Cualquier duda me dicen. El siguiente proceso de waivers corre el martes con el orden nuevo.
