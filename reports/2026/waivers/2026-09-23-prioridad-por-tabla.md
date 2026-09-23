@@ -65,34 +65,49 @@ un claim se va al final de la fila dentro de la misma corrida, así que un equip
 con prioridad alta no se lleva todo. El orden interno de cada equipo (a cuál
 jugador le tiene más ganas) se toma del `seq` real de sus claims.
 
-## ¿Y qué tiraría cada quien? — hasta dónde llega el dato
+## Escenario completo: baja = la que cada quien ejecutó DE VERDAD hoy
 
-**Límite duro del API (verificado hoy):** Sleeper **NO guarda el drop de un
-claim que perdió**. De los 53 claims fallidos, 53 vienen sin `drops`; la baja
-solo se escribe en la transacción que sí se ejecutó. Así que *quién gana* se
-puede calcular con certeza, pero *a quién habría tirado* NO es recuperable —
-solo estimable.
+**Dato duro del API:** Sleeper NO guarda la baja de un claim perdido (53 de 53
+fallidos vienen sin `drops`), así que la baja de un claim hipotético no existe.
+Solución del user: usar **la baja que cada equipo sí ejecutó hoy**. Y como los
+18 equipos están **17/17**, eso impone el tope honesto: *nadie puede ganar más
+jugadores que bajas hizo*. Ese cupo cambia el resultado — hay equipos que
+ganarían un claim pero no tendrían con qué pagarlo.
 
-⚠️ Primer intento fallido, anotado para no repetirlo: modelé la capacidad de
-roster tratando "sin drop registrado" como "sin drop intencionado". Como los
-18 equipos están 17/17, eso invalidó TODOS los claims perdedores y arrojó un
-falso "no cambia nada". El claim perdedor sí traía su drop al momento de
-enviarse; el API simplemente no lo conserva.
+| Equipo | Lugar | Cupo | Se queda con | Tirando a |
+|---|---|---|---|---|
+| hectordavid1989TRC | 18 | 1 | Keon Coleman | Chamarri Conner |
+| davidcruz77 | 17 | 2 | Devin Lloyd · **Dax Hill** | Patrick Queen · Donovan Ezeiruaku |
+| aledlg | 16 | 2 | Derrick Barnes | Danielle Hunter |
+| ElGeneral4 | 14 | 3 | **Jonah Coleman** · Jameis Winston · **IND** | LAC DEF · Demarcus Robinson · Kamari Lassiter |
+| FilledUpRivers | 13 | 1 | **Adonai Mitchell** | Darnell Mooney |
+| Jro91 | 11 | 1 | **Emanuel Wilson** | Jaxson Dart |
+| elmijo | 9 | 1 | **Oronde Gadsden** | Terrel Bernard |
+| rodrigodiaz | 8 | 1 | Dexter Lawrence | Montez Sweat |
+| drw25 | 7 | 2 | **Quentin Lake** | Jaylin Noel |
+| canogutierrez | 6 | 1 | **nada** | — |
+| alealvarez7 | 5 | 2 | **solo Zach Ertz** | DeMario Douglas |
+| Gallaghers4 | 3 | 2 | Cade Otton | Arvell Reese |
+| Tibu23 | 2 | 2 | **LV** · Kaleb Johnson | Ray Davis · Jared Verse |
 
-### Estimación de bajas (por proyección bajo el scoring de la liga)
+**charlyae17 desaparece del reparto**: ganaría Emanuel Wilson por prioridad
+(lugar 12), pero no ejecutó ninguna baja hoy y está 17/17 — sin cupo, el claim
+muere y Emanuel Wilson baja hasta Jro91.
 
-| Jugador | Nuevo dueño | Baja más probable |
-|---|---|---|
-| Jonah Coleman | ElGeneral4 | Jameis Winston (QB, 12.9) |
-| Adonai Mitchell | FilledUpRivers | Drew Lock (QB, 0.0) |
-| Emanuel Wilson | charlyae17 | Andy Borregales (K) o Nick Bosa (DE), ambos 59.0 |
-| Oronde Gadsden | Jro91 | **sin baja limpia** — sus cuatro peores son handcuffs protegidos |
-| Dax Hill | davidcruz77 | Kalif Raymond (WR, 27.7) |
-| Quentin Lake | drw25 | George Holani (RB, 25.2) |
-| LV (DEF) | Tibu23 | Demond Claiborne (RB, 24.8) |
+### Los 12 cambios
 
-El caso de **Jro91** es el interesante: está 17/17 y sus cuatro jugadores de
-menor proyección son handcuffs limpios (Dallas, Vaki, Sanders, Brooks), que
-por la regla de protección no se cortan. Para quedarse con Gadsden tendría
-que romper esa regla a propósito o tocar un titular — es decir, ganar el
-claim le costaría más de lo que parece.
+- **Jonah Coleman**: alealvarez7 (5º) → **ElGeneral4** (14º)
+- **Adonai Mitchell**: canogutierrez (6º) → **FilledUpRivers** (13º)
+- **Emanuel Wilson**: drw25 (7º) → **Jro91** (11º)
+- **Oronde Gadsden**: Gallaghers4 (3º) → **elmijo** (9º)
+- **Dax Hill**: drw25 (7º) → **davidcruz77** (17º)
+- **Quentin Lake**: aledlg (16º) → **drw25** (7º)
+- **LV (DEF)**: ElGeneral4 (14º) → **Tibu23** (2º)
+- Se quedan sin dueño (el que los ganó ya gastó su cupo): Brian Burns,
+  Lukas Van Ness, Roman Wilson, Ted Hurst
+- Aparece **IND (DEF)** para ElGeneral4, que en la realidad no alcanzó
+
+**Los dos punteros pagan la factura**: alealvarez7 (2-0) pierde a Jonah
+Coleman y se queda solo con Ertz; canogutierrez se va en blanco. El que más
+gana es Rul, último en victorias pero séptimo en puntos, que se llevaría
+tres piezas incluyendo al corredor más disputado de la semana.
