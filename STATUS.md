@@ -2,7 +2,7 @@
 
 *Living document — update at the end of any session that changes strategy,
 tooling, or league state. Last updated: **2026-09-23** (miércoles de la
-semana 3, waivers ya procesadas).*
+semana 3, waivers ya procesadas; boletín diario de la noche incluido).*
 
 **Lo grande de hoy: LA GALLAMIJOS CAMBIÓ SU SISTEMA DE WAIVERS.** El análisis
 mostró que con waivers rodantes (`waiver_type: 0`) el orden se heredaba del
@@ -190,19 +190,33 @@ tells the user to re-check news once before accepting.
 sobre waivers de la Gallamijos ya no aplican: esas waivers se procesaron y se
 corrigieron.)*
 
-- [ ] 🔴 **GALLAMIJOS LG — DOS CASILLAS TITULARES VACÍAS (LB, DB).** Anotan
-  CERO cada domingo. Estás 17/17, así que cada alta exige una baja. Mejores
-  libres: **LB** Zack Baun (PHI, 107.5) · Edgerrin Cooper (GB, 105, Q) ·
-  Jamien Sherwood (NYJ, 105). **DB** Chamarri Conner (KC, 102, Q) · Dillon
-  Thieneman (CHI, 100) · Malaki Starks (BAL, 95). Candidatos a la baja por
-  proyección: Roman Wilson (26.8, lo acabas de añadir), Kenyon Sadiq (100.2)
-  o Terrance Ferguson (100.3) si cargas TE de más — NO toques a Will
-  Reichard (único K) ni a Woody Marks (handcuff protegido).
-- [ ] 🔴 **MEXICA — DOS CASILLAS VACÍAS (DL, DB).** 19/19. Mejores libres:
-  **DL** Tuli Tuipulotu (71.0) · Boye Mafe (65.0) · Abdul Carter (64.5).
-  **DB** Chamarri Conner (102, Q) · Dillon Thieneman (100) · Tre'von Moehrig
-  (93). Candidatos a la baja: Nicholas Singleton (56.7), Dontayvion Wicks
-  (57.4), Caleb Douglas (77.8) — NO Chad Ryland (único K).
+- [ ] 🔴 **GALLAMIJOS LG — LAS DOS CASILLAS (LB, DB) SIGUEN VACÍAS.** Las
+  waivers del 23 no las taparon: el claim de Gadsden y los otros seis
+  perdieron, y el único que entró (Roman Wilson) fue el que vació LB al tirar
+  a Terrel Bernard. YA HAY AGENTES LIBRES, no hace falta claim: **Edgerrin
+  Cooper** (LB, GB, 105/6.3) por **Tyler Badie** (8.4) y **Dillon Thieneman**
+  (DB, CHI, 100/5.1) por **Roman Wilson** (26.8). ~+11.4 por semana. Cooper
+  juega el jueves, así que tiene que entrar antes del kickoff; si ya pasó,
+  **Ventrell Miller** (JAX, 6.3) vale lo mismo. Mayfield se queda — el orden
+  de bajas del 22 (Fields → Sadiq → Mayfield) queda anulado.
+- [ ] 🔴 **MEXICA — LA CASILLA DL SIGUE VACÍA** (el claim de Singleton pagó
+  con Nick Bosa). Agente libre: **Boye Mafe** (DL, CIN, 65/3.9) por **Tyler
+  Badie** (6.4). 19/19, sin casillas de IR.
+- [ ] 🔴 **DYNASTY TRC — 12.0 puntos en la banca.** DJ Moore y Nico Collins
+  pasaron de Out a Questionable. Moore por Tre Tucker, Kelce en TE con Kraft
+  al FLEX, Goff por Burrow, PHI por CAR. Collins espera a la designación del
+  viernes (no entrenó el miércoles).
+- [ ] 🟡 **GUILLOTINE — Emanuel Wilson $231 de $1000, baja Zach Ertz.** Es el
+  #1 de la liga entera en altas (1.98M) y solo está libre en esta liga.
+  Nota de proceso: anoche alealvarez7 tecleó $3 en TreVeyon Henderson contra
+  un plan de $451 y perdió los seis claims disputados.
+- [ ] 🟡 **Vigilancias de IR (no son bajas):** en **Gallamijos Dyn**, Caleb
+  Williams salió de IR porque su tag pasó de Out a Doubtful y aquí
+  `reserve_allow_doubtful=0` — vuelve a IR en cuanto diga Out; Rico Dowdle
+  (bota, no entrenó) sigue el mismo camino. En **LoR**, Iosivas (ligamento
+  del pulgar, cirugía, 4-6 semanas) ocupa lugar activo a 28/28 con
+  `allow_out=0`: NO cortarlo, la casilla se abre gratis cuando Sleeper le
+  ponga el tag IR.
 - [ ] 🟡 **GALLAMIJOS LG — 4 equipos rivales quedaron 18/17 tras la
   corrección** (El General, Matasanos FC, Jro91, Scary Terry). No es tu
   roster, pero eres el comisionado: no podrán procesar waivers el martes si
