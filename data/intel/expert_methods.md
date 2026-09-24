@@ -1266,3 +1266,67 @@ without testing it.
 5. **Both sources fade Marvin Harrison Jr.** with a measured driver (6.9% TPRR, 87th of 90
    qualifiers; 89% route share with a 7% target share). Adopted as a bench call in every
    league — not a cut in 18-team formats, where Sal's 10-12-team drop advice doesn't translate.
+
+## 2026-09-23 — Sal "5 about to explode / trade for them now" (twYEDOnsyfo) + FF Ep. 1978 unsolved mysteries + TNF (ZFIRSMdBCM8) + 1 short (8iHceUKtdpI Bryce Young)
+
+- **Route participation week-over-week is the injury-gate tell.** A jump from
+  ~48% to 84-94% of routes run means week 1 was a supervised test and the
+  player is now unrestricted — it beats the box score outright. Cross-check
+  with the snap jump (50%→98%) and with *contract behaviour*: a big extension
+  signed AFTER the injury is the team telling you the recovery is clean
+  (Kraft: 4yr/$75M, up to $92M, $27M signing-bonus guarantee). This is now
+  our first screen on any post-injury buy-low.
+- **Opportunity > ability, but date the catalyst.** A back at 71-80% of snaps
+  in a good offense stays startable at 2.96 YPC — before writing off the
+  *ability*, check the line's yards-before-contact rank and whether a Pro
+  Bowl lineman's IR return is a dated catalyst. "He gets what is blocked"
+  backs are buy-lows timed to the line's return, not to their own form
+  (Javonte Williams ← Tyler Smith, week 5 earliest).
+- **Team-identity change beats QB track record.** Pace (sec/play) + neutral
+  pass rate + a bad own defense is the reproducible "must throw all game"
+  storm that made the 2025 Bengals and Cowboys fantasy goldmines. When all
+  three line up, buy the QB even on an awful history, because the failure
+  mode (he plays badly) forces MORE volume. Carolina 2026 is the live case.
+- **Audit whether an unlock is personnel or play-caller.** The Mahomes
+  revival is credited to play-action credibility created by a real workhorse
+  RB plus goal-line design (tap passes, rollout multi-option) — not to any
+  receiver. Ask which one moved before extrapolating to the pass catchers.
+- **Uncredited production: charted DPI/holding draws.** Targets that end as
+  drawn penalties never hit the box score; recovering them restores real
+  target volume, and an end-zone PI draw is itself worth a value bump
+  (Golden's week 2 hid two).
+- **Fake-efficiency trap.** An 82% completion rate with no TDs and a RB
+  catching a third of the completions is a checkdown artifact. Always pair
+  completion rate with Y/A and target depth before judging a passing game.
+- **Calibration habit worth copying:** FF re-open last year's week-3
+  "unsolved mysteries" and grade their own panics before issuing this
+  year's — an explicit two-week-overreaction check.
+
+### Mechanism audit log (this batch)
+
+- **Kraft (both sources) — conclusion SURVIVES, but a material caveat both
+  MISSED.** The route-participation mechanism is clean and testable
+  (48%→94%, snaps 50%→98%). What neither source has: Sleeper's own wire
+  (Graziano/ESPN, 9/23) reports Green Bay's staff *discussed using Kraft at
+  an offensive-line position* — RT Zach Bako-Bewele is out for the season and
+  four OL left the Week-2 game. A TE taking OL snaps is a projection event,
+  not a usage nuance. Take remains buy/start; caveat recorded.
+- **DK Metcalf (Sal) — stated reason FAILS on the named channel, conclusion
+  survives on the measured driver.** Sal attributes Metcalf's alpha status to
+  "Michael Pittman hurt" — Pittman is an INDIANAPOLIS receiver and Metcalf is
+  in Pittsburgh, so the named channel does not exist. The conclusion stands
+  on what IS measured: 19 targets / 25% target share (top five), third in the
+  league in routes run at 88. Swap the driver, keep the call.
+- **Bryce Young (FF) — mechanism PASSES, and passes for the right reason.**
+  Pace (23 sec/play, #1) and neutral pass rate (#1) are *measured* team
+  facts, not the banned "thin backfield → they'll throw more" inference, and
+  the bad-defense leg makes the volume case game-script-robust rather than
+  game-script-dependent. Documented caution they raise themselves: the 2025
+  448-yard mirage followed by 169/206/163/191/54.
+- **Javonte Williams — genuine SINGLE-SOURCE SPLIT, not an R9 tripwire.**
+  Sal buys (76% snaps, 71% rush share), FF sell (2.96 YPC, 50% of runs ≤2
+  yards, 42nd of 43 RBs in first downs on 24 carries, line last in yards
+  before contact). Both mechanisms are measured and they are not
+  contradictory — they are different axes (volume vs efficiency). Our board
+  keeps him: 193 season vs Hubbard's 137, and the swap FF recommend costs
+  1.2 points this week in League of Record. No adjustment.
