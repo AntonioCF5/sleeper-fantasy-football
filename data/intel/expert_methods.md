@@ -1330,3 +1330,66 @@ without testing it.
   contradictory — they are different axes (volume vs efficiency). Our board
   keeps him: 193 season vs Hubbard's 137, and the swap FF recommend costs
   1.2 points this week in League of Record. No adjustment.
+
+## 2026-09-24 — Sal Week-3 Q&A live (KEHpv1HdxvM) + "5 I'm trading away" (EJWYVNIOb7M) + FF Ep. 1979 starts/games (nl9rFRM_pWY) + 2 shorts (wXKIk5skPok Ladd, 3PRC5kCDP6A Mahomes)
+
+- **Fantasy-relevant plays per game as an offense-floor screen** [Sal, via Ryan Heath]: count plays per game EXCLUDING kneel-downs, sacks, scrambles and throwaways — the snaps on which skill players cannot score — and treat a team under roughly 48 as un-startable regardless of individual usage. Miami at 46.5 is the worst full-season mark in the Fantasy Points database era, four to five fewer than the historically bad 2025 Raiders. This is a cleaner version of our pace field: volume that can actually convert to fantasy points, not raw snaps.
+- **Loaded-box rate is the measurable version of the WR-room-to-RB channel** [Sal]: the share of a back's carries facing a stacked front (Achane third-highest in the NFL at 36%) is the auditable statistic behind the previously unmeasured 'no pass-catchers, so defenses crowd the run' claim. Where the earlier 'A.J. Brown out, so loaded boxes' assertion failed our mechanism audit for lacking a number, this version passes — so demand the stacked-front rate before accepting or rejecting the argument.
+- **Historic-outlier rate test for hot starts** [Sal]: compare a hot player's rate stat to BOTH his own multi-year baseline and the all-time leaderboard. Bryce Young at 9.8 yards per attempt against his own 6.3 over two seasons would rival the best mark in NFL history — that alone flags regression without needing an opponent-adjusted model. Pair it with a schedule audit (his volume came from trailing by a lot and facing a no-pass-rush defense).
+- **Strip the fluke play and re-score before paying for a rookie's breakout** [Sal]: Denzel Boston's two weeks are a 46-yard and a 55-yard touchdown; re-scored without three missed tackles, the second game is five catches for about 40 yards and no score. A player whose line collapses to under 10 points once the single explosive play is removed is a boom-bust sell-high, not a role change — check the target share (22% with two teammates at 20% and 17%) to confirm nobody actually owns the funnel.
+- **Multi-year, multi-metric corroboration licenses an early-season matchup play** [FF]: their own 'no defensive matchups until Week 5' rule is suspended when three independent metrics agree AND the prior seasons agree — Carolina is dead last in yards per carry, rushing touchdowns allowed and EPA per rush this year and was bad in each of the two previous years, so Judkins gets started in Week 3. One rank from a two-game sample stays untradeable; a stack of ranks with history behind it is actionable.
+- **Player-level coverage matchups survive the team-defense sample gate** [both]: individual assignment facts are not two-game team noise. Sal's tool projects Golden onto Mike Hughes (89th of 128 at 1.4 yards allowed per coverage snap, with A.J. Terrell out) and FF cite Buffalo specifically leaking to slot receivers. Who covers whom, and that corner's per-coverage-snap rank, can be used weeks before team defensive ranks stabilize.
+- **Athletic profile is position-weighted, and it is nearly mandatory at TE** [FF]: 'athletic profiles don't matter that much at most positions, but at tight end that is almost always required to be good at fantasy.' Combine an off-the-charts testing profile with first-round draft capital and the starter's absence and you get a real one-week breakout path (Sadiq) — plus the job-inheritance rule: a first-round rookie who produces in the starter's absence simply keeps the job.
+- **Price a backup QB's receivers off that backup's own prior starts, not the starter's baseline** [Sal]: Mariota's five starts with Terry McLaurin produced 3.53 yards per route run, 14.3 points per game and a WR14 pace — so McLaurin is a rest-of-season buy even as this week's bench. Pull the specific QB-WR split from the backup's history and adjust for personnel changes since, rather than applying a blanket downgrade to the whole passing game.
+- **Two-branch injury projections instead of a blended number** [Sal]: he projects a doubtful player at literally 0.0 points and states separately where the player would rank if active (Zay Flowers 0.0 / about WR25). The two-branch form makes the replacement decision mechanical and avoids a probability-weighted projection that is startable in neither world. Adopt for any questionable player in a must-decide-now slot.
+- **Share times volume — 'the biggest slice of a turd pie'** [FF]: a 24% target share is not startable when the team refuses to throw and has never sent the player a target 20-plus yards downfield (Carnell Tate). Multiply the share by team pass volume and the game total before acting on a share number; a rising share on a shrinking pie is a hold, not a start.
+- **Neutral-site and international surfaces are an explicit soft-tissue gate** [FF]: a hamstring player traveling to a game on a suspect field (the Brazil surface where nobody could get grip in the Packers-Eagles game) should be projected out even when he travels — the team has every incentive to protect him. Travel alone is not news; travel plus a bad surface plus a soft-tissue injury is.
+- **Use combined-game pace, not team pace** [FF, citing Jared Smola]: the Lions are top-five in pace and the Jets are slow enough that their shared game grades bottom-five in plays. Before buying a fast team's game environment, check the opponent's pace — the environment is a property of the matchup, not of the team you own.
+
+### Mechanism audit log (this batch)
+
+- **Shakir "risky at best" (FF) — the conclusion's SECOND leg went false the
+  same day.** FF cap Shakir on two grounds: Dalton Kincaid is the de facto #1
+  (measured — healthy, far more routes, always strong per-route), and "DJ
+  Moore may return." Moore did not practice Thursday and neither did Keon
+  Coleman, leaving Shakir, Joshua Palmer and Skyler Bell as Buffalo's only
+  healthy receivers. Keep the Kincaid leg, drop the Moore leg: Shakir's FLOOR
+  is better than FF's read, his ceiling still capped. He starts in both
+  leagues that own him.
+- **Kraft-on-the-offensive-line (carried over from 9/23) — RESOLVED, and the
+  resolution is Sal's.** Yesterday we recorded the Graziano report as an
+  unaudited projection risk neither source had addressed. Sal addressed it
+  directly and dismissed it: Green Bay signed a blocking tight end for exactly
+  that problem. Combined with 84% route share (up from ~40%) and 98% of
+  snaps, the buy/start stands with the caveat retired.
+- **Aaron Jones sell-high (Sal) — mechanism SPLITS; we are more bearish than
+  he is.** The injury leg softened the same day (returned to practice limited
+  Thursday, tracking to play, and Kyler Murray's return upgrades the whole
+  offense). The structural leg is checkable and intact: turning 32, zero
+  receiving role, DeeJay Dallas signed midweek, Jordan Mason back from IR in
+  ~3 weeks. Scored against our boards he is RB39-41 and overall #143-146 —
+  roughly 50 spots BELOW Sal's 93rd. Agreement on direction, so no tripwire;
+  he starts this week in both leagues because nothing better exists, and he
+  stays a give-piece in the Jro91 package.
+- **Bryce Young — genuine HEAD-ON source conflict, and Sal has the better
+  instrument.** FF moved Young UP to QB14 live on air (back-to-back 3-TD
+  games, Cleveland 22nd vs QBs, Garrett gone). Sal calls the whole Carolina
+  offense a schedule artifact and flags 9.8 Y/A against Young's own 6.3
+  two-season baseline as a mark that would rival the best ever. A rate stat
+  checked against the player's own history AND the all-time leaderboard beats
+  a two-game matchup read. Practical effect is nil this week — our board
+  starts Goff (21.2) over Young (17.7) in the only league that owns him — but
+  it keeps Young classified as a sell, not a hold.
+- **Jalen Coker sell-high (Sal) — mechanism PASSES, magnitude does not.** The
+  reason is sound and measured (29% target share off two games against soft
+  pass defenses, UDFA whose price rides Bryce Young's start). But our board
+  has Coker 136 season and Golden 141 — a 5-point gap, not the chasm the take
+  implies. The trade is worth sending because it is nearly free, not because
+  it is a steal. Recorded so the next edition does not inflate it.
+- **"Biggest slice of a turd pie" (FF, Carnell Tate) — the share-times-volume
+  correction we needed.** This is the clean inverse of the thin-backfield
+  fallacy: a rising share on a shrinking pie is not a start. Tate has a 24%
+  target share, zero targets 20+ yards downfield all season, the week's
+  lowest total (38.5) and rain. Benched in MEXICA on our board already —
+  agreement — and it does NOT make him a drop there (21 years old, 145
+  season, keeper league).

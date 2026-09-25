@@ -1,72 +1,69 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
    "league_id": "1395839320077656064",
-   "player": "Edgerrin Cooper",
-   "verdict": "claim",
+   "player": "Terrel Bernard",
+   "verdict": "add (free agent, no claim)",
    "bid": null,
-   "priority": 1,
-   "drop": "Tyler Badie (26, RB, DEN RB4 — 8.4 season / 2.0 wk3, added as free agent today and already the worst asset on the roster)",
-   "date": "2026-09-23",
-   "why": "FREE AGENT, no claim needed — the wire cleared last night and two FA adds already went through today, so this is executable tonight. The LB starting slot has been EMPTY since Terrel Bernard was dropped for Roman Wilson in last night's waivers, and an empty IDP slot scores exactly 0.0 in an 18-team league. Cooper (GB LB1, 105 season / 6.3 wk3) is the best LB on the wire and carries no injury designation tonight (he was Questionable yesterday). ONE TIMING CONSTRAINT: Green Bay plays Thursday night, so he must be in before kickoff to count for Week 3 — if that window is gone, Ventrell Miller (JAX, 104/6.3, plays Sunday) is the identical-value fallback and Jamien Sherwood (NYJ, 105/5.6) is third. Paired with the Thieneman claim this is ~+11.4 points a week recovered from two dead slots — the largest single swing anywhere in the portfolio."
+   "drop": "Tyler Badie (26, RB, DEN RB4 — 8 season / 2.0 wk3, dc4; the only genuinely dead asset on a 17/17 redraft roster)",
+   "why": "THE LB SLOT HAS SCORED 0.0 FOR TWO STRAIGHT WEEKS and this is the third edition ordering the fix. Edgerrin Cooper, yesterday's pick, was added as a FREE AGENT by My Son Dave at 15:05 today — the window closed while the slot sat empty, exactly as it did with Malaki Starks two days earlier. The best LB left on the wire is Jack Campbell (DET, dc1, 7.7 wk / 132 season) but Nenes consentidos dropped him at 08:56 TODAY, one waiver-clear day in this league (waiver_clear_days=1, and a run processed at 09:20 this morning), so he is probably claim-locked until Friday morning and the user sits 10th of 18 on the new table-priority order. Terrel Bernard (BUF, dc1, 6.8 wk / 96 season) was dropped 09-23 by the user himself, has already cleared, and is addable instantly for 0.9 fewer points per week. Phase rule (weeks 1-14 = floor/expected points) plus two blown windows says take the certain one. If the app shows Campbell with an Add button rather than a Claim button, take Campbell instead — same drop. Baker Mayfield (QB2 behind Shough in an 18-teamer), PIT DEF (the deliberate two-week-ahead stream) and Woody Marks stay: Marks is a CLEAN HANDCUFF — HOU depth-2 behind David Montgomery's 206 season with no depth-3 back above 27 — and is protected regardless of his own 84.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1395839320077656064",
    "player": "Dillon Thieneman",
-   "verdict": "claim",
+   "verdict": "add (free agent, no claim)",
    "bid": null,
-   "priority": 2,
-   "drop": "Roman Wilson (25, WR, PIT WR3 — 26.8 season / 5.5 wk3; won on waivers last night at the cost of the LB slot, and this is a redraft league so no dynasty protection applies)",
-   "date": "2026-09-23",
-   "why": "FREE AGENT, executable tonight. The DB slot has now started 0.0 for two straight weeks and the Starks claim from yesterday's edition was never filed. Thieneman (CHI S, 100 season / 5.1 wk3) is the FLOOR pick over Chamarri Conner (KC, 102/6.7) deliberately: Conner projects 1.6 more but carries a Questionable tag, and Weeks 1-14 are the floor/seeding phase — a designation risk on a slot that is currently worth zero is a bad trade for 1.6 points. Malaki Starks (BAL, 95/5.9, Q) and Xavier Watts (ATL, 94/5.2) are the fallbacks. HANDCUFF/PROTECTION CHECK on the drop pool: Woody Marks is HOU depth-2 at 57% of carries and stays; J.K. Dobbins is the DEN starter; Baker Mayfield is the only QB behind Shough and SURVIVES tonight — yesterday's Fields → Sadiq → Mayfield drop order is void, because Badie and Roman Wilson are both cheaper than anything it named."
+   "drop": "Roman Wilson (25, WR, PIT WR3 — 27 season / 5.6 wk3; won on waivers Tuesday at the cost of the LB slot, and this is a redraft league (settings.type=0) so no dynasty-youth protection applies)",
+   "why": "The DB slot has also scored 0.0 for two straight weeks. Thieneman (CHI, dc1, 22, 6.0 wk / 100 season) is now the best DB on the wire outright — Budda Baker went to My Son Dave and Chamarri Conner to Gallagher today, both as instant free-agent adds. Read live: 17/17 active, IR 0/2 but reserve_allow_out=0 AND reserve_allow_doubtful=0, so no injured player on this roster is IR-eligible and every add must name a drop. Together with Bernard this is +12.8 per week over two zeros — the largest single swing in the portfolio.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1395839320077656064",
-   "player": "lineup note — Malachi Fields out of WR",
+   "player": "lineup, not a claim — Egbuka to WR2, Marvin Harrison to FLEX",
    "verdict": "optional",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "Not a claim. Moving Woody Marks (6.9) into FLEX and sliding Egbuka to WR, benching Malachi Fields (6.4), is worth +0.5 — free, but inside the noise. Fields stays rostered either way now that the two IDP drops come from Badie and Roman Wilson."
+   "why": "Free +2.0: Malachi Fields (5.5) out of the WR2 slot, Egbuka (9.7) up from FLEX, Marvin Harrison Jr. (7.5) into FLEX. Sal has Egbuka as a buy-low worth sending A.J. Brown for, against a Sleeper wire story today headlined 'Egbuka's Fantasy Struggles Have Continued' — we side with the usage. Fields stays rostered (NYG dc2, 105 season); the two drops come from Badie and Roman Wilson.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1385473470141313024",
-   "player": "Boye Mafe",
-   "verdict": "claim",
+   "player": "Byron Young (LAR)",
+   "verdict": "add (free agent, no claim)",
    "bid": null,
-   "priority": 1,
-   "drop": "Tyler Badie (26, RB, DEN RB4 — 6.4 season / 1.6 wk3, added today; same churn as in Gallamijos Lg)",
-   "date": "2026-09-23",
-   "why": "FREE AGENT, executable tonight. The DL slot has been EMPTY since last night's Nicholas Singleton claim cashed in Nick Bosa, and 19/19 means every add names a drop. Mafe (CIN DL1, 65 season / 3.9 wk3) is the best clean DL on the wire — Tuli Tuipulotu (71/3.8) projects marginally higher on the season but is Questionable, and Byron Young of the Rams is tagged LB by Sleeper so he cannot fill this slot at all. Jeffery Simmons (70/3.8) and Abdul Carter (64.5/3.5) are the fallbacks. Worth +3.9 a week against a guaranteed zero. NOT droppable here: Blake Corum (126.8 — and the Aaron Jones contingency below), Carnell Tate (144.8, age 21), Daniel Jones (236.5, the only QB behind Shough), Chad Ryland/Jake Bates (K)."
+   "drop": "Tyler Badie (26, RB, DEN RB4 — 6 season / 1.6 wk3; same dead asset as in Gallamijos Lg)",
+   "why": "THE DL SLOT HAS BEEN EMPTY since Tuesday's Nicholas Singleton claim cashed in Nick Bosa. Read live: 19/19 active and reserve_slots=0 — there is NO IR path in this league at all, so every add names a drop. Byron Young (LAR, dc1, 28, 4.2 wk / 79 season) over Jaishawn Barham (DAL, 4.5 wk / 53 season) and Boye Mafe (CIN, 3.9 / 65): the phase rule optimizes expected points through week 14 and Young's season floor is ~50% higher for 0.3 fewer points this week. He is also DL/LB dual-eligible (fantasy_positions ['DL','LB']), which matters here — see the Devin Lloyd trigger below.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1385473470141313024",
-   "player": "Aaron Jones contingency",
-   "verdict": "skip",
+   "player": "Demetrius Knight — CONDITIONAL on Friday's designation",
+   "verdict": "trigger",
    "bid": null,
-   "drop": null,
-   "date": "2026-09-23",
-   "why": "No claim — the replacement is already rostered. Jones (knee) was officially a non-participant Wednesday and the wire itself says it 'could threaten his availability for Week 3'. He is the starting RB2 here (11.7) and in Gallamijos Dyn (12.9). If he sits: MEXICA goes to Blake Corum (7.6) — NOT Jonah Coleman, who also DNP Wednesday with an ankle and is DEN depth-3; Gallamijos Dyn goes to Woody Marks (6.9). Decide Friday on the designation, not tonight."
+   "drop": "Jonah Coleman (23, RB, DEN dc3 — 58 season, ankle, DNP Wednesday AND Thursday) — and only if the trigger fires",
+   "why": "DO NOT ACT YET. Devin Lloyd (CAR) is the starting LB (7.5 wk) and has now missed Wednesday and Thursday practice with a calf. If Friday's report tags him OUT, this roster has a SECOND zero-scoring starting slot and the answer is Demetrius Knight (CIN, dc1, 26, 6.8 wk / 96 season), the best free LB. Jonah Coleman is the pay: both experts faded the entire Denver backfield today (he did not practice while J.K. Dobbins and R.J. Harvey both went full), he is depth-3 behind two healthy backs, and his path is remote. Darren Waller is explicitly NOT the drop despite being 34 — Brock Bowers has a meniscus and was limited both days, so Waller (6.3) is the TE insurance, and FF today said roster him all season. Carnell Tate is not the drop either (21 years old, 145 season, keeper league) even though FF called his 24% target share 'the biggest slice of a turd pie' and benched him.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1389689013551517698",
-   "player": "Emanuel Wilson",
-   "verdict": "claim",
-   "bid": 231,
-   "drop": "Zach Ertz (35, TE, PHI — 36.7 season / 3.0 wk3; won for $0 last night and is the FOURTH tight end on a roster with ONE TE slot, behind Likely, Helm and Ferguson)",
-   "date": "2026-09-23",
-   "why": "The move of the night in this league and the only league in the portfolio where he is still free. Wilson is the #1 trending add in all of fantasy (1.98M) and the mechanism verifies on Sleeper's own wire, independent of any expert: Jadarian Price (SEA RB1) left Sunday with a chest injury and is Questionable, George Holani's snap share FELL from 46% to 26% week 1 to 2, and Wilson took 21 carries for 92 yards in relief. If Price sits he is the Seattle lead back; if Price plays he is the clear 1B. Guillotine rules invert the stash rule — every spot must produce now — and a contingent lead back on a team whose starter is Questionable produces now. BID: $231 of an UNTOUCHED $1000. Sober tier for a strong role bet is 15-25% ($150-250); Weeks 1-6 aggression adds 5-10% to WIN rather than to have a chance; odd number per standing rule. Nobody in this league bid on him last night, so $231 is very likely more than enough — that is the point. SKIP: Ted Hurst (TB WR4, 5.7, the 17%-target-share rookie from the FF transcript) — speculative, and guillotine spots cannot hold speculation."
+   "player": "Zach Ertz — RULING REVERSED, HOLD HIM",
+   "verdict": "protected-hold",
+   "bid": null,
+   "drop": null,
+   "why": "YESTERDAY'S EDITION ORDERED ERTZ DROPPED TO FUND A $231 CLAIM. That was wrong and this reverses it. Resolving WHY he is the #10 trending add in fantasy (153k) — the mandatory check before dismissing any trending player — turns up a signing, not noise: Ertz joined the EAGLES on 09-22 and Sleeper now lists him as Philadelphia's depth-chart-1 tight end with Dallas Goedert Doubtful at dc4. His 3.0 wk / 37 season projection predates all of that and is stale. He is not a fourth tight end on a dead roster any more; he is a one-injury-away starter in a good offense. Isaiah Likely (8.7) still starts this week — Ertz was a practice-squad signing and the wire says he will be 'eased back in' — but he is a hold, not a cut.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1389689013551517698",
-   "player": "bid-discipline note (co-owned — alealvarez7 keys the numbers)",
+   "player": "No claims",
    "verdict": "skip",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "Not a claim, a process finding from reading last night's transactions. Every CONTESTED claim in this league lost: TreVeyon Henderson went in at $3 against a planned $451, Zay Flowers at $237 against $201 (lost anyway), Puka Nacua twice at $157/$156, plus Kraft x4, Etienne x2, Jonah Coleman x3, Stafford and KC Concepcion. The two that landed were $0 uncontested (Ferguson, Ertz). Net effect: $1000 is still intact, which is why the Wilson bid can be large — but the Henderson miss at $3 is exactly the failure the FAAB ladder exists to prevent."
+   "why": "Read live: 14/14, $1000 of $1000 still unspent, waiver_type=2, no IR and no taxi. Nothing on this wire cracks the starting eight: the best free RB is Raheim Sanders (CLE dc2) whose actual Week-2 usage was TWO carries and a kick-return line, below Woody Marks at RB2 (6.7); the best free TE is Gunnar Helm, who would be a fourth tight end. Emanuel Wilson — yesterday's $231 recommendation — went to Netogl for $10, and the user filed no bid on him at all. THE PROCESS FINDING THAT MATTERS: every winning claim in this league last night cleared at $0, $0, $0, $10 and $16. The loss here was inaction, not overbidding, but the revealed clearing price means future claims should be sized off the observed market (roughly $25-35 to win a real target), not off the raw FAAB ladder. The dead weight is real (Badie 2.0, and Geno Smith is a third quarterback in a one-QB league) — but dropping dead weight for other dead weight is not a move.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1388097370255794176",
@@ -74,17 +71,17 @@
    "verdict": "skip",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "22/23 with one open active spot, IR 2/4 (Iosivas, Stribling), taxi 6/6, $100 FAAB untouched, waiver priority 1. The wire tops out at Isaiah Davis (60 season) and Olamide Zaccheaus (76) — nothing that belongs on a rebuild. TWO COMPLIANCE WATCHES instead: (1) Caleb Williams came OFF IR because his tag went Out → Doubtful and reserve_allow_doubtful=0 here; he will not practice this week, so the moment the tag reads Out (expect Friday) put him back on IR and reclaim the spot. (2) Rico Dowdle is in a walking boot and did not practice — if he draws an Out tag Friday he becomes IR-eligible too. Do NOT start Dowdle despite his 12.3 projection; Adonai Mitchell keeps the FLEX."
+   "why": "Read live: 22/23 active with one spot OPEN, IR 2/4 (Iosivas, Stribling), taxi 6/6, $100 FAAB untouched. Caleb Williams is Doubtful with a hamstring, did not practice Thursday and is not expected to play Monday night; reserve_allow_doubtful=0 here so he still costs an active spot — re-IR him the moment the tag reads Out (reserve_allow_out=1). Rico Dowdle is the same watch: DNP Wednesday and Thursday, out of uniform, toe. The wire tops out at AJ Dillon, and he is not a rebuild asset at 28 even though Jonathon Brooks' IR just made him Chuba Hubbard's only backup.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1314652488325922816",
-   "player": "Andrei Iosivas → IR (compliance watch, not a cut)",
+   "player": "Andrei Iosivas → still NOT IR-eligible (compliance watch, not a cut)",
    "verdict": "protected-hold",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "Zac Taylor confirmed Wednesday that Iosivas tore a thumb ligament, needs surgery and is going on Cincinnati's IR — 4 to 6 weeks (Fowler). He sits on the ACTIVE roster here at 28/28 while Gallamijos Dyn already has him on IR. reserve_allow_out=0 in this league, so an Out tag does NOT qualify: the IR slot only opens once Sleeper's own field flips from Out to IR, which the NFL transaction should force within a day or two. IR is 3/8, so there is room. This is a dynasty league — do NOT cut him to make the room; the free slot is coming for nothing. Eventual cut order if a spot is ever needed anyway: Laquon Treadwell (31, 0.0 season, claimed yesterday), Dohnte Meyers, Dylan Laube — NOT Camden Brown (22)."
+   "why": "Unchanged from yesterday and re-read live tonight: Iosivas is tagged Out (thumb ligament, surgery, 4-6 weeks) and this league has reserve_allow_out=0, so an Out tag does NOT open an IR slot here despite IR sitting at 3/8. He occupies an active spot at 28/28. DO NOT CUT HIM — the slot opens for free the moment Sleeper's tag flips from Out to IR.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1314652488325922816",
@@ -92,8 +89,8 @@
    "verdict": "skip",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "28/28, taxi 8/8, $100 FAAB untouched, and the wire is genuinely empty — best free RB is Rasheen Ali (33 season), best free WR Darius Slayton (63). The value here tonight is a lineup change, not an add: Jacory Croskey-Merritt (9.7) in for Alvin Kamara (6.8) with Javonte Williams sliding to RB, worth +2.9."
+   "why": "Read live: 28/28, IR 3/8 (blocked, see above), taxi 8/8, $100 FAAB untouched. The wire is genuinely empty — the best free WR is Jacob Cowing at 2.2 this week and the best free RB is Ameer Abdullah at 2.4. The value here tonight is a lineup change and a trade, not an add: Jacory Croskey-Merritt (9.7) in for Alvin Kamara (6.9) is +2.9, and Jalen Coker is the new trade piece (see trade_offers.json).",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1338269686810300416",
@@ -101,8 +98,8 @@
    "verdict": "skip",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "26/26, IR 1/4, taxi 4/4, $88 left. Best free RB is Justice Hill (56 season), best free WR Chimere Dike (70) — nothing worth a drop from a roster whose weakest actives are Kevin Coleman (26.4) and Xavier Hutchinson (29.7). Colston Loveland stays benched: FF are a hard fade on him with Chicago down to Bagent (concussion protocol) or Case Keenum."
+   "why": "Read live: 26/26, IR 1/4, taxi 4/4, $82 of $100 left. Best free RB is Justice Hill (56 season), best free WR is Xavier Hutchinson (30) — nothing worth a drop from a 1-1 win-now roster. Note for the trade layer instead: both sources called Denzel Boston a hard sell-high today and Sal's mechanism is the good kind — strip his two long touchdowns and Week 2 re-scores to five catches for ~40 yards.",
+   "date": "2026-09-24"
   },
   {
    "league_id": "1315407698006646784",
@@ -110,45 +107,18 @@
    "verdict": "skip",
    "bid": null,
    "drop": null,
-   "date": "2026-09-23",
-   "why": "25/25 with IR 4/4 FULL and taxi 5/5 — nothing is addable without a cut, and the wire's best piece is Ryan Flournoy (121 season). All the value here is in the lineup: 12.0 points are sitting on this bench (see the start/sit section). One structural note for later: Jordan Mason carries an NFL IR tag but occupies an ACTIVE roster spot because the four IR slots are taken by Benson, Sampson, Stowers and Conner — when one of those clears, Mason is the first to move."
+   "why": "Read live: 25/25 active, IR 4/4 FULL (Benson, Sampson, Stowers, Conner), taxi 5/5. Jordan Mason carries an IR tag but sits on the ACTIVE roster because reserve is full — there is no legal room for any add without a cut, and the wire's best piece is Ryan Flournoy (7.7 wk), below both current starting receivers. ALL of the value here is in the lineup: +7.8 is sitting on this bench and it does not depend on either injured receiver (see the newsletter's start/sit section).",
+   "date": "2026-09-24"
   }
  ],
  "roster_compliance": {
-  "1395839320077656064": {
-   "status": "FULL 17/17, legal. Waiver priority 11/18 under the NEW table-priority system (was 14 under rolling). No FAAB. IR 0/2 but reserve_allow_out=0 and nobody carries a Sleeper IR tag — functionally no IR path. TWO STARTING SLOTS EMPTY: LB and DB, both scoring 0.0.",
-   "cut_now_active": [],
-   "why": "Read live 2026-09-23. Two free-agent adds tonight, each naming its own drop (Badie, Roman Wilson). Protected from drops: Woody Marks (HOU depth-2, 57% of carries), Will Reichard (only K), Baker Mayfield (only QB behind Shough)."
-  },
-  "1388097370255794176": {
-   "status": "ACTIVE 22/23 — one open spot. IR 2/4 (Iosivas, Stribling), taxi 6/6. $100 FAAB and waiver priority 1, both untouched. Legal.",
-   "cut_now_active": [],
-   "why": "Caleb Williams is back on the active roster at Doubtful (reserve_allow_doubtful=0); re-IR him when the tag reads Out. Dowdle in a boot, same path."
-  },
-  "1385473470141313024": {
-   "status": "FULL 19/19, legal. Waiver priority 17/18. No IR slots at all (reserve_slots=0). DL STARTING SLOT EMPTY since the Singleton claim dropped Nick Bosa.",
-   "cut_now_active": [],
-   "why": "One free-agent add tonight (Mafe) naming Badie as the drop. Aaron Jones (knee, DNP) is a Friday lineup decision, not a roster move."
-  },
-  "1338269686810300416": {
-   "status": "FULL 26/26, IR 1/4, taxi 4/4, $88 of $100 left. Legal, lineup optimal.",
-   "cut_now_active": [],
-   "why": "Read live 2026-09-23. No claims."
-  },
-  "1314652488325922816": {
-   "status": "FULL 28/28, IR 3/8 but reserve_allow_out=0 (only a true Sleeper IR tag qualifies), taxi 8/8, $100 FAAB. Legal.",
-   "cut_now_active": [],
-   "why": "Iosivas is headed to Cincinnati's IR — the roster spot opens for free once Sleeper flips his tag. Do not cut in a dynasty league to buy a spot that is arriving anyway."
-  },
-  "1389689013551517698": {
-   "status": "FULL 14/14, $1000 FAAB entirely intact (every contested claim last night lost; the two winners were $0). No IR, no taxi, no K/DEF slots. Legal.",
-   "cut_now_active": [],
-   "why": "FOUR tight ends on a one-TE roster — Ertz is the named drop for the Wilson bid."
-  },
-  "1315407698006646784": {
-   "status": "FULL 25/25 with IR 4/4 FULL (Benson, Sampson, Stowers, Conner) and taxi 5/5. Legal but completely jammed — no add is possible without a cut.",
-   "cut_now_active": [],
-   "why": "Jordan Mason holds an active spot with an NFL IR tag because no IR slot is free; he moves first when one clears. DJ Moore and Nico Collins both upgraded Out → Questionable, which is why the bench is worth 12 points this week."
-  }
+  "read_live": "2026-09-24",
+  "Gallamijos League": "17/17 active, IR 0/2 but allow_out=0 and allow_doubtful=0 (no player on this roster is IR-eligible), waiver_type=1 table priority, user 10th of 18, $0 of $100 used. Every add names a drop.",
+  "Gallamijos Dynasty": "22/23 active (ONE SPOT OPEN), IR 2/4, taxi 6/6, $100 left. allow_out=1 — Caleb Williams and Rico Dowdle become IR-eligible the moment either tag reads Out.",
+  "FANTASY MEXICA": "19/19 active, reserve_slots=0 (NO IR AT ALL), taxi 0, waiver_type=1, user 17th of 18, $0 used. Every add names a drop.",
+  "Dynasty Mexica": "26/26 active, IR 1/4, taxi 4/4, $82 of $100 left.",
+  "League of Record": "28/28 active, IR 3/8 but allow_out=0 so Iosivas cannot be stashed, taxi 8/8, $100 left.",
+  "Guillotine TRC": "14/14 active, no IR, no taxi, $1000 of $1000 unspent. Observed winning bids last night: $0/$0/$0/$10/$16.",
+  "DYNASTY TRC": "25/25 active, IR 4/4 FULL, taxi 5/5. Jordan Mason holds an IR tag on an active spot because reserve has no room. Nothing is addable without a cut."
  }
 }

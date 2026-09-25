@@ -785,22 +785,53 @@
    "published": "2026-09-23",
    "source": "fantasy-footballers",
    "processed": "2026-09-23"
+  },
+  "KEHpv1HdxvM": {
+   "processed": "2026-09-24"
+  },
+  "EJWYVNIOb7M": {
+   "video_id": "EJWYVNIOb7M",
+   "title": "5 Players I\u2019m Trading Away in Fantasy Football Right Now",
+   "published": "2026-09-24",
+   "source": "sal-vetri",
+   "processed": "2026-09-24"
+  },
+  "wXKIk5skPok": {
+   "video_id": "wXKIk5skPok",
+   "title": "Don't give up on Ladd \ud83e\udee1",
+   "published": "2026-09-24",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-24"
+  },
+  "nl9rFRM_pWY": {
+   "video_id": "nl9rFRM_pWY",
+   "title": "Starts of the Week + Week 3 Games, Tucker 2x4! | Fantasy Football 2026 - Ep. 1979",
+   "published": "2026-09-24",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-24"
+  },
+  "3PRC5kCDP6A": {
+   "video_id": "3PRC5kCDP6A",
+   "title": "There are two reasons why Mahomes is back to being a fantasy superstar: Ken Bone Walker and...",
+   "published": "2026-09-24",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-24"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-23",
+   "last_success": "2026-09-24",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 1
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-23",
+   "last_success": "2026-09-24",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 1
   }
  }
 }
