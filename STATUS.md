@@ -1,20 +1,30 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-23** (miércoles de la
-semana 3, waivers ya procesadas; boletín diario de la noche incluido).*
+tooling, or league state. Last updated: **2026-09-24** (jueves de la semana 3,
+antes del TNF Green Bay–Atlanta; boletín diario de la noche incluido).*
 
-**Lo grande de hoy: LA GALLAMIJOS CAMBIÓ SU SISTEMA DE WAIVERS.** El análisis
-mostró que con waivers rodantes (`waiver_type: 0`) el orden se heredaba del
-draft, dejando a equipos 2-0 con prioridad alta y a 0-2 hasta atrás. El user
-(comisionado de esa liga) la pasó a **`waiver_type: 1` — prioridad por tabla,
-el último elige primero** y reprocesó a mano los 7 claims de hoy que cambiaban
-de dueño. Comunicado oficial en PDF membretado enviado al grupo.
+**Lo grande de hoy: NADA DE LO ORDENADO AYER SE EJECUTÓ Y EL MERCADO SE MOVIÓ.**
+Las dos casillas vacías de la Gallamijos siguen en 0.0 por tercera semana y
+**Edgerrin Cooper** —la recomendación #1 de ayer— se lo llevó My Son Dave hoy
+a las 15:05 como agente libre; en Guillotine **Emanuel Wilson** se fue en **$10**
+(el plan decía $231) sin que se metiera ninguna puja. Lección de proceso, no de
+análisis: en esa liga los claims ganadores cierran en $0-$16, así que las pujas
+se dimensionan contra ese mercado observado y no contra la escalera cruda.
 
-**Estado del portafolio (verificado en vivo hoy):** 5 ligas en regla; **2 con
-casillas titulares VACÍAS que anotan cero** — Gallamijos Lg (LB, DB) y MEXICA
-(DL, DB). El LB de Gallamijos se vació hoy al tirar a Terrel Bernard por Roman
-Wilson. Ambas están 17/17 y 19/19, así que tapar cada casilla exige una baja.
+**Dos fallos del boletín del 23 revertidos con información nueva:** (1) **Zach
+Ertz se QUEDA** — firmó con Philadelphia el 22 y Sleeper ya lo lista TE dc1 con
+Goedert en Doubtful, así que la orden de tirarlo estaba mal (la regla de
+"resolver POR QUÉ un jugador es trending antes de descartarlo" era justo la que
+faltaba aplicar); (2) el LB de la Gallamijos ya no es Cooper sino **Terrel
+Bernard**, que además ya pasó waivers.
+
+**Estado del portafolio (verificado en vivo hoy):** Gallamijos Lg sigue con LB
+y DB en cero (17/17, y `allow_out`/`allow_doubtful` en 0 = NADIE de ese roster
+es elegible de IR); MEXICA sigue con DL vacío (19/19, `reserve_slots=0`, sin IR
+en absoluto) y con riesgo de una segunda casilla muerta si Devin Lloyd sale OUT
+el viernes. DYNASTY TRC tiene 7.8 puntos en la banca que no dependen de sus dos
+receptores lesionados. MEXICA y LoR 2-0; las otras cuatro 1-1.
 
 ## What this project is
 
@@ -186,56 +196,62 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
-*(Reescritos 2026-09-23 contra el estado en vivo de los rosters. Los de ayer
-sobre waivers de la Gallamijos ya no aplican: esas waivers se procesaron y se
-corrigieron.)*
+*(Reescritos 2026-09-24 contra el estado en vivo. Los del 23 ya no aplican tal
+cual: NINGUNO se ejecutó, y el mercado se movió mientras las casillas seguían
+en cero — Edgerrin Cooper y Emanuel Wilson ya tienen dueño.)*
 
-- [ ] 🔴 **GALLAMIJOS LG — LAS DOS CASILLAS (LB, DB) SIGUEN VACÍAS.** Las
-  waivers del 23 no las taparon: el claim de Gadsden y los otros seis
-  perdieron, y el único que entró (Roman Wilson) fue el que vació LB al tirar
-  a Terrel Bernard. YA HAY AGENTES LIBRES, no hace falta claim: **Edgerrin
-  Cooper** (LB, GB, 105/6.3) por **Tyler Badie** (8.4) y **Dillon Thieneman**
-  (DB, CHI, 100/5.1) por **Roman Wilson** (26.8). ~+11.4 por semana. Cooper
-  juega el jueves, así que tiene que entrar antes del kickoff; si ya pasó,
-  **Ventrell Miller** (JAX, 6.3) vale lo mismo. Mayfield se queda — el orden
-  de bajas del 22 (Fields → Sadiq → Mayfield) queda anulado.
-- [ ] 🔴 **MEXICA — LA CASILLA DL SIGUE VACÍA** (el claim de Singleton pagó
-  con Nick Bosa). Agente libre: **Boye Mafe** (DL, CIN, 65/3.9) por **Tyler
-  Badie** (6.4). 19/19, sin casillas de IR.
-- [ ] 🔴 **DYNASTY TRC — 12.0 puntos en la banca.** DJ Moore y Nico Collins
-  pasaron de Out a Questionable. Moore por Tre Tucker, Kelce en TE con Kraft
-  al FLEX, Goff por Burrow, PHI por CAR. Collins espera a la designación del
-  viernes (no entrenó el miércoles).
-- [ ] 🟡 **GUILLOTINE — Emanuel Wilson $231 de $1000, baja Zach Ertz.** Es el
-  #1 de la liga entera en altas (1.98M) y solo está libre en esta liga.
-  Nota de proceso: anoche alealvarez7 tecleó $3 en TreVeyon Henderson contra
-  un plan de $451 y perdió los seis claims disputados.
-- [ ] 🟡 **Vigilancias de IR (no son bajas):** en **Gallamijos Dyn**, Caleb
-  Williams salió de IR porque su tag pasó de Out a Doubtful y aquí
-  `reserve_allow_doubtful=0` — vuelve a IR en cuanto diga Out; Rico Dowdle
-  (bota, no entrenó) sigue el mismo camino. En **LoR**, Iosivas (ligamento
-  del pulgar, cirugía, 4-6 semanas) ocupa lugar activo a 28/28 con
-  `allow_out=0`: NO cortarlo, la casilla se abre gratis cuando Sleeper le
-  ponga el tag IR.
-- [ ] 🟡 **GALLAMIJOS LG — 4 equipos rivales quedaron 18/17 tras la
-  corrección** (El General, Matasanos FC, Jro91, Scary Terry). No es tu
-  roster, pero eres el comisionado: no podrán procesar waivers el martes si
-  no bajan a 17. Ya se les avisó en el comunicado.
-- [ ] 🟡 **SURVIVOR — confirmar el pick de la semana 2.** El plan recomienda
-  **Tampa Bay** sobre SF (79% vs 86%, pero libera a SF para su mejor spot en
-  la semana 3 y sube P(sobrevivir) de 21.1% a 22.9%). Condición: que la línea
-  de TB no baje de −6. Anotar el pick en `data/intel/survivor.json` y
-  recorrer `survivor_plan.py --avoid-week18 --max-fade 4`.
-- [ ] **Ofertas de trade con estado desconocido** — ElGeneral4 y Jro91:
-  preguntar al user si siguen vivas en Sleeper.
+- [ ] 🔴 **GALLAMIJOS LG — LB y DB LLEVAN DOS SEMANAS EN 0.0.** Cooper se lo
+  llevó My Son Dave hoy a las 15:05 como AGENTE LIBRE. El mejor LB del wire
+  ahora es **Jack Campbell** (DET, 7.7/132) pero lo tiraron hoy a las 08:56 y
+  esta liga tiene `waiver_clear_days=1`, así que probablemente esté bloqueado
+  hasta el viernes y el user va 10 de 18 en la prioridad por tabla. La jugada
+  segura: **Terrel Bernard** (BUF, 6.8/96, ya libre) por **Tyler Badie**, y
+  **Dillon Thieneman** (CHI, 6.0/100) por **Roman Wilson**. +12.8/semana.
+  Si la app muestra a Campbell con botón **Add**, es Campbell. Woody Marks
+  está PROTEGIDO (handcuff limpio detrás de Montgomery, 206).
+- [ ] 🔴 **MEXICA — LA CASILLA DL SIGUE VACÍA.** **Byron Young** (LAR, 4.2/79,
+  elegible DL y LB) por **Tyler Badie**. 19/19 y `reserve_slots=0`.
+- [ ] 🟠 **MEXICA, disparador del viernes:** Devin Lloyd (LB titular) no
+  entrenó ni miércoles ni jueves. Si sale OUT, entra **Demetrius Knight**
+  (CIN, 6.8/96) y se va **Jonah Coleman**. Waller NO se toca (es el seguro de
+  Bowers); Carnell Tate tampoco (21 años, liga de keepers).
+- [ ] 🔴 **DYNASTY TRC — 7.8 puntos en la banca, y no dependen de los
+  lesionados.** Goff por Bryce Young, Kelce al TE con Kraft al FLEX,
+  Rhamondre Stevenson por MarShawn Lloyd, PHI DEF sobre CAR. **Lloyd juega
+  el jueves: ese cambio vence en el kickoff.**
+- [ ] 🔴 **TRADES CON RELOJ:** (a) Lloyd por Rome Odunze a RGV95 ("PRISON
+  MIKE") **antes del kickoff** — Kaleb Johnson tiene más carga anunciada para
+  hoy y Lloyd jugó 16 de 59 snaps, detrás de Chris Brooks; (b) **NUEVA**:
+  Jalen Coker por Matthew Golden a SpunkyNuggets en LoR (+5.1 de temporada
+  para el user, ±0.0 para él), mandarla antes del reporte del viernes.
+- [ ] 🟡 **LoR:** Croskey-Merritt por Kamara (+2.9). Coker no entrenó el
+  jueves; si sale, entra Jauan Jennings (-6.1). Iosivas sigue sin poder ir a
+  IR (`allow_out=0`) — NO cortarlo.
+- [ ] 🟡 **GUILLOTINE — lección de precio, no de jugada.** Emanuel Wilson se
+  fue en **$10** (el plan decía $231 y no se metió ninguna puja). Los claims
+  ganadores de la liga cerraron en $0/$0/$0/$10/$16: dimensionar las pujas
+  contra ese mercado (~$25-35), no contra la escalera cruda. **Zach Ertz se
+  QUEDA** — firmó con Philadelphia el 22 y Sleeper ya lo pone TE dc1 con
+  Goedert en Doubtful; la orden de tirarlo del 23 quedó revertida.
+- [ ] 🟡 **Vigilancias de IR:** Gallamijos Dyn tiene UN lugar libre (22/23);
+  Caleb Williams (no entrenó, no se espera el lunes) y Rico Dowdle (sin
+  uniforme) pasan a ser elegibles de IR en cuanto el tag diga Out
+  (`allow_out=1` ahí).
+- [ ] 🟡 **SURVIVOR — sigue sin confirmar el pick de la semana 2** (Tampa
+  Bay sobre SF). Anotarlo en `data/intel/survivor.json` y recorrer.
+- [ ] **Ofertas con estado desconocido en Sleeper: ElGeneral4 y Jro91** —
+  tercera edición preguntando.
 - [ ] **Bitácoras del canon**: mover a "libre" los términos que ya
   descansaron una edición (`criaturas`, `humanos promedio`, `señores del
   fantasy` salen del descanso tras la edición del 09-29).
 - [ ] **Pendiente de método**: el cupo real de cada manager en el escenario
   de waivers no es "las bajas que hizo" sino "cuántas habría estado dispuesto
-  a hacer" — Sleeper NO guarda el drop de un claim perdido (53 de 53 fallidos
-  vienen sin `drops`), así que eso solo se resuelve preguntando.
+  a hacer" — Sleeper NO guarda el drop de un claim perdido, así que eso solo
+  se resuelve preguntando.
 
+- [x] **Play-callers de BAL y NYG ya NO son "presumidos"** — Declan Doyle
+  (confirmado 2026-09-02, sitio de los Ravens) y Matt Nagy (confirmado
+  2026-09-07, encuesta de ESPN + The Ringer). Se elimina el caveat.
 - [x] **Computable features from expert methods** — built (Aug 22):
   (a) '25 usage shares (target/carry/snap) on every board + sortable
   Rankings column (`sleeper/usage.py`); (b) vacated-opportunity accounting
