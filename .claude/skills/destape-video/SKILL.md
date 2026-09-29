@@ -85,6 +85,16 @@ envío directo) + commit de escaleta/guion. El video final está gitignored.
   `miroslava-personaje.md` da variantes por ocasión — la cara no cambia.
 - Cambios de proceso ordenados por el user → actualizar este skill + el
   pipeline doc en el mismo commit.
+- **El video y las tarjetas salen del MISMO .txt** (2026-09-29): el skill
+  `destape-visual` renderiza ese texto a carrusel + periódico. Si el user
+  publica con cambios, el .txt se sincroniza con lo publicado ANTES de hacer
+  guion o tarjetas — un video que dice algo que la tarjeta no dice es una
+  contradicción pública.
+- **Vestuario disponible para thumbnails, intro o cortinillas**: las fotos
+  por sección en `data/intel/brand/miroslava-*.jpg` (boxeo, regadera, podio,
+  guerra, elevador, palpitote, despedida, portada-*, final-*…; tabla completa
+  en el skill `destape-visual`). Misma cara; cualquiera sirve como avatar de
+  HeyGen si es frontal y con la boca visible.
 
 ## Pendientes vivos
 
@@ -93,3 +103,6 @@ envío directo) + commit de escaleta/guion. El video final está gitignored.
   (final del track, 10s) — fragmentos distintos a propósito.
 - Sincronía por transcripción real (whisper) si el desfase estimado por
   palabras resulta molesto en la práctica.
+- Usar las tarjetas del carrusel (`reports/<season>/roast/visual/`) como
+  cortinillas de sección en el montaje, en lugar de cintillos generados:
+  mismo diseño en video y en imagen.

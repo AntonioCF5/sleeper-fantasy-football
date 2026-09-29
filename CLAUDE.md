@@ -439,8 +439,11 @@ Mijos vs Los Sin Bandera, 21 managers con apodos/expedientes, palmarés
 2015-2025 y bitácora de lecciones editoriales. Generación: tarea
 `roast-semanal-gallamijos` (martes 7:30am, con gate de semana jugada) +
 on-demand cuando el user pida "roast". Entrega: textos en formato WhatsApp
-nativo (*asteriscos*, no markdown) por archivo Y por correo en texto plano
-para copiar/pegar. Toda corrección editorial del user se persiste en
+nativo (*asteriscos*, no markdown) por archivo Y por correo (texto plano en
+el cuerpo + PDF carrusel + PDF periódico, vía `send_destape.py`). Formato
+visual (tarjetas por sección con el vestuario de Miroslava rotando cada
+semana, carrusel y periódico): skill `destape-visual`; video: skill
+`destape-video`. Toda corrección editorial del user se persiste en
 miroslava.md en el mismo commit; los chistes solo salen del archivo o de
 hechos verificados — nunca inventados.
 

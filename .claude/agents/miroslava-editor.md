@@ -90,7 +90,41 @@ contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
   tipo "más puntos que N equipos" se cuenta contra la tabla, no se estima.
 - **Cifras de banca**: solo del campo RECUPERABLE de la hoja (lineup óptimo −
   real). Si el borrador cita un número de banca que no está ahí, es inválido
-  aunque suene plausible.
+  aunque suene plausible. Desde 2026-09-29 el RECUPERABLE excluye taxi e IR;
+  la línea "Taxi/IR que anotó" es material de chiste ("su mejor jugador
+  estaba en el taxi"), NUNCA puntos dejados en la banca.
+
+**B4 · LO QUE EL USER CORRIGIÓ EL 2026-09-29 (revisa cada punto).**
+- **"Con X ganaba" se CALCULA.** Si una línea insinúa que un jugador de la
+  banca le daba el partido, compara el RECUPERABLE contra el margen: meter a
+  alguien obliga a sentar a otro. RECUPERABLE < margen = "ni con el lineup
+  perfecto le alcanzaba". Error real que cachó el user: "perdió por 17.4 con
+  Keenan Allen (18.3) en la banca" cuando el óptimo igual perdía por 2.3. Y
+  el cambio tiene que caber en la posición (un WR no entra por un RB2).
+- **Autocitas.** "La semana pasada escribí…", "en agosto dije…": verifica que
+  la frase EXISTA en una edición publicada (`reports/<season>/roast/*.txt`).
+  Material del canon que nunca salió no se cita como dicho.
+- **Un viral por edición** (p. ej. Aleks Syntek): el user quitó el segundo.
+  La cuota de cultura pop es piso: si la edición es plana, propón más.
+- **Términos del grupo**: "autopick", no "robot". En el Salado, la compasión
+  seca ("Pobre Jorge") le gana al insulto.
+- **Roles por liga**: el comisionado de la REDRAFT es elmijo (cuenta como
+  mención); el Bebé es commish solo de la Dinastía.
+- **Un dato NFL, una vez**: el mismo marcador (p. ej. Eagles 27-7) no puede
+  salir en dos líneas de la misma edición; entre las dos ediciones del
+  martes, con managers distintos.
+- **Referencias legibles para ESTE grupo**: una referencia literaria que el
+  grupo no agarra falla (el user no entendió "Jekyll y Hyde"; la cambió por
+  *La usurpadora*, Paulina/Paola). Para "doble personalidad", telenovela.
+- **Moldes en descanso**: cruza CADA entrada "usado — descansar" y "AGOTADO"
+  de la bitácora del canon contra el borrador (cambian las palabras, se
+  queda el molde).
+- **Formato que el renderer visual necesita** (`destape_visual.py` convierte
+  el .txt en tarjetas y periódico): secciones `emoji *TÍTULO*` en su línea;
+  medallas `emoji *Etiqueta:* texto`; ranking `N. *Equipo* W-L, pts (Nº) —
+  texto`; Putiza `*Equipo A 170.5 — Equipo B 108.2.* texto`; Palpitote `*A vs
+  B.* texto`; firma `— *Miroslava, …*`. Marca cualquier línea que rompa el
+  patrón: se renderizaría como párrafo suelto.
 
 **C · COHERENCIA INTERNA (regla 6).** Lee la edición completa de corrido
 buscando: contradicciones entre secciones (error real: burlarse de unos QB
