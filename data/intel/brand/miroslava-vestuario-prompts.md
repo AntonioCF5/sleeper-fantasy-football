@@ -230,8 +230,8 @@ Diciembre sigue mandando: portada y final con el suéter navideño.
 **Estado 2026-09-29:** aprobadas y rotando — portada-estadio, portada-camara,
 portada-voceadora, final-sofa, final-gradas, regadera-cortina,
 boxeo-arbitra, medallas-oscar, guerra-trinchera, elevador-terraza,
-palpitote-tarot, despedida-convertible. Pendientes: final-beso (rechazada,
-ver abajo) y redaccion-imprenta (no generada aún).
+palpitote-tarot, despedida-convertible y final-beso (v2, 2º intento).
+Pendiente: redaccion-imprenta (no generada aún).
 
 Todas: adjuntar la referencia base, 16:9 horizontal, ella centrada, cara en
 el tercio superior. (La portada se recorta en franja ancha arriba y la final
@@ -295,7 +295,7 @@ Composition: horizontal 16:9, subject centered, framed from the waist up, face i
 
 ### `miroslava-final-beso.jpg`
 
-> **2026-09-29 — 1er intento RECHAZADO** (user: "que no se vea el beso en el
+> ✅ **Aprobada la v2 (2026-09-29).** Historia: 1er intento RECHAZADO (user: "que no se vea el beso en el
 > aire"): la marca de labial salió flotando sobre su brazo y pecho, no en un
 > vidrio. Usar la **v2** (sin vidrio ni marca) o corregir la imagen.
 

@@ -396,6 +396,7 @@ VESTUARIO = {
     "portada-voceadora":     ("miroslava-portada-voceadora.jpg", 30, 53),
     "final-sofa":            ("miroslava-final-sofa.jpg", 30, 37),
     "final-gradas":          ("miroslava-final-gradas.jpg", 22, 50),
+    "final-beso":            ("miroslava-final-beso.jpg", 40, 51),
     "boxeo-arbitra":         ("miroslava-boxeo-arbitra.jpg", 24, 50),
     "regadera-cortina":      ("miroslava-regadera-cortina.jpg", 27, 47),
     "medallas-oscar":        ("miroslava-medallas-oscar.jpg", 25, 53),
