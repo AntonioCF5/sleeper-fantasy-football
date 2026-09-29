@@ -241,7 +241,9 @@ comparar el borrador contra la edición anterior.
 | 2026-09-29 | "Lo bueno del roster lo armó el autopick; lo demás, el Chapo" | usado — descansar |
 | 2026-09-29 | Darnold "ya no ve fantasmas" | usado — descansar |
 | 2026-09-29 | "Dave, si llegaste hasta aquí… avisa en el chat" | recurrente — puede volver, pero no la edición siguiente |
-| 2026-09-29 | "Jekyll aquí, Hyde allá" (La Dona 162 vs 62.7) | usado — descansar |
+| — | "Jekyll aquí, Hyde allá" (La Dona 162 vs 62.7) | **DESCARTADO** por el user (09-29): no entendió la referencia → regla 4c. Referencias de "doble personalidad" para este grupo: telenovela mexicana, no literatura inglesa |
+| 2026-09-29 | "Paulina aquí, Paola allá: *La usurpadora* en un solo coach" (La Dona 162 vs 62.7) | usado — descansar |
+| 2026-09-29 | "Con el pito (silbato) en la boca, la banca es un detalle" (Bebé commish, versión del user) | usado — descansar |
 | 2026-09-29 | "Se cogió el partido él solito" (Charly, cuatro defensas) | usado — descansar |
 | 2026-09-29 | "Perdió contra el Señor Sal… la sal por fin salpicó a otro" (elmijo vs Dave) | usado — descansar |
 | 2026-09-29 | Tank Bigsby "le debe puntos a su dueño; su dueño le debe un nombre a la liga" | usado — descansar (el #ReglasSonReglas sigue vivo con otra formulación) |
