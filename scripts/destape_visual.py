@@ -266,6 +266,14 @@ footer{position:relative;display:flex;justify-content:space-between;align-items:
   padding:22px 60px 34px;border-top:5px solid #D50A0A;margin:0 60px;color:#5B6B85;
   font-size:22px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
 /* portada */
+.banda{position:absolute;top:0;right:0;width:620px;height:470px;background-size:cover}
+.banda::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg,rgba(10,20,40,0) 50%,#0A1428 100%),
+  linear-gradient(90deg,#0A1428 0%,rgba(10,20,40,.55) 22%,rgba(10,20,40,0) 50%)}
+.card.con-foto .top{max-width:none}
+.kick,.meta{white-space:nowrap;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+.card.con-foto h1{padding-top:250px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+.card.con-foto .sub{text-shadow:0 2px 10px rgba(0,0,0,.8)}
 .cover .foto{position:relative;height:640px;background-size:cover;background-position:42% 18%}
 .cover .foto::after{content:"";position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(10,20,40,0) 45%,#0A1428 98%)}
@@ -355,21 +363,51 @@ def escudo_uri():
     return (BRAND / "gallamijos-escudo.svg").resolve().as_uri()
 
 
-FOTO = {"uri": None}
+# Vestuario de Miroslava (data/intel/brand/): archivo + altura de la cara
+# (% vertical) para encuadrar la banda de cada tarjeta sin cortarle la cabeza.
+VESTUARIO = {
+    "jersey":         ("miroslava-jersey.png", 20),         # tailgate con el micrófono GM
+    "gala":           ("miroslava-gala.jpg", 24),           # vestido rojo con el Lombardi
+    "noticiero":      ("miroslava-noticiero.jpg", 26),      # conductora en el set GM
+    "exclusiva":      ("miroslava-exclusiva.jpg", 28),      # gabardina, CONFIDENTIAL, flashes
+    "exclusiva-news": ("miroslava-exclusiva-news.jpg", 28), # misma escena, micrófono GM News
+    "navidad":        ("miroslava-navidad.jpg", 30),        # suéter navideño (solo diciembre)
+}
+# Qué Miroslava va con qué sección (por palabra del título). La primera que
+# no repita la de la tarjeta anterior gana; así el carrusel no se ve clonado.
+FOTO_SECCION = [
+    ("regadera", ["exclusiva", "exclusiva-news"]),     # el chisme: la de los expedientes
+    ("putiza", ["exclusiva-news", "exclusiva"]),       # nota roja de estadio
+    ("medallas", ["gala", "noticiero"]),               # la premiación
+    ("guerra", ["noticiero", "gala"]),                 # parte oficial desde el set
+    ("penthouse", ["noticiero", "gala", "exclusiva"]), # la tabla, rotando por tarjeta
+    ("palpitote", ["gala", "noticiero"]),
+    ("cierre", ["gala", "noticiero"]),
+]
+FOTOS = {}
 
 
-def foto_uri():
-    """La foto de marca pesa 2752px; se usa una copia de 1400px en JPG para
-    que el PDF no pase de 10 MB (el original la metía completa)."""
-    return FOTO["uri"] or (BRAND / "miroslava-jersey.png").resolve().as_uri()
+def foto_uri(nombre="jersey"):
+    """Copias de 1400px en JPG: los originales metían 10 MB al PDF."""
+    return FOTOS.get(nombre) or (BRAND / VESTUARIO[nombre][0]).resolve().as_uri()
 
 
-def preparar_foto(tmp):
-    im = Image.open(BRAND / "miroslava-jersey.png").convert("RGB")
-    im.thumbnail((1400, 1400))
-    out = tmp / "miroslava.jpg"
-    im.save(out, quality=86, optimize=True)
-    FOTO["uri"] = out.resolve().as_uri()
+def preparar_fotos(tmp):
+    for nombre, (archivo, _) in VESTUARIO.items():
+        if not (BRAND / archivo).exists():
+            continue
+        im = Image.open(BRAND / archivo).convert("RGB")
+        im.thumbnail((1400, 1400))
+        out = tmp / f"m-{nombre}.jpg"
+        im.save(out, quality=86, optimize=True)
+        FOTOS[nombre] = out.resolve().as_uri()
+
+
+def elegir_foto(titulo, anterior):
+    t = titulo.lower()
+    prefs = next((f for clave, f in FOTO_SECCION if clave in t), ["noticiero", "gala"])
+    prefs = [f for f in prefs if f in VESTUARIO] + [f for f in VESTUARIO if f not in ("navidad", "jersey")]
+    return next((f for f in prefs if f != anterior), prefs[0])
 
 
 def fecha_legible(nombre):
@@ -379,21 +417,32 @@ def fecha_legible(nombre):
     return f"{int(m.group(3))} {MESES[int(m.group(2)) - 1]} {m.group(1)}"
 
 
-def tarjeta(cuerpo_html, jornada, fecha, pag, total, titulo=None, emoji="", sub=""):
+def tarjeta(cuerpo_html, jornada, fecha, pag, total, titulo=None, emoji="", sub="",
+            foto=None, foto_final="jersey"):
     cab = (f"<h1><span class='e'>{emoji}</span>{html.escape(titulo)}</h1>"
            + (f"<div class='sub'>{html.escape(sub)}</div>" if sub else "")
            + "<div class='rule'></div>") if titulo else ""
+    banda = (f"<div class='banda' style=\"background-image:url('{foto_uri(foto)}');"
+             f"background-position:50% {VESTUARIO[foto][1]}%\"></div>") if foto else ""
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
-<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri()}')}}</style></head><body data-ultima="{int(pag == total)}"><div class="card">
+<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}')}}</style></head><body data-ultima="{int(pag == total)}"><div class="card{' con-foto' if foto else ''}">
+{banda}
 <div class="top"><img src="{escudo_uri()}"><div><div class="kick">EL DESTAPE DE <b>MIROSLAVA</b></div>
-<div class="meta">{html.escape(jornada)}</div></div><div class="pag">{pag}/{total}</div></div>
+<div class="meta">{html.escape(jornada)}</div></div></div>
 {cab}<main>{cuerpo_html}</main>
-<footer><span>💋 Miroslava</span><span>{fecha}</span></footer></div><script>
+<footer><span>💋 Miroslava</span><span>{pag} / {total}</span><span>{fecha}</span></footer></div><script>
 /* Todo cabe en 1080x1350: si el cuerpo se desborda, se encoge (zoom) hasta
    que entra. Así el carrusel sale parejo 4:5 sin cortar texto. */
 document.fonts.ready.then(() => {{
   const m = document.querySelector("main"); let z = 1;
-  while (m.scrollHeight > m.clientHeight + 1 && z > 0.55) {{ z -= 0.02; m.style.zoom = z; }}
+  const ajustar = () => {{ z = 1; m.style.zoom = 1;
+    while (m.scrollHeight > m.clientHeight + 1 && z > 0.55) {{ z -= 0.02; m.style.zoom = z; }} }};
+  ajustar();
+  /* Si la foto obliga a encoger la letra de más, gana la letra: fuera foto. */
+  const card = document.querySelector(".card.con-foto");
+  if (card && z < 0.8) {{
+    card.classList.remove("con-foto"); document.querySelector(".banda").remove(); ajustar();
+  }}
   /* Tarjeta corta: el hueco lo llena Miroslava, no el vacío. */
   const ult = m.lastElementChild;
   const libre = ult ? m.getBoundingClientRect().bottom - ult.getBoundingClientRect().bottom - 30 : 0;
@@ -408,13 +457,13 @@ document.fonts.ready.then(() => {{
 </script></body></html>"""
 
 
-def portada_html(portada_lineas, secciones, jornada, fecha, total):
+def portada_html(portada_lineas, secciones, jornada, fecha, total, foto="jersey"):
     cuerpo = html_bloques(bloques(portada_lineas), "card")
     indice = "".join(f"<span><b>{s['emoji']}</b>{html.escape(cap(s['titulo'].split(' — ')[0].lower()).replace('miroslava', 'Miroslava'))}</span>"
                      for s in secciones)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
 <style>{CSS_CARD}</style></head><body><div class="card cover">
-<div class="foto" style="background-image:url('{foto_uri()}')"></div>
+<div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
 <img class="escudo" src="{escudo_uri()}">
 <div class="titulo"><div class="t1">EL DESTAPE</div><div class="t2">DE MIROSLAVA</div>
 <div class="jor">{html.escape(jornada)} · {fecha}</div></div>
@@ -424,12 +473,19 @@ def portada_html(portada_lineas, secciones, jornada, fecha, total):
    que entra. Así el carrusel sale parejo 4:5 sin cortar texto. */
 document.fonts.ready.then(() => {{
   const m = document.querySelector("main"); let z = 1;
-  while (m.scrollHeight > m.clientHeight + 1 && z > 0.55) {{ z -= 0.02; m.style.zoom = z; }}
+  const ajustar = () => {{ z = 1; m.style.zoom = 1;
+    while (m.scrollHeight > m.clientHeight + 1 && z > 0.55) {{ z -= 0.02; m.style.zoom = z; }} }};
+  ajustar();
+  /* Si la foto obliga a encoger la letra de más, gana la letra: fuera foto. */
+  const card = document.querySelector(".card.con-foto");
+  if (card && z < 0.8) {{
+    card.classList.remove("con-foto"); document.querySelector(".banda").remove(); ajustar();
+  }}
 }});
 </script></body></html>"""
 
 
-def pdf_html(portada_lineas, secciones, jornada, fecha):
+def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey"):
     liga = jornada.split("—")[-1].strip() or "La Gallamijos"
     cuerpo = []
     for s in secciones:
@@ -443,7 +499,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha):
 <div class="ftr"><span>{html.escape(jornada)}</span><span>{fecha}</span><span>💋 Miroslava</span></div>
 <table class="pagina"><thead><tr><td><div class="sp-top"></div></td></tr></thead>
 <tfoot><tr><td><div class="sp-bot"></div></td></tr></tfoot><tbody><tr><td><div class="cuerpo">
-<div class="portada"><div class="foto" style="background-image:url('{foto_uri()}')"></div>
+<div class="portada"><div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
 <div><div class="t1">EL DESTAPE DE <b>MIROSLAVA</b></div><div class="jor">{html.escape(jornada)} · {fecha}</div>
 {html_bloques(bloques(portada_lineas), "pdf")}</div></div>
 {"".join(cuerpo)}
@@ -528,28 +584,35 @@ def main():
                       for i in range(0, len(ranks), POR_TARJETA_RANKING)]
             for k, tr in enumerate(trozos):
                 sub = (s["sub"] + " · " if s["sub"] else "") + f"{tr[0][1][0]}–{tr[-1][1][0]}"
-                plan.append((s, tr + (resto if k == len(trozos) - 1 else []), sub))
+                # Solo la primera tarjeta de una sección partida lleva foto:
+                # en las de continuación el espacio es para la letra.
+                plan.append((s, tr + (resto if k == len(trozos) - 1 else []), sub, k == 0))
         else:
-            plan.append((s, bs, s["sub"]))
+            plan.append((s, bs, s["sub"], True))
     total = len(plan) + 1
 
     with tempfile.TemporaryDirectory() as t:
         tmp, perfil = Path(t), Path(t) / "perfil"
-        preparar_foto(tmp)
+        preparar_fotos(tmp)
+        # Diciembre = playoffs del fantasy: portada y despedida con suéter navideño.
+        principal = "navidad" if edicion.stem[5:7] == "12" and "navidad" in FOTOS else "jersey"
         if "--solo-pdf" not in sys.argv:
             out = destino / "01-portada.jpg"
-            captura(portada_html(portada, secciones, jornada, fecha, total), out, tmp, perfil)
+            captura(portada_html(portada, secciones, jornada, fecha, total, principal), out, tmp, perfil)
+            anterior = principal
             print(f"  {out.relative_to(ROOT)}")
-            for i, (s, bs, sub) in enumerate(plan, start=2):
+            for i, (s, bs, sub, con_foto) in enumerate(plan, start=2):
                 slug = re.sub(r"[^a-z0-9]+", "-", s["titulo"].lower().split(" — ")[0]
                               .translate(str.maketrans("áéíóúñ", "aeioun"))).strip("-")[:28]
                 out = destino / f"{i:02d}-{slug}.jpg"
+                foto = elegir_foto(s["titulo"], anterior) if con_foto else None
+                anterior = foto or anterior
                 captura(tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
-                                s["titulo"], s["emoji"], sub), out, tmp, perfil)
+                                s["titulo"], s["emoji"], sub, foto, principal), out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")
         if "--solo-tarjetas" not in sys.argv:
             src = tmp / "edicion.html"
-            src.write_text(pdf_html(portada, secciones, jornada, fecha))
+            src.write_text(pdf_html(portada, secciones, jornada, fecha, principal))
             pdf = destino / f"{edicion.stem}.pdf"
             chrome(["--no-pdf-header-footer", f"--print-to-pdf={pdf}", src.as_uri()], perfil, pdf)
             print(f"  {pdf.relative_to(ROOT)}")

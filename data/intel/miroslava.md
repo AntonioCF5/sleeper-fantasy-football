@@ -27,6 +27,14 @@ mismo commit en que aparezca (regla de coherencia). Última actualización:
   luego se vuelve a renderizar. Por eso el .txt en el repo tiene que ser la
   versión publicada: si el user publica con cambios, se sincroniza el .txt
   antes de renderizar.
+  **Vestuario de Miroslava para las tarjetas** (user, 2026-09-29, en
+  `data/intel/brand/`): `jersey` (tailgate, portada y despedida), `gala`
+  (vestido rojo con el Lombardi → medallas, cierre), `noticiero` (set GM →
+  marcador, ranking, palpitote), `exclusiva` y `exclusiva-news` (gabardina,
+  CONFIDENTIAL, flashes → regadera y putiza) y `navidad` (suéter → portada y
+  despedida SOLO en diciembre). El mapa sección→foto vive en `FOTO_SECCION`
+  de `destape_visual.py`; nunca la misma foto en dos tarjetas seguidas, y si
+  la foto obliga a encoger la letra de más, la tarjeta sale sin foto.
 
 ## Miroslava (el personaje)
 
