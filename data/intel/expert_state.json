@@ -816,22 +816,95 @@
    "published": "2026-09-24",
    "source": "fantasy-footballers",
    "processed": "2026-09-24"
+  },
+  "xnHBpr-RydA": {
+   "video_id": "xnHBpr-RydA",
+   "title": "This News Changes Everything (Week 3)",
+   "published": "2026-09-26",
+   "source": "sal-vetri",
+   "processed": "2026-09-29"
+  },
+  "UVwEEJKeGtw": {
+   "video_id": "UVwEEJKeGtw",
+   "title": "Mike Wright is LIVE! Week 3 Fantasy Football Start/Sit Advice + Injury News",
+   "published": "2026-09-27",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "lTA-RyZ5gn8": {
+   "video_id": "lTA-RyZ5gn8",
+   "title": "10 Must Add Players to Pick Up in Your Fantasy League Right Now",
+   "published": "2026-09-28",
+   "source": "sal-vetri",
+   "processed": "2026-09-29"
+  },
+  "bcLnvcHHDwc": {
+   "video_id": "bcLnvcHHDwc",
+   "title": "His breakout is here",
+   "published": "2026-09-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "pKwooav2IX4": {
+   "video_id": "pKwooav2IX4",
+   "title": "BIG news this morning... J.J. McCarthy has been traded to the Giants for a 2027 5th-round pick \ud83d\udea8",
+   "published": "2026-09-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "I0oBMGXw50o": {
+   "video_id": "I0oBMGXw50o",
+   "title": "Week 3 Studs & Duds + Injury Reactions, Trade Talk | Fantasy Football 2026 - Ep. 1981",
+   "published": "2026-09-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "aiJBeppraqE": {
+   "processed": "2026-09-29"
+  },
+  "T1u4ifTS6Rs": {
+   "video_id": "T1u4ifTS6Rs",
+   "title": "Week 3 Matchups + Packers in Peril, Wheel of Shame! | Fantasy Football 2026 - Ep. 1980",
+   "published": "2026-09-25",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "cY9ZTz7Mg7E": {
+   "video_id": "cY9ZTz7Mg7E",
+   "title": "My Updated Top 50 Running Back Rankings for Week 3",
+   "published": "2026-09-25",
+   "source": "sal-vetri",
+   "processed": "2026-09-29"
+  },
+  "QLzx5fVFOck": {
+   "video_id": "QLzx5fVFOck",
+   "title": "Staying in the flames with this week's QB Start of the Week \ud83d\udd25\ud83d\udd25",
+   "published": "2026-09-25",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
+  },
+  "mA9FCTin114": {
+   "video_id": "mA9FCTin114",
+   "title": "Josh Downs = Colts WR1 \ud83d\udcaa (START HIM)",
+   "published": "2026-09-25",
+   "source": "fantasy-footballers",
+   "processed": "2026-09-29"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-24",
+   "last_success": "2026-09-29",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 1
+   "via": "rss",
+   "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-09-24",
+   "last_success": "2026-09-29",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 1
+   "via": "rss",
+   "rss_failures": 0
   }
  }
 }

@@ -1393,3 +1393,45 @@ without testing it.
   lowest total (38.5) and rain. Benched in MEXICA on our board already —
   agreement — and it does NOT make him a drop there (21 years old, 145
   season, keeper league).
+
+### Added 2026-09-29 (Sal 9/26 + 9/28 live, FF Ep. 1981 + Mike Wright live)
+
+- **Injury-report trajectory beats the tag (Sal).** Read the week's practice
+  sequence, not Friday's letter: limited → DNP midweek is a red flag; two
+  limiteds = trending to play; being left OFF the final report after full
+  Thu/Fri is the strongest positive signal; Wed/Thu DNPs for 30+ veterans are
+  rest days when the beat writer says the status was never in doubt.
+  Complements our actuarial rules (which price the injury, not the week).
+- **Waiver replacements rank by snap monopoly × offense quality (Sal), and a
+  vacated 80%+ snap share does NOT transfer whole (FF).** Braelon Allen (every
+  Jets RB snap, red-zone size, functioning offense) is the 50-75% FAAB add;
+  Ollie Gordon (bottom-5 offense, Hafley promising 'roles' for every back) is
+  not, even after a 17-carry game. Split the vacated snaps across the
+  committee BEFORE valuing the pickup. Mechanism-audit note: Gordon's 61/73
+  snaps came in the game Achane left early, so it is the replacement sample,
+  not a pre-injury role — but Jaylen Wright was also out, which is the
+  committee half of the story.
+- **Guillotine FAAB is a December weapon (Sal).** Save the budget for the
+  final rounds when chopped rosters are the strongest and the fewest bidders
+  remain; bid 1-2% early even on stars (Taylor ≤10%) unless you are at chop
+  risk. This INVERTS the weeks-1-6 'bid to win' rule for that format, exactly
+  as the format already inverts the stash rule. Applied 9/29: Taylor sized as
+  a steal bid, not a win bid, with the roster 3rd in points and 5th of 15 on
+  the week.
+- **Trades are judged only by the weekly starting lineup (Sal).** 2-for-1
+  depth is 'four quarters for a dollar'; in 8-14 team leagues concentrate
+  premium players because 30-40 point games decide weeks. Same rule as our
+  before/after optimal-lineup computation — now with the expert's phrasing
+  for pitches.
+- **Same-day veteran signing at the injured player's position = severity
+  tell (FF).** Ekeler signed the day Rachaad White hurt his shoulder. Add to
+  the second-opinion and 'walking limited' tells.
+- **Re-aggravation of a listed injury almost always costs games (FF/Sal).**
+  Etienne's hamstring (2-3 weeks mild, two months of issues after re-injury),
+  McMillan's knee. And the 2026 base rate on high-ankle sprains has run 6-8
+  weeks/surgery, not 1-3 — treat any high-ankle diagnosis as season-altering.
+- **Throw out storm games as usage samples (FF).** NYG-TEN and SEA-WAS in the
+  Nor'easter say nothing about roles.
+- **Andy's week-3 trade tip:** go to the winless/unsettled managers first;
+  they move healthy starters for names. Be first to market on an
+  injured-star swap (buy Breece/Hall-class the week the tag flips).

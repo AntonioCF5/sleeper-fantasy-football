@@ -1,8 +1,9 @@
 # Project Status
 
 *Living document — update at the end of any session that changes strategy,
-tooling, or league state. Last updated: **2026-09-24** (jueves de la semana 3,
-antes del TNF Green Bay–Atlanta; boletín diario de la noche incluido).*
+tooling, or league state. Last updated: **2026-09-29** (martes de la semana 4,
+corrida automática del boletín; la corrida del 9/25 destiló 4 videos pero no
+escribió edición, no marcó ni hizo commit — recuperada hoy).*
 
 **Lo grande de hoy: NADA DE LO ORDENADO AYER SE EJECUTÓ Y EL MERCADO SE MOVIÓ.**
 Las dos casillas vacías de la Gallamijos siguen en 0.0 por tercera semana y
@@ -195,6 +196,40 @@ tells the user to re-check news once before accepting.
   registra qué camino sirvió.
 
 ## Pending / next actions
+
+*(Actualizados 2026-09-29 por la corrida nocturna del boletín — el detalle y el
+POR QUÉ de cada claim vive en `data/intel/waiver_claims.json`.)*
+
+- [ ] 🔴 **GUILLOTINE, ESTA NOCHE (waivers corren a medianoche):** JimmySC fue
+  decapitado y su roster entero está en el wire: **Jonathan Taylor $151** (baja
+  Singleton), **Ollie Gordon $51** (baja Ertz), **TreVeyon Henderson $31** (baja
+  Geno). Puja de robo, no de ganar: Sal (9/28) dice que en guillotina el FAAB se
+  guarda para las rondas finales (≤10% en Taylor) salvo riesgo de corte, y el
+  user va 3º en puntos / 5º de 15 en la semana. El precio para GANAR según el
+  mercado observado ($388/$407) es ~$501 — es la decisión del user.
+- [ ] 🔴 **GALLAMIJOS LG — TRES CASILLAS MUERTAS:** DB vacía por cuarta semana,
+  TE en cero (Ferguson "likely out", McVay) y Mayfield Out ~3 semanas sin IR.
+  Claims (prioridad 12 de 18, miércoles): **Sadiq** (fallback Gesicki) por Roman
+  Wilson; **Malaki Starks** (Watts/Moehrig) por Malachi Fields; opcional Nakobe
+  Dean por Rodriguez. Mayfield se QUEDA.
+- [ ] 🔴 **MEXICA — DL SIGUE VACÍA (la orden del 9/25 no se ejecutó):** Arvell
+  Reese (fallback Byron Young) por Caleb Douglas; Gordon por Jonah Coleman
+  (última prioridad, casi seguro se pierde).
+- [ ] 🟠 **IR gratis:** Caleb Williams (Gallamijos Dyn, ya Out) → Mumpfield $7 al
+  hueco; Jalen McMillan (DMX, IR de TB) → Justice Hill $9 al hueco.
+- [ ] 🟠 **Trades:** Gernant88 (Stroud por Breece) EMPUJAR ahora que Breece está
+  Out 2-3 juegos con MRI limpia; jetsdelalaguna (Stevenson+Tucker por Jamo) y
+  RGV95 (Lloyd por Odunze) mandar; **SpunkyNuggets (Coker por Golden) MUERTA**
+  tras el 5-100-TD de Golden.
+- [ ] 🟡 **Vigilar el miércoles:** Christian Watson (LoR, posible isquio en video),
+  Nico Collins (DYNASTY TRC, "hopeful" → titular si practica), Jaylen Wright
+  (DMX, day-to-day → IR si sigue Out el viernes).
+- [ ] 🟡 **Investigar por qué murió la corrida del 9/25** del expert-layer
+  (destiló 4 videos, actualizó waiver_claims/trade_offers a 9/25 y se quedó sin
+  edición, sin --mark y sin commit; el 9/28 volvió a bajar transcripts y tampoco
+  cerró).
+
+### Pendientes anteriores (2026-09-24), siguen vigentes donde no se resolvieron
 
 *(Reescritos 2026-09-24 contra el estado en vivo. Los del 23 ya no aplican tal
 cual: NINGUNO se ejecutó, y el mercado se movió mientras las casillas seguían
