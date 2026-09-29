@@ -223,15 +223,22 @@ comparar el borrador contra la edición anterior.
 | 2026-09-29 | FE DE ERRATAS como apertura (el Palpitote fallido, citado textual) | usado — descansar |
 | 2026-09-29 | Chapo y el fullback: "cumplió como fullback: bloqueó la victoria" | usado — descansar |
 | 2026-09-29 | "Justin Case existe, y juega de quarterback en Chicago" (Case Keenum, Rorro) | usado — descansar |
-| 2026-09-29 | Tyreek Hill sin equipo: "*Náufrago*, pero sin Wilson" (Jebus) | usado — descansar |
+| — | Tyreek Hill sin equipo: "*Náufrago*, pero sin Wilson" (Jebus) | escrito, NO publicado (el user lo quitó el 09-29) — libre |
 | 2026-09-29 | "Hasta los regalos le llegan usados" (Gadsden a Buz) | usado — descansar |
 | 2026-09-29 | "Nunca es lupus: es Gibbs" (Dr. House, Tibu) | usado — descansar |
-| 2026-09-29 | "la metida más grande de la jornada, con todo y besote" | usado — descansar |
+| 2026-09-29 | Doctor y Alacrán "imparables de la mano de Gibbs y JSN" — *Thelma y Louise, pero sin barranco a la vista* (línea pedida por el user) | usado — descansar |
+| 2026-09-29 | Comisionado que cambia el reglamento "hasta dar con el que lo haga campeón" + "Syntek juró que nunca haría reguetón. Masepum." (pedido del user) | usado — descansar; el ángulo commish-que-cambia-reglas es renovable |
+| 2026-09-29 | "Aleks Syntek está loco, Picasso estaba loco, el Chapo alineó un fullback" | usado — descansar |
+| 2026-09-29 | "Su lineup sonó a bobibubabau: puro ruido, cero letra" (La Dona) | usado — descansar |
+| 2026-09-29 | Alacrán = Scorpion de Mortal Kombat: "*get over here*… y *fatality*" | usado — descansar (el Scorpion es material renovable para el Alacrán) |
+| 2026-09-29 | *Indiana Jones*: "de dos cálices, eligió mal" (Bebé, dos defensas) | usado — descansar |
+| 2026-09-29 | "Por fin la pizarra de Pepe Silvia tiene sentido" (Cano) | usado — descansar |
+| 2026-09-29 | "la metida más grande de la jornada y se ve que le encanta, con todo y besote del Doctor" (Buz — la cola "y se ve que le encanta" es del user) | usado — descansar |
 | 2026-09-29 | "sal de grano" (George) | usado — descansar |
 | 2026-09-29 | *Rul Cuarón* / *Gravity* ("ganó el menos pendejo") · *Rul Tarantino* ("nadie sale vivo de su escena") | usados — descansar (los apodos quedan en el expediente de Rul) |
 | 2026-09-29 | *Frijol Salado* (megaevolución) | usado — PROPUESTO como apodo, pendiente de aprobación del user |
 | 2026-09-29 | "Anota como asesino y gana como taquito" (Tommy) | usado — descansar |
-| 2026-09-29 | "Lo bueno del roster lo armó el robot; lo demás, el Chapo" | usado — descansar |
+| 2026-09-29 | "Lo bueno del roster lo armó el autopick; lo demás, el Chapo" | usado — descansar |
 | 2026-09-29 | Darnold "ya no ve fantasmas" | usado — descansar |
 | 2026-09-29 | "Dave, si llegaste hasta aquí… avisa en el chat" | recurrente — puede volver, pero no la edición siguiente |
 | 2026-09-29 | "Jekyll aquí, Hyde allá" (La Dona 162 vs 62.7) | usado — descansar |
@@ -552,6 +559,31 @@ cambios suyos sobre mi borrador, cada uno una regla:
   Eagles 27-7, GB en −2) se usa con managers distintos o en una sola nota; y
   dentro de UNA edición, una vez (el editor cachó el 27-7 de los Eagles en dos
   líneas del mismo ranking).
+- 2026-09-29 · **Pase final del user a la Gallamijos J3** (nueve cambios, cada
+  uno regla):
+  · **"Pudo haber ganado" se calcula con el lineup ÓPTIMO, no con el mejor de
+    la banca**: escribí "perdió por 17.4 con Keenan Allen (18.3) en la banca" —
+    se lee como que Keenan lo salvaba, pero para meterlo había que sentar a
+    alguien: el óptimo de Jebus (126.1) igual perdía por 2.3. Regla: cualquier
+    frase que insinúe "con X ganaba" se verifica contra RECUPERABLE vs margen;
+    si RECUPERABLE < margen, el chiste es "ni con el lineup perfecto".
+  · **"autopick", no "robot"**: el término del grupo es el de la app.
+  · **"Pobre Jorge"** (sin grosería) le ganó a "Pobre pinche George": la
+    compasión seca pega más que el insulto en el Salado.
+  · El Fashionista también **alineó un DB lesionado** (Conner, Out rodilla) —
+    la desgracia completa se cuenta completa.
+  · MVP sin relleno familiar: el tío-sobrinos se guarda para el Palpitote.
+  · **El comisionado de la REDRAFT es elmijo** (is_owner en Sleeper). Burla
+    aprobada por el user: el commish que cambia el reglamento "hasta dar con
+    el que lo haga campeón" (sarcasmo). Cuenta como mención de elmijo.
+  · **Tendencias virales de la semana suben la nota**: el user pidió usar el
+    viral de **Aleks Syntek** (Grito del 15-sep en la BJ regañando al público
+    y al reguetón; luego sacó el reguetón *Masepum* el 24-sep; su audio "Aleks
+    Syntek está loco, Picasso estaba loco…"; y el **"bobibubabau"** que dice
+    el user). Buscar el viral mexicano de la semana ANTES de escribir es parte
+    del paso 2 de la tarea — no opcional.
+  · Más cultura pop que el mínimo de 4: el user pidió MÁS aunque la edición
+    ya tenía 6. La cuota es piso, no meta.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
