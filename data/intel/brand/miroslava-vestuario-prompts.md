@@ -4,8 +4,8 @@
 cambiando pose y outfit sobre la imagen base.*
 
 **Estado 2026-09-29:** aprobadas y en uso — boxeo, regadera, podio,
-salado, muerto, guerra, palpitote, despedida, redacción (+ `retrato`, el
-retrato de estudio sobre fondo navy). Pendiente: elevador.
+salado, muerto, guerra, palpitote, despedida, redacción y elevador (+
+`retrato`, el retrato de estudio sobre fondo navy). Vestuario completo.
 
 ## Cómo usarlos
 
@@ -30,7 +30,7 @@ retrato de estudio sobre fondo navy). Pendiente: elevador.
 | 🧂 El Salado (periódico) | `miroslava-salado.jpg` | Salero gigante, la sal cayendo como nieve |
 | 🪦 El Muerto (periódico) | `miroslava-muerto.jpg` | Velo negro y rosa roja junto a una lápida con casco |
 | ⚔️ Marcador de la Guerra | `miroslava-guerra.jpg` | Generala en el cuarto de guerra, mapa con soldaditos de tres colores |
-| 📊 Del Penthouse al Sótano | `miroslava-elevador.jpg` ⚠️ pendiente (1er intento rechazado) | Elevador de lujo, dedo en el botón "SÓTANO" |
+| 📊 Del Penthouse al Sótano | `miroslava-elevador.jpg` ✅ (2º intento, prompt v2) | Elevador de lujo, dedo en el botón "SÓTANO" |
 | 🔮 El Palpitote del Escote | `miroslava-palpitote.jpg` | Adivina con bola de cristal (con un balón adentro) |
 | 📣 Cierre, pero no de patas | `miroslava-despedida.jpg` | Saliendo por el túnel del estadio, volteando a mandar un beso |
 | 📰 Fe de erratas / Nota de la redacción | `miroslava-redaccion.jpg` | Redacción clásica, máquina de escribir, lápiz rojo tachando |

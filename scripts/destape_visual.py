@@ -385,13 +385,17 @@ VESTUARIO = {
     "salado":         ("miroslava-salado.jpg", 36, 50),         # El Salado (periódico)
     "muerto":         ("miroslava-muerto.jpg", 32, 56),         # El Muerto (periódico)
     "guerra":         ("miroslava-guerra.jpg", 30, 50),         # Marcador de la Guerra
-    "elevador":       ("miroslava-elevador.jpg", 24),       # Del Penthouse al Sótano
+    "elevador":       ("miroslava-elevador.jpg", 23, 45),       # Del Penthouse al Sótano
     "palpitote":      ("miroslava-palpitote.jpg", 30, 50),      # El Palpitote del Escote
     "despedida":      ("miroslava-despedida.jpg", 27, 52),      # Cierre, pero no de patas
     "retrato":        ("miroslava-retrato.jpg", 30),        # retrato de estudio (base nueva)
     "redaccion":      ("miroslava-redaccion.jpg", 24, 50),      # Fe de erratas / nota de la redacción
 }
 GENERICAS = ["noticiero", "gala", "exclusiva", "exclusiva-news"]
+# Encuadre horizontal en la PORTADILLA (4:5 a cuadro completo): en el
+# elevador el chiste es el dedo en "SÓTANO", así que se corre a la izquierda
+# para que entren el panel y la cara.
+PORTADILLA_X = {"elevador": 34}
 # Qué Miroslava va con qué sección (por palabra del título). La primera que
 # no repita la de la tarjeta anterior gana; así el carrusel no se ve clonado.
 FOTO_SECCION = [
@@ -479,6 +483,32 @@ document.fonts.ready.then(() => {{
   }}
 }});
 </script></body></html>"""
+
+
+def portadilla_html(s, foto, jornada, fecha, pag, total):
+    """Tarjeta separadora de una sección larga: Miroslava a cuadro completo,
+    el título grande y el aviso de cuántas tarjetas vienen. Sin texto nuevo:
+    solo el título y el subtítulo de la sección."""
+    x, y = PORTADILLA_X.get(foto, (VESTUARIO[foto] + (50,))[2]), VESTUARIO[foto][1]
+    return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
+<style>{CSS_CARD}
+.portadilla .foto{{position:absolute;inset:0;background-size:cover;background-position:{x}% {y}%}}
+.portadilla .foto::after{{content:"";position:absolute;inset:0;background:linear-gradient(180deg,
+  rgba(10,20,40,.55) 0%,rgba(10,20,40,0) 22%,rgba(10,20,40,0) 48%,rgba(10,20,40,.85) 72%,#0A1428 100%)}}
+.portadilla .pie-t{{position:absolute;left:60px;right:60px;bottom:150px}}
+.portadilla .pie-t .e{{font-family:'Apple Color Emoji';font-size:74px}}
+.portadilla .pie-t .t{{font-family:Anton,'Arial Black',sans-serif;font-size:112px;line-height:.98;
+  text-transform:uppercase;text-shadow:0 6px 24px rgba(0,0,0,.6)}}
+.portadilla .pie-t .s{{margin-top:14px;font-size:30px;color:#D6DDE8;font-weight:600}}
+.portadilla footer{{position:absolute;left:0;right:0;bottom:0}}
+</style></head><body><div class="card portadilla">
+<div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
+<div class="top"><img src="{escudo_uri()}"><div><div class="kick">EL DESTAPE DE <b>MIROSLAVA</b></div>
+<div class="meta">{html.escape(jornada)}</div></div></div>
+<div class="pie-t"><div class="e">{s['emoji']}</div><div class="t">{html.escape(s['titulo'])}</div>
+<div class="s">{html.escape(cap(s['sub'])) if s['sub'] else ''}</div></div>
+<footer><span>💋 Miroslava</span><span>{pag} / {total}</span><span>{fecha}</span></footer>
+</div></body></html>"""
 
 
 def portada_html(portada_lineas, secciones, jornada, fecha, total, foto="jersey"):
@@ -828,11 +858,15 @@ def main():
             resto = [b for b in bs if b[0] != "rank"]
             trozos = [ranks[i:i + POR_TARJETA_RANKING]
                       for i in range(0, len(ranks), POR_TARJETA_RANKING)]
+            # Sección larga: abre con una PORTADILLA a foto completa (su
+            # Miroslava de vestuario) y las tarjetas de datos van sin foto,
+            # que la letra del ranking no se encoja.
+            plan.append((s, None, s["sub"], "portadilla"))
             for k, tr in enumerate(trozos):
                 sub = (s["sub"] + " · " if s["sub"] else "") + f"{tr[0][1][0]}–{tr[-1][1][0]}"
                 # Solo la primera tarjeta de una sección partida lleva foto:
                 # en las de continuación el espacio es para la letra.
-                plan.append((s, tr + (resto if k == len(trozos) - 1 else []), sub, k == 0))
+                plan.append((s, tr + (resto if k == len(trozos) - 1 else []), sub, False))
         else:
             plan.append((s, bs, s["sub"], True))
     total = len(plan) + 1
@@ -853,8 +887,13 @@ def main():
                 out = destino / f"{i:02d}-{slug}.jpg"
                 foto = elegir_foto(s["titulo"], anterior) if con_foto else None
                 anterior = foto or anterior
-                captura(tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
-                                s["titulo"], s["emoji"], sub, foto, principal), out, tmp, perfil)
+                if con_foto == "portadilla":
+                    out = out.with_name(out.stem + "-portadilla.jpg")
+                    html_t = portadilla_html(s, foto, jornada, fecha, i, total)
+                else:
+                    html_t = tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
+                                     s["titulo"], s["emoji"], sub, foto, principal)
+                captura(html_t, out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")
             ordenar_para_whatsapp(destino, edicion.stem)
         if "--solo-tarjetas" not in sys.argv:
