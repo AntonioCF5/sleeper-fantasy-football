@@ -18,6 +18,15 @@ mismo commit en que aparezca (regla de coherencia). Última actualización:
 - **Entrega**: DOS textos (uno por liga), formato WhatsApp nativo (*negritas*,
   _cursivas_, emojis — NUNCA markdown), listos para copiar y pegar. El user los
   envía manualmente a los grupos; jamás se intenta enviar directo.
+- **Formato visual (user, 2026-09-29: "hay que armar esto en un formato que
+  sea fácil de leer")**: el texto aprobado se renderiza con
+  `scripts/destape_visual.py` en un **carrusel de tarjetas** 1080x1350 (una
+  por sección, portada con Miroslava, marca GM) y un **PDF membretado**. Las
+  tarjetas son lo que se manda al grupo; el texto sigue siendo la fuente —
+  el lint, el editor y las correcciones del user se hacen SOBRE EL TEXTO y
+  luego se vuelve a renderizar. Por eso el .txt en el repo tiene que ser la
+  versión publicada: si el user publica con cambios, se sincroniza el .txt
+  antes de renderizar.
 
 ## Miroslava (el personaje)
 
@@ -584,6 +593,10 @@ cambios suyos sobre mi borrador, cada uno una regla:
     Syntek está loco, Picasso estaba loco…"; y el **"bobibubabau"** que dice
     el user). Buscar el viral mexicano de la semana ANTES de escribir es parte
     del paso 2 de la tarea — no opcional.
+  · Al publicar, el user además QUITÓ "Syntek juró que nunca haría reguetón.
+    Masepum." de la burla al comisionado: la burla se sostuvo sola y el
+    remate viral sobraba ahí (ya había Syntek en la Cagada del Chapo). Un
+    viral por edición basta; dos se sienten forzados.
   · Más cultura pop que el mínimo de 4: el user pidió MÁS aunque la edición
     ya tenía 6. La cuota es piso, no meta.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
