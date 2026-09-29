@@ -2,23 +2,22 @@
 """Manda al user el kit del Destape por correo, listo para pasarlo a WhatsApp.
 
 Cuerpo: el texto de la edición en texto plano (los *asteriscos* de WhatsApp
-sobreviven). Adjuntos, en orden: las tarjetas 01..N, el PDF carrusel y el PDF
-periódico de reports/<season>/roast/visual/<edición>/. En el iPhone: abrir el
-correo → "Guardar N imágenes" → quedan en Fotos en orden (fecha EXIF
-consecutiva) → en WhatsApp se tocan de la 1 a la N y se mandan como álbum.
+sobreviven). Adjuntos: SOLO los PDFs de reports/<season>/roast/visual/<edición>/
+— el carrusel (todas las tarjetas en orden, un archivo) y el periódico. Las
+tarjetas sueltas NO se adjuntan (user 2026-09-29: "el pdf carrusel con todas
+es suficiente"); siguen en el repo si algún día hacen falta como álbum.
 
 Mismo mecanismo que send_newsletter.py: la contraseña de app vive SOLO en el
 Llavero de macOS (servicio sleeper-newsletter-gmail); este script nunca la ve
 escrita en ningún archivo.
 
-Uso: python3 scripts/send_destape.py <edicion.txt> [--sin-imagenes]
+Uso: python3 scripts/send_destape.py <edicion.txt> [--sin-adjuntos]
 """
 import json
 import smtplib
 import ssl
 import sys
 from email.mime.application import MIMEApplication
-from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -45,12 +44,7 @@ def main():
     msg["To"] = recipient = addrs.get("to", sn.DEFAULT_EMAIL)
     msg.attach(MIMEText(texto, "plain", "utf-8"))
     adjuntos = []
-    if "--sin-imagenes" not in sys.argv and visual.exists():
-        for f in sorted(visual.glob("[0-9][0-9]-*.jpg")):
-            part = MIMEImage(f.read_bytes(), _subtype="jpeg")
-            part.add_header("Content-Disposition", "attachment", filename=f.name)
-            msg.attach(part)
-            adjuntos.append(f.name)
+    if "--sin-adjuntos" not in sys.argv and visual.exists():
         for f in sorted(visual.glob("*.pdf")):
             part = MIMEApplication(f.read_bytes(), _subtype="pdf")
             part.add_header("Content-Disposition", "attachment", filename=f.name)
