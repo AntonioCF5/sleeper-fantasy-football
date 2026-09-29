@@ -7,9 +7,13 @@ roast_lint y el editor) y la convierte, sin reescribir una sola palabra, en:
   1. Un CARRUSEL de tarjetas 1080 de ancho (mín. 1350 de alto, 4:5) — portada
      con Miroslava + una tarjeta por sección; el ranking se parte en varias
      para que la letra se lea en un teléfono. Es lo que se manda al grupo.
-  2. Un PDF MEMBRETADO (carta, papel blanco, franja #013369 con el escudo en
-     cada página) con la edición completa, para archivo o para quien la quiera
-     leer de corrido.
+  2. Un PDF en formato PERIÓDICO (cabezal gótico, fechario, primera plana con
+     la Putiza de nota principal, tres columnas, fotos de Miroslava como
+     fotoperiodismo; el alto de página se ajusta para no dejar media plana en
+     blanco) para quien la quiera leer de corrido.
+  3. Un PDF CARRUSEL (las tarjetas en orden, una por página): un solo archivo
+     que se manda a WhatsApp de un toque. Y las tarjetas llevan fecha EXIF
+     consecutiva, así que guardadas en el teléfono quedan en orden.
 
 Motor: HTML + CSS renderizado con Chrome headless (emoji a color, tipografía
 real y ajuste de línea automático — lo que SVG+sips no hace). Chrome corre
@@ -485,25 +489,171 @@ document.fonts.ready.then(() => {{
 </script></body></html>"""
 
 
-def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey"):
+FUENTES_PERIODICO = ('<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&'
+                     'family=Playfair+Display:ital,wght@0,700;0,900;1,400;1,700&'
+                     'family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">')
+DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+MESES_L = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+           "septiembre", "octubre", "noviembre", "diciembre"]
+
+CSS_PERIODICO = """
+@page{size:11in ALTOin;margin:.55in .6in}
+*{box-sizing:border-box}
+html{background:#F3EEE2}
+body{margin:0;background:#F3EEE2;color:#161412;font-family:'Libre Baskerville',Georgia,serif;
+  font-size:10.3pt;line-height:1.46;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.mast{text-align:center;border-bottom:4px double #161412;padding-bottom:6px;margin-bottom:10px}
+.mast-top{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.oreja{width:2.05in;border:1.5px solid #161412;padding:7px 9px;font-size:8.2pt;line-height:1.35;
+  text-align:left;font-family:'Playfair Display',serif}
+.oreja.der{text-align:right}
+.oreja img{height:.62in;float:left;margin-right:8px}
+.oreja b{font-weight:900;color:#B3121B;text-transform:uppercase;letter-spacing:.5pt}
+.mast-top>div:nth-child(2){flex:1}
+.nombre{white-space:nowrap;font-family:'UnifrakturMaguntia','Old English Text MT',serif;font-weight:400;font-size:84pt;
+  line-height:.95;margin:0;letter-spacing:.5pt}
+.de{font-family:'Playfair Display',serif;font-style:italic;font-size:17pt;margin-top:-4px}
+.de b{color:#B3121B;font-style:normal;font-weight:900;letter-spacing:2pt;text-transform:uppercase}
+.fechas{display:flex;justify-content:space-between;border-top:1.5px solid #161412;
+  border-bottom:1.5px solid #161412;margin-top:8px;padding:4px 2px;font-family:'Playfair Display',serif;
+  font-size:8.6pt;text-transform:uppercase;letter-spacing:1.4pt;font-weight:700}
+.primera{display:grid;grid-template-columns:2.3in 1fr;gap:0 18px;border-bottom:1.5px solid #161412;
+  padding-bottom:12px;margin-bottom:12px}
+.nota{border-right:1px solid #161412;padding-right:16px}
+.nota p{text-align:left;hyphens:auto}
+.nota .kick,.art .kick,.lead .kick{font-family:'Playfair Display',serif;font-weight:900;font-size:8.4pt;
+  letter-spacing:1.6pt;text-transform:uppercase;color:#B3121B;margin-bottom:3px;break-after:avoid}
+.nota .foto{width:100%;height:2.3in;background-size:cover;background-position:46% 20%;
+  filter:grayscale(.15) contrast(1.05);margin:4px 0 3px}
+.pie{font-size:7.4pt;font-style:italic;color:#4A4640;margin-bottom:8px;line-height:1.3}
+.lead h2{font-family:'Playfair Display',serif;font-weight:900;font-size:40pt;line-height:1.02;
+  margin:0 0 6px;letter-spacing:-.5pt}
+.lead .dek{font-family:'Playfair Display',serif;font-style:italic;font-size:14pt;margin:0 0 8px;color:#3A3631}
+.lead .foto{height:3.7in;background-size:cover;background-position:50% 24%;margin:4px 0 3px}
+.lead .texto{column-count:2;column-gap:18px;column-rule:1px solid #9C958A;text-align:justify;
+  hyphens:auto;font-size:11pt}
+.columnas{column-count:3;column-gap:20px;column-rule:1px solid #9C958A}
+.art{break-inside:auto;margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid #161412}
+.art h3{font-family:'Playfair Display',serif;font-weight:900;font-size:19pt;line-height:1.05;
+  margin:0 0 4px;break-after:avoid}
+.art .dek{font-family:'Playfair Display',serif;font-style:italic;font-size:9.6pt;color:#4A4640;
+  margin:0 0 6px;break-after:avoid}
+.art .foto{height:2.2in;background-size:cover;background-position:50% 24%;margin:4px 0 3px;
+  break-inside:avoid}
+p{margin:0 0 6px;text-align:justify;hyphens:auto}
+strong{font-weight:700}
+.e{font-family:'Apple Color Emoji';font-style:normal}
+.bullets{list-style:none;margin:0 0 6px;padding:0}
+.bullets li{padding:0 0 6px 13px;position:relative;text-align:justify;hyphens:auto;break-inside:avoid}
+.bullets li::before{content:"■";position:absolute;left:0;top:0;color:#B3121B;font-size:7pt}
+.medalla{display:block;margin:0 0 7px;break-inside:avoid;text-align:justify;hyphens:auto}
+.medalla>div{display:inline}
+.med-emo{font-family:'Apple Color Emoji';margin-right:4px}
+.med-etq{font-family:'Playfair Display',serif;font-weight:900;text-transform:uppercase;
+  letter-spacing:.8pt;font-size:9.4pt;display:inline}
+.med-etq::after{content:". "}
+.med-txt,.med-txt *{display:inline}
+.score{display:flex;justify-content:space-between;gap:10px;font-family:'Playfair Display',serif;
+  font-weight:900;font-size:13pt;border-top:2px solid #161412;border-bottom:2px solid #161412;
+  padding:4px 0;margin:2px 0 8px;break-inside:avoid}
+.sc-eq{display:flex;gap:8px;align-items:baseline}
+.sc-eq.gana b{color:#B3121B}
+.duelo{margin:0 0 7px;break-inside:avoid;text-align:justify}
+.du-vs{font-family:'Playfair Display',serif;font-weight:900;font-size:10.4pt;display:inline}
+.du-vs i{font-style:italic;font-weight:400;color:#B3121B;margin:0 3px}
+.duelo>div:last-child{display:inline;margin-left:4px}
+.rank{display:grid;grid-template-columns:22px 1fr;gap:0 6px;padding:4px 0;border-bottom:1px dotted #9C958A;
+  break-inside:avoid}
+.rk-n{font-family:'Playfair Display',serif;font-weight:900;font-size:14pt;color:#B3121B;line-height:1.1}
+.rk-top{font-size:9.6pt}
+.rk-eq{font-weight:700}
+.rk-rec{font-size:7.8pt;color:#4A4640;margin-left:4px}
+.rk-txt{font-size:9.4pt;text-align:justify;hyphens:auto}
+.tag{font-family:'Playfair Display',serif;font-size:6.8pt;font-weight:900;text-transform:uppercase;
+  letter-spacing:.8pt;padding:0 4px;border:1px solid currentColor;margin-right:4px}
+.tag.caballo{color:#1F6F43}.tag.decep{color:#B3121B}
+table.guerra{width:100%;border-collapse:collapse;font-size:9.6pt;margin:2px 0 8px;break-inside:avoid}
+table.guerra th{font-family:'Playfair Display',serif;text-transform:uppercase;font-size:7.6pt;
+  letter-spacing:1pt;text-align:left;border-bottom:1.5px solid #161412;padding:2px 3px}
+table.guerra td{padding:4px 3px;border-bottom:1px dotted #9C958A;font-weight:700}
+table.guerra td.num{text-align:right;font-variant-numeric:tabular-nums}
+table.guerra tr.lider td{background:#E4DCCB}
+.firma{text-align:right;font-style:italic}
+.cierre-foto{height:1.9in;background-size:cover;background-position:46% 22%;margin:6px 0 3px}
+.colofon{column-span:all;text-align:center;font-family:'Playfair Display',serif;font-size:8pt;
+  letter-spacing:1.4pt;text-transform:uppercase;border-top:4px double #161412;padding-top:5px;margin-top:6px}
+"""
+
+FOTO_PERIODICO = {"regadera": "exclusiva", "medallas": "gala", "guerra": "noticiero"}
+
+
+def fecha_larga(nombre):
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", nombre)
+    if not m:
+        return ""
+    d = date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    return f"{DIAS[d.weekday()]} {d.day} de {MESES_L[d.month - 1]} de {d.year}"
+
+
+def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre="", alto=17):
+    """El PDF como PERIÓDICO (user 2026-09-29): cabezal gótico, fechario,
+    nota de la redacción + nota principal a dos columnas en primera plana, y el
+    resto de la edición a tres columnas con fotos de Miroslava como fotoperiodismo.
+    El texto es el mismo del .txt; solo se agrega la 'tripa' del diario (cabezal,
+    fechario, pies de foto sin chiste)."""
     liga = jornada.split("—")[-1].strip() or "La Gallamijos"
-    cuerpo = []
+    num = re.search(r"(\d+)", jornada)
+    num = num.group(1) if num else "—"
+    # Nota principal: la Putiza (el marcador es el titular natural).
+    lead = next((s for s in secciones if "putiza" in s["titulo"].lower()), secciones[0])
+    lb = bloques(lead["lineas"])
+    marc = next((b[1] for b in lb if b[0] == "marcador"), None)
+    if marc:
+        a, pa, b_, pb, txt = marc
+        titular = f"{html.escape(a)} {pa}, {html.escape(b_)} {pb}"
+        resto = [("parrafo", txt)] + [x for x in lb if x[0] != "marcador"]
+    else:
+        titular = html.escape(lead["titulo"].capitalize())
+        resto = lb
+    lead_html = f"""<div class="lead"><div class="kick"><span class="e">{lead['emoji']}</span> {html.escape(lead['titulo'])}</div>
+<h2>{titular}</h2>
+<div class="foto" style="background-image:url('{foto_uri('exclusiva-news')}')"></div>
+<div class="pie">Miroslava, en el lugar de los hechos. Foto: El Destape.</div>
+<div class="texto">{html_bloques(resto, "pdf")}</div></div>"""
+    arts = []
     for s in secciones:
-        cuerpo.append(f"<h2><span class='e'>{s['emoji']}</span>{html.escape(s['titulo'])}</h2>"
-                      + (f"<div class='sub'>{html.escape(s['sub'])}</div>" if s["sub"] else "")
-                      + html_bloques(bloques(s["lineas"]), "pdf"))
-    return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
-<style>{CSS_PDF}</style></head><body>
-<div class="hdr"><img src="{escudo_uri()}"><div><div class="k">EL DESTAPE DE <b>MIROSLAVA</b></div>
-<div class="m">Órgano oficial de chisme · {html.escape(liga)} · est. 2015</div></div></div>
-<div class="ftr"><span>{html.escape(jornada)}</span><span>{fecha}</span><span>💋 Miroslava</span></div>
-<table class="pagina"><thead><tr><td><div class="sp-top"></div></td></tr></thead>
-<tfoot><tr><td><div class="sp-bot"></div></td></tr></tfoot><tbody><tr><td><div class="cuerpo">
-<div class="portada"><div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
-<div><div class="t1">EL DESTAPE DE <b>MIROSLAVA</b></div><div class="jor">{html.escape(jornada)} · {fecha}</div>
-{html_bloques(bloques(portada_lineas), "pdf")}</div></div>
-{"".join(cuerpo)}
-</div></td></tr></tbody></table></body></html>"""
+        if s is lead:
+            continue
+        t = s["titulo"].lower()
+        clave = next((k for k in FOTO_PERIODICO if k in t), None)
+        fotohtml = ""
+        if clave and FOTO_PERIODICO[clave] in FOTOS:
+            fotohtml = (f"<div class='foto' style=\"background-image:url('{foto_uri(FOTO_PERIODICO[clave])}')\"></div>"
+                        "<div class='pie'>Miroslava. Foto: El Destape.</div>")
+        cuerpo = html_bloques(bloques(s["lineas"]), "pdf")
+        if "cierre" in t:
+            cuerpo += f"<div class='cierre-foto' style=\"background-image:url('{foto_uri(foto)}')\"></div>"
+        arts.append(f"<div class='art'><div class='kick'><span class='e'>{s['emoji']}</span> "
+                    f"{html.escape(s['titulo'].split(' — ')[0])}</div>"
+                    f"<h3>{html.escape(cap(s['titulo'].lower()).replace('miroslava', 'Miroslava'))}</h3>"
+                    + (f"<div class='dek'>{html.escape(cap(s['sub']))}</div>" if s["sub"] else "")
+                    + fotohtml + cuerpo + "</div>")
+    return f"""<!doctype html><html lang="es"><head><meta charset="utf-8">{FUENTES_PERIODICO}
+<style>{CSS_PERIODICO.replace('ALTO', str(alto))}</style></head><body>
+<header class="mast"><div class="mast-top">
+<div class="oreja"><img src="{escudo_uri()}"><b>Órgano oficial de chisme</b><br>de {html.escape(liga)}<br>Fundado en 2015</div>
+<div><div class="nombre">El Destape</div><div class="de">de <b>Miroslava</b></div></div>
+<div class="oreja der"><b>Jornada {num}</b><br>Ejemplar de cortesía<br>Circula en WhatsApp</div></div>
+<div class="fechas"><span>Año 1 · Número {num}</span><span>{fecha_larga(nombre)}</span><span>{html.escape(liga)}</span></div>
+</header>
+<section class="primera"><div class="nota"><div class="kick">Nota de la redacción</div>
+<div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
+<div class="pie">Nuestra corresponsal, en funciones.</div>
+{html_bloques(bloques(portada_lineas), "pdf")}</div>
+{lead_html}</section>
+<div class="columnas">{"".join(arts)}
+<div class="colofon">El Destape de Miroslava · {html.escape(liga)} · {fecha} · Edición digital</div></div>
+</body></html>"""
 
 
 # ───────────────────────────── render ─────────────────────────────
@@ -558,6 +708,72 @@ def captura(html_txt, out_png, tmp, perfil):
     return alto
 
 
+def llenado_ultima_pagina(pdf):
+    """Qué fracción de la última página tiene tinta (0-1), vía pdftoppm."""
+    if not shutil.which("pdftoppm"):
+        return None, None
+    info = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+    paginas = int(re.search(r"Pages:\s+(\d+)", info).group(1))
+    base = pdf.with_suffix("")
+    subprocess.run(["pdftoppm", "-r", "30", "-png", "-f", str(paginas), "-l", str(paginas),
+                    str(pdf), str(base) + "-ult"], check=True)
+    png = next(pdf.parent.glob(base.name + "-ult*.png"))
+    im = Image.open(png).convert("L")
+    png.unlink()
+    w, h = im.size
+    fondo = im.getpixel((w // 2, h - 2))
+    ultima_fila = max((y for y in range(h) if any(abs(im.getpixel((x, y)) - fondo) > 25
+                                                  for x in range(0, w, 3))), default=0)
+    return paginas, ultima_fila / h
+
+
+def imprimir_periodico(pdf, armar_html, tmp, perfil):
+    """Un periódico no deja media plana en blanco: se imprime a tabloide
+    (11x17), se mide cuánto llenó la última página y se reimprime con el alto
+    justo para que las páginas salgan llenas (entre 12 y 17 pulgadas)."""
+    def imprimir(alto):
+        src = tmp / "periodico.html"
+        src.write_text(armar_html(alto))
+        if pdf.exists():
+            pdf.unlink()
+        chrome(["--no-pdf-header-footer", f"--print-to-pdf={pdf}", src.as_uri()], perfil, pdf)
+    imprimir(17)
+    paginas, frac = llenado_ultima_pagina(pdf)
+    if paginas and paginas > 1 and frac < 0.8:
+        util = 17 - 1.1                                     # alto útil sin márgenes
+        total = (paginas - 1 + frac) * util
+        alto = min(17, max(12, total / paginas * 1.04 + 1.1))
+        imprimir(round(alto, 2))
+
+
+def ordenar_para_whatsapp(destino, nombre):
+    """WhatsApp manda un álbum en el orden en que se TOCAN las fotos, y la
+    galería del teléfono las ordena por FECHA DE CAPTURA, no por nombre. Así
+    que cada tarjeta lleva una fecha EXIF un segundo después de la anterior
+    (y el mismo orden en la fecha del archivo): guardadas en Fotos quedan
+    1→N en fila, y se seleccionan de corrido. Además se arma un PDF con las
+    tarjetas en orden: un solo archivo que se manda de un toque."""
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", nombre)
+    base = (time.mktime((int(m.group(1)), int(m.group(2)), int(m.group(3)), 8, 0, 0, 0, 0, -1))
+            if m else time.time())
+    tarjetas = sorted(destino.glob("[0-9][0-9]-*.jpg"))
+    for k, f in enumerate(tarjetas):
+        t = base + k
+        im = Image.open(f)
+        exif = im.getexif()
+        sello = time.strftime("%Y:%m:%d %H:%M:%S", time.localtime(t))
+        exif[0x0132] = sello                                   # DateTime
+        exif.get_ifd(0x8769)[0x9003] = sello                   # DateTimeOriginal
+        exif.get_ifd(0x8769)[0x9004] = sello                   # DateTimeDigitized
+        im.save(f, quality=90, optimize=True, progressive=True, exif=exif)
+        os.utime(f, (t, t))
+    if tarjetas:
+        pags = [Image.open(f).convert("RGB") for f in tarjetas]
+        pdf = destino / f"{nombre}-carrusel.pdf"
+        pags[0].save(pdf, save_all=True, append_images=pags[1:], resolution=144)
+        print(f"  {pdf.relative_to(ROOT)}")
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     if len(args) != 1:
@@ -569,9 +785,9 @@ def main():
     fecha = fecha_legible(edicion.stem)
     temporada = edicion.stem[:4]
     destino = ROOT / "reports" / temporada / "roast" / "visual" / edicion.stem
-    if destino.exists():
+    if destino.exists() and "--solo-pdf" not in sys.argv:
         shutil.rmtree(destino)
-    destino.mkdir(parents=True)
+    destino.mkdir(parents=True, exist_ok=True)
 
     # Plan de tarjetas: portada + una por sección; el ranking se parte.
     plan = []
@@ -610,11 +826,11 @@ def main():
                 captura(tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
                                 s["titulo"], s["emoji"], sub, foto, principal), out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")
+            ordenar_para_whatsapp(destino, edicion.stem)
         if "--solo-tarjetas" not in sys.argv:
-            src = tmp / "edicion.html"
-            src.write_text(pdf_html(portada, secciones, jornada, fecha, principal))
             pdf = destino / f"{edicion.stem}.pdf"
-            chrome(["--no-pdf-header-footer", f"--print-to-pdf={pdf}", src.as_uri()], perfil, pdf)
+            imprimir_periodico(pdf, lambda alto: pdf_html(portada, secciones, jornada, fecha,
+                                                          principal, edicion.stem, alto), tmp, perfil)
             print(f"  {pdf.relative_to(ROOT)}")
     print(f"[visual] {destino.relative_to(ROOT)} listo")
 

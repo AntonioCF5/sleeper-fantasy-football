@@ -27,6 +27,15 @@ mismo commit en que aparezca (regla de coherencia). Última actualización:
   luego se vuelve a renderizar. Por eso el .txt en el repo tiene que ser la
   versión publicada: si el user publica con cambios, se sincroniza el .txt
   antes de renderizar.
+  **Cómo se comparte (user, 2026-09-29: "de manera sencilla y en orden")**:
+  el kit llega por correo (`send_destape.py`). Álbum: en el iPhone "Guardar
+  N imágenes" → las tarjetas quedan en fila en Fotos porque llevan fecha
+  EXIF consecutiva → en WhatsApp se tocan de la 1 a la N (WhatsApp manda en
+  el orden en que se tocan). Un solo toque: el **PDF carrusel** (las mismas
+  tarjetas, una por página). Para leer de corrido: el **PDF periódico**
+  (cabezal gótico *El Destape*, primera plana con la Putiza de nota
+  principal, tres columnas; los pies de foto son neutros — ningún chiste
+  nuevo fuera del texto aprobado).
   **Vestuario de Miroslava para las tarjetas** (user, 2026-09-29, en
   `data/intel/brand/`): `jersey` (tailgate, portada y despedida), `gala`
   (vestido rojo con el Lombardi → medallas, cierre), `noticiero` (set GM →
