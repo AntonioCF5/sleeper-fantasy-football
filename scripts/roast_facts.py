@@ -231,7 +231,14 @@ def league_facts(lg_cfg, season, week, players):
         st = m.get("starters") or []
         vacias = sum(1 for s in st if s in ("0", 0, "", None))
         titulares = [(pp.get(p, 0), p) for p in st if p not in ("0", 0, "", None)]
-        banca = sorted(((pp.get(p, 0), p) for p in (m.get("players") or []) if p not in st),
+        # Taxi e IR NO son banca: no se pueden alinear, así que ni se listan
+        # como "mejor banca" ni entran al lineup óptimo (bug del 2026-09-29:
+        # el RECUPERABLE de la Dinastía contaba a Sadiq, Ted Hurst y Pat
+        # Bryant, los tres en taxi). El matchup trae players con todo incluido.
+        r_m = next((r for r in rosters if r["roster_id"] == m["roster_id"]), {})
+        fuera = set((r_m.get("reserve") or []) + (r_m.get("taxi") or []))
+        alineables = [p for p in (m.get("players") or []) if p not in fuera]
+        banca = sorted(((pp.get(p, 0), p) for p in alineables if p not in st),
                        reverse=True)
         lines.append(f"\n**{dn}** — {m.get('points', 0):.1f} pts, "
                      f"{len(titulares)} alineados de {len(slots)}"
@@ -239,6 +246,11 @@ def league_facts(lg_cfg, season, week, players):
         best = sorted(titulares, reverse=True)[:3]
         lines.append("- Mejores: " + ", ".join(
             f"{players.get(p, {}).get('full_name') or p} {v:.1f}" for v, p in best))
+        guardados = sorted(((pp.get(p, 0), p) for p in (m.get("players") or [])
+                            if p in fuera and pp.get(p, 0) > 0), reverse=True)
+        if guardados:
+            lines.append("- Taxi/IR que anotó (NO alineable, no cuenta como banca): " + ", ".join(
+                f"{players.get(p, {}).get('full_name') or p} {v:.1f}" for v, p in guardados[:3]))
         ceros = [p for v, p in titulares if v <= 0]
         if ceros:
             lines.append("- TITULARES EN CERO: " + ", ".join(
@@ -253,9 +265,9 @@ def league_facts(lg_cfg, season, week, players):
             # marcador real: esa diferencia sí se podía ganar. El injury_status
             # de hoy no aplica a una semana ya jugada, así que se neutraliza.
             meta = {pid: dict(players.get(pid) or {}, injury_status=None)
-                    for pid in (m.get("players") or [])}
-            pts = {pid: pp.get(pid, 0) for pid in (m.get("players") or [])}
-            mejor, _ = analysis.optimal_lineup(m.get("players") or [],
+                    for pid in alineables}
+            pts = {pid: pp.get(pid, 0) for pid in alineables}
+            mejor, _ = analysis.optimal_lineup(alineables,
                                                league["roster_positions"], meta, pts)
             optimo = sum(v for _, _, v in mejor)
             perdido = optimo - (m.get("points") or 0)
