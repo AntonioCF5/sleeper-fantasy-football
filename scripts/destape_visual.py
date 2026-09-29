@@ -390,12 +390,25 @@ VESTUARIO = {
     "despedida":      ("miroslava-despedida.jpg", 27, 52),      # Cierre, pero no de patas
     "retrato":        ("miroslava-retrato.jpg", 30),        # retrato de estudio (base nueva)
     "redaccion":      ("miroslava-redaccion.jpg", 24, 50),      # Fe de erratas / nota de la redacción
+    # Variantes de rotación (2026-09-29): encuadre medido en cada foto.
+    "portada-estadio":       ("miroslava-portada-estadio.jpg", 23, 50),
+    "portada-camara":        ("miroslava-portada-camara.jpg", 28, 62),
+    "portada-voceadora":     ("miroslava-portada-voceadora.jpg", 30, 53),
+    "final-sofa":            ("miroslava-final-sofa.jpg", 30, 37),
+    "final-gradas":          ("miroslava-final-gradas.jpg", 22, 50),
+    "boxeo-arbitra":         ("miroslava-boxeo-arbitra.jpg", 24, 50),
+    "regadera-cortina":      ("miroslava-regadera-cortina.jpg", 27, 47),
+    "medallas-oscar":        ("miroslava-medallas-oscar.jpg", 25, 53),
+    "guerra-trinchera":      ("miroslava-guerra-trinchera.jpg", 30, 50),
+    "palpitote-tarot":       ("miroslava-palpitote-tarot.jpg", 30, 50),
+    "elevador-terraza":      ("miroslava-elevador-terraza.jpg", 27, 50),
+    "despedida-convertible": ("miroslava-despedida-convertible.jpg", 23, 50),
 }
 GENERICAS = ["noticiero", "gala", "exclusiva", "exclusiva-news"]
 # Encuadre horizontal en la PORTADILLA (4:5 a cuadro completo): en el
 # elevador el chiste es el dedo en "SÓTANO", así que se corre a la izquierda
 # para que entren el panel y la cara.
-PORTADILLA_X = {"elevador": 34}
+PORTADILLA_X = {"elevador": 34, "elevador-terraza": 62}
 # Qué Miroslava va con qué sección (por palabra del título). La primera que
 # no repita la de la tarjeta anterior gana; así el carrusel no se ve clonado.
 # POOLS de rotación por sección (user 2026-09-29: "más imágenes que ir

@@ -227,6 +227,12 @@ sola, sin tocar código. Pools: `portada-*`, `final-*` (la foto grande de la
 `guerra-*`, `elevador-*`, `palpitote-*`, `despedida-*`, `redaccion-*`.
 Diciembre sigue mandando: portada y final con el suéter navideño.
 
+**Estado 2026-09-29:** aprobadas y rotando — portada-estadio, portada-camara,
+portada-voceadora, final-sofa, final-gradas, regadera-cortina,
+boxeo-arbitra, medallas-oscar, guerra-trinchera, elevador-terraza,
+palpitote-tarot, despedida-convertible. Pendientes: final-beso (rechazada,
+ver abajo) y redaccion-imprenta (no generada aún).
+
 Todas: adjuntar la referencia base, 16:9 horizontal, ella centrada, cara en
 el tercio superior. (La portada se recorta en franja ancha arriba y la final
 en rectángulo abajo: dejen aire alrededor de la cabeza.)
@@ -288,6 +294,28 @@ Composition: horizontal 16:9, subject centered, framed from the waist up, face i
 ```
 
 ### `miroslava-final-beso.jpg`
+
+> **2026-09-29 — 1er intento RECHAZADO** (user: "que no se vea el beso en el
+> aire"): la marca de labial salió flotando sobre su brazo y pecho, no en un
+> vidrio. Usar la **v2** (sin vidrio ni marca) o corregir la imagen.
+
+**Corrección sobre la imagen generada** (adjuntar ESA imagen):
+```
+Edit this image: completely remove the red lipstick kiss mark that is floating in the air in front of her arm and chest. Nothing should be floating in front of her — just her hand extended toward the camera. Keep her face, blown-kiss expression, hair, navy dress, hand pose, background and lighting exactly the same.
+```
+
+**v2 desde la base** (`miroslava-final-beso.jpg`):
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a TV studio at the end of a broadcast, soft navy seamless background with a few out-of-focus studio lights and a small red "GM" shield glowing on a monitor behind her.
+
+Outfit: her signature fitted navy-blue (#013369) dress with an elegant neckline and a thin gold necklace.
+
+Pose: blowing a kiss toward the camera — lips puckered, one hand raised with the palm up just below her lips as the kiss leaves it, eyes half-closed and a flirtatious smile. The kiss is only the gesture: absolutely no lipstick marks, prints, hearts or graphics anywhere in the image, nothing floating in the air.
+
+Composition: horizontal 16:9, subject centered, waist-up, face in the upper third, soft studio lighting, photorealistic editorial photography, 85mm lens, shallow depth of field. No text besides "GM". She is an original fictional character and must not resemble any real person.
+```
 ```
 Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
 
