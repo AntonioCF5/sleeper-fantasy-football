@@ -3,6 +3,10 @@
 *Creado 2026-09-29 a pedido del user: una Miroslava por sección del Destape,
 cambiando pose y outfit sobre la imagen base.*
 
+**Estado 2026-09-29:** aprobadas y en uso — boxeo, regadera, podio,
+salado, muerto, guerra, palpitote, despedida, redacción (+ `retrato`, el
+retrato de estudio sobre fondo navy). Pendiente: elevador.
+
 ## Cómo usarlos
 
 1. En Nano Banana Pro **adjunta la imagen base** (`miroslava-ref.png`, o la
@@ -26,7 +30,7 @@ cambiando pose y outfit sobre la imagen base.*
 | 🧂 El Salado (periódico) | `miroslava-salado.jpg` | Salero gigante, la sal cayendo como nieve |
 | 🪦 El Muerto (periódico) | `miroslava-muerto.jpg` | Velo negro y rosa roja junto a una lápida con casco |
 | ⚔️ Marcador de la Guerra | `miroslava-guerra.jpg` | Generala en el cuarto de guerra, mapa con soldaditos de tres colores |
-| 📊 Del Penthouse al Sótano | `miroslava-elevador.jpg` | Elevador de lujo, dedo en el botón "SÓTANO" |
+| 📊 Del Penthouse al Sótano | `miroslava-elevador.jpg` ⚠️ pendiente (1er intento rechazado) | Elevador de lujo, dedo en el botón "SÓTANO" |
 | 🔮 El Palpitote del Escote | `miroslava-palpitote.jpg` | Adivina con bola de cristal (con un balón adentro) |
 | 📣 Cierre, pero no de patas | `miroslava-despedida.jpg` | Saliendo por el túnel del estadio, volteando a mandar un beso |
 | 📰 Fe de erratas / Nota de la redacción | `miroslava-redaccion.jpg` | Redacción clásica, máquina de escribir, lápiz rojo tachando |
@@ -118,6 +122,34 @@ Composition: horizontal 16:9, subject centered, framed from the waist up with th
 ```
 
 ## 📊 Del Penthouse al Sótano — `miroslava-elevador.jpg`
+
+> **2026-09-29 — primer intento RECHAZADO**: salió una mano flotante picando
+> el botón desde fuera del cuadro (la de ella no alcanzaba el panel). Dos
+> salidas: (1) editar esa misma imagen con el prompt de corrección de abajo,
+> o (2) regenerar con el prompt v2, que pone el panel AL ALCANCE de su mano
+> y prohíbe extremidades extra.
+
+**Corrección sobre la imagen ya generada** (adjuntar ESA imagen, no la base):
+
+```
+Edit this image: remove the disembodied hand that is pressing the elevator button from the right edge of the frame. Instead, extend Miroslava's own right arm — clearly connected to her right shoulder and sleeve of her navy sequined dress — so that her own right index finger presses the lower button next to the "SÓTANO" label. Keep her face, hair, expression, dress, the brass elevator, the "PH" and "SÓTANO" labels and the lighting exactly the same. She must have exactly two arms and two hands; no extra hands or limbs anywhere in the image.
+```
+
+**Prompt v2 (desde la base):**
+
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: inside a luxurious vintage elevator with polished brass walls and a navy velvet bench. A brass button panel is mounted on the side wall RIGHT NEXT TO HER at shoulder height, within easy reach, with two round buttons clearly labeled "PH" (top) and "SÓTANO" (bottom), and a floor indicator above the doors with an arrow pointing down.
+
+Outfit: an elegant navy-blue sequined cocktail dress with three-quarter sleeves, a thin gold necklace, and a red clutch bag held in her left hand.
+
+Pose: she stands facing the camera at a slight three-quarter angle, her body close to the panel; her own right arm, clearly attached to her right shoulder and fully visible from shoulder to fingertip, is bent at the elbow and her right index finger presses the "SÓTANO" button. She looks at the camera with a wicked, amused grin, as if personally sending someone down to the basement.
+
+Anatomy: exactly two arms and two hands, both clearly belonging to her; no extra hands, no disembodied limbs, nothing reaching in from outside the frame.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, the button panel and both labels clearly legible, warm golden reflections on the brass, photorealistic editorial photography, 50mm lens. No other text. She is an original fictional character and must not resemble any real person.
+```
 
 ```
 Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.

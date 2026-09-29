@@ -368,7 +368,8 @@ def escudo_uri():
 
 
 # Vestuario de Miroslava (data/intel/brand/): archivo + altura de la cara
-# (% vertical) para encuadrar la banda de cada tarjeta sin cortarle la cabeza.
+# (% vertical) y, si no está centrada, su posición horizontal (%), para
+# encuadrar la banda de cada tarjeta sin cortarle la cabeza.
 VESTUARIO = {
     "jersey":         ("miroslava-jersey.png", 20),         # tailgate con el micrófono GM
     "gala":           ("miroslava-gala.jpg", 24),           # vestido rojo con el Lombardi
@@ -378,16 +379,17 @@ VESTUARIO = {
     "navidad":        ("miroslava-navidad.jpg", 30),        # suéter navideño (solo diciembre)
     # Vestuario POR SECCIÓN (prompts en brand/miroslava-vestuario-prompts.md).
     # Entran solos en cuanto el archivo existe; mientras no, se usa el genérico.
-    "boxeo":          ("miroslava-boxeo.jpg", 26),          # La Putiza
-    "regadera":       ("miroslava-regadera.jpg", 26),       # Se dice en la Regadera
-    "podio":          ("miroslava-podio.jpg", 24),          # Medallas y Vergazos
-    "salado":         ("miroslava-salado.jpg", 26),         # El Salado (periódico)
-    "muerto":         ("miroslava-muerto.jpg", 26),         # El Muerto (periódico)
-    "guerra":         ("miroslava-guerra.jpg", 26),         # Marcador de la Guerra
+    "boxeo":          ("miroslava-boxeo.jpg", 28, 52),          # La Putiza
+    "regadera":       ("miroslava-regadera.jpg", 30, 64),       # Se dice en la Regadera
+    "podio":          ("miroslava-podio.jpg", 22, 50),          # Medallas y Vergazos
+    "salado":         ("miroslava-salado.jpg", 36, 50),         # El Salado (periódico)
+    "muerto":         ("miroslava-muerto.jpg", 32, 56),         # El Muerto (periódico)
+    "guerra":         ("miroslava-guerra.jpg", 30, 50),         # Marcador de la Guerra
     "elevador":       ("miroslava-elevador.jpg", 24),       # Del Penthouse al Sótano
-    "palpitote":      ("miroslava-palpitote.jpg", 26),      # El Palpitote del Escote
-    "despedida":      ("miroslava-despedida.jpg", 24),      # Cierre, pero no de patas
-    "redaccion":      ("miroslava-redaccion.jpg", 26),      # Fe de erratas / nota de la redacción
+    "palpitote":      ("miroslava-palpitote.jpg", 30, 50),      # El Palpitote del Escote
+    "despedida":      ("miroslava-despedida.jpg", 27, 52),      # Cierre, pero no de patas
+    "retrato":        ("miroslava-retrato.jpg", 30),        # retrato de estudio (base nueva)
+    "redaccion":      ("miroslava-redaccion.jpg", 24, 50),      # Fe de erratas / nota de la redacción
 }
 GENERICAS = ["noticiero", "gala", "exclusiva", "exclusiva-news"]
 # Qué Miroslava va con qué sección (por palabra del título). La primera que
@@ -410,7 +412,7 @@ def foto_uri(nombre="jersey"):
 
 
 def preparar_fotos(tmp):
-    for nombre, (archivo, _) in VESTUARIO.items():
+    for nombre, (archivo, *_) in VESTUARIO.items():
         if not (BRAND / archivo).exists():
             continue
         im = Image.open(BRAND / archivo).convert("RGB")
@@ -445,7 +447,7 @@ def tarjeta(cuerpo_html, jornada, fecha, pag, total, titulo=None, emoji="", sub=
            + (f"<div class='sub'>{html.escape(sub)}</div>" if sub else "")
            + "<div class='rule'></div>") if titulo else ""
     banda = (f"<div class='banda' style=\"background-image:url('{foto_uri(foto)}');"
-             f"background-position:50% {VESTUARIO[foto][1]}%\"></div>") if foto else ""
+             f"background-position:{(VESTUARIO[foto] + (50,))[2]}% {VESTUARIO[foto][1]}%\"></div>") if foto else ""
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
 <style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}')}}</style></head><body data-ultima="{int(pag == total)}"><div class="card{' con-foto' if foto else ''}">
 {banda}
