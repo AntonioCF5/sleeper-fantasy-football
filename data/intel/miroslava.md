@@ -42,7 +42,7 @@ mismo commit en que aparezca (regla de coherencia). Última actualización:
   marcador, ranking, palpitote), `exclusiva` y `exclusiva-news` (gabardina,
   CONFIDENTIAL, flashes → regadera y putiza) y `navidad` (suéter → portada y
   despedida SOLO en diciembre). El mapa sección→foto vive en `FOTO_SECCION`
-  de `destape_visual.py`; nunca la misma foto en dos tarjetas seguidas, y si
+  de `destape_visual.py`. **Medallas y Vergazos rota cada semana** entre `salado`, `podio` y `muerto` (jornada % 3, en ese orden; user 2026-09-29) y aguanta más zoom antes de soltar la foto. Nunca la misma foto en dos tarjetas seguidas, y si
   la foto obliga a encoger la letra de más, la tarjeta sale sin foto.
 
 ## Miroslava (el personaje)

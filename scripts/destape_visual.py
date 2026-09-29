@@ -426,9 +426,19 @@ def preparar_fotos(tmp):
         FOTOS[nombre] = out.resolve().as_uri()
 
 
-def elegir_foto(titulo, anterior):
+# Medallas y Vergazos rota su foto cada semana entre el podio, el salero y el
+# velo del Muerto (user 2026-09-29: "una de esas… cambiando por semana"). El
+# orden no es alfabético a propósito, para que se sienta al azar; depende
+# solo del número de jornada, así que re-renderizar da siempre la misma.
+ROTACION_MEDALLAS = ["salado", "podio", "muerto"]
+
+
+def elegir_foto(titulo, anterior, semana=0):
     t = titulo.lower()
     prefs = next((f for clave, f in FOTO_SECCION if clave in t), ["noticiero", "gala"])
+    if "medallas" in t:
+        k = semana % len(ROTACION_MEDALLAS)
+        prefs = ROTACION_MEDALLAS[k:] + ROTACION_MEDALLAS[:k] + prefs
     prefs = [f for f in prefs + GENERICAS if f in FOTOS]
     return next((f for f in prefs if f != anterior), prefs[0] if prefs else None)
 
@@ -446,14 +456,14 @@ def fecha_legible(nombre):
 
 
 def tarjeta(cuerpo_html, jornada, fecha, pag, total, titulo=None, emoji="", sub="",
-            foto=None, foto_final="jersey"):
+            foto=None, foto_final="jersey", zoom_min=0.8):
     cab = (f"<h1><span class='e'>{emoji}</span>{html.escape(titulo)}</h1>"
            + (f"<div class='sub'>{html.escape(sub)}</div>" if sub else "")
            + "<div class='rule'></div>") if titulo else ""
     banda = (f"<div class='banda' style=\"background-image:url('{foto_uri(foto)}');"
              f"background-position:{(VESTUARIO[foto] + (50,))[2]}% {VESTUARIO[foto][1]}%\"></div>") if foto else ""
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
-<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}')}}</style></head><body data-ultima="{int(pag == total)}"><div class="card{' con-foto' if foto else ''}">
+<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}')}}</style></head><body data-ultima="{int(pag == total)}" data-zmin="{zoom_min}"><div class="card{' con-foto' if foto else ''}">
 {banda}
 <div class="top"><img src="{escudo_uri()}"><div><div class="kick">EL DESTAPE DE <b>MIROSLAVA</b></div>
 <div class="meta">{html.escape(jornada)}</div></div></div>
@@ -468,7 +478,7 @@ document.fonts.ready.then(() => {{
   ajustar();
   /* Si la foto obliga a encoger la letra de más, gana la letra: fuera foto. */
   const card = document.querySelector(".card.con-foto");
-  if (card && z < 0.8) {{
+  if (card && z < parseFloat(document.body.dataset.zmin || "0.8")) {{
     card.classList.remove("con-foto"); document.querySelector(".banda").remove(); ajustar();
   }}
   /* Tarjeta corta: el hueco lo llena Miroslava, no el vacío. */
@@ -840,6 +850,7 @@ def main():
         sys.exit(__doc__)
     edicion = Path(args[0]).resolve()
     jornada, portada, secciones = leer(edicion)
+    semana = int((re.search(r"(\d+)", jornada) or re.search("0", "0")).group(0))
     if not secciones:
         sys.exit("No encontré secciones (líneas tipo '🥊 *TÍTULO*').")
     fecha = fecha_legible(edicion.stem)
@@ -885,14 +896,17 @@ def main():
                 slug = re.sub(r"[^a-z0-9]+", "-", s["titulo"].lower().split(" — ")[0]
                               .translate(str.maketrans("áéíóúñ", "aeioun"))).strip("-")[:28]
                 out = destino / f"{i:02d}-{slug}.jpg"
-                foto = elegir_foto(s["titulo"], anterior) if con_foto else None
+                foto = elegir_foto(s["titulo"], anterior, semana) if con_foto else None
                 anterior = foto or anterior
                 if con_foto == "portadilla":
                     out = out.with_name(out.stem + "-portadilla.jpg")
                     html_t = portadilla_html(s, foto, jornada, fecha, i, total)
                 else:
+                    # Medallas SIEMPRE lleva su foto de la semana: aguanta
+                    # más zoom antes de soltarla (lo pidió el user).
                     html_t = tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
-                                     s["titulo"], s["emoji"], sub, foto, principal)
+                                     s["titulo"], s["emoji"], sub, foto, principal,
+                                     0.62 if "medallas" in s["titulo"].lower() else 0.8)
                 captura(html_t, out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")
             ordenar_para_whatsapp(destino, edicion.stem)
