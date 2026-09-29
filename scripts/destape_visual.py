@@ -376,17 +376,30 @@ VESTUARIO = {
     "exclusiva":      ("miroslava-exclusiva.jpg", 28),      # gabardina, CONFIDENTIAL, flashes
     "exclusiva-news": ("miroslava-exclusiva-news.jpg", 28), # misma escena, micrófono GM News
     "navidad":        ("miroslava-navidad.jpg", 30),        # suéter navideño (solo diciembre)
+    # Vestuario POR SECCIÓN (prompts en brand/miroslava-vestuario-prompts.md).
+    # Entran solos en cuanto el archivo existe; mientras no, se usa el genérico.
+    "boxeo":          ("miroslava-boxeo.jpg", 26),          # La Putiza
+    "regadera":       ("miroslava-regadera.jpg", 26),       # Se dice en la Regadera
+    "podio":          ("miroslava-podio.jpg", 24),          # Medallas y Vergazos
+    "salado":         ("miroslava-salado.jpg", 26),         # El Salado (periódico)
+    "muerto":         ("miroslava-muerto.jpg", 26),         # El Muerto (periódico)
+    "guerra":         ("miroslava-guerra.jpg", 26),         # Marcador de la Guerra
+    "elevador":       ("miroslava-elevador.jpg", 24),       # Del Penthouse al Sótano
+    "palpitote":      ("miroslava-palpitote.jpg", 26),      # El Palpitote del Escote
+    "despedida":      ("miroslava-despedida.jpg", 24),      # Cierre, pero no de patas
+    "redaccion":      ("miroslava-redaccion.jpg", 26),      # Fe de erratas / nota de la redacción
 }
+GENERICAS = ["noticiero", "gala", "exclusiva", "exclusiva-news"]
 # Qué Miroslava va con qué sección (por palabra del título). La primera que
 # no repita la de la tarjeta anterior gana; así el carrusel no se ve clonado.
 FOTO_SECCION = [
-    ("regadera", ["exclusiva", "exclusiva-news"]),     # el chisme: la de los expedientes
-    ("putiza", ["exclusiva-news", "exclusiva"]),       # nota roja de estadio
-    ("medallas", ["gala", "noticiero"]),               # la premiación
-    ("guerra", ["noticiero", "gala"]),                 # parte oficial desde el set
-    ("penthouse", ["noticiero", "gala", "exclusiva"]), # la tabla, rotando por tarjeta
-    ("palpitote", ["gala", "noticiero"]),
-    ("cierre", ["gala", "noticiero"]),
+    ("regadera", ["regadera", "exclusiva", "exclusiva-news"]),
+    ("putiza", ["boxeo", "exclusiva-news", "exclusiva"]),
+    ("medallas", ["podio", "gala", "noticiero"]),
+    ("guerra", ["guerra", "noticiero", "gala"]),
+    ("penthouse", ["elevador", "noticiero", "gala", "exclusiva"]),
+    ("palpitote", ["palpitote", "gala", "noticiero"]),
+    ("cierre", ["despedida", "gala", "noticiero"]),
 ]
 FOTOS = {}
 
@@ -410,8 +423,13 @@ def preparar_fotos(tmp):
 def elegir_foto(titulo, anterior):
     t = titulo.lower()
     prefs = next((f for clave, f in FOTO_SECCION if clave in t), ["noticiero", "gala"])
-    prefs = [f for f in prefs if f in VESTUARIO] + [f for f in VESTUARIO if f not in ("navidad", "jersey")]
-    return next((f for f in prefs if f != anterior), prefs[0])
+    prefs = [f for f in prefs + GENERICAS if f in FOTOS]
+    return next((f for f in prefs if f != anterior), prefs[0] if prefs else None)
+
+
+def primera(*nombres):
+    """La primera foto de la lista que ya exista en el vestuario."""
+    return next((n for n in nombres if n in FOTOS), None)
 
 
 def fecha_legible(nombre):
@@ -579,12 +597,16 @@ table.guerra td{padding:4px 3px;border-bottom:1px dotted #9C958A;font-weight:700
 table.guerra td.num{text-align:right;font-variant-numeric:tabular-nums}
 table.guerra tr.lider td{background:#E4DCCB}
 .firma{text-align:right;font-style:italic}
+.par-fotos{display:flex;gap:6px;break-inside:avoid;margin-top:6px}
+.par-fotos .foto{flex:1;height:1.5in;background-size:cover;background-position:50% 24%}
 .cierre-foto{height:1.9in;background-size:cover;background-position:46% 22%;margin:6px 0 3px}
 .colofon{column-span:all;text-align:center;font-family:'Playfair Display',serif;font-size:8pt;
   letter-spacing:1.4pt;text-transform:uppercase;border-top:4px double #161412;padding-top:5px;margin-top:6px}
 """
 
-FOTO_PERIODICO = {"regadera": "exclusiva", "medallas": "gala", "guerra": "noticiero"}
+FOTO_PERIODICO = {"regadera": ("regadera", "exclusiva"), "medallas": ("podio", "gala"),
+                  "guerra": ("guerra", "noticiero"), "penthouse": ("elevador",),
+                  "palpitote": ("palpitote",)}
 
 
 def fecha_larga(nombre):
@@ -617,7 +639,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
         resto = lb
     lead_html = f"""<div class="lead"><div class="kick"><span class="e">{lead['emoji']}</span> {html.escape(lead['titulo'])}</div>
 <h2>{titular}</h2>
-<div class="foto" style="background-image:url('{foto_uri('exclusiva-news')}')"></div>
+<div class="foto" style="background-image:url('{foto_uri(primera('boxeo', 'exclusiva-news', 'exclusiva') or foto)}')"></div>
 <div class="pie">Miroslava, en el lugar de los hechos. Foto: El Destape.</div>
 <div class="texto">{html_bloques(resto, "pdf")}</div></div>"""
     arts = []
@@ -627,12 +649,18 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
         t = s["titulo"].lower()
         clave = next((k for k in FOTO_PERIODICO if k in t), None)
         fotohtml = ""
-        if clave and FOTO_PERIODICO[clave] in FOTOS:
-            fotohtml = (f"<div class='foto' style=\"background-image:url('{foto_uri(FOTO_PERIODICO[clave])}')\"></div>"
+        elegida = primera(*FOTO_PERIODICO[clave]) if clave else None
+        if elegida:
+            fotohtml = (f"<div class='foto' style=\"background-image:url('{foto_uri(elegida)}')\"></div>"
                         "<div class='pie'>Miroslava. Foto: El Destape.</div>")
         cuerpo = html_bloques(bloques(s["lineas"]), "pdf")
+        if "medallas" in t and primera("salado", "muerto"):
+            # El Salado y El Muerto, como fotos a dos columnas bajo las medallas.
+            pares = "".join(f"<div class='foto' style=\"background-image:url('{foto_uri(n)}')\"></div>"
+                            for n in ("salado", "muerto") if n in FOTOS)
+            cuerpo += f"<div class='par-fotos'>{pares}</div><div class='pie'>Miroslava. Foto: El Destape.</div>"
         if "cierre" in t:
-            cuerpo += f"<div class='cierre-foto' style=\"background-image:url('{foto_uri(foto)}')\"></div>"
+            cuerpo += f"<div class='cierre-foto' style=\"background-image:url('{foto_uri(primera('despedida') or foto)}')\"></div>"
         arts.append(f"<div class='art'><div class='kick'><span class='e'>{s['emoji']}</span> "
                     f"{html.escape(s['titulo'].split(' — ')[0])}</div>"
                     f"<h3>{html.escape(cap(s['titulo'].lower()).replace('miroslava', 'Miroslava'))}</h3>"
@@ -647,7 +675,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
 <div class="fechas"><span>Año 1 · Número {num}</span><span>{fecha_larga(nombre)}</span><span>{html.escape(liga)}</span></div>
 </header>
 <section class="primera"><div class="nota"><div class="kick">Nota de la redacción</div>
-<div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
+<div class="foto" style="background-image:url('{foto_uri(primera('redaccion') or foto)}')"></div>
 <div class="pie">Nuestra corresponsal, en funciones.</div>
 {html_bloques(bloques(portada_lineas), "pdf")}</div>
 {lead_html}</section>

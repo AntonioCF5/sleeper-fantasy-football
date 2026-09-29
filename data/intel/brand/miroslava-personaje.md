@@ -106,6 +106,16 @@ gorra al revés, tailgate con asadores) — estrenado en el video-anuncio del
 himno, 2026-09-09. Sirve como avatar de HeyGen igual que el frontal: la
 cara se mantuvo idéntica a la referencia.
 
+## Vestuario por sección del Destape (2026-09-29)
+
+Una Miroslava por sección (boxeo para la Putiza, bata con "shhh" para la
+Regadera, podio con medalla y 💩 dorado, generala del cuarto de guerra,
+elevador al SÓTANO, adivina del Palpitote, despedida en el túnel, etc.).
+Prompts completos y nombres de archivo en `miroslava-vestuario-prompts.md`;
+`scripts/destape_visual.py` usa cada foto en cuanto el archivo existe.
+Ya aprobadas y en uso: `jersey`, `gala`, `noticiero`, `exclusiva`,
+`exclusiva-news`, `navidad`.
+
 ## Receta de consistencia
 
 1. ~~Generar el PROMPT MAESTRO hasta aprobar UNA imagen.~~ HECHO — la
