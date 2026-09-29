@@ -371,7 +371,7 @@ def escudo_uri():
 # (% vertical) y, si no está centrada, su posición horizontal (%), para
 # encuadrar la banda de cada tarjeta sin cortarle la cabeza.
 VESTUARIO = {
-    "jersey":         ("miroslava-jersey.png", 20),         # tailgate con el micrófono GM
+    "jersey":         ("miroslava-jersey.png", 18, 42),         # tailgate con el micrófono GM
     "gala":           ("miroslava-gala.jpg", 24),           # vestido rojo con el Lombardi
     "noticiero":      ("miroslava-noticiero.jpg", 26),      # conductora en el set GM
     "exclusiva":      ("miroslava-exclusiva.jpg", 28),      # gabardina, CONFIDENTIAL, flashes
@@ -398,15 +398,31 @@ GENERICAS = ["noticiero", "gala", "exclusiva", "exclusiva-news"]
 PORTADILLA_X = {"elevador": 34}
 # Qué Miroslava va con qué sección (por palabra del título). La primera que
 # no repita la de la tarjeta anterior gana; así el carrusel no se ve clonado.
-FOTO_SECCION = [
-    ("regadera", ["regadera", "exclusiva", "exclusiva-news"]),
-    ("putiza", ["boxeo", "exclusiva-news", "exclusiva"]),
-    ("medallas", ["podio", "gala", "noticiero"]),
-    ("guerra", ["guerra", "noticiero", "gala"]),
-    ("penthouse", ["elevador", "noticiero", "gala", "exclusiva"]),
-    ("palpitote", ["palpitote", "gala", "noticiero"]),
-    ("cierre", ["despedida", "gala", "noticiero"]),
-]
+# POOLS de rotación por sección (user 2026-09-29: "más imágenes que ir
+# alternando cada semana"). "x-*" = toda variante miroslava-x-<algo>.jpg que
+# exista en brand/: se descubren solas, no hay que registrarlas. Cada semana
+# la sección toma la siguiente del pool (número de jornada; la Dinastía va un
+# paso adelante). RESPALDO = genéricas por si el pool está vacío.
+POOLS = {
+    "portada":   ["jersey", "portada-*"],
+    "regadera":  ["regadera", "regadera-*"],
+    "putiza":    ["boxeo", "boxeo-*"],
+    "medallas":  ["salado", "podio", "muerto", "podio-*", "medallas-*"],
+    "guerra":    ["guerra", "guerra-*"],
+    "penthouse": ["elevador", "elevador-*"],
+    "palpitote": ["palpitote", "palpitote-*"],
+    "cierre":    ["despedida", "despedida-*"],
+    "final":     ["final-*"],
+    "redaccion": ["redaccion", "redaccion-*"],
+}
+RESPALDO = {
+    "portada": ["jersey"], "regadera": ["exclusiva", "exclusiva-news"],
+    "putiza": ["exclusiva-news", "exclusiva"], "medallas": ["gala", "noticiero"],
+    "guerra": ["noticiero", "gala"], "penthouse": ["noticiero", "gala", "exclusiva"],
+    "palpitote": ["gala", "noticiero"], "cierre": ["gala", "noticiero"],
+    "final": ["jersey"], "redaccion": [],
+}
+ROT = {"n": 0}
 FOTOS = {}
 
 
@@ -415,7 +431,22 @@ def foto_uri(nombre="jersey"):
     return FOTOS.get(nombre) or (BRAND / VESTUARIO[nombre][0]).resolve().as_uri()
 
 
+def encuadre(nombre):
+    """background-position CSS de una foto del vestuario ("x% y%")."""
+    d = VESTUARIO.get(nombre, ("", 26))
+    return f"{(tuple(d) + (50,))[2]}% {d[1]}%"
+
+
+def descubrir_vestuario():
+    """Toda miroslava-<nombre>.jpg de brand/ entra al vestuario aunque no esté
+    en la tabla (encuadre por defecto: cara al 26% de alto, centrada)."""
+    for f in sorted(BRAND.glob("miroslava-*.jpg")):
+        nombre = f.stem[len("miroslava-"):]
+        VESTUARIO.setdefault(nombre, (f.name, 26, 50))
+
+
 def preparar_fotos(tmp):
+    descubrir_vestuario()
     for nombre, (archivo, *_) in VESTUARIO.items():
         if not (BRAND / archivo).exists():
             continue
@@ -426,20 +457,30 @@ def preparar_fotos(tmp):
         FOTOS[nombre] = out.resolve().as_uri()
 
 
-# Medallas y Vergazos rota su foto cada semana entre el podio, el salero y el
-# velo del Muerto (user 2026-09-29: "una de esas… cambiando por semana"). El
-# orden no es alfabético a propósito, para que se sienta al azar; depende
-# solo del número de jornada, así que re-renderizar da siempre la misma.
-ROTACION_MEDALLAS = ["salado", "podio", "muerto"]
+def rotada(clave, rot=None):
+    """Lista de fotos de la sección para ESTA semana: el pool girado por jornada
+    y detrás el respaldo. Solo nombres que existen de verdad."""
+    rot = ROT["n"] if rot is None else rot
+    pool = []
+    for pat in POOLS.get(clave, []):
+        if pat.endswith("*"):
+            pool += sorted(n for n in FOTOS if n.startswith(pat[:-1]))
+        elif pat in FOTOS:
+            pool.append(pat)
+    pool = list(dict.fromkeys(pool))
+    if pool:
+        k = rot % len(pool)
+        pool = pool[k:] + pool[:k]
+    return pool + [n for n in RESPALDO.get(clave, []) if n in FOTOS and n not in pool]
 
 
-def elegir_foto(titulo, anterior, semana=0):
+def clave_de(titulo):
     t = titulo.lower()
-    prefs = next((f for clave, f in FOTO_SECCION if clave in t), ["noticiero", "gala"])
-    if "medallas" in t:
-        k = semana % len(ROTACION_MEDALLAS)
-        prefs = ROTACION_MEDALLAS[k:] + ROTACION_MEDALLAS[:k] + prefs
-    prefs = [f for f in prefs + GENERICAS if f in FOTOS]
+    return next((k for k in POOLS if k in t), None)
+
+
+def elegir_foto(titulo, anterior, semana=None):
+    prefs = rotada(clave_de(titulo), semana) + [g for g in GENERICAS if g in FOTOS]
     return next((f for f in prefs if f != anterior), prefs[0] if prefs else None)
 
 
@@ -463,7 +504,7 @@ def tarjeta(cuerpo_html, jornada, fecha, pag, total, titulo=None, emoji="", sub=
     banda = (f"<div class='banda' style=\"background-image:url('{foto_uri(foto)}');"
              f"background-position:{(VESTUARIO[foto] + (50,))[2]}% {VESTUARIO[foto][1]}%\"></div>") if foto else ""
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
-<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}')}}</style></head><body data-ultima="{int(pag == total)}" data-zmin="{zoom_min}"><div class="card{' con-foto' if foto else ''}">
+<style>{CSS_CARD.replace("ESCUDO", escudo_uri())}.relleno{{background-image:url('{foto_uri(foto_final)}');background-position:{encuadre(foto_final)}}}</style></head><body data-ultima="{int(pag == total)}" data-zmin="{zoom_min}"><div class="card{' con-foto' if foto else ''}">
 {banda}
 <div class="top"><img src="{escudo_uri()}"><div><div class="kick">EL DESTAPE DE <b>MIROSLAVA</b></div>
 <div class="meta">{html.escape(jornada)}</div></div></div>
@@ -527,7 +568,7 @@ def portada_html(portada_lineas, secciones, jornada, fecha, total, foto="jersey"
                      for s in secciones)
     return f"""<!doctype html><html><head><meta charset="utf-8">{FUENTES}
 <style>{CSS_CARD}</style></head><body><div class="card cover">
-<div class="foto" style="background-image:url('{foto_uri(foto)}')"></div>
+<div class="foto" style="background-image:url('{foto_uri(foto)}');background-position:{encuadre(foto)}"></div>
 <img class="escudo" src="{escudo_uri()}">
 <div class="titulo"><div class="t1">EL DESTAPE</div><div class="t2">DE MIROSLAVA</div>
 <div class="jor">{html.escape(jornada)} · {fecha}</div></div>
@@ -681,7 +722,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
         resto = lb
     lead_html = f"""<div class="lead"><div class="kick"><span class="e">{lead['emoji']}</span> {html.escape(lead['titulo'])}</div>
 <h2>{titular}</h2>
-<div class="foto" style="background-image:url('{foto_uri(primera('boxeo', 'exclusiva-news', 'exclusiva') or foto)}')"></div>
+<div class="foto" style="background-image:url('{foto_uri((rotada('putiza') or [foto])[0])}')"></div>
 <div class="pie">Miroslava, en el lugar de los hechos. Foto: El Destape.</div>
 <div class="texto">{html_bloques(resto, "pdf")}</div></div>"""
     arts = []
@@ -702,7 +743,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
                             for n in ("salado", "muerto") if n in FOTOS)
             cuerpo += f"<div class='par-fotos'>{pares}</div><div class='pie'>Miroslava. Foto: El Destape.</div>"
         if "cierre" in t:
-            cuerpo += f"<div class='cierre-foto' style=\"background-image:url('{foto_uri(primera('despedida') or foto)}')\"></div>"
+            cuerpo += f"<div class='cierre-foto' style=\"background-image:url('{foto_uri((rotada('cierre') or [foto])[0])}')\"></div>"
         arts.append(f"<div class='art'><div class='kick'><span class='e'>{s['emoji']}</span> "
                     f"{html.escape(s['titulo'].split(' — ')[0])}</div>"
                     f"<h3>{html.escape(cap(s['titulo'].lower()).replace('miroslava', 'Miroslava'))}</h3>"
@@ -717,7 +758,7 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
 <div class="fechas"><span>Año 1 · Número {num}</span><span>{fecha_larga(nombre)}</span><span>{html.escape(liga)}</span></div>
 </header>
 <section class="primera"><div class="nota"><div class="kick">Nota de la redacción</div>
-<div class="foto" style="background-image:url('{foto_uri(primera('redaccion') or foto)}')"></div>
+<div class="foto" style="background-image:url('{foto_uri((rotada('redaccion') or [foto])[0])}')"></div>
 <div class="pie">Nuestra corresponsal, en funciones.</div>
 {html_bloques(bloques(portada_lineas), "pdf")}</div>
 {lead_html}</section>
@@ -898,7 +939,14 @@ def main():
         tmp, perfil = Path(t), Path(t) / "perfil"
         preparar_fotos(tmp)
         # Diciembre = playoffs del fantasy: portada y despedida con suéter navideño.
-        principal = "navidad" if edicion.stem[5:7] == "12" and "navidad" in FOTOS else "jersey"
+        # Las dos ligas comparten lectores: la Dinastía va un paso adelante en
+        # la rotación para no repetir fotos el mismo martes.
+        rot = semana + (1 if "dinast" in jornada.lower() else 0)
+        ROT["n"] = rot
+        diciembre = edicion.stem[5:7] == "12" and "navidad" in FOTOS
+        principal = "navidad" if diciembre else (rotada("portada") or ["jersey"])[0]
+        final = "navidad" if diciembre else next(
+            (f for f in rotada("final") if f != principal), principal)
         if "--solo-pdf" not in sys.argv:
             out = destino / "01-portada.jpg"
             captura(portada_html(portada, secciones, jornada, fecha, total, principal), out, tmp, perfil)
@@ -908,9 +956,6 @@ def main():
                 slug = re.sub(r"[^a-z0-9]+", "-", s["titulo"].lower().split(" — ")[0]
                               .translate(str.maketrans("áéíóúñ", "aeioun"))).strip("-")[:28]
                 out = destino / f"{i:02d}-{slug}.jpg"
-                # Las dos ligas comparten lectores: la Dinastía va un paso
-                # adelante en la rotación para no repetir la foto el mismo martes.
-                rot = semana + (1 if "dinast" in jornada.lower() else 0)
                 foto = elegir_foto(s["titulo"], anterior, rot) if con_foto else None
                 anterior = foto or anterior
                 if con_foto == "portadilla":
@@ -920,7 +965,7 @@ def main():
                     # Medallas SIEMPRE lleva su foto de la semana: aguanta
                     # más zoom antes de soltarla (lo pidió el user).
                     html_t = tarjeta(html_bloques(bs, "card"), jornada, fecha, i, total,
-                                     s["titulo"], s["emoji"], sub, foto, principal,
+                                     s["titulo"], s["emoji"], sub, foto, final,
                                      0.62 if "medallas" in s["titulo"].lower() else 0.8)
                 captura(html_t, out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")

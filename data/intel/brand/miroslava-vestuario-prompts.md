@@ -213,3 +213,208 @@ reescribir el prompt, regenera con la misma referencia y agrega al final:
 nose, lips, freckle pattern and beauty mark.` No subas a más de una
 referencia a la vez: la mezcla de caras es la causa número uno de la
 "otra actriz".
+
+---
+
+# VARIANTES PARA ROTAR CADA SEMANA (2026-09-29)
+
+Cada sección tiene un **pool**: `destape_visual.py` toma la siguiente foto del
+pool cada jornada (la Dinastía va un paso adelante para que las dos
+ediciones del martes no repitan). Para agregar una variante basta guardarla
+como `miroslava-<pool>-<nombre>.jpg` en `data/intel/brand/` — se descubre
+sola, sin tocar código. Pools: `portada-*`, `final-*` (la foto grande de la
+última tarjeta), `regadera-*`, `boxeo-*`, `podio-*`/`medallas-*`,
+`guerra-*`, `elevador-*`, `palpitote-*`, `despedida-*`, `redaccion-*`.
+Diciembre sigue mandando: portada y final con el suéter navideño.
+
+Todas: adjuntar la referencia base, 16:9 horizontal, ella centrada, cara en
+el tercio superior. (La portada se recorta en franja ancha arriba y la final
+en rectángulo abajo: dejen aire alrededor de la cabeza.)
+
+## 🎬 PORTADA
+
+### `miroslava-portada-estadio.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: the middle of a packed American football stadium at golden hour, standing on the 50-yard line, a navy-and-red "GM" shield painted on the grass behind her, sun flare over the stands, crowd blurred.
+
+Outfit: her signature fitted navy-blue (#013369) dress with an elegant neckline, red press-credential lanyard, gold hoop earrings; broadcast microphone with a navy mic flag and red "GM" monogram.
+
+Pose: walking confidently toward the camera mid-stride, microphone raised near her chin as if about to break the biggest story of the week, one eyebrow raised, half-smile, hair blowing slightly.
+
+Composition: horizontal 16:9, subject centered, framed from the knees up, generous space above her head, face in the upper third, cinematic golden backlight, photorealistic sports editorial photography, 70mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### `miroslava-portada-camara.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a live TV broadcast position on the sideline at night, a professional broadcast camera in the foreground left with a glowing red "ON AIR" tally light, stadium floodlights and bokeh behind her.
+
+Outfit: a tailored red blazer over a navy silk top, gold hoop earrings, a small in-ear earpiece with a coiled wire.
+
+Pose: standing right beside the camera, leaning toward the lens and pointing one finger straight at the viewer with a playful, accusatory smirk, as if saying "you're in this week's column", the other hand holding a microphone with a navy mic flag and red "GM" monogram.
+
+Composition: horizontal 16:9, subject centered, waist-up, face in the upper third with headroom, the "ON AIR" light visible, photorealistic broadcast photography, 50mm lens, navy and red palette. No extra text besides "GM" and "ON AIR". She is an original fictional character and must not resemble any real person.
+```
+
+### `miroslava-portada-voceadora.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a busy city street corner at dawn outside a stadium, a vintage newspaper stand with stacks of papers, warm streetlights and morning mist.
+
+Outfit: a retro 1940s newsboy look — navy newsboy cap, fitted navy vest over a white shirt with rolled sleeves, red suspenders, navy high-waisted trousers.
+
+Pose: holding a fresh newspaper high above her head with one hand, the front page showing a big bold gothic masthead "El Destape", mouth open mid-shout like a classic newspaper seller yelling "¡Extra, extra!", the other arm cradling a stack of papers, eyes sparkling with mischief.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, the raised newspaper fully inside the frame, photorealistic editorial photography with warm vintage tones, 50mm lens. The only readable text is "El Destape" on the newspaper. She is an original fictional character and must not resemble any real person.
+```
+
+## 💋 ÚLTIMA IMAGEN (la foto grande de la despedida)
+
+### `miroslava-final-sofa.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a cozy, stylish living room on a Sunday night, a navy velvet sofa, a big TV glowing with a football game (screen content blurred), a bowl of popcorn, a navy throw pillow with a red "GM" monogram.
+
+Outfit: an oversized navy "GALLAMIJOS" knit sweater, gold hoop earrings, red lipstick intact.
+
+Pose: sprawled comfortably on the sofa with her legs tucked, holding a remote in one hand and a piece of popcorn raised toward her lips with the other, glancing at the camera with a lazy, satisfied wink — work is done, now she watches you suffer.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, warm lamp light mixed with the blue TV glow, photorealistic lifestyle photography, 50mm lens. No extra text besides "GALLAMIJOS" and "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### `miroslava-final-beso.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: shot through a sheet of glass (like a TV studio window) with a soft navy studio background behind her; on the glass, in the foreground, a perfect red lipstick kiss mark she just left.
+
+Outfit: her signature fitted navy-blue (#013369) dress with an elegant neckline and a thin gold necklace.
+
+Pose: stepping back from the glass after kissing it, blowing a second kiss toward the camera with her palm up, eyes half-closed and a flirtatious smile — the signature goodbye of the column.
+
+Composition: horizontal 16:9, subject centered, waist-up, face in the upper third, the red kiss mark sharp in the foreground on the glass and slightly off-center, photorealistic editorial photography, 85mm lens, shallow depth of field. No text. She is an original fictional character and must not resemble any real person.
+```
+
+### `miroslava-final-gradas.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: the empty stands of a football stadium at sunset after the game, rows of navy seats, a few forgotten foam fingers and popcorn boxes, the field glowing orange below.
+
+Outfit: her signature fitted navy-blue (#013369) dress, red press-credential lanyard, a broadcast microphone with a navy "GM" mic flag resting beside her, and her red high heels held in one hand.
+
+Pose: sitting on the bleachers barefoot, heels dangling from one hand, waving goodbye to the camera with the other hand and a warm, tired, amused smile — the end of the broadcast day.
+
+Composition: horizontal 16:9, subject centered, framed from the knees up, face in the upper third, warm golden sunset light, photorealistic editorial photography, 50mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+## Segundas variantes por sección
+
+### 🚿 `miroslava-regadera-cortina.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a football locker room, a navy shower curtain with a small red "GM" monogram half drawn, steam drifting, wooden lockers blurred behind.
+
+Outfit: fully dressed in a tan trench coat over a navy blouse, gold hoop earrings.
+
+Pose: peeking out from behind the edge of the shower curtain, holding a small vintage voice recorder toward the other side as if secretly recording gossip, one eyebrow raised, lips pressed together in a sly smile, looking at the camera like a spy who just got the scoop.
+
+Composition: horizontal 16:9, subject centered, waist-up, face in the upper third, soft steamy light, photorealistic editorial photography, 85mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### 🥊 `miroslava-boxeo-arbitra.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a boxing ring under bright spotlights, navy ropes with red corner pads, a "GM" banner above; on the canvas behind her a knocked-out foam football-player training dummy lying flat on its back.
+
+Outfit: a fitted referee shirt with navy and white vertical stripes, a small red "GM" patch, black trousers, a silver whistle on a red lanyard.
+
+Pose: kneeling next to the fallen dummy, one arm raised high with the hand showing ten fingers counting the knockout, looking at the camera with a delighted, merciless grin.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, dramatic spotlight from above, photorealistic sports photography, 50mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### 🏆 `miroslava-medallas-oscar.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a glamorous awards-show stage, a navy velvet curtain, a golden microphone stand, spotlights, and a large screen behind her with a red "GM" shield.
+
+Outfit: an elegant floor-length navy satin gown with a tasteful neckline, her gold hoop earrings, and a thin gold bracelet.
+
+Pose: standing at the podium, opening a golden envelope with a dramatic pause, lips parted mid-announcement ("and the winner is…"), eyes looking at the camera over the envelope with barely contained mischief.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, glamorous spotlight with lens flare, photorealistic event photography, 70mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### ⚔️ `miroslava-guerra-trinchera.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a comic war-correspondent scene on the edge of a football field turned battlefield — sandbags, a little smoke drifting, two distant groups of fans with navy and red flags facing each other across the field, overcast dramatic sky.
+
+Outfit: an olive-and-navy field jacket, a navy helmet with a white "PRESS" band and a small red "GM" sticker, a red scarf.
+
+Pose: crouched behind the sandbags, peeking over them with vintage binoculars lowered from her eyes, turning to the camera with a thrilled, conspiratorial grin, one hand holding a notepad.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, cinematic war-film color grade kept light and playful, photorealistic, 50mm lens. No extra text besides "PRESS" and "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### 📊 `miroslava-elevador-terraza.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a luxurious penthouse terrace at night with a glittering city skyline, string lights, and right beside her the top of an elegant spiral staircase descending into darkness.
+
+Outfit: an elegant navy-blue sequined cocktail dress, a thin gold necklace, a glass of champagne in one hand.
+
+Pose: raising the champagne glass toward the camera in a mock toast while pointing down the spiral staircase with her other hand, a wicked smile, as if inviting someone to go down to the basement.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, both hands clearly her own and fully visible, warm golden light against the blue night, photorealistic editorial photography, 50mm lens. No text. She is an original fictional character and must not resemble any real person.
+```
+
+### 🔮 `miroslava-palpitote-tarot.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a candle-lit fortune-teller table with a red velvet cloth, a spread of tarot cards, navy curtains with small gold stars, incense smoke.
+
+Outfit: a navy velvet wrap dress with a tasteful V-neckline, layered gold necklaces, gold rings and bangles, a sheer red shawl.
+
+Pose: leaning toward the camera and holding up a single tarot card between two fingers, its face showing a vintage illustration of a football player tumbling from a tower, with a knowing, theatrical smile and one eyebrow raised — she already knows who falls next Sunday.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, warm candlelight, photorealistic cinematic photography, 85mm lens. No readable text on the card. She is an original fictional character and must not resemble any real person.
+```
+
+### 📣 `miroslava-despedida-convertible.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a classic navy convertible pulling away from the stadium parking lot at dusk, stadium lights glowing in the distance, a red "GM" pennant fluttering on the car.
+
+Outfit: her signature fitted navy-blue (#013369) dress, a red silk headscarf tied loosely over her hair (hair still visible and flowing), oversized sunglasses pushed up on her head.
+
+Pose: sitting on the top of the back seat of the moving convertible, turned toward the camera, blowing a kiss with one hand and waving with the other, hair and scarf blowing in the wind — leaving the scene like a movie star.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, warm dusk light with motion in the background, photorealistic cinematic photography, 50mm lens. No extra text besides "GM". She is an original fictional character and must not resemble any real person.
+```
+
+### 📰 `miroslava-redaccion-imprenta.jpg`
+```
+Using the attached reference image of Miroslava, keep her face, facial features, freckles, beauty mark above the right corner of her lip, bold red lipstick, hair color and wavy hairstyle, and gold hoop earrings IDENTICAL to the reference. Change only her pose, outfit and setting.
+
+Setting: a vintage printing press room, a large black rotary press running with rolls of paper, freshly printed newspapers hanging to dry, warm industrial light.
+
+Outfit: a white blouse with rolled sleeves, a navy apron smudged with black ink, a red ribbon tie, a small smudge of ink on one cheek.
+
+Pose: holding up a freshly printed newspaper toward the camera with both hands, the front page showing a bold gothic masthead "El Destape", proud and mischievous grin, as if she can't wait for everyone to read it.
+
+Composition: horizontal 16:9, subject centered, framed from the waist up, face in the upper third, the newspaper fully in frame, photorealistic editorial photography with warm vintage tones, 50mm lens. The only readable text is "El Destape" on the newspaper. She is an original fictional character and must not resemble any real person.
+```
