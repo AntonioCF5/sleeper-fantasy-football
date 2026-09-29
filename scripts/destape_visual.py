@@ -728,7 +728,19 @@ def pdf_html(portada_lineas, secciones, jornada, fecha, foto="jersey", nombre=""
 
 # ───────────────────────────── render ─────────────────────────────
 
-def chrome(args, perfil, salida):
+def chrome(args, perfil, salida, intentos=3):
+    """Chrome headless a veces no arranca a la primera en este Mac (falla
+    intermitente, sin patrón): se reintenta antes de abortar la edición."""
+    for n in range(intentos):
+        try:
+            return _chrome(args, perfil, salida)
+        except SystemExit as e:
+            if n == intentos - 1:
+                raise
+            print(f"  ↻ Chrome falló ({str(e)[:60]}…), reintento {n + 2}/{intentos}")
+
+
+def _chrome(args, perfil, salida):
     """Chrome headless en este Mac escribe el archivo y luego NO termina el
     proceso (se queda colgado tras el 'bytes written'). Así que se lanza en
     segundo plano, se espera a que el log confirme la escritura y se mata."""
@@ -743,7 +755,7 @@ def chrome(args, perfil, salida):
                               "--virtual-time-budget=9000"] + args,
                              stdout=fh, stderr=subprocess.STDOUT, start_new_session=True)
     try:
-        for _ in range(240):                       # hasta 120 s
+        for _ in range(120):                       # hasta 60 s por intento
             time.sleep(0.5)
             if Path(salida).exists() and "written to file" in log.read_text(errors="ignore"):
                 return
@@ -896,7 +908,10 @@ def main():
                 slug = re.sub(r"[^a-z0-9]+", "-", s["titulo"].lower().split(" — ")[0]
                               .translate(str.maketrans("áéíóúñ", "aeioun"))).strip("-")[:28]
                 out = destino / f"{i:02d}-{slug}.jpg"
-                foto = elegir_foto(s["titulo"], anterior, semana) if con_foto else None
+                # Las dos ligas comparten lectores: la Dinastía va un paso
+                # adelante en la rotación para no repetir la foto el mismo martes.
+                rot = semana + (1 if "dinast" in jornada.lower() else 0)
+                foto = elegir_foto(s["titulo"], anterior, rot) if con_foto else None
                 anterior = foto or anterior
                 if con_foto == "portadilla":
                     out = out.with_name(out.stem + "-portadilla.jpg")
