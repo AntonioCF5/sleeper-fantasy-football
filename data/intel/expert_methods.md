@@ -1435,3 +1435,17 @@ without testing it.
 - **Andy's week-3 trade tip:** go to the winless/unsettled managers first;
   they move healthy starters for names. Be first to market on an
   injured-star swap (buy Breece/Hall-class the week the tag flips).
+- **Price a backup-turned-starter by environment and calendar, not role
+  alone (FF, 9/29 evening).** Gordon's FAAB was capped by MIA's 13.5 implied
+  total (season low), @MIN/CIN next and a bye after — the role is real, the
+  scoring window is short. Separate "plug-and-play now" from "ROS starter"
+  before sizing a bid; in a timeshare the cheaper back is often the value
+  side (Kendre Miller ~3% vs Kamara ~20%).
+- **RB role triage beyond box-score opportunities (Sal, 9/29 evening).**
+  A 16-opportunity game can hide a collapsing role: read routes run,
+  inside-10 touches and two-minute/long-down usage, then check efficiency by
+  run concept against the play-caller's preferred scheme (Hampton 2.7 YPC on
+  the zone runs McDaniel calls most; 6 routes behind Mitchell/Vidal/Ingold).
+- **"Drop it like it's hot" (FF).** Wednesday after waivers clear, scan the
+  fresh drops for free pickups (Ferguson, Bryce Young-type streamers) —
+  same as our recent_drops pass, run the morning after processing.
