@@ -1,142 +1,43 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-10-02",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
-   "league_id": "1389689013551517698",
-   "league": "Guillotine TRC",
-   "player": "Jonathan Taylor (RB, IND, 27)",
-   "verdict": "claim",
-   "bid": 151,
-   "drop": "Nicholas Singleton (22, RB, TEN dc3 — 1.4 wk / 64 season, zero offensive snaps in week 3)",
-   "why": "JimmySC was chopped after week 3 (65.5) and his whole roster went to waivers this morning: Taylor (20.8 wk / 272 season under this league's full-PPR scoring, IND dc1, the best RB available in any of the eight leagues), Egbuka, Odunze, Henderson, Pitts, Love, Stafford, plus Caleb Williams/Breece Hall/Dowdle who are all Out. Daily waivers, clear_days=1, waiver hour 0 — the claims process at midnight tonight into Wednesday, so bids must be filed TONIGHT. Read live: 14/14, $1000 of $1000 unspent; the weakest starter is Woody Marks at 6.7 (20 of 54 Houston snaps), so Taylor is a +14/week lineup swing. SIZING — THIS IS THE ARGUMENT OF THE EDITION. The observed market for chopped studs is $388 (Nico Collins, wk1) and $407 (Puka Nacua, wk2): a bid that WINS Taylor outright is ~$451-501, and the weeks-1-6 'bid to win' rule would say pay it. Two things override that rule here. (1) Sal's guillotine rule from Monday's stream (new in expert_methods.md): save FAAB for the final rounds, when the chopped rosters are the strongest and the fewest bidders remain; bid 1-2% early even on stars, Taylor <=10%, UNLESS you are at chop risk. (2) The roster is not at chop risk: 114.9 this week was 5th of 15 (the chop line was lique11 at 77.9, a 37-point margin) and 331 points-for is 3rd overall. Money spent now buys +13/week on a margin that is already 37; the same money in weeks 12-17 buys studs against 4-5 rivals, half of whom are already spent (jcordoba $338 left, pitsonvillejags $600). $151 is 15%, above Sal's ceiling because this league's market has cleared absurdly low before (Emanuel Wilson went for $10 with the plan at $231) — a steal bid, not a win bid. If the user disagrees with the hoarding logic, the win price is $501 and the drop is the same. Drop Singleton: no offensive snap Sunday, no path to the lineup. | 9/29 evening: Sleeper wire confirms Singleton logged zero offensive snaps in week 3."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "league": "Guillotine TRC",
-   "player": "Ollie Gordon (RB, MIA, 22)",
-   "verdict": "claim",
-   "bid": 51,
-   "drop": "Zach Ertz (35, TE, PHI — 3.7 wk / 37 season; 19 of 50 snaps Sunday and Isaiah Likely is the TE with Ferguson likely out)",
-   "why": "De'Von Achane tore his ACL Sunday (season over, IR) and Gordon is now MIA's dc1. Usage says bell-cow sample: 61 of 73 offensive snaps (84%) with 17 carries + 3 targets and a TD — but that sample is the game Achane left early AND Jaylen Wright sat (stinger/foot, day-to-day), so it is the replacement role with the committee half missing. Sal's explicit ruling Monday: do NOT overpay for Gordon — bottom-5 offense (2.4 ypc Sunday), Hafley promising 'roles' for every back — and FF's rule that an 80%+ snap share does not transfer whole to the replacement. Both mechanisms check out against the snap log, so $51 (5%, top of the speculative tier) instead of role-bet money; hectorviov, who just dropped Achane and holds $861, will likely pay more and that is fine. Drop Ertz: with Ferguson likely out Likely starts at TE anyway and Ertz's PHI role (19 of 50 snaps, 1 catch) is a dead spot in a league where every spot must score. | 9/29 evening: FF (Ep. 1982 + short) expects 20%+ market bids but won't pay them — Wright stays involved, MIA implied total 13.5 (season low), @MIN/CIN then a bye. Confirms the sober $51; unchanged. | 9/29 evening: Ertz reverted to PHI's practice squad Tuesday — the drop is now free."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "league": "Guillotine TRC",
-   "player": "TreVeyon Henderson (RB, NE, 23)",
-   "verdict": "claim",
-   "bid": 31,
-   "drop": "Geno Smith (35, QB, NYJ — 13.2 wk bench QB; Malik Willis (261 season) stays as the one backup to Lamar Jackson)",
-   "why": "Third chopped-roster claim, sized to the guillotine-hoard rule: Henderson (13.0 wk / 171 season) was 'taking over' per both sources two weeks ago, but week 3 was 23 of 63 snaps and 8 carries in a 35-6 loss versus Stevenson's 33 snaps and 7 carries — a split, not a takeover, and FF listed him among the week's duds. Still a lineup upgrade: if Taylor lands he replaces Khalil Shakir (8.6, 1 catch on 3 targets Sunday) in the flex (+4.4); if Taylor is lost he replaces Marks (+6.3). $31 speculative. Drop Geno Smith, the second of two backup QBs behind Lamar in a one-QB league; Willis (261 season) stays for Lamar's bye. Egbuka (10.4 wk, 9 targets Sunday, but an undrafted rookie at QB for three weeks) is deliberately NOT claimed: the fourth drop would be Willis and that leaves no bye-week QB."
-  },
-  {
    "league_id": "1395839320077656064",
    "league": "Gallamijos League",
-   "player": "Kenyon Sadiq (TE, NYJ, 21)",
-   "verdict": "claim",
+   "player": "Dillon Thieneman (DB, CHI, rookie)",
+   "verdict": "add now (free agent)",
    "bid": null,
-   "drop": "Roman Wilson (25, WR, PIT WR3 — 5.2 wk / 27 season; the 60-yard TD Sunday came on 6 targets and does not change a 27-point season line)",
-   "why": "Terrance Ferguson (the TE starter here) will 'likely' miss week 4 per McVay (ankle, 22 of 86 snaps Sunday), so the TE slot projects ZERO — the third empty starting slot on a 17/17 roster with no IR path (allow_out=0, allow_doubtful=0, read live). Sadiq: 7-8-105-TD on 38 of 66 snaps with Mason Taylor (thumb) and Adonai Mitchell (finger) out; 9.5 wk / 100 season under this scoring, dropped by charlyae17 Saturday. He is trending 1.35M adds, so at 12th of 18 in table priority (type 1, clear_days=1, Wednesday run) the claim may lose — file it anyway and put Mike Gesicki (CIN, 7.9 wk / 105 season, free) as the fallback in the same claim list. Ferguson is a hold (dc1 when healthy, Nacua-out role proven in week 2), not a drop. | 9/29 evening: FF's Jason names Sadiq his #1 pickup at any position (58% snaps, 57% routes, career highs)."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Malaki Starks (DB, BAL, 22)",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Malachi Fields (23, WR, NYG WR2 — 5.4 wk / 105 season; WR5 on this roster, never starts)",
-   "why": "THE DB SLOT HAS SCORED 0.0 FOR THREE PLAYED WEEKS AND IS EMPTY AGAIN FOR WEEK 4 — Thieneman went to MEXICA (where he now starts) but nothing was ever added here. Starks (BAL dc1 safety) is the best DB on this wire under this league's IDP scoring: 5.8 wk / 95 season; Xavier Watts (ATL, 5.7/94) and Tre'von Moehrig (CAR, 5.3/93) are equivalent fallbacks — list all three, any of them turns a guaranteed zero into ~6. Fields is the drop rather than Baker Mayfield: Mayfield is Out ~3 weeks (dislocated thumb, no fracture) and cannot go to IR here, but he returns as a QB1 into an 18-team league where the best free QB is Aaron Rodgers at 13.6 — a WR5 who never starts is worth less than that insurance. Woody Marks stays protected (clean handcuff behind Montgomery's 206)."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Nakobe Dean (LB, LV, 25)",
-   "verdict": "optional",
-   "bid": null,
-   "drop": "Jacob Rodriguez (LB, MIA — 4.7 wk / 104 season)",
-   "why": "Same-slot upgrade at zero roster cost: Dean 6.9 wk / 122 season vs Rodriguez 4.7 / 104, +2.2 a week. Third priority behind the TE and DB holes; file it if the app allows a third claim."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Ollie Gordon (RB, MIA, 22)",
-   "verdict": "optional",
-   "bid": null,
-   "drop": "Roman Wilson or Malachi Fields — only if the TE/DB claims above fail",
-   "why": "Gordon is a free agent here too (Achane ACL, 84% snaps Sunday). At 12th of 18 in table priority he will not reach the user, but a claim costs nothing: file it BELOW Sadiq and Starks so the roster fixes its two empty slots first."
+   "drop": "Chris Bell (22, WR, MIA dc3 — Questionable knee, limited all week; 67 season, never starts on this roster)",
+   "why": "The DB slot has scored 0.0 for four straight weeks. Thieneman is the top free-agent DB under this league's scoring (6.5 wk / 118 season), ahead of Malaki Starks (5.8/95) as the fallback. As a free agent he is an instant add — no table-priority queue. Bell was claimed 9/30 as WR depth but is the lowest season projection on the bench; Woody Marks is a protected clean handcuff, Corum is untouchable, MHJ and Mayfield are real assets, and the LAR DEF is the second-DEF streaming piece. +6.5 a week vs a WR6 who never plays."
   },
   {
    "league_id": "1385473470141313024",
    "league": "FANTASY MEXICA",
-   "player": "Arvell Reese (LB/DL, NYG, 21)",
-   "verdict": "claim",
+   "player": "Byron Young (DL/LB, LAR)",
+   "verdict": "add now (free agent)",
    "bid": null,
-   "drop": "Caleb Douglas (23, WR, MIA dc9 — Out, ankle; no practice all week, Mueller suspects a high-ankle sprain, likely misses several weeks)",
-   "why": "THE DL SLOT IS STILL EMPTY FOR WEEK 4 — the 9/25 ruling was never executed. Reese (NYG dc1, DL+LB eligible, 4.5 wk / 86 season) is still the best DL on this wire and still a free agent; Byron Young (LAR, 4.2/79) is the fallback. Read live: 19/19, reserve_slots=0, table priority (type 1, clear_days=2) and the user is 1st of 18, i.e. LAST in priority — so file Reese AND Young. Drop Caleb Douglas, not Wicks: Douglas is Out (ankle) with no practice all week and sits dc9 in Miami behind Washington/Bell/Coleman, so even healthy he has no path; Wicks (PHI dc2, 7.2 wk) keeps a role. Jonah Coleman is the drop for the Gordon claim below; Carnell Tate (21, keeper) stays; Waller stays (Bowers insurance, 5-8-51 Sunday, 8 targets)."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Ollie Gordon (RB, MIA, 22)",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Jonah Coleman (23, RB, DEN — on IR with the ankle; this league has no IR slots)",
-   "why": "Free agent in MEXICA. Achane's ACL makes Gordon the Dolphins' dc1 and week 3 usage was 61 of 73 snaps, 17 carries, 3 targets, a TD — a bell-cow line on a keeper-league roster whose RB2 is Aaron Jones (11.2). 22 years old = keeper-eligible youth, not a points chase. Last in table priority (3-0, 1st of 18) means the claim almost certainly loses to one of 17 rivals, but it costs only the Coleman spot and the alternative is watching him go for nothing. If it fails, Coleman stays until the next add needs the spot."
+   "drop": "Jonah Coleman (23, RB, DEN dc6 — IR ankle; this league has no IR slots)",
+   "why": "The DL slot is empty again: the Arvell Reese claim lost to ChaloG (better priority). Byron Young is the best free-agent DL by season projection (4.2 wk / 79) and is an instant add. Jaishawn Barham (4.4/78) was just cut by ChaloG and is stuck on waivers (clear_days=2), so he is a claim-only fallback. Coleman is on IR with no IR slot here and ranks 6th on Denver's depth chart; Waller stays as Bowers insurance, and Kaleb Johnson was just added."
   },
   {
    "league_id": "1338269686810300416",
    "league": "Dynasty Mexica",
-   "player": "Jalen McMillan → IR MOVE (free), then Justice Hill (RB, BAL, 28) $9",
-   "verdict": "claim",
-   "bid": 9,
-   "drop": "none needed once McMillan is on IR; Tyler Badie (26, RB, DEN — 2.5 wk / 6 season) remains the next drop",
-   "why": "McMillan was placed on Tampa Bay's IR Monday (PCL sprain, second opinion sought) and this league has reserve_allow_out=1 with IR at 1/4 — moving him is free and opens an active spot on a 26/26 roster. Jaylen Wright (Out, foot/stinger) is 'day-to-day' per Hafley and may practice Wednesday, so hold him active for now; he becomes the next IR move if the tag holds Friday. Hill is the same ruling as 9/25, re-verified: clean handcuff behind Derrick Henry (26 carries, 2 TD Sunday; 238 season, 33 this year), 21 of 64 snaps himself, no depth-3 Raven near 80. $9 of $82 (odd, speculative-plus for a genuine bell-cow contingency). Ollie Gordon and Kenyon Sadiq are both rostered here (Samycas, mautm) — no shot."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "Konata Mumpfield (WR, LAR, 23)",
-   "verdict": "optional",
-   "bid": 5,
-   "drop": "Tyler Badie (26, RB, DEN dc3 — 2.5 wk / 6 season, the deadest asset on the roster)",
-   "why": "Free agent here. 63 of 86 Rams snaps, 8 targets, 4-93-TD Sunday night with Nacua out; Nacua is 'hopeful' for week 4, so the role shrinks soon — this is a $5 dynasty stash of a 23-year-old who just ran 73% of the routes on a top-10 offense, funded by cutting a 6-point season line. Dynasty drop rule satisfied: Badie is the aging-no-market bucket."
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "Caleb Williams → IR MOVE (free), then Konata Mumpfield (WR, LAR, 23) $7",
-   "verdict": "claim",
-   "bid": 7,
-   "drop": "none — the IR move opens the spot (23/23 → 22/23)",
-   "why": "Caleb Williams' tag flipped to OUT (hamstring) and this league has reserve_allow_out=1 with IR at 3/4 — move him tonight, it is free and it has been the standing order since 9/23. That opens one active spot; Rico Dowdle (Out, toe, DNP again Monday) would be the second IR candidate but the slot count is 4/4 after Caleb, so he stays active dead weight. Fill the open spot with Mumpfield (free agent here): 23 years old, 63 of 86 snaps, 8 targets, 93 yards and a TD with Nacua out — a rebuild-appropriate young stash at $7 of $96 (odd; speculative tier plus the win premium because 331k managers added him overnight). Isaiah Davis (NYJ, 24, free) is the alternative if Mumpfield is taken: Cimini says Allen AND Davis man the backfield while Breece Hall is out, but Davis played only special teams Sunday — $3 at most."
-  },
-  {
-   "league_id": "1314652488325922816",
-   "league": "League of Record",
-   "player": "Jalon Daniels (QB, TB, 23)",
-   "verdict": "optional",
-   "bid": 1,
-   "drop": "none — 27/28, one active spot is open",
-   "why": "The roster has an open spot and $100 untouched. The wire is otherwise empty (Gordon, Sadiq, Mumpfield, Braelon Allen, Isaiah Davis all rostered here). Daniels, an undrafted rookie, starts for Tampa Bay for 'a minimum of three weeks' with Mayfield's thumb — in a 6-pt-passing-TD dynasty league with an 8-man taxi that is a free look at a 23-year-old with Egbuka and Godwin to throw to. $1, no drop, no expectation. Andrei Iosivas is still Out with allow_out=0 here: not IR-eligible, NOT a cut."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Konata Mumpfield (WR, LAR, 23)",
-   "verdict": "optional",
-   "bid": 5,
-   "drop": "Roman Wilson (25, WR, PIT — 5.2 wk / 27 season; stalled year-3 bucket, the only droppable non-protected piece)",
-   "why": "Read live: 25/25, IR 4/4 full, taxi 5/5 — every add names a drop. Mumpfield is a free agent here and the case is the same as in the other two dynasty leagues (23, 73% snaps, 8 targets, 93-TD with Nacua out). Roman Wilson (60-yd TD Sunday, still a 27-point season line and PIT's WR3) is the one drop the dynasty rule allows: Keaton Mitchell (24, usage rising: 8-52 + TD) and Brian Robinson (dc2 behind Bijan — protected handcuff) are not. Nico Collins is 'hopeful' for week 4 per Ryans and stays active; when he plays, the WR room is fine without any add, which is why this is optional."
+   "player": "(lineup) Colston Loveland in, DeVonta Smith out",
+   "verdict": "lineup",
+   "bid": null,
+   "drop": null,
+   "why": "DeVonta Smith (hamstring) is 'not expected to play' Sunday vs LAR (ESPN, Tim McManus). Loveland (8.5 projected) is the best non-locked bench option; Denzel Boston's CLE game already went final on TNF. FF ranks Loveland as a low-conviction TE, but he is the only real points available."
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-09-25",
-  "Gallamijos League": "17/17 active, IR 0/2 but reserve_allow_out=0 AND reserve_allow_doubtful=0 (nobody on this roster is IR-eligible), waiver_type=1 table priority, user 10th of 18, clear_days=1, $0 of $100 used. Every add names a drop. Executed since yesterday: +Jacob Rodriguez (LB) -Tyler Badie at 14:59.",
-  "Gallamijos Dynasty": "22/23 active (one spot open), IR 2/4 (Iosivas, Stribling), taxi 6/6, $100 left, allow_out=1. RICO DOWDLE IS NOW TAGGED OUT — he is IR-eligible tonight and there are two free IR slots. Caleb Williams is Doubtful and allow_doubtful=0, so he is NOT yet eligible.",
-  "FANTASY MEXICA": "19/19 active, reserve_slots=0 (NO IR AT ALL), taxi 0, waiver_type=1, user 14th of 18, $0 used. Every add names a drop. Executed since yesterday: +Quay Walker -Demond Claiborne (12:17), +Dillon Thieneman -Julian Love (16:57). DB slot now filled; DL slot still empty.",
-  "Dynasty Mexica": "26/26 active, IR 1/4, taxi 4/4, $82 of $100 left, waiver_type=2.",
-  "League of Record": "28/28 active, IR 3/8 but allow_out=0 so Iosivas still cannot be stashed, taxi 8/8, $100 left.",
-  "Guillotine TRC": "14/14 active, no IR, no taxi, $1000 of $1000 unspent. Observed winning bids in this league cleared at $0/$0/$0/$10/$16 — size against that market, not the raw ladder.",
-  "DYNASTY TRC": "25/25 active, IR 4/4 FULL (Benson, Sampson, Stowers, Conner), taxi 5/5. Nico Collins is Out and IR-eligible by tag but there is no reserve room, so he costs an active spot. Nothing is addable without a cut."
+  "read_live": "2026-10-02",
+  "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_out=0 (Mayfield, Out ~3 wks, NOT IR-eligible); waiver_type=1 (table priority), clear_days=1. Executed 9/30: +Higbee -Ferguson, +Chris Bell -Malachi Fields; Sadiq and Andrews lost to higher priority. DB slot still EMPTY (4th straight week).",
+  "Gallamijos Dynasty": "23/23 active, IR 3/4, taxi 6/6, $73 FAAB left. Caleb Williams is DOUBTFUL now (was Out) — not IR-eligible until the tag reads Out again. Executed: +ARI DEF -Nailor, +CJ Donaldson $6 -DeeJay Dallas, +Jalon Daniels $17 -Tyler Badie.",
+  "FANTASY MEXICA": "19/19, reserve_slots=0, waiver_type=1, clear_days=2. Reese lost to ChaloG; user added Kaleb Johnson (FA) dropping Quay Walker. DL slot still EMPTY.",
+  "Dynasty Mexica": "26/26 active, IR 2/4 (McMillan, Randall), taxi 4/4, $82 left. Executed: Justice Hill $0, CJ Donaldson $0 (-Badie), Darnell Washington FA (-Ayomanor).",
+  "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
+  "Guillotine TRC": "14/14, no IR, $469 of $1000 left. WON Jonathan Taylor at $531 (dropped Singleton) — the user overrode the $151 Sal-logic bid with the win price; next bids were $412/$333/$312, so the $501 estimate was right. Gordon and Henderson went to lique11 at $101 each.",
+  "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions."
  }
 }

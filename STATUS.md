@@ -197,6 +197,24 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-02 (corrida del boletín, madrugada del viernes)
+
+- [ ] 🔴 **Casillas IDP vacías, ambas son altas de agente libre (sin fila):**
+  Gallamijos Lg DB → Dillon Thieneman por Chris Bell; MEXICA DL → Byron Young
+  por Jonah Coleman (el claim de Reese se perdió).
+- [ ] 🔴 **DMX:** Loveland por DeVonta Smith (no se espera que juegue).
+  Viernes: Swift (Gallamijos Lg, DNP rodilla → Marks) y McConkey (Gallamijos
+  Dyn, cojeando → Otton).
+- [ ] 🟠 **Trade NUEVO en LoR:** Watson por Pickens a Gernant88 (+29.6 de
+  temporada; los dos canales venden a Watson). Está en trade_offers.json.
+- [ ] 🟡 **Bug de herramienta:** `expert_watch.fetch_transcript` eligió
+  subtítulos traducidos (Sal 10/1 en holandés, FF Ep. 1983 en francés). Hay
+  que preferir `en*` o la pista original. Y la corrida del 9/30 volvió a morir
+  después del fetch, igual que la del 9/25.
+- Guillotine: el user ganó a Jonathan Taylor con $531 (le quedan $469).
+- Caleb Williams pasó a Doubtful, así que el IR gratis en Gallamijos Dyn se
+  cerró hasta que vuelva a decir Out.
+
 *(Actualizados 2026-09-29 por la corrida nocturna del boletín — el detalle y el
 POR QUÉ de cada claim vive en `data/intel/waiver_claims.json`.)*
 

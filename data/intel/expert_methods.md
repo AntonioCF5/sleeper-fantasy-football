@@ -1449,3 +1449,20 @@ without testing it.
 - **"Drop it like it's hot" (FF).** Wednesday after waivers clear, scan the
   fresh drops for free pickups (Ferguson, Bryce Young-type streamers) —
   same as our recent_drops pass, run the morning after processing.
+- **Sell borrowed production before the return date is priced in (Sal,
+  10/1).** When a player's spike rests on a teammate's absence that has a
+  known return clock (Adams' 30% share without Nacua; Aaron Jones' 81%
+  snaps while Jordan Mason's thumb heals), the market prices current output
+  and our boards price the season. Sell during the absence and name the
+  return week in the pitch. Test: does his usage with the teammate active
+  (Adams ~25%, Jones 43% snaps) still clear the bar?
+- **Weather/script-made volume is not a role (Sal, 10/1).** Before you buy
+  or sell off one game, check wind/rain and the game script: Kendre Miller's
+  20 carries came in 18-41 mph wind with an early lead, and Nabers' 6
+  targets came on 20 real dropbacks in the same game. Discount single-game
+  volume that the environment produced, in either direction.
+- **QB-adjusted target share (FF, 10/1).** A 25% share from a bottom-tier
+  passer (Cam Ward: 34th in YPA, zero 20+ yard completions) is worth far
+  less than the same share in a functional offense, and slow pace shrinks
+  the pie further. Read share × team pass volume × QB efficiency, never
+  share alone (Tate's 25% / 92% routes ≠ a WR2 yet).
