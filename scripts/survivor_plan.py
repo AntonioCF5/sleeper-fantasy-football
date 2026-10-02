@@ -59,6 +59,30 @@ def _phi(x):
     return 0.5 * (1 + math.erf(x / math.sqrt(2)))
 
 
+CACHE = ROOT / "data" / "cache" / "espn_summary"
+
+
+def fpi_home(event_id):
+    """ESPN Matchup Predictor (FPI) for the home side, 0-1, cached 12h.
+    Lookahead lines only exist ~2 weeks out; FPI covers the whole season, so
+    it fills the weeks the market hasn't priced yet (user 2026-10-02: the
+    plan showed 'sin opción' for 9 of 15 weeks)."""
+    import time
+    CACHE.mkdir(parents=True, exist_ok=True)
+    f = CACHE / f"{event_id}.json"
+    if not f.exists() or time.time() - f.stat().st_mtime > 12 * 3600:
+        url = f"https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={event_id}"
+        out = subprocess.run(["curl", "-s", "--max-time", "30", url], capture_output=True).stdout
+        f.write_bytes(out)
+    try:
+        pred = json.loads(f.read_text()).get("predictor") or {}
+        h = float(pred["homeTeam"]["gameProjection"]) / 100
+        a = float(pred["awayTeam"]["gameProjection"]) / 100
+        return h / (h + a) if h + a > 0 else None
+    except (KeyError, TypeError, ValueError, json.JSONDecodeError):
+        return None
+
+
 def games_with_probs(week):
     """[(team, opp, p_win, home?, spread_str)] for every side of every game."""
     rows = []
@@ -70,6 +94,11 @@ def games_with_probs(week):
         away = next(x for x in c["competitors"] if x["homeAway"] == "away")["team"]["abbreviation"]
         odds = (c.get("odds") or [None])[0]
         if not odds:
+            p_home = fpi_home(ev["id"])
+            if p_home is None:
+                continue
+            rows.append((home, away, p_home, True, "FPI"))
+            rows.append((away, home, 1 - p_home, False, "FPI"))
             continue
         ml = odds.get("moneyline") or {}
         mh = ((ml.get("home") or {}).get("close") or {}).get("odds")
@@ -188,7 +217,7 @@ def main():
                 penalty[(wk, t)] = penalty.get((wk, t), 0.0) + 0.15
 
     print(f"SURVIVOR — {lives} vidas, usados: {', '.join(f'S{k}:{v}' for k, v in sorted(used.items())) or 'ninguno'}")
-    print(f"Plan óptimo semanas {weeks[0]}-{weeks[-1]} (líneas DraftKings via ESPN, hoy)\n")
+    print(f"Plan óptimo semanas {weeks[0]}-{weeks[-1]} (DraftKings vía ESPN donde hay línea; ESPN FPI donde no — columna línea = FPI)\n")
     print(f"regresión {regress}/sem · máx {max_fade} fades por rival · "
           f"{'semana 18 descontada' if avoid18 else 'semana 18 a valor de mercado'}\n")
     print(f"{'Sem':<4}{'Pick':<5}{'vs':<9}{'mercado':>8}{'ajust.':>8}  {'línea':<12} alternativas libres (mercado)")

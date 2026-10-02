@@ -1,26 +1,32 @@
 {
- "lives": 3,
+ "lives": 2,
  "used": {
-  "1": "PIT"
+  "1": "PIT",
+  "2": "TB",
+  "3": "KC"
  },
  "pool": "survivor NFL 2026 \u2014 3 vidas, sin repetir equipo",
+ "results": {
+  "1": "PIT 20-13 ATL \u2713",
+  "2": "TB 19-23 CLE \u2717 (vida perdida)",
+  "3": "KC 24-10 MIA \u2713"
+ },
+ "nota": "Orden S2/S3 asumido (TB S2 seg\u00fan la recomendaci\u00f3n previa); TB perdi\u00f3 las tres semanas, as\u00ed que en cualquier orden se perdi\u00f3 UNA vida.",
  "plan_generated": {
-  "2": "SF",
-  "3": "KC",
-  "4": "CHI",
-  "5": "NE",
-  "6": "LAR",
+  "4": "MIN",
+  "5": "CIN",
+  "6": "IND",
   "7": "HOU",
-  "8": "CIN",
+  "8": "DAL",
   "9": "SEA",
-  "10": "GB",
-  "11": "DEN",
-  "12": "MIN",
-  "13": "DET",
-  "14": "PHI",
-  "15": "TB",
+  "10": "LAR",
+  "11": "BUF",
+  "12": "JAX",
+  "13": "SF",
+  "14": "DET",
+  "15": "WSH",
   "16": "BAL",
-  "17": "DAL",
-  "18": "BUF"
+  "17": "CHI",
+  "18": "DEN"
  }
 }
