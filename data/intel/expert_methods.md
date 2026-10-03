@@ -1466,3 +1466,20 @@ without testing it.
   less than the same share in a functional offense, and slow pace shrinks
   the pie further. Read share × team pass volume × QB efficiency, never
   share alone (Tate's 25% / 92% routes ≠ a WR2 yet).
+- **A secondary back's targets per route run caps the starter (Sal, 10/2).**
+  Ty Johnson draws targets on 31% of his routes, and that limits James Cook's
+  passing-down ceiling. For receiving splits, read the backup's TPRR plus
+  his route share, not snap share.
+- **Red-zone snap volume as a regression signal (FF, 10/2).** The NFL
+  average is about 10 snaps inside the 20 per game. A back with top-10
+  routes, targets and opportunities on an offense starved of red-zone
+  snaps is a buy-low: Chase Brown, with CIN at only 6 snaps inside the 20
+  in two weeks.
+- **A mobile or undrafted backup QB is negative for pass-catching RBs
+  (both, 10/2).** He checks down less and takes the short rushing TDs.
+  Downgrade the RB's receiving floor when the starter sits (TB and CHI
+  this week).
+- **Injury actuarial: a hip/groin listing usually means a core-muscle
+  injury (FF, 10/2).** Delaying surgery stretches the recovery, and the
+  post-surgery clock is about 6-8 weeks. Price the player (Puka) as a
+  league-winning bet, never as a discount.

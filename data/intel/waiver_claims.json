@@ -9,7 +9,7 @@
    "verdict": "add now (free agent)",
    "bid": null,
    "drop": "Chris Bell (22, WR, MIA dc3 — Questionable knee, limited all week; 67 season, never starts on this roster)",
-   "why": "The DB slot has scored 0.0 for four straight weeks. Thieneman is the top free-agent DB under this league's scoring (6.5 wk / 118 season), ahead of Malaki Starks (5.8/95) as the fallback. As a free agent he is an instant add — no table-priority queue. Bell was claimed 9/30 as WR depth but is the lowest season projection on the bench; Woody Marks is a protected clean handcuff, Corum is untouchable, MHJ and Mayfield are real assets, and the LAR DEF is the second-DEF streaming piece. +6.5 a week vs a WR6 who never plays."
+   "why": "The DB slot has scored 0.0 for four straight weeks. Thieneman is the top free-agent DB under this league's scoring (6.5 wk / 118 season), ahead of Malaki Starks (5.8/95) as the fallback. As a free agent he is an instant add — no table-priority queue. Bell was claimed 9/30 as WR depth but is the lowest season projection on the bench; Woody Marks is a protected clean handcuff, Corum is untouchable, MHJ and Mayfield are real assets, and the LAR DEF is the second-DEF streaming piece. +6.5 a week vs a WR6 who never plays. | 10/2 pm: still a free agent and still not executed. FF's matchup show says 'don't touch Miami WRs' this week, which makes Bell an even easier drop."
   },
   {
    "league_id": "1385473470141313024",
@@ -18,7 +18,7 @@
    "verdict": "add now (free agent)",
    "bid": null,
    "drop": "Jonah Coleman (23, RB, DEN dc6 — IR ankle; this league has no IR slots)",
-   "why": "The DL slot is empty again: the Arvell Reese claim lost to ChaloG (better priority). Byron Young is the best free-agent DL by season projection (4.2 wk / 79) and is an instant add. Jaishawn Barham (4.4/78) was just cut by ChaloG and is stuck on waivers (clear_days=2), so he is a claim-only fallback. Coleman is on IR with no IR slot here and ranks 6th on Denver's depth chart; Waller stays as Bowers insurance, and Kaleb Johnson was just added."
+   "why": "The DL slot is empty again: the Arvell Reese claim lost to ChaloG (better priority). Byron Young is the best free-agent DL by season projection (4.2 wk / 79) and is an instant add. Jaishawn Barham (4.4/78) was just cut by ChaloG and is stuck on waivers (clear_days=2), so he is a claim-only fallback. Coleman is on IR with no IR slot here and ranks 6th on Denver's depth chart; Waller stays as Bowers insurance, and Kaleb Johnson was just added. | 10/2 pm: still a free agent and still not executed. The DL slot is still empty."
   },
   {
    "league_id": "1338269686810300416",
@@ -27,7 +27,52 @@
    "verdict": "lineup",
    "bid": null,
    "drop": null,
-   "why": "DeVonta Smith (hamstring) is 'not expected to play' Sunday vs LAR (ESPN, Tim McManus). Loveland (8.5 projected) is the best non-locked bench option; Denzel Boston's CLE game already went final on TNF. FF ranks Loveland as a low-conviction TE, but he is the only real points available."
+   "why": "DeVonta Smith (hamstring) is 'not expected to play' Sunday vs LAR (ESPN, Tim McManus). Loveland (8.5 projected) is the best non-locked bench option; Denzel Boston's CLE game already went final on TNF. FF ranks Loveland as a low-conviction TE, but he is the only real points available. | 10/2 pm: done — Smith is benched (Malik Washington in the WR slot). Smith is now tagged Out, so he's IR-eligible: see the IR entry."
+  },
+  {
+   "league_id": "1338269686810300416",
+   "league": "Dynasty Mexica",
+   "player": "(IR) DeVonta Smith to IR",
+   "verdict": "roster move",
+   "bid": null,
+   "drop": null,
+   "why": "Smith (hamstring) is tagged Out, and the Eagles expect to play without him, possibly for several weeks (FF Ep. 1985). IR is 2/4 with reserve_allow_out=1, so moving him is a free bench spot."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "league": "Gallamijos Dynasty",
+   "player": "(IR) Caleb Williams to IR",
+   "verdict": "roster move",
+   "bid": null,
+   "drop": null,
+   "why": "Caleb Williams was ruled Out for week 4 (Brad Biggs), so his tag moved Doubtful to Out and he's IR-eligible again (allow_out=1, IR 3/4). Moving him opens a bench spot. Bagent starts for CHI."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "league": "League of Record",
+   "player": "(lineup) Jauan Jennings in, Jalen Coker out",
+   "verdict": "lineup",
+   "bid": null,
+   "drop": null,
+   "why": "Coker (quad, Q) wasn't even doing individual drills (FF Ep. 1985), and his game is SNF, after every bench WR's game locks, so waiting for inactives strands the slot. Jefferson was ruled Out, which leaves Jennings MIN's WR1 (80% of snaps last week; projects 9.1). Kamara stays in the flex over Harvey: Sal has them RB23 vs RB27, and Kamara has volume with Etienne on IR."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "(lineup) Dontayvion Wicks in, Carnell Tate out (FLEX)",
+   "verdict": "lineup",
+   "bid": null,
+   "drop": null,
+   "why": "The Eagles' site says Wicks is PHI's WR1 vs LAR with DeVonta Smith out. He projects 9.3 vs Tate's 7.7. Waller (FF's TE start of the week) projects 7.7, so he isn't the flex."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "(lineup) Woody Marks in, J.K. Dobbins out",
+   "verdict": "lineup",
+   "bid": null,
+   "drop": null,
+   "why": "Swift is cleared (full practice Friday, no tag), so the Swift contingency is dead. Marks projects 8.7 vs Dobbins's 7.8. Graziano reports HOU will give Marks more work, while Sal has Dobbins at RB29 as TD-or-bust. Roman Wilson's slot is already locked from TNF."
   }
  ],
  "roster_compliance": {
