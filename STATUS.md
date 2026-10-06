@@ -197,6 +197,14 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-05 (corrida del boletín, lunes de la semana 4)
+
+- [ ] 🔴 **Guillotine:** Rodgers $23 por McGowan. Lamar trae bota y probable esguince alto, y es el único QB del roster. Willis queda de respaldo.
+- [ ] 🔴 **IR, siguen sin hacerse:** Caleb Williams (Gallamijos Dyn, abre lugar para Meyers $7) y DeVonta Smith (DMX, abre lugar para Shipley $9 por Darnell Washington).
+- [ ] 🟠 **Gallamijos Lg:** Coleman por Roman Wilson, luego Gesicki por Higbee (Chase en protocolo de conmoción). **MEXICA:** Byron Young por Jonah Coleman (Phillips fuera hasta la semana 6).
+- [ ] 🟡 **Vigilar a Swift:** Monangai (de Jebusf) le quitó la titularidad (30-146-2). Si el miércoles Monangai sigue de líder, se discute vender a Swift.
+- Lección: buscar jugadores por nombre + equipo. "Kevin Monangai" sin equipo produjo un falso agente libre; se detectó antes de publicar.
+
 ### 2026-10-02 (corrida del boletín, madrugada del viernes)
 
 - [ ] 🔴 **Casillas IDP vacías, ambas son altas de agente libre (sin fila):**
