@@ -116,6 +116,12 @@ contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
 - **Referencias legibles para ESTE grupo**: una referencia literaria que el
   grupo no agarra falla (el user no entendió "Jekyll y Hyde"; la cambió por
   *La usurpadora*, Paulina/Paola). Para "doble personalidad", telenovela.
+- **Cantidades SIEMPRE en número** (user 2026-10-06): 4.2, 0-4, 5º, $5,
+  200 — nunca en letra. El linter ya lo marca; tú revisa que la cifra no
+  rompa un chiste (reescribe la frase, no la cifra).
+- **NO MEZCLAR LIGAS, sin excepción** salvo instrucción expresa del user:
+  ninguna mención a "la Dinastía"/"la otra liga" en la Gallamijos ni a "la
+  redraft"/"la otra liga" en la Dinastía (reiterado 2026-10-06).
 - **Moldes en descanso**: cruza CADA entrada "usado — descansar" y "AGOTADO"
   de la bitácora del canon contra el borrador (cambian las palabras, se
   queda el molde).

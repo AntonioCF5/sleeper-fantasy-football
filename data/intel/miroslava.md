@@ -158,6 +158,13 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Nazas"), el Cristo de las Noas, Gómez y Lerdo. "Jets de la Laguna" ya es
   referencia local viva.
 
+## Cantidades SIEMPRE en número (regla del user 2026-10-06)
+
+"NUEVA REGLA, cantidades siempre en número en lugar de texto": 4.2, no
+"cuatro punto dos"; 0-4, no "cero y cuatro"; 9 de 18, 5º, $5, 200 puntos.
+Las posiciones también en cifra (5º, 3er). Los artículos un/una no cuentan.
+`roast_lint.py` lo marca como ERROR (cardinales) y AVISO (ordinales).
+
 ## Puntos de banca: SOLO los recuperables (regla del user 2026-09-22)
 
 Cuando el Destape diga "dejó X puntos en la banca", X es **lineup óptimo −
@@ -647,6 +654,18 @@ cambios suyos sobre mi borrador, cada uno una regla:
   · Exceso de un solo tema (la banca, ~11 veces en la Dinastía): variar ángulos.
   · Discrepé del editor en una: propuso pronosticar el triunfo de Zenitsu en la
     misma nota donde es El Muerto — eso viola la regla 6; se quedó Frijol > Buz.
+- 2026-10-06 · **Pase final del user a la Gallamijos J4**:
+  · **Mención honorífica** dentro de La Putiza: cuando hay una segunda
+    paliza con historia (Jebus 169.1 – Pythons 121.6, con 2 titulares en 0),
+    va como `🏅 *Mención honorífica:*` debajo de la principal. Y con elmijo
+    se pidió burla DURA ("le metieron la verga bonito"): la regla de balance
+    (máx 1-2 menciones) cede cuando el user lo pide expresamente.
+  · Fuera "En Cincinnati nadie gana completo" de la línea de Gallagher: no
+    meter a Cincinnati/los Bengals en líneas ajenas.
+  · Regadera con hechos del grupo que dicta el user: 2 semanas sin el
+    comisionado cambiando reglas ni moviendo turbio; el Alacrán rompió el
+    hielo en el grupo y se aprobó el porky en el WhatsApp.
+  · Despedida: beso a los invictos (el Doc y el Alacrán) además del MVP.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -836,7 +855,7 @@ por ti").
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
 | elmijo (Pythons / La Dinastía de Pitones) | Antonio Contreras | El Mijo, El Mijo Di María, Monfils | Bengals | El carrilla/nefasto del grupo; TETRACAMPEÓN redraft (2016/19/21/23 — la racha de años nones se le rompió en 2025); subcampeón Dynasty 2024 (un Galla le ganó la final); Burrow intocable EN SUS OTRAS ligas (aquí no lo tiene) |
-| alealvarez7 (My Son Dave; en Dynasty 2026: "Aquiles Brinco") | Alejandro Alvarez | La Dona, Alvarez | Cowboys | Campeón redraft 2022; se enoja por TODO (provocarlo es deporte); en el Dynasty es 'el América' — sus trades con Rorro siempre lo benefician. NOTA: los nombres de equipo cambian por temporada — SIEMPRE tomar el team_name vigente de la hoja de hechos (roast_facts.py), nunca de esta tabla |
+| alealvarez7 (My Son Dave; en Dynasty 2026: "Aquiles Brinco") | Alejandro Alvarez | La Dona, Alvarez, **el tragadagas** (user 2026-10-06) | Cowboys | Campeón redraft 2022; se enoja por TODO (provocarlo es deporte); en el Dynasty es 'el América' — sus trades con Rorro siempre lo benefician. NOTA: los nombres de equipo cambian por temporada — SIEMPRE tomar el team_name vigente de la hoja de hechos (roast_facts.py), nunca de esta tabla |
 | charlyae17 (LaviboradeLamar) | Charly Alonso | Carlos, Sharky, Sharly | Patriots | Campeón redraft 2017 con EL PULPO PAUL — el pulpo que sí adivinó |
 | RodrigoDiaz ("Los hijos de Pooh" fue su nombre CAMPEÓN 2025; en 2026 aún sin team_name — usar hoja de hechos) | Rodrigo | Rorro, La Rorra, The Rorr | Steelers | CAMPEÓN DEFENSOR de la redraft (2025) — le rompió la racha al Mijo; en el Dynasty es 'el Santos Laguna' (siempre sale perdiendo con La Dona) y AUTOR del 1.01 de Paris Campbell |
 | panchocruz (Panchos) | Pancho Cruz | La Pepa, La Pepa Ortiz, Faraón, Pep | le va a muchos | MILLONARIO con vida de magnate — por eso 'EL FARAÓN' (carrilla de lujo: yates, pirámides, servidumbre); ÚLTIMO lugar Dynasty 2025 (el magnate que COMPRÓ el sótano); acapara a Maye Y Burrow |
@@ -858,7 +877,7 @@ por ti").
 | Manager | Nombre | Apodos | NFL | Expediente |
 |---|---|---|---|---|
 | aledlg | Ale De La Garza | Zenitsu | Packers | Referencia anime válida — NO inventarle hábitos: el chiste del que draftea dormido/crudo NO es suyo |
-| DrBet → username actual **Tibu23** (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
+| DrBet → username actual **Tibu23** (Matasanos FC) | Luis Tiburcio | El Tibu, Doctor, **el Doc**, Dr. Salud, Dr. Bet | Colts | Chistes de receta/diagnóstico |
 | jffaya (Scorpions) | Jorge Fernández | El Alacrán, El Scorpion | — | Campeón redraft 2018 |
 | PotrosyOsos → username actual **FilledUpRivers** ("Fill Up, Rivers" en la redraft 2026) | Jorge Navarro | George | Colts y Bears | No pudo escoger UN equipo — la indecisión hecha franquicia |
 | maudlgarza (Frijolinsky) | Mauricio de la Garza | El Frijol, El Frijaal, El Frijol Brisset, El Bean | Saints | Evolución de apodos tipo Pokémon |
@@ -1086,7 +1105,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   Lubezki*, "dirección de fotografía impecable, guion inexistente" — son
   material vivo y siguen permitidas. Lo vetado es la amenaza de exhibir a
   una persona, no la palabra.
-- **NO MEZCLAR LIGAS** (user, 2026-09-22): cada edición vive dentro de SU
+- **NO MEZCLAR LIGAS** (user, 2026-09-22; REITERADO 2026-10-06 — la J4 de
+  la Gallamijos citó a Coleman "en la Dinastía" y la J4 de la Dinastía dijo
+  "en la otra liga perdió con el tío"): NINGUNA mención a la otra liga
+  salvo instrucción expresa del user. Desde el 2026-10-06 `roast_lint.py` lo
+  marca como error ("Dinastía"/"dynasty"/"la otra liga" en la Gallamijos;
+  "la redraft"/"la otra liga" en la Dinastía); `--cruce` solo si el user lo
+  pidió para esa edición. Cada edición vive dentro de SU
   liga. Los roles son por liga —**el Bebé es commish de la DINASTÍA, no de la
   redraft**, así que el chiste de comisionado corrupto no existe en la
   Gallamijos— y las plantillas también: **panchocruz (el Faraón) SOLO juega

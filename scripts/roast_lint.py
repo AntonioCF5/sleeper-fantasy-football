@@ -113,7 +113,22 @@ def _solapamiento(a, b, n=6):
     return any(" ".join(pa[i:i + n]) in grams for i in range(len(pa) - n + 1))
 
 
-def revisar(path, liga, tipo, ya_publicado=False):
+# Cantidades SIEMPRE en número (user 2026-10-06: "NUEVA REGLA, cantidades
+# siempre en número en lugar de texto"). "un/una/uno" no cuentan (artículos).
+NUM_PALABRA = (r"cero|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce|trece|"
+               r"catorce|quince|dieci\w+|veinte|veinti\w+|treinta|cuarenta|cincuenta|"
+               r"sesenta|setenta|ochenta|noventa|cien|ciento|doscient\w+|trescient\w+|"
+               r"cuatrocient\w+|quinient\w+|seiscient\w+|setecient\w+|ochocient\w+|"
+               r"novecient\w+|mil")
+ORDINAL = (r"segundo|tercero|tercer|cuarto|quinto|sexto|s[ée]ptimo|octavo|noveno|"
+           r"d[ée]cimo|und[ée]cimo|duod[ée]cimo|decimo\w+")
+# No mezclar ligas (user 2026-09-22 y 2026-10-06): cada edición vive en su liga
+# salvo instrucción expresa del user (--cruce).
+OTRA_LIGA = {"gallamijos": r"dinast[íi]a|dynasty|la otra liga|otra liga",
+             "dynasty": r"la redraft|gallamijos league|la otra liga|otra liga"}
+
+
+def revisar(path, liga, tipo, ya_publicado=False, cruce=False):
     texto = Path(path).read_text()
     errores, avisos = [], []
     cuerpo = [l for l in texto.split("\n") if l.strip()]
@@ -164,6 +179,25 @@ def revisar(path, liga, tipo, ya_publicado=False):
     menciones = len(re.findall(r"\bel mijo\b|\belmijo\b", texto, re.I))
     if menciones > 2:
         errores.append(f"elmijo mencionado {menciones} veces; el máximo es 2 (regla 3).")
+
+    # 5b · cantidades en número
+    sin_tabla = re.sub(r"```.*?```", "", texto, flags=re.S)
+    for m in re.finditer(rf"\b({NUM_PALABRA})\b", sin_tabla, re.I):
+        ctx = sin_tabla[max(0, m.start() - 25):m.end() + 25].replace("\n", " ")
+        errores.append(f"Cantidad en letra «{m.group(1)}» (…{ctx}…): va en número "
+                       "(user 2026-10-06).")
+    for m in re.finditer(rf"\b({ORDINAL})\b", sin_tabla, re.I):
+        ctx = sin_tabla[max(0, m.start() - 25):m.end() + 25].replace("\n", " ")
+        avisos.append(f"Ordinal en letra «{m.group(1)}» (…{ctx}…): si es posición, "
+                      "va como 2º/3º…")
+
+    # 5c · no mezclar ligas
+    if not cruce:
+        for m in re.finditer(OTRA_LIGA[liga], texto, re.I):
+            # el nombre de equipo "Dinastía Lombardi"/"La Dinastía de Pitones"
+            # solo existe en la Dinastía; en la Gallamijos cualquier mención es cruce
+            errores.append(f"Mezcla de ligas: «{m.group(0)}» en la edición de {liga}. "
+                           "Solo con instrucción expresa del user (--cruce).")
 
     # 6 · prohibiciones
     if re.search(r"dr[áa]cula|vampir", texto, re.I):
@@ -219,11 +253,13 @@ def main():
     ap.add_argument("archivo")
     ap.add_argument("--liga", required=True, choices=["gallamijos", "dynasty"])
     ap.add_argument("--tipo", default="columna", choices=["boletin", "columna", "columna-ranking"])
+    ap.add_argument("--cruce", action="store_true",
+                    help="el user autorizó mencionar la otra liga en esta edición")
     ap.add_argument("--ya-publicado", action="store_true",
                     help="re-revisar una edición ya enviada (salta saludo/cierre)")
     a = ap.parse_args()
 
-    errores, avisos = revisar(a.archivo, a.liga, a.tipo, a.ya_publicado)
+    errores, avisos = revisar(a.archivo, a.liga, a.tipo, a.ya_publicado, a.cruce)
     for x in avisos:
         print(f"  aviso: {x}")
     if errores:
