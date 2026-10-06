@@ -24,7 +24,7 @@ commit.
    (umbral 0.8; Medallas aguanta hasta 0.62 porque el user quiere su foto
    siempre). Las cortas llevan el escudo de agua; la última, la foto final.
    Llevan fecha EXIF consecutiva → guardadas en el teléfono quedan en orden.
-2. **PDF carrusel** `<edición>-carrusel.pdf`: las tarjetas en orden, un
+2. **PDF carrusel** `el-destape-miroslava-semana-<N>.pdf` (nombre pedido por el user 2026-10-06): las tarjetas en orden, un
    archivo. Es lo que el user comparte (y lo único de imágenes que va en el
    correo).
 3. **PDF periódico** `<edición>.pdf`: cabezal gótico *El Destape*, fechario

@@ -896,7 +896,7 @@ def imprimir_periodico(pdf, armar_html, tmp, perfil):
         imprimir(round(alto, 2))
 
 
-def ordenar_para_whatsapp(destino, nombre):
+def ordenar_para_whatsapp(destino, nombre, semana=0):
     """WhatsApp manda un álbum en el orden en que se TOCAN las fotos, y la
     galería del teléfono las ordena por FECHA DE CAPTURA, no por nombre. Así
     que cada tarjeta lleva una fecha EXIF un segundo después de la anterior
@@ -919,7 +919,8 @@ def ordenar_para_whatsapp(destino, nombre):
         os.utime(f, (t, t))
     if tarjetas:
         pags = [Image.open(f).convert("RGB") for f in tarjetas]
-        pdf = destino / f"{nombre}-carrusel.pdf"
+        # Nombre que pidió el user (2026-10-06) para compartir en WhatsApp.
+        pdf = destino / f"el-destape-miroslava-semana-{semana}.pdf"
         pags[0].save(pdf, save_all=True, append_images=pags[1:], resolution=144)
         print(f"  {pdf.relative_to(ROOT)}")
 
@@ -996,7 +997,7 @@ def main():
                                      0.62 if "medallas" in s["titulo"].lower() else 0.8)
                 captura(html_t, out, tmp, perfil)
                 print(f"  {out.relative_to(ROOT)}")
-            ordenar_para_whatsapp(destino, edicion.stem)
+            ordenar_para_whatsapp(destino, edicion.stem, semana)
         if "--solo-tarjetas" not in sys.argv:
             pdf = destino / f"{edicion.stem}.pdf"
             imprimir_periodico(pdf, lambda alto: pdf_html(portada, secciones, jornada, fecha,
