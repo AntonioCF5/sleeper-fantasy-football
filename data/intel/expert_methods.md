@@ -1483,3 +1483,14 @@ without testing it.
   injury (FF, 10/2).** Delaying surgery stretches the recovery, and the
   post-surgery clock is about 6-8 weeks. Price the player (Puka) as a
   league-winning bet, never as a discount.
+
+## 2026-10-05 distillation (Week 4 recap videos)
+
+- **Post-exit target share (Sal):** when a starter leaves mid-game, measure the target share AFTER the exit (Shakir 33% after Moore left). It predicts next week's distribution better than the full-game box score; Coleman's 116 yards came late on one drive.
+- **Practice-window clock (Sal):** once a PUP/IR player's window opens, the team has ~3 weeks to activate him. Estimate return ≈ window-open + 2-3 weeks, and shorten the bridge RB's value window to match (Charbonnet → E. Wilson).
+- **Situational snap splits (Sal):** a backup RB can lead in snaps through two-minute and long-yardage work while the other back holds the early-down and inside-10 role. Rank waiver priority by carry share plus inside-10 share in the quarters the starter missed, not by total snaps.
+- **QB-style change audit (FF/Sal):** a scrambling backup QB kills checkdowns and intermediate timing. Downgrade the RB receiving role and the slot/intermediate WRs (Irving 0 targets, Egbuka), and don't count weeks with a non-starting QB when evaluating a WR.
+- **Gadget-player sell test (FF):** use route mix (share of RB-type routes) plus aDOT to separate a real WR role from manufactured touches. Sell the manufactured player after a points spike (Deebo: 50% RB routes, 3.4 aDOT).
+- **Game-script split for co-backs (FF):** a co-back's work concentrates in comfortable wins (Corum) while the starter takes every trailing script (Kyren). The backup's value tracks how often his team is a big favorite.
+- **Second-half snap shift (FF):** a mid-game snap swing (Gordon 8→14 vs Wright 10→2) is a coaching-trust signal that tends to carry into the next week.
+- **Our process lesson:** player-name lookups MUST filter to players with an active team. Sleeper carries a teamless "Kevin Monangai" that a name-only match picked over Kyle (CHI), and that briefly produced a false "free agent" claim. Resolve by name + team, then confirm ownership by player_id.

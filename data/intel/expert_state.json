@@ -599,19 +599,68 @@
    "published": "2026-10-03",
    "source": "fantasy-footballers",
    "processed": "2026-10-02"
+  },
+  "_hLqZ6ycLZ8": {
+   "video_id": "_hLqZ6ycLZ8",
+   "title": "My Updated Flock League Power Rankings",
+   "published": "2026-10-03",
+   "source": "sal-vetri",
+   "processed": "2026-10-05"
+  },
+  "b_kE4-S8xck": {
+   "video_id": "b_kE4-S8xck",
+   "title": "What to do with Deebo Samuel...",
+   "published": "2026-10-03",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-05"
+  },
+  "iuSFt7aoZ8Y": {
+   "video_id": "iuSFt7aoZ8Y",
+   "title": "Mike Wright is LIVE! Week 4 Fantasy Football Start/Sit Advice + Injury NewsLive October 02",
+   "published": "2026-10-04",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-05"
+  },
+  "OKYpPOguMtI": {
+   "video_id": "OKYpPOguMtI",
+   "title": "10 Must Add Players to Pick Up in Your Fantasy League Right Now",
+   "published": "2026-10-05",
+   "source": "sal-vetri",
+   "processed": "2026-10-05"
+  },
+  "TnU27aQ1WJQ": {
+   "video_id": "TnU27aQ1WJQ",
+   "title": "We had another QB injury this weekend \ud83d\ude14  | Lamar Jackson Injury Update",
+   "published": "2026-10-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-05"
+  },
+  "aRdR_HmP1ss": {
+   "video_id": "aRdR_HmP1ss",
+   "title": "Cam Ward is tough to watch right now",
+   "published": "2026-10-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-05"
+  },
+  "Qgwo8z7wR7A": {
+   "video_id": "Qgwo8z7wR7A",
+   "title": "Week 4 Studs & Duds + Jason Hurts, Broken O's | Fantasy Football 2026 - Ep. 1986",
+   "published": "2026-10-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-05"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-02",
+   "last_success": "2026-10-05",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-02",
+   "last_success": "2026-10-05",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
