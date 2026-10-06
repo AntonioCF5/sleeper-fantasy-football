@@ -122,6 +122,10 @@ contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
 - **NO MEZCLAR LIGAS, sin excepción** salvo instrucción expresa del user:
   ninguna mención a "la Dinastía"/"la otra liga" en la Gallamijos ni a "la
   redraft"/"la otra liga" en la Dinastía (reiterado 2026-10-06).
+- **Etiquetas del ranking** (user 2026-10-06): 🐎 máximo 2 y nunca Matasanos
+  ni el Alacrán; repartir 🧂 salado, 💩 mojón, 🤡 mal coach donde el dato lo
+  respalde (mal coach = la banca/lineup le costó; mojón = peor marcador o el
+  que apesta; salado = perdió sin merecerlo).
 - **Moldes en descanso**: cruza CADA entrada "usado — descansar" y "AGOTADO"
   de la bitácora del canon contra el borrador (cambian las palabras, se
   queda el molde).

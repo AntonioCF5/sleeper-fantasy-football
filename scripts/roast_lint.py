@@ -191,6 +191,17 @@ def revisar(path, liga, tipo, ya_publicado=False, cruce=False):
         avisos.append(f"Ordinal en letra «{m.group(1)}» (…{ctx}…): si es posición, "
                       "va como 2º/3º…")
 
+    # 5b2 · máximo 2 caballos negros, y nunca el Doctor ni el Alacrán
+    rank = re.findall(r"^\s*\d+\.\s+\*(.+?)\*.*$", texto, re.M)
+    lineas_rank = [l for l in texto.split("\n") if re.match(r"^\s*\d+\.\s+\*", l)]
+    caballos = [l for l in lineas_rank if "🐎" in l]
+    if len(caballos) > 2:
+        errores.append(f"{len(caballos)} caballos negros 🐎 en el ranking; el máximo es 2 "
+                       "(user 2026-10-06).")
+    for l in caballos:
+        if re.search(r"Matasanos|Scorpions", l):
+            errores.append("Matasanos y el Alacrán no pueden ser caballo negro (user 2026-10-06).")
+
     # 5c · no mezclar ligas
     if not cruce:
         for m in re.finditer(OTRA_LIGA[liga], texto, re.I):

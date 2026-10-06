@@ -112,6 +112,9 @@ def _fmt_player(players, pid, proj):
     return f"{name} ({pos} {team}, proy {proj.get(pid, 0)})"
 
 
+SIN_CABALLO = {"Tibu23", "jffaya"}   # user 2026-10-06
+
+
 def league_facts(lg_cfg, season, week, players):
     lid = lg_cfg["league_id"]
     league = api.get_league(lid)
@@ -208,11 +211,22 @@ def league_facts(lg_cfg, season, week, players):
     prank = {eq: i for i, (_, eq, _) in enumerate(tabla, 1)}
     lines.append("\n## TABLA DE POSICIONES (récord, puntos) vs rank de proyección")
     lines.append("*Orden de 'Del Penthouse al Sótano'. Delta = rank proyectado − lugar "
-                 "real: +4 o más = 🐎 caballo negro; −4 o menos = 📉 decepción.*\n")
+                 "real: 🐎 caballo negro = los 2 deltas más grandes (≥+4; nunca Matasanos "
+                 "ni el Alacrán); −4 o menos = 📉 decepción. Etiquetas de carrilla "
+                 "a criterio: 🧂 salado · 💩 mojón · 🤡 mal coach.*\n")
+    # Caballo negro: MÁXIMO 2 por edición —los 2 deltas más grandes— y nunca
+    # el Doctor ni el Alacrán (user 2026-10-06: "tienes demasiados caballos
+    # negros, que solo sean dos y matasanos y alacrán no pueden ser").
+    candidatos = sorted(((prank.get(team, 0) - i, -i, dn) for i, (dn, team, *_x)
+                         in enumerate(standings, 1)
+                         if prank.get(team, 0) - i >= 4 and dn not in SIN_CABALLO),
+                        reverse=True)[:2]
+    caballos = {dn for _, _, dn in candidatos}
     for i, (dn, team, w, l, t_, fpts, r) in enumerate(standings, 1):
         pr = prank.get(team, 0)
         d = pr - i
-        tag = " 🐎 CABALLO NEGRO" if d >= 4 else (" 📉 DECEPCIÓN" if d <= -4 else "")
+        tag = (" 🐎 CABALLO NEGRO" if dn in caballos
+               else (" 📉 DECEPCIÓN" if d <= -4 else ""))
         lines.append(f"{i}. **{team}** ({dn}) — {w}-{l}, {fpts:.1f} pts · proy #{pr} ({d:+d}){tag}")
 
     # ADDENDUM DE LINEUPS VERIFICADOS (permanente desde 2026-09-22; antes lo

@@ -46,7 +46,7 @@ sueltas (user 2026-09-29: "el pdf carrusel con todas es suficiente").
 Si el texto rompe esto, la línea sale como párrafo suelto:
 - sección: `emoji *TÍTULO*` (opcional `(subtítulo)`) en su propia línea
 - medalla: `emoji *Etiqueta:* texto`
-- ranking: `N. *Equipo* W-L, pts (Nº) — texto` (🐎/📉 → etiquetas)
+- ranking: `N. *Equipo* W-L, pts (Nº) — texto`; el primer emoji de etiqueta en la línea se pinta como chip: 🐎 caballo negro · 📉 decepción · 🧂 salado · 💩 mojón · 🤡 mal coach (`ETIQUETAS` en destape_visual.py)
 - Putiza: `*Equipo A 170.5 — Equipo B 108.2.* texto` (marcador grande)
 - Palpitote: `*A vs B.* texto`
 - tabla de la Guerra: el bloque ``` de la hoja de hechos, literal

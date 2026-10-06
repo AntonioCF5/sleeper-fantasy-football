@@ -139,6 +139,17 @@ def tabla_guerra(filas):
 
 # ───────────────────────────── HTML ─────────────────────────────
 
+# Etiquetas del Penthouse (user 2026-10-06: además de 🐎/📉, "tags chistosos
+# como de salada o de mojón, y de mal coach").
+ETIQUETAS = {
+    "🐎": ("caballo", "caballo negro"),
+    "📉": ("decep", "decepción"),
+    "🧂": ("salado", "salado"),
+    "💩": ("mojon", "mojón"),
+    "🤡": ("malcoach", "mal coach"),
+}
+
+
 def html_bloques(bs, tema):
     """Render común a tarjeta (tema 'card') y PDF (tema 'pdf')."""
     partes, lista = [], []
@@ -175,11 +186,13 @@ def html_bloques(bs, tema):
                           f"<i>vs</i> {html.escape(b)}</div><div>{inline(txt)}</div></div>")
         elif tipo == "rank":
             n, eq, rec, pts, proy, txt = v
+            # Etiquetas del ranking: la primera que aparezca en la línea.
             tag = ""
-            if "🐎" in txt:
-                tag, txt = "<span class='tag caballo'>🐎 caballo negro</span>", txt.replace("🐎", "").strip()
-            elif "📉" in txt:
-                tag, txt = "<span class='tag decep'>📉 decepción</span>", txt.replace("📉", "").strip()
+            for emo, (cls, etq) in ETIQUETAS.items():
+                if emo in txt:
+                    if not tag:
+                        tag = f"<span class='tag {cls}'>{emo} {etq}</span>"
+                    txt = txt.replace(emo, "").strip()
             partes.append(
                 f"<div class='rank'><div class='rk-n'>{n}</div><div class='rk-body'>"
                 f"<div class='rk-top'><span class='rk-eq'>{html.escape(eq)}</span>"
@@ -252,7 +265,7 @@ main em{color:#F2C14E;font-style:italic}
 .rk-txt{font-size:29px;line-height:1.36;margin-top:6px;color:#E6EBF3}
 .tag{display:inline-block;font-size:21px;font-weight:800;border-radius:999px;padding:4px 14px;
   margin-top:8px;text-transform:uppercase;letter-spacing:1px}
-.tag.caballo{background:#1F6F43}.tag.decep{background:#7A1E1E}
+.tag.caballo{background:#1F6F43}.tag.decep{background:#7A1E1E}.tag.salado{background:#4A5A73}.tag.mojon{background:#6B4423}.tag.malcoach{background:#B4511E}
 table.guerra{width:100%;border-collapse:separate;border-spacing:0 14px;margin:0 0 20px}
 table.guerra th{text-align:left;font-size:22px;color:#AFBBD0;font-weight:600;padding:0 26px}
 table.guerra td{background:rgba(255,255,255,.06);padding:26px;font-size:44px;font-weight:800}
@@ -352,7 +365,7 @@ em{font-style:italic;color:#013369}
 .rk-rec{font-size:8.5pt;color:#5B6B85;font-weight:600}
 .tag{display:inline-block;font-size:7pt;font-weight:800;border-radius:9pt;padding:.4mm 2mm;
   text-transform:uppercase;letter-spacing:.6pt;color:#fff;margin:.6mm 0}
-.tag.caballo{background:#1F6F43}.tag.decep{background:#9B2222}
+.tag.caballo{background:#1F6F43}.tag.decep{background:#9B2222}.tag.salado{background:#4A5A73}.tag.mojon{background:#6B4423}.tag.malcoach{background:#B4511E}
 table.guerra{border-collapse:separate;border-spacing:0 1.4mm;width:110mm;margin:1mm 0 2.6mm}
 table.guerra th{text-align:left;font-size:8pt;color:#5B6B85;padding:0 3mm}
 table.guerra td{background:#F2F5FA;padding:2mm 3mm;font-weight:800;font-size:12pt}
@@ -686,7 +699,7 @@ strong{font-weight:700}
 .rk-txt{font-size:9.4pt;text-align:justify;hyphens:auto}
 .tag{font-family:'Playfair Display',serif;font-size:6.8pt;font-weight:900;text-transform:uppercase;
   letter-spacing:.8pt;padding:0 4px;border:1px solid currentColor;margin-right:4px}
-.tag.caballo{color:#1F6F43}.tag.decep{color:#B3121B}
+.tag.caballo{color:#1F6F43}.tag.decep{color:#B3121B}.tag.salado{color:#4A5A73}.tag.mojon{color:#6B4423}.tag.malcoach{color:#B4511E}
 table.guerra{width:100%;border-collapse:collapse;font-size:9.6pt;margin:2px 0 8px;break-inside:avoid}
 table.guerra th{font-family:'Playfair Display',serif;text-transform:uppercase;font-size:7.6pt;
   letter-spacing:1pt;text-align:left;border-bottom:1.5px solid #161412;padding:2px 3px}

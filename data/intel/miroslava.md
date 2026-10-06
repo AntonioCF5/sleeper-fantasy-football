@@ -710,7 +710,15 @@ cambios suyos sobre mi borrador, cada uno una regla:
    **📉 decepciones** (proyectados arriba, tabla abajo) y "justo donde lo
    proyectaban" para los que cumplen. `roast_facts.py` ya publica la sección
    "TABLA DE POSICIONES vs rank de proyección" con el delta y las etiquetas
-   — se lee de ahí, no se calcula a mano. Una línea de carrilla por
+   — se lee de ahí, no se calcula a mano. **ETIQUETAS (user 2026-10-06):
+   🐎 caballo negro MÁXIMO 2 por edición (los 2 deltas más grandes que
+   marque la hoja) y NUNCA para Matasanos (el Doctor) ni Scorpions (el
+   Alacrán); 📉 decepción según la hoja; y las de carrilla, a criterio y
+   repartidas: 🧂 salado (perdió sin merecerlo / el Señor Sal), 💩 mojón
+   (el peor marcador, el equipo que apesta), 🤡 mal coach (la banca o el
+   lineup le costaron). Una etiqueta por línea; no todas las líneas llevan.
+   El renderer las pinta como chip de color; el linter cuenta los 🐎.**
+   Una línea de carrilla por
    franquicia, del trono a la humedad; cada línea con material NUEVO de la
    hoja (no repetir datos ya usados arriba). Bonus permanente: con el
    Faraón en la liga, el chiste del penthouse ya viene cargado ("el único
