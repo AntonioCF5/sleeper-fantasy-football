@@ -275,6 +275,18 @@ comparar el borrador contra la edición anterior.
 | 2026-09-29 | "Say my name" (Buz) · "You know nothing, Jon Snow" (Dave) · Winnie Pooh con el frasco vacío (Rorro) · Rocky "se levantó en algún round" (Amarante) | usados — descansar |
 | 2026-09-29 | Bebé: "prefiere un fantasma a un suplente" (Brady retenido, Wentz suelto) | usado — descansar |
 | 2026-09-29 | "El escote lee lineups, no mentes" (Palpitote fallido del Faraón) | usado — descansar |
+| 2026-10-06 | "¿Cuántos pasaron de doscientos? Uno." (apertura pregunta, Frijol 205.9) + firma "solo contó un doscientos" | usado — descansar |
+| 2026-10-06 | *La Calabaza* (viral TikTok, gatitos bailando): "Los gatitos de *La Calabaza* bailan menos" (Charly, 8 movimientos en 5 días) | usado — descansar |
+| 2026-10-06 | *Rul Hitchcock*: "Nadie murió en la ducha" (ganó por 4.9) · *Rul Spielberg*: "va a necesitar un barco más grande" | usados — descansar (apodos PROPUESTOS, pendientes de aprobación) |
+| 2026-10-06 | "Judas, pero le pagaron en Dallas" (Jebus gana con CeeDee Lamb y pierden sus Bills) | usado — descansar (el converso sigue siendo canon) |
+| 2026-10-06 | "Las estrellas son de otros años" (Pythons ⭐⭐⭐⭐) | usado — descansar |
+| 2026-10-06 | "Fashionista, sí; la sal no pasa de moda" (Salado Gallagher) · "Pobre Amarante" (Salado Dinastía) | usados — descansar |
+| 2026-10-06 | Dory "Sigue nadando" (Dave) · "Houston, tenemos un problema" (Buz 87.0) · "ocho tentáculos y ni uno alcanzó" (Pulpo Power) | usados — descansar |
+| 2026-10-06 | Doctor Strange "catorce millones de futuros; en ninguno le alcanzaba" (Buz, perfecto 183.7 vs 184.3) | usado — descansar |
+| 2026-10-06 | *Kings of the State* (troll de los Cowboys) para La Dona invicto con nueve titulares | usado — descansar |
+| 2026-10-06 | Igor "quedó como optimista" (Rorro 0-4) · *Shark Tank* "estoy fuera" (FAAB $5) · *Civil War* versión Mijo · "Justin Case ni se despeinó" | usados — descansar |
+| 2026-10-06 | Faraón y sus dos quarterbacks equivocados (Maye/Burrow, segunda edición seguida) | **AGOTADO** — no vuelve sin dato nuevo |
+| 2026-10-06 | "Megaevolución completa" (Frijol) | usado — descansar |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
 pasada descansa la siguiente. El validador los lee de esta tabla, así que
@@ -282,15 +294,15 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-09-22 | humanos promedio | libre (ya descansó la edición del 09-29) |
-| 2026-09-29 | corazones | usado (Gallamijos 09-29) — descansar |
-| 2026-09-29 | mis amores | usado (Gallamijos 09-29) — descansar |
-| 2026-08-31 | coaches | libre |
-| 2026-09-29 | bola de pendejos hermosos | usado (Dinastía 09-29) — descansar |
+| 2026-10-06 | humanos promedio | usado (Dinastía 10-06) — descansar |
+| 2026-09-29 | corazones | libre (ya descansó la edición del 10-06) |
+| 2026-09-29 | mis amores | libre (ya descansó la edición del 10-06) |
+| 2026-10-06 | coaches | usado (Gallamijos 10-06, cierre) — descansar |
+| 2026-09-29 | bola de pendejos hermosos | libre (ya descansó la edición del 10-06) |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| 2026-09-22 | criaturas | libre (ya descansó la edición del 09-29) |
+| 2026-10-06 | criaturas | usado (Gallamijos 10-06) — descansar |
 | 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
-| 2026-09-22 | señores del fantasy | libre (ya descansó la edición del 09-29) |
+| 2026-10-06 | señores del fantasy | usado (Dinastía 10-06) — descansar |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
@@ -426,6 +438,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-29 | Gallamijos (jornada 3) | "*FE DE ERRATAS.* La semana pasada escribí «Gana Gallagher: Burrow no perdona»… El escote no se equivoca, corazones. Lo equivocan. / Buenos días." *(técnica nueva: abrir corrigiéndose a sí misma)* |
 | 2026-09-29 | Dinastía (jornada 3) | "Buenos días, Gallaghers. Cinco partidos, cinco victorias. / Al resto: los Mijos, uno de cinco; los Sin Bandera, cero de dos. Los saludaré cuando mejoren." *(usa 'saludar solo a un bando' del banco)* |
 | 2026-09-15 | Dinastía (jornada 1) | "Doscientos cinco punto dos. / Ya que tengo su atención: buenos días, mis amores." *(estrena la técnica del banco: dato demoledor antes de saludar)* |
+| 2026-10-06 | Gallamijos (jornada 4) | "¿Cuántos pasaron de doscientos puntos este fin de semana? / Uno. / Buenos días, criaturas." *(usa 'abrir con una pregunta directa' del banco)* |
+| 2026-10-06 | Dinastía (jornada 4) | "Perdón la tardanza. Me quedé contando la banca de Buz. / Buenos días, señores del fantasy." *(usa 'llegar tarde' del banco)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -442,14 +456,15 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-29 | Gallamijos (jornada 3) | "Besos desde el penthouse. / Miroslava, que ya sabe quién escoge primero" |
 | 2026-09-29 | Dinastía (jornada 3) | "Los besos, para los Gallas. Al resto, un saludo cordial. / Miroslava, que esta semana solo le escribe a un bando" |
 | 2026-09-15 | Dinastía (jornada 1) | "Feliz Grito. Griten por el lineup. / Miroslava, que también cubre dinastías desde el escote" |
+| 2026-10-06 | Gallamijos (jornada 4) | "Un beso para el Frijol. Al resto, un abrazo de lejitos. / Miroslava, que esta semana solo contó un doscientos" |
+| 2026-10-06 | Dinastía (jornada 4) | "Los observo desde el sideline, con tacones y libreta. / Miroslava, que llegó tarde pero con la cuenta completa" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
 
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
-bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · llegar "tarde" fingiendo que ya venía cubriendo
-otra cosa · abrir con una pregunta directa al grupo · entrar citando un rumor
+bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · entrar citando un rumor
 sin contexto.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
@@ -615,6 +630,23 @@ cambios suyos sobre mi borrador, cada uno una regla:
     viral por edición basta; dos se sienten forzados.
   · Más cultura pop que el mínimo de 4: el user pidió MÁS aunque la edición
     ya tenía 6. La cuota es piso, no meta.
+- 2026-10-06 · **Pase del editor a la J4** (lecciones):
+  · **El Salado exige mérito**: puse al Faraón (103.1, perdió por 51.9, RECUPERABLE
+    6.2) por la "desgracia" de su QB; no cumplía — el Salado supera a varios
+    ganadores o pierde por margen mínimo. Fue Amarante (162.3, más que 4 de 6
+    ganadores). Y si el Salado tenía recuperable > margen, no se dice "no había
+    nada que hacer": se dicen solo puntos y rival.
+  · **"Cero puntos en la banca" ≠ "RECUPERABLE 0"**: la banca de Charly sí anotó
+    (Lawrence 13.1); lo que no tenía era nada que mejorara el lineup.
+  · **"Sus Bengals" a quien no es fan**: los equipos NFL de cada coach se leen de
+    la tabla de managers antes de escribir el posesivo (Gallagher = Eagles).
+  · **"Otra vez" también es dato**: "cuatro de cinco otra vez" cuando la semana
+    previa fue cinco de cinco.
+  · Las dos ediciones del mismo martes no abren con el mismo molde (dato-primero
+    en las dos) y el cierre "waivers hoy… lineup el domingo" ya es molde.
+  · Exceso de un solo tema (la banca, ~11 veces en la Dinastía): variar ángulos.
+  · Discrepé del editor en una: propuso pronosticar el triunfo de Zenitsu en la
+    misma nota donde es El Muerto — eso viola la regla 6; se quedó Frijol > Buz.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -671,14 +703,16 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 6 de 8** tras la jornada 3
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 9 de 12** tras la jornada 4 (6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
    La Dona > Amarante ✓). Una línea condicional que NO nombra ganador no se
    cuenta — y por eso toda predicción debe nombrar ganador o no va.
-   Pendientes del 09-29 (jornada 4): Gallamijos — Alacrán > Dave (tío vs sobrino),
-   Doctor > Gallagher; Dinastía — La Dona > el Faraón, Amarante > Dave.
+   Jornada 4 (09-29): Alacrán > Dave ✓, Doctor > Gallagher ✓, La Dona > Faraón ✓,
+   Amarante > Dave ✗ (con su óptimo 179.6 ganaba) → **9 de 12**.
+   Pendientes del 10-06 (jornada 5): Gallamijos — Frijol > Buz, Gallagher > Cano;
+   Dinastía — Charly > La Dona, Dave > Rorro.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
