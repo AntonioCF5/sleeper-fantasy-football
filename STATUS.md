@@ -197,6 +197,12 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-06 (corrida del boletín, martes de la semana 5)
+
+- [ ] 🔴 **Guillotine, esta noche:** Kyler Murray $121 (salió del corte de ricardosc24) y Rodgers $37 de respaldo, los dos soltando a **Ty Johnson**. Ya NO se suelta a McGowan: ganó el RB2 de IND detrás de Taylor (handcuff protegido). Lamar "unlikely", podría perderse varios juegos.
+- [ ] 🔴 **IR siguen pendientes:** Caleb Williams (Gallamijos Dyn) y DeVonta Smith (DMX). Dowdle también salió Out; McConkey mejoró a day-to-day.
+- Swift: Sal dice que no hay pánico (58% de acarreos antes del fumble). Se resuelve el pendiente de ayer: se queda y es titular.
+
 ### 2026-10-05 (corrida del boletín, lunes de la semana 4)
 
 - [ ] 🔴 **Guillotine:** Rodgers $23 por McGowan. Lamar trae bota y probable esguince alto, y es el único QB del roster. Willis queda de respaldo.
