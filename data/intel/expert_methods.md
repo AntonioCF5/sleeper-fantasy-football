@@ -1494,3 +1494,22 @@ without testing it.
 - **Game-script split for co-backs (FF):** a co-back's work concentrates in comfortable wins (Corum) while the starter takes every trailing script (Kyren). The backup's value tracks how often his team is a big favorite.
 - **Second-half snap shift (FF):** a mid-game snap swing (Gordon 8→14 vs Wright 10→2) is a coaching-trust signal that tends to carry into the next week.
 - **Our process lesson:** player-name lookups MUST filter to players with an active team. Sleeper carries a teamless "Kevin Monangai" that a name-only match picked over Kyle (CHI), and that briefly produced a false "free agent" claim. Resolve by name + team, then confirm ownership by player_id.
+
+## 2026-10-06 distillation (Week 5 waivers + Sal's panic list)
+
+- **Carry-share trend beats the box score (both, 10/6):** a TD week on a
+  shrinking role is the SELL window. Hampton's share of LAC RB carries went
+  82% → 63% → 38% while he scored; read the three-week share trend before the
+  fantasy line.
+- **Measure usage before the in-game event (Sal):** when a role "drops", check
+  the share before the fumble/injury that triggered it (Swift had 58% of
+  carries pre-fumble). A benching-for-a-play is not a role loss.
+- **High-value-touch audit for RBs (Sal):** inside-5 carries, two-minute and
+  long-down snaps define value more than raw carries (Irving: volume intact,
+  value gone).
+- **New play-caller, imported back (Sal):** a new OC with no stake in a prior
+  first-round pick may favor "his" back (McDaniel → Keaton Mitchell). Treat it
+  as a role risk for the incumbent.
+- **Our process lesson:** on-air news ages within hours. FF taped "SEA signed
+  Mixon"; Sleeper's wire later said SEA passed after his physical. Always
+  timestamp-check a video claim against the wire before repeating it.

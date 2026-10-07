@@ -1,7 +1,25 @@
 {
- "updated": "2026-10-05",
+ "updated": "2026-10-06",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
+  {
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Kyler Murray (29, QB, MIN dc1)",
+   "verdict": "claim (FAAB) #1",
+   "bid": 121,
+   "drop": "Ty Johnson (29, RB, BUF backup; 56 season, 5.0 wk)",
+   "why": "Lamar Jackson is now 'unlikely' for Week 5 with a 'rarer type of ankle sprain' that could cost multiple games (Rapoport, 10/6), and he is the only QB on a 14/14 roster with no IR. The 10/5 chop of ricardosc24 dumped Kyler Murray (16.3 wk, 273 season) onto the wire: same Week 5 projection as Rodgers but the multi-week answer. Netogl ($975 left, Daniels+Mariota both Out, Watson only) is the one rival with real QB need, and chop-roster starters have gone $200 (Stafford) to $531 — $121 is a serious bid that still leaves ~$348. DROP CHANGED from yesterday: Seth McGowan has won IND's RB2 job behind your own Jonathan Taylor (clean handcuff, protected); Ty Johnson is the non-producer."
+  },
+  {
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Aaron Rodgers (42, QB, PIT dc1)",
+   "verdict": "claim (FAAB) #2 fallback",
+   "bid": 37,
+   "drop": "Ty Johnson (same drop — this claim fails automatically if Kyler wins)",
+   "why": "Fallback if Kyler goes elsewhere: 16.5 projected for Week 5, two straight 23+ point games. Raised from $23 because the chop added QB demand. Same drop as the Kyler claim so only one can process. Malik Willis (14.1) remains the free-agent floor Wednesday."
+  },
   {
    "league_id": "1338269686810300416",
    "league": "Dynasty Mexica",
@@ -19,15 +37,6 @@
    "bid": null,
    "drop": null,
    "why": "Caleb Williams is back to OUT (Grade 2 hamstring; Ben Johnson 10/5: won't practice in Week 5, still week-to-week). reserve_allow_out=1 and IR is 3/4, so he's eligible now. McConkey (Out, foot, week-to-week per Harbaugh) and Dowdle/A. Mitchell (Out) also qualify, but only one slot is open: Williams has the longest timeline, so he takes it. | 10/5: still not executed; tag re-read live."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "league": "🪓 Guillotine TRC",
-   "player": "Aaron Rodgers (42, QB, PIT dc1)",
-   "verdict": "claim (FAAB)",
-   "bid": 23,
-   "drop": "Seth McGowan (24, RB, IND backup; 36 season, 2.7 wk)",
-   "why": "Lamar Jackson (ankle) is the only QB on a 14/14 roster with no IR slots, and Minter said Monday 'I don't know the chances yet' for Week 5. In a guillotine league a zero at QB can get you chopped. Rodgers is the best free-agent QB for Week 5 (16.4 vs Willis 14.1, Winston 14.6, Daniels 14.1). Malik Willis (MIA dc1, 261 season) is the rest-of-season fallback if you lose Rodgers. Winning claims in this league have closed between $0 and $16, so $23 wins without touching the $469 reserve. McGowan is the lowest-value player on the roster, and guillotine rules mean no stashes."
   },
   {
    "league_id": "1395839320077656064",
@@ -76,7 +85,7 @@
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-05",
+  "read_live": "2026-10-06",
   "Gallamijos League": "17/17 active; IR 0/2, reserve_allow_out=0 (Mayfield and Chase not IR-eligible); waiver_type=1 (table priority, position 14). IDP slots now filled (Watt DL, Rodriguez LB, Bates DB). Chris Bell dropped 10/5.",
   "Gallamijos Dynasty": "23/23 active, IR 3/4, taxi 6/6, $73 FAAB. Out and IR-eligible: Caleb Williams, McConkey, Dowdle, A. Mitchell (one slot open).",
   "FANTASY MEXICA": "19/19 active, reserve_slots=0, waiver_type=1 (position 8). DL Jaelan Phillips is out for Week 5 (hamstring, targets Week 6). IDP now Phillips DL / Lloyd LB / Thieneman DB.",
@@ -84,6 +93,7 @@
   "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
   "Guillotine TRC": "14/14, no IR, $469 of $1000 left. WON Jonathan Taylor at $531 (dropped Singleton) — the user overrode the $151 Sal-logic bid with the win price; next bids were $412/$333/$312, so the $501 estimate was right. Gordon and Henderson went to lique11 at $101 each.",
   "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions.",
-  "🪓 Guillotine TRC": "14/14, no IR, $469 FAAB left; daily waivers. Lamar is the only QB."
+  "🪓 Guillotine TRC": "14/14, no IR, $469 FAAB left; daily waivers. Lamar is the only QB.",
+  "Guillotine TRC note 10/6": "14/14, no IR, $469 FAAB. Lamar 'unlikely' Wk5; Seth McGowan now IND RB2 behind owned J. Taylor = protected handcuff; Ty Johnson is the drop."
  }
 }
