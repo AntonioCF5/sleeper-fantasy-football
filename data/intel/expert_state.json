@@ -635,19 +635,47 @@
    "published": "2026-10-06",
    "source": "fantasy-footballers",
    "processed": "2026-10-06"
+  },
+  "lVwKlEjKswQ": {
+   "video_id": "lVwKlEjKswQ",
+   "title": "5 Players About to Explode in Fantasy (Trade For Them Now)",
+   "published": "2026-10-07",
+   "source": "sal-vetri",
+   "processed": "2026-10-08"
+  },
+  "TszhNtQcnWY": {
+   "video_id": "TszhNtQcnWY",
+   "title": "Are you buying, selling, or holding Bucky Irving? \ud83e\udd14",
+   "published": "2026-10-08",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-08"
+  },
+  "VXatoAVWZJY": {
+   "video_id": "VXatoAVWZJY",
+   "title": "These four players have been dominating their teams\u2019 snaps \ud83d\udcc8\ud83d\udcc8\ud83d\udcc8",
+   "published": "2026-10-07",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-08"
+  },
+  "5mOPKaRXvDw": {
+   "video_id": "5mOPKaRXvDw",
+   "title": "Jason got caught digging during today's dynasty pod \ud83d\ude33 \ud83e\udd23",
+   "published": "2026-10-07",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-08"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-06",
+   "last_success": "2026-10-08",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-06",
+   "last_success": "2026-10-08",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0

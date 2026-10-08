@@ -1513,3 +1513,8 @@ without testing it.
 - **Our process lesson:** on-air news ages within hours. FF taped "SEA signed
   Mixon"; Sleeper's wire later said SEA passed after his physical. Always
   timestamp-check a video claim against the wire before repeating it.
+- **Our process lesson (10/7):** auto-dubbed uploads (FF Ep. 1988) can expose
+  ONLY dub-language ASR tracks (hi/it) for hours after posting — that is where
+  the Hindi/Dutch/French "transcripts" came from. `fetch_transcript` now
+  refuses non-English tracks and leaves the video unprocessed so the next run
+  retries once YouTube generates the English captions.

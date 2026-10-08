@@ -1,99 +1,71 @@
 {
- "updated": "2026-10-06",
+ "updated": "2026-10-07",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
-   "league_id": "1389689013551517698",
-   "league": "🪓 Guillotine TRC",
-   "player": "Kyler Murray (29, QB, MIN dc1)",
-   "verdict": "claim (FAAB) #1",
-   "bid": 121,
-   "drop": "Ty Johnson (29, RB, BUF backup; 56 season, 5.0 wk)",
-   "why": "Lamar Jackson is now 'unlikely' for Week 5 with a 'rarer type of ankle sprain' that could cost multiple games (Rapoport, 10/6), and he is the only QB on a 14/14 roster with no IR. The 10/5 chop of ricardosc24 dumped Kyler Murray (16.3 wk, 273 season) onto the wire: same Week 5 projection as Rodgers but the multi-week answer. Netogl ($975 left, Daniels+Mariota both Out, Watson only) is the one rival with real QB need, and chop-roster starters have gone $200 (Stafford) to $531 — $121 is a serious bid that still leaves ~$348. DROP CHANGED from yesterday: Seth McGowan has won IND's RB2 job behind your own Jonathan Taylor (clean handcuff, protected); Ty Johnson is the non-producer."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "league": "🪓 Guillotine TRC",
-   "player": "Aaron Rodgers (42, QB, PIT dc1)",
-   "verdict": "claim (FAAB) #2 fallback",
-   "bid": 37,
-   "drop": "Ty Johnson (same drop — this claim fails automatically if Kyler wins)",
-   "why": "Fallback if Kyler goes elsewhere: 16.5 projected for Week 5, two straight 23+ point games. Raised from $23 because the chop added QB demand. Same drop as the Kyler claim so only one can process. Malik Willis (14.1) remains the free-agent floor Wednesday."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "(IR) DeVonta Smith to IR",
-   "verdict": "roster move",
-   "bid": null,
-   "drop": null,
-   "why": "DeVonta Smith is Out (hamstring), and DMX allows Out players on IR (reserve_allow_out=1, IR 2/4). The move costs nothing and opens a bench spot for the Will Shipley claim. | 10/5: still on the bench; re-read live."
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "(IR) Caleb Williams to IR",
-   "verdict": "roster move",
-   "bid": null,
-   "drop": null,
-   "why": "Caleb Williams is back to OUT (Grade 2 hamstring; Ben Johnson 10/5: won't practice in Week 5, still week-to-week). reserve_allow_out=1 and IR is 3/4, so he's eligible now. McConkey (Out, foot, week-to-week per Harbaugh) and Dowdle/A. Mitchell (Out) also qualify, but only one slot is open: Williams has the longest timeline, so he takes it. | 10/5: still not executed; tag re-read live."
-  },
-  {
    "league_id": "1395839320077656064",
    "league": "Gallamijos League",
-   "player": "Keon Coleman (23, WR, BUF)",
-   "verdict": "claim (priority #1)",
+   "player": "Dillon Thieneman (DB, CHI)",
+   "player_id": "13371",
+   "verdict": "claim",
    "bid": null,
-   "drop": "Roman Wilson (25, WR, PIT; 27 season)",
-   "why": "Chase is in the concussion protocol (day-to-day, no timeline), which puts Roman Wilson (6.2) in the WR2 slot. Coleman went 6-116-TD with DJ Moore hurt (shoulder, not long-term) and projects 9.2 for Week 5. Wilson's 3-70-TD came from 6 targets on a downfield role, so he's the lower-floor version of the same bet. Waivers here are by table priority (you're 14 of 18) and Coleman has 829k adds, so expect to lose it. Gesicki is the second claim. | Watch: Kyle Monangai (CHI, rostered by Jebusf) took Swift's lead role in Week 4 (30-146-2 vs 15-58 plus a fumble). That's a trade or watch note on your RB1, not a claim."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Mike Gesicki (31, TE, CIN dc1)",
-   "verdict": "claim (priority #2)",
-   "bid": null,
-   "drop": "Tyler Higbee (33, TE, LAR; 33 season)",
-   "why": "Gesicki is CIN's TE1 (3-40-TD in Week 4) and projects 8.1 for Week 5 vs Higbee's 5.8, with 105 season vs 33. With Chase out, the short-area targets have to go somewhere. Higbee's 5-67 was game script; he's a 33-year-old TE2 in his own room. This is +2-3 a week at the one slot that has been a hole all year."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "Will Shipley (24, RB, PHI)",
-   "verdict": "claim (FAAB)",
-   "bid": 9,
-   "drop": "Darnell Washington (25, TE, PIT blocker; yr-4, 69 season)",
-   "why": "Saquon is week-to-week (hamstring, not considered long-term) and Bigsby is headed to IR after core-muscle surgery, so Shipley's 166k adds have a real cause. He's the top PHI back available, and Love's new ankle issue (Q) makes your RB2 shaky in a win-now league. Sleeper projects him at only 6.2, so this is a speculative bid ($9 = $7 sober + early-season aggression), not a role-bet price. Washington is a stalled year-4 blocking TE behind LaPorta, Loveland and Henry, which puts him in the right dynasty drop bucket."
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "Dohnte Meyers (26, WR, CIN rookie)",
-   "verdict": "claim (FAAB) after the IR move",
-   "bid": 7,
-   "drop": "none (Caleb Williams to IR opens the spot)",
-   "why": "Rebuild league. Meyers went 7-82 on 9 targets with Chase out and is the only free agent here with a real flash (591k adds). His role shrinks when Chase returns, so price him as a stash: $7 of $73. He's 26 for a rookie, so the asset ceiling is limited. Do it only if the Williams IR move goes in first."
+   "drop": "LAR DEF (second defense; PIT starts, 9.4 vs 8.0)",
+   "why": "DB starter slot is EMPTY again: the 10/7 waiver run added Tre' Harris by dropping Jessie Bates (the only DB). 17/17 active, IR not allowed for any status (reserve_allow_*=0), so the add needs a drop. The roster carries two DEFs (PIT 9.4 projected Wk5, LAR 8.0) — the backup DEF is the zero-cost cut in an 18-teamer where IDP replacement is bottomless. Thieneman is the top free-agent DB under league scoring (6.6 Wk5; Nick Cross 5.9 fallback). Waivers cleared 10/7 01:09, so this is a free-agent add now. Read live 2026-10-07.",
+   "date": "2026-10-07"
   },
   {
    "league_id": "1385473470141313024",
    "league": "FANTASY MEXICA",
    "player": "Byron Young (DL, LAR)",
-   "verdict": "add now (free agent)",
+   "player_id": "10917",
+   "verdict": "claim",
    "bid": null,
-   "drop": "Jonah Coleman (23, RB, DEN — IR ankle; this league has no IR slots)",
-   "why": "Jaelan Phillips (hamstring) is now targeting a Week 6 return (Canales: 'hopeful'), so the DL slot scores 0 in Week 5 unless it's filled. Byron Young is still a free agent and the best available DL (4.6 projected for Week 5, ahead of Ezeiruaku at 4.3). As a free agent he's an instant add with no waiver queue. Coleman is on IR in a league with no IR slots, so he's a dead roster spot. Keep Phillips for when he's back in Week 6."
+   "drop": "Jonah Coleman (23, RB, DEN — IR ankle; league has no IR slots)",
+   "why": "DL starter slot is EMPTY: the 10/7 waiver run added Isaac TeSlaa by dropping Jaelan Phillips (the DL). 19/19, reserve_slots=0. Jonah Coleman is on IR with an ankle sprain and cannot be stashed in a league with no IR — redraft, so the dynasty-youth rule does not apply. Byron Young 4.6 Wk5 (Barham 4.8 is the near-equal fallback); standing ruling since 10/2. Paired with the Ventrell Miller LB add (Devin Lloyd is CAR = Week 5 bye).",
+   "date": "2026-10-07"
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Ventrell Miller (LB, JAX)",
+   "player_id": "10947",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "KC DEF (Week 5 bye; ARI DEF starts)",
+   "why": "LB starter slot is EMPTY for Week 5: Devin Lloyd (CAR) is on bye. 19/19, no IR. KC DEF is also on bye and is the second defense behind ARI — the zero-cost cut in an 18-teamer (stream two weeks ahead rather than hoard a bye-week DEF). Miller is the top healthy FA LB under league scoring (6.3 Wk5); Al-Shaair 6.7 and Sonny Styles 6.3 carry Questionable tags. Re-check Week 6: Lloyd returns, so Miller becomes the drop candidate if a DEF is needed.",
+   "date": "2026-10-07"
+  },
+  {
+   "league_id": "1388097370255794176",
+   "league": "Gallamijos Dynasty",
+   "player": "(IR) Caleb Williams to IR",
+   "player_id": "11560",
+   "verdict": "roster move",
+   "bid": null,
+   "drop": null,
+   "why": "Caleb Williams is Out (hamstring); reserve_allow_out=1 and IR is 3/4, so one free slot remains. 23/23 active — moving him opens a bench spot at zero cost. Pending since 9/29. The Meyers claim it was paired with lost (damarante, $1 with higher priority); no replacement claim ruled — the spot is just optionality for the next breakout.",
+   "date": "2026-10-07"
+  },
+  {
+   "league_id": "1338269686810300416",
+   "league": "Dynasty Mexica",
+   "player": "(IR) DeVonta Smith — NOT eligible now",
+   "player_id": "7525",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "Smith's tag moved Out -> Questionable (hamstring, DNP Wednesday). DMX allows IR for Out/DNR/IR/Sus/NA but not Questionable, so the IR move is closed until he's tagged Out again. Shipley was won anyway ($31, dropped CJ Donaldson) and starts as PHI's dc1 with Barkley questionable (hamstring).",
+   "date": "2026-10-07"
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-06",
-  "Gallamijos League": "17/17 active; IR 0/2, reserve_allow_out=0 (Mayfield and Chase not IR-eligible); waiver_type=1 (table priority, position 14). IDP slots now filled (Watt DL, Rodriguez LB, Bates DB). Chris Bell dropped 10/5.",
-  "Gallamijos Dynasty": "23/23 active, IR 3/4, taxi 6/6, $73 FAAB. Out and IR-eligible: Caleb Williams, McConkey, Dowdle, A. Mitchell (one slot open).",
-  "FANTASY MEXICA": "19/19 active, reserve_slots=0, waiver_type=1 (position 8). DL Jaelan Phillips is out for Week 5 (hamstring, targets Week 6). IDP now Phillips DL / Lloyd LB / Thieneman DB.",
-  "Dynasty Mexica": "26/26 active, IR 2/4 (McMillan, Randall), taxi 4/4, $82 left. Executed: Justice Hill $0, CJ Donaldson $0 (-Badie), Darnell Washington FA (-Ayomanor).",
+  "read_live": "2026-10-07",
+  "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_*=0. DB slot EMPTY (Bates dropped for Tre' Harris 10/7); two DEFs rostered (PIT, LAR). Coleman/Gesicki claims lost (priority) — Mayer won (-Higbee).",
+  "Gallamijos Dynasty": "23/23 active, IR 3/4 (Iosivas, J. Coleman, Stribling), taxi 6. $73 FAAB. Meyers lost; won Treadwell (-CAR DEF) and Cody White (-ARI DEF). Caleb Williams (Out) still not on IR.",
+  "FANTASY MEXICA": "19/19 active, reserve_slots=0. DL EMPTY (Phillips dropped for TeSlaa 10/7); LB empty for Wk5 (Devin Lloyd CAR bye). Two adds: Byron Young (-Jonah Coleman), Ventrell Miller (-KC DEF).",
+  "Dynasty Mexica": "26/26 active, IR 2/4, $51 left. Won Shipley $31 (-CJ Donaldson). D. Smith now Questionable = not IR-eligible.",
   "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
-  "Guillotine TRC": "14/14, no IR, $469 of $1000 left. WON Jonathan Taylor at $531 (dropped Singleton) — the user overrode the $151 Sal-logic bid with the win price; next bids were $412/$333/$312, so the $501 estimate was right. Gordon and Henderson went to lique11 at $101 each.",
-  "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions.",
-  "🪓 Guillotine TRC": "14/14, no IR, $469 FAAB left; daily waivers. Lamar is the only QB.",
-  "Guillotine TRC note 10/6": "14/14, no IR, $469 FAAB. Lamar 'unlikely' Wk5; Seth McGowan now IND RB2 behind owned J. Taylor = protected handcuff; Ty Johnson is the drop."
+  "Guillotine TRC": "14/14, no IR, $469 left. Rodgers won at $0 (-Tre Tucker); also Mayer (-Higbee) and Meyers (-Ty Johnson). Kyler was not bid; Jefferson $213 lost.",
+  "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions."
  }
 }

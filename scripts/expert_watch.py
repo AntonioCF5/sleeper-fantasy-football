@@ -213,8 +213,14 @@ def fetch_transcript(video_id):
     if not tracks:
         return None, f"no captions (status: {d.get('playabilityStatus', {}).get('status')})"
     # prefer human-made English track over auto-generated (asr)
-    tracks.sort(key=lambda t: (t.get("languageCode") != "en",
+    tracks.sort(key=lambda t: (not (t.get("languageCode") or "").startswith("en"),
                                t.get("kind") == "asr"))
+    # Auto-dubbed uploads can expose ONLY dub-language ASR tracks (hi/it/nl/fr)
+    # until YouTube generates the English one. Saving those produced Hindi/
+    # Dutch/French "transcripts" (9/30, 10/1, 10/7) — skip and retry next run.
+    if not (tracks[0].get("languageCode") or "").startswith("en"):
+        langs = ",".join(t.get("languageCode") or "?" for t in tracks)
+        return None, f"no English caption track yet (only: {langs}) — retry next run"
     xml_bytes = _curl(tracks[0]["baseUrl"], retries=3,
                       ok=lambda b: b.lstrip().startswith(b"<?xml"))
     if not xml_bytes:
