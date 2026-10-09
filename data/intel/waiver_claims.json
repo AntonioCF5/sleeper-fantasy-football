@@ -1,71 +1,71 @@
 {
- "updated": "2026-10-07",
- "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
- "claims": [
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Dillon Thieneman (DB, CHI)",
-   "player_id": "13371",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "LAR DEF (second defense; PIT starts, 9.4 vs 8.0)",
-   "why": "DB starter slot is EMPTY again: the 10/7 waiver run added Tre' Harris by dropping Jessie Bates (the only DB). 17/17 active, IR not allowed for any status (reserve_allow_*=0), so the add needs a drop. The roster carries two DEFs (PIT 9.4 projected Wk5, LAR 8.0) — the backup DEF is the zero-cost cut in an 18-teamer where IDP replacement is bottomless. Thieneman is the top free-agent DB under league scoring (6.6 Wk5; Nick Cross 5.9 fallback). Waivers cleared 10/7 01:09, so this is a free-agent add now. Read live 2026-10-07.",
-   "date": "2026-10-07"
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Byron Young (DL, LAR)",
-   "player_id": "10917",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Jonah Coleman (23, RB, DEN — IR ankle; league has no IR slots)",
-   "why": "DL starter slot is EMPTY: the 10/7 waiver run added Isaac TeSlaa by dropping Jaelan Phillips (the DL). 19/19, reserve_slots=0. Jonah Coleman is on IR with an ankle sprain and cannot be stashed in a league with no IR — redraft, so the dynasty-youth rule does not apply. Byron Young 4.6 Wk5 (Barham 4.8 is the near-equal fallback); standing ruling since 10/2. Paired with the Ventrell Miller LB add (Devin Lloyd is CAR = Week 5 bye).",
-   "date": "2026-10-07"
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Ventrell Miller (LB, JAX)",
-   "player_id": "10947",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "KC DEF (Week 5 bye; ARI DEF starts)",
-   "why": "LB starter slot is EMPTY for Week 5: Devin Lloyd (CAR) is on bye. 19/19, no IR. KC DEF is also on bye and is the second defense behind ARI — the zero-cost cut in an 18-teamer (stream two weeks ahead rather than hoard a bye-week DEF). Miller is the top healthy FA LB under league scoring (6.3 Wk5); Al-Shaair 6.7 and Sonny Styles 6.3 carry Questionable tags. Re-check Week 6: Lloyd returns, so Miller becomes the drop candidate if a DEF is needed.",
-   "date": "2026-10-07"
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "(IR) Caleb Williams to IR",
-   "player_id": "11560",
-   "verdict": "roster move",
-   "bid": null,
-   "drop": null,
-   "why": "Caleb Williams is Out (hamstring); reserve_allow_out=1 and IR is 3/4, so one free slot remains. 23/23 active — moving him opens a bench spot at zero cost. Pending since 9/29. The Meyers claim it was paired with lost (damarante, $1 with higher priority); no replacement claim ruled — the spot is just optionality for the next breakout.",
-   "date": "2026-10-07"
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "(IR) DeVonta Smith — NOT eligible now",
-   "player_id": "7525",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "why": "Smith's tag moved Out -> Questionable (hamstring, DNP Wednesday). DMX allows IR for Out/DNR/IR/Sus/NA but not Questionable, so the IR move is closed until he's tagged Out again. Shipley was won anyway ($31, dropped CJ Donaldson) and starts as PHI's dc1 with Barkley questionable (hamstring).",
-   "date": "2026-10-07"
+  "updated": "2026-10-08",
+  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+  "claims": [
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Kevin Byard (DB, NE)",
+      "player_id": "3233",
+      "verdict": "claim",
+      "bid": null,
+      "drop": "LAR DEF (second defense; PIT starts)",
+      "why": "DB starter slot is still EMPTY (0.0) as of 10/8 night. Yesterday's target Dillon Thieneman is no longer a free agent here. Best healthy FA DB by Week 5 projection under league scoring: Byard 5.6 (age 33, NE DB depth 1; Nick Cross 5.9 is Questionable). Roster 17/17, reserve 0/2 but allow_out=0/doubtful=0 so nobody is IR-eligible; drop the redundant LAR DEF (PIT DEF starts). waiver_type=1 (priority), so a free agent add is instant. Pair add+drop in one move.",
+      "date": "2026-10-08"
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Byron Young (DL, LAR)",
+      "player_id": "10917",
+      "verdict": "claim",
+      "bid": null,
+      "drop": "Jonah Coleman (23, RB, DEN — IR ankle; league has no IR slots)",
+      "why": "STILL NOT EXECUTED as of 10/8 night: DL starter slot is EMPTY: the 10/7 waiver run added Isaac TeSlaa by dropping Jaelan Phillips (the DL). 19/19, reserve_slots=0. Jonah Coleman is on IR with an ankle sprain and cannot be stashed in a league with no IR — redraft, so the dynasty-youth rule does not apply. Byron Young 4.6 Wk5 (Barham 4.8 is the near-equal fallback); standing ruling since 10/2. Paired with the Ventrell Miller LB add (Devin Lloyd is CAR = Week 5 bye). (10/8: user added Jaydon Blue and Kaleb Johnson instead; DL and LB starter slots remain EMPTY, roster 19/19, reserve_slots=0. Byron Young 4.6 / Miller 6.3 still free agents; DAL IDP options already played TNF.)",
+      "date": "2026-10-08"
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Ventrell Miller (LB, JAX)",
+      "player_id": "10947",
+      "verdict": "claim",
+      "bid": null,
+      "drop": "KC DEF (Week 5 bye; ARI DEF starts)",
+      "why": "STILL NOT EXECUTED as of 10/8 night: LB starter slot is EMPTY for Week 5: Devin Lloyd (CAR) is on bye. 19/19, no IR. KC DEF is also on bye and is the second defense behind ARI — the zero-cost cut in an 18-teamer (stream two weeks ahead rather than hoard a bye-week DEF). Miller is the top healthy FA LB under league scoring (6.3 Wk5); Al-Shaair 6.7 and Sonny Styles 6.3 carry Questionable tags. Re-check Week 6: Lloyd returns, so Miller becomes the drop candidate if a DEF is needed. (10/8: user added Jaydon Blue and Kaleb Johnson instead; DL and LB starter slots remain EMPTY, roster 19/19, reserve_slots=0. Byron Young 4.6 / Miller 6.3 still free agents; DAL IDP options already played TNF.)",
+      "date": "2026-10-08"
+    },
+    {
+      "league_id": "1338269686810300416",
+      "league": "Dynasty Mexica",
+      "player": "(IR) DeVonta Smith — NOT eligible now",
+      "player_id": "7525",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "why": "Smith's tag moved Out -> Questionable (hamstring, DNP Wednesday). DMX allows IR for Out/DNR/IR/Sus/NA but not Questionable, so the IR move is closed until he's tagged Out again. Shipley was won anyway ($31, dropped CJ Donaldson) and starts as PHI's dc1 with Barkley questionable (hamstring).",
+      "date": "2026-10-07"
+    },
+    {
+      "league_id": "1389689013551517698",
+      "league": "🪓 Guillotine TRC",
+      "player": "Daniel Jones (QB, IND)",
+      "player_id": "5870",
+      "verdict": "conditional claim",
+      "bid": 17,
+      "drop": "Chris Bell (WR, MIA — knee, limited; 7.9 proj, ROS 67)",
+      "why": "Jones (29, IND QB1, ROS 213) was dropped by Tomas89reb on 10/8. Only worth a roster spot if Lamar Jackson (ankle, DNP Wed+Thu) is ruled OUT for Week 5. Rodgers (16.2) outprojects Jones (12.4), so Jones is insurance against a multi-week Lamar absence. Bid sized to this league's observed winning market ($0-16), not the raw ladder: $17 odd. Do NOT drop Seth McGowan: he is IND RB2 directly behind your Jonathan Taylor (clean handcuff, protected). Budget $469 left of $1000.",
+      "date": "2026-10-08"
+    }
+  ],
+  "roster_compliance": {
+    "read_live": "2026-10-07",
+    "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_*=0. DB slot EMPTY (Bates dropped for Tre' Harris 10/7); two DEFs rostered (PIT, LAR). Coleman/Gesicki claims lost (priority) — Mayer won (-Higbee).",
+    "Gallamijos Dynasty": "23/23 active, IR 3/4 (Iosivas, J. Coleman, Stribling), taxi 6. $73 FAAB. Meyers lost; won Treadwell (-CAR DEF) and Cody White (-ARI DEF). Caleb Williams (Out) still not on IR.",
+    "FANTASY MEXICA": "19/19 active, reserve_slots=0. DL EMPTY (Phillips dropped for TeSlaa 10/7); LB empty for Wk5 (Devin Lloyd CAR bye). Two adds: Byron Young (-Jonah Coleman), Ventrell Miller (-KC DEF).",
+    "Dynasty Mexica": "26/26 active, IR 2/4, $51 left. Won Shipley $31 (-CJ Donaldson). D. Smith now Questionable = not IR-eligible.",
+    "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
+    "Guillotine TRC": "14/14, no IR, $469 left. Rodgers won at $0 (-Tre Tucker); also Mayer (-Higbee) and Meyers (-Ty Johnson). Kyler was not bid; Jefferson $213 lost.",
+    "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions."
   }
- ],
- "roster_compliance": {
-  "read_live": "2026-10-07",
-  "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_*=0. DB slot EMPTY (Bates dropped for Tre' Harris 10/7); two DEFs rostered (PIT, LAR). Coleman/Gesicki claims lost (priority) — Mayer won (-Higbee).",
-  "Gallamijos Dynasty": "23/23 active, IR 3/4 (Iosivas, J. Coleman, Stribling), taxi 6. $73 FAAB. Meyers lost; won Treadwell (-CAR DEF) and Cody White (-ARI DEF). Caleb Williams (Out) still not on IR.",
-  "FANTASY MEXICA": "19/19 active, reserve_slots=0. DL EMPTY (Phillips dropped for TeSlaa 10/7); LB empty for Wk5 (Devin Lloyd CAR bye). Two adds: Byron Young (-Jonah Coleman), Ventrell Miller (-KC DEF).",
-  "Dynasty Mexica": "26/26 active, IR 2/4, $51 left. Won Shipley $31 (-CJ Donaldson). D. Smith now Questionable = not IR-eligible.",
-  "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
-  "Guillotine TRC": "14/14, no IR, $469 left. Rodgers won at $0 (-Tre Tucker); also Mayer (-Higbee) and Meyers (-Ty Johnson). Kyler was not bid; Jefferson $213 lost.",
-  "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions."
- }
 }
