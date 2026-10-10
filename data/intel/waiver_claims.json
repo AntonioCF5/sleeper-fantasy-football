@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-10",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -10,8 +10,8 @@
       "verdict": "claim",
       "bid": null,
       "drop": "LAR DEF (second defense; PIT starts)",
-      "why": "DB starter slot is still EMPTY (0.0) as of 10/8 night. Yesterday's target Dillon Thieneman is no longer a free agent here. Best healthy FA DB by Week 5 projection under league scoring: Byard 5.6 (age 33, NE DB depth 1; Nick Cross 5.9 is Questionable). Roster 17/17, reserve 0/2 but allow_out=0/doubtful=0 so nobody is IR-eligible; drop the redundant LAR DEF (PIT DEF starts). waiver_type=1 (priority), so a free agent add is instant. Pair add+drop in one move.",
-      "date": "2026-10-08"
+      "why": "Gallamijos Lg DB slot is still EMPTY (0.0) going into Week 5 — Byard still a free agent (verified 10/10), FA add is instant. Drop the LAR DEF: PIT is the starting defense and the 18-team rule only needs the two-week-ahead stream later. Roster 17/17, so the drop is mandatory.",
+      "date": "2026-10-10"
     },
     {
       "league_id": "1385473470141313024",
@@ -20,42 +20,42 @@
       "player_id": "10917",
       "verdict": "claim",
       "bid": null,
-      "drop": "Jonah Coleman (23, RB, DEN — IR ankle; league has no IR slots)",
-      "why": "STILL NOT EXECUTED as of 10/8 night: DL starter slot is EMPTY: the 10/7 waiver run added Isaac TeSlaa by dropping Jaelan Phillips (the DL). 19/19, reserve_slots=0. Jonah Coleman is on IR with an ankle sprain and cannot be stashed in a league with no IR — redraft, so the dynasty-youth rule does not apply. Byron Young 4.6 Wk5 (Barham 4.8 is the near-equal fallback); standing ruling since 10/2. Paired with the Ventrell Miller LB add (Devin Lloyd is CAR = Week 5 bye). (10/8: user added Jaydon Blue and Kaleb Johnson instead; DL and LB starter slots remain EMPTY, roster 19/19, reserve_slots=0. Byron Young 4.6 / Miller 6.3 still free agents; DAL IDP options already played TNF.)",
-      "date": "2026-10-08"
+      "drop": "KC DEF (Week 5 bye; ARI DEF starts)",
+      "why": "MEXICA DL slot still EMPTY. Byron Young (LAR, DL/LB eligible) is a free agent — instant add. Changed the drop 10/10: Devin Lloyd's injury tag has cleared, so he fills the empty LB slot himself and only ONE add is needed — that add costs the bye-week KC DEF instead of Jonah Coleman (23-year-old RB in a keeper league; cutting youth is the last resort). 19/19, reserve_slots=0.",
+      "date": "2026-10-10"
     },
     {
       "league_id": "1385473470141313024",
       "league": "FANTASY MEXICA",
       "player": "Ventrell Miller (LB, JAX)",
       "player_id": "10947",
-      "verdict": "claim",
+      "verdict": "skip",
       "bid": null,
-      "drop": "KC DEF (Week 5 bye; ARI DEF starts)",
-      "why": "STILL NOT EXECUTED as of 10/8 night: LB starter slot is EMPTY for Week 5: Devin Lloyd (CAR) is on bye. 19/19, no IR. KC DEF is also on bye and is the second defense behind ARI — the zero-cost cut in an 18-teamer (stream two weeks ahead rather than hoard a bye-week DEF). Miller is the top healthy FA LB under league scoring (6.3 Wk5); Al-Shaair 6.7 and Sonny Styles 6.3 carry Questionable tags. Re-check Week 6: Lloyd returns, so Miller becomes the drop candidate if a DEF is needed. (10/8: user added Jaydon Blue and Kaleb Johnson instead; DL and LB starter slots remain EMPTY, roster 19/19, reserve_slots=0. Byron Young 4.6 / Miller 6.3 still free agents; DAL IDP options already played TNF.)",
-      "date": "2026-10-08"
+      "drop": null,
+      "why": "Superseded 10/10: Devin Lloyd (rostered, LB, no injury tag) goes straight into the empty LB slot — no add needed, keep the roster spot for the Byron Young DL add.",
+      "date": "2026-10-10"
     },
     {
       "league_id": "1338269686810300416",
       "league": "Dynasty Mexica",
-      "player": "(IR) DeVonta Smith — NOT eligible now",
+      "player": "(IR) DeVonta Smith",
       "player_id": "7525",
-      "verdict": "skip",
+      "verdict": "IR move",
       "bid": null,
       "drop": null,
-      "why": "Smith's tag moved Out -> Questionable (hamstring, DNP Wednesday). DMX allows IR for Out/DNR/IR/Sus/NA but not Questionable, so the IR move is closed until he's tagged Out again. Shipley was won anyway ($31, dropped CJ Donaldson) and starts as PHI's dc1 with Barkley questionable (hamstring).",
-      "date": "2026-10-07"
+      "why": "Smith is now officially OUT (hamstring) for Week 5. DMX has allow_out=1 and 2 of 4 IR slots used, so the IR move is legal now. Free roster spot, no cost. Move him back when he's activated.",
+      "date": "2026-10-10"
     },
     {
       "league_id": "1389689013551517698",
       "league": "🪓 Guillotine TRC",
       "player": "Daniel Jones (QB, IND)",
       "player_id": "5870",
-      "verdict": "conditional claim",
-      "bid": 17,
-      "drop": "Chris Bell (WR, MIA — knee, limited; 7.9 proj, ROS 67)",
-      "why": "Jones (29, IND QB1, ROS 213) was dropped by Tomas89reb on 10/8. Only worth a roster spot if Lamar Jackson (ankle, DNP Wed+Thu) is ruled OUT for Week 5. Rodgers (16.2) outprojects Jones (12.4), so Jones is insurance against a multi-week Lamar absence. Bid sized to this league's observed winning market ($0-16), not the raw ladder: $17 odd. Do NOT drop Seth McGowan: he is IND RB2 directly behind your Jonathan Taylor (clean handcuff, protected). Budget $469 left of $1000.",
-      "date": "2026-10-08"
+      "verdict": "claim",
+      "bid": 0,
+      "drop": "Dohnte Meyers (WR, CIN — 2.6 proj, Higgins back to full practice)",
+      "why": "Lamar was ruled OUT for Week 5 and is 'uncertain' for Week 6. Rodgers is now the only healthy QB, and a zero at QB is how you get guillotined. Daniel Jones is still unrostered (verified 10/10). If the app shows Add, add him now for free; otherwise put in a $0-3 claim. Changed the drop 10/10 from Chris Bell to Dohnte Meyers: Higgins practiced fully Friday, so Meyers is back to WR4 (2.6 proj, 161K trending drops), while Bell gains targets with Caleb Douglas out. McGowan stays (Taylor's clean handcuff).",
+      "date": "2026-10-10"
     }
   ],
   "roster_compliance": {

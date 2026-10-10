@@ -1518,3 +1518,37 @@ without testing it.
   the Hindi/Dutch/French "transcripts" came from. `fetch_transcript` now
   refuses non-English tracks and leaves the video unprocessed so the next run
   retries once YouTube generates the English captions.
+
+## 2026-10-10 distillation (Week 5 starts, Sal's sell-highs + RB top 50)
+
+- **Per-route target rate as an outlier detector (Sal):** a non-receiving RB
+  who draws 7 targets on 15 routes (47%) is noise; the base rate for that
+  profile is 0-3 targets per 15 routes. Fade the receiving line, not the role.
+- **Points-concentration check (Sal):** when ~70% of a week's fantasy points
+  came on 1-2 plays, treat it as a sell window, not a role change (Ollie Gordon).
+- **Team play volume caps RB value (Sal):** an offense running ~37-40 plays a
+  game limits its lead back to ~8-10 carries. Check plays per game before
+  buying a breakout.
+- **Share of TEAM rushes beats snap share when the QB runs (Sal):** Gordon was
+  on 59% of snaps but got only 53% of team rushes.
+- **Thursday-onset injury rule (Sal):** a new injury on Thursday that keeps the
+  player out of Friday practice means project him OUT (Jeanty).
+- **Official report over first-to-market tweets (FF):** two Stevenson
+  practice statuses that contradicted each other went out 30 seconds apart.
+  Verify against the official report before acting.
+- **Insurance-back exception (FF):** most handcuffs make you worse when the
+  starter goes down, but a backup who inherits a full workhorse role in a
+  strong offense (Corum behind Kyren) can outscore the current starter. Pay
+  for that profile only.
+- **Trailing-script snaps reveal the pecking order (FF):** Kyren played 70 of
+  83 snaps when LAR needed to come back, and the committee snaps show up only
+  when protecting leads.
+- **Drawn-PI yards are hidden WR value (FF):** deep-shot receivers show low
+  catch rates but earn PI yards that aren't in the box score (Golden, 97 yards).
+- **Schedule-spot flag (FF):** a team going from an international game straight
+  to a road game against a rested opponent (IND at PIT) has lost both prior
+  instances.
+- **Our process lesson (10/10):** the sell-high case for Monangai and the "start
+  Swift" call are the same mechanism, *why did the split happen* (fumble, knee,
+  blowout). It was confirmed when Monangai was ruled out, so Swift's Week 5
+  workload is the measured driver, not a "thin backfield" story.
