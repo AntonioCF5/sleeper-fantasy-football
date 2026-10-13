@@ -1552,3 +1552,27 @@ without testing it.
   Swift" call are the same mechanism, *why did the split happen* (fumble, knee,
   blowout). It was confirmed when Monangai was ruled out, so Swift's Week 5
   workload is the measured driver, not a "thin backfield" story.
+
+### 2026-10-13 (Sal Vetri waivers + FF Ep. 1991)
+
+- **The injury game's own snap split names the handcuff (Sal):** when a
+  starter goes down mid-game, whoever takes *his* snaps is his replacement,
+  not the next name on the depth chart. When Rice and Thornton both left,
+  Royals took 64% of the snaps (Rice's role) and Cyrus Allen took 6%
+  (Thornton's). Rank in-season handcuffs this way.
+- **WR handcuffs exist (Sal):** they are rare (Flournoy behind Lamb,
+  historically Tyler Boyd). Stash one only when the starter's status is still
+  unresolved at Tuesday waivers.
+- **Strip garbage time before reading a target tree (Sal):** Bourne led ARI
+  until one garbage-time drive padded McBride.
+- **Same-body-part re-injury weighs more than a fresh injury of the same
+  grade (Sal via Dr. Chona):** e.g. Judkins' boot on the foot he fractured
+  in 2025.
+- **QB-inflating defenses (FF):** every QB to face DET this year finished
+  QB1-QB6. A matchup like that is a streaming tiebreaker.
+- **Read RB share as a trajectory, not a single game (FF via Daigle):**
+  Skattebo went 70% → 66% → 57%. Three straight declines is role erosion
+  before the box score shows it.
+- **Draft-capital decay (FF):** after about 3.5 years, stop crediting
+  draft-implied upside without a real change of situation (the MHJ case).
+  A trade alone isn't proof.
