@@ -72,6 +72,16 @@ WhatsApp, y se vino a cubrir la Gallamijos EN EXCLUSIVA.
   Destape dice "una buena metida de verga con todo y besotes" — la crudeza
   sexual en la carrilla es válida y bienvenida cuando el chiste la pide.
 - Humor negro permitido. TODOS son objetivo, incluido elmijo.
+- **RECALIBRADO 2026-10-13 (user: "sé más dura, ten más humor negro")**: el
+  humor negro ya no es condimento, es dosis base de cada edición. Vocabulario
+  de funeraria aplicado a decisiones de fantasy: esquela, velorio, novenario,
+  veladora, ataúd, lápida, autopsia, bolsa negra, acta de defunción, Día de
+  Muertos, fusilamiento, sicario, "le sobraron balas", exorcista. Límites que
+  NO se mueven: la muerte es del equipo/invicto/título, nunca de una persona
+  real; nada de salud real, suicidio, narco, fosas ni desaparecidos (pega mal
+  en Torreón). El sobrepeso (Buz, Rorro) sí cabe ("el ataúd no es de medida
+  estándar"). Variar el ángulo: si todo es funeral, satura — mezclar con
+  ejecución, morgue, sobrenatural (ouija, exorcismo) y groserías frontales.
 - Español mexicano al 100 + memes de NFL Twitter/X + pop US + pop mexicano
   (Liga MX, corridos, telenovelas, TikTok trends). Referencias FRESCAS de redes
   cada semana (buscar qué está trending antes de escribir).
@@ -294,13 +304,13 @@ comparar el borrador contra la edición anterior.
 | 2026-10-06 | Igor "quedó como optimista" (Rorro 0-4) · *Shark Tank* "estoy fuera" (FAAB $5) · *Civil War* versión Mijo · "Justin Case ni se despeinó" | usados — descansar |
 | 2026-10-06 | Faraón y sus dos quarterbacks equivocados (Maye/Burrow, segunda edición seguida) | **AGOTADO** — no vuelve sin dato nuevo |
 | 2026-10-06 | "Megaevolución completa" (Frijol) | usado — descansar |
-| 2026-10-13 | «Al Doctor nadie le gana en su consultorio» (apertura) · Penacho de Moctezuma "nadie prometió regresarle el invicto" (viral) · "salió en camilla" · "madriza con firma de alemán" | usados — descansar |
-| 2026-10-13 | *Volver al futuro* "el almanaque de la semana pasada" (Jebus, alineaciones invertidas J4/J5) | usado — descansar |
-| 2026-10-13 | *Destino final* "la sal siempre lo encuentra" (Chapo) · Rambo "el resto, de pinches extras" (Buz) · "Distancia de velorio" (Jro91) | usados — descansar |
-| 2026-10-13 | Trade entre Mijos "uno se quedó con Dobbins, el otro con la explicación" | usado — descansar |
-| 2026-10-13 | *Rul Scorsese* / *El irlandés* "3 horas y media para ganar con lo justo" | usado — descansar (apodo PROPUESTO) |
-| 2026-10-13 | "Vive mejor en Excel que en Sleeper" (Pulpo) · "Mal de muchos" (Doctor) · "2 pinches cheques sin fondos" (Tommy) · "La sal se quedó en familia" (Zenitsu) · Commanders 27-27 (Chapo) · "la herencia no se reparte" (Alacrán) | usados — descansar |
-| 2026-10-13 | 🚨 flash "ÚLTIMA HORA: el campeón ganó un partido" · Troya/talón (Aquiles) · "La sal se quedó en el salero" (Dave) · *Bad Boys for Life* · "suerte del pendejo" · *El lobo de Wall Street* "portafolio sentado" · "pendejada de autor" (Charly LV 0 / Patriots 45) · *El día de la marmota* "la misma chingadera cada domingo" (Faraón, 3ª semana) · *The Walking Dead* (Rorro) · "Lo que la directiva tira, el campeón lo compra" (Meyers) · "Hasta el que manda tiene domingos" (Salado Bebé) | usados — descansar |
+| 2026-10-13 | ESQUELA como apertura ("fallecimiento de su Invicto… Lo sobrevive un 4-1" + novenario; va como texto de portada, no como sección) · Penacho de Moctezuma "nadie prometió regresarle el invicto" (viral) · "salió en bolsa negra" / "vino a reconocer el cuerpo" · "fusilamiento, y el pelotón hablaba alemán" / "le sobraron balas" / "comandante del pelotón" (Bebé) | usados — descansar |
+| 2026-10-13 | "2 domingos seguidos enterrando al vivo y velando al muerto" (Jebus) · *Volver al futuro* almanaque | usados — el almanaque se cortó al publicar, queda libre |
+| 2026-10-13 | *Destino final* "de la sal no se salva ni el que hace todo bien" (Chapo) · "el ataúd de Buz no es de medida estándar" · "Ni para la veladora" (Mijo) · "a los otros 8 los están repatriando" (Guerra) · "Viuda alegre" (Bebé/Willis) · 28-3 "en la lápida" (Cano) | usados — descansar |
+| 2026-10-13 | Trade entre Mijos "uno se quedó con Dobbins, el otro con la explicación" | escrito, cortado en la reescritura — libre |
+| 2026-10-13 | *Rul Scorsese* / *El irlandés* "el único muerto fue el espectador" + Palpitote "esta vez el espectador sí se sale a la mitad" | usado — descansar (apodo PROPUESTO) |
+| 2026-10-13 | "Mata invictos, pero no sale del hoyo" (Pulpo) · "los Colts le hicieron compañía" (Doctor) · "2 cadáveres" (Tommy) · "La sal se quedó en familia" (Zenitsu) · Commanders 27-27 (Chapo) · "la herencia no se reparte" (Alacrán) · "asilo" (pooh/Rodgers) · "los enterró un suplente" (Cano) · "cobrando por existir" (Cousins) · "Nadie más se presentó" (Jebus) · "ni en paz" (Sukuna) · "no se oye ni el eco" (Jro91) · autopsia "ahora le toca a pooh" · limpia/exorcista (Chapo) | usados — descansar |
+| 2026-10-13 | 🚨 flash "ÚLTIMA HORA" + "espasmo post mortem" (Amarante) · Troya/talón · "no deja sobrevivientes" (La Dona) · águila o sol "le cayó sol 2 veces" (Charly) · "con él votan hasta los muertos" / "esta vez no votaron los muertos" (Bebé, hilo político) · "golpe de Estado desde su propio bando" (Salado Bebé) · Meyers "pujó $5 para resucitarlo… pagó $27 por el cadáver" · GoT "por una vez los muertos fueron los otros" (Dave) · Faraón "enterrado en pirámide" · "acta de defunción" del título · "al condenado se le concede su último deseo" (Mijo) · *Sexto sentido* (Fer) · *Bad Boys for Life* · "suerte del pendejo" · "pendejada de autor" · Faraón "su temporada va a morir abrazada a Burrow, con Maye de florista" · *The Walking Dead* "los zombis lo ven y piden para llevar" (Rorro) · "el 0-6 te llega por paquetería" (Fer) · "se sentencia el martes, y el juez soy yo" | usados — descansar. Cortados en la reescritura y LIBRES: *El lobo de Wall Street* portafolio sentado, *El día de la marmota*, "Lo que la directiva tira…", "Hasta el que manda tiene domingos", "La sal se quedó en el salero", "el martes es mío" |
 | 2026-10-13 | Casilla vacía de los Pythons (J2, J3, J5) | **descansar varias ediciones** — ya es molde |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
@@ -310,12 +320,12 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 | Última vez | Término | Estado |
 |---|---|---|
 | 2026-10-06 | humanos promedio | libre (ya descansó la edición del 10-13) |
-| 2026-10-13 | corazones | usado (Gallamijos 10-13) — descansar |
-| 2026-10-13 | mis amores | usado (Dinastía 10-13) — descansar |
+| 2026-10-06 | corazones | libre (la J5 se reescribió sin él) |
+| 2026-09-15 | mis amores | libre (la J5 se reescribió sin él) |
 | 2026-10-06 | coaches | libre (ya descansó la edición del 10-13) |
-| 2026-09-29 | bola de pendejos hermosos | libre (ya descansó la edición del 10-06) |
+| 2026-10-13 | bola de pendejos hermosos | usado (Gallamijos 10-13) — descansar |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| 2026-10-06 | criaturas | libre (ya descansó la edición del 10-13) |
+| 2026-10-13 | criaturas | usado (Dinastía 10-13) — descansar |
 | 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
 | 2026-10-06 | señores del fantasy | libre (ya descansó la edición del 10-13) |
 
@@ -455,8 +465,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-15 | Dinastía (jornada 1) | "Doscientos cinco punto dos. / Ya que tengo su atención: buenos días, mis amores." *(estrena la técnica del banco: dato demoledor antes de saludar)* |
 | 2026-10-06 | Gallamijos (jornada 4) | "¿Cuántos pasaron de doscientos puntos este fin de semana? / Uno. / Buenos días, criaturas." *(usa 'abrir con una pregunta directa' del banco)* |
 | 2026-10-06 | Dinastía (jornada 4) | "Perdón la tardanza. Me quedé contando la banca de Buz. / Buenos días, señores del fantasy." *(usa 'llegar tarde' del banco)* |
-| 2026-10-13 | Gallamijos (jornada 5) | "«Al Doctor nadie le gana en su consultorio.» / Eso decía la afición hasta el domingo. / Buenos días, corazones." *(usa 'citar un rumor sin contexto' del banco)* |
-| 2026-10-13 | Dinastía (jornada 5) | "🚨 *ÚLTIMA HORA:* el campeón vigente ganó un partido. / Repito: Amarante ganó… / Buenos días, mis amores." *(técnica nueva: flash noticioso)* |
+| 2026-10-13 | Gallamijos (jornada 5) | "✝️ *ESQUELA.* Con profundo pesar, Matasanos FC comunica el fallecimiento de su Invicto… Lo sobrevive un 4-1. / El novenario arranca el domingo, contra Los hijos de pooh. / Buenos días, bola de pendejos hermosos." *(técnica nueva: esquela; reescritura del user "más dura")* |
+| 2026-10-13 | Dinastía (jornada 5) | "🚨 *ÚLTIMA HORA:* el campeón vigente ganó un partido. / Repito: Amarante ganó… espasmo post mortem. / Buenos días, criaturas." *(técnica nueva: flash noticioso)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -475,8 +485,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-15 | Dinastía (jornada 1) | "Feliz Grito. Griten por el lineup. / Miroslava, que también cubre dinastías desde el escote" |
 | 2026-10-06 | Gallamijos (jornada 4) | "Un beso para el Frijol, otro para el Doc y otro para el Alacrán, que van invictos. Al resto, un abrazo de lejitos. / Miroslava, que esta semana solo contó un 200" *(versión publicada, con el pase del user)* |
 | 2026-10-06 | Dinastía (jornada 4) | "Los observo desde el sideline, con tacones y libreta. / Miroslava, que llegó tarde pero con la cuenta completa" |
-| 2026-10-13 | Gallamijos (jornada 5) | "Mi número para el Bebé, que sacó al Doctor de su consultorio. Al Alacrán, un beso: sigue sin perder. / Miroslava, que vio caer al Doctor en vivo" |
-| 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se llora el martes, y el martes es mío. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
+| 2026-10-13 | Gallamijos (jornada 5) | "Chapo: la sal se quita con una limpia; lo tuyo ya pide exorcista. / Mi número para el Bebé, comandante del pelotón. Al Alacrán, un beso: es el último invicto con vida. / Miroslava, que ya mandó la corona de flores al consultorio" |
+| 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
@@ -484,7 +494,7 @@ existe solo para re-revisar algo ya enviado.
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
 bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
-sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · abrir con un parte médico · abrir con una carta de lector · abrir con un 'en exclusiva' falso.*
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · abrir con un parte médico · abrir con una carta de lector · abrir con un 'en exclusiva' falso.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -678,6 +688,22 @@ cambios suyos sobre mi borrador, cada uno una regla:
     comisionado cambiando reglas ni moviendo turbio; el Alacrán rompió el
     hielo en el grupo y se aprobó el porky en el WhatsApp.
   · Despedida: beso a los invictos (el Doc y el Alacrán) además del MVP.
+- 2026-10-13 · **Reescritura "sé más dura, ten más humor negro" (user)**:
+  · Dosis base de humor negro recalibrada en la sección Tono.
+  · **Límite fino (editor)**: la muerte se le desea al EQUIPO/invicto/título/
+    temporada — nunca un deseo de muerte directo a la persona ("que Dios lo
+    agarre confesado", "que lo velen en su casa", "va a morir abrazado a…"
+    → "su temporada va a morir…"). La metáfora de El Muerto/Putiza ("salió en
+    bolsa negra", el ataúd de Buz) sí entra: es la premisa de la sección.
+    Fuera: ruleta rusa (se lee suicidio) → "águila o sol".
+  · No "sicario" ni léxico narco cerca del apodo "Chapo".
+  · Un verbo funerario, máx 2 veces por edición (fusilar y veladora llegaron
+    al tope); y las 2 ediciones del martes no comparten la misma imagen
+    (esquela/veladora/ataúd en una, sentencia/golpe de Estado en la otra).
+  · Carril nuevo reutilizable para el Bebé: el hilo político (elecciones,
+    "votan hasta los muertos", golpe de Estado) — distinto del funeral.
+  · Recorte por tope de palabras: la dureza se gana cortando datos de relleno,
+    no chistes.
 - 2026-10-13 · **Pase del editor a la J5**:
   · **Un margen, una vez**: la línea del ganador y la del perdedor no repiten el
     mismo margen (46.4, 27.0 y 9.3 salieron dos veces).
