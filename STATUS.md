@@ -197,6 +197,14 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-13 (corrida del boletín, martes de la semana 6)
+
+- [ ] 🔴 **Guillotine (corte de Netogl):** Daniels $61 (fallback D. Jones $11, los dos soltando a Mayer). Bijan va con tope de valor de $231 soltando a Bell, no all-in: el user tiene $469 y los rivales $743-993. Pasarse de eso es decisión del user.
+- [ ] 🔴 **Gallamijos Lg:** la casilla DB lleva 5 semanas vacía. Byard por Roman Wilson, y Reichard→Pineiro por el bye.
+- [ ] 🔴 **IR de DeVonta Smith (DMX):** tercera vez que se pide. Kickers por los byes: MEXICA Mevis por Bates, Gallamijos Dyn Bass $1 por Treadwell, DMX Pineiro al hueco libre.
+- [ ] 🟠 **DYNASTY TRC, mandar hoy:** Lloyd→Odunze (RGV95) y Stevenson+Tucker→Jameson Williams. Montgomery→MHJ quedó MUERTO, y el paquete de ElGeneral4 hay que rehacerlo en sesión en vivo.
+- **Coaching:** DEN cambió de play-caller (Payton retomó las jugadas de Webb). Ya está registrado en team_env.json.
+
 ### 2026-10-06 (corrida del boletín, martes de la semana 5)
 
 - [ ] 🔴 **Guillotine, esta noche:** Kyler Murray $121 (salió del corte de ricardosc24) y Rodgers $37 de respaldo, los dos soltando a **Ty Johnson**. Ya NO se suelta a McGowan: ganó el RB2 de IND detrás de Taylor (handcuff protegido). Lamar "unlikely", podría perderse varios juegos.
