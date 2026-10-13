@@ -834,8 +834,12 @@ def _chrome(args, perfil, salida):
         # Mata al grupo entero: Chrome deja procesos hijos (GPU, renderer).
         try:
             os.killpg(p.pid, signal.SIGKILL)
-        except ProcessLookupError:
-            pass
+        except (ProcessLookupError, PermissionError):
+            # Sin permiso para matar el grupo (sandbox): al menos el proceso.
+            try:
+                p.kill()
+            except ProcessLookupError:
+                pass
         p.wait()
 
 

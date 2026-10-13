@@ -294,6 +294,14 @@ comparar el borrador contra la edición anterior.
 | 2026-10-06 | Igor "quedó como optimista" (Rorro 0-4) · *Shark Tank* "estoy fuera" (FAAB $5) · *Civil War* versión Mijo · "Justin Case ni se despeinó" | usados — descansar |
 | 2026-10-06 | Faraón y sus dos quarterbacks equivocados (Maye/Burrow, segunda edición seguida) | **AGOTADO** — no vuelve sin dato nuevo |
 | 2026-10-06 | "Megaevolución completa" (Frijol) | usado — descansar |
+| 2026-10-13 | «Al Doctor nadie le gana en su consultorio» (apertura) · Penacho de Moctezuma "nadie prometió regresarle el invicto" (viral) · "salió en camilla" · "madriza con firma de alemán" | usados — descansar |
+| 2026-10-13 | *Volver al futuro* "el almanaque de la semana pasada" (Jebus, alineaciones invertidas J4/J5) | usado — descansar |
+| 2026-10-13 | *Destino final* "la sal siempre lo encuentra" (Chapo) · Rambo "el resto, de pinches extras" (Buz) · "Distancia de velorio" (Jro91) | usados — descansar |
+| 2026-10-13 | Trade entre Mijos "uno se quedó con Dobbins, el otro con la explicación" | usado — descansar |
+| 2026-10-13 | *Rul Scorsese* / *El irlandés* "3 horas y media para ganar con lo justo" | usado — descansar (apodo PROPUESTO) |
+| 2026-10-13 | "Vive mejor en Excel que en Sleeper" (Pulpo) · "Mal de muchos" (Doctor) · "2 pinches cheques sin fondos" (Tommy) · "La sal se quedó en familia" (Zenitsu) · Commanders 27-27 (Chapo) · "la herencia no se reparte" (Alacrán) | usados — descansar |
+| 2026-10-13 | 🚨 flash "ÚLTIMA HORA: el campeón ganó un partido" · Troya/talón (Aquiles) · "La sal se quedó en el salero" (Dave) · *Bad Boys for Life* · "suerte del pendejo" · *El lobo de Wall Street* "portafolio sentado" · "pendejada de autor" (Charly LV 0 / Patriots 45) · *El día de la marmota* "la misma chingadera cada domingo" (Faraón, 3ª semana) · *The Walking Dead* (Rorro) · "Lo que la directiva tira, el campeón lo compra" (Meyers) · "Hasta el que manda tiene domingos" (Salado Bebé) | usados — descansar |
+| 2026-10-13 | Casilla vacía de los Pythons (J2, J3, J5) | **descansar varias ediciones** — ya es molde |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
 pasada descansa la siguiente. El validador los lee de esta tabla, así que
@@ -301,15 +309,15 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-10-06 | humanos promedio | usado (Dinastía 10-06) — descansar |
-| 2026-09-29 | corazones | libre (ya descansó la edición del 10-06) |
-| 2026-09-29 | mis amores | libre (ya descansó la edición del 10-06) |
-| 2026-10-06 | coaches | usado (Gallamijos 10-06, cierre) — descansar |
+| 2026-10-06 | humanos promedio | libre (ya descansó la edición del 10-13) |
+| 2026-10-13 | corazones | usado (Gallamijos 10-13) — descansar |
+| 2026-10-13 | mis amores | usado (Dinastía 10-13) — descansar |
+| 2026-10-06 | coaches | libre (ya descansó la edición del 10-13) |
 | 2026-09-29 | bola de pendejos hermosos | libre (ya descansó la edición del 10-06) |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| 2026-10-06 | criaturas | usado (Gallamijos 10-06) — descansar |
+| 2026-10-06 | criaturas | libre (ya descansó la edición del 10-13) |
 | 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
-| 2026-10-06 | señores del fantasy | usado (Dinastía 10-06) — descansar |
+| 2026-10-06 | señores del fantasy | libre (ya descansó la edición del 10-13) |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
@@ -447,6 +455,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-15 | Dinastía (jornada 1) | "Doscientos cinco punto dos. / Ya que tengo su atención: buenos días, mis amores." *(estrena la técnica del banco: dato demoledor antes de saludar)* |
 | 2026-10-06 | Gallamijos (jornada 4) | "¿Cuántos pasaron de doscientos puntos este fin de semana? / Uno. / Buenos días, criaturas." *(usa 'abrir con una pregunta directa' del banco)* |
 | 2026-10-06 | Dinastía (jornada 4) | "Perdón la tardanza. Me quedé contando la banca de Buz. / Buenos días, señores del fantasy." *(usa 'llegar tarde' del banco)* |
+| 2026-10-13 | Gallamijos (jornada 5) | "«Al Doctor nadie le gana en su consultorio.» / Eso decía la afición hasta el domingo. / Buenos días, corazones." *(usa 'citar un rumor sin contexto' del banco)* |
+| 2026-10-13 | Dinastía (jornada 5) | "🚨 *ÚLTIMA HORA:* el campeón vigente ganó un partido. / Repito: Amarante ganó… / Buenos días, mis amores." *(técnica nueva: flash noticioso)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -463,16 +473,18 @@ existe solo para re-revisar algo ya enviado.
 | 2026-09-29 | Gallamijos (jornada 3) | "Besos desde el penthouse. / Miroslava, que ya sabe quién escoge primero" |
 | 2026-09-29 | Dinastía (jornada 3) | "Los besos, para los Gallas. Al resto, un saludo cordial. / Miroslava, que esta semana solo le escribe a un bando" |
 | 2026-09-15 | Dinastía (jornada 1) | "Feliz Grito. Griten por el lineup. / Miroslava, que también cubre dinastías desde el escote" |
-| 2026-10-06 | Gallamijos (jornada 4) | "Un beso para el Frijol. Al resto, un abrazo de lejitos. / Miroslava, que esta semana solo contó un doscientos" |
+| 2026-10-06 | Gallamijos (jornada 4) | "Un beso para el Frijol, otro para el Doc y otro para el Alacrán, que van invictos. Al resto, un abrazo de lejitos. / Miroslava, que esta semana solo contó un 200" *(versión publicada, con el pase del user)* |
 | 2026-10-06 | Dinastía (jornada 4) | "Los observo desde el sideline, con tacones y libreta. / Miroslava, que llegó tarde pero con la cuenta completa" |
+| 2026-10-13 | Gallamijos (jornada 5) | "Mi número para el Bebé, que sacó al Doctor de su consultorio. Al Alacrán, un beso: sigue sin perder. / Miroslava, que vio caer al Doctor en vivo" |
+| 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se llora el martes, y el martes es mío. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
 0 — ese fue el error que originó esta bitácora.*
 
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
-bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · entrar citando un rumor
-sin contexto.*
+bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · abrir con un parte médico · abrir con una carta de lector · abrir con un 'en exclusiva' falso.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -666,6 +678,19 @@ cambios suyos sobre mi borrador, cada uno una regla:
     comisionado cambiando reglas ni moviendo turbio; el Alacrán rompió el
     hielo en el grupo y se aprobó el porky en el WhatsApp.
   · Despedida: beso a los invictos (el Doc y el Alacrán) además del MVP.
+- 2026-10-13 · **Pase del editor a la J5**:
+  · **Un margen, una vez**: la línea del ganador y la del perdedor no repiten el
+    mismo margen (46.4, 27.0 y 9.3 salieron dos veces).
+  · **"Volvió" se verifica** contra la hoja anterior (Puka había jugado la J4).
+  · **No inventar deudas/rivalidades** ("le debía una al Doctor") sin
+    enfrentamiento previo en la hoja.
+  · **El Salado otra vez mal asignado** (Dinastía): el peor marcador de la
+    semana NUNCA es Salado — es el Muerto. Salado = alto marcador que pierde.
+  · **El mismo dato de un manager en las 2 ligas** (Rul sentó a Tyler Huntley
+    24.0 en ambas): se cuenta en una sola edición.
+  · Ojo con el editor también: propuso "el único Galla que le ganó a alguien de
+    fuera fue Gallagher" y era el Bebé (Gallagher le ganó a Cano, otro Galla).
+    Los conteos por bando se verifican contra BANDOS siempre.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -730,7 +755,7 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 9 de 12** tras la jornada 4 (6 de 8 tras la 3)
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 12 de 16** tras la jornada 5 (9 de 12 tras la 4; 6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
@@ -738,8 +763,10 @@ cambios suyos sobre mi borrador, cada uno una regla:
    cuenta — y por eso toda predicción debe nombrar ganador o no va.
    Jornada 4 (09-29): Alacrán > Dave ✓, Doctor > Gallagher ✓, La Dona > Faraón ✓,
    Amarante > Dave ✗ (con su óptimo 179.6 ganaba) → **9 de 12**.
-   Pendientes del 10-06 (jornada 5): Gallamijos — Frijol > Buz, Gallagher > Cano;
-   Dinastía — Charly > La Dona, Dave > Rorro.
+   Jornada 5 (10-06): Frijol > Buz ✓, Gallagher > Cano ✓, Charly > La Dona ✗,
+   Dave > Rorro ✓ → **12 de 16**.
+   Pendientes del 10-13 (jornada 6): Gallamijos — Alacrán > Rul, Doctor > Rorro;
+   Dinastía — Dave > el Faraón, La Dona > Fer.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
