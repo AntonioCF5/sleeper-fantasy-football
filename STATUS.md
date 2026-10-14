@@ -197,6 +197,15 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-14 (corrida nocturna del 13, terminó el miércoles 8:30am: la Mac se durmió a media corrida)
+
+- [ ] 🔴 **Gallamijos Lg, tres ceros:** DB vacía (sexta semana), Reichard (K) y Rodriguez (LB) en bye. Chamarri Conner por Mayer, Smack por Concepcion, y opcional Davis-Gaither por la DEF LAR. Los drops de la mañana (Roman Wilson, Pineiro) ya no aplican.
+- [ ] 🔴 **MEXICA, DL vacía otra vez:** el alta de Grupe soltó a Byron Young. Booker por Bates.
+- [ ] 🔴 **DYNASTY TRC, alineación:** Maye por Bryce Young y Tucker por DJ Moore (Out). Lloyd→Odunze: mandarla ya, porque Jacobs podría volver en la semana 7.
+- [ ] 🟠 **DMX:** Smith a IR (cuarta vez que se pide) y Smack como K. **Gallamijos Dyn:** Folk $1 por Treadwell. Si McConkey no entrena completo el viernes, entra Otton.
+- **Guillotine:** el user no metió pujas. Daniels se fue en $36 y Bijan en $623; le quedan $469. Preguntar si fue a propósito.
+- **Proceso:** `expert_watch --fetch-new` tarda más de 30 min cuando el RSS está caído (re-sondea los feeds). Se rodeó llamando a `fetch_one` directo. Además, `--mark` interpreta los ids que empiezan con guion como banderas, así que hay que ponerlos al final.
+
 ### 2026-10-13 (corrida del boletín, martes de la semana 6)
 
 - [ ] 🔴 **Guillotine (corte de Netogl):** Daniels $61 (fallback D. Jones $11, los dos soltando a Mayer). Bijan va con tope de valor de $231 soltando a Bell, no all-in: el user tiene $469 y los rivales $743-993. Pasarse de eso es decisión del user.

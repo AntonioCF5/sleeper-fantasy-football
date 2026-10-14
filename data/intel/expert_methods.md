@@ -1576,3 +1576,12 @@ without testing it.
 - **Draft-capital decay (FF):** after about 3.5 years, stop crediting
   draft-implied upside without a real change of situation (the MHJ case).
   A trade alone isn't proof.
+- **Active with 0 snaps is a lineup trap (Sal, 10/13):** McConkey dressed
+  and never played; "active" on the report is not "playing".
+- **Finished-bye arbitrage (FF, 10/13):** a player whose bye is behind him
+  has one more pre-playoff game than one who hasn't byed yet; weigh it
+  against the weeks 15-17 schedule before trading on it.
+- **Mechanism audit, Bourne (10/13):** FF's "ARI passes a ton because it
+  has no run game" is the thin-backfield fallacy. The measured drivers are
+  MHJ's vacated targets and the trailing game script that ARI's defense
+  (31-45 allowed) creates.

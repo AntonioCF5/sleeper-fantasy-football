@@ -1,50 +1,61 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
       "league_id": "1395839320077656064",
       "league": "Gallamijos League",
-      "player": "Kevin Byard (DB, NE)",
-      "player_id": "3233",
+      "player": "Chamarri Conner (DB, KC)",
+      "player_id": "10949",
       "verdict": "claim",
       "bid": null,
-      "drop": "Roman Wilson (WR, PIT — ruled OUT for Week 6, finger/wrist in a cast, 27 ROS pts)",
-      "why": "The DB starting slot has been EMPTY (0.0) for five straight weeks; the 10/10 order (Byard for the LAR DEF) wasn't executed. Byard (33) is still a free agent, 5.7 wk6 / 97 ROS, the top DB on the wire. Drop changed from LAR DEF to Roman Wilson: McCarthy ruled him out for Week 6, he's in a cast, he projects 27 ROS, and this is a redraft roster at 17/17 with no IR eligibility (reserve_allow_out=0). Free agent = instant add, no waiver priority spent.",
-      "date": "2026-10-13"
+      "drop": "Michael Mayer (TE, LV — backup TE now that Okonkwo was added)",
+      "why": "The DB slot is still EMPTY (sixth week). Overnight you used Roman Wilson (the planned drop) on Okonkwo, and Tre' Harris on Royals, so the Byard ruling's drop is gone. Conner (26) projects 5.8 in week 6, the top DB on the wire; Byard (33, 5.7) and Cole Bishop (23, 5.7) are fallbacks. Mayer is a redundant TE behind Okonkwo. Waivers have cleared and daily_waivers=0, so this is an instant add.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1395839320077656064",
       "league": "Gallamijos League",
-      "player": "Eddy Pineiro (K, SF)",
-      "player_id": "5189",
+      "player": "Trey Smack (K, GB)",
+      "player_id": "13545",
       "verdict": "claim",
       "bid": null,
-      "drop": "Will Reichard (K, MIN — Week 6 bye)",
-      "why": "Reichard's MIN bye leaves the K slot at 0.0 in Week 6. A K-for-K swap costs no roster spot and keeps the second DEF for two-week-ahead streaming (18-team rule). Pineiro 6.1 wk6 / 59 ROS vs Reichard 63 ROS, so ROS is essentially a wash. Kickers are ageless commodities in redraft.",
-      "date": "2026-10-13"
+      "drop": "KC Concepcion (WR, CLE — Out, concussion)",
+      "why": "Reichard is on the MIN bye, and Pineiro (the morning pick) went to maudlgarza overnight. Smack is 6.8 in week 6, the best K on the wire. Concepcion is Out and this is a redraft roster at 17/17 with no IR eligibility (reserve_allow_out=0); Chase returns in week 7, and MHJ/Royals cover WR depth.",
+      "date": "2026-10-14"
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Akeem Davis-Gaither (LB, IND)",
+      "player_id": "6860",
+      "verdict": "optional",
+      "bid": null,
+      "drop": "LAR DEF (2nd DEF)",
+      "why": "Jacob Rodriguez is on the MIA bye; an empty LB slot is a zero. Davis-Gaither projects 6.4 (Nick Bolton 6.3 is the fallback). The second DEF is the cheapest roster spot in an 18-teamer; re-stream DEF two weeks ahead once Rodriguez is back.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1385473470141313024",
       "league": "FANTASY MEXICA",
-      "player": "Harrison Mevis (K, LAR)",
-      "player_id": "12015",
+      "player": "Austin Booker (DL, CHI)",
+      "player_id": "11760",
       "verdict": "claim",
       "bid": null,
-      "drop": "Jake Bates (K, DET — Week 6 bye)",
-      "why": "DET is on bye, so Bates scores 0.0 in Week 6. Mevis is the top FA kicker (6.3 wk6 / 63 ROS vs Bates 62). A straight K swap needs no other drop, the roster stays 19/19, and MEXICA has no IR slots (reserve_slots=0).",
-      "date": "2026-10-13"
+      "drop": "Jake Bates (K, DET — on bye and redundant now that you added Blake Grupe)",
+      "why": "The DL slot is EMPTY again: the 08:01 Grupe add dropped Byron Young, your DL starter, and Young now sits on waivers. Booker is 4.2 in week 6, the best DL not on waivers (Young 4.9 is a claim if you want him back). No IR in this league (reserve_slots=0), so Bates is the only zero-cost drop.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1388097370255794176",
       "league": "Gallamijos Dynasty",
-      "player": "Tyler Bass (K, BUF)",
-      "player_id": "7042",
+      "player": "Nick Folk (K, ATL)",
+      "player_id": "650",
       "verdict": "claim",
       "bid": 1,
-      "drop": "Laquon Treadwell (WR, IND, age 31 — 0 ROS pts, no trade market)",
-      "why": "Bates (DET) is on bye in Week 6. Bass projects 9.5 wk6. The roster is 23/23 with IR full (4/4), so the add needs a drop. Treadwell is the dynasty-value rule's first bucket: an aging vet with no market and 0 ROS projection. Rebuild team, so $1 (odd-number bid; K stream tier is $0-1).",
-      "date": "2026-10-13"
+      "drop": "Laquon Treadwell (WR, IND, age 31 — 1.9 wk6, no trade market)",
+      "why": "Bates is on the DET bye. The $1 Bass claim never went in (no transaction); Folk (9.7) and Bass (9.4) are both still free, so claim either at $1. Treadwell is the dynasty-rule drop: aging, no market. IR is full at 4/4.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1338269686810300416",
@@ -54,62 +65,40 @@
       "verdict": "IR move",
       "bid": null,
       "drop": null,
-      "why": "Third edition asking. Smith is Out (hamstring), DMX has reserve_allow_out=1 and 3 of 4 IR slots used, so this costs nothing. It opens a second roster spot (the roster is 25/26 active).",
-      "date": "2026-10-13"
+      "why": "Smith is Out and is sitting in your FLEX. IR is 3/4 and reserve_allow_out=1, so the move is free; start Doubs (8.7) in the flex. This is the fourth edition asking. FF says he has a 'shot' at week 6; if he's upgraded by Saturday, activate him over Doubs.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1338269686810300416",
       "league": "Dynasty Mexica",
-      "player": "Eddy Pineiro (K, SF)",
-      "player_id": "5189",
+      "player": "Trey Smack (K, GB)",
+      "player_id": "13545",
       "verdict": "claim",
       "bid": 0,
-      "drop": null,
-      "why": "Reichard (MIN) is on bye in Week 6. There's an open roster spot (25/26), so no drop is needed. Pineiro is a free agent (8.4 wk6 / 101 ROS); Mevis (8.7) was dropped 12h ago and is on waivers, so take the instant FA. A $0 commodity stream in a ≤12-team league.",
-      "date": "2026-10-13"
+      "drop": "none — uses the spot the Smith IR move opens",
+      "why": "Reichard is on the MIN bye and Pineiro is gone. Smack (9.0) is the top K; Cairo Santos (8.4) is the fallback. Waivers are daily, so the claim processes overnight.",
+      "date": "2026-10-14"
     },
     {
       "league_id": "1389689013551517698",
-      "league": "🪓 Guillotine TRC",
-      "player": "Jayden Daniels (QB, WAS)",
-      "player_id": "11566",
-      "verdict": "claim",
-      "bid": 61,
-      "drop": "Michael Mayer (TE2, LV — 7.3 wk6 / 81 ROS, redundant behind Likely)",
-      "why": "Netogl was chopped (86.6), and Daniels, Herbert, Ward and Geno all hit the wire, so supply is deep and QB claims in this league close at $0-55 (Rodgers $0, Brissett $15, Caleb $55). Lamar (ankle) is 'some hope' for Week 6 but uncertain to practice Wednesday. Rodgers (age 42) is the only healthy QB, and FF splits on starting him at TB. Daniels' rushing is back (9-103 in Week 5). $61 beats the observed QB market without touching the reserve. Fallback (same drop, so it auto-cancels if Daniels hits): Daniel Jones $11. Skip Herbert (FF: LAC missing C + both tackles, ~121 yds).",
-      "date": "2026-10-13"
-    },
-    {
-      "league_id": "1389689013551517698",
-      "league": "🪓 Guillotine TRC",
+      "league": "Guillotine TRC",
       "player": "Daniel Jones (QB, IND)",
       "player_id": "5870",
-      "verdict": "claim",
-      "bid": 11,
-      "drop": "Michael Mayer (same drop, so this is a fallback that cancels if Daniels wins)",
-      "why": "Fallback QB if the Daniels claim fails: 14.2 wk6 / 213 ROS.",
-      "date": "2026-10-13"
-    },
-    {
-      "league_id": "1389689013551517698",
-      "league": "🪓 Guillotine TRC",
-      "player": "Bijan Robinson (RB, ATL)",
-      "player_id": "9509",
-      "verdict": "claim",
-      "bid": 231,
-      "drop": "Chris Bell (WR, MIA — Week 6 bye, 67 ROS)",
-      "why": "VALUE CAP, NOT A WIN-AT-ALL-COSTS BID. Bijan (25.5 wk6 / 325 ROS) is the best player to hit this wire all year, but the market says he goes $450+: Jefferson closed at $500 with bids of 453/397/333, and five rivals hold $743-993. You hold $469 with 12 chops left, and late-season chops dump better rosters than early ones (Sal: hoard FAAB for the final rounds). You also scored the week's high (156.7 vs the 86.6 cut line), so this is luxury, not survival. $231 wins only if the rich teams sleep. Going all-in leaves $0 for a Lamar/QB emergency. Overriding is your call. If Jefferson's $500 is the guide, winning probably takes about your whole $469.",
-      "date": "2026-10-13"
+      "verdict": "optional",
+      "bid": 0,
+      "drop": "Michael Mayer (TE2, LV)",
+      "why": "The overnight results killed the morning plan: none of your bids were placed. Daniels went for $36 (GaelDmz), Bijan for $623 (JoelSC). Rodgers starts at QB (15.5) and Lamar (Out tag, uncertain to practice) sits on the bench. Jones (14.2) is insurance in case Rodgers or Lamar is ruled out, and Mayer is a dead spot behind Likely. Optional, at $0 only.",
+      "date": "2026-10-14"
     }
   ],
   "roster_compliance": {
-    "read_live": "2026-10-07",
-    "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_*=0. DB slot EMPTY (Bates dropped for Tre' Harris 10/7); two DEFs rostered (PIT, LAR). Coleman/Gesicki claims lost (priority) — Mayer won (-Higbee).",
+    "read_live": "2026-10-14",
+    "Gallamijos League": "17/17 active; IR 0/2 but reserve_allow_*=0. DB EMPTY (6th week); Reichard K and Rodriguez LB on bye. Overnight: Okonkwo (-Roman Wilson), Royals (-Tre' Harris).",
     "Gallamijos Dynasty": "23/23 active, IR 3/4 (Iosivas, J. Coleman, Stribling), taxi 6. $73 FAAB. Meyers lost; won Treadwell (-CAR DEF) and Cody White (-ARI DEF). Caleb Williams (Out) still not on IR.",
-    "FANTASY MEXICA": "19/19 active, reserve_slots=0. DL EMPTY (Phillips dropped for TeSlaa 10/7); LB empty for Wk5 (Devin Lloyd CAR bye). Two adds: Byron Young (-Jonah Coleman), Ventrell Miller (-KC DEF).",
-    "Dynasty Mexica": "26/26 active, IR 2/4, $51 left. Won Shipley $31 (-CJ Donaldson). D. Smith now Questionable = not IR-eligible.",
+    "FANTASY MEXICA": "19/19, reserve_slots=0. DL EMPTY again (Byron Young dropped 10/14 08:01 for Grupe). Royals (-Jordyn Brooks) overnight.",
+    "Dynasty Mexica": "26/26 active (McLaughlin $0 added overnight), IR 3/4, allow_out=1. D. Smith Out in the FLEX.",
     "League of Record": "28/28 active, IR 4/8 (allow_out=0), taxi 8/8, $83 left. Executed: Corey Kiner (-Laube), CJ Donaldson $6, Jalon Daniels $11 (-John Bates).",
-    "Guillotine TRC": "14/14, no IR, $469 left. Rodgers won at $0 (-Tre Tucker); also Mayer (-Higbee) and Meyers (-Ty Johnson). Kyler was not bid; Jefferson $213 lost.",
+    "Guillotine TRC": "14/14, $469. No bids placed 10/13; Daniels $36 and Bijan $623 went elsewhere.",
     "DYNASTY TRC": "25/25 active, IR 4/4 full, taxi 5/5, $97 left. No executions."
   }
 }
