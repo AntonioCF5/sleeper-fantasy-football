@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "note": "Standing trade offers, curated. Lineup deltas are season-total optimal-lineup projections under each league's corrected scoring, recomputed every run. The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
   "offers": [
     {
@@ -151,8 +151,7 @@
       "league_id": "1315407698006646784",
       "partner": "jetsdelalaguna",
       "give": [
-        "Rhamondre Stevenson",
-        "Tre Tucker"
+        "Rhamondre Stevenson"
       ],
       "get": [
         "Jameson Williams"
@@ -164,7 +163,8 @@
         "him": "-37.2 on our board; positive on the market's (Etienne panic, Dowdle Out)"
       },
       "why": "Sell a 28-year-old RB3 whose value is Henderson-capped plus a rental WR at his peak for a 25-year-old WR both experts and our board say is under-priced.",
-      "pitch": "You just scored 184 and your RB2 spot is Etienne-or-Dowdle — one is a full panic, the other is out. Stevenson is RB14 this week and a starter even when Henderson is back; Tucker is Vegas' WR1 (11 targets in two weeks). Jamo is your WR4 and sat at 2-33 Thursday. 2-for-1, you start both this week."
+      "pitch": "You just scored 184 and your RB2 spot is Etienne-or-Dowdle — one is a full panic, the other is out. Stevenson is RB14 this week and a starter even when Henderson is back; Tucker is Vegas' WR1 (11 targets in two weeks). Jamo is your WR4 and sat at 2-33 Thursday. 2-for-1, you start both this week.",
+      "status_note": "2026-10-14 pm: Henderson (high-ankle) out multiple weeks; Stevenson is NE's workhorse and his price peaks now. Re-priced: Stevenson ALONE for Jameson Williams — keep Tucker (starting for DJ Moore, DNP Wed). If refused, fall back to the original Stevenson+Tucker package."
     },
     {
       "league_id": "1314652488325922816",

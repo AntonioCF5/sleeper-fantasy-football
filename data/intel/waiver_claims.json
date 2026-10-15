@@ -20,8 +20,8 @@
       "player_id": "13545",
       "verdict": "claim",
       "bid": null,
-      "drop": "KC Concepcion (WR, CLE — Out, concussion)",
-      "why": "Reichard is on the MIN bye, and Pineiro (the morning pick) went to maudlgarza overnight. Smack is 6.8 in week 6, the best K on the wire. Concepcion is Out and this is a redraft roster at 17/17 with no IR eligibility (reserve_allow_out=0); Chase returns in week 7, and MHJ/Royals cover WR depth.",
+      "drop": "Baker Mayfield (QB, TB, 31 — DNP Wed, thumb; Bowles is starting Jalon Daniels again)",
+      "why": "K slot still empty (Reichard on MIN bye). Smack (6.9) was dropped by jffaya 16h ago and is a free agent. DROP CHANGED 10/14 pm: Concepcion (concussion) practiced limited Wednesday and is now Questionable — he projects 9.1 and should START over Royals (2.8) if cleared, so he is not the drop. Mayfield didn't practice (thumb) and TB is starting Jalon Daniels again, so he is a dead backup behind Shough (full practice). Grupe (5.8) is the fallback K.",
       "date": "2026-10-14"
     },
     {
@@ -62,10 +62,10 @@
       "league": "Dynasty Mexica",
       "player": "(IR) DeVonta Smith",
       "player_id": "7525",
-      "verdict": "IR move",
+      "verdict": "withdrawn",
       "bid": null,
       "drop": null,
-      "why": "Smith is Out and is sitting in your FLEX. IR is 3/4 and reserve_allow_out=1, so the move is free; start Doubs (8.7) in the flex. This is the fourth edition asking. FF says he has a 'shot' at week 6; if he's upgraded by Saturday, activate him over Doubs.",
+      "why": "WITHDRAWN 10/14 pm: Smith's tag moved Out → Questionable, so he is no longer IR-eligible (reserve_allow_out=1 only). He was DNP Wednesday (hamstring/toe). Bench him: Doubs (8.0) takes the FLEX.",
       "date": "2026-10-14"
     },
     {
@@ -75,19 +75,19 @@
       "player_id": "13545",
       "verdict": "claim",
       "bid": 0,
-      "drop": "none — uses the spot the Smith IR move opens",
-      "why": "Reichard is on the MIN bye and Pineiro is gone. Smack (9.0) is the top K; Cairo Santos (8.4) is the fallback. Waivers are daily, so the claim processes overnight.",
+      "drop": "Jacoby Brissett (QB, ARI, 33 — no trade market, ESPN reports possible benching; Maye starts, Burrow back after CIN bye)",
+      "why": "Reichard is on the MIN bye; K is a weekly stream in this 12-team league. The Smith IR move that was going to open the spot is dead (he's Questionable now), so this add needs a drop. Dynasty value order: Brissett is an aging vet with no market and a benching risk — first out. Smack 9.1 is the top K on the wire; Pineiro/Santos 8.4 fallbacks.",
       "date": "2026-10-14"
     },
     {
       "league_id": "1389689013551517698",
       "league": "Guillotine TRC",
-      "player": "Daniel Jones (QB, IND)",
-      "player_id": "5870",
-      "verdict": "optional",
-      "bid": 0,
-      "drop": "Michael Mayer (TE2, LV)",
-      "why": "The overnight results killed the morning plan: none of your bids were placed. Daniels went for $36 (GaelDmz), Bijan for $623 (JoelSC). Rodgers starts at QB (15.5) and Lamar (Out tag, uncertain to practice) sits on the bench. Jones (14.2) is insurance in case Rodgers or Lamar is ruled out, and Mayer is a dead spot behind Likely. Optional, at $0 only.",
+      "player": "Kyler Murray (QB, MIN)",
+      "player_id": "5849",
+      "verdict": "claim",
+      "bid": 37,
+      "drop": "Chris Bell (WR, 22 — 0.0 projection)",
+      "why": "GaelDmz dropped Kyler for the MIN week-6 bye. Lamar didn't practice Wednesday (ankle), so Rodgers is your only healthy QB. Kyler (273 season proj, best game of the year in week 5) is the week-7+ QB1 and Lamar insurance. $37 keeps the hoard intact ($469 vs rivals' $743-993); bid more only if you want to guarantee it. Bell projects 0 and is the cheapest drop; Mayer is the alternative.",
       "date": "2026-10-14"
     }
   ],

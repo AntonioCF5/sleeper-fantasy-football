@@ -1585,3 +1585,20 @@ without testing it.
   has no run game" is the thin-backfield fallacy. The measured drivers are
   MHJ's vacated targets and the trailing game script that ARI's defense
   (31-45 allowed) creates.
+
+### 2026-10-14 (Sal 5 buy-lows; FF Ep. 1993 draft redo + mailbag)
+
+- **Concussion base rate for WRs (Sal, via Deepak Chona):** ~8-day median,
+  about 1 in 3 play the following week. Default a fresh concussion to
+  "misses one game" until he clears protocol; a limited Wednesday is not
+  clearance.
+- **Stash path test (FF):** count the injuries a stash needs for a
+  fantasy-relevant role. One = keep; two = drop first. Non-leg injuries
+  (thumb) let a player keep conditioning and return closer to full speed.
+- **Expected vs actual points as a buy-low screen (Sal, citing Zachariason):**
+  the biggest negative gaps with strong routes/targets (Odunze 5.0 vs 18.7)
+  flag usage that hasn't converted yet.
+- **Split snap share by half before calling a role loss (Sal, citing Winks):**
+  Love 76% first half vs 24% trailing in the second half = script, not role.
+- **Buy the absence, not the return (Sal):** an injured player is cheapest
+  in the week he sits while his manager is also squeezed by byes.
