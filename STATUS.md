@@ -197,6 +197,14 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-14 noche (boletín del miércoles, semana 6)
+
+- [ ] 🔴 **Gallamijos Lg:** Smack (K) ahora soltando a **Mayfield** (no practica, TB vuelve a abrir con Daniels), NO a Concepcion (pasó a Questionable, limitado; titular si libra el protocolo). Conner (DB) por Mayer sigue.
+- [ ] 🔴 **DMX:** el IR de DeVonta Smith murió (pasó a Questionable, no elegible). Doubs al FLEX; Smack $0 soltando a Brissett. Love no practicó: si no practica el viernes, entra Spears.
+- [ ] 🟠 **DYNASTY TRC:** Henderson (NE) fuera varias semanas → Stevenson es el caballo de carga. Re-oferta a jetsdelalaguna: Stevenson SOLO por Jameson Williams (Tucker se queda). Maye sigue sin ponerse por Bryce Young; Kelce al FLEX.
+- [ ] 🟠 **Guillotine:** Kyler Murray quedó libre (GaelDmz lo cortó por el bye de MIN). $37 soltando a Chris Bell. Lamar no practicó; Rodgers titular.
+- Dos shorts de FF sin subtítulos (xzx_siG5Jss, BEY_LsxngxI) quedan sin marcar porque `--mark` los rechaza; reaparecen en `--check`. Inofensivo.
+
 ### 2026-10-14 (corrida nocturna del 13, terminó el miércoles 8:30am: la Mac se durmió a media corrida)
 
 - [ ] 🔴 **Gallamijos Lg, tres ceros:** DB vacía (sexta semana), Reichard (K) y Rodriguez (LB) en bye. Chamarri Conner por Mayer, Smack por Concepcion, y opcional Davis-Gaither por la DEF LAR. Los drops de la mañana (Roman Wilson, Pineiro) ya no aplican.
