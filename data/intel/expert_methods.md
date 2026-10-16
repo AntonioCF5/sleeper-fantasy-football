@@ -1602,3 +1602,22 @@ without testing it.
   Love 76% first half vs 24% trailing in the second half = script, not role.
 - **Buy the absence, not the return (Sal):** an injured player is cheapest
   in the week he sits while his manager is also squeezed by byes.
+
+## 2026-10-15 — Sal week-6 Q&A (9vuO4KL7PiE) + "7 to trade away" (2zUMnfLh9EM) + FF Ep. 1989 Starts of the Week (gt5TLPTxxv8)
+
+- **Vegas line as an injury read (Sal):** if a star's DNP doesn't move the
+  line, the market expects him to play; a line/total move (CAR-PHI -1.5 →
+  -3.5, total 40.5 → 38.5 on Hurts) is the real signal.
+- **Thursday ruling = multi-week tell (Sal):** a team ruling a player OUT on
+  Thursday (not Friday) usually signals a multi-week absence.
+- **Box scores from early-exit games are noise (FF):** judge a player only on
+  full-snap games (DJ Moore's bad weeks were injury exits).
+- **Validate-the-trade effect (FF):** a team that just paid draft capital
+  force-feeds the new player early (MHJ in HOU) — a short-term usage boost,
+  not a role guarantee.
+- **TNF run skew (FF):** short-week game plans lean run-heavy; discount TNF
+  rushing outliers before buying.
+- **Bye fill-ins one week early, never two (FF):** grab next week's $0 QB/DEF
+  bye cover before demand rises (NYJ DEF vs MIA wk 7).
+- **Two-players-in-one studs (Sal):** weekly-ceiling studs (Gibbs, Walker)
+  beat 2-for-1 packages; they free a lineup slot and swing playoff weeks.

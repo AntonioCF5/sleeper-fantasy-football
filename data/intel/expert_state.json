@@ -803,19 +803,40 @@
    "published": "2026-10-14",
    "source": "fantasy-footballers",
    "processed": "2026-10-14"
+  },
+  "9vuO4KL7PiE": {
+   "video_id": "9vuO4KL7PiE",
+   "title": "Answering Your Week 6 Fantasy Football Questions",
+   "published": "2026-10-15",
+   "source": "sal-vetri",
+   "processed": "2026-10-15"
+  },
+  "2zUMnfLh9EM": {
+   "video_id": "2zUMnfLh9EM",
+   "title": "7 Players You Need to Trade Away Before It\u2019s Too Late",
+   "published": "2026-10-15",
+   "source": "sal-vetri",
+   "processed": "2026-10-15"
+  },
+  "gt5TLPTxxv8": {
+   "video_id": "gt5TLPTxxv8",
+   "title": "Starts of the Week + Week 6 Games, Hurts Hurt! | Fantasy Football 2026 - Ep. 1989",
+   "published": "2026-10-15",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-15"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-14",
+   "last_success": "2026-10-15",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-14",
+   "last_success": "2026-10-15",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
