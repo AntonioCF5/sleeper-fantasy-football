@@ -197,6 +197,12 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-17 (corrida del viernes, terminó el sábado 10:30am)
+
+- [ ] 🔴 **Antes del candado del domingo, siguen sin hacerse:** Smack (Gallamijos Lg, ahora soltando a **Royals**, no a Mayfield, que tiene optimismo para la semana 7), Conner por Mayer, Smack por Brissett (DMX), Folk por Treadwell (Gallamijos Dyn), Booker por Bates (MEXICA), Kyler por Bell (Guillotine).
+- [ ] 🔴 **Lloyd:** Jacobs vuelve como RB1 de GB en la semana 7. Lloyd→Odunze (DYNASTY TRC) hay que mandarla ya; en DMX, venderlo antes del lunes.
+- **Proceso:** la Mac se durmió tres veces y mató al subagente de destilación (y la corrida tardó 12 horas). Esta vez se destiló en el contexto principal. Conviene envolver la tarea programada en `caffeinate -dimsu` o desactivar el reposo a esa hora.
+
 ### 2026-10-14 noche (boletín del miércoles, semana 6)
 
 - [ ] 🔴 **Gallamijos Lg:** Smack (K) ahora soltando a **Mayfield** (no practica, TB vuelve a abrir con Daniels), NO a Concepcion (pasó a Questionable, limitado; titular si libra el protocolo). Conner (DB) por Mayer sigue.
