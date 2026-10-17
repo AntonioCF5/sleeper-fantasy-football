@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-17",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -10,8 +10,8 @@
       "verdict": "claim",
       "bid": null,
       "drop": "Michael Mayer (TE, LV — backup TE now that Okonkwo was added)",
-      "why": "The DB slot is still EMPTY (sixth week). Overnight you used Roman Wilson (the planned drop) on Okonkwo, and Tre' Harris on Royals, so the Byard ruling's drop is gone. Conner (26) projects 5.8 in week 6, the top DB on the wire; Byard (33, 5.7) and Cole Bishop (23, 5.7) are fallbacks. Mayer is a redundant TE behind Okonkwo. Waivers have cleared and daily_waivers=0, so this is an instant add. | 10/15: still FA, DB slot still empty. Instant add.",
-      "date": "2026-10-15"
+      "why": "The DB slot is still EMPTY (sixth week). Overnight you used Roman Wilson (the planned drop) on Okonkwo, and Tre' Harris on Royals, so the Byard ruling's drop is gone. Conner (26) projects 5.8 in week 6, the top DB on the wire; Byard (33, 5.7) and Cole Bishop (23, 5.7) are fallbacks. Mayer is a redundant TE behind Okonkwo. Waivers have cleared and daily_waivers=0, so this is an instant add. | 10/15: still FA, DB slot still empty. Instant add. 10/16 Fri: still FA; DB slot still empty (6th straight week). Instant FA add.",
+      "date": "2026-10-17"
     },
     {
       "league_id": "1395839320077656064",
@@ -20,9 +20,9 @@
       "player_id": "13545",
       "verdict": "claim",
       "bid": null,
-      "drop": "Baker Mayfield (QB, TB, 31 — DNP Wed, thumb; Bowles is starting Jalon Daniels again)",
-      "why": "K slot still empty (Reichard on MIN bye). Smack (6.9) was dropped by jffaya 16h ago and is a free agent. DROP CHANGED 10/14 pm: Concepcion (concussion) practiced limited Wednesday and is now Questionable — he projects 9.1 and should START over Royals (2.8) if cleared, so he is not the drop. Mayfield didn't practice (thumb) and TB is starting Jalon Daniels again, so he is a dead backup behind Shough (full practice). Grupe (5.8) is the fallback K. | 10/15: still FA (waivers cleared Wed) = instant add, no claim needed. Not executed yet; K slot is still 0.0 heading into Sunday.",
-      "date": "2026-10-15"
+      "drop": "Jalen Royals (WR, KC, 23 — 33.9 RoS, weakest asset on the roster)",
+      "why": "K slot still empty (Reichard on MIN bye). Smack (6.9) was dropped by jffaya 16h ago and is a free agent. DROP CHANGED 10/14 pm: Concepcion (concussion) practiced limited Wednesday and is now Questionable — he projects 9.1 and should START over Royals (2.8) if cleared, so he is not the drop. Mayfield didn't practice (thumb) and TB is starting Jalon Daniels again, so he is a dead backup behind Shough (full practice). Grupe (5.8) is the fallback K. | 10/15: still FA (waivers cleared Wed) = instant add, no claim needed. Not executed yet; K slot is still 0.0 heading into Sunday. 10/16 Fri: still FA, Reichard on bye, K slot still EMPTY; Mayfield officially OUT Wk6 and 'uncertain for Week 7' — drop stands. Instant FA add before Sunday lock. 10/17 Sat REVISED: drop Royals, not Mayfield. Pelissero reports 'optimism' Mayfield returns Week 7 vs CAR (275 RoS proj, Shough bye cover + trade chip); Royals' Rice-role bump is one week of a WR5 in a run-first KC game plan (FF: KC runs vs LAC). Redraft churn: weakest asset goes.",
+      "date": "2026-10-17"
     },
     {
       "league_id": "1395839320077656064",
@@ -43,8 +43,8 @@
       "verdict": "claim",
       "bid": null,
       "drop": "Jake Bates (K, DET — on bye and redundant now that you added Blake Grupe)",
-      "why": "The DL slot is EMPTY again: the 08:01 Grupe add dropped Byron Young, your DL starter, and Young now sits on waivers. Booker is 4.2 in week 6, the best DL not on waivers (Young 4.9 is a claim if you want him back). No IR in this league (reserve_slots=0), so Bates is the only zero-cost drop. | 10/15: still FA, DL still empty.",
-      "date": "2026-10-15"
+      "why": "The DL slot is EMPTY again: the 08:01 Grupe add dropped Byron Young, your DL starter, and Young now sits on waivers. Booker is 4.2 in week 6, the best DL not on waivers (Young 4.9 is a claim if you want him back). No IR in this league (reserve_slots=0), so Bates is the only zero-cost drop. | 10/15: still FA, DL still empty. 10/16 Fri: still FA; DL slot still EMPTY. Instant add.",
+      "date": "2026-10-17"
     },
     {
       "league_id": "1388097370255794176",
@@ -54,8 +54,8 @@
       "verdict": "claim",
       "bid": 1,
       "drop": "Laquon Treadwell (WR, IND, age 31 — 1.9 wk6, no trade market)",
-      "why": "Bates is on the DET bye. The $1 Bass claim never went in (no transaction); Folk (9.7) and Bass (9.4) are both still free, so claim either at $1. Treadwell is the dynasty-rule drop: aging, no market. IR is full at 4/4. | 10/15: still FA; Bates still on DET bye. Instant free-agent add.",
-      "date": "2026-10-15"
+      "why": "Bates is on the DET bye. The $1 Bass claim never went in (no transaction); Folk (9.7) and Bass (9.4) are both still free, so claim either at $1. Treadwell is the dynasty-rule drop: aging, no market. IR is full at 4/4. | 10/15: still FA; Bates still on DET bye. Instant free-agent add. 10/16 Fri: still FA (trending #14 add, 89K) — K slot EMPTY with Bates on DET bye. Add now before someone else streams him.",
+      "date": "2026-10-17"
     },
     {
       "league_id": "1338269686810300416",
@@ -76,8 +76,8 @@
       "verdict": "claim",
       "bid": 0,
       "drop": "Jacoby Brissett (QB, ARI, 33 — no trade market, ESPN reports possible benching; Maye starts, Burrow back after CIN bye)",
-      "why": "Reichard is on the MIN bye; K is a weekly stream in this 12-team league. The Smith IR move that was going to open the spot is dead (he's Questionable now), so this add needs a drop. Dynasty value order: Brissett is an aging vet with no market and a benching risk — first out. Smack 9.1 is the top K on the wire; Pineiro/Santos 8.4 fallbacks. | 10/15: still FA (waivers cleared Wed) = instant add, no claim needed. Not executed yet; K slot is still 0.0 heading into Sunday.",
-      "date": "2026-10-15"
+      "why": "Reichard is on the MIN bye; K is a weekly stream in this 12-team league. The Smith IR move that was going to open the spot is dead (he's Questionable now), so this add needs a drop. Dynasty value order: Brissett is an aging vet with no market and a benching risk — first out. Smack 9.1 is the top K on the wire; Pineiro/Santos 8.4 fallbacks. | 10/15: still FA (waivers cleared Wed) = instant add, no claim needed. Not executed yet; K slot is still 0.0 heading into Sunday. 10/16 Fri: still FA; K slot EMPTY. Roster 26/26 after Shipley drop, so Brissett drop is still required.",
+      "date": "2026-10-17"
     },
     {
       "league_id": "1389689013551517698",
@@ -87,8 +87,8 @@
       "verdict": "claim",
       "bid": 0,
       "drop": "Chris Bell (WR, 22 — 0.0 projection)",
-      "why": "GaelDmz dropped Kyler for the MIN week-6 bye. Lamar didn't practice Wednesday (ankle), so Rodgers is your only healthy QB. Kyler (273 season proj, best game of the year in week 5) is the week-7+ QB1 and Lamar insurance. $37 keeps the hoard intact ($469 vs rivals' $743-993); bid more only if you want to guarantee it. Bell projects 0 and is the cheapest drop; Mayer is the alternative. | 10/15: waivers cleared Wed and Kyler is still unowned, so add him as an instant FA ($0). Lamar DNP Wed+Thu; Rodgers starts Week 6.",
-      "date": "2026-10-15"
+      "why": "GaelDmz dropped Kyler for the MIN week-6 bye. Lamar didn't practice Wednesday (ankle), so Rodgers is your only healthy QB. Kyler (273 season proj, best game of the year in week 5) is the week-7+ QB1 and Lamar insurance. $37 keeps the hoard intact ($469 vs rivals' $743-993); bid more only if you want to guarantee it. Bell projects 0 and is the cheapest drop; Mayer is the alternative. | 10/15: waivers cleared Wed and Kyler is still unowned, so add him as an instant FA ($0). Lamar DNP Wed+Thu; Rodgers starts Week 6. 10/16 Fri: Kyler still FA; Lamar officially OUT Wk6 (Huntley starts for BAL) — Rodgers starts Wk6, Kyler is Wk7+ cover. Instant add.",
+      "date": "2026-10-17"
     }
   ],
   "roster_compliance": {

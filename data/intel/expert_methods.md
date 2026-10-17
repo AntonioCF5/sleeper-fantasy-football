@@ -1621,3 +1621,7 @@ without testing it.
   bye cover before demand rises (NYJ DEF vs MIA wk 7).
 - **Two-players-in-one studs (Sal):** weekly-ceiling studs (Gibbs, Walker)
   beat 2-for-1 packages; they free a lineup slot and swing playoff weeks.
+
+### 2026-10-17 (Sal RB rankings W6 + FF Ep. 1995)
+- **Underdog-RB gate (Sal):** a non-pass-catching RB on a 7+ point underdog projects ~12 carries and needs a long run to matter — downgrade unless his backfield ROUTE share is real; in trailing scripts the route-share back (e.g. 32% vs 21%) beats the nominal starter.
+- **Mid-week signings as a tell (FF):** a team signing a WR/RB/QB mid-week (KC Justin Watson, PHI Joe Milton) signals the injured starter is out longer than the official tag implies.

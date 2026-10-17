@@ -824,19 +824,33 @@
    "published": "2026-10-15",
    "source": "fantasy-footballers",
    "processed": "2026-10-15"
+  },
+  "gN_1fZGPdkI": {
+   "video_id": "gN_1fZGPdkI",
+   "title": "My Top 50 Running Back Rankings for Week 6",
+   "published": "2026-10-16",
+   "source": "sal-vetri",
+   "processed": "2026-10-17"
+  },
+  "lcK7FW_-Bvo": {
+   "video_id": "lcK7FW_-Bvo",
+   "title": "Week 6 Matchups + Wheel of Shame | Fantasy Football 2026 - Ep. 1995",
+   "published": "2026-10-16",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-17"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-15",
+   "last_success": "2026-10-17",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-15",
+   "last_success": "2026-10-17",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
