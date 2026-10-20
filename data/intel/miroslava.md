@@ -4,7 +4,7 @@
 Dinastía. ÚNICA fuente de verdad: la tarea programada `roast-semanal-gallamijos`
 lee este archivo; todo apodo, chiste, momento o regla nueva se agrega AQUÍ en el
 mismo commit en que aparezca (regla de coherencia). Última actualización:
-2026-09-29.*
+2026-10-20.*
 
 ---
 
@@ -312,6 +312,8 @@ comparar el borrador contra la edición anterior.
 | 2026-10-13 | "Mata invictos, pero no sale del hoyo" (Pulpo) · "los Colts le hicieron compañía" (Doctor) · "2 cadáveres" (Tommy) · "La sal se quedó en familia" (Zenitsu) · Commanders 27-27 (Chapo) · "la herencia no se reparte" (Alacrán) · "asilo" (pooh/Rodgers) · "los enterró un suplente" (Cano) · "cobrando por existir" (Cousins) · "Nadie más se presentó" (Jebus) · "ni en paz" (Sukuna) · "no se oye ni el eco" (Jro91) · autopsia "ahora le toca a pooh" · limpia/exorcista (Chapo) | usados — descansar |
 | 2026-10-13 | 🚨 flash "ÚLTIMA HORA" + "espasmo post mortem" (Amarante) · Troya/talón · "no deja sobrevivientes" (La Dona) · águila o sol "le cayó sol 2 veces" (Charly) · "con él votan hasta los muertos" / "esta vez no votaron los muertos" (Bebé, hilo político) · "golpe de Estado desde su propio bando" (Salado Bebé) · Meyers "pujó $5 para resucitarlo… pagó $27 por el cadáver" · GoT "por una vez los muertos fueron los otros" (Dave) · Faraón "enterrado en pirámide" · "acta de defunción" del título · "al condenado se le concede su último deseo" (Mijo) · *Sexto sentido* (Fer) · *Bad Boys for Life* · "suerte del pendejo" · "pendejada de autor" · Faraón "su temporada va a morir abrazada a Burrow, con Maye de florista" · *The Walking Dead* "los zombis lo ven y piden para llevar" (Rorro) · "el 0-6 te llega por paquetería" (Fer) · "se sentencia el martes, y el juez soy yo" | usados — descansar. Cortados en la reescritura y LIBRES: *El lobo de Wall Street* portafolio sentado, *El día de la marmota*, "Lo que la directiva tira…", "Hasta el que manda tiene domingos", "La sal se quedó en el salero", "el martes es mío" |
 | 2026-10-13 | Casilla vacía de los Pythons (J2, J3, J5) | **descansar varias ediciones** — ya es molde |
+| 2026-10-20 | Gallamijos J6: EN EXCLUSIVA el lineup de Buz con 2 titulares de bye (Hutchinson DET, Metellus MIN) · Tesla volador (viral 16-17 oct) "Buz alineó a 2 que ni se subieron al avión" · *Cazafantasmas* "a Buz ya se le contacta por ouija" · "Zenitsu pelea mejor dormido. Este perdió despierto y de pendejo" · "el consultorio ya tiene horario de morgue" (Doctor, 2 palizas de 60+) · "Ni Sleeper entiende" (Alacrán 1º en puntos, proy 15º) · "Pooh encontró la miel" · "pide segunda opinión" (Doctor) · "Se decidió por una. Que no se acostumbre" (George, 1 defensa) · *Rul Nolan* / *Oppenheimer* "detonó al último invicto" · "el tragadagas también se traga las proyecciones" · "el pulpo ya suelta tinta" · *Better Call Penix* (Cano) · 3 Titans 14.8 vs Tre Tucker 26.7 "Domingo de la chingada, completo" · "La fe nueva sí paga" (Jebus/Bills) · commish "¿verdad, comisionado?" · "dejó el salero vacío" (Dave, casilla vacía) · "la defensa ya anota más que el quarterback" (Buz) · "0-6 ya no es racha: es identidad" (Chapo) · *Contracara* (Bebé y Rul cambian QB por agencia libre) · "Dave heredó el desecho del tío" (Smack/Boswell) · "la autopsia se la hizo pooh" | usados — descansar |
+| 2026-10-20 | Dinastía J6: EL CLIMA como apertura ("despejado y 6-0… Tormenta de 0-6… Probabilidad de que Pancho se cambie el nombre: 0%") · *3 metros sobre el cielo* (La Dona, trend IA de Hache y Babi) · *Rul Cameron* / *Titanic* "soy el rey del mundo" + iceberg 160.1 para el Salado Charly + "A Charly, un salvavidas" · *Avengers* "Los Vengadores completos. En la pinche banca" (Rorro 53.8) · paquetería "entregado, y sin acuse de recibo" (Fer, callback publicado) · *El Padrino* "una oferta que no pudo rechazar… nunca llegaron a la cena" (Bebé–Buz) · "Hasta lo que le sobra le alcanza" (La Dona, 2.3 de los 1,000) · "la sal conserva" (Dave 5-1) · "Acertó. Que alguien revise el reglamento" (Bebé) · Germie Bernard taxi→banca "Le falta un escalón, cabrón: alinearlo" · Gallagher alineó a sus Eagles con Carolina en la banca · "Un hombre de principios" (Dave sentó a Penix y Stroud por Allen) · "chubascos de mamadas" | usados — descansar |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
 pasada descansa la siguiente. El validador los lee de esta tabla, así que
@@ -319,15 +321,15 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-10-06 | humanos promedio | libre (ya descansó la edición del 10-13) |
+| 2026-10-20 | humanos promedio | usado (Gallamijos 10-20) — descansar |
 | 2026-10-06 | corazones | libre (la J5 se reescribió sin él) |
 | 2026-09-15 | mis amores | libre (la J5 se reescribió sin él) |
 | 2026-10-06 | coaches | libre (ya descansó la edición del 10-13) |
-| 2026-10-13 | bola de pendejos hermosos | usado (Gallamijos 10-13) — descansar |
+| 2026-10-13 | bola de pendejos hermosos | libre (ya descansó la edición del 10-20) |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
-| 2026-10-13 | criaturas | usado (Dinastía 10-13) — descansar |
+| 2026-10-13 | criaturas | libre (ya descansó la edición del 10-20) |
 | 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
-| 2026-10-06 | señores del fantasy | libre (ya descansó la edición del 10-13) |
+| 2026-10-20 | señores del fantasy | usado (Dinastía 10-20) — descansar |
 
 **Chistes del power ranking 2026-08-31** (todos a descansar): el doctor
 auto-recetándose el 1º · el comisionado al que nadie le aprueba nada · el que
@@ -467,6 +469,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-10-06 | Dinastía (jornada 4) | "Perdón la tardanza. Me quedé contando la banca de Buz. / Buenos días, señores del fantasy." *(usa 'llegar tarde' del banco)* |
 | 2026-10-13 | Gallamijos (jornada 5) | "✝️ *ESQUELA.* Con profundo pesar, Matasanos FC comunica el fallecimiento de su Invicto… Lo sobrevive un 4-1. / El novenario arranca el domingo, contra Los hijos de pooh. / Buenos días, bola de pendejos hermosos." *(técnica nueva: esquela; reescritura del user "más dura")* |
 | 2026-10-13 | Dinastía (jornada 5) | "🚨 *ÚLTIMA HORA:* el campeón vigente ganó un partido. / Repito: Amarante ganó… espasmo post mortem. / Buenos días, criaturas." *(técnica nueva: flash noticioso)* |
+| 2026-10-20 | Gallamijos (jornada 6) | "🕵️ *EN EXCLUSIVA:* conseguí el lineup que mandó Buz el domingo… Los 2 de bye. / Tesla presentó un carro que vuela. Buz alineó a 2 que ni se subieron al avión. / Buenos días, humanos promedio." *(usa 'en exclusiva falso' del banco)* |
+| 2026-10-20 | Dinastía (jornada 6) | "🌤️ *EL CLIMA DE LA SEMANA:* despejado y 6-0 en el penthouse de La Dona. Tormenta de 0-6 sobre Rorro y Fer. Probabilidad de que Pancho se cambie el nombre: 0%. #ReglasSonReglas / Buenos días, señores del fantasy." *(técnica nueva: pronóstico del tiempo)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -486,6 +490,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-10-06 | Gallamijos (jornada 4) | "Un beso para el Frijol, otro para el Doc y otro para el Alacrán, que van invictos. Al resto, un abrazo de lejitos. / Miroslava, que esta semana solo contó un 200" *(versión publicada, con el pase del user)* |
 | 2026-10-06 | Dinastía (jornada 4) | "Los observo desde el sideline, con tacones y libreta. / Miroslava, que llegó tarde pero con la cuenta completa" |
 | 2026-10-13 | Gallamijos (jornada 5) | "Chapo: la sal se quita con una limpia; lo tuyo ya pide exorcista. / Mi número para el Bebé, comandante del pelotón. Al Alacrán, un beso: es el último invicto con vida. / Miroslava, que ya mandó la corona de flores al consultorio" |
+| 2026-10-20 | Gallamijos (jornada 6) | "Al Alacrán, mi pésame: ya no queda un solo invicto en la liga. Un beso para Rorro, que se acordó de que es campeón. Y al resto: el bye se revisa el jueves. / Miroslava, que sí revisa quién tiene bye" |
+| 2026-10-20 | Dinastía (jornada 6) | "Pronóstico extendido: La Dona sigue soleado; para los demás, chubascos de mamadas. / Un beso a Rul, rey del mundo por una semana. A Charly, un salvavidas. / Miroslava, con el pronóstico hasta diciembre" |
 | 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
@@ -494,7 +500,7 @@ existe solo para re-revisar algo ya enviado.
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
 bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
-sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · abrir con un parte médico · abrir con una carta de lector · abrir con un 'en exclusiva' falso.*
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · abrir con un parte médico (del EQUIPO, nunca de una persona) · abrir con una carta de lector.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -717,6 +723,13 @@ cambios suyos sobre mi borrador, cada uno una regla:
   · Ojo con el editor también: propuso "el único Galla que le ganó a alguien de
     fuera fue Gallagher" y era el Bebé (Gallagher le ganó a Cano, otro Galla).
     Los conteos por bando se verifican contra BANDOS siempre.
+- 2026-10-20 · **Pase del editor a la J6**:
+  · **Un jugador de BANCA en 0 no se escribe como "en 0" a secas** (Breece Hall y Montgomery del Alacrán): se lee como titular. Titular en 0 = "titular en 0"; banca = "en la banca".
+  · **El posesivo NFL junto a un jugador de otro equipo confunde** ("Carnell Tate 19.0 y sus Saints" — Tate es Titan): nombrar al dueño ("los Saints del Frijol").
+  · **"Su mejor anotador" se verifica contra TODO el roster**, no solo el taxi (Omar Cooper 23.3 fue el 3º de Buz).
+  · **El swap de pateador cuenta**: K por K es cambio legal — Gallagher con McLaughlin ganaba por 0.5. Buscar siempre swaps de misma posición antes de decir "perdió por X".
+  · **Dos marcadores NFL idénticos en la misma nota** (26-19 dos veces, juegos distintos) se leen como copy-paste: dejar uno.
+  · **Las groserías se volvieron a caer** con la nota cargada de datos (ninguna en el primer borrador de las 2 ediciones) — reinyectadas en el pase final. Revisarlo SIEMPRE antes del lint.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
@@ -781,7 +794,7 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 12 de 16** tras la jornada 5 (9 de 12 tras la 4; 6 de 8 tras la 3)
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 14 de 20** tras la jornada 6 (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
@@ -791,8 +804,10 @@ cambios suyos sobre mi borrador, cada uno una regla:
    Amarante > Dave ✗ (con su óptimo 179.6 ganaba) → **9 de 12**.
    Jornada 5 (10-06): Frijol > Buz ✓, Gallagher > Cano ✓, Charly > La Dona ✗,
    Dave > Rorro ✓ → **12 de 16**.
-   Pendientes del 10-13 (jornada 6): Gallamijos — Alacrán > Rul, Doctor > Rorro;
-   Dinastía — Dave > el Faraón, La Dona > Fer.
+   Jornada 6 (10-13): Alacrán > Rul ✗ (Rul 129.9-121.1), Doctor > Rorro ✗ (Rorro 153.0-87.4),
+   Dave > el Faraón ✓, La Dona > Fer ✓ → **14 de 20**.
+   Pendientes del 10-20 (jornada 7): Gallamijos — Alacrán > Chapo, La Dona > Gallagher;
+   Dinastía — La Dona > el Bebé, Gallagher > Buz.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
@@ -928,7 +943,7 @@ por ti").
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre; MUY fan del Santos Laguna y sufre la situación actual del club — doble sufrimiento institucional (Falcons + Santos), carrilla renovable cada jornada |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |
-| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki ("función" del 09-15: fotografía preciosa, sin historia), Rul Cuarón (09-29, *Gravity*), Rul Tarantino (09-29) | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
+| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki ("función" del 09-15: fotografía preciosa, sin historia), Rul Cuarón (09-29, *Gravity*), Rul Tarantino (09-29); PROPUESTOS 10-20, pendientes de aprobación: Rul Nolan (*Oppenheimer*), Rul Cameron (*Titanic*) | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
 | Jebusf (TDManiacs) | Jebus | Jebus | Bills (antes Cowboys) | TRAIDOR — la conversión más conveniente de la historia |
 | davidcruz77 (King in the North en la Dinastía; **Ryomen Sukuna** en la redraft 2026 — el Rey de las Maldiciones, material permanente contra La Sal) | David Cruz | Dave, El Funko Cruz, La Sal, El Mar Muerto, El Arqui, El Delfín | Dolphins | EL MÁS SALADO de la liga (oficial); distraidísimo — no lee los grupos (por eso 'La Sal' y running gags de mensajes ocultos) |
 | hectordavid1989TRC | Héctor Ordaz | Chapo, Chapus | TBD | — |
