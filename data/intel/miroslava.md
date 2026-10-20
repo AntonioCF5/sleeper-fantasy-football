@@ -694,6 +694,13 @@ cambios suyos sobre mi borrador, cada uno una regla:
     comisionado cambiando reglas ni moviendo turbio; el Alacrán rompió el
     hielo en el grupo y se aprobó el porky en el WhatsApp.
   · Despedida: beso a los invictos (el Doc y el Alacrán) además del MVP.
+- 2026-10-20 · **Dos ordinales iguales en líneas vecinas confunden** (user): la
+  línea de los Pythons decía "13º con el 6º roster" (proyección, ya entre
+  paréntesis) y la de Tommy, justo abajo, "6º en puntos". El grupo leyó que
+  los dos iban 6º en puntos. Regla: en el ranking, cada ordinal en el texto
+  tiene que decir de qué es ("en puntos", "en la tabla", "en proyección") y
+  no repetir el mismo número con otro significado en líneas contiguas; la
+  proyección ya va entre paréntesis, no se repite en prosa.
 - 2026-10-13 · **Reescritura "sé más dura, ten más humor negro" (user)**:
   · Dosis base de humor negro recalibrada en la sección Tono.
   · **Límite fino (editor)**: la muerte se le desea al EQUIPO/invicto/título/
