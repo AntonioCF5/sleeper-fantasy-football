@@ -197,6 +197,13 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-10-20 (corrida del martes, semana 7)
+
+- [ ] 🔴 **Guillotine, ESTA NOCHE:** Gibbs está en la banca y Shakir (bye de BUF) en el FLEX: cambiarlos (+25.2). Henry **$137** soltando a Mayer. Llegar a ~$251 probablemente lo gana, y es decisión del user.
+- [ ] 🔴 **DYNASTY TRC, alineación (+17.5):** Maye por Bryce Young, Chase Brown por Pierce, Kelce por Lloyd.
+- [ ] 🔴 **Gallamijos Lg:** la casilla de TE está VACÍA y Okonkwo tiene bye. Barner va al lugar libre (16/17). **MEXICA:** Omar Cooper por Grupe (ACL). **DMX:** Spears y J. Hill por Love (OUT) y McLaughlin.
+- Lloyd→Odunze quedó MUERTA (nunca se mandó y Lloyd hizo 10 yardas). Sigue viva la de Stevenson→Jameson Williams.
+
 ### 2026-10-17 (corrida del viernes, terminó el sábado 10:30am)
 
 - [ ] 🔴 **Antes del candado del domingo, siguen sin hacerse:** Smack (Gallamijos Lg, ahora soltando a **Royals**, no a Mayfield, que tiene optimismo para la semana 7), Conner por Mayer, Smack por Brissett (DMX), Folk por Treadwell (Gallamijos Dyn), Booker por Bates (MEXICA), Kyler por Bell (Guillotine).

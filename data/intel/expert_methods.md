@@ -1625,3 +1625,9 @@ without testing it.
 ### 2026-10-17 (Sal RB rankings W6 + FF Ep. 1995)
 - **Underdog-RB gate (Sal):** a non-pass-catching RB on a 7+ point underdog projects ~12 carries and needs a long run to matter — downgrade unless his backfield ROUTE share is real; in trailing scripts the route-share back (e.g. 32% vs 21%) beats the nominal starter.
 - **Mid-week signings as a tell (FF):** a team signing a WR/RB/QB mid-week (KC Justin Watson, PHI Joe Milton) signals the injured starter is out longer than the official tag implies.
+
+### 2026-10-20 (Sal W7 waivers + W6 injury roundup, FF Ep. 1996)
+- **Bank the role, not the stat line (FF "Bank on It"):** an outlier game from a high-capital rookie on an 80%+ snap share is bankable as a ROLE even if the box score won't repeat (Omar Cooper); a spike from a boom-bust role (Tre Tucker) is not.
+- **Repeat AC-joint sprains (Sal):** playing through one invites early re-aggravation that turns a 0-week tag into multi-week absences (DJ Moore precedent, applied to Bateman/Doubs).
+- **Shadow-coverage normalization (FF):** when an elite CB shadowed a WR1, discount the WR1's dud AND the teammate's spike; next week's target tree reverts.
+- **Snap share audits RB "breakouts" (Sal):** 20 carries on 32/72 snaps in a three-way committee with a starter due back = fool's gold, ≤5% FAAB, deep leagues only (Kendre Miller).

@@ -838,19 +838,68 @@
    "published": "2026-10-16",
    "source": "fantasy-footballers",
    "processed": "2026-10-17"
+  },
+  "MtfaeBVwZY4": {
+   "video_id": "MtfaeBVwZY4",
+   "title": "This News Changes Everything (Week 6)",
+   "published": "2026-10-17",
+   "source": "sal-vetri",
+   "processed": "2026-10-20"
+  },
+  "oOhxfhrXvz8": {
+   "video_id": "oOhxfhrXvz8",
+   "title": "10 Must Add Players to Pick Up in Your Fantasy League Right Now",
+   "published": "2026-10-19",
+   "source": "sal-vetri",
+   "processed": "2026-10-20"
+  },
+  "QdA0hcf0C2g": {
+   "video_id": "QdA0hcf0C2g",
+   "title": "Mike Wright is LIVE! Week 6 Fantasy Football Start/Sit Advice + Injury News",
+   "published": "2026-10-18",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-20"
+  },
+  "4Dk3fHQQpas": {
+   "video_id": "4Dk3fHQQpas",
+   "title": "Week 6 Studs & Duds + Fantasy Outliers | Fantasy Football 2026 - Ep. 1996",
+   "published": "2026-10-19",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-20"
+  },
+  "6R-JIv4L1uo": {
+   "video_id": "6R-JIv4L1uo",
+   "title": "Jalen Hurts is out for the remainder of the NFL season \ud83d\ude14",
+   "published": "2026-10-19",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-20"
+  },
+  "9VxAMMRJ6NA": {
+   "video_id": "9VxAMMRJ6NA",
+   "title": "Omar Cooper Jr. had a BREAKOUT performance in Week 6 \ud83d\udd25",
+   "published": "2026-10-19",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-20"
+  },
+  "UMPDvfsQdDs": {
+   "video_id": "UMPDvfsQdDs",
+   "title": "Andy's Hole In One Golf Challenge with The Fantasy Footballers",
+   "published": "2026-10-17",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-20"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-17",
+   "last_success": "2026-10-20",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-17",
+   "last_success": "2026-10-20",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
