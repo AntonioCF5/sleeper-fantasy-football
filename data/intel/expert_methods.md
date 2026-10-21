@@ -1631,3 +1631,9 @@ without testing it.
 - **Repeat AC-joint sprains (Sal):** playing through one invites early re-aggravation that turns a 0-week tag into multi-week absences (DJ Moore precedent, applied to Bateman/Doubs).
 - **Shadow-coverage normalization (FF):** when an elite CB shadowed a WR1, discount the WR1's dud AND the teammate's spike; next week's target tree reverts.
 - **Snap share audits RB "breakouts" (Sal):** 20 carries on 32/72 snaps in a three-way committee with a starter due back = fool's gold, ≤5% FAAB, deep leagues only (Kendre Miller).
+
+### 2026-10-20 pm (Sal "5 players I'm panicking about" + FF Ep. 1997 Week-7 waivers)
+- **Size FAAB to the LOCKED role, not the box score (FF):** a rookie WR spike is worth a hard bid only when the role is pinned by a teammate's IR stint (Germie Bernard with Roman Wilson on IR); spikes from overtime volume or a temporarily absent vet get diluted on the vet's return (Omar Cooper with Mitchell/Sadiq returning).
+- **Expiring-value RBs ~10% FAAB max (FF):** one-week fill-ins whose value dies when the starter returns (Kendre Miller, Roschon Johnson) — prefer adds whose value doesn't need another injury.
+- **Split a returning-backup's usage over the full game, not one half (Sal):** trailing pass-heavy scripts distort RB carry shares (Warren 74% snaps vs Dowdle's first-half spike).
+- **DEF streams chase sacks/turnovers, not low totals (FF):** stream against sack/INT-prone QBs even if that offense can score (contrarian TEN vs CLE).

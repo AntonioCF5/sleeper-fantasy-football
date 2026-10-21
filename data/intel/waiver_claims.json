@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-20",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -44,6 +44,39 @@
       "bid": null,
       "drop": "LAR DEF (2nd DEF)",
       "why": "Sal's preferred WR add this week: with Lamar back and Bateman (AC joint) hurt, Lane (22) can be BAL's No. 2 and red-zone target. Optional because Barner takes the open slot and the LAR DEF is your two-week-ahead streaming spare; PIT DEF starts week 7.",
+      "date": "2026-10-20"
+    },
+    {
+      "league_id": "1388097370255794176",
+      "league": "Gallamijos Dynasty",
+      "player": "Tennessee Titans DEF (TEN)",
+      "player_id": "TEN",
+      "verdict": "claim",
+      "bid": 0,
+      "drop": "BUF DEF (bye wk7, 0.0)",
+      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 8.2 under league scoring vs your IND 6.0 (+2.2); BUF is on bye and is the drop. Roster 23/23 read live 10/20 → drop required. Re-stream next week.",
+      "date": "2026-10-20"
+    },
+    {
+      "league_id": "1338269686810300416",
+      "league": "Dynasty Mexica",
+      "player": "Tennessee Titans DEF (TEN)",
+      "player_id": "TEN",
+      "verdict": "claim",
+      "bid": 0,
+      "drop": "CIN DEF (5.7)",
+      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 8.2 vs your starting LAR 6.8 (+1.4) and CIN 5.7; roster 26/26 read live 10/20 → CIN is the drop (worst DEF, no carry value). Start TEN over LAR.",
+      "date": "2026-10-20"
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Tennessee Titans DEF (TEN)",
+      "player_id": "TEN",
+      "verdict": "claim",
+      "bid": 0,
+      "drop": "PHI DEF (8.1)",
+      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 10.1 vs IND 8.2 / PHI 8.1 (+1.9 over the better one); roster 25/25 read live 10/20 → PHI DEF is the drop (lost Hurts' ball-control offense; IND carries next week). Start TEN.",
       "date": "2026-10-20"
     }
   ],
