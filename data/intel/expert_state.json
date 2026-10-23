@@ -915,19 +915,75 @@
    "published": "2026-10-20",
    "source": "fantasy-footballers",
    "processed": "2026-10-20"
+  },
+  "XzgiUKZB5Vo": {
+   "video_id": "XzgiUKZB5Vo",
+   "title": "7 Players About to GO NUCLEAR in Fantasy (Trade For Them Now)",
+   "published": "2026-10-21",
+   "source": "sal-vetri",
+   "processed": "2026-10-21"
+  },
+  "q5PNtPxq7S8": {
+   "video_id": "q5PNtPxq7S8",
+   "title": "Jacobs, Confidence Levels + Mailbag! | Fantasy Football 2026 - Ep. 1998",
+   "published": "2026-10-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-21"
+  },
+  "I7q0cLG0Qnw": {
+   "video_id": "I7q0cLG0Qnw",
+   "title": "Where does Josh Jacobs rank among RBs for the rest of the season?",
+   "published": "2026-10-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-21"
+  },
+  "qT0XFc-ojVk": {
+   "video_id": "qT0XFc-ojVk",
+   "title": "How Andy's Hole-In-One Challenge started \ud83d\udc40 \ud83d\udcaa",
+   "published": "2026-10-21",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-21"
+  },
+  "iuR5wXawx1U": {
+   "video_id": "iuR5wXawx1U",
+   "title": "Answering Your Week 7 Fantasy Football Questions",
+   "published": "2026-10-22",
+   "source": "sal-vetri",
+   "processed": "2026-10-23"
+  },
+  "RWMuTkTZGqQ": {
+   "video_id": "RWMuTkTZGqQ",
+   "title": "5 Players You Need to Trade Away Before It\u2019s Too Late",
+   "published": "2026-10-22",
+   "source": "sal-vetri",
+   "processed": "2026-10-23"
+  },
+  "NnyVId2QqHc": {
+   "video_id": "NnyVId2QqHc",
+   "title": "Is Bucky Irving bouncing back this week?",
+   "published": "2026-10-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-23"
+  },
+  "O2Nxq2GVx9U": {
+   "video_id": "O2Nxq2GVx9U",
+   "title": "Starts of the Week + Week 7 Games, Lamar Watch! | Fantasy Football 2026 - Ep. 1999",
+   "published": "2026-10-22",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-23"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-20",
+   "last_success": "2026-10-23",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-20",
+   "last_success": "2026-10-23",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0

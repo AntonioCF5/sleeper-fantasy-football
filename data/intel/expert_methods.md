@@ -1637,3 +1637,12 @@ without testing it.
 - **Expiring-value RBs ~10% FAAB max (FF):** one-week fill-ins whose value dies when the starter returns (Kendre Miller, Roschon Johnson) — prefer adds whose value doesn't need another injury.
 - **Split a returning-backup's usage over the full game, not one half (Sal):** trailing pass-heavy scripts distort RB carry shares (Warren 74% snaps vs Dowdle's first-half spike).
 - **DEF streams chase sacks/turnovers, not low totals (FF):** stream against sack/INT-prone QBs even if that offense can score (contrarian TEN vs CLE).
+
+### 2026-10-23 (Sal W7 Q&A + "5 players to trade away", FF Ep. 1999)
+- **Concussion base rate (Sal):** only ~40% or fewer play the week after a concussion. Two DNPs by Thursday = plan him out. A mid-practice soft-tissue exit (calf) usually means sitting that week; a confirmed strain means ~2 games.
+- **Decompose RB points (Sal):** if more than half of an RB's PPG comes from receiving and his rushing efficiency is bottom-tier, his RB1 price is fragile. The passing role alone doesn't hold up a top-15 price (RJ Harvey).
+- **Volume quality vs volume (Sal):** a target spike built on overtime and WR screens doesn't carry forward. Check YPRR and aDOT before buying (Metcalf).
+- **Early-lock elimination rule (Sal):** in survival/guillotine formats, start the certain early-game player over a higher-projected one whose status won't be known until after the early game locks, when the gap is small.
+- **Points-allowed ranks are script artifacts (FF):** slow, bad teams (MIA) allow few WR points because opponents don't need to pass. Discount those matchup ranks.
+- **Designed targets at TE (FF):** screens and option routes are sticky TE usage. A TE with many designed targets and few TDs is a TD-regression buy (Kraft).
+- **Scheme changes land after byes (Sal):** hold a struggling high-pedigree player through his bye before cutting him. Play-caller swaps cluster there.

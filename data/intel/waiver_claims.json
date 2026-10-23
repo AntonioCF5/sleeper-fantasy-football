@@ -1,93 +1,36 @@
 {
-  "updated": "2026-10-20",
-  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
-  "claims": [
-    {
-      "league_id": "1395839320077656064",
-      "league": "Gallamijos League",
-      "player": "AJ Barner (TE, SEA)",
-      "player_id": "11603",
-      "verdict": "claim",
-      "bid": null,
-      "drop": null,
-      "why": "TE slot shows EMPTY in the saved lineup and Okonkwo (your only TE) is on the WAS bye in week 7 (0.0 projected). Roster is 16/17 (read live 10/20: you dropped Mayer 10/18 and Grupe tonight), so this claim needs NO drop. Barner (24) was dropped by canogutierrez 10/18 and carries the best rest-of-season TE projection on the wire (142 vs Otton 122, Mayer 81) and 7.4 for week 7. Fallback: Cade Otton (TB, 7.5 wk7). Waivers are priority (type 1), clear Wednesday. Keep Okonkwo: 114 RoS, starter after the bye. The old Conner/Smack/Davis-Gaither rulings are retired: DB (Bishop) and LB (Luvu) are filled and Smack went to davidcruz77.",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1385473470141313024",
-      "league": "FANTASY MEXICA",
-      "player": "Omar Cooper Jr. (WR, NYJ)",
-      "player_id": "13276",
-      "verdict": "claim",
-      "bid": null,
-      "drop": "Blake Grupe (K, LAR — torn ACL, out for the season; MEXICA has reserve_slots=0)",
-      "why": "Grupe tore his ACL (Sleeper wire 10/19) and MEXICA has no IR, so he is a dead roster spot; Bates is your K. Cooper is the #1 add in the country (2.2M adds) after his week-6 breakout and is still unrostered here: 8.2 wk7, 104.6 RoS under MEXICA scoring, 22 years old (keeper value). Priority waivers (type 1) — at 5-1 you are likely low priority, so the fallback matters: Konata Mumpfield (LAR WR, 23, next up if Davante Adams' non-contact leg injury costs time) for the same Grupe slot. NOT Tyrone Tracy: both sources fade the four-way Giants backfield (10/19). The old Booker DL ruling is retired (DL is filled by Rashan Gary).",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1389689013551517698",
-      "league": "Guillotine TRC",
-      "player": "Derrick Henry (RB, BAL)",
-      "player_id": "3198",
-      "verdict": "claim",
-      "bid": 137,
-      "drop": "Michael Mayer (TE, LV — TE2 behind Likely, never starts)",
-      "why": "anibalr248 was chopped; his roster hit the wire 10/20 (Henry, Purdy, Love, Andrews, Goedert, Hampton, Concepcion). Henry projects 17.7 in week 7 and slots into your FLEX over Marks (11.2): about +6.5/week. You have $469; rivals hold $225-887 (edycastrofd 887, men2a07 825). Observed market: Taylor $531 (you), Bijan $623, Daniels $36, recent role adds $0-23. You are 2nd in season points (698), so chop risk is low and Sal's hoard-for-the-final-rounds rule applies: $137 is a value bid, not all-in. Winning likely takes $250+, and going there is your call. Kyler Murray ruling RETIRED: Lamar could practice this week and the QB wire is flooded (Kyler, Love, Purdy, Nix all FA), so a QB costs $0 later if Lamar sits. Drop changed from Marvin Harrison to Mayer: Sal (10/19) expects Harrison to inherit the HOU No. 2 WR role, and Likely is locked at TE (FF: season TE1). Separately and more important: start Gibbs over Shakir (BUF bye) — +25.2.",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1395839320077656064",
-      "league": "Gallamijos League",
-      "player": "Ja'Kobi Lane (WR, BAL)",
-      "player_id": "13293",
-      "verdict": "optional",
-      "bid": null,
-      "drop": "LAR DEF (2nd DEF)",
-      "why": "Sal's preferred WR add this week: with Lamar back and Bateman (AC joint) hurt, Lane (22) can be BAL's No. 2 and red-zone target. Optional because Barner takes the open slot and the LAR DEF is your two-week-ahead streaming spare; PIT DEF starts week 7.",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1388097370255794176",
-      "league": "Gallamijos Dynasty",
-      "player": "Tennessee Titans DEF (TEN)",
-      "player_id": "TEN",
-      "verdict": "claim",
-      "bid": 0,
-      "drop": "BUF DEF (bye wk7, 0.0)",
-      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 8.2 under league scoring vs your IND 6.0 (+2.2); BUF is on bye and is the drop. Roster 23/23 read live 10/20 → drop required. Re-stream next week.",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1338269686810300416",
-      "league": "Dynasty Mexica",
-      "player": "Tennessee Titans DEF (TEN)",
-      "player_id": "TEN",
-      "verdict": "claim",
-      "bid": 0,
-      "drop": "CIN DEF (5.7)",
-      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 8.2 vs your starting LAR 6.8 (+1.4) and CIN 5.7; roster 26/26 read live 10/20 → CIN is the drop (worst DEF, no carry value). Start TEN over LAR.",
-      "date": "2026-10-20"
-    },
-    {
-      "league_id": "1315407698006646784",
-      "league": "DYNASTY TRC",
-      "player": "Tennessee Titans DEF (TEN)",
-      "player_id": "TEN",
-      "verdict": "claim",
-      "bid": 0,
-      "drop": "PHI DEF (8.1)",
-      "why": "Weekly DEF stream (≤12-team league rule, $0-1 ladder). Week 7 CLE at TEN: FF Ep.1997 names TEN the contrarian stream (2% rostered) — DEF points come from sacks/turnovers and CLE's QB play is sack/INT-prone; projects 10.1 vs IND 8.2 / PHI 8.1 (+1.9 over the better one); roster 25/25 read live 10/20 → PHI DEF is the drop (lost Hurts' ball-control offense; IND carries next week). Start TEN.",
-      "date": "2026-10-20"
-    }
-  ],
-  "roster_compliance": {
-    "read_live": "2026-10-20",
-    "Gallamijos League": "16/17 active (open slot), IR 0/2. TE slot EMPTY in saved lineup; Okonkwo on WAS bye wk7. Mayfield Out (thumb), practicing Wed.",
-    "Gallamijos Dynasty": "23/23 active, IR 4/4 (Montgomery, J. Coleman, Stribling, Iosivas), taxi 6/6. Folk added (executed). McConkey Out (concussion).",
-    "FANTASY MEXICA": "19/19, reserve_slots=0. Grupe (K) torn ACL — dead slot. DL filled (Rashan Gary).",
-    "Dynasty Mexica": "26/26 active, IR 3/4, taxi 4/4. Bass added (BUF bye wk7); Reichard starts. Love Out in the lineup.",
-    "League of Record": "28/28 active, IR 4/8, taxi 8/8. JCM moved to IR. Omar Cooper on taxi.",
-    "Guillotine TRC": "14/14, $469 left. Gibbs benched behind Shakir (BUF bye).",
-    "DYNASTY TRC": "25/25 active, IR 4/4, taxi 5/5. Jordan Mason (IR-tagged, ready to practice) and Roman Wilson on bench; IR full."
+ "updated": "2026-10-23",
+ "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+ "claims": [
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Xavier Watts (DB, ATL)",
+   "player_id": "12591",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Marvin Harrison Jr. (WR, HOU — benched, 4.2 proj)",
+   "why": "Read live 10/23: the DB starting slot is EMPTY (0 pts locked in) and the roster is 17/17 with IR 0/2 but nobody IR-eligible, so the add needs a drop. Lineup fix, not an IDP strategy call: Watts is the top free DB projection (5.7) on a Sunday team. Drop MHJ: 4.2 projected, lowest target share in a HOU room that just got Tank Dell back, redraft league, and never a starter for you. Any healthy starting DB works if Watts is gone (Starks, Reed, J. Love)."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "Jordan Mason (RB, MIN)",
+   "player_id": "8408",
+   "verdict": "protected-hold",
+   "bid": null,
+   "drop": null,
+   "why": "Full practices Wed+Thu (thumb); expected to return Sunday after 4 games on IR. He already sits on the active bench (25/25), so no roster move is needed. Projects 9.6 — first in line for the FLEX if Kelce (ankle, limited) sits. His return also caps Aaron Jones (your RB in Gallamijos Dyn and MEXICA)."
   }
+ ],
+ "roster_compliance": {
+  "read_live": "2026-10-23",
+  "Gallamijos League": "17/17 active, IR 0/2. DB slot EMPTY (fix: Watts for MHJ). TE slot filled by Mayer. Swift already played (19.0). Egbuka DNP Wed/Thu (concussion).",
+  "Gallamijos Dynasty": "23/23, IR 4/4 (McConkey, Coleman, Stribling, Iosivas), taxi 6/6. TEN DEF claimed (executed). Montgomery out Sunday.",
+  "FANTASY MEXICA": "19/19, reserve_slots=0. Grupe gone; Watt added for Royals (executed). Cooper went to another team.",
+  "Dynasty Mexica": "26/26, IR 3/4, taxi 4/4. TEN claim lost (Juliosg). LAR DEF stays. Maye 27.4 and Loveland 16.4 locked in.",
+  "League of Record": "28/28, IR 4/8, taxi 8/8.",
+  "Guillotine TRC": "14/14, $469. Henry went to edycastrofd; Lane claim failed; Malik Washington added for Shakir; Mumpfield for Bourne.",
+  "DYNASTY TRC": "25/25, IR 4/4, taxi 5/5. TEN DEF claimed (executed); PHI DEF still rostered. Mason on the active bench. Burrow started over Maye in week 7 (Maye scored 30.6 on the bench)."
+ }
 }
