@@ -1646,3 +1646,11 @@ without testing it.
 - **Points-allowed ranks are script artifacts (FF):** slow, bad teams (MIA) allow few WR points because opponents don't need to pass. Discount those matchup ranks.
 - **Designed targets at TE (FF):** screens and option routes are sticky TE usage. A TE with many designed targets and few TDs is a TD-regression buy (Kraft).
 - **Scheme changes land after byes (Sal):** hold a struggling high-pedigree player through his bye before cutting him. Play-caller swaps cluster there.
+
+## 2026-10-23 pm (Sal RB tiers wk7, FF Ep. 2000)
+
+- **Close-script usage split [Sal]:** when a timeshare back's big share came while his team trailed by several scores, re-measure the split from the stretch when the game was close (first half, halftime opportunities) and weight it by this week's spread. A favorite will see the close-game split. Example: Warren vs Dowdle.
+- **Return-type ramp rule [Sal]:** non-injury returns (suspension, exempt list, holdout) mean an immediate full role. Injury returns (ACL, PUP) mean a ramp of 2+ weeks, even with full practices. The practice tag is the same, but the projections go opposite ways (Jacobs vs Charbonnet).
+- **High-ankle post-return discount [FF]:** production stays below baseline for about 3 weeks after a high-ankle return. Keep the dip in the projection for weeks 1-3 back.
+- **Questionable-WR1 contagion for the QB [FF]:** when a pocket QB's WR1 carries a soft-tissue tag and WR2 is already out, price in the WR1 re-aggravating it mid-game. Bench the QB and bump the TE (Stafford, Puka, Higbee).
+- **Implied-total tiebreak [FF]:** between two similar RBs, prefer the one on a team implied for 25+ points, because rushing-TD odds scale with team total.

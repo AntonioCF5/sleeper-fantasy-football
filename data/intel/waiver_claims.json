@@ -20,15 +20,35 @@
    "verdict": "protected-hold",
    "bid": null,
    "drop": null,
-   "why": "Full practices Wed+Thu (thumb); expected to return Sunday after 4 games on IR. He already sits on the active bench (25/25), so no roster move is needed. Projects 9.6 — first in line for the FLEX if Kelce (ankle, limited) sits. His return also caps Aaron Jones (your RB in Gallamijos Dyn and MEXICA)."
+   "why": "Fri 10/23: full practices all week (thumb), O'Connell lists him Questionable to come off IR Sunday vs IND. He sits on the active bench (25/25), so no roster move is needed. Kelce has NO designation, so Kelce takes the FLEX over Pierce and Mason is the bench fallback. His return caps Aaron Jones (Gallamijos Dyn, MEXICA) volume."
+  },
+  {
+   "league_id": "1338269686810300416",
+   "league": "Dynasty Mexica",
+   "player": "Jeremiyah Love (RB, ARI)",
+   "player_id": "13287",
+   "verdict": "move-to-IR",
+   "bid": null,
+   "drop": null,
+   "why": "Read live 10/23 pm: Love is officially OUT week 7 (ankle, LaFleur Friday). DMX IR is 3/4 with reserve_allow_out=1, and the roster is 26/26 active. Moving him to IR opens a bench spot for free — no drop, no asset cost. Use the spot for the week-8 DEF/K stream."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "league": "Gallamijos Dynasty",
+   "player": "Jonah Coleman (RB, DEN)",
+   "player_id": "13345",
+   "verdict": "contingent-IR-swap",
+   "bid": null,
+   "drop": null,
+   "why": "Coleman (ankle) practiced fully all week and is Questionable to come off IR Sunday at ARI. If DEN activates him (Saturday), Sleeper flags him as IR-ineligible, and an illegal IR blocks every transaction. Fix with zero drops: move Coleman to the bench and put Montgomery (OUT, groin; reserve_allow_out=1) into the freed IR slot. Active count stays 23/23. Bench Coleman week 7 (behind Harvey; first game back)."
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-23",
+  "read_live": "2026-10-23 pm",
   "Gallamijos League": "17/17 active, IR 0/2. DB slot EMPTY (fix: Watts for MHJ). TE slot filled by Mayer. Swift already played (19.0). Egbuka DNP Wed/Thu (concussion).",
-  "Gallamijos Dynasty": "23/23, IR 4/4 (McConkey, Coleman, Stribling, Iosivas), taxi 6/6. TEN DEF claimed (executed). Montgomery out Sunday.",
+  "Gallamijos Dynasty": "23/23, IR 4/4 (McConkey, Coleman, Stribling, Iosivas), taxi 6/6. If Coleman is activated: Coleman to bench, Montgomery (Out) to IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0. Grupe gone; Watt added for Royals (executed). Cooper went to another team.",
-  "Dynasty Mexica": "26/26, IR 3/4, taxi 4/4. TEN claim lost (Juliosg). LAR DEF stays. Maye 27.4 and Loveland 16.4 locked in.",
+  "Dynasty Mexica": "26/26, IR 3/4, taxi 4/4. Love OUT -> IR (free spot). DeVonta Smith DNP Fri -> bench for Malik Washington.",
   "League of Record": "28/28, IR 4/8, taxi 8/8.",
   "Guillotine TRC": "14/14, $469. Henry went to edycastrofd; Lane claim failed; Malik Washington added for Shakir; Mumpfield for Bourne.",
   "DYNASTY TRC": "25/25, IR 4/4, taxi 5/5. TEN DEF claimed (executed); PHI DEF still rostered. Mason on the active bench. Burrow started over Maye in week 7 (Maye scored 30.6 on the bench)."
