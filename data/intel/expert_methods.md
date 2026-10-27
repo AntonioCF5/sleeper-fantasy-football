@@ -1654,3 +1654,10 @@ without testing it.
 - **High-ankle post-return discount [FF]:** production stays below baseline for about 3 weeks after a high-ankle return. Keep the dip in the projection for weeks 1-3 back.
 - **Questionable-WR1 contagion for the QB [FF]:** when a pocket QB's WR1 carries a soft-tissue tag and WR2 is already out, price in the WR1 re-aggravating it mid-game. Bench the QB and bump the TE (Stafford, Puka, Higbee).
 - **Implied-total tiebreak [FF]:** between two similar RBs, prefer the one on a team implied for 25+ points, because rushing-TD odds scale with team total.
+- **Late-week practice injury timing [Sal]:** a player hurt in a Thursday/Friday practice almost always misses that game and often the next. Weigh when in the week the injury happened, not just the status tag.
+- **Leads-in-first-game-back = coach trust [Sal]:** a rookie who LEADS a backfield in his first game off IR, ahead of established vets (Coleman 50% snaps over Dobbins/Harvey), is a practice-evidence tell. Buy before the usage grows.
+- **Trade-rumor handcuff stash [Sal]:** when a star RB is being shopped before the deadline, stash the sole backup whose carries spiked (McGowan 11 carries). That spike is often the audition.
+- **Rookie-WR back-to-back base rate [Sal via Barrett]:** a rookie WR with back-to-back games of 5+ catches, 100+ yards and a TD has historically become a future WR1 almost every time. Treat it as a hold/buy trigger in dynasty.
+- **Squeaky-wheel penalty [FF]:** in 2026, players who publicly complained about touches (LaPorta, Kyren, G. Wilson) got LESS usage afterward. Don't buy a complaint-driven bounce-back.
+- **Target-share monopoly dependency [FF]:** an alpha WR on a bad offense loses his volume edge once a competent second option arrives (Nico Collins under 20% after the Harrison trade). Re-measure target share before vs after the acquisition.
+- **Bye-week flex: WR over RB at the margins [Sal]:** in PPR, the RB27-30 tier projects about 8 points while the WR35-36 tier projects double digits. Prefer the WR in the flex.

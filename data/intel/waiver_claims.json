@@ -1,56 +1,96 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Xavier Watts (DB, ATL)",
-   "player_id": "12591",
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Hunter Henry (TE, NE)",
+   "player_id": "3214",
    "verdict": "claim",
-   "bid": null,
-   "drop": "Marvin Harrison Jr. (WR, HOU — benched, 4.2 proj)",
-   "why": "Read live 10/23: the DB starting slot is EMPTY (0 pts locked in) and the roster is 17/17 with IR 0/2 but nobody IR-eligible, so the add needs a drop. Lineup fix, not an IDP strategy call: Watts is the top free DB projection (5.7) on a Sunday team. Drop MHJ: 4.2 projected, lowest target share in a HOU room that just got Tank Dell back, redraft league, and never a starter for you. Any healthy starting DB works if Watts is gone (Starks, Reed, J. Love)."
+   "bid": 5,
+   "drop": "Konata Mumpfield (WR, LAR, 24 — S42, 4.4 w8)",
+   "why": "Read live 10/26: Isaiah Likely (NYG) is the ONLY TE on a 14/14 roster and NYG is on bye week 8, so the TE slot scores 0 without an add. Henry is a free agent now (9.6 w8 proj, S154). This league's TE market clears at $0-4 (Higbee $4, Andrews $2, Strange $2 in weeks 6-7), so $5 wins it. Mumpfield is the lowest-ROS non-protected player. Fallback if Henry is lost: Brenton Strange (JAX, 10.6 w8) once the chopped roster's players hit the wire."
   },
   {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Jordan Mason (RB, MIN)",
-   "player_id": "8408",
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Kyren Williams (RB, LAR — from the chopped roster)",
+   "player_id": "8150",
+   "verdict": "claim",
+   "bid": 177,
+   "drop": "Mike Washington Jr. (RB, LV, 23 — S98, 5.7 w8, a Jeanty backup)",
+   "why": "You survived week 7 by 0.68 (75.48 vs 74.80 for roster 5; neither has MNF players). The chopped team's players (Kyren, Kyler Murray, James Cook, Odunze, Strange) hit the wire next. Kyren projects 19.6 in week 8 vs Malik Washington's 9.2 in FLEX, about +10 for a lineup that was 2nd-lowest. The haircut: he splits with Corum (17 vs 16 carries in week 7), and FF notes LAR gave Corum the opening drive after Kyren complained about touches, so this is not Henry money ($433). Five rivals have more FAAB (723/681/652/610/530 vs your $469). $177 (38%) is a real bid without draining the war chest for the next eight chops. If you lose him, don't chase: Cook at the same price is the alternative."
+  },
+  {
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Seth McGowan (RB, IND)",
+   "player_id": "13424",
    "verdict": "protected-hold",
    "bid": null,
    "drop": null,
-   "why": "Fri 10/23: full practices all week (thumb), O'Connell lists him Questionable to come off IR Sunday vs IND. He sits on the active bench (25/25), so no roster move is needed. Kelce has NO designation, so Kelce takes the FLEX over Pierce and Mason is the bench fallback. His return caps Aaron Jones (Gallamijos Dyn, MEXICA) volume."
+   "why": "Clean handcuff (dc2 behind Taylor). Rapoport-level JT trade smoke (MIN/SEA/DEN/NE, a 2027 1st); Sal stashes him after a season-high 11 carries. Guillotine's every-spot-produces rule makes him the first cut once JT's status resolves at the deadline, but not before."
   },
   {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "Jeremiyah Love (RB, ARI)",
-   "player_id": "13287",
-   "verdict": "move-to-IR",
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "AJ Barner (TE, SEA)",
+   "player_id": "11603",
+   "verdict": "claim",
    "bid": null,
-   "drop": null,
-   "why": "Read live 10/23 pm: Love is officially OUT week 7 (ankle, LaFleur Friday). DMX IR is 3/4 with reserve_allow_out=1, and the roster is 26/26 active. Moving him to IR opens a bench spot for free — no drop, no asset cost. Use the spot for the week-8 DEF/K stream."
+   "drop": "Michael Mayer (TE, LV)",
+   "why": "Barner was dropped 30h ago and is on waivers (priority by standings, wt=1). He's SEA's TE1 (4-42 on 5 targets SNF), 8.4 w8 vs Mayer 7.4, and ROS 142 vs 81. A straight TE upgrade with no roster cost. The roster is 17/17 and nobody is IR-eligible (allow_out=0), hence the 1-for-1."
   },
   {
    "league_id": "1388097370255794176",
    "league": "Gallamijos Dynasty",
+   "player": "WAS DEF",
+   "player_id": "WAS",
+   "verdict": "stream",
+   "bid": 0,
+   "drop": "Laquon Treadwell (WR, IND, 31 — ROS 0, no market)",
+   "why": "12-team league, so stream: WAS 8.2 w8 vs BUF 6.4. Treadwell is the aging no-market vet at the top of the dynasty drop order. The roster is 23/23."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "CIN DEF",
+   "player_id": "CIN",
+   "verdict": "stream",
+   "bid": 0,
+   "drop": "TEN DEF",
+   "why": "CIN 12.4 w8 is the best DEF available, vs PHI 8.1 starting and TEN 6.0 benched. Swap DEFs; it costs no player asset. Then start CIN."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
    "player": "Jonah Coleman (RB, DEN)",
    "player_id": "13345",
-   "verdict": "contingent-IR-swap",
+   "verdict": "protected-hold",
    "bid": null,
    "drop": null,
-   "why": "Coleman (ankle) practiced fully all week and is Questionable to come off IR Sunday at ARI. If DEN activates him (Saturday), Sleeper flags him as IR-ineligible, and an illegal IR blocks every transaction. Fix with zero drops: move Coleman to the bench and put Montgomery (OUT, groin; reserve_allow_out=1) into the freed IR slot. Active count stays 23/23. Bench Coleman week 7 (behind Harvey; first game back)."
+   "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Terry McLaurin (WR, WAS)",
+   "player_id": "5927",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-23 pm",
-  "Gallamijos League": "17/17 active, IR 0/2. DB slot EMPTY (fix: Watts for MHJ). TE slot filled by Mayer. Swift already played (19.0). Egbuka DNP Wed/Thu (concussion).",
-  "Gallamijos Dynasty": "23/23, IR 4/4 (McConkey, Coleman, Stribling, Iosivas), taxi 6/6. If Coleman is activated: Coleman to bench, Montgomery (Out) to IR.",
-  "FANTASY MEXICA": "19/19, reserve_slots=0. Grupe gone; Watt added for Royals (executed). Cooper went to another team.",
-  "Dynasty Mexica": "26/26, IR 3/4, taxi 4/4. Love OUT -> IR (free spot). DeVonta Smith DNP Fri -> bench for Malik Washington.",
-  "League of Record": "28/28, IR 4/8, taxi 8/8.",
-  "Guillotine TRC": "14/14, $469. Henry went to edycastrofd; Lane claim failed; Malik Washington added for Shakir; Mumpfield for Bourne.",
-  "DYNASTY TRC": "25/25, IR 4/4, taxi 5/5. TEN DEF claimed (executed); PHI DEF still rostered. Mason on the active bench. Burrow started over Maye in week 7 (Maye scored 30.6 on the bench)."
+  "read_live": "2026-10-26",
+  "Gallamijos League": "17/17 active, IR 0/2 (allow_out=0, so Egbuka is not IR-eligible). IDP slots filled (Watt/Carter/Stukes). Every add is 1-for-1.",
+  "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
+  "FANTASY MEXICA": "19/19, reserve_slots=0.",
+  "Dynasty Mexica": "26/26, IR 4/4 (Love on IR). Spears and Smith are Out on the active bench, with IR full.",
+  "League of Record": "28/28 active, IR 4/8 but allow_out=0, so Donaldson (Out) is not IR-eligible. Taxi 8/8.",
+  "Guillotine TRC": "14/14, no IR. Survived week 7 at 75.48 vs 74.80. TE hole in week 8 (Likely, NYG bye).",
+  "DYNASTY TRC": "25/25, IR 4/4, taxi 5/5. B. Robinson (Out) on the active bench."
  }
 }
