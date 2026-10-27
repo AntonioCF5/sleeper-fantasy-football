@@ -286,7 +286,7 @@ def league_facts(lg_cfg, season, week, players):
             optimo = sum(v for _, _, v in mejor)
             perdido = optimo - (m.get("points") or 0)
             if perdido > 0.05:
-                entrarian = [(v, pid) for _, pid, v in mejor if pid not in st]
+                entrarian = [(v, pid) for _, pid, v in mejor if pid and pid not in st]
                 entrarian.sort(reverse=True)
                 lines.append(f"- RECUPERABLE (lineup óptimo {optimo:.1f} − real "
                              f"{m.get('points', 0):.1f}): **{perdido:.1f}**"
