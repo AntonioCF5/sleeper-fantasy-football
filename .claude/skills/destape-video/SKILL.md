@@ -70,6 +70,43 @@ N segundos") que corriges en el JSON y remontas.
 **7 · Entrega**: SendUserFile del mp4 (el user lo manda al grupo — nunca
 envío directo) + commit de escaleta/guion. El video final está gitignored.
 
+
+## Flujo Artlist MCP (2026-10-27 — el que se usa ahora; reemplaza Artlist web + HeyGen)
+
+Probado de punta a punta con "Miroslava responde a La Dona". Todo desde el
+conector Artlist (plan AI Suite, créditos mensuales; renueva el 9 de cada mes).
+
+1. **Voz** — `generate_voiceover`, modelo **ElevenLabs Eleven v3**, voz
+   **Norah** (única femenina con acento *Latin American*; el user exige voz
+   sudamericana), `language: Spanish`, `accent: Latin American`,
+   `voice_stability: 0.3`. Etiquetas v3 en el texto ([mischievously]
+   [sarcastic] [whispers] [sighs] [laughs]); números en letra. ~90-150
+   créditos por guion. El ID de ElevenLabs tMzxR2W7o3RLIY7zWBbG NO existe en
+   Artlist ni en Higgsfield.
+2. **Nunca dejar que el modelo de video invente la voz**: Seedance con audio
+   nativo pronunció "PALER" por "pesar" y deformó "Matasanos" (prueba en
+   Higgsfield, 10-13). La voz sale SIEMPRE de TTS y el video solo sincroniza.
+3. **Lip-sync** — `generate_video` con **Wan 2.7 - I2V - 720p**: `input` =
+   [foto vertical `data/intel/brand/miroslava-avatar-vertical.jpg`, audio];
+   el audio entra como `voice_url`. Máx **15 s por clip**, 3,000 créditos por
+   clip de 15 s → partir el audio en silencios (`silencedetect`) en trozos
+   ≤15 s (acelerar ≤5% con `atempo` si hace falta). Las variantes Seedance
+   R2V de Artlist rechazan imagen+audio juntos (`reference_unsupported_model`).
+   Pide confirmación de costo: mostrar créditos al user y esperar su sí.
+4. **Ensamble** — unir clips con `trim` + `concat`, y montar encima el MP3
+   exacto de la voz (no el audio del clip). Escalar a 1080x1920 antes de
+   concatenar con tarjetas propias.
+5. **Montaje noticiero** — `destape_montaje.py <cuerpo.mp4> <out.mp4>
+   --vertical --subtitulo "…" --pie "LA DINASTÍA" --escaleta cues.json
+   --ticker "$(python3 scripts/destape_cinta.py <hoja-de-hechos>)"`.
+   Cabezal con escudo + EN VIVO, cintillo rojo de sección, barra de datos,
+   cinta MARCADOR con los resultados reales de la hoja, himno en intro/outro.
+   Tiempos de la escaleta = silencios del audio + desfase de tarjetas previas.
+6. QA: 4-5 frames en hoja de contactos; peso < 64 MB.
+
+Presupuesto: un video de ~30 s a cámara ≈ 6,000 créditos; proponer siempre la
+versión de 30 s (más punch y la mitad del costo) antes que la completa.
+
 ## Reglas que ya costaron retrabajo (no reaprender)
 
 - El ffmpeg de brew NO trae drawtext: todo texto entra como SVG→PNG vía

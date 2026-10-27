@@ -14,7 +14,14 @@ blancas; cropdetect pelón solo ve bordes negros).
 
 Uso: python3 scripts/destape_montaje.py <heygen.mp4> <salida.mp4>
          [--subtitulo "Edición post-draft · La Gallamijos"]
-         [--escaleta cues.json]
+         [--escaleta cues.json] [--vertical] [--ticker "texto de la cinta"]
+         [--pie "LA DINASTÍA"]
+
+--vertical (2026-10-13, video de Seedance/Higgsfield ya en 9:16): Miroslava a
+pantalla completa con gráficos de noticiero encima — cabezal con escudo y
+"EN VIVO", cintillo rojo de sección y barra de datos en el tercio inferior,
+y una CINTA de marcadores corriendo abajo (--ticker, o "ticker" en la
+escaleta como objeto {"tipo": "ticker", "grande": "…"}).
 
 La ESCALETA hace el video "de noticiero": un cintillo rojo que nombra la
 sección en curso y una zona de datos bajo el video (estadística + emoji de
@@ -115,6 +122,69 @@ def cue_pngs(tmp, cues):
     return out
 
 
+def cue_pngs_vertical(tmp, cues):
+    """Gráficos de noticiero sobre video a pantalla completa (1080x1920)."""
+    out = []
+    for i, c in enumerate(cues):
+        g, ch = _esc(c.get("grande", "")), _esc(c.get("chico", ""))
+        if c["tipo"] == "seccion":
+            fs = min(50, max(30, int(1150 / max(1, len(c.get("grande", ""))))))
+            cuerpo = (f'<rect x="0" y="1360" width="1080" height="84" fill="{ROJO}"/>'
+                      f'<rect x="0" y="1360" width="14" height="84" fill="#FFF"/>'
+                      f'<text x="44" y="1418" {FF} font-size="{fs}" fill="#FFF">{g}</text>')
+        else:
+            fs = min(56, max(32, int(1250 / max(1, len(c.get("grande", ""))))))
+            alto = 150 if ch else 104
+            cuerpo = (f'<rect x="0" y="1444" width="1080" height="{alto}" fill="{NAVY}" fill-opacity="0.92"/>'
+                      f'<text x="44" y="1514" {FF} font-size="{fs}" fill="#FFF">{g}</text>')
+            if ch:
+                cuerpo += (f'<text x="44" y="1570" {FR} font-size="36" '
+                           f'fill="{GRIS}">{ch}</text>')
+        out.append(texto_png(tmp, f"cue{i}", cuerpo))
+    return out
+
+
+def cabezal_vertical(tmp, sub, pie):
+    """Cabezal (gradiente + título + EN VIVO) y base de la cinta."""
+    return texto_png(tmp, "cabezal", f'''
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="{NAVY}" stop-opacity="0.95"/>
+<stop offset="1" stop-color="{NAVY}" stop-opacity="0"/></linearGradient>
+<linearGradient id="b" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="{NAVY}" stop-opacity="0"/>
+<stop offset="1" stop-color="{NAVY}" stop-opacity="0.9"/></linearGradient></defs>
+<rect x="0" y="0" width="1080" height="330" fill="url(#g)"/>
+<rect x="0" y="1300" width="1080" height="620" fill="url(#b)"/>
+<text x="222" y="118" {FF} font-size="54" fill="#FFF">EL DESTAPE</text>
+<text x="222" y="178" {FF} font-size="54" fill="{ROJO}">DE MIROSLAVA</text>
+<text x="224" y="226" {FR} font-size="30" fill="{GRIS}">{_esc(sub)}</text>
+<rect x="812" y="70" width="228" height="62" rx="8" fill="{ROJO}"/>
+<circle cx="848" cy="101" r="11" fill="#FFF"/>
+<text x="872" y="115" {FF} font-size="38" fill="#FFF">EN VIVO</text>
+<rect x="0" y="1760" width="1080" height="92" fill="{NAVY}"/>
+<rect x="0" y="1752" width="1080" height="8" fill="{ROJO}"/>
+<text x="540" y="1900" text-anchor="middle" {FR} font-size="28" fill="{GRISOSC}">{_esc(pie)}</text>''')
+
+
+def cinta_png(tmp, texto):
+    """Texto largo de la cinta (alto 92) + la etiqueta fija de la izquierda."""
+    largo = int(len(texto) * 22) + 200
+    svg = tmp / "cinta.svg"
+    svg.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{largo}" height="92">'
+                   f'<rect width="{largo}" height="92" fill="{NAVY}"/>'
+                   f'<text x="20" y="60" {FR} font-size="40" fill="#FFF">{_esc(texto)}</text></svg>')
+    cinta = tmp / "cinta.png"
+    rasterizar(svg, cinta)
+    etiqueta = tmp / "etiqueta.svg"
+    etiqueta.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="250" height="92">'
+                        f'<rect width="250" height="92" fill="{ROJO}"/>'
+                        f'<text x="125" y="60" text-anchor="middle" {FF} font-size="34" '
+                        f'fill="#FFF">MARCADOR</text></svg>')
+    et = tmp / "etiqueta.png"
+    rasterizar(etiqueta, et)
+    return cinta, et, largo
+
+
 def main():
     argv = sys.argv[1:]
     sub = "El Destape · La Gallamijos"
@@ -122,6 +192,19 @@ def main():
     if "--escaleta" in argv:
         i = argv.index("--escaleta")
         escaleta = json.load(open(argv[i + 1]))
+        del argv[i:i + 2]
+    vertical = "--vertical" in argv
+    if vertical:
+        argv.remove("--vertical")
+    pie = "GALLAMIJOS · EST. 2015"
+    if "--pie" in argv:
+        i = argv.index("--pie")
+        pie = argv[i + 1]
+        del argv[i:i + 2]
+    ticker = None
+    if "--ticker" in argv:
+        i = argv.index("--ticker")
+        ticker = argv[i + 1]
         del argv[i:i + 2]
     if "--subtitulo" in argv:
         i = argv.index("--subtitulo")
@@ -132,8 +215,12 @@ def main():
     video, salida = Path(argv[0]), Path(argv[1])
     dur = float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                      "-of", "csv=p=0", str(video)]).stdout.strip())
-    crop = detectar_banda(video)
-    print(f"[montaje] banda {crop}, duración {dur:.1f}s")
+    if escaleta:
+        for c in [c for c in escaleta if c.get("tipo") == "ticker"]:
+            ticker = ticker or c.get("grande")
+        escaleta = [c for c in escaleta if c.get("tipo") != "ticker"]
+    crop = None if vertical else detectar_banda(video)
+    print(f"[montaje] {'vertical' if vertical else f'banda {crop}'}, duración {dur:.1f}s")
 
     with tempfile.TemporaryDirectory() as td:
         tmp = Path(td)
@@ -168,19 +255,45 @@ def main():
             audio_intro, fa_intro = mudo, ""
             audio_outro = ["-f", "lavfi", "-t", str(d_out), "-i", "anullsrc=r=48000:cl=stereo"]
             fa_outro = ""
-        cues_png = cue_pngs(tmp, escaleta) if escaleta else []
+        if vertical:
+            cues_png = cue_pngs_vertical(tmp, escaleta) if escaleta else []
+            cabezal = cabezal_vertical(tmp, sub, pie)
+            cinta = cinta_png(tmp, ticker) if ticker else None
+        else:
+            cues_png = cue_pngs(tmp, escaleta) if escaleta else []
         t_outro = texto_png(tmp, "outro", f'''
 <text x="540" y="1200" text-anchor="middle" {FF} font-size="96" fill="#FFF">Los observo.</text>
 <text x="540" y="1350" text-anchor="middle" {FR} font-size="48" fill="{ROJO}">— Miroslava</text>''')
 
         base = f"color=c=0x{NAVY[1:]}:s=1080x1920:r=25"
+        if vertical:
+            n_c = len(escaleta or [])
+            ins_v = ["-i", str(video), "-i", str(escudo), "-i", str(cabezal),
+                     *sum([["-i", str(p)] for p in cues_png], [])]
+            fc_v = ("[0:v]scale=1080:1920:force_original_aspect_ratio=increase,"
+                    "crop=1080:1920,setsar=1[bg];[1:v]scale=-1:190[e];"
+                    "[bg][2:v]overlay[h0];[h0][e]overlay=30:40[c0];" + "".join(
+                        f"[c{j}][{3 + j}:v]overlay=0:0:enable='between(t,{c['t0']},{c['t1']})'[c{j + 1}];"
+                        for j, c in enumerate(escaleta or [])))
+            ultimo = f"c{n_c}"
+            if cinta:
+                ci, et, largo = cinta
+                k = 3 + n_c
+                ins_v += ["-loop", "1", "-i", str(ci), "-loop", "1", "-i", str(et)]
+                fc_v += (f"[{ultimo}][{k}:v]overlay=x='1080-mod(t*150\\,{largo}+830)':y=1760:shortest=1[t1];"
+                         f"[t1][{k + 1}:v]overlay=0:1760:shortest=1[t2];")
+                ultimo = "t2"
+            fc_v += f"[{ultimo}]fade=t=in:st=0:d=0.3[v]"
+            cuerpo_seg = (dur, ins_v, fc_v)
+        else:
+            cuerpo_seg = None
         segs = []
         for n, (d, ins, fc) in enumerate([
             (d_in, ["-f", "lavfi", "-i", f"{base}:d={d_in}", *audio_intro,
                     "-i", str(escudo), "-i", str(t_intro)],
              "[2:v]scale=-1:760[e];[0:v][e]overlay=(W-w)/2:330[v1];[v1][3:v]overlay,"
              f"fade=t=in:st=0:d=0.5,fade=t=out:st={d_in - 0.5}:d=0.5[v]" + fa_intro),
-            (dur, ["-i", str(video), "-i", str(escudo), "-i", str(t_body),
+            cuerpo_seg or (dur, ["-i", str(video), "-i", str(escudo), "-i", str(t_body),
                    *sum([["-i", str(p)] for p in cues_png], [])],
              f"{base}:d={dur}[bg];[1:v]scale=-1:300[e];"
              f"[0:v]crop={crop},scale=1080:600:flags=lanczos[band];"
