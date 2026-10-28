@@ -1661,3 +1661,10 @@ without testing it.
 - **Squeaky-wheel penalty [FF]:** in 2026, players who publicly complained about touches (LaPorta, Kyren, G. Wilson) got LESS usage afterward. Don't buy a complaint-driven bounce-back.
 - **Target-share monopoly dependency [FF]:** an alpha WR on a bad offense loses his volume edge once a competent second option arrives (Nico Collins under 20% after the Harrison trade). Re-measure target share before vs after the acquisition.
 - **Bye-week flex: WR over RB at the margins [Sal]:** in PPR, the RB27-30 tier projects about 8 points while the WR35-36 tier projects double digits. Prefer the WR in the flex.
+
+## 2026-10-27 (Sal "5 players I'm panicking about", FF Ep. 2002 week-8 waivers)
+
+- **Rank rookie WRs by QB ceiling, not only by current opportunity [FF]:** with equal roles, take the rookie tied to the best QB (Antonio Williams with Daniels over Lemon with McKee or Douglas with Willis).
+- **Opponent-adjusted TE matchups [FF]:** stream TEs by points allowed ABOVE what the defense's opponents normally score (DET +12.8), not by raw points allowed. This is the same fix as the script-artifact rule above.
+- **Checkdown-QB RB targets [FF]:** an RB's target floor follows his QB's rate of throws at or behind the line (Rodgers). Use it to break ties between pass-catching backs.
+- **Route share in the first game back beats the box score [Sal]:** 94% routes and a 27% target share on 3 catches (A.J. Brown) is a buy-low, not a decline.

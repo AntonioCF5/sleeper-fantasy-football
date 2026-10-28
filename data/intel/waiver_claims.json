@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -81,16 +81,25 @@
    "bid": null,
    "drop": null,
    "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
+  },
+  {
+   "league_id": "1389689013551517698",
+   "player": "Brenton Strange (TE, JAX — from the chopped roster)",
+   "verdict": "claim",
+   "bid": 3,
+   "drop": "Konata Mumpfield (WR, LAR, 24) — same drop as the Henry claim",
+   "why": "Read live 10/27: Strange (10.5 w8, ROS 161) hit the wire with the week-7 chopped roster, so he and Henry (9.6, ROS 154) clear in the same run. File Strange as a second claim behind Henry and pair it with the SAME drop (Mumpfield). If Henry wins, the Strange claim fails automatically because Mumpfield is gone; if Henry is lost, Strange fills the TE hole Likely's NYG bye opens. $3 sits inside this league's observed $0-4 TE market.",
+   "date": "2026-10-27"
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-26",
+  "read_live": "2026-10-27",
   "Gallamijos League": "17/17 active, IR 0/2 (allow_out=0, so Egbuka is not IR-eligible). IDP slots filled (Watt/Carter/Stukes). Every add is 1-for-1.",
   "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0.",
   "Dynasty Mexica": "26/26, IR 4/4 (Love on IR). Spears and Smith are Out on the active bench, with IR full.",
   "League of Record": "28/28 active, IR 4/8 but allow_out=0, so Donaldson (Out) is not IR-eligible. Taxi 8/8.",
-  "Guillotine TRC": "14/14, no IR. Survived week 7 at 75.48 vs 74.80. TE hole in week 8 (Likely, NYG bye).",
-  "DYNASTY TRC": "25/25, IR 4/4, taxi 5/5. B. Robinson (Out) on the active bench."
+  "Guillotine TRC": "14/14, no IR. Lamar is trending toward a week-8 return (Sleeper wire 10/27); Rodgers is the fallback. Pending: Henry $5 / Strange $3 (TE, same drop Mumpfield), Kyren $177 (drop M. Washington Jr.).",
+  "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
  }
 }
