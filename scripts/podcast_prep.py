@@ -271,7 +271,7 @@ def load_sleeper(season, week):
             # rec_air_yd is COMPLETED air yards (rec_yd - rec_yar), not air yards on every target
             u.update(tgt=st.get("rec_tgt") or 0, rush=st.get("rush_att") or 0,
                      snp=st.get("off_snp") or 0, tm_snp=st.get("tm_off_snp") or 0, team=team, pos=pos,
-                     rec=st.get("rec") or 0, air=st.get("rec_air_yd") or 0,
+                     rec=st.get("rec") or 0, air=st.get("rec_air_yd") or 0, pass_att=st.get("pass_att") or 0,
                      rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0)
             tt = team_tot[team][w]
             for k in ("tgt", "rush", "air", "rz_tgt", "rz_rush"):
@@ -300,7 +300,8 @@ def load_sleeper(season, week):
                     # backfield share: carries + catches over every RB touch the team had
                     "touch": share(mine("rush") + mine("rec"), team("rb_touch")) if usage[pid][ws[0]].get("pos") == "RB" else 0,
                     "tgt_snap": share(mine("tgt"), snp), "tgt_g": mine("tgt") / len(ws),
-                    "touch_g": (mine("rush") + mine("rec")) / len(ws), "g": len(ws)}
+                    "touch_g": (mine("rush") + mine("rec")) / len(ws), "att_g": mine("pass_att") / len(ws),
+                    "g": len(ws)}
         # L3 = the TEAM's last 3 games, not the player's last 3 appearances —
         # otherwise a back returning from a month out shows month-old usage
         # (Breece Hall wk 8: "60% L3" after missing four games).
@@ -874,7 +875,7 @@ def main():
 
         # fantasy
         L.append("**Fantasy**\n")
-        L.append("| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |\n|---|---|---|---|---|---|")
+        L.append("| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |\n|---|---|---|---|---|---|")
         game_players = []
         for t in (a, h):
             opp = h if t == a else a
@@ -904,8 +905,11 @@ def main():
                 name = (f"{p['name']} ({p['pos']}, {t})" + (f" **{STATUS_ES.get(p['inj'], p['inj'])}**" if p["inj"] else "")
                         + (" 📈" if p["pid"] in trending else "") + trend
                         + (f" *(se perdió {sh['missed_l3']} de los últimos 3)*" if sh.get("missed_l3") else ""))
+                qb_att = f"{l3['att_g']:.1f}" if l3.get("g") else "—"
                 L.append(f"| {name} | {p['ppr']:.1f} ({p['half']:.1f}) | "
-                         f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))}) | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
+                         + (f"{qb_att} pases ({sz['att_g']:.1f})" if p["pos"] == "QB" and sz else
+                            f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))})")
+                         + f" | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
                          f"{pct(l3.get('snap'))} | {mu} |")
                 game_players.append({**{k: p[k] for k in ("pid", "name", "pos", "team", "ppr", "half", "inj")},
                                      "team_code": t, "opp": opp, "fpa": fp, "trend": trend.strip(),

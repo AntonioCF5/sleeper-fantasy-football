@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 8, 2026
 
-*Generado mié 28 oct, 9:51 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: HOU, NO, NYG, SF*
+*Generado mié 28 oct, 9:56 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: HOU, NO, NYG, SF*
 
 ## Cartelera
 
@@ -136,16 +136,16 @@ Caleb Douglas (WR, MIA) +2,313,632 · Seth McGowan (RB, IND) +1,468,992 · Elija
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Bryce Young (QB, CAR) | 18.1 (18.1) | — (—) | 9% (7%) | 94% | 🔴 GB es 28º que más permite a QB (14.3) |
+| Bryce Young (QB, CAR) | 18.1 (18.1) | 35.7 pases (38.0) | 9% (7%) | 94% | 🔴 GB es 28º que más permite a QB (14.3) |
 | Chuba Hubbard (RB, CAR) | 16.8 (15.2) | 9% (9%) | 70% (66%) | 81% | 🟢 GB es 6º que más permite a RB (25.0) |
 | Jalen Coker (WR, CAR) *(se perdió 1 de los últimos 3)* | 16.0 (13.2) | 27% (23%) | — (—) | 71% |  GB es 9º que más permite a WR (35.7) |
 | Tetairoa McMillan (WR, CAR) | 14.8 (12.2) | 30% (26%) | — (—) | 79% |  GB es 9º que más permite a WR (35.7) |
 | Darren Waller (TE, CAR) | 7.7 (6.2) | 10% (11%) | — (—) | 48% | 🔴 GB es 31º que más permite a TE (9.0) |
 | Tommy Tremble (TE, CAR) | 4.5 (3.5) | 10% (10%) | — (—) | 57% | 🔴 GB es 31º que más permite a TE (9.0) |
 | John Metchie III (WR, CAR) | 4.1 (3.3) | 12% (10%) | — (—) | 39% |  GB es 9º que más permite a WR (35.7) |
-| Jordan Love (QB, GB) | 17.1 (17.1) | — (—) | 7% (8%) | 99% |  CAR es 20º que más permite a QB (16.6) |
+| Jordan Love (QB, GB) | 17.1 (17.1) | 39.0 pases (38.7) | 7% (8%) | 99% |  CAR es 20º que más permite a QB (16.6) |
 | Christian Watson (WR, GB) | 16.1 (14.0) | 21% (21%) | — (—) | 83% | 🔴 CAR es 27º que más permite a WR (27.5) |
 | Josh Jacobs (RB, GB) *(se perdió 2 de los últimos 3)* | 16.0 (14.8) | 17% (17%) | 58% (58%) | 52% | 🟢 CAR es 2º que más permite a RB (28.7) |
 | Matthew Golden (WR, GB) **Cuestionable** | 13.8 (11.5) | 28% (26%) | — (1%) | 82% | 🔴 CAR es 27º que más permite a WR (27.5) |
@@ -258,9 +258,9 @@ _backfield: comité (Josh Jacobs 67% de los toques) · top-2 de targets: 50% del
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Lamar Jackson (QB, BAL) **Cuestionable** *(se perdió 3 de los últimos 3)* | 20.4 (20.4) | — (—) | — (15%) | — | 🟢 BUF es 4º que más permite a QB (22.3) |
+| Lamar Jackson (QB, BAL) **Cuestionable** *(se perdió 3 de los últimos 3)* | 20.4 (20.4) | — pases (24.0) | — (15%) | — | 🟢 BUF es 4º que más permite a QB (22.3) |
 | Zay Flowers (WR, BAL) | 18.4 (15.6) | 32% (31%) | 2% (2%) | 84% | 🟢 BUF es 1º que más permite a WR (42.3) |
 | Derrick Henry (RB, BAL) | 15.8 (15.2) | 5% (6%) | 68% (69%) | 55% | 🟢 BUF es 3º que más permite a RB (27.3) |
 | Mark Andrews (TE, BAL) ⬇️ | 9.1 (7.3) | 14% (19%) | — (—) | 67% |  BUF es 12º que más permite a TE (15.2) |
@@ -268,7 +268,7 @@ _backfield: comité (Josh Jacobs 67% de los toques) · top-2 de targets: 50% del
 | Ja'Kobi Lane (WR, BAL) *(se perdió 1 de los últimos 3)* | 5.9 (4.9) | 15% (15%) | — (—) | 62% | 🟢 BUF es 1º que más permite a WR (42.3) |
 | Rashod Bateman (WR, BAL) | 5.6 (4.6) | 11% (13%) | — (—) | 64% | 🟢 BUF es 1º que más permite a WR (42.3) |
 | Matt Hibner (TE, BAL) *(se perdió 1 de los últimos 3)* | 3.1 (2.6) | — (3%) | — (—) | 39% |  BUF es 12º que más permite a TE (15.2) |
-| Josh Allen (QB, BUF) | 24.6 (24.6) | — (1%) | 23% (27%) | 100% |  BAL es 16º que más permite a QB (17.3) |
+| Josh Allen (QB, BUF) | 24.6 (24.6) | 28.3 pases (28.5) | 23% (27%) | 100% |  BAL es 16º que más permite a QB (17.3) |
 | James Cook III (RB, BUF) | 16.1 (15.3) | 8% (9%) | 69% (66%) | 63% | 🔴 BAL es 28º que más permite a RB (18.5) |
 | DJ Moore (WR, BUF) **Cuestionable** *(se perdió 2 de los últimos 3)* | 14.7 (12.4) | 7% (18%) | 5% (2%) | 39% | 🟢 BAL es 7º que más permite a WR (35.8) |
 | Dalton Kincaid (TE, BUF) **Cuestionable** | 10.5 (8.6) | 15% (18%) | — (—) | 68% |  BAL es 19º que más permite a TE (12.3) |
@@ -375,16 +375,16 @@ _backfield: un solo hombre (James Cook III 79% de los toques) · top-2 de target
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Cam Ward (QB, TEN) | 14.1 (14.1) | — (—) | 8% (12%) | 100% |  CIN es 17º que más permite a QB (17.1) |
+| Cam Ward (QB, TEN) | 14.1 (14.1) | 29.7 pases (29.7) | 8% (12%) | 100% |  CIN es 17º que más permite a QB (17.1) |
 | Carnell Tate (WR, TEN) **Cuestionable** | 13.6 (10.9) | 22% (26%) | — (—) | 80% |  CIN es 17º que más permite a WR (31.2) |
 | Tony Pollard (RB, TEN) ⬆️ | 12.2 (11.3) | 6% (8%) | 82% (70%) | 65% | 🔴 CIN es 29º que más permite a RB (17.9) |
 | Wan'Dale Robinson (WR, TEN) | 11.1 (8.9) | 23% (22%) | — (1%) | 65% |  CIN es 17º que más permite a WR (31.2) |
 | Tyjae Spears (RB, TEN) **Cuestionable** ⬆️ *(se perdió 1 de los últimos 3)* | 7.5 (6.4) | 18% (10%) | 7% (14%) | 41% | 🔴 CIN es 29º que más permite a RB (17.9) |
 | Elic Ayomanor (WR, TEN) | 6.2 (5.3) | 12% (11%) | — (—) | 68% |  CIN es 17º que más permite a WR (31.2) |
 | Gunnar Helm (TE, TEN) | 5.6 (4.3) | 6% (9%) | — (—) | 76% |  CIN es 11º que más permite a TE (15.7) |
-| Joe Burrow (QB, CIN) | 21.4 (21.4) | — (—) | 14% (13%) | 98% |  TEN es 22º que más permite a QB (16.1) |
+| Joe Burrow (QB, CIN) | 21.4 (21.4) | 38.7 pases (36.5) | 14% (13%) | 98% |  TEN es 22º que más permite a QB (16.1) |
 | Ja'Marr Chase (WR, CIN) **Cuestionable** | 20.1 (16.9) | 18% (21%) | — (—) | 61% | 🟢 TEN es 8º que más permite a WR (35.8) |
 | Chase Brown (RB, CIN) ⬇️ | 17.9 (15.9) | 18% (15%) | 50% (61%) | 72% |  TEN es 14º que más permite a RB (22.0) |
 | Tee Higgins (WR, CIN) | 16.1 (13.6) | 24% (23%) | — (—) | 78% | 🟢 TEN es 8º que más permite a WR (35.8) |
@@ -494,17 +494,17 @@ _backfield: reparto claro (Chase Brown 66% de los toques) · top-2 de targets: 4
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Trey McBride (TE, ARI) | 19.3 (15.3) | 26% (29%) | — (—) | 93% |  DAL es 18º que más permite a TE (12.4) |
-| Jacoby Brissett (QB, ARI) | 18.7 (18.7) | 1% (0%) | 14% (14%) | 100% | 🟢 DAL es 8º que más permite a QB (20.0) |
+| Jacoby Brissett (QB, ARI) | 18.7 (18.7) | 43.3 pases (40.3) | 14% (14%) | 100% | 🟢 DAL es 8º que más permite a QB (20.0) |
 | Michael Wilson (WR, ARI) **Cuestionable** ⬇️ | 15.8 (13.1) | 18% (24%) | 3% (1%) | 88% |  DAL es 10º que más permite a WR (35.5) |
 | Kendrick Bourne (WR, ARI) | 9.5 (7.6) | 18% (13%) | — (—) | 54% |  DAL es 10º que más permite a WR (35.5) |
 | Jeremiyah Love (RB, ARI) **Cuestionable** *(se perdió 2 de los últimos 3)* | 9.5 (8.4) | 2% (7%) | 67% (55%) | 49% | 🟢 DAL es 7º que más permite a RB (24.6) |
 | Tyler Allgeier (RB, ARI) **Cuestionable** | 7.6 (6.4) | 6% (6%) | 38% (34%) | 49% | 🟢 DAL es 7º que más permite a RB (24.6) |
 | Zonovan Knight (RB, ARI) ⬆️ | 7.5 (6.6) | 6% (4%) | 30% (20%) | 36% | 🟢 DAL es 7º que más permite a RB (24.6) |
 | Reggie Virgil (WR, ARI) | 3.1 (2.5) | 4% (4%) | — (—) | 8% |  DAL es 10º que más permite a WR (35.5) |
-| Dak Prescott (QB, DAL) 📈 | 22.6 (22.6) | — (—) | 6% (10%) | 100% | 🟢 ARI es 3º que más permite a QB (22.7) |
+| Dak Prescott (QB, DAL) 📈 | 22.6 (22.6) | 41.0 pases (39.0) | 6% (10%) | 100% | 🟢 ARI es 3º que más permite a QB (22.7) |
 | CeeDee Lamb (WR, DAL) | 22.4 (18.9) | 29% (31%) | — (1%) | 77% |  ARI es 12º que más permite a WR (33.6) |
 | Javonte Williams (RB, DAL) | 18.9 (17.5) | 4% (8%) | 75% (71%) | 74% |  ARI es 15º que más permite a RB (21.9) |
 | George Pickens (WR, DAL) **Cuestionable** | 14.6 (12.3) | 25% (22%) | — (—) | 79% |  ARI es 12º que más permite a WR (33.6) |
@@ -613,10 +613,10 @@ _backfield: un solo hombre (Javonte Williams 80% de los toques) · top-2 de targ
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Justin Jefferson (WR, MIN) *(se perdió 1 de los últimos 3)* | 18.4 (15.1) | 26% (26%) | 2% (1%) | 91% | 🟢 DET es 3º que más permite a WR (39.0) |
-| Kyler Murray (QB, MIN) 📈 | 17.4 (17.4) | — (—) | 22% (16%) | 100% | 🟢 DET es 1º que más permite a QB (26.3) |
+| Kyler Murray (QB, MIN) 📈 | 17.4 (17.4) | 30.3 pases (25.0) | 22% (16%) | 100% | 🟢 DET es 1º que más permite a QB (26.3) |
 | T.J. Hockenson (TE, MIN) 📈 | 11.2 (8.7) | 22% (21%) | — (—) | 54% | 🟢 DET es 1º que más permite a TE (29.4) |
 | Jordan Mason (RB, MIN) 📈 *(se perdió 2 de los últimos 3)* | 11.0 (10.3) | 8% (4%) | 52% (48%) | 64% |  DET es 23º que más permite a RB (19.8) |
 | Aaron Jones Sr. (RB, MIN) **Cuestionable** | 9.8 (8.7) | 14% (12%) | 55% (58%) | 64% |  DET es 23º que más permite a RB (19.8) |
@@ -624,7 +624,7 @@ _backfield: un solo hombre (Javonte Williams 80% de los toques) · top-2 de targ
 | Jauan Jennings (WR, MIN) | 6.1 (5.0) | 6% (6%) | — (—) | 75% | 🟢 DET es 3º que más permite a WR (39.0) |
 | Jahmyr Gibbs (RB, DET) **Cuestionable** | 23.2 (20.9) | 17% (18%) | 86% (82%) | 82% | 🔴 MIN es 32º que más permite a RB (16.0) |
 | Amon-Ra St. Brown (WR, DET) **Cuestionable** | 17.3 (14.4) | 30% (31%) | 1% (1%) | 87% | 🔴 MIN es 29º que más permite a WR (25.3) |
-| Jared Goff (QB, DET) | 16.2 (16.2) | — (—) | 4% (7%) | 99% | 🔴 MIN es 32º que más permite a QB (8.8) |
+| Jared Goff (QB, DET) | 16.2 (16.2) | 38.0 pases (37.2) | 4% (7%) | 99% | 🔴 MIN es 32º que más permite a QB (8.8) |
 | Sam LaPorta (TE, DET) | 11.1 (9.0) | 18% (18%) | — (—) | 88% | 🔴 MIN es 32º que más permite a TE (6.9) |
 | Jameson Williams (WR, DET) | 10.1 (8.5) | 19% (17%) | — (—) | 91% | 🔴 MIN es 29º que más permite a WR (25.3) |
 | Sione Vaki (RB, DET) | 3.8 (3.3) | 2% (2%) | 9% (10%) | 21% | 🔴 MIN es 32º que más permite a RB (16.0) |
@@ -723,17 +723,17 @@ _backfield: un solo hombre (Jahmyr Gibbs 91% de los toques) · top-2 de targets:
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Brock Bowers (TE, LV) **Cuestionable** | 17.0 (13.9) | 23% (26%) | — (—) | 85% | 🔴 NYJ es 27º que más permite a TE (10.4) |
-| Kirk Cousins (QB, LV) 📈 | 16.7 (16.7) | — (—) | 5% (9%) | 95% |  NYJ es 18º que más permite a QB (16.7) |
+| Kirk Cousins (QB, LV) 📈 | 16.7 (16.7) | 37.7 pases (36.7) | 5% (9%) | 95% |  NYJ es 18º que más permite a QB (16.7) |
 | Ashton Jeanty (RB, LV) ⬇️ | 16.6 (14.6) | 17% (17%) | 51% (61%) | 61% |  NYJ es 16º que más permite a RB (21.4) |
 | Tre Tucker (WR, LV) 📈 | 10.5 (8.8) | 20% (18%) | 4% (1%) | 76% |  NYJ es 18º que más permite a WR (30.6) |
 | Michael Mayer (TE, LV) | 7.5 (5.8) | 11% (15%) | — (—) | 76% | 🔴 NYJ es 27º que más permite a TE (10.4) |
 | Mike Washington Jr. (RB, LV) | 5.7 (5.3) | 3% (2%) | 29% (23%) | 24% |  NYJ es 16º que más permite a RB (21.4) |
 | Cody White (WR, LV) | 3.6 (3.1) | 8% (7%) | — (—) | 35% |  NYJ es 18º que más permite a WR (30.6) |
 | Jalen Nailor (WR, LV) *(se perdió 1 de los últimos 3)* | 3.5 (3.0) | 11% (9%) | — (—) | 69% |  NYJ es 18º que más permite a WR (30.6) |
-| Geno Smith (QB, NYJ) 📈 | 16.8 (16.8) | — (—) | 11% (12%) | 100% | 🟢 LV es 5º que más permite a QB (20.8) |
+| Geno Smith (QB, NYJ) 📈 | 16.8 (16.8) | 30.0 pases (29.6) | 11% (12%) | 100% | 🟢 LV es 5º que más permite a QB (20.8) |
 | Garrett Wilson (WR, NYJ) | 16.3 (13.6) | 23% (26%) | — (—) | 92% |  LV es 15º que más permite a WR (31.4) |
 | Breece Hall (RB, NYJ) **Cuestionable** *(se perdió 3 de los últimos 3)* | 11.3 (10.3) | — (11%) | — (60%) | — | 🟢 LV es 5º que más permite a RB (25.4) |
 | Omar Cooper Jr. (WR, NYJ) 📈 *(se perdió 1 de los últimos 3)* | 9.8 (8.1) | 21% (16%) | — (—) | 74% |  LV es 15º que más permite a WR (31.4) |
@@ -842,16 +842,16 @@ _backfield: comité (Braelon Allen 81% de los toques) · top-2 de targets: 44% d
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Deshaun Watson (QB, CLE) | 14.0 (14.0) | — (—) | 21% (26%) | 100% | 🔴 PIT es 29º que más permite a QB (13.2) |
+| Deshaun Watson (QB, CLE) | 14.0 (14.0) | 31.7 pases (30.0) | 21% (26%) | 100% | 🔴 PIT es 29º que más permite a QB (13.2) |
 | Harold Fannin Jr. (TE, CLE) | 10.7 (8.8) | 18% (19%) | — (—) | 88% |  PIT es 24º que más permite a TE (10.9) |
 | Denzel Boston (WR, CLE) | 10.5 (9.2) | 22% (20%) | — (—) | 90% |  PIT es 19º que más permite a WR (30.2) |
 | KC Concepcion Jr. (WR, CLE) 📈 | 10.2 (8.2) | 19% (22%) | 6% (5%) | 58% |  PIT es 19º que más permite a WR (30.2) |
 | Quinshon Judkins (RB, CLE) *(se perdió 1 de los últimos 3)* | 10.2 (9.2) | 7% (12%) | 60% (58%) | 53% |  PIT es 21º que más permite a RB (20.2) |
 | Dylan Sampson (RB, CLE) **Cuestionable** 📈 *(se perdió 2 de los últimos 3)* | 6.4 (5.5) | 9% (9%) | 21% (21%) | 46% |  PIT es 21º que más permite a RB (20.2) |
 | Jerry Jeudy (WR, CLE) ⬆️ | 3.4 (2.8) | 16% (11%) | — (—) | 68% |  PIT es 19º que más permite a WR (30.2) |
-| Aaron Rodgers (QB, PIT) | 16.1 (16.1) | — (—) | 7% (8%) | 99% | 🔴 CLE es 25º que más permite a QB (15.4) |
+| Aaron Rodgers (QB, PIT) | 16.1 (16.1) | 36.7 pases (37.6) | 7% (8%) | 99% | 🔴 CLE es 25º que más permite a QB (15.4) |
 | Jaylen Warren (RB, PIT) | 14.8 (13.4) | 14% (14%) | 64% (64%) | 74% | 🔴 CLE es 25º que más permite a RB (19.4) |
 | DK Metcalf (WR, PIT) | 11.6 (9.7) | 25% (24%) | 1% (1%) | 93% |  CLE es 14º que más permite a WR (31.8) |
 | Germie Bernard (WR, PIT) ⬆️ | 10.2 (8.3) | 25% (15%) | 1% (1%) | 92% |  CLE es 14º que más permite a WR (31.8) |
@@ -960,17 +960,17 @@ _backfield: comité (Jaylen Warren 69% de los toques) · top-2 de targets: 50% d
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Bijan Robinson (RB, ATL) | 21.0 (19.3) | 14% (17%) | 69% (64%) | 80% | 🔴 TB es 30º que más permite a RB (17.8) |
 | Drake London (WR, ATL) | 16.5 (13.7) | 32% (30%) | — (1%) | 92% |  TB es 23º que más permite a WR (29.0) |
-| Michael Penix Jr. (QB, ATL) | 14.5 (14.5) | — (—) | 12% (8%) | 98% | 🔴 TB es 27º que más permite a QB (14.7) |
+| Michael Penix Jr. (QB, ATL) | 14.5 (14.5) | 33.0 pases (28.8) | 12% (8%) | 98% | 🔴 TB es 27º que más permite a QB (14.7) |
 | Kyle Pitts Sr. (TE, ATL) 📈 | 8.1 (6.7) | 18% (14%) | — (—) | 66% | 🟢 TB es 8º que más permite a TE (16.2) |
 | Jahan Dotson (WR, ATL) | 5.5 (4.6) | 12% (13%) | — (—) | 68% |  TB es 23º que más permite a WR (29.0) |
 | Brian Robinson Jr. (RB, ATL) **Cuestionable** *(se perdió 1 de los últimos 3)* | 4.4 (4.1) | 5% (4%) | 24% (30%) | 20% | 🔴 TB es 30º que más permite a RB (17.8) |
 | Austin Hooper (TE, ATL) | 3.3 (2.7) | 3% (5%) | — (—) | 24% | 🟢 TB es 8º que más permite a TE (16.2) |
 | Bucky Irving (RB, TB) | 16.5 (14.9) | 10% (12%) | 57% (57%) | 67% | 🟢 ATL es 8º que más permite a RB (24.5) |
-| Baker Mayfield (QB, TB) *(se perdió 2 de los últimos 3)* | 15.9 (15.9) | — (—) | 2% (10%) | 90% |  ATL es 13º que más permite a QB (18.0) |
+| Baker Mayfield (QB, TB) *(se perdió 2 de los últimos 3)* | 15.9 (15.9) | 11.0 pases (26.8) | 2% (10%) | 90% |  ATL es 13º que más permite a QB (18.0) |
 | Emeka Egbuka (WR, TB) **Cuestionable** ⬆️ *(se perdió 1 de los últimos 3)* | 11.4 (9.4) | 38% (26%) | 2% (1%) | 88% |  ATL es 11º que más permite a WR (34.4) |
 | Chris Godwin Jr. (WR, TB) | 10.2 (8.2) | 21% (17%) | 1% (1%) | 85% |  ATL es 11º que más permite a WR (34.4) |
 | Cade Otton (TE, TB) ⬇️ | 7.9 (6.2) | 9% (15%) | — (—) | 94% |  ATL es 9º que más permite a TE (15.8) |
@@ -1080,16 +1080,16 @@ _backfield: reparto claro (Bucky Irving 66% de los toques) · top-2 de targets: 
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Jonathan Taylor (RB, IND) | 16.4 (15.4) | 11% (12%) | 62% (70%) | 75% | 🔴 JAX es 31º que más permite a RB (17.3) |
-| Daniel Jones (QB, IND) | 11.7 (11.7) | — (—) | 11% (10%) | 101% |  JAX es 19º que más permite a QB (16.7) |
+| Daniel Jones (QB, IND) | 11.7 (11.7) | 36.0 pases (34.3) | 11% (10%) | 101% |  JAX es 19º que más permite a QB (16.7) |
 | Tyler Warren (TE, IND) **Cuestionable** *(se perdió 2 de los últimos 3)* | 10.7 (8.2) | 21% (22%) | 4% (2%) | 94% |  JAX es 22º que más permite a TE (11.8) |
 | Josh Downs (WR, IND) | 9.8 (7.8) | 18% (20%) | 1% (0%) | 86% | 🟢 JAX es 4º que más permite a WR (38.0) |
 | Keenan Allen (WR, IND) | 9.2 (7.2) | 23% (22%) | — (—) | 57% | 🟢 JAX es 4º que más permite a WR (38.0) |
 | Seth McGowan (RB, IND) 📈 | 4.4 (3.9) | 2% (2%) | 23% (16%) | 27% | 🔴 JAX es 31º que más permite a RB (17.3) |
 | Laquon Treadwell (WR, IND) | 3.6 (2.9) | 15% (12%) | — (—) | 84% | 🟢 JAX es 4º que más permite a WR (38.0) |
-| Trevor Lawrence (QB, JAX) | 21.0 (21.0) | — (—) | 11% (10%) | 100% |  IND es 12º que más permite a QB (18.1) |
+| Trevor Lawrence (QB, JAX) | 21.0 (21.0) | 34.3 pases (30.7) | 11% (10%) | 100% |  IND es 12º que más permite a QB (18.1) |
 | Parker Washington (WR, JAX) | 15.6 (13.4) | 24% (27%) | 1% (1%) | 78% |  IND es 24º que más permite a WR (29.0) |
 | Bhayshul Tuten (RB, JAX) | 14.7 (13.8) | 9% (8%) | 63% (57%) | 62% |  IND es 13º que más permite a RB (22.0) |
 | Brenton Strange (TE, JAX) 📈 | 10.5 (8.5) | 24% (19%) | — (—) | 81% |  IND es 13º que más permite a TE (13.7) |
@@ -1201,9 +1201,9 @@ _backfield: un solo hombre (Bhayshul Tuten 74% de los toques) · top-2 de target
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Justin Herbert (QB, LAC) | 13.5 (13.5) | 1% (1%) | 19% (17%) | 100% |  LAR es 14º que más permite a QB (17.8) |
+| Justin Herbert (QB, LAC) | 13.5 (13.5) | 30.7 pases (30.0) | 19% (17%) | 100% |  LAR es 14º que más permite a QB (17.8) |
 | Ladd McConkey (WR, LAC) **Cuestionable** ⬇️ *(se perdió 1 de los últimos 3)* | 11.0 (9.2) | 4% (12%) | — (—) | 23% | 🔴 LAR es 28º que más permite a WR (26.8) |
 | Omarion Hampton (RB, LAC) ⬇️ | 10.2 (9.3) | 8% (6%) | 34% (47%) | 38% |  LAR es 19º que más permite a RB (20.6) |
 | Kimani Vidal (RB, LAC) 📈 ⬆️ | 6.8 (6.1) | 10% (7%) | 23% (12%) | 38% |  LAR es 19º que más permite a RB (20.6) |
@@ -1214,7 +1214,7 @@ _backfield: un solo hombre (Bhayshul Tuten 74% de los toques) · top-2 de target
 | Charlie Kolar (TE, LAC) ⬆️ *(se perdió 1 de los últimos 3)* | 4.1 (3.2) | 18% (12%) | — (—) | 71% | 🔴 LAR es 28º que más permite a TE (10.2) |
 | Puka Nacua (WR, LAR) | 21.7 (18.1) | 36% (32%) | 5% (4%) | 86% |  LAC es 20º que más permite a WR (30.0) |
 | Kyren Williams (RB, LAR) | 19.8 (18.3) | 14% (15%) | 52% (52%) | 66% |  LAC es 9º que más permite a RB (23.5) |
-| Matthew Stafford (QB, LAR) | 16.1 (16.1) | — (—) | 4% (8%) | 100% | 🔴 LAC es 26º que más permite a QB (15.1) |
+| Matthew Stafford (QB, LAR) | 16.1 (16.1) | 38.7 pases (39.7) | 4% (8%) | 100% | 🔴 LAC es 26º que más permite a QB (15.1) |
 | Tyler Higbee (TE, LAR) | 8.4 (6.8) | 11% (12%) | — (—) | 74% |  LAC es 23º que más permite a TE (11.1) |
 | Blake Corum (RB, LAR) 📈 | 7.5 (7.1) | 6% (5%) | 38% (34%) | 33% |  LAC es 9º que más permite a RB (23.5) |
 | Colby Parkinson (TE, LAR) **Cuestionable** 📈 | 6.7 (5.3) | 12% (9%) | — (—) | 66% |  LAC es 23º que más permite a TE (11.1) |
@@ -1325,16 +1325,16 @@ _backfield: comité (Kyren Williams 59% de los toques) · top-2 de targets: 48% 
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
 | Kenneth Walker III (RB, KC) | 20.8 (19.0) | 10% (15%) | 82% (76%) | 74% |  DEN es 11º que más permite a RB (22.4) |
-| Patrick Mahomes (QB, KC) | 16.9 (16.9) | — (—) | 13% (12%) | 100% |  DEN es 21º que más permite a QB (16.2) |
+| Patrick Mahomes (QB, KC) | 16.9 (16.9) | 31.0 pases (31.8) | 13% (12%) | 100% |  DEN es 21º que más permite a QB (16.2) |
 | Rashee Rice (WR, KC) **Cuestionable** *(se perdió 2 de los últimos 3)* | 12.6 (10.4) | — (14%) | — (—) | 10% | 🔴 DEN es 26º que más permite a WR (27.8) |
 | Travis Kelce (TE, KC) | 11.4 (9.3) | 19% (20%) | — (—) | 77% |  DEN es 10º que más permite a TE (15.8) |
 | Xavier Worthy (WR, KC) | 9.1 (7.4) | 23% (20%) | — (—) | 82% | 🔴 DEN es 26º que más permite a WR (27.8) |
 | Emmett Johnson (RB, KC) | 4.2 (3.7) | 8% (6%) | 4% (12%) | 28% |  DEN es 11º que más permite a RB (22.4) |
 | Noah Gray (TE, KC) | 3.6 (2.8) | 10% (8%) | — (—) | 62% |  DEN es 10º que más permite a TE (15.8) |
-| Bo Nix (QB, DEN) | 13.8 (13.8) | — (—) | 18% (17%) | 100% | 🔴 KC es 30º que más permite a QB (13.0) |
+| Bo Nix (QB, DEN) | 13.8 (13.8) | 27.7 pases (31.1) | 18% (17%) | 100% | 🔴 KC es 30º que más permite a QB (13.0) |
 | Jaylen Waddle (WR, DEN) **Cuestionable** | 11.2 (9.0) | 27% (23%) | 1% (1%) | 62% | 🔴 KC es 31º que más permite a WR (23.7) |
 | Jonah Coleman (RB, DEN) 📈 *(se perdió 2 de los últimos 3)* | 10.0 (9.2) | 8% (6%) | 35% (28%) | 49% |  KC es 24º que más permite a RB (19.5) |
 | RJ Harvey (RB, DEN) ⬇️ | 8.3 (6.7) | 10% (17%) | 15% (17%) | 34% |  KC es 24º que más permite a RB (19.5) |
@@ -1443,9 +1443,9 @@ _backfield: comité (J.K. Dobbins 60% de los toques) · top-2 de targets: 42% de
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Drake Maye (QB, NE) | 21.9 (21.9) | — (—) | 18% (19%) | 100% | 🟢 MIA es 7º que más permite a QB (20.3) |
+| Drake Maye (QB, NE) | 21.9 (21.9) | 32.3 pases (30.6) | 18% (19%) | 100% | 🟢 MIA es 7º que más permite a QB (20.3) |
 | A.J. Brown (WR, NE) **Cuestionable** *(se perdió 1 de los últimos 3)* | 14.9 (12.4) | 27% (22%) | — (—) | 83% | 🔴 MIA es 30º que más permite a WR (23.8) |
 | Rhamondre Stevenson (RB, NE) | 10.6 (9.3) | 9% (11%) | 39% (38%) | 66% | 🟢 MIA es 4º que más permite a RB (26.4) |
 | Hunter Henry (TE, NE) 📈 | 9.4 (7.6) | 18% (15%) | — (—) | 72% | 🟢 MIA es 3º que más permite a TE (21.1) |
@@ -1455,7 +1455,7 @@ _backfield: comité (J.K. Dobbins 60% de los toques) · top-2 de targets: 42% de
 | Efton Chism III (WR, NE) | 5.2 (4.3) | 9% (8%) | 1% (1%) | 68% | 🔴 MIA es 30º que más permite a WR (23.8) |
 | Corey Kiner (RB, NE) | 5.1 (4.7) | 1% (1%) | 25% (17%) | 17% | 🟢 MIA es 4º que más permite a RB (26.4) |
 | Kyle Williams (WR, NE) | 5.1 (4.3) | 5% (6%) | — (—) | 37% | 🔴 MIA es 30º que más permite a WR (23.8) |
-| Malik Willis (QB, MIA) 📈 | 13.8 (13.8) | — (—) | 19% (21%) | 100% |  NE es 23º que más permite a QB (15.7) |
+| Malik Willis (QB, MIA) 📈 | 13.8 (13.8) | 21.7 pases (25.2) | 19% (21%) | 100% |  NE es 23º que más permite a QB (15.7) |
 | Ollie Gordon II (RB, MIA) ⬆️ | 12.9 (12.1) | 8% (5%) | 56% (42%) | 70% |  NE es 20º que más permite a RB (20.6) |
 | Malik Washington (WR, MIA) **Cuestionable** | 9.1 (7.3) | 25% (26%) | 5% (5%) | 82% |  NE es 13º que más permite a WR (32.1) |
 | Caleb Douglas (WR, MIA) 📈 *(se perdió 2 de los últimos 3)* | 6.8 (5.4) | 14% (18%) | — (—) | 68% |  NE es 13º que más permite a WR (32.1) |
@@ -1569,15 +1569,15 @@ _backfield: un solo hombre (Ollie Gordon II 76% de los toques) · top-2 de targe
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Tanner McKee (QB, PHI) *(se perdió 1 de los últimos 3)* | 13.6 (13.6) | — (—) | 5% (5%) | 100% | 🟢 WSH es 2º que más permite a QB (22.7) |
+| Tanner McKee (QB, PHI) *(se perdió 1 de los últimos 3)* | 13.6 (13.6) | 40.0 pases (40.0) | 5% (5%) | 100% | 🟢 WSH es 2º que más permite a QB (22.7) |
 | DeVonta Smith (WR, PHI) **Cuestionable** *(se perdió 2 de los últimos 3)* | 12.0 (9.9) | 32% (33%) | — (—) | 66% | 🟢 WSH es 6º que más permite a WR (35.9) |
 | Saquon Barkley (RB, PHI) **Cuestionable** *(se perdió 2 de los últimos 3)* | 10.9 (10.3) | 6% (6%) | 28% (34%) | 15% | 🔴 WSH es 26º que más permite a RB (19.0) |
 | Dallas Goedert (TE, PHI) | 10.2 (8.4) | 21% (19%) | — (—) | 74% | 🟢 WSH es 2º que más permite a TE (21.5) |
 | Makai Lemon (WR, PHI) 📈 | 8.2 (6.4) | 18% (16%) | — (1%) | 84% | 🟢 WSH es 6º que más permite a WR (35.9) |
 | Dontayvion Wicks (WR, PHI) **Cuestionable** *(se perdió 1 de los últimos 3)* | 6.0 (5.0) | 15% (17%) | — (—) | 73% | 🟢 WSH es 6º que más permite a WR (35.9) |
-| Jayden Daniels (QB, WSH) 📈 *(se perdió 1 de los últimos 3)* | 18.1 (18.1) | — (—) | 28% (23%) | 100% |  PHI es 9º que más permite a QB (20.0) |
+| Jayden Daniels (QB, WSH) 📈 *(se perdió 1 de los últimos 3)* | 18.1 (18.1) | 32.5 pases (29.0) | 28% (23%) | 100% |  PHI es 9º que más permite a QB (20.0) |
 | Stefon Diggs (WR, WSH) **Cuestionable** *(se perdió 1 de los últimos 3)* | 11.9 (9.9) | 23% (23%) | — (—) | 63% | 🟢 PHI es 2º que más permite a WR (40.1) |
 | Rachaad White (RB, WSH) 📈 *(se perdió 1 de los últimos 3)* | 10.8 (9.7) | 10% (10%) | 30% (25%) | 64% |  PHI es 17º que más permite a RB (21.2) |
 | Antonio Williams (WR, WSH) 📈 | 7.9 (6.5) | 16% (14%) | — (—) | 68% | 🟢 PHI es 2º que más permite a WR (40.1) |
@@ -1688,9 +1688,9 @@ _backfield: comité (Jacory Croskey-Merritt 50% de los toques) · top-2 de targe
 
 **Fantasy**
 
-| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
+| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|
-| Caleb Williams (QB, CHI) *(se perdió 1 de los últimos 3)* | 15.8 (15.8) | — (—) | 14% (18%) | 100% | 🔴 SEA es 31º que más permite a QB (11.6) |
+| Caleb Williams (QB, CHI) *(se perdió 1 de los últimos 3)* | 15.8 (15.8) | 34.5 pases (31.0) | 14% (18%) | 100% | 🔴 SEA es 31º que más permite a QB (11.6) |
 | D'Andre Swift (RB, CHI) | 13.1 (11.8) | 14% (12%) | 54% (47%) | 67% |  SEA es 18º que más permite a RB (20.9) |
 | Luther Burden III (WR, CHI) | 12.3 (10.0) | 17% (21%) | 6% (3%) | 58% | 🔴 SEA es 32º que más permite a WR (20.9) |
 | Rome Odunze (WR, CHI) | 10.2 (8.4) | 17% (17%) | — (—) | 96% | 🔴 SEA es 32º que más permite a WR (20.9) |
@@ -1698,7 +1698,7 @@ _backfield: comité (Jacory Croskey-Merritt 50% de los toques) · top-2 de targe
 | Kalif Raymond (WR, CHI) ⬇️ | 7.1 (5.7) | 8% (14%) | 1% (0%) | 61% | 🔴 SEA es 32º que más permite a WR (20.9) |
 | Kyle Monangai (RB, CHI) **Cuestionable** *(se perdió 3 de los últimos 3)* | 6.1 (5.7) | — (4%) | — (38%) | — |  SEA es 18º que más permite a RB (20.9) |
 | Jaxon Smith-Njigba (WR, SEA) | 25.1 (21.4) | 36% (36%) | 3% (1%) | 85% |  CHI es 22º que más permite a WR (29.2) |
-| Sam Darnold (QB, SEA) | 16.3 (16.3) | — (—) | 5% (5%) | 100% |  CHI es 10º que más permite a QB (19.9) |
+| Sam Darnold (QB, SEA) | 16.3 (16.3) | 36.0 pases (29.5) | 5% (5%) | 100% |  CHI es 10º que más permite a QB (19.9) |
 | Zach Charbonnet (RB, SEA) **Cuestionable** | 9.1 (8.4) | — (—) | — (—) | — | 🔴 CHI es 27º que más permite a RB (18.6) |
 | AJ Barner (TE, SEA) | 8.4 (6.8) | 14% (13%) | 3% (2%) | 89% |  CHI es 16º que más permite a TE (13.1) |
 | Emanuel Wilson (RB, SEA) 📈 | 8.0 (7.4) | 4% (4%) | 62% (54%) | 45% | 🔴 CHI es 27º que más permite a RB (18.6) |

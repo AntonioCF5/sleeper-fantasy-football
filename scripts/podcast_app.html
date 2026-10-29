@@ -784,7 +784,7 @@ function tabFantasy(g) {
     const ps = (g.players || []).filter(p => (p.team_code || p.team) === t || p.team === SL(t));
     h += `<div class="card"><h3>${logo(t)} ${t} <span class="chip">vs ${t === sh.away ? sh.home : sh.away}</span></h3>`;
     if (!ps.length) { h += `<div class="empty">Sin proyecciones.</div></div>`; continue; }
-    h += `<div class="table-wrap"><table><thead><tr><th>Jugador</th><th class="r">PPR</th><th class="c">Targets</th><th class="c">Acarreos</th><th class="c">Snaps</th><th class="c">Rival</th></tr></thead><tbody>`;
+    h += `<div class="table-wrap"><table><thead><tr><th>Jugador</th><th class="r">PPR</th><th class="c" title="QB: intentos de pase por partido">Targets · pases QB</th><th class="c">Acarreos</th><th class="c">Snaps</th><th class="c">Rival</th></tr></thead><tbody>`;
     for (const p of ps) {
       const s3 = p.share?.l3 || {}, ss = p.share?.season || {};
       const has3 = s3.g > 0;
@@ -795,17 +795,25 @@ function tabFantasy(g) {
           ${p.trending ? `<span class="chip accent" title="Agregados en Sleeper, 48h">📈 ${p.trending.toLocaleString("es-MX")}</span>` : ""}</div>
           ${p.share?.missed_l3 ? `<div class="faint" style="font-size:11px">se perdió ${p.share.missed_l3} de los últimos 3</div>` : ""}</td>
         <td class="r"><b>${fmt1(p.ppr)}</b><div class="faint" style="font-size:11px">half ${fmt1(p.half)}</div></td>
-        <td class="c">${p.pos === "QB" ? "—" : sh2("tgt")}</td><td class="c">${sh2("rush")}</td><td class="c">${has3 ? pct(s3.snap) : pct(ss.snap)}</td>
+        <td class="c">${p.pos === "QB" ? attCell(s3, ss, has3) : sh2("tgt")}</td><td class="c">${sh2("rush")}</td><td class="c">${has3 ? pct(s3.snap) : pct(ss.snap)}</td>
         <td class="c">${p.matchup_rank ? `${rankChip(p.matchup_rank)}<div class="faint" style="font-size:11px">${fmt1(p.fpa)} pts</div>` : "—"}</td></tr>`;
     }
     h += `</tbody></table></div>`;
     if (sh.dst?.[t]) h += `<div class="verdict"><b>DST ${t}:</b> ${esc(sh.dst[t])}</div>`;
     h += `</div>`;
   }
-  h += `<div class="card span-all faint" style="font-size:12px">% en negritas = últimos 3 partidos del equipo; en gris = temporada. Rival: lugar de 32 en puntos PPR permitidos a la posición (1º = el más blando). Proyecciones de Sleeper recalculadas en PPR / half.</div>`;
+  h += `<div class="card span-all faint" style="font-size:12px">% en negritas = últimos 3 partidos del equipo; en gris = temporada. QB: intentos de pase por partido (▲/▼ = 3 o más de diferencia contra la temporada). Rival: lugar de 32 en puntos PPR permitidos a la posición (1º = el más blando). Proyecciones de Sleeper recalculadas en PPR / half.</div>`;
   return h + `</div>`;
 }
 
+// QB volume: pass attempts per game, last 3 of the team (bold) vs season
+function attCell(s3, ss, has3) {
+  if (ss.att_g == null) return "—";
+  const d = has3 ? s3.att_g - ss.att_g : 0;
+  return `${has3 ? `<b>${fmt1(s3.att_g)}</b> ` : ""}<span class="faint">${fmt1(ss.att_g)}</span>
+    ${Math.abs(d) >= 3 ? `<span style="color:var(${d > 0 ? "--good" : "--bad"})">${d > 0 ? "▲" : "▼"}</span>` : ""}
+    <div class="faint" style="font-size:11px">pases/partido</div>`;
+}
 function barCell(v, rb = false) {
   if (!v || (v[0] == null && v[1] == null)) return `<td class="c faint">—</td>`;
   const [l3, sz] = v, cur = l3 ?? sz;
