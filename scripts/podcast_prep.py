@@ -329,11 +329,7 @@ def _pp(x):
     return f"{x:.0%}" if x else "—"
 
 
-def _pair(l3, sz, k):
-    return f"{_pp(l3.get(k))} ({_pp(sz.get(k))})" if l3.get("g") else f"— ({_pp(sz.get(k))})"
-
-
-def usage_table(t, proj):
+def usage_data(t, proj):
     """Per-team usage: backfield split + target tree, the numbers that back an argument on air.
     Routes run are not in any free 2026 feed (nflverse participation ends 2025);
     route participation comes from the research layer."""
@@ -344,19 +340,19 @@ def usage_table(t, proj):
     rec = sorted((p for p in ps if p["pos"] in ("WR", "TE") and max(key(p, "tgt")) >= 0.08),
                  key=lambda p: key(p, "tgt"), reverse=True)[:6]
     if not rbs and not rec:
-        return []
-    out = [f"*{t}*\n", "| Jugador | % snaps | % targets | Targets/partido | % yds aéreas compl. | % zona roja | % toques backfield |",
-           "|---|---|---|---|---|---|---|"]
+        return None
+    rows = []
     for p in rbs + rec:
         sh = p["share"]
         l3, sz = sh.get("l3") or {}, sh["season"]
-        rz = "rz_rush" if p["pos"] == "RB" else "rz_tgt"
-        name = f"{p['name']} ({p['pos']})" + (f" *(se perdió {sh['missed_l3']})*" if sh.get("missed_l3") else "")
-        tg = l3 if l3.get("g") else sz
-        out.append(f"| {name} | {_pair(l3, sz, 'snap')} | {_pair(l3, sz, 'tgt')} | {tg['tgt_g']:.1f} | "
-                   f"{'—' if p['pos'] == 'RB' else _pair(l3, sz, 'air')} | {_pair(l3, sz, rz)}"
-                   f"{' acarreos' if p['pos'] == 'RB' else ''} | {_pair(l3, sz, 'touch') if p['pos'] == 'RB' else '—'} |")
-    bits = []
+        pair = lambda k: [l3.get(k) if l3.get("g") else None, sz.get(k)]  # noqa: E731
+        rb = p["pos"] == "RB"
+        rows.append({"pid": p["pid"], "name": p["name"], "pos": p["pos"], "missed": sh.get("missed_l3") or 0,
+                     "snap": pair("snap"), "tgt": pair("tgt"), "tgt_g": (l3 if l3.get("g") else sz)["tgt_g"],
+                     "touch_g": (l3 if l3.get("g") else sz)["touch_g"],
+                     "air": None if rb else pair("air"), "rz": pair("rz_rush" if rb else "rz_tgt"),
+                     "rz_kind": "acarreos" if rb else "targets", "touch": pair("touch") if rb else None})
+    out = {"team": t, "rows": rows}
     if rbs:
         cur = lambda p: (p["share"].get("l3") or {}).get("touch") or p["share"]["season"]["touch"]  # noqa: E731
         top = cur(rbs[0])
@@ -364,11 +360,32 @@ def usage_table(t, proj):
         second = max((cur(p) for p in rbs[1:]), default=0)
         label = ("comité" if second >= 0.30 else "un solo hombre" if top >= 0.70
                  else "reparto claro" if top >= 0.55 else "comité")
-        bits.append(f"backfield: {label} ({rbs[0]['name']} {top:.0%} de los toques)")
+        out["backfield"] = {"label": label, "name": rbs[0]["name"], "share": top}
     if len(rec) >= 2:
         two = sum(((p["share"].get("l3") or {}).get("tgt") or p["share"]["season"]["tgt"]) for p in rec[:2])
-        bits.append(f"top-2 de targets: {two:.0%} del equipo"
-                    + (" — árbol concentrado" if two >= 0.50 else " — reparto abierto" if two < 0.38 else ""))
+        out["top2"] = {"share": two, "label": "árbol concentrado" if two >= 0.50 else "reparto abierto" if two < 0.38 else ""}
+    return out
+
+
+def usage_table(u):
+    if not u:
+        return []
+    out = [f"*{u['team']}*\n", "| Jugador | % snaps | % targets | Targets/partido | % yds aéreas compl. | % zona roja | % toques backfield |",
+           "|---|---|---|---|---|---|---|"]
+    pair = lambda v: f"{_pp(v[0]) if v[0] is not None else '—'} ({_pp(v[1])})"  # noqa: E731
+    for r in u["rows"]:
+        rb = r["pos"] == "RB"
+        name = f"{r['name']} ({r['pos']})" + (f" *(se perdió {r['missed']})*" if r["missed"] else "")
+        out.append(f"| {name} | {pair(r['snap'])} | {pair(r['tgt'])} | {r['tgt_g']:.1f} | "
+                   f"{'—' if rb else pair(r['air'])} | {pair(r['rz'])}{' acarreos' if rb else ''} | "
+                   f"{pair(r['touch']) if rb else '—'} |")
+    bits = []
+    if u.get("backfield"):
+        b = u["backfield"]
+        bits.append(f"backfield: {b['label']} ({b['name']} {b['share']:.0%} de los toques)")
+    if u.get("top2"):
+        bits.append(f"top-2 de targets: {u['top2']['share']:.0%} del equipo"
+                    + (f" — {u['top2']['label']}" if u["top2"]["label"] else ""))
     if bits:
         out.append("\n_" + " · ".join(bits) + "_\n")
     return out
@@ -808,10 +825,12 @@ def main():
                 bits.append(f"luego {next_opp[t]}")
             return ", ".join(bits)
         rows.append(("Situación", lambda t, R: spot(t)))
+        team_rows = [(label, fn(a, ra), fn(h, rh)) for label, fn in rows]
         L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
-        for label, fn in rows:
-            L.append(f"| {label} | {fn(a, ra)} | {fn(h, rh)} |")
+        for label, va, vh in team_rows:
+            L.append(f"| {label} | {va} | {vh} |")
         L.append("")
+        last5 = {t: list(reversed(((rec.get(t) or {}).get("log") or [])[-5:])) for t in (a, h)}
         for t in (a, h):
             log = (rec.get(t) or {}).get("log") or []
             if log:
@@ -829,16 +848,24 @@ def main():
                    "line": {h: spread, a: -spread} if spread is not None else {}}
             hl, hn, hdata = history_block(g, hist, ctx)
             L.extend(hl)
+            series = next((x.strip() for x in hl if "**Serie" in x), None)
+            notables = [txt for _, txt in sorted(hn, key=lambda x: -x[0])[:7]]
             slate_notes.extend((sc, f"{a} @ {h}: {txt}") for sc, txt in hn)
         else:
-            hdata = None
+            hdata, series, notables = None, None, []
 
         # injuries
+        injuries = {}
         for blk in s.get("injuries") or []:
             t = (blk.get("team") or {}).get("abbreviation")
             items = [i for i in blk.get("injuries") or [] if i.get("status") in ("Out", "Doubtful", "Questionable")]
             if not items:
                 continue
+            injuries[t] = [{"name": i["athlete"]["displayName"],
+                            "pos": (i["athlete"].get("position") or {}).get("abbreviation") or "",
+                            "status": STATUS_ES.get(i["status"], i["status"]),
+                            "body": body_es((i.get("details") or {}).get("type", "")) if (i.get("details") or {}).get("type") else ""}
+                           for i in items]
             txt = ", ".join(f"{i['athlete']['displayName']} {((i['athlete'].get('position') or {}).get('abbreviation') or '')}"
                             f" ({STATUS_ES.get(i['status'], i['status'])}{' — ' + body_es((i.get('details') or {}).get('type', '')) if (i.get('details') or {}).get('type') else ''})"
                             for i in items[:14])
@@ -881,10 +908,14 @@ def main():
                          f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))}) | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
                          f"{pct(l3.get('snap'))} | {mu} |")
                 game_players.append({**{k: p[k] for k in ("pid", "name", "pos", "team", "ppr", "half", "inj")},
+                                     "team_code": t, "opp": opp, "fpa": fp, "trend": trend.strip(),
+                                     "inj_es": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
                                      "matchup_rank": rk, "share": p["share"], "trending": trending.get(p["pid"])})
         L.append("\n**Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)\n")
+        usage = {t: usage_data(t, slr["proj"]) for t in (a, h)}
         for t in (a, h):
-            L.extend(usage_table(t, slr["proj"]))
+            L.extend(usage_table(usage[t]))
+        dst_lines = {}
         for t in (a, h):
             opp = h if t == a else a
             mine = slr["dst"].get(sl(t)) or {}
@@ -894,13 +925,28 @@ def main():
                          f"{tstats.get(opp, {}).get('passing.sacks') or 0:.0f} capturas recibidas, "
                          f"{tstats.get(opp, {}).get('miscellaneous.totalGiveaways') or 0:.0f} balones perdidos"
                          + (f", total implícito {imp_h if opp == h else imp_a:.1f}" if imp_h else ""))
+                dst_lines[t] = L[-1].split(":* ", 1)[1]
         L.append("\n---\n")
         sections.append("\n".join(L))
         data_games.append({"game": f"{a}@{h}", "kickoff": kick.isoformat(), "odds": o,
                            "p_market": p_mkt, "p_fpi": p_fpi, "srs_margin": srs_margin,
                            "fpi_margin": fpi_margin, "naive_total": naive_total,
                            "implied": {h: imp_h, a: imp_a}, "flag": flag, "players": game_players,
-                           "history": hdata})
+                           "history": hdata,
+                           "sheet": {
+                               "away": a, "home": h, "away_id": g["away_id"], "home_id": g["home_id"],
+                               "kick_mx": f"{fecha(kmx)}, {hora(kmx)}", "kick_et": hora(kick),
+                               "day": DIAS[kmx.weekday()], "venue": g["venue"],
+                               "surface": "pasto" if grass else "sintético", "weather": weather or None,
+                               "indoor": bool(g["indoor"]), "neutral": bool(g["neutral"]),
+                               "divisional": espn.DIVISION_OF.get(h) == espn.DIVISION_OF.get(a),
+                               "fav": fav, "fav_line": fav_line, "open_fav": open_fav,
+                               "line_txt": fmt_spread(fav, fav_line), "open_txt": fmt_spread(fav, open_fav) if open_fav is not None else None,
+                               "srs_line": fmt_spread(h, round(-srs_margin * 2) / 2) if srs_margin is not None else None,
+                               "verdict": verdict, "mkt_margin": mkt_margin,
+                               "team_rows": team_rows, "last5": last5, "injuries": injuries,
+                               "usage": usage, "dst": dst_lines, "series": series, "notables": notables,
+                               "md": "\n".join(L)}})
 
     out.append("## Cartelera\n")
     out.append("| Partido | Hora (CDMX) | Spread | Total | Implícitos | % local mercado | % local FPI | Línea SRS | |\n"
@@ -972,6 +1018,7 @@ def main():
         out.append(" · ".join(f"{p['name']} ({p['pos']}, {p['team']}) +{trending[p['pid']]:,}"
                               for p in sorted(tr, key=lambda p: -trending[p["pid"]])[:12]) + "\n")
     out.append("---\n")
+    slate_md = "\n".join(out[2:])
     out.extend(sections)
     out[-1] = out[-1].rstrip("-\n")
     out.append("\n*Método: SRS = margen ajustado por rival (tope ±21, ventaja de local 1.5, encogido n/(n+3)); "
@@ -987,8 +1034,9 @@ def main():
     dest = ROOT / "reports" / season / "podcast" / f"week{week:02d}"
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "podcast-prep.md").write_text("\n".join(out))
-    (dest / "data.json").write_text(json.dumps({"week": week, "season": season, "games": data_games},
-                                               indent=1, default=str))
+    (dest / "data.json").write_text(json.dumps({"week": week, "season": season, "generated": now.isoformat(),
+                                                "record": record, "byes": byes, "slate_md": slate_md,
+                                                "games": data_games}, indent=1, default=str))
     print(f"→ {dest / 'podcast-prep.md'}  ({len(upcoming)} partidos, {len(flags)} alertas de línea)")
 
 

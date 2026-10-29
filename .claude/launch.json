@@ -4,14 +4,31 @@
     {
       "name": "draft-dashboard-gallamijos",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["scripts/draft_dashboard.py", "1395839320077656064", "8787"],
+      "runtimeArgs": [
+        "scripts/draft_dashboard.py",
+        "1395839320077656064",
+        "8787"
+      ],
       "port": 8787
     },
     {
       "name": "draft-dashboard-mexica",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["scripts/draft_dashboard.py", "1385473470141313024", "8787"],
+      "runtimeArgs": [
+        "scripts/draft_dashboard.py",
+        "1385473470141313024",
+        "8787"
+      ],
       "port": 8787
+    },
+    {
+      "name": "podcast-app",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "scripts/podcast_app.py",
+        "8790"
+      ],
+      "port": 8790
     }
   ]
 }

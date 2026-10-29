@@ -196,6 +196,12 @@ tells the user to re-check news once before accepting.
   **El podcast es en español** (user 2026-10-28): el rundown se escribe en
   español de México (apodos de equipos, altas/bajas, horario CDMX + ET), y la
   hoja de datos (`podcast_prep.py`) también sale en español. Convenciones en el skill.
+  2026-10-28: tabla de uso por equipo (snaps, targets, yardas aéreas completadas,
+  zona roja, toques del backfield) y "Roles más grandes"; rutas corridas no tienen
+  fuente gratuita en 2026. **App local** `python3 scripts/podcast_app.py` (:8790,
+  launch config `podcast-app`): elegir partido y ver línea/modelos, equipos, historia,
+  fantasy, uso, lesiones, el segmento del guion y la hoja; botón Actualizar re-corre
+  podcast_prep.py. Lee data.json + rundown.md + podcast_picks.json en cada carga.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

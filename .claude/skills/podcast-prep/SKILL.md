@@ -100,6 +100,14 @@ What the sheet holds, and how to read it:
 - Slate-wide: top and bottom implied totals, softest matchups per position,
   usage risers, trending adds.
 
+**Browsing it:** `python3 scripts/podcast_app.py` (http://localhost:8790, launch
+config `podcast-app`) is the local app the user preps from. It shows one game at a time
+with tabs, and reads `data.json`, `rundown.md` and `podcast_picks.json` on every load.
+So keep the rundown's `### AWAY @ HOME` headers and its `- **El pick:**`,
+`- **Historia:**` and `- **Fantasy:**` bullets: the app pulls those into the matching
+tabs. Anything new the script prints goes into the game's `sheet` in `data.json` too,
+so the app can show it; the "Hoja completa" tab already renders the full markdown.
+
 ## 2. Research layer (what the script can't see)
 
 Delegate the web research to **2-3 parallel subagents** (4-6 games each,

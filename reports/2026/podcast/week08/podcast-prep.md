@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 8, 2026
 
-*Generado mié 28 oct, 9:36 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: HOU, NO, NYG, SF*
+*Generado mié 28 oct, 9:51 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: HOU, NO, NYG, SF*
 
 ## Cartelera
 
