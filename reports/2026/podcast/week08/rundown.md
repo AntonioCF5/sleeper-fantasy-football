@@ -29,7 +29,7 @@ Esta es la primera semana del registro. Cada pick desde hoy se lleva y se califi
 - **Fantasy:**
   - **Arranca:** Josh Jacobs. Carolina permite los segundos más puntos a corredores, él es el corredor de la goal line y sus snaps van a subir del 52%.
   - **Banca:** los alas cerradas de Carolina. Green Bay es la segunda defensa que menos permite a la posición.
-  - **Sorpresa:** Jalen Coker. Tiene el 20% de los targets y es el mejor receptor de Carolina cuando está sano; Green Bay es novena en puntos permitidos a receptores.
+  - **Sorpresa:** Jalen Coker. Tiene el 27% de los targets en sus dos últimos partidos y es el mejor receptor de Carolina cuando está sano; Green Bay es novena en puntos permitidos a receptores.
   - **Y además:** Chuba Hubbard es el único corredor que ha terminado top-12 todas las semanas. Va sí o sí.
 
 ### BAL @ BUF: Bills -3, total 54.5, domingo 12:00 pm CDMX (1:00 pm ET)
@@ -83,7 +83,7 @@ Esta es la primera semana del registro. Cada pick desde hoy se lleva y se califi
 - **Fantasy:**
   - **Partidazo:** T.J. Hockenson. Detroit es la defensa que más puntos permite a alas cerradas.
   - **Streaming:** Kyler Murray. Detroit es la que más permite a mariscales, y Murray subió a 22% de los acarreos del equipo.
-  - **Arranca:** Justin Jefferson. Detroit es la tercera más blanda contra receptores, aunque su porcentaje de targets bajó a 21%.
+  - **Arranca:** Justin Jefferson. Detroit es la tercera más blanda contra receptores, y él tiene el 26% de los targets en sus dos últimos partidos completos, igual que en toda la temporada.
   - **Trampas:** Goff y LaPorta. Minnesota es la defensa que menos permite en la liga a mariscales, corredores y alas cerradas. Si Gibbs juega, va de titular con 86% de los acarreos, pero bájale al techo.
 
 ### LV @ NYJ: Jets -1.5, total 45.5, domingo 12:00 pm CDMX (1:00 pm ET)
@@ -187,7 +187,7 @@ Esta es la primera semana del registro. Cada pick desde hoy se lleva y se califi
 - **Historia:** Nick Sirianni va 9-3 contra Washington, pero eso fue con Hurts. Va 10-20 contra la línea después de una derrota, y Filadelfia viene de una.
 - **El pick:** Gana Washington. Paso. El movimiento está justificado y el 6 se queda corto del 7, así que no hay ventaja de ningún lado.
 - **Fantasy:**
-  - **Arranca:** Jayden Daniels. Se lleva el 25% de los acarreos del equipo.
+  - **Arranca:** Jayden Daniels. Se lleva el 28% de los acarreos del equipo en sus últimos partidos.
   - **Arranca:** Stefon Diggs. Filadelfia es la segunda defensa que más permite a receptores.
   - **Explosión:** Antonio Williams. Terry McLaurin se perdió la temporada, y los Footballers dicen que esta semana se queda con la titularidad.
   - **Arranca:** Goedert. Washington es la segunda defensa que más permite a alas cerradas.

@@ -387,49 +387,49 @@
       },
       "missed_l3": 1
      },
-     "trending": 369775
+     "trending": 377090
     }
    ],
    "history": {
     "CAR": {
-     "Head coach": "Dave Canales",
-     "Coach career (since '99)": "16-25 \u00b7 ATS 22-19",
-     "Coach in this role": "as underdog: 14-20 \u00b7 ATS 20-14",
-     "Coach at home / on road": "road: 8-13 \u00b7 ATS 11-10",
-     "Coach vs this franchise": "1-0 \u00b7 ATS 1-0",
-     "Head-to-head vs opp HC": "1-0 \u00b7 ATS 1-0",
-     "Coach after a loss": "12-11 \u00b7 ATS 17-6",
-     "Coach on short rest": "\u2014",
-     "Coach in primetime": "1-1 \u00b7 ATS 1-1",
+     "Entrenador en jefe": "Dave Canales",
+     "Carrera del coach (desde '99)": "16-25 \u00b7 ATS 22-19",
+     "Coach en este rol": "como no favorito: 14-20 \u00b7 ATS 20-14",
+     "Coach de local / de visita": "visita: 8-13 \u00b7 ATS 11-10",
+     "Coach vs esta franquicia": "1-0 \u00b7 ATS 1-0",
+     "Cara a cara vs el otro coach": "1-0 \u00b7 ATS 1-0",
+     "Coach despu\u00e9s de derrota": "12-11 \u00b7 ATS 17-6",
+     "Coach con descanso corto": "\u2014",
+     "Coach en horario estelar": "1-1 \u00b7 ATS 1-1",
      "QB": "Bryce Young",
-     "QB career starts (since '99)": "16-32 \u00b7 ATS 21-25-2",
-     "QB vs this opponent": "1-1 \u00b7 ATS 2-0",
-     "QB in this role": "as underdog: 14-27 \u00b7 ATS 19-20-2",
-     "This season at home": "1-2 \u00b7 ATS 1-2 \u00b7 27.3-42.7",
-     "This season on the road": "2-1 \u00b7 ATS 2-1 \u00b7 25.7-12.7",
-     "Home edge, last 3 seasons": "+0.2 pts (home 8-11, road 8-13)",
-     "Pythagorean wins vs actual": "2.8 vs 3",
-     "One-score games (\u22648)": "1-1"
+     "QB, carrera como titular (desde '99)": "16-32 \u00b7 ATS 21-25-2",
+     "QB vs este rival": "1-1 \u00b7 ATS 2-0",
+     "QB en este rol": "como no favorito: 14-27 \u00b7 ATS 19-20-2",
+     "Esta temporada de local": "1-2 \u00b7 ATS 1-2 \u00b7 27.3-42.7",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 2-1 \u00b7 25.7-12.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+0.2 pts (local 8-11, visita 8-13)",
+     "Victorias pitag\u00f3ricas vs reales": "2.8 vs 3",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-1"
     },
     "GB": {
-     "Head coach": "Matt LaFleur",
-     "Coach career (since '99)": "83-49-1 \u00b7 ATS 70-61-2",
-     "Coach in this role": "as favorite: 60-27-1 \u00b7 ATS 42-45-1",
-     "Coach at home / on road": "home: 47-17 \u00b7 ATS 39-25",
-     "Coach vs this franchise": "3-1 \u00b7 ATS 1-3",
-     "Head-to-head vs opp HC": "0-1 \u00b7 ATS 0-1",
-     "Coach after a loss": "23-17-1 \u00b7 ATS 19-21-1",
-     "Coach on short rest": "6-4 \u00b7 ATS 6-4",
-     "Coach in primetime": "25-18-1 \u00b7 ATS 25-18-1",
+     "Entrenador en jefe": "Matt LaFleur",
+     "Carrera del coach (desde '99)": "83-49-1 \u00b7 ATS 70-61-2",
+     "Coach en este rol": "como favorito: 60-27-1 \u00b7 ATS 42-45-1",
+     "Coach de local / de visita": "local: 47-17 \u00b7 ATS 39-25",
+     "Coach vs esta franquicia": "3-1 \u00b7 ATS 1-3",
+     "Cara a cara vs el otro coach": "0-1 \u00b7 ATS 0-1",
+     "Coach despu\u00e9s de derrota": "23-17-1 \u00b7 ATS 19-21-1",
+     "Coach con descanso corto": "6-4 \u00b7 ATS 6-4",
+     "Coach en horario estelar": "25-18-1 \u00b7 ATS 25-18-1",
      "QB": "Jordan Love",
-     "QB career starts (since '99)": "32-26-1 \u00b7 ATS 27-30-2",
-     "QB vs this opponent": "1-1 \u00b7 ATS 0-2",
-     "QB in this role": "as favorite: 22-11-1 \u00b7 ATS 13-20-1",
-     "This season at home": "2-1 \u00b7 ATS 2-1 \u00b7 22.7-18.3",
-     "This season on the road": "2-2 \u00b7 ATS 1-2-1 \u00b7 19.0-22.5",
-     "Home edge, last 3 seasons": "+2.9 pts (home 13-7, road 11-9-1)",
-     "Pythagorean wins vs actual": "3.5 vs 4",
-     "One-score games (\u22648)": "2-1"
+     "QB, carrera como titular (desde '99)": "32-26-1 \u00b7 ATS 27-30-2",
+     "QB vs este rival": "1-1 \u00b7 ATS 0-2",
+     "QB en este rol": "como favorito: 22-11-1 \u00b7 ATS 13-20-1",
+     "Esta temporada de local": "2-1 \u00b7 ATS 2-1 \u00b7 22.7-18.3",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 1-2-1 \u00b7 19.0-22.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.9 pts (local 13-7, visita 11-9-1)",
+     "Victorias pitag\u00f3ricas vs reales": "3.5 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-1"
     }
    }
   },
@@ -789,7 +789,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 326583
+     "trending": 332154
     },
     {
      "pid": "11637",
@@ -815,7 +815,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 327231
+     "trending": 330687
     },
     {
      "pid": "6039",
@@ -898,41 +898,41 @@
    ],
    "history": {
     "BAL": {
-     "Head coach": "Jesse Minter",
-     "Coach career (since '99)": "4-3 \u00b7 ATS 2-4-1",
-     "Coach in this role": "as underdog: 1-1 \u00b7 ATS 1-1",
-     "Coach at home / on road": "road: 3-1 \u00b7 ATS 2-1-1",
-     "Coach vs this franchise": "\u2014",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a loss": "1-1 \u00b7 ATS 0-1-1",
+     "Entrenador en jefe": "Jesse Minter",
+     "Carrera del coach (desde '99)": "4-3 \u00b7 ATS 2-4-1",
+     "Coach en este rol": "como no favorito: 1-1 \u00b7 ATS 1-1",
+     "Coach de local / de visita": "visita: 3-1 \u00b7 ATS 2-1-1",
+     "Coach vs esta franquicia": "\u2014",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de derrota": "1-1 \u00b7 ATS 0-1-1",
      "QB": "Lamar Jackson",
-     "QB career starts (since '99)": "82-37 \u00b7 ATS 61-56-2",
-     "QB vs this opponent": "2-4 \u00b7 ATS 2-3-1",
-     "QB in this role": "as underdog: 10-6 \u00b7 ATS 12-3-1",
-     "This season at home": "1-2 \u00b7 ATS 0-3 \u00b7 18.0-25.7",
-     "This season on the road": "3-1 \u00b7 ATS 2-1-1 \u00b7 28.8-22.5",
-     "Home edge, last 3 seasons": "-2.4 pts (home 10-10, road 14-7)",
-     "Pythagorean wins vs actual": "3.5 vs 4",
-     "One-score games (\u22648)": "3-2"
+     "QB, carrera como titular (desde '99)": "82-37 \u00b7 ATS 61-56-2",
+     "QB vs este rival": "2-4 \u00b7 ATS 2-3-1",
+     "QB en este rol": "como no favorito: 10-6 \u00b7 ATS 12-3-1",
+     "Esta temporada de local": "1-2 \u00b7 ATS 0-3 \u00b7 18.0-25.7",
+     "Esta temporada de visita": "3-1 \u00b7 ATS 2-1-1 \u00b7 28.8-22.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-2.4 pts (local 10-10, visita 14-7)",
+     "Victorias pitag\u00f3ricas vs reales": "3.5 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "3-2"
     },
     "BUF": {
-     "Head coach": "Sean McDermott",
-     "Coach career (since '99)": "111-59 \u00b7 ATS 89-75-6",
-     "Coach in this role": "as favorite: 87-26 \u00b7 ATS 59-50-4",
-     "Coach at home / on road": "home: 64-21 \u00b7 ATS 44-38-3",
-     "Coach vs this franchise": "4-3 \u00b7 ATS 3-3-1",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a win": "68-41 \u00b7 ATS 54-52-3",
-     "Coach off a bye": "9-0 \u00b7 ATS 5-2-2",
+     "Entrenador en jefe": "Sean McDermott",
+     "Carrera del coach (desde '99)": "111-59 \u00b7 ATS 89-75-6",
+     "Coach en este rol": "como favorito: 87-26 \u00b7 ATS 59-50-4",
+     "Coach de local / de visita": "local: 64-21 \u00b7 ATS 44-38-3",
+     "Coach vs esta franquicia": "4-3 \u00b7 ATS 3-3-1",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de victoria": "68-41 \u00b7 ATS 54-52-3",
+     "Coach tras semana de descanso": "9-0 \u00b7 ATS 5-2-2",
      "QB": "Josh Allen",
-     "QB career starts (since '99)": "100-45 \u00b7 ATS 77-63-5",
-     "QB vs this opponent": "4-2 \u00b7 ATS 3-2-1",
-     "QB in this role": "as favorite: 80-24 \u00b7 ATS 53-48-3",
-     "This season at home": "2-1 \u00b7 ATS 2-1 \u00b7 30.3-25.3",
-     "This season on the road": "3-0 \u00b7 ATS 2-1 \u00b7 35.3-31.7",
-     "Home edge, last 3 seasons": "+3.4 pts (home 17-3, road 13-7)",
-     "Pythagorean wins vs actual": "3.5 vs 5",
-     "One-score games (\u22648)": "4-1"
+     "QB, carrera como titular (desde '99)": "100-45 \u00b7 ATS 77-63-5",
+     "QB vs este rival": "4-2 \u00b7 ATS 3-2-1",
+     "QB en este rol": "como favorito: 80-24 \u00b7 ATS 53-48-3",
+     "Esta temporada de local": "2-1 \u00b7 ATS 2-1 \u00b7 30.3-25.3",
+     "Esta temporada de visita": "3-0 \u00b7 ATS 2-1 \u00b7 35.3-31.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+3.4 pts (local 17-3, visita 13-7)",
+     "Victorias pitag\u00f3ricas vs reales": "3.5 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "4-1"
     }
    }
   },
@@ -957,7 +957,7 @@
     "CIN": 28.25,
     "TEN": 18.25
    },
-   "flag": "\ud83d\udea9 both models lean **CIN** (SRS +3.6, FPI +5.0 vs market, home-margin pts)",
+   "flag": "\ud83d\udea9 los dos modelos se inclinan por **CIN** (SRS +3.6, FPI +5.0 vs mercado, pts de margen del local)",
    "players": [
     {
      "pid": "12522",
@@ -1269,7 +1269,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 142824
+     "trending": 143988
     },
     {
      "pid": "4147",
@@ -1295,7 +1295,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 127728
+     "trending": 130748
     },
     {
      "pid": "6001",
@@ -1326,40 +1326,40 @@
    ],
    "history": {
     "TEN": {
-     "Head coach": "Robert Saleh",
-     "Coach career (since '99)": "24-51 \u00b7 ATS 29-45-1",
-     "Coach in this role": "as underdog of 7+: 3-16 \u00b7 ATS 9-10",
-     "Coach at home / on road": "road: 11-26 \u00b7 ATS 14-22-1",
-     "Coach vs this franchise": "1-1 \u00b7 ATS 1-1",
-     "Head-to-head vs opp HC": "1-1 \u00b7 ATS 1-1",
-     "Coach after a loss": "17-31 \u00b7 ATS 22-26",
+     "Entrenador en jefe": "Robert Saleh",
+     "Carrera del coach (desde '99)": "24-51 \u00b7 ATS 29-45-1",
+     "Coach en este rol": "como no favorito de 7+: 3-16 \u00b7 ATS 9-10",
+     "Coach de local / de visita": "visita: 11-26 \u00b7 ATS 14-22-1",
+     "Coach vs esta franquicia": "1-1 \u00b7 ATS 1-1",
+     "Cara a cara vs el otro coach": "1-1 \u00b7 ATS 1-1",
+     "Coach despu\u00e9s de derrota": "17-31 \u00b7 ATS 22-26",
      "QB": "Cam Ward",
-     "QB career starts (since '99)": "4-20 \u00b7 ATS 10-14",
-     "QB vs this opponent": "\u2014",
-     "QB in this role": "as underdog: 4-19 \u00b7 ATS 10-13",
-     "This season at home": "0-4 \u00b7 ATS 1-3 \u00b7 14.2-25.0",
-     "This season on the road": "1-2 \u00b7 ATS 2-1 \u00b7 17.0-18.7",
-     "Home edge, last 3 seasons": "+0.9 pts (home 2-19, road 5-15)",
-     "Pythagorean wins vs actual": "2.1 vs 1",
-     "One-score games (\u22648)": "1-4"
+     "QB, carrera como titular (desde '99)": "4-20 \u00b7 ATS 10-14",
+     "QB vs este rival": "\u2014",
+     "QB en este rol": "como no favorito: 4-19 \u00b7 ATS 10-13",
+     "Esta temporada de local": "0-4 \u00b7 ATS 1-3 \u00b7 14.2-25.0",
+     "Esta temporada de visita": "1-2 \u00b7 ATS 2-1 \u00b7 17.0-18.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+0.9 pts (local 2-19, visita 5-15)",
+     "Victorias pitag\u00f3ricas vs reales": "2.1 vs 1",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-4"
     },
     "CIN": {
-     "Head coach": "Zac Taylor",
-     "Coach career (since '99)": "61-67-1 \u00b7 ATS 70-55-4",
-     "Coach in this role": "as favorite of 7+: 10-6 \u00b7 ATS 6-8-2",
-     "Coach at home / on road": "home: 31-31 \u00b7 ATS 29-30-3",
-     "Coach vs this franchise": "4-1 \u00b7 ATS 4-1",
-     "Head-to-head vs opp HC": "1-1 \u00b7 ATS 1-1",
-     "Coach after a win": "33-24 \u00b7 ATS 33-22-2",
+     "Entrenador en jefe": "Zac Taylor",
+     "Carrera del coach (desde '99)": "61-67-1 \u00b7 ATS 70-55-4",
+     "Coach en este rol": "como favorito de 7+: 10-6 \u00b7 ATS 6-8-2",
+     "Coach de local / de visita": "local: 31-31 \u00b7 ATS 29-30-3",
+     "Coach vs esta franquicia": "4-1 \u00b7 ATS 4-1",
+     "Cara a cara vs el otro coach": "1-1 \u00b7 ATS 1-1",
+     "Coach despu\u00e9s de victoria": "33-24 \u00b7 ATS 33-22-2",
      "QB": "Joe Burrow",
-     "QB career starts (since '99)": "52-37-1 \u00b7 ATS 54-33-3",
-     "QB vs this opponent": "4-1 \u00b7 ATS 4-1",
-     "QB in this role": "as favorite: 39-17 \u00b7 ATS 32-21-3",
-     "This season at home": "1-1 \u00b7 ATS 1-1 \u00b7 25.0-24.5",
-     "This season on the road": "3-1 \u00b7 ATS 2-1-1 \u00b7 28.2-18.2",
-     "Home edge, last 3 seasons": "-1.0 pts (home 7-12, road 12-9)",
-     "Pythagorean wins vs actual": "4.0 vs 4",
-     "One-score games (\u22648)": "2-2"
+     "QB, carrera como titular (desde '99)": "52-37-1 \u00b7 ATS 54-33-3",
+     "QB vs este rival": "4-1 \u00b7 ATS 4-1",
+     "QB en este rol": "como favorito: 39-17 \u00b7 ATS 32-21-3",
+     "Esta temporada de local": "1-1 \u00b7 ATS 1-1 \u00b7 25.0-24.5",
+     "Esta temporada de visita": "3-1 \u00b7 ATS 2-1-1 \u00b7 28.2-18.2",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-1.0 pts (local 7-12, visita 12-9)",
+     "Victorias pitag\u00f3ricas vs reales": "4.0 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-2"
     }
    }
   },
@@ -1566,7 +1566,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 126024
+     "trending": null
     },
     {
      "pid": "13297",
@@ -1618,7 +1618,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 134760
+     "trending": 136032
     },
     {
      "pid": "6786",
@@ -1748,7 +1748,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 720712
+     "trending": 730248
     },
     {
      "pid": "8207",
@@ -1779,40 +1779,40 @@
    ],
    "history": {
     "ARI": {
-     "Head coach": "Jonathan Gannon",
-     "Coach career (since '99)": "17-41 \u00b7 ATS 29-29",
-     "Coach in this role": "as underdog of 7+: 5-15 \u00b7 ATS 10-10",
-     "Coach at home / on road": "road: 8-22 \u00b7 ATS 17-13",
-     "Coach vs this franchise": "2-0 \u00b7 ATS 2-0",
-     "Head-to-head vs opp HC": "1-0 \u00b7 ATS 1-0",
-     "Coach after a loss": "11-27 \u00b7 ATS 19-19",
+     "Entrenador en jefe": "Jonathan Gannon",
+     "Carrera del coach (desde '99)": "17-41 \u00b7 ATS 29-29",
+     "Coach en este rol": "como no favorito de 7+: 5-15 \u00b7 ATS 10-10",
+     "Coach de local / de visita": "visita: 8-22 \u00b7 ATS 17-13",
+     "Coach vs esta franquicia": "2-0 \u00b7 ATS 2-0",
+     "Cara a cara vs el otro coach": "1-0 \u00b7 ATS 1-0",
+     "Coach despu\u00e9s de derrota": "11-27 \u00b7 ATS 19-19",
      "QB": "Jacoby Brissett",
-     "QB career starts (since '99)": "22-50 \u00b7 ATS 33-37-2",
-     "QB vs this opponent": "1-0 \u00b7 ATS 1-0",
-     "QB in this role": "as underdog: 12-42 \u00b7 ATS 24-28-2",
-     "This season at home": "0-3 \u00b7 ATS 0-3 \u00b7 14.7-35.3",
-     "This season on the road": "2-2 \u00b7 ATS 3-1 \u00b7 24.5-25.5",
-     "Home edge, last 3 seasons": "+1.6 pts (home 7-13, road 6-15)",
-     "Pythagorean wins vs actual": "2.0 vs 2",
-     "One-score games (\u22648)": "1-1"
+     "QB, carrera como titular (desde '99)": "22-50 \u00b7 ATS 33-37-2",
+     "QB vs este rival": "1-0 \u00b7 ATS 1-0",
+     "QB en este rol": "como no favorito: 12-42 \u00b7 ATS 24-28-2",
+     "Esta temporada de local": "0-3 \u00b7 ATS 0-3 \u00b7 14.7-35.3",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 3-1 \u00b7 24.5-25.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+1.6 pts (local 7-13, visita 6-15)",
+     "Victorias pitag\u00f3ricas vs reales": "2.0 vs 2",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-1"
     },
     "DAL": {
-     "Head coach": "Brian Schottenheimer",
-     "Coach career (since '99)": "10-13-1 \u00b7 ATS 10-13-1",
-     "Coach in this role": "as favorite of 7+: 1-1 \u00b7 ATS 0-2",
-     "Coach at home / on road": "home: 5-4-1 \u00b7 ATS 5-5",
-     "Coach vs this franchise": "0-1 \u00b7 ATS 0-1",
-     "Head-to-head vs opp HC": "0-1 \u00b7 ATS 0-1",
-     "Coach after a win": "2-7 \u00b7 ATS 2-6-1",
+     "Entrenador en jefe": "Brian Schottenheimer",
+     "Carrera del coach (desde '99)": "10-13-1 \u00b7 ATS 10-13-1",
+     "Coach en este rol": "como favorito de 7+: 1-1 \u00b7 ATS 0-2",
+     "Coach de local / de visita": "local: 5-4-1 \u00b7 ATS 5-5",
+     "Coach vs esta franquicia": "0-1 \u00b7 ATS 0-1",
+     "Cara a cara vs el otro coach": "0-1 \u00b7 ATS 0-1",
+     "Coach despu\u00e9s de victoria": "2-7 \u00b7 ATS 2-6-1",
      "QB": "Dak Prescott",
-     "QB career starts (since '99)": "88-63-1 \u00b7 ATS 76-72-4",
-     "QB vs this opponent": "1-3 \u00b7 ATS 1-3",
-     "QB in this role": "as favorite: 70-36 \u00b7 ATS 53-50-3",
-     "This season at home": "1-1 \u00b7 ATS 1-1 \u00b7 26.5-22.0",
-     "This season on the road": "2-3 \u00b7 ATS 2-2-1 \u00b7 27.8-26.6",
-     "Home edge, last 3 seasons": "-2.3 pts (home 7-11-1, road 10-12)",
-     "Pythagorean wins vs actual": "3.8 vs 3",
-     "One-score games (\u22648)": "1-3"
+     "QB, carrera como titular (desde '99)": "88-63-1 \u00b7 ATS 76-72-4",
+     "QB vs este rival": "1-3 \u00b7 ATS 1-3",
+     "QB en este rol": "como favorito: 70-36 \u00b7 ATS 53-50-3",
+     "Esta temporada de local": "1-1 \u00b7 ATS 1-1 \u00b7 26.5-22.0",
+     "Esta temporada de visita": "2-3 \u00b7 ATS 2-2-1 \u00b7 27.8-26.6",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-2.3 pts (local 7-11-1, visita 10-12)",
+     "Victorias pitag\u00f3ricas vs reales": "3.8 vs 3",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-3"
     }
    }
   },
@@ -1889,7 +1889,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 154856
+     "trending": 157880
     },
     {
      "pid": "5844",
@@ -1915,7 +1915,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 144690
+     "trending": 145774
     },
     {
      "pid": "8408",
@@ -1941,7 +1941,7 @@
       },
       "missed_l3": 2
      },
-     "trending": 172355
+     "trending": 174720
     },
     {
      "pid": "4199",
@@ -2206,42 +2206,42 @@
    ],
    "history": {
     "MIN": {
-     "Head coach": "Kevin O'Connell",
-     "Coach career (since '99)": "49-27 \u00b7 ATS 38-33-5",
-     "Coach in this role": "as underdog: 13-16 \u00b7 ATS 14-13-2",
-     "Coach at home / on road": "road: 25-14 \u00b7 ATS 21-13-5",
-     "Coach vs this franchise": "3-5 \u00b7 ATS 2-6",
-     "Head-to-head vs opp HC": "3-5 \u00b7 ATS 2-6",
-     "Coach after a win": "33-14 \u00b7 ATS 25-19-3",
-     "Coach in division games": "16-10 \u00b7 ATS 13-12-1",
+     "Entrenador en jefe": "Kevin O'Connell",
+     "Carrera del coach (desde '99)": "49-27 \u00b7 ATS 38-33-5",
+     "Coach en este rol": "como no favorito: 13-16 \u00b7 ATS 14-13-2",
+     "Coach de local / de visita": "visita: 25-14 \u00b7 ATS 21-13-5",
+     "Coach vs esta franquicia": "3-5 \u00b7 ATS 2-6",
+     "Cara a cara vs el otro coach": "3-5 \u00b7 ATS 2-6",
+     "Coach despu\u00e9s de victoria": "33-14 \u00b7 ATS 25-19-3",
+     "Coach en partidos divisionales": "16-10 \u00b7 ATS 13-12-1",
      "QB": "Kyler Murray",
-     "QB career starts (since '99)": "42-49-1 \u00b7 ATS 49-41-2",
-     "QB vs this opponent": "0-3-1 \u00b7 ATS 1-3",
-     "QB in this role": "as underdog: 22-31-1 \u00b7 ATS 34-18-2",
-     "This season at home": "3-0 \u00b7 ATS 1-2 \u00b7 23.3-14.0",
-     "This season on the road": "3-0 \u00b7 ATS 3-0 \u00b7 18.3-10.7",
-     "Home edge, last 3 seasons": "+5.0 pts (home 14-5, road 15-6)",
-     "Pythagorean wins vs actual": "4.7 vs 6",
-     "One-score games (\u22648)": "4-0"
+     "QB, carrera como titular (desde '99)": "42-49-1 \u00b7 ATS 49-41-2",
+     "QB vs este rival": "0-3-1 \u00b7 ATS 1-3",
+     "QB en este rol": "como no favorito: 22-31-1 \u00b7 ATS 34-18-2",
+     "Esta temporada de local": "3-0 \u00b7 ATS 1-2 \u00b7 23.3-14.0",
+     "Esta temporada de visita": "3-0 \u00b7 ATS 3-0 \u00b7 18.3-10.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+5.0 pts (local 14-5, visita 15-6)",
+     "Victorias pitag\u00f3ricas vs reales": "4.7 vs 6",
+     "Partidos de una posesi\u00f3n (\u22648)": "4-0"
     },
     "DET": {
-     "Head coach": "Dan Campbell",
-     "Coach career (since '99)": "54-40-1 \u00b7 ATS 57-35-3",
-     "Coach in this role": "as favorite: 41-13 \u00b7 ATS 32-20-2",
-     "Coach at home / on road": "home: 31-17 \u00b7 ATS 27-18-3",
-     "Coach vs this franchise": "6-4 \u00b7 ATS 8-2",
-     "Head-to-head vs opp HC": "5-3 \u00b7 ATS 6-2",
-     "Coach after a win": "29-21 \u00b7 ATS 28-21-1",
-     "Coach in division games": "20-11 \u00b7 ATS 18-11-2",
+     "Entrenador en jefe": "Dan Campbell",
+     "Carrera del coach (desde '99)": "54-40-1 \u00b7 ATS 57-35-3",
+     "Coach en este rol": "como favorito: 41-13 \u00b7 ATS 32-20-2",
+     "Coach de local / de visita": "local: 31-17 \u00b7 ATS 27-18-3",
+     "Coach vs esta franquicia": "6-4 \u00b7 ATS 8-2",
+     "Cara a cara vs el otro coach": "5-3 \u00b7 ATS 6-2",
+     "Coach despu\u00e9s de victoria": "29-21 \u00b7 ATS 28-21-1",
+     "Coach en partidos divisionales": "20-11 \u00b7 ATS 18-11-2",
      "QB": "Jared Goff",
-     "QB career starts (since '99)": "98-67-1 \u00b7 ATS 91-70-5",
-     "QB vs this opponent": "7-5 \u00b7 ATS 8-4",
-     "QB in this role": "as favorite: 80-29 \u00b7 ATS 61-44-4",
-     "This season at home": "3-0 \u00b7 ATS 0-2-1 \u00b7 27.3-23.7",
-     "This season on the road": "1-2 \u00b7 ATS 1-2 \u00b7 34.0-31.3",
-     "Home edge, last 3 seasons": "+2.7 pts (home 15-5, road 13-7)",
-     "Pythagorean wins vs actual": "3.4 vs 4",
-     "One-score games (\u22648)": "3-1"
+     "QB, carrera como titular (desde '99)": "98-67-1 \u00b7 ATS 91-70-5",
+     "QB vs este rival": "7-5 \u00b7 ATS 8-4",
+     "QB en este rol": "como favorito: 80-29 \u00b7 ATS 61-44-4",
+     "Esta temporada de local": "3-0 \u00b7 ATS 0-2-1 \u00b7 27.3-23.7",
+     "Esta temporada de visita": "1-2 \u00b7 ATS 1-2 \u00b7 34.0-31.3",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.7 pts (local 15-5, visita 13-7)",
+     "Victorias pitag\u00f3ricas vs reales": "3.4 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "3-1"
     }
    }
   },
@@ -2318,7 +2318,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 357768
+     "trending": 362144
     },
     {
      "pid": "12527",
@@ -2370,7 +2370,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 523344
+     "trending": 525486
     },
     {
      "pid": "9482",
@@ -2500,7 +2500,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 165640
+     "trending": 168028
     },
     {
      "pid": "8146",
@@ -2575,7 +2575,7 @@
       },
       "missed_l3": 1
      },
-     "trending": 436752
+     "trending": 435128
     },
     {
      "pid": "11576",
@@ -2679,45 +2679,45 @@
       },
       "missed_l3": 0
      },
-     "trending": 355350
+     "trending": 358530
     }
    ],
    "history": {
     "LV": {
-     "Head coach": "Klint Kubliak",
-     "Coach career (since '99)": "3-4 \u00b7 ATS 5-2",
-     "Coach in this role": "as underdog: 2-4 \u00b7 ATS 4-2",
-     "Coach at home / on road": "road: 2-1 \u00b7 ATS 2-1",
-     "Coach vs this franchise": "\u2014",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a loss": "0-3 \u00b7 ATS 1-2",
+     "Entrenador en jefe": "Klint Kubliak",
+     "Carrera del coach (desde '99)": "3-4 \u00b7 ATS 5-2",
+     "Coach en este rol": "como no favorito: 2-4 \u00b7 ATS 4-2",
+     "Coach de local / de visita": "visita: 2-1 \u00b7 ATS 2-1",
+     "Coach vs esta franquicia": "\u2014",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de derrota": "0-3 \u00b7 ATS 1-2",
      "QB": "Kirk Cousins",
-     "QB career starts (since '99)": "92-84-2 \u00b7 ATS 87-88-3",
-     "QB vs this opponent": "2-2 \u00b7 ATS 2-2",
-     "QB in this role": "as underdog: 31-55-1 \u00b7 ATS 45-41-1",
-     "This season at home": "1-3 \u00b7 ATS 3-1 \u00b7 26.2-27.8",
-     "This season on the road": "2-1 \u00b7 ATS 2-1 \u00b7 26.0-28.7",
-     "Home edge, last 3 seasons": "+1.9 pts (home 5-16, road 5-15)",
-     "Pythagorean wins vs actual": "3.2 vs 3",
-     "One-score games (\u22648)": "1-2"
+     "QB, carrera como titular (desde '99)": "92-84-2 \u00b7 ATS 87-88-3",
+     "QB vs este rival": "2-2 \u00b7 ATS 2-2",
+     "QB en este rol": "como no favorito: 31-55-1 \u00b7 ATS 45-41-1",
+     "Esta temporada de local": "1-3 \u00b7 ATS 3-1 \u00b7 26.2-27.8",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 2-1 \u00b7 26.0-28.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+1.9 pts (local 5-16, visita 5-15)",
+     "Victorias pitag\u00f3ricas vs reales": "3.2 vs 3",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-2"
     },
     "NYJ": {
-     "Head coach": "Aaron Glenn",
-     "Coach career (since '99)": "5-19 \u00b7 ATS 11-12-1",
-     "Coach in this role": "as favorite: 1-3 \u00b7 ATS 1-3",
-     "Coach at home / on road": "home: 3-8 \u00b7 ATS 5-6",
-     "Coach vs this franchise": "\u2014",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a loss": "3-14 \u00b7 ATS 6-10-1",
+     "Entrenador en jefe": "Aaron Glenn",
+     "Carrera del coach (desde '99)": "5-19 \u00b7 ATS 11-12-1",
+     "Coach en este rol": "como favorito: 1-3 \u00b7 ATS 1-3",
+     "Coach de local / de visita": "local: 3-8 \u00b7 ATS 5-6",
+     "Coach vs esta franquicia": "\u2014",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de derrota": "3-14 \u00b7 ATS 6-10-1",
      "QB": "Geno Smith",
-     "QB career starts (since '99)": "44-62 \u00b7 ATS 48-53-5",
-     "QB vs this opponent": "2-2 \u00b7 ATS 2-2",
-     "QB in this role": "as favorite: 24-13 \u00b7 ATS 13-22-2",
-     "This season at home": "1-2 \u00b7 ATS 2-1 \u00b7 19.7-20.0",
-     "This season on the road": "1-3 \u00b7 ATS 2-1-1 \u00b7 19.5-22.5",
-     "Home edge, last 3 seasons": "+3.3 pts (home 6-13, road 4-18)",
-     "Pythagorean wins vs actual": "3.1 vs 2",
-     "One-score games (\u22648)": "1-4"
+     "QB, carrera como titular (desde '99)": "44-62 \u00b7 ATS 48-53-5",
+     "QB vs este rival": "2-2 \u00b7 ATS 2-2",
+     "QB en este rol": "como favorito: 24-13 \u00b7 ATS 13-22-2",
+     "Esta temporada de local": "1-2 \u00b7 ATS 2-1 \u00b7 19.7-20.0",
+     "Esta temporada de visita": "1-3 \u00b7 ATS 2-1-1 \u00b7 19.5-22.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+3.3 pts (local 6-13, visita 4-18)",
+     "Victorias pitag\u00f3ricas vs reales": "3.1 vs 2",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-4"
     }
    }
   },
@@ -2846,7 +2846,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 1014957
+     "trending": 1014291
     },
     {
      "pid": "12512",
@@ -2898,7 +2898,7 @@
       },
       "missed_l3": 2
      },
-     "trending": 338965
+     "trending": 339970
     },
     {
      "pid": "6783",
@@ -3080,7 +3080,7 @@
       },
       "missed_l3": 1
      },
-     "trending": 209265
+     "trending": 211580
     },
     {
      "pid": "9479",
@@ -3111,42 +3111,42 @@
    ],
    "history": {
     "CLE": {
-     "Head coach": "Todd Monken",
-     "Coach career (since '99)": "5-2 \u00b7 ATS 5-2",
-     "Coach in this role": "as underdog: 4-2 \u00b7 ATS 4-2",
-     "Coach at home / on road": "road: 2-2 \u00b7 ATS 2-2",
-     "Coach vs this franchise": "1-0 \u00b7 ATS 1-0",
-     "Head-to-head vs opp HC": "1-0 \u00b7 ATS 1-0",
-     "Coach after a win": "3-1 \u00b7 ATS 3-1",
-     "Coach in division games": "2-0 \u00b7 ATS 2-0",
+     "Entrenador en jefe": "Todd Monken",
+     "Carrera del coach (desde '99)": "5-2 \u00b7 ATS 5-2",
+     "Coach en este rol": "como no favorito: 4-2 \u00b7 ATS 4-2",
+     "Coach de local / de visita": "visita: 2-2 \u00b7 ATS 2-2",
+     "Coach vs esta franquicia": "1-0 \u00b7 ATS 1-0",
+     "Cara a cara vs el otro coach": "1-0 \u00b7 ATS 1-0",
+     "Coach despu\u00e9s de victoria": "3-1 \u00b7 ATS 3-1",
+     "Coach en partidos divisionales": "2-0 \u00b7 ATS 2-0",
      "QB": "Deshaun Watson",
-     "QB career starts (since '99)": "43-39 \u00b7 ATS 40-40-2",
-     "QB vs this opponent": "1-3 \u00b7 ATS 1-3",
-     "QB in this role": "as underdog: 18-25 \u00b7 ATS 25-18",
-     "This season at home": "3-0 \u00b7 ATS 3-0 \u00b7 20.3-17.3",
-     "This season on the road": "2-2 \u00b7 ATS 2-2 \u00b7 18.0-23.5",
-     "Home edge, last 3 seasons": "+4.1 pts (home 8-11, road 5-17)",
-     "Pythagorean wins vs actual": "3.1 vs 5",
-     "One-score games (\u22648)": "5-1"
+     "QB, carrera como titular (desde '99)": "43-39 \u00b7 ATS 40-40-2",
+     "QB vs este rival": "1-3 \u00b7 ATS 1-3",
+     "QB en este rol": "como no favorito: 18-25 \u00b7 ATS 25-18",
+     "Esta temporada de local": "3-0 \u00b7 ATS 3-0 \u00b7 20.3-17.3",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 2-2 \u00b7 18.0-23.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+4.1 pts (local 8-11, visita 5-17)",
+     "Victorias pitag\u00f3ricas vs reales": "3.1 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "5-1"
     },
     "PIT": {
-     "Head coach": "Mike McCarthy",
-     "Coach career (since '99)": "190-125-2 \u00b7 ATS 173-136-8",
-     "Coach in this role": "as favorite: 150-53-1 \u00b7 ATS 119-80-5",
-     "Coach at home / on road": "home: 107-47-2 \u00b7 ATS 86-65-5",
-     "Coach vs this franchise": "4-2 \u00b7 ATS 4-2",
-     "Head-to-head vs opp HC": "0-1 \u00b7 ATS 0-1",
-     "Coach after a win": "112-73-1 \u00b7 ATS 101-80-5",
-     "Coach in division games": "74-34-2 \u00b7 ATS 67-43",
+     "Entrenador en jefe": "Mike McCarthy",
+     "Carrera del coach (desde '99)": "190-125-2 \u00b7 ATS 173-136-8",
+     "Coach en este rol": "como favorito: 150-53-1 \u00b7 ATS 119-80-5",
+     "Coach de local / de visita": "local: 107-47-2 \u00b7 ATS 86-65-5",
+     "Coach vs esta franquicia": "4-2 \u00b7 ATS 4-2",
+     "Cara a cara vs el otro coach": "0-1 \u00b7 ATS 0-1",
+     "Coach despu\u00e9s de victoria": "112-73-1 \u00b7 ATS 101-80-5",
+     "Coach en partidos divisionales": "74-34-2 \u00b7 ATS 67-43",
      "QB": "Aaron Rodgers",
-     "QB career starts (since '99)": "179-105-1 \u00b7 ATS 160-120-5",
-     "QB vs this opponent": "4-2 \u00b7 ATS 3-3",
-     "QB in this role": "as favorite: 148-58 \u00b7 ATS 118-85-3",
-     "This season at home": "3-0 \u00b7 ATS 3-0 \u00b7 28.0-20.7",
-     "This season on the road": "2-2 \u00b7 ATS 2-2 \u00b7 17.2-19.0",
-     "Home edge, last 3 seasons": "+2.3 pts (home 13-6, road 12-10)",
-     "Pythagorean wins vs actual": "3.9 vs 5",
-     "One-score games (\u22648)": "4-1"
+     "QB, carrera como titular (desde '99)": "179-105-1 \u00b7 ATS 160-120-5",
+     "QB vs este rival": "4-2 \u00b7 ATS 3-3",
+     "QB en este rol": "como favorito: 148-58 \u00b7 ATS 118-85-3",
+     "Esta temporada de local": "3-0 \u00b7 ATS 3-0 \u00b7 28.0-20.7",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 2-2 \u00b7 17.2-19.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.3 pts (local 13-6, visita 12-10)",
+     "Victorias pitag\u00f3ricas vs reales": "3.9 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "4-1"
     }
    }
   },
@@ -3275,7 +3275,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 207389
+     "trending": 207914
     },
     {
      "pid": "8119",
@@ -3566,42 +3566,42 @@
    ],
    "history": {
     "ATL": {
-     "Head coach": "Raheem Morris",
-     "Coach career (since '99)": "40-60 \u00b7 ATS 44-55-1",
-     "Coach in this role": "as underdog: 22-47 \u00b7 ATS 32-37",
-     "Coach at home / on road": "road: 21-31 \u00b7 ATS 28-23-1",
-     "Coach vs this franchise": "3-3 \u00b7 ATS 4-2",
-     "Head-to-head vs opp HC": "3-1 \u00b7 ATS 3-1",
-     "Coach after a win": "17-20 \u00b7 ATS 18-19",
-     "Coach in division games": "15-22 \u00b7 ATS 16-21",
+     "Entrenador en jefe": "Raheem Morris",
+     "Carrera del coach (desde '99)": "40-60 \u00b7 ATS 44-55-1",
+     "Coach en este rol": "como no favorito: 22-47 \u00b7 ATS 32-37",
+     "Coach de local / de visita": "visita: 21-31 \u00b7 ATS 28-23-1",
+     "Coach vs esta franquicia": "3-3 \u00b7 ATS 4-2",
+     "Cara a cara vs el otro coach": "3-1 \u00b7 ATS 3-1",
+     "Coach despu\u00e9s de victoria": "17-20 \u00b7 ATS 18-19",
+     "Coach en partidos divisionales": "15-22 \u00b7 ATS 16-21",
      "QB": "Michael Penix Jr.",
-     "QB career starts (since '99)": "4-4 \u00b7 ATS 4-4",
-     "QB vs this opponent": "\u2014",
-     "QB in this role": "as underdog: 3-2 \u00b7 ATS 3-2",
-     "This season at home": "1-3 \u00b7 ATS 1-3 \u00b7 19.5-28.8",
-     "This season on the road": "2-1 \u00b7 ATS 2-1 \u00b7 31.0-19.3",
-     "Home edge, last 3 seasons": "-1.7 pts (home 9-12, road 10-10)",
-     "Pythagorean wins vs actual": "3.5 vs 3",
-     "One-score games (\u22648)": "0-3"
+     "QB, carrera como titular (desde '99)": "4-4 \u00b7 ATS 4-4",
+     "QB vs este rival": "\u2014",
+     "QB en este rol": "como no favorito: 3-2 \u00b7 ATS 3-2",
+     "Esta temporada de local": "1-3 \u00b7 ATS 1-3 \u00b7 19.5-28.8",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 2-1 \u00b7 31.0-19.3",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-1.7 pts (local 9-12, visita 10-10)",
+     "Victorias pitag\u00f3ricas vs reales": "3.5 vs 3",
+     "Partidos de una posesi\u00f3n (\u22648)": "0-3"
     },
     "TB": {
-     "Head coach": "Todd Bowles",
-     "Coach career (since '99)": "64-82 \u00b7 ATS 64-76-6",
-     "Coach in this role": "as favorite: 39-27 \u00b7 ATS 27-37-2",
-     "Coach at home / on road": "home: 33-40 \u00b7 ATS 29-41-3",
-     "Coach vs this franchise": "3-6 \u00b7 ATS 3-6",
-     "Head-to-head vs opp HC": "1-3 \u00b7 ATS 1-3",
-     "Coach after a win": "26-34 \u00b7 ATS 25-32-3",
-     "Coach in division games": "26-26 \u00b7 ATS 23-27-2",
+     "Entrenador en jefe": "Todd Bowles",
+     "Carrera del coach (desde '99)": "64-82 \u00b7 ATS 64-76-6",
+     "Coach en este rol": "como favorito: 39-27 \u00b7 ATS 27-37-2",
+     "Coach de local / de visita": "local: 33-40 \u00b7 ATS 29-41-3",
+     "Coach vs esta franquicia": "3-6 \u00b7 ATS 3-6",
+     "Cara a cara vs el otro coach": "1-3 \u00b7 ATS 1-3",
+     "Coach despu\u00e9s de victoria": "26-34 \u00b7 ATS 25-32-3",
+     "Coach en partidos divisionales": "26-26 \u00b7 ATS 23-27-2",
      "QB": "Baker Mayfield",
-     "QB career starts (since '99)": "62-67 \u00b7 ATS 57-71-1",
-     "QB vs this opponent": "3-4 \u00b7 ATS 3-4",
-     "QB in this role": "as favorite: 38-26 \u00b7 ATS 22-41-1",
-     "This season at home": "0-4 \u00b7 ATS 0-3-1 \u00b7 17.0-22.2",
-     "This season on the road": "2-1 \u00b7 ATS 2-1 \u00b7 31.3-20.7",
-     "Home edge, last 3 seasons": "-0.7 pts (home 9-12, road 11-9)",
-     "Pythagorean wins vs actual": "3.8 vs 2",
-     "One-score games (\u22648)": "1-5"
+     "QB, carrera como titular (desde '99)": "62-67 \u00b7 ATS 57-71-1",
+     "QB vs este rival": "3-4 \u00b7 ATS 3-4",
+     "QB en este rol": "como favorito: 38-26 \u00b7 ATS 22-41-1",
+     "Esta temporada de local": "0-4 \u00b7 ATS 0-3-1 \u00b7 17.0-22.2",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 2-1 \u00b7 31.3-20.7",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-0.7 pts (local 9-12, visita 11-9)",
+     "Victorias pitag\u00f3ricas vs reales": "3.8 vs 2",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-5"
     }
    }
   },
@@ -3782,7 +3782,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 1496264
+     "trending": 1499144
     },
     {
      "pid": "3155",
@@ -3912,7 +3912,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 953451
+     "trending": 962172
     },
     {
      "pid": "5947",
@@ -3938,7 +3938,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 306570
+     "trending": 308250
     },
     {
      "pid": "10219",
@@ -3964,7 +3964,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 174069
+     "trending": 177300
     },
     {
      "pid": "13394",
@@ -4021,43 +4021,43 @@
    ],
    "history": {
     "IND": {
-     "Head coach": "Shane Steichen",
-     "Coach career (since '99)": "27-31 \u00b7 ATS 31-27",
-     "Coach in this role": "as underdog of 7+: 1-3 \u00b7 ATS 3-1",
-     "Coach at home / on road": "road: 12-18 \u00b7 ATS 17-13",
-     "Coach vs this franchise": "1-5 \u00b7 ATS 1-5",
-     "Head-to-head vs opp HC": "0-2 \u00b7 ATS 0-2",
-     "Coach after a loss": "14-14 \u00b7 ATS 15-13",
-     "Coach in division games": "9-11 \u00b7 ATS 12-8",
+     "Entrenador en jefe": "Shane Steichen",
+     "Carrera del coach (desde '99)": "27-31 \u00b7 ATS 31-27",
+     "Coach en este rol": "como no favorito de 7+: 1-3 \u00b7 ATS 3-1",
+     "Coach de local / de visita": "visita: 12-18 \u00b7 ATS 17-13",
+     "Coach vs esta franquicia": "1-5 \u00b7 ATS 1-5",
+     "Cara a cara vs el otro coach": "0-2 \u00b7 ATS 0-2",
+     "Coach despu\u00e9s de derrota": "14-14 \u00b7 ATS 15-13",
+     "Coach en partidos divisionales": "9-11 \u00b7 ATS 12-8",
      "QB": "Daniel Jones",
-     "QB career starts (since '99)": "35-55-1 \u00b7 ATS 46-45",
-     "QB vs this opponent": "1-1 \u00b7 ATS 1-1",
-     "QB in this role": "as underdog: 20-45-1 \u00b7 ATS 36-30",
-     "This season at home": "1-2 \u00b7 ATS 1-2 \u00b7 20.7-28.0",
-     "This season on the road": "1-3 \u00b7 ATS 3-1 \u00b7 23.0-24.0",
-     "Home edge, last 3 seasons": "+2.7 pts (home 11-8, road 7-15)",
-     "Pythagorean wins vs actual": "2.9 vs 2",
-     "One-score games (\u22648)": "1-3"
+     "QB, carrera como titular (desde '99)": "35-55-1 \u00b7 ATS 46-45",
+     "QB vs este rival": "1-1 \u00b7 ATS 1-1",
+     "QB en este rol": "como no favorito: 20-45-1 \u00b7 ATS 36-30",
+     "Esta temporada de local": "1-2 \u00b7 ATS 1-2 \u00b7 20.7-28.0",
+     "Esta temporada de visita": "1-3 \u00b7 ATS 3-1 \u00b7 23.0-24.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.7 pts (local 11-8, visita 7-15)",
+     "Victorias pitag\u00f3ricas vs reales": "2.9 vs 2",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-3"
     },
     "JAX": {
-     "Head coach": "Liam Coen",
-     "Coach career (since '99)": "17-7 \u00b7 ATS 15-9",
-     "Coach in this role": "as favorite of 7+: 4-0 \u00b7 ATS 3-1",
-     "Coach at home / on road": "home: 9-2 \u00b7 ATS 9-2",
-     "Coach vs this franchise": "2-0 \u00b7 ATS 2-0",
-     "Head-to-head vs opp HC": "2-0 \u00b7 ATS 2-0",
-     "Coach after a loss": "4-1 \u00b7 ATS 3-2",
-     "Coach off a bye": "1-0 \u00b7 ATS 0-1",
-     "Coach in division games": "5-2 \u00b7 ATS 5-2",
+     "Entrenador en jefe": "Liam Coen",
+     "Carrera del coach (desde '99)": "17-7 \u00b7 ATS 15-9",
+     "Coach en este rol": "como favorito de 7+: 4-0 \u00b7 ATS 3-1",
+     "Coach de local / de visita": "local: 9-2 \u00b7 ATS 9-2",
+     "Coach vs esta franquicia": "2-0 \u00b7 ATS 2-0",
+     "Cara a cara vs el otro coach": "2-0 \u00b7 ATS 2-0",
+     "Coach despu\u00e9s de derrota": "4-1 \u00b7 ATS 3-2",
+     "Coach tras semana de descanso": "1-0 \u00b7 ATS 0-1",
+     "Coach en partidos divisionales": "5-2 \u00b7 ATS 5-2",
      "QB": "Trevor Lawrence",
-     "QB career starts (since '99)": "40-46 \u00b7 ATS 44-41-1",
-     "QB vs this opponent": "7-2 \u00b7 ATS 7-2",
-     "QB in this role": "as favorite: 21-14 \u00b7 ATS 17-18",
-     "This season at home": "2-0 \u00b7 ATS 2-0 \u00b7 34.5-8.0",
-     "This season on the road": "2-2 \u00b7 ATS 1-3 \u00b7 21.5-21.8",
-     "Home edge, last 3 seasons": "+6.6 pts (home 11-6, road 10-13)",
-     "Pythagorean wins vs actual": "4.3 vs 4",
-     "One-score games (\u22648)": "2-2"
+     "QB, carrera como titular (desde '99)": "40-46 \u00b7 ATS 44-41-1",
+     "QB vs este rival": "7-2 \u00b7 ATS 7-2",
+     "QB en este rol": "como favorito: 21-14 \u00b7 ATS 17-18",
+     "Esta temporada de local": "2-0 \u00b7 ATS 2-0 \u00b7 34.5-8.0",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 1-3 \u00b7 21.5-21.8",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+6.6 pts (local 11-6, visita 10-13)",
+     "Victorias pitag\u00f3ricas vs reales": "4.3 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-2"
     }
    }
   },
@@ -4446,7 +4446,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 165448
+     "trending": 165752
     },
     {
      "pid": "6865",
@@ -4472,7 +4472,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 144270
+     "trending": 145242
     },
     {
      "pid": "12718",
@@ -4529,41 +4529,41 @@
    ],
    "history": {
     "LAC": {
-     "Head coach": "Jim Harbaugh",
-     "Coach career (since '99)": "71-42-1 \u00b7 ATS 64-46-4",
-     "Coach in this role": "as underdog: 12-18 \u00b7 ATS 15-12-3",
-     "Coach at home / on road": "road: 36-24 \u00b7 ATS 34-23-3",
-     "Coach vs this franchise": "5-2-1 \u00b7 ATS 4-4",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a loss": "19-17 \u00b7 ATS 17-17-2",
-     "Coach off a bye": "5-3-1 \u00b7 ATS 5-4",
+     "Entrenador en jefe": "Jim Harbaugh",
+     "Carrera del coach (desde '99)": "71-42-1 \u00b7 ATS 64-46-4",
+     "Coach en este rol": "como no favorito: 12-18 \u00b7 ATS 15-12-3",
+     "Coach de local / de visita": "visita: 36-24 \u00b7 ATS 34-23-3",
+     "Coach vs esta franquicia": "5-2-1 \u00b7 ATS 4-4",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de derrota": "19-17 \u00b7 ATS 17-17-2",
+     "Coach tras semana de descanso": "5-3-1 \u00b7 ATS 5-4",
      "QB": "Justin Herbert",
-     "QB career starts (since '99)": "52-51 \u00b7 ATS 53-47-3",
-     "QB vs this opponent": "1-0 \u00b7 ATS 1-0",
-     "QB in this role": "as underdog: 10-26 \u00b7 ATS 19-16-1",
-     "This season at home": "0-3 \u00b7 ATS 0-3 \u00b7 15.0-25.0",
-     "This season on the road": "0-3 \u00b7 ATS 0-2-1 \u00b7 15.0-25.3",
-     "Home edge, last 3 seasons": "-0.7 pts (home 10-9, road 12-9)",
-     "Pythagorean wins vs actual": "1.4 vs 0",
-     "One-score games (\u22648)": "0-3"
+     "QB, carrera como titular (desde '99)": "52-51 \u00b7 ATS 53-47-3",
+     "QB vs este rival": "1-0 \u00b7 ATS 1-0",
+     "QB en este rol": "como no favorito: 10-26 \u00b7 ATS 19-16-1",
+     "Esta temporada de local": "0-3 \u00b7 ATS 0-3 \u00b7 15.0-25.0",
+     "Esta temporada de visita": "0-3 \u00b7 ATS 0-2-1 \u00b7 15.0-25.3",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-0.7 pts (local 10-9, visita 12-9)",
+     "Victorias pitag\u00f3ricas vs reales": "1.4 vs 0",
+     "Partidos de una posesi\u00f3n (\u22648)": "0-3"
     },
     "LAR": {
-     "Head coach": "Sean McVay",
-     "Coach career (since '99)": "105-67 \u00b7 ATS 92-76-4",
-     "Coach in this role": "as favorite: 87-30 \u00b7 ATS 63-52-2",
-     "Coach at home / on road": "home: 50-29 \u00b7 ATS 40-37-2",
-     "Coach vs this franchise": "1-1 \u00b7 ATS 1-1",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a win": "60-42 \u00b7 ATS 49-52-1",
+     "Entrenador en jefe": "Sean McVay",
+     "Carrera del coach (desde '99)": "105-67 \u00b7 ATS 92-76-4",
+     "Coach en este rol": "como favorito: 87-30 \u00b7 ATS 63-52-2",
+     "Coach de local / de visita": "local: 50-29 \u00b7 ATS 40-37-2",
+     "Coach vs esta franquicia": "1-1 \u00b7 ATS 1-1",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de victoria": "60-42 \u00b7 ATS 49-52-1",
      "QB": "Matthew Stafford",
-     "QB career starts (since '99)": "130-128-1 \u00b7 ATS 122-131-6",
-     "QB vs this opponent": "2-1 \u00b7 ATS 2-1",
-     "QB in this role": "as favorite: 94-43-1 \u00b7 ATS 66-69-3",
-     "This season at home": "1-2 \u00b7 ATS 1-2 \u00b7 26.0-20.3",
-     "This season on the road": "2-2 \u00b7 ATS 2-2 \u00b7 28.0-19.5",
-     "Home edge, last 3 seasons": "+0.6 pts (home 13-7, road 12-9)",
-     "Pythagorean wins vs actual": "4.7 vs 3",
-     "One-score games (\u22648)": "1-3"
+     "QB, carrera como titular (desde '99)": "130-128-1 \u00b7 ATS 122-131-6",
+     "QB vs este rival": "2-1 \u00b7 ATS 2-1",
+     "QB en este rol": "como favorito: 94-43-1 \u00b7 ATS 66-69-3",
+     "Esta temporada de local": "1-2 \u00b7 ATS 1-2 \u00b7 26.0-20.3",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 2-2 \u00b7 28.0-19.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+0.6 pts (local 13-7, visita 12-9)",
+     "Victorias pitag\u00f3ricas vs reales": "4.7 vs 3",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-3"
     }
    }
   },
@@ -4848,7 +4848,7 @@
       },
       "missed_l3": 2
      },
-     "trending": 637740
+     "trending": 638174
     },
     {
      "pid": "12489",
@@ -5009,42 +5009,42 @@
    ],
    "history": {
     "KC": {
-     "Head coach": "Andy Reid",
-     "Coach career (since '99)": "312-175-1 \u00b7 ATS 255-223-10",
-     "Coach in this role": "as favorite: 249-98-1 \u00b7 ATS 172-169-7",
-     "Coach at home / on road": "road: 148-93-1 \u00b7 ATS 139-100-3",
-     "Coach vs this franchise": "19-10 \u00b7 ATS 14-15",
-     "Head-to-head vs opp HC": "6-7 \u00b7 ATS 6-6-1",
-     "Coach after a loss": "86-67-1 \u00b7 ATS 80-71-3",
-     "Coach in division games": "114-61 \u00b7 ATS 95-76-4",
+     "Entrenador en jefe": "Andy Reid",
+     "Carrera del coach (desde '99)": "312-175-1 \u00b7 ATS 255-223-10",
+     "Coach en este rol": "como favorito: 249-98-1 \u00b7 ATS 172-169-7",
+     "Coach de local / de visita": "visita: 148-93-1 \u00b7 ATS 139-100-3",
+     "Coach vs esta franquicia": "19-10 \u00b7 ATS 14-15",
+     "Cara a cara vs el otro coach": "6-7 \u00b7 ATS 6-6-1",
+     "Coach despu\u00e9s de derrota": "86-67-1 \u00b7 ATS 80-71-3",
+     "Coach en partidos divisionales": "114-61 \u00b7 ATS 95-76-4",
      "QB": "Patrick Mahomes",
-     "QB career starts (since '99)": "117-36 \u00b7 ATS 76-73-4",
-     "QB vs this opponent": "14-2 \u00b7 ATS 8-8",
-     "QB in this role": "as favorite: 105-30 \u00b7 ATS 63-69-3",
-     "This season at home": "3-0 \u00b7 ATS 2-1 \u00b7 28.7-15.3",
-     "This season on the road": "2-1 \u00b7 ATS 1-2 \u00b7 19.0-19.0",
-     "Home edge, last 3 seasons": "+3.7 pts (home 16-4, road 10-10)",
-     "Pythagorean wins vs actual": "4.1 vs 5",
-     "One-score games (\u22648)": "2-0"
+     "QB, carrera como titular (desde '99)": "117-36 \u00b7 ATS 76-73-4",
+     "QB vs este rival": "14-2 \u00b7 ATS 8-8",
+     "QB en este rol": "como favorito: 105-30 \u00b7 ATS 63-69-3",
+     "Esta temporada de local": "3-0 \u00b7 ATS 2-1 \u00b7 28.7-15.3",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 1-2 \u00b7 19.0-19.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+3.7 pts (local 16-4, visita 10-10)",
+     "Victorias pitag\u00f3ricas vs reales": "4.1 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-0"
     },
     "DEN": {
-     "Head coach": "Sean Payton",
-     "Coach career (since '99)": "199-120 \u00b7 ATS 172-143-4",
-     "Coach in this role": "as underdog: 46-61 \u00b7 ATS 61-44-2",
-     "Coach at home / on road": "home: 107-52 \u00b7 ATS 85-73-1",
-     "Coach vs this franchise": "5-5 \u00b7 ATS 5-4-1",
-     "Head-to-head vs opp HC": "7-6 \u00b7 ATS 6-6-1",
-     "Coach after a win": "122-72 \u00b7 ATS 100-91-3",
-     "Coach in division games": "71-41 \u00b7 ATS 60-52",
+     "Entrenador en jefe": "Sean Payton",
+     "Carrera del coach (desde '99)": "199-120 \u00b7 ATS 172-143-4",
+     "Coach en este rol": "como no favorito: 46-61 \u00b7 ATS 61-44-2",
+     "Coach de local / de visita": "local: 107-52 \u00b7 ATS 85-73-1",
+     "Coach vs esta franquicia": "5-5 \u00b7 ATS 5-4-1",
+     "Cara a cara vs el otro coach": "7-6 \u00b7 ATS 6-6-1",
+     "Coach despu\u00e9s de victoria": "122-72 \u00b7 ATS 100-91-3",
+     "Coach en partidos divisionales": "71-41 \u00b7 ATS 60-52",
      "QB": "Bo Nix",
-     "QB career starts (since '99)": "30-13 \u00b7 ATS 25-18",
-     "QB vs this opponent": "3-2 \u00b7 ATS 3-2",
-     "QB in this role": "as underdog: 7-11 \u00b7 ATS 9-9",
-     "This season at home": "3-0 \u00b7 ATS 3-0 \u00b7 22.3-17.7",
-     "This season on the road": "2-2 \u00b7 ATS 2-2 \u00b7 19.2-22.0",
-     "Home edge, last 3 seasons": "+4.7 pts (home 17-3, road 12-9)",
-     "Pythagorean wins vs actual": "3.6 vs 5",
-     "One-score games (\u22648)": "4-0"
+     "QB, carrera como titular (desde '99)": "30-13 \u00b7 ATS 25-18",
+     "QB vs este rival": "3-2 \u00b7 ATS 3-2",
+     "QB en este rol": "como no favorito: 7-11 \u00b7 ATS 9-9",
+     "Esta temporada de local": "3-0 \u00b7 ATS 3-0 \u00b7 22.3-17.7",
+     "Esta temporada de visita": "2-2 \u00b7 ATS 2-2 \u00b7 19.2-22.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+4.7 pts (local 17-3, visita 12-9)",
+     "Victorias pitag\u00f3ricas vs reales": "3.6 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "4-0"
     }
    }
   },
@@ -5173,7 +5173,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 325086
+     "trending": 326043
     },
     {
      "pid": "9501",
@@ -5355,7 +5355,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 219940
+     "trending": 221669
     },
     {
      "pid": "12495",
@@ -5433,7 +5433,7 @@
       },
       "missed_l3": 2
      },
-     "trending": 2428712
+     "trending": 2424608
     },
     {
      "pid": "8172",
@@ -5516,42 +5516,42 @@
    ],
    "history": {
     "NE": {
-     "Head coach": "Mike Vrabel",
-     "Coach career (since '99)": "77-55 \u00b7 ATS 68-59-5",
-     "Coach in this role": "as favorite of 7+: 16-2 \u00b7 ATS 9-9",
-     "Coach at home / on road": "road: 36-31 \u00b7 ATS 34-31-2",
-     "Coach vs this franchise": "4-1 \u00b7 ATS 4-1",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a loss": "28-20 \u00b7 ATS 27-17-4",
-     "Coach in division games": "27-17 \u00b7 ATS 24-20",
+     "Entrenador en jefe": "Mike Vrabel",
+     "Carrera del coach (desde '99)": "77-55 \u00b7 ATS 68-59-5",
+     "Coach en este rol": "como favorito de 7+: 16-2 \u00b7 ATS 9-9",
+     "Coach de local / de visita": "visita: 36-31 \u00b7 ATS 34-31-2",
+     "Coach vs esta franquicia": "4-1 \u00b7 ATS 4-1",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de derrota": "28-20 \u00b7 ATS 27-17-4",
+     "Coach en partidos divisionales": "27-17 \u00b7 ATS 24-20",
      "QB": "Drake Maye",
-     "QB career starts (since '99)": "23-16 \u00b7 ATS 21-16-2",
-     "QB vs this opponent": "2-1 \u00b7 ATS 2-1",
-     "QB in this role": "as favorite: 16-1 \u00b7 ATS 12-5",
-     "This season at home": "3-0 \u00b7 ATS 2-1 \u00b7 30.3-13.0",
-     "This season on the road": "1-3 \u00b7 ATS 1-2-1 \u00b7 17.2-26.0",
-     "Home edge, last 3 seasons": "+2.3 pts (home 11-9, road 11-10)",
-     "Pythagorean wins vs actual": "4.0 vs 4",
-     "One-score games (\u22648)": "2-2"
+     "QB, carrera como titular (desde '99)": "23-16 \u00b7 ATS 21-16-2",
+     "QB vs este rival": "2-1 \u00b7 ATS 2-1",
+     "QB en este rol": "como favorito: 16-1 \u00b7 ATS 12-5",
+     "Esta temporada de local": "3-0 \u00b7 ATS 2-1 \u00b7 30.3-13.0",
+     "Esta temporada de visita": "1-3 \u00b7 ATS 1-2-1 \u00b7 17.2-26.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.3 pts (local 11-9, visita 11-10)",
+     "Victorias pitag\u00f3ricas vs reales": "4.0 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-2"
     },
     "MIA": {
-     "Head coach": "Jeff Hafley",
-     "Coach career (since '99)": "1-5 \u00b7 ATS 2-3-1",
-     "Coach in this role": "as underdog of 7+: 0-4 \u00b7 ATS 1-2-1",
-     "Coach at home / on road": "home: 0-2 \u00b7 ATS 0-1-1",
-     "Coach vs this franchise": "\u2014",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a win": "\u2014",
-     "Coach in division games": "1-0 \u00b7 ATS 1-0",
+     "Entrenador en jefe": "Jeff Hafley",
+     "Carrera del coach (desde '99)": "1-5 \u00b7 ATS 2-3-1",
+     "Coach en este rol": "como no favorito de 7+: 0-4 \u00b7 ATS 1-2-1",
+     "Coach de local / de visita": "local: 0-2 \u00b7 ATS 0-1-1",
+     "Coach vs esta franquicia": "\u2014",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de victoria": "\u2014",
+     "Coach en partidos divisionales": "1-0 \u00b7 ATS 1-0",
      "QB": "Malik Willis",
-     "QB career starts (since '99)": "4-8 \u00b7 ATS 6-5-1",
-     "QB vs this opponent": "\u2014",
-     "QB in this role": "as underdog: 3-6 \u00b7 ATS 5-3-1",
-     "This season at home": "0-2 \u00b7 ATS 0-1-1 \u00b7 17.0-27.5",
-     "This season on the road": "1-3 \u00b7 ATS 2-2 \u00b7 16.0-25.5",
-     "Home edge, last 3 seasons": "+2.2 pts (home 9-9, road 7-15)",
-     "Pythagorean wins vs actual": "1.5 vs 1",
-     "One-score games (\u22648)": "1-2"
+     "QB, carrera como titular (desde '99)": "4-8 \u00b7 ATS 6-5-1",
+     "QB vs este rival": "\u2014",
+     "QB en este rol": "como no favorito: 3-6 \u00b7 ATS 5-3-1",
+     "Esta temporada de local": "0-2 \u00b7 ATS 0-1-1 \u00b7 17.0-27.5",
+     "Esta temporada de visita": "1-3 \u00b7 ATS 2-2 \u00b7 16.0-25.5",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+2.2 pts (local 9-9, visita 7-15)",
+     "Victorias pitag\u00f3ricas vs reales": "1.5 vs 1",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-2"
     }
    }
   },
@@ -5706,7 +5706,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 387396
+     "trending": 388684
     },
     {
      "pid": "9486",
@@ -5758,7 +5758,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 159576
+     "trending": 158592
     },
     {
      "pid": "11566",
@@ -5784,7 +5784,7 @@
       },
       "missed_l3": 1
      },
-     "trending": 198480
+     "trending": 200984
     },
     {
      "pid": "2449",
@@ -5836,7 +5836,7 @@
       },
       "missed_l3": 1
      },
-     "trending": 316686
+     "trending": 320181
     },
     {
      "pid": "13301",
@@ -5862,7 +5862,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 138996
+     "trending": 139873
     },
     {
      "pid": "8210",
@@ -5940,50 +5940,50 @@
       },
       "missed_l3": 0
      },
-     "trending": 288687
+     "trending": 291473
     }
    ],
    "history": {
     "PHI": {
-     "Head coach": "Nick Sirianni",
-     "Coach career (since '99)": "67-35 \u00b7 ATS 50-49-3",
-     "Coach in this role": "as underdog: 10-15 \u00b7 ATS 12-13",
-     "Coach at home / on road": "road: 33-18 \u00b7 ATS 26-24-1",
-     "Coach vs this franchise": "9-3 \u00b7 ATS 4-6-2",
-     "Head-to-head vs opp HC": "4-2 \u00b7 ATS 3-3",
-     "Coach after a loss": "13-17 \u00b7 ATS 10-20",
-     "Coach in primetime": "16-12 \u00b7 ATS 13-13-2",
-     "Coach in division games": "22-12 \u00b7 ATS 14-18-2",
+     "Entrenador en jefe": "Nick Sirianni",
+     "Carrera del coach (desde '99)": "67-35 \u00b7 ATS 50-49-3",
+     "Coach en este rol": "como no favorito: 10-15 \u00b7 ATS 12-13",
+     "Coach de local / de visita": "visita: 33-18 \u00b7 ATS 26-24-1",
+     "Coach vs esta franquicia": "9-3 \u00b7 ATS 4-6-2",
+     "Cara a cara vs el otro coach": "4-2 \u00b7 ATS 3-3",
+     "Coach despu\u00e9s de derrota": "13-17 \u00b7 ATS 10-20",
+     "Coach en horario estelar": "16-12 \u00b7 ATS 13-13-2",
+     "Coach en partidos divisionales": "22-12 \u00b7 ATS 14-18-2",
      "QB": "Tanner McKee",
-     "QB career starts (since '99)": "1-2 \u00b7 ATS 1-2",
-     "QB vs this opponent": "0-1 \u00b7 ATS 0-1",
-     "QB in this role": "as underdog: 0-1 \u00b7 ATS 0-1",
-     "This season at home": "1-3 \u00b7 ATS 0-4 \u00b7 19.8-27.2",
-     "This season on the road": "1-2 \u00b7 ATS 1-2 \u00b7 16.0-22.0",
-     "Home edge, last 3 seasons": "+0.5 pts (home 13-7, road 14-7)",
-     "Pythagorean wins vs actual": "2.2 vs 2",
-     "One-score games (\u22648)": "2-2"
+     "QB, carrera como titular (desde '99)": "1-2 \u00b7 ATS 1-2",
+     "QB vs este rival": "0-1 \u00b7 ATS 0-1",
+     "QB en este rol": "como no favorito: 0-1 \u00b7 ATS 0-1",
+     "Esta temporada de local": "1-3 \u00b7 ATS 0-4 \u00b7 19.8-27.2",
+     "Esta temporada de visita": "1-2 \u00b7 ATS 1-2 \u00b7 16.0-22.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+0.5 pts (local 13-7, visita 14-7)",
+     "Victorias pitag\u00f3ricas vs reales": "2.2 vs 2",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-2"
     },
     "WSH": {
-     "Head coach": "Dan Quinn",
-     "Coach career (since '99)": "66-66-1 \u00b7 ATS 62-71",
-     "Coach in this role": "as favorite: 40-29-1 \u00b7 ATS 29-41",
-     "Coach at home / on road": "home: 33-30-1 \u00b7 ATS 32-32",
-     "Coach vs this franchise": "4-7 \u00b7 ATS 5-6",
-     "Head-to-head vs opp HC": "2-4 \u00b7 ATS 3-3",
-     "Coach after a loss": "24-35-1 \u00b7 ATS 25-35",
-     "Coach off a bye": "5-4 \u00b7 ATS 5-4",
-     "Coach in primetime": "14-13 \u00b7 ATS 14-13",
-     "Coach in division games": "25-21-1 \u00b7 ATS 23-24",
+     "Entrenador en jefe": "Dan Quinn",
+     "Carrera del coach (desde '99)": "66-66-1 \u00b7 ATS 62-71",
+     "Coach en este rol": "como favorito: 40-29-1 \u00b7 ATS 29-41",
+     "Coach de local / de visita": "local: 33-30-1 \u00b7 ATS 32-32",
+     "Coach vs esta franquicia": "4-7 \u00b7 ATS 5-6",
+     "Cara a cara vs el otro coach": "2-4 \u00b7 ATS 3-3",
+     "Coach despu\u00e9s de derrota": "24-35-1 \u00b7 ATS 25-35",
+     "Coach tras semana de descanso": "5-4 \u00b7 ATS 5-4",
+     "Coach en horario estelar": "14-13 \u00b7 ATS 14-13",
+     "Coach en partidos divisionales": "25-21-1 \u00b7 ATS 23-24",
      "QB": "Jayden Daniels",
-     "QB career starts (since '99)": "15-12-1 \u00b7 ATS 15-13",
-     "QB vs this opponent": "1-2 \u00b7 ATS 2-1",
-     "QB in this role": "as favorite: 8-1-1 \u00b7 ATS 6-4",
-     "This season at home": "1-0-1 \u00b7 ATS 1-1 \u00b7 30.0-29.0",
-     "This season on the road": "0-4 \u00b7 ATS 2-2 \u00b7 22.2-24.2",
-     "Home edge, last 3 seasons": "+3.2 pts (home 10-8-1, road 8-13)",
-     "Pythagorean wins vs actual": "2.9 vs 1.5",
-     "One-score games (\u22648)": "1-2-1"
+     "QB, carrera como titular (desde '99)": "15-12-1 \u00b7 ATS 15-13",
+     "QB vs este rival": "1-2 \u00b7 ATS 2-1",
+     "QB en este rol": "como favorito: 8-1-1 \u00b7 ATS 6-4",
+     "Esta temporada de local": "1-0-1 \u00b7 ATS 1-1 \u00b7 30.0-29.0",
+     "Esta temporada de visita": "0-4 \u00b7 ATS 2-2 \u00b7 22.2-24.2",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+3.2 pts (local 10-8-1, visita 8-13)",
+     "Victorias pitag\u00f3ricas vs reales": "2.9 vs 1.5",
+     "Partidos de una posesi\u00f3n (\u22648)": "1-2-1"
     }
    }
   },
@@ -6303,7 +6303,7 @@
       },
       "missed_l3": 0
      },
-     "trending": 263097
+     "trending": 265392
     },
     {
      "pid": "4039",
@@ -6412,42 +6412,42 @@
    ],
    "history": {
     "CHI": {
-     "Head coach": "Ben Johnson",
-     "Coach career (since '99)": "17-9 \u00b7 ATS 16-9-1",
-     "Coach in this role": "as underdog: 7-6 \u00b7 ATS 8-5",
-     "Coach at home / on road": "road: 7-5 \u00b7 ATS 7-5",
-     "Coach vs this franchise": "\u2014",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a win": "10-6 \u00b7 ATS 9-6-1",
-     "Coach in primetime": "5-2 \u00b7 ATS 5-2",
+     "Entrenador en jefe": "Ben Johnson",
+     "Carrera del coach (desde '99)": "17-9 \u00b7 ATS 16-9-1",
+     "Coach en este rol": "como no favorito: 7-6 \u00b7 ATS 8-5",
+     "Coach de local / de visita": "visita: 7-5 \u00b7 ATS 7-5",
+     "Coach vs esta franquicia": "\u2014",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de victoria": "10-6 \u00b7 ATS 9-6-1",
+     "Coach en horario estelar": "5-2 \u00b7 ATS 5-2",
      "QB": "Caleb Williams",
-     "QB career starts (since '99)": "20-20 \u00b7 ATS 22-15-3",
-     "QB vs this opponent": "0-1 \u00b7 ATS 1-0",
-     "QB in this role": "as underdog: 8-17 \u00b7 ATS 12-11-2",
-     "This season at home": "3-1 \u00b7 ATS 3-1 \u00b7 20.8-13.0",
-     "This season on the road": "2-1 \u00b7 ATS 2-1 \u00b7 32.3-30.3",
-     "Home edge, last 3 seasons": "+5.1 pts (home 12-8, road 9-12)",
-     "Pythagorean wins vs actual": "4.4 vs 5",
-     "One-score games (\u22648)": "2-1"
+     "QB, carrera como titular (desde '99)": "20-20 \u00b7 ATS 22-15-3",
+     "QB vs este rival": "0-1 \u00b7 ATS 1-0",
+     "QB en este rol": "como no favorito: 8-17 \u00b7 ATS 12-11-2",
+     "Esta temporada de local": "3-1 \u00b7 ATS 3-1 \u00b7 20.8-13.0",
+     "Esta temporada de visita": "2-1 \u00b7 ATS 2-1 \u00b7 32.3-30.3",
+     "Ventaja de local, \u00faltimas 3 temporadas": "+5.1 pts (local 12-8, visita 9-12)",
+     "Victorias pitag\u00f3ricas vs reales": "4.4 vs 5",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-1"
     },
     "SEA": {
-     "Head coach": "Mike Macdonald",
-     "Coach career (since '99)": "31-13 \u00b7 ATS 23-19-2",
-     "Coach in this role": "as favorite: 25-5 \u00b7 ATS 16-12-2",
-     "Coach at home / on road": "home: 14-9 \u00b7 ATS 9-12-2",
-     "Coach vs this franchise": "1-0 \u00b7 ATS 0-1",
-     "Head-to-head vs opp HC": "\u2014",
-     "Coach after a win": "21-7 \u00b7 ATS 18-10",
-     "Coach in primetime": "9-4 \u00b7 ATS 6-6-1",
+     "Entrenador en jefe": "Mike Macdonald",
+     "Carrera del coach (desde '99)": "31-13 \u00b7 ATS 23-19-2",
+     "Coach en este rol": "como favorito: 25-5 \u00b7 ATS 16-12-2",
+     "Coach de local / de visita": "local: 14-9 \u00b7 ATS 9-12-2",
+     "Coach vs esta franquicia": "1-0 \u00b7 ATS 0-1",
+     "Cara a cara vs el otro coach": "\u2014",
+     "Coach despu\u00e9s de victoria": "21-7 \u00b7 ATS 18-10",
+     "Coach en horario estelar": "9-4 \u00b7 ATS 6-6-1",
      "QB": "Sam Darnold",
-     "QB career starts (since '99)": "54-43 \u00b7 ATS 49-45-3",
-     "QB vs this opponent": "2-1 \u00b7 ATS 1-1-1",
-     "QB in this role": "as favorite: 33-13 \u00b7 ATS 25-19-2",
-     "This season at home": "3-1 \u00b7 ATS 1-1-2 \u00b7 23.0-17.0",
-     "This season on the road": "1-2 \u00b7 ATS 1-2 \u00b7 25.3-19.0",
-     "Home edge, last 3 seasons": "-2.3 pts (home 12-9, road 16-4)",
-     "Pythagorean wins vs actual": "4.7 vs 4",
-     "One-score games (\u22648)": "2-3"
+     "QB, carrera como titular (desde '99)": "54-43 \u00b7 ATS 49-45-3",
+     "QB vs este rival": "2-1 \u00b7 ATS 1-1-1",
+     "QB en este rol": "como favorito: 33-13 \u00b7 ATS 25-19-2",
+     "Esta temporada de local": "3-1 \u00b7 ATS 1-1-2 \u00b7 23.0-17.0",
+     "Esta temporada de visita": "1-2 \u00b7 ATS 1-2 \u00b7 25.3-19.0",
+     "Ventaja de local, \u00faltimas 3 temporadas": "-2.3 pts (local 12-9, visita 16-4)",
+     "Victorias pitag\u00f3ricas vs reales": "4.7 vs 4",
+     "Partidos de una posesi\u00f3n (\u22648)": "2-3"
     }
    }
   }

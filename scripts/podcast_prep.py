@@ -66,7 +66,36 @@ def sl(team):
 
 
 def ordinal(n):
-    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+    return f"{n}º"
+
+
+# The sheet is in Spanish (user 2026-10-28: the podcast is in Spanish).
+MX = ZoneInfo("America/Mexico_City")
+DIAS = ["lun", "mar", "mié", "jue", "vie", "sáb", "dom"]
+MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"]
+STATUS_ES = {"Out": "Fuera", "Doubtful": "Dudoso", "Questionable": "Cuestionable", "IR": "Reserva",
+             "Suspension": "Suspendido", "PUP": "PUP"}
+BODY_ES = {"Knee": "Rodilla", "Ankle": "Tobillo", "Hamstring": "Isquiotibial", "Shoulder": "Hombro",
+           "Concussion": "Conmoción", "Groin": "Ingle", "Calf": "Pantorrilla", "Hip": "Cadera", "Foot": "Pie",
+           "Back": "Espalda", "Chest": "Pecho", "Neck": "Cuello", "Toe": "Dedo del pie", "Hand": "Mano",
+           "Wrist": "Muñeca", "Illness": "Enfermedad", "Quadriceps": "Cuádriceps", "Ribs": "Costillas",
+           "Elbow": "Codo", "Shin": "Espinilla", "Thumb": "Pulgar", "Finger": "Dedo", "Achilles": "Aquiles",
+           "Forearm": "Antebrazo", "Abdomen": "Abdomen", "Oblique": "Oblicuo", "Pectoral": "Pectoral",
+           "Heel": "Talón", "Thigh": "Muslo", "Head": "Cabeza", "Face": "Cara", "Eye": "Ojo", "Jaw": "Mandíbula",
+           "Suspension": "Suspensión", "Personal": "Personal", "Rest": "Descanso", "ACL": "LCA", "MCL": "LCM",
+           "AC Joint": "articulación AC", "High Ankle": "esguince alto", "Sprain": "esguince"}
+
+
+def body_es(txt):
+    return " - ".join(BODY_ES.get(part.strip(), part.strip()) for part in (txt or "").split(" - "))
+
+
+def fecha(dt):
+    return f"{DIAS[dt.weekday()]} {dt.day} {MESES[dt.month - 1]}"
+
+
+def hora(dt):
+    return f"{dt.hour % 12 or 12}:{dt.minute:02d} {'am' if dt.hour < 12 else 'pm'}"
 
 
 def fmt_spread(team, s):
@@ -149,9 +178,9 @@ def team_records(finals):
                     r["ou"]["OUP".index(ou)] += 1
             su = "W" if mg > 0 else "L" if mg < 0 else "T"
             r["log"].append(
-                f"{su} {pf}-{pa} {'vs' if home else '@'} {opp}"
+                f"{ {'W': 'G', 'L': 'P', 'T': 'E'}[su]} {pf}-{pa} {'vs' if home else '@'} {opp}"
                 + (f" ({line:+g} {'✓' if ats == 'W' else '✗' if ats == 'L' else 'P'}"
-                   f"{', ' + ou if ou else ''})" if line is not None else ""))
+                   f"{', ' + {'O': 'A', 'U': 'B', 'P': 'P'}[ou] if ou else ''})" if line is not None else ""))
     return rec
 
 
@@ -181,14 +210,14 @@ def srs(finals):
 # --------------------------------------------------------- team stats
 
 TEAM_METRICS = [  # key, label, higher_is_better, fmt
-    ("passing.netYardsPerPassAttempt", "Net yds/pass att", True, "{:.1f}"),
-    ("rushing.yardsPerRushAttempt", "Yds/rush", True, "{:.1f}"),
-    ("miscellaneous.thirdDownConvPct", "3rd down %", True, "{:.0f}%"),
-    ("miscellaneous.redzoneTouchdownPct", "Red-zone TD %", True, "{:.0f}%"),
-    ("miscellaneous.turnOverDifferential", "Turnover diff", True, "{:+.0f}"),
-    ("passing.sacks", "Sacks taken", False, "{:.0f}"),
-    ("defensive.sacks", "Sacks (defense)", True, "{:.0f}"),
-    ("pace", "Plays/game", True, "{:.1f}"),
+    ("passing.netYardsPerPassAttempt", "Yds netas/intento de pase", True, "{:.1f}"),
+    ("rushing.yardsPerRushAttempt", "Yds/acarreo", True, "{:.1f}"),
+    ("miscellaneous.thirdDownConvPct", "% en 3ª oportunidad", True, "{:.0f}%"),
+    ("miscellaneous.redzoneTouchdownPct", "% de TD en zona roja", True, "{:.0f}%"),
+    ("miscellaneous.turnOverDifferential", "Diferencial de balones", True, "{:+.0f}"),
+    ("passing.sacks", "Capturas recibidas", False, "{:.0f}"),
+    ("defensive.sacks", "Capturas (defensiva)", True, "{:.0f}"),
+    ("pace", "Jugadas/partido", True, "{:.1f}"),
 ]
 
 
@@ -322,9 +351,9 @@ def grade_picks(sched, week):
     PICKS.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     last = by_week.get(week - 1)
     if last:
-        lines.append(f"Last week: **{last[0]}-{last[1]}{'-' + str(last[2]) if last[2] else ''}**")
+        lines.append(f"Semana pasada: **{last[0]}-{last[1]}{'-' + str(last[2]) if last[2] else ''}**")
     if any(season_rec):
-        lines.append(f"Season: **{season_rec[0]}-{season_rec[1]}{'-' + str(season_rec[2]) if season_rec[2] else ''}**")
+        lines.append(f"Temporada: **{season_rec[0]}-{season_rec[1]}{'-' + str(season_rec[2]) if season_rec[2] else ''}**")
     return " · ".join(lines) or None
 
 
@@ -380,7 +409,7 @@ def history_block(g, hist, ctx):
         if p is None or n < NOTABLE_N[which]:
             return
         if p >= 0.70 or p <= 0.30 or (which == "ats" and (p >= 0.65 or p <= 0.35)):
-            tag = "" if mech else " *(trend — color)*"
+            tag = "" if mech else " *(tendencia — color)*"
             rec = led.fmt(which)
             notable.append((abs(p - 0.5) * n ** 0.5,
                             f"**{team}** — {label}: {rec}{' ATS' if which == 'ats' else ''}{tag}"))
@@ -409,46 +438,47 @@ def history_block(g, hist, ctx):
         spot_rows, spot_label = [], None
         r_days = rest.get(t)
         if r_days and r_days >= 13:
-            spot_rows, spot_label = [r for r in crow if (r["rest"] or 0) >= 13], "off a bye"
+            spot_rows, spot_label = [r for r in crow if (r["rest"] or 0) >= 13], "tras semana de descanso"
         elif r_days and r_days <= 5:
-            spot_rows, spot_label = [r for r in crow if r["rest"] and r["rest"] <= 5], "on short rest"
+            spot_rows, spot_label = [r for r in crow if r["rest"] and r["rest"] <= 5], "con descanso corto"
         prime_rows = [r for r in crow if r["g"]["primetime"]] if row["primetime"] else []
         div_rows = [r for r in crow if r["g"]["div_game"]] if row["div_game"] else []
 
-        cells[t]["Head coach"] = c or "—"
-        cells[t]["Coach career (since '99)"] = _cell(crow)
-        role_lbl = (f"as {'favorite' if role == 'fav' else 'underdog'}{' of 7+' if big else ''}" if role else "pick'em")
-        cells[t][f"Coach in this role"] = (f"{role_lbl}: {_cell(role_rows)}" if role else "—")
-        cells[t]["Coach at home / on road"] = f"{'home' if info['home'] else 'road'}: {_cell(venue_rows)}"
-        cells[t]["Coach vs this franchise"] = _cell(vs_team)
-        cells[t]["Head-to-head vs opp HC"] = _cell(h2h)
+        cells[t]["Entrenador en jefe"] = c or "—"
+        cells[t]["Carrera del coach (desde '99)"] = _cell(crow)
+        role_word = "favorito" if role == "fav" else "no favorito"
+        role_lbl = (f"como {role_word}{' de 7+' if big else ''}" if role else "pick'em")
+        cells[t]["Coach en este rol"] = (f"{role_lbl}: {_cell(role_rows)}" if role else "—")
+        cells[t]["Coach de local / de visita"] = f"{'local' if info['home'] else 'visita'}: {_cell(venue_rows)}"
+        cells[t]["Coach vs esta franquicia"] = _cell(vs_team)
+        cells[t]["Cara a cara vs el otro coach"] = _cell(h2h)
         if last:
-            cells[t]["Coach after a " + ("win" if last["margin"] > 0 else "loss")] = _cell(after)
+            cells[t]["Coach después de " + ("victoria" if last["margin"] > 0 else "derrota")] = _cell(after)
         if spot_label:
             cells[t][f"Coach {spot_label}"] = _cell(spot_rows)
         if prime_rows:
-            cells[t]["Coach in primetime"] = _cell(prime_rows)
+            cells[t]["Coach en horario estelar"] = _cell(prime_rows)
         if div_rows:
-            cells[t]["Coach in division games"] = _cell(div_rows)
+            cells[t]["Coach en partidos divisionales"] = _cell(div_rows)
 
         qb = info["qb"]
         qrows = [r for r in by_qb.get(qb, []) if r["g"]["final"]]
         cells[t]["QB"] = qb or "—"
-        cells[t]["QB career starts (since '99)"] = _cell(qrows)
-        cells[t]["QB vs this opponent"] = _cell([r for r in qrows if r["opp"] == opp])
+        cells[t]["QB, carrera como titular (desde '99)"] = _cell(qrows)
+        cells[t]["QB vs este rival"] = _cell([r for r in qrows if r["opp"] == opp])
         qrole = [r for r in qrows if r["line"] is not None and role and (r["line"] < 0 if role == "fav" else r["line"] > 0)]
         if role:
-            cells[t]["QB in this role"] = f"{role_lbl.split(' of')[0]}: {_cell(qrole)}"
+            cells[t]["QB en este rol"] = f"como {role_word}: {_cell(qrole)}"
 
         # venue splits — this season and the last three
         tr = [r for r in by_team.get(t, []) if r["g"]["final"] and r["g"]["game_type"] == "REG"]
         cur = [r for r in tr if r["g"]["season"] == season]
-        for lbl, flag in (("home", True), ("road", False)):
+        for flag in (True, False):
             rr = [r for r in cur if r["home"] == flag]
             led = history.tally(rr)
             pf = sum((r["g"]["home_score"] if r["home"] else r["g"]["away_score"]) for r in rr)
             pa = sum((r["g"]["away_score"] if r["home"] else r["g"]["home_score"]) for r in rr)
-            cells[t][f"This season {'at home' if flag else 'on the road'}"] = (f"{led.fmt()} · ATS {led.fmt('ats')} · {pf / len(rr):.1f}-{pa / len(rr):.1f}"
+            cells[t][f"Esta temporada {'de local' if flag else 'de visita'}"] = (f"{led.fmt()} · ATS {led.fmt('ats')} · {pf / len(rr):.1f}-{pa / len(rr):.1f}"
                                                  if rr else "—")
         last3 = [r for r in tr if season - 2 <= r["g"]["season"] <= season]
         hm = [r["margin"] for r in last3 if r["home"]]
@@ -456,13 +486,13 @@ def history_block(g, hist, ctx):
         if hm and rm:
             edge = (sum(hm) / len(hm) - sum(rm) / len(rm)) / 2
             hl, rl = history.tally([r for r in last3 if r["home"]]), history.tally([r for r in last3 if not r["home"]])
-            cells[t]["Home edge, last 3 seasons"] = f"{edge:+.1f} pts (home {hl.fmt()}, road {rl.fmt()})"
+            cells[t]["Ventaja de local, últimas 3 temporadas"] = f"{edge:+.1f} pts (local {hl.fmt()}, visita {rl.fmt()})"
             # ~25 home + ~25 road games → about ±2 pts of noise on this number;
             # team-specific home field is mostly noise (Denver's altitude aside),
             # so only an extreme gap earns a note.
             if abs(edge) >= 5.5:
-                notable.append((abs(edge) / 4, f"**{t}** — home/road gap over 3 seasons is {edge:+.1f} pts per side "
-                                f"(home {hl.fmt()}, road {rl.fmt()}); league norm ~+1.5, noise ±2"))
+                notable.append((abs(edge) / 4, f"**{t}** — brecha local/visita en 3 temporadas de {edge:+.1f} pts por lado "
+                                f"(local {hl.fmt()}, visita {rl.fmt()}); norma de la liga ~+1.5, ruido ±2"))
         # luck: pythagorean + one-score games
         if cur:
             pf = sum((r["g"]["home_score"] if r["home"] else r["g"]["away_score"]) for r in cur)
@@ -470,31 +500,31 @@ def history_block(g, hist, ctx):
             led = history.tally(cur)
             py = history.pythagorean(pf, pa, len(cur))
             close = history.tally([r for r in cur if abs(r["margin"]) <= 8])
-            cells[t]["Pythagorean wins vs actual"] = f"{py:.1f} vs {led.su[0] + led.su[2] / 2:g}" if py is not None else "—"
-            cells[t]["One-score games (≤8)"] = close.fmt() if close.n else "—"
+            cells[t]["Victorias pitagóricas vs reales"] = f"{py:.1f} vs {led.su[0] + led.su[2] / 2:g}" if py is not None else "—"
+            cells[t]["Partidos de una posesión (≤8)"] = close.fmt() if close.n else "—"
             if py is not None:
                 d = led.su[0] + led.su[2] / 2 - py
                 if abs(d) >= 1.3:
-                    notable.append((abs(d), f"**{t}** — {'over' if d > 0 else 'under'}performing its point "
-                                    f"differential by {abs(d):.1f} wins (one-score games {close.fmt()}) — "
-                                    f"{'regression risk' if d > 0 else 'better than its record'}"))
+                    notable.append((abs(d), f"**{t}** — {'rinde arriba' if d > 0 else 'rinde abajo'} de su diferencial de puntos "
+                                    f"por {abs(d):.1f} victorias (partidos de una posesión {close.fmt()}) — "
+                                    f"{'riesgo de regresión' if d > 0 else 'mejor que su récord'}"))
 
-        note(t, f"{c} as {role_lbl}", role_rows, "ats")
+        note(t, f"{c} {role_lbl}", role_rows, "ats")
         note(t, f"{c} vs {opp}", vs_team, "su")
         note(t, f"{c} vs {opp}", vs_team, "ats")
-        note(t, f"{c} vs {info['opp_coach']} head-to-head", h2h, "su")
+        note(t, f"{c} vs {info['opp_coach']} cara a cara", h2h, "su")
         note(t, f"{c} {spot_label}", spot_rows, "su", mech=True) if spot_label else None
         note(t, f"{c} {spot_label}", spot_rows, "ats", mech=True) if spot_label else None
-        note(t, f"{c} in primetime", prime_rows, "su") if prime_rows else None
-        note(t, f"{c} at {'home' if info['home'] else 'road'}", venue_rows, "ats")
+        note(t, f"{c} en horario estelar", prime_rows, "su") if prime_rows else None
+        note(t, f"{c} {'de local' if info['home'] else 'de visita'}", venue_rows, "ats")
         note(t, f"{qb} vs {opp}", [r for r in qrows if r["opp"] == opp], "su", mech=True)
-        note(t, f"{c} after a {'win' if last and last['margin'] > 0 else 'loss'}", after, "ats")
+        note(t, f"{c} después de {'victoria' if last and last['margin'] > 0 else 'derrota'}", after, "ats")
 
     # series history (franchise vs franchise), from the home team's perspective
     series = [r for r in by_team.get(h, []) if r["opp"] == a and r["g"]["final"]][-10:]
     L = []
     keys = list(dict.fromkeys(k for t in (a, h) for k in cells[t]))
-    L.append(f"**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*\n")
+    L.append(f"**Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*\n")
     L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
     for k in keys:
         L.append(f"| {k} | {cells[a].get(k, '—')} | {cells[h].get(k, '—')} |")
@@ -510,16 +540,16 @@ def history_block(g, hist, ctx):
             streak += 1
         tot = [r["g"]["total"] for r in series]
         last = series[-1]
-        L.append(f"\n**Series, last {len(series)}:** {h} {led.fmt()} SU · {led.fmt('ats')} ATS · "
-                 f"O/U {led.ou[0]}-{led.ou[1]} · avg total {sum(tot) / len(tot):.1f}"
-                 f"{f' · {streak_team} has won {streak} straight' if streak_team and streak >= 2 else ''}"
-                 f" · last: {last['g']['season']:.0f} wk {last['g']['week']:.0f}, "
+        L.append(f"\n**Serie, últimos {len(series)}:** {h} {led.fmt()} directo · {led.fmt('ats')} ATS · "
+                 f"altas/bajas {led.ou[0]}-{led.ou[1]} · total promedio {sum(tot) / len(tot):.1f}"
+                 f"{f' · {streak_team} ha ganado {streak} seguidos' if streak_team and streak >= 2 else ''}"
+                 f" · último: {last['g']['season']:.0f} sem {last['g']['week']:.0f}, "
                  f"{h} {last['g']['home_score'] if last['home'] else last['g']['away_score']:.0f}-"
                  f"{last['g']['away_score'] if last['home'] else last['g']['home_score']:.0f}")
         if streak_team and streak >= 4:
-            notable.append((streak / 2, f"**{streak_team}** has won {streak} straight in the series"))
+            notable.append((streak / 2, f"**{streak_team}** ha ganado {streak} seguidos en la serie"))
     if notable:
-        L.append("\n**Notable:**")
+        L.append("\n**A destacar:**")
         for _, txt in sorted(notable, key=lambda x: -x[0])[:7]:
             L.append(f"- {txt}")
     L.append("")
@@ -531,7 +561,7 @@ def main():
     cur, season = espn.current_week()
     week = int(args[0]) if args else cur
     season = str(season or api.get_state().get("season"))
-    print(f"Podcast prep — season {season}, week {week}")
+    print(f"Preparación del podcast — temporada {season}, semana {week}")
 
     sched = load_schedule(week, season)
     upcoming = [g for g in sched[week] if not g["final"]]  # TNF already played drops out
@@ -576,12 +606,13 @@ def main():
     byes = sorted(set(team_ids) - playing)
 
     out, data_games = [], []
-    out.append(f"# Podcast prep — Week {week}, {season}\n")
-    out.append(f"*Generated {datetime.now(ET):%a %b %-d, %-I:%M %p} ET · DraftKings lines via ESPN · "
-               f"Byes: {', '.join(byes) or 'none'}*\n")
+    out.append(f"# Preparación del podcast — Semana {week}, {season}\n")
+    now = datetime.now(MX)
+    out.append(f"*Generado {fecha(now)}, {hora(now)} CDMX · líneas de DraftKings vía ESPN · horarios en CDMX "
+               f"(ET entre paréntesis) · descansan: {', '.join(byes) or 'nadie'}*\n")
     record = grade_picks(sched, week)
     if record:
-        out.append(f"**Our picks record** — {record}\n")
+        out.append(f"**Nuestro récord de picks** — {record}\n")
 
     # ---------- per-game analysis first (slate table is built from it)
     slate_rows, flags, sections = [], [], []
@@ -612,28 +643,29 @@ def main():
             e1, e2 = srs_margin - mkt_margin, fpi_margin - mkt_margin
             if e1 * e2 > 0 and min(abs(e1), abs(e2)) >= FLAG_EDGE:
                 lean = h if e1 > 0 else a
-                flag = f"🚩 both models lean **{lean}** (SRS {e1:+.1f}, FPI {e2:+.1f} vs market, home-margin pts)"
+                flag = f"🚩 los dos modelos se inclinan por **{lean}** (SRS {e1:+.1f}, FPI {e2:+.1f} vs mercado, pts de margen del local)"
                 flags.append((min(abs(e1), abs(e2)), f"{a} @ {h}", lean, e1, e2))
                 verdict = flag
             elif max(abs(e1), abs(e2)) < FLAG_EDGE:
-                verdict = "models agree with the market ✅"
+                verdict = "los modelos coinciden con el mercado ✅"
             elif e1 * e2 > 0:
-                verdict = (f"mild lean {h if e1 > 0 else a} (SRS {e1:+.1f}, FPI {e2:+.1f} vs market)"
-                           " — below the flag bar")
+                verdict = (f"leve inclinación por {h if e1 > 0 else a} (SRS {e1:+.1f}, FPI {e2:+.1f} vs mercado)"
+                           " — debajo del umbral de alerta")
             else:
-                verdict = f"models split (SRS {e1:+.1f}, FPI {e2:+.1f} vs market) — no signal"
+                verdict = f"modelos divididos (SRS {e1:+.1f}, FPI {e2:+.1f} vs mercado) — sin señal"
         fav = h if (spread or 0) < 0 else a
         fav_line = spread if fav == h else (-spread if spread is not None else None)
         open_fav = None
         if o.get("open_spread") is not None:
             open_fav = o["open_spread"] if fav == h else -o["open_spread"]
         kick = g["date"].astimezone(ET)
+        kmx = g["date"].astimezone(MX)
         move = ""
         if open_fav is not None and fav_line is not None and open_fav != fav_line:
-            move = f" (opened {fmt_spread(fav, open_fav)})"
-        tmove = f" (opened {o['open_total']:g})" if o.get("open_total") not in (None, total) else ""
+            move = f" (abrió {fmt_spread(fav, open_fav)})"
+        tmove = f" (abrió {o['open_total']:g})" if o.get("open_total") not in (None, total) else ""
         slate_rows.append(
-            f"| {a} @ {h} | {kick:%a %-I:%M %p} | {fmt_spread(fav, fav_line)}{move} | "
+            f"| {a} @ {h} | {DIAS[kmx.weekday()]} {hora(kmx)} | {fmt_spread(fav, fav_line)}{move} | "
             f"{total if total is not None else '—'}{tmove} | "
             f"{f'{h} {imp_h:.1f} / {a} {imp_a:.1f}' if imp_h else '—'} | "
             f"{f'{p_mkt:.0%}' if p_mkt else '—'} | {f'{p_fpi:.0%}' if p_fpi else '—'} | "
@@ -645,36 +677,36 @@ def main():
         wx = (s.get("gameInfo") or {}).get("weather") or {}
         grass = ((s.get("gameInfo") or {}).get("venue") or {}).get("grass")
         if g["indoor"]:
-            weather = "indoor"
+            weather = "techado"
         elif wx:
-            weather = f"{wx.get('temperature')}°F, {wx.get('precipitation', 0)}% precip"
-        L.append(f"## {a} @ {h} — {kick:%a %b %-d, %-I:%M %p} ET")
-        L.append(f"*{g['venue']} · {'grass' if grass else 'turf'} · {weather or 'weather n/a'}"
-                 f"{' · NEUTRAL SITE' if g['neutral'] else ''}"
-                 f"{' · DIVISIONAL (' + espn.DIVISION_OF[h] + ')' if espn.DIVISION_OF.get(h) == espn.DIVISION_OF.get(a) else ''}*\n")
-        L.append(f"**Line:** {fmt_spread(fav, fav_line)}{move} · O/U {total if total is not None else '—'}{tmove}"
+            weather = f"{wx.get('temperature')}°F, {wx.get('precipitation', 0)}% de lluvia"
+        L.append(f"## {a} @ {h} — {fecha(kmx)}, {hora(kmx)} CDMX ({hora(kick)} ET)")
+        L.append(f"*{g['venue']} · {'pasto' if grass else 'sintético'} · {weather or 'clima n/d'}"
+                 f"{' · SEDE NEUTRAL' if g['neutral'] else ''}"
+                 f"{' · DIVISIONAL (' + espn.DIVISION_OF[h].replace('North', 'Norte').replace('South', 'Sur').replace('East', 'Este').replace('West', 'Oeste') + ')' if espn.DIVISION_OF.get(h) == espn.DIVISION_OF.get(a) else ''}*\n")
+        L.append(f"**Línea:** {fmt_spread(fav, fav_line)}{move} · total {total if total is not None else '—'}{tmove}"
                  + (f" · ML {h} {o['ml_home']:+g} / {a} {o['ml_away']:+g}" if o.get("ml_home") is not None else ""))
         if imp_h:
-            L.append(f"**Implied totals:** {h} {imp_h:.1f} · {a} {imp_a:.1f}")
+            L.append(f"**Totales implícitos:** {h} {imp_h:.1f} · {a} {imp_a:.1f}")
         chk = []
         if mkt_margin is not None:
-            chk.append(f"market {h} {mkt_margin:+.1f}")
+            chk.append(f"mercado {h} {mkt_margin:+.1f}")
         if srs_margin is not None:
             chk.append(f"SRS {h} {srs_margin:+.1f}")
         if fpi_margin is not None:
             chk.append(f"FPI {h} {fpi_margin:+.1f}")
         win = []
         if p_mkt:
-            win.append(f"market {h} {p_mkt:.0%}")
+            win.append(f"mercado {h} {p_mkt:.0%}")
         if p_fpi:
             win.append(f"FPI {h} {p_fpi:.0%}")
-        L.append(f"**Line check (home margin):** {' · '.join(chk)}" + (f" — {verdict}" if verdict else ""))
+        L.append(f"**Chequeo de línea (margen del local):** {' · '.join(chk)}" + (f" — {verdict}" if verdict else ""))
         if win:
-            L.append(f"**Win prob:** {' · '.join(win)}")
+            L.append(f"**Prob. de victoria:** {' · '.join(win)}")
         if naive_total is not None and total is not None:
             d = naive_total - total
-            L.append(f"**Total check:** PF/PA model {naive_total:.1f} vs {total:g} "
-                     f"({'over' if d > 0 else 'under'} lean {abs(d):.1f}{' — noise' if abs(d) < 3 else ''})")
+            L.append(f"**Chequeo del total:** modelo PF/PA {naive_total:.1f} vs {total:g} "
+                     f"(inclinación a {'altas' if d > 0 else 'bajas'} por {abs(d):.1f}{' — ruido' if abs(d) < 3 else ''})")
         L.append("")
 
         # team comparison table
@@ -691,12 +723,12 @@ def main():
         ra, rh = recs(a), recs(h)
         gr = {a: g["rec_away"], h: g["rec_home"]}
         rows = [
-            ("Record (home / road)", lambda t, R: f"{R.get('su', '—')} ({gr[t].get('home', '—')} / {gr[t].get('road', '—')})"),
-            ("ATS (as fav / as dog)", lambda t, R: f"{R.get('ats', '—')} ({R.get('fav', '—')} / {R.get('dog', '—')})"),
-            ("Over/Under", lambda t, R: R.get("ou", "—")),
-            ("Avg margin · avg cover", lambda t, R: f"{R.get('margin', '—')} · {R.get('cover', '—')}"),
-            ("SRS rating", lambda t, R: f"{ratings[t]:+.1f} ({ordinal(rank_map(ratings)[t])})" if t in ratings else "—"),
-            ("Points for / against", lambda t, R: (f"{ppg[t]:.1f} ({ordinal(ppg_rank[t])}) / {papg[t]:.1f} ({ordinal(papg_rank[t])})"
+            ("Récord (local / visita)", lambda t, R: f"{R.get('su', '—')} ({gr[t].get('home', '—')} / {gr[t].get('road', '—')})"),
+            ("ATS (de favorito / de no favorito)", lambda t, R: f"{R.get('ats', '—')} ({R.get('fav', '—')} / {R.get('dog', '—')})"),
+            ("Altas/Bajas", lambda t, R: R.get("ou", "—")),
+            ("Margen prom. · cobertura prom.", lambda t, R: f"{R.get('margin', '—')} · {R.get('cover', '—')}"),
+            ("Rating SRS", lambda t, R: f"{ratings[t]:+.1f} ({ordinal(rank_map(ratings)[t])})" if t in ratings else "—"),
+            ("Puntos a favor / en contra", lambda t, R: (f"{ppg[t]:.1f} ({ordinal(ppg_rank[t])}) / {papg[t]:.1f} ({ordinal(papg_rank[t])})"
                                                    if t in ppg else "—")),
         ]
         for k, label, _, f in TEAM_METRICS:
@@ -705,17 +737,17 @@ def main():
 
         def spot(t):
             days, bye = rest_days(t, g, all_games)
-            bits = [f"{days}d rest" if days is not None else "—"]
+            bits = [f"{days} días de descanso" if days is not None else "—"]
             if bye:
-                bits.append("off bye")
+                bits.append("tras semana de descanso")
             elif days is not None and days <= 5:
-                bits.append("SHORT WEEK")
+                bits.append("SEMANA CORTA")
             if t in WEST and t == a and kick.hour == 13 and h not in WEST:
-                bits.append("west coast @ 1pm ET")
+                bits.append("costa oeste a la 1 pm ET")
             if t in next_opp:
-                bits.append(f"next {next_opp[t]}")
+                bits.append(f"luego {next_opp[t]}")
             return ", ".join(bits)
-        rows.append(("Spot", lambda t, R: spot(t)))
+        rows.append(("Situación", lambda t, R: spot(t)))
         L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
         for label, fn in rows:
             L.append(f"| {label} | {fn(a, ra)} | {fn(h, rh)} |")
@@ -723,7 +755,7 @@ def main():
         for t in (a, h):
             log = (rec.get(t) or {}).get("log") or []
             if log:
-                L.append(f"**{t} last 5:** " + " · ".join(reversed(log[-5:])))
+                L.append(f"**{t} últimos 5:** " + " · ".join(reversed(log[-5:])))
         L.append("")
 
         hrow = hist_row.get(g["id"])
@@ -748,14 +780,14 @@ def main():
             if not items:
                 continue
             txt = ", ".join(f"{i['athlete']['displayName']} {((i['athlete'].get('position') or {}).get('abbreviation') or '')}"
-                            f" ({i['status'][0]}{' — ' + (i.get('details') or {}).get('type', '') if (i.get('details') or {}).get('type') else ''})"
+                            f" ({STATUS_ES.get(i['status'], i['status'])}{' — ' + body_es((i.get('details') or {}).get('type', '')) if (i.get('details') or {}).get('type') else ''})"
                             for i in items[:14])
-            L.append(f"**{t} injuries:** {txt}")
+            L.append(f"**{t} lesiones:** {txt}")
         L.append("")
 
         # fantasy
         L.append("**Fantasy**\n")
-        L.append("| Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |\n|---|---|---|---|---|---|")
+        L.append("| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |\n|---|---|---|---|---|---|")
         game_players = []
         for t in (a, h):
             opp = h if t == a else a
@@ -772,7 +804,7 @@ def main():
                 mu = "—"
                 if rk:
                     tag = "🟢" if rk <= 8 else "🔴" if rk >= 25 else ""
-                    mu = f"{tag} {opp} allows {ordinal(rk)}-most to {p['pos']} ({fp:.1f})"
+                    mu = f"{tag} {opp} es {ordinal(rk)} que más permite a {p['pos']} ({fp:.1f})"
                 trend = ""
                 if l3 and sz and l3.get("g", 0) >= 2:
                     dt = l3["tgt"] - sz["tgt"]
@@ -782,9 +814,9 @@ def main():
                     elif dt <= -0.05 or dr <= -0.10:
                         trend = " ⬇️"
                 pct = lambda x: f"{x:.0%}" if x else "—"  # noqa: E731
-                name = (f"{p['name']} ({p['pos']}, {t})" + (f" **{p['inj']}**" if p["inj"] else "")
+                name = (f"{p['name']} ({p['pos']}, {t})" + (f" **{STATUS_ES.get(p['inj'], p['inj'])}**" if p["inj"] else "")
                         + (" 📈" if p["pid"] in trending else "") + trend
-                        + (f" *(missed {sh['missed_l3']} of last 3)*" if sh.get("missed_l3") else ""))
+                        + (f" *(se perdió {sh['missed_l3']} de los últimos 3)*" if sh.get("missed_l3") else ""))
                 L.append(f"| {name} | {p['ppr']:.1f} ({p['half']:.1f}) | "
                          f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))}) | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
                          f"{pct(l3.get('snap'))} | {mu} |")
@@ -794,11 +826,11 @@ def main():
             opp = h if t == a else a
             mine = slr["dst"].get(sl(t)) or {}
             if mine:
-                L.append(f"\n*{t} DST:* {mine.get('sack', 0):.1f} sacks, {mine.get('int', 0) + mine.get('fum_rec', 0):.1f} takeaways, "
-                         f"{mine.get('pts_allow', 0):.1f} pts allowed per game · {opp} offense: "
-                         f"{tstats.get(opp, {}).get('passing.sacks') or 0:.0f} sacks taken, "
-                         f"{tstats.get(opp, {}).get('miscellaneous.totalGiveaways') or 0:.0f} giveaways"
-                         + (f", implied {imp_h if opp == h else imp_a:.1f}" if imp_h else ""))
+                L.append(f"\n*DST {t}:* {mine.get('sack', 0):.1f} capturas, {mine.get('int', 0) + mine.get('fum_rec', 0):.1f} balones recuperados, "
+                         f"{mine.get('pts_allow', 0):.1f} pts permitidos por partido · ofensiva de {opp}: "
+                         f"{tstats.get(opp, {}).get('passing.sacks') or 0:.0f} capturas recibidas, "
+                         f"{tstats.get(opp, {}).get('miscellaneous.totalGiveaways') or 0:.0f} balones perdidos"
+                         + (f", total implícito {imp_h if opp == h else imp_a:.1f}" if imp_h else ""))
         L.append("\n---\n")
         sections.append("\n".join(L))
         data_games.append({"game": f"{a}@{h}", "kickoff": kick.isoformat(), "odds": o,
@@ -807,27 +839,27 @@ def main():
                            "implied": {h: imp_h, a: imp_a}, "flag": flag, "players": game_players,
                            "history": hdata})
 
-    out.append("## Slate\n")
-    out.append("| Game | Kick (ET) | Spread | Total | Implied | Mkt home% | FPI home% | SRS line | |\n"
+    out.append("## Cartelera\n")
+    out.append("| Partido | Hora (CDMX) | Spread | Total | Implícitos | % local mercado | % local FPI | Línea SRS | |\n"
                "|---|---|---|---|---|---|---|---|---|")
     out.extend(slate_rows)
     out.append("")
     if flags:
-        out.append("### 🚩 Line checks (both models off the market)\n")
+        out.append("### 🚩 Alertas de línea (los dos modelos lejos del mercado)\n")
         for e, game, lean, e1, e2 in sorted(flags, reverse=True):
-            out.append(f"- **{game}** → lean **{lean}** · SRS {e1:+.1f} / FPI {e2:+.1f} pts vs market")
+            out.append(f"- **{game}** → inclinación por **{lean}** · SRS {e1:+.1f} / FPI {e2:+.1f} pts vs mercado")
         out.append("")
     if slate_notes:
-        out.append("### History notes worth a mention\n")
+        out.append("### Notas históricas que vale la pena mencionar\n")
         out.extend(f"- {txt}" for _, txt in sorted(slate_notes, key=lambda x: -x[0])[:12])
         out.append("")
     imp = sorted(((v, t) for dg in data_games for t, v in dg["implied"].items() if v), reverse=True)
     if imp:
-        out.append("### Implied team totals\n")
-        out.append("Top: " + " · ".join(f"{t} {v:.1f}" for v, t in imp[:6]))
-        out.append("\nBottom: " + " · ".join(f"{t} {v:.1f}" for v, t in imp[-6:][::-1]) + "\n")
+        out.append("### Totales implícitos por equipo\n")
+        out.append("Arriba: " + " · ".join(f"{t} {v:.1f}" for v, t in imp[:6]))
+        out.append("\nAbajo: " + " · ".join(f"{t} {v:.1f}" for v, t in imp[-6:][::-1]) + "\n")
     # softest matchups this week
-    out.append("### Softest matchups this week (PPR allowed per game, rank of 32)\n")
+    out.append("### Enfrentamientos más blandos de la semana (PPR permitido por partido, lugar de 32)\n")
     opp_of = {sl(g["home"]): sl(g["away"]) for g in upcoming} | {sl(g["away"]): sl(g["home"]) for g in upcoming}
     for pos in SKILL:
         cands = sorted(((slr["fpa_rank"][pos][d], d) for d in opp_of.values() if d in slr["fpa_rank"][pos]))[:4]
@@ -843,34 +875,35 @@ def main():
             if dt >= 0.06 or dr >= 0.12:
                 risers.append((max(dt, dr / 2), p, dt, dr, l3))
     if risers:
-        out.append("### Usage risers (last 3 vs season)\n")
+        out.append("### Uso en ascenso (últimos 3 vs temporada)\n")
         for _, p, dt, dr, l3 in sorted(risers, key=lambda x: -x[0])[:10]:
             bits = []
             if dt >= 0.06:
-                bits.append(f"tgt share {l3['tgt']:.0%} ({dt:+.0%})")
+                bits.append(f"% de targets {l3['tgt']:.0%} ({dt:+.0%})")
             if dr >= 0.12:
-                bits.append(f"carry share {l3['rush']:.0%} ({dr:+.0%})")
-            out.append(f"- {p['name']} ({p['pos']}, {p['team']}) — {', '.join(bits)} · proj {p['ppr']:.1f} PPR")
+                bits.append(f"% de acarreos {l3['rush']:.0%} ({dr:+.0%})")
+            out.append(f"- {p['name']} ({p['pos']}, {p['team']}) — {', '.join(bits)} · proy. {p['ppr']:.1f} PPR")
         out.append("")
     tr = [p for p in slr["proj"] if p["pid"] in trending]
     if tr:
-        out.append("### Trending adds (Sleeper, 48h) on this slate\n")
+        out.append("### Más agregados en Sleeper (48h) de esta cartelera\n")
         out.append(" · ".join(f"{p['name']} ({p['pos']}, {p['team']}) +{trending[p['pid']]:,}"
                               for p in sorted(tr, key=lambda p: -trending[p["pid"]])[:12]) + "\n")
     out.append("---\n")
     out.extend(sections)
     out[-1] = out[-1].rstrip("-\n")
-    out.append("\n*Method: SRS = opponent-adjusted margin (cap ±21, HFA 1.5, shrunk n/(n+3)); "
-               "FPI margin = ESPN win% through a normal with SD 13.5; flag needs both ≥2 pts off the market "
-               "in the same direction. Fantasy points re-scored under standard PPR/half rules. "
-               "Matchup rank 1 = defense allowing the most fantasy points to that position.*\n")
+    out.append("\n*Método: SRS = margen ajustado por rival (tope ±21, ventaja de local 1.5, encogido n/(n+3)); "
+               "margen FPI = % de victoria de ESPN pasado por una normal con DE 13.5; la alerta 🚩 pide que los dos "
+               "estén a ≥2 pts del mercado hacia el mismo lado. Puntos de fantasy recalculados con reglas estándar "
+               "PPR/half. Enfrentamiento 1º = la defensa que más puntos de fantasy permite a esa posición. "
+               "Últimos 5: G/P/E = ganado/perdido/empate; ✓/✗ = cubrió/no cubrió; A/B = altas/bajas.*\n")
 
     dest = ROOT / "reports" / season / "podcast" / f"week{week:02d}"
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "podcast-prep.md").write_text("\n".join(out))
     (dest / "data.json").write_text(json.dumps({"week": week, "season": season, "games": data_games},
                                                indent=1, default=str))
-    print(f"→ {dest / 'podcast-prep.md'}  ({len(upcoming)} games, {len(flags)} line flags)")
+    print(f"→ {dest / 'podcast-prep.md'}  ({len(upcoming)} partidos, {len(flags)} alertas de línea)")
 
 
 if __name__ == "__main__":

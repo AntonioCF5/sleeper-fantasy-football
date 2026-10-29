@@ -108,8 +108,12 @@ short lines, numbers rounded the way people say them, no tables inside game
 segments. The host is a sharp veteran: lead with the edge, not the lesson.
 
 **Language: the podcast is in SPANISH (user 2026-10-28).** The rundown is
-always written in Mexican Spanish, to be read on air. The data sheet and
-research stay in English (internal). Conventions, applied the same way every week:
+always written in Mexican Spanish, to be read on air. **The data sheet is in
+Spanish too** (`podcast_prep.py` prints Spanish labels, CDMX times, Spanish
+injury tags and body parts via `STATUS_ES`/`BODY_ES`; G/P/E and A/B in the
+last-5 logs). Only the research layer's notes stay in English, since they're
+internal. When the script prints a new string, write it in Spanish. Conventions,
+applied the same way every week:
 - Team nicknames as Mexican broadcasts say them: Empacadores, Panteras,
   Cuervos, Bills, Bengalíes, Titanes, Cardenales, Vaqueros, Vikingos, Leones,
   Raiders, Jets, Cafés, Acereros, Halcones, Bucaneros, Potros, Jaguares,
