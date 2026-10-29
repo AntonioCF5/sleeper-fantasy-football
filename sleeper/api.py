@@ -217,6 +217,14 @@ def get_week_stats(season: str, week: int):
     return _fetch(f"{BASE}/v1/stats/nfl/regular/{season}/{week}", ttl=7 * DAY)
 
 
+def get_week_stat_rows(season: str, week: int, positions=("QB", "RB", "WR", "TE", "DEF")):
+    """Actual stats for one week as rows WITH team/opponent/game_id (the v1
+    dict above has neither) — what defense-vs-position and team usage
+    shares need. DEF rows carry pts_allow/yds_allow/sack/int."""
+    qs = "&".join(f"position[]={p}" for p in positions)
+    return _fetch(f"{BASE}/stats/nfl/{season}/{week}?season_type=regular&{qs}", ttl=DAY)
+
+
 def get_player_week_stats(player_id: str, season: str):
     """Weekly stat lines for one player across a season, keyed by week."""
     return _fetch(

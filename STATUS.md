@@ -178,6 +178,18 @@ tells the user to re-check news once before accepting.
   (Hungarian) que maximiza la supervivencia. Regresión del edge por distancia
   y tope de fades al mismo rival. Estado en `data/intel/survivor.json`
   (3 vidas, S1 PIT, S2 pendiente de confirmar).
+- **Podcast prep** (`scripts/podcast_prep.py` + skill `podcast-prep`,
+  2026-10-28): hoja por partido de la semana NFL para el podcast del user —
+  líneas DraftKings (apertura→ahora, totales implícitos), chequeo de línea
+  con dos modelos (SRS propio + FPI de ESPN; 🚩 solo si ambos se desvían ≥2
+  pts al mismo lado), récords SU/ATS/O-U con líneas de cierre de ESPN core
+  API, stats de equipo rankeadas 1-32, descanso/bye/divisional/lookahead,
+  lesiones, y capa fantasy (PPR re-calificado, share de targets/acarreos L3
+  vs temporada, puntos permitidos por posición). Módulo `sleeper/espn.py`
+  (cache en data/cache/espn/). Picks al aire en
+  `data/intel/podcast_picks.json`, calificadas solas en la siguiente corrida.
+  Primera corrida: semana 8 (`reports/2026/podcast/week08/`); rundown aún no
+  escrito.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

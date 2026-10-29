@@ -1,0 +1,4 @@
+{
+  "_schema": "weeks.<N>: [{game: 'AWAY@HOME' (ESPN codes, e.g. PHI@WSH), bet: spread|total|ml, side: team code or over/under, line: number from the SIDE's perspective at pick time (spread +3.5, total 44.5, ml +145), conf: 1-3, why: one line}] — result W/L/P is written by podcast_prep.py once the game is final",
+  "weeks": {}
+}

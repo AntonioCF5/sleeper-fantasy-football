@@ -96,6 +96,7 @@ picks up where this one left off.
 | `python3 scripts/destape_guion.py <destape.txt> [--completo]` | Paso 1 del video del Destape: WhatsApp → guion hablado para la voz de Miroslava en Artlist (quita formato/emojis, ranking a "Número N", estima duración vs el tope de 3 min de HeyGen). Pipeline completo en `data/intel/brand/miroslava-video-pipeline.md`. |
 | `python3 scripts/destape_montaje.py <heygen.mp4> <out.mp4> [--subtitulo "…"]` | Paso 4: montaje de marca del video del Destape (recorta letterbox de HeyGen, lienzo 1080x1920 con escudo/título/barra roja, intro y outro con fades). |
 | `python3 scripts/survivor_plan.py [--week N] [--avoid-week18] [--regress R] [--max-fade N]` | NFL survivor pool planner: full remaining schedule with DraftKings lines (ESPN) where they exist and ESPN FPI matchup-predictor probabilities for weeks the market hasn't priced yet (cached 12h in data/cache/espn_summary), win probabilities (de-vigged ML / spread / FPI), exact assignment (Hungarian) of one team per week with no repeats maximizing survival, time-regressed lookahead edges, opponent-fade cap, P(survive) with N lives. State (lives, used picks) in `data/intel/survivor.json`; commit only the current week, re-run every Tuesday. |
+| `python3 scripts/podcast_prep.py [week]` | Weekly podcast data sheet → `reports/<season>/podcast/weekNN/podcast-prep.md`: per game DraftKings lines (open→now, implied totals), SRS + ESPN-FPI line check (🚩 when both disagree with the market ≥2 pts), SU/ATS/O-U records from ESPN closing lines, team stats ranked 1-32, rest/bye/divisional/lookahead spots, injuries, fantasy usage shares + position matchups. Grades on-air picks in `data/intel/podcast_picks.json`. Workflow (research layer + spoken rundown) is the `podcast-prep` skill. |
 | `python3 scripts/roast_imagen_guerra.py <gallamijos\|dynasty>` | Imagen 1080x1080 compartible del Marcador de la Guerra con Miroslava, el escudo y la tabla (lee la hoja de hechos, no recalcula) → `reports/<season>/roast/img/`. |
 | `python3 scripts/destape_visual.py <edicion.txt> [--solo-tarjetas\|--solo-pdf]` | El Destape en formato visual desde el MISMO .txt aprobado (no reescribe nada): carrusel de tarjetas JPG 1080x1350 con el vestuario de Miroslava por sección (fecha EXIF consecutiva = orden correcto en el teléfono), PDF carrusel (un archivo, tarjetas en orden) y PDF en formato periódico (cabezal gótico, primera plana, 3 columnas, alto de página ajustado en dos pasadas). Chrome headless con perfil temporal. Salida en `reports/<season>/roast/visual/<edición>/`. |
 | `python3 scripts/send_destape.py <edicion.txt> [--sin-adjuntos]` | Manda el Destape por correo al user: texto plano en el cuerpo + SOLO los PDFs (carrusel y periódico) adjuntos — nunca las tarjetas sueltas (user 2026-09-29). Llavero de macOS, igual que el newsletter. |
@@ -112,6 +113,8 @@ Library modules (import from repo root with `sys.path` trick, see scripts):
   (all-play records), `waiver_targets`, `trade_suggestions`, `draft_board`
   (VORP vs replacement level derived from THIS league's roster slots).
 - `sleeper/reports.py` — markdown weekly + draft reports.
+- `sleeper/espn.py` — ESPN public endpoints (scoreboard, game summary, DraftKings
+  open/close odds incl. finished games, team season stats), curl + file cache.
 
 ## Weekly cadence (in-season)
 
