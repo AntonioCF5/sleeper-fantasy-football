@@ -1069,22 +1069,50 @@
    "published": "2026-10-27",
    "source": "fantasy-footballers",
    "processed": "2026-10-27"
+  },
+  "ICa29FapDpY": {
+   "video_id": "ICa29FapDpY",
+   "title": "7 Players About to GO NUCLEAR in Fantasy (Trade For Them Now)",
+   "published": "2026-10-28",
+   "source": "sal-vetri",
+   "processed": "2026-10-28"
+  },
+  "E_TzcrQFfHc": {
+   "video_id": "E_TzcrQFfHc",
+   "title": "Second Half Sleepers + Trade Targets, ROS Outlooks | Fantasy Football 2026 - Ep. 2003",
+   "published": "2026-10-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-28"
+  },
+  "jncCurCX0a8": {
+   "video_id": "jncCurCX0a8",
+   "title": "\"Who's a sleeper you think could help you win a 'ship in the second half of the fantasy season...?\"",
+   "published": "2026-10-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-28"
+  },
+  "LihBYMx1uho": {
+   "video_id": "LihBYMx1uho",
+   "title": "A truly incredible moment... 9 hours... 2399 shots \ud83e\udd2f",
+   "published": "2026-10-28",
+   "source": "fantasy-footballers",
+   "processed": "2026-10-28"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-27",
+   "last_success": "2026-10-28",
    "last_failure": "2026-09-16",
    "via": "innertube",
-   "rss_failures": 3
+   "rss_failures": 6
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-27",
+   "last_success": "2026-10-28",
    "last_failure": "2026-09-16",
    "via": "innertube",
-   "rss_failures": 3
+   "rss_failures": 6
   }
  }
 }

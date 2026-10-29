@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -8,19 +8,10 @@
    "player": "Hunter Henry (TE, NE)",
    "player_id": "3214",
    "verdict": "claim",
-   "bid": 5,
-   "drop": "Konata Mumpfield (WR, LAR, 24 — S42, 4.4 w8)",
-   "why": "Read live 10/26: Isaiah Likely (NYG) is the ONLY TE on a 14/14 roster and NYG is on bye week 8, so the TE slot scores 0 without an add. Henry is a free agent now (9.6 w8 proj, S154). This league's TE market clears at $0-4 (Higbee $4, Andrews $2, Strange $2 in weeks 6-7), so $5 wins it. Mumpfield is the lowest-ROS non-protected player. Fallback if Henry is lost: Brenton Strange (JAX, 10.6 w8) once the chopped roster's players hit the wire."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "league": "🪓 Guillotine TRC",
-   "player": "Kyren Williams (RB, LAR — from the chopped roster)",
-   "player_id": "8150",
-   "verdict": "claim",
-   "bid": 177,
-   "drop": "Mike Washington Jr. (RB, LV, 23 — S98, 5.7 w8, a Jeanty backup)",
-   "why": "You survived week 7 by 0.68 (75.48 vs 74.80 for roster 5; neither has MNF players). The chopped team's players (Kyren, Kyler Murray, James Cook, Odunze, Strange) hit the wire next. Kyren projects 19.6 in week 8 vs Malik Washington's 9.2 in FLEX, about +10 for a lineup that was 2nd-lowest. The haircut: he splits with Corum (17 vs 16 carries in week 7), and FF notes LAR gave Corum the opening drive after Kyren complained about touches, so this is not Henry money ($433). Five rivals have more FAAB (723/681/652/610/530 vs your $469). $177 (38%) is a real bid without draining the war chest for the next eight chops. If you lose him, don't chase: Cook at the same price is the alternative."
+   "bid": 0,
+   "drop": "Malik Washington (WR, MIA, Q knee — limited Wed)",
+   "why": "Read live 10/28: the Tue-night run cleared and Henry went unclaimed, so he's a free agent now — add him instantly, no bid, no waiting for the next run. Isaiah Likely (NYG) is the only TE on the 14/14 roster and NYG is on bye, so TE scores 0 without him. Henry ~9.6 w8. Mumpfield is already gone (dropped for Odunze). Drop Malik Washington (Q knee, WR5 behind Wilson/Concepcion/Odunze/A. Williams) rather than Mike Washington Jr., because Gibbs missed Wednesday practice (shoulder) and White/Washington are the RB depth. Strange and Barner are both owned by roster 15, and Kyren went to roster 10 for $370, so Henry is the only TE left.",
+   "date": "2026-10-28"
   },
   {
    "league_id": "1389689013551517698",
@@ -33,36 +24,6 @@
    "why": "Clean handcuff (dc2 behind Taylor). Rapoport-level JT trade smoke (MIN/SEA/DEN/NE, a 2027 1st); Sal stashes him after a season-high 11 carries. Guillotine's every-spot-produces rule makes him the first cut once JT's status resolves at the deadline, but not before."
   },
   {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "AJ Barner (TE, SEA)",
-   "player_id": "11603",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Michael Mayer (TE, LV)",
-   "why": "Barner was dropped 30h ago and is on waivers (priority by standings, wt=1). He's SEA's TE1 (4-42 on 5 targets SNF), 8.4 w8 vs Mayer 7.4, and ROS 142 vs 81. A straight TE upgrade with no roster cost. The roster is 17/17 and nobody is IR-eligible (allow_out=0), hence the 1-for-1."
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "WAS DEF",
-   "player_id": "WAS",
-   "verdict": "stream",
-   "bid": 0,
-   "drop": "Laquon Treadwell (WR, IND, 31 — ROS 0, no market)",
-   "why": "12-team league, so stream: WAS 8.2 w8 vs BUF 6.4. Treadwell is the aging no-market vet at the top of the dynasty drop order. The roster is 23/23."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "CIN DEF",
-   "player_id": "CIN",
-   "verdict": "stream",
-   "bid": 0,
-   "drop": "TEN DEF",
-   "why": "CIN 12.4 w8 is the best DEF available, vs PHI 8.1 starting and TEN 6.0 benched. Swap DEFs; it costs no player asset. Then start CIN."
-  },
-  {
    "league_id": "1385473470141313024",
    "league": "FANTASY MEXICA",
    "player": "Jonah Coleman (RB, DEN)",
@@ -70,7 +31,7 @@
    "verdict": "protected-hold",
    "bid": null,
    "drop": null,
-   "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first."
+   "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first. 2026-10-28: protected from DROPS only. He's an acceptable fallback chip in the Shough-for-Lawrence trade (see trade_offers), but try Vidal first."
   },
   {
    "league_id": "1385473470141313024",
@@ -81,15 +42,6 @@
    "bid": null,
    "drop": null,
    "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
-  },
-  {
-   "league_id": "1389689013551517698",
-   "player": "Brenton Strange (TE, JAX — from the chopped roster)",
-   "verdict": "claim",
-   "bid": 3,
-   "drop": "Konata Mumpfield (WR, LAR, 24) — same drop as the Henry claim",
-   "why": "Read live 10/27: Strange (10.5 w8, ROS 161) hit the wire with the week-7 chopped roster, so he and Henry (9.6, ROS 154) clear in the same run. File Strange as a second claim behind Henry and pair it with the SAME drop (Mumpfield). If Henry wins, the Strange claim fails automatically because Mumpfield is gone; if Henry is lost, Strange fills the TE hole Likely's NYG bye opens. $3 sits inside this league's observed $0-4 TE market.",
-   "date": "2026-10-27"
   }
  ],
  "roster_compliance": {

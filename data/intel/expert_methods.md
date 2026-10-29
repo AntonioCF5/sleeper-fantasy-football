@@ -1668,3 +1668,11 @@ without testing it.
 - **Opponent-adjusted TE matchups [FF]:** stream TEs by points allowed ABOVE what the defense's opponents normally score (DET +12.8), not by raw points allowed. This is the same fix as the script-artifact rule above.
 - **Checkdown-QB RB targets [FF]:** an RB's target floor follows his QB's rate of throws at or behind the line (Rodgers). Use it to break ties between pass-catching backs.
 - **Route share in the first game back beats the box score [Sal]:** 94% routes and a 27% target share on 3 catches (A.J. Brown) is a buy-low, not a decline.
+
+## 2026-10-28 (Sal "7 Players About to GO NUCLEAR", FF Ep. 2003 second-half sleepers)
+
+- **Strip blowout script before judging a collapse [Sal]:** garbage-time pulls, defensive scores and a QB overthrow explain a bad week; anchor on pre-collapse snap share and opportunity share (Hubbard, Coker).
+- **Isolate target share with the rival WR healthy [Sal]:** 27% with McMillan on the field beats a 22% injury-skewed season average.
+- **Returning-from-injury haircut [Sal]:** a player back early from a high ankle sprain carries roughly a 25% production dip; buy when routes and target share are intact despite the box score.
+- **Coach volunteers a name = usage signal [Sal/FF]:** when a coach praises a player nobody asked about (Quinn on Antonio Williams, Payton on Coleman), usage is coming.
+- **Traded star != fantasy boost [FF]:** new-scheme players rarely inherit the old workload, so a trade request is a reason to temper, not buy.
