@@ -57,6 +57,25 @@ What the sheet holds, and how to read it:
   and opponent fantasy points allowed by position, ranked (🟢 top-8 softest,
   🔴 bottom-8). 📈 = Sleeper trending add. DST line: sacks, takeaways and
   points allowed vs the opponent's sacks taken and giveaways.
+- **Usage by team** (user 2026-10-28: usage numbers back up the arguments):
+  per team, the top 3 RBs by backfield share and the top 6 WR/TE by target
+  share, each shown as last 3 games (season). Columns: snap %, target %,
+  targets per game, % of completed air yards, red-zone share (targets for
+  WR/TE, carries for RB), and % of backfield touches (carries + catches over
+  all of the team's RB touches). Under each table there's a one-line read:
+  - backfield: "un solo hombre" (≥70%, no second back ≥30%), "reparto claro"
+    (≥55%) or "comité"
+  - top-2 target share: "árbol concentrado" at ≥50%, "reparto abierto" under 38%
+  Slate-wide, **Roles más grandes** lists target magnets (≥27%) and workhorses
+  (≥70% of backfield touches).
+  - Air yards are COMPLETED air yards (Sleeper's `rec_air_yd` = rec_yd −
+    rec_yar), not air yards on every target, so a bad QB drags them down. Say
+    "yardas aéreas completadas" on air.
+  - **Routes run are not in any free 2026 feed.** nflverse participation data
+    stops at 2025, Sleeper and ESPN don't carry routes, and PFF, FantasyPoints
+    and Rotowire put them behind a paywall. Use route participation only when
+    the user pastes it from a subscription; otherwise targets per snap and
+    snap % are the stand-ins.
 - **Coaches & history** (nflverse games file since 1999, closing lines,
   includes playoffs; module `sleeper/history.py`), per team:
   - head coach career SU/ATS
@@ -176,6 +195,13 @@ Rules for the calls:
 - **Fantasy advice is league-agnostic.** The audience isn't in his leagues, so
   use PPR/half from the sheet. Never reveal his rosters or league business on air.
 - Confidence: ★ lean, ★★ bet, ★★★ best bet. Be decisive, like the weekly report.
+- **Back every fantasy call and every player-driven game argument with a usage
+  number** from the usage table: target share, backfield share, red-zone
+  share, snap trend. "Gibbs is questionable" lands harder as "91% of Detroit's
+  backfield touches and a 9% backup". When usage cuts against a call, change
+  the call or say so on air (wk 8: Stevenson went from start to flex at 51% of
+  the backfield; Chase's L3 dip to 61% snaps). Every superlative ("the most on
+  the slate") gets checked against the whole slate first.
 
 ## 4. Log the picks (accountability)
 

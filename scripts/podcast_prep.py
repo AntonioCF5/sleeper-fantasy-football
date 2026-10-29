@@ -250,7 +250,8 @@ def load_sleeper(season, week):
     fpa = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))  # def -> week -> pos -> pts
     dst = defaultdict(lambda: defaultdict(list))                         # team -> stat -> [per game]
     usage = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "snp": 0, "tm_snp": 0}))
-    team_tot = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0}))
+    team_tot = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "air": 0, "rz_tgt": 0,
+                                                       "rz_rush": 0, "rb_touch": 0}))
     for w, rows in rows_by_week.items():
         for r in rows:
             st = r.get("stats") or {}
@@ -267,10 +268,16 @@ def load_sleeper(season, week):
             if opp:
                 fpa[opp][w][pos] += score_stat_line(st, PPR)
             u = usage[r["player_id"]][w]
+            # rec_air_yd is COMPLETED air yards (rec_yd - rec_yar), not air yards on every target
             u.update(tgt=st.get("rec_tgt") or 0, rush=st.get("rush_att") or 0,
-                     snp=st.get("off_snp") or 0, tm_snp=st.get("tm_off_snp") or 0, team=team)
-            team_tot[team][w]["tgt"] += u["tgt"]
-            team_tot[team][w]["rush"] += u["rush"]
+                     snp=st.get("off_snp") or 0, tm_snp=st.get("tm_off_snp") or 0, team=team, pos=pos,
+                     rec=st.get("rec") or 0, air=st.get("rec_air_yd") or 0,
+                     rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0)
+            tt = team_tot[team][w]
+            for k in ("tgt", "rush", "air", "rz_tgt", "rz_rush"):
+                tt[k] += u[k]
+            if pos == "RB":
+                tt["rb_touch"] += u["rush"] + u["rec"]
 
     fpa_avg = {d: {p: sum(wk[p] for wk in weeks.values()) / len(weeks) for p in SKILL}
                for d, weeks in fpa.items()}
@@ -282,14 +289,18 @@ def load_sleeper(season, week):
             return None
 
         def agg(ws):
-            t = sum(usage[pid][w]["tgt"] for w in ws)
-            r = sum(usage[pid][w]["rush"] for w in ws)
-            tt = sum(team_tot[usage[pid][w]["team"]][w]["tgt"] for w in ws)
-            tr = sum(team_tot[usage[pid][w]["team"]][w]["rush"] for w in ws)
-            s = sum(usage[pid][w]["snp"] for w in ws)
-            ts = sum(usage[pid][w]["tm_snp"] for w in ws)
-            return {"tgt": t / tt if tt else 0, "rush": r / tr if tr else 0,
-                    "snap": s / ts if ts else 0, "g": len(ws)}
+            mine = lambda k: sum(usage[pid][w][k] for w in ws)  # noqa: E731
+            team = lambda k: sum(team_tot[usage[pid][w]["team"]][w][k] for w in ws)  # noqa: E731
+            share = lambda a, b: a / b if b else 0  # noqa: E731
+            snp = mine("snp")
+            return {"tgt": share(mine("tgt"), team("tgt")), "rush": share(mine("rush"), team("rush")),
+                    "snap": share(snp, mine("tm_snp")), "air": share(mine("air"), team("air")),
+                    "rz_tgt": share(mine("rz_tgt"), team("rz_tgt")),
+                    "rz_rush": share(mine("rz_rush"), team("rz_rush")),
+                    # backfield share: carries + catches over every RB touch the team had
+                    "touch": share(mine("rush") + mine("rec"), team("rb_touch")) if usage[pid][ws[0]].get("pos") == "RB" else 0,
+                    "tgt_snap": share(mine("tgt"), snp), "tgt_g": mine("tgt") / len(ws),
+                    "touch_g": (mine("rush") + mine("rec")) / len(ws), "g": len(ws)}
         # L3 = the TEAM's last 3 games, not the player's last 3 appearances —
         # otherwise a back returning from a month out shows month-old usage
         # (Breece Hall wk 8: "60% L3" after missing four games).
@@ -312,6 +323,55 @@ def load_sleeper(season, week):
                      "share": shares(r["player_id"])})
     dst_avg = {t: {k: sum(v) / len(v) for k, v in s.items() if v} for t, s in dst.items()}
     return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "proj": proj, "dst": dst_avg}
+
+
+def _pp(x):
+    return f"{x:.0%}" if x else "—"
+
+
+def _pair(l3, sz, k):
+    return f"{_pp(l3.get(k))} ({_pp(sz.get(k))})" if l3.get("g") else f"— ({_pp(sz.get(k))})"
+
+
+def usage_table(t, proj):
+    """Per-team usage: backfield split + target tree, the numbers that back an argument on air.
+    Routes run are not in any free 2026 feed (nflverse participation ends 2025);
+    route participation comes from the research layer."""
+    ps = [p for p in proj if p["team"] == sl(t) and p["share"] and p["pos"] in ("RB", "WR", "TE")]
+    key = lambda p, k: ((p["share"].get("l3") or {}).get(k) or 0, p["share"]["season"].get(k) or 0)  # noqa: E731
+    rbs = sorted((p for p in ps if p["pos"] == "RB" and max(key(p, "touch")) >= 0.10),
+                 key=lambda p: key(p, "touch"), reverse=True)[:3]
+    rec = sorted((p for p in ps if p["pos"] in ("WR", "TE") and max(key(p, "tgt")) >= 0.08),
+                 key=lambda p: key(p, "tgt"), reverse=True)[:6]
+    if not rbs and not rec:
+        return []
+    out = [f"*{t}*\n", "| Jugador | % snaps | % targets | Targets/partido | % yds aéreas compl. | % zona roja | % toques backfield |",
+           "|---|---|---|---|---|---|---|"]
+    for p in rbs + rec:
+        sh = p["share"]
+        l3, sz = sh.get("l3") or {}, sh["season"]
+        rz = "rz_rush" if p["pos"] == "RB" else "rz_tgt"
+        name = f"{p['name']} ({p['pos']})" + (f" *(se perdió {sh['missed_l3']})*" if sh.get("missed_l3") else "")
+        tg = l3 if l3.get("g") else sz
+        out.append(f"| {name} | {_pair(l3, sz, 'snap')} | {_pair(l3, sz, 'tgt')} | {tg['tgt_g']:.1f} | "
+                   f"{'—' if p['pos'] == 'RB' else _pair(l3, sz, 'air')} | {_pair(l3, sz, rz)}"
+                   f"{' acarreos' if p['pos'] == 'RB' else ''} | {_pair(l3, sz, 'touch') if p['pos'] == 'RB' else '—'} |")
+    bits = []
+    if rbs:
+        cur = lambda p: (p["share"].get("l3") or {}).get("touch") or p["share"]["season"]["touch"]  # noqa: E731
+        top = cur(rbs[0])
+        # a back returning from injury can show a big share over the games he did play
+        second = max((cur(p) for p in rbs[1:]), default=0)
+        label = ("comité" if second >= 0.30 else "un solo hombre" if top >= 0.70
+                 else "reparto claro" if top >= 0.55 else "comité")
+        bits.append(f"backfield: {label} ({rbs[0]['name']} {top:.0%} de los toques)")
+    if len(rec) >= 2:
+        two = sum(((p["share"].get("l3") or {}).get("tgt") or p["share"]["season"]["tgt"]) for p in rec[:2])
+        bits.append(f"top-2 de targets: {two:.0%} del equipo"
+                    + (" — árbol concentrado" if two >= 0.50 else " — reparto abierto" if two < 0.38 else ""))
+    if bits:
+        out.append("\n_" + " · ".join(bits) + "_\n")
+    return out
 
 
 # ---------------------------------------------------------------- picks
@@ -822,6 +882,9 @@ def main():
                          f"{pct(l3.get('snap'))} | {mu} |")
                 game_players.append({**{k: p[k] for k in ("pid", "name", "pos", "team", "ppr", "half", "inj")},
                                      "matchup_rank": rk, "share": p["share"], "trending": trending.get(p["pid"])})
+        L.append("\n**Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)\n")
+        for t in (a, h):
+            L.extend(usage_table(t, slr["proj"]))
         for t in (a, h):
             opp = h if t == a else a
             mine = slr["dst"].get(sl(t)) or {}
@@ -884,6 +947,25 @@ def main():
                 bits.append(f"% de acarreos {l3['rush']:.0%} ({dr:+.0%})")
             out.append(f"- {p['name']} ({p['pos']}, {p['team']}) — {', '.join(bits)} · proy. {p['ppr']:.1f} PPR")
         out.append("")
+    big_t, horses = [], []
+    for p in slr["proj"]:
+        sh = p["share"] or {}
+        l3 = sh.get("l3") or {}
+        if p["team"] not in {sl(t) for t in playing} or l3.get("g", 0) < 2:
+            continue
+        if p["pos"] in ("WR", "TE") and l3["tgt"] >= 0.27:
+            big_t.append((l3["tgt"], p, l3))
+        if p["pos"] == "RB" and l3["touch"] >= 0.70:
+            horses.append((l3["touch"], p, l3))
+    if big_t or horses:
+        out.append("### Roles más grandes de la cartelera (últimos 3)\n")
+        if big_t:
+            out.append("- **Imanes de targets (≥27%):** " + " · ".join(
+                f"{p['name']} ({p['team']}) {v:.0%}, {l3['tgt_g']:.1f}/partido" for v, p, l3 in sorted(big_t, key=lambda x: -x[0])[:10]))
+        if horses:
+            out.append("- **Caballos de trabajo (≥70% de los toques del backfield):** " + " · ".join(
+                f"{p['name']} ({p['team']}) {v:.0%}, {l3['touch_g']:.1f} toques/partido" for v, p, l3 in sorted(horses, key=lambda x: -x[0])[:10]))
+        out.append("")
     tr = [p for p in slr["proj"] if p["pid"] in trending]
     if tr:
         out.append("### Más agregados en Sleeper (48h) de esta cartelera\n")
@@ -896,7 +978,11 @@ def main():
                "margen FPI = % de victoria de ESPN pasado por una normal con DE 13.5; la alerta 🚩 pide que los dos "
                "estén a ≥2 pts del mercado hacia el mismo lado. Puntos de fantasy recalculados con reglas estándar "
                "PPR/half. Enfrentamiento 1º = la defensa que más puntos de fantasy permite a esa posición. "
-               "Últimos 5: G/P/E = ganado/perdido/empate; ✓/✗ = cubrió/no cubrió; A/B = altas/bajas.*\n")
+               "Últimos 5: G/P/E = ganado/perdido/empate; ✓/✗ = cubrió/no cubrió; A/B = altas/bajas. "
+               "Uso: yardas aéreas = completadas (Sleeper no da las de todos los targets); zona roja = % de los "
+               "targets (WR/TE) o acarreos (RB) del equipo dentro del 20; toques backfield = acarreos + recepciones "
+               "sobre los de todos los RB del equipo. Rutas corridas no salen en ninguna fuente gratuita de 2026: "
+               "vienen de la investigación (Rotowire / FTN).*\n")
 
     dest = ROOT / "reports" / season / "podcast" / f"week{week:02d}"
     dest.mkdir(parents=True, exist_ok=True)
