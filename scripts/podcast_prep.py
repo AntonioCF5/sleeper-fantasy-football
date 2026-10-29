@@ -272,6 +272,7 @@ def load_sleeper(season, week):
             u.update(tgt=st.get("rec_tgt") or 0, rush=st.get("rush_att") or 0,
                      snp=st.get("off_snp") or 0, tm_snp=st.get("tm_off_snp") or 0, team=team, pos=pos,
                      rec=st.get("rec") or 0, air=st.get("rec_air_yd") or 0, pass_att=st.get("pass_att") or 0,
+                     pass_yd=st.get("pass_yd") or 0, rec_yd=st.get("rec_yd") or 0,
                      rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0)
             tt = team_tot[team][w]
             for k in ("tgt", "rush", "air", "rz_tgt", "rz_rush"):
@@ -301,6 +302,9 @@ def load_sleeper(season, week):
                     "touch": share(mine("rush") + mine("rec"), team("rb_touch")) if usage[pid][ws[0]].get("pos") == "RB" else 0,
                     "tgt_snap": share(mine("tgt"), snp), "tgt_g": mine("tgt") / len(ws),
                     "touch_g": (mine("rush") + mine("rec")) / len(ws), "att_g": mine("pass_att") / len(ws),
+                    # efficiency: under 5 attempts/targets in the window it's noise, so None
+                    "ypa": mine("pass_yd") / mine("pass_att") if mine("pass_att") >= 5 else None,
+                    "ypt": mine("rec_yd") / mine("tgt") if mine("tgt") >= 5 else None,
                     "g": len(ws)}
         # L3 = the TEAM's last 3 games, not the player's last 3 appearances —
         # otherwise a back returning from a month out shows month-old usage
@@ -324,6 +328,12 @@ def load_sleeper(season, week):
                      "share": shares(r["player_id"])})
     dst_avg = {t: {k: sum(v) / len(v) for k, v in s.items() if v} for t, s in dst.items()}
     return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "proj": proj, "dst": dst_avg}
+
+
+def eff(l3, sz, k):
+    """Yards per attempt / per target, last 3 (season)."""
+    f = lambda d: f"{d[k]:.1f}" if d and d.get(k) is not None else "—"  # noqa: E731
+    return f"{f(l3) if (l3 or {}).get('g') else '—'} ({f(sz)})"
 
 
 def _pp(x):
@@ -875,7 +885,7 @@ def main():
 
         # fantasy
         L.append("**Fantasy**\n")
-        L.append("| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |\n|---|---|---|---|---|---|")
+        L.append("| Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |\n|---|---|---|---|---|---|---|")
         game_players = []
         for t in (a, h):
             opp = h if t == a else a
@@ -909,6 +919,7 @@ def main():
                 L.append(f"| {name} | {p['ppr']:.1f} ({p['half']:.1f}) | "
                          + (f"{qb_att} pases ({sz['att_g']:.1f})" if p["pos"] == "QB" and sz else
                             f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))})")
+                         + f" | {eff(l3, sz, 'ypa' if p['pos'] == 'QB' else 'ypt')}"
                          + f" | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
                          f"{pct(l3.get('snap'))} | {mu} |")
                 game_players.append({**{k: p[k] for k in ("pid", "name", "pos", "team", "ppr", "half", "inj")},
