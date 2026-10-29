@@ -1,6 +1,6 @@
 # Podcast prep — Week 8, 2026
 
-*Generated Wed Oct 28, 8:37 PM ET · DraftKings lines via ESPN · Byes: HOU, NO, NYG, SF*
+*Generated Wed Oct 28, 9:12 PM ET · DraftKings lines via ESPN · Byes: HOU, NO, NYG, SF*
 
 ## Slate
 
@@ -40,8 +40,10 @@ Bottom: PHI 17.2 · CLE 18.0 · IND 18.2 · MIA 18.2 · TEN 18.2 · DEN 19.5
 
 ### Usage risers (last 3 vs season)
 
+- Emeka Egbuka (WR, TB) — tgt share 38% (+12%) · proj 11.6 PPR
 - Braelon Allen (RB, NYJ) — carry share 72% (+22%) · proj 9.8 PPR
 - Germie Bernard (WR, PIT) — tgt share 25% (+10%) · proj 10.2 PPR
+- Tyjae Spears (RB, TEN) — tgt share 18% (+7%) · proj 7.5 PPR
 - Ollie Gordon II (RB, MIA) — carry share 56% (+14%) · proj 12.9 PPR
 - Tony Pollard (RB, TEN) — carry share 82% (+12%) · proj 12.2 PPR
 
@@ -90,18 +92,18 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 |---|---|---|---|---|---|
 | Bryce Young (QB, CAR) | 18.1 (18.1) | — (—) | 9% (7%) | 94% | 🔴 GB allows 28th-most to QB (14.3) |
 | Chuba Hubbard (RB, CAR) | 16.8 (15.2) | 9% (9%) | 70% (66%) | 81% | 🟢 GB allows 6th-most to RB (25.0) |
-| Jalen Coker (WR, CAR) | 16.0 (13.2) | 20% (23%) | — (—) | 58% |  GB allows 9th-most to WR (35.7) |
+| Jalen Coker (WR, CAR) *(missed 1 of last 3)* | 16.0 (13.2) | 27% (23%) | — (—) | 71% |  GB allows 9th-most to WR (35.7) |
 | Tetairoa McMillan (WR, CAR) | 14.8 (12.2) | 30% (26%) | — (—) | 79% |  GB allows 9th-most to WR (35.7) |
 | Darren Waller (TE, CAR) | 7.7 (6.2) | 10% (11%) | — (—) | 48% | 🔴 GB allows 31st-most to TE (9.0) |
 | Tommy Tremble (TE, CAR) | 4.5 (3.5) | 10% (10%) | — (—) | 57% | 🔴 GB allows 31st-most to TE (9.0) |
 | John Metchie III (WR, CAR) | 4.1 (3.3) | 12% (10%) | — (—) | 39% |  GB allows 9th-most to WR (35.7) |
 | Jordan Love (QB, GB) | 17.1 (17.1) | — (—) | 7% (8%) | 99% |  CAR allows 20th-most to QB (16.6) |
 | Christian Watson (WR, GB) | 16.1 (14.0) | 21% (21%) | — (—) | 83% | 🔴 CAR allows 27th-most to WR (27.5) |
-| Josh Jacobs (RB, GB) | 16.0 (14.8) | 17% (17%) | 58% (58%) | 52% | 🟢 CAR allows 2nd-most to RB (28.7) |
+| Josh Jacobs (RB, GB) *(missed 2 of last 3)* | 16.0 (14.8) | 17% (17%) | 58% (58%) | 52% | 🟢 CAR allows 2nd-most to RB (28.7) |
 | Matthew Golden (WR, GB) **Questionable** | 13.8 (11.5) | 28% (26%) | — (1%) | 82% | 🔴 CAR allows 27th-most to WR (27.5) |
 | Tucker Kraft (TE, GB) | 10.8 (8.6) | 17% (16%) | 1% (1%) | 81% |  CAR allows 15th-most to TE (13.3) |
 | MarShawn Lloyd (RB, GB) | 6.7 (6.1) | 4% (6%) | 34% (38%) | 40% | 🟢 CAR allows 2nd-most to RB (28.7) |
-| Savion Williams (WR, GB) 📈 | 5.7 (4.5) | 9% (9%) | 9% (9%) | 56% | 🔴 CAR allows 27th-most to WR (27.5) |
+| Savion Williams (WR, GB) 📈 *(missed 1 of last 3)* | 5.7 (4.5) | 9% (9%) | 9% (9%) | 56% | 🔴 CAR allows 27th-most to WR (27.5) |
 
 *CAR DST:* 1.7 sacks, 1.0 takeaways, 26.7 pts allowed per game · GB offense: 14 sacks taken, 8 giveaways, implied 25.5
 
@@ -146,23 +148,23 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
-| Lamar Jackson (QB, BAL) **Questionable** | 20.4 (20.4) | — (—) | 13% (15%) | 83% | 🟢 BUF allows 4th-most to QB (22.3) |
+| Lamar Jackson (QB, BAL) **Questionable** *(missed 3 of last 3)* | 20.4 (20.4) | — (—) | — (15%) | — | 🟢 BUF allows 4th-most to QB (22.3) |
 | Zay Flowers (WR, BAL) | 18.4 (15.6) | 32% (31%) | 2% (2%) | 84% | 🟢 BUF allows 1st-most to WR (42.3) |
 | Derrick Henry (RB, BAL) | 15.8 (15.2) | 5% (6%) | 68% (69%) | 55% | 🟢 BUF allows 3rd-most to RB (27.3) |
 | Mark Andrews (TE, BAL) ⬇️ | 9.1 (7.3) | 14% (19%) | — (—) | 67% |  BUF allows 12th-most to TE (15.2) |
 | Justice Hill (RB, BAL) | 6.1 (5.2) | 11% (9%) | 8% (10%) | 45% | 🟢 BUF allows 3rd-most to RB (27.3) |
-| Ja'Kobi Lane (WR, BAL) | 5.9 (4.9) | 15% (15%) | — (—) | 54% | 🟢 BUF allows 1st-most to WR (42.3) |
+| Ja'Kobi Lane (WR, BAL) *(missed 1 of last 3)* | 5.9 (4.9) | 15% (15%) | — (—) | 62% | 🟢 BUF allows 1st-most to WR (42.3) |
 | Rashod Bateman (WR, BAL) | 5.6 (4.6) | 11% (13%) | — (—) | 64% | 🟢 BUF allows 1st-most to WR (42.3) |
-| Matt Hibner (TE, BAL) | 3.1 (2.6) | 2% (3%) | — (—) | 45% |  BUF allows 12th-most to TE (15.2) |
+| Matt Hibner (TE, BAL) *(missed 1 of last 3)* | 3.1 (2.6) | — (3%) | — (—) | 39% |  BUF allows 12th-most to TE (15.2) |
 | Josh Allen (QB, BUF) | 24.6 (24.6) | — (1%) | 23% (27%) | 100% |  BAL allows 16th-most to QB (17.3) |
 | James Cook III (RB, BUF) | 16.1 (15.3) | 8% (9%) | 69% (66%) | 63% | 🔴 BAL allows 28th-most to RB (18.5) |
-| DJ Moore (WR, BUF) **Questionable** | 14.7 (12.4) | 14% (18%) | 2% (2%) | 44% | 🟢 BAL allows 7th-most to WR (35.8) |
+| DJ Moore (WR, BUF) **Questionable** *(missed 2 of last 3)* | 14.7 (12.4) | 7% (18%) | 5% (2%) | 39% | 🟢 BAL allows 7th-most to WR (35.8) |
 | Dalton Kincaid (TE, BUF) | 10.5 (8.6) | 15% (18%) | — (—) | 68% |  BAL allows 19th-most to TE (12.3) |
 | Khalil Shakir (WR, BUF) 📈 | 9.3 (7.4) | 22% (20%) | — (—) | 68% | 🟢 BAL allows 7th-most to WR (35.8) |
 | Keon Coleman (WR, BUF) 📈 | 7.7 (6.4) | 19% (15%) | — (—) | 78% | 🟢 BAL allows 7th-most to WR (35.8) |
 | Ty Johnson (RB, BUF) | 5.3 (4.6) | 10% (12%) | 2% (2%) | 24% | 🔴 BAL allows 28th-most to RB (18.5) |
 | Dawson Knox (TE, BUF) | 3.3 (2.7) | 8% (6%) | — (1%) | 67% |  BAL allows 19th-most to TE (12.3) |
-| Joshua Palmer (WR, BUF) | 3.0 (2.4) | 7% (8%) | — (—) | 38% | 🟢 BAL allows 7th-most to WR (35.8) |
+| Joshua Palmer (WR, BUF) *(missed 1 of last 3)* | 3.0 (2.4) | 10% (8%) | — (—) | 41% | 🟢 BAL allows 7th-most to WR (35.8) |
 
 *BAL DST:* 2.3 sacks, 0.9 takeaways, 23.0 pts allowed per game · BUF offense: 12 sacks taken, 9 giveaways, implied 28.8
 
@@ -211,7 +213,7 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Carnell Tate (WR, TEN) **Questionable** | 13.6 (10.9) | 22% (26%) | — (—) | 80% |  CIN allows 17th-most to WR (31.2) |
 | Tony Pollard (RB, TEN) ⬆️ | 12.2 (11.3) | 6% (8%) | 82% (70%) | 65% | 🔴 CIN allows 29th-most to RB (17.9) |
 | Wan'Dale Robinson (WR, TEN) | 11.1 (8.9) | 23% (22%) | — (1%) | 65% |  CIN allows 17th-most to WR (31.2) |
-| Tyjae Spears (RB, TEN) **Questionable** | 7.5 (6.4) | 13% (10%) | 7% (14%) | 39% | 🔴 CIN allows 29th-most to RB (17.9) |
+| Tyjae Spears (RB, TEN) **Questionable** ⬆️ *(missed 1 of last 3)* | 7.5 (6.4) | 18% (10%) | 7% (14%) | 41% | 🔴 CIN allows 29th-most to RB (17.9) |
 | Elic Ayomanor (WR, TEN) | 6.2 (5.3) | 12% (11%) | — (—) | 68% |  CIN allows 17th-most to WR (31.2) |
 | Gunnar Helm (TE, TEN) | 5.6 (4.3) | 6% (9%) | — (—) | 76% |  CIN allows 11th-most to TE (15.7) |
 | Joe Burrow (QB, CIN) | 21.4 (21.4) | — (—) | 14% (13%) | 98% |  TEN allows 22nd-most to QB (16.1) |
@@ -269,7 +271,7 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Jacoby Brissett (QB, ARI) | 18.7 (18.7) | 1% (0%) | 14% (14%) | 100% | 🟢 DAL allows 8th-most to QB (20.0) |
 | Michael Wilson (WR, ARI) ⬇️ | 15.8 (13.1) | 18% (24%) | 3% (1%) | 88% |  DAL allows 10th-most to WR (35.5) |
 | Kendrick Bourne (WR, ARI) | 9.5 (7.6) | 18% (13%) | — (—) | 54% |  DAL allows 10th-most to WR (35.5) |
-| Jeremiyah Love (RB, ARI) **Questionable** ⬆️ | 9.5 (8.4) | 5% (7%) | 66% (55%) | 54% | 🟢 DAL allows 7th-most to RB (24.6) |
+| Jeremiyah Love (RB, ARI) **Questionable** *(missed 2 of last 3)* | 9.5 (8.4) | 2% (7%) | 67% (55%) | 49% | 🟢 DAL allows 7th-most to RB (24.6) |
 | Tyler Allgeier (RB, ARI) | 7.6 (6.4) | 6% (6%) | 38% (34%) | 49% | 🟢 DAL allows 7th-most to RB (24.6) |
 | Zonovan Knight (RB, ARI) 📈 ⬆️ | 7.5 (6.6) | 6% (4%) | 30% (20%) | 36% | 🟢 DAL allows 7th-most to RB (24.6) |
 | Reggie Virgil (WR, ARI) | 3.1 (2.5) | 4% (4%) | — (—) | 8% |  DAL allows 10th-most to WR (35.5) |
@@ -324,12 +326,12 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
-| Justin Jefferson (WR, MIN) ⬇️ | 18.4 (15.1) | 21% (26%) | 1% (1%) | 66% | 🟢 DET allows 3rd-most to WR (39.0) |
+| Justin Jefferson (WR, MIN) *(missed 1 of last 3)* | 18.4 (15.1) | 26% (26%) | 2% (1%) | 91% | 🟢 DET allows 3rd-most to WR (39.0) |
 | Kyler Murray (QB, MIN) 📈 | 17.4 (17.4) | — (—) | 22% (16%) | 100% | 🟢 DET allows 1st-most to QB (26.3) |
 | T.J. Hockenson (TE, MIN) 📈 | 11.2 (8.7) | 22% (21%) | — (—) | 54% | 🟢 DET allows 1st-most to TE (29.4) |
-| Jordan Mason (RB, MIN) 📈 | 11.0 (10.3) | 4% (4%) | 48% (48%) | 54% |  DET allows 23rd-most to RB (19.8) |
+| Jordan Mason (RB, MIN) 📈 *(missed 2 of last 3)* | 11.0 (10.3) | 8% (4%) | 52% (48%) | 64% |  DET allows 23rd-most to RB (19.8) |
 | Aaron Jones Sr. (RB, MIN) **Questionable** | 9.8 (8.7) | 14% (12%) | 55% (58%) | 64% |  DET allows 23rd-most to RB (19.8) |
-| Jordan Addison (WR, MIN) | 9.1 (7.7) | 22% (20%) | 2% (1%) | 93% | 🟢 DET allows 3rd-most to WR (39.0) |
+| Jordan Addison (WR, MIN) *(missed 1 of last 3)* | 9.1 (7.7) | 16% (20%) | 3% (1%) | 91% | 🟢 DET allows 3rd-most to WR (39.0) |
 | Jauan Jennings (WR, MIN) | 6.1 (5.0) | 6% (6%) | — (—) | 75% | 🟢 DET allows 3rd-most to WR (39.0) |
 | Jahmyr Gibbs (RB, DET) **Questionable** | 23.2 (20.9) | 17% (18%) | 86% (82%) | 82% | 🔴 MIN allows 32nd-most to RB (16.0) |
 | Amon-Ra St. Brown (WR, DET) **Questionable** | 17.3 (14.4) | 30% (31%) | 1% (1%) | 87% | 🔴 MIN allows 29th-most to WR (25.3) |
@@ -389,14 +391,14 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Michael Mayer (TE, LV) | 7.5 (5.8) | 11% (15%) | — (—) | 76% | 🔴 NYJ allows 27th-most to TE (10.4) |
 | Mike Washington Jr. (RB, LV) | 5.7 (5.3) | 3% (2%) | 29% (23%) | 24% |  NYJ allows 16th-most to RB (21.4) |
 | Cody White (WR, LV) | 3.6 (3.1) | 8% (7%) | — (—) | 35% |  NYJ allows 18th-most to WR (30.6) |
-| Jalen Nailor (WR, LV) | 3.5 (3.0) | 7% (9%) | — (—) | 51% |  NYJ allows 18th-most to WR (30.6) |
+| Jalen Nailor (WR, LV) *(missed 1 of last 3)* | 3.5 (3.0) | 11% (9%) | — (—) | 69% |  NYJ allows 18th-most to WR (30.6) |
 | Geno Smith (QB, NYJ) 📈 | 16.8 (16.8) | — (—) | 11% (12%) | 100% | 🟢 LV allows 5th-most to QB (20.8) |
 | Garrett Wilson (WR, NYJ) | 16.4 (13.6) | 23% (26%) | — (—) | 92% |  LV allows 15th-most to WR (31.4) |
-| Breece Hall (RB, NYJ) **Questionable** | 11.3 (10.3) | 11% (11%) | 60% (60%) | 57% | 🟢 LV allows 5th-most to RB (25.4) |
-| Omar Cooper Jr. (WR, NYJ) 📈 | 9.8 (8.1) | 16% (16%) | — (—) | 50% |  LV allows 15th-most to WR (31.4) |
+| Breece Hall (RB, NYJ) **Questionable** *(missed 3 of last 3)* | 11.3 (10.3) | — (11%) | — (60%) | — | 🟢 LV allows 5th-most to RB (25.4) |
+| Omar Cooper Jr. (WR, NYJ) 📈 *(missed 1 of last 3)* | 9.8 (8.1) | 21% (16%) | — (—) | 74% |  LV allows 15th-most to WR (31.4) |
 | Braelon Allen (RB, NYJ) **Questionable** ⬆️ | 9.8 (9.0) | 15% (10%) | 72% (51%) | 84% | 🟢 LV allows 5th-most to RB (25.4) |
 | Kenyon Sadiq (TE, NYJ) | 8.8 (7.2) | 8% (13%) | — (1%) | 30% | 🟢 LV allows 4th-most to TE (19.6) |
-| Adonai Mitchell (WR, NYJ) | 4.7 (3.9) | 20% (20%) | — (—) | 66% |  LV allows 15th-most to WR (31.4) |
+| Adonai Mitchell (WR, NYJ) *(missed 2 of last 3)* | 4.7 (3.9) | 10% (20%) | — (—) | 44% |  LV allows 15th-most to WR (31.4) |
 | Mason Taylor (TE, NYJ) 📈 | 3.6 (2.8) | 17% (12%) | — (—) | 59% | 🟢 LV allows 4th-most to TE (19.6) |
 
 *LV DST:* 2.3 sacks, 1.7 takeaways, 28.1 pts allowed per game · NYJ offense: 21 sacks taken, 5 giveaways, implied 23.5
@@ -446,15 +448,15 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Harold Fannin Jr. (TE, CLE) | 10.7 (8.8) | 18% (19%) | — (—) | 88% |  PIT allows 24th-most to TE (10.9) |
 | Denzel Boston (WR, CLE) | 10.5 (9.1) | 22% (20%) | — (—) | 90% |  PIT allows 19th-most to WR (30.2) |
 | KC Concepcion Jr. (WR, CLE) 📈 | 10.2 (8.2) | 19% (22%) | 6% (5%) | 58% |  PIT allows 19th-most to WR (30.2) |
-| Quinshon Judkins (RB, CLE) | 10.2 (9.2) | 12% (12%) | 61% (58%) | 57% |  PIT allows 21st-most to RB (20.2) |
-| Dylan Sampson (RB, CLE) 📈 | 6.4 (5.5) | 9% (9%) | 21% (21%) | 46% |  PIT allows 21st-most to RB (20.2) |
+| Quinshon Judkins (RB, CLE) *(missed 1 of last 3)* | 10.2 (9.2) | 7% (12%) | 60% (58%) | 53% |  PIT allows 21st-most to RB (20.2) |
+| Dylan Sampson (RB, CLE) 📈 *(missed 2 of last 3)* | 6.4 (5.5) | 9% (9%) | 21% (21%) | 46% |  PIT allows 21st-most to RB (20.2) |
 | Jerry Jeudy (WR, CLE) ⬆️ | 3.0 (2.5) | 16% (11%) | — (—) | 68% |  PIT allows 19th-most to WR (30.2) |
 | Aaron Rodgers (QB, PIT) | 16.1 (16.1) | — (—) | 7% (8%) | 99% | 🔴 CLE allows 25th-most to QB (15.4) |
 | Jaylen Warren (RB, PIT) | 14.8 (13.4) | 14% (14%) | 64% (64%) | 74% | 🔴 CLE allows 25th-most to RB (19.4) |
 | DK Metcalf (WR, PIT) | 11.6 (9.7) | 25% (24%) | 1% (1%) | 93% |  CLE allows 14th-most to WR (31.8) |
 | Germie Bernard (WR, PIT) ⬆️ | 10.2 (8.3) | 25% (15%) | 1% (1%) | 92% |  CLE allows 14th-most to WR (31.8) |
 | Pat Freiermuth (TE, PIT) | 9.4 (7.6) | 14% (13%) | 1% (2%) | 65% |  CLE allows 14th-most to TE (13.6) |
-| Rico Dowdle (RB, PIT) 📈 | 8.8 (7.9) | 11% (12%) | 31% (32%) | 31% | 🔴 CLE allows 25th-most to RB (19.4) |
+| Rico Dowdle (RB, PIT) 📈 *(missed 1 of last 3)* | 8.8 (7.9) | 14% (12%) | 31% (32%) | 34% | 🔴 CLE allows 25th-most to RB (19.4) |
 | Darnell Washington (TE, PIT) | 6.2 (4.9) | 10% (9%) | — (—) | 64% |  CLE allows 14th-most to TE (13.6) |
 
 *CLE DST:* 2.9 sacks, 1.3 takeaways, 20.9 pts allowed per game · PIT offense: 22 sacks taken, 7 giveaways, implied 21.5
@@ -505,11 +507,11 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Michael Penix Jr. (QB, ATL) | 14.6 (14.6) | — (—) | 12% (8%) | 98% | 🔴 TB allows 27th-most to QB (14.7) |
 | Kyle Pitts Sr. (TE, ATL) 📈 | 8.2 (6.8) | 18% (14%) | — (—) | 66% | 🟢 TB allows 8th-most to TE (16.2) |
 | Jahan Dotson (WR, ATL) | 5.5 (4.7) | 12% (13%) | — (—) | 68% |  TB allows 23rd-most to WR (29.0) |
-| Brian Robinson Jr. (RB, ATL) **Questionable** | 4.4 (4.1) | 5% (4%) | 32% (30%) | 27% | 🔴 TB allows 30th-most to RB (17.8) |
+| Brian Robinson Jr. (RB, ATL) **Questionable** *(missed 1 of last 3)* | 4.4 (4.1) | 5% (4%) | 24% (30%) | 20% | 🔴 TB allows 30th-most to RB (17.8) |
 | Austin Hooper (TE, ATL) | 3.3 (2.7) | 3% (5%) | — (—) | 24% | 🟢 TB allows 8th-most to TE (16.2) |
 | Bucky Irving (RB, TB) | 16.5 (14.9) | 10% (12%) | 57% (57%) | 67% | 🟢 ATL allows 8th-most to RB (24.5) |
-| Baker Mayfield (QB, TB) | 16.0 (16.0) | — (—) | 7% (10%) | 95% |  ATL allows 13th-most to QB (18.0) |
-| Emeka Egbuka (WR, TB) **Questionable** ⬆️ | 11.6 (9.5) | 32% (26%) | 1% (1%) | 89% |  ATL allows 11th-most to WR (34.4) |
+| Baker Mayfield (QB, TB) *(missed 2 of last 3)* | 16.0 (16.0) | — (—) | 2% (10%) | 90% |  ATL allows 13th-most to QB (18.0) |
+| Emeka Egbuka (WR, TB) **Questionable** ⬆️ *(missed 1 of last 3)* | 11.6 (9.5) | 38% (26%) | 2% (1%) | 88% |  ATL allows 11th-most to WR (34.4) |
 | Chris Godwin Jr. (WR, TB) | 10.2 (8.2) | 21% (17%) | 1% (1%) | 85% |  ATL allows 11th-most to WR (34.4) |
 | Cade Otton (TE, TB) ⬇️ | 8.0 (6.2) | 9% (15%) | — (—) | 94% |  ATL allows 9th-most to TE (15.8) |
 | Kenny Gainwell (RB, TB) **Questionable** | 6.8 (6.0) | 6% (9%) | 18% (16%) | 27% | 🟢 ATL allows 8th-most to RB (24.5) |
@@ -561,7 +563,7 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 |---|---|---|---|---|---|
 | Jonathan Taylor (RB, IND) | 16.4 (15.4) | 11% (12%) | 62% (70%) | 75% | 🔴 JAX allows 31st-most to RB (17.3) |
 | Daniel Jones (QB, IND) | 11.7 (11.7) | — (—) | 11% (10%) | 101% |  JAX allows 19th-most to QB (16.7) |
-| Tyler Warren (TE, IND) **Questionable** | 10.7 (8.2) | 22% (22%) | 2% (2%) | 91% |  JAX allows 22nd-most to TE (11.8) |
+| Tyler Warren (TE, IND) **Questionable** *(missed 2 of last 3)* | 10.7 (8.2) | 21% (22%) | 4% (2%) | 94% |  JAX allows 22nd-most to TE (11.8) |
 | Josh Downs (WR, IND) | 9.8 (7.8) | 18% (20%) | 1% (0%) | 86% | 🟢 JAX allows 4th-most to WR (38.0) |
 | Keenan Allen (WR, IND) | 9.3 (7.2) | 23% (22%) | — (—) | 57% | 🟢 JAX allows 4th-most to WR (38.0) |
 | Seth McGowan (RB, IND) 📈 | 4.4 (3.9) | 2% (2%) | 23% (16%) | 27% | 🔴 JAX allows 31st-most to RB (17.3) |
@@ -619,14 +621,14 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
 | Justin Herbert (QB, LAC) | 13.5 (13.5) | 1% (1%) | 19% (17%) | 100% |  LAR allows 14th-most to QB (17.8) |
-| Ladd McConkey (WR, LAC) **Questionable** | 11.0 (9.2) | 8% (12%) | — (—) | 45% | 🔴 LAR allows 28th-most to WR (26.8) |
+| Ladd McConkey (WR, LAC) **Questionable** ⬇️ *(missed 1 of last 3)* | 11.0 (9.2) | 4% (12%) | — (—) | 23% | 🔴 LAR allows 28th-most to WR (26.8) |
 | Omarion Hampton (RB, LAC) ⬇️ | 10.2 (9.3) | 8% (6%) | 34% (47%) | 38% |  LAR allows 19th-most to RB (20.6) |
 | Kimani Vidal (RB, LAC) ⬆️ | 6.8 (6.1) | 10% (7%) | 23% (12%) | 38% |  LAR allows 19th-most to RB (20.6) |
-| Quentin Johnston (WR, LAC) | 6.8 (5.8) | 11% (15%) | 1% (1%) | 81% | 🔴 LAR allows 28th-most to WR (26.8) |
+| Quentin Johnston (WR, LAC) ⬇️ *(missed 1 of last 3)* | 6.8 (5.8) | 7% (15%) | 2% (1%) | 78% | 🔴 LAR allows 28th-most to WR (26.8) |
 | Keaton Mitchell (RB, LAC) | 5.8 (5.2) | 12% (9%) | 20% (21%) | 32% |  LAR allows 19th-most to RB (20.6) |
-| Tre' Harris (WR, LAC) **Questionable** | 5.4 (4.4) | 20% (19%) | — (—) | 66% | 🔴 LAR allows 28th-most to WR (26.8) |
+| Tre' Harris (WR, LAC) **Questionable** *(missed 1 of last 3)* | 5.4 (4.4) | 17% (19%) | — (—) | 70% | 🔴 LAR allows 28th-most to WR (26.8) |
 | Oronde Gadsden (TE, LAC) | 4.5 (3.6) | 16% (12%) | 1% (1%) | 54% | 🔴 LAR allows 28th-most to TE (10.2) |
-| Charlie Kolar (TE, LAC) | 4.1 (3.2) | 16% (12%) | — (—) | 68% | 🔴 LAR allows 28th-most to TE (10.2) |
+| Charlie Kolar (TE, LAC) ⬆️ *(missed 1 of last 3)* | 4.1 (3.2) | 18% (12%) | — (—) | 71% | 🔴 LAR allows 28th-most to TE (10.2) |
 | Puka Nacua (WR, LAR) | 21.7 (18.1) | 36% (32%) | 5% (4%) | 86% |  LAC allows 20th-most to WR (30.0) |
 | Kyren Williams (RB, LAR) | 19.8 (18.3) | 14% (15%) | 52% (52%) | 66% |  LAC allows 9th-most to RB (23.5) |
 | Matthew Stafford (QB, LAR) | 16.1 (16.1) | — (—) | 4% (8%) | 100% | 🔴 LAC allows 26th-most to QB (15.1) |
@@ -681,14 +683,14 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 |---|---|---|---|---|---|
 | Kenneth Walker III (RB, KC) | 20.8 (19.0) | 10% (15%) | 82% (76%) | 74% |  DEN allows 11th-most to RB (22.4) |
 | Patrick Mahomes (QB, KC) | 16.9 (16.9) | — (—) | 13% (12%) | 100% |  DEN allows 21st-most to QB (16.2) |
-| Rashee Rice (WR, KC) **Questionable** | 12.6 (10.4) | 16% (14%) | — (—) | 57% | 🔴 DEN allows 26th-most to WR (27.8) |
+| Rashee Rice (WR, KC) **Questionable** *(missed 2 of last 3)* | 12.6 (10.4) | — (14%) | — (—) | 10% | 🔴 DEN allows 26th-most to WR (27.8) |
 | Travis Kelce (TE, KC) | 11.4 (9.3) | 19% (20%) | — (—) | 77% |  DEN allows 10th-most to TE (15.8) |
 | Xavier Worthy (WR, KC) | 9.1 (7.4) | 23% (20%) | — (—) | 82% | 🔴 DEN allows 26th-most to WR (27.8) |
 | Emmett Johnson (RB, KC) | 4.2 (3.7) | 8% (6%) | 4% (12%) | 28% |  DEN allows 11th-most to RB (22.4) |
 | Noah Gray (TE, KC) | 3.6 (2.8) | 10% (8%) | — (—) | 62% |  DEN allows 10th-most to TE (15.8) |
 | Bo Nix (QB, DEN) | 13.9 (13.9) | — (—) | 18% (17%) | 100% | 🔴 KC allows 30th-most to QB (13.0) |
 | Jaylen Waddle (WR, DEN) **Questionable** | 11.2 (9.0) | 27% (23%) | 1% (1%) | 62% | 🔴 KC allows 31st-most to WR (23.7) |
-| Jonah Coleman (RB, DEN) 📈 | 10.0 (9.1) | 6% (6%) | 28% (28%) | 33% |  KC allows 24th-most to RB (19.5) |
+| Jonah Coleman (RB, DEN) 📈 *(missed 2 of last 3)* | 10.0 (9.1) | 8% (6%) | 35% (28%) | 49% |  KC allows 24th-most to RB (19.5) |
 | RJ Harvey (RB, DEN) ⬇️ | 8.3 (6.7) | 10% (17%) | 15% (17%) | 34% |  KC allows 24th-most to RB (19.5) |
 | Courtland Sutton (WR, DEN) | 7.3 (5.9) | 15% (17%) | — (—) | 76% | 🔴 KC allows 31st-most to WR (23.7) |
 | J.K. Dobbins (RB, DEN) | 5.6 (5.0) | 7% (5%) | 50% (51%) | 42% |  KC allows 24th-most to RB (19.5) |
@@ -740,7 +742,7 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
 | Drake Maye (QB, NE) | 22.0 (22.0) | — (—) | 18% (19%) | 100% | 🟢 MIA allows 7th-most to QB (20.3) |
-| A.J. Brown (WR, NE) **Questionable** | 15.0 (12.5) | 22% (22%) | — (—) | 68% | 🔴 MIA allows 30th-most to WR (23.8) |
+| A.J. Brown (WR, NE) **Questionable** *(missed 1 of last 3)* | 15.0 (12.5) | 27% (22%) | — (—) | 83% | 🔴 MIA allows 30th-most to WR (23.8) |
 | Rhamondre Stevenson (RB, NE) | 10.6 (9.3) | 9% (11%) | 39% (38%) | 66% | 🟢 MIA allows 4th-most to RB (26.4) |
 | Hunter Henry (TE, NE) 📈 | 9.5 (7.7) | 18% (15%) | — (—) | 72% | 🟢 MIA allows 3rd-most to TE (21.1) |
 | DeMario Douglas (WR, NE) | 8.2 (6.7) | 19% (16%) | — (—) | 57% | 🔴 MIA allows 30th-most to WR (23.8) |
@@ -752,7 +754,7 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 | Malik Willis (QB, MIA) 📈 | 13.8 (13.8) | — (—) | 19% (21%) | 100% |  NE allows 23rd-most to QB (15.7) |
 | Ollie Gordon II (RB, MIA) ⬆️ | 12.9 (12.1) | 8% (5%) | 56% (42%) | 70% |  NE allows 20th-most to RB (20.6) |
 | Malik Washington (WR, MIA) **Questionable** | 9.2 (7.3) | 25% (26%) | 5% (5%) | 82% |  NE allows 13th-most to WR (32.1) |
-| Caleb Douglas (WR, MIA) 📈 | 6.8 (5.5) | 18% (18%) | — (—) | 81% |  NE allows 13th-most to WR (32.1) |
+| Caleb Douglas (WR, MIA) 📈 *(missed 2 of last 3)* | 6.8 (5.5) | 14% (18%) | — (—) | 68% |  NE allows 13th-most to WR (32.1) |
 | Greg Dulcich (TE, MIA) **Questionable** | 6.3 (4.8) | 16% (15%) | — (—) | 65% |  NE allows 17th-most to TE (12.4) |
 | Chris Bell (WR, MIA) | 5.3 (4.3) | 14% (13%) | 1% (1%) | 65% |  NE allows 13th-most to WR (32.1) |
 | Jaylen Wright (RB, MIA) | 4.2 (3.8) | 2% (1%) | 18% (14%) | 17% |  NE allows 20th-most to RB (20.6) |
@@ -800,16 +802,16 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
-| Tanner McKee (QB, PHI) | 13.2 (13.2) | — (—) | 5% (5%) | 100% | 🟢 WSH allows 2nd-most to QB (22.7) |
-| DeVonta Smith (WR, PHI) **Questionable** | 11.4 (9.3) | 34% (33%) | — (—) | 84% | 🟢 WSH allows 6th-most to WR (35.9) |
-| Saquon Barkley (RB, PHI) **Questionable** | 10.8 (10.1) | 6% (6%) | 34% (34%) | 28% | 🔴 WSH allows 26th-most to RB (19.0) |
+| Tanner McKee (QB, PHI) *(missed 1 of last 3)* | 13.2 (13.2) | — (—) | 5% (5%) | 100% | 🟢 WSH allows 2nd-most to QB (22.7) |
+| DeVonta Smith (WR, PHI) **Questionable** *(missed 2 of last 3)* | 11.4 (9.3) | 32% (33%) | — (—) | 66% | 🟢 WSH allows 6th-most to WR (35.9) |
+| Saquon Barkley (RB, PHI) **Questionable** *(missed 2 of last 3)* | 10.8 (10.1) | 6% (6%) | 28% (34%) | 15% | 🔴 WSH allows 26th-most to RB (19.0) |
 | Dallas Goedert (TE, PHI) | 10.1 (8.4) | 21% (19%) | — (—) | 74% | 🟢 WSH allows 2nd-most to TE (21.5) |
 | Makai Lemon (WR, PHI) 📈 | 7.8 (6.0) | 18% (16%) | — (1%) | 84% | 🟢 WSH allows 6th-most to WR (35.9) |
-| Dontayvion Wicks (WR, PHI) **Questionable** | 5.9 (4.9) | 16% (17%) | — (—) | 79% | 🟢 WSH allows 6th-most to WR (35.9) |
+| Dontayvion Wicks (WR, PHI) **Questionable** *(missed 1 of last 3)* | 5.9 (4.9) | 15% (17%) | — (—) | 73% | 🟢 WSH allows 6th-most to WR (35.9) |
 | Dameon Pierce (RB, PHI) **Questionable** 📈 | 4.8 (4.4) | 10% (10%) | 66% (66%) | 79% | 🔴 WSH allows 26th-most to RB (19.0) |
-| Jayden Daniels (QB, WSH) 📈 | 18.1 (18.1) | — (—) | 25% (23%) | 84% |  PHI allows 9th-most to QB (20.0) |
-| Stefon Diggs (WR, WSH) | 11.9 (9.9) | 23% (23%) | — (—) | 62% | 🟢 PHI allows 2nd-most to WR (40.1) |
-| Rachaad White (RB, WSH) 📈 | 10.8 (9.7) | 8% (10%) | 28% (25%) | 57% |  PHI allows 17th-most to RB (21.2) |
+| Jayden Daniels (QB, WSH) 📈 *(missed 1 of last 3)* | 18.1 (18.1) | — (—) | 28% (23%) | 100% |  PHI allows 9th-most to QB (20.0) |
+| Stefon Diggs (WR, WSH) *(missed 1 of last 3)* | 11.9 (9.9) | 23% (23%) | — (—) | 63% | 🟢 PHI allows 2nd-most to WR (40.1) |
+| Rachaad White (RB, WSH) 📈 *(missed 1 of last 3)* | 10.8 (9.7) | 10% (10%) | 30% (25%) | 64% |  PHI allows 17th-most to RB (21.2) |
 | Antonio Williams (WR, WSH) 📈 | 7.9 (6.5) | 16% (14%) | — (—) | 68% | 🟢 PHI allows 2nd-most to WR (40.1) |
 | Chig Okonkwo (TE, WSH) | 7.4 (5.9) | 18% (16%) | — (—) | 68% | 🔴 PHI allows 26th-most to TE (10.5) |
 | Austin Ekeler (RB, WSH) | 5.7 (5.2) | 5% (5%) | 12% (12%) | 16% |  PHI allows 17th-most to RB (21.2) |
@@ -858,13 +860,13 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 | Player | Proj PPR (half) | Tgt% L3 (szn) | Rush% L3 (szn) | Snap% L3 | Matchup |
 |---|---|---|---|---|---|
-| Caleb Williams (QB, CHI) | 15.8 (15.8) | — (—) | 15% (18%) | 95% | 🔴 SEA allows 31st-most to QB (11.6) |
+| Caleb Williams (QB, CHI) *(missed 1 of last 3)* | 15.8 (15.8) | — (—) | 14% (18%) | 100% | 🔴 SEA allows 31st-most to QB (11.6) |
 | D'Andre Swift (RB, CHI) | 13.1 (11.8) | 14% (12%) | 54% (47%) | 67% |  SEA allows 18th-most to RB (20.9) |
 | Luther Burden III (WR, CHI) | 12.3 (10.0) | 17% (21%) | 6% (3%) | 58% | 🔴 SEA allows 32nd-most to WR (20.9) |
 | Rome Odunze (WR, CHI) | 10.2 (8.4) | 17% (17%) | — (—) | 96% | 🔴 SEA allows 32nd-most to WR (20.9) |
 | Colston Loveland (TE, CHI) | 9.8 (7.7) | 23% (19%) | — (—) | 84% | 🔴 SEA allows 30th-most to TE (9.9) |
 | Kalif Raymond (WR, CHI) ⬇️ | 7.1 (5.7) | 8% (14%) | 1% (0%) | 61% | 🔴 SEA allows 32nd-most to WR (20.9) |
-| Kyle Monangai (RB, CHI) **Questionable** | 6.1 (5.7) | 3% (4%) | 42% (38%) | 41% |  SEA allows 18th-most to RB (20.9) |
+| Kyle Monangai (RB, CHI) **Questionable** *(missed 3 of last 3)* | 6.1 (5.7) | — (4%) | — (38%) | — |  SEA allows 18th-most to RB (20.9) |
 | Jaxon Smith-Njigba (WR, SEA) | 25.0 (21.4) | 36% (36%) | 3% (1%) | 85% |  CHI allows 22nd-most to WR (29.2) |
 | Sam Darnold (QB, SEA) | 16.3 (16.3) | — (—) | 5% (5%) | 100% |  CHI allows 10th-most to QB (19.9) |
 | Zach Charbonnet (RB, SEA) **Questionable** | 9.1 (8.4) | — (—) | — (—) | — | 🔴 CHI allows 27th-most to RB (18.6) |

@@ -33,6 +33,15 @@ What the sheet holds, and how to read it:
   **Neither model knows about this week's injuries.** When a line moved a long way
   (PHI @ WSH wk 8: opened WSH +2.5, now -6), the market is usually reacting to
   a QB or other news the models can't see. Find the reason before calling it a gap.
+- **Openers can be stale lookahead numbers.** ESPN's "opened" line is sometimes a
+  number posted before the prior week's games (wk 8: CAR @ GB "opened -7" and
+  KC @ DEN's flip both turned out to be lookahead lines, not real moves). A big
+  move with no news behind it gets checked against a second book before it goes on air.
+- **ESPN's injury list lags.** It can carry an IR tag on a player already back at
+  practice (wk 8: Shavers). Practice participation from the research layer wins.
+- **"missed N of last 3"** next to a player means the L3 shares cover only the
+  games he played inside his team's last three. Usage from a player returning
+  from injury is a projection question, not a trend.
 - **Total check**: a naive points-for/points-against total. It is blind to QB
   changes and weather, so it only counts as a talking point when it is ≥3 off
   and the research backs it.

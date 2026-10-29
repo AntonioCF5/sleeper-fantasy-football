@@ -261,7 +261,13 @@ def load_sleeper(season, week):
             ts = sum(usage[pid][w]["tm_snp"] for w in ws)
             return {"tgt": t / tt if tt else 0, "rush": r / tr if tr else 0,
                     "snap": s / ts if ts else 0, "g": len(ws)}
-        return {"season": agg(weeks), "l3": agg(weeks[-3:])}
+        # L3 = the TEAM's last 3 games, not the player's last 3 appearances —
+        # otherwise a back returning from a month out shows month-old usage
+        # (Breece Hall wk 8: "60% L3" after missing four games).
+        team = usage[pid][weeks[-1]]["team"]
+        team_l3 = sorted(team_tot[team])[-3:]
+        l3 = [w for w in weeks if w in team_l3]
+        return {"season": agg(weeks), "l3": agg(l3) if l3 else {"g": 0}, "missed_l3": len(team_l3) - len(l3)}
 
     proj = []
     for r in api.get_week_projections(season, week) or []:
@@ -569,7 +575,8 @@ def main():
                         trend = " ⬇️"
                 pct = lambda x: f"{x:.0%}" if x else "—"  # noqa: E731
                 name = (f"{p['name']} ({p['pos']}, {t})" + (f" **{p['inj']}**" if p["inj"] else "")
-                        + (" 📈" if p["pid"] in trending else "") + trend)
+                        + (" 📈" if p["pid"] in trending else "") + trend
+                        + (f" *(missed {sh['missed_l3']} of last 3)*" if sh.get("missed_l3") else ""))
                 L.append(f"| {name} | {p['ppr']:.1f} ({p['half']:.1f}) | "
                          f"{pct(l3.get('tgt'))} ({pct(sz.get('tgt'))}) | {pct(l3.get('rush'))} ({pct(sz.get('rush'))}) | "
                          f"{pct(l3.get('snap'))} | {mu} |")
