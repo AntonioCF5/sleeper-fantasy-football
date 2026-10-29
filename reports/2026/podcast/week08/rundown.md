@@ -1,269 +1,272 @@
-# Week 8 rundown
+# Semana 8: guion del podcast
 
-*Prepped Wed Oct 28. Lines are DraftKings as of Wednesday night. Practice
-reports are Wednesday's only, so re-check Thursday and Friday before recording.*
+*Preparado el miércoles 28 de octubre. Líneas de DraftKings al miércoles en la
+noche. Los reportes de práctica son solo del miércoles: revisar jueves y viernes
+antes de grabar. Horarios en hora del centro de México (CDMX), con la hora del
+este (ET) entre paréntesis.*
 
-## Cold open: three storylines
+## Arranque: las tres historias de la semana
 
-1. **The Eagles' season just changed.** Jalen Hurts is done for the year with blood clots in both lungs. Tanner McKee starts, Philly has lost five straight, and the Sunday night line swung eight and a half points.
-2. **Indy is having a fire sale.** The GM is fired, Quenton Nelson is in Seattle, DeForest Buckner is in San Francisco, and Josh Downs wants out. Jacksonville went from a four-and-a-half-point favorite to ten.
-3. **Minnesota is 6-0 with an offense that ranks 23rd in scoring.** The defense allows 12 a game and leads the league at plus-7 in turnovers. They walk into Detroit, and Jahmyr Gibbs didn't practice Wednesday.
+1. **Se acabó la temporada de Jalen Hurts.** Tiene coágulos en ambos pulmones y se va a la reserva de lesionados por el resto del año. Entra Tanner McKee, las Águilas llevan cinco derrotas seguidas y la línea del domingo por la noche se movió ocho puntos y medio.
+2. **Indianápolis está rematando.** Corrieron al gerente general, mandaron a Quenton Nelson a Seattle y a DeForest Buckner a San Francisco, y Josh Downs pidió su cambio. Jacksonville pasó de favorito por cuatro y medio a favorito por diez.
+3. **Minnesota está 6-0 con la ofensiva número 23 en anotación.** La defensiva permite 12 puntos por partido y lidera la liga con +7 en balones. Van a Detroit, y Jahmyr Gibbs no practicó el miércoles.
 
-## Last week's record
+## Récord de la semana pasada
 
-This is week one of the ledger, so every pick from here on is tracked and graded. We give the record at the top of every show.
-
----
-
-## Game by game
-
-### CAR @ GB: Packers -3.5, total 47.5, Thursday 8:15 ET
-
-- **The number:** Some books show Green Bay opening at 7, but that was a stale lookahead line. The real market has sat at 3 to 3.5 all week. It's through the 3, which matters.
-- **Case for Carolina:** Green Bay is beat up up front. Micah Parsons is out with the ACL, and two interior linemen are out on a short week. The Packers average 2.9 yards a carry, dead last, and score touchdowns on 46% of red-zone trips, 30th.
-- **Case for Green Bay:** Lambeau, plus 5 in turnovers (4th), and a Carolina defense allowing almost 28 a game (27th). Tampa just ran for 258 on the Panthers.
-- **History:** Dave Canales' teams are 17-6 against the spread after a loss, and Carolina is coming off the 43-13 beating. Green Bay is 3-7 against the spread in the last 10 meetings. Both are color, both point to Carolina.
-- **The call:** Packers win, Carolina covers. ★ lean CAR +3.5. It's a bet at +3.5 and a pass at +3.
-- **Fantasy:**
-  - **Start:** Josh Jacobs. Carolina allows the 2nd-most points to running backs, he's the goal-line back, and his snaps should climb from 52%.
-  - **Sit:** Carolina's tight ends. Green Bay allows the second-fewest points to the position.
-  - **Sleeper:** Jalen Coker. He has a 20% target share and is Carolina's best receiver when healthy. Green Bay ranks 9th in points allowed to receivers.
-  - **Also:** Chuba Hubbard is the only back to finish top-12 every week this season. Lock him in.
-
-### BAL @ BUF: Bills -3, total 54.5, Sunday 1:00
-
-- **The number:** It opened 2.5. The total went from 51.5 to 54.5 because Lamar is back. He was a full participant Wednesday for the first time since the high-ankle sprain.
-- **Case for Baltimore:** Buffalo's defense allows 28.5 a game (30th) and gives up more fantasy points to receivers than anyone. Lamar plus Henry against that front is a real problem.
-- **Case for Buffalo:** The Bills are off a bye and lead the league in scoring at 32.8. Josh Allen is 2nd in net yards per attempt, and Buffalo is 2nd in yards per rush. Baltimore is 2-4-1 against the spread.
-- **Watch:** Bills right tackle Spencer Brown missed Wednesday with a back injury. That isn't priced in.
-- **History:** Sean McDermott is 9-0 straight up off a bye. That one has a mechanism, an extra week to prepare, and it backs Buffalo. The flip side: the Bills are 4-1 in one-score games and about a win and a half better than their point differential.
-- **The call:** Bills win. Pass on the side and the total. Both models land within a point of the market.
-- **Fantasy:**
-  - **Smash:** Zay Flowers. He has a 32% target share, and Buffalo gives up the most points to receivers in football. Henry gets the 3rd-softest run defense.
-  - **Trap:** James Cook. Baltimore allows the 5th-fewest points to running backs, so temper expectations. You still start him.
-  - **Sleeper:** Keon Coleman. His target share is up to 19% over the last three, and DJ Moore is practicing in a red jersey.
-
-### TEN @ CIN: Bengals -10, total 46.5, Sunday 1:00 · 🚩
-
-- **The number:** It opened 6.5 and jumped after Cincinnati hung 35 unanswered second-half points on Baltimore. Ninety-one percent of tickets are on the Bengals, but only 48% of the money, so the bigger bettors are on Tennessee.
-- **The models:** This is the only game on the slate where both models say the line is short. Our rating has Cincinnati by 13.5, and ESPN's FPI has them by 15.
-- **Case for Tennessee:** Ten points is a lot of respect for a team that was 2-2 a month ago, and the sharp money is on the Titans.
-- **Case for Cincinnati:** Tennessee is 1-6, 31st in scoring, and dead last in plays per game. Cam Ward is at 5.7 yards an attempt. Carnell Tate and Tyjae Spears both missed Wednesday. Cincinnati is 1st on third down and 1st in sacks.
-- **History:** Cincinnati is 8-2 against the spread in the last 10 meetings, and the under went 7-3 with an average total of 41. That's color, but it lines up with the under.
-- **The call:**
-  - ★ CIN -10. It's good at 10 and a pass at 10.5.
-  - **The better bet is the under: ★★ Under 46.5, good down to 45.5.** Tennessee plays slower than anyone. If Cincinnati gets up two scores, Chase Brown and the backfield run out the clock. The total already dropped from 49.5, and our points model says 42 to 43.
-- **Fantasy:**
-  - **Start:** Burrow and Tee Higgins. Tennessee is 8th-most generous to receivers. Ja'Marr Chase's Wednesday absence was a rest day; Thursday is the tell.
-  - **Start:** Chase Brown. He took the backfield back last week with 75% of snaps. Ignore the down arrow on the sheet; it reflects the Miami game, when Samaje Perine out-carried him.
-  - **Sit:** Cam Ward, everywhere.
-  - **Volume play:** Tony Pollard. If Spears sits, he's the whole backfield, with 82% of the carries over the last three games, even against a stingy run defense.
-
-### ARI @ DAL: Cowboys -7, total 54.5, Sunday 1:00 · dome
-
-- **The number:** It opened 10.5 and dropped to 7, with some books at 6.5. That drop came against 85% of the money on Dallas, and nobody has a clean reason. The total rose 5 points.
-- **Case for Arizona:** Dallas is on a short week after a Monday night game in Philly, and the Cowboys defense allows almost 26. The Cardinals rank 2nd in plays per game, so this has back-door-cover pace.
-- **Case for Dallas:** Arizona allows 29.7 a game, worst in the league, and is last in red-zone touchdown rate. Dallas is 3rd on third down and 3rd in the red zone.
-- **History:** Arizona has won four straight in the series, and Dallas is 2-8 in the last 10. Brian Schottenheimer is 2-6-1 against the spread after a win. Treat it as color.
-- **The call:** Cowboys win. Pass on everything. Our rating says 7 exactly, so I'm not fighting a five-point total move in a dome.
-- **Fantasy:**
-  - **Start:** Dak (Arizona allows the 3rd-most to QBs), CeeDee, Javonte, and Trey McBride.
-  - **Streamer:** Jacoby Brissett. It's the Footballers' favorite stream, with a 54.5 total and Dallas 8th-most generous to QBs.
-  - **Sleeper:** Zonovan Knight. Tyler Allgeier missed Wednesday and Jeremiyah Love is limited coming off the high ankle. Knight keeps a role either way.
-
-### MIN @ DET: Lions -3, total 46.5, Sunday 1:00 · dome · ★★ best bet
-
-- **The number:** It opened 4.5 and moved toward Minnesota even with 82% of the money on Detroit. That is a classic sharp-side signal.
-- **Case for Minnesota:** The best defense in football: 12.3 points allowed a game, plus-7 in turnovers, and 21 sacks. Our rating has the Vikings as the top team in the league. Detroit allows 27.5 a game, 26th. Gibbs had a surprise DNP Wednesday with a shoulder injury, and Amon-Ra was held out on a planned rest day.
-- **Case for Detroit:** Detroit is 3-0 at home and 2nd in scoring, and Goff has 14 touchdowns and zero picks. Minnesota's offense is 25th in net yards per attempt, and Kyler Murray is averaging 162 passing yards a game.
-- **History, and the pushback on our best bet:** Dan Campbell is 8-2 against the spread vs Minnesota, and O'Connell is 2-6 vs Detroit. The Vikings are 4-0 in one-score games, about 1.3 wins better than their point differential. I'm still on Minnesota. The bet is on the defense, the sharp move and the number, and the head-to-head ATS split is coaching color over eight games. But say it on air.
-- **The call:** ★★ MIN +3. It's a bet at 3 and a pass at 2.5. Both models lean Vikings, the sharp move agrees, and Detroit's best player is questionable.
-- **Fantasy:**
-  - **Smash:** T.J. Hockenson. Detroit allows the most points to tight ends.
-  - **Streamer:** Kyler Murray. Detroit allows the most to quarterbacks, and Murray's rushing share is up to 22%.
-  - **Start:** Justin Jefferson. Detroit is 3rd-softest against receivers, though his target share has slipped to 21%.
-  - **Traps:** Goff and LaPorta. Minnesota allows the fewest points in the league to QBs, RBs and TEs. Gibbs still starts if active, at 86% of the carries, but lower the ceiling.
-
-### LV @ NYJ: Jets -1.5, total 45.5, Sunday 1:00
-
-- **The number:** The spread hasn't moved, but the total jumped four points with no injury cause. The likely reason is the Jets' pass rush: David Bailey, Joseph Ossai and T'Vondre Sweat all missed Wednesday.
-- **Case for Las Vegas:** Kirk Cousins leads the league with 16 touchdown passes. The Raiders are 5-2 against the spread and have allowed only 10 sacks.
-- **Case for New York:** Vegas has lost four straight, and the defense allows 28 a game. The Raiders fly east for a 1:00 kickoff.
-- **The call:** Jets win a coin flip. Pass on both.
-- **Fantasy:**
-  - **Start:** Garrett Wilson.
-  - **Streamer:** Geno Smith. Vegas is 5th-most generous to quarterbacks.
-  - **Start:** Brock Bowers if active. He's limited with a calf injury.
-  - **Breece Hall:** He hasn't played in four weeks and is limited, so don't trust the old usage numbers. Braelon Allen has led the backfield every week since and averages 18 carries. If Hall is active, Allen is a risky flex.
-  - **Grab:** Omar Cooper Jr. He's the #1 add for both Sal and the Footballers.
-
-### CLE @ PIT: Steelers -3.5, total 39.5, Sunday 1:00 · first place in the North
-
-- **The number:** It opened 5.5 and dropped below 4, with 89% of the money on Cleveland. The angle the market is chasing: teams coming back from a Europe game without a bye are 0-5 against the spread this year. Pittsburgh just played in Paris. Treat that as color: five games is a tiny sample.
-- **Case for Cleveland:** The Browns are 5-2 against the spread and won the first meeting 27-24.
-- **Case for Pittsburgh:** Cleveland could start three backup offensive linemen. Two Jenkinses, Elgton and Tevin, plus Tytus Howard all missed Wednesday, on a line that has already allowed the most sacks in football. Pittsburgh has 18 sacks of its own and is plus-4 in turnovers.
-- **History:** Cleveland is 5-1 in one-score games, almost two wins better than its point differential. That's the biggest regression candidate on the slate, and it supports the Pittsburgh lean.
-- **The call:** Steelers win. Lean PIT, but -3.5 is the wrong side of the key number. It's a ★ bet if it comes back to 3, and a pass at 3.5.
-- **Fantasy:**
-  - **Start:** Pittsburgh's defense. Cleveland has allowed 25 sacks with 9 giveaways, and its implied total is 18.
-  - **Grab:** Germie Bernard. Michael Pittman went on IR, and Bernard's target share went to 25% over the last three.
-  - **Sit:** Deshaun Watson. Pittsburgh is 4th-stingiest against QBs.
-
-### ATL @ TB: Bucs -2.5, total 44.5, Sunday 1:00 · divisional
-
-- **The number:** It opened 4.5 and crossed 3 toward Atlanta, with no clean cause. Baker is back and practiced fully. Emeka Egbuka is still in a no-contact jersey.
-- **Case for Atlanta:** Tampa is winless at home at 0-4 and dead last in net yards per pass attempt. Atlanta is 3-3 as an underdog against the spread.
-- **Case for Tampa:** Mayfield is back, and the Bucs ran for 4.9 a carry, 3rd in the league. Atlanta is minus-3 in turnovers.
-- **History:** Tampa is 1-5 in one-score games, almost two wins worse than its point differential. The Bucs are better than 2-5. Todd Bowles is 3-6 against the spread vs Atlanta, which is color.
-- **The call:** Bucs win. Pass. The models split hard: ESPN's FPI has Tampa by 7, our rating has Atlanta. If Egbuka clears protocol, expect the line to drift back to 3.
-- **Fantasy:**
-  - **Start:** Bijan in all formats. Brian Robinson is out, so it's his whole workload.
-  - **Start:** Bucky Irving. Kenny Gainwell missed Wednesday, and Atlanta is 8th-softest to running backs.
-  - **Streamer:** Kyle Pitts. His target share is up to 18%, and Tampa allows the 8th-most to tight ends.
-
-### IND @ JAX: Jaguars -10, total 46.5, Sunday 1:00 · divisional
-
-- **The number:** It opened 4.5 and went to 10, the biggest move on the board. The Colts traded their All-Pro guard and their best defensive lineman on Monday. Jacksonville is also off a bye.
-- **Case for Indianapolis:** Ten points in a division game, and a team that is suddenly playing for jobs.
-- **Case for Jacksonville:** The Jaguars are 3rd in our rating and 3rd in points allowed. The Colts are minus-9 in turnovers, worst in football, and 31st in net yards per pass attempt. Now they've lost Nelson and Buckner.
-- **Weather:** Thunderstorm risk, with wind at 14 to 15 and gusts past 20.
-- **The call:** Jaguars win. The fire sale is priced in at 10, and our rating agrees. ★ lean Under 46.5 on the weather: wind of 15 or more is the threshold where passing games suffer. Recheck the forecast Saturday.
-- **Fantasy:**
-  - **Smash:** Jacksonville's defense. Indy has 12 giveaways and 19 sacks allowed, and the Colts just traded their best lineman.
-  - **Downgrade:** Jonathan Taylor to RB2. Jacksonville allows the 2nd-fewest points to backs, and the guard who led him is gone.
-  - **Stash:** Seth McGowan before the deadline. If Taylor gets traded, McGowan becomes a FAAB war.
-
-### LAC @ LAR: Rams -6.5, total 45.5, Sunday 4:05 · indoors
-
-- **The number:** It opened 3.5 and moved to 6.5 with no injury cause, just the public piling on a winless team. It's sitting right under 7.
-- **Case for the Chargers:** They're off a bye, and it's a desperation spot. 6.5 is a lot for a Rams team that is 2-5 against the spread.
-- **Case for the Rams:** The Chargers are 0-6, 0-5-1 against the spread, last in scoring, and minus-5 in turnovers. Herbert ranks last in EPA per play. Derwin James had a rehab setback and may go on IR.
-- **History:** Both LA teams are underperforming their point differential. The Chargers are 0-3 in one-score games, so 0-6 is a little worse than they've played. Jim Harbaugh is 5-2-1 against the Rams franchise, which is color.
-- **The call:** Rams win. Pass at 6.5. If it gets to 7, I'm not touching it.
-- **Fantasy:**
-  - **Smash:** Puka Nacua. He has a 36% target share over the last three.
-  - **Start:** Kyren Williams.
-  - **Start:** Tyler Higbee. Colby Parkinson missed Wednesday, so Higbee should get the tight end snaps.
-  - **Fade:** Omarion Hampton. He's the third back in Mike McDaniel's committee.
-  - **Fade:** Every Charger receiver. The Rams allow the 5th-fewest points to receivers.
-
-### KC @ DEN: Chiefs -1.5, total 40.5, Sunday 4:25 · divisional
-
-- **The number:** It flipped from Denver -1.5 to Kansas City -1.5 on Monday morning, before any injury news. My read is that the opener was a lookahead line that got repriced. Some books still hang 41.5 on the total.
-- **Case for Kansas City:** The Chiefs are 1st in yards per rush, 5th in net yards per pass attempt, and allow only 17 a game, 2nd. They won the first meeting 31-10.
-- **Case for Denver:** Denver has won three straight, is 4-0 against the spread as a favorite, and has 21 sacks. Pat Surtain practiced fully for the first time since week 4.
-- **History:** Patrick Mahomes is 14-2 against Denver. Denver is 4-0 in one-score games, overperforming by about a win and a half. Both point to Kansas City, but at -1.5 it's still a pass.
-- **The call:** Chiefs in a coin flip. Pass. Both offenses rank in the bottom six in pace, which is why the total is 40.
-- **Fantasy:**
-  - **Start:** Kenneth Walker as an RB1. He has 82% of the carries.
-  - **Start:** Travis Kelce. Denver is 10th-most generous to tight ends.
-  - **Fade:** Bo Nix and every Bronco receiver. Kansas City allows the 3rd-fewest points to QBs and the 2nd-fewest to receivers.
-  - **Hold:** Jonah Coleman. He's the add of the week but hard to start here.
-
-### NE @ MIA: Patriots -7, total 43.5, Sunday 4:25
-
-- **The number:** It's sitting on 7. The total dipped 2 points.
-- **Weather:** The forecast says 80% thunderstorms with gusts to 24. This is the real weather game of the week.
-- **Case for Miami:** Malik Willis had three touchdowns and zero turnovers in the win over the Jets. New England is minus-7 in turnovers, 31st.
-- **Case for New England:** Nine days of rest, and every player on the active roster practiced. Drake Maye is 3rd in net yards per pass attempt. Miami has only six sacks all season, dead last.
-- **History:** Miami is 8-2 against the spread in the last 10 meetings, though New England has won the last two. That's color, and it isn't enough to take Miami +7.
-- **The call:** Patriots win. Pass on the 7. Lean under, but it isn't a bet yet. If Sunday's forecast holds at sustained 15 or more, the under at 43.5 becomes a ★.
-- **Fantasy:**
-  - **Start:** Drake Maye. Miami is 7th-most generous to QBs.
-  - **Start:** Hunter Henry. Miami allows the 3rd-most to tight ends.
-  - **Start:** Rhamondre Stevenson. Miami allows the 4th-most to running backs.
-  - **Downgrade:** A.J. Brown to WR3. Miami allows the 3rd-fewest points to receivers, and he picked up a new knee tag.
-  - **Start:** Ollie Gordon. De'Von Achane is done for the year, and Gordon played 83% of snaps last week.
-
-### PHI @ WSH: Commanders -6, total 40.5, Sunday 8:20 · divisional
-
-- **The number:** It opened Philly -2.5 and is now Washington -6. That's Hurts to IR plus the Monday night blowout. The total dropped six.
-- **Ignore our models here.** Both lean Eagles, and the points model says over by 6. They're built on games Hurts played. This is exactly the case where the market knows something the math doesn't.
-- **Case for Philadelphia:** The Eagles are 4th in red-zone touchdown rate, and Dallas Goedert practiced fully. Jayden Daniels hasn't won a start in over a year.
-- **Case for Washington:** Off a bye. Philly has lost five straight. Barkley, DeVonta Smith and Dontayvion Wicks all missed Wednesday. Philly has 8 sacks all year, 30th.
-- **History:** Nick Sirianni is 9-3 against Washington, but that was built with Hurts. He's 10-20 against the spread after a loss, and Philly is coming off one.
-- **The call:** Commanders win. Pass. The move is justified, and 6 sits short of 7, so there's no edge on either side.
-- **Fantasy:**
-  - **Start:** Jayden Daniels. He gets 25% of the team's rushing work.
-  - **Start:** Stefon Diggs. Philly allows the 2nd-most to receivers.
-  - **Breakout:** Antonio Williams. Terry McLaurin is out for the season, and the Footballers called this week for Williams to take the starting job.
-  - **Start:** Goedert. Washington allows the 2nd-most to tight ends.
-  - **Contingent:** Dameon Pierce. If Barkley sits, he takes over a backfield where he has handled two-thirds of the carries in his games.
-  - **Sit:** McKee in one-QB leagues.
-
-### CHI @ SEA: Seahawks -3, total 46.5, Monday 8:15 · ★★ best bet
-
-- **The number:** It opened 4.5 and dropped to 3. Chicago gets 11 days of rest, and Seattle's left tackle Charles Cross has a reported high-ankle sprain.
-- **Case for Chicago:** The rest edge. Montez Sweat is back from suspension and goes against a backup left tackle. Sam Darnold is tied for the league lead with 8 interceptions. The Bears run the most plays in the league and are 5-2 against the spread. Our rating has the Bears as the better team.
-- **Case for Seattle:** The Seahawks are coming off a 20-3 win over Kansas City and allow 17.9 a game, 4th. Seattle is 3-1 at home.
-- **History:** Ben Johnson is 5-2 in primetime, which is color. Nothing in the series moves the number.
-- **The call:** ★★ CHI +3. It's a bet at 3 and a pass at 2.5. If Cross is ruled out, this gets better before kickoff.
-- **Fantasy:**
-  - **Start:** Jaxon Smith-Njigba. He has 36% of the targets, every week.
-  - **Start:** D'Andre Swift. Kyle Monangai is likely out with turf toe, and Swift had 26 touches last game.
-  - **Fade:** Bears receivers. Seattle allows the fewest fantasy points to receivers in the league.
-  - **Start:** The Chicago defense, against Darnold under pressure.
+Esta es la primera semana del registro. Cada pick desde hoy se lleva y se califica, y el récord se dice al arranque de cada programa.
 
 ---
 
-## Best bets card
+## Partido por partido
 
-| Bet | Conf. | Good to | The one-liner |
+### CAR @ GB: Empacadores -3.5, total 47.5, jueves 6:15 pm CDMX (8:15 pm ET)
+
+- **La línea:** Algunas casas muestran que abrió Green Bay -7, pero era una línea anticipada que ya no servía. El mercado real ha estado entre 3 y 3.5 toda la semana. Está pasadita del 3, y eso importa.
+- **A favor de Carolina:** Green Bay llega golpeado en las trincheras: Micah Parsons fuera por el ligamento cruzado, y dos linieros interiores fuera en semana corta. Los Empacadores promedian 2.9 yardas por acarreo, últimos de la liga, y anotan touchdown en solo 46% de sus visitas a la zona roja, lugar 30.
+- **A favor de Green Bay:** Lambeau, +5 en balones (cuartos), y una defensiva de Carolina que permite casi 28 por partido (lugar 27). Tampa les corrió 258 yardas.
+- **Historia:** Los equipos de Dave Canales van 17-6 contra la línea después de una derrota, y Carolina viene de la paliza 43-13. Green Bay va 3-7 contra la línea en los últimos 10 duelos. Las dos son color, y las dos apuntan a Carolina.
+- **El pick:** Gana Green Bay, cubre Carolina. ★ inclinación CAR +3.5. Es apuesta en +3.5; en +3, paso.
+- **Fantasy:**
+  - **Arranca:** Josh Jacobs. Carolina permite los segundos más puntos a corredores, él es el corredor de la goal line y sus snaps van a subir del 52%.
+  - **Banca:** los alas cerradas de Carolina. Green Bay es la segunda defensa que menos permite a la posición.
+  - **Sorpresa:** Jalen Coker. Tiene el 20% de los targets y es el mejor receptor de Carolina cuando está sano; Green Bay es novena en puntos permitidos a receptores.
+  - **Y además:** Chuba Hubbard es el único corredor que ha terminado top-12 todas las semanas. Va sí o sí.
+
+### BAL @ BUF: Bills -3, total 54.5, domingo 12:00 pm CDMX (1:00 pm ET)
+
+- **La línea:** Abrió 2.5. El total subió de 51.5 a 54.5 porque regresa Lamar: practicó completo el miércoles por primera vez desde el esguince alto de tobillo.
+- **A favor de Baltimore:** La defensiva de Buffalo permite 28.5 por partido (lugar 30) y es la que más puntos de fantasy regala a receptores. Lamar más Henry contra esa defensa es un problema serio.
+- **A favor de Buffalo:** Los Bills vienen de semana de descanso y son primeros de la liga en anotación, con 32.8. Josh Allen es segundo en yardas netas por intento, y Buffalo es segundo en yardas por acarreo. Baltimore va 2-4-1 contra la línea.
+- **Ojo:** el tackle derecho de los Bills, Spencer Brown, no practicó el miércoles por la espalda. Eso no está en el precio.
+- **Historia:** Sean McDermott va 9-0 después de semana de descanso. Esa sí tiene mecanismo, una semana extra de preparación, y respalda a los Bills. Del otro lado: los Bills van 4-1 en partidos de una posesión y llevan como victoria y media más de lo que dice su diferencial de puntos.
+- **El pick:** Gana Buffalo. Paso en el spread y en el total: los dos modelos quedan a menos de un punto del mercado.
+- **Fantasy:**
+  - **Partidazo:** Zay Flowers. Tiene el 32% de los targets, y Buffalo es la defensa que más puntos regala a receptores. Henry tiene enfrente la tercera defensa más blanda contra la carrera.
+  - **Trampa:** James Cook. Baltimore es la quinta defensa que menos permite a corredores. Bájale a las expectativas, pero igual va de titular.
+  - **Sorpresa:** Keon Coleman. Su porcentaje de targets subió a 19% en los últimos tres, y DJ Moore practica con jersey de no contacto.
+
+### TEN @ CIN: Bengalíes -10, total 46.5, domingo 12:00 pm CDMX (1:00 pm ET) · 🚩
+
+- **La línea:** Abrió 6.5 y brincó después de que Cincinnati le metió 35 puntos sin respuesta a Baltimore en la segunda mitad. El 91% de los boletos va con los Bengalíes, pero solo el 48% del dinero: las apuestas grandes están con Tennessee.
+- **Los modelos:** Es el único partido de la cartelera donde los dos modelos dicen que la línea se queda corta. Nuestro rating pone a Cincinnati por 13.5 y el FPI de ESPN, por 15.
+- **A favor de Tennessee:** Diez puntos es mucho respeto para un equipo que hace un mes estaba 2-2, y el dinero fuerte está con los Titanes.
+- **A favor de Cincinnati:** Tennessee está 1-6, es lugar 31 en anotación y último en jugadas por partido. Cam Ward promedia 5.7 yardas por intento. Carnell Tate y Tyjae Spears no practicaron el miércoles. Cincinnati es primero en terceras oportunidades y primero en capturas.
+- **Historia:** Cincinnati va 8-2 contra la línea en los últimos 10 duelos, y las bajas fueron 7-3 con un total promedio de 41. Es color, pero cuadra con la baja.
+- **El pick:**
+  - ★ CIN -10. Sirve en 10; en 10.5, paso.
+  - **La mejor apuesta es la baja: ★★ Bajas 46.5, sirve hasta 45.5.** Tennessee juega más lento que nadie. Si Cincinnati se va arriba por dos anotaciones, Chase Brown y compañía queman el reloj. El total ya bajó de 49.5, y nuestro modelo de puntos dice 42 o 43.
+- **Fantasy:**
+  - **Arranca:** Burrow y Tee Higgins. Tennessee es la octava defensa que más regala a receptores. Lo de Ja'Marr Chase el miércoles fue día de descanso; el jueves es la prueba.
+  - **Arranca:** Chase Brown. Recuperó el backfield la semana pasada con 75% de los snaps. Ignora la flecha hacia abajo de la hoja: viene del partido contra Miami, cuando Samaje Perine le ganó en acarreos.
+  - **Banca:** Cam Ward, en todos lados.
+  - **Jugada de volumen:** Tony Pollard. Si Spears no juega, es todo el backfield, con 82% de los acarreos en los últimos tres, aunque enfrente tenga una defensa dura contra la carrera.
+
+### ARI @ DAL: Vaqueros -7, total 54.5, domingo 12:00 pm CDMX (1:00 pm ET) · techado
+
+- **La línea:** Abrió 10.5 y bajó a 7, con algunas casas en 6.5. Esa bajada fue contra el 85% del dinero en Dallas, y nadie tiene una razón clara. El total subió 5 puntos.
+- **A favor de Arizona:** Dallas viene en semana corta después de jugar el lunes por la noche en Filadelfia, y la defensiva de los Vaqueros permite casi 26. Los Cardenales son segundos en jugadas por partido: ritmo para cubrir por la puerta de atrás.
+- **A favor de Dallas:** Arizona permite 29.7 por partido, lo peor de la liga, y es último en porcentaje de touchdown en zona roja. Dallas es tercero en terceras oportunidades y tercero en zona roja.
+- **Historia:** Arizona ha ganado cuatro seguidos en la serie, y Dallas va 2-8 en los últimos 10. Brian Schottenheimer va 2-6-1 contra la línea después de una victoria. Tómalo como color.
+- **El pick:** Gana Dallas. Paso en todo. Nuestro rating dice 7 exacto, y no me voy a pelear con un total que se movió cinco puntos en estadio techado.
+- **Fantasy:**
+  - **Arranca:** Dak (Arizona es la tercera que más permite a mariscales), CeeDee, Javonte y Trey McBride.
+  - **Streaming:** Jacoby Brissett. Es el favorito de los Footballers: total de 54.5, y Dallas es octavo en puntos permitidos a mariscales.
+  - **Sorpresa:** Zonovan Knight. Tyler Allgeier no practicó el miércoles y Jeremiyah Love está limitado por el tobillo; Knight tiene rol de cualquier forma.
+
+### MIN @ DET: Leones -3, total 46.5, domingo 12:00 pm CDMX (1:00 pm ET) · techado · ★★ mejor apuesta
+
+- **La línea:** Abrió 4.5 y se movió hacia Minnesota aunque el 82% del dinero está en Detroit. Esa es la señal clásica del dinero inteligente.
+- **A favor de Minnesota:** Tiene la mejor defensiva de la NFL: 12.3 puntos permitidos por partido, +7 en balones y 21 capturas. Nuestro rating tiene a los Vikingos como el mejor equipo de la liga. Detroit permite 27.5 por partido (lugar 26). Gibbs no practicó el miércoles por el hombro, de sorpresa, y a Amon-Ra lo guardaron en un día de descanso planeado.
+- **A favor de Detroit:** 3-0 en casa, segundos en anotación, y Goff lleva 14 touchdowns y cero intercepciones. La ofensiva de Minnesota es lugar 25 en yardas netas por intento, y Kyler Murray promedia 162 yardas por pase por partido.
+- **Historia, y el contra de nuestra mejor apuesta:** Dan Campbell va 8-2 contra la línea ante Minnesota, y O'Connell va 2-6 ante Detroit. Los Vikingos van 4-0 en partidos de una posesión, como 1.3 victorias arriba de su diferencial de puntos. Sigo con Minnesota: la apuesta es por la defensiva, el movimiento del dinero fuerte y el número, y el récord entre coaches contra la línea es color de ocho partidos. Pero hay que decirlo al aire.
+- **El pick:** ★★ MIN +3. Es apuesta en 3; en 2.5, paso. Los dos modelos se inclinan por los Vikingos, el movimiento del dinero fuerte coincide y el mejor jugador de Detroit está en duda.
+- **Fantasy:**
+  - **Partidazo:** T.J. Hockenson. Detroit es la defensa que más puntos permite a alas cerradas.
+  - **Streaming:** Kyler Murray. Detroit es la que más permite a mariscales, y Murray subió a 22% de los acarreos del equipo.
+  - **Arranca:** Justin Jefferson. Detroit es la tercera más blanda contra receptores, aunque su porcentaje de targets bajó a 21%.
+  - **Trampas:** Goff y LaPorta. Minnesota es la defensa que menos permite en la liga a mariscales, corredores y alas cerradas. Si Gibbs juega, va de titular con 86% de los acarreos, pero bájale al techo.
+
+### LV @ NYJ: Jets -1.5, total 45.5, domingo 12:00 pm CDMX (1:00 pm ET)
+
+- **La línea:** El spread no se ha movido, pero el total brincó cuatro puntos sin ninguna razón de lesiones. La explicación probable es la presión de los Jets: David Bailey, Joseph Ossai y T'Vondre Sweat no practicaron el miércoles.
+- **A favor de Las Vegas:** Kirk Cousins lidera la liga con 16 pases de touchdown. Los Raiders van 5-2 contra la línea y solo han permitido 10 capturas.
+- **A favor de Nueva York:** Las Vegas lleva cuatro derrotas seguidas y su defensiva permite 28 por partido. Además, los Raiders viajan al este para jugar a la 1 de la tarde, hora del este.
+- **El pick:** Ganan los Jets en un volado. Paso en las dos.
+- **Fantasy:**
+  - **Arranca:** Garrett Wilson.
+  - **Streaming:** Geno Smith. Las Vegas es la quinta defensa que más permite a mariscales.
+  - **Arranca:** Brock Bowers si juega. Está limitado por la pantorrilla.
+  - **Breece Hall:** No ha jugado en cuatro semanas y está limitado, así que no le creas a los números viejos de uso. Braelon Allen ha encabezado el backfield todas las semanas desde entonces, con 18 acarreos de promedio. Si Hall está activo, Allen es un flex arriesgado.
+  - **Agarra:** Omar Cooper Jr. Es la adición número uno para Sal y para los Footballers.
+
+### CLE @ PIT: Acereros -3.5, total 39.5, domingo 12:00 pm CDMX (1:00 pm ET) · el primer lugar de la Norte en juego
+
+- **La línea:** Abrió 5.5 y bajó de 4, con el 89% del dinero en Cleveland. El ángulo que persigue el mercado: los equipos que regresan de un partido en Europa sin semana de descanso van 0-5 contra la línea este año, y Pittsburgh acaba de jugar en París. Tómalo como color: cinco partidos es una muestra mínima.
+- **A favor de Cleveland:** Los Cafés van 5-2 contra la línea y ganaron el primer duelo 27-24.
+- **A favor de Pittsburgh:** Cleveland podría arrancar con tres linieros suplentes. Los dos Jenkins, Elgton y Tevin, y Tytus Howard no practicaron el miércoles, y esa línea ya es la que más capturas ha permitido en la NFL. Pittsburgh tiene 18 capturas propias y va +4 en balones.
+- **Historia:** Cleveland va 5-1 en partidos de una posesión, casi dos victorias arriba de su diferencial de puntos. Es el mayor candidato de toda la cartelera a regresar a la media, y respalda la inclinación por Pittsburgh.
+- **El pick:** Gana Pittsburgh. Me inclino por PIT, pero -3.5 está del lado equivocado del número clave. Si regresa a 3 es apuesta de ★; en 3.5, paso.
+- **Fantasy:**
+  - **Arranca:** la defensiva de Pittsburgh. Cleveland ha permitido 25 capturas, lleva 9 balones perdidos, y su total implícito es de 18.
+  - **Agarra:** Germie Bernard. Michael Pittman se fue a la reserva de lesionados y Bernard subió a 25% de los targets en los últimos tres.
+  - **Banca:** Deshaun Watson. Pittsburgh es la cuarta defensa más dura contra mariscales.
+
+### ATL @ TB: Bucaneros -2.5, total 44.5, domingo 12:00 pm CDMX (1:00 pm ET) · divisional
+
+- **La línea:** Abrió 4.5 y cruzó el 3 hacia Atlanta, sin una causa clara. Baker regresó y practicó completo. Emeka Egbuka sigue con jersey de no contacto.
+- **A favor de Atlanta:** Tampa no ha ganado en casa (0-4) y es último en yardas netas por intento de pase. Atlanta va 3-3 contra la línea como no favorito.
+- **A favor de Tampa:** Regresa Mayfield, y los Bucaneros corren para 4.9 por acarreo, terceros de la liga. Atlanta va -3 en balones.
+- **Historia:** Tampa va 1-5 en partidos de una posesión, casi dos victorias debajo de su diferencial de puntos. Los Bucaneros son mejores que su 2-5. Todd Bowles va 3-6 contra la línea ante Atlanta, y eso es color.
+- **El pick:** Gana Tampa. Paso. Los modelos chocan fuerte: el FPI de ESPN tiene a Tampa por 7 y nuestro rating, a Atlanta. Si Egbuka sale del protocolo, espera que la línea regrese a 3.
+- **Fantasy:**
+  - **Arranca:** Bijan en todos los formatos. Brian Robinson está fuera, así que la carga es toda suya.
+  - **Arranca:** Bucky Irving. Kenny Gainwell no practicó el miércoles, y Atlanta es la octava defensa más blanda contra corredores.
+  - **Streaming:** Kyle Pitts. Su porcentaje de targets subió a 18%, y Tampa permite los octavos más puntos a alas cerradas.
+
+### IND @ JAX: Jaguares -10, total 46.5, domingo 12:00 pm CDMX (1:00 pm ET) · divisional
+
+- **La línea:** Abrió 4.5 y se fue a 10, el movimiento más grande de la cartelera. Los Potros cambiaron el lunes a su guardia All-Pro y a su mejor liniero defensivo. Además, Jacksonville viene de semana de descanso.
+- **A favor de Indianápolis:** Son diez puntos en un partido divisional, y es un equipo que de pronto está jugando por sus chambas.
+- **A favor de Jacksonville:** Los Jaguares son terceros en nuestro rating y terceros en puntos permitidos. Los Potros van -9 en balones, lo peor de la NFL, y son lugar 31 en yardas netas por intento de pase. Y ahora perdieron a Nelson y a Buckner.
+- **Clima:** riesgo de tormenta eléctrica, con viento de 14 a 15 millas por hora y ráfagas de más de 20.
+- **Historia:** Trevor Lawrence va 7-2 contra Indianápolis, y Shane Steichen va 1-5 contra Jacksonville. Liam Coen va 9-2 contra la línea en casa. Lo de Coen y lo de Steichen es color.
+- **El pick:** Gana Jacksonville. La venta de garage ya está en el 10, y nuestro rating está de acuerdo. ★ inclinación a las Bajas 46.5 por el clima: con viento de 15 o más, el juego aéreo sufre. Revisar el pronóstico el sábado.
+- **Fantasy:**
+  - **Partidazo:** la defensiva de Jacksonville. Indianápolis lleva 12 balones perdidos y 19 capturas permitidas, y acaba de cambiar a su mejor liniero.
+  - **Baja:** Jonathan Taylor a RB2. Jacksonville es la segunda defensa que menos permite a corredores, y el guardia que le abría hoyos ya no está.
+  - **Guarda:** Seth McGowan, antes de la fecha límite de cambios. Si cambian a Taylor, se vuelve guerra de FAAB.
+
+### LAC @ LAR: Carneros -6.5, total 45.5, domingo 3:05 pm CDMX (4:05 pm ET) · techado
+
+- **La línea:** Abrió 3.5 y se fue a 6.5 sin ninguna razón de lesiones, nada más el público cargándose contra un equipo sin victorias. Está justo debajo del 7.
+- **A favor de los Cargadores:** Vienen de semana de descanso y es partido de desesperación. 6.5 es mucho para unos Carneros que van 2-5 contra la línea.
+- **A favor de los Carneros:** Los Cargadores están 0-6, van 0-5-1 contra la línea, son últimos en anotación y van -5 en balones. Herbert es último en EPA por jugada. Derwin James tuvo un retroceso en su rehabilitación y podría irse a la reserva de lesionados.
+- **Historia:** Los dos equipos de Los Ángeles están rindiendo debajo de su diferencial de puntos. Los Cargadores van 0-3 en partidos de una posesión, así que el 0-6 es un poco peor de lo que han jugado. Jim Harbaugh va 5-2-1 contra la franquicia de los Carneros, y eso es color.
+- **El pick:** Ganan los Carneros. Paso en 6.5, y si llega a 7, ni lo toco.
+- **Fantasy:**
+  - **Partidazo:** Puka Nacua. Tiene el 36% de los targets en los últimos tres.
+  - **Arranca:** Kyren Williams.
+  - **Arranca:** Tyler Higbee. Colby Parkinson no practicó el miércoles, así que Higbee debería quedarse con los snaps de ala cerrada.
+  - **Fuera:** Omarion Hampton. Es el tercer corredor del comité de Mike McDaniel.
+  - **Fuera:** todos los receptores de los Cargadores. Los Carneros son la quinta defensa que menos permite a receptores.
+
+### KC @ DEN: Jefes -1.5, total 40.5, domingo 3:25 pm CDMX (4:25 pm ET) · divisional
+
+- **La línea:** Se volteó de Denver -1.5 a Kansas City -1.5 el lunes en la mañana, antes de cualquier noticia de lesiones. Mi lectura: la apertura era una línea anticipada que se volvió a preciar. Algunas casas todavía tienen el total en 41.5.
+- **A favor de Kansas City:** Los Jefes son primeros en yardas por acarreo y quintos en yardas netas por intento de pase, y permiten solo 17 por partido (segundos). Ganaron el primer duelo 31-10.
+- **A favor de Denver:** Tres victorias seguidas, 4-0 contra la línea como favorito y 21 capturas. Pat Surtain practicó completo por primera vez desde la semana 4.
+- **Historia:** Patrick Mahomes va 14-2 contra Denver. Denver va 4-0 en partidos de una posesión, como victoria y media arriba de su diferencial. Las dos cosas apuntan a Kansas City, pero en -1.5 sigue siendo paso.
+- **El pick:** Jefes, en un volado. Paso. Las dos ofensivas están entre las seis más lentas de la liga, y por eso el total está en 40.
+- **Fantasy:**
+  - **Arranca:** Kenneth Walker como RB1. Tiene el 82% de los acarreos.
+  - **Arranca:** Travis Kelce. Denver es la décima defensa que más permite a alas cerradas.
+  - **Fuera:** Bo Nix y todos los receptores de Denver. Kansas City es la tercera que menos permite a mariscales y la segunda que menos permite a receptores.
+  - **Guarda:** Jonah Coleman. Es la adición de la semana, pero aquí está difícil arrancarlo.
+
+### NE @ MIA: Patriotas -7, total 43.5, domingo 3:25 pm CDMX (4:25 pm ET)
+
+- **La línea:** Está clavada en 7. El total bajó 2 puntos.
+- **Clima:** El pronóstico dice 80% de probabilidad de tormentas, con ráfagas de 24. Este es el partido de clima de verdad de la semana.
+- **A favor de Miami:** Malik Willis tuvo tres touchdowns y cero pérdidas de balón en la victoria sobre los Jets. Nueva Inglaterra va -7 en balones (lugar 31).
+- **A favor de Nueva Inglaterra:** Nueve días de descanso, y todo el roster activo practicó. Drake Maye es tercero en yardas netas por intento. Miami tiene solo seis capturas en toda la temporada, último de la liga.
+- **Historia:** Miami va 8-2 contra la línea en los últimos 10 duelos, aunque los Patriotas ganaron los dos más recientes. Es color, y no alcanza para tomar a Miami +7.
+- **El pick:** Ganan los Patriotas. Paso en el 7. Me inclino a la baja, pero todavía no es apuesta: si el domingo el pronóstico se mantiene en viento sostenido de 15 o más, la baja en 43.5 se vuelve ★.
+- **Fantasy:**
+  - **Arranca:** Drake Maye. Miami es la séptima defensa que más permite a mariscales.
+  - **Arranca:** Hunter Henry. Miami permite los terceros más puntos a alas cerradas.
+  - **Arranca:** Rhamondre Stevenson. Miami permite los cuartos más puntos a corredores.
+  - **Baja:** A.J. Brown a WR3. Miami es la tercera defensa que menos permite a receptores, y Brown trae una molestia nueva en la rodilla.
+  - **Arranca:** Ollie Gordon. De'Von Achane se perdió el año y Gordon jugó el 83% de los snaps la semana pasada.
+
+### PHI @ WSH: Comandantes -6, total 40.5, domingo 7:20 pm CDMX (8:20 pm ET) · divisional
+
+- **La línea:** Abrió Filadelfia -2.5 y ahora es Washington -6: Hurts a la reserva de lesionados, más la paliza del lunes por la noche. El total bajó seis.
+- **Aquí ignoren nuestros modelos.** Los dos se inclinan por las Águilas, y el modelo de puntos dice altas por 6, pero están construidos con partidos que jugó Hurts. Este es exactamente el caso donde el mercado sabe algo que los números no.
+- **A favor de Filadelfia:** Las Águilas son cuartas en touchdowns en zona roja, y Dallas Goedert practicó completo. Jayden Daniels no gana un partido como titular desde hace más de un año.
+- **A favor de Washington:** Vienen de semana de descanso. Filadelfia lleva cinco derrotas seguidas. Barkley, DeVonta Smith y Dontayvion Wicks no practicaron el miércoles. Filadelfia tiene 8 capturas en todo el año (lugar 30).
+- **Historia:** Nick Sirianni va 9-3 contra Washington, pero eso fue con Hurts. Va 10-20 contra la línea después de una derrota, y Filadelfia viene de una.
+- **El pick:** Gana Washington. Paso. El movimiento está justificado y el 6 se queda corto del 7, así que no hay ventaja de ningún lado.
+- **Fantasy:**
+  - **Arranca:** Jayden Daniels. Se lleva el 25% de los acarreos del equipo.
+  - **Arranca:** Stefon Diggs. Filadelfia es la segunda defensa que más permite a receptores.
+  - **Explosión:** Antonio Williams. Terry McLaurin se perdió la temporada, y los Footballers dicen que esta semana se queda con la titularidad.
+  - **Arranca:** Goedert. Washington es la segunda defensa que más permite a alas cerradas.
+  - **Condicional:** Dameon Pierce. Si Barkley no juega, se queda con un backfield donde ha tenido dos tercios de los acarreos en sus partidos.
+  - **Banca:** McKee en ligas de un solo mariscal.
+
+### CHI @ SEA: Halcones Marinos -3, total 46.5, lunes 7:15 pm CDMX (8:15 pm ET) · ★★ mejor apuesta
+
+- **La línea:** Abrió 4.5 y bajó a 3. Chicago tiene 11 días de descanso, y según los reportes el tackle izquierdo de Seattle, Charles Cross, tiene un esguince alto de tobillo.
+- **A favor de Chicago:** La ventaja de descanso. Montez Sweat regresa de su suspensión y va contra un tackle izquierdo suplente. Sam Darnold está empatado como líder de la liga con 8 intercepciones. Los Osos corren más jugadas que nadie y van 5-2 contra la línea. Nuestro rating tiene a los Osos como el mejor equipo de los dos.
+- **A favor de Seattle:** Vienen de ganarle 20-3 a Kansas City y permiten 17.9 por partido (cuartos). Seattle va 3-1 en casa.
+- **Historia:** Ben Johnson va 5-2 en horario estelar, y eso es color. Nada en la serie mueve el número.
+- **El pick:** ★★ CHI +3. Es apuesta en 3; en 2.5, paso. Si descartan a Cross, la apuesta mejora antes de la patada inicial.
+- **Fantasy:**
+  - **Arranca:** Jaxon Smith-Njigba. Tiene el 36% de los targets, cada semana.
+  - **Arranca:** D'Andre Swift. Kyle Monangai probablemente no juega por el dedo del pie, y Swift tuvo 26 toques el último partido.
+  - **Fuera:** los receptores de los Osos. Seattle es la defensa que menos puntos permite a receptores.
+  - **Arranca:** la defensiva de Chicago, contra Darnold bajo presión.
+
+---
+
+## Tarjeta de mejores apuestas
+
+| Apuesta | Conf. | Sirve hasta | En una línea |
 |---|---|---|---|
-| **MIN +3** at DET | ★★ | +3 (pass +2.5) | Best defense in football; sharp move toward Minnesota; Gibbs DNP |
-| **CHI +3** at SEA | ★★ | +3 (pass +2.5) | Rest edge plus Sweat vs a backup left tackle; Darnold's picks |
-| **TEN/CIN Under 46.5** | ★★ | 45.5 | Slowest offense in football meets a two-score game script |
+| **MIN +3** en DET | ★★ | +3 (paso en +2.5) | La mejor defensiva de la NFL; el dinero fuerte se movió a Minnesota; Gibbs no practicó |
+| **CHI +3** en SEA | ★★ | +3 (paso en +2.5) | Ventaja de descanso más Sweat contra un tackle izquierdo suplente; las intercepciones de Darnold |
+| **TEN/CIN Bajas 46.5** | ★★ | 45.5 | La ofensiva más lenta de la NFL contra un guion de dos anotaciones |
 
-**Leans** (★, said on air, tracked):
+**Inclinaciones** (★, se dicen al aire y se registran):
 - CIN -10
 - CAR +3.5
-- IND/JAX Under 46.5 (weather-dependent)
+- IND/JAX Bajas 46.5 (depende del clima)
 
-**Bets only if the number moves:**
-- PIT at -3
-- NE/MIA under, if the wind holds at 15 or more
+**Apuestas solo si se mueve el número:**
+- PIT en -3
+- NE/MIA Bajas, si el viento se mantiene en 15 o más
 
-## Fantasy segment
+## Segmento fantasy
 
-**Smash spots:**
-- Zay Flowers vs the most-generous WR defense
-- T.J. Hockenson vs the most-generous TE defense
-- Puka at a 36% target share
-- Josh Jacobs vs the 2nd-softest run defense
-- Kyler Murray as a streamer vs the most-generous QB defense
-- **DSTs:** Jacksonville vs the Colts' fire sale, Pittsburgh vs Cleveland's backup line
+**Partidazos:**
+- Zay Flowers contra la defensa que más regala a receptores
+- T.J. Hockenson contra la que más regala a alas cerradas
+- Puka, con 36% de los targets
+- Josh Jacobs contra la segunda defensa más blanda contra la carrera
+- Kyler Murray de streaming contra la que más regala a mariscales
+- **Defensivas:** Jacksonville contra la venta de garage de los Potros, y Pittsburgh contra la línea suplente de Cleveland
 
-**Traps:**
-- Goff and LaPorta vs Minnesota
-- Bo Nix and the Denver receivers vs KC
-- Every Charger receiver
-- A.J. Brown in Miami
-- Jonathan Taylor without Nelson
+**Trampas:**
+- Goff y LaPorta contra Minnesota
+- Bo Nix y los receptores de Denver contra Kansas City
+- Todos los receptores de los Cargadores
+- A.J. Brown en Miami
+- Jonathan Taylor sin Nelson
 
-**Grab now:**
-1. Antonio Williams (WSH), with McLaurin gone
-2. Germie Bernard (PIT), with Pittman on IR and a 25% share
+**Agarra ya:**
+1. Antonio Williams (WSH), sin McLaurin
+2. Germie Bernard (PIT), con Pittman en la reserva y 25% de los targets
 3. Omar Cooper Jr. (NYJ)
-4. Seth McGowan (IND), a stash before the deadline
+4. Seth McGowan (IND), para guardarlo antes de la fecha límite
 
-## Regression watch: records vs point differential
+## Vigilancia de regresión: récord contra diferencial de puntos
 
-- **Better than they've played:**
-  - Cleveland is +1.9 wins vs its point differential and 5-1 in one-score games.
-  - Buffalo is +1.5 and 4-1.
-  - Denver is +1.4 and 4-0.
-  - Minnesota is +1.3 and 4-0.
-- **Worse than they've played:**
-  - Tampa Bay is -1.8 wins and 1-5 in one-score games.
-  - The Rams are -1.7 and 1-3.
-  - The Chargers are -1.4 and 0-3.
-  - Washington is -1.4 and 1-2-1.
-- One-score records regress toward .500, so the market price on these teams matters more than the record.
+- **Mejores de lo que han jugado:**
+  - Cleveland va +1.9 victorias sobre su diferencial y 5-1 en partidos de una posesión.
+  - Buffalo va +1.5 y 4-1.
+  - Denver va +1.4 y 4-0.
+  - Minnesota va +1.3 y 4-0.
+- **Peores de lo que han jugado:**
+  - Tampa va -1.8 victorias y 1-5 en partidos de una posesión.
+  - Los Carneros van -1.7 y 1-3.
+  - Los Cargadores van -1.4 y 0-3.
+  - Washington va -1.4 y 1-2-1.
+- Los récords en partidos de una posesión regresan a .500, así que en estos equipos importa más el precio del mercado que su récord.
 
 ## Survivor
 
-**Cincinnati.** The Bengals are the biggest favorite on the board: 80% by the market and 87% by FPI, at home against the worst team in our ratings.
+**Cincinnati.** Los Bengalíes son el favorito más grande de la cartelera: 80% según el mercado y 87% según el FPI, en casa contra el peor equipo de nuestro rating.
 
-- **Already used Cincy?** Jacksonville is also at 80%, but it's a division game with storms in the forecast.
-- **Next safest:** New England at 73%.
-- **Avoid:** Dallas at 73%. Arizona's pace makes it a back-door script.
+- **¿Ya usaste a Cincinnati?** Jacksonville también está en 80%, pero es divisional y con tormentas en el pronóstico.
+- **El siguiente más seguro:** Nueva Inglaterra, en 73%.
+- **Evita:** Dallas, también en 73%. El ritmo de Arizona da para un guion de cubrir por la puerta de atrás.

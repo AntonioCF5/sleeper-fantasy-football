@@ -193,6 +193,9 @@ tells the user to re-check news once before accepting.
   nflverse desde 1999): coach en esta situación, head-to-head entre coaches,
   QB vs rival, splits local/visita, Pythagorean + juegos de una posesión, serie
   de los últimos 10. Las tendencias ATS de coach/serie se marcan como color.
+  **El podcast es en español** (user 2026-10-28): el rundown se escribe en
+  español de México (apodos de equipos, altas/bajas, horario CDMX + ET); la
+  hoja de datos queda en inglés. Convenciones en el skill.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

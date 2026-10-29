@@ -107,6 +107,37 @@ this slate (Fantasy Footballers / Sal Vetri, from the expert layer), and
 short lines, numbers rounded the way people say them, no tables inside game
 segments. The host is a sharp veteran: lead with the edge, not the lesson.
 
+**Language: the podcast is in SPANISH (user 2026-10-28).** The rundown is
+always written in Mexican Spanish, to be read on air. The data sheet and
+research stay in English (internal). Conventions, applied the same way every week:
+- Team nicknames as Mexican broadcasts say them: Empacadores, Panteras,
+  Cuervos, Bills, Bengalíes, Titanes, Cardenales, Vaqueros, Vikingos, Leones,
+  Raiders, Jets, Cafés, Acereros, Halcones, Bucaneros, Potros, Jaguares,
+  Cargadores, Carneros, Jefes, Broncos, Patriotas, Delfines, Águilas,
+  Comandantes, Osos, Halcones Marinos, Texanos, Santos, Gigantes, 49ers.
+  City names are fine too. Game headers keep the codes (`CAR @ GB`).
+- Betting terms:
+  - spread → spread / la línea; ATS → contra la línea
+  - over/under → altas/bajas
+  - favorite/underdog → favorito / no favorito
+  - lean → inclinación; pass → paso; "good to X" → sirve hasta X
+  - sharp money → dinero fuerte / dinero inteligente
+  - lookahead line → línea anticipada
+- Football terms:
+  - QB → mariscal (QB also OK); TE → ala cerrada
+  - sack → captura; turnovers → balones
+  - third down → tercera oportunidad; red zone → zona roja
+  - bye → semana de descanso; short week → semana corta
+  - IR → reserva de lesionados; one-score game → partido de una posesión
+- Fantasy terms: start → arranca; sit → banca; fade → fuera; smash →
+  partidazo; sleeper → sorpresa. Leave targets, snaps, backfield, flex,
+  streaming, FAAB and waivers in English, the way Spanish-language fantasy
+  audiences say them.
+- Kickoff times in Mexico City time with ET in parentheses. Mexico has no DST
+  since 2022, so CDMX = ET-2 while the US is on daylight time and ET-1 from
+  the first Sunday of November.
+- Same structure, rules and discipline as below. Only the language changes.
+
 ```
 # Week N rundown
 ## Cold open: the 3 storylines of the week (one line each)
