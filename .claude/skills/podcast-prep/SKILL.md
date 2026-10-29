@@ -1,6 +1,6 @@
 ---
 name: podcast-prep
-description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, rest/spot, injuries, fantasy usage and matchups), adds the research layer, and writes an on-air rundown with picks logged to data/intel/podcast_picks.json.
+description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Also use when they ask to open the podcast app, add a stat to it, or what a number on the sheet/app means (SRS, yds/pase, yds/target, how to read the Fantasy or Uso table). Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, coach/QB/series history, rest/spot, injuries, fantasy usage and matchups), adds the research layer, writes an on-air rundown in Spanish with picks logged to data/intel/podcast_picks.json, and serves it all in the local app (scripts/podcast_app.py).
 ---
 
 # Podcast prep
@@ -12,6 +12,34 @@ skill has two layers, the same way the weekly report does: a script builds
 the data, and Claude adds the research and the calls. This is a living
 document: when the user corrects the format or the process, update it here in
 the same commit.
+
+## 0. The whole run, in order
+
+When the user says "prep the podcast" (or "the show", "semana N"), run all of
+this without asking. Each step is detailed in the section named.
+
+1. **Data**: `python3 scripts/podcast_prep.py [week]` (§1). Read the header
+   (last week's record), the slate table, the 🚩 list, "Roles más grandes"
+   and "History notes" before anything else.
+2. **App**: `preview_start {name: "podcast-app"}`. The user preps from it, so
+   it should be open and current (§6).
+3. **Research**: 2-3 parallel subagents, plus expert takes and the survivor
+   plan (§2).
+4. **Rundown**: write `rundown.md` in Spanish, every game, in kickoff order
+   (§3). Back each fantasy call with a usage number, and check every
+   superlative against the whole slate.
+5. **Picks**: log every side, total and ML in `podcast_picks.json` (§4).
+6. **Verify in the app**: reload, open each game's Resumen, Fantasy and
+   Guion tabs, and confirm the pick, Historia and Fantasy blocks came
+   through. Then check that no tab on any game shows `undefined`, `NaN` or
+   an empty card (§6).
+7. **Close out**: commit, and post the chat summary (§5).
+
+Asked something smaller, do only that piece:
+- "refresh the lines" → step 1 plus the app's Actualizar button.
+- "add X to the app/sheet" → §6, "Adding a metric".
+- "what does X mean" / "how do I read this table" → §7, answered in Spanish
+  with the user's own screenshot rows as the examples.
 
 ## 1. Data layer (always first)
 
@@ -52,11 +80,24 @@ What the sheet holds, and how to read it:
   west-coast team at 1pm ET, divisional game, next opponent (lookahead).
 - **Last 5** with the line and result (✓ covered, ✗ didn't, O/U).
 - **Injuries**: ESPN Out/Doubtful/Questionable list.
-- **Fantasy table**: projections re-scored in PPR (half), target/carry share
-  over the last 3 games vs the season (⬆️/⬇️ trend), snap % over the last 3,
-  and opponent fantasy points allowed by position, ranked (🟢 top-8 softest,
-  🔴 bottom-8). 📈 = Sleeper trending add. DST line: sacks, takeaways and
-  points allowed vs the opponent's sacks taken and giveaways.
+- **Fantasy table**: projections re-scored in PPR (half), then each number
+  as last 3 games (season):
+  - target share; on the QB row, pass attempts per game instead
+  - yards per pass attempt for QBs; yards per target for everyone else
+  - carry share, and snap % over the last 3
+  - opponent fantasy points allowed to the position, ranked (🟢 top-8
+    softest, 🔴 bottom-8)
+
+  ⬆️/⬇️ = target share moved ≥5 pts or carry share ≥10 pts vs the season
+  (needs ≥2 games in the window). 📈 = Sleeper trending add.
+
+  Yds/pase is GROSS (pass yards ÷ attempts, sacks left out). It is not the team
+  table's "Yds netas/intento", which takes out sack yards. Yds/target
+  counts incompletions (receiving yards ÷ targets). Both print "—" under 5
+  attempts or targets in the window.
+
+  DST line: sacks, takeaways and points allowed vs the opponent's sacks taken
+  and giveaways.
 - **Usage by team** (user 2026-10-28: usage numbers back up the arguments):
   per team, the top 3 RBs by backfield share and the top 6 WR/TE by target
   share, each shown as last 3 games (season). Columns: snap %, target %,
@@ -100,13 +141,7 @@ What the sheet holds, and how to read it:
 - Slate-wide: top and bottom implied totals, softest matchups per position,
   usage risers, trending adds.
 
-**Browsing it:** `python3 scripts/podcast_app.py` (http://localhost:8790, launch
-config `podcast-app`) is the local app the user preps from. It shows one game at a time
-with tabs, and reads `data.json`, `rundown.md` and `podcast_picks.json` on every load.
-So keep the rundown's `### AWAY @ HOME` headers and its `- **El pick:**`,
-`- **Historia:**` and `- **Fantasy:**` bullets: the app pulls those into the matching
-tabs. Anything new the script prints goes into the game's `sheet` in `data.json` too,
-so the app can show it; the "Hoja completa" tab already renders the full markdown.
+**Browsing it:** the local app (§6) shows the same data one game at a time.
 
 ## 2. Research layer (what the script can't see)
 
@@ -224,4 +259,115 @@ backfill or edit a logged line after the fact.
 
 Commit `reports/<season>/podcast/weekNN/` and `podcast_picks.json` together.
 In chat, give: the 🚩 games and why they did or didn't become bets, the best-bets card,
-and the top 3 fantasy calls. Then the path to the rundown.
+and the top 3 fantasy calls. Then the path to the rundown, and say the app
+is open on the slate.
+
+## 6. The local app
+
+`python3 scripts/podcast_app.py [port]` serves the app at
+http://localhost:8790. Start it with `preview_start {name: "podcast-app"}`
+(config in `.claude/launch.json`), never with Bash. It is stdlib only, with no
+build step: `podcast_app.py` is the server and `podcast_app.html` is the whole
+UI (HTML, CSS and JS in one file).
+- It reads `data.json`, `rundown.md` and `podcast_picks.json` on every
+  request, so an edit to the rundown shows up on reload.
+- **Actualizar** re-runs `podcast_prep.py` for the open week (POST
+  `/api/refresh?week=N`, behind a lock, 5-minute timeout).
+- Routing is in the hash, `#/season/week/GAME/tab`, so a link opens a
+  specific game and tab.
+
+**What each tab shows, and where it comes from:**
+- Overview:
+  - Cartelera: KPIs, pick cards and the slate table.
+  - Guion general: the rundown's `##` sections.
+  - Notas de la hoja: `slate_md`.
+- Per game:
+  - **Resumen**: the line, open → now, SRS/FPI/market on one axis, win %
+    bars, the verdict, and "El pick al aire" from the rundown.
+  - **Equipos**: `team_rows` with a 1-32 rank chip on every "(Nº)".
+  - **Historia**: `series`, `notables` and the rundown's Historia bullet.
+  - **Fantasy**: the player table, the DST line and the rundown's Fantasy bullet.
+  - **Uso**: usage bars, where the bar is the last 3 games and the tick mark
+    is the season.
+  - **Lesiones**: `injuries`.
+  - **Guion**: the game's rundown segment.
+  - **Hoja completa**: the game's full sheet markdown.
+
+**Contract with the rundown:** the app splits it on `### AWAY @ HOME`
+headers (ESPN codes, e.g. `WSH`), and skips the `## Partido por partido` heading.
+It pulls these bullets by their exact labels:
+- `- **El pick:**`
+- `- **Historia:**`
+- `- **Fantasy:**`
+
+Rename any of these and that block goes empty in the app.
+
+Shortcuts:
+- J/K or ↑/↓: next or previous game
+- ←/→ or 1-8: switch tab
+- G: back to the slate
+- /: search
+- T: theme
+- ?: help
+
+**Adding a metric** (the order the QB attempts and yds/pase work followed):
+1. In `podcast_prep.py`, read the stat in `load_sleeper`. Aggregate it in
+   `agg()` for both windows (last 3 and season). Put a minimum-sample guard
+   on any rate (`None` under 5).
+2. Expose it in the structure the app reads: `usage_data` rows, or the
+   game's fantasy players in `sheet`.
+3. Print it in the sheet markdown (header plus row), in Spanish.
+4. In `podcast_app.html`, render a cell for it. Use the same last 3 = bold,
+   season = grey convention, ▲/▼ only past a stated threshold, and add one
+   line to that tab's legend card explaining it.
+5. Re-run, then verify in the browser:
+   - every game and every tab, checked with JS text checks for
+     `undefined`/`NaN` (screenshots can lag a frame behind)
+   - 375px mobile width with no horizontal scroll
+   - no console errors
+6. Document it in §1 and §7, and commit the code, the regenerated week and
+   this file together.
+
+## 7. Explaining the numbers (answer in Spanish, with his rows)
+
+When he asks what something means, answer in Spanish: define it, give the
+formula, then read it off his own screenshot or game, and end with the
+on-air takeaway.
+- **SRS** (Simple Rating System): each team's point margin, adjusted for
+  opponents and home field. Blowouts are capped at ±21 a game, home field
+  is worth 1.5 points, and the rating shrinks toward 0 by n/(n+3) early in
+  the season.
+  - SRS line = home rating − away rating + 1.5.
+  - The 🚩 flag needs SRS AND FPI to disagree with the market by ≥2 pts in
+    the same direction.
+  - Neither model sees this week's injuries.
+- **Yds/pase vs Yds/target**: the QB's gross yards per attempt (sacks
+  excluded), and a receiver's yards per time he's targeted (incompletions
+  count against him).
+  - Volume times efficiency is the read: many attempts at a low yds/pase is
+    empty volume.
+  - A high yds/target on a small sample is usually one long catch.
+  - An RB near 10 yds/target isn't sustainable.
+- **How to read the Fantasy table** (row by row):
+  - Bold = the team's last 3 games; grey = season.
+  - PPR on top, half below. A small gap between them means few catches.
+  - Targets: share of the team's targets. On the QB row it's attempts per
+    game, with ▲/▼ at a gap of ≥3.
+  - Yds/pase · yds/target: ▲/▼ only at a gap of ≥1 yard. A 0.9 gap gets no
+    arrow, so say "flat", not "falling".
+  - Grey only, with no bold number: under 5 targets in the window, so there
+    is no recent rate.
+  - "se perdió N de los últimos 3": the bold numbers come from fewer games,
+    so treat them as a sample, not a trend.
+  - 📈: Sleeper adds over the last 48h. Explain WHY he's trending (role
+    change, injury, trade rumor) before calling him a play.
+  - Columns off the right edge: Acarreos (carry share), Snaps (last 3) and
+    Rival (opponent's rank out of 32 in points allowed to the position;
+    green = 8 softest, red = 8 toughest).
+- **How to read the Uso table**:
+  - The bar is the last 3 games and the tick is the season.
+  - % backfield = (carries + catches) ÷ all of the team's RB touches.
+  - Air yards are COMPLETED air yards only.
+  - The read line under each table labels the backfield ("un solo hombre",
+    "reparto claro", "comité") and the target tree ("árbol concentrado",
+    "reparto abierto").
