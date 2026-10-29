@@ -1,6 +1,6 @@
 # Podcast prep — Week 8, 2026
 
-*Generated Wed Oct 28, 9:12 PM ET · DraftKings lines via ESPN · Byes: HOU, NO, NYG, SF*
+*Generated Wed Oct 28, 9:24 PM ET · DraftKings lines via ESPN · Byes: HOU, NO, NYG, SF*
 
 ## Slate
 
@@ -24,6 +24,21 @@
 ### 🚩 Line checks (both models off the market)
 
 - **TEN @ CIN** → lean **CIN** · SRS +3.6 / FPI +5.0 pts vs market
+
+### History notes worth a mention
+
+- ARI @ DAL: **ARI** has won 4 straight in the series
+- CLE @ PIT: **CLE** — overperforming its point differential by 1.9 wins (one-score games 5-1) — regression risk
+- ATL @ TB: **TB** — underperforming its point differential by 1.8 wins (one-score games 1-5) — better than its record
+- LAC @ LAR: **LAR** — underperforming its point differential by 1.7 wins (one-score games 1-3) — better than its record
+- IND @ JAX: **JAX** — home/road gap over 3 seasons is +6.6 pts per side (home 11-6, road 10-13); league norm ~+1.5, noise ±2
+- BAL @ BUF: **BUF** — overperforming its point differential by 1.5 wins (one-score games 4-1) — regression risk
+- BAL @ BUF: **BUF** — Sean McDermott off a bye: 9-0
+- KC @ DEN: **KC** — Patrick Mahomes vs DEN: 14-2
+- KC @ DEN: **DEN** — overperforming its point differential by 1.4 wins (one-score games 4-0) — regression risk
+- LAC @ LAR: **LAC** — underperforming its point differential by 1.4 wins (one-score games 0-3) — better than its record
+- PHI @ WSH: **WSH** — underperforming its point differential by 1.4 wins (one-score games 1-2-1) — better than its record
+- MIN @ DET: **MIN** — overperforming its point differential by 1.3 wins (one-score games 4-0) — regression risk
 
 ### Implied team totals
 
@@ -83,6 +98,34 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **CAR last 5:** L 13-43 vs TB (-3 ✗, O) · W 25-14 @ PHI (-3 ✓, U) · W 32-26 vs DET (+3.5 ✓, O) · L 18-21 @ CLE (-2.5 ✗, U) · W 34-3 @ ATL (-2.5 ✓, U)
 **GB last 5:** L 17-20 @ DET (+3.5 ✓, U) · W 23-13 vs DAL (+1.5 ✓, U) · W 31-7 vs CHI (+1.5 ✓, U) · W 17-14 @ TB (-2.5 ✓, U) · L 14-35 vs ATL (-4.5 ✗, O)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **CAR** | **GB** |
+|---|---|---|
+| Head coach | Dave Canales | Matt LaFleur |
+| Coach career (since '99) | 16-25 · ATS 22-19 | 83-49-1 · ATS 70-61-2 |
+| Coach in this role | as underdog: 14-20 · ATS 20-14 | as favorite: 60-27-1 · ATS 42-45-1 |
+| Coach at home / on road | road: 8-13 · ATS 11-10 | home: 47-17 · ATS 39-25 |
+| Coach vs this franchise | 1-0 · ATS 1-0 | 3-1 · ATS 1-3 |
+| Head-to-head vs opp HC | 1-0 · ATS 1-0 | 0-1 · ATS 0-1 |
+| Coach after a loss | 12-11 · ATS 17-6 | 23-17-1 · ATS 19-21-1 |
+| Coach on short rest | — | 6-4 · ATS 6-4 |
+| Coach in primetime | 1-1 · ATS 1-1 | 25-18-1 · ATS 25-18-1 |
+| QB | Bryce Young | Jordan Love |
+| QB career starts (since '99) | 16-32 · ATS 21-25-2 | 32-26-1 · ATS 27-30-2 |
+| QB vs this opponent | 1-1 · ATS 2-0 | 1-1 · ATS 0-2 |
+| QB in this role | as underdog: 14-27 · ATS 19-20-2 | as favorite: 22-11-1 · ATS 13-20-1 |
+| This season at home | 1-2 · ATS 1-2 · 27.3-42.7 | 2-1 · ATS 2-1 · 22.7-18.3 |
+| This season on the road | 2-1 · ATS 2-1 · 25.7-12.7 | 2-2 · ATS 1-2-1 · 19.0-22.5 |
+| Home edge, last 3 seasons | +0.2 pts (home 8-11, road 8-13) | +2.9 pts (home 13-7, road 11-9-1) |
+| Pythagorean wins vs actual | 2.8 vs 3 | 3.5 vs 4 |
+| One-score games (≤8) | 1-1 | 2-1 |
+
+**Series, last 10:** GB 6-4 SU · 3-7 ATS · O/U 7-3 · avg total 51.5 · last: 2025 wk 9, GB 13-16
+
+**Notable:**
+- **CAR** — Dave Canales after a loss: 17-6 ATS *(trend — color)*
+
 **GB injuries:** Devonte Wyatt DT (Q — Ankle), Zaire Franklin LB (O — Shin), Micah Parsons DE (O — Knee - ACL), Matthew Golden WR (Q — Shoulder), Travis Glover OT (O — Knee)
 **CAR injuries:** Jaelan Phillips LB (O — Hamstring), Torricelli Simpkins III G (O — Ankle), Damien Lewis G (O — Knee), Bobby Brown III DT (Q — Hand)
 
@@ -140,6 +183,36 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **BAL last 5:** L 13-35 vs CIN (+3 ✗, O) · L 10-13 @ CLE (-3 ✗, U) · W 30-23 @ ATL (+3 ✓, O) · W 24-18 vs TEN (-11.5 ✗, O) · W 34-31 @ DAL (-3 P, O)
 **BUF last 5:** W 33-30 @ LV (-5.5 ✗, O) · W 37-34 @ LAR (+3.5 ✓, O) · L 26-29 vs NE (-7 ✗, O) · W 24-16 vs LAC (-7 ✓, U) · W 41-31 vs DET (-5.5 ✓, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **BAL** | **BUF** |
+|---|---|---|
+| Head coach | Jesse Minter | Sean McDermott |
+| Coach career (since '99) | 4-3 · ATS 2-4-1 | 111-59 · ATS 89-75-6 |
+| Coach in this role | as underdog: 1-1 · ATS 1-1 | as favorite: 87-26 · ATS 59-50-4 |
+| Coach at home / on road | road: 3-1 · ATS 2-1-1 | home: 64-21 · ATS 44-38-3 |
+| Coach vs this franchise | — | 4-3 · ATS 3-3-1 |
+| Head-to-head vs opp HC | — | — |
+| Coach after a loss | 1-1 · ATS 0-1-1 | — |
+| QB | Lamar Jackson | Josh Allen |
+| QB career starts (since '99) | 82-37 · ATS 61-56-2 | 100-45 · ATS 77-63-5 |
+| QB vs this opponent | 2-4 · ATS 2-3-1 | 4-2 · ATS 3-2-1 |
+| QB in this role | as underdog: 10-6 · ATS 12-3-1 | as favorite: 80-24 · ATS 53-48-3 |
+| This season at home | 1-2 · ATS 0-3 · 18.0-25.7 | 2-1 · ATS 2-1 · 30.3-25.3 |
+| This season on the road | 3-1 · ATS 2-1-1 · 28.8-22.5 | 3-0 · ATS 2-1 · 35.3-31.7 |
+| Home edge, last 3 seasons | -2.4 pts (home 10-10, road 14-7) | +3.4 pts (home 17-3, road 13-7) |
+| Pythagorean wins vs actual | 3.5 vs 4 | 3.5 vs 5 |
+| One-score games (≤8) | 3-2 | 4-1 |
+| Coach after a win | — | 68-41 · ATS 54-52-3 |
+| Coach off a bye | — | 9-0 · ATS 5-2-2 |
+
+**Series, last 10:** BUF 5-5 SU · 5-4-1 ATS · O/U 4-6 · avg total 46.6 · BUF has won 2 straight · last: 2025 wk 1, BUF 41-40
+
+**Notable:**
+- **BUF** — overperforming its point differential by 1.5 wins (one-score games 4-1) — regression risk
+- **BUF** — Sean McDermott off a bye: 9-0
+- **BUF** — Sean McDermott off a bye: 5-2-2 ATS
 
 **BUF injuries:** Ed Oliver DT (Q — Knee), Tyrell Shavers WR (O — Knee - ACL), Dalton Kincaid TE (Q — Chest), DJ Moore WR (Q — Shoulder - AC Joint)
 **BAL injuries:** Lamar Jackson QB (Q — Ankle), John Simpson G (Q — Groin), Ronnie Stanley OT (Q — Toe), John Jenkins DT (Q — Knee), Kyle Hamilton S (Q — Knee)
@@ -202,6 +275,30 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **TEN last 5:** L 24-27 vs CLE (+2.5 ✗, O) · W 26-20 @ IND (+6.5 ✓, O) · L 3-26 vs HOU (+6.5 ✗, U) · L 18-24 @ BAL (+11.5 ✓, O) · L 7-12 @ NYG (+2.5 ✗, U)
 **CIN last 5:** W 35-13 @ BAL (-3 ✓, O) · W 31-24 @ MIA (-7.5 ✗, O) · L 17-22 vs JAX (-2.5 ✗, U) · L 27-30 @ PIT (-3.5 ✗, O) · W 20-6 @ HOU (+3 ✓, U)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **TEN** | **CIN** |
+|---|---|---|
+| Head coach | Robert Saleh | Zac Taylor |
+| Coach career (since '99) | 24-51 · ATS 29-45-1 | 61-67-1 · ATS 70-55-4 |
+| Coach in this role | as underdog of 7+: 3-16 · ATS 9-10 | as favorite of 7+: 10-6 · ATS 6-8-2 |
+| Coach at home / on road | road: 11-26 · ATS 14-22-1 | home: 31-31 · ATS 29-30-3 |
+| Coach vs this franchise | 1-1 · ATS 1-1 | 4-1 · ATS 4-1 |
+| Head-to-head vs opp HC | 1-1 · ATS 1-1 | 1-1 · ATS 1-1 |
+| Coach after a loss | 17-31 · ATS 22-26 | — |
+| QB | Cam Ward | Joe Burrow |
+| QB career starts (since '99) | 4-20 · ATS 10-14 | 52-37-1 · ATS 54-33-3 |
+| QB vs this opponent | — | 4-1 · ATS 4-1 |
+| QB in this role | as underdog: 4-19 · ATS 10-13 | as favorite: 39-17 · ATS 32-21-3 |
+| This season at home | 0-4 · ATS 1-3 · 14.2-25.0 | 1-1 · ATS 1-1 · 25.0-24.5 |
+| This season on the road | 1-2 · ATS 2-1 · 17.0-18.7 | 3-1 · ATS 2-1-1 · 28.2-18.2 |
+| Home edge, last 3 seasons | +0.9 pts (home 2-19, road 5-15) | -1.0 pts (home 7-12, road 12-9) |
+| Pythagorean wins vs actual | 2.1 vs 1 | 4.0 vs 4 |
+| One-score games (≤8) | 1-4 | 2-2 |
+| Coach after a win | — | 33-24 · ATS 33-22-2 |
+
+**Series, last 10:** CIN 7-3 SU · 8-2 ATS · O/U 3-7 · avg total 41.3 · last: 2024 wk 15, CIN 37-27
+
 **CIN injuries:** Ja'Marr Chase WR (Q — Ankle), Joe Giles-Harris LB (Q — Calf), Jordan Battle S (Q — Hamstring), Kyle Dugger S (O — Quadriceps)
 **TEN injuries:** Tyjae Spears RB (Q — Knee), Calvin Ridley WR (Q — Hip), John Franklin-Myers DE (Q — Groin), Carnell Tate WR (Q — Shoulder), Tommy Townsend P (Q — Knee)
 
@@ -259,6 +356,34 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **ARI last 5:** L 16-30 vs DEN (+4.5 ✗, O) · W 18-16 @ LAR (+13.5 ✓, U) · L 21-45 vs DET (+4.5 ✗, O) · L 24-36 @ NYG (-2.5 ✗, O) · L 30-36 @ SF (+7.5 ✓, O)
 **DAL last 5:** W 38-21 @ PHI (-4.5 ✓, O) · L 13-23 @ GB (-1.5 ✗, U) · L 16-24 vs TB (-8.5 ✗, U) · W 34-30 @ HOU (+3 ✓, O) · L 31-34 vs BAL (+3 P, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **ARI** | **DAL** |
+|---|---|---|
+| Head coach | Jonathan Gannon | Brian Schottenheimer |
+| Coach career (since '99) | 17-41 · ATS 29-29 | 10-13-1 · ATS 10-13-1 |
+| Coach in this role | as underdog of 7+: 5-15 · ATS 10-10 | as favorite of 7+: 1-1 · ATS 0-2 |
+| Coach at home / on road | road: 8-22 · ATS 17-13 | home: 5-4-1 · ATS 5-5 |
+| Coach vs this franchise | 2-0 · ATS 2-0 | 0-1 · ATS 0-1 |
+| Head-to-head vs opp HC | 1-0 · ATS 1-0 | 0-1 · ATS 0-1 |
+| Coach after a loss | 11-27 · ATS 19-19 | — |
+| QB | Jacoby Brissett | Dak Prescott |
+| QB career starts (since '99) | 22-50 · ATS 33-37-2 | 88-63-1 · ATS 76-72-4 |
+| QB vs this opponent | 1-0 · ATS 1-0 | 1-3 · ATS 1-3 |
+| QB in this role | as underdog: 12-42 · ATS 24-28-2 | as favorite: 70-36 · ATS 53-50-3 |
+| This season at home | 0-3 · ATS 0-3 · 14.7-35.3 | 1-1 · ATS 1-1 · 26.5-22.0 |
+| This season on the road | 2-2 · ATS 3-1 · 24.5-25.5 | 2-3 · ATS 2-2-1 · 27.8-26.6 |
+| Home edge, last 3 seasons | +1.6 pts (home 7-13, road 6-15) | -2.3 pts (home 7-11-1, road 10-12) |
+| Pythagorean wins vs actual | 2.0 vs 2 | 3.8 vs 3 |
+| One-score games (≤8) | 1-1 | 1-3 |
+| Coach after a win | — | 2-7 · ATS 2-6-1 |
+
+**Series, last 10:** DAL 2-8 SU · 2-8 ATS · O/U 3-6 · avg total 44.9 · ARI has won 4 straight · last: 2025 wk 9, DAL 17-27
+
+**Notable:**
+- **ARI** has won 4 straight in the series
+- **DAL** — Brian Schottenheimer after a win: 2-6-1 ATS *(trend — color)*
 
 **DAL injuries:** George Pickens WR (Q — Shoulder), Quinnen Williams DT (Q — Hamstring), Caleb Downs S (Q — Ankle), Dee Winters LB (Q — Calf), Drew Shelton OT (Q — Hamstring)
 **ARI injuries:** Tyler Allgeier RB (Q — Toe), Michael Wilson WR (Q — Ribs), Kei'Trel Clark CB (Q — Illness), Elijah Wilkinson OT (Q — Knee), Mack Wilson Sr. LB (Q — Knee)
@@ -319,6 +444,35 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **MIN last 5:** W 16-10 vs IND (-6.5 ✗, U) · W 23-13 @ NO (-2.5 ✓, U) · W 15-10 vs MIA (-10 ✗, U) · W 23-16 @ TB (+1.5 ✓, U) · W 9-3 @ CHI (+4.5 ✓, U)
 **DET last 5:** W 20-17 vs GB (-3.5 ✗, U) · W 45-21 @ ARI (-4.5 ✓, O) · L 26-32 @ CAR (-3.5 ✗, O) · W 31-24 vs NYJ (-7 P, O) · L 31-41 @ BUF (+5.5 ✗, O)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **MIN** | **DET** |
+|---|---|---|
+| Head coach | Kevin O'Connell | Dan Campbell |
+| Coach career (since '99) | 49-27 · ATS 38-33-5 | 54-40-1 · ATS 57-35-3 |
+| Coach in this role | as underdog: 13-16 · ATS 14-13-2 | as favorite: 41-13 · ATS 32-20-2 |
+| Coach at home / on road | road: 25-14 · ATS 21-13-5 | home: 31-17 · ATS 27-18-3 |
+| Coach vs this franchise | 3-5 · ATS 2-6 | 6-4 · ATS 8-2 |
+| Head-to-head vs opp HC | 3-5 · ATS 2-6 | 5-3 · ATS 6-2 |
+| Coach after a win | 33-14 · ATS 25-19-3 | 29-21 · ATS 28-21-1 |
+| Coach in division games | 16-10 · ATS 13-12-1 | 20-11 · ATS 18-11-2 |
+| QB | Kyler Murray | Jared Goff |
+| QB career starts (since '99) | 42-49-1 · ATS 49-41-2 | 98-67-1 · ATS 91-70-5 |
+| QB vs this opponent | 0-3-1 · ATS 1-3 | 7-5 · ATS 8-4 |
+| QB in this role | as underdog: 22-31-1 · ATS 34-18-2 | as favorite: 80-29 · ATS 61-44-4 |
+| This season at home | 3-0 · ATS 1-2 · 23.3-14.0 | 3-0 · ATS 0-2-1 · 27.3-23.7 |
+| This season on the road | 3-0 · ATS 3-0 · 18.3-10.7 | 1-2 · ATS 1-2 · 34.0-31.3 |
+| Home edge, last 3 seasons | +5.0 pts (home 14-5, road 15-6) | +2.7 pts (home 15-5, road 13-7) |
+| Pythagorean wins vs actual | 4.7 vs 6 | 3.4 vs 4 |
+| One-score games (≤8) | 4-0 | 3-1 |
+
+**Series, last 10:** DET 6-4 SU · 8-2 ATS · O/U 6-3 · avg total 48.9 · MIN has won 2 straight · last: 2025 wk 17, DET 10-23
+
+**Notable:**
+- **MIN** — overperforming its point differential by 1.3 wins (one-score games 4-0) — regression risk
+- **DET** — Dan Campbell vs MIN: 8-2 ATS *(trend — color)*
+- **MIN** — Kevin O'Connell vs DET: 2-6 ATS *(trend — color)*
+
 **DET injuries:** Kerby Joseph S (O — Knee), Amon-Ra St. Brown WR (Q — Ankle), Jahmyr Gibbs RB (Q — Shoulder), Tyleik Williams DT (Q — Illness), Jacob Saylors RB (Q — Neck)
 **MIN injuries:** Brian O'Neill OT (Q — Knee), Joe Huber G (Q — Knee), Aaron Jones Sr. RB (Q — Knee)
 
@@ -376,6 +530,29 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **LV last 5:** L 21-35 vs LAR (+3.5 ✗, O) · L 30-33 vs BUF (+5.5 ✓, O) · L 17-45 @ NE (+3.5 ✗, O) · L 27-30 vs KC (+3.5 ✓, O) · W 35-27 @ NO (+3.5 ✓, O)
 **NYJ last 5:** L 25-28 vs MIA (-3.5 ✗, O) · L 19-26 @ NE (+7.5 ✓, O) · W 17-12 vs CLE (-2.5 ✓, U) · L 12-23 @ CHI (+3.5 ✗, U) · L 24-31 @ DET (+7 P, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **LV** | **NYJ** |
+|---|---|---|
+| Head coach | Klint Kubliak | Aaron Glenn |
+| Coach career (since '99) | 3-4 · ATS 5-2 | 5-19 · ATS 11-12-1 |
+| Coach in this role | as underdog: 2-4 · ATS 4-2 | as favorite: 1-3 · ATS 1-3 |
+| Coach at home / on road | road: 2-1 · ATS 2-1 | home: 3-8 · ATS 5-6 |
+| Coach vs this franchise | — | — |
+| Head-to-head vs opp HC | — | — |
+| Coach after a loss | 0-3 · ATS 1-2 | 3-14 · ATS 6-10-1 |
+| QB | Kirk Cousins | Geno Smith |
+| QB career starts (since '99) | 92-84-2 · ATS 87-88-3 | 44-62 · ATS 48-53-5 |
+| QB vs this opponent | 2-2 · ATS 2-2 | 2-2 · ATS 2-2 |
+| QB in this role | as underdog: 31-55-1 · ATS 45-41-1 | as favorite: 24-13 · ATS 13-22-2 |
+| This season at home | 1-3 · ATS 3-1 · 26.2-27.8 | 1-2 · ATS 2-1 · 19.7-20.0 |
+| This season on the road | 2-1 · ATS 2-1 · 26.0-28.7 | 1-3 · ATS 2-1-1 · 19.5-22.5 |
+| Home edge, last 3 seasons | +1.9 pts (home 5-16, road 5-15) | +3.3 pts (home 6-13, road 4-18) |
+| Pythagorean wins vs actual | 3.2 vs 3 | 3.1 vs 2 |
+| One-score games (≤8) | 1-2 | 1-4 |
+
+**Series, last 10:** NYJ 4-6 SU · 4-6 ATS · O/U 6-4 · avg total 46.5 · LV has won 2 straight · last: 2023 wk 10, NYJ 12-16
 
 **NYJ injuries:** David Bailey LB (Q — Groin), T'Vondre Sweat DT (D — Knee), Braelon Allen RB (Q — Ankle), Breece Hall RB (Q — Quadriceps), Joseph Ossai DE (D — Ankle)
 **LV injuries:** Brock Bowers TE (Q — Calf), Ian Thomas TE (Q — Shoulder), Folorunso Fatukasi DT (Q — Shoulder), DJ Glaze OT (Q — Ankle), Quay Walker LB (Q — Chest)
@@ -437,6 +614,33 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **CLE last 5:** W 27-24 @ TEN (-2.5 ✓, O) · W 13-10 vs BAL (+3 ✓, U) · L 12-17 @ NYJ (+2.5 ✗, U) · W 27-24 vs PIT (+2.5 ✓, O) · W 21-18 vs CAR (+2.5 ✓, U)
 **PIT last 5:** W 16-10 @ NO (-3 ✓, U) · W 26-19 @ TB (-2.5 ✓, O) · W 34-22 vs IND (-3 ✓, O) · L 24-27 @ CLE (-2.5 ✗, O) · W 30-27 vs CIN (+3.5 ✓, O)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **CLE** | **PIT** |
+|---|---|---|
+| Head coach | Todd Monken | Mike McCarthy |
+| Coach career (since '99) | 5-2 · ATS 5-2 | 190-125-2 · ATS 173-136-8 |
+| Coach in this role | as underdog: 4-2 · ATS 4-2 | as favorite: 150-53-1 · ATS 119-80-5 |
+| Coach at home / on road | road: 2-2 · ATS 2-2 | home: 107-47-2 · ATS 86-65-5 |
+| Coach vs this franchise | 1-0 · ATS 1-0 | 4-2 · ATS 4-2 |
+| Head-to-head vs opp HC | 1-0 · ATS 1-0 | 0-1 · ATS 0-1 |
+| Coach after a win | 3-1 · ATS 3-1 | 112-73-1 · ATS 101-80-5 |
+| Coach in division games | 2-0 · ATS 2-0 | 74-34-2 · ATS 67-43 |
+| QB | Deshaun Watson | Aaron Rodgers |
+| QB career starts (since '99) | 43-39 · ATS 40-40-2 | 179-105-1 · ATS 160-120-5 |
+| QB vs this opponent | 1-3 · ATS 1-3 | 4-2 · ATS 3-3 |
+| QB in this role | as underdog: 18-25 · ATS 25-18 | as favorite: 148-58 · ATS 118-85-3 |
+| This season at home | 3-0 · ATS 3-0 · 20.3-17.3 | 3-0 · ATS 3-0 · 28.0-20.7 |
+| This season on the road | 2-2 · ATS 2-2 · 18.0-23.5 | 2-2 · ATS 2-2 · 17.2-19.0 |
+| Home edge, last 3 seasons | +4.1 pts (home 8-11, road 5-17) | +2.3 pts (home 13-6, road 12-10) |
+| Pythagorean wins vs actual | 3.1 vs 5 | 3.9 vs 5 |
+| One-score games (≤8) | 5-1 | 4-1 |
+
+**Series, last 10:** PIT 5-5 SU · 5-5 ATS · O/U 5-5 · avg total 38.5 · CLE has won 2 straight · last: 2026 wk 4, PIT 24-27
+
+**Notable:**
+- **CLE** — overperforming its point differential by 1.9 wins (one-score games 5-1) — regression risk
+
 **PIT injuries:** Alex Highsmith LB (Q — Groin), Jalen Ramsey CB (Q — Wrist), Doneiko Slaughter CB (Q — Hamstring), Ben Skowronek WR (Q — Calf), Brandin Echols CB (Q — Hamstring)
 **CLE injuries:** Jared Verse DE (Q — Knee), Dylan Sampson RB (Q — Knee), Daniel Thomas S (Q — Ankle), Elgton Jenkins C (Q — Knee), Mason Graham DT (Q — Ankle)
 
@@ -494,6 +698,34 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **ATL last 5:** W 29-20 vs SF (+2.5 ✓, U) · L 23-31 vs CHI (+1.5 ✗, O) · L 23-30 vs BAL (-3 ✗, O) · W 45-24 @ NO (+1.5 ✓, O) · W 35-14 @ GB (+4.5 ✓, O)
 **TB last 5:** W 43-13 @ CAR (+3 ✓, O) · L 19-26 vs PIT (+2.5 ✗, O) · W 24-16 @ DAL (+8.5 ✓, U) · L 14-17 vs GB (+2.5 ✗, U) · L 16-23 vs MIN (-1.5 ✗, U)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **ATL** | **TB** |
+|---|---|---|
+| Head coach | Raheem Morris | Todd Bowles |
+| Coach career (since '99) | 40-60 · ATS 44-55-1 | 64-82 · ATS 64-76-6 |
+| Coach in this role | as underdog: 22-47 · ATS 32-37 | as favorite: 39-27 · ATS 27-37-2 |
+| Coach at home / on road | road: 21-31 · ATS 28-23-1 | home: 33-40 · ATS 29-41-3 |
+| Coach vs this franchise | 3-3 · ATS 4-2 | 3-6 · ATS 3-6 |
+| Head-to-head vs opp HC | 3-1 · ATS 3-1 | 1-3 · ATS 1-3 |
+| Coach after a win | 17-20 · ATS 18-19 | 26-34 · ATS 25-32-3 |
+| Coach in division games | 15-22 · ATS 16-21 | 26-26 · ATS 23-27-2 |
+| QB | Michael Penix Jr. | Baker Mayfield |
+| QB career starts (since '99) | 4-4 · ATS 4-4 | 62-67 · ATS 57-71-1 |
+| QB vs this opponent | — | 3-4 · ATS 3-4 |
+| QB in this role | as underdog: 3-2 · ATS 3-2 | as favorite: 38-26 · ATS 22-41-1 |
+| This season at home | 1-3 · ATS 1-3 · 19.5-28.8 | 0-4 · ATS 0-3-1 · 17.0-22.2 |
+| This season on the road | 2-1 · ATS 2-1 · 31.0-19.3 | 2-1 · ATS 2-1 · 31.3-20.7 |
+| Home edge, last 3 seasons | -1.7 pts (home 9-12, road 10-10) | -0.7 pts (home 9-12, road 11-9) |
+| Pythagorean wins vs actual | 3.5 vs 3 | 3.8 vs 2 |
+| One-score games (≤8) | 0-3 | 1-5 |
+
+**Series, last 10:** TB 5-5 SU · 4-6 ATS · O/U 6-4 · avg total 50.9 · last: 2025 wk 15, TB 28-29
+
+**Notable:**
+- **TB** — underperforming its point differential by 1.8 wins (one-score games 1-5) — better than its record
+- **TB** — Todd Bowles vs ATL: 3-6 ATS *(trend — color)*
 
 **TB injuries:** Kenny Gainwell RB (Q — Hip), Emeka Egbuka WR (Q — Concussion), Yaya Diaby LB (Q — Illness), Josiah Trotter LB (Q — Illness), Luke Goedeke OT (Q — Calf)
 **ATL injuries:** Divine Deablo LB (Q — Forearm), Olamide Zaccheaus WR (Q — Shoulder), Charles Snowden LB (Q — Back), Jawaan Taylor OT (Q — Hamstring), LaCale London DE (Q — Chest)
@@ -554,6 +786,37 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **IND last 5:** L 10-16 @ MIN (+6.5 ✓, U) · L 20-26 vs TEN (-6.5 ✗, O) · L 22-34 @ PIT (+3 ✗, O) · W 30-13 @ WSH (-4.5 ✓, U) · W 19-17 vs HOU (+1.5 ✓, U)
 **JAX last 5:** L 31-34 vs HOU (-2.5 ✗, O) · W 19-17 vs PHI (-7.5 ✗, U) · W 22-17 @ CIN (+2.5 ✓, U) · W 35-6 vs NE (-3 ✓, U) · L 13-20 @ DEN (+2.5 ✗, U)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **IND** | **JAX** |
+|---|---|---|
+| Head coach | Shane Steichen | Liam Coen |
+| Coach career (since '99) | 27-31 · ATS 31-27 | 17-7 · ATS 15-9 |
+| Coach in this role | as underdog of 7+: 1-3 · ATS 3-1 | as favorite of 7+: 4-0 · ATS 3-1 |
+| Coach at home / on road | road: 12-18 · ATS 17-13 | home: 9-2 · ATS 9-2 |
+| Coach vs this franchise | 1-5 · ATS 1-5 | 2-0 · ATS 2-0 |
+| Head-to-head vs opp HC | 0-2 · ATS 0-2 | 2-0 · ATS 2-0 |
+| Coach after a loss | 14-14 · ATS 15-13 | 4-1 · ATS 3-2 |
+| Coach in division games | 9-11 · ATS 12-8 | 5-2 · ATS 5-2 |
+| QB | Daniel Jones | Trevor Lawrence |
+| QB career starts (since '99) | 35-55-1 · ATS 46-45 | 40-46 · ATS 44-41-1 |
+| QB vs this opponent | 1-1 · ATS 1-1 | 7-2 · ATS 7-2 |
+| QB in this role | as underdog: 20-45-1 · ATS 36-30 | as favorite: 21-14 · ATS 17-18 |
+| This season at home | 1-2 · ATS 1-2 · 20.7-28.0 | 2-0 · ATS 2-0 · 34.5-8.0 |
+| This season on the road | 1-3 · ATS 3-1 · 23.0-24.0 | 2-2 · ATS 1-3 · 21.5-21.8 |
+| Home edge, last 3 seasons | +2.7 pts (home 11-8, road 7-15) | +6.6 pts (home 11-6, road 10-13) |
+| Pythagorean wins vs actual | 2.9 vs 2 | 4.3 vs 4 |
+| One-score games (≤8) | 1-3 | 2-2 |
+| Coach off a bye | — | 1-0 · ATS 0-1 |
+
+**Series, last 10:** JAX 7-3 SU · 8-2 ATS · O/U 6-4 · avg total 48.6 · JAX has won 2 straight · last: 2025 wk 17, JAX 23-17
+
+**Notable:**
+- **JAX** — home/road gap over 3 seasons is +6.6 pts per side (home 11-6, road 10-13); league norm ~+1.5, noise ±2
+- **JAX** — Liam Coen at home: 9-2 ATS *(trend — color)*
+- **JAX** — Trevor Lawrence vs IND: 7-2
+- **IND** — Shane Steichen vs JAX: 1-5 *(trend — color)*
+
 **JAX injuries:** Jakobi Meyers WR (Q — Hamstring), Jahlani Tavai LB (Q — Hamstring), Ruke Orhorhoro DT (Q — Ankle), Ross Matiscik LS (Q — Shoulder)
 **IND injuries:** Sauce Gardner CB (Q — Calf), Drew Ogletree TE (Q — Knee), Anthony Gould WR (Q — Concussion), Tyler Warren TE (Q — Groin), Tim Smith DT (Q — Ankle)
 
@@ -612,6 +875,36 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **LAC last 5:** L 6-22 @ KC (+7.5 ✗, U) · L 17-23 vs DEN (+3 ✗, U) · L 23-30 @ SEA (+7 P, O) · L 16-24 @ BUF (+7 ✗, U) · L 14-26 vs LV (-6.5 ✗, U)
 **LAR last 5:** W 35-21 @ LV (-3.5 ✓, O) · L 16-18 vs ARI (-13.5 ✗, U) · L 34-37 vs BUF (-3.5 ✗, O) · W 24-20 @ PHI (-4.5 ✗, O) · L 26-30 @ DEN (+1.5 ✗, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **LAC** | **LAR** |
+|---|---|---|
+| Head coach | Jim Harbaugh | Sean McVay |
+| Coach career (since '99) | 71-42-1 · ATS 64-46-4 | 105-67 · ATS 92-76-4 |
+| Coach in this role | as underdog: 12-18 · ATS 15-12-3 | as favorite: 87-30 · ATS 63-52-2 |
+| Coach at home / on road | road: 36-24 · ATS 34-23-3 | home: 50-29 · ATS 40-37-2 |
+| Coach vs this franchise | 5-2-1 · ATS 4-4 | 1-1 · ATS 1-1 |
+| Head-to-head vs opp HC | — | — |
+| Coach after a loss | 19-17 · ATS 17-17-2 | — |
+| Coach off a bye | 5-3-1 · ATS 5-4 | — |
+| QB | Justin Herbert | Matthew Stafford |
+| QB career starts (since '99) | 52-51 · ATS 53-47-3 | 130-128-1 · ATS 122-131-6 |
+| QB vs this opponent | 1-0 · ATS 1-0 | 2-1 · ATS 2-1 |
+| QB in this role | as underdog: 10-26 · ATS 19-16-1 | as favorite: 94-43-1 · ATS 66-69-3 |
+| This season at home | 0-3 · ATS 0-3 · 15.0-25.0 | 1-2 · ATS 1-2 · 26.0-20.3 |
+| This season on the road | 0-3 · ATS 0-2-1 · 15.0-25.3 | 2-2 · ATS 2-2 · 28.0-19.5 |
+| Home edge, last 3 seasons | -0.7 pts (home 10-9, road 12-9) | +0.6 pts (home 13-7, road 12-9) |
+| Pythagorean wins vs actual | 1.4 vs 0 | 4.7 vs 3 |
+| One-score games (≤8) | 0-3 | 1-3 |
+| Coach after a win | — | 60-42 · ATS 49-52-1 |
+
+**Series, last 7:** LAR 4-3 SU · 4-3 ATS · O/U 5-2 · avg total 55.6 · last: 2022 wk 17, LAR 10-31
+
+**Notable:**
+- **LAR** — underperforming its point differential by 1.7 wins (one-score games 1-3) — better than its record
+- **LAC** — underperforming its point differential by 1.4 wins (one-score games 0-3) — better than its record
+- **LAC** — Jim Harbaugh vs LAR: 5-2-1 *(trend — color)*
 
 **LAR injuries:** Coleman Shelton C (Q — Hip), Joe Cardona LS (Q — Ankle), Colby Parkinson TE (Q — Ribs)
 **LAC injuries:** Brenen Thompson WR (Q — Quadriceps), Derwin James Jr. S (D — Hamstring), Tre' Harris WR (Q — Hamstring), Ladd McConkey WR (Q — Concussion), Deane Leonard CB (Q — Concussion)
@@ -674,6 +967,35 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **KC last 5:** L 3-20 @ SEA (+3 ✗, U) · W 22-6 vs LAC (-7.5 ✓, U) · W 30-27 @ LV (-3.5 ✗, O) · W 24-10 @ MIA (-10 ✓, U) · W 33-30 vs IND (-6 ✗, O)
 **DEN last 5:** W 30-16 @ ARI (-4.5 ✓, O) · W 17-14 vs SEA (+3 ✓, U) · W 23-17 @ LAC (-3 ✓, U) · L 14-24 @ SF (+3 ✗, U) · W 30-26 vs LAR (-1.5 ✓, O)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **KC** | **DEN** |
+|---|---|---|
+| Head coach | Andy Reid | Sean Payton |
+| Coach career (since '99) | 312-175-1 · ATS 255-223-10 | 199-120 · ATS 172-143-4 |
+| Coach in this role | as favorite: 249-98-1 · ATS 172-169-7 | as underdog: 46-61 · ATS 61-44-2 |
+| Coach at home / on road | road: 148-93-1 · ATS 139-100-3 | home: 107-52 · ATS 85-73-1 |
+| Coach vs this franchise | 19-10 · ATS 14-15 | 5-5 · ATS 5-4-1 |
+| Head-to-head vs opp HC | 6-7 · ATS 6-6-1 | 7-6 · ATS 6-6-1 |
+| Coach after a loss | 86-67-1 · ATS 80-71-3 | — |
+| Coach in division games | 114-61 · ATS 95-76-4 | 71-41 · ATS 60-52 |
+| QB | Patrick Mahomes | Bo Nix |
+| QB career starts (since '99) | 117-36 · ATS 76-73-4 | 30-13 · ATS 25-18 |
+| QB vs this opponent | 14-2 · ATS 8-8 | 3-2 · ATS 3-2 |
+| QB in this role | as favorite: 105-30 · ATS 63-69-3 | as underdog: 7-11 · ATS 9-9 |
+| This season at home | 3-0 · ATS 2-1 · 28.7-15.3 | 3-0 · ATS 3-0 · 22.3-17.7 |
+| This season on the road | 2-1 · ATS 1-2 · 19.0-19.0 | 2-2 · ATS 2-2 · 19.2-22.0 |
+| Home edge, last 3 seasons | +3.7 pts (home 16-4, road 10-10) | +4.7 pts (home 17-3, road 12-9) |
+| Pythagorean wins vs actual | 4.1 vs 5 | 3.6 vs 5 |
+| One-score games (≤8) | 2-0 | 4-0 |
+| Coach after a win | — | 122-72 · ATS 100-91-3 |
+
+**Series, last 10:** DEN 4-6 SU · 7-3 ATS · O/U 3-7 · avg total 40.8 · last: 2026 wk 1, DEN 10-31
+
+**Notable:**
+- **KC** — Patrick Mahomes vs DEN: 14-2
+- **DEN** — overperforming its point differential by 1.4 wins (one-score games 4-0) — regression risk
+
 **DEN injuries:** Jaylen Waddle WR (Q — Chest), Garett Bolles OT (Q — Hip), Marvin Mims Jr. WR (Q — Ankle), Talanoa Hufanga S (Q — Ankle), Zach Allen DE (Q — Hamstring)
 **KC injuries:** Rashee Rice WR (Q — Hamstring), L'Jarius Sneed CB (Q — Knee), Jaylon Moore OT (Q — Concussion)
 
@@ -733,6 +1055,31 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **NE last 5:** L 24-30 @ CHI (+3 ✗, O) · W 26-19 vs NYJ (-7.5 ✗, O) · W 45-17 vs LV (-3.5 ✓, O) · W 29-26 @ BUF (+7 ✓, O) · L 6-35 @ JAX (+3 ✗, U)
 **MIA last 5:** W 28-25 @ NYJ (+3.5 ✓, O) · L 24-31 vs CIN (+7.5 ✓, O) · L 10-15 @ MIN (+10 ✓, U) · L 10-24 vs KC (+10 ✗, U) · L 13-35 @ SF (+12.5 ✗, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **NE** | **MIA** |
+|---|---|---|
+| Head coach | Mike Vrabel | Jeff Hafley |
+| Coach career (since '99) | 77-55 · ATS 68-59-5 | 1-5 · ATS 2-3-1 |
+| Coach in this role | as favorite of 7+: 16-2 · ATS 9-9 | as underdog of 7+: 0-4 · ATS 1-2-1 |
+| Coach at home / on road | road: 36-31 · ATS 34-31-2 | home: 0-2 · ATS 0-1-1 |
+| Coach vs this franchise | 4-1 · ATS 4-1 | — |
+| Head-to-head vs opp HC | — | — |
+| Coach after a loss | 28-20 · ATS 27-17-4 | — |
+| Coach in division games | 27-17 · ATS 24-20 | 1-0 · ATS 1-0 |
+| QB | Drake Maye | Malik Willis |
+| QB career starts (since '99) | 23-16 · ATS 21-16-2 | 4-8 · ATS 6-5-1 |
+| QB vs this opponent | 2-1 · ATS 2-1 | — |
+| QB in this role | as favorite: 16-1 · ATS 12-5 | as underdog: 3-6 · ATS 5-3-1 |
+| This season at home | 3-0 · ATS 2-1 · 30.3-13.0 | 0-2 · ATS 0-1-1 · 17.0-27.5 |
+| This season on the road | 1-3 · ATS 1-2-1 · 17.2-26.0 | 1-3 · ATS 2-2 · 16.0-25.5 |
+| Home edge, last 3 seasons | +2.3 pts (home 11-9, road 11-10) | +2.2 pts (home 9-9, road 7-15) |
+| Pythagorean wins vs actual | 4.0 vs 4 | 1.5 vs 1 |
+| One-score games (≤8) | 2-2 | 1-2 |
+| Coach after a win | — | — |
+
+**Series, last 10:** MIA 7-3 SU · 8-2 ATS · O/U 6-4 · avg total 43.2 · NE has won 2 straight · last: 2025 wk 18, MIA 10-38
 
 **MIA injuries:** Malik Washington WR (Q — Knee), Greg Dulcich TE (Q — Ankle), Michael Taaffe S (Q — Neck), Jared Wayne WR (Q — Knee), Dante Trader Jr. S (Q — Shoulder)
 **NE injuries:** A.J. Brown WR (Q — Knee), Morgan Moses OT (Q — Foot), DaQuan Jones DT (Q — Back), Ben Brown C (Q — Knee)
@@ -795,6 +1142,37 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 **PHI last 5:** L 21-38 vs DAL (+4.5 ✗, O) · L 14-25 vs CAR (+3 ✗, U) · L 17-19 @ JAX (+7.5 ✓, U) · L 20-24 vs LAR (+4.5 ✓, O) · L 7-27 @ CHI (-3 ✗, U)
 **WSH last 5:** L 17-23 @ SF (+7.5 ✓, U) · T 27-27 vs NYG (-3.5 ✗, O) · L 13-30 vs IND (+4.5 ✗, U) · W 33-31 vs SEA (+8.5 ✓, O) · L 20-37 @ DAL (+4.5 ✗, O)
 
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **PHI** | **WSH** |
+|---|---|---|
+| Head coach | Nick Sirianni | Dan Quinn |
+| Coach career (since '99) | 67-35 · ATS 50-49-3 | 66-66-1 · ATS 62-71 |
+| Coach in this role | as underdog: 10-15 · ATS 12-13 | as favorite: 40-29-1 · ATS 29-41 |
+| Coach at home / on road | road: 33-18 · ATS 26-24-1 | home: 33-30-1 · ATS 32-32 |
+| Coach vs this franchise | 9-3 · ATS 4-6-2 | 4-7 · ATS 5-6 |
+| Head-to-head vs opp HC | 4-2 · ATS 3-3 | 2-4 · ATS 3-3 |
+| Coach after a loss | 13-17 · ATS 10-20 | 24-35-1 · ATS 25-35 |
+| Coach in primetime | 16-12 · ATS 13-13-2 | 14-13 · ATS 14-13 |
+| Coach in division games | 22-12 · ATS 14-18-2 | 25-21-1 · ATS 23-24 |
+| QB | Tanner McKee | Jayden Daniels |
+| QB career starts (since '99) | 1-2 · ATS 1-2 | 15-12-1 · ATS 15-13 |
+| QB vs this opponent | 0-1 · ATS 0-1 | 1-2 · ATS 2-1 |
+| QB in this role | as underdog: 0-1 · ATS 0-1 | as favorite: 8-1-1 · ATS 6-4 |
+| This season at home | 1-3 · ATS 0-4 · 19.8-27.2 | 1-0-1 · ATS 1-1 · 30.0-29.0 |
+| This season on the road | 1-2 · ATS 1-2 · 16.0-22.0 | 0-4 · ATS 2-2 · 22.2-24.2 |
+| Home edge, last 3 seasons | +0.5 pts (home 13-7, road 14-7) | +3.2 pts (home 10-8-1, road 8-13) |
+| Pythagorean wins vs actual | 2.2 vs 2 | 2.9 vs 1.5 |
+| One-score games (≤8) | 2-2 | 1-2-1 |
+| Coach off a bye | — | 5-4 · ATS 5-4 |
+
+**Series, last 10:** WSH 3-7 SU · 5-4-1 ATS · O/U 8-2 · avg total 54.4 · last: 2026 wk 1, WSH 22-24
+
+**Notable:**
+- **WSH** — underperforming its point differential by 1.4 wins (one-score games 1-2-1) — better than its record
+- **PHI** — Nick Sirianni after a loss: 10-20 ATS *(trend — color)*
+- **PHI** — Nick Sirianni vs WSH: 9-3 *(trend — color)*
+
 **WSH injuries:** Javon Kinlaw DT (D — Knee), Treylon Burks WR (Q — Foot), Stefon Diggs WR (Q — Hand), John Bates TE (Q — Shoulder)
 **PHI injuries:** Dontayvion Wicks WR (Q — Ankle), DeVonta Smith WR (Q — Hamstring), Moro Ojomo DT (Q — Neck), Saquon Barkley RB (Q — Hamstring), Smael Mondon Jr. LB (Q — Knee)
 
@@ -852,6 +1230,33 @@ Caleb Douglas (WR, MIA) +2,428,712 · Seth McGowan (RB, IND) +1,496,264 · Elija
 
 **CHI last 5:** W 30-24 vs NE (-3 ✓, O) · W 31-23 @ ATL (-1.5 ✓, O) · L 7-31 @ GB (-1.5 ✗, U) · W 23-12 vs NYJ (-3.5 ✓, U) · W 27-7 vs PHI (+3 ✓, U)
 **SEA last 5:** W 20-3 vs KC (-3 ✓, U) · L 14-17 @ DEN (-3 ✗, U) · L 29-32 vs SF (-3 ✗, O) · W 30-23 vs LAC (-7 P, O) · L 31-33 @ WSH (-8.5 ✗, O)
+
+**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*
+
+| | **CHI** | **SEA** |
+|---|---|---|
+| Head coach | Ben Johnson | Mike Macdonald |
+| Coach career (since '99) | 17-9 · ATS 16-9-1 | 31-13 · ATS 23-19-2 |
+| Coach in this role | as underdog: 7-6 · ATS 8-5 | as favorite: 25-5 · ATS 16-12-2 |
+| Coach at home / on road | road: 7-5 · ATS 7-5 | home: 14-9 · ATS 9-12-2 |
+| Coach vs this franchise | — | 1-0 · ATS 0-1 |
+| Head-to-head vs opp HC | — | — |
+| Coach after a win | 10-6 · ATS 9-6-1 | 21-7 · ATS 18-10 |
+| Coach in primetime | 5-2 · ATS 5-2 | 9-4 · ATS 6-6-1 |
+| QB | Caleb Williams | Sam Darnold |
+| QB career starts (since '99) | 20-20 · ATS 22-15-3 | 54-43 · ATS 49-45-3 |
+| QB vs this opponent | 0-1 · ATS 1-0 | 2-1 · ATS 1-1-1 |
+| QB in this role | as underdog: 8-17 · ATS 12-11-2 | as favorite: 33-13 · ATS 25-19-2 |
+| This season at home | 3-1 · ATS 3-1 · 20.8-13.0 | 3-1 · ATS 1-1-2 · 23.0-17.0 |
+| This season on the road | 2-1 · ATS 2-1 · 32.3-30.3 | 1-2 · ATS 1-2 · 25.3-19.0 |
+| Home edge, last 3 seasons | +5.1 pts (home 12-8, road 9-12) | -2.3 pts (home 12-9, road 16-4) |
+| Pythagorean wins vs actual | 4.4 vs 5 | 4.7 vs 4 |
+| One-score games (≤8) | 2-1 | 2-3 |
+
+**Series, last 10:** SEA 6-4 SU · 5-5 ATS · O/U 7-3 · avg total 41.6 · last: 2024 wk 17, SEA 6-3
+
+**Notable:**
+- **CHI** — Ben Johnson in primetime: 5-2 *(trend — color)*
 
 **SEA injuries:** Chazz Surratt LB (Q — Calf), Drake Thomas LB (Q — Ankle), Drew Lock QB (Q — Elbow), Connor O'Toole LB (Q — Hamstring), Zach Charbonnet RB (Q — Knee - ACL)
 **CHI injuries:** Kyle Monangai RB (Q — Toe), Jack Sanborn LB (Q — Concussion), T.J. Edwards LB (Q — Hamstring)

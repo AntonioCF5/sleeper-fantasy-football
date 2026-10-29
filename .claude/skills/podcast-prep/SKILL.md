@@ -57,6 +57,27 @@ What the sheet holds, and how to read it:
   and opponent fantasy points allowed by position, ranked (🟢 top-8 softest,
   🔴 bottom-8). 📈 = Sleeper trending add. DST line: sacks, takeaways and
   points allowed vs the opponent's sacks taken and giveaways.
+- **Coaches & history** (nflverse games file since 1999, closing lines,
+  includes playoffs; module `sleeper/history.py`), per team:
+  - head coach career SU/ATS
+  - the coach in THIS spot: favorite/underdog (7+ if the line is), home/road,
+    after a win/loss, off a bye or on short rest, primetime, division games
+  - coach vs this franchise and vs the opposing head coach
+  - the starting QB's career, his record vs this opponent and in this role
+  - this season's home and road splits (SU, ATS, points for and against)
+  - the 3-season home/road margin gap
+  - Pythagorean wins vs actual, and one-score record
+  - series history (last 10: SU, ATS, O/U, average total, streak, last meeting)
+  - a ranked **Notable** list, plus a slate-wide "History notes" section
+  Signal vs color on these (say which on air):
+  - Rest/bye spots and QB-specific matchups carry a mechanism.
+  - Pythagorean and one-score gaps are the best regression signal on the sheet.
+  - Team home-field gaps carry ±2 pts of noise and are mostly noise, except
+    altitude (Denver).
+  - Coach ATS splits and series ATS are color: the sheet tags them
+    *(trend — color)*. They go on air as talking points, never as the reason
+    for a pick. When one cuts against a pick, say so (the pushback segment);
+    don't bury it.
 - Slate-wide: top and bottom implied totals, softest matchups per position,
   usage risers, trending adds.
 
@@ -96,9 +117,11 @@ segments. The host is a sharp veteran: lead with the edge, not the lesson.
 - Case for AWAY: 2-3 stats that actually explain football (efficiency, trenches, turnovers, spot)
 - Case for HOME: same
 - The call: winner + side/total/PASS · confidence ★–★★★ · "good to X, pass past Y"
+- History: the 1-2 coach/series/QB/regression notes worth saying, tagged signal or color
 - Fantasy: 1 start · 1 sit/fade · 1 sleeper/deep play, each with its stat
 ## Best bets card (3-5 max, from the calls above)
 ## Fantasy segment: smash spots, traps, the usage riser to grab now
+## Regression watch: records vs point differential (Pythagorean + one-score games)
 ## Survivor pick (survivor_plan.py output + the week's line)
 ```
 

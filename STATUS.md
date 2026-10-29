@@ -188,8 +188,11 @@ tells the user to re-check news once before accepting.
   vs temporada, puntos permitidos por posición). Módulo `sleeper/espn.py`
   (cache en data/cache/espn/). Picks al aire en
   `data/intel/podcast_picks.json`, calificadas solas en la siguiente corrida.
-  Primera corrida: semana 8 (`reports/2026/podcast/week08/`); rundown aún no
-  escrito.
+  Semana 8: rundown escrito y picks registradas (MIN +3, CHI +3, TEN-CIN under
+  ★★). 2026-10-28: capa histórica con `sleeper/history.py` (games.csv de
+  nflverse desde 1999): coach en esta situación, head-to-head entre coaches,
+  QB vs rival, splits local/visita, Pythagorean + juegos de una posesión, serie
+  de los últimos 10. Las tendencias ATS de coach/serie se marcan como color.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

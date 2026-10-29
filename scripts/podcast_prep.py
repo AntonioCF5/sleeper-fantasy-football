@@ -43,7 +43,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from sleeper import api, espn  # noqa: E402
+from sleeper import api, espn, history  # noqa: E402
 from sleeper.scoring import score_stat_line  # noqa: E402
 
 PICKS = ROOT / "data" / "intel" / "podcast_picks.json"
@@ -338,6 +338,194 @@ def rest_days(team, g, all_games):
     return (g["date"] - last["date"]).days, g["week"] - last["week"] > 1
 
 
+# ------------------------------------------------- history (nflverse)
+
+NOTABLE_N = {"su": 6, "ats": 8}   # minimum sample before a split is "notable"
+
+
+def _split(rows, which="su"):
+    led = history.tally(rows)
+    n = led.n if which == "su" else led.n_ats
+    return led, n
+
+
+def _cell(rows, both=True):
+    led = history.tally(rows)
+    if not led.n:
+        return "—"
+    s = f"{led.fmt()}"
+    if both and led.n_ats:
+        s += f" · ATS {led.fmt('ats')}"
+    return s
+
+
+def history_block(g, hist, ctx):
+    """Coach / QB / series / venue / luck rows for one upcoming game.
+    Returns (markdown lines, notable [(score, text)], data dict)."""
+    by_coach, by_qb, by_team, row = hist["coach"], hist["qb"], hist["team"], ctx["row"]
+    h, a = g["home"], g["away"]
+    season = int(ctx["season"])
+    teams = {
+        a: {"coach": row["away_coach"], "opp_coach": row["home_coach"], "home": False,
+            "qb": ctx["qb"].get(a) or row["away_qb_name"], "opp": h, "line": ctx["line"].get(a)},
+        h: {"coach": row["home_coach"], "opp_coach": row["away_coach"], "home": not g["neutral"],
+            "qb": ctx["qb"].get(h) or row["home_qb_name"], "opp": a, "line": ctx["line"].get(h)},
+    }
+    rest = {a: row["away_rest"], h: row["home_rest"]}
+    notable, cells = [], defaultdict(dict)
+
+    def note(team, label, rows, which, mech=False):
+        led, n = _split(rows, which)
+        p = led.pct(which)
+        if p is None or n < NOTABLE_N[which]:
+            return
+        if p >= 0.70 or p <= 0.30 or (which == "ats" and (p >= 0.65 or p <= 0.35)):
+            tag = "" if mech else " *(trend — color)*"
+            rec = led.fmt(which)
+            notable.append((abs(p - 0.5) * n ** 0.5,
+                            f"**{team}** — {label}: {rec}{' ATS' if which == 'ats' else ''}{tag}"))
+
+    for t, info in teams.items():
+        c, opp = info["coach"], info["opp"]
+        crow = [r for r in by_coach.get(c, []) if r["g"]["final"]]
+        line = info["line"]
+        role = None if line is None else "fav" if line < 0 else "dog" if line > 0 else None
+        big = line is not None and abs(line) >= 7
+        role_rows = [r for r in crow if r["line"] is not None and
+                     (r["line"] < 0 if role == "fav" else r["line"] > 0) and (abs(r["line"]) >= 7 if big else True)]
+        venue_rows = [r for r in crow if r["home"] == info["home"]]
+        vs_team = [r for r in crow if r["opp"] == opp]
+        h2h = [r for r in crow if r["opp_coach"] == info["opp_coach"]]
+        prev = [r for r in by_team.get(t, []) if r["g"]["final"]]
+        last = prev[-1] if prev else None
+        after = []
+        if last and last["margin"]:
+            won = last["margin"] > 0
+            seq = by_coach.get(c, [])
+            after = [seq[i + 1] for i in range(len(seq) - 1)
+                     if seq[i]["g"]["final"] and seq[i + 1]["g"]["final"]
+                     and seq[i]["margin"] and (seq[i]["margin"] > 0) == won
+                     and seq[i + 1]["g"]["season"] == seq[i]["g"]["season"]]
+        spot_rows, spot_label = [], None
+        r_days = rest.get(t)
+        if r_days and r_days >= 13:
+            spot_rows, spot_label = [r for r in crow if (r["rest"] or 0) >= 13], "off a bye"
+        elif r_days and r_days <= 5:
+            spot_rows, spot_label = [r for r in crow if r["rest"] and r["rest"] <= 5], "on short rest"
+        prime_rows = [r for r in crow if r["g"]["primetime"]] if row["primetime"] else []
+        div_rows = [r for r in crow if r["g"]["div_game"]] if row["div_game"] else []
+
+        cells[t]["Head coach"] = c or "—"
+        cells[t]["Coach career (since '99)"] = _cell(crow)
+        role_lbl = (f"as {'favorite' if role == 'fav' else 'underdog'}{' of 7+' if big else ''}" if role else "pick'em")
+        cells[t][f"Coach in this role"] = (f"{role_lbl}: {_cell(role_rows)}" if role else "—")
+        cells[t]["Coach at home / on road"] = f"{'home' if info['home'] else 'road'}: {_cell(venue_rows)}"
+        cells[t]["Coach vs this franchise"] = _cell(vs_team)
+        cells[t]["Head-to-head vs opp HC"] = _cell(h2h)
+        if last:
+            cells[t]["Coach after a " + ("win" if last["margin"] > 0 else "loss")] = _cell(after)
+        if spot_label:
+            cells[t][f"Coach {spot_label}"] = _cell(spot_rows)
+        if prime_rows:
+            cells[t]["Coach in primetime"] = _cell(prime_rows)
+        if div_rows:
+            cells[t]["Coach in division games"] = _cell(div_rows)
+
+        qb = info["qb"]
+        qrows = [r for r in by_qb.get(qb, []) if r["g"]["final"]]
+        cells[t]["QB"] = qb or "—"
+        cells[t]["QB career starts (since '99)"] = _cell(qrows)
+        cells[t]["QB vs this opponent"] = _cell([r for r in qrows if r["opp"] == opp])
+        qrole = [r for r in qrows if r["line"] is not None and role and (r["line"] < 0 if role == "fav" else r["line"] > 0)]
+        if role:
+            cells[t]["QB in this role"] = f"{role_lbl.split(' of')[0]}: {_cell(qrole)}"
+
+        # venue splits — this season and the last three
+        tr = [r for r in by_team.get(t, []) if r["g"]["final"] and r["g"]["game_type"] == "REG"]
+        cur = [r for r in tr if r["g"]["season"] == season]
+        for lbl, flag in (("home", True), ("road", False)):
+            rr = [r for r in cur if r["home"] == flag]
+            led = history.tally(rr)
+            pf = sum((r["g"]["home_score"] if r["home"] else r["g"]["away_score"]) for r in rr)
+            pa = sum((r["g"]["away_score"] if r["home"] else r["g"]["home_score"]) for r in rr)
+            cells[t][f"This season {'at home' if flag else 'on the road'}"] = (f"{led.fmt()} · ATS {led.fmt('ats')} · {pf / len(rr):.1f}-{pa / len(rr):.1f}"
+                                                 if rr else "—")
+        last3 = [r for r in tr if season - 2 <= r["g"]["season"] <= season]
+        hm = [r["margin"] for r in last3 if r["home"]]
+        rm = [r["margin"] for r in last3 if not r["home"] and r["g"].get("location") != "Neutral"]
+        if hm and rm:
+            edge = (sum(hm) / len(hm) - sum(rm) / len(rm)) / 2
+            hl, rl = history.tally([r for r in last3 if r["home"]]), history.tally([r for r in last3 if not r["home"]])
+            cells[t]["Home edge, last 3 seasons"] = f"{edge:+.1f} pts (home {hl.fmt()}, road {rl.fmt()})"
+            # ~25 home + ~25 road games → about ±2 pts of noise on this number;
+            # team-specific home field is mostly noise (Denver's altitude aside),
+            # so only an extreme gap earns a note.
+            if abs(edge) >= 5.5:
+                notable.append((abs(edge) / 4, f"**{t}** — home/road gap over 3 seasons is {edge:+.1f} pts per side "
+                                f"(home {hl.fmt()}, road {rl.fmt()}); league norm ~+1.5, noise ±2"))
+        # luck: pythagorean + one-score games
+        if cur:
+            pf = sum((r["g"]["home_score"] if r["home"] else r["g"]["away_score"]) for r in cur)
+            pa = sum((r["g"]["away_score"] if r["home"] else r["g"]["home_score"]) for r in cur)
+            led = history.tally(cur)
+            py = history.pythagorean(pf, pa, len(cur))
+            close = history.tally([r for r in cur if abs(r["margin"]) <= 8])
+            cells[t]["Pythagorean wins vs actual"] = f"{py:.1f} vs {led.su[0] + led.su[2] / 2:g}" if py is not None else "—"
+            cells[t]["One-score games (≤8)"] = close.fmt() if close.n else "—"
+            if py is not None:
+                d = led.su[0] + led.su[2] / 2 - py
+                if abs(d) >= 1.3:
+                    notable.append((abs(d), f"**{t}** — {'over' if d > 0 else 'under'}performing its point "
+                                    f"differential by {abs(d):.1f} wins (one-score games {close.fmt()}) — "
+                                    f"{'regression risk' if d > 0 else 'better than its record'}"))
+
+        note(t, f"{c} as {role_lbl}", role_rows, "ats")
+        note(t, f"{c} vs {opp}", vs_team, "su")
+        note(t, f"{c} vs {opp}", vs_team, "ats")
+        note(t, f"{c} vs {info['opp_coach']} head-to-head", h2h, "su")
+        note(t, f"{c} {spot_label}", spot_rows, "su", mech=True) if spot_label else None
+        note(t, f"{c} {spot_label}", spot_rows, "ats", mech=True) if spot_label else None
+        note(t, f"{c} in primetime", prime_rows, "su") if prime_rows else None
+        note(t, f"{c} at {'home' if info['home'] else 'road'}", venue_rows, "ats")
+        note(t, f"{qb} vs {opp}", [r for r in qrows if r["opp"] == opp], "su", mech=True)
+        note(t, f"{c} after a {'win' if last and last['margin'] > 0 else 'loss'}", after, "ats")
+
+    # series history (franchise vs franchise), from the home team's perspective
+    series = [r for r in by_team.get(h, []) if r["opp"] == a and r["g"]["final"]][-10:]
+    L = []
+    keys = list(dict.fromkeys(k for t in (a, h) for k in cells[t]))
+    L.append(f"**Coaches & history** *(nflverse, since 1999, incl. playoffs; ATS on closing lines)*\n")
+    L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
+    for k in keys:
+        L.append(f"| {k} | {cells[a].get(k, '—')} | {cells[h].get(k, '—')} |")
+    if series:
+        led = history.tally(series)
+        streak_team, streak = None, 0
+        for r in reversed(series):
+            w = h if r["margin"] > 0 else a if r["margin"] < 0 else None
+            if streak_team is None:
+                streak_team = w
+            if w != streak_team or w is None:
+                break
+            streak += 1
+        tot = [r["g"]["total"] for r in series]
+        last = series[-1]
+        L.append(f"\n**Series, last {len(series)}:** {h} {led.fmt()} SU · {led.fmt('ats')} ATS · "
+                 f"O/U {led.ou[0]}-{led.ou[1]} · avg total {sum(tot) / len(tot):.1f}"
+                 f"{f' · {streak_team} has won {streak} straight' if streak_team and streak >= 2 else ''}"
+                 f" · last: {last['g']['season']:.0f} wk {last['g']['week']:.0f}, "
+                 f"{h} {last['g']['home_score'] if last['home'] else last['g']['away_score']:.0f}-"
+                 f"{last['g']['away_score'] if last['home'] else last['g']['home_score']:.0f}")
+        if streak_team and streak >= 4:
+            notable.append((streak / 2, f"**{streak_team}** has won {streak} straight in the series"))
+    if notable:
+        L.append("\n**Notable:**")
+        for _, txt in sorted(notable, key=lambda x: -x[0])[:7]:
+            L.append(f"- {txt}")
+    L.append("")
+    return L, notable, {t: dict(cells[t]) for t in (a, h)}
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     cur, season = espn.current_week()
@@ -360,6 +548,11 @@ def main():
         g["odds"], g["summary"] = o, s
 
     rec = team_records(finals)
+    hgames = history.load_games()
+    hc, hq, ht = history.index(hgames)
+    hist = {"coach": hc, "qb": hq, "team": ht}
+    hist_row = {g["espn"]: g for g in hgames if g.get("espn")}
+    slate_notes = []
     ratings = srs(finals)
     team_ids = {}
     for g in all_games:
@@ -533,6 +726,21 @@ def main():
                 L.append(f"**{t} last 5:** " + " · ".join(reversed(log[-5:])))
         L.append("")
 
+        hrow = hist_row.get(g["id"])
+        if hrow:
+            qb1 = {}
+            for t in (a, h):
+                qbs = sorted((p for p in slr["proj"] if p["team"] == sl(t) and p["pos"] == "QB"), key=lambda p: -p["ppr"])
+                if qbs:
+                    qb1[t] = qbs[0]["name"]
+            ctx = {"row": hrow, "season": season, "qb": qb1,
+                   "line": {h: spread, a: -spread} if spread is not None else {}}
+            hl, hn, hdata = history_block(g, hist, ctx)
+            L.extend(hl)
+            slate_notes.extend((sc, f"{a} @ {h}: {txt}") for sc, txt in hn)
+        else:
+            hdata = None
+
         # injuries
         for blk in s.get("injuries") or []:
             t = (blk.get("team") or {}).get("abbreviation")
@@ -596,7 +804,8 @@ def main():
         data_games.append({"game": f"{a}@{h}", "kickoff": kick.isoformat(), "odds": o,
                            "p_market": p_mkt, "p_fpi": p_fpi, "srs_margin": srs_margin,
                            "fpi_margin": fpi_margin, "naive_total": naive_total,
-                           "implied": {h: imp_h, a: imp_a}, "flag": flag, "players": game_players})
+                           "implied": {h: imp_h, a: imp_a}, "flag": flag, "players": game_players,
+                           "history": hdata})
 
     out.append("## Slate\n")
     out.append("| Game | Kick (ET) | Spread | Total | Implied | Mkt home% | FPI home% | SRS line | |\n"
@@ -607,6 +816,10 @@ def main():
         out.append("### 🚩 Line checks (both models off the market)\n")
         for e, game, lean, e1, e2 in sorted(flags, reverse=True):
             out.append(f"- **{game}** → lean **{lean}** · SRS {e1:+.1f} / FPI {e2:+.1f} pts vs market")
+        out.append("")
+    if slate_notes:
+        out.append("### History notes worth a mention\n")
+        out.extend(f"- {txt}" for _, txt in sorted(slate_notes, key=lambda x: -x[0])[:12])
         out.append("")
     imp = sorted(((v, t) for dg in data_games for t, v in dg["implied"].items() if v), reverse=True)
     if imp:
