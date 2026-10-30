@@ -1102,17 +1102,17 @@
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-28",
+   "last_success": "2026-10-30",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 6
+   "via": "rss",
+   "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-28",
+   "last_success": "2026-10-30",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 6
+   "via": "rss",
+   "rss_failures": 0
   }
  }
 }

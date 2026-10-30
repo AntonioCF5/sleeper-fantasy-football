@@ -1676,3 +1676,14 @@ without testing it.
 - **Returning-from-injury haircut [Sal]:** a player back early from a high ankle sprain carries roughly a 25% production dip; buy when routes and target share are intact despite the box score.
 - **Coach volunteers a name = usage signal [Sal/FF]:** when a coach praises a player nobody asked about (Quinn on Antonio Williams, Payton on Coleman), usage is coming.
 - **Traded star != fantasy boost [FF]:** new-scheme players rarely inherit the old workload, so a trade request is a reason to temper, not buy.
+
+### 2026-10-30 pass (Sal sell list + FF Ep. 2004)
+- **Hollow-target check** [FF on Golden]: track tight-window catch rate and
+  drop rate alongside target volume. Deep targets into double coverage
+  inflate unrealized air yards, so volume alone overstates a WR's floor.
+- **Injured-QB return rule** [Mike on Mayfield]: wait for one good game
+  before starting a QB who is playing through a hand or thumb injury. The
+  first game back is a sit unless you're desperate.
+- **TD-or-bust threshold** [Sal on Judkins]: when a receiving back's return
+  drops an early-down RB's target share to the low single digits (3%), his
+  floor depends entirely on TDs. Sell after the TD spike.
