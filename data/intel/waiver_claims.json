@@ -1,64 +1,64 @@
 {
-  "updated": "2026-10-30",
-  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
-  "claims": [
-    {
-      "league_id": "1389689013551517698",
-      "league": "🪓 Guillotine TRC",
-      "player": "Seth McGowan (RB, IND)",
-      "player_id": "13424",
-      "verdict": "protected-hold",
-      "bid": null,
-      "drop": null,
-      "why": "Clean handcuff (dc2 behind Taylor). Rapoport-level JT trade smoke (MIN/SEA/DEN/NE, a 2027 1st); Sal stashes him after a season-high 11 carries. Guillotine's every-spot-produces rule makes him the first cut once JT's status resolves at the deadline, but not before."
-    },
-    {
-      "league_id": "1385473470141313024",
-      "league": "FANTASY MEXICA",
-      "player": "Jonah Coleman (RB, DEN)",
-      "player_id": "13345",
-      "verdict": "protected-hold",
-      "bid": null,
-      "drop": null,
-      "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first. 2026-10-28: protected from DROPS only. He's an acceptable fallback chip in the Shough-for-Lawrence trade (see trade_offers), but try Vidal first."
-    },
-    {
-      "league_id": "1385473470141313024",
-      "league": "FANTASY MEXICA",
-      "player": "Terry McLaurin (WR, WAS)",
-      "player_id": "5927",
-      "verdict": "skip",
-      "bid": null,
-      "drop": null,
-      "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
-    },
-    {
-      "league_id": "1314652488325922816",
-      "player": "Jaydon Blue (RB, PHI)",
-      "verdict": "claim",
-      "bid": 0,
-      "drop": null,
-      "date": "2026-10-30",
-      "why": "Free agent (dropped wk7 by roster 6, waiver window cleared). Saquon Barkley (hamstring/back) missed Wed+Thu practice; Pierce, Shipley and Bigsby are all on IR, so Blue (22, 2nd-yr, depth 2) is the only healthy RB on PHI's 53 — Elijah Mitchell is on the practice squad and needs an elevation. LoR is 27/28 active, so it's a free add with no drop. LoR's RB room is gutted (Conner/JCM/Pierce/Randall IR, Donaldson Out, Harvey added to report limited). If Saquon is ruled out, Blue goes into FLEX over Corum for SNF (WAS); Corum stays rostered (untouchable keep). Young dynasty asset with a contingent path either way."
-    },
-    {
-      "league_id": "1338269686810300416",
-      "player": "Jaydon Blue (RB, PHI)",
-      "verdict": "claim",
-      "bid": 0,
-      "drop": "Elijah Mitchell (RB, PHI, 28, practice squad)",
-      "date": "2026-10-30",
-      "why": "Same backfield, strictly better ticket: Blue (22) is on the 53 and is the only healthy PHI RB if Saquon sits; Mitchell (28, yr-5) reverted to the practice squad Tuesday and needs an elevation to play. Dynasty value rule: Mitchell is the aging no-market vet bucket; Blue is the young asset. DMX is 26/26 with IR 4/4, so it's a 1-for-1. Doubles as cover for Love (ankle, limited Wed/Thu)."
-    }
-  ],
-  "roster_compliance": {
-    "read_live": "2026-10-30",
-    "Gallamijos League": "17/17 active, IR 0/2 (allow_out=0, so Egbuka is not IR-eligible). IDP slots filled (Watt/Carter/Stukes). Every add is 1-for-1.",
-    "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
-    "FANTASY MEXICA": "19/19, reserve_slots=0.",
-    "Dynasty Mexica": "26/26, IR 4/4 (Love on IR). Spears and Smith are Out on the active bench, with IR full.",
-    "League of Record": "27/28 active (one open spot), IR 5/8, taxi 7/8. Read live 10/30.",
-    "Guillotine TRC": "14/14, no IR. Lamar is trending toward a week-8 return (Sleeper wire 10/27); Rodgers is the fallback. Pending: Henry $5 / Strange $3 (TE, same drop Mumpfield), Kyren $177 (drop M. Washington Jr.).",
-    "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
+ "updated": "2026-10-31",
+ "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+ "claims": [
+  {
+   "league_id": "1389689013551517698",
+   "league": "🪓 Guillotine TRC",
+   "player": "Seth McGowan (RB, IND)",
+   "player_id": "13424",
+   "verdict": "protected-hold",
+   "bid": null,
+   "drop": null,
+   "why": "Clean handcuff (dc2 behind Taylor). Rapoport-level JT trade smoke (MIN/SEA/DEN/NE, a 2027 1st); Sal stashes him after a season-high 11 carries. Guillotine's every-spot-produces rule makes him the first cut once JT's status resolves at the deadline, but not before."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Jonah Coleman (RB, DEN)",
+   "player_id": "13345",
+   "verdict": "protected-hold",
+   "bid": null,
+   "drop": null,
+   "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first. 2026-10-28: protected from DROPS only. He's an acceptable fallback chip in the Shough-for-Lawrence trade (see trade_offers), but try Vidal first."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Terry McLaurin (WR, WAS)",
+   "player_id": "5927",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "player": "Jaydon Blue (RB, PHI)",
+   "verdict": "protected-hold",
+   "bid": null,
+   "drop": null,
+   "date": "2026-10-31",
+   "why": "Added 10/30 (on LoR roster, read live 10/31). Saquon (hamstring/back) came OFF the injury report Friday and plays SNF at WAS, so Blue is a bench stash this week, not a FLEX play — Corum stays in the FLEX. Hold as the PHI depth-2 contingent ticket (22, young dynasty asset; Pierce/Shipley/Bigsby on IR)."
+  },
+  {
+   "league_id": "1338269686810300416",
+   "player": "Jaydon Blue (RB, PHI)",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-10-31",
+   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
   }
+ ],
+ "roster_compliance": {
+  "read_live": "2026-10-31",
+  "Gallamijos League": "17/17 active, IR 0/2 (every reserve_allow_* = 0, so nobody is IR-eligible). ⚠️ DB starting slot is EMPTY (Stukes gone) — guaranteed 0. Fix: add FA DB Jordan Battle (CIN vs TEN, 5.9 proj; Nick Cross WAS 5.9 is the alt), drop Greg Dulcich (TE3 behind Okonkwo/Mayer, 26). Lineup: Mayer into FLEX over Chris Bell (+2.1), PIT DEF over LAR (+0.8).",
+  "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
+  "FANTASY MEXICA": "19/19, reserve_slots=0.",
+  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",
+  "League of Record": "28/28 active after the Blue add, IR 5/8, taxi 7/8. Read live 10/31.",
+  "Guillotine TRC": "14/14, no IR. Lamar off the injury report — starts Week 8. FAAB 469/1000 left.",
+  "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
+ }
 }

@@ -1687,3 +1687,18 @@ without testing it.
 - **TD-or-bust threshold** [Sal on Judkins]: when a receiving back's return
   drops an early-down RB's target share to the low single digits (3%), his
   floor depends entirely on TDs. Sell after the TD spike.
+
+### 2026-10-31 pass (Sal Flock power rankings + FF Ep. 2005)
+- **Late-window escape hatch** [FF]: start a Questionable player in a SNF/MNF
+  game only if a same-slot fallback is still unlocked at his kickoff (his own
+  handcuff, or a teammate in the same window). Otherwise take the earlier
+  kickoff — an inactive at 8pm is a guaranteed zero.
+- **Pass-funnel defenses** [FF on JAX vs IND]: a defense that's hard to run
+  on but easy to pass on upgrades the trailing team's slot/possession WRs
+  even inside a bad offense. Check run-vs-pass splits, not just total rank.
+- **Pass-protection gate** [FF on Henderson]: an RB who can't pass-block
+  telegraphs the play call when he enters, so his snap share erodes
+  regardless of talent. Treat it as a ceiling on his role.
+- **Two-flex depth** [Sal]: in two-flex formats the RB2/flex spots decide
+  matchups; judge a roster by its full no-bye lineup, and don't sell a stud
+  after two bad games to chase buy-low names.
