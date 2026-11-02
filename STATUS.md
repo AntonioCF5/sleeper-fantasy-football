@@ -209,6 +209,13 @@ tells the user to re-check news once before accepting.
   `api.get_ownership`; proyección = promedio Sleeper + implícita por uso; nivel A/B/C
   del FAAB) + los más agregados. Pestaña "Recap y waivers" en la app; Claude escribe
   `recap.md` (hablado). Semana 8: 0-5 en picks (CHI +3 pendiente del MNF).
+  **Un programa = recap de la semana N + guion de la N+1** (user 2026-11-02): el
+  día del recap también se prepara la siguiente semana completa. Semana 9 lista
+  el 2026-11-02 (lunes, sin reportes de práctica): ★★ TB +5.5; ★ CIN -3, Bajas
+  GB/NE 47.5, Bajas BUF/MIN 46.5; la alerta de IND +6 NO se juega (venta de
+  jugadores + sin mariscal). Coaches de nflverse corregidos con `team_env.json`
+  (`fix_coaches`). Pendientes antes de grabar el preview: QB de Baltimore,
+  Steichen/QB de IND, lesiones del MNF CHI@SEA.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

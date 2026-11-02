@@ -39,6 +39,16 @@ The episode opens with the **recap of the week just played plus waivers**
 (§8). That runs Monday/Tuesday, after the games and before waivers clear,
 and it's a separate run: "haz el recap", "los waivers de la semana".
 
+**One episode = recap of week N + preview of week N+1** (user 2026-11-02: the
+show records on recap day, and a guion whose "tres historias" were week 8's
+previews was wrong for a week-9 recording). So whenever the recap of week N
+exists and week N+1 has no `rundown.md` yet, the recording needs the whole
+run above for N+1 too: `podcast_prep.py N+1`, research, rundown, picks. The
+app opens on the newest week with data and shows week N's recap in that
+week's Recap tab, so prepping N+1 is also what makes the app current. A
+Monday rundown says in its header that no practice reports exist yet and
+that the MNF teams' injuries are still pending.
+
 Asked something smaller, do only that piece:
 - "recap" / "waivers" → §8 in full.
 - "refresh the lines" → step 1 plus the app's Actualizar button.
@@ -70,6 +80,10 @@ What the sheet holds, and how to read it:
   number posted before the prior week's games (wk 8: CAR @ GB "opened -7" and
   KC @ DEN's flip both turned out to be lookahead lines, not real moves). A big
   move with no news behind it gets checked against a second book before it goes on air.
+- **nflverse coach names lag for the current season** (2026: Gannon at ARI,
+  McDermott at BUF, Morris at ATL, "Kubliak" at LV). `fix_coaches()` overwrites
+  this season's rows with `team_env.json`'s `hc`, so keep that field current
+  when a coach is fired in-season.
 - **ESPN's injury list lags.** It can carry an IR tag on a player already back at
   practice (wk 8: Shavers). Practice participation from the research layer wins.
 - **"missed N of last 3"** next to a player means the L3 shares cover only the

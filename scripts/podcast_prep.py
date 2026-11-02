@@ -476,6 +476,22 @@ def _cell(rows, both=True):
     return s
 
 
+def fix_coaches(hgames, season):
+    """nflverse fills this season's head coaches from stale data (2026: Gannon at
+    ARI, McDermott at BUF, Morris at ATL, "Kubliak" at LV). team_env.json's hc
+    is the verified source, so it wins for the current season's rows."""
+    env = json.loads((ROOT / "data" / "intel" / "team_env.json").read_text())
+    alias = {"WSH": "WAS", "LA": "LAR"}
+    for g in hgames:
+        if g["season"] != int(season):
+            continue
+        for side in ("home", "away"):
+            t = g[f"{side}_team"]
+            hc = (env.get(t) or env.get(alias.get(t, t)) or {}).get("hc")
+            if hc:
+                g[f"{side}_coach"] = hc
+
+
 def history_block(g, hist, ctx):
     """Coach / QB / series / venue / luck rows for one upcoming game.
     Returns (markdown lines, notable [(score, text)], data dict)."""
@@ -667,6 +683,7 @@ def main():
 
     rec = team_records(finals)
     hgames = history.load_games()
+    fix_coaches(hgames, season)
     hc, hq, ht = history.index(hgames)
     hist = {"coach": hc, "qb": hq, "team": ht}
     hist_row = {g["espn"]: g for g in hgames if g.get("espn")}

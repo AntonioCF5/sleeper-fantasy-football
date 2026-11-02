@@ -55,6 +55,40 @@
         "why": "Wind 14-15 gusts 21+, IND fire sale (Nelson/Buckner traded)",
         "result": "L"
       }
+    ],
+    "9": [
+      {
+        "game": "TB@CHI",
+        "bet": "spread",
+        "side": "TB",
+        "line": 5.5,
+        "conf": 2,
+        "why": "Only 🚩 that survives research: TB 1-5 in one-score (-1.8 wins vs differential), 6th scoring D; CHI 6 days after MNF at SEA; 0-completion game was rain"
+      },
+      {
+        "game": "CIN@ATL",
+        "bet": "spread",
+        "side": "CIN",
+        "line": -3.0,
+        "conf": 1,
+        "why": "Neutral site (Madrid); mild model lean (FPI CIN 78%); Penix 4 INT, ATL 16 giveaways vs CIN 4th in sacks"
+      },
+      {
+        "game": "GB@NE",
+        "bet": "total",
+        "side": "under",
+        "line": 47.5,
+        "conf": 1,
+        "why": "Naive total 42.6; GB 2-6 under, 32nd yds/rush; both D top-10; A.J. Brown doubtful, Watson broken rib; outdoor Nov"
+      },
+      {
+        "game": "BUF@MIN",
+        "bet": "total",
+        "side": "under",
+        "line": 46.5,
+        "conf": 1,
+        "why": "MIN 1-6 under, last 5 totals 25-39; #1 scoring D vs 27th offense; Murray hamstring"
+      }
     ]
   }
 }
