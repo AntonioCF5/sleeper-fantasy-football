@@ -183,6 +183,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .bar { position: relative; height: 8px; background: var(--surface-2); border-radius: 4px; overflow: visible; min-width: 60px; }
 .bar > span { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: var(--accent); }
 .bar > i { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--text); opacity: .55; border-radius: 1px; }
+.kp td { vertical-align: top; } .kp-sub { font-size: 11px; margin-top: 2px; white-space: nowrap; }
+.kp-log { font-size: 11.5px; line-height: 1.35; padding: 1px 0; white-space: nowrap; }
 .barcell { display: grid; grid-template-columns: 38px 1fr; align-items: center; gap: 8px; min-width: 130px; }
 .barcell b { font-size: 12px; text-align: right; }
 .barcell small { grid-column: 2; font-size: 11px; color: var(--faint); margin-top: -2px; }
@@ -357,7 +359,7 @@ a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--
   <div class="card">
     <h3>Atajos de teclado</h3>
     <div class="stat-row"><span>Partido siguiente / anterior</span><span><span class="kbd">J</span><span class="kbd">K</span> o <span class="kbd">↓</span><span class="kbd">↑</span></span></div>
-    <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">8</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
+    <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">9</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
     <div class="stat-row"><span>Cartelera completa</span><span class="kbd">G</span></div>
     <div class="stat-row"><span>Buscar</span><span class="kbd">/</span></div>
     <div class="stat-row"><span>Tema claro / oscuro</span><span class="kbd">T</span></div>
@@ -384,7 +386,7 @@ const NAMES = {
 const SL = t => t === "WSH" ? "WAS" : t;   // ESPN code → Sleeper code
 const TABS = [
   ["resumen","Resumen"],["equipos","Equipos"],["historia","Historia"],["fantasy","Fantasy"],
-  ["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
+  ["jugadores","Jugadores clave"],["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
 ];
 const OV_TABS = [["cartelera","Cartelera"],["recap","Recap y waivers"],["guion","Guion general"],["hoja","Notas de la hoja"]];
 const DAY_ORDER = {jue:0, vie:1, sáb:2, dom:3, lun:4, mar:5, mié:6};
@@ -857,7 +859,8 @@ function gameView(g) {
       <div class="hero-team home"><div class="hero-name"><div class="hero-abbr">${hm}</div><div class="hero-rec">${NAMES[hm] || ""} · ${esc(rec(hm))}</div></div>${logo(hm, "logo-lg")}</div>
     </div><div class="hero-chips">${chips}</div></section>`;
   h += tabsHtml(TABS);
-  const R = {resumen: tabResumen, equipos: tabEquipos, historia: tabHistoria, fantasy: tabFantasy, uso: tabUso,
+  const R = {resumen: tabResumen, equipos: tabEquipos, historia: tabHistoria, fantasy: tabFantasy,
+             jugadores: tabJugadores, uso: tabUso,
              lesiones: tabLesiones, guion: tabGuion, hoja: tabHoja}[S.tab];
   return h + `<div style="--away-c:${COLORS[a]};--home-c:${COLORS[hm]}">${R(g)}</div>`;
 }
@@ -1035,6 +1038,50 @@ function tabUso(g) {
   return h + `</div>`;
 }
 
+// key players: per-game box score, last 3 of the team (bold) vs season (grey), plus the last-3 log
+function kpPair(r, k, f = fmt1) {
+  const l3 = r.l3 || {}, sz = r.season || {};
+  return `${l3.g ? `<b>${f(l3[k])}</b> ` : ""}<span class="faint">${f(sz[k])}</span>`;
+}
+function kpLog(e, pos) {
+  if (!e.played) return `<div class="kp-log faint">S${e.w} · no jugó</div>`;
+  const bits = [];
+  if (pos === "QB") bits.push(`${e.pass_cmp}/${e.pass_att}, ${e.pass_yd} yds, ${e.pass_td} TD, ${e.pass_int} INT`);
+  if (e.rush && (pos === "RB" || e.rush_yd >= 15 || e.rush_td)) bits.push(`${e.rush} acar. ${e.rush_yd} yds${e.rush_td ? `, ${e.rush_td} TD` : ""}`);
+  if (pos !== "QB" && (e.tgt || pos !== "RB")) bits.push(`${e.rec}/${e.tgt} tgt, ${e.rec_yd} yds${e.rec_td ? `, ${e.rec_td} TD` : ""}`);
+  return `<div class="kp-log"><b>S${e.w}</b> vs ${esc(e.opp || "")} · ${pct(e.snap)} snaps · ${bits.join(" · ")} · <b>${fmt1(e.ppr)}</b> PPR</div>`;
+}
+function tabJugadores(g) {
+  const sh = g.sheet;
+  let h = `<div class="grid">`;
+  for (const t of [sh.away, sh.home]) {
+    const rows = sh.key_players?.[t] || [];
+    h += `<div class="card"><h3>${logo(t)} ${t} · jugadores clave <span class="chip">vs ${t === sh.away ? sh.home : sh.away}</span></h3>`;
+    if (!rows.length) { h += `<div class="empty">Sin datos.</div></div>`; continue; }
+    h += `<div class="table-wrap"><table class="kp"><thead><tr><th>Jugador</th><th class="c">Snaps</th><th class="c">Pase · recepción</th><th class="c">Carrera</th><th class="c">Toques</th><th class="c">TD temp.</th><th class="c">PPR/partido</th><th>Últimos 3</th></tr></thead><tbody>`;
+    for (const r of rows) {
+      const sz = r.season || {}, qb = r.pos === "QB";
+      const air = qb
+        ? `${kpPair(r, "cmp_g")} / ${kpPair(r, "att_g")}<div class="faint kp-sub">comp/int · ${kpPair(r, "pass_yd_g", x => x == null ? "—" : Math.round(x))} yds · ${kpPair(r, "cmp_pct", pct)}</div>`
+        : `${kpPair(r, "tgt_g")} tgt<div class="faint kp-sub">${kpPair(r, "rec_g")} rec · ${kpPair(r, "rec_yd_g", x => x == null ? "—" : Math.round(x))} yds</div>`;
+      const run = (sz.rush_g || 0) >= 1
+        ? `${kpPair(r, "rush_g")} acar.<div class="faint kp-sub">${kpPair(r, "rush_yd_g", x => x == null ? "—" : Math.round(x))} yds · ${kpPair(r, "ypc")} ypc</div>`
+        : `<span class="faint">—</span>`;
+      const td = qb ? `${sz.pass_td} TD · ${sz.int} INT${sz.rush_td ? `<div class="faint kp-sub">${sz.rush_td} TD carrera</div>` : ""}`
+                    : `${sz.td}${sz.td ? `<div class="faint kp-sub">${sz.rush_td} carrera · ${sz.rec_td} rec.</div>` : ""}`;
+      h += `<tr><td><div class="player"><span class="pos pos-${r.pos}">${r.pos}</span>${sleeperLink(r.pid, r.name)}
+          ${r.inj ? `<span class="chip ${/Fuera|Duda/.test(r.inj) ? "bad" : "warn"}">${esc(r.inj)}</span>` : ""}</div>
+          <div class="faint kp-sub">proy. ${fmt1(r.ppr)} PPR${r.missed ? ` · se perdió ${r.missed} de los últimos 3` : ""}</div></td>
+        <td class="c">${kpPair(r, "snap", pct)}</td><td class="c">${air}</td><td class="c">${run}</td>
+        <td class="c">${qb ? '<span class="faint">—</span>' : kpPair(r, "touch_g")}</td><td class="c">${td}</td>
+        <td class="c">${kpPair(r, "ppr_g")}</td><td>${(r.log || []).map(e => kpLog(e, r.pos)).join("")}</td></tr>`;
+    }
+    h += `</tbody></table></div></div>`;
+  }
+  h += `<div class="card faint" style="font-size:12px">Todo es por partido. En negritas, los últimos 3 partidos del equipo; en gris, la temporada. TD = totales de la temporada. Últimos 3 = cada partido del equipo, el más reciente primero (comp/int del mariscal; recepciones/targets y yardas; acarreos y yardas). Jugadores clave = el mariscal titular, los 2 corredores con más toques del backfield y los 4 receptores con más targets; los de reserva de lesionados no entran. Ypc sale — con menos de 5 acarreos.</div>`;
+  return h + `</div>`;
+}
+
 function tabLesiones(g) {
   const sh = g.sheet;
   const order = {Fuera: 0, Duda: 1, Cuestionable: 2};
@@ -1096,7 +1143,7 @@ document.addEventListener("keydown", e => {
   if (k === "j" || e.key === "ArrowDown") { e.preventDefault(); if (list.length) go(list[Math.min(i + 1, list.length - 1)], S.game ? S.tab : "resumen"); }
   else if (k === "k" || e.key === "ArrowUp") { e.preventDefault(); if (i > 0) go(list[i - 1], S.tab); else go(null, "cartelera"); }
   else if (e.key === "ArrowRight" || e.key === "ArrowLeft") { const ti = tabs.indexOf(S.tab); go(S.game, tabs[(ti + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length]); }
-  else if (/^[1-8]$/.test(e.key) && tabs[+e.key - 1]) go(S.game, tabs[+e.key - 1]);
+  else if (/^[1-9]$/.test(e.key) && tabs[+e.key - 1]) go(S.game, tabs[+e.key - 1]);
   else if (k === "g") go(null, "cartelera");
   else if (k === "t") $("#themeBtn").click();
   else if (e.key === "/") { e.preventDefault(); $("#sidebar").classList.add("open"); $("#search").focus(); }

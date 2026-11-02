@@ -136,6 +136,24 @@ What the sheet holds, and how to read it:
     and Rotowire put them behind a paywall. Use route participation only when
     the user pastes it from a subscription; otherwise targets per snap and
     snap % are the stand-ins.
+- **Jugadores clave** (user 2026-11-02: per game, the key players with snap %,
+  targets, carries, touches and stats), per team: the QB1, the top 2 backs by
+  backfield share and the top 4 pass-catchers by target share. QB1 is the
+  healthy QB who threw the most in the team's last game, falling back to the
+  most recent passer when every QB is tagged Out (BAL wk 9). IR/PUP players
+  are left out; Out players stay in with their tag. Everything is per game,
+  last 3 of the team (season):
+  - snaps
+  - targets, receptions and receiving yards
+  - carries, rushing yards and ypc ("—" under 5 carries)
+  - touches; for a QB: comp/att, pass yards and comp %
+  - season TDs split by type, and PPR per game
+  - a log of each of the team's last 3 games (newest first, "no jugó" when
+    he missed it)
+
+  Built by `key_players()` / `key_table()` from the weekly box score that
+  `load_sleeper` stores per player. It goes in `sheet.key_players` and the app's
+  **Jugadores clave** tab.
 - **Coaches & history** (nflverse games file since 1999, closing lines,
   includes playoffs; module `sleeper/history.py`), per team:
   - head coach career SU/ATS
@@ -310,6 +328,8 @@ UI (HTML, CSS and JS in one file).
   - **Equipos**: `team_rows` with a 1-32 rank chip on every "(Nº)".
   - **Historia**: `series`, `notables` and the rundown's Historia bullet.
   - **Fantasy**: the player table, the DST line and the rundown's Fantasy bullet.
+  - **Jugadores clave**: `key_players`, per-game box score plus the last-3
+    game log.
   - **Uso**: usage bars, where the bar is the last 3 games and the tick mark
     is the season.
   - **Lesiones**: `injuries`.
@@ -327,7 +347,7 @@ Rename any of these and that block goes empty in the app.
 
 Shortcuts:
 - J/K or ↑/↓: next or previous game
-- ←/→ or 1-8: switch tab
+- ←/→ or 1-9: switch tab
 - G: back to the slate
 - /: search
 - T: theme

@@ -265,15 +265,21 @@ def load_sleeper(season, week):
                 continue
             if pos not in SKILL or not st.get("gms_active"):
                 continue
+            pts = score_stat_line(st, PPR)
             if opp:
-                fpa[opp][w][pos] += score_stat_line(st, PPR)
+                fpa[opp][w][pos] += pts
             u = usage[r["player_id"]][w]
             # rec_air_yd is COMPLETED air yards (rec_yd - rec_yar), not air yards on every target
             u.update(tgt=st.get("rec_tgt") or 0, rush=st.get("rush_att") or 0,
                      snp=st.get("off_snp") or 0, tm_snp=st.get("tm_off_snp") or 0, team=team, pos=pos,
                      rec=st.get("rec") or 0, air=st.get("rec_air_yd") or 0, pass_att=st.get("pass_att") or 0,
                      pass_yd=st.get("pass_yd") or 0, rec_yd=st.get("rec_yd") or 0,
-                     rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0)
+                     rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0,
+                     # the box-score line behind "jugadores clave"
+                     opp=opp, ppr=pts, rush_yd=st.get("rush_yd") or 0, rush_td=st.get("rush_td") or 0,
+                     rec_td=st.get("rec_td") or 0, pass_cmp=st.get("pass_cmp") or 0,
+                     pass_td=st.get("pass_td") or 0, pass_int=st.get("pass_int") or 0,
+                     fum_lost=st.get("fum_lost") or 0)
             tt = team_tot[team][w]
             for k in ("tgt", "rush", "air", "rz_tgt", "rz_rush"):
                 tt[k] += u[k]
@@ -305,6 +311,15 @@ def load_sleeper(season, week):
                     # efficiency: under 5 attempts/targets in the window it's noise, so None
                     "ypa": mine("pass_yd") / mine("pass_att") if mine("pass_att") >= 5 else None,
                     "ypt": mine("rec_yd") / mine("tgt") if mine("tgt") >= 5 else None,
+                    # per-game box score (jugadores clave): volume, yards, TDs, points
+                    "rec_g": mine("rec") / len(ws), "rec_yd_g": mine("rec_yd") / len(ws),
+                    "rush_g": mine("rush") / len(ws), "rush_yd_g": mine("rush_yd") / len(ws),
+                    "ypc": mine("rush_yd") / mine("rush") if mine("rush") >= 5 else None,
+                    "pass_yd_g": mine("pass_yd") / len(ws), "cmp_g": mine("pass_cmp") / len(ws),
+                    "cmp_pct": mine("pass_cmp") / mine("pass_att") if mine("pass_att") >= 5 else None,
+                    "pass_td": int(mine("pass_td")), "int": int(mine("pass_int")), "fum": int(mine("fum_lost")),
+                    "rush_td": int(mine("rush_td")), "rec_td": int(mine("rec_td")),
+                    "td": int(mine("rush_td") + mine("rec_td")), "ppr_g": mine("ppr") / len(ws),
                     "g": len(ws)}
         # L3 = the TEAM's last 3 games, not the player's last 3 appearances —
         # otherwise a back returning from a month out shows month-old usage
@@ -312,7 +327,19 @@ def load_sleeper(season, week):
         team = usage[pid][weeks[-1]]["team"]
         team_l3 = sorted(team_tot[team])[-3:]
         l3 = [w for w in weeks if w in team_l3]
-        return {"season": agg(weeks), "l3": agg(l3) if l3 else {"g": 0}, "missed_l3": len(team_l3) - len(l3)}
+        log = []
+        for w in reversed(team_l3):  # newest first; a game he missed stays in as "no jugó"
+            u = usage[pid].get(w)
+            if not u or not u["snp"]:
+                log.append({"w": w, "played": False})
+                continue
+            log.append({"w": w, "played": True, "opp": u.get("opp"), "snap": u["snp"] / u["tm_snp"] if u["tm_snp"] else None,
+                        "ppr": u.get("ppr", 0),
+                        **{k: int(round(u.get(k) or 0)) for k in ("tgt", "rec", "rec_yd", "rec_td", "rush", "rush_yd",
+                                                                   "rush_td", "pass_att", "pass_cmp", "pass_yd",
+                                                                   "pass_td", "pass_int")}})
+        return {"season": agg(weeks), "l3": agg(l3) if l3 else {"g": 0}, "missed_l3": len(team_l3) - len(l3),
+                "log": log}
 
     proj = []
     for r in api.get_week_projections(season, week) or []:
@@ -400,6 +427,77 @@ def usage_table(u):
     if bits:
         out.append("\n_" + " · ".join(bits) + "_\n")
     return out
+
+
+def key_players(t, proj):
+    """The players a game is argued through: QB1, the top 2 backs by backfield
+    share and the top 4 pass-catchers by target share, each with his per-game
+    box score (last 3 of the team and season) and the last-3 game log."""
+    # IR/PUP/suspended players are off the board for this game; Out stays in, tagged,
+    # because who's missing is part of the argument (Egbuka, A.J. Brown)
+    ps = [p for p in proj if p["team"] == sl(t) and p["share"]
+          and (p["pos"] == "QB" or p["inj"] not in ("IR", "PUP", "Suspension"))]
+    cur = lambda p, k: (p["share"].get("l3") or {}).get(k) or p["share"]["season"].get(k) or 0  # noqa: E731
+    # QB1: healthy first, then whoever threw the most in the team's last game, then
+    # volume. BAL wk 9 has every QB tagged Out → Fagnano, who threw 21 in week 8.
+    def last_att(p):
+        log = p["share"].get("log") or []
+        return log[0]["pass_att"] if log and log[0]["played"] else 0
+    qbs = sorted((p for p in ps if p["pos"] == "QB"),
+                 key=lambda p: (p["inj"] not in ("Out", "IR", "PUP", "Suspension"), last_att(p), cur(p, "att_g")),
+                 reverse=True)[:1]
+    rbs = sorted((p for p in ps if p["pos"] == "RB" and cur(p, "touch") >= 0.15),
+                 key=lambda p: cur(p, "touch"), reverse=True)[:2]
+    rec = sorted((p for p in ps if p["pos"] in ("WR", "TE") and cur(p, "tgt") >= 0.10),
+                 key=lambda p: cur(p, "tgt"), reverse=True)[:4]
+    return [{"pid": p["pid"], "name": p["name"], "pos": p["pos"], "ppr": p["ppr"],
+             "inj": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
+             "missed": p["share"].get("missed_l3") or 0, "l3": p["share"].get("l3") or {"g": 0},
+             "season": p["share"]["season"], "log": p["share"].get("log") or []}
+            for p in qbs + rbs + rec]
+
+
+def _log_txt(e, pos):
+    if not e["played"]:
+        return f"S{e['w']} no jugó"
+    bits = []
+    if pos == "QB":
+        bits.append(f"{e['pass_cmp']}/{e['pass_att']}, {e['pass_yd']} yds, {e['pass_td']} TD, {e['pass_int']} INT")
+    if e["rush"] and (pos == "RB" or e["rush_yd"] >= 15 or e["rush_td"]):
+        bits.append(f"{e['rush']}-{e['rush_yd']}" + (f"-{e['rush_td']}" if e["rush_td"] else "") + " carrera")
+    if pos != "QB" and (e["tgt"] or pos != "RB"):
+        bits.append(f"{e['rec']}-{e['rec_yd']}" + (f"-{e['rec_td']}" if e["rec_td"] else "") + f" en {e['tgt']} tgt")
+    return f"S{e['w']} vs {e['opp']}: " + ", ".join(bits) + f" · {e['snap']:.0%} snaps · {e['ppr']:.1f} PPR"
+
+
+def key_table(t, rows):
+    """Per-game box score, last 3 (season), for the sheet."""
+    if not rows:
+        return []
+    f1 = lambda d, k: "—" if d.get(k) is None else f"{d[k]:.1f}"  # noqa: E731
+    both = lambda r, k, fmt=f1: (f"{fmt(r['l3'], k)} ({fmt(r['season'], k)})" if r["l3"].get("g")  # noqa: E731
+                                 else f"— ({fmt(r['season'], k)})")
+    pc = lambda d, k: "—" if d.get(k) is None else f"{d[k]:.0%}"  # noqa: E731
+    out = [f"*{t}*\n", "| Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |",
+           "|---|---|---|---|---|---|---|---|"]
+    for r in rows:
+        l3, sz = r["l3"], r["season"]
+        name = f"{r['name']} ({r['pos']})" + (f" · {r['inj']}" if r["inj"] else "") \
+            + (f" *(se perdió {r['missed']})*" if r["missed"] else "")
+        logs = "<br>".join(_log_txt(e, r["pos"]) for e in r["log"])
+        if r["pos"] == "QB":
+            rec_cell = (f"{f1(l3, 'cmp_g')}/{f1(l3, 'att_g')} · {f1(l3, 'pass_yd_g')} yds · {pc(l3, 'cmp_pct')}"
+                        if l3.get("g") else "—") + f" (temp. {f1(sz, 'pass_yd_g')} yds)"
+            td = f"{sz['pass_td']} TD pase · {sz['int']} INT" + (f" · {sz['rush_td']} TD carrera" if sz["rush_td"] else "")
+        else:
+            rec_cell = (f"{both(r, 'tgt_g')} · {both(r, 'rec_g')} · {both(r, 'rec_yd_g')}")
+            td = f"{sz['td']} ({sz['rush_td']} carrera, {sz['rec_td']} recepción)" if sz["td"] else "0"
+        rush_cell = (f"{both(r, 'rush_g')} · {both(r, 'rush_yd_g')} · {both(r, 'ypc')}"
+                     if (sz.get("rush_g") or 0) >= 1 else "—")
+        touch = both(r, "touch_g") if r["pos"] != "QB" else "—"
+        out.append(f"| {name} | {pc(l3, 'snap') if l3.get('g') else '—'} ({pc(sz, 'snap')}) | {rec_cell} | {rush_cell} | "
+                   f"{touch} | {td} | {both(r, 'ppr_g')} | {logs} |")
+    return out + [""]
 
 
 # ---------------------------------------------------------------- picks
@@ -947,6 +1045,10 @@ def main():
         usage = {t: usage_data(t, slr["proj"]) for t in (a, h)}
         for t in (a, h):
             L.extend(usage_table(usage[t]))
+        L.append("\n**Jugadores clave** (por partido: últimos 3 del equipo · temporada entre paréntesis)\n")
+        key = {t: key_players(t, slr["proj"]) for t in (a, h)}
+        for t in (a, h):
+            L.extend(key_table(t, key[t]))
         dst_lines = {}
         for t in (a, h):
             opp = h if t == a else a
@@ -977,7 +1079,7 @@ def main():
                                "srs_line": fmt_spread(h, round(-srs_margin * 2) / 2) if srs_margin is not None else None,
                                "verdict": verdict, "mkt_margin": mkt_margin,
                                "team_rows": team_rows, "last5": last5, "injuries": injuries,
-                               "usage": usage, "dst": dst_lines, "series": series, "notables": notables,
+                               "usage": usage, "key_players": key, "dst": dst_lines, "series": series, "notables": notables,
                                "md": "\n".join(L)}})
 
     out.append("## Cartelera\n")
