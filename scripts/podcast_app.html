@@ -755,7 +755,7 @@ function tabRecap() {
   const W = r.waivers || {};
   const POS = [["QB", "Mariscales"], ["RB", "Corredores"], ["WR", "Receptores"], ["TE", "Alas cerradas"]];
   h += `<div class="sec-title">Waivers para la semana ${r.week + 1}</div>
-    <div class="card faint" style="font-size:12px;margin-bottom:16px">En 50% o menos de las ligas redraft de Sleeper. Orden: nivel (<b>A</b> heredó un backfield de trabajo, 30-60% del FAAB · <b>B</b> rol o proyección de titular, 15-25% · <b>C</b> profundidad, 1-5%) y luego la proyección PPR (promedio de la de Sleeper y la implícita por el uso de esta semana). Uso: negritas = semana ${r.week}, gris = temporada antes. Confirma la duración de cada lesión antes de decir un nivel A al aire.</div>
+    <div class="card faint" style="font-size:12px;margin-bottom:16px">En 50% o menos de las ligas redraft de Sleeper (hasta 80% si su rol cambió esta semana: “si está libre en tu liga”). Orden: nivel (<b>A</b> heredó un backfield de trabajo, 30-60% del FAAB · <b>B</b> rol o proyección de titular, 15-25% · <b>C</b> profundidad, 1-5%) y luego la proyección PPR (promedio de la de Sleeper y la implícita por el uso de esta semana). Uso: negritas = semana ${r.week}, gris = temporada antes. Confirma la duración de cada lesión antes de decir un nivel A al aire.</div>
     <div class="grid cols-2">`;
   for (const [pos, label] of POS) {
     const rows = W[pos] || [];
@@ -766,7 +766,7 @@ function tabRecap() {
     rows.forEach((c, n) => {
       const use = c.now ? `<b>${pct(c.now[k])}</b> <span class="faint">${pct(c.pre?.[k])}</span><div class="faint" style="font-size:11px">${SHARE_LABEL[k]}</div>` : "—";
       h += `<tr><td class="num">${n + 1}</td><td>${playerCell(c, c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : "")}</td>
-        <td class="c">${Math.round(c.owned)}%</td>
+        <td class="c">${Math.round(c.owned)}%${c.deep ? `<div class="faint" style="font-size:11px">libre en ${100 - Math.round(c.owned)}%</div>` : ""}</td>
         <td>${c.pts_wk != null ? `<b>${fmt1(c.pts_wk)}</b> <span class="faint" style="font-size:12px">${esc(c.line_wk)}</span>` : `<span class="faint">${esc(c.line_wk || "—")}</span>`}</td>
         <td class="c">${use}</td>
         <td class="c">${esc(c.opp)}${c.opp_rank ? `<div>${rankChip(c.opp_rank)}</div>` : ""}</td>

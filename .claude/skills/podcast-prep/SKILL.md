@@ -425,9 +425,10 @@ What it holds:
   - **usage that changed** vs the season before this week: backfield share
     +20 pts, target share +10, snaps +25, or a starter cut to half his snaps
   - the injuries
-- **Waivers for next week, by position** (QB 4, RB 8, WR 8, TE 4, DST 5):
+- **Waivers for next week, by position** (a pool of QB 8, RB 12, WR 12, TE 8, DST 8):
   - Who qualifies: rostered in ≤50% of Sleeper **redraft** leagues
-    (`api.get_ownership`, the research endpoint), and not Out/IR.
+    (`api.get_ownership`, the research endpoint), or 50-80% when the role
+    changed this week (an inherited role or a usage jump); never Out/IR.
   - Projection: the average of Sleeper's projection re-scored in PPR and a
     **usage-implied projection**. Sleeper lags role changes by days (wk 8:
     Mike Washington Jr. at 81% of the LV backfield was projected 5.2; his
@@ -475,11 +476,20 @@ a card at the top of the Recap tab, so keep these headings:
 ## Nuestros picks: record + one honest post-mortem line per loss (what we missed, not "bad luck")
 ## Contra la línea: favorites/home/overs, the biggest market miss and WHY
 ## Lesiones: each one → timeline → who replaces him → fantasy verdict
-## Waivers por posición: QB / RB / WR / TE / DST, each as "1. Name (team, % in leagues): why — FAAB %"
+## Waivers por posición: RB / WR / TE / QB / DST, each a RANKED list of 5+ as "1. Name (team, % in leagues): why — FAAB %"
 ## Los que NO: the trap adds (a trending name whose role isn't real), with the stat that says so
 ```
 
 Waiver rules (the same discipline as the weekly report):
+- **Rank several per position (user 2026-11-02).** Give at least 5 for each of
+  RB, WR, TE, QB and DST, numbered 1-N. The script's pool is larger than
+  that (QB 8, RB 12, WR 12, TE 8, DST 8), so research can drop the traps and
+  still leave 5. A position with fewer than 5 real adds says so, and the
+  rest of its list is labeled as streamers or deep-league names.
+- **"Libre en X%"**: players rostered in 50-80% of leagues make the pool only
+  when their role changed this week (wk 8: Allgeier at 58%, Coleman at 75%).
+  Rank them with everyone else, and say how many leagues they're still free
+  in.
 - **Priority goes by position, and inside each position by rest-of-season
   role.** A one-week boom is not a role. Lead with the add that changes
   rosters: an inherited workhorse role, then a starting job, then streamers.

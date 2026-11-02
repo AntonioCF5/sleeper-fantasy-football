@@ -1,6 +1,6 @@
 # Recap del podcast — Semana 8, 2026
 
-*Generado lun 2 nov, 10:39 am CDMX · 13 partidos terminados · pendientes: CHI @ SEA (lun 2 nov 7:15 pm) (vuelve a correr después)*
+*Generado lun 2 nov, 10:48 am CDMX · 13 partidos terminados · pendientes: CHI @ SEA (lun 2 nov 7:15 pm) (vuelve a correr después)*
 
 **Nuestro récord de picks** — Semana 8: **0-5** · Temporada: **0-5**
 
@@ -179,7 +179,7 @@ Otras: DJ Moore (WR, BUF, cuestionable); Joshua Palmer (WR, BUF, cuestionable); 
 
 ## Waivers para la semana 9
 
-*Disponibles = en 50% de las ligas redraft de Sleeper o menos. Orden: nivel (A heredó un backfield de trabajo · B rol o proyección de titular · C profundidad), luego la proyección PPR de la semana 9 (promedio de la de Sleeper y la implícita por el uso). FAAB = % del presupuesto. Confirma la duración de cada lesión antes de decir un nivel A al aire.*
+*Disponibles = en 50% de las ligas redraft de Sleeper o menos (hasta 80% si su rol cambió esta semana: "si está libre en tu liga"). Orden: nivel (A heredó un backfield de trabajo · B rol o proyección de titular · C profundidad), luego la proyección PPR de la semana 9 (promedio de la de Sleeper y la implícita por el uso). FAAB = % del presupuesto. Confirma la duración de cada lesión antes de decir un nivel A al aire.*
 
 ### Mariscales
 
@@ -189,31 +189,44 @@ Otras: DJ Moore (WR, BUF, cuestionable); Joshua Palmer (WR, BUF, cuestionable); 
 | 2 | Malik Willis (MIA) 📈36,540 | 18% | 15.6 — 21/32, 211 yds, 2 TD, 1 INT | 100% (100%) snaps | vs DET (1º que más permite) | 17.0 / — | — | **C** 1-5% |
 | 3 | Baker Mayfield (TB) | 29% | 1.4 — 0/3, 0 yds, 0 TD, 0 INT | 100% (96%) snaps | @ CHI (8º que más permite) | 16.5 / — | — | **C** 1-5% |
 | 4 | J.J. McCarthy (NYG) | 14% | descansó | — | @ PHI (10º que más permite) | 16.4 / — | — | **C** 1-5% |
+| 5 | Daniel Jones (IND) | 13% | 8.5 — 19/28, 144 yds, 1 TD, 2 INT | 79% (101%) snaps | vs DAL (6º que más permite) | 15.5 / — | — | **C** 1-5% |
+| 6 | Michael Penix Jr. (ATL) | 27% | 2.1 — 8/24, 125 yds, 0 TD, 4 INT | 100% (99%) snaps | vs CIN (14º que más permite) | 15.3 / — | — | **C** 1-5% |
+| 7 | Justin Herbert (LAC) | 35% | 9.8 — 24/32, 257 yds, 0 TD, 2 INT | 100% (100%) snaps | vs HOU (13º que más permite) | 14.7 / — | — | **C** 1-5% |
+| 8 | Deshaun Watson (CLE) 📈13,896 | 16% | 11.2 — 27/39, 324 yds, 0 TD, 0 INT | 94% (100%) snaps | @ NO (17º que más permite) | 14.3 / — | — | **C** 1-5% |
 
 ### Corredores
 
 | # | Jugador | % ligas | Semana 8 | Uso sem. 8 (antes) | Semana 9: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Mike Washington Jr. (LV) 📈19,923 | 30% | 8.3 — tierra 25-83 | 81% (22%) backfield | @ SF (12º que más permite) | 5.2 / 18.6 | uso al alza: 81% de los toques del backfield (antes 22%); la proyección de Sleeper (5.2) todavía no refleja el uso (18.6) | **B** 15-25% |
-| 2 | Kenny Gainwell (TB) 📈82,424 | 43% | 14.0 — tierra 25-140 · recepción 0/1, 0 yds | 48% (23%) backfield | @ CHI (28º que más permite) | 6.8 / 12.2 | uso al alza: 48% de los toques del backfield (antes 23%); la proyección de Sleeper (6.8) todavía no refleja el uso (12.2) | **C** 1-5% |
-| 3 | Devin Singletary (NYG) 📈502,749 | 22% | descansó | — | @ PHI (15º que más permite) | 8.0 / — | — | **C** 1-5% |
-| 4 | Sione Vaki (DET) 📈27,013 | 1% | 8.0 — tierra 11-65 · recepción 1/1, 5 yds | 32% (11%) backfield | @ MIA (8º que más permite) | 4.4 / 10.1 | uso al alza: 32% de los toques del backfield (antes 11%); la proyección de Sleeper (4.4) todavía no refleja el uso (10.1) | **C** 1-5% |
-| 5 | Kimani Vidal (LAC) 📈76,020 | 22% | 5.0 — tierra 8-23 · recepción 2/2, 7 yds | 36% (17%) backfield | vs HOU (13º que más permite) | 6.2 / 7.3 | uso al alza: 36% de los toques del backfield (antes 17%) | **C** 1-5% |
-| 6 | Dylan Sampson (CLE) 📈41,550 | 21% | 12.9 — tierra 1-7 · recepción 6/8, 62 yds | 35% (33%) backfield | @ NO (1º que más permite) | 5.8 / 7.0 | ojo: su partido se decidió por 21 — confirmar que no fue uso de paliza | **C** 1-5% |
-| 7 | Justice Hill (BAL) 📈19,440 | 10% | 7.5 — tierra 3-15 · recepción 4/8, 20 yds | 32% (17%) backfield | vs JAX (32º que más permite) | 4.7 / 7.2 | uso al alza: 32% de los toques del backfield (antes 17%); ojo: su partido se decidió por 26 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 1 | Tyler Allgeier (ARI) 📈293,175 | 58% (libre en 42%) | 36.1 — tierra 11-147, 1 TD · recepción 5/5, 44 yds, 1 TD | 55% (42%) backfield | @ SEA (18º que más permite) | 6.0 / 11.2 | hereda el rol de Jeremiyah Love (cuestionable, tobillo; tenía 61% de los toques del backfield); uso al alza: 55% de los toques del backfield (antes 42%); la proyección de Sleeper (6.0) todavía no refleja el uso (11.2) | **A** 30-60% |
+| 2 | Jonah Coleman (DEN) 📈44,576 | 75% (libre en 25%) | 20.4 — tierra 11-41, 1 TD · recepción 4/5, 63 yds | 68% (38%) backfield | @ CAR (2º que más permite) | 14.2 / 16.0 | uso al alza: 68% de los toques del backfield (antes 38%) | **B** 15-25% |
+| 3 | Mike Washington Jr. (LV) 📈19,923 | 30% | 8.3 — tierra 25-83 | 81% (22%) backfield | @ SF (12º que más permite) | 5.2 / 18.6 | uso al alza: 81% de los toques del backfield (antes 22%); la proyección de Sleeper (5.2) todavía no refleja el uso (18.6) | **B** 15-25% |
+| 4 | Rachaad White (WAS) 📈21,291 | 75% (libre en 25%) | 14.0 — tierra 11-55, 1 TD · recepción 2/3, 5 yds | 48% (38%) backfield | vs LAR (21º que más permite) | 10.2 / 9.1 | uso al alza: 48% de los toques del backfield (antes 38%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 5 | Kenny Gainwell (TB) 📈82,424 | 43% | 14.0 — tierra 25-140 · recepción 0/1, 0 yds | 48% (23%) backfield | @ CHI (28º que más permite) | 6.8 / 12.2 | uso al alza: 48% de los toques del backfield (antes 23%); la proyección de Sleeper (6.8) todavía no refleja el uso (12.2) | **C** 1-5% |
+| 6 | Devin Singletary (NYG) 📈502,749 | 22% | descansó | — | @ PHI (15º que más permite) | 8.0 / — | — | **C** 1-5% |
+| 7 | Sione Vaki (DET) 📈27,013 | 1% | 8.0 — tierra 11-65 · recepción 1/1, 5 yds | 32% (11%) backfield | @ MIA (8º que más permite) | 4.4 / 10.1 | uso al alza: 32% de los toques del backfield (antes 11%); la proyección de Sleeper (4.4) todavía no refleja el uso (10.1) | **C** 1-5% |
+| 8 | Kimani Vidal (LAC) 📈76,020 | 22% | 5.0 — tierra 8-23 · recepción 2/2, 7 yds | 36% (17%) backfield | vs HOU (13º que más permite) | 6.2 / 7.3 | uso al alza: 36% de los toques del backfield (antes 17%) | **C** 1-5% |
+| 9 | Dylan Sampson (CLE) 📈41,550 | 21% | 12.9 — tierra 1-7 · recepción 6/8, 62 yds | 35% (33%) backfield | @ NO (1º que más permite) | 5.8 / 7.0 | ojo: su partido se decidió por 21 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 10 | Justice Hill (BAL) 📈19,440 | 10% | 7.5 — tierra 3-15 · recepción 4/8, 20 yds | 32% (17%) backfield | vs JAX (32º que más permite) | 4.7 / 7.2 | uso al alza: 32% de los toques del backfield (antes 17%); ojo: su partido se decidió por 26 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 11 | Keaton Mitchell (LAC) | 21% | 5.3 — tierra 4-6 · recepción 3/3, 17 yds | 25% (29%) backfield | vs HOU (13º que más permite) | 6.8 / 5.1 | — | **C** 1-5% |
+| 12 | Kaelon Black (SF) 📈14,448 | 38% | descansó | — | vs LV (6º que más permite) | 5.6 / — | — | **C** 1-5% |
 
 ### Receptores
 
 | # | Jugador | % ligas | Semana 8 | Uso sem. 8 (antes) | Semana 9: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Antonio Williams (WAS) | 36% | 10.4 — 5/7, 54 yds | 26% (14%) targets | vs LAR (28º que más permite) | 7.3 / 13.6 | uso al alza: 26% de los targets (antes 14%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza; la proyección de Sleeper (7.3) todavía no refleja el uso (13.6) | **C** 1-5% |
-| 2 | Adonai Mitchell (NYJ) 📈521,808 | 11% | 27.2 — 7/9, 142 yds, 1 TD | 29% (20%) targets | @ KC (31º que más permite) | 4.0 / 14.3 | la proyección de Sleeper (4.0) todavía no refleja el uso (14.3) | **C** 1-5% |
-| 3 | Ryan Flournoy (DAL) 📈202,584 | 42% | 13.1 — 3/4, 38 yds, 1 TD | 14% (15%) targets | @ IND (26º que más permite) | 8.2 / 8.9 | — | **C** 1-5% |
-| 4 | Efton Chism III (NE) 📈26,340 | 5% | 6.7 — 5/5, 37 yds | 26% (8%) targets | vs GB (9º que más permite) | 3.1 / 13.0 | uso al alza: 26% de los targets (antes 8%); la proyección de Sleeper (3.1) todavía no refleja el uso (13.0) | **C** 1-5% |
-| 5 | Kalif Raymond (CHI) | 12% | juega el lunes | — | vs TB (27º que más permite) | 7.9 / — | — | **C** 1-5% |
-| 6 | Jahan Dotson (ATL) | 2% | 11.5 — 2/5, 95 yds | 22% (13%) targets | vs CIN (14º que más permite) | 5.8 / 10.1 | la proyección de Sleeper (5.8) todavía no refleja el uso (10.1) | **C** 1-5% |
-| 7 | Cooper Kupp (SEA) 📈84,438 | 18% | juega el lunes | — | vs ARI (13º que más permite) | 7.6 / — | — | **C** 1-5% |
-| 8 | Treylon Burks (WAS) 📈42,070 | 6% | 11.1 — 3/5, 81 yds | 19% (11%) targets | vs LAR (28º que más permite) | 5.3 / 9.7 | la proyección de Sleeper (5.3) todavía no refleja el uso (9.7) | **C** 1-5% |
+| 2 | Makai Lemon (PHI) 📈102,168 | 67% (libre en 33%) | 11.7 — 6/9, 57 yds | 28% (16%) targets | vs NYG (15º que más permite) | 4.9 / 15.4 | uso al alza: 28% de los targets (antes 16%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza; la proyección de Sleeper (4.9) todavía no refleja el uso (15.4) | **C** 1-5% |
+| 3 | Adonai Mitchell (NYJ) 📈521,808 | 11% | 27.2 — 7/9, 142 yds, 1 TD | 29% (20%) targets | @ KC (31º que más permite) | 4.0 / 14.3 | la proyección de Sleeper (4.0) todavía no refleja el uso (14.3) | **C** 1-5% |
+| 4 | Ryan Flournoy (DAL) 📈202,584 | 42% | 13.1 — 3/4, 38 yds, 1 TD | 14% (15%) targets | @ IND (26º que más permite) | 8.2 / 8.9 | — | **C** 1-5% |
+| 5 | Efton Chism III (NE) 📈26,340 | 5% | 6.7 — 5/5, 37 yds | 26% (8%) targets | vs GB (9º que más permite) | 3.1 / 13.0 | uso al alza: 26% de los targets (antes 8%); la proyección de Sleeper (3.1) todavía no refleja el uso (13.0) | **C** 1-5% |
+| 6 | Kalif Raymond (CHI) | 12% | juega el lunes | — | vs TB (27º que más permite) | 7.9 / — | — | **C** 1-5% |
+| 7 | Jahan Dotson (ATL) | 2% | 11.5 — 2/5, 95 yds | 22% (13%) targets | vs CIN (14º que más permite) | 5.8 / 10.1 | la proyección de Sleeper (5.8) todavía no refleja el uso (10.1) | **C** 1-5% |
+| 8 | Cooper Kupp (SEA) 📈84,438 | 18% | juega el lunes | — | vs ARI (13º que más permite) | 7.6 / — | — | **C** 1-5% |
+| 9 | Treylon Burks (WAS) 📈42,070 | 6% | 11.1 — 3/5, 81 yds | 19% (11%) targets | vs LAR (28º que más permite) | 5.3 / 9.7 | la proyección de Sleeper (5.3) todavía no refleja el uso (9.7) | **C** 1-5% |
+| 10 | DeMario Douglas (NE) | 40% | 16.6 — 3/3, 76 yds, 1 TD | 16% (16%) targets | vs GB (9º que más permite) | 6.5 / 8.0 | — | **C** 1-5% |
+| 11 | Chris Bell (MIA) | 5% | 6.9 — 4/5, 31 yds | 17% (13%) targets | vs DET (3º que más permite) | 6.7 / 7.4 | — | **C** 1-5% |
+| 12 | Tre' Harris (LAC) | 7% | 6.1 — 3/3, 31 yds | 10% (19%) targets | vs HOU (4º que más permite) | 4.8 / 9.2 | la proyección de Sleeper (4.8) todavía no refleja el uso (9.2) | **C** 1-5% |
 
 ### Alas cerradas
 
@@ -223,6 +236,10 @@ Otras: DJ Moore (WR, BUF, cuestionable); Joshua Palmer (WR, BUF, cuestionable); 
 | 2 | Eli Raridon (NE) 📈18,718 | 4% | 1.5 — 1/4, 5 yds | 21% (9%) targets | vs GB (31º que más permite) | 5.3 / 11.0 | hereda el rol de Hunter Henry (cuestionable, pie; tenía 15% de los targets); uso al alza: 21% de los targets (antes 9%); la proyección de Sleeper (5.3) todavía no refleja el uso (11.0) | **B** 15-25% |
 | 3 | Tyler Higbee (LAR) 📈70,722 | 39% | 2.4 — 1/2, 14 yds | 8% (12%) targets | @ WAS (2º que más permite) | 9.8 / 8.0 | — | **C** 1-5% |
 | 4 | AJ Barner (SEA) 📈42,192 | 19% | juega el lunes | — | vs ARI (9º que más permite) | 8.7 / — | — | **C** 1-5% |
+| 5 | Greg Dulcich (MIA) | 5% | 8.3 — 4/6, 43 yds | 20% (15%) targets | vs DET (1º que más permite) | 7.9 / 9.4 | — | **C** 1-5% |
+| 6 | Mike Gesicki (CIN) 📈47,220 | 25% | 17.6 — 4/6, 76 yds, 1 TD | 13% (8%) targets | @ ATL (16º que más permite) | 8.5 / 8.7 | — | **C** 1-5% |
+| 7 | Dalton Schultz (HOU) | 29% | descansó | — | @ LAC (27º que más permite) | 8.5 / — | — | **C** 1-5% |
+| 8 | Chig Okonkwo (WAS) | 27% | 3.2 — 2/4, 32 yds | 15% (16%) targets | vs LAR (26º que más permite) | 7.4 / 8.3 | — | **C** 1-5% |
 
 ### Defensivas (streaming)
 
@@ -233,6 +250,9 @@ Otras: DJ Moore (WR, BUF, cuestionable); Joshua Palmer (WR, BUF, cuestionable); 
 | 3 | DET | 17% | @ MIA | 21.2 | 7.4 | 2.6 / 1.5 |
 | 4 | NYG | 3% | @ PHI | 18.5 | 7.2 | 2.6 / 1.3 |
 | 5 | NO | 3% | vs CLE | 20.5 | 6.9 | 3.0 / 1.4 |
+| 6 | BUF | 7% | @ MIN | 22.0 | 5.9 | 2.5 / 1.3 |
+| 7 | CLE | 43% | @ NO | 23.0 | 5.9 | 2.5 / 1.2 |
+| 8 | PHI | 36% | vs NYG | 22.0 | 5.8 | 2.1 / 1.2 |
 
 ### Los más agregados en Sleeper (24 h) — resolver por qué antes de recomendarlos
 

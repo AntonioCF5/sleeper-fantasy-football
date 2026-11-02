@@ -35,30 +35,47 @@
 
 ## Waivers por posición
 
-*Para ligas redraft; el porcentaje es en cuántas ligas de Sleeper ya está. Las ofertas de FAAB siempre en número non.*
+*Para ligas redraft. Rankeados dentro de cada posición por el rol que tendrán el resto de la temporada, no por lo que hicieron el domingo. El porcentaje es en cuántas ligas de Sleeper ya está; "libre en X%" significa que ya está en más de la mitad de las ligas pero cambió de rol esta semana. Las ofertas de FAAB siempre en número non.*
 
 **Corredores**
-1. **Mike Washington Jr.** (Raiders, 30%): 81% de los toques del backfield, antes 22%, y la decisión fue del coach con Jeanty sano. Es el cambio de rol más duradero de la semana. Sleeper lo proyecta en 5 puntos porque todavía no se entera; por uso vale 18. — **31%**
-2. **Tyler Allgeier** (Cardenales, 58%: libre en cuatro de cada diez ligas): si se confirma lo de Love, juega como corredor de trabajo en Seattle. — **21%**, y más si Love sale en la reserva
-3. **Jonah Coleman** (Broncos, 75%: si alguien lo soltó): Harvey se fue a la reserva con designación de regreso, así que son cuatro partidos mínimo de Coleman al frente: 68% del backfield contra Kansas City. — **25%**
-4. **Devin Singletary** (Gigantes, 22%): Tracy está en la reserva y a Harris lo cortaron. Es el complemento de Skattebo, de 6 a 10 toques. Lo agregaron medio millón de veces con los Gigantes descansando. — **3%**
+1. **Mike Washington Jr.** (Raiders, 30%): 81% de los toques del backfield, antes 22%, y 8 de 10 snaps de gol. Lo decidió el coach con Jeanty sano, así que es el cambio de rol más duradero de la semana. Sleeper lo proyecta en 5 puntos porque todavía no se entera; por uso vale 18. — **31%**
+2. **Jonah Coleman** (Broncos, 75%, libre en 25%): Harvey se fue a la reserva con designación de regreso, son cuatro partidos mínimo. Coleman tuvo 68% del backfield contra Kansas City, antes 38%. — **25%**
+3. **Tyler Allgeier** (Cardenales, 58%, libre en 42%): Love se lastimó el tobillo otra vez y Knight tiene conmoción. Allgeier terminó como el único corredor, con 36 puntos. Si se confirma lo de Love, es el corredor de trabajo en Seattle. — **21%**, y sube si a Love lo mandan a la reserva
+4. **Rachaad White** (Comandantes, 75%, libre en 25%): McNichols se lastimó el pie y Croskey-Merritt ya está en la reserva. White tuvo 48% del backfield, antes 38%, y comparte con Ekeler contra los Carneros. — **9%**
+5. **Devin Singletary** (Gigantes, 22%): Tracy está en la reserva y a Harris lo cortaron. Es el complemento de Skattebo, de 6 a 10 toques. Lo agregaron medio millón de veces con los Gigantes descansando: el número está inflado. — **3%**
+6. **Sione Vaki** (Leones, 1%): 32% del backfield, antes 11%, porque Saylors salió con el cuello. Es el seguro de Gibbs mientras Saylors esté fuera; no se arranca. — **1%**
 
 **Receptores**
 1. **Antonio Williams** (Comandantes, 36%): McLaurin se acabó la temporada (tendón rotuliano). Williams lideró a los receptores en snaps y tuvo 26% de los targets, antes 14%. Washington ganó por 17, pero esto es rol, no paliza. — **15%**
 2. **Adonai Mitchell** (Jets, 11%): 9 targets, 7 para 142 y uno, 29% de los targets. Es el más agregado de la semana. Va a Kansas City y compite con Garrett Wilson y Omar Cooper. — **11%**
 3. **Ryan Flournoy** (Vaqueros, 42%): touchdown o 70 yardas en cuatro partidos seguidos, y Pickens está lastimado y en rumores de cambio antes del 10 de noviembre. — **7%**
-4. **Efton Chism III** (Patriotas, 5%): 26% de los targets mientras no estén A.J. Brown ni Doubs. Es rol prestado. — **3%**
+4. **Makai Lemon** (Águilas, 67%, libre en 33%): 28% de los targets, antes 16%, y 6 de 9 para 57. Ojo: fue en una derrota por 17; hay que ver si se repite con el partido cerrado. — **5%**
+5. **Efton Chism III** (Patriotas, 5%): 26% de los targets mientras no estén A.J. Brown ni Doubs. Es rol prestado por unas semanas. — **3%**
+6. **Treylon Burks** (Comandantes, 6%): sin McLaurin, es el otro receptor de Washington junto a Williams, con 19% de los targets. — **1%**
+7. **Jahan Dotson** (Halcones, 2%): 22% de los targets y 95 yardas con Branch fuera por el isquiotibial. Recibe a Cincinnati. Solo para ligas profundas. — **1%**
 
-**Alas cerradas**
-1. **Eli Raridon** (Patriotas, 4%): solo si Henry se pierde partidos. Tuvo 21% de los targets, pero 1 de 4 para 5 yardas. — **1%**
-2. **Tyler Higbee** (Carneros, 39%): para streaming nada más. Va a Washington, que es la 2ª defensa que más puntos le permite a la posición. — **1%**
+**Alas cerradas** (todas para streaming; ninguna es rol de temporada)
+1. **Greg Dulcich** (Delfines, 5%): 20% de los targets, que pasa el umbral de 17% para streaming, y recibe a Detroit, la defensa que más le permite a la posición. — **1%**
+2. **Tyler Higbee** (Carneros, 39%): va a Washington, que es la 2ª que más le permite al ala cerrada. Su uso es bajo (8% de los targets): lo arrancas por el rival, no por el rol. — **1%**
+3. **AJ Barner** (Halcones Marinos, 19%): recibe a Arizona, 9ª que más permite. Juega hoy en la noche; revisa su uso mañana. — **1%**
+4. **Mike Gesicki** (Bengalíes, 25%): 4 para 76 y uno en el tiroteo contra Tennessee, y va a Atlanta. Solo 13% de los targets: depende del touchdown. — **1%**
+5. **Eli Raridon** (Patriotas, 4%): solo si Henry se pierde partidos. Tuvo 21% de los targets, pero 1 de 4 para 5 yardas. — **1%**
 
 **Mariscales** (streaming)
 1. **Sam Darnold** (Halcones Marinos, 44%): recibe a Arizona, 2ª defensa que más le permite a mariscales. — **3%**
-2. **Malik Willis** (Delfines, 18%): titular al 100% de los snaps, y le toca Detroit, la defensa que más le permite a la posición. — **3%**
-3. **Gardner Minshew** (Cardenales, 0%): entró por Brissett y tiró tres touchdowns. Solo si lo nombran titular para Seattle. — **1%**
+2. **Malik Willis** (Delfines, 18%): titular con el 100% de los snaps, y le toca Detroit, la que más le permite a la posición. — **3%**
+3. **Daniel Jones** (Potros, 13%): 36 pases por partido contra Dallas, 6ª que más permite. Es volumen sin eficiencia (6.0 yardas por pase) y ya sin Quenton Nelson. — **1%**
+4. **J.J. McCarthy** (Gigantes, 14%): regresa de la semana de descanso y va a Filadelfia. Proyectado en 16 puntos. — **1%**
+5. **Justin Herbert** (Cargadores, 35%): recibe a Houston después de 9.8 puntos contra los Carneros. Proyectado en 15. — **1%**
+6. **Gardner Minshew** (Cardenales, 0%): entró por Brissett y tiró tres touchdowns. Solo si lo nombran titular para Seattle. — **1%**
 
-**Defensivas:** San Francisco contra Las Vegas (27%), Detroit en Miami (17%), Chicago contra Tampa (20%; juega hoy, revisa mañana). **Si Jacksonville está libre en tu liga** (está en 82%), es la defensiva de la semana, contra Fagnano el jueves. — **0-1%**
+**Defensivas**
+1. **Jacksonville** (82%, libre en 18%): contra Fagnano el jueves, el único mariscal sano que tiene Baltimore. Si está libre en tu liga, es la defensiva de la semana. — **1%**
+2. **San Francisco** (27%): recibe a Las Vegas; el mercado le da 21 puntos a los Raiders. — **1%**
+3. **Detroit** (17%): en Miami contra Willis, 21 puntos implícitos. — **1%**
+4. **Nueva York Gigantes** (3%): en Filadelfia, que anotó 10 en Washington; 18.5 implícitos, el número más bajo de la lista. — **0%**
+5. **Nueva Orleans** (3%): recibe a Cleveland, que aguantó 8 capturas y se fue 0 de 3 en zona roja. — **0%**
+6. **Chicago** (20%): recibe a Tampa, que no completó un pase. Juega hoy en la noche; revisa mañana. — **0%**
 
 ## Los que NO
 

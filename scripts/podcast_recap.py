@@ -43,8 +43,9 @@ from sleeper import api, espn  # noqa: E402
 from sleeper.scoring import score_stat_line  # noqa: E402
 
 OWNED_MAX = 50          # "available in most leagues"
-WAIVER_N = {"QB": 4, "RB": 8, "WR": 8, "TE": 4, "DST": 5}
-MIN_PROJ = {"QB": 12, "RB": 6, "WR": 6, "TE": 4}
+DEEP_MAX = 80           # above 50%, only a role change makes the list ("if he's free in your league")
+WAIVER_N = {"QB": 8, "RB": 12, "WR": 12, "TE": 8, "DST": 8}   # a pool; the spoken recap ranks 5+ per position from it
+MIN_PROJ = {"QB": 12, "RB": 5, "WR": 6, "TE": 4}
 STARTER_RANK = {"QB": 12, "RB": 24, "WR": 24, "TE": 12}
 # a player's role before the injury, big enough that someone inherits it
 ROLE_KEY = {"QB": "snap", "RB": "touch", "WR": "tgt", "TE": "tgt"}
@@ -404,12 +405,17 @@ def main():
     waivers = {pos: [] for pos in pp.SKILL}
     for pid, team in team_of.items():
         pos = pos_of.get(pid)
-        if pos not in pp.SKILL or (own.get(pid) or {}).get("owned", 0) > OWNED_MAX:
+        owned = (own.get(pid) or {}).get("owned", 0)
+        if pos not in pp.SKILL or owned > DEEP_MAX:
             continue
         inj = (proj.get(pid) or {}).get("inj") or (players.get(pid) or {}).get("injury_status")
         if inj in OUT or (team not in next_opp and pid not in heirs):
             continue
         c = candidate(pid, pos, team)
+        rising = c["heir"] or any(w.startswith("uso al alza") for w in c["why"])
+        if owned > OWNED_MAX and not rising:
+            continue
+        c["deep"] = owned > OWNED_MAX
         if c["heir"] or (c["est"] or 0) >= MIN_PROJ[pos]:
             waivers[pos].append(c)
     for pos in pp.SKILL:
@@ -546,7 +552,8 @@ def main():
         out.append("")
 
     out.append(f"## Waivers para la semana {week + 1}\n")
-    out.append(f"*Disponibles = en {OWNED_MAX}% de las ligas redraft de Sleeper o menos. Orden: nivel (A heredó un "
+    out.append(f"*Disponibles = en {OWNED_MAX}% de las ligas redraft de Sleeper o menos (hasta {DEEP_MAX}% si su rol "
+               f"cambió esta semana: \"si está libre en tu liga\"). Orden: nivel (A heredó un "
                f"backfield de trabajo · B rol o proyección de titular · C profundidad), luego la proyección PPR de la "
                f"semana {week + 1} (promedio de la de Sleeper y la implícita por el uso). FAAB = % del presupuesto. Confirma la duración de cada lesión antes de decir un nivel A al aire.*\n")
     names = {"QB": "Mariscales", "RB": "Corredores", "WR": "Receptores", "TE": "Alas cerradas", "DST": "Defensivas (streaming)"}
@@ -566,7 +573,8 @@ def main():
             name = (f"{c['name']} ({c['team']})" + (f" **{pp.STATUS_ES.get(c['inj'], c['inj'])}**" if c["inj"] else "")
                     + (f" 📈{c['trend']:,}" if c["trend"] else ""))
             wk = f"{c['pts_wk']:.1f} — {c['line_wk']}" if c["pts_wk"] is not None else c["line_wk"]
-            out.append(f"| {n} | {name} | {c['owned']:.0f}% | {wk} | {use} | {nxt_txt} | {pj} | {'; '.join(c['why']) or '—'} | "
+            own_txt = f"{c['owned']:.0f}% (libre en {100 - c['owned']:.0f}%)" if c.get("deep") else f"{c['owned']:.0f}%"
+            out.append(f"| {n} | {name} | {own_txt} | {wk} | {use} | {nxt_txt} | {pj} | {'; '.join(c['why']) or '—'} | "
                        f"**{c['tier']}** {c['faab']} |")
         out.append("")
     out.append(f"### {names['DST']}\n")
