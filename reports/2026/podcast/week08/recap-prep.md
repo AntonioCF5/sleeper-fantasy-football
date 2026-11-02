@@ -1,6 +1,6 @@
 # Recap del podcast — Semana 8, 2026
 
-*Generado lun 2 nov, 10:48 am CDMX · 13 partidos terminados · pendientes: CHI @ SEA (lun 2 nov 7:15 pm) (vuelve a correr después)*
+*Generado lun 2 nov, 10:53 am CDMX · 13 partidos terminados · pendientes: CHI @ SEA (lun 2 nov 7:15 pm) (vuelve a correr después)*
 
 **Nuestro récord de picks** — Semana 8: **0-5** · Temporada: **0-5**
 
@@ -176,6 +176,56 @@ Otras: DJ Moore (WR, BUF, cuestionable); Joshua Palmer (WR, BUF, cuestionable); 
 - **Fantasy (PPR):** Jayden Daniels (QB, WAS) 15.0 — 16/29, 217 yds, 1 TD, 0 INT · por tierra 2-23; Rachaad White (RB, WAS) 14.0 — tierra 11-55, 1 TD · recepción 2/3, 5 yds; Stefon Diggs (WR, WAS) 12.8 — 3/6, 38 yds, 1 TD; Saquon Barkley (RB, PHI) 12.4 — tierra 13-30, 1 TD · recepción 1/1, 24 yds; Makai Lemon (WR, PHI) 11.7 — 6/9, 57 yds
 - **Uso:** Darius Cooper (WR, PHI): 19% de los targets (antes 8%), 96% de los snaps (antes 58%); Elijah Mitchell (RB, PHI): 50% de los toques del backfield (antes 20%), 57% de los snaps (antes 21%); Antonio Williams (WR, WAS): 26% de los targets (antes 14%), 83% de los snaps (antes 55%); Makai Lemon (WR, PHI): 28% de los targets (antes 16%) *(partido decidido por 17: confirmar que no es uso de paliza)*
 - **Lesiones:** Jeremy McNichols (RB, WSH) Pie — Cuestionable
+
+## Para comprar, vender y vigilar
+
+**Rachas** (partidos seguidos; calendario = lugar del rival en puntos que permite a la posición, 1º = el más blando):
+- Trey McBride (TE, ARI, 100% en ligas): 8 seguidos con 7+ targets — próximos: SEA 29º, LAR 26º, KC 5º, WAS 2º (promedio 16º)
+- Amon-Ra St. Brown (WR, DET, 100% en ligas): 7 seguidos con 8+ targets — próximos: MIA 30º, NE 10º, TB 27º, CHI 21º (promedio 22º)
+- Brock Bowers (TE, LV, 99% en ligas): 6 seguidos con 7+ targets — próximos: SF 24º, SEA 29º, DEN 7º, CLE 10º (promedio 18º)
+- Drake Maye (QB, NE, 98% en ligas): 5 seguidos con 20+ puntos — próximos: GB 28º, DET 1º, LAC 25º (promedio 18º)
+- Joe Burrow (QB, CIN, 99% en ligas): 5 seguidos con 20+ puntos — próximos: ATL 21º, PIT 30º, WAS 3º, NO 17º (promedio 18º)
+- Bucky Irving (RB, TB, 98% en ligas): 4 seguidos con 17+ acarreos — próximos: CHI 28º, DET 30º, CAR 2º (promedio 20º)
+- Braelon Allen (RB, NYJ, 86% en ligas): 4 seguidos con 100+ yardas totales y 17+ acarreos — próximos: KC 23º, BUF 3º, LAC 11º, MIA 8º (promedio 11º)
+- Christian Watson (WR, GB, 98% en ligas): 4 seguidos con 8+ targets — próximos: NE 10º, MIN 29º, LAR 28º (promedio 22º)
+- Ollie Gordon II (RB, MIA, 89% en ligas): 3 seguidos con 17+ acarreos — próximos: DET 30º, IND 9º, BUF 3º, NYJ 17º (promedio 15º)
+- Tony Pollard (RB, TEN, 90% en ligas): 3 seguidos con 17+ acarreos — próximos: JAX 32º, DAL 4º, JAX 32º (promedio 23º)
+- James Cook III (RB, BUF, 99% en ligas): 3 seguidos con 100+ yardas totales y 17+ acarreos — próximos: MIN 29º, NYJ 17º, MIA 8º, KC 23º (promedio 19º)
+- Jahmyr Gibbs (RB, DET, 100% en ligas): 3 seguidos con 100+ yardas totales y 17+ acarreos — próximos: MIA 8º, NE 27º, TB 31º, CHI 28º (promedio 24º)
+- Matthew Golden (WR, GB, 95% en ligas): 3 seguidos con 8+ targets — próximos: NE 10º, MIN 29º, LAR 28º (promedio 22º)
+- CeeDee Lamb (WR, DAL, 100% en ligas): 3 seguidos con 8+ targets — próximos: IND 26º, SF 22º, TEN 1º, PHI 2º (promedio 13º)
+
+**Perdieron el rol sin estar lesionados:**
+- Ashton Jeanty (RB, LV): 16% de los toques del backfield (antes 71%) con 40% de los snaps — tierra 2-9 · recepción 3/4, 64 yds
+- Tre Tucker (WR, LV): 4% de los targets (antes 18%) con 54% de los snaps — 0/1, 0 yds
+- Omar Cooper Jr. (WR, NYJ): 0% de los targets (antes 16%) con 78% de los snaps — 0/0, 0 yds
+- Jonathan Taylor (RB, IND): 52% de los toques del backfield (antes 81%) con 62% de los snaps — tierra 8-23 · recepción 4/5, 24 yds *(paliza de 35: puede ser guion)*
+- Cade Otton (TE, TB): 0% de los targets (antes 15%) con 95% de los snaps — 0/0, 0 yds
+- Aaron Jones Sr. (RB, MIN): 44% de los toques del backfield (antes 72%) con 40% de los snaps — tierra 5-22 · recepción 2/2, 18 yds
+
+**Titulares que fallaron** (menos de la mitad de su promedio):
+- Zay Flowers (WR, BAL): 0.0 contra 20.4 de promedio — 0/5, 0 yds; 19% de targets (antes 31%): el uso también bajó: cuidado. próximos: JAX 6º, LAC 16º, CAR 19º, HOU 4º (promedio 11º)
+- Tre Tucker (WR, LV): 0.0 contra 14.3 de promedio — 0/1, 0 yds; 4% de targets (antes 18%): el uso también bajó: cuidado. próximos: SF 22º, SEA 32º, DEN 25º, CLE 20º (promedio 25º)
+- Drake London (WR, ATL): 1.8 contra 15.4 de promedio — 1/6, 8 yds; 26% de targets (antes 30%): uso intacto: candidato a comprar barato. próximos: CIN 14º, KC 31º, MIN 29º (promedio 25º)
+- Bijan Robinson (RB, ATL): 7.6 contra 20.8 de promedio — tierra 19-76 · recepción 0/1, 0 yds; 79% de toques del backfield (antes 72%): uso intacto: candidato a comprar barato. próximos: CIN 26º, KC 23º, MIN 29º (promedio 26º)
+- Jonathan Taylor (RB, IND): 6.7 contra 19.6 de promedio — tierra 8-23 · recepción 4/5, 24 yds; 52% de toques del backfield (antes 81%): el uso también bajó: cuidado. próximos: DAL 4º, MIA 8º, HOU 13º, NYG 22º (promedio 12º)
+- Jared Goff (QB, DET): 10.0 contra 22.2 de promedio — 18/25, 176 yds, 1 TD, 1 INT; 100% de snaps (antes 99%): uso intacto: candidato a comprar barato. próximos: MIA 5º, NE 23º, TB 29º, CHI 8º (promedio 16º)
+- Javonte Williams (RB, DAL): 6.7 contra 18.6 de promedio — tierra 24-56 · recepción 1/2, 1 yds; 74% de toques del backfield (antes 82%): uso intacto: candidato a comprar barato. próximos: IND 9º, SF 12º, TEN 14º, PHI 15º (promedio 12º)
+- Parker Washington (WR, JAX): 3.6 contra 15.3 de promedio — 1/2, 16 yds; 12% de targets (antes 27%): el uso también bajó: cuidado. próximos: BAL 8º, TEN 1º, NYG 15º, TEN 1º (promedio 6º)
+- Tyler Warren (TE, IND): 5.8 contra 14.0 de promedio — 4/10, 18 yds; 33% de targets (antes 22%): uso intacto: candidato a comprar barato. próximos: DAL 17º, MIA 3º, HOU 28º, NYG 22º (promedio 18º)
+- George Pickens (WR, DAL): 6.8 contra 13.9 de promedio — 2/4, 48 yds; 14% de targets (antes 22%): el uso también bajó: cuidado. próximos: IND 26º, SF 22º, TEN 1º, PHI 2º (promedio 13º)
+- Sam LaPorta (TE, DET): 6.5 contra 13.2 de promedio — 3/5, 33 yds; 20% de targets (antes 18%): uso intacto: candidato a comprar barato. próximos: MIA 3º, NE 23º, TB 11º, CHI 19º (promedio 14º)
+- Aaron Jones Sr. (RB, MIN): 6.0 contra 12.3 de promedio — tierra 5-22 · recepción 2/2, 18 yds; 44% de toques del backfield (antes 72%): el uso también bajó: cuidado. próximos: BUF 3º, GB 7º, SF 12º, ATL 5º (promedio 7º)
+
+**Mariscales en duda** (alguien más jugó):
+- Tyler Huntley (BAL, 3% en ligas) por Lamar Jackson: 20% de los snaps, 2/4, 0 yds, 0 TD, 0 INT — relevo por lesión
+- Joe Fagnano (BAL, 0% en ligas) por Lamar Jackson: 78% de los snaps, 10/21, 91 yds, 0 TD, 1 INT — relevo por lesión
+- Gardner Minshew II (ARI, 0% en ligas) por Jacoby Brissett: 42% de los snaps, 17/23, 188 yds, 3 TD, 0 INT — entró con el partido en juego
+- Shedeur Sanders (CLE, 3% en ligas) por Deshaun Watson: 6% de los snaps, 2/2, 2 yds, 0 TD, 0 INT — paliza de 21: puede ser solo relevo
+- Quinn Ewers (JAX, 0% en ligas) por Trevor Lawrence: 19% de los snaps, 1/3, 8 yds, 0 TD, 0 INT — paliza de 35: puede ser solo relevo
+- Anthony Richardson Sr. (IND, 1% en ligas) por Daniel Jones: 21% de los snaps, 2/2, 8 yds, 0 TD, 0 INT — paliza de 35: puede ser solo relevo
+
+**Sin Lamar Jackson:** Justice Hill (RB) tierra 3-15 · recepción 4/8, 20 yds; Zay Flowers (WR) 0/5, 0 yds; Mark Andrews (TE) 3/4, 14 yds
 
 ## Waivers para la semana 9
 

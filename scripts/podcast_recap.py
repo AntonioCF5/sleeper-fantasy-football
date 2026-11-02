@@ -453,6 +453,128 @@ def main():
     dst.sort(key=lambda d: (-(d["proj"] or 0), d["opp_implied"] or 99))
     waivers["DST"] = dst[:WAIVER_N["DST"]]
 
+    # ---------- buy / sell / watch (user's week-8 notes: role losers, streaks, flops, QB changes, schedule)
+    later = {}
+    with ThreadPoolExecutor(4) as ex:
+        futs = {w: ex.submit(espn.scoreboard, w, season) for w in range(week + 2, week + 5)}
+    for w, f in futs.items():
+        later[w] = pp.parse_events(f.result(), w)
+    upcoming = defaultdict(list)                       # team -> next 4 opponents
+    for w, games_w in [(week + 1, nxt)] + sorted(later.items()):
+        for g in games_w:
+            upcoming[pp.sl(g["home"])].append(pp.sl(g["away"]))
+            upcoming[pp.sl(g["away"])].append(pp.sl(g["home"]))
+
+    def sched(team, pos):
+        rk = [(slr["fpa_rank"].get(pos) or {}).get(o) for o in upcoming.get(team, [])[:4]]   # aligned with opps
+        ok = [r for r in rk if r]
+        return {"opps": upcoming.get(team, [])[:4], "ranks": rk, "avg": sum(ok) / len(ok) if ok else None, "pos": pos}
+
+    def pts(st):
+        return score_stat_line(st, pp.PPR)
+
+    def scrim(st):
+        return (st.get("rush_yd") or 0) + (st.get("rec_yd") or 0)
+
+    STREAKS = [("RB", "100+ yardas totales", lambda st: scrim(st) >= 100),
+               ("RB", "17+ acarreos", lambda st: (st.get("rush_att") or 0) >= 17),
+               ("WR", "8+ targets", lambda st: (st.get("rec_tgt") or 0) >= 8),
+               ("TE", "7+ targets", lambda st: (st.get("rec_tgt") or 0) >= 7),
+               ("QB", "20+ puntos", lambda st: pts(st) >= 20)]
+    streaks = []
+    for pid, d in pl.items():
+        if week not in d:
+            continue
+        pos = d[week]["pos"]
+        for spos, label, test in STREAKS:
+            if pos != spos:
+                continue
+            n = 0
+            for w in sorted(d, reverse=True):          # games he played, newest first
+                if not test(d[w]["st"]):
+                    break
+                n += 1
+            if n >= 3:
+                prev = next((x for x in streaks if x["pid"] == pid), None)
+                if prev:
+                    prev["what"] += f" y {n} con {label}" if n != prev["n"] else f" y {label}"
+                    continue
+                streaks.append({"pid": pid, "name": meta[pid]["name"], "pos": pos, "team": d[week]["team"],
+                                "what": label, "n": n, "owned": (own.get(pid) or {}).get("owned", 0),
+                                "sched": sched(d[week]["team"], pos)})
+    streaks.sort(key=lambda x: (-x["n"], x["pos"]))
+
+    losers, flops, qbs = [], [], []
+    avg_before = {}
+    for pid, d in pl.items():
+        games_b = [d[w]["st"] for w in before if w in d]
+        if games_b:
+            avg_before[pid] = sum(pts(st) for st in games_b) / len(games_b)
+    bar = {}
+    for pos in pp.SKILL:
+        vals = sorted((v for pid, v in avg_before.items() if meta[pid]["pos"] == pos and len([w for w in before if w in pl[pid]]) >= 3),
+                      reverse=True)
+        bar[pos] = vals[STARTER_RANK[pos] - 1] if len(vals) >= STARTER_RANK[pos] else 99
+    for pid, d in pl.items():
+        if week not in d:
+            continue
+        x, pos, team = d[week], d[week]["pos"], d[week]["team"]
+        now, pre = share(pid, [week]), share(pid, before)
+        if not now or not pre or pre["g"] < 2:
+            continue
+        hurt = any(i["pid"] == pid for i in injuries)
+        # lost the role without an injury: the Jeanty case (2 carries, a rookie got 25)
+        if not hurt and pos == "RB" and (pre["touch"] or 0) >= 0.45 and (now["touch"] or 0) <= (pre["touch"] or 0) - 0.25:
+            losers.append({"pid": pid, "name": meta[pid]["name"], "pos": pos, "team": team, "k": "touch",
+                           "now": now["touch"], "pre": pre["touch"], "snap": now["snap"], "line": stat_line(pos, x["st"])})
+        if not hurt and pos in ("WR", "TE") and pre["tgt"] >= 0.15 and now["tgt"] <= 0.05 and now["snap"] >= 0.5:
+            losers.append({"pid": pid, "name": meta[pid]["name"], "pos": pos, "team": team, "k": "tgt",
+                           "now": now["tgt"], "pre": pre["tgt"], "snap": now["snap"], "line": stat_line(pos, x["st"])})
+        # a starter-level player who scored under half his average: buy low if the usage held
+        avg = avg_before.get(pid)
+        if avg and avg >= bar[pos] and pts(x["st"]) < 0.5 * avg and not hurt:
+            k = {"RB": "touch", "QB": "snap"}.get(pos, "tgt")
+            held = (now.get(k) or 0) >= 0.85 * (pre.get(k) or 0)
+            flops.append({"pid": pid, "name": meta[pid]["name"], "pos": pos, "team": team, "pts": round(pts(x["st"]), 1),
+                          "avg": round(avg, 1), "k": k, "now": now.get(k), "pre": pre.get(k), "held": held,
+                          "line": stat_line(pos, x["st"]), "owned": (own.get(pid) or {}).get("owned", 0),
+                          "sched": sched(team, pos)})
+    for x in losers:
+        x["blowout"] = blowout_of.get(x["team"])
+    flops.sort(key=lambda f: -(f["avg"] - f["pts"]))
+    # QB changes: anyone but the team's usual starter taking snaps (benching, injury, or mop-up)
+    for g in finals:
+        for t in (g["home"], g["away"]):
+            st_t = pp.sl(t)
+            qb = [(pid, d[week]) for pid, d in pl.items() if week in d and d[week]["team"] == st_t and d[week]["pos"] == "QB"]
+            if len(qb) < 2:
+                continue
+            starter = max(qb, key=lambda q: (share(q[0], before) or {}).get("snap") or 0)[0]
+            for pid, x in qb:
+                sn = (share(pid, [week]) or {}).get("snap") or 0
+                # the season starter, anyone who played the whole game, and kneel-down cameos aren't news
+                if pid == starter or sn >= 0.9 or (sn < 0.10 and (x["st"].get("pass_att") or 0) < 2):
+                    continue
+                margin = abs(g["hs"] - g["as"])
+                qbs.append({"pid": pid, "name": meta[pid]["name"], "team": st_t, "starter": meta[starter]["name"],
+                            "snap": sn, "line": stat_line("QB", x["st"]), "owned": (own.get(pid) or {}).get("owned", 0),
+                            "why": "relevo por lesión" if any(i["pid"] == starter and i["status"] in OUT for i in injuries)
+                            else f"paliza de {margin}: puede ser solo relevo" if margin >= BLOWOUT else "entró con el partido en juego"})
+    # a hurt QB drags his receivers: show their line with the backup in
+    seen_qb_team = set()
+    for i in sorted(key_inj, key=lambda i: (sev.get(i["status"], 3), -(i["role"] or 0))):
+        lost = i["status"] in OUT or not i["played"] or (i["now"] or 0) < 0.6 * (i["role"] or 0)
+        if i["pos"] == "QB" and lost and i["team"] not in seen_qb_team:
+            seen_qb_team.add(i["team"])
+            mates = sorted(((q, d[week]) for q, d in pl.items() if week in d and d[week]["team"] == pp.sl(i["team"])
+                            and d[week]["pos"] in ("WR", "TE", "RB")), key=lambda m: -(m[1]["st"].get("rec_tgt") or 0))[:3]
+            i["mates"] = [{"pid": q, "name": meta[q]["name"], "pos": x["pos"], "line": stat_line(x["pos"], x["st"])}
+                          for q, x in mates]
+    for pos in pp.SKILL:
+        for c in waivers.get(pos, []):
+            c["sched"] = sched(c["team"], pos)
+    watch = {"streaks": streaks, "losers": losers, "flops": flops[:10], "qbs": qbs}
+
     # ---------- render
     pct = lambda x: f"{x:.0%}" if x is not None else "—"  # noqa: E731
     rec_txt = lambda r: f"{r[0]}-{r[1]}" + (f"-{r[2]}" if r[2] else "")  # noqa: E731
@@ -551,6 +673,42 @@ def main():
                 for i in g["injuries"]))
         out.append("")
 
+    out.append("## Para comprar, vender y vigilar\n")
+    def rk_txt(sc):
+        if not sc or not sc.get("avg"):
+            return "sin calendario"
+        r = {o: (slr["fpa_rank"].get(sc.get("pos")) or {}).get(o) for o in sc["opps"]}
+        return "próximos: " + ", ".join(f"{o} {pp.ordinal(r[o])}" if r.get(o) else o for o in sc["opps"]) + f" (promedio {sc['avg']:.0f}º)"
+    if streaks:
+        out.append("**Rachas** (partidos seguidos; calendario = lugar del rival en puntos que permite a la posición, 1º = el más blando):")
+        for x in streaks:
+            out.append(f"- {x['name']} ({x['pos']}, {x['team']}, {x['owned']:.0f}% en ligas): {x['n']} seguidos con {x['what']} — {rk_txt(x['sched'])}")
+        out.append("")
+    if losers:
+        out.append("**Perdieron el rol sin estar lesionados:**")
+        for x in losers:
+            what = "de los toques del backfield" if x["k"] == "touch" else "de los targets"
+            out.append(f"- {x['name']} ({x['pos']}, {x['team']}): {pct(x['now'])} {what} (antes {pct(x['pre'])}) con {pct(x['snap'])} de los snaps — {x['line']}"
+                       + (f" *(paliza de {x['blowout']}: puede ser guion)*" if x.get("blowout") else ""))
+        out.append("")
+    if flops:
+        out.append("**Titulares que fallaron** (menos de la mitad de su promedio):")
+        for x in flops:
+            lab = {"touch": "toques del backfield", "tgt": "targets", "snap": "snaps"}[x["k"]]
+            verdict = "uso intacto: candidato a comprar barato" if x["held"] else "el uso también bajó: cuidado"
+            out.append(f"- {x['name']} ({x['pos']}, {x['team']}): {x['pts']:.1f} contra {x['avg']:.1f} de promedio — {x['line']}; "
+                       f"{pct(x['now'])} de {lab} (antes {pct(x['pre'])}): {verdict}. {rk_txt(x['sched'])}")
+        out.append("")
+    if qbs:
+        out.append("**Mariscales en duda** (alguien más jugó):")
+        for x in qbs:
+            out.append(f"- {x['name']} ({x['team']}, {x['owned']:.0f}% en ligas) por {x['starter']}: {pct(x['snap'])} de los snaps, "
+                       f"{x['line']} — {x['why']}")
+        out.append("")
+    for i in big:
+        if i.get("mates"):
+            out.append(f"**Sin {i['name']}:** " + "; ".join(f"{m['name']} ({m['pos']}) {m['line']}" for m in i["mates"]))
+    out.append("")
     out.append(f"## Waivers para la semana {week + 1}\n")
     out.append(f"*Disponibles = en {OWNED_MAX}% de las ligas redraft de Sleeper o menos (hasta {DEEP_MAX}% si su rol "
                f"cambió esta semana: \"si está libre en tu liga\"). Orden: nivel (A heredó un "
@@ -610,7 +768,7 @@ def main():
                        "away_id": g["away_id"], "home_id": g["home_id"], "as": g["as"], "hs": g["hs"],
                        "row": g["row"], "box": g.get("box"), "top": g["top"], "swings": g["swings"],
                        "injuries": g["injuries"], "blowout": g.get("blowout")} for g in finals],
-            "injuries": big, "waivers": waivers, "hot": hot, "md": md}
+            "injuries": big, "waivers": waivers, "hot": hot, "watch": watch, "md": md}
     (dest / "recap.json").write_text(json.dumps(data, ensure_ascii=False, indent=1, default=str))
     print(f"→ {dest / 'recap-prep.md'}  ({len(finals)} finales, {len(pending)} pendientes, "
           f"{len(big)} lesiones con rol, {sum(len(v) for v in waivers.values())} waivers)")

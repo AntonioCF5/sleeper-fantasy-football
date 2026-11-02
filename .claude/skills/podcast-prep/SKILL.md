@@ -442,6 +442,24 @@ What it holds:
     - **C** (1-5%): everyone else.
   - DST streamers: next week's projection in standard scoring, against the
     opponent's implied total from the market.
+- **Para comprar, vender y vigilar** (added from the user's week 8 notes):
+  - **Rachas**: 3+ straight games with RB 100+ scrimmage yards or 17+
+    carries, WR 8+ targets, TE 7+ targets, or QB 20+ points. Each comes with
+    the next 4 opponents' rank vs the position.
+  - **Perdieron el rol sin lesión**: an RB whose backfield share fell 25+
+    pts from ≥45% (wk 8: Jeanty, 71% → 16%), or a WR/TE at ≥15% of targets
+    who drew ≤5% while playing half the snaps or more (Omar Cooper: 0
+    targets on 78% of the snaps). Tagged when the game was a blowout.
+  - **Titulares que fallaron**: a starter-level player (season average at
+    the QB12/RB24/WR24/TE12 line) who scored under half his average.
+    - "Uso intacto" means his share held at ≥85% of normal, which makes him
+      a buy-low candidate. Otherwise "el uso también bajó".
+    - Each one comes with his schedule.
+  - **Mariscales en duda**: any QB besides the season's starter who took
+    ≥10% of the snaps or 2+ passes, tagged as injury relief, blowout mop-up,
+    or with the game still in play.
+  - **"Sin <QB>"**: when a QB lost his game to injury, his top 3 targets'
+    lines with the backup in (wk 8: Flowers 0/5 without Lamar).
 - **Most-added on Sleeper (24h)**: the platform's list, with each player's
   week. Every name on it needs a WHY before it becomes a call (CLAUDE.md:
   investigate huge add counts). A player can trend because of somebody
@@ -476,6 +494,7 @@ a card at the top of the Recap tab, so keep these headings:
 ## Nuestros picks: record + one honest post-mortem line per loss (what we missed, not "bad luck")
 ## Contra la línea: favorites/home/overs, the biggest market miss and WHY
 ## Lesiones: each one → timeline → who replaces him → fantasy verdict
+## Comprar, vender y vigilar: buy low / sell / earned status / status the box score oversells / watch list (see below)
 ## Waivers por posición: RB / WR / TE / QB / DST, each a RANKED list of 5+ as "1. Name (team, % in leagues): why — FAAB %"
 ## Los que NO: the trap adds (a trending name whose role isn't real), with the stat that says so
 ```
@@ -499,6 +518,48 @@ Waiver rules (the same discipline as the weekly report):
   always odd numbers.
 - Keep it league-agnostic. Never mention his rosters or his leagues on air.
   His own waivers are the weekly report's and the newsletter's job.
+
+**Comprar, vender y vigilar** (what the user's own recap notes cover, wk 8). Every
+call carries its usage number and, when it's about the future, the schedule:
+- **Buy low**: a player who flopped while his usage held, with a soft
+  schedule ahead (wk 8: London 26% of targets and Bijan 79% of the
+  backfield after Penix's 4 INTs).
+- **Sell**:
+  - a streak about to end: a starter coming back, or the schedule turning
+    (Braelon Allen: 4 straight 100-yard games, and Breece returns)
+  - a role lost to a coach's decision (Jeanty)
+  - a team you can't trust (the Chargers: Hampton played 18 of 61 snaps)
+- **Status earned vs. status the box score oversells**:
+  - Earned (wk 8: Coleman is Denver's RB1, Gordon has a workload): call it
+    with its numbers.
+  - Oversold: say so with the number (Bucky "RB1" on 30 of 60 snaps in a
+    0-completion game; Tuten "league winner" on 27 of 54 snaps against a
+    tough schedule).
+- **Downstream of injuries**: a hurt QB drags his receivers. Say who loses
+  value, not just who gains it.
+- **QB watch**: a benching, or a backup's snaps. Blowout mop-up (wk 8:
+  Richardson's 13 snaps in a 35-point loss) is not a QB change unless
+  something else says so.
+- **Trade rumors and "visibly frustrated" reads are color.** Label them as
+  color.
+- **Check every schedule claim against the ranks.** "Good schedule coming
+  up" was wrong for Tuten in week 8.
+
+**When the user pastes his own notes** (WhatsApp/Twitter style, often in
+English):
+1. Treat them as input to the recap, not as text to copy.
+2. Check every stat against the week's Sleeper rows and our scoring. (Wk 8:
+   nearly all held up. Jones's "under 7" was 4.6 and 8.5 in our PPR.)
+3. Fold the ones that hold up into the recap in Spanish and in his framing.
+   Move picks if a note changes a call. (Wk 8: Emmett Johnson moved from
+   "Los que NO" to a stash, because he's the clean handcuff to Walker's 21
+   carries.)
+4. **Push back with the number wherever the data disagrees.** (Wk 8: Tuten's
+   schedule, Bucky as an RB1, selling Jefferson after 9 targets on 51 of 53
+   snaps, "Richardson SZN" off blowout snaps.) He wants that friction.
+5. If his notes cover a kind of analysis the script doesn't produce yet,
+   add it to the script and to this section. That's how this section
+   started.
 
 ### 8.4 Close out
 

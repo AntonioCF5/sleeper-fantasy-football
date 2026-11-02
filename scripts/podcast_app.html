@@ -702,7 +702,7 @@ function tabRecap() {
 
   // Claude's spoken recap, when written
   const sp = r.spoken || [];
-  if (sp.length) h += `<div class="grid cols-2" style="margin-bottom:16px">${sp.map(x => `<div class="card callout ${/waiver|resultados|lesion/i.test(x.title) ? "span-2" : ""}"><h3>${esc(x.title)}</h3><div class="md compact">${md(x.md)}</div></div>`).join("")}</div>`;
+  if (sp.length) h += `<div class="grid cols-2" style="margin-bottom:16px">${sp.map(x => `<div class="card callout ${/waiver|resultados|lesion|comprar/i.test(x.title) ? "span-2" : ""}"><h3>${esc(x.title)}</h3><div class="md compact">${md(x.md)}</div></div>`).join("")}</div>`;
 
   // KPIs
   const sm = r.summary || {};
@@ -751,6 +751,26 @@ function tabRecap() {
   }
   h += `</div>`;
 
+
+  // buy / sell / watch
+  const Wt = r.watch || {};
+  const schedTxt = sc => sc?.opps?.length ? `<div class="faint" style="font-size:11px">próximos: ${sc.opps.map((o, k) => esc(o) + (sc.ranks?.[k] ? ` ${sc.ranks[k]}º` : "")).join(", ")}${sc.avg ? ` · prom. ${Math.round(sc.avg)}º` : ""}</div>` : "";
+  if ((Wt.streaks || []).length || (Wt.losers || []).length || (Wt.flops || []).length || (Wt.qbs || []).length) {
+    h += `<div class="sec-title">Para comprar, vender y vigilar</div><div class="grid cols-2" style="margin-bottom:16px">`;
+    if ((Wt.flops || []).length) h += `<div class="card span-2"><h3>Titulares que fallaron <span class="chip">menos de la mitad de su promedio</span></h3><div class="table-wrap"><table><thead><tr><th>Jugador</th><th class="c">Puntos</th><th class="c">Uso</th><th>Lectura</th></tr></thead><tbody>${
+      Wt.flops.map(x => `<tr><td>${playerCell(x, schedTxt(x.sched))}<div class="faint" style="font-size:11px">${esc(x.line)}</div></td>
+        <td class="c"><b>${fmt1(x.pts)}</b><div class="faint" style="font-size:11px">prom. ${fmt1(x.avg)}</div></td>
+        <td class="c"><b>${pct(x.now)}</b> <span class="faint">${pct(x.pre)}</span><div class="faint" style="font-size:11px">${SHARE_LABEL[x.k]}</div></td>
+        <td><span class="chip ${x.held ? "good" : "bad"}">${x.held ? "uso intacto: comprar barato" : "el uso también bajó"}</span></td></tr>`).join("")}</tbody></table></div></div>`;
+    if ((Wt.losers || []).length) h += `<div class="card"><h3>Perdieron el rol sin lesión</h3><ul class="mini-list">${Wt.losers.map(x =>
+      `<li><span class="pos pos-${x.pos}">${x.pos}</span> ${sleeperLink(x.pid, x.name)} <span class="faint">${esc(x.team)}</span>: <b>${pct(x.now)}</b> de ${SHARE_LABEL[x.k]} <span class="faint">(antes ${pct(x.pre)}, ${pct(x.snap)} snaps)</span>${x.blowout ? ` <span class="chip warn">paliza de ${x.blowout}</span>` : ""}</li>`).join("")}</ul></div>`;
+    if ((Wt.qbs || []).length) h += `<div class="card"><h3>Mariscales en duda</h3><ul class="mini-list">${Wt.qbs.map(x =>
+      `<li>${sleeperLink(x.pid, x.name)} <span class="faint">${esc(x.team)}, por ${esc(x.starter)}</span>: ${pct(x.snap)} de los snaps, ${esc(x.line)} <span class="chip ${/lesión/.test(x.why) ? "bad" : /paliza/.test(x.why) ? "warn" : "accent"}">${esc(x.why)}</span></li>`).join("")}</ul>${
+      (r.injuries || []).filter(i => i.mates).map(i => `<div class="verdict"><b>Sin ${esc(i.name)}:</b> ${i.mates.map(m => `${esc(m.name)} ${esc(m.line)}`).join(" · ")}</div>`).join("")}</div>`;
+    if ((Wt.streaks || []).length) h += `<div class="card span-2"><h3>Rachas</h3><div class="table-wrap"><table><thead><tr><th>Jugador</th><th>Racha</th><th>Calendario (1º = el más blando)</th></tr></thead><tbody>${
+      Wt.streaks.map(x => `<tr><td>${playerCell(x)}</td><td><b>${x.n} seguidos</b> <span class="faint">${esc(x.what)}</span></td><td>${(x.sched?.opps || []).map((o, k) => `${esc(o)} ${rankChip(x.sched.ranks?.[k])}`).join(" ")}</td></tr>`).join("")}</tbody></table></div></div>`;
+    h += `</div>`;
+  }
   // waivers by position
   const W = r.waivers || {};
   const POS = [["QB", "Mariscales"], ["RB", "Corredores"], ["WR", "Receptores"], ["TE", "Alas cerradas"]];
