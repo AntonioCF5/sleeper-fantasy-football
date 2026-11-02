@@ -217,12 +217,24 @@ def get_week_stats(season: str, week: int):
     return _fetch(f"{BASE}/v1/stats/nfl/regular/{season}/{week}", ttl=7 * DAY)
 
 
-def get_week_stat_rows(season: str, week: int, positions=("QB", "RB", "WR", "TE", "DEF")):
+def get_week_stat_rows(season: str, week: int, positions=("QB", "RB", "WR", "TE", "DEF"), ttl: int = DAY):
     """Actual stats for one week as rows WITH team/opponent/game_id (the v1
     dict above has neither) — what defense-vs-position and team usage
-    shares need. DEF rows carry pts_allow/yds_allow/sack/int."""
+    shares need. DEF rows carry pts_allow/yds_allow/sack/int. Pass a short
+    ttl for a week still being played (the recap runs Monday, before MNF)."""
     qs = "&".join(f"position[]={p}" for p in positions)
-    return _fetch(f"{BASE}/stats/nfl/{season}/{week}?season_type=regular&{qs}", ttl=DAY)
+    return _fetch(f"{BASE}/stats/nfl/{season}/{week}?season_type=regular&{qs}", ttl=ttl)
+
+
+def get_ownership(season: str, week: int, league_type: int = 1):
+    """Rostered/started % across Sleeper leagues, {player_id: {owned, started}}.
+
+    Undocumented endpoint the app's research tab uses. league_type 1 =
+    redraft (the podcast audience's default); 2 = dynasty, where every
+    rookie reads as rostered. Players missing from the dict sit under ~1%.
+    """
+    return _fetch(f"{BASE}/players/nfl/research/regular/{season}/{week}?league_type={league_type}",
+                  ttl=6 * HOUR)
 
 
 def get_player_week_stats(player_id: str, season: str):

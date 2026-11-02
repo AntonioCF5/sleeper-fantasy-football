@@ -202,6 +202,13 @@ tells the user to re-check news once before accepting.
   launch config `podcast-app`): elegir partido y ver línea/modelos, equipos, historia,
   fantasy, uso, lesiones, el segmento del guion y la hoja; botón Actualizar re-corre
   podcast_prep.py. Lee data.json + rundown.md + podcast_picks.json en cada carga.
+  2026-11-02: **recap + waivers** (`scripts/podcast_recap.py`, skill §8): la semana
+  jugada contra la línea de cierre, picks calificadas, caja por partido, top PPR,
+  cambios de uso (con alerta de paliza ≥17), lesiones desde la patada inicial con
+  rol previo y heredero, y waivers por posición (≤50% en ligas redraft de Sleeper vía
+  `api.get_ownership`; proyección = promedio Sleeper + implícita por uso; nivel A/B/C
+  del FAAB) + los más agregados. Pestaña "Recap y waivers" en la app; Claude escribe
+  `recap.md` (hablado). Semana 8: 0-5 en picks (CHI +3 pendiente del MNF).
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

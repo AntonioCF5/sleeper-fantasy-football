@@ -201,7 +201,16 @@ td.c, th.c { text-align: center; } td.r, th.r { text-align: right; }
 .cmp td.better { color: var(--good); }
 .player { display: flex; align-items: center; gap: 8px; font-weight: 600; white-space: nowrap; }
 .pos { font-size: 10px; font-weight: 800; padding: 1px 5px; border-radius: 4px; letter-spacing: .03em; color: #fff; }
-.pos-QB { background: #e0565b; } .pos-RB { background: #10a37f; } .pos-WR { background: #3d7be0; } .pos-TE { background: #e58a1f; }
+.pos-QB { background: #e0565b; } .pos-RB { background: #10a37f; } .pos-WR { background: #3d7be0; } .pos-TE { background: #e58a1f; } .pos-DST { background: #6b7280; }
+.recap-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 16px; font-size: 13px; color: var(--muted); }
+.recap-head b { color: var(--text); }
+.score { font-weight: 800; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.score .w { color: var(--text); } .score .l { color: var(--faint); }
+.why { font-size: 11.5px; color: var(--muted); font-weight: 400; white-space: normal; margin-top: 2px; max-width: 420px; }
+.tier { min-width: 24px; justify-content: center; font-weight: 800; }
+.box td, .box th { text-align: center; } .box td:first-child { text-align: left; color: var(--muted); }
+.mini-list { margin: 0; padding-left: 18px; font-size: 13px; } .mini-list li { margin: 3px 0; }
+.sec-title { margin: 22px 0 10px; font-size: 15px; font-weight: 800; letter-spacing: -.01em; display: flex; align-items: center; gap: 8px; }
 a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--accent); text-decoration: underline; }
 .team-head { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; font-weight: 700; font-size: 15px; }
 .summary-line { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
@@ -377,7 +386,7 @@ const TABS = [
   ["resumen","Resumen"],["equipos","Equipos"],["historia","Historia"],["fantasy","Fantasy"],
   ["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
 ];
-const OV_TABS = [["cartelera","Cartelera"],["guion","Guion general"],["hoja","Notas de la hoja"]];
+const OV_TABS = [["cartelera","Cartelera"],["recap","Recap y waivers"],["guion","Guion general"],["hoja","Notas de la hoja"]];
 const DAY_ORDER = {jue:0, vie:1, sáb:2, dom:3, lun:4, mar:5, mié:6};
 const DAY_NAME = {jue:"Jueves", vie:"Viernes", sáb:"Sábado", dom:"Domingo", lun:"Lunes", mar:"Martes", mié:"Miércoles"};
 
@@ -608,6 +617,7 @@ function overview() {
     <div class="kpi"><div class="l">Total implícito más alto</div><div class="v">${imp[0] ? fmt1(imp[0][1]) : "—"}</div><div class="s">${imp[0] ? imp[0][0] : ""}</div></div>
   </div>`;
   h += tabsHtml(OV_TABS);
+  if (S.tab === "recap") return h + tabRecap();
   if (S.tab === "guion") {
     const secs = d.rundown?.sections || [];
     h += secs.length ? `<div class="grid cols-2">${secs.map(s => `<div class="card ${/tarjeta|fantasy/i.test(s.title) ? "span-2" : ""}"><h3>${esc(s.title)}</h3><div class="md compact">${md(s.md)}</div></div>`).join("")}</div>`
@@ -653,6 +663,158 @@ document.addEventListener("keydown", e => {
   if (e.key === "Enter" && e.target instanceof Element && e.target.matches("tr[data-go]")) go(e.target.dataset.go);
 });
 
+
+// ---------- recap + waivers (scripts/podcast_recap.py → recap.json; Claude's recap.md → spoken)
+function finalChip(g) {
+  const r = S.data.recap;
+  if (!r || r.week !== S.week) return "";
+  const x = (r.results || []).find(y => y.game === g.game);
+  if (!x) return "";
+  const ats = x.ats ? (x.ats === "push" ? "empate vs línea" : `${x.ats} cubrió`) : "";
+  return `<span class="chip pick">Final: ${x.away} ${x.as} - ${x.hs} ${x.home}${ats ? ` · ${ats}` : ""}</span>`;
+}
+const recTxt = r => r ? `${r[0]}-${r[1]}${r[2] ? "-" + r[2] : ""}` : "—";
+function scoreHtml(x) {
+  const aw = x.as > x.hs, hw = x.hs > x.as;
+  return `<span class="score"><span class="${aw ? "w" : "l"}">${x.away} ${x.as}</span> <span class="faint">-</span> <span class="${hw ? "w" : "l"}">${x.hs} ${x.home}</span></span>`;
+}
+function playerCell(c, extra = "") {
+  return `<div class="player"><span class="pos pos-${c.pos}">${c.pos}</span>${c.pos === "DST" ? esc(c.name) : sleeperLink(c.pid, c.name)}
+    <span class="faint" style="font-weight:500">${esc(c.team || "")}</span>
+    ${c.inj ? `<span class="chip ${/Out|IR|Doubtful|PUP|Sus/.test(c.inj) ? "bad" : "warn"}">${esc(INJ_ES[c.inj] || c.inj)}</span>` : ""}
+    ${c.trend ? `<span class="chip accent" title="Agregados en Sleeper, 24h">📈 ${c.trend.toLocaleString("es-MX")}</span>` : ""}</div>${extra}`;
+}
+const INJ_ES = {Out: "Fuera", Doubtful: "Dudoso", Questionable: "Cuestionable", IR: "Reserva", "Injured Reserve": "Reserva", Suspension: "Suspendido", PUP: "PUP"};
+const SHARE_LABEL = {touch: "backfield", tgt: "targets", snap: "snaps"};
+function swingText(s) {
+  return s.notes.map(n => n.k === "drop" ? `jugó solo ${pct(n.now)} de los snaps (antes ${pct(n.pre)})`
+    : `<b>${pct(n.now)}</b> de ${n.k === "touch" ? "los toques del backfield" : n.k === "tgt" ? "los targets" : "los snaps"} <span class="faint">(antes ${pct(n.pre)})</span>`).join(", ")
+    + (s.first ? ` <span class="faint">— primer partido con snaps</span>` : "");
+}
+
+function tabRecap() {
+  const r = S.data.recap;
+  if (!r) return `<div class="card empty">Todavía no hay recap. Corre <code>python3 scripts/podcast_recap.py</code> cuando terminen los partidos.</div>`;
+  const gen = r.generated ? new Date(r.generated).toLocaleString("es-MX", {weekday: "short", day: "numeric", month: "short", hour: "numeric", minute: "2-digit"}) : "";
+  let h = `<div class="recap-head"><span>Recap de la <b>semana ${r.week}</b>${r.week !== S.week ? " (abre el programa de esta semana)" : ""}</span>
+    ${gen ? `<span class="faint">· generado ${esc(gen)}</span>` : ""}
+    ${(r.pending || []).map(p => `<span class="chip warn">Pendiente: ${esc(p.game.replace("@", " @ "))}</span>`).join("")}</div>`;
+
+  // Claude's spoken recap, when written
+  const sp = r.spoken || [];
+  if (sp.length) h += `<div class="grid cols-2" style="margin-bottom:16px">${sp.map(x => `<div class="card callout ${/waiver|resultados|lesion/i.test(x.title) ? "span-2" : ""}"><h3>${esc(x.title)}</h3><div class="md compact">${md(x.md)}</div></div>`).join("")}</div>`;
+
+  // KPIs
+  const sm = r.summary || {};
+  h += `<div class="kpis">
+    <div class="kpi"><div class="l">Nuestros picks</div><div class="v">${esc(((r.record || "").match(/Semana \d+: \*\*([^*]+)\*\*/) || [])[1] || "—")}</div><div class="s">${esc(((r.record || "").match(/Temporada: \*\*([^*]+)\*\*/) || [])[1] ? "temporada " + (r.record.match(/Temporada: \*\*([^*]+)\*\*/)[1]) : "")}</div></div>
+    <div class="kpi"><div class="l">Favoritos contra la línea</div><div class="v">${recTxt(sm.fav)}</div><div class="s">locales ${recTxt(sm.home)}</div></div>
+    <div class="kpi"><div class="l">Altas / bajas</div><div class="v">${recTxt(sm.ou)}</div><div class="s">contra el total de cierre</div></div>
+    <div class="kpi"><div class="l">Lesiones con rol</div><div class="v">${(r.injuries || []).length}</div><div class="s">titulares que salieron o se lastimaron</div></div>
+  </div>`;
+
+  // picks
+  if ((r.picks || []).length) h += `<div class="card" style="margin-bottom:16px"><h3>Nuestros picks de la semana ${r.week}</h3><div class="picks">${
+    r.picks.map(p => { const [aw, hm] = p.game.split("@");
+      return `<div class="pick-card" title="${esc(p.why || "")}"><div class="game">${logo(aw)}${aw} @ ${logo(hm)}${hm}</div>
+        <div class="bet">${esc(pickText(p))} ${stars(p.conf)}</div>
+        <div class="muted" style="font-size:12px;margin-top:4px">${p.result ? resultChip(p) : '<span class="chip warn">Pendiente</span>'}</div></div>`; }).join("")}</div></div>`;
+
+  // results
+  h += `<div class="card" style="margin-bottom:16px"><h3>Resultados contra la línea</h3><div class="table-wrap"><table class="slate"><thead><tr>
+    <th>Partido</th><th>Final</th><th>Cierre</th><th>Contra la línea</th><th class="c">Total</th><th class="c">Altas/bajas</th><th></th></tr></thead><tbody>`;
+  for (const x of r.results || []) {
+    const here = r.week === S.week && S.byKey[x.game];
+    const ats = x.ats ? (x.ats === "push" ? `<span class="chip">Empate</span>` : `<span class="chip ${x.cover_by >= 10 ? "solid" : "accent"}">${x.ats} por ${x.cover_by}</span>`) : "—";
+    const pk = (x.picks || []).map(p => `<span class="chip ${p.result === "W" ? "good" : p.result === "L" ? "bad" : ""}" title="Nuestro pick">${esc(pickText(p))}</span>`).join(" ");
+    h += `<tr ${here ? `data-go="${x.game}" tabindex="0"` : ""}>
+      <td><span class="teams">${logo(x.away)}${x.away} <span class="faint">@</span> ${logo(x.home)}${x.home}</span></td>
+      <td>${scoreHtml(x)}</td><td>${esc(x.line_txt || "—")}</td><td>${ats}</td>
+      <td class="c"><b>${x.as + x.hs}</b> <span class="faint">(${x.total ?? "—"})</span></td>
+      <td class="c">${x.ou ? `<span class="chip ${x.ou === "altas" ? "good" : x.ou === "bajas" ? "bad" : ""}">${x.ou}</span>` : "—"}</td><td>${pk}</td></tr>`;
+  }
+  h += `</tbody></table></div></div>`;
+
+  // injuries
+  const inj = r.injuries || [];
+  h += `<div class="card" style="margin-bottom:16px"><h3>Lesiones que mueven el fantasy</h3>`;
+  if (!inj.length) h += `<div class="empty">Sin lesiones de titulares registradas durante los partidos.</div>`;
+  else {
+    h += `<div class="table-wrap"><table><thead><tr><th>Jugador</th><th>Lesión</th><th>Rol antes</th><th class="c">Snaps hoy</th><th>Quién lo absorbió</th></tr></thead><tbody>`;
+    for (const i of [...inj].sort((a, b) => (b.role || 0) - (a.role || 0))) {
+      h += `<tr><td>${playerCell({...i, inj: i.status}, i.news ? `<div class="why">${esc(i.news)}</div>` : "")}</td>
+        <td>${esc(i.body || "—")}</td><td><b>${pct(i.role)}</b> <span class="faint">de ${SHARE_LABEL[i.key]}</span></td>
+        <td class="c">${pct(i.now)}</td>
+        <td>${i.heir ? `${sleeperLink(i.heir.pid, i.heir.name)} <span class="faint">${pct(i.heir.now)} de ${SHARE_LABEL[i.key]} · ${Math.round(i.heir.owned)}% en ligas</span>` : '<span class="faint">sin heredero claro</span>'}</td></tr>`;
+    }
+    h += `</tbody></table></div>`;
+  }
+  h += `</div>`;
+
+  // waivers by position
+  const W = r.waivers || {};
+  const POS = [["QB", "Mariscales"], ["RB", "Corredores"], ["WR", "Receptores"], ["TE", "Alas cerradas"]];
+  h += `<div class="sec-title">Waivers para la semana ${r.week + 1}</div>
+    <div class="card faint" style="font-size:12px;margin-bottom:16px">En 50% o menos de las ligas redraft de Sleeper. Orden: nivel (<b>A</b> heredó un backfield de trabajo, 30-60% del FAAB · <b>B</b> rol o proyección de titular, 15-25% · <b>C</b> profundidad, 1-5%) y luego la proyección PPR (promedio de la de Sleeper y la implícita por el uso de esta semana). Uso: negritas = semana ${r.week}, gris = temporada antes. Confirma la duración de cada lesión antes de decir un nivel A al aire.</div>
+    <div class="grid cols-2">`;
+  for (const [pos, label] of POS) {
+    const rows = W[pos] || [];
+    h += `<div class="card span-all"><h3>${label} <span class="chip">${rows.length}</span></h3>`;
+    if (!rows.length) { h += `<div class="empty">Nada por encima del mínimo.</div></div>`; continue; }
+    const k = pos === "RB" ? "touch" : pos === "QB" ? "snap" : "tgt";
+    h += `<div class="table-wrap"><table><thead><tr><th>#</th><th>Jugador</th><th class="c">% ligas</th><th>Semana ${r.week}</th><th class="c">Uso</th><th class="c">Rival</th><th class="c" title="Proyección PPR de Sleeper / implícita por el uso">Proy. Sleeper / uso</th><th class="c">Nivel</th></tr></thead><tbody>`;
+    rows.forEach((c, n) => {
+      const use = c.now ? `<b>${pct(c.now[k])}</b> <span class="faint">${pct(c.pre?.[k])}</span><div class="faint" style="font-size:11px">${SHARE_LABEL[k]}</div>` : "—";
+      h += `<tr><td class="num">${n + 1}</td><td>${playerCell(c, c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : "")}</td>
+        <td class="c">${Math.round(c.owned)}%</td>
+        <td>${c.pts_wk != null ? `<b>${fmt1(c.pts_wk)}</b> <span class="faint" style="font-size:12px">${esc(c.line_wk)}</span>` : `<span class="faint">${esc(c.line_wk || "—")}</span>`}</td>
+        <td class="c">${use}</td>
+        <td class="c">${esc(c.opp)}${c.opp_rank ? `<div>${rankChip(c.opp_rank)}</div>` : ""}</td>
+        <td class="c"><b>${fmt1(c.est)}</b><div class="faint" style="font-size:11px">${fmt1(c.proj)} / ${fmt1(c.uproj)}</div></td>
+        <td class="c"><span class="chip tier ${c.tier === "A" ? "good" : c.tier === "B" ? "accent" : ""}">${c.tier}</span><div class="faint" style="font-size:11px">${c.faab}</div></td></tr>`;
+    });
+    h += `</tbody></table></div></div>`;
+  }
+  const dst = W.DST || [];
+  h += `<div class="card"><h3>Defensivas para streaming</h3>${dst.length ? `<div class="table-wrap"><table><thead><tr><th>#</th><th>Defensiva</th><th class="c">% ligas</th><th class="c">Rival</th><th class="c" title="Puntos que el mercado espera del rival">Implícitos rival</th><th class="c">Proy.</th></tr></thead><tbody>${
+    dst.map((d, n) => `<tr><td class="num">${n + 1}</td><td><div class="player">${logo(d.team)}${d.team}</div></td><td class="c">${Math.round(d.owned)}%</td>
+      <td class="c">${esc(d.opp)}</td><td class="c">${fmt1(d.opp_implied)}</td><td class="c"><b>${fmt1(d.proj)}</b><div class="faint" style="font-size:11px">${fmt1(d.sacks)} capt. · ${fmt1(d.takeaways)} robos</div></td></tr>`).join("")}</tbody></table></div>` : `<div class="empty">Sin defensivas disponibles.</div>`}
+    <div class="faint" style="font-size:12px;margin-top:8px">Puntuación estándar de defensiva. FAAB 0-1%.</div></div>`;
+  const hot = r.hot || [];
+  h += `<div class="card"><h3>Los más agregados (24 h)</h3>${hot.length ? `<div class="table-wrap"><table><thead><tr><th>Jugador</th><th class="r">Agregados</th><th class="c">% ligas</th><th>Semana ${r.week}</th></tr></thead><tbody>${
+    hot.map(x => `<tr><td>${playerCell({...x, trend: 0})}</td><td class="r num">${x.adds.toLocaleString("es-MX")}</td><td class="c">${Math.round(x.owned)}%</td>
+      <td>${x.pts_wk != null ? `<b>${fmt1(x.pts_wk)}</b>` : `<span class="faint">${esc(x.line_wk || "—")}</span>`}</td></tr>`).join("")}</tbody></table></div>` : `<div class="empty">Sin datos.</div>`}
+    <div class="faint" style="font-size:12px;margin-top:8px">Antes de recomendar a cualquiera de estos, hay que saber por qué lo están agregando.</div></div>`;
+  h += `</div>`;
+
+  // game by game
+  h += `<div class="sec-title">Partido por partido</div><div class="grid cols-2">`;
+  for (const g of r.games || []) {
+    const x = g.row || {}, b = g.box || {}, a = g.away, hm = g.home;
+    const here = r.week === S.week && S.byKey[g.game];
+    const M = [["Yardas", t => `${b[t]?.yds ?? "—"} <span class="faint">(${b[t]?.ypp ?? "—"}/jugada)</span>`],
+               ["Por pase · por acarreo", t => `${b[t]?.ypa ?? "—"} · ${b[t]?.ypc ?? "—"}`],
+               ["Balones perdidos", t => b[t]?.to ?? "—"], ["3ª oportunidad", t => b[t]?.third ?? "—"],
+               ["Capturas recibidas", t => b[t]?.sacks ?? "—"], ["Zona roja", t => b[t]?.rz ?? "—"], ["Posesión", t => b[t]?.top ?? "—"]];
+    h += `<div class="card"><h3 style="text-transform:none;letter-spacing:0;font-size:15px;color:var(--text)">${logo(a)} ${scoreHtml({...x, away: a, home: hm})} ${logo(hm)}
+        ${here ? `<button class="btn" style="margin-left:auto" data-go="${g.game}" data-tab="resumen">Previa →</button>` : ""}</h3>
+      <div class="summary-line" style="margin:0 0 10px">${x.line_txt ? `<span class="chip">Cierre ${esc(x.line_txt)} · total ${x.total}</span>` : ""}
+        ${x.ats ? `<span class="chip accent">${x.ats === "push" ? "Empate vs línea" : `${x.ats} cubrió por ${x.cover_by}`}</span>` : ""}
+        ${x.ou ? `<span class="chip ${x.ou === "altas" ? "good" : "bad"}">${x.ou}</span>` : ""}
+        ${(x.picks || []).map(p => `<span class="chip ${p.result === "W" ? "good" : p.result === "L" ? "bad" : ""}">Pick: ${esc(pickText(p))}</span>`).join("")}</div>
+      <div class="table-wrap"><table class="box"><thead><tr><th></th><th>${a}</th><th>${hm}</th></tr></thead><tbody>
+        ${M.map(([l, f]) => `<tr><td>${l}</td><td>${f(a)}</td><td>${f(hm)}</td></tr>`).join("")}</tbody></table></div>
+      ${g.top?.length ? `<div class="team-head" style="margin-top:12px;font-size:13px">Fantasy (PPR)</div><ul class="mini-list">${g.top.map(p =>
+        `<li><span class="pos pos-${p.pos}">${p.pos}</span> ${sleeperLink(p.pid, p.name)} <span class="faint">${esc(p.team)}</span> <b>${fmt1(p.ppr)}</b> <span class="faint">${esc(p.line)}</span></li>`).join("")}</ul>` : ""}
+      ${g.swings?.length ? `<div class="team-head" style="margin-top:12px;font-size:13px">Uso que cambió ${g.blowout ? `<span class="chip warn" title="Un salto de uso en una paliza puede ser guion de partido, no rol">paliza de ${g.blowout}</span>` : ""}</div><ul class="mini-list">${g.swings.slice(0, 5).map(s =>
+        `<li><span class="pos pos-${s.pos}">${s.pos}</span> ${sleeperLink(s.pid, s.name)} <span class="faint">${esc(s.team)}</span>: ${swingText(s)}</li>`).join("")}</ul>` : ""}
+      ${g.injuries?.length ? `<div class="team-head" style="margin-top:12px;font-size:13px">Lesiones</div><ul class="mini-list">${g.injuries.map(i =>
+        `<li>${i.pid ? sleeperLink(i.pid, i.name) : esc(i.name)} <span class="faint">${i.pos}, ${esc(i.team)}</span> ${esc(i.body || "")} <span class="chip ${/Out|Injured/.test(i.status) ? "bad" : "warn"}">${esc(INJ_ES[i.status] || i.status)}</span></li>`).join("")}</ul>` : ""}
+    </div>`;
+  }
+  return h + `</div>`;
+}
+
 // ---------- game view
 function gameView(g) {
   const sh = g.sheet, a = sh.away, hm = sh.home, picks = S.picksBy[g.game] || [];
@@ -664,6 +826,7 @@ function gameView(g) {
     sh.divisional ? `<span class="chip">Divisional</span>` : "",
     sh.neutral ? `<span class="chip">Sede neutral</span>` : "",
     g.flag ? `<span class="chip flag">🚩 Alerta de línea</span>` : "",
+    finalChip(g),
     ...picks.map(p => `<span class="chip pick">${esc(pickText(p))} ${"★".repeat(p.conf)}</span>`)
   ].join("");
   let h = `<section class="hero" style="--away:${COLORS[a]};--home:${COLORS[hm]}">

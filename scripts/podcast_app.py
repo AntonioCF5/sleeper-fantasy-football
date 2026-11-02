@@ -66,6 +66,21 @@ def parse_rundown(path):
     return games, sections
 
 
+def load_recap(season, week):
+    """The recap that airs with this week's show: this week's own results once
+    they exist, otherwise last week's (the recap segment opens the next episode).
+    recap.md is Claude's spoken version, split on its ## sections."""
+    for w in (int(week), int(week) - 1):
+        f = week_dir(season, w) / "recap.json"
+        if f.exists():
+            recap = json.loads(f.read_text())
+            recap.pop("md", None)
+            spoken = week_dir(season, w) / "recap.md"
+            _, recap["spoken"] = parse_rundown(spoken)
+            return recap
+    return None
+
+
 def week_payload(season, week):
     d = week_dir(season, week)
     data = json.loads((d / "data.json").read_text())
@@ -75,6 +90,7 @@ def week_payload(season, week):
         picks = (json.loads(PICKS.read_text()).get("weeks") or {}).get(str(week)) or []
     data["rundown"] = {"games": games, "sections": sections}
     data["picks"] = picks
+    data["recap"] = load_recap(season, week)
     data["weeks"] = weeks()
     return data
 

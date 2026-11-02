@@ -8,7 +8,8 @@
         "side": "MIN",
         "line": 3.0,
         "conf": 2,
-        "why": "Both models lean MIN; reverse move vs 82% DET money; Gibbs DNP Wed"
+        "why": "Both models lean MIN; reverse move vs 82% DET money; Gibbs DNP Wed",
+        "result": "L"
       },
       {
         "game": "CHI@SEA",
@@ -24,7 +25,8 @@
         "side": "under",
         "line": 46.5,
         "conf": 2,
-        "why": "TEN slowest pace + 31st scoring, Tate/Spears DNP, CIN two-score script"
+        "why": "TEN slowest pace + 31st scoring, Tate/Spears DNP, CIN two-score script",
+        "result": "L"
       },
       {
         "game": "TEN@CIN",
@@ -32,7 +34,8 @@
         "side": "CIN",
         "line": -10.0,
         "conf": 1,
-        "why": "Only 🚩 game: SRS CIN -13.6, FPI -15"
+        "why": "Only 🚩 game: SRS CIN -13.6, FPI -15",
+        "result": "L"
       },
       {
         "game": "CAR@GB",
@@ -40,7 +43,8 @@
         "side": "CAR",
         "line": 3.5,
         "conf": 1,
-        "why": "GB without Parsons + two interior OL, 32nd in yds/rush; hook on 3"
+        "why": "GB without Parsons + two interior OL, 32nd in yds/rush; hook on 3",
+        "result": "L"
       },
       {
         "game": "IND@JAX",
@@ -48,7 +52,8 @@
         "side": "under",
         "line": 46.5,
         "conf": 1,
-        "why": "Wind 14-15 gusts 21+, IND fire sale (Nelson/Buckner traded)"
+        "why": "Wind 14-15 gusts 21+, IND fire sale (Nelson/Buckner traded)",
+        "result": "L"
       }
     ]
   }

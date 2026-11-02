@@ -1,6 +1,6 @@
 ---
 name: podcast-prep
-description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Also use when they ask to open the podcast app, add a stat to it, or what a number on the sheet/app means (SRS, yds/pase, yds/target, how to read the Fantasy or Uso table). Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, coach/QB/series history, rest/spot, injuries, fantasy usage and matchups), adds the research layer, writes an on-air rundown in Spanish with picks logged to data/intel/podcast_picks.json, and serves it all in the local app (scripts/podcast_app.py).
+description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Also use for the RECAP segment — "el recap", how last week's games went vs the line, the injuries, and waiver priorities by position for the podcast audience (scripts/podcast_recap.py, §8). Also use when they ask to open the podcast app, add a stat to it, or what a number on the sheet/app means (SRS, yds/pase, yds/target, how to read the Fantasy or Uso table). Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, coach/QB/series history, rest/spot, injuries, fantasy usage and matchups), adds the research layer, writes an on-air rundown in Spanish with picks logged to data/intel/podcast_picks.json, and serves it all in the local app (scripts/podcast_app.py).
 ---
 
 # Podcast prep
@@ -35,7 +35,12 @@ this without asking. Each step is detailed in the section named.
    an empty card (§6).
 7. **Close out**: commit, and post the chat summary (§5).
 
+The episode opens with the **recap of the week just played plus waivers**
+(§8). That runs Monday/Tuesday, after the games and before waivers clear,
+and it's a separate run: "haz el recap", "los waivers de la semana".
+
 Asked something smaller, do only that piece:
+- "recap" / "waivers" → §8 in full.
 - "refresh the lines" → step 1 plus the app's Actualizar button.
 - "add X to the app/sheet" → §6, "Adding a metric".
 - "what does X mean" / "how do I read this table" → §7, answered in Spanish
@@ -279,6 +284,10 @@ UI (HTML, CSS and JS in one file).
 **What each tab shows, and where it comes from:**
 - Overview:
   - Cartelera: KPIs, pick cards and the slate table.
+  - Recap y waivers: `recap.json` + Claude's `recap.md` (§8). It shows this
+    week's recap once one exists, otherwise last week's, which is the one
+    that opens this week's episode. Once a game is final, its hero also
+    shows the final score.
   - Guion general: the rundown's `##` sections.
   - Notas de la hoja: `slate_md`.
 - Per game:
@@ -371,3 +380,119 @@ on-air takeaway.
   - The read line under each table labels the backfield ("un solo hombre",
     "reparto claro", "comité") and the target tree ("árbol concentrado",
     "reparto abierto").
+
+## 8. Recap + waivers (Monday/Tuesday, the episode's opening segment)
+
+The recap and waiver segment opens each episode. It goes over the week just
+played: results against the line, the games themselves, the injuries, and
+waiver priorities **by position** for a general audience. Run it after the
+Sunday games. Run it again after MNF if a Monday game matters, because
+injuries and stat lines are still settling. Waivers clear Tuesday night, so
+the waiver half goes stale after that.
+
+### 8.1 Data
+
+```
+python3 scripts/podcast_recap.py [week]     # default: the week just played
+```
+→ `reports/<season>/podcast/weekNN/recap-prep.md` + `recap.json`, written into
+the folder of the week that was played. It runs in about 10s and grades
+`podcast_picks.json` for that week. Unfinished games (MNF) show as pending;
+re-run once they're final.
+
+What it holds:
+- **Our picks**: each graded W/L/pending, plus the week and season record.
+- **Results vs the closing line**: who covered and by how much, the
+  over/under, and records for favorites, home teams and overs.
+  - "Donde más falló el mercado" lists the three biggest cover margins.
+    Before calling one a story, find the cause: a turnover avalanche, a QB
+    injury, or a blowout script.
+- **Injuries that move fantasy**: ESPN's per-game injury list, keeping only
+  entries dated at or after kickoff, so pregame inactives drop out. Each
+  injured player gets:
+  - his role before this week (backfield touches, targets or snaps)
+  - his snap % in this game
+  - whoever absorbed the role, with that player's rostered %
+  - the latest Sleeper news headline
+
+  A teammate only counts as having absorbed the role if the injured player
+  actually lost it: he was ruled out, didn't play, or played under 60% of
+  his usual snaps.
+- **Game by game**:
+  - the box score: yards, yards per play, per pass and per carry,
+    turnovers, 3rd down, sacks taken, red zone, time of possession
+  - the top 5 PPR lines
+  - **usage that changed** vs the season before this week: backfield share
+    +20 pts, target share +10, snaps +25, or a starter cut to half his snaps
+  - the injuries
+- **Waivers for next week, by position** (QB 4, RB 8, WR 8, TE 4, DST 5):
+  - Who qualifies: rostered in ≤50% of Sleeper **redraft** leagues
+    (`api.get_ownership`, the research endpoint), and not Out/IR.
+  - Projection: the average of Sleeper's projection re-scored in PPR and a
+    **usage-implied projection**. Sleeper lags role changes by days (wk 8:
+    Mike Washington Jr. at 81% of the LV backfield was projected 5.2; his
+    usage implied 18.6).
+    - RB: this week's share × the team's RB PPR per game.
+    - WR/TE: target share × team targets per game × league PPR per target.
+  - Tier, from the CLAUDE.md FAAB ladder:
+    - **A** (30-60%): inherited ≥55% of a backfield.
+    - **B** (15-25%): any other inherited role, or a projection at or above
+      the position's starter line (QB12/RB24/WR24/TE12).
+    - **C** (1-5%): everyone else.
+  - DST streamers: next week's projection in standard scoring, against the
+    opponent's implied total from the market.
+- **Most-added on Sleeper (24h)**: the platform's list, with each player's
+  week. Every name on it needs a WHY before it becomes a call (CLAUDE.md:
+  investigate huge add counts). A player can trend because of somebody
+  else's injury (wk 8: Singletary at 503k adds on a bye week).
+
+### 8.2 Research layer (2 parallel subagents)
+
+1. **Injuries**: diagnosis, MRI, timeline and Monday's coach quotes for every
+   row in "Lesiones que mueven el fantasy", and for every starter who left a
+   game. Ask the decisive question for each one: who starts at that position
+   in week N+1? (wk 8: BAL lost Lamar, Huntley AND Fagnano in one game.)
+2. **Roles**: why each 📈 player is trending, and whether each usage jump
+   will last. Was it a teammate's injury, a depth-chart move, or blowout
+   garbage time? Cross-check `data/intel/expert_takes.json`.
+
+The mechanical tier is a starting point. Research moves it:
+- An A tier holds only if the injury is multi-week.
+- A one-week fill-in drops to C.
+- A role confirmed by the coach moves up a tier.
+- **A usage jump in a blowout loss is a script, not a role.** Check the
+  score before you trust a share.
+
+### 8.3 The spoken recap (Claude writes it)
+
+→ `reports/<season>/podcast/weekNN/recap.md`, in Spanish, written to be
+spoken, with the same conventions as §3. The app shows each `##` section as
+a card at the top of the Recap tab, so keep these headings:
+
+```
+# Recap semana N
+## Lo que pasó: the 3 stories of the week (one line each, with the number that proves it)
+## Nuestros picks: record + one honest post-mortem line per loss (what we missed, not "bad luck")
+## Contra la línea: favorites/home/overs, the biggest market miss and WHY
+## Lesiones: each one → timeline → who replaces him → fantasy verdict
+## Waivers por posición: QB / RB / WR / TE / DST, each as "1. Name (team, % in leagues): why — FAAB %"
+## Los que NO: the trap adds (a trending name whose role isn't real), with the stat that says so
+```
+
+Waiver rules (the same discipline as the weekly report):
+- **Priority goes by position, and inside each position by rest-of-season
+  role.** A one-week boom is not a role. Lead with the add that changes
+  rosters: an inherited workhorse role, then a starting job, then streamers.
+- Back every call with its usage number: "81% of the backfield touches,
+  up from 22%", not "he looked good".
+- Give the FAAB % from the tier, after research has adjusted it. Bids are
+  always odd numbers.
+- Keep it league-agnostic. Never mention his rosters or his leagues on air.
+  His own waivers are the weekly report's and the newsletter's job.
+
+### 8.4 Close out
+
+Commit `recap-prep.md`, `recap.json`, `recap.md` and `podcast_picks.json`
+together. In chat, give the record, the 3 injuries that matter most, and the
+top waiver per position with its FAAB.
+
