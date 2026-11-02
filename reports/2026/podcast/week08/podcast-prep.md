@@ -33,12 +33,12 @@
 - LAC @ LAR: **LAR** — rinde abajo de su diferencial de puntos por 1.7 victorias (partidos de una posesión 1-3) — mejor que su récord
 - IND @ JAX: **JAX** — brecha local/visita en 3 temporadas de +6.6 pts por lado (local 11-6, visita 10-13); norma de la liga ~+1.5, ruido ±2
 - BAL @ BUF: **BUF** — rinde arriba de su diferencial de puntos por 1.5 victorias (partidos de una posesión 4-1) — riesgo de regresión
-- BAL @ BUF: **BUF** — Sean McDermott tras semana de descanso: 9-0
 - KC @ DEN: **KC** — Patrick Mahomes vs DEN: 14-2
 - KC @ DEN: **DEN** — rinde arriba de su diferencial de puntos por 1.4 victorias (partidos de una posesión 4-0) — riesgo de regresión
 - LAC @ LAR: **LAC** — rinde abajo de su diferencial de puntos por 1.4 victorias (partidos de una posesión 0-3) — mejor que su récord
 - PHI @ WSH: **WSH** — rinde abajo de su diferencial de puntos por 1.4 victorias (partidos de una posesión 1-2-1) — mejor que su récord
 - MIN @ DET: **MIN** — rinde arriba de su diferencial de puntos por 1.3 victorias (partidos de una posesión 4-0) — riesgo de regresión
+- CAR @ GB: **CAR** — Dave Canales después de derrota: 17-6 ATS *(tendencia — color)*
 
 ### Totales implícitos por equipo
 
@@ -227,11 +227,11 @@ _backfield: comité (Josh Jacobs 67% de los toques) · top-2 de targets: 50% del
 
 | | **BAL** | **BUF** |
 |---|---|---|
-| Entrenador en jefe | Jesse Minter | Sean McDermott |
-| Carrera del coach (desde '99) | 4-3 · ATS 2-4-1 | 111-59 · ATS 89-75-6 |
-| Coach en este rol | como no favorito: 1-1 · ATS 1-1 | como favorito: 87-26 · ATS 59-50-4 |
-| Coach de local / de visita | visita: 3-1 · ATS 2-1-1 | local: 64-21 · ATS 44-38-3 |
-| Coach vs esta franquicia | — | 4-3 · ATS 3-3-1 |
+| Entrenador en jefe | Jesse Minter | Joe Brady |
+| Carrera del coach (desde '99) | 4-3 · ATS 2-4-1 | 5-1 · ATS 4-2 |
+| Coach en este rol | como no favorito: 1-1 · ATS 1-1 | como favorito: 4-1 · ATS 3-2 |
+| Coach de local / de visita | visita: 3-1 · ATS 2-1-1 | local: 2-1 · ATS 2-1 |
+| Coach vs esta franquicia | — | — |
 | Cara a cara vs el otro coach | — | — |
 | Coach después de derrota | 1-1 · ATS 0-1-1 | — |
 | QB | Lamar Jackson | Josh Allen |
@@ -243,15 +243,13 @@ _backfield: comité (Josh Jacobs 67% de los toques) · top-2 de targets: 50% del
 | Ventaja de local, últimas 3 temporadas | -2.4 pts (local 10-10, visita 14-7) | +3.4 pts (local 17-3, visita 13-7) |
 | Victorias pitagóricas vs reales | 3.5 vs 4 | 3.5 vs 5 |
 | Partidos de una posesión (≤8) | 3-2 | 4-1 |
-| Coach después de victoria | — | 68-41 · ATS 54-52-3 |
-| Coach tras semana de descanso | — | 9-0 · ATS 5-2-2 |
+| Coach después de victoria | — | 3-1 · ATS 2-2 |
+| Coach tras semana de descanso | — | — |
 
 **Serie, últimos 10:** BUF 5-5 directo · 5-4-1 ATS · altas/bajas 4-6 · total promedio 46.6 · BUF ha ganado 2 seguidos · último: 2025 sem 1, BUF 41-40
 
 **A destacar:**
 - **BUF** — rinde arriba de su diferencial de puntos por 1.5 victorias (partidos de una posesión 4-1) — riesgo de regresión
-- **BUF** — Sean McDermott tras semana de descanso: 9-0
-- **BUF** — Sean McDermott tras semana de descanso: 5-2-2 ATS
 
 **BUF lesiones:** Ed Oliver DT (Cuestionable — Rodilla), Tyrell Shavers WR (Fuera — Rodilla - LCA), Dalton Kincaid TE (Cuestionable — Pecho), DJ Moore WR (Cuestionable — Hombro - articulación AC)
 **BAL lesiones:** Roquan Smith LB (Cuestionable — Rodilla), Kyle Hamilton S (Cuestionable — Rodilla), Lamar Jackson QB (Cuestionable — Tobillo), John Simpson G (Cuestionable — Ingle)
@@ -465,13 +463,13 @@ _backfield: reparto claro (Chase Brown 66% de los toques) · top-2 de targets: 4
 
 | | **ARI** | **DAL** |
 |---|---|---|
-| Entrenador en jefe | Jonathan Gannon | Brian Schottenheimer |
-| Carrera del coach (desde '99) | 17-41 · ATS 29-29 | 10-13-1 · ATS 10-13-1 |
-| Coach en este rol | como no favorito de 7+: 5-15 · ATS 10-10 | como favorito de 7+: 1-1 · ATS 0-2 |
-| Coach de local / de visita | visita: 8-22 · ATS 17-13 | local: 5-4-1 · ATS 5-5 |
-| Coach vs esta franquicia | 2-0 · ATS 2-0 | 0-1 · ATS 0-1 |
-| Cara a cara vs el otro coach | 1-0 · ATS 1-0 | 0-1 · ATS 0-1 |
-| Coach después de derrota | 11-27 · ATS 19-19 | — |
+| Entrenador en jefe | Mike LaFleur | Brian Schottenheimer |
+| Carrera del coach (desde '99) | 2-5 · ATS 3-4 | 10-13-1 · ATS 10-13-1 |
+| Coach en este rol | como no favorito de 7+: 2-1 · ATS 3-0 | como favorito de 7+: 1-1 · ATS 0-2 |
+| Coach de local / de visita | visita: 2-2 · ATS 3-1 | local: 5-4-1 · ATS 5-5 |
+| Coach vs esta franquicia | — | 0-1 · ATS 0-1 |
+| Cara a cara vs el otro coach | — | — |
+| Coach después de derrota | 1-3 · ATS 2-2 | — |
 | QB | Jacoby Brissett | Dak Prescott |
 | QB, carrera como titular (desde '99) | 22-50 · ATS 33-37-2 | 88-63-1 · ATS 76-72-4 |
 | QB vs este rival | 1-0 · ATS 1-0 | 1-3 · ATS 1-3 |
@@ -699,7 +697,7 @@ _backfield: un solo hombre (Jahmyr Gibbs 91% de los toques) · top-2 de targets:
 
 | | **LV** | **NYJ** |
 |---|---|---|
-| Entrenador en jefe | Klint Kubliak | Aaron Glenn |
+| Entrenador en jefe | Klint Kubiak | Aaron Glenn |
 | Carrera del coach (desde '99) | 3-4 · ATS 5-2 | 5-19 · ATS 11-12-1 |
 | Coach en este rol | como no favorito: 2-4 · ATS 4-2 | como favorito: 1-3 · ATS 1-3 |
 | Coach de local / de visita | visita: 2-1 · ATS 2-1 | local: 3-8 · ATS 5-6 |
@@ -931,14 +929,14 @@ _backfield: comité (Jaylen Warren 69% de los toques) · top-2 de targets: 50% d
 
 | | **ATL** | **TB** |
 |---|---|---|
-| Entrenador en jefe | Raheem Morris | Todd Bowles |
-| Carrera del coach (desde '99) | 40-60 · ATS 44-55-1 | 64-82 · ATS 64-76-6 |
-| Coach en este rol | como no favorito: 22-47 · ATS 32-37 | como favorito: 39-27 · ATS 27-37-2 |
-| Coach de local / de visita | visita: 21-31 · ATS 28-23-1 | local: 33-40 · ATS 29-41-3 |
-| Coach vs esta franquicia | 3-3 · ATS 4-2 | 3-6 · ATS 3-6 |
-| Cara a cara vs el otro coach | 3-1 · ATS 3-1 | 1-3 · ATS 1-3 |
-| Coach después de victoria | 17-20 · ATS 18-19 | 26-34 · ATS 25-32-3 |
-| Coach en partidos divisionales | 15-22 · ATS 16-21 | 26-26 · ATS 23-27-2 |
+| Entrenador en jefe | Kevin Stefanski | Todd Bowles |
+| Carrera del coach (desde '99) | 49-62 · ATS 47-62-2 | 64-82 · ATS 64-76-6 |
+| Coach en este rol | como no favorito: 21-44 · ATS 30-34-1 | como favorito: 39-27 · ATS 27-37-2 |
+| Coach de local / de visita | visita: 19-38 · ATS 21-35-1 | local: 33-40 · ATS 29-41-3 |
+| Coach vs esta franquicia | 1-0 · ATS 1-0 | 3-6 · ATS 3-6 |
+| Cara a cara vs el otro coach | 1-0 · ATS 1-0 | 0-1 · ATS 0-1 |
+| Coach después de victoria | 18-28 · ATS 17-27-2 | 26-34 · ATS 25-32-3 |
+| Coach en partidos divisionales | 18-21 · ATS 16-23 | 26-26 · ATS 23-27-2 |
 | QB | Michael Penix Jr. | Baker Mayfield |
 | QB, carrera como titular (desde '99) | 4-4 · ATS 4-4 | 62-67 · ATS 57-71-1 |
 | QB vs este rival | — | 3-4 · ATS 3-4 |
