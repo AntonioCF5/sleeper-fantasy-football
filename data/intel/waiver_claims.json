@@ -1,27 +1,7 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-03",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
-  {
-   "league_id": "1389689013551517698",
-   "league": "🪓 Guillotine TRC",
-   "player": "Seth McGowan (RB, IND)",
-   "player_id": "13424",
-   "verdict": "protected-hold",
-   "bid": null,
-   "drop": null,
-   "why": "Clean handcuff (dc2 behind Taylor). Rapoport-level JT trade smoke (MIN/SEA/DEN/NE, a 2027 1st); Sal stashes him after a season-high 11 carries. Guillotine's every-spot-produces rule makes him the first cut once JT's status resolves at the deadline, but not before."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Jonah Coleman (RB, DEN)",
-   "player_id": "13345",
-   "verdict": "protected-hold",
-   "bid": null,
-   "drop": null,
-   "why": "Both sources call him DEN's takeover back: 50% snaps, 41% of rushes, 34% of routes in his first game off IR; Payton said 'gotta get him more touches'. He sits on the MEXICA bottom-bench list by projection (S58), so this ruling exists to stop a projection-driven drop. Bench Bell/Dotson go first. 2026-10-28: protected from DROPS only. He's an acceptable fallback chip in the Shough-for-Lawrence trade (see trade_offers), but try Vidal first."
-  },
   {
    "league_id": "1385473470141313024",
    "league": "FANTASY MEXICA",
@@ -49,11 +29,33 @@
    "drop": null,
    "date": "2026-10-31",
    "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Adonai Mitchell (WR, NYJ)",
+   "player_id": "11625",
+   "verdict": "claim",
+   "bid": null,
+   "drop": "Austin Ekeler (RB, WAS, 31)",
+   "date": "2026-11-03",
+   "why": "Waivers here run on priority by reverse standings (waiver_type 1, no FAAB), and the roster is 17/17 with IR 0/2 but nothing IR-eligible (every reserve_allow_* = 0), so the claim needs a named drop. Mitchell went 7-142-1 on 9 targets in Week 8 and was the #1 trending add (637k). He is NYJ dc3 behind G. Wilson and O. Cooper, with a 98 ROS projection under this scoring. The WR room is Chase, Concepcion and an Out Egbuka, so he is WR depth for the bye weeks, not a Week 9 starter (6.3 proj vs Mayer 7.3). Ekeler fails the clean-handcuff test: he is WAS dc2 behind Rachaad White, whose ROS projection is 128, under the 200 bar, so he isn't protected. He projects 9.3 ROS at age 31. McNichols being out for months nudges Ekeler's role up but not his ceiling. Fallback claims: Chimere Dike or Sione Vaki."
+  },
+  {
+   "league_id": "1338269686810300416",
+   "league": "Dynasty Mexica",
+   "player": "Tyler Allgeier (RB, ARI)",
+   "player_id": "8132",
+   "verdict": "watch-trade",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-03",
+   "why": "Not a waiver: pgarza rosters him. Handcuff cross-check: Allgeier is ARI dc2 behind YOUR Jeremiyah Love, who has a NEW ankle injury per LaFleur, with an update later this week. Allgeier went 11-147-1 plus 5-44-1 in Week 8 while Conner, Benson and Knight are all hurt. If Love misses time, Allgeier is the ARI lead back with Minshew now starting. He's a buy-low target from pgarza only if Love's update is multi-week. Do not overpay for a 2-3 week fill-in on a 3-5 dynasty roster."
   }
  ],
  "roster_compliance": {
   "read_live": "2026-10-31",
-  "Gallamijos League": "17/17 active, IR 0/2 (every reserve_allow_* = 0, so nobody is IR-eligible). ⚠️ DB starting slot is EMPTY (Stukes gone) — guaranteed 0. Fix: add FA DB Jordan Battle (CIN vs TEN, 5.9 proj; Nick Cross WAS 5.9 is the alt), drop Greg Dulcich (TE3 behind Okonkwo/Mayer, 26). Lineup: Mayer into FLEX over Chris Bell (+2.1), PIT DEF over LAR (+0.8).",
+  "Gallamijos League": "17/17 active, IR 0/2 (every reserve_allow_* = 0). All IDP slots filled (Watt/Bolton/Woodson). Week 9: PIT DEF on bench is on bye. A. Mitchell claim pairs with the Ekeler drop.",
   "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0.",
   "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",

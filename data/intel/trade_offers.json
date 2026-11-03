@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-03",
  "note": "Standing trade offers, curated. Lineup deltas are season-total optimal-lineup projections under each league's corrected scoring, recomputed every run. The dashboard's My Team view and the daily newsletter both read this file. Update state as sent/countered/accepted/dead. UNTOUCHABLES: Joe Burrow — never tradeable, any league (Bengals fan); Blake Corum — keep.",
  "offers": [
   {
@@ -204,7 +204,7 @@
     "Trevor Lawrence"
    ],
    "fallback": "Shough + Jonah Coleman for Lawrence (the version he asked for) — accept it if he won't take Vidal; the QB upgrade outweighs Coleman's stash value",
-   "state": "NEW 2026-10-28 — user asked about Shough+Coleman for Lawrence. Ruling: YES, but counter with Vidal in Coleman's place first; accept the original rather than lose the deal. Must process before JAX's week-8 kickoff to collect the +12.2 bye-week gain.",
+   "state": "EXECUTED (Week 8) ✅: Shough + Jonah Coleman for Trevor Lawrence, the original version, completed per the Sleeper transactions log (verified 2026-11-03). Lawrence is MEXICA's QB1. | NEW 2026-10-28 — user asked about Shough+Coleman for Lawrence. Ruling: YES, but counter with Vidal in Coleman's place first; accept the original rather than lose the deal. Must process before JAX's week-8 kickoff to collect the +12.2 bye-week gain.",
    "lineup_delta": "MEXICA scoring, starting QB only (Coleman/Vidal never start): wk8 D.Jones 11.3 -> Lawrence 23.5 (+12.2, Shough bye); wk9-17 Shough 162.0 -> Lawrence 223.7 (+61.7); playoffs wk15-17 57.5 -> 78.6 (+21.1). Total +73.9 projected. YTD-actuals floor: Lawrence 23.7 ppg vs Shough 21.1 (+2.6/wk) -> about +35. alealvarez7 already starts Darnold over Lawrence, so on paper his lineup barely moves (Shough 162.0 vs Darnold 150.7 ROS).",
    "why": "Lawrence gives 6-pt pass-TD QB1 volume (300+ yds in back-to-back games, bye already used). Shough is playing through two broken bones in his non-throwing hand and has his bye THIS week, which leaves Daniel Jones starting (4:7 TD:INT, Richardson rumblings). Coleman has protected-hold status as DEN's possible takeover back, which protects him from drops, not from a trade for a weekly starter upgrade. In a 1-QB league, though, he's the most valuable thing we'd give up, so he's the piece to try to keep.",
    "pitch": "You're starting Darnold over Lawrence anyway. Shough is a 23-ppg-type QB on a R10 keeper price, and Vidal gives you LAC backfield depth. Lawrence is just sitting on your bench."

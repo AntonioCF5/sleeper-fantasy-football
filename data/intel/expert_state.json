@@ -1153,19 +1153,47 @@
    "published": "2026-10-30",
    "source": "fantasy-footballers",
    "processed": "2026-10-31"
+  },
+  "86nxkNynqsg": {
+   "video_id": "86nxkNynqsg",
+   "title": "10 Must Add Players to Pick Up in Your Fantasy League Right Now",
+   "published": "2026-11-03",
+   "source": "sal-vetri",
+   "processed": "2026-11-03"
+  },
+  "xATVS__AuqM": {
+   "video_id": "xATVS__AuqM",
+   "title": "Week 8 Studs & Duds + Trade Rumors | Fantasy Football 2026 - Ep. 2006",
+   "published": "2026-11-02",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
+  },
+  "oVzXtcSb6Jk": {
+   "video_id": "oVzXtcSb6Jk",
+   "title": "The Kyren vs Corum debate is heating up...",
+   "published": "2026-10-31",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
+  },
+  "XMF6I6-uN7E": {
+   "video_id": "XMF6I6-uN7E",
+   "title": "What if Jonathan Taylor goes to the Broncos?? Trade deadline just over a week away!",
+   "published": "2026-11-02",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-31",
+   "last_success": "2026-11-03",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-10-31",
+   "last_success": "2026-11-03",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0

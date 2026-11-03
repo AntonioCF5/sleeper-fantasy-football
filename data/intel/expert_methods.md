@@ -1702,3 +1702,8 @@ without testing it.
 - **Two-flex depth** [Sal]: in two-flex formats the RB2/flex spots decide
   matchups; judge a roster by its full no-bye lineup, and don't sell a stud
   after two bad games to chase buy-low names.
+- **Prediction markets as a trade-rumor filter [Sal, 2026-11-03]:** at the
+  deadline, read the liquid prediction-market odds on a player's destination
+  (Jonathan Taylor: DEN 25%, SEA 23%, ~7 teams in the race, $1M+ traded)
+  instead of beat-reporter noise; a flat distribution means "stash the
+  handcuff, don't sell the incumbent yet."
