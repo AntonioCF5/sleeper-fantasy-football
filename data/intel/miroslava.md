@@ -316,8 +316,8 @@ comparar el borrador contra la edición anterior.
 | 2026-10-20 | Dinastía J6: EL CLIMA como apertura ("despejado y 6-0… Tormenta de 0-6… Probabilidad de que Pancho se cambie el nombre: 0%") · *3 metros sobre el cielo* (La Dona, trend IA de Hache y Babi) · *Rul Cameron* / *Titanic* "soy el rey del mundo" + iceberg 160.1 para el Salado Charly + "A Charly, un salvavidas" · *Avengers* "Los Vengadores completos. En la pinche banca" (Rorro 53.8) · paquetería "entregado, y sin acuse de recibo" (Fer, callback publicado) · *El Padrino* "una oferta que no pudo rechazar… nunca llegaron a la cena" (Bebé–Buz) · "Hasta lo que le sobra le alcanza" (La Dona, 2.3 de los 1,000) · "la sal conserva" (Dave 5-1) · "Acertó. Que alguien revise el reglamento" (Bebé) · Germie Bernard taxi→banca "Le falta un escalón, cabrón: alinearlo" · Gallagher alineó a sus Eagles con Carolina en la banca · "Un hombre de principios" (Dave sentó a Penix y Stroud por Allen) · "chubascos de mamadas" | usados — descansar |
 | 2026-10-27 | Gallamijos J7: PARTE MÉDICO como apertura (Nenes consentidos "despertó del coma", Watson "respiración de boca a boca") · Maussan / ser de Valle de Juárez "que ataca gallinas… se cenó a un Galla" (viral) · *Ratatouille* "cualquiera puede cocinar. Hasta un taquito" · "lo tuvo todo el domingo sentado" (Rorro 191.3) · "Buz no lee los jueves" + "gaveta propia en la morgue" · carrusel de DBs (Charly) · "No pudo escoger un equipo; tampoco un pateador" (George) · "8 títulos en la vitrina y ni un partido" (Mijos 0-4) · "Corre, Frijol, corre" · Dr. Simi "receta genéricos" (Doctor) · "Rorro anota en la banca" · "se enoja con Sleeper, no con la NFL" (inversión de la J6) · "identidad → mejoría" (Chapo) · "Sal con denominación de origen" · "el pálpito entró a urgencias" · "cuota de sótano" (Alacrán) · "el paciente respira" | usados — descansar |
 | 2026-10-27 | Dinastía J7: CARTA DE UN LECTOR como apertura ("El Invicto de Aquiles Brinco… Pregúntale por el talón" + cierre "un beso en el talón") · *El lobo de Wall Street* "lo administra un pendejo" (Faraón) · *Thriller* "Rorro salió de la tumba y el primero que mordió fue el Mijo" · *Volver al futuro* almanaque "el de la semana pasada" (Gallagher/Carolina) · *El día de la marmota* (Same Old Jets) · "el taxi llegó; el titular, no" · "Ingeniero titulado… la suma no le salió" · "Chingadera redonda" · "de palco" · "El invierno llegó y el trono sigue en su lugar" · "Hasta la sal tiene a quién ganarle" · "Aubrey no muerde; se alinea" | usados — descansar |
-| 2026-11-03 | Gallamijos J8: RECETA (Escorpión a la diabla) como apertura · *El imperio contraataca* (Rorro) · *Matrix* pastilla azul + 28-3 "ya tiene competencia" (Cano/Cam Ward) · *Titanic* "en la puerta cabían los 2" (Bebé/Huntley) · *Gladiador* "¿no os divertís?" · *Náufrago* "un solo Wilson, Garrett" (Gallagher) · "Casualidad??" (Pythons) · "visita de hospital" (Nenes) · "El abogado perdió con la prueba en la mano" · "Imagínense si piensa" (Zenitsu) · "Con prisa sale mejor" (Sukuna) · Jebus 3 movimientos en 1:29 · "El DB invisible rinde" (Charly) | usados — descansar |
-| 2026-11-03 | Dinastía J8: VAR como apertura (talón, payoff de la carta) · *House of Cards* "Underwood tampoco necesitaba elecciones" (Bebé) · *Los 10 mandamientos* "el Faraón dejó ir a Burrow a la banca" · *Coco* "Recuérdame" + Día de Muertos (Fer) · sobre de los Óscar (Rul Salado) · *Misión Imposible* (Buz) · Apollo Creed (Amarante) · *La Víbora de la mar* (Charly) · "Cousins: alineado, sentado, alineado" · Adonai Mitchell 0→28.2 sentado | usados — descansar |
+| 2026-11-03 | Gallamijos J8 (versión final tras pase del user): RECETA (Escorpión a la diabla) como apertura · *El imperio contraataca* (Rorro) · *Titanic* "pero ni zarpó" (Bebé/Lamar) · *Gladiador* "¿no os divertís?" · *Náufrago* "un solo Wilson, Garrett" (Gallagher) · *Los juegos del hambre* "pero con waivers" (Termómetro) · "El Monday Night ya es la sala de urgencias" · "Recetó bien y el paciente se murió igual" (Doctor) · Jebus 3 movimientos en 1:29 "El pánico también se alinea" · "El DB invisible rinde" (Charly) · "Que no desempaque" (Downs/Zenitsu) · "El que tiene, sigue teniendo" (Allgeier/Alacrán) · "la lápida" (los 3 de 1-7) | usados — descansar. Cortados y libres: *Matrix* (Cano), "Imagínense si piensa", "Con prisa sale mejor", "Casualidad??" |
+| 2026-11-03 | Dinastía J8 (versión final tras pase del user): VAR como apertura (talón, payoff de la carta) · *Los 10 mandamientos* "el Faraón dejó ir el partido" (Houston en bye) · *Coco* "Recuérdame" + Día de Muertos (Fer) · sobre de los Óscar (Rul Salado) · *Misión Imposible* (Buz) · Apollo Creed (Amarante) · *Taxi Driver* «¿me hablas a mí?» (Gallagher/Dike) · patada de la grulla (Rorro, remontada del lunes) · "conflicto de intereses, su especialidad" (Bebé/Taylor) · "la víbora y sin el Lamar" (Charly) · "la única bandera que ondean es la blanca" (Sin Bandera) · "Cousins: alineado, sentado, alineado" | usados — descansar. Cortados y libres: *House of Cards*, "Hasta los muertos se levantan" |
 | 2026-10-20 | Rul Del Toro "hasta los monstruos llenan el cuadro" · "Penix gana en la banca" (Cano, 2 semanas) | Penix en la banca: DESCANSAR (molde agotado tras J6/J7) |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
@@ -503,8 +503,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-10-20 | Dinastía (jornada 6) | "Pronóstico extendido: La Dona sigue soleado; para los demás, chubascos de mamadas. / Un beso a Rul, rey del mundo por una semana. A Charly, un salvavidas. / Miroslava, con el pronóstico hasta diciembre" |
 | 2026-10-27 | Gallamijos (jornada 7) | "Waivers hoy, cabrones: el pateador de bye no se firma solo. Al Frijol, un beso: líder de una liga que no sabe jugar. Al Chapo, otro: el paciente respira. Y a Buz, el calendario de byes impreso y enmicado. / Miroslava, que sigue de guardia en la cama del Chapo" |
 | 2026-10-27 | Dinastía (jornada 7) | "A La Dona, un beso en el talón, por si acaso. A Rorro, bienvenido al mundo de los vivos. Y a Pancho: Aubrey no muerde; se alinea. / Miroslava, que contesta todas sus cartas" |
-| 2026-11-03 | Gallamijos (jornada 8) | "Al Alacrán, un beso… Al Bebé, otro quarterback, que con uno solo no se juega. Y a Cano, un consejo: Cam Ward, en el lineup. / Miroslava, que sazona con sal de la casa" |
-| 2026-11-03 | Dinastía (jornada 8) | "Besos para quien alineó a su quarterback. Al Faraón, ni uno: dejó ir a Burrow a la banca. / Miroslava, que no necesita VAR" |
+| 2026-11-03 | Gallamijos (jornada 8) | "Al Alacrán, un beso. Y a los 13 que siguen vivos: el lunes también cuenta. / Miroslava, que sazona con sal de la casa" *(versión final tras el pase del user)* |
+| 2026-11-03 | Dinastía (jornada 8) | "Besos para Rorro, que ya le agarró el gusto a ganar. Al Faraón, ni uno: alineó una defensa de vacaciones. A La Dona, que 7-1 sigue siendo mejor… / Miroslava, que no necesita VAR" *(versión final tras el pase del user)* |
 | 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
@@ -758,6 +758,20 @@ cambios suyos sobre mi borrador, cada uno una regla:
   · **Grosería repetida en tarjetas vecinas** (pendejo en La Cagada y en El Muerto, misma tarjeta de Medallas): variar.
   · Las groserías se volvieron a caer en la Dinastía (1 sola, de relleno) — reinyectadas por el editor.
   · `roast_facts.py` tronaba al ordenar el lineup óptimo con una casilla sin jugador (pid None) — corregido.
+- 2026-11-03 · **Pase del user a la J8 (las 2 ligas)**: (1) la Cagada de Cano
+  (Cam Ward 27.3 en la banca, Stafford 9.3 titular) era retrovisor puro —
+  Stafford proyectaba 16.4 y Ward 12.7; lo mismo el Doctor (Mason 10.9 sobre
+  Rodriguez 6.2) y Zenitsu (LV 9.0 sobre BUF 8.2). Pasaron a 🧂/análisis y la
+  Cagada fue para errores visibles antes de la patada (churn de Jebus;
+  Faraón con Houston en bye). (2) Regadera → noticias NFL ligadas a dueños
+  cuando el user no dicta chisme. (3) Sección 📈 El Termómetro: liga pareja +
+  remontadas del Monday Night (Swift 27.9 volteó 16.8 para los Pythons).
+  `roast_facts.py` ahora calcula remontadas, DECISIÓN vs PROYECCIÓN y
+  titulares sin partido. Del editor: "ligados" ≠ "preguntan" y "lesión
+  nueva" ≠ "otra vez" (la fuente manda en el verbo); antes de culpar a una
+  casilla vacía, verificar que el margen se la pueda atribuir (Charly J7
+  perdió por 47.2); la misma noticia NFL puede ir en las 2 ediciones del
+  martes con dueños distintos, pero con frase distinta.
 - 2026-11-03 · **Pase del editor a la J8**:
   · **"Por 2º domingo seguido" se verifica en AMBAS semanas**: Charly había perdido la J7 con la casilla de DB vacía; escribí "ganó… 2º domingo seguido" y se leía como 2 victorias.
   · **RECUPERABLE lista quién DEBIÓ ENTRAR, no toda la banca**: Kyler Murray (19.9) estaba sentado pero no entraba al óptimo (1 solo QB y Cousins hizo 28.2).
@@ -797,9 +811,37 @@ cambios suyos sobre mi borrador, cada uno una regla:
    más húmeda del vestidor". Miroslava jura que ella nomás pasaba por ahí.
    Las "fuentes del vestidor" siguen existiendo como frase de ella, pero la
    sección se llama así.
+   **REGLA DEL USER (2026-11-03): el chisme de la liga es el que DICTA EL
+   USER.** Si esa semana no pasó ninguno, la Regadera va con **2-3 bullets
+   de NFL**: rumores de trade o noticias de jugadores clave (lesiones, cambio
+   de rol, despidos), cada uno ligado a QUIÉN lo tiene en ESA liga (sin
+   cruzar ligas). Fuentes: el wire del newsletter del día
+   (`reports/<season>/expert-daily/`) y web; nada de memoria. Los movimientos
+   de waiver de la hoja (churn, firmas de 30 segundos) ya no van aquí: se
+   usan en la Cagada o en el ranking.
+2c. 📈 **EL TERMÓMETRO** (sección nueva, user 2026-11-03) — análisis corto
+   de cómo va la liga: cuántos entran a playoffs y cuántos están a 1
+   victoria o menos del corte (leer `playoff_teams`/`playoff_week_start`/
+   `trade_deadline` de la API), jornadas por jugar, y las **remontadas del
+   Monday Night** (la hoja trae "Remontadas del último partido" calculadas:
+   quién iba abajo antes del último juego y lo volteó, con el jugador que lo
+   hizo). 2 párrafos máximo. Cuando la liga está pareja se dice: "está para
+   cualquiera" es material, no relleno.
 3. 🏆 **REPARTO DE MEDALLAS Y VERGAZOS**: MVP de la semana · 💩 La Cagada de
    la Semana (peor decisión de lineup/waiver) · 🪦 El Muerto (peor equipo) ·
    🤡 Trade del Payaso (cuando aplique). Al MVP su medalla, al resto su verdad.
+   **CRÍTICA JUSTA, NO DE RETROVISOR (user 2026-11-03).** Ejemplo del user:
+   «nadie iba a alinear a Cam Ward en lugar de Stafford» (Stafford proyectaba
+   16.4, Ward 12.7; Ward hizo 27.3 en la banca). Una decisión solo es
+   Cagada / 🤡 si era mala ANTES de la patada: la proyección de esa semana
+   pedía al de la banca, el titular estaba en bye o inactivo, casilla vacía,
+   churn sin sentido. Si la proyección respaldaba al titular, es MALA SUERTE:
+   va como 🧂 o como análisis ("hizo la tarea y el fantasy lo castigó"),
+   nunca como pendejada. La hoja lo resuelve sola: cada RECUPERABLE trae
+   "DECISIÓN vs PROYECCIÓN" (ERROR REAL / MALA SUERTE) y "⚠️ TITULAR SIN
+   PARTIDO" para byes. Lesión en pleno partido (Lamar, pulgar, 1ª jugada) =
+   mala suerte. Más crítica = más análisis, no más volumen: decir POR QUÉ
+   era mala la decisión (proyección, calendario, información disponible).
 4. 📊 **DEL PENTHOUSE AL SÓTANO** — **REGLA DEL USER (2026-09-15): el orden
    es la TABLA REAL de la liga** (récord, desempate por puntos — como la ve
    el grupo en Sleeper), NO el ranking de proyección. Cada línea lleva

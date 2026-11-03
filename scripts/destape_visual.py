@@ -436,6 +436,7 @@ POOLS = {
     "putiza":    ["boxeo", "boxeo-*"],
     "medallas":  ["salado", "podio", "muerto", "podio-*", "medallas-*"],
     "guerra":    ["guerra", "guerra-*"],
+    "termómetro": ["termometro-*", "noticiero", "exclusiva-news"],  # 📈 El Termómetro (user 2026-11-03)
     "penthouse": ["elevador", "elevador-*"],
     "palpitote": ["palpitote", "palpitote-*"],
     "cierre":    ["despedida", "despedida-*"],
@@ -445,7 +446,7 @@ POOLS = {
 RESPALDO = {
     "portada": ["jersey"], "regadera": ["exclusiva", "exclusiva-news"],
     "putiza": ["exclusiva-news", "exclusiva"], "medallas": ["gala", "noticiero"],
-    "guerra": ["noticiero", "gala"], "penthouse": ["noticiero", "gala", "exclusiva"],
+    "guerra": ["noticiero", "gala"], "termómetro": ["noticiero", "gala"], "penthouse": ["noticiero", "gala", "exclusiva"],
     "palpitote": ["gala", "noticiero"], "cierre": ["gala", "noticiero"],
     "final": ["jersey"], "redaccion": [],
 }

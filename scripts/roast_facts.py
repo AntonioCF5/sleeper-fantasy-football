@@ -23,7 +23,7 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from sleeper import analysis, api, scoring  # noqa: E402
+from sleeper import analysis, api, espn, scoring  # noqa: E402
 
 ROAST_LEAGUES = ("Gallamijos League", "Gallamijos Dynasty")
 
@@ -115,9 +115,22 @@ def _fmt_player(players, pid, proj):
 SIN_CABALLO = {"Tibu23", "jffaya"}   # user 2026-10-06
 
 
+# ESPN y Sleeper difieren en pocas abreviaturas de equipo.
+_ESPN_A_SLEEPER = {"WSH": "WAS", "JAC": "JAX", "LA": "LAR"}
+
+
 def league_facts(lg_cfg, season, week, players):
     lid = lg_cfg["league_id"]
     league = api.get_league(lid)
+    _proy_cache = {}
+
+    def proj_semana(wk):
+        """Proyección SEMANAL re-scoreada con el scoring de la liga."""
+        if wk not in _proy_cache:
+            _proy_cache[wk] = {r["player_id"]: round(scoring.score_stat_line(
+                r.get("stats") or {}, league["scoring_settings"]), 1)
+                for r in api.get_week_projections(season, wk) if r.get("player_id")}
+        return _proy_cache[wk]
     users = {u["user_id"]: u for u in api.get_league_users(lid)}
     rosters = api.get_rosters(lid)
     proj = _proj_map(season, league["scoring_settings"])
@@ -187,6 +200,47 @@ def league_facts(lg_cfg, season, week, players):
         lines.extend(rows)
     else:
         lines.append("- SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.")
+
+    # Calendario NFL de la semana mostrada: equipos que jugaron (para cachar
+    # titulares en bye) y el último partido (Monday Night) para las remontadas.
+    juegos = []
+    try:
+        for ev in espn.scoreboard(shown_week, season, final=True):
+            eq = {c["team"]["abbreviation"] for c in ev["competitions"][0]["competitors"]}
+            juegos.append((ev.get("date", ""), eq))
+    except Exception:
+        juegos = []
+    jugaron = {_ESPN_A_SLEEPER.get(t, t) for _, eq in juegos for t in eq}
+    ultimo = sorted(juegos)[-1] if juegos else None
+    if ultimo and rows:
+        tardios = {_ESPN_A_SLEEPER.get(t, t) for t in ultimo[1]}
+        lines.append(f"\n## Remontadas del último partido ({' @ '.join(sorted(tardios))}, "
+                     f"{ultimo[0][:10]})")
+        lines.append("*Marcador de cada duelo ANTES del último juego de la semana (titulares de esos "
+                     "equipos restados). Material para 'El Termómetro' (pedido del user 2026-11-03).*")
+        by_m = {}
+        for m in api.get_matchups(lid, shown_week) or []:
+            by_m.setdefault(m.get("matchup_id"), []).append(m)
+        hubo = False
+        for pair in by_m.values():
+            if len(pair) != 2:
+                continue
+            pre, fin = [], []
+            for m in pair:
+                pp = m.get("players_points") or {}
+                tarde = sum(pp.get(p, 0) for p in (m.get("starters") or [])
+                            if (players.get(p) or {}).get("team") in tardios
+                            or p in tardios)
+                pre.append((m.get("points") or 0) - tarde)
+                fin.append(m.get("points") or 0)
+            if (pre[0] - pre[1]) * (fin[0] - fin[1]) < 0:
+                g = 0 if fin[0] > fin[1] else 1
+                hubo = True
+                lines.append(f"- 🔄 **{rid_owner.get(pair[g]['roster_id'], '?')}** iba "
+                             f"{abs(pre[0] - pre[1]):.1f} abajo de {rid_owner.get(pair[1 - g]['roster_id'], '?')} "
+                             f"y ganó por {abs(fin[0] - fin[1]):.1f}")
+        if not hubo:
+            lines.append("- Ningún duelo cambió de líder en el último partido.")
 
     # Ranking con NÚMEROS DE SLEEPER (lo que ve el grupo en la app)
     spts = _sleeper_pts(season)
@@ -293,6 +347,33 @@ def league_facts(lg_cfg, season, week, players):
                              + ("; debieron entrar: " + ", ".join(
                                  f"{players.get(pid, {}).get('full_name') or pid} {v:.1f}"
                                  for v, pid in entrarian[:4]) if entrarian else ""))
+                # ¿ERROR o MALA SUERTE? (regla del user 2026-11-03: "nadie iba
+                # a alinear a Cam Ward en lugar de Stafford"). Se arma el lineup
+                # óptimo con la PROYECCIÓN de esa semana: si el que debió entrar
+                # también estaba en ese lineup, el error era visible antes de
+                # la patada; si no, fue mala suerte y no se roastea como cagada.
+                projw = proj_semana(shown_week)
+                pmejor, _ = analysis.optimal_lineup(alineables, league["roster_positions"],
+                                                    meta, projw)
+                pset = {pid for _, pid, _ in pmejor if pid}
+                veredictos = []
+                for v, pid in entrarian[:4]:
+                    nom = players.get(pid, {}).get("full_name") or pid
+                    if pid in pset and projw.get(pid, 0) > 0:
+                        veredictos.append(f"{nom} = ERROR REAL (la proyección también lo pedía, "
+                                          f"{projw.get(pid, 0):.1f})")
+                    else:
+                        veredictos.append(f"{nom} = MALA SUERTE (proyectaba {projw.get(pid, 0):.1f}; "
+                                          "la proyección prefería al titular)")
+                if veredictos:
+                    lines.append("- DECISIÓN vs PROYECCIÓN: " + "; ".join(veredictos))
+        if jugaron:
+            sin_juego = [p for p in st if p not in ("0", 0, "", None)
+                         and ((players.get(p) or {}).get("team") or p) not in jugaron]
+            if sin_juego:
+                lines.append("- ⚠️ TITULAR SIN PARTIDO (bye/libre — ERROR REAL, se veía desde el "
+                             "calendario): " + ", ".join(
+                                 players.get(p, {}).get("full_name") or p for p in sin_juego))
 
     # MARCADOR DE LA GUERRA, calculado (no inferido) — semana y acumulado.
     lines.append("\n## MARCADOR DE LA GUERRA (bandos leídos de BANDOS, nunca inferidos)")

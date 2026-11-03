@@ -126,6 +126,18 @@ contra la sección "TABLA DE POSICIONES vs rank de proyección" de la hoja.
   ni el Alacrán; repartir 🧂 salado, 💩 mojón, 🤡 mal coach donde el dato lo
   respalde (mal coach = la banca/lineup le costó; mojón = peor marcador o el
   que apesta; salado = perdió sin merecerlo).
+- **Crítica justa, no de retrovisor** (user 2026-11-03): toda Cagada / 🤡 /
+  "el muy pendejo" debe ser un error visible ANTES de la patada. Cruza cada
+  una con "DECISIÓN vs PROYECCIÓN" y "⚠️ TITULAR SIN PARTIDO" del addendum de
+  la hoja: si dice MALA SUERTE (la proyección prefería al titular), la línea
+  se reescribe como 🧂/análisis. Ejemplo canónico: Stafford (16.4) sobre Cam
+  Ward (12.7) NO es cagada aunque Ward hiciera 27.3. Lesión en pleno partido
+  tampoco.
+- **Regadera y Termómetro** (user 2026-11-03): sin chisme dictado por el user,
+  la Regadera lleva 2-3 noticias/rumores NFL ligados a quién los tiene EN ESA
+  liga (fuente newsletter/web, verifica dueño en la hoja). El 📈 Termómetro
+  usa playoff_teams/corte/jornadas restantes y las "Remontadas del último
+  partido" de la hoja; verifica cada número.
 - **Moldes en descanso**: cruza CADA entrada "usado — descansar" y "AGOTADO"
   de la bitácora del canon contra el borrador (cambian las palabras, se
   queda el molde).
