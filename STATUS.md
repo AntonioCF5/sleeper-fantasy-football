@@ -235,6 +235,13 @@ tells the user to re-check news once before accepting.
 
 ## Pending / next actions
 
+### 2026-11-03 (corrida del martes, semana 9)
+
+- 🔴 **Guillotine TRC: ELIMINADO en la semana 8** (82.9 pts, 3.7 debajo del corte; Lamar se lesionó el pulgar en la primera jugada, 0 pts). El roster ya está vacío. Quitar las dos Guillotine de config.json (`setup_user.py`).
+- [ ] 🔴 **Gallamijos Lg:** claim de Adonai Mitchell soltando a Ekeler. **LoR:** Tuten (DNP lunes) juega el jueves; decidir el miércoles.
+- [ ] 🔴 **Alineaciones semana 9:** DYNASTY TRC +28.3 (Collins, CMC, Kelce), Gallamijos Dyn +17.8 (Mahomes, Marks por Dowdle en bye, BUF DEF), DMX +7.5 (J. Hill por Love, LaPorta por Loveland).
+- **Proceso:** la Mac se durmió dos veces y mató al subagente de destilación (otra vez). Se destiló en el contexto principal. Envolver la tarea programada en `caffeinate -dimsu` sigue pendiente.
+
 ### 2026-10-20 (corrida del martes, semana 7)
 
 - [ ] 🔴 **Guillotine, ESTA NOCHE:** Gibbs está en la banca y Shakir (bye de BUF) en el FLEX: cambiarlos (+25.2). Henry **$137** soltando a Mayer. Llegar a ~$251 probablemente lo gana, y es decisión del user.
