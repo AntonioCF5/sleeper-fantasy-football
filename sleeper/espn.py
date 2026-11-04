@@ -70,7 +70,13 @@ def current_week():
 
 def scoreboard(week: int, season, final=False):
     url = f"{SITE}/scoreboard?seasontype=2&week={week}&dates={season}"
-    return (_get(url, FINAL_TTL if final else LIVE_TTL) or {}).get("events", [])
+    events = (_get(url, FINAL_TTL if final else LIVE_TTL) or {}).get("events", [])
+    # A past week cached before its last game ended (the Monday recap runs before
+    # MNF) would keep that game unplayed for FINAL_TTL: refetch until all are final.
+    done = lambda evs: all(e["competitions"][0]["status"]["type"]["name"] == "STATUS_FINAL" for e in evs)  # noqa: E731
+    if final and events and not done(events):
+        events = (_get(url, 0) or {}).get("events", [])
+    return events
 
 
 def summary(event_id):

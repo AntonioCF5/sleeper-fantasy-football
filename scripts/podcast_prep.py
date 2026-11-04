@@ -243,7 +243,10 @@ def rank_map(values, higher_better=True):
 def load_sleeper(season, week):
     rows_by_week = {}
     with ThreadPoolExecutor(6) as ex:
-        futs = {w: ex.submit(api.get_week_stat_rows, season, w) for w in range(1, week)}
+        # last week's rows refresh every 3h: a copy cached before MNF would leave
+        # that game out of every share (wk 9: SEA/CHI usage frozen pre-Monday)
+        futs = {w: ex.submit(api.get_week_stat_rows, season, w, ttl=3 * api.HOUR if w == week - 1 else api.DAY)
+                for w in range(1, week)}
     for w, f in futs.items():
         rows_by_week[w] = f.result() or []
 

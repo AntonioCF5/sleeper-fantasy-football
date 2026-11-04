@@ -1,33 +1,32 @@
 # Preparación del podcast — Semana 9, 2026
 
-*Generado lun 2 nov, 12:34 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
+*Generado mié 4 nov, 12:25 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
 
-**Nuestro récord de picks** — Semana pasada: **0-5** · Temporada: **0-5**
+**Nuestro récord de picks** — Semana pasada: **1-5** · Temporada: **1-5**
 
 ## Cartelera
 
 | Partido | Hora (CDMX) | Spread | Total | Implícitos | % local mercado | % local FPI | Línea SRS | |
 |---|---|---|---|---|---|---|---|---|
-| JAX @ BAL | jue 7:15 pm | JAX -8.5 (abrió JAX +4.5) | 43.5 (abrió 49.5) | BAL 17.5 / JAX 26.0 | 22% | 19% | BAL +7 |  |
-| CIN @ ATL | dom 8:30 am | CIN -3 (abrió CIN -4.5) | 51.5 (abrió 48.5) | ATL 24.2 / CIN 27.2 | 40% | 22% | ATL +4 |  |
+| JAX @ BAL | jue 7:15 pm | JAX -10 (abrió JAX +4.5) | 39.5 (abrió 49.5) | BAL 14.8 / JAX 24.8 | 19% | 19% | BAL +6.5 |  |
+| CIN @ ATL | dom 8:30 am | CIN -3 (abrió CIN -4.5) | 52.5 (abrió 48.5) | ATL 24.8 / CIN 27.8 | 42% | 23% | ATL +3.5 |  |
 | DAL @ IND | dom 12:00 pm | DAL -6 (abrió DAL -1.5) | 51.5 (abrió 52.5) | IND 22.8 / DAL 28.8 | 31% | 39% | IND +1 | 🚩 |
-| NYJ @ KC | dom 12:00 pm | KC -10 (abrió KC -9.5) | 46.5 (abrió 41.5) | KC 28.2 / NYJ 18.2 | 80% | 81% | KC -6 |  |
-| DET @ MIA | dom 12:00 pm | DET -7 (abrió DET -6.5) | 49.5 (abrió 47.5) | MIA 21.2 / DET 28.2 | 24% | 22% | MIA +4 |  |
-| CLE @ NO | dom 12:00 pm | NO -2.5 (abrió NO -3.5) | 43.5 (abrió 41.5) | NO 23.0 / CLE 20.5 | 55% | 63% | NO -1.5 |  |
-| NYG @ PHI | dom 12:00 pm | NYG -3.5 (abrió NYG +5.5) | 40.5 (abrió 44.5) | PHI 18.5 / NYG 22.0 | 40% | 46% | PHI +3 |  |
-| LAR @ WSH | dom 12:00 pm | LAR -5.5 (abrió LAR -4.5) | 47.5 (abrió 50.5) | WSH 21.0 / LAR 26.5 | 34% | 27% | WSH +3.5 |  |
-| DEN @ CAR | dom 12:00 pm | DEN -3 | 43.5 (abrió 42.5) | CAR 20.2 / DEN 23.2 | 43% | 36% | CAR +1.5 |  |
-| HOU @ LAC | dom 3:05 pm | HOU -4.5 (abrió HOU +1.5) | 40.5 (abrió 43.5) | LAC 18.0 / HOU 22.5 | 34% | 38% | LAC +3.5 |  |
-| GB @ NE | dom 3:25 pm | NE -3 (abrió NE -1.5) | 47.5 (abrió 46.5) | NE 25.2 / GB 22.2 | 57% | 57% | NE -4 |  |
-| LV @ SF | dom 3:25 pm | SF -9.5 (abrió SF -8.5) | 51.5 (abrió 46.5) | SF 30.5 / LV 21.0 | 80% | 84% | SF -7 |  |
-| ARI @ SEA | dom 3:25 pm | SEA -11.5 (abrió SEA -13.5) | 44.5 (abrió 45.5) | SEA 28.0 / ARI 16.5 | 84% | 82% | SEA -9.5 |  |
-| TB @ CHI | dom 7:20 pm | CHI -5.5 (abrió CHI -3.5) | 47.5 (abrió 48.5) | CHI 26.5 / TB 21.0 | 68% | 60% | CHI -2.5 | 🚩 |
-| BUF @ MIN | lun 7:15 pm | BUF -2.5 (abrió BUF -3) | 46.5 (abrió 48.5) | MIN 22.0 / BUF 24.5 | 42% | 39% | MIN -2 |  |
+| NYJ @ KC | dom 12:00 pm | KC -10 (abrió KC -9.5) | 47.5 (abrió 41.5) | KC 28.8 / NYJ 18.8 | 82% | 80% | KC -5.5 |  |
+| DET @ MIA | dom 12:00 pm | DET -7 (abrió DET -6.5) | 50.5 (abrió 47.5) | MIA 21.8 / DET 28.8 | 25% | 22% | MIA +4 |  |
+| CLE @ NO | dom 12:00 pm | NO -3 (abrió NO -3.5) | 42.5 (abrió 41.5) | NO 22.8 / CLE 19.8 | 59% | 65% | NO -1.5 |  |
+| NYG @ PHI | dom 12:00 pm | NYG -3.5 (abrió NYG +5.5) | 39.5 (abrió 44.5) | PHI 18.0 / NYG 21.5 | 40% | 45% | PHI +2.5 |  |
+| LAR @ WSH | dom 12:00 pm | LAR -5.5 (abrió LAR -4.5) | 47.5 (abrió 50.5) | WSH 21.0 / LAR 26.5 | 33% | 28% | WSH +3.5 |  |
+| DEN @ CAR | dom 12:00 pm | DEN -2.5 (abrió DEN -3) | 43.5 (abrió 42.5) | CAR 20.5 / DEN 23.0 | 43% | 37% | CAR +0.5 |  |
+| HOU @ LAC | dom 3:05 pm | HOU -4.5 (abrió HOU +1.5) | 40.5 (abrió 43.5) | LAC 18.0 / HOU 22.5 | 34% | 38% | LAC +4 |  |
+| GB @ NE | dom 3:25 pm | NE -3 (abrió NE -1.5) | 46.5 | NE 24.8 / GB 21.8 | 60% | 57% | NE -3.5 |  |
+| LV @ SF | dom 3:25 pm | SF -10 (abrió SF -8.5) | 52.5 (abrió 46.5) | SF 31.2 / LV 21.2 | 80% | 84% | SF -6.5 |  |
+| ARI @ SEA | dom 3:25 pm | SEA -12.5 (abrió SEA -13.5) | 41.5 (abrió 45.5) | SEA 27.0 / ARI 14.5 | 85% | 82% | SEA -8 |  |
+| TB @ CHI | dom 7:20 pm | CHI -6 (abrió CHI -3.5) | 47.5 (abrió 48.5) | CHI 26.8 / TB 20.8 | 72% | 63% | CHI -4.5 |  |
+| BUF @ MIN | lun 7:15 pm | BUF -3.5 (abrió BUF -3) | 45.5 (abrió 48.5) | MIN 21.0 / BUF 24.5 | 38% | 36% | MIN -2.5 |  |
 
 ### 🚩 Alertas de línea (los dos modelos lejos del mercado)
 
 - **DAL @ IND** → inclinación por **IND** · SRS +5.0 / FPI +2.1 pts vs mercado
-- **TB @ CHI** → inclinación por **TB** · SRS -2.8 / FPI -2.1 pts vs mercado
 
 ### Notas históricas que vale la pena mencionar
 
@@ -46,9 +45,9 @@
 
 ### Totales implícitos por equipo
 
-Arriba: SF 30.5 · DAL 28.8 · KC 28.2 · DET 28.2 · SEA 28.0 · CIN 27.2
+Arriba: SF 31.2 · KC 28.8 · DET 28.8 · DAL 28.8 · CIN 27.8 · SEA 27.0
 
-Abajo: ARI 16.5 · BAL 17.5 · LAC 18.0 · NYJ 18.2 · PHI 18.5 · CAR 20.2
+Abajo: ARI 14.5 · BAL 14.8 · LAC 18.0 · PHI 18.0 · NYJ 18.8 · CLE 19.8
 
 ### Enfrentamientos más blandos de la semana (PPR permitido por partido, lugar de 32)
 
@@ -59,36 +58,36 @@ Abajo: ARI 16.5 · BAL 17.5 · LAC 18.0 · NYJ 18.2 · PHI 18.5 · CAR 20.2
 
 ### Uso en ascenso (últimos 3 vs temporada)
 
-- Mike Washington Jr. (RB, LV) — % de acarreos 57% (+26%) · proy. 5.2 PPR
+- Mike Washington Jr. (RB, LV) — % de acarreos 57% (+26%) · proy. 8.1 PPR
 - Colby Parkinson (TE, LAR) — % de targets 20% (+11%) · proy. 5.2 PPR
-- Braelon Allen (RB, NYJ) — % de acarreos 73% (+19%) · proy. 6.3 PPR
-- Woody Marks (RB, HOU) — % de acarreos 64% (+18%) · proy. 9.5 PPR
-- Ollie Gordon II (RB, MIA) — % de acarreos 63% (+16%) · proy. 13.3 PPR
-- Chris Godwin Jr. (WR, TB) — % de targets 25% (+8%) · proy. 10.4 PPR
-- Ja'Marr Chase (WR, CIN) — % de targets 31% (+8%) · proy. 19.6 PPR
-- CeeDee Lamb (WR, DAL) — % de targets 39% (+7%) · proy. 20.8 PPR
-- Treylon Burks (WR, WAS) — % de targets 19% (+7%) · proy. 5.3 PPR
-- Kimani Vidal (RB, LAC) — % de acarreos 28% (+13%) · proy. 6.2 PPR
+- Braelon Allen (RB, NYJ) — % de acarreos 73% (+19%) · proy. 10.5 PPR
+- Colston Loveland (TE, CHI) — % de targets 29% (+9%) · proy. 11.1 PPR
+- Woody Marks (RB, HOU) — % de acarreos 64% (+18%) · proy. 9.2 PPR
+- Ollie Gordon II (RB, MIA) — % de acarreos 63% (+16%) · proy. 13.0 PPR
+- Chris Godwin Jr. (WR, TB) — % de targets 25% (+8%) · proy. 9.4 PPR
+- Ja'Marr Chase (WR, CIN) — % de targets 31% (+8%) · proy. 19.7 PPR
+- D'Andre Swift (RB, CHI) — % de acarreos 66% (+15%) · proy. 16.6 PPR
+- CeeDee Lamb (WR, DAL) — % de targets 39% (+7%) · proy. 20.2 PPR
 
 ### Roles más grandes de la cartelera (últimos 3)
 
-- **Imanes de targets (≥27%):** CeeDee Lamb (DAL) 39%, 13.7/partido · Malik Nabers (NYG) 36%, 14.7/partido · Jaxon Smith-Njigba (SEA) 36%, 12.0/partido · Amon-Ra St. Brown (DET) 35%, 10.0/partido · Puka Nacua (LAR) 34%, 9.7/partido · Matthew Golden (GB) 31%, 12.7/partido · Ja'Marr Chase (CIN) 31%, 11.0/partido · Zay Flowers (BAL) 30%, 9.0/partido · Drake London (ATL) 30%, 8.7/partido · Justin Jefferson (MIN) 28%, 7.7/partido
-- **Caballos de trabajo (≥70% de los toques del backfield):** Chuba Hubbard (CAR) 84%, 23.0 toques/partido · Kenneth Walker III (KC) 83%, 21.3 toques/partido · Jahmyr Gibbs (DET) 82%, 29.7 toques/partido · Woody Marks (HOU) 82%, 18.7 toques/partido · Bijan Robinson (ATL) 82%, 18.3 toques/partido · Ollie Gordon II (MIA) 82%, 21.0 toques/partido · Braelon Allen (NYJ) 78%, 21.7 toques/partido · Josh Jacobs (GB) 77%, 21.5 toques/partido · Emanuel Wilson (SEA) 76%, 20.3 toques/partido · James Cook III (BUF) 75%, 24.7 toques/partido
+- **Imanes de targets (≥27%):** CeeDee Lamb (DAL) 39%, 13.7/partido · Jaxon Smith-Njigba (SEA) 36%, 13.0/partido · Malik Nabers (NYG) 36%, 14.7/partido · Amon-Ra St. Brown (DET) 35%, 10.0/partido · Puka Nacua (LAR) 34%, 9.7/partido · Matthew Golden (GB) 31%, 12.7/partido · Ja'Marr Chase (CIN) 31%, 11.0/partido · Zay Flowers (BAL) 30%, 9.0/partido · Drake London (ATL) 30%, 8.7/partido · Colston Loveland (CHI) 29%, 9.3/partido
+- **Caballos de trabajo (≥70% de los toques del backfield):** Chuba Hubbard (CAR) 84%, 23.0 toques/partido · Kenneth Walker III (KC) 83%, 21.3 toques/partido · Jahmyr Gibbs (DET) 82%, 29.7 toques/partido · Woody Marks (HOU) 82%, 18.7 toques/partido · Bijan Robinson (ATL) 82%, 18.3 toques/partido · Ollie Gordon II (MIA) 82%, 21.0 toques/partido · Braelon Allen (NYJ) 78%, 21.7 toques/partido · Emanuel Wilson (SEA) 78%, 19.5 toques/partido · Josh Jacobs (GB) 77%, 21.5 toques/partido · D'Andre Swift (CHI) 77%, 25.0 toques/partido
 
 ### Más agregados en Sleeper (48h) de esta cartelera
 
-Devin Singletary (RB, NYG) +769,914 · Adonai Mitchell (WR, NYJ) +569,312 · Seth McGowan (RB, IND) +383,608 · Ryan Flournoy (WR, DAL) +361,608 · Tyler Allgeier (RB, ARI) +339,270 · Samaje Perine (RB, CIN) +335,632 · Emmett Johnson (RB, KC) +268,821 · Corey Kiner (RB, NE) +256,974 · Makai Lemon (WR, PHI) +214,480 · Gardner Minshew II (QB, ARI) +193,908 · Elijah Mitchell (RB, PHI) +159,129 · Elic Ayomanor (WR, TEN) +142,116
+Adonai Mitchell (WR, NYJ) +2,995,536 · Tyler Allgeier (RB, ARI) +2,035,665 · Devin Singletary (RB, NYG) +1,585,809 · Gardner Minshew II (QB, ARI) +1,465,632 · Emmett Johnson (RB, KC) +1,337,499 · Chris Rodriguez Jr. (RB, JAX) +714,672 · Malik Willis (QB, MIA) +608,048 · Mike Gesicki (TE, CIN) +599,452 · Ryan Flournoy (WR, DAL) +530,480 · Malik Washington (WR, MIA) +482,192 · Jadarian Price (RB, SEA) +441,702 · Treylon Burks (WR, WAS) +422,625
 
 ---
 
 ## JAX @ BAL — jue 5 nov, 7:15 pm CDMX (8:15 pm ET)
-*M&T Bank Stadium · pasto · 64°F, 29% de lluvia*
+*M&T Bank Stadium · pasto · 65°F, 48% de lluvia*
 
-**Línea:** JAX -8.5 (abrió JAX +4.5) · total 43.5 (abrió 49.5) · ML BAL +330 / JAX -425
-**Totales implícitos:** BAL 17.5 · JAX 26.0
-**Chequeo de línea (margen del local):** mercado BAL -8.5 · SRS BAL -6.8 · FPI BAL -11.9 — modelos divididos (SRS +1.7, FPI -3.4 vs mercado) — sin señal
-**Prob. de victoria:** mercado BAL 22% · FPI BAL 19%
-**Chequeo del total:** modelo PF/PA 45.8 vs 43.5 (inclinación a altas por 2.3 — ruido)
+**Línea:** JAX -10 (abrió JAX +4.5) · total 39.5 (abrió 49.5) · ML BAL +400 / JAX -535
+**Totales implícitos:** BAL 14.8 · JAX 24.8
+**Chequeo de línea (margen del local):** mercado BAL -10.0 · SRS BAL -6.6 · FPI BAL -11.9 — modelos divididos (SRS +3.4, FPI -1.9 vs mercado) — sin señal
+**Prob. de victoria:** mercado BAL 19% · FPI BAL 19%
+**Chequeo del total:** modelo PF/PA 45.8 vs 39.5 (inclinación a altas por 6.3)
 
 | | **JAX** | **BAL** |
 |---|---|---|
@@ -96,9 +95,9 @@ Devin Singletary (RB, NYG) +769,914 · Adonai Mitchell (WR, NYJ) +569,312 · Set
 | ATS (de favorito / de no favorito) | 4-3 (3-2 / 1-1) | 2-5-1 (1-3-1 / 1-2) |
 | Altas/Bajas | 3-4 | 5-3 |
 | Margen prom. · cobertura prom. | +12.1 · +8.4 | -3.0 · -5.5 |
-| Rating SRS | +5.8 (1º) | -2.5 (24º) |
+| Rating SRS | +5.8 (1º) | -2.4 (24º) |
 | Puntos a favor / en contra | 28.0 (5º) / 15.9 (2º) | 22.4 (19º) / 25.4 (22º) |
-| Yds netas/intento de pase | 7.4 (4º) | 6.6 (12º) |
+| Yds netas/intento de pase | 7.4 (4º) | 6.6 (11º) |
 | Yds/acarreo | 4.3 (13º) | 4.6 (8º) |
 | % en 3ª oportunidad | 48% (3º) | 39% (14º) |
 | % de TD en zona roja | 68% (7º) | 59% (15º) |
@@ -124,10 +123,10 @@ Devin Singletary (RB, NYG) +769,914 · Adonai Mitchell (WR, NYJ) +569,312 · Set
 | Coach después de victoria | 11-6 · ATS 10-7 | — |
 | Coach con descanso corto | — | — |
 | Coach en horario estelar | 1-0 · ATS 1-0 | 1-0 · ATS 1-0 |
-| QB | Trevor Lawrence | Lamar Jackson |
-| QB, carrera como titular (desde '99) | 41-46 · ATS 45-41-1 | 82-38 · ATS 61-57-2 |
-| QB vs este rival | 1-1 · ATS 1-1 | 2-1 · ATS 2-1 |
-| QB en este rol | como favorito: 22-14 · ATS 18-18 | como no favorito: 10-7 · ATS 12-4-1 |
+| QB | Trevor Lawrence | Joe Fagnano |
+| QB, carrera como titular (desde '99) | 41-46 · ATS 45-41-1 | — |
+| QB vs este rival | 1-1 · ATS 1-1 | — |
+| QB en este rol | como favorito: 22-14 · ATS 18-18 | como no favorito: — |
 | Esta temporada de local | 3-0 · ATS 3-0 · 37.0-7.7 | 1-2 · ATS 0-3 · 18.0-25.7 |
 | Esta temporada de visita | 2-2 · ATS 1-3 · 21.5-21.8 | 3-2 · ATS 2-2-1 · 25.0-25.2 |
 | Ventaja de local, últimas 3 temporadas | +7.3 pts (local 12-6, visita 10-13) | -1.6 pts (local 10-10, visita 14-8) |
@@ -140,28 +139,28 @@ Devin Singletary (RB, NYG) +769,914 · Adonai Mitchell (WR, NYJ) +569,312 · Set
 **A destacar:**
 - **JAX** — brecha local/visita en 3 temporadas de +7.3 pts por lado (local 12-6, visita 10-13); norma de la liga ~+1.5, ruido ±2
 
-**BAL lesiones:** Tyler Huntley QB (Cuestionable — Dedo del pie), Joe Fagnano QB (Cuestionable — Rodilla), Lamar Jackson QB (Fuera — Pulgar), Nate Wiggins CB (Cuestionable — Cuello), Aeneas Peebles DT (Fuera — Coach's Decision)
-**JAX lesiones:** DaVon Hamilton DT (Fuera — Cuádriceps), Travon Walker DE (Cuestionable — Costillas), Ezra Cleveland G (Cuestionable — Tobillo), Eric Murray S (Cuestionable — Codo), CJ Williams WR (Fuera — Coach's Decision)
+**BAL lesiones:** Tyler Huntley QB (Fuera — Dedo del pie), Jaylinn Hawkins S (Cuestionable — Rodilla), Roger Rosengarten OT (Cuestionable — Tobillo), John Simpson G (Cuestionable — Espalda)
+**JAX lesiones:** Bhayshul Tuten RB (Cuestionable — Tobillo), Travon Walker DE (Cuestionable — Costillas), Jakobi Meyers WR (Cuestionable — Isquiotibial)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Trevor Lawrence (QB, JAX) | 20.2 (20.2) | 31.3 pases (28.3) | 9.0 (8.5) | 10% (10%) | 95% |  BAL es 12º que más permite a QB (18.5) |
-| Parker Washington (WR, JAX) | 15.5 (13.2) | 24% (25%) | 9.3 (9.0) | 1% (1%) | 75% | 🟢 BAL es 8º que más permite a WR (35.0) |
-| Bhayshul Tuten (RB, JAX) | 12.2 (11.3) | 10% (8%) | 14.1 (11.3) | 58% (56%) | 59% | 🔴 BAL es 25º que más permite a RB (19.5) |
-| Brenton Strange (TE, JAX) 📈 | 10.5 (8.4) | 19% (19%) | 9.8 (9.5) | — (—) | 71% |  BAL es 18º que más permite a TE (13.5) |
-| Jakobi Meyers (WR, JAX) | 10.1 (8.3) | 18% (16%) | 9.0 (10.0) | — (1%) | 73% | 🟢 BAL es 8º que más permite a WR (35.0) |
-| Chris Rodriguez Jr. (RB, JAX) 📈 | 5.1 (4.9) | 3% (2%) | — (—) | 22% (23%) | 21% | 🔴 BAL es 25º que más permite a RB (19.5) |
-| Josh Cameron (WR, JAX) | 4.1 (3.5) | 8% (7%) | 6.1 (9.0) | — (—) | 44% | 🟢 BAL es 8º que más permite a WR (35.0) |
-| Brian Thomas Jr. (WR, JAX) | 3.4 (2.8) | 8% (12%) | 1.7 (5.3) | — (—) | 41% | 🟢 BAL es 8º que más permite a WR (35.0) |
-| Lamar Jackson (QB, BAL) **Fuera** *(se perdió 2 de los últimos 3)* | 17.0 (17.0) | 1.0 pases (19.4) | — (10.0) | — (13%) | 2% |  JAX es 24º que más permite a QB (15.6) |
-| Zay Flowers (WR, BAL) | 14.5 (11.6) | 30% (30%) | 7.5 (10.5) | 1% (1%) | 85% | 🟢 JAX es 6º que más permite a WR (36.9) |
-| Derrick Henry (RB, BAL) | 12.2 (11.5) | 5% (6%) | 2.6 (5.4) | 65% (68%) | 51% | 🔴 JAX es 32º que más permite a RB (16.8) |
-| Mark Andrews (TE, BAL) ⬇️ | 7.1 (5.3) | 12% (18%) | 3.7 (5.3) | — (—) | 62% | 🔴 JAX es 25º que más permite a TE (11.0) |
-| Justice Hill (RB, BAL) ⬆️ | 4.7 (3.8) | 16% (11%) | 3.7 (4.2) | 9% (10%) | 46% | 🔴 JAX es 32º que más permite a RB (16.8) |
-| Ja'Kobi Lane (WR, BAL) | 4.5 (3.4) | 12% (12%) | 7.1 (6.4) | — (—) | 63% | 🟢 JAX es 6º que más permite a WR (36.9) |
-| Rashod Bateman (WR, BAL) | 4.3 (3.3) | 9% (13%) | 6.9 (9.9) | — (—) | 60% | 🟢 JAX es 6º que más permite a WR (36.9) |
+| Trevor Lawrence (QB, JAX) | 19.8 (19.8) | 31.3 pases (28.3) | 9.0 (8.5) | 10% (10%) | 95% |  BAL es 12º que más permite a QB (18.5) |
+| Parker Washington (WR, JAX) | 14.2 (12.1) | 24% (25%) | 9.3 (9.0) | 1% (1%) | 75% | 🟢 BAL es 8º que más permite a WR (35.0) |
+| Bhayshul Tuten (RB, JAX) **Cuestionable** | 14.0 (12.9) | 10% (8%) | 14.1 (11.3) | 58% (56%) | 59% | 🔴 BAL es 25º que más permite a RB (19.5) |
+| Brenton Strange (TE, JAX) | 9.8 (7.9) | 19% (19%) | 9.8 (9.5) | — (—) | 71% |  BAL es 18º que más permite a TE (13.5) |
+| Jakobi Meyers (WR, JAX) **Cuestionable** | 9.4 (7.8) | 18% (16%) | 9.0 (10.0) | — (1%) | 73% | 🟢 BAL es 8º que más permite a WR (35.0) |
+| Chris Rodriguez Jr. (RB, JAX) **Cuestionable** 📈 | 5.4 (5.2) | 3% (2%) | — (—) | 22% (23%) | 21% | 🔴 BAL es 25º que más permite a RB (19.5) |
+| Brian Thomas Jr. (WR, JAX) | 3.8 (3.2) | 8% (12%) | 1.7 (5.3) | — (—) | 41% | 🟢 BAL es 8º que más permite a WR (35.0) |
+| Josh Cameron (WR, JAX) | 3.6 (3.1) | 8% (7%) | 6.1 (9.0) | — (—) | 44% | 🟢 BAL es 8º que más permite a WR (35.0) |
+| Zay Flowers (WR, BAL) | 14.2 (11.6) | 30% (30%) | 7.5 (10.5) | 1% (1%) | 85% | 🟢 JAX es 6º que más permite a WR (36.9) |
+| Derrick Henry (RB, BAL) | 11.8 (11.1) | 5% (6%) | 2.6 (5.4) | 65% (68%) | 51% | 🔴 JAX es 32º que más permite a RB (16.8) |
+| Joe Fagnano (QB, BAL) *(se perdió 2 de los últimos 3)* | 10.5 (10.5) | 21.0 pases (21.0) | 4.3 (4.3) | 16% (16%) | 78% |  JAX es 24º que más permite a QB (15.6) |
+| Mark Andrews (TE, BAL) ⬇️ | 7.4 (5.6) | 12% (18%) | 3.7 (5.3) | — (—) | 62% | 🔴 JAX es 25º que más permite a TE (11.0) |
+| Justice Hill (RB, BAL) ⬆️ | 6.1 (5.2) | 16% (11%) | 3.7 (4.2) | 9% (10%) | 46% | 🔴 JAX es 32º que más permite a RB (16.8) |
+| Ja'Kobi Lane (WR, BAL) | 5.0 (3.9) | 12% (12%) | 7.1 (6.4) | — (—) | 63% | 🟢 JAX es 6º que más permite a WR (36.9) |
+| Rashod Bateman (WR, BAL) | 4.7 (3.7) | 9% (13%) | 6.9 (9.9) | — (—) | 60% | 🟢 JAX es 6º que más permite a WR (36.9) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -202,17 +201,17 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
 | Trevor Lawrence (QB) | 95% (95%) | 19.3/31.3 · 282.3 yds · 62% (temp. 241.4 yds) | 3.0 (2.9) · 15.3 (11.4) · 5.1 (4.0) | — | 17 TD pase · 4 INT | 23.5 (19.7) | S8 vs IND: 10/14, 210 yds, 3 TD, 0 INT · 81% snaps · 19.4 PPR<br>S6 vs HOU: 24/41, 306 yds, 4 TD, 1 INT · 100% snaps · 28.3 PPR<br>S5 vs PHI: 24/39, 331 yds, 2 TD, 1 INT, 3-25 carrera · 100% snaps · 22.7 PPR |
-| Bhayshul Tuten (RB) | 59% (55%) | 3.0 (2.3) · 2.7 (2.1) · 42.3 (25.9) | 16.7 (15.7) · 71.7 (70.3) · 4.3 (4.5) | 19.3 (17.9) | 6 (3 carrera, 3 recepción) | 22.1 (16.9) | S8 vs IND: 16-104-1 carrera, 2-55-1 en 2 tgt · 50% snaps · 29.9 PPR<br>S6 vs HOU: 12-39 carrera, 4-48-2 en 4 tgt · 58% snaps · 24.7 PPR<br>S5 vs PHI: 22-72 carrera, 2-24 en 3 tgt · 68% snaps · 11.6 PPR |
-| Chris Rodriguez Jr. (RB) | 21% (24%) | 1.0 (0.4) · 0.7 (0.3) · 7.7 (3.3) | 6.3 (6.4) · 33.7 (29.9) · 5.3 (4.6) | 7.0 (6.7) | 3 (3 carrera, 0 recepción) | 6.8 (6.2) | S8 vs IND: 6-41-1 carrera, 1-17 en 1 tgt · 22% snaps · 12.8 PPR<br>S6 vs HOU: 11-55 carrera, 0-0 en 1 tgt · 30% snaps · 5.5 PPR<br>S5 vs PHI: 2-5 carrera, 1-6 en 1 tgt · 12% snaps · 2.1 PPR |
+| Bhayshul Tuten (RB) · Cuestionable | 59% (55%) | 3.0 (2.3) · 2.7 (2.1) · 42.3 (25.9) | 16.7 (15.7) · 71.7 (70.3) · 4.3 (4.5) | 19.3 (17.9) | 6 (3 carrera, 3 recepción) | 22.1 (16.9) | S8 vs IND: 16-104-1 carrera, 2-55-1 en 2 tgt · 50% snaps · 29.9 PPR<br>S6 vs HOU: 12-39 carrera, 4-48-2 en 4 tgt · 58% snaps · 24.7 PPR<br>S5 vs PHI: 22-72 carrera, 2-24 en 3 tgt · 68% snaps · 11.6 PPR |
+| Chris Rodriguez Jr. (RB) · Cuestionable | 21% (24%) | 1.0 (0.4) · 0.7 (0.3) · 7.7 (3.3) | 6.3 (6.4) · 33.7 (29.9) · 5.3 (4.6) | 7.0 (6.7) | 3 (3 carrera, 0 recepción) | 6.8 (6.2) | S8 vs IND: 6-41-1 carrera, 1-17 en 1 tgt · 22% snaps · 12.8 PPR<br>S6 vs HOU: 11-55 carrera, 0-0 en 1 tgt · 30% snaps · 5.5 PPR<br>S5 vs PHI: 2-5 carrera, 1-6 en 1 tgt · 12% snaps · 2.1 PPR |
 | Parker Washington (WR) | 75% (75%) | 7.3 (6.9) · 3.7 (3.9) · 68.0 (61.7) | — | 4.0 (4.1) | 4 (0 carrera, 4 recepción) | 14.8 (13.6) | S8 vs IND: 1-16 en 2 tgt · 67% snaps · 3.6 PPR<br>S6 vs HOU: 4-64 en 11 tgt · 73% snaps · 10.4 PPR<br>S5 vs PHI: 6-124-2 en 9 tgt · 82% snaps · 30.4 PPR |
 | Brenton Strange (TE) | 71% (75%) | 5.7 (5.0) · 4.7 (4.0) · 55.7 (47.7) | — | 4.7 (4.0) | 1 (0 carrera, 1 recepción) | 10.2 (9.6) | S8 vs IND: 2-55 en 2 tgt · 52% snaps · 7.5 PPR<br>S6 vs HOU: 5-44 en 7 tgt · 76% snaps · 9.4 PPR<br>S5 vs PHI: 7-68 en 8 tgt · 81% snaps · 13.8 PPR |
-| Jakobi Meyers (WR) | 73% (76%) | 5.3 (4.4) · 3.0 (3.1) · 48.0 (44.1) | — | 3.0 (3.3) | 2 (0 carrera, 2 recepción) | 7.8 (9.3) | S8 vs IND: 2-24 en 3 tgt · 54% snaps · 4.4 PPR<br>S6 vs HOU: 5-83 en 10 tgt · 75% snaps · 13.3 PPR<br>S5 vs PHI: 2-37 en 3 tgt · 85% snaps · 5.7 PPR |
+| Jakobi Meyers (WR) · Cuestionable | 73% (76%) | 5.3 (4.4) · 3.0 (3.1) · 48.0 (44.1) | — | 3.0 (3.3) | 2 (0 carrera, 2 recepción) | 7.8 (9.3) | S8 vs IND: 2-24 en 3 tgt · 54% snaps · 4.4 PPR<br>S6 vs HOU: 5-83 en 10 tgt · 75% snaps · 13.3 PPR<br>S5 vs PHI: 2-37 en 3 tgt · 85% snaps · 5.7 PPR |
 
 *BAL*
 
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
-| Joe Fagnano (QB) · Fuera *(se perdió 2)* | 78% (78%) | 10.0/21.0 · 91.0 yds · 48% (temp. 91.0 yds) | 3.0 (3.0) · 3.0 (3.0) · — (—) | — | 0 TD pase · 1 INT | 0.9 (0.9) | S8 vs BUF: 10/21, 91 yds, 0 TD, 1 INT · 78% snaps · 0.9 PPR<br>S7 no jugó<br>S6 no jugó |
+| Joe Fagnano (QB) *(se perdió 2)* | 78% (78%) | 10.0/21.0 · 91.0 yds · 48% (temp. 91.0 yds) | 3.0 (3.0) · 3.0 (3.0) · — (—) | — | 0 TD pase · 1 INT | 0.9 (0.9) | S8 vs BUF: 10/21, 91 yds, 0 TD, 1 INT · 78% snaps · 0.9 PPR<br>S7 no jugó<br>S6 no jugó |
 | Derrick Henry (RB) | 51% (56%) | 1.7 (1.8) · 1.3 (1.5) · 4.3 (9.4) | 15.0 (19.8) · 52.0 (79.0) · 3.5 (4.0) | 16.3 (21.2) | 9 (8 carrera, 1 recepción) | 8.3 (17.1) | S8 vs BUF: 11-53-1 carrera, 2-7 en 2 tgt · 45% snaps · 14.0 PPR<br>S7 vs CIN: 17-45 carrera, 1-4 en 2 tgt · 51% snaps · 5.9 PPR<br>S6 vs CLE: 17-58 carrera, 1-2 en 1 tgt · 58% snaps · 5.0 PPR |
 | Justice Hill (RB) | 46% (43%) | 5.0 (3.1) · 3.3 (2.1) · 18.3 (13.0) | 2.0 (3.0) · 7.3 (19.4) · 3.7 (6.5) | 5.3 (5.1) | 0 | 5.9 (5.4) | S8 vs BUF: 3-15 carrera, 4-20 en 8 tgt · 49% snaps · 7.5 PPR<br>S7 vs CIN: 3-7 carrera, 3-26 en 4 tgt · 46% snaps · 6.3 PPR<br>S6 vs CLE: 3-9 en 3 tgt · 42% snaps · 3.9 PPR |
 | Zay Flowers (WR) | 85% (67%) | 9.0 (8.3) · 4.7 (5.7) · 67.7 (86.9) | — | 5.0 (6.1) | 3 (0 carrera, 3 recepción) | 13.5 (17.5) | S8 vs BUF: 0-0 en 5 tgt · 82% snaps · 0.0 PPR<br>S7 vs CIN: 8-137-1 en 11 tgt · 85% snaps · 27.7 PPR<br>S6 vs CLE: 6-66 en 11 tgt · 88% snaps · 12.7 PPR |
@@ -221,20 +220,20 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 | Josh Cuevas (TE) | 29% (23%) | 3.3 (1.6) · 2.3 (1.2) · 31.3 (16.8) | — | 2.3 (1.2) | 1 (0 carrera, 1 recepción) | 7.5 (3.7) | S8 vs BUF: 1-15 en 2 tgt · 25% snaps · 2.5 PPR<br>S7 vs CIN: 2-35 en 3 tgt · 22% snaps · 5.5 PPR<br>S6 vs CLE: 4-44-1 en 5 tgt · 40% snaps · 14.4 PPR |
 
 
-*DST JAX:* 2.1 capturas, 1.7 balones recuperados, 15.9 pts permitidos por partido · ofensiva de BAL: 22 capturas recibidas, 8 balones perdidos, total implícito 17.5
+*DST JAX:* 2.1 capturas, 1.7 balones recuperados, 15.9 pts permitidos por partido · ofensiva de BAL: 22 capturas recibidas, 8 balones perdidos, total implícito 14.8
 
-*DST BAL:* 2.1 capturas, 1.0 balones recuperados, 24.6 pts permitidos por partido · ofensiva de JAX: 13 capturas recibidas, 5 balones perdidos, total implícito 26.0
+*DST BAL:* 2.1 capturas, 1.0 balones recuperados, 24.6 pts permitidos por partido · ofensiva de JAX: 13 capturas recibidas, 5 balones perdidos, total implícito 24.8
 
 ---
 
 ## CIN @ ATL — dom 8 nov, 8:30 am CDMX (9:30 am ET)
 *Santiago Bernabéu · pasto · techado · SEDE NEUTRAL*
 
-**Línea:** CIN -3 (abrió CIN -4.5) · total 51.5 (abrió 48.5) · ML ATL +140 / CIN -166
-**Totales implícitos:** ATL 24.2 · CIN 27.2
-**Chequeo de línea (margen del local):** mercado ATL -3.0 · SRS ATL -3.9 · FPI ATL -10.3 — leve inclinación por CIN (SRS -0.9, FPI -7.3 vs mercado) — debajo del umbral de alerta
-**Prob. de victoria:** mercado ATL 40% · FPI ATL 22%
-**Chequeo del total:** modelo PF/PA 48.5 vs 51.5 (inclinación a bajas por 3.0)
+**Línea:** CIN -3 (abrió CIN -4.5) · total 52.5 (abrió 48.5) · ML ATL +130 / CIN -155
+**Totales implícitos:** ATL 24.8 · CIN 27.8
+**Chequeo de línea (margen del local):** mercado ATL -3.0 · SRS ATL -3.6 · FPI ATL -10.2 — leve inclinación por CIN (SRS -0.6, FPI -7.2 vs mercado) — debajo del umbral de alerta
+**Prob. de victoria:** mercado ATL 42% · FPI ATL 23%
+**Chequeo del total:** modelo PF/PA 48.5 vs 52.5 (inclinación a bajas por 4.0)
 
 | | **CIN** | **ATL** |
 |---|---|---|
@@ -242,15 +241,15 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 | ATS (de favorito / de no favorito) | 3-4 (2-4 / 1-0) | 3-5 (0-1 / 3-4) |
 | Altas/Bajas | 5-2 | 4-4 |
 | Margen prom. · cobertura prom. | +6.9 · +3.0 | -2.2 · +0.1 |
-| Rating SRS | +4.4 (4º) | +0.4 (16º) |
+| Rating SRS | +4.4 (4º) | +0.8 (15º) |
 | Puntos a favor / en contra | 29.4 (2º) / 22.6 (14º) | 21.4 (23º) / 23.6 (17º) |
 | Yds netas/intento de pase | 7.2 (6º) | 6.3 (17º) |
 | Yds/acarreo | 3.7 (28º) | 4.6 (9º) |
 | % en 3ª oportunidad | 53% (1º) | 33% (29º) |
 | % de TD en zona roja | 68% (8º) | 64% (13º) |
 | Diferencial de balones | +1 (13º) | -7 (31º) |
-| Capturas recibidas | 13 (7º) | 16 (17º) |
-| Capturas (defensiva) | 23 (4º) | 18 (15º) |
+| Capturas recibidas | 13 (7º) | 16 (16º) |
+| Capturas (defensiva) | 23 (4º) | 18 (16º) |
 | Jugadas/partido | 61.9 (18º) | 59.4 (25º) |
 | Situación | 6 días de descanso, luego vs PIT | 6 días de descanso, luego vs KC |
 
@@ -281,28 +280,26 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 
 **Serie, últimos 6:** ATL 3-3 directo · 3-3 ATS · altas/bajas 4-2 · total promedio 53.2 · CIN ha ganado 3 seguidos · último: 2022 sem 7, ATL 17-35
 
-**ATL lesiones:** Zachariah Branch WR (Cuestionable — Isquiotibial), Samson Ebukam DE (Cuestionable — Isquiotibial), Andy Dalton QB (Fuera — Coach's Decision), Jack Strand QB (Fuera — Coach's Decision), Robert Longerbeam CB (Fuera — Coach's Decision)
-**CIN lesiones:** Cashius Howell DE (Cuestionable — Muñeca), Cedric Johnson DE (Cuestionable — Tobillo), DJ Turner II CB (Cuestionable — Tobillo), Mitchell Tinsley WR (Fuera — Coach's Decision), Landon Robinson DT (Fuera — Coach's Decision)
+**ATL lesiones:** Brian Robinson Jr. RB (Cuestionable — Isquiotibial), Divine Deablo LB (Cuestionable — Antebrazo), Zachariah Branch WR (Fuera — Isquiotibial)
+**CIN lesiones:** Jordan Battle S (Cuestionable — Isquiotibial), Kyle Dugger S (Cuestionable — Cuádriceps), DJ Turner II CB (Cuestionable — Talón), Cedric Johnson DE (Cuestionable — Tobillo)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Joe Burrow (QB, CIN) | 20.2 (20.2) | 36.7 pases (38.1) | 8.6 (7.9) | 13% (13%) | 98% |  ATL es 21º que más permite a QB (16.0) |
-| Ja'Marr Chase (WR, CIN) ⬆️ | 19.6 (16.5) | 31% (23%) | 8.5 (8.1) | — (—) | 91% |  ATL es 17º que más permite a WR (30.1) |
-| Chase Brown (RB, CIN) ⬇️ | 16.2 (14.3) | 17% (16%) | 4.8 (4.5) | 51% (61%) | 68% | 🟢 ATL es 5º que más permite a RB (25.8) |
-| Tee Higgins (WR, CIN) | 15.7 (13.3) | 21% (23%) | 14.8 (11.9) | — (—) | 81% |  ATL es 17º que más permite a WR (30.1) |
-| Mike Gesicki (TE, CIN) 📈 | 8.5 (7.1) | 8% (9%) | 9.6 (10.0) | — (—) | 52% |  ATL es 16º que más permite a TE (13.9) |
-| Samaje Perine (RB, CIN) 📈 | 6.2 (5.3) | 3% (4%) | — (6.4) | 31% (23%) | 37% | 🟢 ATL es 5º que más permite a RB (25.8) |
-| Andrei Iosivas (WR, CIN) **Reserva** *(se perdió 3 de los últimos 3)* | 3.6 (3.0) | — (6%) | — (—) | — (—) | — |  ATL es 17º que más permite a WR (30.1) |
-| Bijan Robinson (RB, ATL) ⬇️ | 24.5 (22.7) | 9% (15%) | 6.4 (6.2) | 70% (64%) | 80% | 🔴 CIN es 26º que más permite a RB (19.4) |
-| Drake London (WR, ATL) **Cuestionable** | 17.4 (14.6) | 30% (29%) | 5.2 (9.9) | — (1%) | 91% |  CIN es 14º que más permite a WR (32.8) |
-| Michael Penix Jr. (QB, ATL) | 15.3 (15.3) | 30.3 pases (28.0) | 6.2 (7.6) | 16% (10%) | 99% |  CIN es 14º que más permite a QB (18.4) |
-| Kyle Pitts Sr. (TE, ATL) | 8.6 (7.2) | 19% (15%) | 5.2 (6.2) | — (—) | 62% | 🟢 CIN es 8º que más permite a TE (16.5) |
-| Brian Robinson Jr. (RB, ATL) **Fuera** *(se perdió 2 de los últimos 3)* | 5.9 (5.5) | 6% (4%) | — (5.0) | 17% (30%) | 18% | 🔴 CIN es 26º que más permite a RB (19.4) |
-| Jahan Dotson (WR, ATL) | 5.8 (4.9) | 15% (14%) | 14.5 (10.9) | — (—) | 69% |  CIN es 14º que más permite a WR (32.8) |
-| Austin Hooper (TE, ATL) | 3.5 (2.9) | 5% (5%) | — (6.9) | — (—) | 24% | 🟢 CIN es 8º que más permite a TE (16.5) |
-| Zachariah Branch (WR, ATL) **Fuera** | 3.1 (2.5) | 5% (6%) | — (5.3) | 1% (0%) | 27% |  CIN es 14º que más permite a WR (32.8) |
+| Joe Burrow (QB, CIN) | 21.4 (21.4) | 36.7 pases (38.1) | 8.6 (7.9) | 13% (13%) | 98% |  ATL es 21º que más permite a QB (16.0) |
+| Ja'Marr Chase (WR, CIN) ⬆️ | 19.7 (16.6) | 31% (23%) | 8.5 (8.1) | — (—) | 91% |  ATL es 18º que más permite a WR (30.1) |
+| Tee Higgins (WR, CIN) | 16.6 (14.1) | 21% (23%) | 14.8 (11.9) | — (—) | 81% |  ATL es 18º que más permite a WR (30.1) |
+| Chase Brown (RB, CIN) ⬇️ | 16.1 (14.1) | 17% (16%) | 4.8 (4.5) | 51% (61%) | 68% | 🟢 ATL es 5º que más permite a RB (25.8) |
+| Mike Gesicki (TE, CIN) 📈 | 10.2 (8.6) | 8% (9%) | 9.6 (10.0) | — (—) | 52% |  ATL es 16º que más permite a TE (13.9) |
+| Samaje Perine (RB, CIN) | 6.5 (5.7) | 3% (4%) | — (6.4) | 31% (23%) | 37% | 🟢 ATL es 5º que más permite a RB (25.8) |
+| Bijan Robinson (RB, ATL) ⬇️ | 23.1 (21.4) | 9% (15%) | 6.4 (6.2) | 70% (64%) | 80% | 🔴 CIN es 26º que más permite a RB (19.4) |
+| Drake London (WR, ATL) | 18.9 (15.9) | 30% (29%) | 5.2 (9.9) | — (1%) | 91% |  CIN es 14º que más permite a WR (32.8) |
+| Michael Penix Jr. (QB, ATL) | 17.0 (17.0) | 30.3 pases (28.0) | 6.2 (7.6) | 16% (10%) | 99% |  CIN es 14º que más permite a QB (18.4) |
+| Kyle Pitts Sr. (TE, ATL) | 9.5 (7.9) | 19% (15%) | 5.2 (6.2) | — (—) | 62% | 🟢 CIN es 8º que más permite a TE (16.5) |
+| Jahan Dotson (WR, ATL) | 6.7 (5.7) | 15% (14%) | 14.5 (10.9) | — (—) | 69% |  CIN es 14º que más permite a WR (32.8) |
+| Brian Robinson Jr. (RB, ATL) **Cuestionable** *(se perdió 2 de los últimos 3)* | 6.1 (5.7) | 6% (4%) | — (5.0) | 17% (30%) | 18% | 🔴 CIN es 26º que más permite a RB (19.4) |
+| Austin Hooper (TE, ATL) | 3.8 (3.1) | 5% (5%) | — (6.9) | — (—) | 24% | 🟢 CIN es 8º que más permite a TE (16.5) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -355,23 +352,23 @@ _backfield: un solo hombre (Bijan Robinson 82% de los toques) · top-2 de target
 |---|---|---|---|---|---|---|---|
 | Michael Penix Jr. (QB) | 99% (99%) | 17.3/30.3 · 187.7 yds · 57% (temp. 213.7 yds) | 3.7 (2.8) · 3.7 (2.5) · 1.0 (0.9) | — | 9 TD pase · 5 INT | 15.2 (14.6) | S8 vs TB: 8/24, 125 yds, 0 TD, 4 INT · 100% snaps · 2.1 PPR<br>S7 vs SF: 25/34, 213 yds, 3 TD, 0 INT · 99% snaps · 20.4 PPR<br>S6 vs CHI: 19/33, 225 yds, 3 TD, 0 INT · 100% snaps · 23.1 PPR |
 | Bijan Robinson (RB) | 80% (72%) | 2.7 (4.1) · 2.3 (3.1) · 17.0 (25.4) | 16.0 (18.8) · 66.7 (97.5) · 4.2 (5.2) | 18.3 (21.9) | 5 (4 carrera, 1 recepción) | 10.7 (19.2) | S8 vs TB: 19-76 carrera, 0-0 en 1 tgt · 81% snaps · 7.6 PPR<br>S7 vs SF: 20-63 carrera, 5-59 en 5 tgt · 80% snaps · 17.2 PPR<br>S6 vs CHI: 9-61 carrera, 2--8 en 2 tgt · 78% snaps · 7.3 PPR |
-| Brian Robinson Jr. (RB) · Fuera *(se perdió 2)* | 18% (31%) | 2.0 (1.0) · 2.0 (0.8) · 9.0 (5.0) | 2.0 (8.8) · 1.0 (35.2) · — (4.0) | 4.0 (9.7) | 4 (4 carrera, 0 recepción) | 3.0 (8.8) | S8 no jugó<br>S7 no jugó<br>S6 vs CHI: 2-1 carrera, 2-9 en 2 tgt · 18% snaps · 3.0 PPR |
-| Drake London (WR) · Cuestionable | 91% (89%) | 8.7 (7.9) · 4.0 (4.9) · 45.3 (78.0) | — | 4.0 (5.1) | 1 (0 carrera, 1 recepción) | 11.2 (13.7) | S8 vs TB: 1-8 en 6 tgt · 96% snaps · 1.8 PPR<br>S7 vs SF: 7-66-1 en 10 tgt · 80% snaps · 19.6 PPR<br>S6 vs CHI: 4-62 en 10 tgt · 100% snaps · 12.2 PPR |
+| Brian Robinson Jr. (RB) · Cuestionable *(se perdió 2)* | 18% (31%) | 2.0 (1.0) · 2.0 (0.8) · 9.0 (5.0) | 2.0 (8.8) · 1.0 (35.2) · — (4.0) | 4.0 (9.7) | 4 (4 carrera, 0 recepción) | 3.0 (8.8) | S8 no jugó<br>S7 no jugó<br>S6 vs CHI: 2-1 carrera, 2-9 en 2 tgt · 18% snaps · 3.0 PPR |
+| Drake London (WR) | 91% (89%) | 8.7 (7.9) · 4.0 (4.9) · 45.3 (78.0) | — | 4.0 (5.1) | 1 (0 carrera, 1 recepción) | 11.2 (13.7) | S8 vs TB: 1-8 en 6 tgt · 96% snaps · 1.8 PPR<br>S7 vs SF: 7-66-1 en 10 tgt · 80% snaps · 19.6 PPR<br>S6 vs CHI: 4-62 en 10 tgt · 100% snaps · 12.2 PPR |
 | Kyle Pitts Sr. (TE) | 62% (58%) | 5.7 (4.0) · 4.0 (2.8) · 29.3 (24.6) | — | 4.0 (2.8) | 4 (0 carrera, 4 recepción) | 12.9 (8.2) | S8 vs TB: 2-6 en 5 tgt · 55% snaps · 2.6 PPR<br>S7 vs SF: 5-22-1 en 5 tgt · 55% snaps · 13.2 PPR<br>S6 vs CHI: 5-60-2 en 7 tgt · 78% snaps · 23.0 PPR |
 | Jahan Dotson (WR) | 69% (68%) | 4.3 (3.9) · 2.0 (1.8) · 62.7 (42.1) | — | 2.0 (1.8) | 2 (0 carrera, 2 recepción) | 10.3 (7.5) | S8 vs TB: 2-95 en 5 tgt · 72% snaps · 11.5 PPR<br>S7 vs SF: 1-6 en 3 tgt · 55% snaps · 1.6 PPR<br>S6 vs CHI: 3-87-1 en 5 tgt · 85% snaps · 17.7 PPR |
 | Olamide Zaccheaus (WR) *(se perdió 1)* | 51% (39%) | 3.0 (1.9) · 0.5 (0.7) · 2.0 (3.0) | — | 0.5 (0.7) | 0 | 0.7 (1.0) | S8 vs TB: 1-4 en 2 tgt · 47% snaps · 1.4 PPR<br>S7 no jugó<br>S6 vs CHI: 0-0 en 4 tgt · 55% snaps · 0.0 PPR |
 
 
-*DST CIN:* 3.3 capturas, 1.6 balones recuperados, 21.7 pts permitidos por partido · ofensiva de ATL: 16 capturas recibidas, 16 balones perdidos, total implícito 24.2
+*DST CIN:* 3.3 capturas, 1.6 balones recuperados, 21.7 pts permitidos por partido · ofensiva de ATL: 16 capturas recibidas, 16 balones perdidos, total implícito 24.8
 
-*DST ATL:* 2.2 capturas, 1.1 balones recuperados, 22.1 pts permitidos por partido · ofensiva de CIN: 13 capturas recibidas, 10 balones perdidos, total implícito 27.2
+*DST ATL:* 2.2 capturas, 1.1 balones recuperados, 22.1 pts permitidos por partido · ofensiva de CIN: 13 capturas recibidas, 10 balones perdidos, total implícito 27.8
 
 ---
 
 ## DAL @ IND — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
 *Lucas Oil Stadium · sintético · techado*
 
-**Línea:** DAL -6 (abrió DAL -1.5) · total 51.5 (abrió 52.5) · ML IND +210 / DAL -258
+**Línea:** DAL -6 (abrió DAL -1.5) · total 51.5 (abrió 52.5) · ML IND +205 / DAL -250
 **Totales implícitos:** IND 22.8 · DAL 28.8
 **Chequeo de línea (margen del local):** mercado IND -6.0 · SRS IND -1.0 · FPI IND -3.9 — 🚩 los dos modelos se inclinan por **IND** (SRS +5.0, FPI +2.1 vs mercado, pts de margen del local)
 **Prob. de victoria:** mercado IND 31% · FPI IND 39%
@@ -387,12 +384,12 @@ _backfield: un solo hombre (Bijan Robinson 82% de los toques) · top-2 de target
 | Puntos a favor / en contra | 27.4 (7º) / 26.6 (27º) | 20.1 (26º) / 27.8 (30º) |
 | Yds netas/intento de pase | 6.3 (16º) | 4.8 (31º) |
 | Yds/acarreo | 3.8 (26º) | 4.1 (19º) |
-| % en 3ª oportunidad | 48% (4º) | 39% (19º) |
+| % en 3ª oportunidad | 48% (4º) | 39% (18º) |
 | % de TD en zona roja | 72% (3º) | 59% (16º) |
 | Diferencial de balones | -1 (21º) | -11 (32º) |
 | Capturas recibidas | 11 (5º) | 23 (27º) |
 | Capturas (defensiva) | 15 (25º) | 16 (20º) |
-| Jugadas/partido | 64.0 (10º) | 64.9 (8º) |
+| Jugadas/partido | 64.0 (9º) | 64.9 (8º) |
 | Situación | 7 días de descanso, luego vs SF | 7 días de descanso, luego vs MIA |
 
 **DAL últimos 5:** P 30-33 vs ARI (-7 ✗, A) · G 38-21 @ PHI (-4.5 ✓, A) · P 13-23 @ GB (-1.5 ✗, B) · P 16-24 vs TB (-8.5 ✗, B) · G 34-30 @ HOU (+3 ✓, A)
@@ -425,26 +422,26 @@ _backfield: un solo hombre (Bijan Robinson 82% de los toques) · top-2 de target
 - **IND** — Daniel Jones vs DAL: 1-7
 - **DAL** — Brian Schottenheimer como favorito: 4-12 ATS *(tendencia — color)*
 
-**IND lesiones:** Riley Leonard QB (Fuera — Coach's Decision), Bryce Boettcher LB (Fuera — Ingle), Justin Walley CB (Fuera — Rodilla), Kevin Givens DT (Fuera — Coach's Decision), Anthony Gould WR (Fuera — Conmoción)
-**DAL lesiones:** Jake Ferguson TE (Cuestionable — Tobillo), Caleb Downs S (Cuestionable — Conmoción), Luke Schoonmaker TE (Fuera — Ingle), KaVontae Turpin WR (Fuera — Costillas), Tyrus Wheat LB (Fuera — Coach's Decision)
+**IND lesiones:** Justin Walley CB (Cuestionable — Rodilla), Anthony Gould WR (Cuestionable — Conmoción), Bryce Boettcher LB (Cuestionable — Ingle)
+**DAL lesiones:** Dee Winters LB (Cuestionable — Pantorrilla), Luke Schoonmaker TE (Cuestionable — Ingle), KaVontae Turpin WR (Cuestionable — Costillas), P.J. Locke S (Cuestionable — Conmoción), Caleb Downs S (Cuestionable — Conmoción)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| CeeDee Lamb (WR, DAL) ⬆️ | 20.8 (17.3) | 39% (32%) | 4.9 (7.7) | — (1%) | 82% | 🔴 IND es 26º que más permite a WR (27.4) |
-| Javonte Williams (RB, DAL) | 20.4 (19.1) | 4% (8%) | — (4.3) | 66% (69%) | 71% |  IND es 9º que más permite a RB (24.8) |
-| Dak Prescott (QB, DAL) | 19.4 (19.4) | 36.7 pases (37.8) | 6.0 (6.8) | 12% (12%) | 100% |  IND es 15º que más permite a QB (18.3) |
-| George Pickens (WR, DAL) | 13.3 (11.1) | 20% (21%) | 8.5 (8.6) | — (—) | 69% | 🔴 IND es 26º que más permite a WR (27.4) |
-| Jake Ferguson (TE, DAL) **Fuera** | 9.1 (7.4) | 4% (9%) | — (4.6) | — (—) | 38% |  IND es 12º que más permite a TE (14.4) |
-| Ryan Flournoy (WR, DAL) 📈 | 8.2 (6.6) | 16% (15%) | 8.7 (7.8) | 1% (1%) | 78% | 🔴 IND es 26º que más permite a WR (27.4) |
-| Tyler Goodson (RB, DAL) | 3.9 (3.5) | 5% (3%) | 5.6 (3.3) | 21% (18%) | 20% |  IND es 9º que más permite a RB (24.8) |
-| Jonathan Taylor (RB, IND) ⬇️ | 19.2 (18.1) | 13% (12%) | 8.0 (6.5) | 53% (65%) | 71% | 🟢 DAL es 4º que más permite a RB (26.4) |
-| Daniel Jones (QB, IND) | 15.5 (15.5) | 30.7 pases (33.5) | 5.7 (5.8) | 12% (11%) | 95% | 🟢 DAL es 6º que más permite a QB (20.5) |
-| Tyler Warren (TE, IND) *(se perdió 2 de los últimos 3)* | 13.4 (10.4) | 33% (23%) | 1.8 (5.0) | — (2%) | 72% |  DAL es 17º que más permite a TE (13.7) |
-| Josh Downs (WR, IND) | 11.6 (9.4) | 19% (20%) | 4.8 (6.5) | 1% (0%) | 84% | 🟢 DAL es 7º que más permite a WR (35.6) |
-| Keenan Allen (WR, IND) 📈 | 10.6 (8.4) | 24% (22%) | 8.6 (6.5) | — (—) | 60% | 🟢 DAL es 7º que más permite a WR (35.6) |
-| Seth McGowan (RB, IND) 📈 | 5.3 (4.7) | 1% (2%) | — (2.4) | 22% (16%) | 27% | 🟢 DAL es 4º que más permite a RB (26.4) |
+| CeeDee Lamb (WR, DAL) ⬆️ | 20.2 (16.8) | 39% (32%) | 4.9 (7.7) | — (1%) | 82% | 🔴 IND es 26º que más permite a WR (27.4) |
+| Dak Prescott (QB, DAL) | 19.8 (19.8) | 36.7 pases (37.8) | 6.0 (6.8) | 12% (12%) | 100% |  IND es 15º que más permite a QB (18.3) |
+| Javonte Williams (RB, DAL) | 18.4 (17.1) | 4% (8%) | — (4.3) | 66% (69%) | 71% |  IND es 9º que más permite a RB (24.8) |
+| George Pickens (WR, DAL) | 13.5 (11.2) | 20% (21%) | 8.5 (8.6) | — (—) | 69% | 🔴 IND es 26º que más permite a WR (27.4) |
+| Ryan Flournoy (WR, DAL) 📈 | 8.7 (7.0) | 16% (15%) | 8.7 (7.8) | 1% (1%) | 78% | 🔴 IND es 26º que más permite a WR (27.4) |
+| Jake Ferguson (TE, DAL) **Cuestionable** | 8.3 (6.8) | 4% (9%) | — (4.6) | — (—) | 38% |  IND es 12º que más permite a TE (14.4) |
+| Tyler Goodson (RB, DAL) | 4.7 (4.2) | 5% (3%) | 5.6 (3.3) | 21% (18%) | 20% |  IND es 9º que más permite a RB (24.8) |
+| Jonathan Taylor (RB, IND) ⬇️ | 17.5 (16.5) | 13% (12%) | 8.0 (6.5) | 53% (65%) | 71% | 🟢 DAL es 4º que más permite a RB (26.4) |
+| Daniel Jones (QB, IND) | 15.0 (15.0) | 30.7 pases (33.5) | 5.7 (5.8) | 12% (11%) | 95% | 🟢 DAL es 6º que más permite a QB (20.5) |
+| Tyler Warren (TE, IND) *(se perdió 2 de los últimos 3)* | 13.2 (10.4) | 33% (23%) | 1.8 (5.0) | — (2%) | 72% |  DAL es 17º que más permite a TE (13.7) |
+| Keenan Allen (WR, IND) 📈 | 11.3 (9.0) | 24% (22%) | 8.6 (6.5) | — (—) | 60% | 🟢 DAL es 7º que más permite a WR (35.6) |
+| Josh Downs (WR, IND) | 10.9 (8.8) | 19% (20%) | 4.8 (6.5) | 1% (0%) | 84% | 🟢 DAL es 7º que más permite a WR (35.6) |
+| Seth McGowan (RB, IND) 📈 | 6.7 (6.0) | 1% (2%) | — (2.4) | 22% (16%) | 27% | 🟢 DAL es 4º que más permite a RB (26.4) |
 | Laquon Treadwell (WR, IND) | 4.2 (3.4) | 10% (11%) | 6.4 (7.7) | — (—) | 82% | 🟢 DAL es 7º que más permite a WR (35.6) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
@@ -514,13 +511,13 @@ _backfield: reparto claro (Jonathan Taylor 67% de los toques) · top-2 de target
 ---
 
 ## NYJ @ KC — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
-*Arrowhead Stadium · pasto · 50°F, 3% de lluvia*
+*Arrowhead Stadium · pasto · 59°F, 0% de lluvia*
 
-**Línea:** KC -10 (abrió KC -9.5) · total 46.5 (abrió 41.5) · ML KC -500 / NYJ +380
-**Totales implícitos:** KC 28.2 · NYJ 18.2
-**Chequeo de línea (margen del local):** mercado KC +10.0 · SRS KC +6.1 · FPI KC +11.6 — modelos divididos (SRS -3.9, FPI +1.6 vs mercado) — sin señal
-**Prob. de victoria:** mercado KC 80% · FPI KC 81%
-**Chequeo del total:** modelo PF/PA 43.7 vs 46.5 (inclinación a bajas por 2.8 — ruido)
+**Línea:** KC -10 (abrió KC -9.5) · total 47.5 (abrió 41.5) · ML KC -575 / NYJ +425
+**Totales implícitos:** KC 28.8 · NYJ 18.8
+**Chequeo de línea (margen del local):** mercado KC +10.0 · SRS KC +5.3 · FPI KC +11.5 — modelos divididos (SRS -4.7, FPI +1.5 vs mercado) — sin señal
+**Prob. de victoria:** mercado KC 82% · FPI KC 80%
+**Chequeo del total:** modelo PF/PA 43.7 vs 47.5 (inclinación a bajas por 3.8)
 
 | | **NYJ** | **KC** |
 |---|---|---|
@@ -528,15 +525,15 @@ _backfield: reparto claro (Jonathan Taylor 67% de los toques) · top-2 de target
 | ATS (de favorito / de no favorito) | 4-3-1 (1-2 / 3-1-1) | 3-4 (3-3 / 0-1) |
 | Altas/Bajas | 4-4 | 3-4 |
 | Margen prom. · cobertura prom. | -2.2 · -0.3 | +5.1 · +1.1 |
-| Rating SRS | -1.8 (21º) | +2.8 (10º) |
-| Puntos a favor / en contra | 21.2 (25º) / 23.5 (16º) | 23.9 (12º) / 18.7 (5º) |
-| Yds netas/intento de pase | 6.6 (13º) | 7.2 (5º) |
+| Rating SRS | -1.5 (21º) | +2.3 (10º) |
+| Puntos a favor / en contra | 21.2 (25º) / 23.5 (16º) | 23.9 (11º) / 18.7 (4º) |
+| Yds netas/intento de pase | 6.6 (12º) | 7.2 (5º) |
 | Yds/acarreo | 4.1 (18º) | 5.1 (2º) |
-| % en 3ª oportunidad | 38% (23º) | 40% (13º) |
-| % de TD en zona roja | 42% (32º) | 58% (17º) |
+| % en 3ª oportunidad | 38% (22º) | 40% (13º) |
+| % de TD en zona roja | 42% (32º) | 58% (18º) |
 | Diferencial de balones | +2 (12º) | +5 (6º) |
 | Capturas recibidas | 23 (26º) | 9 (2º) |
-| Capturas (defensiva) | 20 (11º) | 9 (32º) |
+| Capturas (defensiva) | 20 (12º) | 9 (32º) |
 | Jugadas/partido | 58.5 (28º) | 60.9 (21º) |
 | Situación | 7 días de descanso, luego vs BUF | 6 días de descanso, luego @ ATL |
 
@@ -571,28 +568,28 @@ _backfield: reparto claro (Jonathan Taylor 67% de los toques) · top-2 de target
 - **KC** — Andy Reid vs NYJ: 7-1 *(tendencia — color)*
 - **KC** — Andy Reid vs NYJ: 6-2 ATS *(tendencia — color)*
 
-**KC lesiones:** Peter Woods DT (Cuestionable — Cuello), Garrett Nussmeier QB (Fuera — Coach's Decision), Ben VanSumeren FB (Fuera — Coach's Decision), Diego Pounds OT (Fuera — Coach's Decision), Jack Pyburn LB (Fuera — Coach's Decision)
-**NYJ lesiones:** Breece Hall RB (Fuera — Cuádriceps), David Bailey LB (Fuera — Ingle), Tim Patrick WR (Fuera — Coach's Decision), Nahshon Wright CB (Fuera — Coach's Decision), Max Mitchell OT (Fuera — Conmoción)
+**KC lesiones:** Mansoor Delane CB (Cuestionable — Hombro), Peter Woods DT (Cuestionable — Cuello), Omarr Norman-Lott DT (Fuera — Rodilla - LCA)
+**NYJ lesiones:** Breece Hall RB (Cuestionable — Cuádriceps), Garrett Wilson WR (Cuestionable — Conmoción), Joseph Ossai DE (Cuestionable — Tobillo), David Bailey LB (Cuestionable — Ingle)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Garrett Wilson (WR, NYJ) | 14.3 (11.7) | 24% (28%) | 7.3 (8.4) | — (—) | 88% | 🔴 KC es 31º que más permite a WR (24.9) |
-| Geno Smith (QB, NYJ) 📈 | 12.7 (12.7) | 30.7 pases (29.9) | 9.0 (8.0) | 7% (11%) | 100% | 🔴 KC es 27º que más permite a QB (13.9) |
-| Breece Hall (RB, NYJ) **Fuera** *(se perdió 3 de los últimos 3)* | 12.1 (10.8) | — (11%) | — (10.2) | — (60%) | — |  KC es 23º que más permite a RB (19.8) |
-| Omar Cooper Jr. (WR, NYJ) | 8.7 (7.0) | 13% (12%) | 18.2 (19.1) | — (—) | 75% | 🔴 KC es 31º que más permite a WR (24.9) |
-| Mason Taylor (TE, NYJ) 📈 ⬆️ | 6.7 (5.1) | 19% (13%) | 6.7 (5.9) | — (—) | 59% | 🟢 KC es 5º que más permite a TE (17.8) |
-| Braelon Allen (RB, NYJ) 📈 ⬆️ | 6.3 (5.6) | 12% (10%) | 5.6 (3.7) | 73% (54%) | 83% |  KC es 23º que más permite a RB (19.8) |
-| Adonai Mitchell (WR, NYJ) 📈 *(se perdió 1 de los últimos 3)* | 4.0 (3.2) | 20% (23%) | 11.8 (9.8) | — (—) | 53% | 🔴 KC es 31º que más permite a WR (24.9) |
-| Kenyon Sadiq (TE, NYJ) ⬇️ | 3.6 (2.9) | 7% (12%) | 6.7 (6.9) | — (0%) | 41% | 🟢 KC es 5º que más permite a TE (17.8) |
-| Kenneth Walker III (RB, KC) | 22.6 (20.8) | 13% (15%) | 3.6 (4.1) | 81% (77%) | 77% |  NYJ es 17º que más permite a RB (21.0) |
-| Patrick Mahomes (QB, KC) | 20.1 (20.1) | 34.7 pases (33.1) | 7.3 (7.7) | 13% (12%) | 100% |  NYJ es 16º que más permite a QB (18.1) |
-| Rashee Rice (WR, KC) *(se perdió 2 de los últimos 3)* | 14.7 (12.2) | 21% (16%) | 6.6 (9.7) | — (—) | 57% |  NYJ es 24º que más permite a WR (28.5) |
-| Travis Kelce (TE, KC) | 12.7 (10.4) | 20% (19%) | 8.2 (9.8) | — (—) | 75% |  NYJ es 14º que más permite a TE (13.9) |
-| Xavier Worthy (WR, KC) | 10.3 (8.5) | 19% (19%) | 5.1 (5.6) | — (—) | 89% |  NYJ es 24º que más permite a WR (28.5) |
-| Emmett Johnson (RB, KC) 📈 | 4.5 (4.0) | 11% (7%) | 14.8 (14.8) | 6% (11%) | 25% |  NYJ es 17º que más permite a RB (21.0) |
-| Noah Gray (TE, KC) | 4.0 (3.1) | 8% (7%) | 14.0 (10.8) | — (—) | 57% |  NYJ es 14º que más permite a TE (13.9) |
+| Geno Smith (QB, NYJ) | 14.7 (14.7) | 30.7 pases (29.9) | 9.0 (8.0) | 7% (11%) | 100% | 🔴 KC es 27º que más permite a QB (13.9) |
+| Garrett Wilson (WR, NYJ) **Cuestionable** | 14.4 (11.8) | 24% (28%) | 7.3 (8.4) | — (—) | 88% | 🔴 KC es 31º que más permite a WR (24.9) |
+| Braelon Allen (RB, NYJ) ⬆️ | 10.5 (9.4) | 12% (10%) | 5.6 (3.7) | 73% (54%) | 83% |  KC es 23º que más permite a RB (19.8) |
+| Omar Cooper Jr. (WR, NYJ) | 9.9 (8.2) | 13% (12%) | 18.2 (19.1) | — (—) | 75% | 🔴 KC es 31º que más permite a WR (24.9) |
+| Adonai Mitchell (WR, NYJ) 📈 *(se perdió 1 de los últimos 3)* | 8.5 (6.9) | 20% (23%) | 11.8 (9.8) | — (—) | 53% | 🔴 KC es 31º que más permite a WR (24.9) |
+| Breece Hall (RB, NYJ) **Cuestionable** *(se perdió 3 de los últimos 3)* | 8.4 (7.3) | — (11%) | — (10.2) | — (60%) | — |  KC es 23º que más permite a RB (19.8) |
+| Mason Taylor (TE, NYJ) ⬆️ | 7.6 (5.8) | 19% (13%) | 6.7 (5.9) | — (—) | 59% | 🟢 KC es 5º que más permite a TE (17.8) |
+| Kenyon Sadiq (TE, NYJ) ⬇️ | 3.9 (3.1) | 7% (12%) | 6.7 (6.9) | — (0%) | 41% | 🟢 KC es 5º que más permite a TE (17.8) |
+| Kenneth Walker III (RB, KC) | 21.8 (20.1) | 13% (15%) | 3.6 (4.1) | 81% (77%) | 77% |  NYJ es 18º que más permite a RB (21.0) |
+| Patrick Mahomes (QB, KC) | 21.3 (21.3) | 34.7 pases (33.1) | 7.3 (7.7) | 13% (12%) | 100% |  NYJ es 16º que más permite a QB (18.1) |
+| Rashee Rice (WR, KC) *(se perdió 2 de los últimos 3)* | 15.8 (13.2) | 21% (16%) | 6.6 (9.7) | — (—) | 57% |  NYJ es 24º que más permite a WR (28.5) |
+| Travis Kelce (TE, KC) | 13.3 (11.1) | 20% (19%) | 8.2 (9.8) | — (—) | 75% |  NYJ es 14º que más permite a TE (13.9) |
+| Xavier Worthy (WR, KC) | 10.4 (8.6) | 19% (19%) | 5.1 (5.6) | — (—) | 89% |  NYJ es 24º que más permite a WR (28.5) |
+| Emmett Johnson (RB, KC) 📈 | 6.5 (5.7) | 11% (7%) | 14.8 (14.8) | 6% (11%) | 25% |  NYJ es 18º que más permite a RB (21.0) |
+| Noah Gray (TE, KC) | 4.5 (3.6) | 8% (7%) | 14.0 (10.8) | — (—) | 57% |  NYJ es 14º que más permite a TE (13.9) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -634,8 +631,8 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 |---|---|---|---|---|---|---|---|
 | Geno Smith (QB) | 100% (100%) | 21.0/30.7 · 276.3 yds · 68% (temp. 239.1 yds) | 1.7 (2.9) · 1.0 (5.8) · 0.6 (2.0) | — | 12 TD pase · 3 INT | 18.8 (15.8) | S8 vs LV: 20/32, 290 yds, 2 TD, 1 INT · 100% snaps · 19.0 PPR<br>S7 vs MIA: 23/30, 287 yds, 3 TD, 1 INT · 100% snaps · 24.5 PPR<br>S6 vs NE: 20/30, 252 yds, 1 TD, 1 INT · 100% snaps · 13.0 PPR |
 | Braelon Allen (RB) | 83% (66%) | 3.7 (2.8) · 3.3 (2.1) · 20.7 (10.1) | 18.3 (14.0) · 109.7 (70.6) · 6.0 (5.0) | 21.7 (16.1) | 3 (3 carrera, 0 recepción) | 18.4 (12.4) | S8 vs LV: 21-147-1 carrera, 2-6 en 2 tgt · 83% snaps · 23.3 PPR<br>S7 vs MIA: 17-104 carrera, 6-30 en 7 tgt · 78% snaps · 19.4 PPR<br>S6 vs NE: 17-78 carrera, 2-26 en 2 tgt · 87% snaps · 12.4 PPR |
-| Breece Hall (RB) · Fuera *(se perdió 3)* | — (57%) | — (3.3) · — (3.3) · — (34.0) | — (17.0) · — (54.3) · — (3.2) | — (20.3) | 1 (1 carrera, 0 recepción) | — (14.2) | S8 no jugó<br>S7 no jugó<br>S6 no jugó |
-| Garrett Wilson (WR) | 88% (88%) | 7.0 (7.9) · 4.0 (5.4) · 51.0 (65.9) | — | 4.0 (5.4) | 3 (0 carrera, 3 recepción) | 9.1 (14.2) | S8 vs LV: 6-83 en 12 tgt · 81% snaps · 14.3 PPR<br>S7 vs MIA: 2-26 en 3 tgt · 85% snaps · 4.6 PPR<br>S6 vs NE: 4-44 en 6 tgt · 98% snaps · 8.4 PPR |
+| Breece Hall (RB) · Cuestionable *(se perdió 3)* | — (57%) | — (3.3) · — (3.3) · — (34.0) | — (17.0) · — (54.3) · — (3.2) | — (20.3) | 1 (1 carrera, 0 recepción) | — (14.2) | S8 no jugó<br>S7 no jugó<br>S6 no jugó |
+| Garrett Wilson (WR) · Cuestionable | 88% (88%) | 7.0 (7.9) · 4.0 (5.4) · 51.0 (65.9) | — | 4.0 (5.4) | 3 (0 carrera, 3 recepción) | 9.1 (14.2) | S8 vs LV: 6-83 en 12 tgt · 81% snaps · 14.3 PPR<br>S7 vs MIA: 2-26 en 3 tgt · 85% snaps · 4.6 PPR<br>S6 vs NE: 4-44 en 6 tgt · 98% snaps · 8.4 PPR |
 | Adonai Mitchell (WR) *(se perdió 1)* | 53% (65%) | 6.0 (6.8) · 3.5 (4.0) · 71.0 (66.2) | — | 3.5 (4.0) | 1 (0 carrera, 1 recepción) | 13.6 (12.1) | S8 vs LV: 7-142-1 en 9 tgt · 61% snaps · 27.2 PPR<br>S7 vs MIA: 0-0 en 3 tgt · 44% snaps · 0.0 PPR<br>S6 no jugó |
 | Mason Taylor (TE) | 59% (58%) | 5.7 (3.8) · 4.0 (2.8) · 38.0 (22.7) | — | 4.0 (2.8) | 2 (0 carrera, 2 recepción) | 12.5 (7.4) | S8 vs LV: 3-19 en 5 tgt · 61% snaps · 4.9 PPR<br>S7 vs MIA: 5-62-2 en 6 tgt · 63% snaps · 25.2 PPR<br>S6 vs NE: 4-33 en 6 tgt · 55% snaps · 7.3 PPR |
 | Omar Cooper Jr. (WR) | 75% (57%) | 4.0 (3.2) · 3.7 (3.0) · 72.7 (62.0) | — | 3.7 (3.0) | 2 (0 carrera, 2 recepción) | 14.9 (12.2) | S8 vs LV: 0-0 en 0 tgt · 78% snaps · 0.0 PPR<br>S7 vs MIA: 5-115-1 en 5 tgt · 64% snaps · 22.5 PPR<br>S6 vs NE: 6-103-1 en 7 tgt · 82% snaps · 22.3 PPR |
@@ -652,20 +649,20 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 | Xavier Worthy (WR) | 89% (84%) | 6.3 (5.9) · 4.3 (3.9) · 32.3 (32.9) | — | 4.3 (3.9) | 1 (0 carrera, 1 recepción) | 7.6 (8.0) | S8 vs DEN: 3-13 en 6 tgt · 94% snaps · 4.3 PPR<br>S7 vs SEA: 3-11 en 6 tgt · 87% snaps · 4.1 PPR<br>S6 vs LAC: 7-73 en 7 tgt · 84% snaps · 14.3 PPR |
 
 
-*DST NYJ:* 2.5 capturas, 0.9 balones recuperados, 23.5 pts permitidos por partido · ofensiva de KC: 9 capturas recibidas, 5 balones perdidos, total implícito 28.2
+*DST NYJ:* 2.5 capturas, 0.9 balones recuperados, 23.5 pts permitidos por partido · ofensiva de KC: 9 capturas recibidas, 5 balones perdidos, total implícito 28.8
 
-*DST KC:* 1.3 capturas, 1.3 balones recuperados, 18.7 pts permitidos por partido · ofensiva de NYJ: 23 capturas recibidas, 6 balones perdidos, total implícito 18.2
+*DST KC:* 1.3 capturas, 1.3 balones recuperados, 18.7 pts permitidos por partido · ofensiva de NYJ: 23 capturas recibidas, 6 balones perdidos, total implícito 18.8
 
 ---
 
 ## DET @ MIA — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
-*Hard Rock Stadium · pasto · 83°F, 54% de lluvia*
+*Hard Rock Stadium · pasto · 87°F, 47% de lluvia*
 
-**Línea:** DET -7 (abrió DET -6.5) · total 49.5 (abrió 47.5) · ML MIA +295 / DET -375
-**Totales implícitos:** MIA 21.2 · DET 28.2
-**Chequeo de línea (margen del local):** mercado MIA -7.0 · SRS MIA -4.0 · FPI MIA -10.4 — modelos divididos (SRS +3.0, FPI -3.4 vs mercado) — sin señal
-**Prob. de victoria:** mercado MIA 24% · FPI MIA 22%
-**Chequeo del total:** modelo PF/PA 48.6 vs 49.5 (inclinación a bajas por 0.9 — ruido)
+**Línea:** DET -7 (abrió DET -6.5) · total 50.5 (abrió 47.5) · ML MIA +280 / DET -355
+**Totales implícitos:** MIA 21.8 · DET 28.8
+**Chequeo de línea (margen del local):** mercado MIA -7.0 · SRS MIA -4.2 · FPI MIA -10.4 — modelos divididos (SRS +2.8, FPI -3.4 vs mercado) — sin señal
+**Prob. de victoria:** mercado MIA 25% · FPI MIA 22%
+**Chequeo del total:** modelo PF/PA 48.6 vs 50.5 (inclinación a bajas por 1.9 — ruido)
 
 | | **DET** | **MIA** |
 |---|---|---|
@@ -673,14 +670,14 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 | ATS (de favorito / de no favorito) | 2-4-1 (2-3-1 / 0-1) | 4-3 (0-0 / 4-3) |
 | Altas/Bajas | 5-2 | 3-4 |
 | Margen prom. · cobertura prom. | +3.3 · +0.0 | -9.1 · -1.5 |
-| Rating SRS | +1.9 (13º) | -3.6 (26º) |
+| Rating SRS | +2.1 (12º) | -3.6 (26º) |
 | Puntos a favor / en contra | 29.0 (3º) / 25.7 (23º) | 16.7 (31º) / 25.9 (25º) |
 | Yds netas/intento de pase | 7.0 (7º) | 5.7 (21º) |
-| Yds/acarreo | 4.6 (7º) | 4.4 (12º) |
+| Yds/acarreo | 4.6 (7º) | 4.4 (11º) |
 | % en 3ª oportunidad | 39% (15º) | 43% (9º) |
-| % de TD en zona roja | 67% (9º) | 56% (19º) |
+| % de TD en zona roja | 67% (9º) | 56% (20º) |
 | Diferencial de balones | +3 (10º) | -3 (25º) |
-| Capturas recibidas | 16 (16º) | 21 (21º) |
+| Capturas recibidas | 16 (15º) | 21 (21º) |
 | Capturas (defensiva) | 24 (3º) | 9 (30º) |
 | Jugadas/partido | 66.6 (3º) | 56.9 (31º) |
 | Situación | 7 días de descanso, luego vs NE | 6 días de descanso, luego @ IND |
@@ -712,27 +709,27 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 
 **Serie, últimos 7:** MIA 4-3 directo · 4-3 ATS · altas/bajas 4-3 · total promedio 49.4 · último: 2022 sem 8, MIA 31-27
 
-**MIA lesiones:** Malik Herring DE (Cuestionable — Undisclosed), Jared Wayne WR (Fuera — Coach's Decision), Jaylin Simpson S (Fuera — Coach's Decision), Kadyn Proctor OT (Fuera — Conmoción), Christian Haynes G (Fuera — Coach's Decision)
-**DET lesiones:** Jack Campbell LB (Dudoso — Cuello), Jimmy Rolder LB (Cuestionable — Isquiotibial), Cade Mays C (Cuestionable — Tobillo), D.J. Reed CB (Cuestionable — Cadera), Jacob Saylors RB (Cuestionable — Cuello)
+**MIA lesiones:** Kadyn Proctor OT (Cuestionable — Conmoción), Malik Herring DE (Cuestionable — Undisclosed)
+**DET lesiones:** Kerby Joseph S (Fuera — Rodilla), D.J. Reed CB (Cuestionable — Cadera), Jacob Saylors RB (Cuestionable — Cuello), Cade Mays C (Cuestionable — Tobillo)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Jahmyr Gibbs (RB, DET) | 25.8 (23.4) | 19% (18%) | 6.1 (6.5) | 74% (78%) | 79% | 🟢 MIA es 8º que más permite a RB (25.0) |
-| Amon-Ra St. Brown (WR, DET) **Cuestionable** | 18.6 (15.3) | 35% (31%) | 8.9 (7.5) | 2% (1%) | 79% | 🔴 MIA es 30º que más permite a WR (25.4) |
-| Jared Goff (QB, DET) | 18.1 (18.1) | 29.0 pases (35.4) | 8.6 (7.9) | 6% (7%) | 99% | 🟢 MIA es 5º que más permite a QB (20.6) |
-| Sam LaPorta (TE, DET) | 12.3 (9.9) | 14% (18%) | 11.6 (8.3) | 1% (0%) | 93% | 🟢 MIA es 3º que más permite a TE (19.2) |
-| Jameson Williams (WR, DET) | 11.2 (9.4) | 22% (18%) | 10.9 (9.9) | — (—) | 85% | 🔴 MIA es 30º que más permite a WR (25.4) |
-| Sione Vaki (RB, DET) | 4.4 (3.9) | 1% (2%) | — (9.5) | 17% (13%) | 25% | 🟢 MIA es 8º que más permite a RB (25.0) |
-| Isaac TeSlaa (WR, DET) | 4.2 (3.5) | 5% (9%) | — (9.4) | — (—) | 41% | 🔴 MIA es 30º que más permite a WR (25.4) |
-| Malik Willis (QB, MIA) | 17.0 (17.0) | 26.7 pases (26.1) | 7.0 (6.9) | 17% (19%) | 100% | 🟢 DET es 1º que más permite a QB (25.5) |
-| Ollie Gordon II (RB, MIA) ⬆️ | 13.3 (12.4) | 5% (5%) | — (1.6) | 63% (47%) | 77% | 🔴 DET es 30º que más permite a RB (18.2) |
-| Malik Washington (WR, MIA) 📈 | 10.7 (8.7) | 22% (25%) | 6.5 (7.3) | 3% (4%) | 78% | 🟢 DET es 3º que más permite a WR (37.6) |
-| Caleb Douglas (WR, MIA) *(se perdió 1 de los últimos 3)* | 7.9 (6.5) | 18% (19%) | 12.6 (11.9) | — (—) | 77% | 🟢 DET es 3º que más permite a WR (37.6) |
-| Greg Dulcich (TE, MIA) ⬆️ | 7.9 (6.2) | 21% (16%) | 10.4 (9.1) | — (—) | 69% | 🟢 DET es 1º que más permite a TE (27.9) |
-| Chris Bell (WR, MIA) | 6.7 (5.7) | 14% (14%) | 5.1 (5.9) | 2% (1%) | 63% | 🟢 DET es 3º que más permite a WR (37.6) |
-| Jaylen Wright (RB, MIA) | 4.6 (4.2) | 3% (1%) | — (—) | 14% (14%) | 13% | 🔴 DET es 30º que más permite a RB (18.2) |
+| Jahmyr Gibbs (RB, DET) | 25.8 (23.1) | 19% (18%) | 6.1 (6.5) | 74% (78%) | 79% | 🟢 MIA es 8º que más permite a RB (25.0) |
+| Amon-Ra St. Brown (WR, DET) | 20.3 (16.8) | 35% (31%) | 8.9 (7.5) | 2% (1%) | 79% | 🔴 MIA es 30º que más permite a WR (25.4) |
+| Jared Goff (QB, DET) | 19.9 (19.9) | 29.0 pases (35.4) | 8.6 (7.9) | 6% (7%) | 99% | 🟢 MIA es 5º que más permite a QB (20.6) |
+| Sam LaPorta (TE, DET) | 13.4 (10.9) | 14% (18%) | 11.6 (8.3) | 1% (0%) | 93% | 🟢 MIA es 3º que más permite a TE (19.2) |
+| Jameson Williams (WR, DET) | 12.6 (10.7) | 22% (18%) | 10.9 (9.9) | — (—) | 85% | 🔴 MIA es 30º que más permite a WR (25.4) |
+| Isaac TeSlaa (WR, DET) | 4.5 (3.8) | 5% (9%) | — (9.4) | — (—) | 41% | 🔴 MIA es 30º que más permite a WR (25.4) |
+| Sione Vaki (RB, DET) 📈 | 4.4 (3.9) | 1% (2%) | — (9.5) | 17% (13%) | 25% | 🟢 MIA es 8º que más permite a RB (25.0) |
+| Malik Willis (QB, MIA) 📈 | 17.8 (17.8) | 26.7 pases (26.1) | 7.0 (6.9) | 17% (19%) | 100% | 🟢 DET es 1º que más permite a QB (25.5) |
+| Ollie Gordon II (RB, MIA) ⬆️ | 13.0 (12.2) | 5% (5%) | — (1.6) | 63% (47%) | 77% | 🔴 DET es 29º que más permite a RB (18.2) |
+| Malik Washington (WR, MIA) 📈 | 10.8 (8.8) | 22% (25%) | 6.5 (7.3) | 3% (4%) | 78% | 🟢 DET es 3º que más permite a WR (37.6) |
+| Caleb Douglas (WR, MIA) 📈 *(se perdió 1 de los últimos 3)* | 8.5 (7.0) | 18% (19%) | 12.6 (11.9) | — (—) | 77% | 🟢 DET es 3º que más permite a WR (37.6) |
+| Greg Dulcich (TE, MIA) ⬆️ | 8.2 (6.5) | 21% (16%) | 10.4 (9.1) | — (—) | 69% | 🟢 DET es 1º que más permite a TE (27.9) |
+| Chris Bell (WR, MIA) | 7.0 (5.8) | 14% (14%) | 5.1 (5.9) | 2% (1%) | 63% | 🟢 DET es 3º que más permite a WR (37.6) |
+| Jaylen Wright (RB, MIA) | 4.4 (4.0) | 3% (1%) | — (—) | 14% (14%) | 13% | 🔴 DET es 29º que más permite a RB (18.2) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -774,7 +771,7 @@ _backfield: comité (Ollie Gordon II 82% de los toques) · top-2 de targets: 43%
 | Jared Goff (QB) | 99% (99%) | 19.7/29.0 · 250.0 yds · 68% (temp. 280.6 yds) | 2.0 (2.1) · 0.0 (2.1) · 0.0 (1.0) | — | 15 TD pase · 1 INT · 1 TD carrera | 19.0 (20.4) | S8 vs MIN: 18/25, 176 yds, 1 TD, 1 INT · 100% snaps · 10.0 PPR<br>S7 vs GB: 22/32, 303 yds, 2 TD, 0 INT · 100% snaps · 18.0 PPR<br>S5 vs ARI: 19/30, 271 yds, 3 TD, 0 INT, 1-1-1 carrera · 95% snaps · 28.9 PPR |
 | Jahmyr Gibbs (RB) | 79% (79%) | 5.3 (6.3) · 4.0 (4.9) · 32.7 (40.7) | 25.7 (22.4) · 140.0 (110.4) · 5.5 (4.9) | 29.7 (27.3) | 10 (8 carrera, 2 recepción) | 26.6 (28.0) | S8 vs MIN: 23-153-1 carrera, 2-15 en 4 tgt · 76% snaps · 24.8 PPR<br>S7 vs GB: 29-116 carrera, 5-27 en 6 tgt · 90% snaps · 17.3 PPR<br>S5 vs ARI: 25-151-2 carrera, 5-56 en 6 tgt · 70% snaps · 37.7 PPR |
 | Sione Vaki (RB) | 25% (24%) | 0.3 (0.9) · 0.3 (0.7) · 1.7 (8.1) | 6.0 (3.9) · 27.0 (17.3) · 4.5 (4.5) | 6.3 (4.6) | 0 | 3.2 (3.3) | S8 vs MIN: 11-65 carrera, 1-5 en 1 tgt · 28% snaps · 8.0 PPR<br>S7 vs GB: 1-5 carrera · 13% snaps · 0.5 PPR<br>S5 vs ARI: 6-11 carrera · 35% snaps · 1.1 PPR |
-| Amon-Ra St. Brown (WR) · Cuestionable | 79% (85%) | 10.0 (10.9) · 7.3 (7.6) · 89.3 (81.6) | — | 8.0 (7.9) | 5 (0 carrera, 5 recepción) | 16.6 (20.1) | S8 vs MIN: 7-46 en 8 tgt · 72% snaps · 12.6 PPR<br>S7 vs GB: 9-153 en 11 tgt · 78% snaps · 24.2 PPR<br>S5 vs ARI: 6-69 en 11 tgt · 86% snaps · 12.9 PPR |
+| Amon-Ra St. Brown (WR) | 79% (85%) | 10.0 (10.9) · 7.3 (7.6) · 89.3 (81.6) | — | 8.0 (7.9) | 5 (0 carrera, 5 recepción) | 16.6 (20.1) | S8 vs MIN: 7-46 en 8 tgt · 72% snaps · 12.6 PPR<br>S7 vs GB: 9-153 en 11 tgt · 78% snaps · 24.2 PPR<br>S5 vs ARI: 6-69 en 11 tgt · 86% snaps · 12.9 PPR |
 | Jameson Williams (WR) | 85% (88%) | 6.3 (6.3) · 3.7 (3.9) · 69.3 (62.4) | — | 3.7 (3.9) | 5 (0 carrera, 5 recepción) | 20.6 (14.4) | S8 vs MIN: 4-70-1 en 6 tgt · 83% snaps · 17.0 PPR<br>S7 vs GB: 5-91-2 en 9 tgt · 84% snaps · 26.1 PPR<br>S5 vs ARI: 2-47-2 en 4 tgt · 89% snaps · 18.7 PPR |
 | Sam LaPorta (TE) | 93% (90%) | 4.0 (6.3) · 3.0 (4.4) · 46.3 (52.4) | — | 3.3 (4.6) | 3 (0 carrera, 3 recepción) | 9.7 (12.3) | S8 vs MIN: 3-33 en 5 tgt · 93% snaps · 6.5 PPR<br>S7 vs GB: 1-18 en 2 tgt · 97% snaps · 2.8 PPR<br>S5 vs ARI: 5-88-1 en 5 tgt · 89% snaps · 19.8 PPR |
 
@@ -791,20 +788,20 @@ _backfield: comité (Ollie Gordon II 82% de los toques) · top-2 de targets: 43%
 | Chris Bell (WR) | 63% (61%) | 3.7 (3.6) · 2.3 (1.7) · 18.7 (21.1) | — | 3.0 (2.0) | 0 | 5.0 (4.2) | S8 vs NE: 4-31 en 5 tgt · 69% snaps · 6.9 PPR<br>S7 vs NYJ: 3-25 en 4 tgt · 48% snaps · 5.5 PPR<br>S5 vs CIN: 1-26 carrera, 0-0 en 2 tgt · 71% snaps · 2.6 PPR |
 
 
-*DST DET:* 3.4 capturas, 1.0 balones recuperados, 25.7 pts permitidos por partido · ofensiva de MIA: 21 capturas recibidas, 9 balones perdidos, total implícito 21.2
+*DST DET:* 3.4 capturas, 1.0 balones recuperados, 25.7 pts permitidos por partido · ofensiva de MIA: 21 capturas recibidas, 9 balones perdidos, total implícito 21.8
 
-*DST MIA:* 1.3 capturas, 0.9 balones recuperados, 25.9 pts permitidos por partido · ofensiva de DET: 16 capturas recibidas, 4 balones perdidos, total implícito 28.2
+*DST MIA:* 1.3 capturas, 0.9 balones recuperados, 25.9 pts permitidos por partido · ofensiva de DET: 16 capturas recibidas, 4 balones perdidos, total implícito 28.8
 
 ---
 
 ## CLE @ NO — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
 *Caesars Superdome · sintético · techado*
 
-**Línea:** NO -2.5 (abrió NO -3.5) · total 43.5 (abrió 41.5) · ML NO -135 / CLE +114
-**Totales implícitos:** NO 23.0 · CLE 20.5
-**Chequeo de línea (margen del local):** mercado NO +2.5 · SRS NO +1.5 · FPI NO +4.4 — los modelos coinciden con el mercado ✅
-**Prob. de victoria:** mercado NO 55% · FPI NO 63%
-**Chequeo del total:** modelo PF/PA 44.9 vs 43.5 (inclinación a altas por 1.4 — ruido)
+**Línea:** NO -3 (abrió NO -3.5) · total 42.5 (abrió 41.5) · ML NO -162 / CLE +136
+**Totales implícitos:** NO 22.8 · CLE 19.8
+**Chequeo de línea (margen del local):** mercado NO +3.0 · SRS NO +1.4 · FPI NO +5.3 — modelos divididos (SRS -1.6, FPI +2.3 vs mercado) — sin señal
+**Prob. de victoria:** mercado NO 59% · FPI NO 65%
+**Chequeo del total:** modelo PF/PA 44.9 vs 42.5 (inclinación a altas por 2.4 — ruido)
 
 | | **CLE** | **NO** |
 |---|---|---|
@@ -812,15 +809,15 @@ _backfield: comité (Ollie Gordon II 82% de los toques) · top-2 de targets: 43%
 | ATS (de favorito / de no favorito) | 5-3 (1-0 / 4-3) | 3-4 (1-2 / 2-2) |
 | Altas/Bajas | 4-4 | 4-3 |
 | Margen prom. · cobertura prom. | -4.2 · -0.7 | -4.6 · -2.5 |
-| Rating SRS | -2.3 (22º) | -2.4 (23º) |
-| Puntos a favor / en contra | 17.4 (29º) / 21.6 (13º) | 23.1 (15º) / 27.7 (29º) |
+| Rating SRS | -2.1 (22º) | -2.2 (23º) |
+| Puntos a favor / en contra | 17.4 (29º) / 21.6 (13º) | 23.1 (14º) / 27.7 (29º) |
 | Yds netas/intento de pase | 5.7 (20º) | 5.6 (23º) |
 | Yds/acarreo | 3.9 (24º) | 3.5 (30º) |
 | % en 3ª oportunidad | 32% (30º) | 43% (7º) |
 | % de TD en zona roja | 43% (31º) | 77% (2º) |
 | Diferencial de balones | -1 (20º) | -4 (27º) |
 | Capturas recibidas | 33 (32º) | 15 (12º) |
-| Capturas (defensiva) | 21 (8º) | 18 (14º) |
+| Capturas (defensiva) | 21 (9º) | 18 (15º) |
 | Jugadas/partido | 60.5 (22º) | 65.6 (7º) |
 | Situación | 7 días de descanso, luego vs HOU | 14 días de descanso, tras semana de descanso, luego vs CAR |
 
@@ -838,10 +835,10 @@ _backfield: comité (Ollie Gordon II 82% de los toques) · top-2 de targets: 43%
 | Coach vs esta franquicia | — | — |
 | Cara a cara vs el otro coach | — | — |
 | Coach después de derrota | 2-0 · ATS 2-0 | 5-9 · ATS 7-7 |
-| QB | Deshaun Watson | Tyler Shough |
-| QB, carrera como titular (desde '99) | 43-40 · ATS 40-41-2 | 7-9 · ATS 10-6 |
-| QB vs este rival | 0-2 · ATS 1-1 | — |
-| QB en este rol | como no favorito: 18-26 · ATS 25-19 | como favorito: 3-3 · ATS 3-3 |
+| QB | Shedeur Sanders | Tyler Shough |
+| QB, carrera como titular (desde '99) | 3-4 · ATS 4-3 | 7-9 · ATS 10-6 |
+| QB vs este rival | — | — |
+| QB en este rol | como no favorito: 3-3 · ATS 4-2 | como favorito: 3-3 · ATS 3-3 |
 | Esta temporada de local | 3-0 · ATS 3-0 · 20.3-17.3 | 0-3 · ATS 0-3 · 21.3-34.3 |
 | Esta temporada de visita | 2-3 · ATS 2-3 · 15.6-24.2 | 2-2 · ATS 3-1 · 26.0-21.2 |
 | Ventaja de local, últimas 3 temporadas | +4.3 pts (local 8-11, visita 5-18) | +0.8 pts (local 6-14, visita 7-14) |
@@ -856,26 +853,26 @@ _backfield: comité (Ollie Gordon II 82% de los toques) · top-2 de targets: 43%
 - **NO** — Kellen Moore de local: 3-8 ATS *(tendencia — color)*
 
 **NO lesiones:** Cesar Ruiz G (Cuestionable — Rodilla), Nathan Shepherd DT (Cuestionable — Enfermedad), Justin Reid S (Cuestionable — Conmoción)
-**CLE lesiones:** Dillon Gabriel QB (Fuera — Coach's Decision), Taylen Green QB (Fuera — Coach's Decision), Noah Igbinoghene CB (Fuera — Coach's Decision), Justin Jefferson LB (Fuera — Coach's Decision), Parker Brailsford C (Fuera — Coach's Decision)
+**CLE lesiones:** Quincy Williams LB (Cuestionable — Isquiotibial), Deshaun Watson QB (Cuestionable — Conmoción)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Deshaun Watson (QB, CLE) | 14.3 (14.3) | 33.7 pases (31.1) | 7.9 (7.3) | 19% (26%) | 99% |  NO es 17º que más permite a QB (17.8) |
-| Quinshon Judkins (RB, CLE) ⬇️ *(se perdió 1 de los últimos 3)* | 11.2 (10.1) | 4% (10%) | — (5.8) | 64% (60%) | 46% | 🟢 NO es 1º que más permite a RB (30.0) |
-| Harold Fannin Jr. (TE, CLE) | 10.8 (8.7) | 24% (21%) | 10.6 (8.1) | — (—) | 86% | 🟢 NO es 6º que más permite a TE (17.0) |
-| Denzel Boston (WR, CLE) | 10.6 (9.1) | 24% (22%) | 3.3 (7.7) | — (—) | 88% |  NO es 18º que más permite a WR (29.6) |
-| KC Concepcion Jr. (WR, CLE) 📈 | 10.1 (8.0) | 20% (20%) | 10.2 (7.2) | 7% (5%) | 81% |  NO es 18º que más permite a WR (29.6) |
-| Dylan Sampson (RB, CLE) 📈 *(se perdió 1 de los últimos 3)* | 5.8 (4.8) | 15% (15%) | 8.5 (8.5) | 16% (16%) | 51% | 🟢 NO es 1º que más permite a RB (30.0) |
-| Tyler Shough (QB, NO) | 16.7 (16.7) | 31.0 pases (39.0) | 5.6 (6.3) | 11% (14%) | 99% | 🔴 CLE es 26º que más permite a QB (14.2) |
-| Chris Olave (WR, NO) | 16.6 (13.7) | 25% (27%) | 6.3 (9.0) | — (—) | 73% |  CLE es 20º que más permite a WR (29.2) |
-| Juwan Johnson (TE, NO) | 10.6 (8.6) | 11% (14%) | 2.3 (6.9) | — (—) | 59% |  CLE es 10º que más permite a TE (14.9) |
-| Travis Etienne Jr. (RB, NO) **Reserva** *(se perdió 3 de los últimos 3)* | 9.7 (8.8) | — (10%) | — (3.9) | — (38%) | — |  CLE es 16º que más permite a RB (21.1) |
-| Jordyn Tyson (WR, NO) **Reserva** | 9.3 (7.5) | — (—) | — (—) | — (—) | — |  CLE es 20º que más permite a WR (29.2) |
-| Noah Fant (TE, NO) | 5.7 (4.7) | 4% (7%) | — (5.2) | — (—) | 56% |  CLE es 10º que más permite a TE (14.9) |
-| Devaughn Vele (WR, NO) | 4.8 (3.9) | 18% (18%) | 7.2 (7.2) | — (—) | 92% |  CLE es 20º que más permite a WR (29.2) |
-| Kendre Miller (RB, NO) ⬆️ | 4.3 (3.9) | 8% (6%) | 3.1 (2.8) | 53% (40%) | 39% |  CLE es 16º que más permite a RB (21.1) |
+| Shedeur Sanders (QB, CLE) *(se perdió 2 de los últimos 3)* | 13.6 (13.6) | 2.0 pases (1.5) | — (—) | — (—) | 6% |  NO es 17º que más permite a QB (17.8) |
+| Quinshon Judkins (RB, CLE) ⬇️ *(se perdió 1 de los últimos 3)* | 12.2 (11.1) | 4% (10%) | — (5.8) | 64% (60%) | 46% | 🟢 NO es 1º que más permite a RB (30.0) |
+| Harold Fannin Jr. (TE, CLE) | 11.4 (9.2) | 24% (21%) | 10.6 (8.1) | — (—) | 86% | 🟢 NO es 6º que más permite a TE (17.0) |
+| Denzel Boston (WR, CLE) | 10.6 (9.1) | 24% (22%) | 3.3 (7.7) | — (—) | 88% |  NO es 19º que más permite a WR (29.6) |
+| KC Concepcion Jr. (WR, CLE) | 10.2 (8.2) | 20% (20%) | 10.2 (7.2) | 7% (5%) | 81% |  NO es 19º que más permite a WR (29.6) |
+| Dylan Sampson (RB, CLE) 📈 *(se perdió 1 de los últimos 3)* | 8.7 (7.4) | 15% (15%) | 8.5 (8.5) | 16% (16%) | 51% | 🟢 NO es 1º que más permite a RB (30.0) |
+| Jerry Jeudy (WR, CLE) | 3.2 (2.6) | 9% (10%) | 10.0 (7.1) | — (—) | 61% |  NO es 19º que más permite a WR (29.6) |
+| Tyler Shough (QB, NO) 📈 | 15.4 (15.4) | 31.0 pases (39.0) | 5.6 (6.3) | 11% (14%) | 99% | 🔴 CLE es 26º que más permite a QB (14.2) |
+| Chris Olave (WR, NO) | 15.4 (12.6) | 25% (27%) | 6.3 (9.0) | — (—) | 73% |  CLE es 21º que más permite a WR (29.2) |
+| Kendre Miller (RB, NO) 📈 ⬆️ | 10.7 (9.7) | 8% (6%) | 3.1 (2.8) | 53% (40%) | 39% |  CLE es 17º que más permite a RB (21.1) |
+| Juwan Johnson (TE, NO) | 10.2 (8.2) | 11% (14%) | 2.3 (6.9) | — (—) | 59% |  CLE es 10º que más permite a TE (14.9) |
+| Alvin Kamara (RB, NO) 📈 | 9.4 (8.1) | 14% (13%) | 6.6 (4.9) | 22% (28%) | 36% |  CLE es 17º que más permite a RB (21.1) |
+| Devaughn Vele (WR, NO) | 8.1 (6.6) | 18% (18%) | 7.2 (7.2) | — (—) | 92% |  CLE es 21º que más permite a WR (29.2) |
+| Noah Fant (TE, NO) | 5.6 (4.5) | 4% (7%) | — (5.2) | — (—) | 56% |  CLE es 10º que más permite a TE (14.9) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -914,11 +911,11 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
-| Deshaun Watson (QB) | 99% (99%) | 22.7/33.7 · 265.3 yds · 67% (temp. 225.8 yds) | 4.7 (6.4) · 16.7 (27.1) · 3.6 (4.3) | — | 7 TD pase · 3 INT · 1 TD carrera | 13.3 (15.1) | S8 vs PIT: 27/39, 324 yds, 0 TD, 0 INT · 94% snaps · 11.2 PPR<br>S7 vs TEN: 25/36, 308 yds, 0 TD, 1 INT, 3-19-1 carrera · 100% snaps · 19.2 PPR<br>S6 vs BAL: 16/26, 164 yds, 0 TD, 0 INT, 8-29 carrera · 102% snaps · 9.5 PPR |
+| Deshaun Watson (QB) · Cuestionable | 99% (99%) | 22.7/33.7 · 265.3 yds · 67% (temp. 225.8 yds) | 4.7 (6.4) · 16.7 (27.1) · 3.6 (4.3) | — | 7 TD pase · 3 INT · 1 TD carrera | 13.3 (15.1) | S8 vs PIT: 27/39, 324 yds, 0 TD, 0 INT · 94% snaps · 11.2 PPR<br>S7 vs TEN: 25/36, 308 yds, 0 TD, 1 INT, 3-19-1 carrera · 100% snaps · 19.2 PPR<br>S6 vs BAL: 16/26, 164 yds, 0 TD, 0 INT, 8-29 carrera · 102% snaps · 9.5 PPR |
 | Quinshon Judkins (RB) *(se perdió 1)* | 46% (55%) | 1.5 (3.3) · 1.5 (3.0) · 16.0 (19.1) | 14.0 (14.4) · 60.5 (48.9) · 4.3 (3.4) | 15.5 (17.4) | 3 (3 carrera, 0 recepción) | 15.1 (12.4) | S8 vs PIT: 11-25 carrera, 2-24 en 2 tgt · 39% snaps · 6.9 PPR<br>S7 vs TEN: 17-96-2 carrera, 1-8 en 1 tgt · 53% snaps · 23.4 PPR<br>S6 no jugó |
 | Dylan Sampson (RB) *(se perdió 1)* | 51% (51%) | 5.5 (5.5) · 4.5 (4.5) · 47.0 (47.0) | 3.5 (3.5) · 26.0 (26.0) · 7.4 (7.4) | 8.0 (8.0) | 0 | 11.8 (11.8) | S8 vs PIT: 1-7 carrera, 6-62 en 8 tgt · 56% snaps · 12.9 PPR<br>S7 vs TEN: 6-45 carrera, 3-32 en 3 tgt · 46% snaps · 10.7 PPR<br>S6 no jugó |
-| Denzel Boston (WR) | 88% (90%) | 8.0 (6.6) · 3.3 (3.2) · 26.3 (51.1) | — | 3.3 (3.2) | 3 (0 carrera, 3 recepción) | 6.0 (10.9) | S8 vs PIT: 6-37 en 11 tgt · 83% snaps · 9.7 PPR<br>S7 vs TEN: 3-27 en 8 tgt · 87% snaps · 5.7 PPR<br>S6 vs BAL: 1-15 en 5 tgt · 94% snaps · 2.5 PPR |
 | Harold Fannin Jr. (TE) | 86% (87%) | 8.0 (6.4) · 5.7 (4.4) · 84.7 (51.4) | — | 5.7 (4.4) | 3 (0 carrera, 3 recepción) | 12.8 (11.3) | S8 vs PIT: 10-154 en 12 tgt · 86% snaps · 23.4 PPR<br>S7 vs TEN: 6-91 en 9 tgt · 83% snaps · 13.1 PPR<br>S6 vs BAL: 1-9 en 3 tgt · 90% snaps · 1.9 PPR |
+| Denzel Boston (WR) | 88% (90%) | 8.0 (6.6) · 3.3 (3.2) · 26.3 (51.1) | — | 3.3 (3.2) | 3 (0 carrera, 3 recepción) | 6.0 (10.9) | S8 vs PIT: 6-37 en 11 tgt · 83% snaps · 9.7 PPR<br>S7 vs TEN: 3-27 en 8 tgt · 87% snaps · 5.7 PPR<br>S6 vs BAL: 1-15 en 5 tgt · 94% snaps · 2.5 PPR |
 | KC Concepcion Jr. (WR) | 81% (72%) | 6.7 (6.1) · 5.0 (4.1) · 67.7 (44.0) | 1.7 (1.1) · 8.3 (4.2) · 5.0 (3.8) | 6.7 (5.2) | 0 | 12.6 (8.7) | S8 vs PIT: 3-37 en 4 tgt · 83% snaps · 6.7 PPR<br>S7 vs TEN: 3-23 carrera, 8-129 en 10 tgt · 79% snaps · 23.2 PPR<br>S6 vs BAL: 4-37 en 6 tgt · 82% snaps · 7.9 PPR |
 
 *NO*
@@ -933,20 +930,20 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 | Juwan Johnson (TE) | 59% (66%) | 3.3 (5.3) · 1.7 (3.7) · 7.7 (36.4) | — | 1.7 (3.7) | 3 (0 carrera, 3 recepción) | 2.4 (9.6) | S7 vs PIT: 1-7 en 3 tgt · 56% snaps · 1.7 PPR<br>S6 vs NYG: 0-0 en 2 tgt · 58% snaps · 0.0 PPR<br>S5 vs MIN: 4-16 en 5 tgt · 64% snaps · 5.6 PPR |
 
 
-*DST CLE:* 2.6 capturas, 1.2 balones recuperados, 21.6 pts permitidos por partido · ofensiva de NO: 15 capturas recibidas, 13 balones perdidos, total implícito 23.0
+*DST CLE:* 2.6 capturas, 1.2 balones recuperados, 21.6 pts permitidos por partido · ofensiva de NO: 15 capturas recibidas, 13 balones perdidos, total implícito 22.8
 
-*DST NO:* 2.6 capturas, 1.0 balones recuperados, 27.7 pts permitidos por partido · ofensiva de CLE: 33 capturas recibidas, 11 balones perdidos, total implícito 20.5
+*DST NO:* 2.6 capturas, 1.0 balones recuperados, 27.7 pts permitidos por partido · ofensiva de CLE: 33 capturas recibidas, 11 balones perdidos, total implícito 19.8
 
 ---
 
 ## NYG @ PHI — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
-*Lincoln Financial Field · pasto · 59°F, 6% de lluvia · DIVISIONAL (NFC Este)*
+*Lincoln Financial Field · pasto · 59°F, 0% de lluvia · DIVISIONAL (NFC Este)*
 
-**Línea:** NYG -3.5 (abrió NYG +5.5) · total 40.5 (abrió 44.5) · ML PHI +140 / NYG -166
-**Totales implícitos:** PHI 18.5 · NYG 22.0
-**Chequeo de línea (margen del local):** mercado PHI -3.5 · SRS PHI -2.8 · FPI PHI -1.4 — leve inclinación por PHI (SRS +0.7, FPI +2.1 vs mercado) — debajo del umbral de alerta
-**Prob. de victoria:** mercado PHI 40% · FPI PHI 46%
-**Chequeo del total:** modelo PF/PA 44.3 vs 40.5 (inclinación a altas por 3.8)
+**Línea:** NYG -3.5 (abrió NYG +5.5) · total 39.5 (abrió 44.5) · ML PHI +140 / NYG -166
+**Totales implícitos:** PHI 18.0 · NYG 21.5
+**Chequeo de línea (margen del local):** mercado PHI -3.5 · SRS PHI -2.5 · FPI PHI -1.6 — los modelos coinciden con el mercado ✅
+**Prob. de victoria:** mercado PHI 40% · FPI PHI 45%
+**Chequeo del total:** modelo PF/PA 44.3 vs 39.5 (inclinación a altas por 4.8)
 
 | | **NYG** | **PHI** |
 |---|---|---|
@@ -954,11 +951,11 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 | ATS (de favorito / de no favorito) | 5-2 (1-0 / 4-2) | 2-6 (0-3 / 2-3) |
 | Altas/Bajas | 5-2 | 4-4 |
 | Margen prom. · cobertura prom. | +0.3 · +3.9 | -8.1 · -6.9 |
-| Rating SRS | -2.6 (25º) | -6.9 (32º) |
-| Puntos a favor / en contra | 23.3 (14º) / 23.0 (15º) | 17.1 (30º) / 25.2 (21º) |
+| Rating SRS | -2.7 (25º) | -6.7 (32º) |
+| Puntos a favor / en contra | 23.3 (13º) / 23.0 (15º) | 17.1 (30º) / 25.2 (21º) |
 | Yds netas/intento de pase | 6.1 (19º) | 4.9 (30º) |
 | Yds/acarreo | 4.1 (20º) | 3.8 (25º) |
-| % en 3ª oportunidad | 41% (11º) | 37% (24º) |
+| % en 3ª oportunidad | 41% (11º) | 37% (23º) |
 | % de TD en zona roja | 67% (10º) | 71% (4º) |
 | Diferencial de balones | -2 (23º) | -4 (28º) |
 | Capturas recibidas | 21 (23º) | 23 (30º) |
@@ -1000,26 +997,26 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 - **PHI** — Nick Sirianni después de derrota: 10-21 ATS *(tendencia — color)*
 - **PHI** — Nick Sirianni vs NYG: 8-3 *(tendencia — color)*
 
-**PHI lesiones:** Michael Carter II CB (Cuestionable — Abdomen), Dontayvion Wicks WR (Fuera — Tobillo), DeVonta Smith WR (Fuera — Isquiotibial), Jake Majors C (Fuera — Coach's Decision), Jonathan Jones CB (Fuera — Isquiotibial)
-**NYG lesiones:** Theo Johnson TE (Cuestionable — Cuello), Marcus Mbow OT (Cuestionable — Rodilla), Greg Newsome II CB (Cuestionable — Conmoción), Jevon Holland S (Cuestionable — Conmoción)
+**PHI lesiones:** Dontayvion Wicks WR (Cuestionable — Tobillo), DeVonta Smith WR (Cuestionable — Isquiotibial), Jonathan Jones CB (Cuestionable — Isquiotibial), Jihaad Campbell LB (Cuestionable — Isquiotibial), Britain Covey WR (Cuestionable — Rodilla)
+**NYG lesiones:** Greg Newsome II CB (Cuestionable — Conmoción), Theo Johnson TE (Cuestionable — Cuello), Cam Skattebo RB (Cuestionable — Isquiotibial), Marcus Mbow OT (Cuestionable — Rodilla)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| J.J. McCarthy (QB, NYG) | 16.4 (16.4) | 16.3 pases (16.3) | 10.1 (10.1) | 6% (6%) | 42% |  PHI es 10º que más permite a QB (19.3) |
-| Malik Nabers (WR, NYG) ⬆️ | 14.3 (11.7) | 36% (30%) | 9.0 (8.6) | — (—) | 84% | 🟢 PHI es 2º que más permite a WR (39.4) |
-| Isaiah Likely (TE, NYG) | 13.2 (10.8) | 23% (27%) | 7.3 (6.3) | — (—) | 85% | 🔴 PHI es 30º que más permite a TE (9.5) |
-| Cam Skattebo (RB, NYG) **Cuestionable** ⬇️ | 10.9 (10.0) | 3% (6%) | — (5.8) | 37% (49%) | 43% |  PHI es 15º que más permite a RB (21.4) |
-| Devin Singletary (RB, NYG) 📈 *(se perdió 1 de los últimos 3)* | 8.0 (7.1) | 6% (7%) | — (6.1) | 17% (16%) | 35% |  PHI es 15º que más permite a RB (21.4) |
-| Malachi Fields (WR, NYG) | 5.2 (4.4) | 12% (13%) | 8.1 (8.3) | — (—) | 80% | 🟢 PHI es 2º que más permite a WR (39.4) |
-| Saquon Barkley (RB, PHI) *(se perdió 1 de los últimos 3)* | 15.4 (14.5) | 5% (6%) | — (4.1) | 37% (36%) | 24% |  NYG es 22º que más permite a RB (19.8) |
-| Tanner McKee (QB, PHI) | 12.1 (12.1) | 38.0 pases (38.0) | 5.6 (5.6) | 9% (9%) | 100% | 🟢 NYG es 7º que más permite a QB (20.4) |
-| DeVonta Smith (WR, PHI) **Fuera** *(se perdió 2 de los últimos 3)* | 11.4 (9.2) | 32% (33%) | 5.4 (7.6) | — (—) | 66% |  NYG es 15º que más permite a WR (31.3) |
-| Dallas Goedert (TE, PHI) | 9.5 (7.9) | 17% (18%) | 7.3 (7.2) | 1% (1%) | 78% |  NYG es 22º que más permite a TE (12.3) |
-| Dontayvion Wicks (WR, PHI) **Fuera** *(se perdió 2 de los últimos 3)* | 5.5 (4.5) | 9% (17%) | — (8.9) | — (—) | 62% |  NYG es 15º que más permite a WR (31.3) |
-| Makai Lemon (WR, PHI) 📈 | 4.9 (3.8) | 21% (18%) | 6.2 (5.6) | — (1%) | 89% |  NYG es 15º que más permite a WR (31.3) |
-| Tank Bigsby (RB, PHI) **Reserva** *(se perdió 3 de los últimos 3)* | 3.1 (3.0) | — (4%) | — (—) | — (27%) | — |  NYG es 22º que más permite a RB (19.8) |
+| J.J. McCarthy (QB, NYG) 📈 | 16.6 (16.6) | 16.3 pases (16.3) | 10.1 (10.1) | 6% (6%) | 42% |  PHI es 10º que más permite a QB (19.3) |
+| Malik Nabers (WR, NYG) ⬆️ | 15.8 (13.1) | 36% (30%) | 9.0 (8.6) | — (—) | 84% | 🟢 PHI es 2º que más permite a WR (39.4) |
+| Cam Skattebo (RB, NYG) **Cuestionable** ⬇️ | 12.0 (11.1) | 3% (6%) | — (5.8) | 37% (49%) | 43% |  PHI es 16º que más permite a RB (21.4) |
+| Isaiah Likely (TE, NYG) | 11.6 (9.6) | 23% (27%) | 7.3 (6.3) | — (—) | 85% | 🔴 PHI es 30º que más permite a TE (9.5) |
+| Devin Singletary (RB, NYG) 📈 *(se perdió 1 de los últimos 3)* | 8.8 (8.0) | 6% (7%) | — (6.1) | 17% (16%) | 35% |  PHI es 16º que más permite a RB (21.4) |
+| Malachi Fields (WR, NYG) | 5.3 (4.5) | 12% (13%) | 8.1 (8.3) | — (—) | 80% | 🟢 PHI es 2º que más permite a WR (39.4) |
+| DeVonta Smith (WR, PHI) **Cuestionable** *(se perdió 2 de los últimos 3)* | 12.9 (10.5) | 32% (33%) | 5.4 (7.6) | — (—) | 66% |  NYG es 15º que más permite a WR (31.3) |
+| Saquon Barkley (RB, PHI) *(se perdió 1 de los últimos 3)* | 12.8 (12.0) | 5% (6%) | — (4.1) | 37% (36%) | 24% |  NYG es 22º que más permite a RB (19.8) |
+| Tanner McKee (QB, PHI) | 12.0 (12.0) | 38.0 pases (38.0) | 5.6 (5.6) | 9% (9%) | 100% | 🟢 NYG es 7º que más permite a QB (20.4) |
+| Dallas Goedert (TE, PHI) | 9.6 (7.8) | 17% (18%) | 7.3 (7.2) | 1% (1%) | 78% |  NYG es 21º que más permite a TE (12.3) |
+| Elijah Mitchell (RB, PHI) 📈 *(se perdió 1 de los últimos 3)* | 6.9 (6.3) | 15% (15%) | 2.6 (2.6) | 26% (26%) | 39% |  NYG es 22º que más permite a RB (19.8) |
+| Dontayvion Wicks (WR, PHI) **Cuestionable** *(se perdió 2 de los últimos 3)* | 5.7 (4.7) | 9% (17%) | — (8.9) | — (—) | 62% |  NYG es 15º que más permite a WR (31.3) |
+| Makai Lemon (WR, PHI) | 5.2 (4.0) | 21% (18%) | 6.2 (5.6) | — (1%) | 89% |  NYG es 15º que más permite a WR (31.3) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1074,25 +1071,25 @@ _backfield: comité (Dameon Pierce 66% de los toques) · top-2 de targets: 53% d
 | Tanner McKee (QB) | 100% (100%) | 24.0/38.0 · 212.7 yds · 63% (temp. 212.7 yds) | 2.0 (2.0) · 8.7 (8.7) · 4.3 (4.3) | — | 2 TD pase · 2 INT | 10.7 (10.7) | S8 vs WAS: 23/34, 212 yds, 0 TD, 1 INT, 4-25 carrera · 100% snaps · 8.0 PPR<br>S7 vs DAL: 23/35, 211 yds, 1 TD, 1 INT · 100% snaps · 11.5 PPR<br>S6 vs CAR: 26/45, 215 yds, 1 TD, 0 INT · 100% snaps · 12.6 PPR |
 | Saquon Barkley (RB) *(se perdió 1)* | 24% (33%) | 1.5 (1.7) · 1.5 (1.2) · 16.5 (6.8) | 10.0 (9.3) · 46.0 (45.7) · 4.6 (4.9) | 11.5 (10.5) | 2 (2 carrera, 0 recepción) | 13.8 (8.4) | S8 vs WAS: 13-30-1 carrera, 1-24 en 1 tgt · 32% snaps · 12.4 PPR<br>S7 vs DAL: 7-62-1 carrera, 2-9 en 2 tgt · 15% snaps · 15.1 PPR<br>S6 no jugó |
 | Elijah Mitchell (RB) *(se perdió 1)* | 39% (39%) | 5.0 (5.0) · 3.5 (3.5) · 13.0 (13.0) | 7.0 (7.0) · 22.5 (22.5) · 3.2 (3.2) | 10.5 (10.5) | 0 | 7.1 (7.1) | S8 vs WAS: 11-34 carrera, 4-3 en 6 tgt · 57% snaps · 7.7 PPR<br>S7 vs DAL: 3-11 carrera, 3-23 en 4 tgt · 21% snaps · 6.4 PPR<br>S6 no jugó |
-| DeVonta Smith (WR) · Fuera *(se perdió 2)* | 66% (86%) | 14.0 (10.2) · 7.0 (6.5) · 75.0 (77.5) | — | 7.0 (6.5) | 2 (0 carrera, 2 recepción) | 20.5 (17.2) | S8 no jugó<br>S7 no jugó<br>S6 vs CAR: 7-75-1 en 14 tgt · 66% snaps · 20.5 PPR |
+| DeVonta Smith (WR) · Cuestionable *(se perdió 2)* | 66% (86%) | 14.0 (10.2) · 7.0 (6.5) · 75.0 (77.5) | — | 7.0 (6.5) | 2 (0 carrera, 2 recepción) | 20.5 (17.2) | S8 no jugó<br>S7 no jugó<br>S6 vs CAR: 7-75-1 en 14 tgt · 66% snaps · 20.5 PPR |
 | Makai Lemon (WR) | 89% (78%) | 7.7 (5.6) · 5.3 (3.9) · 47.7 (31.4) | — | 5.3 (4.0) | 1 (0 carrera, 1 recepción) | 12.1 (7.7) | S8 vs WAS: 6-57 en 9 tgt · 94% snaps · 11.7 PPR<br>S7 vs DAL: 7-67-1 en 8 tgt · 91% snaps · 19.7 PPR<br>S6 vs CAR: 3-19 en 6 tgt · 81% snaps · 4.9 PPR |
 | Dallas Goedert (TE) | 78% (69%) | 6.3 (6.0) · 5.0 (4.3) · 46.3 (43.0) | — | 5.3 (4.5) | 2 (0 carrera, 2 recepción) | 9.7 (10.7) | S8 vs WAS: 4-30 en 4 tgt · 80% snaps · 7.2 PPR<br>S7 vs DAL: 5-48 en 7 tgt · 73% snaps · 9.8 PPR<br>S6 vs CAR: 6-61 en 8 tgt · 81% snaps · 12.1 PPR |
 | Marquise Brown (WR) *(se perdió 1)* | 50% (40%) | 3.5 (2.3) · 2.0 (1.3) · 23.5 (15.7) | — | 2.0 (2.0) | 0 | 4.3 (3.3) | S8 vs WAS: 2-17 en 2 tgt · 46% snaps · 3.7 PPR<br>S7 vs DAL: 2-30 en 5 tgt · 55% snaps · 5.0 PPR<br>S6 no jugó |
 
 
-*DST NYG:* 1.3 capturas, 1.1 balones recuperados, 23.0 pts permitidos por partido · ofensiva de PHI: 23 capturas recibidas, 8 balones perdidos, total implícito 18.5
+*DST NYG:* 1.3 capturas, 1.1 balones recuperados, 23.0 pts permitidos por partido · ofensiva de PHI: 23 capturas recibidas, 8 balones perdidos, total implícito 18.0
 
-*DST PHI:* 1.2 capturas, 0.5 balones recuperados, 25.2 pts permitidos por partido · ofensiva de NYG: 21 capturas recibidas, 11 balones perdidos, total implícito 22.0
+*DST PHI:* 1.2 capturas, 0.5 balones recuperados, 25.2 pts permitidos por partido · ofensiva de NYG: 21 capturas recibidas, 11 balones perdidos, total implícito 21.5
 
 ---
 
 ## LAR @ WSH — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
-*Northwest Stadium · pasto · 59°F, 7% de lluvia*
+*Northwest Stadium · pasto · 59°F, 0% de lluvia*
 
-**Línea:** LAR -5.5 (abrió LAR -4.5) · total 47.5 (abrió 50.5) · ML WSH +180 / LAR -218
+**Línea:** LAR -5.5 (abrió LAR -4.5) · total 47.5 (abrió 50.5) · ML WSH +190 / LAR -230
 **Totales implícitos:** WSH 21.0 · LAR 26.5
-**Chequeo de línea (margen del local):** mercado WSH -5.5 · SRS WSH -3.7 · FPI WSH -8.1 — modelos divididos (SRS +1.8, FPI -2.6 vs mercado) — sin señal
-**Prob. de victoria:** mercado WSH 34% · FPI WSH 27%
+**Chequeo de línea (margen del local):** mercado WSH -5.5 · SRS WSH -3.7 · FPI WSH -8.0 — modelos divididos (SRS +1.8, FPI -2.5 vs mercado) — sin señal
+**Prob. de victoria:** mercado WSH 33% · FPI WSH 28%
 **Chequeo del total:** modelo PF/PA 47.0 vs 47.5 (inclinación a bajas por 0.5 — ruido)
 
 | | **LAR** | **WSH** |
@@ -1101,14 +1098,14 @@ _backfield: comité (Dameon Pierce 66% de los toques) · top-2 de targets: 53% d
 | ATS (de favorito / de no favorito) | 3-5 (3-4 / 0-1) | 4-3 (1-1 / 3-2) |
 | Altas/Bajas | 4-4 | 4-3 |
 | Margen prom. · cobertura prom. | +3.2 · -1.8 | -3.3 · -0.2 |
-| Rating SRS | +1.0 (15º) | -4.1 (28º) |
+| Rating SRS | +0.8 (16º) | -4.4 (28º) |
 | Puntos a favor / en contra | 24.2 (10º) / 21.0 (12º) | 22.7 (17º) / 26.0 (26º) |
-| Yds netas/intento de pase | 6.5 (14º) | 5.7 (22º) |
+| Yds netas/intento de pase | 6.5 (13º) | 5.7 (22º) |
 | Yds/acarreo | 4.7 (5º) | 4.6 (10º) |
 | % en 3ª oportunidad | 43% (8º) | 32% (31º) |
 | % de TD en zona roja | 71% (5º) | 53% (23º) |
 | Diferencial de balones | -4 (26º) | +7 (3º) |
-| Capturas recibidas | 12 (6º) | 16 (18º) |
+| Capturas recibidas | 12 (6º) | 16 (17º) |
 | Capturas (defensiva) | 12 (26º) | 16 (21º) |
 | Jugadas/partido | 66.4 (5º) | 62.6 (13º) |
 | Situación | 6 días de descanso, costa oeste a la 1 pm ET, luego @ ARI | 6 días de descanso, luego @ NYG |
@@ -1143,27 +1140,27 @@ _backfield: comité (Dameon Pierce 66% de los toques) · top-2 de targets: 53% d
 - **LAR** — rinde abajo de su diferencial de puntos por 1.6 victorias (partidos de una posesión 1-3) — mejor que su récord
 - **LAR** — Matthew Stafford vs WSH: 6-0
 
-**WSH lesiones:** Jeremy McNichols RB (Cuestionable — Pie), Athan Kaliakmanis QB (Fuera — Coach's Decision), Isaac Yiadom CB (Fuera — Coach's Decision), Tanoa Togiai G (Fuera — Coach's Decision), Fabian Moreau CB (Fuera — Coach's Decision)
-**LAR lesiones:** Trent McDuffie CB (Cuestionable — Espalda), Jaylen Watson CB (Cuestionable — Hombro), Joe Cardona LS (Fuera — Tobillo), Ty Simpson QB (Fuera — Coach's Decision), Colby Parkinson TE (Fuera — Costillas)
+**LAR lesiones:** Colby Parkinson TE (Cuestionable — Costillas), Joe Cardona LS (Cuestionable — Tobillo), Grant Stuard LB (Cuestionable — Isquiotibial), Matthew Stafford QB (Cuestionable — Arm)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Puka Nacua (WR, LAR) | 23.4 (19.6) | 34% (34%) | 7.9 (7.6) | 2% (3%) | 90% |  WSH es 12º que más permite a WR (33.6) |
-| Kyren Williams (RB, LAR) | 19.1 (17.6) | 10% (14%) | 4.7 (5.8) | 49% (53%) | 63% |  WSH es 24º que más permite a RB (19.5) |
-| Matthew Stafford (QB, LAR) | 18.8 (18.8) | 29.0 pases (37.9) | 6.6 (7.1) | 4% (7%) | 100% | 🟢 WSH es 3º que más permite a QB (20.6) |
-| Tyler Higbee (TE, LAR) 📈 | 9.8 (8.0) | 10% (11%) | 5.6 (8.1) | — (—) | 79% | 🟢 WSH es 2º que más permite a TE (20.7) |
-| Blake Corum (RB, LAR) | 7.0 (6.7) | 5% (5%) | — (6.6) | 44% (35%) | 35% |  WSH es 24º que más permite a RB (19.5) |
-| Colby Parkinson (TE, LAR) **Fuera** ⬆️ *(se perdió 1 de los últimos 3)* | 5.2 (4.2) | 20% (9%) | 6.6 (5.4) | — (—) | 66% | 🟢 WSH es 2º que más permite a TE (20.7) |
+| Puka Nacua (WR, LAR) | 23.0 (19.0) | 34% (34%) | 7.9 (7.6) | 2% (3%) | 90% |  WSH es 12º que más permite a WR (33.6) |
+| Kyren Williams (RB, LAR) | 18.8 (17.2) | 10% (14%) | 4.7 (5.8) | 49% (53%) | 63% |  WSH es 24º que más permite a RB (19.5) |
+| Matthew Stafford (QB, LAR) **Cuestionable** | 18.5 (18.5) | 29.0 pases (37.9) | 6.6 (7.1) | 4% (7%) | 100% | 🟢 WSH es 3º que más permite a QB (20.6) |
+| Blake Corum (RB, LAR) | 7.3 (6.9) | 5% (5%) | — (6.6) | 44% (35%) | 35% |  WSH es 24º que más permite a RB (19.5) |
+| Tyler Higbee (TE, LAR) | 6.9 (5.6) | 10% (11%) | 5.6 (8.1) | — (—) | 79% | 🟢 WSH es 2º que más permite a TE (20.7) |
+| Terrance Ferguson (TE, LAR) **Reserva** 📈 *(se perdió 3 de los últimos 3)* | 5.6 (4.6) | — (11%) | — (5.2) | — (—) | — | 🟢 WSH es 2º que más permite a TE (20.7) |
 | Konata Mumpfield (WR, LAR) | 4.9 (4.2) | 8% (7%) | 4.3 (6.8) | — (—) | 46% |  WSH es 12º que más permite a WR (33.6) |
-| Jayden Daniels (QB, WSH) | 16.9 (16.9) | 31.3 pases (29.0) | 7.6 (6.7) | 21% (20%) | 100% |  LAR es 20º que más permite a QB (16.8) |
+| Tutu Atwell (WR, LAR) *(se perdió 1 de los últimos 3)* | 3.5 (3.0) | 7% (4%) | — (10.4) | — (—) | 37% |  WSH es 12º que más permite a WR (33.6) |
+| Jayden Daniels (QB, WSH) | 18.2 (18.2) | 31.3 pases (29.0) | 7.6 (6.7) | 21% (20%) | 100% |  LAR es 20º que más permite a QB (16.8) |
 | Stefon Diggs (WR, WSH) *(se perdió 1 de los últimos 3)* | 11.9 (9.9) | 21% (23%) | 6.3 (5.7) | — (—) | 63% | 🔴 LAR es 28º que más permite a WR (26.8) |
-| Rachaad White (RB, WSH) | 10.2 (9.1) | 11% (10%) | 4.1 (4.9) | 34% (28%) | 59% |  LAR es 21º que más permite a RB (19.9) |
-| Chig Okonkwo (TE, WSH) | 7.4 (5.9) | 20% (16%) | 9.5 (7.6) | — (—) | 75% | 🔴 LAR es 26º que más permite a TE (10.6) |
-| Antonio Williams (WR, WSH) | 7.3 (6.0) | 16% (15%) | 9.6 (7.8) | — (—) | 72% | 🔴 LAR es 28º que más permite a WR (26.8) |
-| Austin Ekeler (RB, WSH) | 5.5 (5.0) | 4% (4%) | — (6.0) | 16% (17%) | 17% |  LAR es 21º que más permite a RB (19.9) |
-| Treylon Burks (WR, WSH) ⬆️ | 5.3 (4.5) | 19% (12%) | 10.8 (10.6) | — (—) | 65% | 🔴 LAR es 28º que más permite a WR (26.8) |
+| Rachaad White (RB, WSH) | 10.5 (9.1) | 11% (10%) | 4.1 (4.9) | 34% (28%) | 59% |  LAR es 21º que más permite a RB (19.9) |
+| Chig Okonkwo (TE, WSH) | 8.2 (6.5) | 20% (16%) | 9.5 (7.6) | — (—) | 75% | 🔴 LAR es 26º que más permite a TE (10.6) |
+| Antonio Williams (WR, WSH) | 7.4 (6.0) | 16% (15%) | 9.6 (7.8) | — (—) | 72% | 🔴 LAR es 28º que más permite a WR (26.8) |
+| Austin Ekeler (RB, WSH) | 7.3 (6.6) | 4% (4%) | — (6.0) | 16% (17%) | 17% |  LAR es 21º que más permite a RB (19.9) |
+| Treylon Burks (WR, WSH) 📈 ⬆️ | 5.7 (4.8) | 19% (12%) | 10.8 (10.6) | — (—) | 65% | 🔴 LAR es 28º que más permite a WR (26.8) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1205,11 +1202,11 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
-| Matthew Stafford (QB) | 100% (98%) | 21.7/29.0 · 191.3 yds · 75% (temp. 268.2 yds) | 1.0 (1.8) · -1.0 (2.2) · — (1.3) | — | 15 TD pase · 8 INT | 14.9 (17.5) | S8 vs LAC: 17/25, 157 yds, 1 TD, 1 INT · 100% snaps · 9.3 PPR<br>S7 vs LV: 23/29, 195 yds, 3 TD, 1 INT · 100% snaps · 18.5 PPR<br>S6 vs ARI: 25/33, 222 yds, 2 TD, 0 INT · 100% snaps · 16.9 PPR |
+| Matthew Stafford (QB) · Cuestionable | 100% (98%) | 21.7/29.0 · 191.3 yds · 75% (temp. 268.2 yds) | 1.0 (1.8) · -1.0 (2.2) · — (1.3) | — | 15 TD pase · 8 INT | 14.9 (17.5) | S8 vs LAC: 17/25, 157 yds, 1 TD, 1 INT · 100% snaps · 9.3 PPR<br>S7 vs LV: 23/29, 195 yds, 3 TD, 1 INT · 100% snaps · 18.5 PPR<br>S6 vs ARI: 25/33, 222 yds, 2 TD, 0 INT · 100% snaps · 16.9 PPR |
 | Kyren Williams (RB) | 63% (68%) | 3.0 (5.2) · 2.0 (4.1) · 14.0 (30.2) | 14.0 (14.0) · 68.3 (68.5) · 4.9 (4.9) | 16.0 (18.1) | 7 (6 carrera, 1 recepción) | 13.6 (18.8) | S8 vs LAC: 16-56-1 carrera, 1-3 en 1 tgt · 69% snaps · 12.9 PPR<br>S7 vs LV: 16-99-1 carrera, 2-22 en 2 tgt · 51% snaps · 18.1 PPR<br>S6 vs ARI: 10-50 carrera, 3-17 en 6 tgt · 72% snaps · 9.7 PPR |
 | Blake Corum (RB) | 35% (30%) | 1.3 (1.9) · 1.0 (1.2) · 8.7 (12.4) | 12.3 (9.4) · 69.3 (48.6) · 5.6 (5.2) | 13.3 (10.6) | 4 (3 carrera, 1 recepción) | 14.8 (10.3) | S8 vs LAC: 11-73-1 carrera, 0-0 en 1 tgt · 31% snaps · 13.3 PPR<br>S7 vs LV: 17-93-1 carrera, 1-8 en 1 tgt · 44% snaps · 17.1 PPR<br>S6 vs ARI: 9-42 carrera, 2-18-1 en 2 tgt · 28% snaps · 14.0 PPR |
 | Puka Nacua (WR) | 90% (86%) | 9.7 (12.3) · 8.3 (9.3) · 76.0 (94.2) | — | 9.0 (10.2) | 4 (1 carrera, 3 recepción) | 20.3 (23.1) | S8 vs LAC: 11-80-1 en 12 tgt · 96% snaps · 25.0 PPR<br>S7 vs LV: 8-68-1 en 10 tgt · 85% snaps · 21.8 PPR<br>S6 vs ARI: 6-80 en 7 tgt · 90% snaps · 14.0 PPR |
-| Colby Parkinson (TE) · Fuera *(se perdió 1)* | 66% (63%) | 6.0 (3.2) · 5.0 (2.3) · 39.5 (17.2) | — | 5.0 (2.3) | 1 (0 carrera, 1 recepción) | 11.9 (5.0) | S8 no jugó<br>S7 vs LV: 5-48 en 6 tgt · 69% snaps · 9.8 PPR<br>S6 vs ARI: 5-31-1 en 6 tgt · 62% snaps · 14.1 PPR |
+| Colby Parkinson (TE) · Cuestionable *(se perdió 1)* | 66% (63%) | 6.0 (3.2) · 5.0 (2.3) · 39.5 (17.2) | — | 5.0 (2.3) | 1 (0 carrera, 1 recepción) | 11.9 (5.0) | S8 no jugó<br>S7 vs LV: 5-48 en 6 tgt · 69% snaps · 9.8 PPR<br>S6 vs ARI: 5-31-1 en 6 tgt · 62% snaps · 14.1 PPR |
 | Tyler Higbee (TE) | 79% (62%) | 3.0 (4.2) · 2.3 (3.4) · 16.7 (34.2) | — | 2.3 (3.4) | 1 (0 carrera, 1 recepción) | 3.3 (7.0) | S8 vs LAC: 1-14 en 2 tgt · 83% snaps · 2.4 PPR<br>S7 vs LV: 2-14 en 3 tgt · 74% snaps · 3.4 PPR<br>S6 vs ARI: 4-22 en 4 tgt · 83% snaps · 4.2 PPR |
 
 *WSH*
@@ -1218,7 +1215,7 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 |---|---|---|---|---|---|---|---|
 | Jayden Daniels (QB) | 100% (90%) | 20.7/31.3 · 238.7 yds · 66% (temp. 195.2 yds) | 5.0 (5.4) · 45.3 (47.2) · 9.1 (8.7) | — | 6 TD pase · 0 INT · 2 TD carrera | 22.7 (20.1) | S8 vs PHI: 16/29, 217 yds, 1 TD, 0 INT, 2-23 carrera · 100% snaps · 15.0 PPR<br>S6 vs SF: 29/40, 300 yds, 2 TD, 0 INT · 100% snaps · 21.0 PPR<br>S5 vs NYG: 17/25, 199 yds, 0 TD, 0 INT, 9-103-2 carrera · 100% snaps · 32.3 PPR |
 | Rachaad White (RB) | 59% (52%) | 3.0 (3.0) · 2.3 (2.7) · 12.3 (14.7) | 8.3 (7.8) · 33.3 (33.3) · 4.0 (4.3) | 10.7 (10.5) | 3 (1 carrera, 2 recepción) | 10.9 (10.5) | S8 vs PHI: 11-55-1 carrera, 2-5 en 3 tgt · 47% snaps · 14.0 PPR<br>S6 vs SF: 7-27 carrera, 4-30-1 en 5 tgt · 69% snaps · 15.7 PPR<br>S5 vs NYG: 7-18 carrera, 1-2 en 1 tgt · 60% snaps · 3.0 PPR |
-| Jeremy McNichols (RB) · Cuestionable *(se perdió 1)* | 19% (19%) | 0.5 (0.5) · 0.5 (0.5) · 3.5 (3.5) | 5.0 (5.0) · 17.0 (17.0) · 3.4 (3.4) | 5.5 (5.5) | 0 | 2.5 (2.5) | S8 vs PHI: 5-21 carrera, 1-7 en 1 tgt · 20% snaps · 3.8 PPR<br>S6 vs SF: 5-13 carrera · 18% snaps · 1.3 PPR<br>S5 no jugó |
+| Austin Ekeler (RB) | 17% (20%) | 1.0 (1.2) · 1.0 (1.0) · 6.3 (7.5) | 4.0 (4.0) · 12.7 (16.8) · 3.2 (4.2) | 5.0 (5.0) | 0 | 3.6 (3.9) | S8 vs PHI: 8-36 carrera · 33% snaps · 5.6 PPR<br>S6 vs SF: 1-3 carrera, 2-4 en 2 tgt · 10% snaps · 2.7 PPR<br>S5 vs NYG: 3--1 carrera, 1-15 en 1 tgt · 10% snaps · 2.4 PPR |
 | Stefon Diggs (WR) *(se perdió 1)* | 63% (61%) | 6.5 (7.3) · 4.5 (4.5) · 41.0 (42.0) | — | 4.5 (4.5) | 5 (0 carrera, 5 recepción) | 14.6 (13.7) | S8 vs PHI: 3-38-1 en 6 tgt · 65% snaps · 12.8 PPR<br>S6 vs SF: 6-44-1 en 7 tgt · 61% snaps · 16.4 PPR<br>S5 no jugó |
 | Chig Okonkwo (TE) | 75% (67%) | 5.7 (4.8) · 4.3 (3.4) · 53.7 (36.4) | — | 4.3 (3.4) | 0 | 9.0 (6.6) | S8 vs PHI: 2-32 en 4 tgt · 77% snaps · 3.2 PPR<br>S6 vs SF: 7-69 en 7 tgt · 76% snaps · 13.9 PPR<br>S5 vs NYG: 4-60 en 6 tgt · 71% snaps · 10.0 PPR |
 | Treylon Burks (WR) | 65% (52%) | 5.3 (3.7) · 3.0 (2.0) · 57.7 (38.8) | — | 3.0 (2.0) | 2 (0 carrera, 2 recepción) | 8.8 (7.9) | S8 vs PHI: 3-81 en 5 tgt · 67% snaps · 11.1 PPR<br>S6 vs SF: 4-66 en 6 tgt · 55% snaps · 10.6 PPR<br>S5 vs NYG: 2-26 en 5 tgt · 73% snaps · 4.6 PPR |
@@ -1232,12 +1229,12 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 ---
 
 ## DEN @ CAR — dom 8 nov, 12:00 pm CDMX (1:00 pm ET)
-*Bank of America Stadium · sintético · 63°F, 6% de lluvia*
+*Bank of America Stadium · sintético · 64°F, 0% de lluvia*
 
-**Línea:** DEN -3 · total 43.5 (abrió 42.5) · ML CAR +124 / DEN -148
-**Totales implícitos:** CAR 20.2 · DEN 23.2
-**Chequeo de línea (margen del local):** mercado CAR -3.0 · SRS CAR -1.5 · FPI CAR -4.7 — los modelos coinciden con el mercado ✅
-**Prob. de victoria:** mercado CAR 43% · FPI CAR 36%
+**Línea:** DEN -2.5 (abrió DEN -3) · total 43.5 (abrió 42.5) · ML CAR +124 / DEN -148
+**Totales implícitos:** CAR 20.5 · DEN 23.0
+**Chequeo de línea (margen del local):** mercado CAR -2.5 · SRS CAR -0.5 · FPI CAR -4.4 — modelos divididos (SRS +2.0, FPI -1.9 vs mercado) — sin señal
+**Prob. de victoria:** mercado CAR 43% · FPI CAR 37%
 **Chequeo del total:** modelo PF/PA 47.6 vs 43.5 (inclinación a altas por 4.1)
 
 | | **DEN** | **CAR** |
@@ -1246,11 +1243,11 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 | ATS (de favorito / de no favorito) | 6-2 (4-0 / 2-2) | 3-4 (2-2 / 1-2) |
 | Altas/Bajas | 3-5 | 3-4 |
 | Margen prom. · cobertura prom. | +0.9 · +0.7 | -2.1 · -2.3 |
-| Rating SRS | +2.0 (12º) | -1.0 (18º) |
+| Rating SRS | +1.4 (14º) | -0.6 (17º) |
 | Puntos a favor / en contra | 21.5 (22º) / 20.6 (11º) | 25.4 (9º) / 27.6 (28º) |
 | Yds netas/intento de pase | 5.5 (24º) | 6.2 (18º) |
 | Yds/acarreo | 3.8 (27º) | 4.2 (15º) |
-| % en 3ª oportunidad | 30% (32º) | 39% (18º) |
+| % en 3ª oportunidad | 30% (32º) | 39% (17º) |
 | % de TD en zona roja | 65% (11º) | 64% (12º) |
 | Diferencial de balones | +4 (9º) | +0 (15º) |
 | Capturas recibidas | 10 (3º) | 23 (29º) |
@@ -1289,27 +1286,28 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 - **DEN** — rinde arriba de su diferencial de puntos por 1.8 victorias (partidos de una posesión 5-0) — riesgo de regresión
 - **CAR** — Dave Canales después de derrota: 17-7 ATS *(tendencia — color)*
 
-**CAR lesiones:** Corey Bullock C (Cuestionable — Cuádriceps), Will Lee III CB (Cuestionable — Isquiotibial), Bobby Brown III DT (Fuera — Mano), Haynes King QB (Fuera — Coach's Decision)
-**DEN lesiones:** Brandon Jones S (Cuestionable — Isquiotibial), Kris Abrams-Draine CB (Cuestionable — Tobillo), Sam Ehlinger QB (Fuera — Coach's Decision), Tyler Onyedim DT (Fuera — Coach's Decision), Gavin Ortega OT (Fuera — Coach's Decision)
+**CAR lesiones:** Torricelli Simpkins III G (Cuestionable — Tobillo), Damien Lewis G (Cuestionable — Rodilla), Bobby Brown III DT (Cuestionable — Mano)
+**DEN lesiones:** Talanoa Hufanga S (Cuestionable — Tobillo), Brandon Jones S (Cuestionable — Isquiotibial), Kris Abrams-Draine CB (Cuestionable — Tobillo)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Bo Nix (QB, DEN) | 15.4 (15.4) | 29.3 pases (31.2) | 6.3 (6.0) | 18% (16%) | 100% |  CAR es 18º que más permite a QB (17.4) |
-| Jonah Coleman (RB, DEN) 📈 *(se perdió 1 de los últimos 3)* | 14.2 (13.0) | 13% (9%) | 11.1 (9.7) | 41% (33%) | 58% | 🟢 CAR es 2º que más permite a RB (28.3) |
-| Jaylen Waddle (WR, DEN) | 11.4 (9.2) | 26% (23%) | 5.5 (6.2) | — (1%) | 55% |  CAR es 19º que más permite a WR (29.6) |
-| J.K. Dobbins (RB, DEN) | 9.7 (8.8) | 4% (4%) | — (3.0) | 39% (48%) | 32% | 🟢 CAR es 2º que más permite a RB (28.3) |
-| Courtland Sutton (WR, DEN) | 7.0 (5.8) | 16% (17%) | 9.8 (6.0) | — (—) | 76% |  CAR es 19º que más permite a WR (29.6) |
-| Pat Bryant (WR, DEN) **Reserva** *(se perdió 3 de los últimos 3)* | 6.1 (5.0) | — (10%) | — (11.1) | — (1%) | — |  CAR es 19º que más permite a WR (29.6) |
-| Evan Engram (TE, DEN) | 5.0 (4.0) | 10% (11%) | 1.9 (5.4) | — (—) | 46% |  CAR es 15º que más permite a TE (13.9) |
-| Marvin Mims Jr. (WR, DEN) | 4.0 (3.2) | 12% (9%) | 8.4 (6.6) | 4% (3%) | 27% |  CAR es 19º que más permite a WR (29.6) |
-| Chuba Hubbard (RB, CAR) | 17.0 (15.6) | 15% (11%) | 4.4 (5.8) | 77% (70%) | 84% |  DEN es 10º que más permite a RB (24.3) |
-| Bryce Young (QB, CAR) | 16.7 (16.7) | 35.7 pases (38.4) | 6.1 (7.1) | 5% (6%) | 94% |  DEN es 19º que más permite a QB (17.3) |
-| Jalen Coker (WR, CAR) | 14.0 (11.5) | 22% (21%) | 6.5 (8.3) | — (—) | 76% | 🔴 DEN es 25º que más permite a WR (27.9) |
-| Tetairoa McMillan (WR, CAR) | 12.1 (10.0) | 26% (26%) | 7.1 (8.8) | — (—) | 78% | 🔴 DEN es 25º que más permite a WR (27.9) |
-| Darren Waller (TE, CAR) | 6.7 (5.4) | 6% (10%) | 10.2 (8.4) | — (—) | 51% | 🟢 DEN es 7º que más permite a TE (16.7) |
-| Tommy Tremble (TE, CAR) | 3.9 (3.0) | 9% (10%) | 8.1 (6.5) | — (—) | 60% | 🟢 DEN es 7º que más permite a TE (16.7) |
+| Bo Nix (QB, DEN) 📈 | 15.6 (15.6) | 29.3 pases (31.2) | 6.3 (6.0) | 18% (16%) | 100% |  CAR es 18º que más permite a QB (17.4) |
+| Jonah Coleman (RB, DEN) 📈 *(se perdió 1 de los últimos 3)* | 13.9 (12.7) | 13% (9%) | 11.1 (9.7) | 41% (33%) | 58% | 🟢 CAR es 2º que más permite a RB (28.3) |
+| Jaylen Waddle (WR, DEN) | 11.5 (9.3) | 26% (23%) | 5.5 (6.2) | — (1%) | 55% |  CAR es 20º que más permite a WR (29.6) |
+| J.K. Dobbins (RB, DEN) | 9.8 (8.9) | 4% (4%) | — (3.0) | 39% (48%) | 32% | 🟢 CAR es 2º que más permite a RB (28.3) |
+| Courtland Sutton (WR, DEN) | 7.8 (6.4) | 16% (17%) | 9.8 (6.0) | — (—) | 76% |  CAR es 20º que más permite a WR (29.6) |
+| Marvin Mims Jr. (WR, DEN) | 5.7 (4.6) | 12% (9%) | 8.4 (6.6) | 4% (3%) | 27% |  CAR es 20º que más permite a WR (29.6) |
+| Evan Engram (TE, DEN) | 4.9 (3.9) | 10% (11%) | 1.9 (5.4) | — (—) | 46% |  CAR es 15º que más permite a TE (13.9) |
+| Troy Franklin (WR, DEN) | 3.4 (2.8) | 6% (5%) | 1.0 (6.3) | — (1%) | 56% |  CAR es 20º que más permite a WR (29.6) |
+| Bryce Young (QB, CAR) | 16.9 (16.9) | 35.7 pases (38.4) | 6.1 (7.1) | 5% (6%) | 94% |  DEN es 19º que más permite a QB (17.3) |
+| Chuba Hubbard (RB, CAR) | 16.7 (15.2) | 15% (11%) | 4.4 (5.8) | 77% (70%) | 84% |  DEN es 10º que más permite a RB (24.3) |
+| Jalen Coker (WR, CAR) | 13.8 (11.4) | 22% (21%) | 6.5 (8.3) | — (—) | 76% | 🔴 DEN es 25º que más permite a WR (27.9) |
+| Tetairoa McMillan (WR, CAR) | 13.8 (11.3) | 26% (26%) | 7.1 (8.8) | — (—) | 78% | 🔴 DEN es 25º que más permite a WR (27.9) |
+| Darren Waller (TE, CAR) | 7.2 (5.8) | 6% (10%) | 10.2 (8.4) | — (—) | 51% | 🟢 DEN es 7º que más permite a TE (16.7) |
+| Tommy Tremble (TE, CAR) | 4.2 (3.3) | 9% (10%) | 8.1 (6.5) | — (—) | 60% | 🟢 DEN es 7º que más permite a TE (16.7) |
+| John Metchie III (WR, CAR) | 3.2 (2.5) | 10% (9%) | 5.8 (5.7) | — (—) | 41% | 🔴 DEN es 25º que más permite a WR (27.9) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1365,24 +1363,24 @@ _backfield: un solo hombre (Chuba Hubbard 84% de los toques) · top-2 de targets
 |---|---|---|---|---|---|---|---|
 | Bryce Young (QB) | 94% (95%) | 19.0/35.7 · 217.7 yds · 53% (temp. 274.4 yds) | 1.3 (1.4) · 5.0 (4.9) · — (3.4) | — | 13 TD pase · 5 INT · 1 TD carrera | 12.9 (18.7) | S8 vs GB: 23/41, 209 yds, 1 TD, 1 INT · 100% snaps · 11.4 PPR<br>S7 vs TB: 14/27, 163 yds, 1 TD, 2 INT · 77% snaps · 7.4 PPR<br>S6 vs PHI: 20/39, 281 yds, 2 TD, 0 INT · 100% snaps · 19.8 PPR |
 | Chuba Hubbard (RB) | 84% (80%) | 5.0 (3.7) · 4.0 (3.1) · 22.0 (21.4) | 19.0 (16.9) · 78.0 (77.1) · 4.1 (4.6) | 23.0 (20.0) | 7 (5 carrera, 2 recepción) | 18.0 (19.0) | S8 vs GB: 22-81-1 carrera, 7-38 en 8 tgt · 92% snaps · 24.9 PPR<br>S7 vs TB: 7-33 carrera, 4-27 en 5 tgt · 61% snaps · 10.0 PPR<br>S6 vs PHI: 28-120-1 carrera, 1-1 en 2 tgt · 94% snaps · 19.1 PPR |
-| AJ Dillon (RB) · Fuera *(se perdió 3)* | — (12%) | — (0.5) · — (0.5) · — (0.8) | — (4.2) · — (10.8) · — (2.5) | — (4.8) | 0 | — (1.7) | S8 no jugó<br>S7 no jugó<br>S6 no jugó |
+| AJ Dillon (RB) *(se perdió 3)* | — (12%) | — (0.5) · — (0.5) · — (0.8) | — (4.2) · — (10.8) · — (2.5) | — (4.8) | 0 | — (1.7) | S8 no jugó<br>S7 no jugó<br>S6 no jugó |
 | Tetairoa McMillan (WR) | 78% (83%) | 8.7 (9.3) · 5.3 (6.0) · 61.3 (81.3) | — | 5.3 (6.0) | 2 (0 carrera, 2 recepción) | 11.5 (15.6) | S8 vs GB: 6-58 en 11 tgt · 89% snaps · 11.8 PPR<br>S7 vs TB: 4-40 en 6 tgt · 68% snaps · 8.0 PPR<br>S6 vs PHI: 6-86 en 9 tgt · 76% snaps · 14.6 PPR |
 | Jalen Coker (WR) | 76% (70%) | 7.3 (7.3) · 3.0 (4.5) · 47.3 (60.7) | — | 3.0 (4.5) | 3 (0 carrera, 3 recepción) | 9.1 (13.2) | S8 vs GB: 2-36-1 en 5 tgt · 86% snaps · 9.6 PPR<br>S7 vs TB: 1-9 en 4 tgt · 66% snaps · 1.9 PPR<br>S6 vs PHI: 6-97 en 13 tgt · 75% snaps · 15.7 PPR |
 | John Metchie III (WR) | 41% (38%) | 3.3 (3.3) · 2.3 (2.0) · 19.3 (19.0) | — | 2.3 (2.0) | 1 (0 carrera, 1 recepción) | 4.3 (4.9) | S8 vs GB: 3-14 en 3 tgt · 45% snaps · 4.4 PPR<br>S7 vs TB: 2-20 en 4 tgt · 46% snaps · 4.0 PPR<br>S6 vs PHI: 2-24 en 3 tgt · 34% snaps · 4.4 PPR |
 
 
-*DST DEN:* 2.9 capturas, 1.2 balones recuperados, 20.6 pts permitidos por partido · ofensiva de CAR: 23 capturas recibidas, 10 balones perdidos, total implícito 20.2
+*DST DEN:* 2.9 capturas, 1.2 balones recuperados, 20.6 pts permitidos por partido · ofensiva de CAR: 23 capturas recibidas, 10 balones perdidos, total implícito 20.5
 
-*DST CAR:* 1.4 capturas, 1.1 balones recuperados, 26.7 pts permitidos por partido · ofensiva de DEN: 10 capturas recibidas, 6 balones perdidos, total implícito 23.2
+*DST CAR:* 1.4 capturas, 1.1 balones recuperados, 26.7 pts permitidos por partido · ofensiva de DEN: 10 capturas recibidas, 6 balones perdidos, total implícito 23.0
 
 ---
 
 ## HOU @ LAC — dom 8 nov, 3:05 pm CDMX (4:05 pm ET)
-*SoFi Stadium · sintético · 84°F, 0% de lluvia*
+*SoFi Stadium · sintético · 86°F, 0% de lluvia*
 
 **Línea:** HOU -4.5 (abrió HOU +1.5) · total 40.5 (abrió 43.5) · ML LAC +180 / HOU -218
 **Totales implícitos:** LAC 18.0 · HOU 22.5
-**Chequeo de línea (margen del local):** mercado LAC -4.5 · SRS LAC -3.5 · FPI LAC -4.0 — los modelos coinciden con el mercado ✅
+**Chequeo de línea (margen del local):** mercado LAC -4.5 · SRS LAC -4.0 · FPI LAC -4.2 — los modelos coinciden con el mercado ✅
 **Prob. de victoria:** mercado LAC 34% · FPI LAC 38%
 **Chequeo del total:** modelo PF/PA 43.5 vs 40.5 (inclinación a altas por 3.0)
 
@@ -1392,15 +1390,15 @@ _backfield: un solo hombre (Chuba Hubbard 84% de los toques) · top-2 de targets
 | ATS (de favorito / de no favorito) | 2-5 (1-4 / 1-1) | 0-6-1 (0-2 / 0-4-1) |
 | Altas/Bajas | 4-3 | 1-6 |
 | Margen prom. · cobertura prom. | -0.7 · -3.6 | -10.9 · -8.6 |
-| Rating SRS | -1.2 (19º) | -6.2 (30º) |
-| Puntos a favor / en contra | 23.6 (13º) / 24.3 (18º) | 14.1 (32º) / 25.0 (20º) |
+| Rating SRS | -1.2 (19º) | -6.7 (30º) |
+| Puntos a favor / en contra | 23.6 (12º) / 24.3 (18º) | 14.1 (32º) / 25.0 (20º) |
 | Yds netas/intento de pase | 6.7 (9º) | 5.3 (28º) |
 | Yds/acarreo | 3.6 (29º) | 4.0 (22º) |
-| % en 3ª oportunidad | 37% (25º) | 35% (28º) |
-| % de TD en zona roja | 60% (14º) | 47% (29º) |
+| % en 3ª oportunidad | 37% (24º) | 35% (28º) |
+| % de TD en zona roja | 60% (14º) | 47% (28º) |
 | Diferencial de balones | +3 (11º) | -6 (29º) |
 | Capturas recibidas | 15 (13º) | 23 (31º) |
-| Capturas (defensiva) | 21 (9º) | 12 (27º) |
+| Capturas (defensiva) | 21 (10º) | 12 (27º) |
 | Jugadas/partido | 61.4 (19º) | 61.4 (20º) |
 | Situación | 14 días de descanso, tras semana de descanso, luego @ CLE | 7 días de descanso, luego @ BAL |
 
@@ -1435,31 +1433,31 @@ _backfield: un solo hombre (Chuba Hubbard 84% de los toques) · top-2 de targets
 - **LAC** — rinde abajo de su diferencial de puntos por 1.4 victorias (partidos de una posesión 0-3) — mejor que su récord
 - **HOU** — rinde abajo de su diferencial de puntos por 1.4 victorias (partidos de una posesión 1-4) — mejor que su récord
 
-**LAC lesiones:** Rodney Shelley CB (Fuera — Isquiotibial), Donte Jackson CB (Fuera — Isquiotibial), Theo Wease Jr. WR (Fuera — Coach's Decision), Brenen Thompson WR (Fuera — Cuádriceps), Deane Leonard CB (Fuera — Conmoción)
-**HOU lesiones:** David Montgomery RB (Cuestionable — Ingle), Jalen Pitre S (Cuestionable — Hombro - articulación AC), Reed Blankenship S (Cuestionable — Conmoción), Blake Fisher OT (Cuestionable — Pulgar)
+**LAC lesiones:** Rodney Shelley CB (Cuestionable — Isquiotibial), Donte Jackson CB (Cuestionable — Isquiotibial), Deane Leonard CB (Cuestionable — Conmoción), Kayode Awosika G (Cuestionable — Lower Leg), Brenen Thompson WR (Cuestionable — Cuádriceps)
+**HOU lesiones:** Reed Blankenship S (Cuestionable — Conmoción), David Montgomery RB (Cuestionable — Ingle), Jalen Pitre S (Cuestionable — Hombro - articulación AC), Blake Fisher OT (Cuestionable — Pulgar)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Nico Collins (WR, HOU) | 16.8 (14.2) | 18% (22%) | 8.0 (9.4) | 1% (2%) | 71% |  LAC es 16º que más permite a WR (30.3) |
-| C.J. Stroud (QB, HOU) | 16.1 (16.1) | 32.0 pases (35.3) | 7.6 (7.6) | 12% (11%) | 100% | 🔴 LAC es 25º que más permite a QB (14.3) |
-| David Montgomery (RB, HOU) **Fuera** *(se perdió 2 de los últimos 3)* | 11.4 (10.3) | — (4%) | — (9.6) | 19% (44%) | 14% |  LAC es 11º que más permite a RB (23.9) |
-| Woody Marks (RB, HOU) **Cuestionable** ⬆️ | 9.5 (8.7) | 9% (7%) | 7.9 (5.5) | 64% (46%) | 84% |  LAC es 11º que más permite a RB (23.9) |
-| Dalton Schultz (TE, HOU) | 8.5 (6.7) | 17% (19%) | 6.8 (7.5) | — (—) | 49% | 🔴 LAC es 27º que más permite a TE (10.2) |
-| Marvin Harrison Jr. (WR, HOU) *(se perdió 1 de los últimos 3)* | 5.0 (4.2) | 13% (10%) | 5.0 (6.0) | — (—) | 20% |  LAC es 16º que más permite a WR (30.3) |
-| Xavier Hutchinson (WR, HOU) | 4.0 (3.3) | 15% (17%) | 6.6 (6.5) | 3% (2%) | 50% |  LAC es 16º que más permite a WR (30.3) |
-| Kayshon Boutte (WR, HOU) | 3.8 (3.1) | 11% (10%) | 7.9 (8.4) | — (—) | 44% |  LAC es 16º que más permite a WR (30.3) |
+| Nico Collins (WR, HOU) | 16.9 (14.2) | 18% (22%) | 8.0 (9.4) | 1% (2%) | 71% |  LAC es 17º que más permite a WR (30.3) |
+| C.J. Stroud (QB, HOU) 📈 | 16.2 (16.2) | 32.0 pases (35.3) | 7.6 (7.6) | 12% (11%) | 100% | 🔴 LAC es 25º que más permite a QB (14.3) |
+| David Montgomery (RB, HOU) **Cuestionable** 📈 *(se perdió 2 de los últimos 3)* | 11.0 (9.9) | — (4%) | — (9.6) | 19% (44%) | 14% |  LAC es 11º que más permite a RB (23.9) |
+| Woody Marks (RB, HOU) ⬆️ | 9.2 (8.4) | 9% (7%) | 7.9 (5.5) | 64% (46%) | 84% |  LAC es 11º que más permite a RB (23.9) |
+| Dalton Schultz (TE, HOU) | 8.4 (6.5) | 17% (19%) | 6.8 (7.5) | — (—) | 49% | 🔴 LAC es 27º que más permite a TE (10.2) |
+| Marvin Harrison Jr. (WR, HOU) *(se perdió 1 de los últimos 3)* | 5.0 (4.2) | 13% (10%) | 5.0 (6.0) | — (—) | 20% |  LAC es 17º que más permite a WR (30.3) |
+| Xavier Hutchinson (WR, HOU) | 4.1 (3.3) | 15% (17%) | 6.6 (6.5) | 3% (2%) | 50% |  LAC es 17º que más permite a WR (30.3) |
+| Kayshon Boutte (WR, HOU) | 3.8 (3.0) | 11% (10%) | 7.9 (8.4) | — (—) | 44% |  LAC es 17º que más permite a WR (30.3) |
 | Foster Moreau (TE, HOU) | 3.1 (2.5) | 5% (6%) | 3.0 (5.1) | — (—) | 45% | 🔴 LAC es 27º que más permite a TE (10.2) |
-| Justin Herbert (QB, LAC) | 14.7 (14.7) | 31.0 pases (30.3) | 6.3 (6.6) | 19% (17%) | 100% |  HOU es 13º que más permite a QB (18.5) |
-| Ladd McConkey (WR, LAC) *(se perdió 1 de los últimos 3)* | 12.3 (10.3) | 11% (13%) | 14.7 (11.9) | — (—) | 49% | 🟢 HOU es 4º que más permite a WR (37.3) |
-| Omarion Hampton (RB, LAC) | 10.1 (9.2) | 9% (6%) | 4.2 (4.8) | 37% (46%) | 37% |  HOU es 13º que más permite a RB (22.3) |
-| Quentin Johnston (WR, LAC) *(se perdió 1 de los últimos 3)* | 7.2 (6.0) | 11% (15%) | 13.4 (7.8) | — (1%) | 82% | 🟢 HOU es 4º que más permite a WR (37.3) |
-| Keaton Mitchell (RB, LAC) | 6.8 (6.0) | 9% (9%) | 4.4 (3.8) | 15% (20%) | 30% |  HOU es 13º que más permite a RB (22.3) |
-| Kimani Vidal (RB, LAC) 📈 ⬆️ | 6.2 (5.5) | 9% (7%) | 3.1 (3.6) | 28% (15%) | 41% |  HOU es 13º que más permite a RB (22.3) |
-| Tre' Harris (WR, LAC) *(se perdió 1 de los últimos 3)* | 4.8 (3.9) | 14% (17%) | 6.7 (9.1) | — (—) | 48% | 🟢 HOU es 4º que más permite a WR (37.3) |
-| Oronde Gadsden (TE, LAC) | 4.6 (3.7) | 13% (13%) | 6.3 (6.0) | — (1%) | 52% | 🔴 HOU es 28º que más permite a TE (10.1) |
-| Charlie Kolar (TE, LAC) | 3.8 (3.0) | 16% (12%) | 5.5 (5.8) | — (—) | 68% | 🔴 HOU es 28º que más permite a TE (10.1) |
+| Justin Herbert (QB, LAC) | 14.0 (14.0) | 31.0 pases (30.3) | 6.3 (6.6) | 19% (17%) | 100% |  HOU es 13º que más permite a QB (18.5) |
+| Ladd McConkey (WR, LAC) *(se perdió 1 de los últimos 3)* | 12.9 (10.7) | 11% (13%) | 14.7 (11.9) | — (—) | 49% | 🟢 HOU es 4º que más permite a WR (37.3) |
+| Omarion Hampton (RB, LAC) | 9.5 (8.6) | 9% (6%) | 4.2 (4.8) | 37% (46%) | 37% |  HOU es 13º que más permite a RB (22.3) |
+| Kimani Vidal (RB, LAC) ⬆️ | 7.5 (6.7) | 9% (7%) | 3.1 (3.6) | 28% (15%) | 41% |  HOU es 13º que más permite a RB (22.3) |
+| Quentin Johnston (WR, LAC) *(se perdió 1 de los últimos 3)* | 7.5 (6.2) | 11% (15%) | 13.4 (7.8) | — (1%) | 82% | 🟢 HOU es 4º que más permite a WR (37.3) |
+| Keaton Mitchell (RB, LAC) | 5.2 (4.5) | 9% (9%) | 4.4 (3.8) | 15% (20%) | 30% |  HOU es 13º que más permite a RB (22.3) |
+| Tre' Harris (WR, LAC) *(se perdió 1 de los últimos 3)* | 5.0 (4.1) | 14% (17%) | 6.7 (9.1) | — (—) | 48% | 🟢 HOU es 4º que más permite a WR (37.3) |
+| Oronde Gadsden (TE, LAC) | 4.7 (3.8) | 13% (13%) | 6.3 (6.0) | — (1%) | 52% | 🔴 HOU es 29º que más permite a TE (10.1) |
+| Charlie Kolar (TE, LAC) | 3.7 (2.9) | 16% (12%) | 5.5 (5.8) | — (—) | 68% | 🔴 HOU es 29º que más permite a TE (10.1) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1503,7 +1501,7 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
 | C.J. Stroud (QB) | 100% (100%) | 22.3/32.0 · 242.0 yds · 70% (temp. 266.7 yds) | 3.0 (2.6) · 4.7 (11.4) · 1.6 (4.4) | — | 11 TD pase · 1 INT · 1 TD carrera | 20.5 (18.5) | S7 vs NYG: 17/28, 153 yds, 2 TD, 0 INT · 100% snaps · 16.5 PPR<br>S6 vs JAX: 24/34, 312 yds, 3 TD, 1 INT · 100% snaps · 24.0 PPR<br>S5 vs TEN: 26/34, 261 yds, 1 TD, 0 INT, 6-5-1 carrera · 100% snaps · 20.9 PPR |
-| Woody Marks (RB) · Cuestionable | 84% (61%) | 2.7 (2.4) · 2.3 (2.0) · 21.0 (13.4) | 16.3 (11.0) · 61.3 (38.7) · 3.8 (3.5) | 18.7 (13.0) | 2 (2 carrera, 0 recepción) | 10.6 (8.9) | S7 vs NYG: 19-66 carrera, 1-15 en 1 tgt · 89% snaps · 9.1 PPR<br>S6 vs JAX: 15-56 carrera, 2-25 en 3 tgt · 78% snaps · 10.1 PPR<br>S5 vs TEN: 15-62 carrera, 4-23 en 4 tgt · 85% snaps · 12.5 PPR |
+| Woody Marks (RB) | 84% (61%) | 2.7 (2.4) · 2.3 (2.0) · 21.0 (13.4) | 16.3 (11.0) · 61.3 (38.7) · 3.8 (3.5) | 18.7 (13.0) | 2 (2 carrera, 0 recepción) | 10.6 (8.9) | S7 vs NYG: 19-66 carrera, 1-15 en 1 tgt · 89% snaps · 9.1 PPR<br>S6 vs JAX: 15-56 carrera, 2-25 en 3 tgt · 78% snaps · 10.1 PPR<br>S5 vs TEN: 15-62 carrera, 4-23 en 4 tgt · 85% snaps · 12.5 PPR |
 | Jawhar Jordan (RB) · Fuera *(se perdió 2)* | 22% (22%) | 1.0 (1.0) · 1.0 (1.0) · 7.0 (7.0) | 6.0 (6.0) · 43.0 (43.0) · 7.2 (7.2) | 7.0 (7.0) | 1 (1 carrera, 0 recepción) | 12.0 (12.0) | S7 no jugó<br>S6 vs JAX: 6-43-1 carrera, 1-7 en 1 tgt · 22% snaps · 12.0 PPR<br>S5 no jugó |
 | Nico Collins (WR) | 71% (71%) | 5.7 (7.0) · 3.3 (4.8) · 45.3 (65.8) | — | 3.7 (5.2) | 3 (0 carrera, 3 recepción) | 8.0 (15.2) | S7 vs NYG: 2-6 en 5 tgt · 67% snaps · 2.6 PPR<br>S6 vs JAX: 3-74 en 5 tgt · 73% snaps · 10.9 PPR<br>S5 vs TEN: 5-56 en 7 tgt · 71% snaps · 10.6 PPR |
 | Dalton Schultz (TE) | 49% (58%) | 5.3 (6.1) · 4.0 (4.7) · 36.0 (46.0) | — | 4.0 (4.7) | 0 | 7.6 (9.3) | S7 vs NYG: 5-45 en 6 tgt · 57% snaps · 9.5 PPR<br>S6 vs JAX: 4-33 en 6 tgt · 40% snaps · 7.3 PPR<br>S5 vs TEN: 3-30 en 4 tgt · 52% snaps · 6.0 PPR |
@@ -1530,13 +1528,13 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 ---
 
 ## GB @ NE — dom 8 nov, 3:25 pm CDMX (4:25 pm ET)
-*Gillette Stadium · sintético · 57°F, 6% de lluvia*
+*Gillette Stadium · sintético · 56°F, 20% de lluvia*
 
-**Línea:** NE -3 (abrió NE -1.5) · total 47.5 (abrió 46.5) · ML NE -148 / GB +124
-**Totales implícitos:** NE 25.2 · GB 22.2
-**Chequeo de línea (margen del local):** mercado NE +3.0 · SRS NE +3.9 · FPI NE +2.5 — los modelos coinciden con el mercado ✅
-**Prob. de victoria:** mercado NE 57% · FPI NE 57%
-**Chequeo del total:** modelo PF/PA 42.6 vs 47.5 (inclinación a bajas por 4.9)
+**Línea:** NE -3 (abrió NE -1.5) · total 46.5 · ML NE -170 / GB +142
+**Totales implícitos:** NE 24.8 · GB 21.8
+**Chequeo de línea (margen del local):** mercado NE +3.0 · SRS NE +3.5 · FPI NE +2.3 — los modelos coinciden con el mercado ✅
+**Prob. de victoria:** mercado NE 60% · FPI NE 57%
+**Chequeo del total:** modelo PF/PA 42.6 vs 46.5 (inclinación a bajas por 3.9)
 
 | | **GB** | **NE** |
 |---|---|---|
@@ -1544,15 +1542,15 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 | ATS (de favorito / de no favorito) | 5-3 (2-2 / 3-1) | 3-4-1 (2-2 / 1-2-1) |
 | Altas/Bajas | 2-6 | 4-4 |
 | Margen prom. · cobertura prom. | +0.9 · +0.2 | +2.8 · +1.9 |
-| Rating SRS | +1.8 (14º) | +4.2 (5º) |
-| Puntos a favor / en contra | 21.4 (24º) / 20.5 (10º) | 23.0 (16º) / 20.2 (8º) |
+| Rating SRS | +2.3 (11º) | +4.3 (6º) |
+| Puntos a favor / en contra | 21.4 (24º) / 20.5 (10º) | 23.0 (16º) / 20.2 (9º) |
 | Yds netas/intento de pase | 6.7 (10º) | 7.6 (3º) |
 | Yds/acarreo | 2.9 (32º) | 4.1 (17º) |
-| % en 3ª oportunidad | 38% (21º) | 40% (12º) |
-| % de TD en zona roja | 52% (25º) | 55% (20º) |
+| % en 3ª oportunidad | 38% (20º) | 40% (12º) |
+| % de TD en zona roja | 52% (25º) | 55% (21º) |
 | Diferencial de balones | +4 (8º) | -7 (30º) |
-| Capturas recibidas | 14 (11º) | 16 (15º) |
-| Capturas (defensiva) | 22 (7º) | 22 (6º) |
+| Capturas recibidas | 14 (11º) | 16 (14º) |
+| Capturas (defensiva) | 22 (8º) | 22 (6º) |
 | Jugadas/partido | 62.0 (17º) | 62.0 (16º) |
 | Situación | 9 días de descanso, luego vs MIN | 7 días de descanso, luego @ DET |
 
@@ -1582,30 +1580,30 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 
 **Serie, últimos 6:** NE 3-3 directo · 3-3 ATS · altas/bajas 2-4 · total promedio 46.2 · último: 2022 sem 4, NE 24-27
 
-**NE lesiones:** A.J. Brown WR (Fuera — Tobillo), Hunter Henry TE (Cuestionable — Pie), Gabe Jacas LB (Cuestionable — Rodilla), Behren Morton QB (Fuera — Coach's Decision)
-**GB lesiones:** Micah Parsons DE (Fuera — Rodilla - LCA), Christian Watson WR (Cuestionable — Costillas), Kaleb Johnson RB (Fuera — Coach's Decision), Jonnu Smith TE (Fuera — Coach's Decision), Sean Rhyan G (Fuera — Tobillo)
+**NE lesiones:** Hunter Henry TE (Cuestionable — Pie), TreVeyon Henderson RB (Cuestionable — Enfermedad), A.J. Brown WR (Cuestionable — Tobillo), Gabe Jacas LB (Cuestionable — Rodilla)
+**GB lesiones:** Micah Parsons DE (Fuera — Rodilla - LCA), Sean Rhyan G (Cuestionable — Tobillo), Zaire Franklin LB (Cuestionable — Espinilla), Travis Glover OT (Cuestionable — Rodilla), Christian Watson WR (Cuestionable — Costillas)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Christian Watson (WR, GB) **Cuestionable** | 16.1 (13.8) | 21% (22%) | 9.0 (10.7) | — (—) | 73% |  NE es 10º que más permite a WR (33.8) |
-| Jordan Love (QB, GB) | 15.9 (15.9) | 42.3 pases (39.0) | 6.6 (7.2) | 6% (6%) | 100% |  NE es 23º que más permite a QB (15.7) |
-| Josh Jacobs (RB, GB) *(se perdió 1 de los últimos 3)* | 13.7 (12.4) | 16% (16%) | 5.2 (5.2) | 71% (71%) | 62% | 🔴 NE es 27º que más permite a RB (19.0) |
-| Matthew Golden (WR, GB) | 13.2 (11.0) | 31% (27%) | 5.8 (7.5) | — (1%) | 85% |  NE es 10º que más permite a WR (33.8) |
-| Tucker Kraft (TE, GB) | 10.7 (8.5) | 17% (16%) | 6.9 (7.1) | — (1%) | 84% |  NE es 23º que más permite a TE (11.9) |
-| MarShawn Lloyd (RB, GB) 📈 | 5.7 (5.1) | 3% (6%) | — (4.6) | 24% (34%) | 31% | 🔴 NE es 27º que más permite a RB (19.0) |
-| Savion Williams (WR, GB) | 5.5 (4.3) | 7% (7%) | 9.3 (9.3) | 7% (7%) | 56% |  NE es 10º que más permite a WR (33.8) |
-| Drake Maye (QB, NE) | 20.8 (20.8) | 27.7 pases (29.2) | 9.1 (8.5) | 18% (19%) | 100% | 🔴 GB es 28º que más permite a QB (13.9) |
-| A.J. Brown (WR, NE) **Fuera** *(se perdió 1 de los últimos 3)* | 14.2 (11.9) | 27% (22%) | 4.7 (5.0) | — (—) | 83% |  GB es 9º que más permite a WR (34.8) |
-| Rhamondre Stevenson (RB, NE) | 10.8 (9.5) | 10% (12%) | 12.6 (7.9) | 44% (40%) | 68% | 🟢 GB es 7º que más permite a RB (25.0) |
-| Hunter Henry (TE, NE) **Fuera** 📈 | 9.1 (7.4) | 19% (15%) | 9.9 (9.6) | — (—) | 55% | 🔴 GB es 31º que más permite a TE (9.0) |
-| TreVeyon Henderson (RB, NE) **Fuera** ⬇️ *(se perdió 1 de los últimos 3)* | 7.6 (6.8) | 5% (4%) | — (6.4) | 19% (30%) | 24% | 🟢 GB es 7º que más permite a RB (25.0) |
-| DeMario Douglas (WR, NE) | 6.5 (5.3) | 19% (16%) | 12.3 (9.0) | — (—) | 63% |  GB es 9º que más permite a WR (34.8) |
-| Eli Raridon (TE, NE) | 5.3 (4.3) | 14% (10%) | 6.5 (8.7) | — (—) | 68% | 🔴 GB es 31º que más permite a TE (9.0) |
-| Corey Kiner (RB, NE) 📈 | 5.1 (4.7) | — (1%) | — (—) | 25% (18%) | 16% | 🟢 GB es 7º que más permite a RB (25.0) |
-| Mack Hollins (WR, NE) **Reserva** *(se perdió 3 de los últimos 3)* | 3.9 (3.2) | — (17%) | — (10.4) | — (—) | — |  GB es 9º que más permite a WR (34.8) |
-| Efton Chism III (WR, NE) 📈 | 3.1 (2.6) | 9% (10%) | 7.6 (7.5) | — (0%) | 71% |  GB es 9º que más permite a WR (34.8) |
+| Jordan Love (QB, GB) | 17.5 (17.5) | 42.3 pases (39.0) | 6.6 (7.2) | 6% (6%) | 100% |  NE es 23º que más permite a QB (15.7) |
+| Christian Watson (WR, GB) **Cuestionable** | 16.3 (13.9) | 21% (22%) | 9.0 (10.7) | — (—) | 73% |  NE es 10º que más permite a WR (33.8) |
+| Matthew Golden (WR, GB) | 15.2 (12.6) | 31% (27%) | 5.8 (7.5) | — (1%) | 85% |  NE es 10º que más permite a WR (33.8) |
+| Josh Jacobs (RB, GB) *(se perdió 1 de los últimos 3)* | 14.1 (12.4) | 16% (16%) | 5.2 (5.2) | 71% (71%) | 62% | 🔴 NE es 27º que más permite a RB (19.0) |
+| Tucker Kraft (TE, GB) | 11.8 (9.4) | 17% (16%) | 6.9 (7.1) | — (1%) | 84% |  NE es 23º que más permite a TE (11.9) |
+| Savion Williams (WR, GB) | 5.6 (4.4) | 7% (7%) | 9.3 (9.3) | 7% (7%) | 56% |  NE es 10º que más permite a WR (33.8) |
+| MarShawn Lloyd (RB, GB) | 4.5 (4.0) | 3% (6%) | — (4.6) | 24% (34%) | 31% | 🔴 NE es 27º que más permite a RB (19.0) |
+| Drake Maye (QB, NE) | 21.3 (21.3) | 27.7 pases (29.2) | 9.1 (8.5) | 18% (19%) | 100% | 🔴 GB es 28º que más permite a QB (13.9) |
+| A.J. Brown (WR, NE) **Cuestionable** *(se perdió 1 de los últimos 3)* | 13.3 (11.1) | 27% (22%) | 4.7 (5.0) | — (—) | 83% |  GB es 9º que más permite a WR (34.8) |
+| Rhamondre Stevenson (RB, NE) | 12.1 (10.6) | 10% (12%) | 12.6 (7.9) | 44% (40%) | 68% | 🟢 GB es 7º que más permite a RB (25.0) |
+| Hunter Henry (TE, NE) **Cuestionable** | 7.1 (5.7) | 19% (15%) | 9.9 (9.6) | — (—) | 55% | 🔴 GB es 31º que más permite a TE (9.0) |
+| Eli Raridon (TE, NE) | 7.0 (5.8) | 14% (10%) | 6.5 (8.7) | — (—) | 68% | 🔴 GB es 31º que más permite a TE (9.0) |
+| DeMario Douglas (WR, NE) | 7.0 (5.7) | 19% (16%) | 12.3 (9.0) | — (—) | 63% |  GB es 9º que más permite a WR (34.8) |
+| TreVeyon Henderson (RB, NE) **Cuestionable** ⬇️ *(se perdió 1 de los últimos 3)* | 5.9 (5.3) | 5% (4%) | — (6.4) | 19% (30%) | 24% | 🟢 GB es 7º que más permite a RB (25.0) |
+| Corey Kiner (RB, NE) | 4.8 (4.4) | — (1%) | — (—) | 25% (18%) | 16% | 🟢 GB es 7º que más permite a RB (25.0) |
+| Mack Hollins (WR, NE) **Reserva** *(se perdió 3 de los últimos 3)* | 3.9 (3.1) | — (17%) | — (10.4) | — (—) | — |  GB es 9º que más permite a WR (34.8) |
+| Efton Chism III (WR, NE) | 3.7 (3.1) | 9% (10%) | 7.6 (7.5) | — (0%) | 71% |  GB es 9º que más permite a WR (34.8) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1660,26 +1658,26 @@ _backfield: reparto claro (Rhamondre Stevenson 56% de los toques) · top-2 de ta
 | Drake Maye (QB) | 100% (98%) | 19.3/27.7 · 251.7 yds · 70% (temp. 247.9 yds) | 5.3 (5.8) · 18.3 (27.0) · 3.4 (4.7) | — | 15 TD pase · 8 INT · 3 TD carrera | 24.9 (21.1) | S8 vs MIA: 16/20, 199 yds, 2 TD, 0 INT, 8-5-1 carrera · 100% snaps · 22.5 PPR<br>S7 vs CHI: 24/31, 321 yds, 2 TD, 1 INT, 4-26-1 carrera · 100% snaps · 28.4 PPR<br>S6 vs NYJ: 18/32, 235 yds, 3 TD, 0 INT, 4-24 carrera · 100% snaps · 23.8 PPR |
 | Rhamondre Stevenson (RB) | 68% (65%) | 2.7 (3.4) · 2.7 (2.9) · 33.7 (26.5) | 13.0 (12.0) · 46.7 (45.9) · 3.6 (3.8) | 15.7 (14.9) | 3 (2 carrera, 1 recepción) | 12.7 (12.4) | S8 vs MIA: 19-82 carrera, 3-8 en 3 tgt · 77% snaps · 12.0 PPR<br>S7 vs CHI: 6-22 carrera, 5-93-1 en 5 tgt · 69% snaps · 22.5 PPR<br>S6 vs NYJ: 14-36 carrera · 60% snaps · 3.6 PPR |
 | Corey Kiner (RB) | 16% (13%) | 0.0 (0.2) · 0.0 (0.2) · 0.0 (2.0) | 7.3 (5.2) · 36.0 (23.6) · 4.9 (4.5) | 7.3 (5.5) | 0 | 3.6 (2.6) | S8 vs MIA: 7-38 carrera · 18% snaps · 3.8 PPR<br>S7 vs CHI: 4-13 carrera · 11% snaps · 1.3 PPR<br>S6 vs NYJ: 11-57 carrera · 18% snaps · 5.7 PPR |
-| A.J. Brown (WR) · Fuera *(se perdió 1)* | 83% (68%) | 8.0 (6.7) · 3.0 (3.0) · 37.5 (33.7) | — | 3.0 (3.0) | 0 | 6.8 (6.4) | S8 no jugó<br>S7 vs CHI: 3-48 en 6 tgt · 91% snaps · 7.8 PPR<br>S6 vs NYJ: 3-27 en 10 tgt · 76% snaps · 5.7 PPR |
-| Hunter Henry (TE) · Fuera | 55% (66%) | 5.0 (4.2) · 4.7 (3.6) · 49.7 (40.8) | — | 4.7 (3.6) | 2 (0 carrera, 2 recepción) | 11.6 (9.2) | S8 vs MIA: 3-30 en 3 tgt · 13% snaps · 6.0 PPR<br>S7 vs CHI: 7-71 en 7 tgt · 76% snaps · 14.1 PPR<br>S6 vs NYJ: 4-48-1 en 5 tgt · 76% snaps · 14.8 PPR |
+| A.J. Brown (WR) · Cuestionable *(se perdió 1)* | 83% (68%) | 8.0 (6.7) · 3.0 (3.0) · 37.5 (33.7) | — | 3.0 (3.0) | 0 | 6.8 (6.4) | S8 no jugó<br>S7 vs CHI: 3-48 en 6 tgt · 91% snaps · 7.8 PPR<br>S6 vs NYJ: 3-27 en 10 tgt · 76% snaps · 5.7 PPR |
+| Hunter Henry (TE) · Cuestionable | 55% (66%) | 5.0 (4.2) · 4.7 (3.6) · 49.7 (40.8) | — | 4.7 (3.6) | 2 (0 carrera, 2 recepción) | 11.6 (9.2) | S8 vs MIA: 3-30 en 3 tgt · 13% snaps · 6.0 PPR<br>S7 vs CHI: 7-71 en 7 tgt · 76% snaps · 14.1 PPR<br>S6 vs NYJ: 4-48-1 en 5 tgt · 76% snaps · 14.8 PPR |
 | DeMario Douglas (WR) | 63% (56%) | 5.0 (4.6) · 4.3 (3.2) · 61.7 (41.5) | — | 4.3 (3.2) | 4 (0 carrera, 4 recepción) | 13.8 (10.2) | S8 vs MIA: 3-76-1 en 3 tgt · 65% snaps · 16.6 PPR<br>S7 vs CHI: 3-23 en 4 tgt · 65% snaps · 5.3 PPR<br>S6 vs NYJ: 7-86-1 en 8 tgt · 59% snaps · 19.6 PPR |
 | Eli Raridon (TE) | 68% (56%) | 3.7 (2.9) · 1.7 (1.9) · 24.0 (24.7) | — | 1.7 (1.9) | 2 (0 carrera, 2 recepción) | 6.1 (6.0) | S8 vs MIA: 1-5 en 4 tgt · 92% snaps · 1.5 PPR<br>S7 vs CHI: 3-56-1 en 4 tgt · 54% snaps · 14.6 PPR<br>S6 vs NYJ: 1-11 en 3 tgt · 57% snaps · 2.1 PPR |
 
 
-*DST GB:* 2.8 capturas, 1.9 balones recuperados, 20.5 pts permitidos por partido · ofensiva de NE: 16 capturas recibidas, 15 balones perdidos, total implícito 25.2
+*DST GB:* 2.8 capturas, 1.9 balones recuperados, 20.5 pts permitidos por partido · ofensiva de NE: 16 capturas recibidas, 15 balones perdidos, total implícito 24.8
 
-*DST NE:* 2.8 capturas, 1.0 balones recuperados, 20.2 pts permitidos por partido · ofensiva de GB: 14 capturas recibidas, 11 balones perdidos, total implícito 22.2
+*DST NE:* 2.8 capturas, 1.0 balones recuperados, 20.2 pts permitidos por partido · ofensiva de GB: 14 capturas recibidas, 11 balones perdidos, total implícito 21.8
 
 ---
 
 ## LV @ SF — dom 8 nov, 3:25 pm CDMX (4:25 pm ET)
-*Levi's Stadium · pasto · 72°F, 0% de lluvia*
+*Levi's Stadium · pasto · 71°F, 0% de lluvia*
 
-**Línea:** SF -9.5 (abrió SF -8.5) · total 51.5 (abrió 46.5) · ML SF -500 / LV +380
-**Totales implícitos:** SF 30.5 · LV 21.0
-**Chequeo de línea (margen del local):** mercado SF +9.5 · SRS SF +6.8 · FPI SF +13.6 — modelos divididos (SRS -2.7, FPI +4.1 vs mercado) — sin señal
+**Línea:** SF -10 (abrió SF -8.5) · total 52.5 (abrió 46.5) · ML SF -520 / LV +390
+**Totales implícitos:** SF 31.2 · LV 21.2
+**Chequeo de línea (margen del local):** mercado SF +10.0 · SRS SF +6.6 · FPI SF +13.3 — modelos divididos (SRS -3.4, FPI +3.3 vs mercado) — sin señal
 **Prob. de victoria:** mercado SF 80% · FPI SF 84%
-**Chequeo del total:** modelo PF/PA 52.2 vs 51.5 (inclinación a altas por 0.7 — ruido)
+**Chequeo del total:** modelo PF/PA 52.2 vs 52.5 (inclinación a bajas por 0.3 — ruido)
 
 | | **LV** | **SF** |
 |---|---|---|
@@ -1687,16 +1685,16 @@ _backfield: reparto claro (Rhamondre Stevenson 56% de los toques) · top-2 de ta
 | ATS (de favorito / de no favorito) | 6-2 (1-0 / 5-2) | 4-3 (2-3 / 2-0) |
 | Altas/Bajas | 6-2 | 3-4 |
 | Margen prom. · cobertura prom. | -1.1 · +1.9 | +8.3 · +4.5 |
-| Rating SRS | -0.6 (17º) | +4.8 (3º) |
-| Puntos a favor / en contra | 27.6 (6º) / 28.8 (31º) | 28.1 (4º) / 19.9 (7º) |
+| Rating SRS | -0.7 (18º) | +4.4 (5º) |
+| Puntos a favor / en contra | 27.6 (6º) / 28.8 (31º) | 28.1 (4º) / 19.9 (6º) |
 | Yds netas/intento de pase | 7.0 (8º) | 7.8 (2º) |
 | Yds/acarreo | 3.0 (31º) | 4.7 (6º) |
 | % en 3ª oportunidad | 42% (10º) | 50% (2º) |
 | % de TD en zona roja | 53% (22º) | 86% (1º) |
 | Diferencial de balones | +5 (5º) | -3 (24º) |
 | Capturas recibidas | 11 (4º) | 7 (1º) |
-| Capturas (defensiva) | 18 (16º) | 15 (22º) |
-| Jugadas/partido | 63.8 (11º) | 58.4 (29º) |
+| Capturas (defensiva) | 18 (17º) | 15 (22º) |
+| Jugadas/partido | 63.8 (10º) | 58.4 (29º) |
 | Situación | 7 días de descanso, luego vs SEA | 14 días de descanso, tras semana de descanso, luego @ DAL |
 
 **LV últimos 5:** G 38-33 @ NYJ (+1.5 ✓, A) · P 21-35 vs LAR (+3.5 ✗, A) · P 30-33 vs BUF (+5.5 ✓, A) · P 17-45 @ NE (+3.5 ✗, A) · P 27-30 vs KC (+3.5 ✓, A)
@@ -1727,27 +1725,26 @@ _backfield: reparto claro (Rhamondre Stevenson 56% de los toques) · top-2 de ta
 
 **Serie, últimos 7:** SF 5-2 directo · 3-4 ATS · altas/bajas 3-4 · total promedio 47.1 · SF ha ganado 2 seguidos · último: 2022 sem 17, SF 37-34
 
-**SF lesiones:** Marques Sigle S (Cuestionable — Tobillo), Garret Wallow LB (Cuestionable — Isquiotibial), Luke Gifford LB (Cuestionable — Ingle), Upton Stout CB (Cuestionable — Hombro - articulación AC), Nick Bosa DE (Cuestionable — Rodilla)
-**LV lesiones:** Darien Porter CB (Cuestionable — Ingle), Malik Benson WR (Fuera — Coach's Decision), Dont'e Thornton Jr. WR (Fuera — Coach's Decision), Aidan O'Connell QB (Fuera — Coach's Decision), JJ Pegues DT (Fuera — Coach's Decision)
+**SF lesiones:** Brandon Aiyuk WR (Fuera — Personal), Marques Sigle S (Cuestionable — Tobillo), Garret Wallow LB (Cuestionable — Isquiotibial), Luke Gifford LB (Cuestionable — Ingle)
+**LV lesiones:** Darien Porter CB (Cuestionable — Ingle)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Brock Bowers (TE, LV) | 17.2 (14.0) | 25% (28%) | 8.7 (8.8) | — (—) | 89% |  SF es 24º que más permite a TE (11.8) |
-| Kirk Cousins (QB, LV) 📈 | 15.8 (15.8) | 37.0 pases (35.4) | 7.7 (7.5) | 11% (10%) | 100% |  SF es 22º que más permite a QB (15.7) |
-| Ashton Jeanty (RB, LV) ⬇️ | 15.3 (13.2) | 17% (17%) | 8.9 (7.8) | 29% (52%) | 57% |  SF es 12º que más permite a RB (23.1) |
-| Tre Tucker (WR, LV) 📈 | 10.2 (8.4) | 19% (17%) | 10.0 (9.9) | — (1%) | 69% |  SF es 22º que más permite a WR (28.9) |
-| Michael Mayer (TE, LV) | 7.3 (5.6) | 17% (15%) | 10.0 (8.2) | — (—) | 80% |  SF es 24º que más permite a TE (11.8) |
-| Mike Washington Jr. (RB, LV) ⬆️ | 5.2 (4.8) | 2% (2%) | — (1.8) | 57% (31%) | 40% |  SF es 12º que más permite a RB (23.1) |
-| Jalen Nailor (WR, LV) | 3.0 (2.5) | 12% (10%) | 4.7 (4.7) | — (—) | 62% |  SF es 22º que más permite a WR (28.9) |
-| Brock Purdy (QB, SF) | 21.8 (21.8) | 32.7 pases (30.1) | 7.6 (8.3) | 16% (17%) | 100% | 🟢 LV es 4º que más permite a QB (20.6) |
-| Christian McCaffrey (RB, SF) **Cuestionable** | 21.6 (19.8) | 22% (22%) | 6.5 (6.0) | 45% (44%) | 72% | 🟢 LV es 6º que más permite a RB (25.3) |
-| Mike Evans (WR, SF) **Fuera** *(se perdió 1 de los últimos 3)* | 17.0 (14.6) | 28% (25%) | 13.8 (10.8) | — (—) | 52% |  LV es 11º que más permite a WR (33.8) |
-| George Kittle (TE, SF) | 14.4 (12.1) | 27% (24%) | 7.5 (9.2) | — (—) | 90% | 🟢 LV es 4º que más permite a TE (18.2) |
-| Deebo Samuel Sr. (WR, SF) **Fuera** *(se perdió 2 de los últimos 3)* | 10.2 (8.5) | 11% (15%) | — (10.3) | 8% (6%) | 43% |  LV es 11º que más permite a WR (33.8) |
-| Kaelon Black (RB, SF) | 5.6 (5.3) | 4% (3%) | — (0.7) | 34% (30%) | 30% | 🟢 LV es 6º que más permite a RB (25.3) |
-| Demarcus Robinson (WR, SF) **Reserva** *(se perdió 3 de los últimos 3)* | 4.7 (4.0) | — (12%) | — (14.0) | — (—) | — |  LV es 11º que más permite a WR (33.8) |
+| Brock Bowers (TE, LV) | 18.8 (15.3) | 25% (28%) | 8.7 (8.8) | — (—) | 89% |  SF es 24º que más permite a TE (11.8) |
+| Kirk Cousins (QB, LV) 📈 | 17.3 (17.3) | 37.0 pases (35.4) | 7.7 (7.5) | 11% (10%) | 100% |  SF es 22º que más permite a QB (15.7) |
+| Ashton Jeanty (RB, LV) ⬇️ | 12.2 (10.2) | 17% (17%) | 8.9 (7.8) | 29% (52%) | 57% |  SF es 12º que más permite a RB (23.1) |
+| Tre Tucker (WR, LV) | 11.1 (9.2) | 19% (17%) | 10.0 (9.9) | — (1%) | 69% |  SF es 22º que más permite a WR (28.9) |
+| Mike Washington Jr. (RB, LV) 📈 ⬆️ | 8.1 (7.5) | 2% (2%) | — (1.8) | 57% (31%) | 40% |  SF es 12º que más permite a RB (23.1) |
+| Michael Mayer (TE, LV) 📈 | 8.1 (6.2) | 17% (15%) | 10.0 (8.2) | — (—) | 80% |  SF es 24º que más permite a TE (11.8) |
+| Jalen Nailor (WR, LV) | 3.2 (2.6) | 12% (10%) | 4.7 (4.7) | — (—) | 62% |  SF es 22º que más permite a WR (28.9) |
+| Christian McCaffrey (RB, SF) **Cuestionable** | 22.7 (20.8) | 22% (22%) | 6.5 (6.0) | 45% (44%) | 72% | 🟢 LV es 6º que más permite a RB (25.3) |
+| Brock Purdy (QB, SF) | 22.3 (22.3) | 32.7 pases (30.1) | 7.6 (8.3) | 16% (17%) | 100% | 🟢 LV es 4º que más permite a QB (20.6) |
+| Mike Evans (WR, SF) **Cuestionable** *(se perdió 1 de los últimos 3)* | 16.5 (14.3) | 28% (25%) | 13.8 (10.8) | — (—) | 52% |  LV es 11º que más permite a WR (33.8) |
+| George Kittle (TE, SF) | 15.3 (12.8) | 27% (24%) | 7.5 (9.2) | — (—) | 90% | 🟢 LV es 4º que más permite a TE (18.2) |
+| Deebo Samuel Sr. (WR, SF) **Cuestionable** *(se perdió 2 de los últimos 3)* | 10.8 (9.0) | 11% (15%) | — (10.3) | 8% (6%) | 43% |  LV es 11º que más permite a WR (33.8) |
+| Kaelon Black (RB, SF) 📈 | 5.8 (5.4) | 4% (3%) | — (0.7) | 34% (30%) | 30% | 🟢 LV es 6º que más permite a RB (25.3) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1800,97 +1797,97 @@ _backfield: comité (Christian McCaffrey 63% de los toques) · top-2 de targets:
 | Brock Purdy (QB) | 100% (98%) | 22.3/32.7 · 247.0 yds · 68% (temp. 249.7 yds) | 4.0 (4.6) · 13.0 (23.0) · 3.2 (5.0) | — | 15 TD pase · 4 INT · 1 TD carrera | 16.2 (21.4) | S7 vs ATL: 27/40, 288 yds, 1 TD, 2 INT · 100% snaps · 14.0 PPR<br>S6 vs WAS: 21/29, 264 yds, 1 TD, 0 INT, 5-28 carrera · 100% snaps · 17.4 PPR<br>S5 vs SEA: 19/29, 189 yds, 2 TD, 1 INT · 100% snaps · 17.2 PPR |
 | Christian McCaffrey (RB) · Cuestionable | 72% (69%) | 6.7 (6.0) · 6.0 (4.9) · 43.0 (35.9) | 11.3 (12.0) · 57.0 (55.6) · 5.0 (4.6) | 17.3 (16.9) | 8 (8 carrera, 0 recepción) | 23.3 (20.6) | S7 vs ATL: 7-39-1 carrera, 6-61 en 7 tgt · 52% snaps · 22.0 PPR<br>S6 vs WAS: 16-64-2 carrera, 9-53 en 10 tgt · 85% snaps · 30.7 PPR<br>S5 vs SEA: 11-68-1 carrera, 3-15 en 3 tgt · 82% snaps · 17.3 PPR |
 | Kaelon Black (RB) | 30% (30%) | 1.3 (0.9) · 0.7 (0.4) · -0.3 (0.6) | 8.7 (8.1) · 37.7 (33.3) · 4.3 (4.1) | 9.3 (8.6) | 1 (1 carrera, 0 recepción) | 5.7 (4.4) | S7 vs ATL: 12-63-1 carrera, 1--4 en 3 tgt · 47% snaps · 10.9 PPR<br>S6 vs WAS: 8-34 carrera, 1-3 en 1 tgt · 23% snaps · 4.7 PPR<br>S5 vs SEA: 6-16 carrera · 18% snaps · 1.6 PPR |
-| Mike Evans (WR) · Fuera *(se perdió 1)* | 52% (55%) | 7.5 (6.5) · 5.0 (4.5) · 103.5 (70.0) | — | 5.0 (4.5) | 3 (0 carrera, 3 recepción) | 19.4 (14.8) | S7 no jugó<br>S6 vs WAS: 3-94 en 5 tgt · 40% snaps · 12.4 PPR<br>S5 vs SEA: 7-113-1 en 10 tgt · 63% snaps · 26.3 PPR |
+| Mike Evans (WR) · Cuestionable *(se perdió 1)* | 52% (55%) | 7.5 (6.5) · 5.0 (4.5) · 103.5 (70.0) | — | 5.0 (4.5) | 3 (0 carrera, 3 recepción) | 19.4 (14.8) | S7 no jugó<br>S6 vs WAS: 3-94 en 5 tgt · 40% snaps · 12.4 PPR<br>S5 vs SEA: 7-113-1 en 10 tgt · 63% snaps · 26.3 PPR |
 | George Kittle (TE) | 90% (78%) | 8.0 (6.6) · 6.0 (4.9) · 60.3 (60.7) | — | 6.0 (4.9) | 5 (0 carrera, 5 recepción) | 13.4 (14.9) | S7 vs ATL: 8-88 en 10 tgt · 91% snaps · 14.8 PPR<br>S6 vs WAS: 5-69-1 en 8 tgt · 89% snaps · 17.9 PPR<br>S5 vs SEA: 5-24 en 6 tgt · 92% snaps · 7.4 PPR |
-| Deebo Samuel Sr. (WR) · Fuera *(se perdió 2)* | 43% (57%) | 3.0 (4.0) · 2.0 (3.2) · 21.0 (41.2) | 2.0 (1.8) · 4.0 (15.6) · — (8.7) | 4.0 (5.0) | 3 (0 carrera, 3 recepción) | 2.5 (12.1) | S7 no jugó<br>S6 no jugó<br>S5 vs SEA: 2-21 en 3 tgt · 43% snaps · 2.5 PPR |
+| Deebo Samuel Sr. (WR) · Cuestionable *(se perdió 2)* | 43% (57%) | 3.0 (4.0) · 2.0 (3.2) · 21.0 (41.2) | 2.0 (1.8) · 4.0 (15.6) · — (8.7) | 4.0 (5.0) | 3 (0 carrera, 3 recepción) | 2.5 (12.1) | S7 no jugó<br>S6 no jugó<br>S5 vs SEA: 2-21 en 3 tgt · 43% snaps · 2.5 PPR |
 
 
-*DST LV:* 2.2 capturas, 1.6 balones recuperados, 28.8 pts permitidos por partido · ofensiva de SF: 7 capturas recibidas, 10 balones perdidos, total implícito 30.5
+*DST LV:* 2.2 capturas, 1.6 balones recuperados, 28.8 pts permitidos por partido · ofensiva de SF: 7 capturas recibidas, 10 balones perdidos, total implícito 31.2
 
-*DST SF:* 2.1 capturas, 0.9 balones recuperados, 19.9 pts permitidos por partido · ofensiva de LV: 11 capturas recibidas, 8 balones perdidos, total implícito 21.0
+*DST SF:* 2.1 capturas, 0.9 balones recuperados, 19.9 pts permitidos por partido · ofensiva de LV: 11 capturas recibidas, 8 balones perdidos, total implícito 21.2
 
 ---
 
 ## ARI @ SEA — dom 8 nov, 3:25 pm CDMX (4:25 pm ET)
-*Lumen Field · sintético · 57°F, 20% de lluvia · DIVISIONAL (NFC Oeste)*
+*Lumen Field · sintético · 56°F, 54% de lluvia · DIVISIONAL (NFC Oeste)*
 
-**Línea:** SEA -11.5 (abrió SEA -13.5) · total 44.5 (abrió 45.5) · ML SEA -700 / ARI +500
-**Totales implícitos:** SEA 28.0 · ARI 16.5
-**Chequeo de línea (margen del local):** mercado SEA +11.5 · SRS SEA +9.3 · FPI SEA +12.3 — modelos divididos (SRS -2.2, FPI +0.8 vs mercado) — sin señal
-**Prob. de victoria:** mercado SEA 84% · FPI SEA 82%
-**Chequeo del total:** modelo PF/PA 46.7 vs 44.5 (inclinación a altas por 2.2 — ruido)
+**Línea:** SEA -12.5 (abrió SEA -13.5) · total 41.5 (abrió 45.5) · ML SEA -800 / ARI +550
+**Totales implícitos:** SEA 27.0 · ARI 14.5
+**Chequeo de línea (margen del local):** mercado SEA +12.5 · SRS SEA +8.1 · FPI SEA +12.4 — leve inclinación por ARI (SRS -4.4, FPI -0.1 vs mercado) — debajo del umbral de alerta
+**Prob. de victoria:** mercado SEA 85% · FPI SEA 82%
+**Chequeo del total:** modelo PF/PA 47.3 vs 41.5 (inclinación a altas por 5.8)
 
 | | **ARI** | **SEA** |
 |---|---|---|
-| Récord (local / visita) | 3-5 (0-3 / 3-2) | 4-3 (3-1 / 1-2) |
-| ATS (de favorito / de no favorito) | 4-4 (0-1 / 4-3) | 2-3-2 (2-3-2 / 0-0) |
-| Altas/Bajas | 5-3 | 3-4 |
-| Margen prom. · cobertura prom. | -7.9 · -2.1 | +6.1 · +1.7 |
-| Rating SRS | -4.3 (29º) | +3.6 (8º) |
-| Puntos a favor / en contra | 21.9 (21º) / 29.8 (32º) | 24.0 (11º) / 17.9 (3º) |
-| Yds netas/intento de pase | 5.1 (29º) | 6.6 (11º) |
+| Récord (local / visita) | 3-5 (0-3 / 3-2) | 4-4 (3-2 / 1-2) |
+| ATS (de favorito / de no favorito) | 4-4 (0-1 / 4-3) | 2-4-2 (2-4-2 / 0-0) |
+| Altas/Bajas | 5-3 | 4-4 |
+| Margen prom. · cobertura prom. | -7.9 · -2.1 | +3.2 · -1.0 |
+| Rating SRS | -4.7 (29º) | +1.9 (13º) |
+| Puntos a favor / en contra | 21.9 (21º) / 29.8 (32º) | 23.1 (15º) / 19.9 (7º) |
+| Yds netas/intento de pase | 5.1 (29º) | 6.4 (15º) |
 | Yds/acarreo | 4.2 (16º) | 3.9 (23º) |
-| % en 3ª oportunidad | 39% (17º) | 39% (16º) |
-| % de TD en zona roja | 45% (30º) | 50% (26º) |
+| % en 3ª oportunidad | 39% (16º) | 36% (27º) |
+| % de TD en zona roja | 45% (30º) | 46% (29º) |
 | Diferencial de balones | +0 (16º) | -1 (17º) |
-| Capturas recibidas | 20 (20º) | 16 (14º) |
-| Capturas (defensiva) | 19 (13º) | 17 (17º) |
-| Jugadas/partido | 69.6 (2º) | 64.0 (9º) |
+| Capturas recibidas | 20 (20º) | 19 (18º) |
+| Capturas (defensiva) | 19 (13º) | 18 (14º) |
+| Jugadas/partido | 69.6 (2º) | 63.0 (12º) |
 | Situación | 7 días de descanso, luego vs LAR | 5 días de descanso, SEMANA CORTA, luego @ LV |
 
 **ARI últimos 5:** G 33-30 @ DAL (+7 ✓, A) · P 16-30 vs DEN (+4.5 ✗, A) · G 18-16 @ LAR (+13.5 ✓, B) · P 21-45 vs DET (+4.5 ✗, A) · P 24-36 @ NYG (-2.5 ✗, A)
-**SEA últimos 5:** G 20-3 vs KC (-3 ✓, B) · P 14-17 @ DEN (-3 ✗, B) · P 29-32 vs SF (-3 ✗, A) · G 30-23 vs LAC (-7 P, A) · P 31-33 @ WSH (-8.5 ✗, A)
+**SEA últimos 5:** P 17-34 vs CHI (-3 ✗, A) · G 20-3 vs KC (-3 ✓, B) · P 14-17 @ DEN (-3 ✗, B) · P 29-32 vs SF (-3 ✗, A) · G 30-23 vs LAC (-7 P, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
 | | **ARI** | **SEA** |
 |---|---|---|
 | Entrenador en jefe | Mike LaFleur | Mike Macdonald |
-| Carrera del coach (desde '99) | 3-5 · ATS 4-4 | 31-13 · ATS 23-19-2 |
+| Carrera del coach (desde '99) | 3-5 · ATS 4-4 | 31-14 · ATS 23-20-2 |
 | Coach en este rol | como no favorito de 7+: 3-1 · ATS 4-0 | como favorito de 7+: 8-2 · ATS 4-5-1 |
-| Coach de local / de visita | visita: 3-2 · ATS 4-1 | local: 14-9 · ATS 9-12-2 |
+| Coach de local / de visita | visita: 3-2 · ATS 4-1 | local: 14-10 · ATS 9-13-2 |
 | Coach vs esta franquicia | 0-1 · ATS 0-1 | 5-0 · ATS 5-0 |
 | Cara a cara vs el otro coach | 0-1 · ATS 0-1 | 1-0 · ATS 1-0 |
-| Coach después de victoria | 0-2 · ATS 0-2 | 21-7 · ATS 18-10 |
+| Coach después de victoria | 0-2 · ATS 0-2 | — |
 | Coach en partidos divisionales | 1-2 · ATS 2-1 | 11-5 · ATS 10-6 |
-| QB | Jacoby Brissett | Sam Darnold |
-| QB, carrera como titular (desde '99) | 23-50 · ATS 34-37-2 | 54-43 · ATS 49-45-3 |
-| QB vs este rival | 0-4 · ATS 1-3 | 3-0 · ATS 2-1 |
-| QB en este rol | como no favorito: 13-42 · ATS 25-28-2 | como favorito: 33-13 · ATS 25-19-2 |
-| Esta temporada de local | 0-3 · ATS 0-3 · 14.7-35.3 | 3-1 · ATS 1-1-2 · 23.0-17.0 |
+| QB | Gardner Minshew II | Sam Darnold |
+| QB, carrera como titular (desde '99) | 0-5 · ATS 0-5 | 54-44 · ATS 49-46-3 |
+| QB vs este rival | — | 3-0 · ATS 2-1 |
+| QB en este rol | como no favorito: 0-5 · ATS 0-5 | como favorito: 33-14 · ATS 25-20-2 |
+| Esta temporada de local | 0-3 · ATS 0-3 · 14.7-35.3 | 3-2 · ATS 1-2-2 · 21.8-20.4 |
 | Esta temporada de visita | 3-2 · ATS 4-1 · 26.2-26.4 | 1-2 · ATS 1-2 · 25.3-19.0 |
-| Ventaja de local, últimas 3 temporadas | +1.4 pts (local 7-13, visita 7-15) | -2.3 pts (local 12-9, visita 16-4) |
+| Ventaja de local, últimas 3 temporadas | +1.4 pts (local 7-13, visita 7-15) | -2.8 pts (local 12-10, visita 16-4) |
 | Victorias pitagóricas vs reales | 2.6 vs 3 | 4.7 vs 4 |
 | Partidos de una posesión (≤8) | 2-1 | 2-3 |
+| Coach después de derrota | — | 8-5 · ATS 5-7-1 |
 
 **Serie, últimos 10:** SEA 10-0 directo · 9-1 ATS · altas/bajas 4-6 · total promedio 43.6 · SEA ha ganado 10 seguidos · último: 2026 sem 2, SEA 31-7
 
 **A destacar:**
 - **SEA** ha ganado 10 seguidos en la serie
 
-**SEA lesiones:** Charles Cross OT (Fuera — Tobillo), Velus Jones Jr. RB (Fuera — Isquiotibial), Drew Lock QB (Cuestionable — Codo), Uchenna Nwosu LB (Dudoso — Tobillo), Rashid Shaheed WR (Fuera — Rodilla)
-**ARI lesiones:** Michael Wilson WR (Cuestionable — Costillas), Jeremiyah Love RB (Cuestionable — Tobillo), Jayden Williams OT (Cuestionable — Rodilla), Bam Knight RB (Cuestionable — Conmoción), Kendrick Bourne WR (Cuestionable — Tobillo)
+**SEA lesiones:** Rashid Shaheed WR (Cuestionable — Rodilla), Velus Jones Jr. RB (Cuestionable — Isquiotibial), Charles Cross OT (Cuestionable — Tobillo), Leonard Williams DT (Cuestionable — Hombro), Brandon Pili DT (Cuestionable — Espalda)
+**ARI lesiones:** Walter Nolen III DT (Cuestionable — Tobillo), Jon Gaines II G (Cuestionable — Tobillo)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Trey McBride (TE, ARI) | 14.2 (10.9) | 25% (27%) | 7.9 (6.3) | — (—) | 95% | 🔴 SEA es 29º que más permite a TE (9.9) |
-| Jacoby Brissett (QB, ARI) | 12.4 (12.4) | 35.3 pases (38.1) | 5.7 (5.6) | 14% (14%) | 85% | 🔴 SEA es 31º que más permite a QB (11.6) |
-| Michael Wilson (WR, ARI) **Cuestionable** | 11.6 (9.4) | 25% (26%) | 6.6 (6.0) | 3% (1%) | 87% | 🔴 SEA es 32º que más permite a WR (20.9) |
-| Jeremiyah Love (RB, ARI) **Fuera** *(se perdió 2 de los últimos 3)* | 8.9 (7.8) | — (6%) | — (2.6) | 33% (51%) | 19% |  SEA es 18º que más permite a RB (20.9) |
-| Kendrick Bourne (WR, ARI) **Fuera** | 7.6 (5.9) | 13% (12%) | 5.3 (6.9) | — (—) | 47% | 🔴 SEA es 32º que más permite a WR (20.9) |
-| Tyler Allgeier (RB, ARI) 📈 | 6.0 (4.7) | 8% (7%) | 8.4 (5.8) | 43% (35%) | 54% |  SEA es 18º que más permite a RB (20.9) |
-| Elijah Higgins (TE, ARI) | 3.5 (2.7) | 8% (6%) | 5.5 (8.4) | — (—) | 41% | 🔴 SEA es 29º que más permite a TE (9.9) |
-| Jaxon Smith-Njigba (WR, SEA) | 25.7 (22.2) | 36% (36%) | 10.7 (11.1) | 3% (1%) | 85% |  ARI es 13º que más permite a WR (33.5) |
-| Sam Darnold (QB, SEA) | 19.1 (19.1) | 36.0 pases (29.5) | 6.8 (7.3) | 5% (5%) | 100% | 🟢 ARI es 2º que más permite a QB (22.3) |
-| Zach Charbonnet (RB, SEA) | 10.9 (9.9) | — (—) | — (—) | — (—) | — |  ARI es 19º que más permite a RB (20.7) |
-| AJ Barner (TE, SEA) 📈 | 8.7 (7.1) | 14% (13%) | 5.6 (6.2) | 3% (2%) | 89% |  ARI es 9º que más permite a TE (15.4) |
-| Cooper Kupp (WR, SEA) 📈 | 7.6 (6.4) | 15% (13%) | 5.7 (7.4) | — (—) | 77% |  ARI es 13º que más permite a WR (33.5) |
-| Rashid Shaheed (WR, SEA) **Fuera** | 6.7 (5.7) | 15% (14%) | 6.0 (5.4) | 1% (2%) | 41% |  ARI es 13º que más permite a WR (33.5) |
-| Jadarian Price (RB, SEA) **Reserva** 📈 *(se perdió 3 de los últimos 3)* | 5.7 (5.4) | — (7%) | — (3.0) | — (35%) | — |  ARI es 19º que más permite a RB (20.7) |
-| Tory Horton (WR, SEA) | 3.8 (3.2) | 6% (5%) | 2.2 (6.7) | — (—) | 37% |  ARI es 13º que más permite a WR (33.5) |
-| Emanuel Wilson (RB, SEA) 📈 | 3.5 (3.4) | 4% (4%) | — (7.2) | 62% (54%) | 45% |  ARI es 19º que más permite a RB (20.7) |
+| Trey McBride (TE, ARI) | 15.1 (11.5) | 25% (27%) | 7.9 (6.3) | — (—) | 95% | 🔴 SEA es 28º que más permite a TE (10.1) |
+| Michael Wilson (WR, ARI) **Cuestionable** | 12.7 (10.3) | 25% (26%) | 6.6 (6.0) | 3% (1%) | 87% | 🔴 SEA es 32º que más permite a WR (23.3) |
+| Tyler Allgeier (RB, ARI) 📈 | 11.9 (10.0) | 8% (7%) | 8.4 (5.8) | 43% (35%) | 54% |  SEA es 14º que más permite a RB (22.2) |
+| Gardner Minshew II (QB, ARI) 📈 *(se perdió 2 de los últimos 3)* | 11.2 (11.2) | 23.0 pases (23.0) | 8.2 (8.2) | — (—) | 42% | 🔴 SEA es 31º que más permite a QB (11.9) |
+| Elijah Higgins (TE, ARI) | 5.5 (4.2) | 8% (6%) | 5.5 (8.4) | — (—) | 41% | 🔴 SEA es 28º que más permite a TE (10.1) |
+| Zonovan Knight (RB, ARI) **Cuestionable** ⬆️ | 4.9 (4.2) | 8% (4%) | 4.8 (4.8) | 29% (18%) | 40% |  SEA es 14º que más permite a RB (22.2) |
+| Reggie Virgil (WR, ARI) | 4.2 (3.3) | 2% (4%) | — (4.1) | — (—) | 19% | 🔴 SEA es 32º que más permite a WR (23.3) |
+| Jaxon Smith-Njigba (WR, SEA) | 24.5 (21.2) | 36% (36%) | 10.3 (11.1) | 2% (1%) | 88% |  ARI es 13º que más permite a WR (33.5) |
+| Sam Darnold (QB, SEA) 📈 | 18.3 (18.3) | 37.7 pases (30.1) | 6.4 (7.0) | 7% (6%) | 100% | 🟢 ARI es 2º que más permite a QB (22.3) |
+| Zach Charbonnet (RB, SEA) *(se perdió 2 de los últimos 3)* | 10.4 (9.7) | 12% (12%) | — (—) | 32% (32%) | 37% |  ARI es 19º que más permite a RB (20.7) |
+| Jadarian Price (RB, SEA) 📈 *(se perdió 2 de los últimos 3)* | 9.4 (8.8) | 12% (9%) | — (2.6) | 53% (38%) | 48% |  ARI es 19º que más permite a RB (20.7) |
+| AJ Barner (TE, SEA) | 8.0 (6.5) | 13% (14%) | 5.8 (6.0) | 3% (2%) | 89% |  ARI es 9º que más permite a TE (15.4) |
+| Cooper Kupp (WR, SEA) | 7.2 (6.1) | 14% (12%) | 5.1 (6.9) | — (—) | 81% |  ARI es 13º que más permite a WR (33.5) |
+| Rashid Shaheed (WR, SEA) **Cuestionable** *(se perdió 1 de los últimos 3)* | 5.5 (4.7) | 15% (14%) | 6.1 (5.4) | 1% (2%) | 40% |  ARI es 13º que más permite a WR (33.5) |
+| Tory Horton (WR, SEA) | 3.4 (2.9) | 11% (7%) | 3.2 (5.8) | — (—) | 52% |  ARI es 13º que más permite a WR (33.5) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -1913,15 +1910,16 @@ _backfield: comité (Tyler Allgeier 53% de los toques) · top-2 de targets: 50% 
 
 | Jugador | % snaps | % targets | Targets/partido | % yds aéreas compl. | % zona roja | % toques backfield |
 |---|---|---|---|---|---|---|
-| Emanuel Wilson (RB) | 45% (41%) | 4% (4%) | 1.3 | — | 56% (46%) acarreos | 76% (58%) |
-| George Holani (RB) | 46% (40%) | 6% (7%) | 2.0 | — | 33% (26%) acarreos | 24% (24%) |
-| Jadarian Price (RB) *(se perdió 3)* | — (36%) | — (7%) | 2.3 | — | — (14%) acarreos | — (36%) |
-| Jaxon Smith-Njigba (WR) | 85% (83%) | 36% (36%) | 12.0 | 67% (67%) | 25% (44%) | — |
-| Rashid Shaheed (WR) | 41% (49%) | 15% (14%) | 5.0 | 13% (10%) | 25% (7%) | — |
-| Cooper Kupp (WR) | 77% (68%) | 15% (13%) | 5.0 | 16% (15%) | 12% (7%) | — |
-| AJ Barner (TE) | 89% (88%) | 14% (13%) | 4.7 | 4% (3%) | 25% (19%) | — |
+| Emanuel Wilson (RB) *(se perdió 1)* | 39% (41%) | 3% (4%) | 1.0 | — | 33% (46%) acarreos | 78% (58%) |
+| Jadarian Price (RB) *(se perdió 2)* | 48% (39%) | 12% (9%) | 4.0 | — | 33% (17%) acarreos | 55% (40%) |
+| Zach Charbonnet (RB) *(se perdió 2)* | 37% (37%) | 12% (12%) | 4.0 | — | 67% (67%) acarreos | 41% (41%) |
+| Jaxon Smith-Njigba (WR) | 88% (85%) | 36% (36%) | 13.0 | 66% (67%) | 15% (37%) | — |
+| Rashid Shaheed (WR) *(se perdió 1)* | 40% (49%) | 15% (14%) | 5.5 | 14% (10%) | 20% (7%) | — |
+| Cooper Kupp (WR) | 81% (71%) | 14% (12%) | 5.0 | 14% (15%) | 23% (14%) | — |
+| AJ Barner (TE) | 89% (89%) | 13% (14%) | 4.7 | 5% (4%) | 23% (17%) | — |
+| Tory Horton (WR) | 52% (36%) | 11% (7%) | 4.0 | 7% (8%) | 8% (6%) | — |
 
-_backfield: comité (Emanuel Wilson 76% de los toques) · top-2 de targets: 51% del equipo — árbol concentrado_
+_backfield: comité (Emanuel Wilson 78% de los toques) · top-2 de targets: 52% del equipo — árbol concentrado_
 
 
 **Jugadores clave** (por partido: últimos 3 del equipo · temporada entre paréntesis)
@@ -1932,80 +1930,79 @@ _backfield: comité (Emanuel Wilson 76% de los toques) · top-2 de targets: 51% 
 |---|---|---|---|---|---|---|---|
 | Jacoby Brissett (QB) | 85% (94%) | 20.3/35.3 · 203.0 yds · 58% (temp. 214.9 yds) | 4.0 (3.6) · 8.3 (10.9) · 2.1 (3.0) | — | 10 TD pase · 7 INT · 1 TD carrera | 9.6 (14.8) | S8 vs DAL: 10/23, 119 yds, 0 TD, 1 INT · 58% snaps · 4.5 PPR<br>S7 vs DEN: 27/48, 272 yds, 1 TD, 0 INT, 7-16 carrera · 100% snaps · 16.5 PPR<br>S6 vs LAR: 24/35, 218 yds, 0 TD, 1 INT · 100% snaps · 7.9 PPR |
 | Tyler Allgeier (RB) | 54% (51%) | 3.3 (2.8) · 3.0 (2.6) · 28.0 (16.0) | 12.3 (9.0) · 68.0 (40.4) · 5.5 (4.5) | 15.3 (11.6) | 3 (2 carrera, 1 recepción) | 16.6 (10.5) | S8 vs DAL: 11-147-1 carrera, 5-44-1 en 5 tgt · 59% snaps · 36.1 PPR<br>S7 vs DEN: 8-19 carrera, 3-30 en 3 tgt · 47% snaps · 7.9 PPR<br>S6 vs LAR: 18-38 carrera, 1-10 en 2 tgt · 56% snaps · 5.8 PPR |
-| Zonovan Knight (RB) · Fuera | 40% (24%) | 3.0 (1.5) · 2.0 (1.0) · 14.3 (7.2) | 8.3 (4.7) · 45.3 (28.0) · 5.4 (6.0) | 10.3 (5.7) | 0 | 7.3 (4.2) | S8 vs DAL: 3-8 carrera, 1-10 en 2 tgt · 22% snaps · 0.8 PPR<br>S7 vs DEN: 7-48 carrera, 3-15 en 5 tgt · 53% snaps · 9.3 PPR<br>S6 vs LAR: 15-80 carrera, 2-18 en 2 tgt · 44% snaps · 11.8 PPR |
+| Zonovan Knight (RB) · Cuestionable | 40% (24%) | 3.0 (1.5) · 2.0 (1.0) · 14.3 (7.2) | 8.3 (4.7) · 45.3 (28.0) · 5.4 (6.0) | 10.3 (5.7) | 0 | 7.3 (4.2) | S8 vs DAL: 3-8 carrera, 1-10 en 2 tgt · 22% snaps · 0.8 PPR<br>S7 vs DEN: 7-48 carrera, 3-15 en 5 tgt · 53% snaps · 9.3 PPR<br>S6 vs LAR: 15-80 carrera, 2-18 en 2 tgt · 44% snaps · 11.8 PPR |
 | Trey McBride (TE) | 95% (91%) | 10.0 (10.8) · 8.0 (8.2) · 78.7 (68.0) | — | 8.0 (8.2) | 5 (0 carrera, 5 recepción) | 19.9 (18.8) | S8 vs DAL: 7-72-1 en 8 tgt · 95% snaps · 20.2 PPR<br>S7 vs DEN: 10-111-1 en 13 tgt · 93% snaps · 27.1 PPR<br>S6 vs LAR: 7-53 en 9 tgt · 97% snaps · 12.3 PPR |
 | Michael Wilson (WR) · Cuestionable | 87% (89%) | 10.0 (10.1) · 5.3 (5.6) · 66.0 (60.8) | — | 6.3 (6.0) | 2 (0 carrera, 2 recepción) | 14.9 (13.6) | S8 vs DAL: 1-17 carrera, 8-111-1 en 15 tgt · 79% snaps · 26.8 PPR<br>S7 vs DEN: 4-55 en 8 tgt · 90% snaps · 10.6 PPR<br>S6 vs LAR: 4-32 en 7 tgt · 92% snaps · 7.2 PPR |
-| Kendrick Bourne (WR) · Fuera | 47% (54%) | 5.3 (4.8) · 3.0 (3.2) · 28.3 (32.9) | — | 3.0 (3.2) | 0 | 5.8 (6.5) | S8 vs DAL: 1-29 en 2 tgt · 31% snaps · 3.9 PPR<br>S7 vs DEN: 3-9 en 6 tgt · 56% snaps · 3.9 PPR<br>S6 vs LAR: 5-47 en 8 tgt · 57% snaps · 9.7 PPR |
 
 *SEA*
 
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
-| Sam Darnold (QB) | 100% (89%) | 21.7/36.0 · 243.3 yds · 60% (temp. 215.0 yds) | 1.7 (1.5) · 13.7 (8.7) · 8.2 (5.8) | — | 8 TD pase · 8 INT | 12.8 (13.8) | S7 vs KC: 20/28, 257 yds, 1 TD, 1 INT, 2-17 carrera · 100% snaps · 15.0 PPR<br>S6 vs DEN: 27/51, 278 yds, 0 TD, 2 INT, 2-19 carrera · 100% snaps · 13.0 PPR<br>S5 vs SF: 18/29, 195 yds, 1 TD, 2 INT · 100% snaps · 10.3 PPR |
-| Emanuel Wilson (RB) | 45% (41%) | 1.3 (1.3) · 1.0 (0.9) · 8.7 (9.3) | 19.3 (15.9) · 71.0 (57.6) · 3.7 (3.6) | 20.3 (16.7) | 4 (3 carrera, 1 recepción) | 12.3 (10.7) | S7 vs KC: 24-100-1 carrera, 1-15 en 1 tgt · 48% snaps · 18.5 PPR<br>S6 vs DEN: 14-52 carrera, 0-0 en 1 tgt · 32% snaps · 5.2 PPR<br>S5 vs SF: 20-61-1 carrera, 2-11 en 2 tgt · 59% snaps · 13.2 PPR |
-| George Holani (RB) | 46% (40%) | 2.0 (2.0) · 1.7 (1.7) · 12.0 (12.6) | 4.7 (5.1) · 12.7 (15.4) · 2.7 (3.0) | 6.3 (6.9) | 1 (1 carrera, 0 recepción) | 5.5 (5.1) | S7 vs KC: 5-11 carrera, 1-12 en 2 tgt · 36% snaps · 3.3 PPR<br>S6 vs DEN: 5-20-1 carrera · 58% snaps · 8.0 PPR<br>S5 vs SF: 4-7 carrera, 4-24 en 4 tgt · 41% snaps · 5.1 PPR |
-| Jaxon Smith-Njigba (WR) | 85% (83%) | 12.0 (11.1) · 8.7 (8.3) · 128.7 (123.9) | — | 9.7 (8.7) | 8 (0 carrera, 8 recepción) | 26.5 (28.0) | S7 vs KC: 9-150-1 en 12 tgt · 77% snaps · 31.3 PPR<br>S6 vs DEN: 12-134 en 16 tgt · 92% snaps · 25.4 PPR<br>S5 vs SF: 1-16 carrera, 5-102-1 en 8 tgt · 84% snaps · 22.8 PPR |
-| Cooper Kupp (WR) | 77% (68%) | 5.0 (3.9) · 3.0 (2.6) · 28.3 (28.4) | — | 3.0 (2.6) | 1 (0 carrera, 1 recepción) | 5.8 (6.3) | S7 vs KC: 2-20 en 2 tgt · 65% snaps · 4.0 PPR<br>S6 vs DEN: 5-50 en 10 tgt · 85% snaps · 10.0 PPR<br>S5 vs SF: 2-15 en 3 tgt · 81% snaps · 3.5 PPR |
-| Rashid Shaheed (WR) · Fuera | 41% (49%) | 5.0 (4.3) · 3.0 (2.3) · 30.0 (23.3) | — | 3.3 (2.9) | 1 (1 carrera, 0 recepción) | 6.1 (6.0) | S7 vs KC: 2-1 en 3 tgt · 32% snaps · 2.1 PPR<br>S6 vs DEN: 5-66 en 8 tgt · 46% snaps · 11.8 PPR<br>S5 vs SF: 2-23 en 4 tgt · 46% snaps · 4.3 PPR |
-| AJ Barner (TE) | 89% (88%) | 4.7 (4.1) · 3.3 (2.7) · 26.0 (25.7) | — | 4.3 (3.3) | 1 (1 carrera, 0 recepción) | 6.1 (6.2) | S7 vs KC: 4-42 en 5 tgt · 80% snaps · 8.6 PPR<br>S6 vs DEN: 3-16 en 4 tgt · 93% snaps · 4.6 PPR<br>S5 vs SF: 3-20 en 5 tgt · 95% snaps · 5.0 PPR |
+| Sam Darnold (QB) | 100% (90%) | 21.3/37.7 · 241.0 yds · 57% (temp. 211.1 yds) | 2.0 (1.6) · 18.7 (10.3) · 9.3 (6.5) | — | 10 TD pase · 9 INT | 15.5 (14.5) | S8 vs CHI: 17/34, 188 yds, 2 TD, 1 INT, 2-20 carrera · 100% snaps · 18.5 PPR<br>S7 vs KC: 20/28, 257 yds, 1 TD, 1 INT, 2-17 carrera · 100% snaps · 15.0 PPR<br>S6 vs DEN: 27/51, 278 yds, 0 TD, 2 INT, 2-19 carrera · 100% snaps · 13.0 PPR |
+| Emanuel Wilson (RB) *(se perdió 1)* | 39% (41%) | 1.0 (1.3) · 0.5 (0.9) · 7.5 (9.3) | 19.0 (15.9) · 76.0 (57.6) · 4.0 (3.6) | 19.5 (16.7) | 4 (3 carrera, 1 recepción) | 11.8 (10.7) | S8 no jugó<br>S7 vs KC: 24-100-1 carrera, 1-15 en 1 tgt · 48% snaps · 18.5 PPR<br>S6 vs DEN: 14-52 carrera, 0-0 en 1 tgt · 32% snaps · 5.2 PPR |
+| Jadarian Price (RB) *(se perdió 2)* | 48% (39%) | 4.0 (2.8) · 2.0 (1.5) · 8.0 (7.2) | 10.0 (9.5) · 29.0 (37.0) · 2.9 (3.9) | 12.0 (11.0) | 0 | 5.7 (4.9) | S8 vs CHI: 10-29 carrera, 2-8 en 4 tgt · 48% snaps · 5.7 PPR<br>S7 no jugó<br>S6 no jugó |
+| Jaxon Smith-Njigba (WR) | 88% (85%) | 13.0 (11.1) · 9.0 (8.0) · 134.0 (123.1) | — | 9.7 (8.4) | 9 (0 carrera, 9 recepción) | 26.8 (27.5) | S8 vs CHI: 6-118-1 en 11 tgt · 97% snaps · 23.8 PPR<br>S7 vs KC: 9-150-1 en 12 tgt · 77% snaps · 31.3 PPR<br>S6 vs DEN: 12-134 en 16 tgt · 92% snaps · 25.4 PPR |
+| Rashid Shaheed (WR) · Cuestionable *(se perdió 1)* | 40% (49%) | 5.5 (4.3) · 3.5 (2.3) · 33.5 (23.3) | — | 4.0 (2.9) | 1 (1 carrera, 0 recepción) | 7.0 (6.0) | S8 no jugó<br>S7 vs KC: 2-1 en 3 tgt · 32% snaps · 2.1 PPR<br>S6 vs DEN: 5-66 en 8 tgt · 46% snaps · 11.8 PPR |
+| Cooper Kupp (WR) | 81% (71%) | 5.0 (3.8) · 2.7 (2.4) · 25.7 (25.8) | — | 2.7 (2.4) | 2 (0 carrera, 2 recepción) | 7.2 (6.5) | S8 vs CHI: 1-7-1 en 3 tgt · 92% snaps · 7.7 PPR<br>S7 vs KC: 2-20 en 2 tgt · 65% snaps · 4.0 PPR<br>S6 vs DEN: 5-50 en 10 tgt · 85% snaps · 10.0 PPR |
+| AJ Barner (TE) | 89% (89%) | 4.7 (4.2) · 3.0 (2.6) · 27.0 (25.4) | — | 4.0 (3.1) | 1 (1 carrera, 0 recepción) | 5.8 (6.0) | S8 vs CHI: 2-23 en 5 tgt · 95% snaps · 4.3 PPR<br>S7 vs KC: 4-42 en 5 tgt · 80% snaps · 8.6 PPR<br>S6 vs DEN: 3-16 en 4 tgt · 93% snaps · 4.6 PPR |
 
 
-*DST ARI:* 2.4 capturas, 0.9 balones recuperados, 29.0 pts permitidos por partido · ofensiva de SEA: 16 capturas recibidas, 13 balones perdidos, total implícito 28.0
+*DST ARI:* 2.4 capturas, 0.9 balones recuperados, 29.0 pts permitidos por partido · ofensiva de SEA: 19 capturas recibidas, 14 balones perdidos, total implícito 27.0
 
-*DST SEA:* 2.4 capturas, 1.4 balones recuperados, 16.1 pts permitidos por partido · ofensiva de ARI: 20 capturas recibidas, 8 balones perdidos, total implícito 16.5
+*DST SEA:* 2.2 capturas, 1.4 balones recuperados, 18.4 pts permitidos por partido · ofensiva de ARI: 20 capturas recibidas, 8 balones perdidos, total implícito 14.5
 
 ---
 
 ## TB @ CHI — dom 8 nov, 7:20 pm CDMX (8:20 pm ET)
-*Soldier Field · pasto · 46°F, 18% de lluvia*
+*Soldier Field · pasto · 51°F, 0% de lluvia*
 
-**Línea:** CHI -5.5 (abrió CHI -3.5) · total 47.5 (abrió 48.5) · ML CHI -238 / TB +195
-**Totales implícitos:** CHI 26.5 · TB 21.0
-**Chequeo de línea (margen del local):** mercado CHI +5.5 · SRS CHI +2.7 · FPI CHI +3.4 — 🚩 los dos modelos se inclinan por **TB** (SRS -2.8, FPI -2.1 vs mercado, pts de margen del local)
-**Prob. de victoria:** mercado CHI 68% · FPI CHI 60%
-**Chequeo del total:** modelo PF/PA 43.6 vs 47.5 (inclinación a bajas por 3.9)
+**Línea:** CHI -6 (abrió CHI -3.5) · total 47.5 (abrió 48.5) · ML CHI -298 / TB +240
+**Totales implícitos:** CHI 26.8 · TB 20.8
+**Chequeo de línea (margen del local):** mercado CHI +6.0 · SRS CHI +4.3 · FPI CHI +4.5 — los modelos coinciden con el mercado ✅
+**Prob. de victoria:** mercado CHI 72% · FPI CHI 63%
+**Chequeo del total:** modelo PF/PA 43.9 vs 47.5 (inclinación a bajas por 3.6)
 
 | | **TB** | **CHI** |
 |---|---|---|
-| Récord (local / visita) | 3-5 (1-4 / 2-1) | 5-2 (3-1 / 2-1) |
-| ATS (de favorito / de no favorito) | 3-5 (1-2 / 2-3) | 5-2 (4-2 / 1-0) |
-| Altas/Bajas | 4-4 | 3-4 |
-| Margen prom. · cobertura prom. | +3.4 · +4.3 | +5.3 · +3.3 |
-| Rating SRS | +2.5 (11º) | +3.7 (7º) |
-| Puntos a favor / en contra | 22.2 (20º) / 18.9 (6º) | 25.7 (8º) / 20.4 (9º) |
-| Yds netas/intento de pase | 4.5 (32º) | 6.4 (15º) |
-| Yds/acarreo | 5.1 (1º) | 4.4 (11º) |
-| % en 3ª oportunidad | 38% (20º) | 44% (6º) |
-| % de TD en zona roja | 50% (27º) | 53% (21º) |
+| Récord (local / visita) | 3-5 (1-4 / 2-1) | 6-2 (3-1 / 3-1) |
+| ATS (de favorito / de no favorito) | 3-5 (1-2 / 2-3) | 6-2 (4-2 / 2-0) |
+| Altas/Bajas | 4-4 | 4-4 |
+| Margen prom. · cobertura prom. | +3.4 · +4.3 | +6.8 · +5.4 |
+| Rating SRS | +2.8 (9º) | +5.5 (2º) |
+| Puntos a favor / en contra | 22.2 (20º) / 18.9 (5º) | 26.8 (8º) / 20.0 (8º) |
+| Yds netas/intento de pase | 4.5 (32º) | 6.4 (14º) |
+| Yds/acarreo | 5.1 (1º) | 4.3 (12º) |
+| % en 3ª oportunidad | 38% (19º) | 44% (5º) |
+| % de TD en zona roja | 50% (26º) | 59% (17º) |
 | Diferencial de balones | +4 (7º) | -1 (19º) |
-| Capturas recibidas | 23 (25º) | 18 (19º) |
-| Capturas (defensiva) | 16 (19º) | 19 (12º) |
-| Jugadas/partido | 62.1 (15º) | 72.1 (1º) |
+| Capturas recibidas | 23 (25º) | 19 (19º) |
+| Capturas (defensiva) | 16 (19º) | 22 (7º) |
+| Jugadas/partido | 62.1 (15º) | 71.9 (1º) |
 | Situación | 7 días de descanso | 6 días de descanso |
 
 **TB últimos 5:** G 16-0 vs ATL (-2.5 ✓, B) · G 43-13 @ CAR (+3 ✓, A) · P 19-26 vs PIT (+2.5 ✗, A) · G 24-16 @ DAL (+8.5 ✓, B) · P 14-17 vs GB (+2.5 ✗, B)
-**CHI últimos 5:** G 30-24 vs NE (-3 ✓, A) · G 31-23 @ ATL (-1.5 ✓, A) · P 7-31 @ GB (-1.5 ✗, B) · G 23-12 vs NYJ (-3.5 ✓, B) · G 27-7 vs PHI (+3 ✓, B)
+**CHI últimos 5:** G 34-17 @ SEA (+3 ✓, A) · G 30-24 vs NE (-3 ✓, A) · G 31-23 @ ATL (-1.5 ✓, A) · P 7-31 @ GB (-1.5 ✗, B) · G 23-12 vs NYJ (-3.5 ✓, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
 | | **TB** | **CHI** |
 |---|---|---|
 | Entrenador en jefe | Todd Bowles | Ben Johnson |
-| Carrera del coach (desde '99) | 65-82 · ATS 65-76-6 | 17-9 · ATS 16-9-1 |
+| Carrera del coach (desde '99) | 65-82 · ATS 65-76-6 | 18-9 · ATS 17-9-1 |
 | Coach en este rol | como no favorito: 25-55 · ATS 37-39-4 | como favorito: 10-3 · ATS 8-4-1 |
 | Coach de local / de visita | visita: 31-42 · ATS 35-35-3 | local: 10-4 · ATS 9-4-1 |
 | Coach vs esta franquicia | 1-1 · ATS 1-1 | — |
 | Cara a cara vs el otro coach | — | — |
-| Coach después de victoria | 27-34 · ATS 26-32-3 | 10-6 · ATS 9-6-1 |
-| Coach en horario estelar | 11-18 · ATS 10-18-1 | 5-2 · ATS 5-2 |
+| Coach después de victoria | 27-34 · ATS 26-32-3 | 11-6 · ATS 10-6-1 |
+| Coach en horario estelar | 11-18 · ATS 10-18-1 | 6-2 · ATS 6-2 |
 | QB | Baker Mayfield | Caleb Williams |
-| QB, carrera como titular (desde '99) | 63-67 · ATS 58-71-1 | 20-20 · ATS 22-15-3 |
+| QB, carrera como titular (desde '99) | 63-67 · ATS 58-71-1 | 21-20 · ATS 23-15-3 |
 | QB vs este rival | 2-0 · ATS 2-0 | — |
 | QB en este rol | como no favorito: 24-41 · ATS 35-30 | como favorito: 12-3 · ATS 10-4-1 |
 | Esta temporada de local | 1-4 · ATS 1-3-1 · 16.8-17.8 | 3-1 · ATS 3-1 · 20.8-13.0 |
-| Esta temporada de visita | 2-1 · ATS 2-1 · 31.3-20.7 | 2-1 · ATS 2-1 · 32.3-30.3 |
-| Ventaja de local, últimas 3 temporadas | -0.4 pts (local 10-12, visita 11-9) | +5.1 pts (local 12-8, visita 9-12) |
-| Victorias pitagóricas vs reales | 4.8 vs 3 | 4.4 vs 5 |
+| Esta temporada de visita | 2-1 · ATS 2-1 · 31.3-20.7 | 3-1 · ATS 3-1 · 32.8-27.0 |
+| Ventaja de local, últimas 3 temporadas | -0.4 pts (local 10-12, visita 11-9) | +4.6 pts (local 12-8, visita 10-12) |
+| Victorias pitagóricas vs reales | 4.8 vs 3 | 5.3 vs 6 |
 | Partidos de una posesión (≤8) | 1-5 | 2-1 |
 
 **Serie, últimos 10:** CHI 5-5 directo · 5-5 ATS · altas/bajas 5-5 · total promedio 43.8 · TB ha ganado 2 seguidos · último: 2023 sem 2, CHI 17-27
@@ -2013,32 +2010,32 @@ _backfield: comité (Emanuel Wilson 76% de los toques) · top-2 de targets: 51% 
 **A destacar:**
 - **TB** — rinde abajo de su diferencial de puntos por 1.8 victorias (partidos de una posesión 1-5) — mejor que su récord
 - **CHI** — Ben Johnson de local: 9-4-1 ATS *(tendencia — color)*
+- **CHI** — Ben Johnson en horario estelar: 6-2 *(tendencia — color)*
 - **CHI** — Ben Johnson como favorito: 8-4-1 ATS *(tendencia — color)*
-- **CHI** — Ben Johnson en horario estelar: 5-2 *(tendencia — color)*
 
-**CHI lesiones:** Malik Muhammad II CB (Cuestionable — Dedo del pie), D'Marco Jackson LB (Cuestionable — Tobillo), Kyle Monangai RB (Fuera — Pulgar)
-**TB lesiones:** Yaya Diaby LB (Fuera — Rodilla - LCM), Billy Schrauth G (Fuera — Coach's Decision), Ayden Garnes CB (Fuera — Coach's Decision), Luke Haggard G (Fuera — Coach's Decision), DeMonte Capehart DT (Fuera — Coach's Decision)
+**CHI lesiones:** Kyle Monangai RB (Cuestionable — Dedo del pie), Kentavius Street DT (Cuestionable — Rodilla), Grady Jarrett DE (Cuestionable — Ingle), Malik Muhammad II CB (Cuestionable — Dedo del pie)
+**TB lesiones:** Emeka Egbuka WR (Cuestionable — Pie), Yaya Diaby LB (Fuera — Rodilla - LCM)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Bucky Irving (RB, TB) | 17.1 (15.5) | 9% (11%) | 1.4 (3.4) | 54% (55%) | 66% | 🔴 CHI es 28º que más permite a RB (18.6) |
-| Baker Mayfield (QB, TB) *(se perdió 1 de los últimos 3)* | 16.5 (16.5) | 7.0 pases (22.0) | 4.6 (6.2) | 5% (9%) | 95% | 🟢 CHI es 8º que más permite a QB (19.9) |
-| Emeka Egbuka (WR, TB) **Fuera** *(se perdió 2 de los últimos 3)* | 11.7 (9.7) | 39% (26%) | 3.0 (4.9) | — (1%) | 86% |  CHI es 21º que más permite a WR (29.2) |
-| Chris Godwin Jr. (WR, TB) 📈 ⬆️ | 10.4 (8.4) | 25% (17%) | 4.6 (6.9) | — (1%) | 83% |  CHI es 21º que más permite a WR (29.2) |
-| Cade Otton (TE, TB) ⬇️ | 8.3 (6.5) | 5% (15%) | — (6.2) | — (—) | 95% |  CHI es 19º que más permite a TE (13.1) |
-| Kenny Gainwell (RB, TB) 📈 ⬇️ | 6.8 (6.0) | 4% (9%) | — (3.4) | 32% (22%) | 30% | 🔴 CHI es 28º que más permite a RB (18.6) |
-| Ted Hurst III (WR, TB) | 5.2 (4.4) | 15% (12%) | 5.0 (7.0) | — (—) | 49% |  CHI es 21º que más permite a WR (29.2) |
-| Tez Johnson (WR, TB) | 4.0 (3.4) | 9% (7%) | 8.0 (11.9) | 1% (1%) | 46% |  CHI es 21º que más permite a WR (29.2) |
-| Caleb Williams (QB, CHI) *(se perdió 1 de los últimos 3)* | 18.8 (18.8) | 34.5 pases (31.0) | 8.9 (8.2) | 14% (18%) | 100% | 🔴 TB es 29º que más permite a QB (13.1) |
-| D'Andre Swift (RB, CHI) | 14.8 (13.6) | 14% (12%) | 4.9 (5.8) | 54% (47%) | 67% | 🔴 TB es 31º que más permite a RB (16.9) |
-| Luther Burden III (WR, CHI) | 13.6 (11.2) | 17% (21%) | 15.1 (10.4) | 6% (3%) | 58% | 🔴 TB es 27º que más permite a WR (27.2) |
-| Rome Odunze (WR, CHI) | 11.3 (9.4) | 17% (17%) | 8.2 (10.0) | — (—) | 96% | 🔴 TB es 27º que más permite a WR (27.2) |
-| Colston Loveland (TE, CHI) | 11.1 (8.9) | 23% (19%) | 6.4 (5.8) | — (—) | 84% |  TB es 11º que más permite a TE (14.8) |
-| Kalif Raymond (WR, CHI) ⬇️ | 7.9 (6.4) | 8% (14%) | 3.0 (7.9) | 1% (0%) | 61% | 🔴 TB es 27º que más permite a WR (27.2) |
-| Kyle Monangai (RB, CHI) **Fuera** *(se perdió 3 de los últimos 3)* | 7.6 (7.2) | — (4%) | — (7.8) | — (38%) | — | 🔴 TB es 31º que más permite a RB (16.9) |
-| Zavion Thomas (WR, CHI) | 3.1 (2.6) | 4% (3%) | — (7.4) | 1% (0%) | 14% | 🔴 TB es 27º que más permite a WR (27.2) |
+| Bucky Irving (RB, TB) | 17.5 (16.0) | 9% (11%) | 1.4 (3.4) | 54% (55%) | 66% | 🔴 CHI es 30º que más permite a RB (17.8) |
+| Baker Mayfield (QB, TB) *(se perdió 1 de los últimos 3)* | 16.2 (16.2) | 7.0 pases (22.0) | 4.6 (6.2) | 5% (9%) | 95% | 🟢 CHI es 8º que más permite a QB (19.7) |
+| Emeka Egbuka (WR, TB) **Cuestionable** *(se perdió 2 de los últimos 3)* | 10.6 (8.7) | 39% (26%) | 3.0 (4.9) | — (1%) | 86% |  CHI es 16º que más permite a WR (30.5) |
+| Chris Godwin Jr. (WR, TB) ⬆️ | 9.4 (7.6) | 25% (17%) | 4.6 (6.9) | — (1%) | 83% |  CHI es 16º que más permite a WR (30.5) |
+| Cade Otton (TE, TB) ⬇️ | 7.7 (6.1) | 5% (15%) | — (6.2) | — (—) | 95% |  CHI es 22º que más permite a TE (12.0) |
+| Kenny Gainwell (RB, TB) 📈 ⬇️ | 7.2 (6.3) | 4% (9%) | — (3.4) | 32% (22%) | 30% | 🔴 CHI es 30º que más permite a RB (17.8) |
+| Ted Hurst III (WR, TB) | 4.8 (4.1) | 15% (12%) | 5.0 (7.0) | — (—) | 49% |  CHI es 16º que más permite a WR (30.5) |
+| Tez Johnson (WR, TB) | 4.0 (3.4) | 9% (7%) | 8.0 (11.9) | 1% (1%) | 46% |  CHI es 16º que más permite a WR (30.5) |
+| Caleb Williams (QB, CHI) | 18.5 (18.5) | 34.3 pases (31.6) | 8.3 (8.0) | 11% (15%) | 100% | 🔴 TB es 29º que más permite a QB (13.1) |
+| D'Andre Swift (RB, CHI) ⬆️ | 16.6 (15.3) | 12% (11%) | 4.0 (5.6) | 66% (51%) | 73% | 🔴 TB es 31º que más permite a RB (16.9) |
+| Luther Burden III (WR, CHI) | 14.7 (12.1) | 22% (22%) | 13.4 (9.8) | 1% (3%) | 52% | 🔴 TB es 27º que más permite a WR (27.2) |
+| Rome Odunze (WR, CHI) | 11.6 (9.7) | 15% (17%) | 13.0 (10.6) | — (—) | 94% | 🔴 TB es 27º que más permite a WR (27.2) |
+| Colston Loveland (TE, CHI) ⬆️ | 11.1 (8.9) | 29% (20%) | 7.1 (6.1) | — (—) | 88% |  TB es 11º que más permite a TE (14.8) |
+| Kalif Raymond (WR, CHI) ⬇️ | 7.6 (6.2) | 7% (13%) | 4.6 (7.6) | 1% (1%) | 61% | 🔴 TB es 27º que más permite a WR (27.2) |
+| Kyle Monangai (RB, CHI) **Cuestionable** *(se perdió 3 de los últimos 3)* | 7.0 (6.5) | — (4%) | — (7.8) | — (38%) | — | 🔴 TB es 31º que más permite a RB (16.9) |
+| Zavion Thomas (WR, CHI) | 3.0 (2.5) | 6% (3%) | 4.8 (5.1) | — (0%) | 13% | 🔴 TB es 27º que más permite a WR (27.2) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
 
@@ -2061,15 +2058,15 @@ _backfield: comité (Bucky Irving 60% de los toques) · top-2 de targets: 64% de
 
 | Jugador | % snaps | % targets | Targets/partido | % yds aéreas compl. | % zona roja | % toques backfield |
 |---|---|---|---|---|---|---|
-| D'Andre Swift (RB) | 67% (60%) | 14% (12%) | 4.7 | — | 42% (42%) acarreos | 69% (59%) |
-| Roschon Johnson (RB) | 32% (21%) | 9% (6%) | 3.0 | — | 26% (16%) acarreos | 31% (19%) |
+| D'Andre Swift (RB) | 73% (62%) | 12% (11%) | 4.0 | — | 52% (45%) acarreos | 77% (62%) |
+| Roschon Johnson (RB) | 25% (21%) | 3% (6%) | 1.0 | — | 32% (20%) acarreos | 23% (18%) |
 | Kyle Monangai (RB) *(se perdió 3)* | — (41%) | — (4%) | 1.2 | — | — (30%) acarreos | — (44%) |
-| Colston Loveland (TE) | 84% (86%) | 23% (19%) | 8.0 | 28% (16%) | 31% (27%) | — |
-| Luther Burden III (WR) | 58% (60%) | 17% (21%) | 6.0 | 30% (28%) | 23% (24%) | — |
-| Rome Odunze (WR) | 96% (85%) | 17% (17%) | 6.0 | 33% (36%) | 23% (15%) | — |
-| Kalif Raymond (WR) | 61% (61%) | 8% (14%) | 2.7 | — (14%) | — (6%) | — |
+| Colston Loveland (TE) | 88% (86%) | 29% (20%) | 9.3 | 29% (17%) | 36% (25%) | — |
+| Luther Burden III (WR) | 52% (60%) | 22% (22%) | 7.0 | 28% (27%) | 27% (28%) | — |
+| Rome Odunze (WR) | 94% (85%) | 15% (17%) | 5.0 | 40% (39%) | 9% (14%) | — |
+| Kalif Raymond (WR) | 61% (62%) | 7% (13%) | 2.3 | 2% (13%) | 9% (8%) | — |
 
-_backfield: comité (D'Andre Swift 69% de los toques) · top-2 de targets: 41% del equipo_
+_backfield: comité (D'Andre Swift 77% de los toques) · top-2 de targets: 51% del equipo — árbol concentrado_
 
 
 **Jugadores clave** (por partido: últimos 3 del equipo · temporada entre paréntesis)
@@ -2081,7 +2078,7 @@ _backfield: comité (D'Andre Swift 69% de los toques) · top-2 de targets: 41% d
 | Baker Mayfield (QB) *(se perdió 1)* | 95% (97%) | 3.5/7.0 · 32.0 yds · 50% (temp. 135.8 yds) | 2.5 (3.2) · 7.5 (16.0) · 3.0 (5.0) | — | 3 TD pase · 2 INT · 1 TD carrera | 4.0 (9.0) | S8 vs ATL: 0/3, 0 yds, 0 TD, 0 INT · 100% snaps · 1.4 PPR<br>S7 vs CAR: 7/11, 64 yds, 1 TD, 0 INT · 90% snaps · 6.7 PPR<br>S6 no jugó |
 | Bucky Irving (RB) | 66% (63%) | 1.7 (2.9) · 1.0 (2.2) · 2.3 (9.8) | 23.3 (18.4) · 107.3 (91.0) · 4.6 (5.0) | 24.3 (20.6) | 6 (5 carrera, 1 recepción) | 17.3 (16.3) | S8 vs ATL: 27-170-1 carrera · 50% snaps · 21.0 PPR<br>S7 vs CAR: 24-106-2 carrera, 1-4 en 2 tgt · 59% snaps · 24.0 PPR<br>S6 vs PIT: 19-46 carrera, 2-3 en 3 tgt · 85% snaps · 6.9 PPR |
 | Kenny Gainwell (RB) | 30% (37%) | 0.7 (2.2) · 0.3 (1.5) · 2.3 (7.6) | 13.7 (7.2) · 81.7 (36.1) · 6.0 (5.0) | 14.0 (8.8) | 1 (0 carrera, 1 recepción) | 8.7 (6.6) | S8 vs ATL: 25-140 carrera, 0-0 en 1 tgt · 50% snaps · 14.0 PPR<br>S7 vs CAR: 14-88 carrera · 30% snaps · 8.8 PPR<br>S6 vs PIT: 2-17 carrera, 1-7 en 1 tgt · 15% snaps · 3.4 PPR |
-| Emeka Egbuka (WR) · Fuera *(se perdió 2)* | 86% (86%) | 16.0 (8.2) · 7.0 (4.7) · 48.0 (40.0) | — | 7.0 (5.0) | 3 (1 carrera, 2 recepción) | 17.8 (11.8) | S8 no jugó<br>S7 no jugó<br>S6 vs PIT: 7-48-1 en 16 tgt · 86% snaps · 17.8 PPR |
+| Emeka Egbuka (WR) · Cuestionable *(se perdió 2)* | 86% (86%) | 16.0 (8.2) · 7.0 (4.7) · 48.0 (40.0) | — | 7.0 (5.0) | 3 (1 carrera, 2 recepción) | 17.8 (11.8) | S8 no jugó<br>S7 no jugó<br>S6 vs PIT: 7-48-1 en 16 tgt · 86% snaps · 17.8 PPR |
 | Chris Godwin Jr. (WR) | 83% (82%) | 4.7 (4.4) · 2.7 (3.4) · 21.3 (30.4) | — | 2.7 (3.8) | 0 | 4.8 (6.6) | S8 vs ATL: 0-0 en 1 tgt · 82% snaps · 0.0 PPR<br>S7 vs CAR: 4-27 en 5 tgt · 73% snaps · 6.7 PPR<br>S6 vs PIT: 4-37 en 8 tgt · 92% snaps · 7.7 PPR |
 | Ted Hurst III (WR) | 49% (57%) | 2.7 (3.0) · 1.0 (1.4) · 13.3 (21.0) | — | 1.0 (1.4) | 1 (0 carrera, 1 recepción) | 2.3 (4.2) | S8 vs ATL: 0-0 en 1 tgt · 42% snaps · 0.0 PPR<br>S7 vs CAR: 0-0 en 1 tgt · 56% snaps · 0.0 PPR<br>S6 vs PIT: 3-40 en 6 tgt · 50% snaps · 7.0 PPR |
 
@@ -2089,28 +2086,28 @@ _backfield: comité (D'Andre Swift 69% de los toques) · top-2 de targets: 41% d
 
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
-| Caleb Williams (QB) *(se perdió 1)* | 100% (97%) | 26.0/34.5 · 306.5 yds · 75% (temp. 255.0 yds) | 4.5 (6.0) · 10.5 (32.0) · 2.3 (5.3) | — | 5 TD pase · 1 INT · 2 TD carrera | 19.3 (21.1) | S7 vs NE: 22/33, 308 yds, 2 TD, 0 INT, 5-18 carrera · 100% snaps · 22.1 PPR<br>S6 vs ATL: 30/36, 305 yds, 1 TD, 0 INT · 100% snaps · 16.5 PPR<br>S5 no jugó |
-| D'Andre Swift (RB) | 67% (60%) | 4.7 (3.7) · 4.0 (3.1) · 22.7 (21.7) | 15.7 (16.6) · 55.0 (68.0) · 3.5 (4.1) | 19.7 (19.7) | 7 (7 carrera, 0 recepción) | 19.8 (17.5) | S7 vs NE: 22-78-1 carrera, 4-12 en 4 tgt · 86% snaps · 19.0 PPR<br>S6 vs ATL: 16-44-2 carrera, 4-26 en 5 tgt · 58% snaps · 23.0 PPR<br>S5 vs GB: 9-43-1 carrera, 4-30 en 5 tgt · 58% snaps · 17.3 PPR |
-| Kyle Monangai (RB) · Fuera *(se perdió 3)* | — (41%) | — (1.2) · — (1.2) · — (9.8) | — (15.0) · — (81.0) · — (5.4) | — (16.2) | 3 (3 carrera, 0 recepción) | — (14.8) | S7 no jugó<br>S6 no jugó<br>S5 no jugó |
-| Colston Loveland (TE) | 84% (86%) | 8.0 (6.0) · 5.0 (3.7) · 51.0 (34.9) | — | 5.0 (3.7) | 2 (0 carrera, 2 recepción) | 14.1 (8.9) | S7 vs NE: 7-69-1 en 12 tgt · 84% snaps · 19.9 PPR<br>S6 vs ATL: 6-65-1 en 7 tgt · 88% snaps · 18.5 PPR<br>S5 vs GB: 2-19 en 5 tgt · 80% snaps · 3.9 PPR |
-| Luther Burden III (WR) | 58% (60%) | 6.0 (6.7) · 5.3 (5.0) · 90.7 (70.1) | 1.7 (1.1) · 3.0 (4.1) · 1.8 (3.6) | 7.0 (6.1) | 2 (0 carrera, 2 recepción) | 16.7 (13.9) | S7 vs NE: 4-130-1 en 4 tgt · 61% snaps · 23.7 PPR<br>S6 vs ATL: 8-95 en 8 tgt · 39% snaps · 17.5 PPR<br>S5 vs GB: 4-47 en 6 tgt · 77% snaps · 8.9 PPR |
-| Rome Odunze (WR) | 96% (85%) | 6.0 (5.4) · 3.3 (3.4) · 49.3 (54.4) | — | 3.3 (3.4) | 0 | 7.6 (8.6) | S7 vs NE: 4-69 en 5 tgt · 94% snaps · 10.9 PPR<br>S6 vs ATL: 3-39 en 4 tgt · 96% snaps · 6.9 PPR<br>S5 vs GB: 3-40 en 9 tgt · 99% snaps · 5.0 PPR |
+| Caleb Williams (QB) | 100% (97%) | 25.3/34.3 · 286.7 yds · 74% (temp. 253.4 yds) | 3.7 (5.2) · 7.3 (25.8) · 2.0 (5.0) | — | 6 TD pase · 1 INT · 2 TD carrera | 17.5 (19.7) | S8 vs SEA: 24/34, 247 yds, 1 TD, 0 INT · 100% snaps · 14.0 PPR<br>S7 vs NE: 22/33, 308 yds, 2 TD, 0 INT, 5-18 carrera · 100% snaps · 22.1 PPR<br>S6 vs ATL: 30/36, 305 yds, 1 TD, 0 INT · 100% snaps · 16.5 PPR |
+| D'Andre Swift (RB) | 73% (62%) | 4.0 (3.6) · 3.3 (3.0) · 16.0 (20.2) | 21.7 (17.9) · 63.7 (68.1) · 2.9 (3.8) | 25.0 (20.9) | 10 (10 carrera, 0 recepción) | 23.3 (18.8) | S8 vs SEA: 27-69-3 carrera, 2-10 en 3 tgt · 77% snaps · 27.9 PPR<br>S7 vs NE: 22-78-1 carrera, 4-12 en 4 tgt · 86% snaps · 19.0 PPR<br>S6 vs ATL: 16-44-2 carrera, 4-26 en 5 tgt · 58% snaps · 23.0 PPR |
+| Kyle Monangai (RB) · Cuestionable *(se perdió 3)* | — (41%) | — (1.2) · — (1.2) · — (9.8) | — (15.0) · — (81.0) · — (5.4) | — (16.2) | 3 (3 carrera, 0 recepción) | — (14.8) | S8 no jugó<br>S7 no jugó<br>S6 no jugó |
+| Colston Loveland (TE) | 88% (86%) | 9.3 (6.4) · 6.7 (4.1) · 66.3 (38.6) | — | 6.7 (4.1) | 2 (0 carrera, 2 recepción) | 16.6 (9.2) | S8 vs SEA: 7-65 en 9 tgt · 93% snaps · 11.5 PPR<br>S7 vs NE: 7-69-1 en 12 tgt · 84% snaps · 19.9 PPR<br>S6 vs ATL: 6-65-1 en 7 tgt · 88% snaps · 18.5 PPR |
+| Luther Burden III (WR) | 52% (60%) | 7.0 (7.0) · 6.3 (5.2) · 93.7 (68.4) | 0.3 (1.0) · 2.3 (3.6) · — (3.6) | 6.7 (6.2) | 3 (0 carrera, 3 recepción) | 19.9 (14.4) | S8 vs SEA: 7-56-1 en 9 tgt · 57% snaps · 18.6 PPR<br>S7 vs NE: 4-130-1 en 4 tgt · 61% snaps · 23.7 PPR<br>S6 vs ATL: 8-95 en 8 tgt · 39% snaps · 17.5 PPR |
+| Rome Odunze (WR) | 94% (85%) | 5.0 (5.5) · 3.7 (3.5) · 65.0 (58.5) | — | 3.7 (3.5) | 0 | 10.2 (9.1) | S8 vs SEA: 4-87 en 6 tgt · 90% snaps · 12.7 PPR<br>S7 vs NE: 4-69 en 5 tgt · 94% snaps · 10.9 PPR<br>S6 vs ATL: 3-39 en 4 tgt · 96% snaps · 6.9 PPR |
 
 
-*DST TB:* 2.0 capturas, 1.8 balones recuperados, 18.1 pts permitidos por partido · ofensiva de CHI: 18 capturas recibidas, 11 balones perdidos, total implícito 26.5
+*DST TB:* 2.0 capturas, 1.8 balones recuperados, 18.1 pts permitidos por partido · ofensiva de CHI: 19 capturas recibidas, 12 balones perdidos, total implícito 26.8
 
-*DST CHI:* 2.7 capturas, 1.0 balones recuperados, 20.4 pts permitidos por partido · ofensiva de TB: 23 capturas recibidas, 12 balones perdidos, total implícito 21.0
+*DST CHI:* 2.8 capturas, 1.0 balones recuperados, 20.0 pts permitidos por partido · ofensiva de TB: 23 capturas recibidas, 12 balones perdidos, total implícito 20.8
 
 ---
 
 ## BUF @ MIN — lun 9 nov, 7:15 pm CDMX (8:15 pm ET)
 *U.S. Bank Stadium · sintético · techado*
 
-**Línea:** BUF -2.5 (abrió BUF -3) · total 46.5 (abrió 48.5) · ML MIN +130 / BUF -155
-**Totales implícitos:** MIN 22.0 · BUF 24.5
-**Chequeo de línea (margen del local):** mercado MIN -2.5 · SRS MIN +2.1 · FPI MIN -3.7 — modelos divididos (SRS +4.6, FPI -1.2 vs mercado) — sin señal
-**Prob. de victoria:** mercado MIN 42% · FPI MIN 39%
-**Chequeo del total:** modelo PF/PA 46.2 vs 46.5 (inclinación a bajas por 0.3 — ruido)
+**Línea:** BUF -3.5 (abrió BUF -3) · total 45.5 (abrió 48.5) · ML MIN +150 / BUF -180
+**Totales implícitos:** MIN 21.0 · BUF 24.5
+**Chequeo de línea (margen del local):** mercado MIN -3.5 · SRS MIN +2.6 · FPI MIN -4.8 — modelos divididos (SRS +6.1, FPI -1.3 vs mercado) — sin señal
+**Prob. de victoria:** mercado MIN 38% · FPI MIN 36%
+**Chequeo del total:** modelo PF/PA 46.2 vs 45.5 (inclinación a altas por 0.7 — ruido)
 
 | | **BUF** | **MIN** |
 |---|---|---|
@@ -2118,12 +2115,12 @@ _backfield: comité (D'Andre Swift 69% de los toques) · top-2 de targets: 41% d
 | ATS (de favorito / de no favorito) | 5-2 (4-2 / 1-0) | 4-3 (2-2 / 2-1) |
 | Altas/Bajas | 5-2 | 1-6 |
 | Margen prom. · cobertura prom. | +7.4 · +3.7 | +6.7 · +4.9 |
-| Rating SRS | +4.2 (6º) | +4.8 (2º) |
+| Rating SRS | +4.2 (7º) | +5.2 (3º) |
 | Puntos a favor / en contra | 33.3 (1º) / 25.9 (24º) | 20.0 (27º) / 13.3 (1º) |
 | Yds netas/intento de pase | 7.9 (1º) | 5.4 (25º) |
 | Yds/acarreo | 4.8 (4º) | 4.0 (21º) |
-| % en 3ª oportunidad | 44% (5º) | 36% (27º) |
-| % de TD en zona roja | 70% (6º) | 56% (18º) |
+| % en 3ª oportunidad | 44% (6º) | 36% (26º) |
+| % de TD en zona roja | 70% (6º) | 56% (19º) |
 | Diferencial de balones | -2 (22º) | +7 (2º) |
 | Capturas recibidas | 13 (10º) | 21 (22º) |
 | Capturas (defensiva) | 15 (24º) | 25 (2º) |
@@ -2161,26 +2158,26 @@ _backfield: comité (D'Andre Swift 69% de los toques) · top-2 de targets: 41% d
 **A destacar:**
 - **BUF** — rinde arriba de su diferencial de puntos por 1.5 victorias (partidos de una posesión 4-1) — riesgo de regresión
 
-**MIN lesiones:** Kyler Murray QB (Cuestionable — Isquiotibial), Theo Jackson S (Cuestionable — Cuádriceps), Max Brosmer QB (Fuera — Coach's Decision), Jakobe Thomas S (Fuera — Coach's Decision), Caleb Tiernan OT (Fuera — Coach's Decision)
-**BUF lesiones:** DJ Moore WR (Cuestionable — Rodilla), Joshua Palmer WR (Cuestionable — Isquiotibial), Dee Alford CB (Fuera — Tobillo), Greg Gaines DT (Fuera — Pantorrilla)
+**MIN lesiones:** Christian Darrisaw OT (Cuestionable — Hombro), Kyler Murray QB (Cuestionable — Isquiotibial), Theo Jackson S (Cuestionable — Cuádriceps)
+**BUF lesiones:** Greg Gaines DT (Cuestionable — Pantorrilla), Dee Alford CB (Cuestionable — Tobillo), Spencer Brown OT (Cuestionable — Espalda), DJ Moore WR (Cuestionable — Rodilla), Joshua Palmer WR (Cuestionable — Isquiotibial)
 
 **Fantasy**
 
 | Jugador | Proy. PPR (half) | % targets últ. 3 (temp.) · QB: pases/partido | Yds/pase (QB) · yds/target últ. 3 (temp.) | % acarreos últ. 3 (temp.) | % snaps últ. 3 | Enfrentamiento |
 |---|---|---|---|---|---|---|
-| Josh Allen (QB, BUF) | 21.8 (21.8) | 28.7 pases (29.3) | 8.8 (8.7) | 21% (25%) | 98% | 🔴 MIN es 32º que más permite a QB (8.9) |
-| James Cook III (RB, BUF) **Cuestionable** | 15.1 (14.4) | 9% (9%) | 12.3 (6.5) | 64% (64%) | 60% | 🔴 MIN es 29º que más permite a RB (18.4) |
+| Josh Allen (QB, BUF) | 22.5 (22.5) | 28.7 pases (29.3) | 8.8 (8.7) | 21% (25%) | 98% | 🔴 MIN es 32º que más permite a QB (8.9) |
+| James Cook III (RB, BUF) | 15.0 (14.2) | 9% (9%) | 12.3 (6.5) | 64% (64%) | 60% | 🔴 MIN es 28º que más permite a RB (18.4) |
 | DJ Moore (WR, BUF) **Cuestionable** *(se perdió 2 de los últimos 3)* | 12.9 (10.9) | 21% (19%) | 11.7 (9.6) | 2% (2%) | 66% | 🔴 MIN es 29º que más permite a WR (25.9) |
-| Dalton Kincaid (TE, BUF) | 9.3 (7.6) | 20% (18%) | 8.2 (11.5) | — (—) | 66% | 🔴 MIN es 32º que más permite a TE (7.1) |
-| Khalil Shakir (WR, BUF) 📈 | 7.9 (6.3) | 19% (20%) | 11.9 (9.3) | — (—) | 65% | 🔴 MIN es 29º que más permite a WR (25.9) |
-| Keon Coleman (WR, BUF) 📈 | 6.8 (5.6) | 14% (14%) | 6.4 (10.6) | — (—) | 78% | 🔴 MIN es 29º que más permite a WR (25.9) |
-| Ty Johnson (RB, BUF) | 4.8 (4.1) | 11% (11%) | 12.8 (11.6) | 5% (4%) | 21% | 🔴 MIN es 29º que más permite a RB (18.4) |
-| Justin Jefferson (WR, MIN) | 17.3 (14.3) | 28% (27%) | 6.8 (8.4) | 1% (1%) | 92% | 🟢 BUF es 5º que más permite a WR (37.1) |
-| Kyler Murray (QB, MIN) **Cuestionable** 📈 | 17.0 (17.0) | 27.7 pases (25.7) | 7.1 (6.6) | 23% (17%) | 100% |  BUF es 11º que más permite a QB (19.0) |
-| T.J. Hockenson (TE, MIN) ⬇️ | 10.3 (8.1) | 14% (20%) | 9.1 (8.0) | — (—) | 50% |  BUF es 13º que más permite a TE (14.1) |
-| Aaron Jones Sr. (RB, MIN) | 9.9 (8.8) | 7% (12%) | 3.7 (4.3) | 46% (55%) | 54% | 🟢 BUF es 3º que más permite a RB (26.5) |
-| Jordan Addison (WR, MIN) 📈 *(se perdió 1 de los últimos 3)* | 8.4 (7.1) | 21% (22%) | 7.8 (7.5) | 2% (1%) | 90% | 🟢 BUF es 5º que más permite a WR (37.1) |
-| Jordan Mason (RB, MIN) *(se perdió 1 de los últimos 3)* | 8.2 (7.7) | 4% (3%) | — (—) | 49% (47%) | 47% | 🟢 BUF es 3º que más permite a RB (26.5) |
+| Dalton Kincaid (TE, BUF) | 9.8 (7.9) | 20% (18%) | 8.2 (11.5) | — (—) | 66% | 🔴 MIN es 32º que más permite a TE (7.1) |
+| Khalil Shakir (WR, BUF) 📈 | 9.1 (7.5) | 19% (20%) | 11.9 (9.3) | — (—) | 65% | 🔴 MIN es 29º que más permite a WR (25.9) |
+| Keon Coleman (WR, BUF) | 6.9 (5.7) | 14% (14%) | 6.4 (10.6) | — (—) | 78% | 🔴 MIN es 29º que más permite a WR (25.9) |
+| Ty Johnson (RB, BUF) | 4.9 (4.2) | 11% (11%) | 12.8 (11.6) | 5% (4%) | 21% | 🔴 MIN es 28º que más permite a RB (18.4) |
+| Justin Jefferson (WR, MIN) | 17.7 (14.7) | 28% (27%) | 6.8 (8.4) | 1% (1%) | 92% | 🟢 BUF es 5º que más permite a WR (37.1) |
+| Kyler Murray (QB, MIN) **Cuestionable** | 17.2 (17.2) | 27.7 pases (25.7) | 7.1 (6.6) | 23% (17%) | 100% |  BUF es 11º que más permite a QB (19.0) |
+| T.J. Hockenson (TE, MIN) ⬇️ | 10.8 (8.5) | 14% (20%) | 9.1 (8.0) | — (—) | 50% |  BUF es 13º que más permite a TE (14.1) |
+| Aaron Jones Sr. (RB, MIN) | 9.6 (8.5) | 7% (12%) | 3.7 (4.3) | 46% (55%) | 54% | 🟢 BUF es 3º que más permite a RB (26.5) |
+| Jordan Addison (WR, MIN) *(se perdió 1 de los últimos 3)* | 8.5 (7.2) | 21% (22%) | 7.8 (7.5) | 2% (1%) | 90% | 🟢 BUF es 5º que más permite a WR (37.1) |
+| Jordan Mason (RB, MIN) *(se perdió 1 de los últimos 3)* | 7.7 (7.2) | 4% (3%) | — (—) | 49% (47%) | 47% | 🟢 BUF es 3º que más permite a RB (26.5) |
 | Jauan Jennings (WR, MIN) | 3.3 (2.7) | 7% (6%) | 7.5 (5.4) | — (—) | 61% | 🟢 BUF es 5º que más permite a WR (37.1) |
 
 **Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)
@@ -2220,7 +2217,7 @@ _backfield: comité (Aaron Jones Sr. 63% de los toques) · top-2 de targets: 50%
 | Jugador | % snaps | Targets · rec · yds | Acarreos · yds · ypc | Toques | TD (temp.) | PPR/partido | Últimos 3 |
 |---|---|---|---|---|---|---|---|
 | Josh Allen (QB) | 98% (99%) | 18.7/28.7 · 251.3 yds · 65% (temp. 256.1 yds) | 7.3 (7.9) · 50.7 (38.6) · 6.9 (4.9) | — | 11 TD pase · 5 INT · 9 TD carrera | 25.8 (27.5) | S8 vs BAL: 21/34, 289 yds, 2 TD, 1 INT, 7-30-1 carrera · 95% snaps · 27.6 PPR<br>S6 vs LV: 23/33, 255 yds, 2 TD, 0 INT · 100% snaps · 18.3 PPR<br>S5 vs LAR: 12/19, 210 yds, 1 TD, 1 INT, 10-121-1 carrera · 100% snaps · 31.5 PPR |
-| James Cook III (RB) · Cuestionable | 60% (65%) | 2.3 (2.4) · 2.0 (1.7) · 28.7 (15.7) | 22.7 (19.7) · 95.3 (101.0) · 4.2 (5.1) | 24.7 (21.4) | 7 (7 carrera, 0 recepción) | 21.7 (18.8) | S8 vs BAL: 21-80-1 carrera, 2-21 en 3 tgt · 54% snaps · 18.1 PPR<br>S6 vs LV: 22-95-1 carrera, 3-58 en 3 tgt · 66% snaps · 24.3 PPR<br>S5 vs LAR: 25-111-2 carrera, 1-7 en 1 tgt · 62% snaps · 22.8 PPR |
+| James Cook III (RB) | 60% (65%) | 2.3 (2.4) · 2.0 (1.7) · 28.7 (15.7) | 22.7 (19.7) · 95.3 (101.0) · 4.2 (5.1) | 24.7 (21.4) | 7 (7 carrera, 0 recepción) | 21.7 (18.8) | S8 vs BAL: 21-80-1 carrera, 2-21 en 3 tgt · 54% snaps · 18.1 PPR<br>S6 vs LV: 22-95-1 carrera, 3-58 en 3 tgt · 66% snaps · 24.3 PPR<br>S5 vs LAR: 25-111-2 carrera, 1-7 en 1 tgt · 62% snaps · 22.8 PPR |
 | DJ Moore (WR) · Cuestionable *(se perdió 2)* | 66% (55%) | 7.0 (5.4) · 4.0 (3.2) · 82.0 (52.0) | — | 5.0 (3.8) | 2 (0 carrera, 2 recepción) | 16.6 (10.6) | S8 vs BAL: 4-82-1 en 7 tgt · 66% snaps · 16.6 PPR<br>S6 no jugó<br>S5 no jugó |
 | Dalton Kincaid (TE) | 66% (66%) | 5.3 (5.0) · 4.0 (3.9) · 43.7 (57.3) | — | 4.0 (3.9) | 2 (0 carrera, 2 recepción) | 11.0 (11.3) | S8 vs BAL: 4-86-1 en 6 tgt · 57% snaps · 18.6 PPR<br>S6 vs LV: 7-38 en 8 tgt · 72% snaps · 10.8 PPR<br>S5 vs LAR: 1-7 en 2 tgt · 70% snaps · 3.7 PPR |
 | Khalil Shakir (WR) | 65% (64%) | 5.0 (5.4) · 4.0 (3.9) · 59.3 (50.6) | — | 4.0 (3.9) | 1 (0 carrera, 1 recepción) | 11.9 (9.5) | S8 vs BAL: 5-64 en 6 tgt · 67% snaps · 11.4 PPR<br>S6 vs LV: 4-34-1 en 6 tgt · 60% snaps · 13.4 PPR<br>S5 vs LAR: 3-80 en 3 tgt · 69% snaps · 11.0 PPR |
@@ -2238,7 +2235,7 @@ _backfield: comité (Aaron Jones Sr. 63% de los toques) · top-2 de targets: 50%
 | T.J. Hockenson (TE) | 50% (65%) | 3.7 (5.3) · 3.0 (4.4) · 33.3 (42.1) | — | 3.0 (4.4) | 3 (0 carrera, 3 recepción) | 10.3 (11.2) | S8 vs DET: 4-58-1 en 5 tgt · 83% snaps · 15.8 PPR<br>S7 vs IND: 4-35-1 en 5 tgt · 76% snaps · 13.5 PPR<br>S5 vs NO: 1-7 en 1 tgt · 3% snaps · 1.7 PPR |
 
 
-*DST BUF:* 2.1 capturas, 1.3 balones recuperados, 25.9 pts permitidos por partido · ofensiva de MIN: 21 capturas recibidas, 5 balones perdidos, total implícito 22.0
+*DST BUF:* 2.1 capturas, 1.3 balones recuperados, 25.9 pts permitidos por partido · ofensiva de MIN: 21 capturas recibidas, 5 balones perdidos, total implícito 21.0
 
 *DST MIN:* 3.6 capturas, 1.6 balones recuperados, 12.4 pts permitidos por partido · ofensiva de BUF: 13 capturas recibidas, 11 balones perdidos, total implícito 24.5
 

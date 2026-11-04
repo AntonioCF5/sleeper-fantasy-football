@@ -80,6 +80,17 @@ What the sheet holds, and how to read it:
   number posted before the prior week's games (wk 8: CAR @ GB "opened -7" and
   KC @ DEN's flip both turned out to be lookahead lines, not real moves). A big
   move with no news behind it gets checked against a second book before it goes on air.
+- **A rundown written Monday gets refreshed on recording day** (wk 9: written
+  Mon, recorded Wed). Re-run the sheet, send the research agents only after
+  what's new (practice reports, QB news, the MNF game's injuries), and re-check
+  every call against the new line and its "sirve hasta". Picks that haven't
+  aired are re-logged at the recording-day line, with the change in `why`;
+  aired picks are never edited. Wk 9 example: the MNF result took the TB 🚩
+  away, so ★★ TB +5.5 became ★ TB +6.
+- **Last week's data must include MNF.** `espn.scoreboard` refetches a past
+  week until every game is final, and `load_sleeper` refreshes last week's stat
+  rows every 3h. Before that fix, a Monday cache left CHI @ SEA unplayed all
+  week: CHI +3 ungraded, records and SRS missing a game, SEA usage stale.
 - **nflverse coach names lag for the current season** (2026: Gannon at ARI,
   McDermott at BUF, Morris at ATL, "Kubliak" at LV). `fix_coaches()` overwrites
   this season's rows with `team_env.json`'s `hc`, so keep that field current

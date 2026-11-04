@@ -17,7 +17,8 @@
         "side": "CHI",
         "line": 3.0,
         "conf": 2,
-        "why": "11 days rest; Sweat back vs SEA backup LT (Cross ankle); Darnold 8 INTs"
+        "why": "11 days rest; Sweat back vs SEA backup LT (Cross ankle); Darnold 8 INTs",
+        "result": "W"
       },
       {
         "game": "TEN@CIN",
@@ -58,36 +59,36 @@
     ],
     "9": [
       {
-        "game": "TB@CHI",
-        "bet": "spread",
-        "side": "TB",
-        "line": 5.5,
-        "conf": 2,
-        "why": "Only 🚩 that survives research: TB 1-5 in one-score (-1.8 wins vs differential), 6th scoring D; CHI 6 days after MNF at SEA; 0-completion game was rain"
-      },
-      {
         "game": "CIN@ATL",
         "bet": "spread",
         "side": "CIN",
         "line": -3.0,
         "conf": 1,
-        "why": "Neutral site (Madrid); mild model lean (FPI CIN 78%); Penix 4 INT, ATL 16 giveaways vs CIN 4th in sacks"
+        "why": "Neutral site (Madrid); FPI CIN 77% vs market 58%; Penix 4 INT, ATL 16 giveaways vs CIN 4th in sacks"
+      },
+      {
+        "game": "TB@CHI",
+        "bet": "spread",
+        "side": "TB",
+        "line": 6.0,
+        "conf": 1,
+        "why": "Downgraded from ★★ +5.5 (Mon) once MNF dropped the 🚩: TB 1-5 in one-score games, sharp money on TB (25% of $ on CHI), CHI short week minus Street/Jarrett"
       },
       {
         "game": "GB@NE",
         "bet": "total",
         "side": "under",
-        "line": 47.5,
+        "line": 46.5,
         "conf": 1,
-        "why": "Naive total 42.6; GB 2-6 under, 32nd yds/rush; both D top-10; A.J. Brown doubtful, Watson broken rib; outdoor Nov"
+        "why": "Naive total 42.6; GB 2-6 under, 32nd yds/rush; gusts 22-26 mph; A.J. Brown/Henderson DNP Wed, Watson broken rib"
       },
       {
         "game": "BUF@MIN",
         "bet": "total",
         "side": "under",
-        "line": 46.5,
+        "line": 45.5,
         "conf": 1,
-        "why": "MIN 1-6 under, last 5 totals 25-39; #1 scoring D vs 27th offense; Murray hamstring"
+        "why": "MIN 1-6 under, last 5 totals 25-39; #1 scoring D vs 27th offense; Murray hamstring (Wentz if out)"
       }
     ]
   }

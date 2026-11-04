@@ -214,8 +214,12 @@ tells the user to re-check news once before accepting.
   el 2026-11-02 (lunes, sin reportes de práctica): ★★ TB +5.5; ★ CIN -3, Bajas
   GB/NE 47.5, Bajas BUF/MIN 46.5; la alerta de IND +6 NO se juega (venta de
   jugadores + sin mariscal). Coaches de nflverse corregidos con `team_env.json`
-  (`fix_coaches`). Pendientes antes de grabar el preview: QB de Baltimore,
-  Steichen/QB de IND, lesiones del MNF CHI@SEA.
+  (`fix_coaches`). **Actualizado el mié 4 nov para grabar**: récord 1-5 (CHI +3 ganó
+  34-17); TB bajó de ★★ a ★ +6 porque el MNF quitó la alerta; picks ★ CIN -3,
+  TB +6, Bajas GB/NE 46.5, Bajas BUF/MIN 45.5; survivor cambió a SEA (ARI sin
+  Love/Bourne/Knight). Fagnano titular de BAL, Jones de IND, Watson (CLE) en
+  protocolo de conmoción. Cache corregido: el scoreboard y las stats de la
+  semana pasada se refrescan hasta que el MNF es final.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y
