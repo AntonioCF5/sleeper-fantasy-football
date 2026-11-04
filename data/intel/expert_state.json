@@ -1181,6 +1181,41 @@
    "published": "2026-11-02",
    "source": "fantasy-footballers",
    "processed": "2026-11-03"
+  },
+  "JhrYyLzsQTI": {
+   "video_id": "JhrYyLzsQTI",
+   "title": "7 Players I\u2019m Panicking About in Fantasy Football Right Now",
+   "published": "2026-11-03",
+   "source": "sal-vetri",
+   "processed": "2026-11-03"
+  },
+  "kHnBAoV-vZg": {
+   "video_id": "kHnBAoV-vZg",
+   "title": "Week 9 Waivers + Full Stream Ahead | Fantasy Football 2026 - Ep. 2007",
+   "published": "2026-11-03",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
+  },
+  "cdQCmmSS3is": {
+   "video_id": "cdQCmmSS3is",
+   "title": "Need a QB to start off waivers this week? We like Malik Willis against the Lions \ud83d\udc4d",
+   "published": "2026-11-04",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
+  },
+  "w8MaCLtO3y0": {
+   "video_id": "w8MaCLtO3y0",
+   "title": "Antonio Williams is still not rostered in a enough leagues",
+   "published": "2026-11-03",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
+  },
+  "V265jItkE4Q": {
+   "video_id": "V265jItkE4Q",
+   "title": "The Ravens are a disaster... time to bench Henry and Flowers?",
+   "published": "2026-11-03",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-03"
   }
  },
  "feed_health": {
@@ -1188,8 +1223,8 @@
    "consecutive_failures": 0,
    "last_success": "2026-11-03",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 3
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
