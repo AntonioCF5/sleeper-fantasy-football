@@ -11,7 +11,8 @@
   "vac_tgt_pct": 21.9,
   "vac_rush_pct": 50.4,
   "play_caller": "Mike LaFleur (HC)",
-  "hc": "Mike LaFleur"
+  "hc": "Mike LaFleur",
+  "qb_start": "Gardner Minshew"
  },
  "ATL": {
   "win_total": 6.5,
@@ -37,7 +38,8 @@
   "new_oc": true,
   "vac_tgt_pct": 27.7,
   "vac_rush_pct": 12.6,
-  "play_caller": "Declan Doyle (OC — CONFIRMED 2026-09-02: Ravens' own site, first time calling plays in his career, called both preseason games from the booth)"
+  "play_caller": "Declan Doyle (OC — CONFIRMED 2026-09-02: Ravens' own site, first time calling plays in his career, called both preseason games from the booth)",
+  "qb_start": "Joe Fagnano"
  },
  "BUF": {
   "win_total": 10.5,
@@ -343,7 +345,8 @@
   "vac_tgt_pct": 36.9,
   "vac_rush_pct": 2.5,
   "play_caller": "Sean Mannion (OC)",
-  "hc": "Nick Sirianni"
+  "hc": "Nick Sirianni",
+  "qb_start": "Joe Milton"
  },
  "PIT": {
   "win_total": 8.5,
@@ -381,7 +384,8 @@
   "vac_tgt_pct": 7.7,
   "vac_rush_pct": 44.6,
   "play_caller": "Brian Fleury (OC, first-time caller ever)",
-  "hc": "Mike Macdonald"
+  "hc": "Mike Macdonald",
+  "qb_start": "Drew Lock"
  },
  "TB": {
   "win_total": 8.5,

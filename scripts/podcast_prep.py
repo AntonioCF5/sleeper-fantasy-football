@@ -255,6 +255,7 @@ def load_sleeper(season, week):
     usage = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "snp": 0, "tm_snp": 0}))
     team_tot = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "air": 0, "rz_tgt": 0,
                                                        "rz_rush": 0, "rb_touch": 0}))
+    meta = {}                                                            # pid -> name, pos
     for w, rows in rows_by_week.items():
         for r in rows:
             st = r.get("stats") or {}
@@ -269,6 +270,8 @@ def load_sleeper(season, week):
             if pos not in SKILL or not st.get("gms_active"):
                 continue
             pts = score_stat_line(st, PPR)
+            pl = r.get("player") or {}
+            meta[r["player_id"]] = {"name": f"{pl.get('first_name', '')} {pl.get('last_name', '')}".strip(), "pos": pos}
             if opp:
                 fpa[opp][w][pos] += pts
             u = usage[r["player_id"]][w]
@@ -279,7 +282,7 @@ def load_sleeper(season, week):
                      pass_yd=st.get("pass_yd") or 0, rec_yd=st.get("rec_yd") or 0,
                      rz_tgt=st.get("rec_rz_tgt") or 0, rz_rush=st.get("rush_rz_att") or 0,
                      # the box-score line behind "jugadores clave"
-                     opp=opp, ppr=pts, rush_yd=st.get("rush_yd") or 0, rush_td=st.get("rush_td") or 0,
+                     opp=opp, ppr=pts, half=score_stat_line(st, HALF), rush_yd=st.get("rush_yd") or 0, rush_td=st.get("rush_td") or 0,
                      rec_td=st.get("rec_td") or 0, pass_cmp=st.get("pass_cmp") or 0,
                      pass_td=st.get("pass_td") or 0, pass_int=st.get("pass_int") or 0,
                      fum_lost=st.get("fum_lost") or 0)
@@ -357,7 +360,79 @@ def load_sleeper(season, week):
                      "ppr": score_stat_line(st, PPR), "half": score_stat_line(st, HALF),
                      "share": shares(r["player_id"])})
     dst_avg = {t: {k: sum(v) / len(v) for k, v in s.items() if v} for t, s in dst.items()}
-    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "proj": proj, "dst": dst_avg}
+    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "proj": proj, "dst": dst_avg,
+            "rankings": rankings(usage, team_tot, meta)}
+
+
+def rankings(usage, team_tot, meta):
+    """Season fantasy rankings by position: total PPR, PPR per game and half-PPR per
+    game. Per-game ranks need half the team's games (min 2), so a one-week spike
+    doesn't top the board; below that the per-game rank is None ("pocos partidos")."""
+    team_g = {t: len(ws) for t, ws in team_tot.items()}
+    out = {}
+    for pos in SKILL:
+        rows = []
+        for pid, wk in usage.items():
+            if (meta.get(pid) or {}).get("pos") != pos:
+                continue
+            ws = sorted(w for w, u in wk.items() if u.get("snp", 0) > 0)
+            if not ws:
+                continue
+            team = wk[ws[-1]]["team"]
+            ppr = sum(wk[w]["ppr"] for w in ws)
+            half = sum(wk[w]["half"] for w in ws)
+            rows.append({"pid": pid, "name": meta[pid]["name"], "team": team, "gp": len(ws), "tg": team_g.get(team, 0),
+                         "ppr": round(ppr, 1), "ppr_g": round(ppr / len(ws), 2), "half_g": round(half / len(ws), 2)})
+        rows.sort(key=lambda r: -r["ppr"])
+        for i, r in enumerate(rows):
+            r["r_ppr"] = i + 1
+        qual = [r for r in rows if r["gp"] >= max(2, -(-r["tg"] // 2))]
+        for k in ("ppr_g", "half_g"):
+            for i, r in enumerate(sorted(qual, key=lambda r: -r[k])):
+                r["r_" + k] = i + 1
+        out[pos] = rows  # everyone with a snap: a backup's QB40 is still the right rank
+    return out
+
+
+def load_ros(week, season, fpa_rank, last=17):
+    """Rest-of-season schedule per team (Sleeper codes), weeks week..last (the
+    fantasy season ends in 17): opponent, home/away and that opponent's rank in
+    PPR points allowed to each position (1 = the softest), plus a per-position
+    summary for the season and for the fantasy playoffs (15-17)."""
+    with ThreadPoolExecutor(8) as ex:
+        evs = dict(zip(range(week, last + 1), ex.map(lambda w: espn.scoreboard(w, season), range(week, last + 1))))
+    teams = {sl(t) for t in espn.DIVISION_OF}
+    ros = {t: [] for t in teams}
+    for w, events in evs.items():
+        seen = set()
+        for g in parse_events(events, w):
+            h, a = sl(g["home"]), sl(g["away"])
+            for me, opp, home in ((h, a, True), (a, h, False)):
+                ros.setdefault(me, []).append({"w": w, "opp": opp, "home": home,
+                                               "r": {p: fpa_rank[p].get(opp) for p in SKILL}})
+                seen.add(me)
+        for t in teams - seen:
+            ros[t].append({"w": w, "bye": True})
+    out = {}
+    for t, games in ros.items():
+        games.sort(key=lambda g: g["w"])
+        summ = {}
+        for p in SKILL:
+            rs = [g["r"][p] for g in games if not g.get("bye") and g["r"].get(p)]
+            po = [g["r"][p] for g in games if not g.get("bye") and g["w"] >= 15 and g["r"].get(p)]
+            summ[p] = {"avg": round(sum(rs) / len(rs), 1) if rs else None,
+                       "easy": sum(r <= 8 for r in rs), "hard": sum(r >= 25 for r in rs),
+                       "playoffs": round(sum(po) / len(po), 1) if po else None}
+        out[t] = {"games": games, "summary": summ}
+    return out
+
+
+def ros_label(avg):
+    """Plain read of an average opponent rank (1 = softest)."""
+    if avg is None:
+        return "—"
+    avg = round(avg)  # label the number that gets printed (18.6 → "19º", not "neutral" next to "19º")
+    return "muy blando" if avg <= 10 else "blando" if avg <= 14 else "neutral" if avg < 19 else "difícil" if avg < 23 else "muy difícil"
 
 
 def eff(l3, sz, k):
@@ -432,7 +507,11 @@ def usage_table(u):
     return out
 
 
-def key_players(t, proj):
+TEAM_ENV = json.loads((ROOT / "data" / "intel" / "team_env.json").read_text()) \
+    if (ROOT / "data" / "intel" / "team_env.json").exists() else {}
+
+
+def key_players(t, proj, ranks=None):
     """The players a game is argued through: QB1, the top 2 backs by backfield
     share and the top 4 pass-catchers by target share, each with his per-game
     box score (last 3 of the team and season) and the last-3 game log."""
@@ -449,6 +528,15 @@ def key_players(t, proj):
     qbs = sorted((p for p in ps if p["pos"] == "QB"),
                  key=lambda p: (p["inj"] not in ("Out", "IR", "PUP", "Suspension"), last_att(p), cur(p, "att_g")),
                  reverse=True)[:1]
+    # a starter named by the research layer wins: Sleeper's tags and depth chart lag QB
+    # changes (wk 9: Minshew over Brissett in ARI, Milton over McKee in PHI)
+    named = (TEAM_ENV.get(sl(t)) or TEAM_ENV.get(t) or {}).get("qb_start")
+    if named:
+        hit = next((p for p in proj if p["team"] == sl(t) and p["pos"] == "QB"
+                    and p["name"].lower().startswith(named.lower())), None)
+        if hit:
+            empty = {"g": 0, "pass_td": 0, "int": 0, "fum": 0, "rush_td": 0, "rec_td": 0, "td": 0}
+            qbs = [{**hit, "share": hit["share"] or {"season": empty, "l3": {"g": 0}, "log": []}}]
     rbs = sorted((p for p in ps if p["pos"] == "RB" and cur(p, "touch") >= 0.15),
                  key=lambda p: cur(p, "touch"), reverse=True)[:2]
     rec = sorted((p for p in ps if p["pos"] in ("WR", "TE") and cur(p, "tgt") >= 0.10),
@@ -456,8 +544,21 @@ def key_players(t, proj):
     return [{"pid": p["pid"], "name": p["name"], "pos": p["pos"], "ppr": p["ppr"],
              "inj": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
              "missed": p["share"].get("missed_l3") or 0, "l3": p["share"].get("l3") or {"g": 0},
-             "season": p["share"]["season"], "log": p["share"].get("log") or []}
+             "season": p["share"]["season"], "log": p["share"].get("log") or [],
+             "rk": _rank_of(ranks, p["pos"], p["pid"])}
             for p in qbs + rbs + rec]
+
+
+def _rank_of(ranks, pos, pid):
+    r = next((x for x in (ranks or {}).get(pos, []) if x["pid"] == pid), None)
+    return {k: r.get(k) for k in ("r_ppr", "r_ppr_g", "r_half_g", "gp", "ppr", "ppr_g", "half_g")} if r else None
+
+
+def _rank_txt(pos, rk):
+    if not rk:
+        return ""
+    g = lambda k: f"{pos}{rk[k]}" if rk.get(k) else "pocos partidos"  # noqa: E731
+    return f"{pos}{rk['r_ppr']} en PPR · {g('r_ppr_g')} PPR/partido · {g('r_half_g')} ½ PPR/partido"
 
 
 def _log_txt(e, pos):
@@ -486,7 +587,8 @@ def key_table(t, rows):
     for r in rows:
         l3, sz = r["l3"], r["season"]
         name = f"{r['name']} ({r['pos']})" + (f" · {r['inj']}" if r["inj"] else "") \
-            + (f" *(se perdió {r['missed']})*" if r["missed"] else "")
+            + (f" *(se perdió {r['missed']})*" if r["missed"] else "") \
+            + (f"<br>*{_rank_txt(r['pos'], r.get('rk'))}*" if r.get("rk") else "")
         logs = "<br>".join(_log_txt(e, r["pos"]) for e in r["log"])
         if r["pos"] == "QB":
             rec_cell = (f"{f1(l3, 'cmp_g')}/{f1(l3, 'att_g')} · {f1(l3, 'pass_yd_g')} yds · {pc(l3, 'cmp_pct')}"
@@ -802,6 +904,7 @@ def main():
     ppg_rank, papg_rank = rank_map(ppg), rank_map(papg, False)
 
     slr = load_sleeper(season, week)
+    ros = load_ros(week, season, slr["fpa_rank"])
     trending = {t["player_id"]: t["count"] for t in (api.get_trending("add", 48, 50) or [])}
     next_opp = {}
     for g in sched.get(week + 1, []):
@@ -1055,9 +1158,16 @@ def main():
         for t in (a, h):
             L.extend(usage_table(usage[t]))
         L.append("\n**Jugadores clave** (por partido: últimos 3 del equipo · temporada entre paréntesis)\n")
-        key = {t: key_players(t, slr["proj"]) for t in (a, h)}
+        key = {t: key_players(t, slr["proj"], slr["rankings"]) for t in (a, h)}
         for t in (a, h):
             L.extend(key_table(t, key[t]))
+            rs = (ros.get(sl(t)) or {}).get("summary") or {}
+            if rs:
+                L.append(f"*Calendario del resto de {t}* (lugar promedio del rival en puntos PPR permitidos a la posición, "
+                         "1º = el más blando; semanas 15-17 entre paréntesis): "
+                         + " · ".join(f"{p} {rs[p]['avg']:.0f}º {ros_label(rs[p]['avg'])}"
+                                      + (f" ({rs[p]['playoffs']:.0f}º)" if rs[p]["playoffs"] else "")
+                                      for p in SKILL if rs.get(p, {}).get("avg")) + "\n")
         dst_lines = {}
         for t in (a, h):
             opp = h if t == a else a
@@ -1179,7 +1289,7 @@ def main():
     (dest / "podcast-prep.md").write_text("\n".join(out))
     (dest / "data.json").write_text(json.dumps({"week": week, "season": season, "generated": now.isoformat(),
                                                 "record": record, "byes": byes, "slate_md": slate_md,
-                                                "games": data_games}, indent=1, default=str))
+                                                "games": data_games, "rankings": slr["rankings"], "ros": ros}, indent=1, default=str))
     print(f"→ {dest / 'podcast-prep.md'}  ({len(upcoming)} partidos, {len(flags)} alertas de línea)")
 
 

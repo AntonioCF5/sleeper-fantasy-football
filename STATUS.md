@@ -235,6 +235,14 @@ tells the user to re-check news once before accepting.
     - Stafford practicó completo.
     - Montgomery (HOU) fuera.
   - Picks finales: ★ CIN -3, ★ TB +6, ★ Bajas BUF/MIN 45.5.
+  **Jugadores clave con ranking + calendario ROS** (user 2026-11-04):
+  - Lugar en PPR total, PPR/partido y ½ PPR/partido.
+  - Tira de rivales hasta la semana 17, coloreada por puntos permitidos a la
+    posición.
+  - Panel lateral 📊 Rankings (tecla R) para comparar a los cercanos.
+  - `team_env.json` → `qb_start` fija al titular cuando Sleeper se atrasa.
+    Semana 9: ARI Minshew, PHI Milton, SEA Lock y BAL Fagnano. **Hay que
+    limpiarlo cuando regresen los titulares.**
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

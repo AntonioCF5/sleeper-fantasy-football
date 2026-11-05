@@ -368,7 +368,30 @@ UI (HTML, CSS and JS in one file).
   - **Historia**: `series`, `notables` and the rundown's Historia bullet.
   - **Fantasy**: the player table, the DST line and the rundown's Fantasy bullet.
   - **Jugadores clave**: `key_players`, per-game box score plus the last-3
-    game log.
+    game log, and two columns added 2026-11-04:
+    - **Ranking**: position rank in total season PPR, in PPR/game and in
+      ½ PPR/game, from `rankings()` in podcast_prep. Per-game ranks need half the
+      team's games (min 2), else "—". Every player with a snap is ranked, so a
+      backup shows QB51, not a blank. Clicking a rank opens the rankings drawer
+      centered on him.
+    - **Calendario resto**: one cell per remaining week through 17, from
+      `load_ros()`. The number is the opponent's rank in PPR allowed to his
+      position (`fpa_rank`, 1 = softest).
+      - Green 1-14, grey 15-18, red 19-32, dashed = bye, underline = fantasy
+        playoffs (15-17).
+      - The average and the playoff average sit below, with the label from
+        `ros_label` (same thresholds in the app's `rosLabel`).
+      - The sheet prints one "Calendario del resto" line per team.
+  - **Rankings drawer** (📊 Rankings button in the header, key R, Esc closes):
+    QB/RB/WR/TE × sort by PPR total / PPR per game / ½ PPR per game, search,
+    "solo esta semana" filter. Columns: GP/team games, the three numbers with
+    their ranks, and the ROS average (playoffs in parentheses). A blue bar marks
+    players on this week's slate. Opened from a rank, it highlights that player
+    and scrolls him to the middle so his neighbors are visible.
+  - **QB1 override**: `team_env.json` → `qb_start` (name prefix) beats
+    Sleeper's tags and depth chart, which lag QB changes (wk 9: Sleeper still
+    had Darnold and McKee at depth 1). The research layer sets it whenever a
+    starter changes, and clears it when the regular starter returns.
   - **Uso**: usage bars, where the bar is the last 3 games and the tick mark
     is the season.
   - **Lesiones**: `injuries`.

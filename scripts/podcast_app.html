@@ -302,6 +302,37 @@ a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 .spin { width: 14px; height: 14px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: rot .7s linear infinite; }
 @keyframes rot { to { transform: rotate(360deg); } }
+/* rankings: rank buttons, rest-of-season strip, right-hand drawer */
+button.rk { all: unset; cursor: pointer; font-weight: 700; color: var(--accent); border-bottom: 1px dotted currentColor; }
+button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.rk-cell { white-space: nowrap; font-size: 12px; line-height: 1.7; }
+.ros { display: flex; gap: 2px; }
+.ros i { width: 19px; height: 20px; border-radius: 4px; font-style: normal; font-size: 10px; font-weight: 700; display: grid; place-items: center;
+  color: var(--text); background: var(--surface-2); box-sizing: border-box; }
+.ros i.e2 { background: color-mix(in srgb, var(--good) 75%, transparent); color: #fff; }
+.ros i.e1 { background: color-mix(in srgb, var(--good) 32%, transparent); }
+.ros i.h1 { background: color-mix(in srgb, var(--bad) 30%, transparent); }
+.ros i.h2 { background: color-mix(in srgb, var(--bad) 75%, transparent); color: #fff; }
+.ros i.bye { background: none; border: 1px dashed var(--border); color: var(--faint); }
+.ros i.po { box-shadow: inset 0 -3px 0 var(--text); }
+.chip.ros-avg.e2, .chip.ros-avg.e1 { background: var(--good-soft); color: var(--good); }
+.chip.ros-avg.h2, .chip.ros-avg.h1 { background: var(--bad-soft); color: var(--bad); }
+.drawer { position: fixed; top: 56px; right: 0; bottom: 0; width: min(520px, 100vw); background: var(--surface); border-left: 1px solid var(--border);
+  box-shadow: var(--shadow-lg); transform: translateX(105%); transition: transform .2s; z-index: 6; display: flex; flex-direction: column; }
+.drawer.open { transform: none; }
+.drawer-head { padding: 12px 16px; border-bottom: 1px solid var(--border); display: grid; gap: 10px; }
+.drawer-head .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.drawer-head h3 { margin: 0; flex: 1; font-size: 15px; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button { all: unset; cursor: pointer; padding: 5px 10px; font-size: 12px; font-weight: 600; color: var(--muted); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.drawer-body { overflow: auto; flex: 1; }
+.drawer-body table { font-size: 12.5px; } .drawer-body td, .drawer-body th { padding: 6px 8px; }
+.drawer-body thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; }
+.drawer-body thead th[data-sort] { cursor: pointer; } .drawer-body thead th.on { color: var(--accent); }
+.drawer-body tr.me td { background: var(--accent-soft) !important; font-weight: 700; }
+.drawer-body tr.slate-p td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+.drawer-foot { padding: 8px 16px; border-top: 1px solid var(--border); font-size: 11.5px; color: var(--faint); }
 .help { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; place-items: center; z-index: 20; padding: 16px; }
 .help.open { display: grid; }
 .help .card { max-width: 420px; width: 100%; }
@@ -350,6 +381,7 @@ a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
       <span class="hide-sm">Actualizar</span>
     </button>
+    <button class="btn" id="rankBtn" aria-label="Rankings de la temporada" title="Rankings de la temporada (R)">📊<span class="hide-sm">Rankings</span></button>
     <button class="icon-btn" id="themeBtn" aria-label="Cambiar tema" title="Tema (T)">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
     </button>
@@ -373,6 +405,19 @@ a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--
   </main>
 </div>
 
+<aside class="drawer" id="rankDrawer" aria-label="Rankings de la temporada" aria-hidden="true">
+  <div class="drawer-head">
+    <div class="row"><h3>Rankings de la temporada</h3><button class="icon-btn" id="rankClose" aria-label="Cerrar rankings" title="Cerrar (Esc)">✕</button></div>
+    <div class="row">
+      <div class="seg" id="rankPos" role="group" aria-label="Posición"></div>
+      <div class="seg" id="rankSort" role="group" aria-label="Ordenar por"></div>
+    </div>
+    <div class="row"><input id="rankQ" class="select" type="search" placeholder="Buscar jugador o equipo" autocomplete="off" style="flex:1;min-width:0" aria-label="Buscar en los rankings">
+      <label class="faint" style="font-size:12px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="rankSlate"> solo esta semana</label></div>
+  </div>
+  <div class="drawer-body" id="rankBody"></div>
+  <div class="drawer-foot">Puntos de Sleeper recalculados en PPR y ½ PPR. Por partido: mínimo la mitad de los partidos de su equipo. Calendario: lugar promedio de sus rivales que faltan (semanas que quedan hasta la 17) en puntos permitidos a la posición; 1º = el más blando.</div>
+</aside>
 <div class="help" id="help" role="dialog" aria-modal="true" aria-label="Atajos de teclado">
   <div class="card">
     <h3>Atajos de teclado</h3>
@@ -380,6 +425,7 @@ a.plink { color: inherit; text-decoration: none; } a.plink:hover { color: var(--
     <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">9</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
     <div class="stat-row"><span>Cartelera completa</span><span class="kbd">G</span></div>
     <div class="stat-row"><span>Buscar</span><span class="kbd">/</span></div>
+    <div class="stat-row"><span>Rankings de la temporada</span><span class="kbd">R</span></div>
     <div class="stat-row"><span>Tema claro / oscuro</span><span class="kbd">T</span></div>
     <div class="stat-row"><span>Cerrar</span><span class="kbd">Esc</span></div>
   </div>
@@ -1186,6 +1232,24 @@ function kpLog(e, pos) {
   if (pos !== "QB" && (e.tgt || pos !== "RB")) bits.push(`${e.rec}/${e.tgt} tgt, ${e.rec_yd} yds${e.rec_td ? `, ${e.rec_td} TD` : ""}`);
   return `<div class="kp-log"><b>S${e.w}</b> vs ${esc(e.opp || "")} · ${pct(e.snap)} snaps · ${bits.join(" · ")} · <b>${fmt1(e.ppr)}</b> PPR</div>`;
 }
+// rest-of-season matchups: opponent's rank in PPR points allowed to the position (1 = softest)
+const rosLabel = a => { if (a == null) return "—"; a = Math.round(a); return a <= 10 ? "muy blando" : a <= 14 ? "blando" : a < 19 ? "neutral" : a < 23 ? "difícil" : "muy difícil"; };
+const rosCls = r => r == null ? "" : r <= 8 ? "e2" : r <= 14 ? "e1" : r <= 18 ? "" : r <= 24 ? "h1" : "h2";
+const avgCls = a => a == null ? "" : rosCls(Math.round(a) <= 10 ? 1 : Math.round(a) <= 14 ? 12 : Math.round(a) < 19 ? 16 : Math.round(a) < 23 ? 20 : 30);
+function rosStrip(team, pos) {
+  const R = S.data.ros?.[SL(team)] || S.data.ros?.[team];
+  if (!R) return '<span class="faint">—</span>';
+  const cells = R.games.map(g => g.bye ? `<i class="bye" data-tip="Semana ${g.w}: descanso">–</i>`
+    : `<i class="${rosCls(g.r[pos])}${g.w >= 15 ? " po" : ""}" data-tip="Semana ${g.w} ${g.home ? "vs" : "@"} ${esc(g.opp)}: ${g.r[pos] ?? "?"}º en puntos permitidos a ${pos} (${rosLabel(g.r[pos])})${g.w >= 15 ? " · playoffs de fantasy" : ""}">${g.r[pos] ?? "?"}</i>`).join("");
+  const sm = R.summary?.[pos] || {};
+  return `<div class="ros">${cells}</div><div class="faint kp-sub">prom. <b class="chip ros-avg ${avgCls(sm.avg)}" style="height:16px;padding:0 6px;font-size:10.5px">${sm.avg != null ? Math.round(sm.avg) + "º " + rosLabel(sm.avg) : "—"}</b> · playoffs ${sm.playoffs != null ? Math.round(sm.playoffs) + "º" : "—"}</div>`;
+}
+function rkCell(r) {
+  const k = r.rk;
+  if (!k) return '<span class="faint">sin partidos esta temporada</span>';
+  const b = (key, label) => `<button class="rk" data-rk="${r.pos}|${r.pid}|${key}" title="Ver en la tabla de rankings">${k[key] ? `${r.pos}${k[key]}` : "—"}</button> <span class="faint">${label}</span>`;
+  return `<div class="rk-cell">${b("r_ppr", `PPR temp. (${fmt1(k.ppr)})`)}<br>${b("r_ppr_g", `PPR/partido (${fmt1(k.ppr_g)})`)}<br>${b("r_half_g", `½ PPR/partido (${fmt1(k.half_g)})`)}</div>`;
+}
 function tabJugadores(g) {
   const sh = g.sheet;
   let h = `<div class="grid">`;
@@ -1195,12 +1259,14 @@ function tabJugadores(g) {
     if (!rows.length) { h += `<div class="empty">Sin datos.</div></div>`; continue; }
     h += `<div class="table-wrap"><table class="kp pl"><thead><tr>${[
       TH("Jugador", "Posición, nombre (abre su página de Sleeper) y lesión. Abajo, su proyección PPR de esta semana."),
+      TH("Ranking", "Su lugar en la posición esta temporada: en puntos PPR totales, en PPR por partido y en ½ PPR por partido (entre paréntesis, los puntos). Por partido cuenta solo con la mitad de los partidos de su equipo o más; si no, sale —. Haz clic para abrir la tabla con los jugadores cercanos."),
       TH("Snaps", `% de las jugadas ofensivas del equipo en las que estuvo en el campo. ${L3}`, "c"),
       TH("Pase · recepción", `Por partido. Mariscal: completos / intentos, yardas y % de pases completos. Resto: targets, recepciones y yardas. ${L3}`, "c"),
       TH("Carrera", `Por partido: acarreos y yardas; ypc = yardas por acarreo (— con menos de 5 acarreos). ${L3}`, "c"),
       TH("Toques", `Acarreos + recepciones por partido: el volumen total que recibe. No aplica al mariscal. ${L3}`, "c"),
       TH("TD temp.", "Touchdowns totales de la temporada. Mariscal: TD de pase e intercepciones (abajo, TD por tierra). Resto: total, con el desglose de carrera y recepción.", "c"),
       TH("PPR/partido", `Puntos PPR por partido jugado. ${L3}`, "c"),
+      TH("Calendario resto", "Una casilla por semana que le queda (hasta la 17): el número es el lugar del rival en puntos PPR permitidos a su posición. Verde = blando (1º-14º), rojo = difícil (19º-32º), raya = semana de descanso, línea abajo = playoffs de fantasy (15-17). Abajo, el promedio y el de los playoffs."),
       TH("Últimos 3", "Cada partido del equipo, el más reciente primero: semana, rival, % de snaps, su línea de estadística y los puntos PPR que hizo."),
     ].join("")}</tr></thead><tbody>`;
     for (const r of rows) {
@@ -1215,9 +1281,10 @@ function tabJugadores(g) {
                     : `${sz.td}${sz.td ? `<div class="faint kp-sub">${sz.rush_td} carrera · ${sz.rec_td} rec.</div>` : ""}`;
       h += `<tr><td>${playerName(r.pos, sleeperLink(r.pid, r.name), [injChip(r.inj, /Fuera|Duda/.test(r.inj || ""))])}
           <div class="faint kp-sub">proy. ${fmt1(r.ppr)} PPR${r.missed ? ` · se perdió ${r.missed} de los últimos 3` : ""}</div></td>
+        <td>${rkCell(r)}</td>
         <td class="c">${kpPair(r, "snap", pct)}</td><td class="c">${air}</td><td class="c">${run}</td>
         <td class="c">${qb ? '<span class="faint">—</span>' : kpPair(r, "touch_g")}</td><td class="c">${td}</td>
-        <td class="c">${kpPair(r, "ppr_g")}</td><td>${(r.log || []).map(e => kpLog(e, r.pos)).join("")}</td></tr>`;
+        <td class="c">${kpPair(r, "ppr_g")}</td><td>${rosStrip(t, r.pos)}</td><td>${(r.log || []).map(e => kpLog(e, r.pos)).join("")}</td></tr>`;
     }
     h += `</tbody></table></div></div>`;
   }
@@ -1277,7 +1344,7 @@ $("#refreshBtn").addEventListener("click", async () => {
 document.addEventListener("keydown", e => {
   if (e.metaKey || e.ctrlKey || e.altKey) return;
   const typing = e.target instanceof Element && e.target.matches("input, select, textarea");
-  if (e.key === "Escape") { $("#help").classList.remove("open"); $("#sidebar").classList.remove("open"); if (typing) e.target.blur(); return; }
+  if (e.key === "Escape") { $("#help").classList.remove("open"); $("#sidebar").classList.remove("open"); closeRank(); if (typing) e.target.blur(); return; }
   if (typing) return;
   const list = S.games ? S.games.filter(matches).map(g => g.game) : [];
   const tabs = (S.game ? TABS : OV_TABS).map(t => t[0]);
@@ -1289,9 +1356,59 @@ document.addEventListener("keydown", e => {
   else if (/^[1-9]$/.test(e.key) && tabs[+e.key - 1]) go(S.game, tabs[+e.key - 1]);
   else if (k === "g") go(null, "cartelera");
   else if (k === "t") $("#themeBtn").click();
+  else if (k === "r") $("#rankBtn").click();
   else if (e.key === "/") { e.preventDefault(); $("#sidebar").classList.add("open"); $("#search").focus(); }
   else if (e.key === "?") $("#help").classList.add("open");
 });
+
+// ---------- rankings drawer: season ranks by position, centred on a player to compare his neighbours
+const RK = { pos: "WR", sort: "r_ppr", focus: null, q: "", slate: false };
+const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"]];
+function slateTeams() { return new Set((S.games || []).flatMap(g => [SL(g.sheet.away), SL(g.sheet.home)])); }
+function renderRank() {
+  $("#rankPos").innerHTML = ["QB", "RB", "WR", "TE"].map(p => `<button data-pos="${p}" aria-pressed="${p === RK.pos}">${p}</button>`).join("");
+  $("#rankSort").innerHTML = RK_SORTS.map(([k, l]) => `<button data-sort="${k}" aria-pressed="${k === RK.sort}">${l}</button>`).join("");
+  const all = S.data?.rankings?.[RK.pos] || [];
+  const on = slateTeams(), q = RK.q.trim().toLowerCase();
+  let rows = [...all].sort((a, b) => (a[RK.sort] ?? 1e9) - (b[RK.sort] ?? 1e9) || a.r_ppr - b.r_ppr);
+  if (q) rows = rows.filter(r => r.name.toLowerCase().includes(q) || r.team.toLowerCase() === q);
+  if (RK.slate) rows = rows.filter(r => on.has(r.team));
+  const head = [["#", "Lugar según el orden elegido."], ["Jugador", "Nombre y equipo. La barra azul marca a los que juegan esta semana."],
+    ["PJ", "Partidos jugados (con al menos un snap)."], ["PPR", "Puntos PPR totales de la temporada.", "r_ppr"],
+    ["PPR/j", "Puntos PPR por partido jugado.", "r_ppr_g"], ["½/j", "Puntos ½ PPR por partido jugado.", "r_half_g"],
+    ["Calendario", "Lugar promedio de los rivales que le quedan (hasta la semana 17) en puntos permitidos a la posición: 1º = el más blando. Entre paréntesis, el de los playoffs de fantasy (15-17)."]];
+  let h = `<table><thead><tr>${head.map(([l, t, k]) => `<th class="${k ? "r" : l === "Jugador" ? "" : "c"}${k === RK.sort ? " on" : ""}"${k ? ` data-sort="${k}"` : ""} data-tip="${esc(t)}">${l}</th>`).join("")}</tr></thead><tbody>`;
+  for (const r of rows) {
+    const sm = S.data.ros?.[r.team]?.summary?.[RK.pos] || {};
+    const n = r[RK.sort];
+    h += `<tr data-pid="${r.pid}" class="${r.pid === RK.focus ? "me" : ""}${on.has(r.team) ? " slate-p" : ""}">
+      <td class="c num">${n ?? "—"}</td>
+      <td>${sleeperLink(r.pid, r.name)} <span class="faint">${esc(r.team)}</span></td>
+      <td class="c">${r.gp}<span class="faint">/${r.tg}</span></td>
+      <td class="r num">${fmt1(r.ppr)}<div class="faint" style="font-size:10.5px">${RK.pos}${r.r_ppr}</div></td>
+      <td class="r num">${fmt1(r.ppr_g)}<div class="faint" style="font-size:10.5px">${r.r_ppr_g ? RK.pos + r.r_ppr_g : "pocos PJ"}</div></td>
+      <td class="r num">${fmt1(r.half_g)}<div class="faint" style="font-size:10.5px">${r.r_half_g ? RK.pos + r.r_half_g : "pocos PJ"}</div></td>
+      <td class="c">${sm.avg != null ? `<span class="chip ros-avg ${avgCls(sm.avg)}" style="height:18px;font-size:11px">${Math.round(sm.avg)}º</span> <span class="faint" style="font-size:11px">(${sm.playoffs != null ? Math.round(sm.playoffs) + "º" : "—"})</span>` : "—"}</td></tr>`;
+  }
+  $("#rankBody").innerHTML = h + `</tbody></table>${rows.length ? "" : `<div class="empty" style="padding:16px">Nadie con ese filtro.</div>`}`;
+  const me = RK.focus && $("#rankBody").querySelector(`tr[data-pid="${RK.focus}"]`);
+  if (me) me.scrollIntoView({block: "center"});
+}
+function openRank(pos, pid = null, sort = null) {
+  if (pos) RK.pos = pos; if (sort) RK.sort = sort; RK.focus = pid;
+  if (pid) { RK.q = ""; $("#rankQ").value = ""; }
+  $("#rankDrawer").classList.add("open"); $("#rankDrawer").setAttribute("aria-hidden", "false");
+  renderRank();
+}
+function closeRank() { $("#rankDrawer").classList.remove("open"); $("#rankDrawer").setAttribute("aria-hidden", "true"); }
+$("#rankBtn").addEventListener("click", () => $("#rankDrawer").classList.contains("open") ? closeRank() : openRank());
+$("#rankClose").addEventListener("click", closeRank);
+$("#rankPos").addEventListener("click", e => { const b = e.target.closest("[data-pos]"); if (b) { RK.pos = b.dataset.pos; RK.focus = null; renderRank(); } });
+$("#rankSort").addEventListener("click", e => { const b = e.target.closest("[data-sort]"); if (b) { RK.sort = b.dataset.sort; renderRank(); } });
+$("#rankBody").addEventListener("click", e => { const th = e.target.closest("th[data-sort]"); if (th) { RK.sort = th.dataset.sort; renderRank(); } });
+$("#rankQ").addEventListener("input", e => { RK.q = e.target.value; renderRank(); });
+$("#rankSlate").addEventListener("change", e => { RK.slate = e.target.checked; renderRank(); });
+document.addEventListener("click", e => { const b = e.target.closest("button.rk[data-rk]"); if (!b) return; const [pos, pid, sort] = b.dataset.rk.split("|"); openRank(pos, pid, sort); });
 
 // column tooltips: one floating box, positioned under (or over) the header; hover on desktop, tap on touch
 const tipEl = document.createElement("div"); tipEl.className = "tip"; tipEl.setAttribute("role", "tooltip"); document.body.appendChild(tipEl);
