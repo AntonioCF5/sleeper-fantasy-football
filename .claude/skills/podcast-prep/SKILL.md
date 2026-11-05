@@ -462,6 +462,42 @@ UI (HTML, CSS and JS in one file).
     Sleeper's tags and depth chart, which lag QB changes (wk 9: Sleeper still
     had Darnold and McKee at depth 1). The research layer sets it whenever a
     starter changes, and clears it when the regular starter returns.
+  - **Alineaciones** (user 2026-11-04: "lineups of each team the way the
+    Sleeper app shows them"). `podcast_prep.lineup()` builds it from **ESPN's
+    depth chart** (`espn.depth_chart` + `espn.roster` for names and
+    headshots), because ESPN is fresher than Sleeper's `depth_chart_order`.
+    Wk 9: Sleeper still had Darnold and McKee first.
+    - Players are matched to Sleeper ids with `PlayerIndex`: Sleeper's
+      `espn_id` first, then normalized name + team, then a unique name. Wk 9:
+      8 of ~1,900 names unmatched.
+    - Offense: QB, RB, WR1-3 and TE as Sleeper-style rows, each with:
+      - a position pill and the Sleeper headshot
+        (`sleepercdn.com/content/nfl/players/thumb/<pid>.jpg`, ESPN headshot
+        as fallback);
+      - a linked name, injury chip, jersey, season PPR rank and Sleeper PPR
+        projection;
+      - the depth behind him.
+    - The offensive line, the defense in its base formation, K and P show as
+      a compact grid.
+    - The starter is the first player not Out/IR/PUP/suspended. "En lugar de"
+      marks a backup moving up. `qb_start` reorders the QB spot.
+    - Injury tags come from Sleeper, with ESPN's roster as fallback. Sleeper's
+      "NA" is not an injury tag and is dropped.
+  - **Every player name is a link to his Sleeper page** (user 2026-11-04,
+    after the Lesiones tab had plain names).
+    - Tables build links with `sleeperLink(pid, name)`. The data must carry
+      the `pid`: injuries get it from `PlayerIndex`, and the backfield chip and
+      recap mates carry theirs.
+    - Prose (rundown, sheet notes, verdicts, recap text) gets links from
+      `autoLink()` after every render. It uses an index of every full name
+      with a pid in the week's data (plus the name without Jr./II/III),
+      matched longest first, never inside an existing link, button, header or
+      code.
+    - Surnames alone ("Fagnano") stay plain, since a surname alone could
+      match the wrong player.
+    - Links inside clickable rows (`data-go`) don't trigger the row.
+    - A new list of names ships with pids. Check: open Lesiones, Guion and
+      Recap and confirm the names are links with no `a a` nesting.
   - **Uso**: usage bars, where the bar is the last 3 games and the tick mark
     is the season.
   - **Lesiones**: `injuries`.
@@ -517,7 +553,7 @@ Rename any of these and that block goes empty in the app.
 
 Shortcuts:
 - J/K or ↑/↓: next or previous game
-- ←/→ or 1-9: switch tab
+- ←/→ or 1-9, 0 (tenth tab): switch tab
 - G: back to the slate
 - /: search
 - T: theme

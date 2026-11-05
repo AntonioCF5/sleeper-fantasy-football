@@ -333,6 +333,25 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
 .drawer-body tr.me td { background: var(--accent-soft) !important; font-weight: 700; }
 .drawer-body tr.slate-p td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
 .drawer-foot { padding: 8px 16px; border-top: 1px solid var(--border); font-size: 11.5px; color: var(--faint); }
+/* lineups (Sleeper-app style) */
+.lu-team { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+.lu-team h3 { margin: 0; } .lu-form { margin-left: auto; }
+.lu-sec { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 14px 0 6px; }
+.lu-row { display: grid; grid-template-columns: 44px 40px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); }
+.lu-row:last-child { border-bottom: 0; }
+.lu-slot { font-size: 11px; font-weight: 800; color: #fff; border-radius: 6px; padding: 4px 0; text-align: center; background: #6b7280; }
+.lu-slot.QB { background: #e0565b; } .lu-slot.RB { background: #10a37f; } .lu-slot.WR { background: #3d7be0; } .lu-slot.TE { background: #e58a1f; } .lu-slot.K, .lu-slot.P { background: #8b5cf6; }
+.avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; background: var(--surface-2); display: grid; place-items: center; font-size: 13px; font-weight: 700; color: var(--muted); overflow: hidden; }
+.avatar.sm { width: 26px; height: 26px; font-size: 10px; }
+.lu-name { font-weight: 700; min-width: 0; } .lu-name .plink { color: var(--text); }
+.lu-meta { font-size: 11.5px; color: var(--faint); font-weight: 500; margin-top: 1px; }
+.lu-meta .plink { color: var(--muted); }
+.lu-proj { text-align: right; font-weight: 800; font-size: 15px; } .lu-proj small { display: block; font-size: 10.5px; color: var(--faint); font-weight: 600; }
+.lu-row.out .lu-name { opacity: .55; }
+.lu-mini { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px 12px; }
+.lu-cell { display: grid; grid-template-columns: 34px 26px minmax(0, 1fr); gap: 8px; align-items: center; font-size: 12.5px; padding: 4px 0; }
+.lu-cell b { font-size: 10.5px; color: var(--muted); text-align: center; }
+.lu-cell .lu-meta { font-size: 11px; }
 .help { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; place-items: center; z-index: 20; padding: 16px; }
 .help.open { display: grid; }
 .help .card { max-width: 420px; width: 100%; }
@@ -422,7 +441,7 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
   <div class="card">
     <h3>Atajos de teclado</h3>
     <div class="stat-row"><span>Partido siguiente / anterior</span><span><span class="kbd">J</span><span class="kbd">K</span> o <span class="kbd">↓</span><span class="kbd">↑</span></span></div>
-    <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">9</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
+    <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">9</span>, <span class="kbd">0</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
     <div class="stat-row"><span>Cartelera completa</span><span class="kbd">G</span></div>
     <div class="stat-row"><span>Buscar</span><span class="kbd">/</span></div>
     <div class="stat-row"><span>Rankings de la temporada</span><span class="kbd">R</span></div>
@@ -450,7 +469,7 @@ const NAMES = {
 const SL = t => t === "WSH" ? "WAS" : t;   // ESPN code → Sleeper code
 const TABS = [
   ["resumen","Resumen"],["equipos","Equipos"],["historia","Historia"],["fantasy","Fantasy"],
-  ["jugadores","Jugadores clave"],["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
+  ["jugadores","Jugadores clave"],["alineaciones","Alineaciones"],["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
 ];
 const OV_TABS = [["cartelera","Cartelera"],["recap","Recap y waivers"],["guion","Guion general"],["hoja","Notas de la hoja"]];
 const DAY_ORDER = {jue:0, vie:1, sáb:2, dom:3, lun:4, mar:5, mié:6};
@@ -567,7 +586,51 @@ async function loadWeek(season, week) {
   S.byKey = Object.fromEntries(S.games.map(g => [g.game, g]));
   S.picksBy = {};
   for (const p of S.data.picks || []) (S.picksBy[p.game] ||= []).push(p);
+  buildNameIndex();
   renderTop(); renderNav();
+}
+
+// every player name → his Sleeper page. Tables build links with sleeperLink(); prose
+// (rundown, sheet notes, recap text, verdicts) gets them here: full names from every
+// pid-carrying list in the week's data, longest first, outside existing links.
+function buildNameIndex() {
+  const m = new Map();
+  const add = (pid, name) => { if (pid && name && name.includes(" ") && !m.has(name)) m.set(name, pid); };
+  for (const rows of Object.values(S.data.rankings || {})) rows.forEach(r => add(r.pid, r.name));
+  for (const g of S.data.games || []) {
+    (g.players || []).forEach(p => add(p.pid, p.name));
+    for (const rows of Object.values(g.sheet.key_players || {})) rows.forEach(r => add(r.pid, r.name));
+    for (const rows of Object.values(g.sheet.injuries || {})) rows.forEach(r => add(r.pid, r.name));
+    for (const L of Object.values(g.sheet.lineups || {})) for (const gr of L?.groups || []) for (const sp of gr.spots) sp.depth.forEach(x => add(x.pid, x.name));
+  }
+  const rc = S.data.recap || {};
+  for (const rows of Object.values(rc.waivers || {})) (Array.isArray(rows) ? rows : []).forEach(r => add(r.pid, r.name));
+  (rc.injuries || []).forEach(i => { add(i.pid, i.name); (i.mates || []).forEach(x => add(x.pid, x.name)); });
+  (rc.hot || []).forEach(x => add(x.pid, x.name));
+  // "Kenneth Walker III" is said "Kenneth Walker": index the name without the suffix too
+  for (const [n, pid] of [...m]) { const base = n.replace(/\s+(Jr\.?|Sr\.?|II|III|IV|V)$/, ""); if (base !== n && base.includes(" ") && !m.has(base)) m.set(base, pid); }
+  S.names = m;
+  const esc_re = x => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  S.nameRe = m.size ? new RegExp(`(?<![\\p{L}])(${[...m.keys()].sort((a, b) => b.length - a.length).map(esc_re).join("|")})(?![\\p{L}])`, "gu") : null;
+}
+function autoLink(root) {
+  if (!S.nameRe) return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {acceptNode: n =>
+    n.parentElement.closest("a, button, th, select, option, input, textarea, script, style, code, .tabs") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT});
+  const hits = [];
+  for (let n = walker.nextNode(); n; n = walker.nextNode()) { S.nameRe.lastIndex = 0; if (S.nameRe.test(n.data)) hits.push(n); }
+  for (const n of hits) {
+    const frag = document.createDocumentFragment();
+    let last = 0; S.nameRe.lastIndex = 0;
+    for (const mt of n.data.matchAll(S.nameRe)) {
+      frag.append(n.data.slice(last, mt.index));
+      const a = document.createElement("a");
+      a.className = "plink"; a.href = `https://sleeper.com/nfl/players/${S.names.get(mt[1])}`; a.target = "_blank"; a.rel = "noopener"; a.textContent = mt[1];
+      frag.append(a); last = mt.index + mt[1].length;
+    }
+    frag.append(n.data.slice(last));
+    n.replaceWith(frag);
+  }
 }
 
 // ------------------------------------------------------------------ routing
@@ -654,13 +717,14 @@ $("#nav").addEventListener("click", e => {
 // ------------------------------------------------------------------ views
 function tabsHtml(list) {
   return `<div class="tabs" role="tablist">${list.map(([k, l], i) =>
-    `<button class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}<span class="kbd">${i + 1}</span></button>`).join("")}</div>`;
+    `<button class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}<span class="kbd">${(i + 1) % 10}</span></button>`).join("")}</div>`;
 }
 function renderView() {
   const v = $("#view");
   v.innerHTML = S.game ? gameView(S.byKey[S.game]) : overview();
   v.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => go(S.game, b.dataset.tab)));
-  v.querySelectorAll("[data-go]").forEach(el => el.addEventListener("click", () => go(el.dataset.go, el.dataset.tab || "resumen")));
+  v.querySelectorAll("[data-go]").forEach(el => el.addEventListener("click", e => { if (!e.target.closest("a")) go(el.dataset.go, el.dataset.tab || "resumen"); }));
+  autoLink(v);
   $("#main").scrollTop = 0;
 }
 function renderError(e) {
@@ -897,7 +961,7 @@ function tabRecap() {
       `<li><span class="pos pos-${x.pos}">${x.pos}</span> ${sleeperLink(x.pid, x.name)} <span class="faint">${esc(x.team)}</span>: <b>${pct(x.now)}</b> de ${SHARE_LABEL[x.k]} <span class="faint">(antes ${pct(x.pre)}, ${pct(x.snap)} snaps)</span>${x.blowout ? ` <span class="chip warn">paliza de ${x.blowout}</span>` : ""}</li>`).join("")}</ul></div>`;
     if ((Wt.qbs || []).length) h += `<div class="card"><h3>Mariscales en duda</h3><ul class="mini-list">${Wt.qbs.map(x =>
       `<li>${sleeperLink(x.pid, x.name)} <span class="faint">${esc(x.team)}, por ${esc(x.starter)}</span>: ${pct(x.snap)} de los snaps, ${esc(x.line)} <span class="chip ${/lesión/.test(x.why) ? "bad" : /paliza/.test(x.why) ? "warn" : "accent"}">${esc(x.why)}</span></li>`).join("")}</ul>${
-      (r.injuries || []).filter(i => i.mates).map(i => `<div class="verdict"><b>Sin ${esc(i.name)}:</b> ${i.mates.map(m => `${esc(m.name)} ${esc(m.line)}`).join(" · ")}</div>`).join("")}</div>`;
+      (r.injuries || []).filter(i => i.mates).map(i => `<div class="verdict"><b>Sin ${sleeperLink(i.pid, i.name)}:</b> ${i.mates.map(m => `${sleeperLink(m.pid, m.name)} ${esc(m.line)}`).join(" · ")}</div>`).join("")}</div>`;
     if ((Wt.streaks || []).length) h += `<div class="card span-2"><h3>Rachas</h3><div class="table-wrap"><table class="pl"><thead><tr>${[
       TH("Jugador", "Posición, nombre y equipo."),
       TH("Racha", "Cuántos partidos seguidos lleva cumpliendo la marca indicada."),
@@ -1024,7 +1088,7 @@ function gameView(g) {
     </div><div class="hero-chips">${chips}</div></section>`;
   h += tabsHtml(TABS);
   const R = {resumen: tabResumen, equipos: tabEquipos, historia: tabHistoria, fantasy: tabFantasy,
-             jugadores: tabJugadores, uso: tabUso,
+             jugadores: tabJugadores, alineaciones: tabAlineaciones, uso: tabUso,
              lesiones: tabLesiones, guion: tabGuion, hoja: tabHoja}[S.tab];
   return h + `<div style="--away-c:${COLORS[a]};--home-c:${COLORS[hm]}">${R(g)}</div>`;
 }
@@ -1195,7 +1259,7 @@ function tabUso(g) {
   for (const t of [sh.away, sh.home]) {
     const u = sh.usage?.[t];
     h += `<div class="card"><h3>${logo(t)} ${t} · uso por jugador
-      ${u?.backfield ? `<span class="chip ${u.backfield.label === "comité" ? "warn" : "good"}">Backfield: ${esc(u.backfield.label)} · ${esc(u.backfield.name)} ${pct(u.backfield.share)}</span>` : ""}
+      ${u?.backfield ? `<span class="chip ${u.backfield.label === "comité" ? "warn" : "good"}">Backfield: ${esc(u.backfield.label)} · ${sleeperLink(u.backfield.pid, u.backfield.name)} ${pct(u.backfield.share)}</span>` : ""}
       ${u?.top2 ? `<span class="chip ${u.top2.label === "árbol concentrado" ? "accent" : ""}">Top-2 targets ${pct(u.top2.share)}${u.top2.label ? " · " + esc(u.top2.label) : ""}</span>` : ""}</h3>`;
     if (!u) { h += `<div class="empty">Sin datos de uso.</div></div>`; continue; }
     h += `<div class="table-wrap"><table class="pl"><thead><tr>${[
@@ -1296,6 +1360,52 @@ function tabJugadores(g) {
   return h + `</div>`;
 }
 
+// lineups: ESPN depth chart → Sleeper ids (podcast_prep.lineup); avatar from Sleeper, ESPN headshot as fallback
+function avatar(x, cls = "") {
+  const ini = esc((x.name || "?").split(" ").map(w => w[0]).slice(0, 2).join(""));
+  const src = x.pid ? `https://sleepercdn.com/content/nfl/players/thumb/${x.pid}.jpg` : x.head;
+  return src ? `<img class="avatar ${cls}" alt="" loading="lazy" src="${esc(src)}" onerror="this.outerHTML='<span class=&quot;avatar ${cls}&quot;>${ini}</span>'">`
+             : `<span class="avatar ${cls}">${ini}</span>`;
+}
+const luInj = x => x.inj ? `<span class="chip ${x.out ? "bad" : "warn"}" style="height:18px;padding:0 6px;font-size:11px">${esc(x.inj)}</span>` : "";
+function luBehind(sp) {
+  const rest = sp.depth.filter((_, i) => i !== sp.start);
+  return rest.length ? `${sp.start > 0 ? "En lugar de" : "Detrás"}: ${rest.map(x => `${sleeperLink(x.pid, x.name)}${x.inj ? ` (${esc(x.inj)})` : ""}`).join(", ")}` : "";
+}
+function luRow(sp) {
+  const x = sp.depth[sp.start];
+  return `<div class="lu-row${x.out ? " out" : ""}"><span class="lu-slot ${sp.pos}">${esc(sp.spot)}</span>${avatar(x)}
+    <div class="lu-name"><div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">${sleeperLink(x.pid, x.name)} ${luInj(x)}</div>
+      <div class="lu-meta">${x.jersey ? `#${esc(x.jersey)}` : ""}${x.rank ? ` · ${esc(x.rank)} en PPR` : ""}</div>
+      ${luBehind(sp) ? `<div class="lu-meta">${luBehind(sp)}</div>` : ""}</div>
+    <div class="lu-proj">${x.proj != null ? fmt1(x.proj) : ""}${x.proj != null ? "<small>proy. PPR</small>" : ""}</div></div>`;
+}
+function luCell(sp) {
+  const x = sp.depth[sp.start];
+  return `<div class="lu-cell"><b>${esc(sp.spot)}</b>${avatar(x, "sm")}<div style="min-width:0">
+    <div style="display:flex;gap:4px;align-items:center;flex-wrap:wrap;font-weight:600">${sleeperLink(x.pid, x.name)} ${luInj(x)}</div>
+    ${luBehind(sp) ? `<div class="lu-meta">${luBehind(sp)}</div>` : ""}</div></div>`;
+}
+function tabAlineaciones(g) {
+  const sh = g.sheet;
+  let h = `<div class="grid cols-2">`;
+  for (const t of [sh.away, sh.home]) {
+    const L = sh.lineups?.[t];
+    h += `<div class="card"><div class="lu-team">${logo(t)}<h3>${t} · ${NAMES[t] || ""}</h3></div>`;
+    if (!L?.groups?.length) { h += `<div class="empty">ESPN no tiene depth chart de este equipo.</div></div>`; continue; }
+    for (const gr of L.groups) {
+      const skill = gr.name === "Ofensiva" ? gr.spots.filter(sp => ["QB", "RB", "WR", "TE"].includes(sp.pos)) : [];
+      const rest = gr.spots.filter(sp => !skill.includes(sp));
+      h += `<div class="lu-sec">${esc(gr.name)}${gr.formation ? ` <span class="chip" style="height:18px;font-size:10.5px;text-transform:none;letter-spacing:0">${esc(gr.formation)}</span>` : ""}</div>`;
+      if (skill.length) h += skill.map(luRow).join("") + `<div class="lu-sec" style="margin-top:10px">Línea ofensiva</div>`;
+      if (rest.length) h += `<div class="lu-mini">${rest.map(luCell).join("")}</div>`;
+    }
+    h += `</div>`;
+  }
+  h += `<div class="card span-all faint" style="font-size:12px">Depth chart de ESPN (más al día que el de Sleeper) cruzado con Sleeper para la foto, el link, la etiqueta de lesión y la proyección. El titular es el primero que no está Fuera, en Reserva, PUP o suspendido; si el mariscal titular cambió, manda el que confirmó la investigación (<code>qb_start</code>). "En lugar de" = sube porque el de arriba no juega. Proyección PPR de Sleeper y lugar en PPR de la temporada.</div>`;
+  return h + `</div>`;
+}
+
 function tabLesiones(g) {
   const sh = g.sheet;
   const order = {Fuera: 0, Duda: 1, Cuestionable: 2};
@@ -1303,7 +1413,7 @@ function tabLesiones(g) {
   for (const t of [sh.away, sh.home]) {
     const list = [...(sh.injuries?.[t] || [])].sort((x, y) => (order[x.status] ?? 3) - (order[y.status] ?? 3));
     h += `<div class="card"><h3>${logo(t)} ${t} <span class="chip">${list.length}</span></h3>${list.length ? list.map(i => `
-      <div class="inj"><span class="inj-name"><span class="faint" style="width:26px;font-size:11px;font-weight:700">${esc(i.pos)}</span>${esc(i.name)}</span>
+      <div class="inj"><span class="inj-name"><span class="faint" style="width:26px;font-size:11px;font-weight:700">${esc(i.pos)}</span>${sleeperLink(i.pid, i.name)}</span>
       <span style="display:flex;gap:6px;align-items:center"><span class="muted" style="font-size:12px">${esc(i.body)}</span><span class="chip ${i.status === "Fuera" ? "bad" : i.status === "Duda" ? "warn" : ""}">${esc(i.status)}</span></span></div>`).join("")
       : `<div class="empty">Sin lesionados en Fuera / Duda / Cuestionable.</div>`}</div>`;
   }
@@ -1357,7 +1467,7 @@ document.addEventListener("keydown", e => {
   if (k === "j" || e.key === "ArrowDown") { e.preventDefault(); if (list.length) go(list[Math.min(i + 1, list.length - 1)], S.game ? S.tab : "resumen"); }
   else if (k === "k" || e.key === "ArrowUp") { e.preventDefault(); if (i > 0) go(list[i - 1], S.tab); else go(null, "cartelera"); }
   else if (e.key === "ArrowRight" || e.key === "ArrowLeft") { const ti = tabs.indexOf(S.tab); go(S.game, tabs[(ti + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length]); }
-  else if (/^[1-9]$/.test(e.key) && tabs[+e.key - 1]) go(S.game, tabs[+e.key - 1]);
+  else if (/^[0-9]$/.test(e.key) && tabs[(+e.key || 10) - 1]) go(S.game, tabs[(+e.key || 10) - 1]);
   else if (k === "g") go(null, "cartelera");
   else if (k === "t") $("#themeBtn").click();
   else if (k === "r") $("#rankBtn").click();

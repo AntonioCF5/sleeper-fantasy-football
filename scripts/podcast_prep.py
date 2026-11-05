@@ -32,7 +32,9 @@ Uso: python3 scripts/podcast_prep.py [week]
 Salida: reports/<season>/podcast/weekNN/podcast-prep.md (+ data.json)
 """
 import json
+import re
 import sys
+import unicodedata
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
@@ -483,7 +485,7 @@ def usage_data(t, proj):
         second = max((cur(p) for p in rbs[1:]), default=0)
         label = ("comité" if second >= 0.30 else "un solo hombre" if top >= 0.70
                  else "reparto claro" if top >= 0.55 else "comité")
-        out["backfield"] = {"label": label, "name": rbs[0]["name"], "share": top}
+        out["backfield"] = {"label": label, "name": rbs[0]["name"], "pid": rbs[0]["pid"], "share": top}
     if len(rec) >= 2:
         two = sum(((p["share"].get("l3") or {}).get("tgt") or p["share"]["season"]["tgt"]) for p in rec[:2])
         out["top2"] = {"share": two, "label": "árbol concentrado" if two >= 0.50 else "reparto abierto" if two < 0.38 else ""}
@@ -512,6 +514,116 @@ def usage_table(u):
     if bits:
         out.append("\n_" + " · ".join(bits) + "_\n")
     return out
+
+
+# ------------------------------------------------- names → Sleeper player ids
+def _norm(name):
+    """'Kenneth Walker III' / 'D.K. Metcalf' → 'kenneth walker' / 'dk metcalf'."""
+    n = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode().lower()
+    n = re.sub(r"[.'’`-]", "", n)
+    n = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", n)
+    return " ".join(n.split())
+
+
+class PlayerIndex:
+    """Match ESPN athletes (id or name + team) to Sleeper player ids, so every name
+    in the app links to sleeper.com/nfl/players/<pid>. Sleeper's espn_id is sparse
+    (wk 9: JSN had none), so name + team is the main key, name alone the fallback."""
+
+    def __init__(self):
+        self.players = api.get_players() or {}
+        self.by_espn, self.by_name_team, self.by_name = {}, {}, defaultdict(list)
+        for pid, p in self.players.items():
+            if p.get("espn_id"):
+                self.by_espn[str(p["espn_id"])] = pid
+            nm = _norm(p.get("full_name") or f"{p.get('first_name', '')} {p.get('last_name', '')}")
+            if not nm:
+                continue
+            if p.get("team"):
+                self.by_name_team[(nm, p["team"])] = pid
+            if p.get("active") or p.get("team"):
+                self.by_name[nm].append(pid)
+
+    def pid(self, name, team=None, espn_id=None):
+        if espn_id and str(espn_id) in self.by_espn:
+            return self.by_espn[str(espn_id)]
+        nm = _norm(name)
+        if team and (nm, sl(team)) in self.by_name_team:
+            return self.by_name_team[(nm, sl(team))]
+        hits = self.by_name.get(nm) or []
+        return hits[0] if len(hits) == 1 else None
+
+
+OUT_TAGS = ("Out", "IR", "Injured Reserve", "PUP", "Suspension", "Suspended")
+OFFENSE_ORDER = ["qb", "rb", "wr", "te", "lt", "lg", "c", "rg", "rt"]
+SPOT_ES = {"qb": "QB", "rb": "RB", "wr": "WR", "te": "TE", "lt": "LT", "lg": "LG", "c": "C", "rg": "RG", "rt": "RT",
+           "pk": "K", "p": "P"}
+
+
+def lineup(t, team_id, season, idx, proj_by_pid, ranks):
+    """Sleeper-style lineup for one team from ESPN's depth chart: offense (QB, RB,
+    3 WR, TE, then the line), defense in its base formation, K and P. Each spot keeps
+    its depth (up to 3); the projected starter is the first one not Out/IR/PUP/
+    suspended, and `qb_start` from team_env.json wins at QB."""
+    charts = espn.depth_chart(team_id, season)
+    if not charts:
+        return None
+    ros = espn.roster(team_id)
+    rank_by = {r["pid"]: (pos, r) for pos, rows in (ranks or {}).items() for r in rows}
+
+    def person(a):
+        eid = re.search(r"athletes/(\d+)", (a.get("athlete") or {}).get("$ref", ""))
+        eid = eid.group(1) if eid else None
+        info = ros.get(eid) or {}
+        name = info.get("name")
+        pid = idx.pid(name, t, eid) if name else idx.by_espn.get(eid)
+        sp = idx.players.get(pid) or {}
+        name = name or sp.get("full_name")
+        if not name:
+            return None
+        inj = sp.get("injury_status") or info.get("inj")
+        inj = None if inj in ("NA", "Active") else inj  # Sleeper's "NA" is not an injury tag
+        pr = proj_by_pid.get(pid)
+        rk = rank_by.get(pid)
+        return {"pid": pid, "name": name, "espn": eid, "jersey": info.get("jersey"), "head": info.get("headshot"),
+                "inj": STATUS_ES.get(inj, inj) if inj else None, "out": inj in OUT_TAGS,
+                "proj": round(pr["ppr"], 1) if pr else None,
+                "rank": f"{rk[0]}{rk[1]['r_ppr']}" if rk else None}
+
+    def spots(item, keys=None, label=None):
+        pos = item.get("positions") or {}
+        out = []
+        for key in (keys or list(pos)):
+            if key not in pos:
+                continue
+            by_slot = defaultdict(list)
+            for a in pos[key].get("athletes") or []:
+                by_slot[a.get("slot", 0)].append(a)
+            for n, (slot, ath) in enumerate(sorted(by_slot.items())):
+                depth = [x for x in (person(a) for a in sorted(ath, key=lambda a: a.get("rank", 9))) if x][:3]
+                if not depth:
+                    continue
+                if key == "qb":
+                    named = (TEAM_ENV.get(sl(t)) or {}).get("qb_start")
+                    hit = next((d for d in depth if named and d["name"].lower().startswith(named.lower())), None)
+                    if hit:
+                        depth = [hit] + [d for d in depth if d is not hit]
+                start = next((i for i, d in enumerate(depth) if not d["out"]), 0)
+                abbr = SPOT_ES.get(key) or (pos[key].get("position") or {}).get("abbreviation") or key.upper()
+                out.append({"spot": abbr + (str(n + 1) if len(by_slot) > 1 else ""), "pos": abbr, "start": start, "depth": depth})
+        return out
+
+    off = next((c for c in charts if re.search(r"WR|TE|RB", c.get("name", ""))), None)
+    deff = next((c for c in charts if re.search(r"\bD\b|Def|3-4|4-3|Nickel", c.get("name", ""))), None)
+    st = next((c for c in charts if "Special" in c.get("name", "")), None)
+    groups = []
+    if off:
+        groups.append({"name": "Ofensiva", "formation": off["name"], "spots": spots(off, OFFENSE_ORDER)})
+    if deff:
+        groups.append({"name": "Defensiva", "formation": deff["name"], "spots": spots(deff)})
+    if st:
+        groups.append({"name": "Equipos especiales", "formation": "", "spots": spots(st, ["pk", "p"])})
+    return {"team": t, "groups": groups}
 
 
 TEAM_ENV = json.loads((ROOT / "data" / "intel" / "team_env.json").read_text()) \
@@ -912,6 +1024,12 @@ def main():
 
     slr = load_sleeper(season, week)
     ros = load_ros(week, season, slr["fpa_rank"])
+    global IDX
+    IDX = PlayerIndex()
+    proj_by_pid = {p["pid"]: p for p in slr["proj"]}
+    with ThreadPoolExecutor(8) as ex:
+        lineups = dict(zip(team_ids, ex.map(lambda t: lineup(t, team_ids[t], season, IDX, proj_by_pid, slr["rankings"]),
+                                            team_ids)))
     trending = {t["player_id"]: t["count"] for t in (api.get_trending("add", 48, 50) or [])}
     next_opp = {}
     for g in sched.get(week + 1, []):
@@ -1107,6 +1225,7 @@ def main():
             if not items:
                 continue
             injuries[t] = [{"name": i["athlete"]["displayName"],
+                            "pid": IDX.pid(i["athlete"]["displayName"], t, i["athlete"].get("id")),
                             "pos": (i["athlete"].get("position") or {}).get("abbreviation") or "",
                             "status": STATUS_ES.get(i["status"], i["status"]),
                             "body": body_es((i.get("details") or {}).get("type", "")) if (i.get("details") or {}).get("type") else ""}
@@ -1205,6 +1324,7 @@ def main():
                                "srs_line": fmt_spread(h, round(-srs_margin * 2) / 2) if srs_margin is not None else None,
                                "verdict": verdict, "mkt_margin": mkt_margin,
                                "team_rows": team_rows, "last5": last5, "injuries": injuries,
+                               "lineups": {t: lineups.get(t) for t in (a, h)},
                                "usage": usage, "key_players": key, "dst": dst_lines, "series": series, "notables": notables,
                                "md": "\n".join(L)}})
 

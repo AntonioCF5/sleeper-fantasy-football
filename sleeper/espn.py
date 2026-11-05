@@ -124,3 +124,22 @@ def team_stats(team_id, season):
         for s in cat.get("stats", []):
             flat.setdefault(f"{cat['name']}.{s['name']}", s.get("value"))
     return flat
+
+
+def depth_chart(team_id, season):
+    """ESPN depth chart: [{name: formation, positions: {key: {position, athletes:[{slot, rank, athlete.$ref}]}}}].
+    Fresher than Sleeper's depth_chart_order, which lags QB changes."""
+    return (_get(f"{CORE}/seasons/{season}/teams/{team_id}/depthcharts", 12 * HOUR) or {}).get("items") or []
+
+
+def roster(team_id):
+    """{espn_athlete_id: {name, pos, jersey, headshot, inj}} for one team (names for the depth chart)."""
+    d = _get(f"{SITE}/teams/{team_id}/roster", 12 * HOUR) or {}
+    out = {}
+    for grp in d.get("athletes") or []:
+        for a in grp.get("items") or []:
+            inj = (a.get("injuries") or [{}])[0].get("status") if a.get("injuries") else None
+            out[str(a["id"])] = {"name": a.get("displayName") or a.get("fullName"),
+                                 "pos": (a.get("position") or {}).get("abbreviation"), "jersey": a.get("jersey"),
+                                 "headshot": (a.get("headshot") or {}).get("href"), "inj": inj}
+    return out
