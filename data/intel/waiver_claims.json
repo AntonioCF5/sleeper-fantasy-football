@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -29,17 +29,6 @@
    "drop": null,
    "date": "2026-10-31",
    "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Adonai Mitchell (WR, NYJ)",
-   "player_id": "11625",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Austin Ekeler (RB, WAS, 31)",
-   "date": "2026-11-03",
-   "why": "Waivers here run on priority by reverse standings (waiver_type 1, no FAAB), and the roster is 17/17 with IR 0/2 but nothing IR-eligible (every reserve_allow_* = 0), so the claim needs a named drop. Mitchell went 7-142-1 on 9 targets in Week 8 and was the #1 trending add (637k). He is NYJ dc3 behind G. Wilson and O. Cooper, with a 98 ROS projection under this scoring. The WR room is Chase, Concepcion and an Out Egbuka, so he is WR depth for the bye weeks, not a Week 9 starter (6.3 proj vs Mayer 7.3). Ekeler fails the clean-handcuff test: he is WAS dc2 behind Rachaad White, whose ROS projection is 128, under the 200 bar, so he isn't protected. He projects 9.3 ROS at age 31. McNichols being out for months nudges Ekeler's role up but not his ceiling. Fallback claims: Chimere Dike or Sione Vaki."
   },
   {
    "league_id": "1338269686810300416",
