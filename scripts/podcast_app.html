@@ -416,7 +416,7 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
       <label class="faint" style="font-size:12px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="rankSlate"> solo esta semana</label></div>
   </div>
   <div class="drawer-body" id="rankBody"></div>
-  <div class="drawer-foot">Puntos de Sleeper recalculados en PPR y ½ PPR. Por partido: mínimo la mitad de los partidos de su equipo. Calendario: lugar promedio de sus rivales que faltan (semanas que quedan hasta la 17) en puntos permitidos a la posición; 1º = el más blando.</div>
+  <div class="drawer-foot">Puntos de Sleeper recalculados en PPR y ½ PPR. Por partido: mínimo la mitad de los partidos de su equipo. Calendario: lugar de lo que le queda (hasta la semana 17) entre los 32 calendarios de la posición, por los puntos que permiten sus rivales; 1º = el más fácil.</div>
 </aside>
 <div class="help" id="help" role="dialog" aria-modal="true" aria-label="Atajos de teclado">
   <div class="card">
@@ -1233,16 +1233,20 @@ function kpLog(e, pos) {
   return `<div class="kp-log"><b>S${e.w}</b> vs ${esc(e.opp || "")} · ${pct(e.snap)} snaps · ${bits.join(" · ")} · <b>${fmt1(e.ppr)}</b> PPR</div>`;
 }
 // rest-of-season matchups: opponent's rank in PPR points allowed to the position (1 = softest)
-const rosLabel = a => { if (a == null) return "—"; a = Math.round(a); return a <= 10 ? "muy blando" : a <= 14 ? "blando" : a < 19 ? "neutral" : a < 23 ? "difícil" : "muy difícil"; };
+// one opponent: his rank in points allowed to the position (1 = softest)
+const oppLabel = r => r == null ? "—" : r <= 8 ? "muy blando" : r <= 14 ? "blando" : r <= 18 ? "neutral" : r <= 24 ? "difícil" : "muy difícil";
 const rosCls = r => r == null ? "" : r <= 8 ? "e2" : r <= 14 ? "e1" : r <= 18 ? "" : r <= 24 ? "h1" : "h2";
-const avgCls = a => a == null ? "" : rosCls(Math.round(a) <= 10 ? 1 : Math.round(a) <= 14 ? 12 : Math.round(a) < 19 ? 16 : Math.round(a) < 23 ? 20 : 30);
+// the whole schedule: its place among the 32 at that position (1 = easiest left), same cut-offs as ros_label in podcast_prep
+const schedLabel = k => k == null ? "—" : k <= 6 ? "muy fácil" : k <= 12 ? "fácil" : k <= 20 ? "neutral" : k <= 26 ? "difícil" : "muy difícil";
+const schedCls = k => k == null ? "" : k <= 6 ? "e2" : k <= 12 ? "e1" : k <= 20 ? "" : k <= 26 ? "h1" : "h2";
+const schedTip = (sm, pos) => `Calendario que le queda: ${sm.rank}º de 32 entre los calendarios de ${pos} (1º = el más fácil), porque sus rivales están en promedio en el ${Math.round(sm.avg)}º de puntos permitidos a ${pos}. Playoffs de fantasy (15-17): ${sm.po_rank ? sm.po_rank + "º de 32 (rivales en promedio " + Math.round(sm.playoffs) + "º)" : "—"}.`;
 function rosStrip(team, pos) {
   const R = S.data.ros?.[SL(team)] || S.data.ros?.[team];
   if (!R) return '<span class="faint">—</span>';
   const cells = R.games.map(g => g.bye ? `<i class="bye" data-tip="Semana ${g.w}: descanso">–</i>`
-    : `<i class="${rosCls(g.r[pos])}${g.w >= 15 ? " po" : ""}" data-tip="Semana ${g.w} ${g.home ? "vs" : "@"} ${esc(g.opp)}: ${g.r[pos] ?? "?"}º en puntos permitidos a ${pos} (${rosLabel(g.r[pos])})${g.w >= 15 ? " · playoffs de fantasy" : ""}">${g.r[pos] ?? "?"}</i>`).join("");
+    : `<i class="${rosCls(g.r[pos])}${g.w >= 15 ? " po" : ""}" data-tip="Semana ${g.w} ${g.home ? "vs" : "@"} ${esc(g.opp)}: ${g.r[pos] ?? "?"}º en puntos permitidos a ${pos} (${oppLabel(g.r[pos])})${g.w >= 15 ? " · playoffs de fantasy" : ""}">${g.r[pos] ?? "?"}</i>`).join("");
   const sm = R.summary?.[pos] || {};
-  return `<div class="ros">${cells}</div><div class="faint kp-sub">prom. <b class="chip ros-avg ${avgCls(sm.avg)}" style="height:16px;padding:0 6px;font-size:10.5px">${sm.avg != null ? Math.round(sm.avg) + "º " + rosLabel(sm.avg) : "—"}</b> · playoffs ${sm.playoffs != null ? Math.round(sm.playoffs) + "º" : "—"}</div>`;
+  return `<div class="ros">${cells}</div><div class="faint kp-sub"${sm.rank ? ` data-tip="${esc(schedTip(sm, pos))}"` : ""}>calendario <b class="chip ros-avg ${schedCls(sm.rank)}" style="height:16px;padding:0 6px;font-size:10.5px">${sm.rank ? sm.rank + "º de 32 · " + schedLabel(sm.rank) : "—"}</b> · playoffs ${sm.po_rank ? sm.po_rank + "º" : "—"}</div>`;
 }
 function rkCell(r) {
   const k = r.rk;
@@ -1266,7 +1270,7 @@ function tabJugadores(g) {
       TH("Toques", `Acarreos + recepciones por partido: el volumen total que recibe. No aplica al mariscal. ${L3}`, "c"),
       TH("TD temp.", "Touchdowns totales de la temporada. Mariscal: TD de pase e intercepciones (abajo, TD por tierra). Resto: total, con el desglose de carrera y recepción.", "c"),
       TH("PPR/partido", `Puntos PPR por partido jugado. ${L3}`, "c"),
-      TH("Calendario resto", "Una casilla por semana que le queda (hasta la 17): el número es el lugar del rival en puntos PPR permitidos a su posición. Verde = blando (1º-14º), rojo = difícil (19º-32º), raya = semana de descanso, línea abajo = playoffs de fantasy (15-17). Abajo, el promedio y el de los playoffs."),
+      TH("Calendario resto", "Una casilla por semana que le queda (hasta la 17): el número es el lugar del rival en puntos PPR permitidos a su posición. Verde = blando (1º-14º), rojo = difícil (19º-32º), raya = semana de descanso, línea abajo = playoffs de fantasy (15-17). Abajo, el lugar de todo su calendario entre los 32 de la posición (1º = el más fácil) y el de los playoffs."),
       TH("Últimos 3", "Cada partido del equipo, el más reciente primero: semana, rival, % de snaps, su línea de estadística y los puntos PPR que hizo."),
     ].join("")}</tr></thead><tbody>`;
     for (const r of rows) {
@@ -1363,24 +1367,26 @@ document.addEventListener("keydown", e => {
 
 // ---------- rankings drawer: season ranks by position, centred on a player to compare his neighbours
 const RK = { pos: "WR", sort: "r_ppr", focus: null, q: "", slate: false };
-const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"]];
+const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"], ["cal", "Calendario"]];
+// "cal" sorts by the schedule's place among the 32 (1 = easiest left), ties by season PPR
+const rkVal = (r, k) => k === "cal" ? S.data.ros?.[r.team]?.summary?.[RK.pos]?.rank : r[k];
 function slateTeams() { return new Set((S.games || []).flatMap(g => [SL(g.sheet.away), SL(g.sheet.home)])); }
 function renderRank() {
   $("#rankPos").innerHTML = ["QB", "RB", "WR", "TE"].map(p => `<button data-pos="${p}" aria-pressed="${p === RK.pos}">${p}</button>`).join("");
   $("#rankSort").innerHTML = RK_SORTS.map(([k, l]) => `<button data-sort="${k}" aria-pressed="${k === RK.sort}">${l}</button>`).join("");
   const all = S.data?.rankings?.[RK.pos] || [];
   const on = slateTeams(), q = RK.q.trim().toLowerCase();
-  let rows = [...all].sort((a, b) => (a[RK.sort] ?? 1e9) - (b[RK.sort] ?? 1e9) || a.r_ppr - b.r_ppr);
+  let rows = [...all].sort((a, b) => (rkVal(a, RK.sort) ?? 1e9) - (rkVal(b, RK.sort) ?? 1e9) || a.r_ppr - b.r_ppr);
   if (q) rows = rows.filter(r => r.name.toLowerCase().includes(q) || r.team.toLowerCase() === q);
   if (RK.slate) rows = rows.filter(r => on.has(r.team));
   const head = [["#", "Lugar según el orden elegido."], ["Jugador", "Nombre y equipo. La barra azul marca a los que juegan esta semana."],
     ["PJ", "Partidos jugados (con al menos un snap)."], ["PPR", "Puntos PPR totales de la temporada.", "r_ppr"],
     ["PPR/j", "Puntos PPR por partido jugado.", "r_ppr_g"], ["½/j", "Puntos ½ PPR por partido jugado.", "r_half_g"],
-    ["Calendario", "Lugar promedio de los rivales que le quedan (hasta la semana 17) en puntos permitidos a la posición: 1º = el más blando. Entre paréntesis, el de los playoffs de fantasy (15-17)."]];
-  let h = `<table><thead><tr>${head.map(([l, t, k]) => `<th class="${k ? "r" : l === "Jugador" ? "" : "c"}${k === RK.sort ? " on" : ""}"${k ? ` data-sort="${k}"` : ""} data-tip="${esc(t)}">${l}</th>`).join("")}</tr></thead><tbody>`;
-  for (const r of rows) {
+    ["Calendario", "Lugar de su calendario que queda (hasta la semana 17) entre los 32 de la posición, por los puntos que permiten sus rivales: 1º = el más fácil, 32º = el más difícil. Entre paréntesis, el de los playoffs de fantasy (15-17).", "cal"]];
+  let h = `<table><thead><tr>${head.map(([l, t, k]) => `<th class="${k && k !== "cal" ? "r" : l === "Jugador" ? "" : "c"}${k === RK.sort ? " on" : ""}"${k ? ` data-sort="${k}"` : ""} data-tip="${esc(t)}">${l}</th>`).join("")}</tr></thead><tbody>`;
+  rows.forEach((r, i) => {
     const sm = S.data.ros?.[r.team]?.summary?.[RK.pos] || {};
-    const n = r[RK.sort];
+    const n = RK.sort === "cal" ? i + 1 : r[RK.sort];
     h += `<tr data-pid="${r.pid}" class="${r.pid === RK.focus ? "me" : ""}${on.has(r.team) ? " slate-p" : ""}">
       <td class="c num">${n ?? "—"}</td>
       <td>${sleeperLink(r.pid, r.name)} <span class="faint">${esc(r.team)}</span></td>
@@ -1388,8 +1394,8 @@ function renderRank() {
       <td class="r num">${fmt1(r.ppr)}<div class="faint" style="font-size:10.5px">${RK.pos}${r.r_ppr}</div></td>
       <td class="r num">${fmt1(r.ppr_g)}<div class="faint" style="font-size:10.5px">${r.r_ppr_g ? RK.pos + r.r_ppr_g : "pocos PJ"}</div></td>
       <td class="r num">${fmt1(r.half_g)}<div class="faint" style="font-size:10.5px">${r.r_half_g ? RK.pos + r.r_half_g : "pocos PJ"}</div></td>
-      <td class="c">${sm.avg != null ? `<span class="chip ros-avg ${avgCls(sm.avg)}" style="height:18px;font-size:11px">${Math.round(sm.avg)}º</span> <span class="faint" style="font-size:11px">(${sm.playoffs != null ? Math.round(sm.playoffs) + "º" : "—"})</span>` : "—"}</td></tr>`;
-  }
+      <td class="c"${sm.rank ? ` data-tip="${esc(schedTip(sm, RK.pos))}"` : ""}>${sm.rank ? `<span class="chip ros-avg ${schedCls(sm.rank)}" style="height:18px;font-size:11px">${sm.rank}º</span> <span class="faint" style="font-size:11px">(${sm.po_rank ? sm.po_rank + "º" : "—"})</span>` : "—"}</td></tr>`;
+  });
   $("#rankBody").innerHTML = h + `</tbody></table>${rows.length ? "" : `<div class="empty" style="padding:16px">Nadie con ese filtro.</div>`}`;
   const me = RK.focus && $("#rankBody").querySelector(`tr[data-pid="${RK.focus}"]`);
   if (me) me.scrollIntoView({block: "center"});

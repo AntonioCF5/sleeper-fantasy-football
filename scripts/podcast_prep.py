@@ -424,15 +424,22 @@ def load_ros(week, season, fpa_rank, last=17):
                        "easy": sum(r <= 8 for r in rs), "hard": sum(r >= 25 for r in rs),
                        "playoffs": round(sum(po) / len(po), 1) if po else None}
         out[t] = {"games": games, "summary": summ}
+    # an average of 8-9 opponent ranks always lands mid-table (wk 9: 9.4º-23.2º), so
+    # the number people read is the schedule's place among the 32: 1 = easiest left
+    for p in SKILL:
+        for k, rk in (("avg", "rank"), ("playoffs", "po_rank")):
+            order = sorted((v["summary"][p][k], t) for t, v in out.items() if v["summary"][p][k] is not None)
+            for i, (_, t) in enumerate(order):
+                out[t]["summary"][p][rk] = i + 1
     return out
 
 
-def ros_label(avg):
-    """Plain read of an average opponent rank (1 = softest)."""
-    if avg is None:
+def ros_label(rank):
+    """Plain read of a schedule's place among the 32 (1 = easiest remaining)."""
+    if rank is None:
         return "—"
-    avg = round(avg)  # label the number that gets printed (18.6 → "19º", not "neutral" next to "19º")
-    return "muy blando" if avg <= 10 else "blando" if avg <= 14 else "neutral" if avg < 19 else "difícil" if avg < 23 else "muy difícil"
+    return ("muy fácil" if rank <= 6 else "fácil" if rank <= 12 else "neutral" if rank <= 20
+            else "difícil" if rank <= 26 else "muy difícil")
 
 
 def eff(l3, sz, k):
@@ -1163,11 +1170,11 @@ def main():
             L.extend(key_table(t, key[t]))
             rs = (ros.get(sl(t)) or {}).get("summary") or {}
             if rs:
-                L.append(f"*Calendario del resto de {t}* (lugar promedio del rival en puntos PPR permitidos a la posición, "
-                         "1º = el más blando; semanas 15-17 entre paréntesis): "
-                         + " · ".join(f"{p} {rs[p]['avg']:.0f}º {ros_label(rs[p]['avg'])}"
-                                      + (f" ({rs[p]['playoffs']:.0f}º)" if rs[p]["playoffs"] else "")
-                                      for p in SKILL if rs.get(p, {}).get("avg")) + "\n")
+                L.append(f"*Calendario del resto de {t}* (lugar entre los 32 calendarios de la posición, 1º = el más "
+                         "fácil, por los puntos PPR que permiten sus rivales; entre paréntesis, el de las semanas 15-17): "
+                         + " · ".join(f"{p} {rs[p]['rank']}º {ros_label(rs[p]['rank'])}"
+                                      + (f" ({rs[p]['po_rank']}º)" if rs[p].get("po_rank") else "")
+                                      for p in SKILL if rs.get(p, {}).get("rank")) + "\n")
         dst_lines = {}
         for t in (a, h):
             opp = h if t == a else a

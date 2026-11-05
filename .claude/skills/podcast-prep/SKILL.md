@@ -379,13 +379,21 @@ UI (HTML, CSS and JS in one file).
       position (`fpa_rank`, 1 = softest).
       - Green 1-14, grey 15-18, red 19-32, dashed = bye, underline = fantasy
         playoffs (15-17).
-      - The average and the playoff average sit below, with the label from
-        `ros_label` (same thresholds in the app's `rosLabel`).
+      - Below it is the schedule's **place among the 32 at that position**
+        (`summary.rank`, 1 = easiest left), plus `po_rank` for weeks 15-17.
+        Labels come from `ros_label`, mirrored by `schedLabel` in the app:
+        1-6 muy fácil, 7-12 fácil, 13-20 neutral, 21-26 difícil,
+        27-32 muy difícil.
+      - Never show the raw average of opponent ranks as the headline. It is an
+        average of 8-9 ranks, so it always lands mid-table (wk 9: every team
+        between 9.4º and 23.2º), and the user read it as broken (2026-11-04).
+        The average lives in the tooltip ("rivales en promedio Nº").
       - The sheet prints one "Calendario del resto" line per team.
   - **Rankings drawer** (📊 Rankings button in the header, key R, Esc closes):
     QB/RB/WR/TE × sort by PPR total / PPR per game / ½ PPR per game, search,
     "solo esta semana" filter. Columns: GP/team games, the three numbers with
-    their ranks, and the ROS average (playoffs in parentheses). A blue bar marks
+    their ranks, and the schedule rank among the 32 (playoffs in parentheses),
+    sortable as "Calendario" (easiest first). A blue bar marks
     players on this week's slate. Opened from a rank, it highlights that player
     and scrolls him to the middle so his neighbors are visible.
   - **QB1 override**: `team_env.json` → `qb_start` (name prefix) beats
