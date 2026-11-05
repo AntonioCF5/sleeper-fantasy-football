@@ -483,6 +483,20 @@ UI (HTML, CSS and JS in one file).
       marks a backup moving up. `qb_start` reorders the QB spot.
     - Injury tags come from Sleeper, with ESPN's roster as fallback. Sleeper's
       "NA" is not an injury tag and is dropped.
+    - **Banca** (user 2026-11-04): everyone else on ESPN's roster, which
+      includes IR, PUP and practice squad, as a plain table with no photos.
+      Columns: Pos, linked name with jersey, status, depth-chart role, and
+      projection with season rank.
+      - Role reads "2º WR1" for the direct backup, "(fuera)" for the listed
+        starter who isn't playing, and is blank when he isn't on the chart.
+      - Sorted by position (`BENCH_ORDER`), then role, then name. Cells don't
+        wrap, so a narrow card scrolls with the name column frozen.
+  - **After any edit to `podcast_app.html`, syntax-check the script** before
+    reloading:
+    `node -e "const s=require('fs').readFileSync('scripts/podcast_app.html','utf8');new Function(s.split('<script>')[1].split('</script>')[0])"`.
+    A single bad character blanks the whole app. Wk 9: double quotes inside a
+    `TH(...)` tooltip string left it stuck on "Cargando…". Tooltip text uses
+    no straight double quotes; use « » or nothing.
   - **Every player name is a link to his Sleeper page** (user 2026-11-04,
     after the Lesiones tab had plain names).
     - Tables build links with `sleeperLink(pid, name)`. The data must carry

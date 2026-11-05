@@ -571,9 +571,10 @@ def lineup(t, team_id, season, idx, proj_by_pid, ranks):
     ros = espn.roster(team_id)
     rank_by = {r["pid"]: (pos, r) for pos, rows in (ranks or {}).items() for r in rows}
 
-    def person(a):
-        eid = re.search(r"athletes/(\d+)", (a.get("athlete") or {}).get("$ref", ""))
-        eid = eid.group(1) if eid else None
+    def person(a=None, eid=None):
+        if a is not None:
+            eid = re.search(r"athletes/(\d+)", (a.get("athlete") or {}).get("$ref", ""))
+            eid = eid.group(1) if eid else None
         info = ros.get(eid) or {}
         name = info.get("name")
         pid = idx.pid(name, t, eid) if name else idx.by_espn.get(eid)
@@ -586,6 +587,7 @@ def lineup(t, team_id, season, idx, proj_by_pid, ranks):
         pr = proj_by_pid.get(pid)
         rk = rank_by.get(pid)
         return {"pid": pid, "name": name, "espn": eid, "jersey": info.get("jersey"), "head": info.get("headshot"),
+                "pos": info.get("pos"),
                 "inj": STATUS_ES.get(inj, inj) if inj else None, "out": inj in OUT_TAGS,
                 "proj": round(pr["ppr"], 1) if pr else None,
                 "rank": f"{rk[0]}{rk[1]['r_ppr']}" if rk else None}
@@ -623,7 +625,31 @@ def lineup(t, team_id, season, idx, proj_by_pid, ranks):
         groups.append({"name": "Defensiva", "formation": deff["name"], "spots": spots(deff)})
     if st:
         groups.append({"name": "Equipos especiales", "formation": "", "spots": spots(st, ["pk", "p"])})
-    return {"team": t, "groups": groups}
+    # bench: everyone on ESPN's roster who isn't a projected starter, with his place on the depth chart
+    starters = {sp["depth"][sp["start"]]["espn"] for gr in groups for sp in gr["spots"]}
+    role = {}
+    for gr in groups:
+        for sp in gr["spots"]:
+            for i, d in enumerate(sp["depth"]):
+                if i != sp["start"] and d["espn"] not in role:
+                    role[d["espn"]] = f"{i + 1}º {sp['spot']}" + (" (fuera)" if i < sp["start"] else "")
+    bench = []
+    for eid in ros:
+        if eid in starters:
+            continue
+        x = person(eid=eid)
+        if not x:
+            continue
+        x.pop("head", None)
+        x["role"] = role.get(eid)
+        bench.append(x)
+    bench.sort(key=lambda x: (BENCH_ORDER.index(x["pos"]) if x["pos"] in BENCH_ORDER else 99,
+                              x["role"] is None, x["role"] or "", x["name"]))
+    return {"team": t, "groups": groups, "bench": bench}
+
+
+BENCH_ORDER = ["QB", "RB", "FB", "WR", "TE", "OT", "T", "G", "OG", "C", "OL", "DE", "DT", "NT", "DL", "LB", "OLB", "ILB",
+               "CB", "S", "SAF", "DB", "PK", "K", "P", "LS"]
 
 
 TEAM_ENV = json.loads((ROOT / "data" / "intel" / "team_env.json").read_text()) \

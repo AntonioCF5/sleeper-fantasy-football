@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 9, 2026
 
-*Generado mié 4 nov, 9:18 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
+*Generado mié 4 nov, 9:24 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
 
 **Nuestro récord de picks** — Semana pasada: **1-5** · Temporada: **1-5**
 
@@ -72,7 +72,7 @@ Abajo: BAL 14.8 · ARI 15.5 · PHI 17.5 · LAC 18.0 · NYJ 18.8 · CLE 19.8
 
 ### Más agregados en Sleeper (48h) de esta cartelera
 
-Adonai Mitchell (WR, NYJ) +3,056,368 · Tyler Allgeier (RB, ARI) +1,965,375 · Devin Singletary (RB, NYG) +1,807,263 · Emmett Johnson (RB, KC) +1,361,736 · Gardner Minshew II (QB, ARI) +1,302,512 · Chris Rodriguez Jr. (RB, JAX) +934,407 · Malik Willis (QB, MIA) +784,847 · Mike Gesicki (TE, CIN) +653,004 · Ryan Flournoy (WR, DAL) +563,976 · Malik Washington (WR, MIA) +525,896 · Jadarian Price (RB, SEA) +486,090 · Treylon Burks (WR, WAS) +437,472
+Adonai Mitchell (WR, NYJ) +3,040,048 · Tyler Allgeier (RB, ARI) +1,944,585 · Devin Singletary (RB, NYG) +1,825,416 · Emmett Johnson (RB, KC) +1,353,825 · Gardner Minshew II (QB, ARI) +1,277,748 · Chris Rodriguez Jr. (RB, JAX) +956,835 · Malik Willis (QB, MIA) +794,654 · Mike Gesicki (TE, CIN) +655,608 · Ryan Flournoy (WR, DAL) +563,728 · Malik Washington (WR, MIA) +528,624 · Jadarian Price (RB, SEA) +484,434 · Treylon Burks (WR, WAS) +436,023
 
 ---
 

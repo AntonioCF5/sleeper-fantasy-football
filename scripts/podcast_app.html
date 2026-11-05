@@ -350,6 +350,8 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
 .lu-row.out .lu-name { opacity: .55; }
 .lu-mini { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px 12px; }
 .lu-cell { display: grid; grid-template-columns: 34px 26px minmax(0, 1fr); gap: 8px; align-items: center; font-size: 12.5px; padding: 4px 0; }
+.lu-bench table td, .lu-bench table th { padding: 5px 8px; font-size: 12.5px; white-space: nowrap; }
+.lu-bench summary::-webkit-details-marker { color: var(--muted); }
 .lu-cell b { font-size: 10.5px; color: var(--muted); text-align: center; }
 .lu-cell .lu-meta { font-size: 11px; }
 .help { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; place-items: center; z-index: 20; padding: 16px; }
@@ -1386,6 +1388,26 @@ function luCell(sp) {
     <div style="display:flex;gap:4px;align-items:center;flex-wrap:wrap;font-weight:600">${sleeperLink(x.pid, x.name)} ${luInj(x)}</div>
     ${luBehind(sp) ? `<div class="lu-meta">${luBehind(sp)}</div>` : ""}</div></div>`;
 }
+// bench: the rest of ESPN's roster, as a plain table (no photos)
+function luBench(rows) {
+  if (!rows.length) return "";
+  let h = `<details class="lu-bench" open><summary class="lu-sec" style="cursor:pointer">Banca <span class="chip" style="height:18px;font-size:10.5px">${rows.length}</span></summary>
+    <div class="table-wrap"><table class="pl rank"><thead><tr>${[
+      TH("Pos", "Posición en el roster de ESPN."),
+      TH("Jugador", "Nombre (abre su página de Sleeper) y número de jersey."),
+      TH("Estatus", "Etiqueta de lesión de Sleeper (o de ESPN si Sleeper no tiene)."),
+      TH("Rol", "Su lugar en el depth chart: 2º WR1 = el suplente directo del WR1; (fuera) = el titular de la lista que no juega. Vacío = no aparece en el depth chart."),
+      TH("Proy.", "Proyección PPR de Sleeper para esta semana y su lugar en PPR de la temporada.", "r"),
+    ].join("")}</tr></thead><tbody>`;
+  for (const x of rows) {
+    h += `<tr${x.out ? ' class="faint"' : ""}><td><b style="font-size:11px">${esc(x.pos || "")}</b></td>
+      <td><div style="font-weight:600">${sleeperLink(x.pid, x.name)}${x.jersey ? ` <span class="faint" style="font-weight:500">#${esc(x.jersey)}</span>` : ""}</div></td>
+      <td>${luInj(x) || '<span class="faint">—</span>'}</td>
+      <td class="faint" style="font-size:12px">${esc(x.role || "")}</td>
+      <td class="r">${x.proj ? `<b>${fmt1(x.proj)}</b>` : ""}${x.rank ? ` <span class="faint" style="font-size:11px">${esc(x.rank)}</span>` : ""}</td></tr>`;
+  }
+  return h + `</tbody></table></div></details>`;
+}
 function tabAlineaciones(g) {
   const sh = g.sheet;
   let h = `<div class="grid cols-2">`;
@@ -1400,6 +1422,7 @@ function tabAlineaciones(g) {
       if (skill.length) h += skill.map(luRow).join("") + `<div class="lu-sec" style="margin-top:10px">Línea ofensiva</div>`;
       if (rest.length) h += `<div class="lu-mini">${rest.map(luCell).join("")}</div>`;
     }
+    h += luBench(L.bench || []);
     h += `</div>`;
   }
   h += `<div class="card span-all faint" style="font-size:12px">Depth chart de ESPN (más al día que el de Sleeper) cruzado con Sleeper para la foto, el link, la etiqueta de lesión y la proyección. El titular es el primero que no está Fuera, en Reserva, PUP o suspendido; si el mariscal titular cambió, manda el que confirmó la investigación (<code>qb_start</code>). "En lugar de" = sube porque el de arriba no juega. Proyección PPR de Sleeper y lugar en PPR de la temporada.</div>`;
