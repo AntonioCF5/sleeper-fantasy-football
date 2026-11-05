@@ -117,6 +117,9 @@ Library modules (import from repo root with `sys.path` trick, see scripts):
 - `sleeper/reports.py` — markdown weekly + draft reports.
 - `sleeper/espn.py` — ESPN public endpoints (scoreboard, game summary, DraftKings
   open/close odds incl. finished games, team season stats), curl + file cache.
+- `sleeper/weather.py` — kickoff-hour forecast per stadium (Open-Meteo, no key):
+  temp, sky, wind/gusts, rain %, roof type (dome/retractable/open), ⚠️ flags; neutral
+  and international venues in `VENUES`. Used by `podcast_prep.py` (sheet + app banner).
 - `sleeper/history.py` — nflverse games.csv since 1999 (both head coaches, starting
   QBs, closing lines, rest, div flag, ESPN id), franchise-normalized; `index()`
   gives per-coach/QB/team rows, `Ledger` tallies SU/ATS/O-U.

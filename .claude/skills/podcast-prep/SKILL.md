@@ -1,6 +1,6 @@
 ---
 name: podcast-prep
-description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Also use for the RECAP segment — "el recap", how last week's games went vs the line, the injuries, and waiver priorities by position for the podcast audience (scripts/podcast_recap.py, §8). Also use when they ask to open the podcast app, add a stat to it, or what a number on the sheet/app means (SRS, yds/pase, yds/target, how to read the Fantasy or Uso table). Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, coach/QB/series history, rest/spot, injuries, fantasy usage and matchups), adds the research layer, writes an on-air rundown in Spanish with picks logged to data/intel/podcast_picks.json, and serves it all in the local app (scripts/podcast_app.py).
+description: Weekly NFL podcast prep. Use when the user asks to prep the podcast, "the show", the episode, a game-by-game rundown of the upcoming NFL week, betting lines / "do the lines make sense", best bets, or week-ahead fantasy talking points for recording. Also use for the RECAP segment — "el recap", how last week's games went vs the line, the injuries, and waiver priorities by position for the podcast audience (scripts/podcast_recap.py, §8). Also use when they ask to open the podcast app, add a stat to it, or what a number on the sheet/app means (SRS, FPI, ATS, yds/pase, yds/target, player rankings, the rest-of-season schedule, how to read the Fantasy or Uso table), or ask for news per game, the weather, or a refresh on recording day. Runs scripts/podcast_prep.py (lines, line movement, ATS/O-U records, SRS + FPI line check, ranked team stats, coach/QB/series history, rest/spot, injuries, fantasy usage and matchups), adds the research layer, writes an on-air rundown in Spanish with picks logged to data/intel/podcast_picks.json, and serves it all in the local app (scripts/podcast_app.py).
 ---
 
 # Podcast prep
@@ -23,17 +23,50 @@ this without asking. Each step is detailed in the section named.
    and "History notes" before anything else.
 2. **App**: `preview_start {name: "podcast-app"}`. The user preps from it, so
    it should be open and current (§6).
-3. **Research**: 2-3 parallel subagents, plus expert takes and the survivor
-   plan (§2).
-4. **Rundown**: write `rundown.md` in Spanish, every game, in kickoff order
-   (§3). Back each fantasy call with a usage number, and check every
-   superlative against the whole slate.
+3. **Research** (§2): 3 parallel subagents, 5 games each. They bring line
+   moves, practice reports, and news per team (trades, signings, IR, QB and
+   coach changes, suspensions). Also pull the expert takes and the survivor
+   plan. When a starting QB changed, set `qb_start` in `team_env.json` and
+   re-run step 1 so Jugadores clave shows the right QB.
+4. **Rundown** (§3): write `rundown.md` in Spanish, every game, in kickoff
+   order.
+   - Every game gets a `Noticias` bullet.
+   - Weather comes from the sheet's forecast, never from memory.
+   - Back each fantasy call with a usage number, and check every superlative
+     against the whole slate.
 5. **Picks**: log every side, total and ML in `podcast_picks.json` (§4).
-6. **Verify in the app**: reload, open each game's Resumen, Fantasy and
-   Guion tabs, and confirm the pick, Historia and Fantasy blocks came
-   through. Then check that no tab on any game shows `undefined`, `NaN` or
-   an empty card (§6).
-7. **Close out**: commit, and post the chat summary (§5).
+6. **Verify in the app**: reload and open each game's Resumen, Fantasy,
+   Jugadores clave and Guion tabs (§6). Confirm that:
+   - the banner shows the forecast chip;
+   - the pick, Noticias, Historia and Fantasy blocks came through;
+   - no tab on any game shows `undefined`, `NaN` or an empty card.
+7. **Close out**: commit, update STATUS.md's podcast entry, and post the chat
+   summary (§5).
+
+**Recording day = run it again, not just read it.** Lines, practice reports and
+forecasts move between the write-up and the recording. Wk 9, Wednesday
+afternoon:
+- Darnold was ruled out, so SEA went from -12.5 to -8.5.
+- The GB/NE total fell to 45.5, past its "sirve hasta 46".
+- The DAL/IND 🚩 vanished at +5.5.
+- PHI switched to Milton.
+
+The checklist:
+1. Re-run the sheet and diff every line and total against the rundown's
+   numbers. Diff the flags too.
+2. Send the news agents after only what's new.
+3. Re-check every pick against its "sirve hasta". Past it, the pick comes off
+   the card and out of `podcast_picks.json` (it hasn't aired), and the card
+   lists it under "Se cayeron" with the condition that brings it back.
+4. A 🚩 that disappears comes out of the text, the card and the cold-open
+   references.
+5. Re-run `survivor_plan.py` whenever news hits the survivor pick or its
+   alternatives. Say loudly when the new pick plays **Thursday** (wk 9: JAX),
+   because it has to be submitted before TNF.
+6. Fix every sentence the news contradicts (wk 9: "Sirianni no cambió de
+   mariscal", "el brazo de Stafford es pregunta abierta", "Montgomery sin
+   practicar").
+7. Update the header's "Actualizado …" line.
 
 The episode opens with the **recap of the week just played plus waivers**
 (§8). That runs Monday/Tuesday, after the games and before waivers clear,
@@ -62,7 +95,11 @@ Asked something smaller, do only that piece:
 python3 scripts/podcast_prep.py [week]      # default: ESPN's current week
 ```
 → `reports/<season>/podcast/weekNN/podcast-prep.md` (one sheet per game) +
-`data.json` (the same numbers, machine-readable). Runs in about 10s. Upcoming-slate data
+`data.json` (the same numbers, machine-readable). Besides `games`, it carries:
+- `rankings`: season ranks by position for every player with a snap;
+- `ros`: the rest-of-season schedule per team, with opponent ranks and
+  schedule ranks;
+- `sheet.wx` per game: the kickoff forecast. Runs in about 10s. Upcoming-slate data
 caches for 3h and finished games for a week. **Re-run it on recording day**,
 because lines and injury tags move all week. Games that are already final (TNF) drop off.
 
@@ -149,9 +186,11 @@ What the sheet holds, and how to read it:
     snap % are the stand-ins.
 - **Jugadores clave** (user 2026-11-02: per game, the key players with snap %,
   targets, carries, touches and stats), per team: the QB1, the top 2 backs by
-  backfield share and the top 4 pass-catchers by target share. QB1 is the
-  healthy QB who threw the most in the team's last game, falling back to the
-  most recent passer when every QB is tagged Out (BAL wk 9). IR/PUP players
+  backfield share and the top 4 pass-catchers by target share. QB1 is
+  `team_env.json` → `qb_start` when the research layer set one. Otherwise it
+  is the healthy QB who threw the most in the team's last game, falling back
+  to the most recent passer when every QB is tagged Out (BAL wk 9). Sleeper's
+  tags and depth chart lag QB changes, so the override exists for that. IR/PUP players
   are left out; Out players stay in with their tag. Everything is per game,
   last 3 of the team (season):
   - snaps
@@ -161,6 +200,8 @@ What the sheet holds, and how to read it:
   - season TDs split by type, and PPR per game
   - a log of each of the team's last 3 games (newest first, "no jugó" when
     he missed it)
+  - his season rank in PPR, PPR/game and ½ PPR/game, and his team's
+    rest-of-season schedule rank for his position (§6 and §7)
 
   Built by `key_players()` / `key_table()` from the weekly box score that
   `load_sleeper` stores per player. It goes in `sheet.key_players` and the app's
@@ -227,6 +268,23 @@ returns findings instead of re-deriving the stats. Each returns, per game:
 
    Every item is dated and sourced, and rumors are labeled as rumors. This
    feeds the `Noticias` bullet.
+
+   **Brief that worked (wk 9, 3 agents × 5 games):**
+   - Give the date and the games. The window is ~5 days before recording, and
+     the trade-deadline date goes in the brief.
+   - The categories are the ones above.
+   - Facts only. Every item carries its date and source (outlet + URL), and
+     rumors are marked as rumors.
+   - No weather and no betting lines; the sheet has both.
+   - Output is 2-5 one-line bullets per game, `[TEAM] fact — date, source`,
+     most important first, then a "couldn't verify" list. Keep it under ~700
+     words.
+
+   **Before using the results:**
+   - A fact backed only by a single fan site stays out of the rundown, or goes
+     in hedged.
+   - Cross-check every agent item against the rundown's existing text. The
+     news is what makes old sentences wrong.
 6. One or two **storylines** a listener would care about (revenge game, streak,
    milestone, coach on the hot seat). Label these as color, not reasons.
 
@@ -292,7 +350,7 @@ applied the same way every week:
 ## Best bets card (3-5 max, from the calls above)
 ## Fantasy segment: smash spots, traps, the usage riser to grab now
 ## Regression watch: records vs point differential (Pythagorean + one-score games)
-## Survivor pick (survivor_plan.py output + the week's line)
+## Survivor pick (survivor_plan.py output + the week's line; flag a Thursday pick: submit before TNF)
 ```
 
 Rules for the calls:
@@ -325,8 +383,12 @@ Every side/total/ML said on air goes into `data/intel/podcast_picks.json`
 under `weeks.<N>`, with the line **at pick time** from the side's
 perspective (schema in the file's `_schema` key). The script grades them on
 the next run once games are final and prints "Last week X-Y · Season X-Y" at
-the top of the sheet, which feeds the "last week's record" segment. Never
-backfill or edit a logged line after the fact.
+the top of the sheet, which feeds the "last week's record" segment. Once a
+pick has **aired**, never backfill or edit it. Before it airs, it follows
+the recording-day number:
+- re-logged at the new line, with the change in `why`;
+- removed when the line moved past its "sirve hasta" (wk 9: GB/NE Bajas at
+  45.5 with a tope of 46).
 
 ## 5. Close out
 
@@ -515,6 +577,28 @@ on-air takeaway.
   - Columns off the right edge: Acarreos (carry share), Snaps (last 3) and
     Rival (opponent's rank out of 32 in points allowed to the position;
     green = 8 softest, red = 8 toughest).
+- **Ranking (Jugadores clave / 📊 panel)**: the position rank for the season
+  in total PPR, PPR per game and ½ PPR per game, from Sleeper's weekly stat
+  lines re-scored.
+  - Per-game ranks only count players with at least half their team's games
+    (min 2), so one spike week can't top the list; below that the rank is
+    "—".
+  - Every player with a snap is ranked, so a backup shows as QB51.
+  - On air: "es WR18 por partido pero WR24 en total" means he missed games.
+- **Calendario del resto**: built in three steps.
+  1. Each defense is ranked 1-32 by PPR points per game allowed to each
+     position this season (1 = softest).
+  2. Each remaining week through 17 shows the opponent's rank for the
+     player's position. Those are the colored cells, and they span the full
+     1-32.
+  3. The headline number is the schedule's **place among the 32 teams' schedules**
+     at that position (1 = easiest), ranked by the average of those cells,
+     plus a separate place for weeks 15-17 (fantasy playoffs).
+  - The raw average always sits between ~9 and ~23, because 8-9 opponents
+    average out. That's why it is only in the tooltip, never the headline
+    (user asked 2026-11-04 why nothing was 1º or 32º).
+  - Points allowed are raw, not opponent-adjusted, so early in the season a
+    defense that faced two elite WR rooms looks softer than it is.
 - **How to read the Uso table**:
   - The bar is the last 3 games and the tick is the season.
   - % backfield = (carries + catches) ÷ all of the team's RB touches.
