@@ -206,7 +206,8 @@ td.c, th.c { text-align: center; } td.r, th.r { text-align: right; }
 .pl td:first-child, .pl.rank td:nth-child(2) { max-width: 220px; } .pl.rank td:first-child { max-width: 34px; }
 .pl td .kp-sub { white-space: normal; }
 .pl tbody tr:hover td:first-child, .pl.rank tbody tr:hover td:nth-child(2) { background: var(--surface-2); }
-th[data-tip] { cursor: help; text-decoration: underline dotted var(--faint); text-underline-offset: 3px; }
+[data-tip] { cursor: help; }
+th[data-tip], td[data-tip], .tipu[data-tip] { text-decoration: underline dotted var(--faint); text-underline-offset: 3px; }
 .tip { position: fixed; z-index: 200; max-width: 290px; padding: 8px 10px; border-radius: 8px; background: var(--text); color: var(--bg);
   font-size: 12px; line-height: 1.4; font-weight: 500; box-shadow: var(--shadow-lg); pointer-events: none; opacity: 0; transition: opacity .12s; }
 .tip.on { opacity: 1; }
@@ -585,7 +586,7 @@ function renderNav() {
       const best = Math.max(0, ...picks.map(p => p.conf));
       h += `<button class="nav-item" data-game="${g.game}" aria-current="${S.game === g.game}">
         <span class="nav-teams">${logo(sh.away)}${sh.away}<span class="at">@</span>${logo(sh.home)}${sh.home}</span>
-        <span class="nav-badges">${g.flag ? '<span class="chip flag" title="Los dos modelos lejos del mercado">🚩</span>' : ""}${best ? `<span class="chip ${best >= 2 ? "solid" : "accent"}" title="${picks.length} pick(s)">${"★".repeat(best)}</span>` : ""}</span>
+        <span class="nav-badges">${g.flag ? '<span class="chip flag" data-tip="${esc(TIP.flag)}">🚩</span>' : ""}${best ? `<span class="chip ${best >= 2 ? "solid" : "accent"}" title="${picks.length} pick(s)">${"★".repeat(best)}</span>` : ""}</span>
         <span class="nav-sub"><span class="num">${esc(sh.kick_mx.split(", ").pop())}</span>·<span>${esc(sh.line_txt)}</span>·<span>O/U ${g.odds?.total ?? "—"}</span></span>
       </button>`;
     }
@@ -659,7 +660,17 @@ function overview() {
           <div class="muted" style="font-size:12px;margin-top:4px">${p.conf >= 2 ? "Apuesta" : "Inclinación"} ${resultChip(p)}</div></button>`; }).join("")}</div></div>`;
   }
   h += `<div class="card"><h3>Cartelera</h3><div class="table-wrap"><table class="slate"><thead><tr>
-    <th>Partido</th><th>Hora CDMX</th><th>Spread</th><th class="c">Total</th><th>Implícitos</th><th class="c">% local mercado</th><th class="c">% local FPI</th><th>Línea SRS</th><th></th></tr></thead><tbody>`;
+    ${[
+      TH("Partido", "Visitante @ local. Clic para abrir el partido."),
+      TH("Hora CDMX", "Día y hora de la patada inicial, hora del centro de México."),
+      TH("Spread", "Línea actual de DraftKings: el favorito y por cuántos puntos. Abajo, con qué abrió."),
+      TH("Total", "Total de puntos (altas/bajas) actual de DraftKings; abajo, con qué abrió.", "c"),
+      TH("Implícitos", "Puntos que el mercado espera de cada equipo, sacados del spread y el total."),
+      TH("% local mercado", TIP.mkt + " Del equipo local.", "c"),
+      TH("% local FPI", "% de victoria del local según el FPI de ESPN. " + TIP.fpi, "c"),
+      TH("Línea SRS", TIP.srsLine),
+      TH("", ""),
+    ].join("")}</tr></thead><tbody>`;
   for (const g of S.games) {
     const sh = g.sheet, o = g.odds || {};
     const moved = sh.open_txt && sh.open_txt !== sh.line_txt ? `<div class="faint" style="font-size:11px">abrió ${esc(sh.open_txt)}</div>` : "";
@@ -673,7 +684,7 @@ function overview() {
       <td class="num">${g.implied ? `${sh.home} ${fmt1(g.implied[sh.home])} · ${sh.away} ${fmt1(g.implied[sh.away])}` : "—"}</td>
       <td class="c">${pct(g.p_market)}</td><td class="c">${pct(g.p_fpi)}</td>
       <td>${esc(sh.srs_line || "—")}</td>
-      <td>${g.flag ? '<span class="chip flag">🚩</span> ' : ""}${ps.map(p => `<span class="chip ${p.conf >= 2 ? "solid" : "accent"}">${esc(pickText(p))}</span>`).join(" ")}</td></tr>`;
+      <td>${g.flag ? `<span class="chip flag" data-tip="${esc(TIP.flag)}">🚩</span> ` : ""}${ps.map(p => `<span class="chip ${p.conf >= 2 ? "solid" : "accent"}">${esc(pickText(p))}</span>`).join(" ")}</td></tr>`;
   }
   h += `</tbody></table></div></div>`;
   return h;
@@ -700,6 +711,33 @@ function scoreHtml(x) {
 // header cell with a tooltip (hover on desktop, tap on mobile)
 const TH = (label, tip, cls = "") => `<th${cls ? ` class="${cls}"` : ""}${tip ? ` data-tip="${esc(tip)}"` : ""}>${label}</th>`;
 const L3 = "Negritas = últimos 3 partidos del equipo; gris = temporada.";
+const TIP = {
+  srs: "SRS (Simple Rating System): margen de puntos por partido ajustado por la fuerza de los rivales y la localía. Cada paliza cuenta como máximo ±21, el local vale 1.5 puntos y al inicio de la temporada el rating se encoge hacia 0. +5 = 5 puntos mejor que un equipo promedio en campo neutral.",
+  srsLine: "Línea justa según el SRS: rating del local − rating del visitante + 1.5 de localía. Compárala con el spread: si difiere por 2 o más, el modelo ve valor. No ve las lesiones de esta semana.",
+  fpi: "FPI (Football Power Index) de ESPN: su modelo de poder (eficiencia por jugada, calendario, mariscal) que da un % de victoria. Lo convertimos a puntos de margen con una normal de desviación 13.5 para compararlo con el spread.",
+  mkt: "% de victoria implícito en los moneylines de DraftKings, sin la comisión de la casa.",
+  ats: "ATS (contra el spread): récord ganados-perdidos-empates cubriendo la línea de cierre de DraftKings. Entre paréntesis, de favorito / de no favorito. Cubrir = ganar por más del spread (favorito) o perder por menos o ganar (no favorito).",
+  flag: "🚩 Alerta: el SRS y el FPI se alejan los dos 2 puntos o más del mercado, hacia el mismo lado.",
+};
+// Comparación (Equipos): one tooltip per row label, matched by prefix
+const ROW_TIPS = [
+  ["Récord", "Ganados-perdidos (empates) de la temporada; entre paréntesis, de local / de visita."],
+  ["ATS", TIP.ats],
+  ["Altas/Bajas", "Cuántas veces el total combinado del partido quedó por encima / por debajo del total de cierre (altas-bajas-empates)."],
+  ["Margen prom.", "Margen: diferencia de puntos promedio por partido (a favor − en contra). Cobertura: por cuántos puntos superó en promedio el spread de cierre (positivo = cubre de más)."],
+  ["Rating SRS", TIP.srs],
+  ["Puntos a favor", "Puntos anotados / permitidos por partido. En los dos, 1º = el mejor (más anotados, menos permitidos)."],
+  ["Yds netas/intento", "Yardas de pase por intento restando las capturas y las yardas que costaron. La mejor medida simple de un ataque aéreo."],
+  ["Yds/acarreo", "Yardas por acarreo de todo el equipo."],
+  ["% en 3ª", "% de terceras oportunidades que se convierten en primero y 10."],
+  ["% de TD en zona roja", "% de las visitas dentro de la 20 rival que terminan en touchdown (no en gol de campo o en nada)."],
+  ["Diferencial de balones", "Balones recuperados − balones perdidos en la temporada. Muy volátil: tiende a regresar a 0."],
+  ["Capturas recibidas", "Capturas que ha sufrido su mariscal. Aquí 1º = las menos."],
+  ["Capturas (defensiva)", "Capturas que ha conseguido su defensiva."],
+  ["Jugadas/partido", "Jugadas ofensivas por partido: el ritmo. Más jugadas = más oportunidades de fantasy para todos."],
+  ["Situación", "Días de descanso antes del partido, si viene de semana libre o de semana corta, y qué partido le sigue (posible trampa de mirar adelante)."],
+];
+const rowTip = label => (ROW_TIPS.find(([k]) => label.startsWith(k)) || [])[1] || "";
 // pos badge + name line, with the tags stacked under the name (never beside it)
 function playerName(pos, name, tags = []) {
   const t = tags.filter(Boolean).join("");
@@ -750,7 +788,15 @@ function tabRecap() {
 
   // results
   h += `<div class="card" style="margin-bottom:16px"><h3>Resultados contra la línea</h3><div class="table-wrap"><table class="slate"><thead><tr>
-    <th>Partido</th><th>Final</th><th>Cierre</th><th>Contra la línea</th><th class="c">Total</th><th class="c">Altas/bajas</th><th></th></tr></thead><tbody>`;
+    ${[
+      TH("Partido", "Visitante @ local."),
+      TH("Final", "Marcador final."),
+      TH("Cierre", "Spread de cierre de DraftKings: la última línea antes de la patada, la que se usa para calificar."),
+      TH("Contra la línea", "ATS: qué equipo cubrió el spread de cierre y por cuántos puntos lo superó."),
+      TH("Total", "Puntos combinados; entre paréntesis, el total de cierre.", "c"),
+      TH("Altas/bajas", "Si los puntos combinados quedaron por encima (altas) o por debajo (bajas) del total de cierre.", "c"),
+      TH("", "Nuestros picks de ese partido: verde ganó, rojo perdió."),
+    ].join("")}</tr></thead><tbody>`;
   for (const x of r.results || []) {
     const here = r.week === S.week && S.byKey[x.game];
     const ats = x.ats ? (x.ats === "push" ? `<span class="chip">Empate</span>` : `<span class="chip ${x.cover_by >= 10 ? "solid" : "accent"}">${x.ats} por ${x.cover_by}</span>`) : "—";
@@ -955,15 +1001,15 @@ function tabResumen(g) {
       ${marks.map(m => `<span class="axis-dot" style="left:${pos(m[1])}%;background:${m[2]}" title="${m[0]}: ${byTeam(m[1])}"></span>`).join("")}
     </div>
     <div class="axis-ends"><span>← gana ${a}</span><span>empate</span><span>gana ${hm} →</span></div>
-    <div class="legend">${marks.map(m => `<div><span class="ldot" style="background:${m[2]}"></span><span class="muted">${m[0]}</span><b>${byTeam(m[1])}</b></div>`).join("")}</div>
+    <div class="legend">${marks.map(m => `<div><span class="ldot" style="background:${m[2]}"></span><span class="muted tipu" data-tip="${esc({Mercado: "El spread actual de DraftKings expresado como margen del local.", SRS: TIP.srs, FPI: TIP.fpi}[m[0]])}">${m[0]}</span><b>${byTeam(m[1])}</b></div>`).join("")}</div>
     <div class="verdict ${g.flag ? "flag" : ""}">${inline(sh.verdict || "Sin datos suficientes de los modelos")}</div>
-    <div class="faint" style="font-size:12px;margin-top:8px">Línea justa según SRS: <b>${esc(sh.srs_line || "—")}</b>. Ningún modelo ve las lesiones de esta semana.</div>
+    <div class="faint" style="font-size:12px;margin-top:8px"><span class="tipu" data-tip="${esc(TIP.srsLine)}">Línea justa según SRS</span>: <b>${esc(sh.srs_line || "—")}</b>. Ningún modelo ve las lesiones de esta semana.</div>
   </div>`;
   // win prob card
-  const wp = (label, p) => p == null ? "" : `<div class="split-label"><span>${a} ${pct(1 - p)}</span><span>${label}</span><span>${hm} ${pct(p)}</span></div>
+  const wp = (label, p, tip = "") => p == null ? "" : `<div class="split-label"><span>${a} ${pct(1 - p)}</span><span${tip ? ` class="tipu" data-tip="${esc(tip)}"` : ""}>${label}</span><span>${hm} ${pct(p)}</span></div>
     <div class="split"><div style="flex-basis:${(1 - p) * 100}%;background:${COLORS[a]}">${a}</div><div style="flex-basis:${p * 100}%;background:${COLORS[hm]}">${hm}</div></div>`;
   const naive = g.naive_total, tot = o.total;
-  h += `<div class="card"><h3>Probabilidad de victoria</h3>${wp("Mercado (sin comisión)", g.p_market)}${wp("ESPN FPI", g.p_fpi)}
+  h += `<div class="card"><h3>Probabilidad de victoria</h3>${wp("Mercado (sin comisión)", g.p_market, TIP.mkt)}${wp("ESPN FPI", g.p_fpi, TIP.fpi)}
     ${naive != null && tot != null ? `<div class="stat-row" style="margin-top:12px"><span class="stat-label">Modelo de puntos vs total</span><span class="stat-value">${fmt1(naive)} vs ${tot}
       <span class="chip ${Math.abs(naive - tot) >= 3 ? (naive > tot ? "good" : "bad") : ""}">${naive > tot ? "altas" : "bajas"} ${fmt1(Math.abs(naive - tot))}</span></span></div>
       <div class="faint" style="font-size:12px">${Math.abs(naive - tot) < 3 ? "Diferencia menor a 3: ruido." : "Solo cuenta si la investigación lo respalda (no ve clima ni cambios de QB)."}</div>` : ""}
@@ -990,7 +1036,7 @@ function tabEquipos(g) {
     // every "(Nº)" in the text becomes a rank chip in place (points for / against carry two)
     const chips = v => esc(String(v)).replace(/\s*\((\d+)º\)/g, (m, r) => rankChip(+r));
     const cell = (v, r, other) => `<td class="v ${r && other && r < other ? "better" : ""}">${chips(v)}</td>`;
-    h += `<tr><td>${esc(label)}</td>${cell(va, ra, rh)}${cell(vh, rh, ra)}</tr>`;
+    h += `<tr><td${rowTip(label) ? ` data-tip="${esc(rowTip(label))}"` : ""}>${esc(label)}</td>${cell(va, ra, rh)}${cell(vh, rh, ra)}</tr>`;
   }
   h += `</tbody></table></div><div class="faint" style="font-size:12px;margin-top:8px">El lugar va de 1 (mejor) a 32. Verde = top 8, rojo = últimos 8.</div></div>`;
   for (const t of [a, hm]) {
@@ -999,8 +1045,8 @@ function tabEquipos(g) {
       const m = l.match(/^([GPE]) (\d+-\d+) (vs|@) (\w+)(?: \(([^ ]+) ([✓✗P])(?:, ([ABP]))?\))?/);
       if (!m) return `<div>${esc(l)}</div>`;
       return `<div class="log-item"><span class="res ${m[1]}">${m[1]}</span><span><b>${m[2]}</b> <span class="muted">${m[3]} ${m[4]}</span></span>
-        <span class="chip ${m[6] === "✓" ? "good" : m[6] === "✗" ? "bad" : ""}" title="Contra la línea">${m[5] ? `${m[5]} ${m[6]}` : "—"}</span>
-        <span class="chip" title="Altas/bajas">${m[7] === "A" ? "Altas" : m[7] === "B" ? "Bajas" : m[7] === "P" ? "Push" : "—"}</span></div>`;
+        <span class="chip ${m[6] === "✓" ? "good" : m[6] === "✗" ? "bad" : ""}" data-tip="ATS: spread de cierre de ese partido y si lo cubrió (✓ sí, ✗ no, P empate)">${m[5] ? `${m[5]} ${m[6]}` : "—"}</span>
+        <span class="chip" data-tip="Si el total del partido quedó por encima (altas) o por debajo (bajas) del total de cierre">${m[7] === "A" ? "Altas" : m[7] === "B" ? "Bajas" : m[7] === "P" ? "Push" : "—"}</span></div>`;
     }).join("")}</div>` : `<div class="empty">Sin partidos.</div>`}</div>`;
   }
   return h + `</div>`;

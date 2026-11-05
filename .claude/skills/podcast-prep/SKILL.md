@@ -363,6 +363,17 @@ UI (HTML, CSS and JS in one file).
     (`pl rank` if a `#` column comes first) and `TH(label, tip)` headers whose
     tip says what the number is, the period (last 3 in bold vs season in
     grey), and what the ▲/▼ or rank means.
+  - **Model and betting terms carry tooltips too** (user 2026-11-04). SRS, FPI,
+    ATS, market %, SRS line and 🚩 are each defined once in the app's `TIP`
+    object and reused everywhere they show:
+    - the Cartelera headers;
+    - the Resumen model legend and win-% labels (class `tipu`);
+    - every Comparación row label, matched by prefix in `ROW_TIPS`;
+    - the last-5 ATS and O/U chips;
+    - the Recap results headers.
+
+    A new team-stat row in `podcast_prep.TEAM_METRICS` gets its `ROW_TIPS`
+    entry in the same commit.
   - **Layering:** the frozen column is z-index 1, the sticky tabs bar is 3 so
     rows scroll under it, and the mobile sidebar is 5. Keep new sticky or fixed
     elements consistent with that.
