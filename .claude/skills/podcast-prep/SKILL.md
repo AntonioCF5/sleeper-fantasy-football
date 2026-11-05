@@ -468,6 +468,11 @@ UI (HTML, CSS and JS in one file).
       fantasy-relevant players compete: top 32 QB, 60 RB, 80 WR, 36 TE in
       PPR/game (`RK_RELEVANT`). Without that, a WR141 with one TD led "% TD"
       at 85%. The rest go last, without a number.
+    - A **Por partido / Temporada** toggle (user 2026-11-04: "totals, not
+      only averages") switches the four columns between per-game (`*_g`)
+      and season totals (`*_t`). Under each number is the raw count in the
+      same mode: yards (pass + rush + rec), receptions and TDs. Sort keys
+      `yds`/`rec`/`td`/`oth` resolve to the current mode via `rkKey`.
     - Computed in `rankings()` from the weekly stat lines with the `PPR`
       weights. A blue bar marks
     players on this week's slate. Opened from a rank, it highlights that player

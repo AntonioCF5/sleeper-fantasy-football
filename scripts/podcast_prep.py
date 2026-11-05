@@ -395,7 +395,10 @@ def rankings(usage, team_tot, meta):
                          "ppr": round(ppr, 1), "ppr_g": round(ppr / n, 2), "half_g": round(half / n, 2),
                          "yds_g": round(yds / n, 2), "rec_g": round(rec / n, 2), "td_g": round(td / n, 2),
                          "oth_g": round(oth / n, 2), "td_pct": round(td / ppr, 3) if ppr > 0 else None,
-                         "tds": int(tot("pass_td") + tot("rush_td") + tot("rec_td"))})
+                         "tds": int(tot("pass_td") + tot("rush_td") + tot("rec_td")),
+                         # season totals of the same split, plus the raw counts behind them
+                         "yds_t": round(yds, 1), "rec_t": round(rec, 1), "td_t": round(td, 1), "oth_t": round(oth, 1),
+                         "yards": int(tot("pass_yd") + tot("rush_yd") + tot("rec_yd")), "recs": int(tot("rec"))})
         rows.sort(key=lambda r: -r["ppr"])
         for i, r in enumerate(rows):
             r["r_ppr"] = i + 1

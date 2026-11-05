@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 9, 2026
 
-*Generado mié 4 nov, 9:30 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
+*Generado mié 4 nov, 9:33 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
 
 **Nuestro récord de picks** — Semana pasada: **1-5** · Temporada: **1-5**
 
