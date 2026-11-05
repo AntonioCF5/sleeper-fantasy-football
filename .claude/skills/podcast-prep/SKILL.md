@@ -200,11 +200,34 @@ returns findings instead of re-deriving the stats. Each returns, per game:
    needs a named cause (injury, QB change, sharp money report, weather).
 2. **QB / key-player status**: practice participation Wed-Fri, beat-reporter
    language. The ESPN tag alone is not enough.
-3. **Weather**: wind forecast for outdoor games. ESPN gives only temperature
-   and precipitation; wind ≥15 mph is what moves totals and passing games.
+3. **Weather**: the sheet already carries the kickoff-hour forecast, so the
+   agents don't search for it. `sleeper/weather.py` uses Open-Meteo by stadium
+   lat/lon and roof type, and the forecast refreshes every 3h.
+   - It reports temperature, sky, wind, gusts and rain % for the 3-hour game
+     window.
+   - ⚠️ flags: wind ≥24 km/h (15 mph) sustained or ≥40 km/h gusts, rain ≥50%,
+     snow, or ≤0°C.
+   - ESPN's own `weather` field is the stadium's CURRENT reading with no wind,
+     and is only the fallback past the 16-day horizon.
+   - A new neutral or international venue gets an entry in `VENUES`; a new
+     stadium updates `STADIUMS`.
+   - The rundown quotes the forecast from the sheet, never one remembered from
+     a past run. Wk 9 lesson: Wednesday's gusts of 22-26 mph for GB@NE had
+     dropped to 17 mph by the afternoon.
 4. **Coaching / scheme / role changes**: new play-caller, depth-chart moves,
    snap-count notes. Cross-check `data/intel/team_env.json` (hc/oc/coach_note).
-5. One or two **storylines** a listener would care about (revenge game, streak,
+5. **News per team, every game, every week (user 2026-11-04).** Agents search
+   the ~5 days before recording for:
+   - trades, signings and releases (check the trade-deadline calendar);
+   - IR moves, both in and out;
+   - practice reports (DNP/limited/full);
+   - season-ending injuries;
+   - coaching, play-caller or QB changes;
+   - suspensions and off-field items.
+
+   Every item is dated and sourced, and rumors are labeled as rumors. This
+   feeds the `Noticias` bullet.
+6. One or two **storylines** a listener would care about (revenge game, streak,
    milestone, coach on the hot seat). Label these as color, not reasons.
 
 Also pull, without delegating: `data/intel/expert_takes.json` for players on
@@ -259,6 +282,8 @@ applied the same way every week:
 ## Game by game (kickoff order)
 ### AWAY @ HOME — line, total, kickoff
 - The number: what the line says, where it opened, why it moved
+- Noticias: 1-4 short news items for this game or its two teams (trade, signing/cut, injury or practice
+  status, IR in/out, QB/coach change, suspension, weather when a ⚠️ flag is up), each with what it changes
 - Case for AWAY: 2-3 stats that actually explain football (efficiency, trenches, turnovers, spot)
 - Case for HOME: same
 - The call: winner + side/total/PASS · confidence ★–★★★ · "good to X, pass past Y"
@@ -334,6 +359,9 @@ UI (HTML, CSS and JS in one file).
   - Guion general: the rundown's `##` sections.
   - Notas de la hoja: `slate_md`.
 - Per game:
+  - **Banner** (top of every game): venue, the kickoff-hour forecast chip
+    (°C, sky, wind/gusts in km/h, rain %, "techo retráctil"; tooltip in °F/mph),
+    a ⚠️ chip when the forecast flags wind/rain/snow/cold, surface, divisional/neutral, 🚩, picks.
   - **Resumen**: the line, open → now, SRS/FPI/market on one axis, win %
     bars, the verdict, and "El pick al aire" from the rundown.
   - **Equipos**: `team_rows` with a 1-32 rank chip on every "(Nº)".
@@ -388,6 +416,7 @@ UI (HTML, CSS and JS in one file).
 headers (ESPN codes, e.g. `WSH`), and skips the `## Partido por partido` heading.
 It pulls these bullets by their exact labels:
 - `- **El pick:**`
+- `- **Noticias:**` (also shown as the "Noticias del partido" card on Resumen)
 - `- **Historia:**`
 - `- **Fantasy:**`
 

@@ -1,8 +1,8 @@
 # Semana 9: guion del podcast
 
-*Actualizado el miércoles 4 de noviembre para grabar hoy. Líneas de DraftKings al
-miércoles a mediodía. Los reportes de práctica oficiales del miércoles salen en la
-tarde: lo que no se pudo confirmar va marcado como pendiente. Ya se acabó el
+*Actualizado el miércoles 4 de noviembre en la tarde para grabar hoy, ya con los
+reportes de práctica del miércoles y las líneas de DraftKings de la tarde. El clima
+es el pronóstico para la hora de cada partido. Ya se acabó el
 horario de verano en Estados Unidos: la hora del centro de México es una hora
 menos que la del este (ET). Los porcentajes de uso (targets, snaps, toques del
 backfield, zona roja) son de los últimos tres partidos de cada equipo, salvo que
@@ -10,13 +10,13 @@ se diga otra cosa.*
 
 ## Arranque: las tres historias de la semana
 
-1. **Baltimore va a jugar el jueves con un novato que no fue drafteado.** Joe Fagnano es el titular confirmado. Lamar está en la reserva por la cirugía del pulgar y a Huntley lo operan del dedo del pie: se acabó su temporada. Firmaron a Austin Reed y a Kedon Slovis, y entre los tres mariscales suman 23 pases en su carrera. Además, su pateador, Tyler Loop, se va a la reserva. La línea pasó de Cuervos -4.5 a Jaguares -10, y el total bajó de 49.5 a 39.5.
+1. **Baltimore va a jugar el jueves con un novato que no fue drafteado.** Joe Fagnano es el titular confirmado. Lamar está en la reserva por la cirugía del pulgar y a Huntley lo operan del dedo del pie: se acabó su temporada. Firmaron a Austin Reed y a Kedon Slovis, y entre los tres mariscales suman 23 pases en su carrera. Además, su pateador, Tyler Loop, se va a la reserva, y están cerrando un cambio por Jacoby Brissett que no llega para el jueves. La línea pasó de Cuervos -4.5 a Jaguares -10, y el total bajó de 49.5 a 39.5.
 2. **Quedan seis días para la fecha límite de cambios, y hay vendedores en la cartelera.** Indianápolis ya mandó a Nelson y a Buckner y sigue ofreciendo: Josh Downs pidió su cambio, y Jonathan Taylor y Keenan Allen están en el mercado. Steichen sigue y Daniel Jones arranca el domingo, pero con la correa corta. Puede que el equipo que salga al campo contra Dallas no sea el de hoy.
 3. **Los Cargadores están 0-7, el peor arranque desde el año 2000**, cuando el mariscal era Jim Harbaugh. Llevan nueve cuartos y 27 series seguidas sin touchdown, y Herbert lidera la liga con 10 intercepciones. Harbaugh no cambia ni de mariscal ni de quien manda las jugadas, y Houston pasó de no favorito por 1.5 a favorito por 4.5.
 
 ## Récord de la semana pasada
 
-**1-5.** El único que entró fue el de la mejor apuesta del lunes: **Osos +3 en Seattle, y ganaron 34-17.** Swift corrió 27 veces con tres touchdowns. Vikingos +3 perdió por un punto, las dos bajas se fueron arriba (79 puntos en Cincinnati, 49 en Jacksonville) y Bengalíes -10 ganó por siete. La lección que sí cambia el proceso: los modelos no ven lesiones ni ventas de jugadores antes de la fecha límite, y esta semana eso decide la alerta de Dallas.
+**1-5.** El único que entró fue el de la mejor apuesta del lunes: **Osos +3 en Seattle, y ganaron 34-17.** Swift corrió 27 veces con tres touchdowns. Vikingos +3 perdió por un punto, las dos bajas se fueron arriba (79 puntos en Cincinnati, 49 en Jacksonville) y Bengalíes -10 ganó por siete. La lección que sí cambia el proceso: los modelos no ven lesiones ni ventas de jugadores antes de la fecha límite, y esta semana eso explica la línea de Dallas.
 
 ---
 
@@ -25,6 +25,7 @@ se diga otra cosa.*
 ### JAX @ BAL: Jaguares -10, total 39.5, jueves 7:15 pm CDMX (8:15 pm ET)
 
 - **La línea:** Abrió Baltimore -4.5 con Lamar sano. Ahora es Jacksonville -10: cruzó el 3, el 7 y llegó al 10. El total bajó de 49.5 a 39.5. Lo del miércoles fue lo último: Huntley se opera, Fagnano es el titular y el pateador se va a la reserva.
+- **Noticias:** Baltimore está cerrando un cambio con Arizona por Jacoby Brissett, pero no llega para el jueves: juega Fagnano. En Jacksonville, Tuten es duda y decisión de última hora (no practicó en toda la semana), Travon Walker es duda por las costillas y regresa el safety Antonio Johnson. Rumor: Jacksonville quiere refuerzos en la defensiva y a Brian Thomas Jr. lo buscan Kansas City y Pittsburgh. Clima: 20 grados, nublado, 32% de lluvia y casi sin viento.
 - **A favor de Baltimore:** Diez puntos es una línea enorme para un partido con total de 39.5. Henry sigue ahí, con el 69% de los toques del backfield y el 86% de los acarreos en zona roja. Además, los dos equipos llegan en semana corta y a Jacksonville se le cayeron jugadores: Tuten no practicó ni lunes ni martes, y Meyers y el guardia Ezra Cleveland están limitados.
 - **A favor de Jacksonville:** Es la segunda defensiva de la liga, con 15.9 puntos permitidos por partido. Fagnano completó 10 de 21 para 91 yardas con una intercepción en su relevo, y juega con el tobillo vendado. Liam Coen va 5-0 como favorito de 7 o más.
 - **Historia:** Jacksonville lleva tres temporadas rindiendo 7 puntos mejor en casa que de visita, mucho más que lo normal de la liga, y aquí van de visita. Es color, pero es la razón para no perseguir el número.
@@ -38,6 +39,7 @@ se diga otra cosa.*
 ### CIN @ ATL: Bengalíes -3, total 52.5, domingo 8:30 am CDMX (9:30 am ET) · en Madrid
 
 - **La línea:** Es en el Santiago Bernabéu, campo neutral, aunque Atlanta es el local de nombre. Abrió 4.5 y bajó al 3, que es el número clave, sin ninguna noticia detrás. El total subió a 52.5. Hay lluvia en el pronóstico y no está confirmado si van a cerrar el techo.
+- **Noticias:** En Atlanta, Zachariah Branch no va por el isquiotibial y Ebukam sigue en la reserva; Stefanski sostiene a Penix después de las cuatro intercepciones. En Cincinnati, el novato Cashius Howell se fue a la reserva y Jonathan Allen descansó; Burrow y Chase no aparecen en el reporte. Clima en Madrid: 13 grados con 45% de lluvia, y el techo del Bernabéu se puede cerrar.
 - **Los modelos:** Los dos se inclinan por Cincinnati. El FPI de ESPN los ve ganando 77% de las veces; el mercado, 58%.
 - **A favor de Cincinnati:** Burrow viene de 462 yardas y cinco touchdowns. Cincinnati es segundo en anotación y cuarto en capturas, y enfrente está Penix, que tiró cuatro intercepciones en Tampa. Atlanta lleva 16 balones perdidos en ocho partidos.
 - **A favor de Atlanta:** Cincinnati es 28º en yardas por acarreo permitidas, y Bijan tiene el 82% de los toques del backfield. La secundaria de los Bengalíes llega delgada: DJ Turner y Kyle Dugger no practicaron. Y regresa James Pearce Jr. a la defensiva de Atlanta.
@@ -50,14 +52,15 @@ se diga otra cosa.*
   - **Arranca:** Chase Brown. Se lleva el 65% del backfield y 6 targets por partido, y Atlanta es la quinta defensa más blanda contra corredores.
   - **Sorpresa:** Kyle Pitts. Se lleva el 31% de los targets de Atlanta en zona roja, y Cincinnati es la octava más blanda contra alas cerradas.
 
-### DAL @ IND: Vaqueros -6, total 51.5, domingo 12:00 pm CDMX (1:00 pm ET) · techado · 🚩
+### DAL @ IND: Vaqueros -5.5, total 51.5, domingo 12:00 pm CDMX (1:00 pm ET) · techado
 
-- **La línea:** Abrió Dallas -1.5 y va en -6. Cruzó el 3 y el 4. Es el derrumbe de Indianápolis: la goleada 42-7, la venta de jugadores y un mariscal en la cuerda floja.
-- **Los modelos:** Es la única alerta de la semana. Los dos dicen que Indianápolis vale más que +6, pero ninguno sabe que este equipo está vendiendo jugadores. Downs, Taylor y Keenan Allen se pueden ir antes del 10. Por eso la alerta no se juega.
+- **La línea:** Abrió Dallas -1.5, llegó a -6 y el miércoles en la tarde regresó a -5.5. Cruzó el 3 y el 4. Es el derrumbe de Indianápolis: la goleada 42-7, la venta de jugadores y un mariscal en la cuerda floja.
+- **Noticias:** Daniel Jones sigue de titular, pero según los reportes solo por esta semana. Indianápolis escucha ofertas por Jonathan Taylor (piden una segunda ronda y algo más, y los Gigantes tienen "interés serio"), Downs, Keenan Allen y Grover Stewart. Dallas busca un pasador antes del 10: suenan Sweat, Crosby y Mack. En la práctica de Dallas faltaron Ferguson, Caleb Downs, Locke, Turpin y Malachi Lawrence, y Pickens y Tyler Smith estuvieron limitados.
+- **Los modelos:** La alerta se cayó con el 5.5: el FPI ve a Dallas por 4, a un punto y medio del mercado. Y aunque siguiera, no se jugaría, porque ninguno de los dos modelos sabe que este equipo está vendiendo jugadores. Downs, Taylor y Keenan Allen se pueden ir antes del 10.
 - **A favor de Dallas:** Indianápolis es 31º en yardas netas por intento de pase (4.8) y permite 27.8 puntos por partido (30º). CeeDee Lamb tiene el 39% de los targets en los últimos tres, el porcentaje más alto de la cartelera.
 - **A favor de Indianápolis:** La defensiva de Dallas permite 26.6 por partido (27ª) y Jonathan Taylor tiene la cuarta defensa más blanda contra corredores. Jake Ferguson tiene un esguince de tobillo y su presencia es duda.
 - **Historia:** Daniel Jones va 1-7 contra Dallas en su carrera, y es el titular. Schottenheimer va 4-12 contra la línea como favorito: color.
-- **El pick:** Gana Dallas. Paso: la alerta se explica por noticias que los modelos no ven. En el total, paso.
+- **El pick:** Gana Dallas. Paso: los modelos no ven la venta de jugadores. En el total, paso.
 - **Fantasy:**
   - **Partidazo:** CeeDee Lamb. Tiene 13.7 targets por partido y el 53% de los targets de Dallas en zona roja, contra una defensiva que está regalando jugadores.
   - **Arranca:** Javonte Williams, con el 74% del backfield y 21 toques por partido. Indianápolis es la novena más blanda contra corredores.
@@ -67,6 +70,7 @@ se diga otra cosa.*
 ### NYJ @ KC: Jefes -10, total 47.5, domingo 12:00 pm CDMX (1:00 pm ET)
 
 - **La línea:** El spread casi no se movió (de 9.5 a 10). El total subió de 41.5 a 47.5 porque regresan Breece Hall y Rashee Rice, y los Jets le permitieron 38 a los Raiders.
+- **Noticias:** Garrett Wilson entró al protocolo de conmoción y no practicó; Glenn dice que va día a día. Breece Hall está limitado por el cuádriceps. En Kansas City, Kelce (tobillo) y Rice (isquiotibial y rodilla) practicaron limitados y Mahomes completo. Rumor: Kansas City busca receptor (Brian Thomas Jr. o Josh Downs).
 - **A favor de Nueva York:** Diez puntos es mucho para unos Jefes que perdieron dos seguidos. Los Jets van 1-5 en partidos de una posesión, como victoria y media debajo de lo que dice su diferencial.
 - **A favor de Kansas City:** Es segundo en yardas por acarreo (5.1) y cuarto en puntos permitidos. Los Jets permitieron 23 capturas, lugar 26.
 - **Historia:** Andy Reid va 7-1 contra los Jets. Color.
@@ -80,7 +84,8 @@ se diga otra cosa.*
 ### DET @ MIA: Leones -7, total 50.5, domingo 12:00 pm CDMX (1:00 pm ET)
 
 - **La línea:** En el 7 exacto, el número clave. El total subió de 47.5 a 50.5 por la defensiva de Detroit.
-- **A favor de Miami:** Detroit llega sin media defensiva. Jack Campbell, al que sacaron en camilla, es duda. Brian Branch y DJ Wonnum siguen en protocolo de conmoción, D.J. Reed es cuestionable y Kerby Joseph está fuera. Detroit va 2-4-1 contra la línea.
+- **Noticias:** Jack Campbell salió en camilla con una lesión de cuello: ya mueve por completo las piernas y va recuperando los brazos. Kerby Joseph está descartado. Amon-Ra practicó limitado por las costillas y Branch limitado por la conmoción, mientras que Reed y Wonnum no practicaron. Detroit busca esquinero y apoyador antes de la fecha límite. En Miami, Jaylen Wright no practicó y Willis practicó completo.
+- **A favor de Miami:** Detroit llega sin media defensiva. Jack Campbell salió en camilla con una lesión de cuello. Brian Branch y DJ Wonnum siguen en protocolo de conmoción, D.J. Reed es cuestionable y Kerby Joseph está fuera. Detroit va 2-4-1 contra la línea.
 - **A favor de Detroit:** Es tercero en anotación y Miami es 31º. Miami es 30º en capturas, así que Goff va a tener tiempo.
 - **Historia:** Goff va 0-3 contra Miami en su carrera, también 0-3 contra la línea. Hafley va 0-5 como no favorito de 7 o más, y Miami está 0-3 en casa este año. Las de Goff y Hafley son color; el 0-3 en casa es el equipo.
 - **El pick:** Gana Detroit. Paso en -7: es el número donde más partidos terminan. En el total, paso.
@@ -93,6 +98,7 @@ se diga otra cosa.*
 ### CLE @ NO: Santos -3, total 42.5, domingo 12:00 pm CDMX (1:00 pm ET) · techado
 
 - **La línea:** Subió de 2.5 a 3 y el total bajó un punto. Casi seguro es por Watson: entró al protocolo de conmoción el miércoles porque tuvo síntomas el lunes en la noche, después del golpe en Pittsburgh. Si no juega, arranca Shedeur Sanders (3-4 y 10 intercepciones como titular el año pasado).
+- **Noticias:** Watson sigue en el protocolo y no practicó. Si no lo liberan, Shedeur Sanders hace su primer arranque del año. Nueva Orleans cortó a su pateador Daniel Carlson (8 de 12 en goles de campo) y patea Charlie Smyth, del equipo de práctica. Volvieron a practicar el novato Jordyn Tyson y el tackle Kelvin Banks, y Kamara descansó. Rumor: los Santos escuchan ofertas por Justin Reid.
 - **A favor de Cleveland:** La defensiva es octava en capturas y permite 21.6 por partido (13ª). Nueva Orleans va 0-4 en casa, y su ataque terrestre corrió 18 yardas en París. Por eso corrieron al coordinador del juego terrestre en la semana de descanso.
 - **A favor de Nueva Orleans:** Viene de semana de descanso, y Cleveland es el equipo más capturado de la liga: 33, con 8 solo en Pittsburgh. Y Cleveland es el equipo que más rinde por encima de su diferencial: +2 victorias, 5-1 en partidos de una posesión.
 - **Historia:** Kellen Moore va 3-8 contra la línea en casa. Color, y va en contra de los Santos. Lo de Cleveland en partidos cerrados sí es señal de regresión.
@@ -104,9 +110,10 @@ se diga otra cosa.*
   - **Defensiva:** Nueva Orleans, si arranca Sanders contra la línea que más capturas permite.
   - **Banca:** el backfield de Nueva Orleans. Hay cinco corredores, acaban de reclamar a Audric Estime de waivers y cambiaron al coordinador del juego terrestre.
 
-### NYG @ PHI: Gigantes -3.5, total 39.5, domingo 12:00 pm CDMX (1:00 pm ET)
+### NYG @ PHI: Gigantes -3.5, total 38.5, domingo 12:00 pm CDMX (1:00 pm ET)
 
-- **La línea:** El cambio más grande de la cartelera: de Gigantes +5.5 a Gigantes -3.5, nueve puntos. La apertura era de antes de que Hurts se fuera por el año con los coágulos. Filadelfia lleva seis derrotas seguidas con McKee, y Sirianni no cambió ni de mariscal ni de quien manda las jugadas. El total bajó a 39.5.
+- **La línea:** El cambio más grande de la cartelera: de Gigantes +5.5 a Gigantes -3.5, nueve puntos. La apertura era de antes de que Hurts se fuera por el año con los coágulos. Filadelfia lleva seis derrotas seguidas con McKee, y el miércoles Sirianni por fin cambió de mariscal: arranca Joe Milton. El total bajó a 38.5.
+- **Noticias:** Filadelfia cambió de mariscal: arranca Joe Milton y McKee se va a la banca, dos días después de que Sirianni dijera que no lo haría. Mannion sigue mandando las jugadas. Saquon, DeVonta Smith y Wicks no practicaron, y según ESPN Barkley no se va a cambiar. En los Gigantes, Skattebo y Abdul Carter no practicaron, y Greg Newsome firmó una extensión de 3 años por 46 millones. Rumor: los Gigantes tienen "interés serio" en Jonathan Taylor. Clima: viento de 22 km/h con ráfagas de 37.
 - **A favor de los Gigantes:** Lideran la Este de la NFC (4-2-1), van 5-2 contra la línea y vienen de semana de descanso. John Harbaugh va 18-4 después de semana de descanso, y esa tiene mecanismo. McCarthy ganó en Houston como no favorito por 10.
 - **A favor de Filadelfia:** Sirianni va 8-3 contra los Gigantes.
 - **Pero:** Filadelfia es 30ª en anotación y 30ª en yardas netas por intento, y DeVonta Smith y Wicks siguen sin practicar. Saquon trae el isquiotibial y la espalda.
@@ -121,21 +128,23 @@ se diga otra cosa.*
 
 ### LAR @ WSH: Carneros -5.5, total 47.5, domingo 12:00 pm CDMX (1:00 pm ET)
 
-- **La línea:** Quieta en 5.5. El total bajó de 50.5 a 47.5. Hay algo nuevo que no está en el precio: Stafford salió del partido del domingo con hielo en el brazo de lanzar. McVay no quiso hablar del tema. Hay que ver si practica.
+- **La línea:** Quieta en 5.5. El total bajó de 50.5 a 47.5. Stafford salió del partido del domingo con hielo en el brazo de lanzar, pero el miércoles practicó completo: la duda se despejó.
+- **Noticias:** Stafford practicó completo el miércoles. Jaylen Watson se opera del hombro y se acabó su temporada, y McDuffie no practicó por la espalda. Los Carneros abrieron la ventana de regreso de Myles Garrett y del ala cerrada Terrance Ferguson, y McVay dice que no van a sumar a nadie en la fecha límite. Washington perdió a Javon Kinlaw por el año (rodilla): con Payne, son dos titulares de la línea defensiva en una semana. Diggs y Burks no practicaron, McNichols está fuera por el año y Daniels practicó completo.
 - **A favor de Los Ángeles:** Stafford va 6-0 contra Washington. Los Carneros rinden peor que su diferencial (1-3 en partidos de una posesión), así que son mejores que su 4-4. Washington permite 26 por partido (26º) y perdió a Daron Payne por el año.
-- **A favor de Washington:** Los Carneros viajan a la costa este para jugar a la 1 pm ET, sin Davante Adams (operado, en la reserva) y con la secundaria tocada: Jaylen Watson y Trent McDuffie están en duda.
+- **A favor de Washington:** Los Carneros viajan a la costa este para jugar a la 1 pm ET, sin Davante Adams (operado, en la reserva) y con la secundaria tocada: Jaylen Watson se perdió la temporada y McDuffie no practicó.
 - **Historia:** Stafford va 6-0 contra Washington, también 6-0 contra la línea. Washington está 2-0-1 en casa y 0-4 de visita. Las bajas van 7-3 en los últimos 10 duelos, con un total promedio de 37.7. Lo de Stafford es de un mariscal contra un rival, y eso tiene más mecanismo que lo de los equipos; lo demás es color.
-- **El pick:** Gana Los Ángeles. Paso: los modelos están divididos y el brazo de Stafford es pregunta abierta. En el total, paso.
+- **El pick:** Gana Los Ángeles. Paso: los modelos están divididos. En el total, paso.
 - **Fantasy:**
   - **Arranca:** Puka Nacua. Tiene el 34% de los targets y 15 partidos seguidos con cinco o más recepciones, y sin Adams se le juntan todavía más.
-  - **Arranca:** Stafford, si practica normal. Washington es la tercera defensa que más permite a mariscales.
+  - **Arranca:** Stafford. Practicó completo el miércoles, y Washington es la tercera defensa que más permite a mariscales.
   - **Ojo con el backfield:** Kyren tiene el 55% de los toques, pero Corum se lleva el 67% de los acarreos en zona roja. Los dos son arrancables; Corum es el de los touchdowns.
   - **Sorpresa:** Tyler Higbee. Parkinson no practica por las costillas, y Washington es la segunda defensa que más permite a alas cerradas.
   - **Arranca:** Antonio Williams. Ya va en el 88% de las rutas y tiene el 25% de los targets en su primer partido completo sin McLaurin, aunque los Carneros son de los que menos permiten a receptores. Es WR3.
 
-### DEN @ CAR: Broncos -2.5, total 43.5, domingo 12:00 pm CDMX (1:00 pm ET)
+### DEN @ CAR: Broncos -2.5, total 44.5, domingo 12:00 pm CDMX (1:00 pm ET)
 
-- **La línea:** Bajó de 3 a 2.5, debajo del número clave. Carolina se está componiendo: Bryce Young dice que está "listo" después del susto de la rodilla y Jaelan Phillips va mejorando. Denver perdió a RJ Harvey a la reserva y tiene a sus dos safeties lastimados.
+- **La línea:** Bajó de 3 a 2.5, debajo del número clave. Carolina se está componiendo: Bryce Young dice que está "listo" después del susto de la rodilla y practicó completo. Denver perdió a RJ Harvey a la reserva y tiene a sus dos safeties lastimados.
+- **Noticias:** Carolina corrió a su coordinador defensivo, Ejiro Evero, el 30 de octubre, y Todd Wash es el interino. Okereke, Jaelan Phillips, Will Lee y Damien Lewis no practicaron, y Bryce Young practicó completo. En Denver, el novato Jonah Coleman queda como corredor principal (Payton llamó "chismes de internet" a lo del cambio por un corredor), y no practicaron los safeties Hufanga y Brandon Jones.
 - **A favor de Carolina:** Llegan con 9 días de descanso por haber jugado el jueves. Denver es el equipo con más suerte de la liga: 5-0 en partidos de una posesión, casi dos victorias arriba de su diferencial.
 - **A favor de Denver:** Es quinto en capturas, y Carolina permitió 23 (29º). Bryce Young recibió 6 capturas y presión en 22 de sus jugadas de pase en Green Bay, y la línea de Carolina sigue sin dos titulares. Denver va 6-2 contra la línea.
 - **Historia:** Dave Canales va 17-7 contra la línea después de una derrota; con eso perdimos con Carolina la semana pasada. Color.
@@ -149,24 +158,26 @@ se diga otra cosa.*
 ### HOU @ LAC: Texanos -4.5, total 40.5, domingo 3:05 pm CDMX (4:05 pm ET) · techado
 
 - **La línea:** Abrió Chargers -1.5 y va en Texanos -4.5, seis puntos de cambio. No hay lesión de mariscal: es el mercado cobrando el 0-7. Harbaugh no corrió a nadie ni sentó a Herbert.
+- **Noticias:** Houston descartó a Montgomery por la ingle, así que el backfield es de Woody Marks. Blankenship no practicó (conmoción). En los Cargadores, Njoku volvió a practicar desde la reserva, Mack no practicó y Derwin James está en la reserva al menos cuatro partidos. Rumor: Mack y Clowney son candidatos a cambio.
 - **A favor de Houston:** Los Cargadores son 32º en anotación (14.1 por partido), llevan 17 balones perdidos y tienen fuera a Slater y a Biadasz en la línea. Houston viene de semana de descanso y rinde peor que su diferencial (1-4 en partidos de una posesión).
 - **A favor de Los Ángeles:** Los Cargadores también rinden peor que su diferencial (0-3 en partidos cerrados), y Houston va 2-5 con -3.6 de cobertura promedio. Lo de que juegan desesperados es narrativa.
 - **Historia:** Houston va 2-1 de visita y anota 25.7 contra 17.7 permitidos. Stroud está 2-0 contra los Cargadores. Herbert va 10-27 en su carrera como no favorito. DeMeco Ryans va 13-19-1 contra la línea como favorito: color, y va en contra de Houston.
 - **El pick:** Gana Houston. Paso: los modelos coinciden con el mercado, y en 4.5 no hay número clave a favor.
 - **Fantasy:**
   - **Partidazo:** la defensiva de Houston. Tiene 3 capturas por partido contra una ofensiva con total implícito de 18 y 17 balones perdidos.
-  - **Arranca:** Woody Marks. Montgomery sigue sin practicar por la ingle, y Marks ya tiene el 82% del backfield y 18.7 toques por partido.
+  - **Arranca:** Woody Marks. Montgomery está descartado por la ingle, y Marks ya tiene el 82% del backfield y 18.7 toques por partido.
   - **Arranca:** Nico Collins, contra una secundaria a la que le faltan tres esquineros.
   - **Banca:** todos los Cargadores menos McConkey, que regresa de la conmoción y tiene enfrente a la cuarta defensa más blanda contra receptores. Hampton tiene solo el 44% de un backfield de tres.
 
-### GB @ NE: Patriotas -3, total 46.5, domingo 3:25 pm CDMX (4:25 pm ET)
+### GB @ NE: Patriotas -3, total 45.5, domingo 3:25 pm CDMX (4:25 pm ET)
 
 - **La línea:** Subió de 1.5 a 3, y ahí sí hay dinero fuerte: en BetMGM, el 70% de los boletos y el 93% del dinero van con Nueva Inglaterra. Los dos modelos coinciden con el 3.
-- **El total sí es tema:** nuestro modelo de puntos dice 42.6, cuatro abajo del mercado. Green Bay va 2-6 a las bajas, es último en yardas por acarreo y los dos están en el top 10 de puntos permitidos. A.J. Brown y Henderson no practicaron el miércoles, Hunter Henry sigue sin fecha, Watson juega con una costilla rota y el pronóstico trae rachas de viento de 22 a 26 millas por hora.
+- **Noticias:** A.J. Brown no practicó, y Vrabel no descarta mandarlo otra vez a la reserva. Tampoco practicaron Henderson (enfermedad), Hunter Henry y Barmore, y Maye practicó completo. En Green Bay no practicaron Whyle, Rhyan, Glover y Zaire Franklin, y Watson practicó limitado. Parsons volvió a practicar por primera vez desde diciembre, pero lo más probable es que regrese hasta Acción de Gracias. Rumor: Nueva Inglaterra ofrece a Barmore y a Carlton Davis, aunque Vrabel lo niega. Clima: 7 grados y ráfagas de 27 km/h, mucho menos viento que el pronóstico del miércoles en la mañana.
+- **El total sí es tema:** nuestro modelo de puntos dice 42.6, cuatro abajo del mercado. Green Bay va 2-6 a las bajas, es último en yardas por acarreo y los dos están en el top 10 de puntos permitidos. A.J. Brown y Henderson no practicaron el miércoles, Hunter Henry sigue sin fecha, Watson juega con una costilla rota. El viento ya no es argumento: el pronóstico de la tarde bajó a ráfagas de 27 km/h, unas 17 millas.
 - **A favor de Green Bay:** Llegan con 9 días de descanso (jugaron el jueves) y van 5-3 contra la línea. Micah Parsons regresa a practicar, aunque es difícil que juegue el domingo.
 - **A favor de Nueva Inglaterra:** Maye es tercero en yardas netas por intento, y Nueva Inglaterra va 3-0 en casa.
 - **Historia:** Maye va 17-1 en su carrera como favorito. Nueva Inglaterra anota 30.3 y permite 13 en casa este año. Los partidos de Green Bay de visita promedian 41.5 puntos: 19 a favor y 22.5 en contra. Matt LaFleur va 28-16-1 contra la línea como no favorito; es color, y es la razón por la que no tocamos el spread.
-- **El pick:** Gana Nueva Inglaterra. Paso en el spread. ★ inclinación Bajas 46.5, sirve hasta 46. El total bajó un punto desde el lunes, pero el viento y las ausencias son información nueva.
+- **El pick:** Gana Nueva Inglaterra. Paso en el spread. Las bajas eran inclinación en 46.5, con tope en 46. El total ya bajó a 45.5 y el viento se calmó, así que también paso. Si regresa a 46, se juega.
 - **Fantasy:**
   - **Arranca:** Matthew Golden. Tiene el 31% de los targets y casi 13 por partido.
   - **Arranca:** Josh Jacobs, por volumen: tiene el 77% del backfield y el 90% de los acarreos en zona roja, aunque Nueva Inglaterra es de las que menos permite a corredores.
@@ -177,7 +188,8 @@ se diga otra cosa.*
 ### LV @ SF: 49ers -10, total 52.5, domingo 3:25 pm CDMX (4:25 pm ET)
 
 - **La línea:** El total subió de 46.5 a 52.5. Los Raiders son 31º en puntos permitidos, vienen de un 38-33 en Nueva York, y San Francisco regresa de semana de descanso. San Francisco tiene el total implícito más alto de la semana: 31.25.
-- **A favor de Las Vegas:** Van 6-2 contra la línea, casi todo como no favoritos, y 6-2 a las altas. Brock Bowers tiene el 25% de los targets. Y en San Francisco, McCaffrey, Evans, Bosa y Deebo siguen todos como "con posibilidades", ninguno confirmado.
+- **Noticias:** McCaffrey, Evans y Deebo no practicaron, y Shanahan dijo que le sorprendería que Deebo jugara. Bosa regresó limitado después de cinco partidos fuera, y abrieron la ventana de regreso de Demarcus Robinson y Nate Hobbs. En Las Vegas, Kubiak dice que el reparto entre Jeanty y Washington es "semana a semana".
+- **A favor de Las Vegas:** Van 6-2 contra la línea, casi todo como no favoritos, y 6-2 a las altas. Brock Bowers tiene el 25% de los targets. Y en San Francisco, McCaffrey, Evans y Deebo no practicaron el miércoles, y Bosa regresó limitado.
 - **A favor de San Francisco:** Van 6-1, son segundos en yardas netas por intento y cuartos en anotación, y vienen descansados.
 - **Historia:** Klint Kubiak contra su hermano Klay, el coordinador ofensivo de San Francisco. Color puro.
 - **El pick:** Gana San Francisco. Paso en el spread: los modelos están divididos y no sabemos quién juega. En el total, paso.
@@ -187,23 +199,25 @@ se diga otra cosa.*
   - **Riesgo:** McCaffrey. El isquiotibial "leve" tiene precedente: a Rashee Rice le dijeron lo mismo y se perdió dos partidos. Kaelon Black es el que hay que tener.
   - **Banca:** Ashton Jeanty. Washington Jr. se quedó con 25 de 27 acarreos de corredor y Jeanty con terceras oportunidades: corre 27, 22, 15 y 9 yardas en sus últimos cuatro. Washington es el corredor de primeras y segundas, pero contra la mejor defensa terrestre de la liga es flex de riesgo.
 
-### ARI @ SEA: Halcones Marinos -12.5, total 41.5, domingo 3:25 pm CDMX (4:25 pm ET)
+### ARI @ SEA: Halcones Marinos -8.5, total 39.5, domingo 3:25 pm CDMX (4:25 pm ET)
 
-- **La línea:** Subió de 11.5 a 12.5 y el total bajó de 44.5 a 41.5. Arizona perdió media ofensiva el martes: Jeremiyah Love a la reserva por el tobillo, de 4 a 5 semanas; Kendrick Bourne a la reserva; Bam Knight en protocolo de conmoción, y Michael Wilson con dos costillas rotas. Minshew es el titular.
-- **A favor de Arizona:** Seattle juega en semana corta, con 5 días, y su ofensiva no hizo nada el lunes: Darnold 17 de 34 para 188, y los corredores 16 acarreos para 52 yardas. Mike LaFleur va 4-0 contra la línea como no favorito de 7 o más. En BetMGM la línea sigue en 11.5 con el dinero cargado a Arizona.
+- **La línea:** Abrió 11.5, llegó a 12.5 y el miércoles en la tarde se desplomó a 8.5, con el total en 39.5: Darnold no juega y arranca Drew Lock. Arizona también perdió media ofensiva el martes: Jeremiyah Love a la reserva por el tobillo, de 4 a 5 semanas; Kendrick Bourne a la reserva; Bam Knight en protocolo de conmoción, y Michael Wilson con dos costillas rotas. Minshew es el titular.
+- **Noticias:** Sam Darnold no juega (cuádriceps y una costilla fisurada), aunque no va a la reserva. Arranca Drew Lock, que practicó limitado por el codo derecho, y Milroe es el suplente. Seattle firmó a Adrian Martinez al equipo de práctica, y Charles Cross, Shaheed y Leonard Williams no practicaron. En Arizona, Minshew es el titular por encima de Brissett, a quien están cambiando a Baltimore, y Carson Beck queda de suplente. Knight y Gaines no practicaron, y Michael Wilson practicó limitado.
+- **A favor de Arizona:** Seattle juega en semana corta, con 5 días, y su ofensiva no hizo nada el lunes (Darnold 17 de 34 para 188; los corredores, 16 acarreos para 52 yardas), y eso fue con el titular. Ahora va Lock, con el codo tocado. Mike LaFleur va 4-0 contra la línea como no favorito de 7 o más.
 - **A favor de Seattle:** Es séptima en puntos permitidos, y Arizona es la defensiva que más permite de la liga (29.8 por partido) y llega sin sus armas.
 - **Historia:** Seattle ha ganado los últimos 10 duelos de la serie, 9-1 contra la línea. Color, pero es una paliza que se repite.
-- **El pick:** Gana Seattle. Paso en el spread: 12.5 con una ofensiva que no anotó el lunes es mucho. En el total, paso.
+- **El pick:** Gana Seattle. Paso en el spread: con Lock, el 8.5 es un precio justo y nadie sabe cómo está su codo. En el total, paso.
 - **Fantasy:**
-  - **Arranca:** Jaxon Smith-Njigba. Tiene el 36% de los targets y 13 por partido, y el lunes hizo 118 yardas en 11 targets.
+  - **Arranca:** Jaxon Smith-Njigba, aun con Lock. Tiene el 36% de los targets y 13 por partido, y el lunes hizo 118 yardas en 11 targets.
   - **Volumen:** Tyler Allgeier. Puede que sea el único corredor sano de Arizona. Es RB2 por volumen.
   - **Corrección del backfield de Seattle:** el lunes el que corrió fue Jadarian Price (10 acarreos), con Charbonnet en su regreso (6). Emanuel Wilson no tuvo un solo snap ofensivo. El 78% que aparece en la tabla es de antes; ese backfield hay que evitarlo.
-  - **Defensiva:** Seattle, contra un total implícito de 14.5, el más bajo de la semana.
+  - **Defensiva:** Seattle, contra un total implícito de 15.5 y una Arizona sin armas.
   - **Y además:** McBride va siempre: tiene el 25% de los targets y 10 por partido, y sin Love, Bourne ni Wilson al 100%, todavía más.
 
 ### TB @ CHI: Osos -6, total 47.5, domingo 7:20 pm CDMX (8:20 pm ET)
 
 - **La línea:** El 3.5 era una línea anticipada. La apertura real fue 5.5 y ya va en 6 después de que Chicago aplastó a Seattle 34-17 el lunes. El dinero va al revés: en BetMGM, el 76% de los boletos va con Chicago pero solo el 25% del dinero. El dinero fuerte está con Tampa.
+- **Noticias:** Mayfield practicó completo con el pulgar. Egbuka, Diaby y Elijah Roberts no practicaron, y Gainwell practicó limitado. En Chicago no practicaron Jarrett, T.J. Edwards, Monangai y Benedet. Jeffery Simmons, que llegó de Tennessee por dos primeras rondas, podría tener su primera semana completa con los Osos.
 - **Los modelos:** El lunes era alerta; con el partido de Chicago en los números, ya no. Los dos modelos todavía ven a Tampa un punto y medio mejor que el mercado, pero eso queda debajo del umbral.
 - **A favor de Tampa:** Es el equipo con peor suerte de la liga: 1-5 en partidos de una posesión, casi dos victorias debajo de su diferencial. Su defensiva es quinta en puntos permitidos, y su ofensiva es primera en yardas por acarreo. Chicago juega en semana corta y perdió dos defensivos el lunes: Kentavius Street salió en carrito por la rodilla y Grady Jarrett tiene la ingle.
 - **A favor de Chicago:** Tampa es último en yardas netas por intento (4.5), y Egbuka trabajó aparte con un entrenador: lo más probable es que no juegue. Ben Johnson va 9-4-1 contra la línea en casa y 6-2 en horario estelar.
@@ -219,6 +233,7 @@ se diga otra cosa.*
 ### BUF @ MIN: Bills -3.5, total 45.5, lunes 7:15 pm CDMX (8:15 pm ET) · techado
 
 - **La línea:** Cruzó el 3, de 2.5 a 3.5, y el total bajó a 45.5. Es el isquiotibial de Kyler Murray: O'Connell dijo que "todavía no estamos ahí" y que da noticias más adelante. Si no juega, arranca Carson Wentz, que va 2-0 como suplente este año. Minnesota no reporta práctica hasta el jueves.
+- **Noticias:** Murray sigue sin fecha, y O'Connell dice que "todavía no estamos ahí". Rumor: Minnesota explora el mercado de mariscales; suenan Cousins y Daniel Jones. En Buffalo, Josh Palmer se puede perder varias semanas y es candidato a la reserva, DJ Moore dice que está al 90% y regresa el tackle Spencer Brown. Por ser lunes, el primer reporte de práctica sale el jueves.
 - **A favor de Buffalo:** Es primero en anotación (33.3) y primero en yardas netas por intento, y viene de aplastar 36-10 a Baltimore.
 - **A favor de Minnesota:** Es la mejor defensiva de la liga: 13.3 puntos por partido y 3.6 capturas. Juegan en casa, y nuestro rating los pone como favoritos por 2.5. Buffalo va 4-1 en partidos de una posesión, con victoria y media de suerte, y llega con DJ Moore y Joshua Palmer tocados.
 - **El total:** Minnesota va 1-6 a las bajas, y sus últimos cinco partidos sumaron 34, 26, 36, 25 y 39 puntos. Es la ofensiva 27ª contra la defensiva número uno, y con Wentz anota todavía menos.
@@ -240,14 +255,16 @@ Esta semana no hay ★★: la única alerta que pasaba la investigación (Tampa)
 |---|---|---|
 | **CIN -3** en Madrid | -3 (en -3.5, paso) | El FPI pone a Cincinnati en 77%; Penix con cuatro intercepciones contra la cuarta defensiva en capturas |
 | **TB +6** en Chicago | +5.5 | Tampa 1-5 en partidos cerrados, dinero fuerte en contra de Chicago, Chicago en semana corta y sin dos defensivos |
-| **GB/NE Bajas 46.5** | 46 | Nuestro modelo dice 42.6; viento de 22 a 26; sin Brown ni Henderson en la práctica |
 | **BUF/MIN Bajas 45.5** | 45 | Minnesota 1-6 a las bajas, la mejor defensiva contra su ofensiva 27ª, Murray en duda |
 
-**La alerta que NO jugamos:** Indianápolis +6. Los modelos no saben que están vendiendo jugadores.
+**Se cayeron el miércoles en la tarde:**
+- **GB/NE Bajas.** Era inclinación en 46.5, con tope en 46. Ya está en 45.5 y el viento se calmó.
+- **La alerta de Indianápolis.** Con la línea en +5.5, el FPI ya no está lejos del mercado. Además no se jugaba, porque están vendiendo jugadores.
 
 **Apuestas solo si se mueve el número o la noticia:**
 - NO -3, si descartan a Watson y la línea no se mueve
 - NYG en -3 (hoy está en -3.5)
+- GB/NE Bajas, si el total regresa a 46
 
 ## Segmento fantasy
 
@@ -293,8 +310,8 @@ Esta semana no hay ★★: la única alerta que pasaba la investigación (Tampa)
 
 ## Survivor
 
-**Seattle.** Cambiamos el pick del lunes. Es el favorito más grande de la semana: 85% según el mercado y 82% según el FPI. Arizona perdió el martes a Love, a Bourne y a Knight, y Michael Wilson juega con dos costillas rotas. Seattle le ha ganado los últimos 10 duelos.
+**Jacksonville.** Cambiamos el pick otra vez: Seattle perdió a Darnold el miércoles y la línea se desplomó de 12.5 a 8.5. Jacksonville es favorito por 10 (80% según el mercado) contra un novato no drafteado, y el plan nos guarda a Seattle para la semana 15. **Ojo: Jacksonville juega el JUEVES, así que hay que meter el pick antes.**
 
-- **El riesgo:** Seattle juega con 5 días de descanso y su ofensiva no hizo nada el lunes.
-- **Si ya usaste a Seattle:** San Francisco, 80% según el mercado y 84% según el FPI, con semana de descanso. Pero McCaffrey y Evans no están confirmados.
-- **El tercero:** Jacksonville, 81%. Ya con Fagnano confirmado es una opción más limpia que el lunes, pero es jueves y Tuten está en duda.
+- **El riesgo:** Es jueves, en semana corta y de visita, y Tuten es decisión de última hora.
+- **Si ya usaste a Jacksonville:** San Francisco, favorito por 10 con semana de descanso. Pero McCaffrey, Evans y Deebo no practicaron.
+- **El tercero:** Seattle sigue siendo el favorito de 8.5, ahora con Lock.

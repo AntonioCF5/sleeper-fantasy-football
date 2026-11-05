@@ -220,6 +220,21 @@ tells the user to re-check news once before accepting.
   Love/Bourne/Knight). Fagnano titular de BAL, Jones de IND, Watson (CLE) en
   protocolo de conmoción. Cache corregido: el scoreboard y las stats de la
   semana pasada se refrescan hasta que el MNF es final.
+  **Mié 4 nov, tarde** (user: noticias por partido + clima en el banner):
+  - Cada partido del guion lleva un bullet `Noticias` (cambios, lesiones,
+    reserva, mariscales, coaches), investigado por 3 agentes con fecha y fuente.
+  - Pronóstico a la hora del partido por estadio: `sleeper/weather.py`, con
+    Open-Meteo, viento y ráfagas.
+  - Cambios con las noticias:
+    - Darnold fuera, así que SEA pasó de -12.5 a -8.5 y el **survivor cambió a
+      JAX (jueves)**; SEA queda para la semana 15.
+    - Las Bajas GB/NE se cayeron: el total está en 45.5, pasado nuestro tope de
+      46, y el viento bajó. Se borró de `podcast_picks.json`.
+    - La alerta de IND se cayó con la línea en +5.5.
+    - PHI arranca a Joe Milton.
+    - Stafford practicó completo.
+    - Montgomery (HOU) fuera.
+  - Picks finales: ★ CIN -3, ★ TB +6, ★ Bajas BUF/MIN 45.5.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

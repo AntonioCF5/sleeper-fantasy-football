@@ -43,7 +43,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from sleeper import api, espn, history  # noqa: E402
+from sleeper import api, espn, history, weather as wxmod  # noqa: E402
 from sleeper.scoring import score_stat_line  # noqa: E402
 
 PICKS = ROOT / "data" / "intel" / "podcast_picks.json"
@@ -882,7 +882,13 @@ def main():
         weather = ""
         wx = (s.get("gameInfo") or {}).get("weather") or {}
         grass = ((s.get("gameInfo") or {}).get("venue") or {}).get("grass")
-        if g["indoor"]:
+        # kickoff-hour forecast by stadium (Open-Meteo: temp, wind, gusts, rain); ESPN's reading is the
+        # stadium's CURRENT weather with no wind, so it's only the fallback past the 16-day horizon
+        fc = wxmod.forecast(h, g["venue"], g["date"].isoformat())
+        if fc:
+            weather = fc["text"] + (" (techo retráctil)" if fc["roof"] == "retractable" else "") \
+                + (f" · ⚠️ {', '.join(fc['flags'])}" if fc.get("flags") else "")
+        elif g["indoor"]:
             weather = "techado"
         elif wx:
             weather = f"{wx.get('temperature')}°F, {wx.get('precipitation', 0)}% de lluvia"
@@ -1074,7 +1080,7 @@ def main():
                                "away": a, "home": h, "away_id": g["away_id"], "home_id": g["home_id"],
                                "kick_mx": f"{fecha(kmx)}, {hora(kmx)}", "kick_et": hora(kick),
                                "day": DIAS[kmx.weekday()], "venue": g["venue"],
-                               "surface": "pasto" if grass else "sintético", "weather": weather or None,
+                               "surface": "pasto" if grass else "sintético", "weather": weather or None, "wx": fc,
                                "indoor": bool(g["indoor"]), "neutral": bool(g["neutral"]),
                                "divisional": espn.DIVISION_OF.get(h) == espn.DIVISION_OF.get(a),
                                "fav": fav, "fav_line": fav_line, "open_fav": open_fav,

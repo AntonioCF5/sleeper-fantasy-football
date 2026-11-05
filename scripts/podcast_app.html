@@ -946,12 +946,22 @@ function tabRecap() {
 }
 
 // ---------- game view
+// kickoff-hour forecast (sleeper/weather.py): °C / km/h on the chip, °F / mph in the tooltip; ⚠️ chip when wind, rain, snow or cold matter
+function wxChip(sh) {
+  const w = sh.wx;
+  if (!w) return sh.indoor ? `<span class="chip">Techado</span>` : sh.weather ? `<span class="chip">${esc(sh.weather)}</span>` : "";
+  if (w.roof === "dome") return `<span class="chip" data-tip="${esc(w.tip)}">🏟️ Techado</span>`;
+  const icon = w.flags?.includes("nieve") ? "🌨️" : w.flags?.includes("lluvia") ? "🌧️" : w.flags?.includes("viento") ? "💨"
+    : /despejado/.test(w.desc) ? "☀️" : /lluvia|llovizna|tormenta/.test(w.desc) ? "🌦️" : "☁️";
+  return `<span class="chip" data-tip="${esc(w.tip)}">${icon} ${esc(w.text)}${w.roof === "retractable" ? " · techo retráctil" : ""}</span>`
+    + (w.flags?.length ? `<span class="chip flag" data-tip="${esc(w.tip)}">⚠️ ${esc(w.flags.join(", "))}</span>` : "");
+}
 function gameView(g) {
   const sh = g.sheet, a = sh.away, hm = sh.home, picks = S.picksBy[g.game] || [];
   const rec = t => ((sh.team_rows.find(r => r[0].startsWith("Récord")) || [])[t === a ? 1 : 2] || "").split(" (")[0];
   const chips = [
     `<span class="chip">${esc(sh.venue)}</span>`,
-    sh.indoor ? `<span class="chip">Techado</span>` : sh.weather ? `<span class="chip">${esc(sh.weather)}</span>` : "",
+    wxChip(sh),
     `<span class="chip">${esc(sh.surface)}</span>`,
     sh.divisional ? `<span class="chip">Divisional</span>` : "",
     sh.neutral ? `<span class="chip">Sede neutral</span>` : "",
@@ -982,6 +992,7 @@ function tabResumen(g) {
   const rd = rundownOf(g);
   let h = `<div class="grid cols-3">`;
   h += callout(block(rd?.md, "El pick"), "El pick al aire");
+  h += callout(block(rd?.md, "Noticias"), "Noticias del partido");
   // line card
   h += `<div class="card"><h3>La línea</h3>
     <div class="stat-row"><span class="stat-label">Spread</span><span class="stat-value">${esc(sh.line_txt)}${sh.open_txt && sh.open_txt !== sh.line_txt ? ` <span class="faint">(abrió ${esc(sh.open_txt)})</span>` : ""}</span></div>
