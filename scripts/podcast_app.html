@@ -137,7 +137,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .hero-chips .chip.pick { background: #fff; color: #14171c; }
 
 /* ---------- tabs */
-.tabs { display: flex; gap: 2px; margin: 18px 0 16px; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 1; }
+.tabs { display: flex; gap: 2px; margin: 18px 0 16px; border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 3; }  /* above the frozen player column (z 1), below the mobile sidebar (z 5) */
 .tabs::-webkit-scrollbar { display: none; }
 .tab {
   border: none; background: none; padding: 10px 14px; color: var(--muted); font-weight: 600; white-space: nowrap;
@@ -203,6 +203,8 @@ td.c, th.c { text-align: center; } td.r, th.r { text-align: right; }
   position: sticky; left: -18px; z-index: 1;  /* -18px = .table-wrap's side padding: stick flush to the scroll edge */ background: var(--surface); box-shadow: inset -1px 0 0 var(--border); }
 .pl.rank th:first-child, .pl.rank td:first-child { width: 34px; min-width: 34px; max-width: 34px; box-shadow: none; }
 .pl.rank th:nth-child(2), .pl.rank td:nth-child(2) { left: 16px; }
+.pl td:first-child, .pl.rank td:nth-child(2) { max-width: 220px; } .pl.rank td:first-child { max-width: 34px; }
+.pl td .kp-sub { white-space: normal; }
 .pl tbody tr:hover td:first-child, .pl.rank tbody tr:hover td:nth-child(2) { background: var(--surface-2); }
 th[data-tip] { cursor: help; text-decoration: underline dotted var(--faint); text-underline-offset: 3px; }
 .tip { position: fixed; z-index: 200; max-width: 290px; padding: 8px 10px; border-radius: 8px; background: var(--text); color: var(--bg);
@@ -213,6 +215,10 @@ th[data-tip] { cursor: help; text-decoration: underline dotted var(--faint); tex
 .cmp td.v .chip { margin-left: 6px; }
 .cmp td.better { color: var(--good); }
 .player { display: flex; align-items: center; gap: 8px; font-weight: 600; white-space: nowrap; }
+/* tags (injury, usage trend, adds) go on their own line under the name, so the frozen player column stays narrow */
+.player.stacked { align-items: flex-start; } .player.stacked .pos { margin-top: 2px; }
+.pn { min-width: 0; } .ptags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.ptags .chip { height: 18px; padding: 0 6px; font-size: 11px; }
 .pos { font-size: 10px; font-weight: 800; padding: 1px 5px; border-radius: 4px; letter-spacing: .03em; color: #fff; }
 .pos-QB { background: #e0565b; } .pos-RB { background: #10a37f; } .pos-WR { background: #3d7be0; } .pos-TE { background: #e58a1f; } .pos-DST { background: #6b7280; }
 .recap-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 16px; font-size: 13px; color: var(--muted); }
@@ -694,11 +700,17 @@ function scoreHtml(x) {
 // header cell with a tooltip (hover on desktop, tap on mobile)
 const TH = (label, tip, cls = "") => `<th${cls ? ` class="${cls}"` : ""}${tip ? ` data-tip="${esc(tip)}"` : ""}>${label}</th>`;
 const L3 = "Negritas = últimos 3 partidos del equipo; gris = temporada.";
+// pos badge + name line, with the tags stacked under the name (never beside it)
+function playerName(pos, name, tags = []) {
+  const t = tags.filter(Boolean).join("");
+  return `<div class="player${t ? " stacked" : ""}"><span class="pos pos-${pos}">${pos}</span><div class="pn">${name}${t ? `<div class="ptags">${t}</div>` : ""}</div></div>`;
+}
+const injChip = (txt, bad) => txt ? `<span class="chip ${bad ? "bad" : "warn"}">${esc(txt)}</span>` : "";
 function playerCell(c, extra = "") {
-  return `<div class="player"><span class="pos pos-${c.pos}">${c.pos}</span>${c.pos === "DST" ? esc(c.name) : sleeperLink(c.pid, c.name)}
-    <span class="faint" style="font-weight:500">${esc(c.team || "")}</span>
-    ${c.inj ? `<span class="chip ${/Out|IR|Doubtful|PUP|Sus/.test(c.inj) ? "bad" : "warn"}">${esc(INJ_ES[c.inj] || c.inj)}</span>` : ""}
-    ${c.trend ? `<span class="chip accent" title="Agregados en Sleeper, 24h">📈 ${c.trend.toLocaleString("es-MX")}</span>` : ""}</div>${extra}`;
+  return playerName(c.pos, `${c.pos === "DST" ? esc(c.name) : sleeperLink(c.pid, c.name)} <span class="faint" style="font-weight:500">${esc(c.team || "")}</span>`, [
+    injChip(INJ_ES[c.inj] || c.inj, /Out|IR|Doubtful|PUP|Sus/.test(c.inj || "")),
+    c.trend ? `<span class="chip accent" title="Agregados en Sleeper, 24h">📈 ${c.trend.toLocaleString("es-MX")}</span>` : "",
+  ]) + extra;
 }
 const INJ_ES = {Out: "Fuera", Doubtful: "Dudoso", Questionable: "Cuestionable", IR: "Reserva", "Injured Reserve": "Reserva", Suspension: "Suspendido", PUP: "PUP"};
 const SHARE_LABEL = {touch: "backfield", tgt: "targets", snap: "snaps"};
@@ -1033,10 +1045,10 @@ function tabFantasy(g) {
       const s3 = p.share?.l3 || {}, ss = p.share?.season || {};
       const has3 = s3.g > 0;
       const sh2 = (k) => has3 ? `<b>${pct(s3[k])}</b> <span class="faint">${pct(ss[k])}</span>` : `<span class="faint">${pct(ss[k])}</span>`;
-      h += `<tr><td><div class="player"><span class="pos pos-${p.pos}">${p.pos}</span>${sleeperLink(p.pid, p.name)}
-          ${p.inj_es ? `<span class="chip ${/Fuera|Duda/.test(p.inj_es) ? "bad" : "warn"}">${esc(p.inj_es)}</span>` : ""}
-          ${p.trend === "⬆️" ? '<span class="chip good" title="Uso en ascenso">▲</span>' : p.trend === "⬇️" ? '<span class="chip bad" title="Uso a la baja">▼</span>' : ""}
-          ${p.trending ? `<span class="chip accent" title="Agregados en Sleeper, 48h">📈 ${p.trending.toLocaleString("es-MX")}</span>` : ""}</div>
+      h += `<tr><td>${playerName(p.pos, sleeperLink(p.pid, p.name), [
+          injChip(p.inj_es, /Fuera|Duda/.test(p.inj_es || "")),
+          p.trend === "⬆️" ? '<span class="chip good" title="Uso en ascenso">▲</span>' : p.trend === "⬇️" ? '<span class="chip bad" title="Uso a la baja">▼</span>' : "",
+          p.trending ? `<span class="chip accent" title="Agregados en Sleeper, 48h">📈 ${p.trending.toLocaleString("es-MX")}</span>` : ""])}
           ${p.share?.missed_l3 ? `<div class="faint" style="font-size:11px">se perdió ${p.share.missed_l3} de los últimos 3</div>` : ""}</td>
         <td class="r"><b>${fmt1(p.ppr)}</b><div class="faint" style="font-size:11px">half ${fmt1(p.half)}</div></td>
         <td class="c">${p.pos === "QB" ? attCell(s3, ss, has3) : sh2("tgt")}</td><td class="c">${effCell(s3, ss, has3, p.pos === "QB" ? "ypa" : "ypt")}</td><td class="c">${sh2("rush")}</td><td class="c">${has3 ? pct(s3.snap) : pct(ss.snap)}</td>
@@ -1144,8 +1156,7 @@ function tabJugadores(g) {
         : `<span class="faint">—</span>`;
       const td = qb ? `${sz.pass_td} TD · ${sz.int} INT${sz.rush_td ? `<div class="faint kp-sub">${sz.rush_td} TD carrera</div>` : ""}`
                     : `${sz.td}${sz.td ? `<div class="faint kp-sub">${sz.rush_td} carrera · ${sz.rec_td} rec.</div>` : ""}`;
-      h += `<tr><td><div class="player"><span class="pos pos-${r.pos}">${r.pos}</span>${sleeperLink(r.pid, r.name)}
-          ${r.inj ? `<span class="chip ${/Fuera|Duda/.test(r.inj) ? "bad" : "warn"}">${esc(r.inj)}</span>` : ""}</div>
+      h += `<tr><td>${playerName(r.pos, sleeperLink(r.pid, r.name), [injChip(r.inj, /Fuera|Duda/.test(r.inj || ""))])}
           <div class="faint kp-sub">proy. ${fmt1(r.ppr)} PPR${r.missed ? ` · se perdió ${r.missed} de los últimos 3` : ""}</div></td>
         <td class="c">${kpPair(r, "snap", pct)}</td><td class="c">${air}</td><td class="c">${run}</td>
         <td class="c">${qb ? '<span class="faint">—</span>' : kpPair(r, "touch_g")}</td><td class="c">${td}</td>

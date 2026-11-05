@@ -352,6 +352,26 @@ UI (HTML, CSS and JS in one file).
   `TH(label, tip)`, and its `data-tip` text explains the column (a floating
   tooltip on hover, or on tap on mobile). A new column in any of these tables
   ships with its tooltip.
+  Practices for every player table, current and future (user 2026-11-04):
+  - **Keep the player column narrow.** Tags go on their own line under the
+    name, never beside it: injury, ▲/▼ usage trend, 📈 adds. Build the cell
+    with `playerName(pos, nameHtml, [chips])`, or with `playerCell(c, extra)`
+    on recap rows; `injChip(text, bad)` builds the injury tag. Notes ("se
+    perdió N de los últimos 3", the why) go in a line below that wraps. The
+    column is capped at 220px.
+  - **Frozen and tooltipped by default.** A new player table gets class `pl`
+    (`pl rank` if a `#` column comes first) and `TH(label, tip)` headers whose
+    tip says what the number is, the period (last 3 in bold vs season in
+    grey), and what the ▲/▼ or rank means.
+  - **Layering:** the frozen column is z-index 1, the sticky tabs bar is 3 so
+    rows scroll under it, and the mobile sidebar is 5. Keep new sticky or fixed
+    elements consistent with that.
+  - **Check before committing:**
+    - Scroll a wide table sideways: nothing peeks out to the left of the
+      frozen column.
+    - Scroll down: rows pass under the tabs.
+    - Hover a header: its tooltip appears.
+    - On the mobile preset there is no page-level horizontal overflow.
 
 **Contract with the rundown:** the app splits it on `### AWAY @ HOME`
 headers (ESPN codes, e.g. `WSH`), and skips the `## Partido por partido` heading.
