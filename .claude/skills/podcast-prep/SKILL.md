@@ -621,6 +621,38 @@ Shortcuts:
 6. Document it in §1 and §7, and commit the code, the regenerated week and
    this file together.
 
+### Sharing the app (artifact)
+
+When the user wants to share the app ("hazlo un artifact", "para compartir"),
+build a self-contained copy and publish it:
+
+```
+python3 scripts/podcast_static.py [week] [season]   # → reports/<season>/podcast/weekNN/podcast-app-share.html (gitignored)
+```
+
+An artifact has no server, blocks remote images and fetch, and keeps only a
+plain `#name` hash. So the build takes `podcast_app.html` as is and:
+- embeds the week's `/api/week` payload;
+- embeds the team logos and the offensive starters' Sleeper headshots as
+  data: URIs, shrunk to 88px with `sips` (full thumbs made the page 10.9 MB;
+  now ~3 MB). Every other avatar shows initials and logos fall back to the
+  colored chip;
+- swaps the router for plain hashes (`#cartelera`, `#recap`,
+  `#general-guion`, `#cin-atl-fantasy`);
+- hides Actualizar and the week picker.
+
+To publish:
+1. Preview it first with `preview_start {name: "podcast-share-preview"}`
+   (http.server on :8791 over `reports/`). Check every game and tab for
+   `undefined`/`NaN` and that no `<img>` has a remote src.
+2. Publish with the artifacts `publish_files` tool (`as: index.html`,
+   title "Podcast NFL · Semana N", icon mic).
+3. To refresh the same link (same week), rebuild and republish with that
+   artifact's slug and `base_version`.
+
+Each week gets its own artifact; its link is in STATUS.md. The copy is a
+frozen snapshot, so say on handoff when its data was generated.
+
 ## 7. Explaining the numbers (answer in Spanish, with his rows)
 
 When he asks what something means, answer in Spanish: define it, give the

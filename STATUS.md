@@ -243,6 +243,11 @@ tells the user to re-check news once before accepting.
   - `team_env.json` → `qb_start` fija al titular cuando Sleeper se atrasa.
     Semana 9: ARI Minshew, PHI Milton, SEA Lock y BAL Fagnano. **Hay que
     limpiarlo cuando regresen los titulares.**
+  **App compartible (artifact), semana 9:**
+  https://claude.ai/artifact/2YfyRnnKu3o3yWmJ6p3Mek (slug
+  0c8536a2-fd05-4a45-9067-a71ff09cb2fd). Es privada hasta que el user la
+  comparta desde claude.ai. Se reconstruye con `scripts/podcast_static.py` y
+  se republica con el mismo slug.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

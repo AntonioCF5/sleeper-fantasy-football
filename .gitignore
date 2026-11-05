@@ -5,3 +5,4 @@ data/cache/
 data/secrets/
 reports/*/expert-daily/*.html
 reports/*/roast/video/
+reports/*/podcast/*/podcast-app-share.html

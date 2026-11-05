@@ -29,6 +29,18 @@
         "8790"
       ],
       "port": 8790
+    },
+    {
+      "name": "podcast-share-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8791",
+        "--directory",
+        "reports"
+      ],
+      "port": 8791
     }
   ]
 }
