@@ -383,8 +383,19 @@ def rankings(usage, team_tot, meta):
             team = wk[ws[-1]]["team"]
             ppr = sum(wk[w]["ppr"] for w in ws)
             half = sum(wk[w]["half"] for w in ws)
-            rows.append({"pid": pid, "name": meta[pid]["name"], "team": team, "gp": len(ws), "tg": team_g.get(team, 0),
-                         "ppr": round(ppr, 1), "ppr_g": round(ppr / len(ws), 2), "half_g": round(half / len(ws), 2)})
+            tot = lambda k: sum(wk[w].get(k) or 0 for w in ws)  # noqa: E731
+            # where the PPR points come from: yardage, catches, touchdowns, and the rest
+            # (INTs, fumbles, 2-pt) as the remainder so the four always add up to PPR
+            yds = tot("pass_yd") * PPR["pass_yd"] + tot("rush_yd") * PPR["rush_yd"] + tot("rec_yd") * PPR["rec_yd"]
+            rec = tot("rec") * PPR["rec"]
+            td = tot("pass_td") * PPR["pass_td"] + tot("rush_td") * PPR["rush_td"] + tot("rec_td") * PPR["rec_td"]
+            oth = ppr - yds - rec - td
+            n = len(ws)
+            rows.append({"pid": pid, "name": meta[pid]["name"], "team": team, "gp": n, "tg": team_g.get(team, 0),
+                         "ppr": round(ppr, 1), "ppr_g": round(ppr / n, 2), "half_g": round(half / n, 2),
+                         "yds_g": round(yds / n, 2), "rec_g": round(rec / n, 2), "td_g": round(td / n, 2),
+                         "oth_g": round(oth / n, 2), "td_pct": round(td / ppr, 3) if ppr > 0 else None,
+                         "tds": int(tot("pass_td") + tot("rush_td") + tot("rec_td"))})
         rows.sort(key=lambda r: -r["ppr"])
         for i, r in enumerate(rows):
             r["r_ppr"] = i + 1

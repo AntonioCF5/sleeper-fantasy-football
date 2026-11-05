@@ -455,7 +455,21 @@ UI (HTML, CSS and JS in one file).
     QB/RB/WR/TE × sort by PPR total / PPR per game / ½ PPR per game, search,
     "solo esta semana" filter. Columns: GP/team games, the three numbers with
     their ranks, and the schedule rank among the 32 (playoffs in parentheses),
-    sortable as "Calendario" (easiest first). A blue bar marks
+    sortable as "Calendario" (easiest first).
+    **Point sources** (user 2026-11-04): Yds/j, Rec/j, TD/j and Otros/j split
+    PPR per game by where the points come from, and the four add up to PPR/j.
+    Yardage is 0.04 per pass yard and 0.1 per rush/rec yard; catches are 1
+    each; TDs are 4 passing and 6 rush/rec. Otros is the remainder (INT −1,
+    fumble −2, 2-pt +2).
+    - % TD is the share of PPR from touchdowns: high means TD-dependent and a
+      regression candidate, low means he lives on volume.
+    - The Mezcla bar shows yardas/rec/TD in blue/green/orange.
+    - All of them sort high → low from the header or the sort buttons. Only
+      fantasy-relevant players compete: top 32 QB, 60 RB, 80 WR, 36 TE in
+      PPR/game (`RK_RELEVANT`). Without that, a WR141 with one TD led "% TD"
+      at 85%. The rest go last, without a number.
+    - Computed in `rankings()` from the weekly stat lines with the `PPR`
+      weights. A blue bar marks
     players on this week's slate. Opened from a rank, it highlights that player
     and scrolls him to the middle so his neighbors are visible.
   - **QB1 override**: `team_env.json` → `qb_start` (name prefix) beats

@@ -317,7 +317,9 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
 .ros i.po { box-shadow: inset 0 -3px 0 var(--text); }
 .chip.ros-avg.e2, .chip.ros-avg.e1 { background: var(--good-soft); color: var(--good); }
 .chip.ros-avg.h2, .chip.ros-avg.h1 { background: var(--bad-soft); color: var(--bad); }
-.drawer { position: fixed; top: 56px; right: 0; bottom: 0; width: min(520px, 100vw); background: var(--surface); border-left: 1px solid var(--border);
+.mix { display: flex; width: 70px; height: 8px; border-radius: 4px; overflow: hidden; background: var(--surface-2); }
+.drawer-body td.neg { color: var(--bad); }
+.drawer { position: fixed; top: 56px; right: 0; bottom: 0; width: min(820px, 100vw); background: var(--surface); border-left: 1px solid var(--border);
   box-shadow: var(--shadow-lg); transform: translateX(105%); transition: transform .2s; z-index: 6; display: flex; flex-direction: column; }
 .drawer.open { transform: none; }
 .drawer-head { padding: 12px 16px; border-bottom: 1px solid var(--border); display: grid; gap: 10px; }
@@ -437,7 +439,7 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
       <label class="faint" style="font-size:12px;display:flex;gap:6px;align-items:center"><input type="checkbox" id="rankSlate"> solo esta semana</label></div>
   </div>
   <div class="drawer-body" id="rankBody"></div>
-  <div class="drawer-foot">Puntos de Sleeper recalculados en PPR y ½ PPR. Por partido: mínimo la mitad de los partidos de su equipo. Calendario: lugar de lo que le queda (hasta la semana 17) entre los 32 calendarios de la posición, por los puntos que permiten sus rivales; 1º = el más fácil.</div>
+  <div class="drawer-foot" title="Por partido: mínimo la mitad de los partidos de su equipo. Al ordenar por Yds/Rec/TD/Otros/% TD compiten solo los relevantes (top 32 QB, 60 RB, 80 WR, 36 TE en PPR por partido). Calendario: lugar entre los 32 calendarios de la posición; 1º = el más fácil.">PPR y ½ PPR de Sleeper recalculados · clic en un encabezado para ordenar · pasa el mouse por un encabezado para saber qué es.</div>
 </aside>
 <div class="help" id="help" role="dialog" aria-modal="true" aria-label="Atajos de teclado">
   <div class="card">
@@ -1500,9 +1502,15 @@ document.addEventListener("keydown", e => {
 
 // ---------- rankings drawer: season ranks by position, centred on a player to compare his neighbours
 const RK = { pos: "WR", sort: "r_ppr", focus: null, q: "", slate: false };
-const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"], ["cal", "Calendario"]];
+const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"], ["yds_g", "Yardas"], ["rec_g", "Rec."], ["td_g", "TD"], ["td_pct", "% TD"], ["cal", "Calendario"]];
 // "cal" sorts by the schedule's place among the 32 (1 = easiest left), ties by season PPR
-const rkVal = (r, k) => k === "cal" ? S.data.ros?.[r.team]?.summary?.[RK.pos]?.rank : r[k];
+// point-source columns (yds/rec/td/otros per game, % of points from TDs) sort high → low, and only
+// players with enough games for a per-game rank compete (one-game spikes would top "% TD")
+const RK_DESC = ["yds_g", "rec_g", "td_g", "oth_g", "td_pct"];
+// ...and only fantasy-relevant ones: inside the position's top N in PPR per game (a WR141 with one TD is 85% TD)
+const RK_RELEVANT = {QB: 32, RB: 60, WR: 80, TE: 36};
+const rkVal = (r, k) => k === "cal" ? S.data.ros?.[r.team]?.summary?.[RK.pos]?.rank
+  : RK_DESC.includes(k) ? (r.r_ppr_g && r.r_ppr_g <= RK_RELEVANT[RK.pos] && r[k] != null ? -r[k] : null) : r[k];
 function slateTeams() { return new Set((S.games || []).flatMap(g => [SL(g.sheet.away), SL(g.sheet.home)])); }
 function renderRank() {
   $("#rankPos").innerHTML = ["QB", "RB", "WR", "TE"].map(p => `<button data-pos="${p}" aria-pressed="${p === RK.pos}">${p}</button>`).join("");
@@ -1515,11 +1523,17 @@ function renderRank() {
   const head = [["#", "Lugar según el orden elegido."], ["Jugador", "Nombre y equipo. La barra azul marca a los que juegan esta semana."],
     ["PJ", "Partidos jugados (con al menos un snap)."], ["PPR", "Puntos PPR totales de la temporada.", "r_ppr"],
     ["PPR/j", "Puntos PPR por partido jugado.", "r_ppr_g"], ["½/j", "Puntos ½ PPR por partido jugado.", "r_half_g"],
+    ["Yds/j", "Puntos PPR por partido que vienen de yardas: pase (0.04 por yarda), carrera y recepción (0.1 por yarda). Clic para ordenar de más a menos.", "yds_g"],
+    ["Rec/j", "Puntos por partido que vienen de recepciones (1 por recepción en PPR; en ½ PPR es la mitad). Clic para ordenar.", "rec_g"],
+    ["TD/j", "Puntos por partido que vienen de touchdowns (4 por TD de pase, 6 por TD de carrera o recepción). Abajo, TD totales. Clic para ordenar.", "td_g"],
+    ["Otros/j", "Lo demás por partido: intercepciones (−1), balones perdidos (−2) y conversiones de 2 (+2). Clic para ordenar.", "oth_g"],
+    ["% TD", "Qué parte de sus puntos PPR viene de touchdowns. Alto = depende del TD y es candidato a regresar; bajo = vive del volumen. Clic para ordenar.", "td_pct"],
+    ["Mezcla", "De dónde salen sus puntos: azul = yardas, verde = recepciones, naranja = touchdowns."],
     ["Calendario", "Lugar de su calendario que queda (hasta la semana 17) entre los 32 de la posición, por los puntos que permiten sus rivales: 1º = el más fácil, 32º = el más difícil. Entre paréntesis, el de los playoffs de fantasy (15-17).", "cal"]];
   let h = `<table><thead><tr>${head.map(([l, t, k]) => `<th class="${k && k !== "cal" ? "r" : l === "Jugador" ? "" : "c"}${k === RK.sort ? " on" : ""}"${k ? ` data-sort="${k}"` : ""} data-tip="${esc(t)}">${l}</th>`).join("")}</tr></thead><tbody>`;
   rows.forEach((r, i) => {
     const sm = S.data.ros?.[r.team]?.summary?.[RK.pos] || {};
-    const n = RK.sort === "cal" ? i + 1 : r[RK.sort];
+    const n = RK.sort === "cal" || RK_DESC.includes(RK.sort) ? (rkVal(r, RK.sort) == null ? null : i + 1) : r[RK.sort];
     h += `<tr data-pid="${r.pid}" class="${r.pid === RK.focus ? "me" : ""}${on.has(r.team) ? " slate-p" : ""}">
       <td class="c num">${n ?? "—"}</td>
       <td>${sleeperLink(r.pid, r.name)} <span class="faint">${esc(r.team)}</span></td>
@@ -1527,11 +1541,23 @@ function renderRank() {
       <td class="r num">${fmt1(r.ppr)}<div class="faint" style="font-size:10.5px">${RK.pos}${r.r_ppr}</div></td>
       <td class="r num">${fmt1(r.ppr_g)}<div class="faint" style="font-size:10.5px">${r.r_ppr_g ? RK.pos + r.r_ppr_g : "pocos PJ"}</div></td>
       <td class="r num">${fmt1(r.half_g)}<div class="faint" style="font-size:10.5px">${r.r_half_g ? RK.pos + r.r_half_g : "pocos PJ"}</div></td>
+      <td class="r num">${fmt1(r.yds_g)}</td><td class="r num">${fmt1(r.rec_g)}</td>
+      <td class="r num">${fmt1(r.td_g)}<div class="faint" style="font-size:10.5px">${r.tds ?? 0} TD</div></td>
+      <td class="r num${(r.oth_g || 0) < 0 ? " neg" : ""}">${fmt1(r.oth_g)}</td>
+      <td class="r num">${r.td_pct != null ? Math.round(r.td_pct * 100) + "%" : "—"}</td>
+      <td>${mixBar(r)}</td>
       <td class="c"${sm.rank ? ` data-tip="${esc(schedTip(sm, RK.pos))}"` : ""}>${sm.rank ? `<span class="chip ros-avg ${schedCls(sm.rank)}" style="height:18px;font-size:11px">${sm.rank}º</span> <span class="faint" style="font-size:11px">(${sm.po_rank ? sm.po_rank + "º" : "—"})</span>` : "—"}</td></tr>`;
   });
   $("#rankBody").innerHTML = h + `</tbody></table>${rows.length ? "" : `<div class="empty" style="padding:16px">Nadie con ese filtro.</div>`}`;
   const me = RK.focus && $("#rankBody").querySelector(`tr[data-pid="${RK.focus}"]`);
   if (me) me.scrollIntoView({block: "center"});
+}
+function mixBar(r) {
+  const parts = [[Math.max(0, r.yds_g || 0), "var(--accent)", "yardas"], [Math.max(0, r.rec_g || 0), "var(--good)", "recepciones"], [Math.max(0, r.td_g || 0), "#e58a1f", "touchdowns"]];
+  const sum = parts.reduce((a, p) => a + p[0], 0);
+  if (!sum) return "";
+  const tip = parts.filter(p => p[0]).map(p => `${p[2]} ${Math.round(p[0] / sum * 100)}%`).join(" · ");
+  return `<div class="mix" data-tip="${esc(tip)}">${parts.map(p => p[0] ? `<span style="flex:${p[0]};background:${p[1]}"></span>` : "").join("")}</div>`;
 }
 function openRank(pos, pid = null, sort = null) {
   if (pos) RK.pos = pos; if (sort) RK.sort = sort; RK.focus = pid;
