@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 9, 2026
 
-*Generado mié 4 nov, 9:33 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
+*Generado mié 4 nov, 9:38 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: PIT, TEN*
 
 **Nuestro récord de picks** — Semana pasada: **1-5** · Temporada: **1-5**
 
@@ -90,7 +90,7 @@ Adonai Mitchell (WR, NYJ) +3,040,048 · Tyler Allgeier (RB, ARI) +1,944,585 · D
 | Récord (local / visita) | 5-2 (4-1 / 1-1) | 4-4 (1-2 / 3-2) |
 | ATS (de favorito / de no favorito) | 4-3 (3-2 / 1-1) | 2-5-1 (1-3-1 / 1-2) |
 | Altas/Bajas | 3-4 | 5-3 |
-| Margen prom. · cobertura prom. | +12.1 · +8.4 | -3.0 · -5.5 |
+| Margen prom. · cobertura prom. | +12.1 · +8.3 | -3.0 · -5.5 |
 | Rating SRS | +5.8 (1º) | -2.4 (24º) |
 | Puntos a favor / en contra | 28.0 (5º) / 15.9 (2º) | 22.4 (19º) / 25.4 (22º) |
 | Yds netas/intento de pase | 7.4 (4º) | 6.6 (11º) |
@@ -103,7 +103,7 @@ Adonai Mitchell (WR, NYJ) +3,040,048 · Tyler Allgeier (RB, ARI) +1,944,585 · D
 | Jugadas/partido | 59.1 (26º) | 60.1 (23º) |
 | Situación | 4 días de descanso, SEMANA CORTA, luego @ TEN | 4 días de descanso, SEMANA CORTA, luego vs LAC |
 
-**JAX últimos 5:** G 42-7 vs IND (-10 ✓, A) · P 31-34 vs HOU (-2.5 ✗, A) · G 19-17 vs PHI (-7.5 ✗, B) · G 22-17 @ CIN (+2.5 ✓, B) · G 35-6 vs NE (-3 ✓, B)
+**JAX últimos 5:** G 42-7 vs IND (-10.5 ✓, A) · P 31-34 vs HOU (-2.5 ✗, A) · G 19-17 vs PHI (-7.5 ✗, B) · G 22-17 @ CIN (+2.5 ✓, B) · G 35-6 vs NE (-3 ✓, B)
 **BAL últimos 5:** P 10-36 @ BUF (+3 ✗, B) · P 13-35 vs CIN (+3 ✗, A) · P 10-13 @ CLE (-3 ✗, B) · G 30-23 @ ATL (+3 ✓, A) · G 24-18 vs TEN (-11.5 ✗, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
@@ -240,7 +240,7 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 | Récord (local / visita) | 5-2 (2-1 / 3-1) | 3-5 (1-3 / 2-2) |
 | ATS (de favorito / de no favorito) | 3-4 (2-4 / 1-0) | 3-5 (0-1 / 3-4) |
 | Altas/Bajas | 5-2 | 4-4 |
-| Margen prom. · cobertura prom. | +6.9 · +3.0 | -2.2 · +0.1 |
+| Margen prom. · cobertura prom. | +6.9 · +2.5 | -2.2 · +0.1 |
 | Rating SRS | +4.4 (4º) | +0.8 (15º) |
 | Puntos a favor / en contra | 29.4 (2º) / 22.6 (14º) | 21.4 (23º) / 23.6 (17º) |
 | Yds netas/intento de pase | 7.2 (6º) | 6.3 (17º) |
@@ -253,7 +253,7 @@ _backfield: reparto claro (Derrick Henry 69% de los toques) · top-2 de targets:
 | Jugadas/partido | 61.9 (18º) | 59.4 (25º) |
 | Situación | 6 días de descanso, luego vs PIT | 6 días de descanso, luego vs KC |
 
-**CIN últimos 5:** G 43-36 vs TEN (-10 ✗, A) · G 35-13 @ BAL (-3 ✓, A) · G 31-24 @ MIA (-7.5 ✗, A) · P 17-22 vs JAX (-2.5 ✗, B) · P 27-30 @ PIT (-3.5 ✗, A)
+**CIN últimos 5:** G 43-36 vs TEN (-13.5 ✗, A) · G 35-13 @ BAL (-3 ✓, A) · G 31-24 @ MIA (-7.5 ✗, A) · P 17-22 vs JAX (-2.5 ✗, B) · P 27-30 @ PIT (-3.5 ✗, A)
 **ATL últimos 5:** P 0-16 @ TB (+2.5 ✗, B) · G 29-20 vs SF (+2.5 ✓, B) · P 23-31 vs CHI (+1.5 ✗, A) · P 23-30 vs BAL (-3 ✗, A) · G 45-24 @ NO (+1.5 ✓, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
@@ -397,7 +397,7 @@ _backfield: un solo hombre (Bijan Robinson 82% de los toques) · top-2 de target
 | Situación | 7 días de descanso, luego vs SF | 7 días de descanso, luego vs MIA |
 
 **DAL últimos 5:** P 30-33 vs ARI (-7 ✗, A) · G 38-21 @ PHI (-4.5 ✓, A) · P 13-23 @ GB (-1.5 ✗, B) · P 16-24 vs TB (-8.5 ✗, B) · G 34-30 @ HOU (+3 ✓, A)
-**IND últimos 5:** P 7-42 @ JAX (+10 ✗, A) · P 10-16 @ MIN (+6.5 ✓, B) · P 20-26 vs TEN (-6.5 ✗, A) · P 22-34 @ PIT (+3 ✗, A) · G 30-13 @ WSH (-4.5 ✓, B)
+**IND últimos 5:** P 7-42 @ JAX (+10.5 ✗, A) · P 10-16 @ MIN (+6.5 ✓, B) · P 20-26 vs TEN (-6.5 ✗, A) · P 22-34 @ PIT (+3 ✗, A) · G 30-13 @ WSH (-4.5 ✓, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -530,9 +530,9 @@ _backfield: reparto claro (Jonathan Taylor 67% de los toques) · top-2 de target
 | | **NYJ** | **KC** |
 |---|---|---|
 | Récord (local / visita) | 2-6 (1-3 / 1-3) | 5-2 (3-0 / 2-2) |
-| ATS (de favorito / de no favorito) | 4-3-1 (1-2 / 3-1-1) | 3-4 (3-3 / 0-1) |
+| ATS (de favorito / de no favorito) | 4-3-1 (1-2 / 3-1-1) | 3-4 (3-2 / 0-2) |
 | Altas/Bajas | 4-4 | 3-4 |
-| Margen prom. · cobertura prom. | -2.2 · -0.3 | +5.1 · +1.1 |
+| Margen prom. · cobertura prom. | -2.2 · -0.3 | +5.1 · +1.6 |
 | Rating SRS | -1.5 (21º) | +2.3 (10º) |
 | Puntos a favor / en contra | 21.2 (25º) / 23.5 (16º) | 23.9 (11º) / 18.7 (4º) |
 | Yds netas/intento de pase | 6.6 (12º) | 7.2 (5º) |
@@ -546,7 +546,7 @@ _backfield: reparto claro (Jonathan Taylor 67% de los toques) · top-2 de target
 | Situación | 7 días de descanso, luego vs BUF | 6 días de descanso, luego @ ATL |
 
 **NYJ últimos 5:** P 33-38 vs LV (-1.5 ✗, A) · P 25-28 vs MIA (-3.5 ✗, A) · P 19-26 @ NE (+7.5 ✓, A) · G 17-12 vs CLE (-2.5 ✓, B) · P 12-23 @ CHI (+3.5 ✗, B)
-**KC últimos 5:** P 24-28 @ DEN (-1.5 ✗, A) · P 3-20 @ SEA (+3 ✗, B) · G 22-6 vs LAC (-7.5 ✓, B) · G 30-27 @ LV (-3.5 ✗, A) · G 24-10 @ MIA (-10 ✓, B)
+**KC últimos 5:** P 24-28 @ DEN (+1.5 ✗, A) · P 3-20 @ SEA (+3 ✗, B) · G 22-6 vs LAC (-7.5 ✓, B) · G 30-27 @ LV (-3.5 ✗, A) · G 24-10 @ MIA (-10 ✓, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -680,8 +680,8 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 |---|---|---|
 | Récord (local / visita) | 5-2 (4-0 / 1-2) | 1-6 (0-3 / 1-3) |
 | ATS (de favorito / de no favorito) | 2-4-1 (2-3-1 / 0-1) | 4-3 (0-0 / 4-3) |
-| Altas/Bajas | 5-2 | 3-4 |
-| Margen prom. · cobertura prom. | +3.3 · +0.0 | -9.1 · -1.5 |
+| Altas/Bajas | 5-2 | 4-3 |
+| Margen prom. · cobertura prom. | +3.3 · -0.1 | -9.1 · -1.5 |
 | Rating SRS | +2.1 (12º) | -3.6 (26º) |
 | Puntos a favor / en contra | 29.0 (3º) / 25.7 (23º) | 16.7 (31º) / 25.9 (25º) |
 | Yds netas/intento de pase | 7.0 (7º) | 5.7 (21º) |
@@ -694,8 +694,8 @@ _backfield: un solo hombre (Kenneth Walker III 83% de los toques) · top-2 de ta
 | Jugadas/partido | 66.6 (3º) | 56.9 (31º) |
 | Situación | 7 días de descanso, luego vs NE | 6 días de descanso, luego @ IND |
 
-**DET últimos 5:** G 19-15 vs MIN (-3 ✓, B) · G 20-17 vs GB (-3.5 ✗, B) · G 45-21 @ ARI (-4.5 ✓, A) · P 26-32 @ CAR (-3.5 ✗, A) · G 31-24 vs NYJ (-7 P, A)
-**MIA últimos 5:** P 19-24 vs NE (+7 ✓, B) · G 28-25 @ NYJ (+3.5 ✓, A) · P 24-31 vs CIN (+7.5 ✓, A) · P 10-15 @ MIN (+10 ✓, B) · P 10-24 vs KC (+10 ✗, B)
+**DET últimos 5:** G 19-15 vs MIN (-3.5 ✓, B) · G 20-17 vs GB (-3.5 ✗, B) · G 45-21 @ ARI (-4.5 ✓, A) · P 26-32 @ CAR (-3.5 ✗, A) · G 31-24 vs NYJ (-7 P, A)
+**MIA últimos 5:** P 19-24 vs NE (+7 ✓, A) · G 28-25 @ NYJ (+3.5 ✓, A) · P 24-31 vs CIN (+7.5 ✓, A) · P 10-15 @ MIN (+10 ✓, B) · P 10-24 vs KC (+10 ✗, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -970,7 +970,7 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 | Récord (local / visita) | 4-2-1 (3-1 / 1-1-1) | 2-6 (1-3 / 1-3) |
 | ATS (de favorito / de no favorito) | 5-2 (1-0 / 4-2) | 2-6 (0-3 / 2-3) |
 | Altas/Bajas | 5-2 | 4-4 |
-| Margen prom. · cobertura prom. | +0.3 · +3.9 | -8.1 · -6.9 |
+| Margen prom. · cobertura prom. | +0.3 · +3.9 | -8.1 · -7.0 |
 | Rating SRS | -2.7 (25º) | -6.7 (32º) |
 | Puntos a favor / en contra | 23.3 (13º) / 23.0 (15º) | 17.1 (30º) / 25.2 (21º) |
 | Yds netas/intento de pase | 6.1 (19º) | 4.9 (30º) |
@@ -984,7 +984,7 @@ _backfield: comité (Kendre Miller 53% de los toques) · top-2 de targets: 43% d
 | Situación | 14 días de descanso, tras semana de descanso, luego vs WSH | 6 días de descanso |
 
 **NYG últimos 5:** G 27-21 @ HOU (+10 ✓, A) · P 27-34 vs NO (+1.5 ✗, A) · E 27-27 @ WSH (+3.5 ✓, A) · G 36-24 vs ARI (+2.5 ✓, A) · G 12-7 vs TEN (-2.5 ✓, B)
-**PHI últimos 5:** P 10-27 @ WSH (+6 ✗, B) · P 21-38 vs DAL (+4.5 ✗, A) · P 14-25 vs CAR (+3 ✗, B) · P 17-19 @ JAX (+7.5 ✓, B) · P 20-24 vs LAR (+4.5 ✓, A)
+**PHI últimos 5:** P 10-27 @ WSH (+5.5 ✗, B) · P 21-38 vs DAL (+4.5 ✗, A) · P 14-25 vs CAR (+3 ✗, B) · P 17-19 @ JAX (+7.5 ✓, B) · P 20-24 vs LAR (+4.5 ✓, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -1121,7 +1121,7 @@ _backfield: comité (Dameon Pierce 66% de los toques) · top-2 de targets: 53% d
 | Récord (local / visita) | 4-4 (2-3 / 2-1) | 2-4-1 (2-1-1 / 0-3) |
 | ATS (de favorito / de no favorito) | 3-5 (3-4 / 0-1) | 4-3 (1-1 / 3-2) |
 | Altas/Bajas | 4-4 | 4-3 |
-| Margen prom. · cobertura prom. | +3.2 · -1.8 | -3.3 · -0.2 |
+| Margen prom. · cobertura prom. | +3.2 · -1.8 | -3.3 · -0.1 |
 | Rating SRS | +0.8 (16º) | -4.4 (28º) |
 | Puntos a favor / en contra | 24.2 (10º) / 21.0 (12º) | 22.7 (17º) / 26.0 (26º) |
 | Yds netas/intento de pase | 6.5 (13º) | 5.7 (22º) |
@@ -1135,7 +1135,7 @@ _backfield: comité (Dameon Pierce 66% de los toques) · top-2 de targets: 53% d
 | Situación | 6 días de descanso, costa oeste a la 1 pm ET, luego @ ARI | 6 días de descanso, luego @ NYG |
 
 **LAR últimos 5:** G 24-9 vs LAC (-6.5 ✓, B) · G 35-21 @ LV (-3.5 ✓, A) · P 16-18 vs ARI (-13.5 ✗, B) · P 34-37 vs BUF (-3.5 ✗, A) · G 24-20 @ PHI (-4.5 ✗, A)
-**WSH últimos 5:** G 27-10 vs PHI (-6 ✓, B) · P 17-23 @ SF (+7.5 ✓, B) · E 27-27 vs NYG (-3.5 ✗, A) · P 13-30 vs IND (+4.5 ✗, B) · G 33-31 vs SEA (+8.5 ✓, A)
+**WSH últimos 5:** G 27-10 vs PHI (-5.5 ✓, B) · P 17-23 @ SF (+7.5 ✓, B) · E 27-27 vs NYG (-3.5 ✗, A) · P 13-30 vs IND (+4.5 ✗, B) · G 33-31 vs SEA (+8.5 ✓, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -1269,9 +1269,9 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 | | **DEN** | **CAR** |
 |---|---|---|
 | Récord (local / visita) | 6-2 (4-0 / 2-2) | 3-4 (1-2 / 2-2) |
-| ATS (de favorito / de no favorito) | 6-2 (4-0 / 2-2) | 3-4 (2-2 / 1-2) |
+| ATS (de favorito / de no favorito) | 6-2 (5-0 / 1-2) | 3-4 (2-2 / 1-2) |
 | Altas/Bajas | 3-5 | 3-4 |
-| Margen prom. · cobertura prom. | +0.9 · +0.7 | -2.1 · -2.3 |
+| Margen prom. · cobertura prom. | +0.9 · +0.3 | -2.1 · -2.3 |
 | Rating SRS | +1.4 (14º) | -0.6 (17º) |
 | Puntos a favor / en contra | 21.5 (22º) / 20.6 (11º) | 25.4 (9º) / 27.6 (28º) |
 | Yds netas/intento de pase | 5.5 (24º) | 6.2 (18º) |
@@ -1284,7 +1284,7 @@ _backfield: comité (Jacory Croskey-Merritt 48% de los toques) · top-2 de targe
 | Jugadas/partido | 57.0 (30º) | 66.6 (4º) |
 | Situación | 6 días de descanso | 9 días de descanso, luego @ NO |
 
-**DEN últimos 5:** G 28-24 vs KC (+1.5 ✓, A) · G 30-16 @ ARI (-4.5 ✓, A) · G 17-14 vs SEA (+3 ✓, B) · G 23-17 @ LAC (-3 ✓, B) · P 14-24 @ SF (+3 ✗, B)
+**DEN últimos 5:** G 28-24 vs KC (-1.5 ✓, A) · G 30-16 @ ARI (-4.5 ✓, A) · G 17-14 vs SEA (+3 ✓, B) · G 23-17 @ LAC (-3 ✓, B) · P 14-24 @ SF (+3 ✗, B)
 **CAR últimos 5:** P 19-27 @ GB (+3.5 ✗, B) · P 13-43 vs TB (-3 ✗, A) · G 25-14 @ PHI (-3 ✓, B) · G 32-26 vs DET (+3.5 ✓, A) · P 18-21 @ CLE (-2.5 ✗, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
@@ -1576,7 +1576,7 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 |---|---|---|
 | Récord (local / visita) | 5-3 (3-1 / 2-2) | 5-3 (3-0 / 2-3) |
 | ATS (de favorito / de no favorito) | 5-3 (2-2 / 3-1) | 3-4-1 (2-2 / 1-2-1) |
-| Altas/Bajas | 2-6 | 4-4 |
+| Altas/Bajas | 2-6 | 5-3 |
 | Margen prom. · cobertura prom. | +0.9 · +0.2 | +2.8 · +1.9 |
 | Rating SRS | +2.3 (11º) | +4.3 (6º) |
 | Puntos a favor / en contra | 21.4 (24º) / 20.5 (10º) | 23.0 (16º) / 20.2 (9º) |
@@ -1591,7 +1591,7 @@ _backfield: comité (Omarion Hampton 44% de los toques) · top-2 de targets: 30%
 | Situación | 9 días de descanso, luego vs MIN | 7 días de descanso, luego @ DET |
 
 **GB últimos 5:** G 27-19 vs CAR (-3.5 ✓, B) · P 17-20 @ DET (+3.5 ✓, B) · G 23-13 vs DAL (+1.5 ✓, B) · G 31-7 vs CHI (+1.5 ✓, B) · G 17-14 @ TB (-2.5 ✓, B)
-**NE últimos 5:** G 24-19 @ MIA (-7 ✗, B) · P 24-30 @ CHI (+3 ✗, A) · G 26-19 vs NYJ (-7.5 ✗, A) · G 45-17 vs LV (-3.5 ✓, A) · G 29-26 @ BUF (+7 ✓, A)
+**NE últimos 5:** G 24-19 @ MIA (-7 ✗, A) · P 24-30 @ CHI (+3 ✗, A) · G 26-19 vs NYJ (-7.5 ✗, A) · G 45-17 vs LV (-3.5 ✓, A) · G 29-26 @ BUF (+7 ✓, A)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 
@@ -2166,7 +2166,7 @@ _backfield: comité (D'Andre Swift 77% de los toques) · top-2 de targets: 51% d
 | Récord (local / visita) | 6-1 (3-1 / 3-0) | 6-1 (3-0 / 3-1) |
 | ATS (de favorito / de no favorito) | 5-2 (4-2 / 1-0) | 4-3 (2-2 / 2-1) |
 | Altas/Bajas | 5-2 | 1-6 |
-| Margen prom. · cobertura prom. | +7.4 · +3.7 | +6.7 · +4.9 |
+| Margen prom. · cobertura prom. | +7.4 · +3.7 | +6.7 · +5.0 |
 | Rating SRS | +4.2 (7º) | +5.2 (3º) |
 | Puntos a favor / en contra | 33.3 (1º) / 25.9 (24º) | 20.0 (27º) / 13.3 (1º) |
 | Yds netas/intento de pase | 7.9 (1º) | 5.4 (25º) |
@@ -2180,7 +2180,7 @@ _backfield: comité (D'Andre Swift 77% de los toques) · top-2 de targets: 51% d
 | Situación | 8 días de descanso, luego @ NYJ | 8 días de descanso, luego @ GB |
 
 **BUF últimos 5:** G 36-10 vs BAL (-3 ✓, B) · G 33-30 @ LV (-5.5 ✗, A) · G 37-34 @ LAR (+3.5 ✓, A) · P 26-29 vs NE (-7 ✗, A) · G 24-16 vs LAC (-7 ✓, B)
-**MIN últimos 5:** P 15-19 @ DET (+3 ✗, B) · G 16-10 vs IND (-6.5 ✗, B) · G 23-13 @ NO (-2.5 ✓, B) · G 15-10 vs MIA (-10 ✗, B) · G 23-16 @ TB (+1.5 ✓, B)
+**MIN últimos 5:** P 15-19 @ DET (+3.5 ✗, B) · G 16-10 vs IND (-6.5 ✗, B) · G 23-13 @ NO (-2.5 ✓, B) · G 15-10 vs MIA (-10 ✗, B) · G 23-16 @ TB (+1.5 ✓, B)
 
 **Coaches e historia** *(nflverse, desde 1999, incluye playoffs; ATS con líneas de cierre)*
 

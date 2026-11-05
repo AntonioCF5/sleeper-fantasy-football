@@ -1503,42 +1503,76 @@ document.addEventListener("keydown", e => {
 
 // ---------- rankings drawer: season ranks by position, centred on a player to compare his neighbours
 const RK = { pos: "WR", sort: "r_ppr", focus: null, q: "", slate: false, mode: "g" };  // mode: point split per game (g) or season totals (t)
-const RK_SORTS = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"], ["yds", "Yardas"], ["rec", "Rec."], ["td", "TD"], ["td_pct", "% TD"], ["cal", "Calendario"]];
-// yds/rec/td/oth resolve to the per-game (_g) or season-total (_t) field of the current mode
-const rkKey = k => ["yds", "rec", "td", "oth"].includes(k) ? `${k}_${RK.mode}` : k;
-// "cal" sorts by the schedule's place among the 32 (1 = easiest left), ties by season PPR
-// point-source columns (yds/rec/td/otros per game, % of points from TDs) sort high → low, and only
-// players with enough games for a per-game rank compete (one-game spikes would top "% TD")
-const RK_DESC = ["yds_g", "rec_g", "td_g", "oth_g", "yds_t", "rec_t", "td_t", "oth_t", "td_pct"];
-// ...and only fantasy-relevant ones: inside the position's top N in PPR per game (a WR141 with one TD is 85% TD)
+// where the PPR points come from, per position: skill players split yards / catches / TDs;
+// QBs split arm vs legs (user 2026-11-04): pass yards, pass TDs, rush yards, rush/rec TDs.
+// Each column reads the per-game (_g) or season (_t) field of the current mode; `raw` is the count shown under it.
+const SPLITS = {
+  skill: [
+    {k: "yds", l: "Yds", sort: "Yardas", c: "var(--accent)", n: "yardas", raw: r => r.yards, u: "yds",
+     tip: "Puntos PPR que vienen de yardas de carrera y recepción (0.1 por yarda; también un pase de trucos a 0.04). Abajo, las yardas."},
+    {k: "rec", l: "Rec", sort: "Rec.", c: "var(--good)", n: "recepciones", raw: r => r.recs, u: "rec",
+     tip: "Puntos que vienen de recepciones (1 por recepción en PPR; en ½ PPR es la mitad). Abajo, las recepciones."},
+    {k: "td", l: "TD", sort: "TD", c: "#e58a1f", n: "touchdowns", raw: r => r.tds, u: "TD",
+     tip: "Puntos que vienen de touchdowns (6 por TD de carrera o recepción). Abajo, los TD."},
+    {k: "oth", l: "Otros", c: null, tip: "Lo demás: balones perdidos (−2) y conversiones de 2 (+2)."},
+  ],
+  QB: [
+    {k: "pyds", l: "Yds pase", sort: "Yds pase", c: "var(--accent)", n: "yardas de pase", raw: r => r.pass_yds, u: "yds",
+     tip: "Puntos que vienen de yardas de pase (0.04 por yarda). Abajo, las yardas de pase."},
+    {k: "ptd", l: "TD pase", sort: "TD pase", c: "#e58a1f", n: "TD de pase", raw: r => r.pass_tds, u: "TD",
+     tip: "Puntos que vienen de touchdowns de pase (4 cada uno). Abajo, los TD de pase."},
+    {k: "ryds", l: "Yds carrera", sort: "Yds carrera", c: "var(--good)", n: "yardas por tierra", raw: r => r.rush_yds, u: "yds",
+     tip: "Puntos que vienen de yardas por tierra (0.1 por yarda; incluye alguna recepción). Abajo, las yardas."},
+    {k: "rtd", l: "TD carrera/rec", sort: "TD carrera", c: "#b45309", n: "TD por tierra o recepción", raw: r => r.rush_tds, u: "TD",
+     tip: "Puntos que vienen de touchdowns corriendo o recibiendo (6 cada uno). Abajo, esos TD."},
+    {k: "qoth", l: "Otros", c: null, raw: r => r.ints, u: "INT",
+     tip: "Lo demás: intercepciones (−1), balones perdidos (−2), conversiones de 2 y alguna recepción. Abajo, las intercepciones.",
+     val: (r, m) => (r["oth_" + m] ?? 0) + (r["rec_" + m] ?? 0)},
+  ],
+};
+const splitsFor = pos => SPLITS[pos] || SPLITS.skill;
+const splitVal = (sp, r, m = RK.mode) => sp.val ? sp.val(r, m) : r[`${sp.k}_${m}`];
+const splitOf = k => splitsFor(RK.pos).find(sp => sp.k === k);
+const RK_BASE = [["r_ppr", "PPR temp."], ["r_ppr_g", "PPR/partido"], ["r_half_g", "½ PPR/partido"]];
+const rkSorts = () => [...RK_BASE, ...splitsFor(RK.pos).filter(sp => sp.sort).map(sp => [sp.k, sp.sort]), ["td_pct", "% TD"], ["cal", "Calendario"]];
+const RK_DESC = ["td_pct"];
+// "cal" sorts by the schedule's place among the 32 (1 = easiest left); point-source columns sort high → low
+// among fantasy-relevant players only: top N in PPR per game (a WR141 with one TD is 85% TD)
 const RK_RELEVANT = {QB: 32, RB: 60, WR: 80, TE: 36};
-const rkVal = (r, k) => (k = rkKey(k)) === "cal" ? S.data.ros?.[r.team]?.summary?.[RK.pos]?.rank
-  : RK_DESC.includes(k) ? (r.r_ppr_g && r.r_ppr_g <= RK_RELEVANT[RK.pos] && r[k] != null ? -r[k] : null) : r[k];
+const isDesc = k => RK_DESC.includes(k) || !!splitOf(k);
+function rkVal(r, k) {
+  if (k === "cal") return S.data.ros?.[r.team]?.summary?.[RK.pos]?.rank;
+  if (isDesc(k)) {
+    const sp = splitOf(k), v = sp ? splitVal(sp, r) : r[k];
+    return r.r_ppr_g && r.r_ppr_g <= RK_RELEVANT[RK.pos] && v != null ? -v : null;
+  }
+  return r[k];
+}
 function slateTeams() { return new Set((S.games || []).flatMap(g => [SL(g.sheet.away), SL(g.sheet.home)])); }
 function renderRank() {
+  if (!rkSorts().some(([k]) => k === RK.sort)) RK.sort = "r_ppr";  // a QB-only sort doesn't carry over to WR, and back
   $("#rankPos").innerHTML = ["QB", "RB", "WR", "TE"].map(p => `<button data-pos="${p}" aria-pressed="${p === RK.pos}">${p}</button>`).join("");
-  $("#rankSort").innerHTML = RK_SORTS.map(([k, l]) => `<button data-sort="${k}" aria-pressed="${k === RK.sort}">${l}</button>`).join("");
+  $("#rankSort").innerHTML = rkSorts().map(([k, l]) => `<button data-sort="${k}" aria-pressed="${k === RK.sort}">${l}</button>`).join("");
   $("#rankMode").innerHTML = [["g", "Por partido"], ["t", "Temporada"]].map(([k, l]) => `<button data-mode="${k}" aria-pressed="${k === RK.mode}">${l}</button>`).join("");
   const all = S.data?.rankings?.[RK.pos] || [];
   const on = slateTeams(), q = RK.q.trim().toLowerCase();
   let rows = [...all].sort((a, b) => (rkVal(a, RK.sort) ?? 1e9) - (rkVal(b, RK.sort) ?? 1e9) || a.r_ppr - b.r_ppr);
   if (q) rows = rows.filter(r => r.name.toLowerCase().includes(q) || r.team.toLowerCase() === q);
   if (RK.slate) rows = rows.filter(r => on.has(r.team));
+  const pg = RK.mode === "g", per = pg ? " Por partido." : " En la temporada.", sfx = pg ? "/j" : " temp.";
+  const splits = splitsFor(RK.pos);
   const head = [["#", "Lugar según el orden elegido."], ["Jugador", "Nombre y equipo. La barra azul marca a los que juegan esta semana."],
     ["PJ", "Partidos jugados (con al menos un snap)."], ["PPR", "Puntos PPR totales de la temporada.", "r_ppr"],
     ["PPR/j", "Puntos PPR por partido jugado.", "r_ppr_g"], ["½/j", "Puntos ½ PPR por partido jugado.", "r_half_g"],
-    ...(() => { const pg = RK.mode === "g", per = pg ? " por partido" : " en la temporada", sfx = pg ? "/j" : " temp.";
-      return [[`Yds${sfx}`, `Puntos PPR${per} que vienen de yardas: pase (0.04 por yarda), carrera y recepción (0.1 por yarda). Abajo, las yardas${pg ? " por partido" : " totales"}. Clic para ordenar de más a menos.`, "yds"],
-        [`Rec${sfx}`, `Puntos${per} que vienen de recepciones (1 por recepción en PPR; en ½ PPR es la mitad). Abajo, las recepciones. Clic para ordenar.`, "rec"],
-        [`TD${sfx}`, `Puntos${per} que vienen de touchdowns (4 por TD de pase, 6 por TD de carrera o recepción). Abajo, los TD. Clic para ordenar.`, "td"],
-        [`Otros${sfx}`, `Lo demás${per}: intercepciones (−1), balones perdidos (−2) y conversiones de 2 (+2). Clic para ordenar.`, "oth"]]; })(),
+    ...splits.map(sp => [`${sp.l}${sfx}`, `${sp.tip}${per} Clic para ordenar de más a menos.`, sp.k]),
     ["% TD", "Qué parte de sus puntos PPR viene de touchdowns. Alto = depende del TD y es candidato a regresar; bajo = vive del volumen. Clic para ordenar.", "td_pct"],
-    ["Mezcla", "De dónde salen sus puntos: azul = yardas, verde = recepciones, naranja = touchdowns."],
+    ["Mezcla", `De dónde salen sus puntos: ${splits.filter(sp => sp.c).map(sp => sp.n).join(", ")}.`],
     ["Calendario", "Lugar de su calendario que queda (hasta la semana 17) entre los 32 de la posición, por los puntos que permiten sus rivales: 1º = el más fácil, 32º = el más difícil. Entre paréntesis, el de los playoffs de fantasy (15-17).", "cal"]];
   let h = `<table><thead><tr>${head.map(([l, t, k]) => `<th class="${k && k !== "cal" ? "r" : l === "Jugador" ? "" : "c"}${k && k === RK.sort ? " on" : ""}"${k ? ` data-sort="${k}"` : ""} data-tip="${esc(t)}">${l}</th>`).join("")}</tr></thead><tbody>`;
+  const rawTxt = (sp, r) => { if (!sp.raw) return ""; const x = sp.raw(r) ?? 0; return `<div class="faint" style="font-size:10.5px">${pg ? fmt1(x / (r.gp || 1)) : Math.round(x)} ${sp.u}</div>`; };
   rows.forEach((r, i) => {
     const sm = S.data.ros?.[r.team]?.summary?.[RK.pos] || {};
-    const n = RK.sort === "cal" || RK_DESC.includes(rkKey(RK.sort)) ? (rkVal(r, RK.sort) == null ? null : i + 1) : r[RK.sort];
+    const n = RK.sort === "cal" || isDesc(RK.sort) ? (rkVal(r, RK.sort) == null ? null : i + 1) : r[RK.sort];
     h += `<tr data-pid="${r.pid}" class="${r.pid === RK.focus ? "me" : ""}${on.has(r.team) ? " slate-p" : ""}">
       <td class="c num">${n ?? "—"}</td>
       <td>${sleeperLink(r.pid, r.name)} <span class="faint">${esc(r.team)}</span></td>
@@ -1546,21 +1580,17 @@ function renderRank() {
       <td class="r num">${fmt1(r.ppr)}<div class="faint" style="font-size:10.5px">${RK.pos}${r.r_ppr}</div></td>
       <td class="r num">${fmt1(r.ppr_g)}<div class="faint" style="font-size:10.5px">${r.r_ppr_g ? RK.pos + r.r_ppr_g : "pocos PJ"}</div></td>
       <td class="r num">${fmt1(r.half_g)}<div class="faint" style="font-size:10.5px">${r.r_half_g ? RK.pos + r.r_half_g : "pocos PJ"}</div></td>
-      ${(() => { const m = RK.mode, pg = m === "g", per = x => pg ? fmt1(x / (r.gp || 1)) : Math.round(x);
-        return `<td class="r num">${fmt1(r["yds_" + m])}<div class="faint" style="font-size:10.5px">${per(r.yards ?? 0)} yds</div></td>
-      <td class="r num">${fmt1(r["rec_" + m])}<div class="faint" style="font-size:10.5px">${per(r.recs ?? 0)} rec</div></td>
-      <td class="r num">${fmt1(r["td_" + m])}<div class="faint" style="font-size:10.5px">${per(r.tds ?? 0)} TD</div></td>
-      <td class="r num${(r["oth_" + m] || 0) < 0 ? " neg" : ""}">${fmt1(r["oth_" + m])}</td>`; })()}
+      ${splits.map(sp => { const v = splitVal(sp, r); return `<td class="r num${(v || 0) < 0 ? " neg" : ""}">${fmt1(v)}${rawTxt(sp, r)}</td>`; }).join("")}
       <td class="r num">${r.td_pct != null ? Math.round(r.td_pct * 100) + "%" : "—"}</td>
-      <td>${mixBar(r)}</td>
+      <td>${mixBar(r, splits)}</td>
       <td class="c"${sm.rank ? ` data-tip="${esc(schedTip(sm, RK.pos))}"` : ""}>${sm.rank ? `<span class="chip ros-avg ${schedCls(sm.rank)}" style="height:18px;font-size:11px">${sm.rank}º</span> <span class="faint" style="font-size:11px">(${sm.po_rank ? sm.po_rank + "º" : "—"})</span>` : "—"}</td></tr>`;
   });
   $("#rankBody").innerHTML = h + `</tbody></table>${rows.length ? "" : `<div class="empty" style="padding:16px">Nadie con ese filtro.</div>`}`;
   const me = RK.focus && $("#rankBody").querySelector(`tr[data-pid="${RK.focus}"]`);
   if (me) me.scrollIntoView({block: "center"});
 }
-function mixBar(r) {
-  const parts = [[Math.max(0, r.yds_g || 0), "var(--accent)", "yardas"], [Math.max(0, r.rec_g || 0), "var(--good)", "recepciones"], [Math.max(0, r.td_g || 0), "#e58a1f", "touchdowns"]];
+function mixBar(r, splits) {
+  const parts = splits.filter(sp => sp.c).map(sp => [Math.max(0, splitVal(sp, r, "g") || 0), sp.c, sp.n]);
   const sum = parts.reduce((a, p) => a + p[0], 0);
   if (!sum) return "";
   const tip = parts.filter(p => p[0]).map(p => `${p[2]} ${Math.round(p[0] / sum * 100)}%`).join(" · ");

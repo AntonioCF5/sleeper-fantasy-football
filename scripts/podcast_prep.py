@@ -399,6 +399,17 @@ def rankings(usage, team_tot, meta):
                          # season totals of the same split, plus the raw counts behind them
                          "yds_t": round(yds, 1), "rec_t": round(rec, 1), "td_t": round(td, 1), "oth_t": round(oth, 1),
                          "yards": int(tot("pass_yd") + tot("rush_yd") + tot("rec_yd")), "recs": int(tot("rec"))})
+            if pos == "QB":
+                # QBs split by arm vs legs (user 2026-11-04): pass yards, rush yards, pass TDs, rush/rec TDs
+                parts = {"pyds": tot("pass_yd") * PPR["pass_yd"],
+                         "ryds": tot("rush_yd") * PPR["rush_yd"] + tot("rec_yd") * PPR["rec_yd"],
+                         "ptd": tot("pass_td") * PPR["pass_td"],
+                         "rtd": tot("rush_td") * PPR["rush_td"] + tot("rec_td") * PPR["rec_td"]}
+                for k, v in parts.items():
+                    rows[-1][k + "_t"], rows[-1][k + "_g"] = round(v, 1), round(v / n, 2)
+                rows[-1].update(pass_yds=int(tot("pass_yd")), rush_yds=int(tot("rush_yd") + tot("rec_yd")),
+                                pass_tds=int(tot("pass_td")), rush_tds=int(tot("rush_td") + tot("rec_td")),
+                                ints=int(tot("pass_int")))
         rows.sort(key=lambda r: -r["ppr"])
         for i, r in enumerate(rows):
             r["r_ppr"] = i + 1

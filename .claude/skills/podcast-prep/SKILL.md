@@ -473,6 +473,17 @@ UI (HTML, CSS and JS in one file).
       and season totals (`*_t`). Under each number is the raw count in the
       same mode: yards (pass + rush + rec), receptions and TDs. Sort keys
       `yds`/`rec`/`td`/`oth` resolve to the current mode via `rkKey`.
+    - **QBs split arm vs legs** (user 2026-11-04). Columns: Yds pase
+      (0.04/yd), TD pase (4), Yds carrera (0.1/yd, plus any catch yards),
+      TD carrera/rec (6), and Otros (INTs, fumbles, 2-pt and any catch
+      points), with raw pass yds/TDs, rush yds/TDs and INTs under them. The
+      sort buttons follow the position.
+      - Columns are defined once in the app's `SPLITS` (`skill` / `QB`):
+        label, tooltip, color for the Mezcla bar, and the raw count getter.
+      - A sort that doesn't exist at the new position falls back to PPR
+        total.
+      - The data comes from the `pyds`/`ptd`/`ryds`/`rtd` `_g`/`_t` fields and
+        `pass_yds`/`rush_yds`/`pass_tds`/`rush_tds`/`ints`.
     - Computed in `rankings()` from the weekly stat lines with the `PPR`
       weights. A blue bar marks
     players on this week's slate. Opened from a rank, it highlights that player
