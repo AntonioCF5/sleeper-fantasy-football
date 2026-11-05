@@ -346,6 +346,12 @@ UI (HTML, CSS and JS in one file).
   - **Lesiones**: `injuries`.
   - **Guion**: the game's rundown segment.
   - **Hoja completa**: the game's full sheet markdown.
+- **Player tables** (Fantasy, Uso, Jugadores clave and the Recap player tables;
+  user 2026-11-04): class `pl` freezes the player column on horizontal scroll
+  (`pl rank` also freezes the `#` column before it). Every header is built with
+  `TH(label, tip)`, and its `data-tip` text explains the column (a floating
+  tooltip on hover, or on tap on mobile). A new column in any of these tables
+  ships with its tooltip.
 
 **Contract with the rundown:** the app splits it on `### AWAY @ HOME`
 headers (ESPN codes, e.g. `WSH`), and skips the `## Partido por partido` heading.
