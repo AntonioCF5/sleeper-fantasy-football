@@ -888,22 +888,57 @@
    "published": "2026-11-04",
    "source": "fantasy-footballers",
    "processed": "2026-11-04"
+  },
+  "XKEo5EYc1As": {
+   "video_id": "XKEo5EYc1As",
+   "title": "Mike Wright is LIVE! Week 8 Fantasy Football Start/Sit Advice + Injury News",
+   "published": "2026-11-01",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
+  },
+  "MB6qBGt-IQU": {
+   "video_id": "MB6qBGt-IQU",
+   "title": "5 Players You Need to Trade Away Before It\u2019s Too Late",
+   "published": "2026-11-05",
+   "source": "sal-vetri",
+   "processed": "2026-11-06"
+  },
+  "XUqjXdOgu0U": {
+   "video_id": "XUqjXdOgu0U",
+   "title": "Garrett Wilson may not play this week \ud83d\ude41 | Start AD Mitchell or Omar Cooper?",
+   "published": "2026-11-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
+  },
+  "oJ5pYSeCStY": {
+   "video_id": "oJ5pYSeCStY",
+   "title": "The Cardinals are working on a deal to send QB Jacoby Brissett to the Ravens\ud83d\udc40",
+   "published": "2026-11-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
+  },
+  "wx07vN2Akv8": {
+   "video_id": "wx07vN2Akv8",
+   "title": "Starts of the Week + Week 9 Games, Nasty Boys | Fantasy Football 2026 - Ep. 2009",
+   "published": "2026-11-05",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-11-04",
+   "last_success": "2026-11-06",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 6
+   "via": "rss",
+   "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-11-04",
+   "last_success": "2026-11-06",
    "last_failure": "2026-09-16",
-   "via": "innertube",
-   "rss_failures": 3
+   "via": "rss",
+   "rss_failures": 0
   }
  }
 }

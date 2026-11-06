@@ -1707,3 +1707,11 @@ without testing it.
   (Jonathan Taylor: DEN 25%, SEA 23%, ~7 teams in the race, $1M+ traded)
   instead of beat-reporter noise; a flat distribution means "stash the
   handcuff, don't sell the incumbent yet."
+
+### 2026-11-06 pass (Sal sell-highs + FF Ep. 2009)
+- Sell-high screen (Sal): check snap share/route share under the box score; a two-week TD spike with RB2 snap share (<35%) or an injury-fed role (starter on IR, short window) is a sell regardless of per-touch efficiency.
+- Check schedule + run-defense ranks over the next 3 weeks before valuing a fill-in RB (Allgeier: SEA/LAR/KC top-10 run D) - a one-off vs bad defense (DAL) does not carry.
+- Quantify return window and bye overlap: injured starter returns + bye week = likely held out an extra week; use for ROS horizon.
+- Quarterback change reprices every pass-catcher on the team (Brissett trade, Minshew/Beck): look up QB's last-year YPA/TD rate before holding WRs/TE.
+- Sal's trade framework: sell players with perceived value off a big game for buy-low guys (injury/bye/dud) ranked above them in ROS list; target 1-for-1 asks across positions, then packages; ROS top-100 is 'gross' (anyone projecting ~9 pts is top 100).
+- Mike's start/sit decisions: when two same-team players compete, prefer known workload (Braelon Allen over Rhamondre) and higher implied team totals; in full PPR lean volume (Bernard over Mason), in half/standard lean TD (Mason).
