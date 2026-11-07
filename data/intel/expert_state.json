@@ -923,6 +923,34 @@
    "published": "2026-11-05",
    "source": "fantasy-footballers",
    "processed": "2026-11-06"
+  },
+  "oR3gyu4NX4I": {
+   "video_id": "oR3gyu4NX4I",
+   "title": "My Week 9 Running Backs Rankings and Tiers",
+   "published": "2026-11-06",
+   "source": "sal-vetri",
+   "processed": "2026-11-06"
+  },
+  "hGGQjSt6Ge8": {
+   "video_id": "hGGQjSt6Ge8",
+   "title": "Week 9 Matchups + Maximum Kubes! | Fantasy Football 2026 - Ep. 2010",
+   "published": "2026-11-06",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
+  },
+  "QD9UtqFrLtU": {
+   "video_id": "QD9UtqFrLtU",
+   "title": "Play Kyle Pitts after a DUD?",
+   "published": "2026-11-06",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
+  },
+  "8KumReKAP98": {
+   "video_id": "8KumReKAP98",
+   "title": "Tetairoa McMillan still in the \"Must Start\" category?",
+   "published": "2026-11-06",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-06"
   }
  },
  "feed_health": {
@@ -930,15 +958,15 @@
    "consecutive_failures": 0,
    "last_success": "2026-11-06",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 3
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
    "last_success": "2026-11-06",
    "last_failure": "2026-09-16",
-   "via": "rss",
-   "rss_failures": 0
+   "via": "innertube",
+   "rss_failures": 3
   }
  }
 }
