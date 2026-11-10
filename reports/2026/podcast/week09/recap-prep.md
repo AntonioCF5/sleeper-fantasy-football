@@ -1,6 +1,6 @@
 # Recap del podcast — Semana 9, 2026
 
-*Generado lun 9 nov, 9:45 pm CDMX · 14 partidos terminados · pendientes: BUF @ MIN (lun 9 nov 7:15 pm) (vuelve a correr después)*
+*Generado lun 9 nov, 10:01 pm CDMX · 14 partidos terminados · pendientes: BUF @ MIN (lun 9 nov 7:15 pm) (vuelve a correr después)*
 
 **Nuestro récord de picks** — Semana 9: **2-0** · Temporada: **3-5**
 
@@ -275,60 +275,60 @@ Otras: Zachariah Branch (WR, ATL, fuera); Andrei Iosivas (WR, CIN, injured reser
 | # | Jugador | % ligas | Semana 9 | Uso sem. 9 (antes) | Semana 10: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Aaron Rodgers (PIT) 📈10,272 | 38% | descansó | — | @ CIN (16º que más permite) | 17.3 / — | — | **B** 15-25% |
-| 2 | Drew Lock (SEA) **Cuestionable** | 15% | 12.6 — 19/28, 175 yds, 1 TD, 0 INT | 100% (96%) snaps | @ LV (3º que más permite) | 16.6 / — | hereda el rol de Sam Darnold (fuera, cuádriceps; tenía 90% de los snaps) | **B** 15-25% |
-| 3 | Joe Fagnano (BAL) | 2% | 1.7 — 10/18, 60 yds, 0 TD, 2 INT | 100% (78%) snaps | vs LAC (21º que más permite) | 0 / — | hereda el rol de Lamar Jackson (injured reserve, pulgar; tenía 73% de los snaps) | **B** 15-25% |
-| 4 | Shedeur Sanders (CLE) 📈50,640 | 7% | 22.7 — 19/31, 297 yds, 2 TD, 0 INT · por tierra 10-28 | 100% (4%) snaps | vs HOU (13º que más permite) | 0 / — | hereda el rol de Deshaun Watson (fuera, conmoción; tenía 99% de los snaps) | **B** 15-25% |
-| 5 | J.J. McCarthy (NYG) **Cuestionable** | 21% | 7.3 — 12/19, 127 yds, 0 TD, 0 INT · por tierra 4-22 | 76% (42%) snaps | vs WAS (4º que más permite) | 16.9 / — | — | **C** 1-5% |
-| 6 | Malik Willis (MIA) **Cuestionable** 📈6,643 | 39% | 4.8 — 13/25, 128 yds, 0 TD, 1 INT | 100% (100%) snaps | @ IND (11º que más permite) | 16.8 / — | — | **C** 1-5% |
-| 7 | Geno Smith (NYJ) 📈6,872 | 24% | 7.4 — 18/32, 165 yds, 0 TD, 0 INT | 100% (100%) snaps | vs BUF (23º que más permite) | 16.6 / — | — | **C** 1-5% |
-| 8 | Michael Penix Jr. (ATL) | 26% | 14.5 — 20/31, 162 yds, 1 TD, 1 INT · por tierra 3-50 | 100% (99%) snaps | vs KC (29º que más permite) | 14.9 / — | — | **C** 1-5% |
+| 2 | Drew Lock (SEA) **Cuestionable** | 15% | 12.6 — 19/28, 175 yds, 1 TD, 0 INT | 100% (96%) snaps<br>15% (3%) acarreos | @ LV (3º que más permite) | 16.6 / — | hereda el rol de Sam Darnold (fuera, cuádriceps; tenía 90% de los snaps) | **B** 15-25% |
+| 3 | Joe Fagnano (BAL) | 2% | 1.7 — 10/18, 60 yds, 0 TD, 2 INT | 100% (78%) snaps<br>9% (16%) acarreos | vs LAC (21º que más permite) | 0 / — | hereda el rol de Lamar Jackson (injured reserve, pulgar; tenía 73% de los snaps) | **B** 15-25% |
+| 4 | Shedeur Sanders (CLE) 📈50,640 | 7% | 22.7 — 19/31, 297 yds, 2 TD, 0 INT · por tierra 10-28 | 100% (4%) snaps<br>29% (0%) acarreos | vs HOU (13º que más permite) | 0 / — | hereda el rol de Deshaun Watson (fuera, conmoción; tenía 99% de los snaps) | **B** 15-25% |
+| 5 | J.J. McCarthy (NYG) **Cuestionable** | 21% | 7.3 — 12/19, 127 yds, 0 TD, 0 INT · por tierra 4-22 | 76% (42%) snaps<br>13% (6%) acarreos | vs WAS (4º que más permite) | 16.9 / — | — | **C** 1-5% |
+| 6 | Malik Willis (MIA) **Cuestionable** 📈6,643 | 39% | 4.8 — 13/25, 128 yds, 0 TD, 1 INT | 100% (100%) snaps<br>10% (19%) acarreos | @ IND (11º que más permite) | 16.8 / — | — | **C** 1-5% |
+| 7 | Geno Smith (NYJ) 📈6,872 | 24% | 7.4 — 18/32, 165 yds, 0 TD, 0 INT | 100% (100%) snaps<br>4% (11%) acarreos | vs BUF (23º que más permite) | 16.6 / — | — | **C** 1-5% |
+| 8 | Michael Penix Jr. (ATL) | 26% | 14.5 — 20/31, 162 yds, 1 TD, 1 INT · por tierra 3-50 | 100% (99%) snaps<br>12% (10%) acarreos | vs KC (29º que más permite) | 14.9 / — | — | **C** 1-5% |
 
 ### Corredores
 
 | # | Jugador | % ligas | Semana 9 | Uso sem. 9 (antes) | Semana 10: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Devin Singletary (NYG) 📈36,000 | 67% (libre en 33%) | 5.9 — tierra 21-31 · recepción 2/3, 8 yds | 88% (25%) backfield | vs WAS (24º que más permite) | 9.9 / 17.2 | hereda el rol de Cam Skattebo (fuera, isquiotibial; tenía 57% de los toques del backfield); uso al alza: 88% de los toques del backfield (antes 25%); la proyección de Sleeper (9.9) todavía no refleja el uso (17.2) | **A** 30-60% |
-| 2 | Kaleb Johnson (GB) | 3% | 12.8 — tierra 14-68, 1 TD | 50% (27%) backfield | vs MIN (31º que más permite) | 6.9 / 8.5 | hereda el rol de Josh Jacobs (fuera, dedo; tenía 77% de los toques del backfield); uso al alza: 50% de los toques del backfield (antes 27%); ojo: su partido se decidió por 18 — confirmar que no fue uso de paliza | **A** 30-60% |
-| 3 | Zach Charbonnet (SEA) 📈6,192 | 76% (libre en 24%) | 9.6 — tierra 16-77 · recepción 1/2, 9 yds | 57% (41%) backfield | @ LV (3º que más permite) | 10.3 / 10.4 | uso al alza: 57% de los toques del backfield (antes 41%) | **B** 15-25% |
-| 4 | Austin Ekeler (WAS) | 8% | 5.4 — tierra 8-16 · recepción 2/3, 18 yds | 53% (22%) backfield | @ NYG (27º que más permite) | 8.1 / 9.6 | uso al alza: 53% de los toques del backfield (antes 22%) | **C** 1-5% |
-| 5 | Justice Hill (BAL) 📈55,170 | 10% | 18.2 — tierra 9-85, 1 TD · recepción 3/3, 7 yds | 41% (19%) backfield | vs LAC (12º que más permite) | 7.2 / 9.5 | uso al alza: 41% de los toques del backfield (antes 19%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza | **C** 1-5% |
-| 6 | Chris Rodriguez Jr. (JAX) 📈21,798 | 38% | 11.2 — tierra 10-19, 1 TD · recepción 2/2, 13 yds | 39% (24%) backfield | @ TEN (14º que más permite) | 6.3 / 9.5 | uso al alza: 39% de los toques del backfield (antes 24%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza; la proyección de Sleeper (6.3) todavía no refleja el uso (9.5) | **C** 1-5% |
-| 7 | Audric Estime (NO) 📈217,407 | 9% | 14.7 — tierra 15-72, 1 TD · recepción 1/1, 5 yds | 62% (—) backfield | vs CAR (2º que más permite) | 2.5 / 13.0 | la proyección de Sleeper (2.5) todavía no refleja el uso (13.0) | **C** 1-5% |
-| 8 | Samaje Perine (CIN) | 18% | 4.3 — tierra 11-43 | 48% (24%) backfield | vs PIT (21º que más permite) | 6.5 / 8.8 | uso al alza: 48% de los toques del backfield (antes 24%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza | **C** 1-5% |
-| 9 | Dylan Sampson (CLE) 📈13,005 | 35% | 7.8 — tierra 8-21 · recepción 3/6, 27 yds | 41% (34%) backfield | vs HOU (13º que más permite) | 7.3 / 7.8 | — | **C** 1-5% |
-| 10 | Kaelon Black (SF) 📈8,610 | 42% | 7.0 — tierra 11-70 | 32% (33%) backfield | @ DAL (4º que más permite) | 5.5 / 8.5 | la proyección de Sleeper (5.5) todavía no refleja el uso (8.5) | **C** 1-5% |
-| 11 | Corey Kiner (NE) 📈421,890 | 7% | 11.5 — tierra 8-55, 1 TD | 44% (20%) backfield | @ DET (29º que más permite) | 5.0 / 9.1 | uso al alza: 44% de los toques del backfield (antes 20%); ojo: su partido se decidió por 18 — confirmar que no fue uso de paliza; la proyección de Sleeper (5.0) todavía no refleja el uso (9.1) | **C** 1-5% |
-| 12 | Emmett Johnson (KC) 📈18,243 | 44% | 9.4 — tierra 6-34, 1 TD | 19% (17%) backfield | @ ATL (7º que más permite) | 6.8 / 6.3 | — | **C** 1-5% |
+| 1 | Devin Singletary (NYG) 📈36,000 | 67% (libre en 33%) | 5.9 — tierra 21-31 · recepción 2/3, 8 yds | 93% (33%) snaps<br>88% (25%) backfield<br>68% (16%) acarreos<br>11% (7%) targets | vs WAS (24º que más permite) | 9.9 / 17.2 | hereda el rol de Cam Skattebo (fuera, isquiotibial; tenía 57% de los toques del backfield); uso al alza: 88% de los toques del backfield (antes 25%); la proyección de Sleeper (9.9) todavía no refleja el uso (17.2) | **A** 30-60% |
+| 2 | Kaleb Johnson (GB) | 3% | 12.8 — tierra 14-68, 1 TD | 39% (22%) snaps<br>50% (27%) backfield<br>44% (27%) acarreos<br>0% (2%) targets | vs MIN (31º que más permite) | 6.9 / 8.5 | hereda el rol de Josh Jacobs (fuera, dedo; tenía 77% de los toques del backfield); uso al alza: 50% de los toques del backfield (antes 27%); ojo: su partido se decidió por 18 — confirmar que no fue uso de paliza | **A** 30-60% |
+| 3 | Zach Charbonnet (SEA) 📈6,192 | 76% (libre en 24%) | 9.6 — tierra 16-77 · recepción 1/2, 9 yds | 57% (37%) snaps<br>57% (41%) backfield<br>48% (32%) acarreos<br>7% (12%) targets | @ LV (3º que más permite) | 10.3 / 10.4 | uso al alza: 57% de los toques del backfield (antes 41%) | **B** 15-25% |
+| 4 | Austin Ekeler (WAS) | 8% | 5.4 — tierra 8-16 · recepción 2/3, 18 yds | 45% (20%) snaps<br>53% (22%) backfield<br>42% (17%) acarreos<br>9% (4%) targets | @ NYG (27º que más permite) | 8.1 / 9.6 | uso al alza: 53% de los toques del backfield (antes 22%) | **C** 1-5% |
+| 5 | Justice Hill (BAL) 📈55,170 | 10% | 18.2 — tierra 9-85, 1 TD · recepción 3/3, 7 yds | 52% (43%) snaps<br>41% (19%) backfield<br>26% (10%) acarreos<br>19% (11%) targets | vs LAC (12º que más permite) | 7.2 / 9.5 | uso al alza: 41% de los toques del backfield (antes 19%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 6 | Chris Rodriguez Jr. (JAX) 📈21,798 | 38% | 11.2 — tierra 10-19, 1 TD · recepción 2/2, 13 yds | 45% (24%) snaps<br>39% (24%) backfield<br>33% (23%) acarreos<br>8% (2%) targets | @ TEN (14º que más permite) | 6.3 / 9.5 | uso al alza: 39% de los toques del backfield (antes 24%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza; la proyección de Sleeper (6.3) todavía no refleja el uso (9.5) | **C** 1-5% |
+| 7 | Audric Estime (NO) 📈217,407 | 9% | 14.7 — tierra 15-72, 1 TD · recepción 1/1, 5 yds | 47% (—) snaps<br>62% (—) backfield<br>47% (—) acarreos<br>3% (—) targets | vs CAR (2º que más permite) | 2.5 / 13.0 | la proyección de Sleeper (2.5) todavía no refleja el uso (13.0) | **C** 1-5% |
+| 8 | Samaje Perine (CIN) | 18% | 4.3 — tierra 11-43 | 40% (35%) snaps<br>48% (24%) backfield<br>46% (23%) acarreos<br>0% (4%) targets | vs PIT (21º que más permite) | 6.5 / 8.8 | uso al alza: 48% de los toques del backfield (antes 24%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza | **C** 1-5% |
+| 9 | Dylan Sampson (CLE) 📈13,005 | 35% | 7.8 — tierra 8-21 · recepción 3/6, 27 yds | 64% (51%) snaps<br>41% (34%) backfield<br>24% (16%) acarreos<br>21% (13%) targets | vs HOU (13º que más permite) | 7.3 / 7.8 | — | **C** 1-5% |
+| 10 | Kaelon Black (SF) 📈8,610 | 42% | 7.0 — tierra 11-70 | 25% (30%) snaps<br>32% (33%) backfield<br>26% (30%) acarreos<br>0% (3%) targets | @ DAL (4º que más permite) | 5.5 / 8.5 | la proyección de Sleeper (5.5) todavía no refleja el uso (8.5) | **C** 1-5% |
+| 11 | Corey Kiner (NE) 📈421,890 | 7% | 11.5 — tierra 8-55, 1 TD | 17% (13%) snaps<br>44% (20%) backfield<br>50% (18%) acarreos<br>0% (1%) targets | @ DET (29º que más permite) | 5.0 / 9.1 | uso al alza: 44% de los toques del backfield (antes 20%); ojo: su partido se decidió por 18 — confirmar que no fue uso de paliza; la proyección de Sleeper (5.0) todavía no refleja el uso (9.1) | **C** 1-5% |
+| 12 | Emmett Johnson (KC) 📈18,243 | 44% | 9.4 — tierra 6-34, 1 TD | 30% (26%) snaps<br>19% (17%) backfield<br>19% (11%) acarreos<br>0% (7%) targets | @ ATL (7º que más permite) | 6.8 / 6.3 | — | **C** 1-5% |
 
 ### Receptores
 
 | # | Jugador | % ligas | Semana 9 | Uso sem. 9 (antes) | Semana 10: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Omar Cooper Jr. (NYJ) 📈37,936 | 79% (libre en 21%) | 13.8 — 8/11, 58 yds | 37% (12%) targets | vs BUF (13º que más permite) | 10.1 / 18.2 | hereda el rol de Garrett Wilson (fuera, conmoción; tenía 28% de los targets); uso al alza: 37% de los targets (antes 12%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza; la proyección de Sleeper (10.1) todavía no refleja el uso (18.2) | **B** 15-25% |
-| 2 | Caleb Douglas (MIA) 📈66,376 | 50% | 13.0 — 6/8, 70 yds | 38% (19%) targets | @ IND (23º que más permite) | 8.0 / 16.7 | uso al alza: 38% de los targets (antes 19%); la proyección de Sleeper (8.0) todavía no refleja el uso (16.7) | **B** 15-25% |
-| 3 | DeMario Douglas (NE) | 44% | 15.2 — 5/9, 102 yds | 25% (16%) targets | @ DET (7º que más permite) | 7.9 / 12.7 | hereda el rol de A.J. Brown (fuera, rodilla; tenía 22% de los targets); la proyección de Sleeper (7.9) todavía no refleja el uso (12.7) | **B** 15-25% |
-| 4 | Reggie Virgil (ARI) | 0% | 3.5 — 1/4, 25 yds | 14% (4%) targets | vs LAR (27º que más permite) | 7.2 / 9.1 | hereda el rol de Michael Wilson (fuera, cuello; tenía 26% de los targets) | **B** 15-25% |
-| 5 | Makai Lemon (PHI) 📈8,140 | 62% (libre en 38%) | 12.1 — 6/9, 61 yds | 27% (18%) targets | descansa | 0 / 15.0 | hereda el rol de DeVonta Smith (fuera, isquiotibial; tenía 33% de los targets); la proyección de Sleeper (0.0) todavía no refleja el uso (15.0) | **B** 15-25% |
-| 6 | Tutu Atwell (LAR) 📈74,963 | 0% | 3.6 — 2/5, 16 yds | 12% (4%) targets | @ ARI (15º que más permite) | 5.8 / 7.9 | hereda el rol de Puka Nacua (dudoso, rodilla; tenía 34% de los targets) | **B** 15-25% |
-| 7 | Courtland Sutton (DEN) 📈25,704 | 50% (libre en 50%) | 15.5 — 5/9, 45 yds, 1 TD | 26% (17%) targets | descansa | 0 / 13.1 | hereda el rol de Jaylen Waddle (cuestionable, conmoción; tenía 23% de los targets); la proyección de Sleeper (0.0) todavía no refleja el uso (13.1) | **B** 15-25% |
-| 8 | Jordan Watkins (SF) 📈105,748 | 4% | 18.6 — 4/4, 86 yds, 1 TD | 17% (6%) targets | @ DAL (8º que más permite) | 4.3 / 8.1 | hereda el rol de Mike Evans (fuera, aquiles; tenía 25% de los targets); uso al alza: 17% de los targets (antes 6%); ojo: su partido se decidió por 21 — confirmar que no fue uso de paliza; la proyección de Sleeper (4.3) todavía no refleja el uso (8.1) | **B** 15-25% |
-| 9 | Demarcus Robinson (SF) 📈14,022 | 21% | 5.2 — 3/4, 22 yds | 17% (12%) targets | @ DAL (8º que más permite) | 9.5 / 8.1 | — | **C** 1-5% |
-| 10 | Keon Coleman (BUF) 📈22,401 | 43% | 2.6 — 2/5, 6 yds | — | @ NYJ (25º que más permite) | 8.4 / — | — | **C** 1-5% |
-| 11 | Antonio Williams (WAS) | 42% | 5.5 — 3/6, 25 yds | 18% (15%) targets | @ NYG (19º que más permite) | 7.2 / 9.4 | — | **C** 1-5% |
-| 12 | Tank Dell (HOU) 📈913,552 | 26% | 20.5 — 4/9, 105 yds, 1 TD | 24% (4%) targets | @ CLE (22º que más permite) | 2.6 / 14.1 | uso al alza: 24% de los targets (antes 4%); ojo: su partido se decidió por 22 — confirmar que no fue uso de paliza; la proyección de Sleeper (2.6) todavía no refleja el uso (14.1) | **C** 1-5% |
+| 1 | Omar Cooper Jr. (NYJ) 📈37,936 | 79% (libre en 21%) | 13.8 — 8/11, 58 yds | 86% (57%) snaps<br>37% (12%) targets | vs BUF (13º que más permite) | 10.1 / 18.2 | hereda el rol de Garrett Wilson (fuera, conmoción; tenía 28% de los targets); uso al alza: 37% de los targets (antes 12%); ojo: su partido se decidió por 23 — confirmar que no fue uso de paliza; la proyección de Sleeper (10.1) todavía no refleja el uso (18.2) | **B** 15-25% |
+| 2 | Caleb Douglas (MIA) 📈66,376 | 50% | 13.0 — 6/8, 70 yds | 74% (82%) snaps<br>38% (19%) targets | @ IND (23º que más permite) | 8.0 / 16.7 | uso al alza: 38% de los targets (antes 19%); la proyección de Sleeper (8.0) todavía no refleja el uso (16.7) | **B** 15-25% |
+| 3 | DeMario Douglas (NE) | 44% | 15.2 — 5/9, 102 yds | 68% (56%) snaps<br>25% (16%) targets | @ DET (7º que más permite) | 7.9 / 12.7 | hereda el rol de A.J. Brown (fuera, rodilla; tenía 22% de los targets); la proyección de Sleeper (7.9) todavía no refleja el uso (12.7) | **B** 15-25% |
+| 4 | Reggie Virgil (ARI) | 0% | 3.5 — 1/4, 25 yds | 34% (19%) snaps<br>14% (4%) targets | vs LAR (27º que más permite) | 7.2 / 9.1 | hereda el rol de Michael Wilson (fuera, cuello; tenía 26% de los targets) | **B** 15-25% |
+| 5 | Makai Lemon (PHI) 📈8,140 | 62% (libre en 38%) | 12.1 — 6/9, 61 yds | 93% (78%) snaps<br>27% (18%) targets | descansa | 0 / 15.0 | hereda el rol de DeVonta Smith (fuera, isquiotibial; tenía 33% de los targets); la proyección de Sleeper (0.0) todavía no refleja el uso (15.0) | **B** 15-25% |
+| 6 | Tutu Atwell (LAR) 📈74,963 | 0% | 3.6 — 2/5, 16 yds | 47% (31%) snaps<br>12% (4%) targets | @ ARI (15º que más permite) | 5.8 / 7.9 | hereda el rol de Puka Nacua (dudoso, rodilla; tenía 34% de los targets) | **B** 15-25% |
+| 7 | Courtland Sutton (DEN) 📈25,704 | 50% (libre en 50%) | 15.5 — 5/9, 45 yds, 1 TD | 85% (77%) snaps<br>26% (17%) targets | descansa | 0 / 13.1 | hereda el rol de Jaylen Waddle (cuestionable, conmoción; tenía 23% de los targets); la proyección de Sleeper (0.0) todavía no refleja el uso (13.1) | **B** 15-25% |
+| 8 | Jordan Watkins (SF) 📈105,748 | 4% | 18.6 — 4/4, 86 yds, 1 TD | 77% (52%) snaps<br>17% (6%) targets | @ DAL (8º que más permite) | 4.3 / 8.1 | hereda el rol de Mike Evans (fuera, aquiles; tenía 25% de los targets); uso al alza: 17% de los targets (antes 6%); ojo: su partido se decidió por 21 — confirmar que no fue uso de paliza; la proyección de Sleeper (4.3) todavía no refleja el uso (8.1) | **B** 15-25% |
+| 9 | Demarcus Robinson (SF) 📈14,022 | 21% | 5.2 — 3/4, 22 yds | 51% (49%) snaps<br>17% (12%) targets | @ DAL (8º que más permite) | 9.5 / 8.1 | — | **C** 1-5% |
+| 10 | Keon Coleman (BUF) 📈22,401 | 43% | 4.7 — 3/6, 17 yds | — | @ NYJ (25º que más permite) | 8.4 / — | — | **C** 1-5% |
+| 11 | Antonio Williams (WAS) | 42% | 5.5 — 3/6, 25 yds | 84% (58%) snaps<br>18% (15%) targets | @ NYG (19º que más permite) | 7.2 / 9.4 | — | **C** 1-5% |
+| 12 | Tank Dell (HOU) 📈913,552 | 26% | 20.5 — 4/9, 105 yds, 1 TD | 47% (23%) snaps<br>24% (4%) targets | @ CLE (22º que más permite) | 2.6 / 14.1 | uso al alza: 24% de los targets (antes 4%); ojo: su partido se decidió por 22 — confirmar que no fue uso de paliza; la proyección de Sleeper (2.6) todavía no refleja el uso (14.1) | **C** 1-5% |
 
 ### Alas cerradas
 
 | # | Jugador | % ligas | Semana 9 | Uso sem. 9 (antes) | Semana 10: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Darren Waller (CAR) 📈133,803 | 14% | 23.0 — 8/10, 90 yds, 1 TD | 27% (10%) targets | @ NO (7º que más permite) | 8.4 / 17.4 | uso al alza: 27% de los targets (antes 10%); la proyección de Sleeper (8.4) todavía no refleja el uso (17.4) | **B** 15-25% |
+| 1 | Darren Waller (CAR) 📈133,803 | 14% | 23.0 — 8/10, 90 yds, 1 TD | 53% (48%) snaps<br>27% (10%) targets | @ NO (7º que más permite) | 8.4 / 17.4 | uso al alza: 27% de los targets (antes 10%); la proyección de Sleeper (8.4) todavía no refleja el uso (17.4) | **B** 15-25% |
 | 2 | Pat Freiermuth (PIT) | 33% | descansó | — | @ CIN (8º que más permite) | 10.8 / — | — | **B** 15-25% |
-| 3 | Juwan Johnson (NO) 📈5,674 | 50% | 11.4 — 2/2, 34 yds, 1 TD | 6% (14%) targets | vs CAR (16º que más permite) | 10.6 / 9.5 | — | **C** 1-5% |
-| 4 | Chig Okonkwo (WAS) **Cuestionable** | 19% | 11.7 — 6/7, 57 yds | 21% (16%) targets | @ NYG (22º que más permite) | 8.1 / 11.6 | la proyección de Sleeper (8.1) todavía no refleja el uso (11.6) | **C** 1-5% |
-| 5 | Tyler Higbee (LAR) 📈26,901 | 28% | 2.3 — 1/5, 13 yds | 12% (11%) targets | @ ARI (9º que más permite) | 8.7 / 8.3 | — | **C** 1-5% |
-| 6 | Michael Mayer (LV) 📈7,551 | 28% | 4.7 — 3/3, 37 yds | 9% (15%) targets | vs SEA (24º que más permite) | 7.3 / 9.7 | — | **C** 1-5% |
-| 7 | Greg Dulcich (MIA) | 11% | 3.4 — 2/4, 14 yds | 19% (15%) targets | @ IND (13º que más permite) | 7.5 / 8.8 | — | **C** 1-5% |
-| 8 | Mike Gesicki (CIN) 📈8,068 | 49% | 3.1 — 2/2, 11 yds | 7% (9%) targets | vs PIT (20º que más permite) | 10.2 / 6.1 | — | **C** 1-5% |
+| 3 | Juwan Johnson (NO) 📈5,674 | 50% | 11.4 — 2/2, 34 yds, 1 TD | 53% (66%) snaps<br>6% (14%) targets | vs CAR (16º que más permite) | 10.6 / 9.5 | — | **C** 1-5% |
+| 4 | Chig Okonkwo (WAS) **Cuestionable** | 19% | 11.7 — 6/7, 57 yds | 74% (67%) snaps<br>21% (16%) targets | @ NYG (22º que más permite) | 8.1 / 11.6 | la proyección de Sleeper (8.1) todavía no refleja el uso (11.6) | **C** 1-5% |
+| 5 | Tyler Higbee (LAR) 📈26,901 | 28% | 2.3 — 1/5, 13 yds | 80% (62%) snaps<br>12% (11%) targets | @ ARI (9º que más permite) | 8.7 / 8.3 | — | **C** 1-5% |
+| 6 | Michael Mayer (LV) 📈7,551 | 28% | 4.7 — 3/3, 37 yds | 76% (81%) snaps<br>9% (15%) targets | vs SEA (24º que más permite) | 7.3 / 9.7 | — | **C** 1-5% |
+| 7 | Greg Dulcich (MIA) | 11% | 3.4 — 2/4, 14 yds | 65% (68%) snaps<br>19% (15%) targets | @ IND (13º que más permite) | 7.5 / 8.8 | — | **C** 1-5% |
+| 8 | Mike Gesicki (CIN) 📈8,068 | 49% | 3.1 — 2/2, 11 yds | 47% (48%) snaps<br>7% (9%) targets | vs PIT (20º que más permite) | 10.2 / 6.1 | — | **C** 1-5% |
 
 ### Defensivas (streaming)
 

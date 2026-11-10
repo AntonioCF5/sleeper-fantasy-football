@@ -255,7 +255,11 @@ tells the user to re-check news once before accepting.
     la pestaña Recap.
   - Waivers por posición, el primero de cada una:
     - RB: Estime 19%, Kaleb Johnson 17% (31% si Jacobs va a la reserva).
-    - WR: Mumpfield 17%.
+    - WR: Caleb Douglas 15%, Mumpfield 13% (tenía 44% de snaps y 5% de
+      targets: es apuesta por lo que deja Puka).
+    - Kiner bajó a 9% (17% de snaps).
+    - Cada recomendado lleva % de snaps y % de toques (backfield, acarreos,
+      targets), y la tabla de la app los tiene como columnas.
     - TE: Okonkwo 7%.
     - QB: Lock 7%.
     - DST: BAL.

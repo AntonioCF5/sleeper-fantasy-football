@@ -867,6 +867,18 @@ function playerCell(c, extra = "") {
 }
 const INJ_ES = {Out: "Fuera", Doubtful: "Dudoso", Questionable: "Cuestionable", IR: "Reserva", "Injured Reserve": "Reserva", Suspension: "Suspendido", PUP: "PUP"};
 const SHARE_LABEL = {touch: "backfield", tgt: "targets", snap: "snaps"};
+// waiver tables: which usage columns each position shows (recap.json now/pre carry snap, rush, tgt, touch)
+const USE_COLS = {
+  QB: [["snap", "% snaps", "% de las jugadas ofensivas del equipo en las que estuvo en el campo."],
+       ["rush", "% acarreos", "% de los acarreos del equipo que fueron suyos (mariscal que corre)."]],
+  RB: [["snap", "% snaps", "% de las jugadas ofensivas del equipo en las que estuvo en el campo."],
+       ["touch", "% backfield", "Sus acarreos + recepciones sobre los de todos los corredores del equipo."],
+       ["rush", "% acarreos", "% de los acarreos del equipo."],
+       ["tgt", "% targets", "% de los pases del equipo dirigidos a él."]],
+  WR: [["snap", "% snaps", "% de las jugadas ofensivas del equipo en las que estuvo en el campo."],
+       ["tgt", "% targets", "% de los pases del equipo dirigidos a él."]],
+};
+USE_COLS.TE = USE_COLS.WR;
 function swingText(s) {
   return s.notes.map(n => n.k === "drop" ? `jugó solo ${pct(n.now)} de los snaps (antes ${pct(n.pre)})`
     : `<b>${pct(n.now)}</b> de ${n.k === "touch" ? "los toques del backfield" : n.k === "tgt" ? "los targets" : "los snaps"} <span class="faint">(antes ${pct(n.pre)})</span>`).join(", ")
@@ -985,23 +997,23 @@ function tabRecap() {
     const rows = W[pos] || [];
     h += `<div class="card span-all"><h3>${label} <span class="chip">${rows.length}</span></h3>`;
     if (!rows.length) { h += `<div class="empty">Nada por encima del mínimo.</div></div>`; continue; }
-    const k = pos === "RB" ? "touch" : pos === "QB" ? "snap" : "tgt";
     h += `<div class="table-wrap"><table class="pl rank"><thead><tr>${[
       TH("#", "Orden de prioridad: primero el nivel, luego la proyección."),
       TH("Jugador", "Posición, nombre, equipo y estatus; abajo, por qué entra en la lista."),
       TH("% ligas", "% de las ligas redraft de Sleeper donde está en un roster. “Libre en X%” = cuántas ligas lo tienen disponible.", "c"),
       TH(`Semana ${r.week}`, "Puntos PPR y línea de estadística del partido que acaba de jugar."),
-      TH("Uso", "Negritas = su % esta semana; gris = la temporada antes. Medida: snaps (mariscales), toques del backfield (corredores) o targets (receptores y alas cerradas).", "c"),
+      // usage split out (user 2026-11-09): snaps + touch shares, this week (bold) vs the season before (grey)
+      ...USE_COLS[pos].map(([key, lab, tip]) => TH(lab, `${tip} Negritas = esta semana; gris = la temporada antes.`, "c")),
       TH("Rival", "Su rival de la próxima semana y el lugar de 32 de esa defensa en puntos permitidos a su posición (1º = la más blanda).", "c"),
       TH("Proy. Sleeper / uso", "Proyección PPR de la próxima semana: el número grande es el promedio de la de Sleeper y la implícita por su uso de esta semana (abajo, las dos).", "c"),
       TH("Nivel", "A = heredó un backfield de trabajo (30-60% del FAAB). B = rol o proyección de titular (15-25%). C = profundidad (1-5%).", "c"),
     ].join("")}</tr></thead><tbody>`;
     rows.forEach((c, n) => {
-      const use = c.now ? `<b>${pct(c.now[k])}</b> <span class="faint">${pct(c.pre?.[k])}</span><div class="faint" style="font-size:11px">${SHARE_LABEL[k]}</div>` : "—";
+      const use = USE_COLS[pos].map(([key]) => `<td class="c">${c.now && c.now[key] != null ? `<b>${pct(c.now[key])}</b>` : '<span class="faint">—</span>'}${c.pre && c.pre[key] != null ? `<div class="faint" style="font-size:11px">${pct(c.pre[key])}</div>` : ""}</td>`).join("");
       h += `<tr><td class="num">${n + 1}</td><td>${playerCell(c, c.why?.length ? `<div class="why">${esc(c.why.join(" · "))}</div>` : "")}</td>
         <td class="c">${Math.round(c.owned)}%${c.deep ? `<div class="faint" style="font-size:11px">libre en ${100 - Math.round(c.owned)}%</div>` : ""}</td>
         <td>${c.pts_wk != null ? `<b>${fmt1(c.pts_wk)}</b> <span class="faint" style="font-size:12px">${esc(c.line_wk)}</span>` : `<span class="faint">${esc(c.line_wk || "—")}</span>`}</td>
-        <td class="c">${use}</td>
+        ${use}
         <td class="c">${esc(c.opp)}${c.opp_rank ? `<div>${rankChip(c.opp_rank)}</div>` : ""}</td>
         <td class="c"><b>${fmt1(c.est)}</b><div class="faint" style="font-size:11px">${fmt1(c.proj)} / ${fmt1(c.uproj)}</div></td>
         <td class="c"><span class="chip tier ${c.tier === "A" ? "good" : c.tier === "B" ? "accent" : ""}">${c.tier}</span><div class="faint" style="font-size:11px">${c.faab}</div></td></tr>`;

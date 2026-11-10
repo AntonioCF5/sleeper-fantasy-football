@@ -723,8 +723,11 @@ def main():
         out.append(f"| # | Jugador | % ligas | Semana {week} | Uso sem. {week} (antes) | Semana {week + 1}: rival | "
                    "Proy. Sleeper / por uso | Por qué | FAAB |\n|---|---|---|---|---|---|---|---|---|")
         for n, c in enumerate(waivers[pos], 1):
-            k = "touch" if pos == "RB" else "snap" if pos == "QB" else "tgt"
-            use = (f"{pct((c['now'] or {}).get(k))} ({pct((c['pre'] or {}).get(k))}) {'backfield' if k == 'touch' else 'snaps' if k == 'snap' else 'targets'}"
+            # snaps + touch shares (user 2026-11-09), this week (season before)
+            keys = {"QB": [("snap", "snaps"), ("rush", "acarreos")],
+                    "RB": [("snap", "snaps"), ("touch", "backfield"), ("rush", "acarreos"), ("tgt", "targets")]
+                    }.get(pos, [("snap", "snaps"), ("tgt", "targets")])
+            use = ("<br>".join(f"{pct((c['now'] or {}).get(k))} ({pct((c['pre'] or {}).get(k))}) {lab}" for k, lab in keys)
                    if c["now"] else "—")
             nxt_txt = f"{c['opp']}" + (f" ({pp.ordinal(c['opp_rank'])} que más permite)" if c["opp_rank"] else "")
             pj = f"{c['proj'] if c['proj'] is not None else '—'} / {c['uproj'] if c['uproj'] is not None else '—'}"

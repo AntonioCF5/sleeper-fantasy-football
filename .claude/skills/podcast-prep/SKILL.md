@@ -851,8 +851,22 @@ Waiver rules (the same discipline as the weekly report):
 - **Priority goes by position, and inside each position by rest-of-season
   role.** A one-week boom is not a role. Lead with the add that changes
   rosters: an inherited workhorse role, then a starting job, then streamers.
-- Back every call with its usage number: "81% of the backfield touches,
-  up from 22%", not "he looked good".
+- Back every call with its usage numbers (user 2026-11-09: snaps and touch
+  shares on every recommended waiver).
+  - Every name in the spoken list carries the week's numbers, with the
+    season before in parentheses:
+    - RB: snaps, backfield, carries and targets.
+    - WR/TE: snaps and targets.
+    - QB: snaps and the share of team carries.
+  - The app's waiver tables show the same split as columns (`USE_COLS`), and
+    the sheet stacks them in one cell. The data comes from `recap.json`
+    `now`/`pre`: `snap`, `touch`, `rush`, `tgt`.
+  - **Snaps can overturn a backfield share.** Wk 9: Kiner had 44% of the
+    backfield on 17% of the snaps, all garbage time, and moved from #3 to #4
+    with a lower bid. Mumpfield (44% snaps, 5% targets) is a bet on Puka's
+    vacated 34%, not a proven role. Say which one it is.
+  - A name outside the script's pool (wk 9: Mumpfield, Brissett) gets its
+    numbers from the week's Sleeper stat rows before it goes on the list.
 - Give the FAAB % from the tier, after research has adjusted it. Bids are
   always odd numbers.
 - Keep it league-agnostic. Never mention his rosters or his leagues on air.

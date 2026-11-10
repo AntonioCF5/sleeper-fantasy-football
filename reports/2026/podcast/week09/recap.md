@@ -92,7 +92,7 @@
 - **Estatus ganado: Jonah Coleman** (81% del backfield, 77% de los snaps) es el RB1 de Denver. **CeeDee** (47% de los targets sin Pickens) y **Chase** (43%) son volumen de élite. **Ollie Gordon** tuvo el 85% del backfield de Miami.
 - **Estatus que el marcador infla:**
   - **Justice Hill:** 85 de sus yardas salieron de una carrera de 65 en una paliza.
-  - **Corey Kiner:** siete de sus ocho acarreos fueron en tiempo de basura.
+  - **Corey Kiner:** siete de sus ocho acarreos fueron en tiempo de basura, y jugó solo el 17% de los snaps.
   - **Tank Dell:** el mejor del equipo en targets, pero jugó solo el 47% de los snaps.
 - **Vender: Devin Singletary.** Tuvo el 88% del backfield, pero corrió 21 veces para 31 yardas (1.5 por acarreo) y Skattebo regresa el jueves.
 - **Vigilar a los mariscales:**
@@ -102,39 +102,41 @@
 
 ## Waivers por posición
 
+*Uso de la semana 9, con la temporada antes entre paréntesis: % de snaps, % del backfield (acarreos + recepciones de los corredores), % de los acarreos y % de los targets del equipo.*
+
 **Corredores**
-1. **Audric Estime (NO, 9% en ligas):** tuvo 14 acarreos en tiempo regular contra 3 de Kamara, el 62% del backfield en su primer partido. Cortaron a Kendre Miller y la semana 10 enfrenta a Carolina, la segunda defensa que más permite a corredores. Sleeper lo proyecta en 2.5; su uso implica 13. — **19%**
-2. **Kaleb Johnson (GB, 3%):** titular mientras Jacobs se opera, de una a tres semanas. Tuvo el 50% del backfield y 68 yardas con touchdown, pero enfrenta a Minnesota, de las que menos permiten. — **17%**, y súbele a **31%** si mandan a Jacobs a la reserva.
-3. **Corey Kiner (NE, 7%):** encabeza el backfield con Stevenson y Henderson fuera, 44% del backfield. Pero siete de sus ocho acarreos llegaron en tiempo de basura y enfrenta a Detroit. — **13%**
-4. **Zach Charbonnet (SEA, libre en 24%):** su rol crece en su segundo partido de regreso: 17 toques contra 13 de Price, 57% del backfield. Enfrenta a Las Vegas. — **11%**
-5. **Dylan Sampson (CLE, 35%):** el corredor de pases de Cleveland: 6 targets, y 12 recepciones en tres partidos desde que volvió de la reserva. En PPR suma. — **5%**
-6. **Chris Rodriguez Jr. (JAX, 38%):** el suplente de Tuten, que jugó lastimado y se repartieron los toques 12 a 10. — **3%**
-7. **Emmett Johnson (KC, 44%) y Kaelon Black (SF, 42%):** suplentes directos de Walker y McCaffrey. Son para guardar, no para arrancar. — **3%**
-8. **Austin Ekeler (WSH, 8%):** reparto casi 50/50 con Rachaad White. — **1%**
+1. **Audric Estime (NO, 9% en ligas):** 47% de snaps, **62% del backfield**, 47% de los acarreos y 3% de los targets en su primer partido. Fueron 14 acarreos en tiempo regular contra 3 de Kamara, y cortaron a Kendre Miller. Enfrenta a Carolina, la segunda defensa que más permite a corredores. — **19%**
+2. **Kaleb Johnson (GB, 3%):** 39% de snaps (22%), **50% del backfield** (27%), 44% de los acarreos y 0% de los targets. Es el titular mientras Jacobs se opera, de una a tres semanas, pero enfrenta a Minnesota, de las que menos permiten. — **17%**, y súbele a **31%** si mandan a Jacobs a la reserva.
+3. **Zach Charbonnet (SEA, libre en 24%):** 57% de snaps (37%), **57% del backfield** (41%), 48% de los acarreos y 7% de los targets. Su rol crece en su segundo partido de regreso; enfrenta a Las Vegas. — **11%**
+4. **Corey Kiner (NE, 7%):** **solo 17% de snaps**, aunque con el 44% del backfield y el 50% de los acarreos, casi todos en tiempo de basura. Encabeza el backfield mientras no estén Stevenson ni Henderson, pero ese número de snaps no es de titular, y enfrenta a Detroit. — **9%**
+5. **Dylan Sampson (CLE, 35%):** 64% de snaps (51%), 41% del backfield (34%), 24% de los acarreos y **21% de los targets** (13%). Es el corredor de pases de Cleveland y en PPR suma. — **5%**
+6. **Chris Rodriguez Jr. (JAX, 38%):** 45% de snaps (24%), 39% del backfield (24%), 33% de los acarreos y 8% de los targets. Es el suplente de Tuten, que jugó lastimado. — **3%**
+7. **Emmett Johnson (KC, 44%) y Kaelon Black (SF, 42%):** 30% y 25% de snaps. Son los suplentes directos de Walker y McCaffrey: para guardar, no para arrancar. — **3%**
+8. **Austin Ekeler (WSH, 8%):** 45% de snaps (20%), 53% del backfield (22%), 42% de los acarreos y 9% de los targets, en un reparto casi 50/50 con Rachaad White. — **1%**
 
 **Receptores**
-1. **Konata Mumpfield (LAR, 7%):** Puka se va mínimo cuatro partidos y Adams también está en la reserva. Queda un 34% de targets por repartir en una ofensiva de Stafford. — **17%**
-2. **Caleb Douglas (MIA, 50%):** tuvo el 38% de los targets (antes 19%), con 8 targets y 6 recepciones, máximos de su carrera. La semana 10 enfrenta a Indianápolis, 23º en lo que permite a receptores. — **15%**
-3. **Tank Dell (HOU, 26%):** el más agregado de la semana (913 mil). Tuvo 24% de los targets, pero en solo 47% de los snaps; Jaylin Noel está fuera por la temporada, así que el rol de WR2 es suyo. Enfrenta a Cleveland. — **13%**
-4. **DeMario Douglas (NE, 44%):** el target favorito de Maye sin A.J. Brown, que todavía no está confirmado para Alemania. Tuvo el 25% de los targets. — **9%**
-5. **Omar Cooper Jr. (NYJ, libre en 21%):** tuvo el 37% de los targets sin Garrett Wilson. Vale solo mientras Wilson no salga del protocolo. — **7%**
-6. **Jordan Watkins (SF, 4%):** el receptor de la semana 10 con Evans fuera, 17% de los targets; si regresa Deebo, se le acaba el rol. — **5%**
-7. **Reggie Virgil (ARI, 0%):** titular por fuera para el resto del año, pero con un novato de mariscal. — **3%**
-8. **Para guardar (descansan la semana 10): Makai Lemon (PHI, libre en 38%).** Es el WR1 de Filadelfia sin Smith ni Wicks: 27% de los targets. — **5%**
+1. **Caleb Douglas (MIA, 50%):** 74% de snaps, **38% de los targets** (19%): 8 targets y 6 recepciones, máximos de su carrera. Enfrenta a Indianápolis. — **15%**
+2. **Konata Mumpfield (LAR, 7%):** solo 44% de snaps y 5% de los targets esta semana. **La apuesta es lo que deja Puka**: 34% de los targets por repartir sin Puka ni Adams, en una ofensiva de Stafford. Hay que ver en las prácticas si sube a titular para ir a Arizona. — **13%**
+3. **Tank Dell (HOU, 26%):** **24% de los targets** (4%) en solo 47% de snaps (23%), en su segundo partido de regreso. Jaylin Noel está fuera por la temporada, así que el rol de WR2 es suyo cuando le suban los snaps. Enfrenta a Cleveland. — **13%**
+4. **DeMario Douglas (NE, 44%):** 68% de snaps (56%), **25% de los targets** (16%). Es el target favorito de Maye mientras no esté A.J. Brown. — **9%**
+5. **Omar Cooper Jr. (NYJ, libre en 21%):** **86% de snaps** (57%), **37% de los targets** (12%) sin Garrett Wilson. Vale mientras Wilson siga en el protocolo. — **7%**
+6. **Jordan Watkins (SF, 4%):** 77% de snaps (52%), 17% de los targets (6%). Es el receptor de la semana 10 con Evans fuera; si regresa Deebo, se le acaba el rol. — **5%**
+7. **Reggie Virgil (ARI, 0%):** 34% de snaps (19%), 14% de los targets (4%). Sube a titular por fuera sin Michael Wilson, pero con un novato de mariscal. — **3%**
+8. **Para guardar (descansan la semana 10): Makai Lemon (PHI, libre en 38%).** **93% de snaps** (78%) y 27% de los targets (18%): es el WR1 de Filadelfia sin Smith ni Wicks. — **5%**
 
 **Alas cerradas** (posición flaca: solo dos de verdad)
-1. **Chig Okonkwo (WSH, 19%):** 21% de los targets y 74% de los snaps. Juega el jueves contra los Gigantes; trae la cadera limitada, así que hay que checar el reporte del martes. — **7%**
-2. **Pat Freiermuth (PIT, 33%):** regresa de su semana de descanso contra Cincinnati, la octava que más permite a alas cerradas. — **5%**
-3. **Greg Dulcich (MIA, 11%):** lleva cuatro partidos seguidos con 4 targets o más; tuvo 19% de los targets. — **3%**
-4. **Tyler Higbee (LAR, 28%):** tiene el rol sin Puka ni Ferguson, pero lleva cuatro partidos seguidos con menos de 25 yardas. — **1%**
-5. **Juwan Johnson (NO, 50%):** solo para streaming; su rol se achica (6% de los targets). — **1%**
+1. **Chig Okonkwo (WSH, 19%):** 74% de snaps (67%), **21% de los targets** (16%). Juega el jueves contra los Gigantes con la cadera limitada, así que hay que checar el reporte. — **7%**
+2. **Pat Freiermuth (PIT, 33%):** descansó, pero jugaba el 65% de los snaps con 13% de los targets. Regresa contra Cincinnati, la octava que más permite a alas cerradas. — **5%**
+3. **Greg Dulcich (MIA, 11%):** 65% de snaps (68%), 19% de los targets (15%), cuatro partidos seguidos con 4 targets o más. — **3%**
+4. **Tyler Higbee (LAR, 28%):** **80% de snaps** (62%), pero solo 12% de los targets, y lleva cuatro partidos seguidos con menos de 25 yardas. — **1%**
+5. **Juwan Johnson (NO, 50%):** 53% de snaps (66%), 6% de los targets (14%); su rol se achica. Es solo para streaming. — **1%**
 
 **Mariscales**
-1. **Drew Lock (SEA, 15%):** arranca otra vez. Darnold no vuelve hasta la semana 12, y Las Vegas es la tercera defensa que más permite a mariscales. — **7%**
-2. **J.J. McCarthy (NYG, 21%):** trae un golpe en la cadera pero se espera que juegue el jueves contra Washington, la cuarta que más permite. — **5%**
-3. **Aaron Rodgers (PIT, 38%):** regresa de su semana de descanso para ir a Cincinnati. — **3%**
-4. **Jacoby Brissett (BAL, 20%):** el nuevo titular de Baltimore, contra los Cargadores el lunes. Es streaming, y sobre todo una buena noticia para Flowers. — **3%**
-5. **Geno Smith (NYJ, 24%):** titular, pero sin Garrett Wilson y contra Búfalo. Es solo para ligas profundas. — **1%**
+1. **Drew Lock (SEA, 15%):** 100% de snaps y 15% de los acarreos del equipo. Arranca otra vez, Darnold no vuelve hasta la semana 12, y Las Vegas es la tercera defensa que más permite a mariscales. — **7%**
+2. **J.J. McCarthy (NYG, 21%):** 76% de snaps (salió con la cadera) y 13% de los acarreos. Se espera que juegue el jueves contra Washington, la cuarta que más permite. — **5%**
+3. **Aaron Rodgers (PIT, 38%):** descansó; jugaba el 98% de los snaps. Va a Cincinnati. — **3%**
+4. **Jacoby Brissett (BAL, 20%):** jugó el 94% de los snaps en Arizona y tenía el 14% de los acarreos. Es el titular nuevo de Baltimore contra los Cargadores, y sobre todo buena noticia para Flowers. — **3%**
+5. **Geno Smith (NYJ, 24%):** 100% de snaps, pero sin Garrett Wilson y contra Búfalo. Solo para ligas profundas. — **1%**
 
 **Defensivas** (0-1%, son para streaming)
 1. **Baltimore (37%):** contra los Cargadores, que recibieron ocho capturas este domingo.
