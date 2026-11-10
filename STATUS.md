@@ -248,6 +248,22 @@ tells the user to re-check news once before accepting.
   0c8536a2-fd05-4a45-9067-a71ff09cb2fd). Es privada hasta que el user la
   comparta desde claude.ai. Se reconstruye con `scripts/podcast_static.py` y
   se republica con el mismo slug.
+  **Recap semana 9 (lun 9 nov, antes del MNF):**
+  - Picks 2-0 (CIN -3, TB +6); las Bajas BUF/MIN 45.5 siguen pendientes.
+    Temporada 3-5. Survivor JAX ganó.
+  - `recap.md` lleva un "El dato" por partido, que se ve en cada tarjeta de
+    la pestaña Recap.
+  - Waivers por posición, el primero de cada una:
+    - RB: Estime 19%, Kaleb Johnson 17% (31% si Jacobs va a la reserva).
+    - WR: Mumpfield 17%.
+    - TE: Okonkwo 7%.
+    - QB: Lock 7%.
+    - DST: BAL.
+  - Los que NO: Singletary, Shedeur, Waller, Justice Hill, Sutton y Perine.
+  - **Re-correr `podcast_recap.py 9` después del MNF** para calificar las
+    bajas y el partido de BUF@MIN.
+  - **La semana 10 todavía no tiene guion:** falta `podcast_prep.py 10`, la
+    investigación y el rundown.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

@@ -76,7 +76,8 @@ def load_recap(season, week):
             recap = json.loads(f.read_text())
             recap.pop("md", None)
             spoken = week_dir(season, w) / "recap.md"
-            _, recap["spoken"] = parse_rundown(spoken)
+            # "### AWAY @ HOME" blocks under "## Partido por partido" carry the per-game talking point
+            recap["spoken_games"], recap["spoken"] = parse_rundown(spoken)
             return recap
     return None
 

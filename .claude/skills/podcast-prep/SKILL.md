@@ -833,6 +833,7 @@ a card at the top of the Recap tab, so keep these headings:
 ## Contra la línea: favorites/home/overs, the biggest market miss and WHY
 ## Lesiones: each one → timeline → who replaces him → fantasy verdict
 ## Comprar, vender y vigilar: buy low / sell / earned status / status the box score oversells / watch list (see below)
+## Partido por partido: one "### AWAY @ HOME" per game with "- **El dato:**" — the single most important fact of that game (user 2026-11-09), shown on the game's card in the Recap tab
 ## Waivers por posición: RB / WR / TE / QB / DST, each a RANKED list of 5+ as "1. Name (team, % in leagues): why — FAAB %"
 ## Los que NO: the trap adds (a trending name whose role isn't real), with the stat that says so
 ```
@@ -902,6 +903,24 @@ English):
 ### 8.4 Close out
 
 Commit `recap-prep.md`, `recap.json`, `recap.md` and `podcast_picks.json`
-together. In chat, give the record, the 3 injuries that matter most, and the
+together.
+
+**Un dato por partido** (user 2026-11-09). Every game gets one `El dato`
+line, verified against the recap sheet. Pick the fact a listener remembers
+and that changes a fantasy or betting read: a target share, a backfield
+takeover, a turnover avalanche, a QB change, or the biggest miss against the
+total. A box-score curiosity doesn't qualify. The MNF game gets a "se juega
+esta noche" line until it's final.
+- `podcast_app.load_recap` returns the `### AWAY @ HOME` blocks as
+  `spoken_games`.
+- The Recap tab shows each `El dato` as a callout at the top of that game's
+  card.
+- The `##` sections stay as the cards above.
+
+**The waiver ruling lives in recap.md.** The mechanical tiers in the
+waiver tables below it are only the starting point. Wk 9 example: the
+script put Singletary at A, and research dropped him to "Los que NO",
+because Skattebo returns Thursday and Singletary ran 1.5 yds/carry. When
+they disagree, say so to the user. In chat, give the record, the 3 injuries that matter most, and the
 top waiver per position with its FAAB.
 

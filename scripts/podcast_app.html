@@ -1043,6 +1043,7 @@ function tabRecap() {
                ["Capturas recibidas", t => b[t]?.sacks ?? "—"], ["Zona roja", t => b[t]?.rz ?? "—"], ["Posesión", t => b[t]?.top ?? "—"]];
     h += `<div class="card"><h3 style="text-transform:none;letter-spacing:0;font-size:15px;color:var(--text)">${logo(a)} ${scoreHtml({...x, away: a, home: hm})} ${logo(hm)}
         ${here ? `<button class="btn" style="margin-left:auto" data-go="${g.game}" data-tab="resumen">Previa →</button>` : ""}</h3>
+      ${(() => { const d = block(r.spoken_games?.[g.game]?.md, "El dato"); return d ? `<div class="callout" style="margin:0 0 10px"><div class="md compact">${md(d)}</div></div>` : ""; })()}
       <div class="summary-line" style="margin:0 0 10px">${x.line_txt ? `<span class="chip">Cierre ${esc(x.line_txt)} · total ${x.total}</span>` : ""}
         ${x.ats ? `<span class="chip accent">${x.ats === "push" ? "Empate vs línea" : `${x.ats} cubrió por ${x.cover_by}`}</span>` : ""}
         ${x.ou ? `<span class="chip ${x.ou === "altas" ? "good" : "bad"}">${x.ou}</span>` : ""}

@@ -64,7 +64,8 @@
         "side": "CIN",
         "line": -3.0,
         "conf": 1,
-        "why": "Neutral site (Madrid); FPI CIN 77% vs market 58%; Penix 4 INT, ATL 16 giveaways vs CIN 4th in sacks"
+        "why": "Neutral site (Madrid); FPI CIN 77% vs market 58%; Penix 4 INT, ATL 16 giveaways vs CIN 4th in sacks",
+        "result": "W"
       },
       {
         "game": "TB@CHI",
@@ -72,7 +73,8 @@
         "side": "TB",
         "line": 6.0,
         "conf": 1,
-        "why": "Downgraded from ★★ +5.5 (Mon) once MNF dropped the 🚩: TB 1-5 in one-score games, sharp money on TB (25% of $ on CHI), CHI short week minus Street/Jarrett"
+        "why": "Downgraded from ★★ +5.5 (Mon) once MNF dropped the 🚩: TB 1-5 in one-score games, sharp money on TB (25% of $ on CHI), CHI short week minus Street/Jarrett",
+        "result": "W"
       },
       {
         "game": "BUF@MIN",
