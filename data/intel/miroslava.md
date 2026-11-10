@@ -4,7 +4,7 @@
 Dinastía. ÚNICA fuente de verdad: la tarea programada `roast-semanal-gallamijos`
 lee este archivo; todo apodo, chiste, momento o regla nueva se agrega AQUÍ en el
 mismo commit en que aparezca (regla de coherencia). Última actualización:
-2026-10-27.*
+2026-11-10.*
 
 ---
 
@@ -318,6 +318,8 @@ comparar el borrador contra la edición anterior.
 | 2026-10-27 | Dinastía J7: CARTA DE UN LECTOR como apertura ("El Invicto de Aquiles Brinco… Pregúntale por el talón" + cierre "un beso en el talón") · *El lobo de Wall Street* "lo administra un pendejo" (Faraón) · *Thriller* "Rorro salió de la tumba y el primero que mordió fue el Mijo" · *Volver al futuro* almanaque "el de la semana pasada" (Gallagher/Carolina) · *El día de la marmota* (Same Old Jets) · "el taxi llegó; el titular, no" · "Ingeniero titulado… la suma no le salió" · "Chingadera redonda" · "de palco" · "El invierno llegó y el trono sigue en su lugar" · "Hasta la sal tiene a quién ganarle" · "Aubrey no muerde; se alinea" | usados — descansar |
 | 2026-11-03 | Gallamijos J8 (versión final tras pase del user): RECETA (Escorpión a la diabla) como apertura · *El imperio contraataca* (Rorro) · *Titanic* "pero ni zarpó" (Bebé/Lamar) · *Gladiador* "¿no os divertís?" · *Náufrago* "un solo Wilson, Garrett" (Gallagher) · *Los juegos del hambre* "pero con waivers" (Termómetro) · "El Monday Night ya es la sala de urgencias" · "Recetó bien y el paciente se murió igual" (Doctor) · Jebus 3 movimientos en 1:29 "El pánico también se alinea" · "El DB invisible rinde" (Charly) · "Que no desempaque" (Downs/Zenitsu) · "El que tiene, sigue teniendo" (Allgeier/Alacrán) · "la lápida" (los 3 de 1-7) | usados — descansar. Cortados y libres: *Matrix* (Cano), "Imagínense si piensa", "Con prisa sale mejor", "Casualidad??" |
 | 2026-11-03 | Dinastía J8 (versión final tras pase del user): PRIMERA PLANA cobrándole el reto a La Dona («¿Qué se sentirá perder?», «me la suda», «Lineup semana 8», «¿quién suda, papacito?») · "el invicto, en el taller" · *Los 10 mandamientos* "el Faraón dejó ir el partido" (Houston en bye) · *Coco* "Recuérdame" + Día de Muertos (Fer) · sobre de los Óscar (Rul Salado) · *Misión Imposible* (Buz) · Apollo Creed (Amarante) · *Taxi Driver* «¿me hablas a mí?» (Gallagher/Dike) · patada de la grulla (Rorro, remontada del lunes) · "conflicto de intereses, su especialidad" (Bebé/Taylor) · "la víbora y sin el Lamar" (Charly) · "la única bandera que ondean es la blanca" (Sin Bandera) · | usados — descansar. Cortados y libres: VAR/talón (apertura), "Cousins: alineado, sentado, alineado", *House of Cards*, "Hasta los muertos se levantan" |
+| 2026-11-10 | Gallamijos J9: AVISO DE PROTECCIÓN CIVIL como apertura (viral de la mochila de emergencia: «agua, linterna, documentos y un pateador» — La Dona con la casilla de K vacía; callback en cierre y firma) · "Imagínense con 12" (Zenitsu, 2 titulares sin jugar) · "Pobre Doctor" (Salado por 0.2) · "la cagó en una sola casilla" (Charly/Higbee) · *Juego de Tronos* "Buz fue a la Boda Roja de su propio equipo" (Allen 13.9 y BUF 23-6 MIN) · *La casa de los famosos* "10 nominados, 3 se salvan" (Termómetro) · *Show me the money* (Frijol/Taylor) · "el MVP depende de una máquina" (Puka) · "el paciente se dio de alta solo" (Mahomes) · "con el lineup perfecto, empataba" (Alacrán 123.2-123.2) · *Better Call Saul* "un tecnicismo, Licenciado" (Cano por 0.2) · "al comisionado el error le sale gratis" (Pythons) · "Ni con DeLorean" (Tommy, le faltaban 0.4) · "Del pulgar de Lamar a la agencia libre en una semana" (Bebé/Shedeur) · "vino de oyente" (Jebus) · "Le tocó el MVP" (Chapo) · "un beso con rodillera" | usados — descansar |
+| 2026-11-10 | Dinastía J9: ACTA DE LA JORNADA como apertura (Fer 0-9, Thanos «soy inevitable», "Da fe, Miroslava") · "cancha doble, derrota doble" (Jets 35-12) · "No contaban con su astucia" (La Dona, $35 por Joe Milton sobre Daniels) · *El club de la pelea* "no hablar de Gallagher" (2 Tylers de Rul) · "No cuentan" (Bebé 36.6 de taxi) · "nadie sienta a Allen" (Dave/Stroud) · *Rocky* "tampoco se levantó" (Eagles 19-11) · "la liga paga por victorias, qué cabrona" (Charly 6º) · *stormtrooper* (Adonai, 7 targets 0 recepciones) · "con el yate no alcanzó" (Faraón) · Einstein "la misma chingadera esperando otro resultado" (Fer) · "Al oso le volvieron a esconder la miel" (Rorro Salado) · "2 plagas y apenas es noviembre" (Faraón) · "más difícil el boleto que el del Vive Latino" · "solo gana cuando se pelea solo" (Sin Bandera 1-1 entre ellos) · "un beso por cada punto" | usados — descansar. La marmota (Same Old Jets) se cortó: el molde ya salió el 10-27 con Fer |
 | 2026-10-20 | Rul Del Toro "hasta los monstruos llenan el cuadro" · "Penix gana en la banca" (Cano, 2 semanas) | Penix en la banca: DESCANSAR (molde agotado tras J6/J7) |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
@@ -326,10 +328,10 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 
 | Última vez | Término | Estado |
 |---|---|---|
-| 2026-10-20 | humanos promedio | libre (ya descansó la edición del 10-27) |
-| 2026-10-06 | corazones | libre (la J5 se reescribió sin él) |
-| 2026-10-27 | mis amores | usado (Dinastía 10-27) — descansar |
-| 2026-10-27 | coaches | usado (Gallamijos 10-27) — descansar |
+| 2026-11-10 | humanos promedio | usado (Gallamijos 11-10) — descansar |
+| 2026-11-10 | corazones | usado (Dinastía 11-10) — descansar |
+| 2026-10-27 | mis amores | libre (ya descansó la edición del 11-03) |
+| 2026-10-27 | coaches | libre (ya descansó la edición del 11-03) |
 | 2026-10-13 | bola de pendejos hermosos | libre (ya descansó la edición del 10-20) |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
 | 2026-10-13 | criaturas | libre (ya descansó la edición del 10-20) |
@@ -480,6 +482,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-10-27 | Dinastía (jornada 7) | "✉️ *CARTA DE UN LECTOR:* «Querida Miroslava: tengo 7 semanas de vida y nunca he perdido… — El Invicto de Aquiles Brinco» / Mi vida: Aquiles también se creía eterno. Pregúntale por el talón. / Buenos días, mis amores." *(usa 'carta de lector' del banco — carta de un EQUIPO, no de una persona)* |
 | 2026-11-03 | Gallamijos (jornada 8) | "🍽️ *RECETA DE LA SEMANA — ESCORPIÓN A LA DIABLA*… / Buenos días, bola de pendejos hermosos." *(usa 'receta de cocina' del banco)* |
 | 2026-11-03 | Dinastía (jornada 8) | "🗞️ *PRIMERA PLANA:* La Dona ya sabe qué se siente perder. / …«¿Qué se sentirá perder?»… «Miroslava me la suda»… ¿Y ahora quién suda, papacito? / Buenos días, criaturas." *(pedido del user: cobrarle el reto del video "Miroslava responde a La Dona"; reemplazó al VAR)* |
+| 2026-11-10 | Gallamijos (jornada 9) | "📢 *AVISO DE PROTECCIÓN CIVIL:* se recomienda a la población tener lista su mochila de emergencia: agua, linterna, documentos y un pateador. / My Son Dave salió el domingo sin pateador. / Buenos días, humanos promedio." *(técnica nueva: aviso oficial; trae el viral de la semana)* |
+| 2026-11-10 | Dinastía (jornada 9) | "📜 *ACTA DE LA JORNADA 9.* Se hace constar que *Same Old Jets* llegó a 0-9. No se encontró irregularidad alguna. Thanos lo diría mejor: «soy inevitable». / Da fe, Miroslava. / Buenos días, corazones." *(usa 'acta' del banco)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -505,6 +509,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-10-27 | Dinastía (jornada 7) | "A La Dona, un beso en el talón, por si acaso. A Rorro, bienvenido al mundo de los vivos. Y a Pancho: Aubrey no muerde; se alinea. / Miroslava, que contesta todas sus cartas" |
 | 2026-11-03 | Gallamijos (jornada 8) | "Al Alacrán, un beso. Y a los 13 que siguen vivos: el lunes también cuenta. / Miroslava, que sazona con sal de la casa" *(versión final tras el pase del user)* |
 | 2026-11-03 | Dinastía (jornada 8) | "Besos para Rorro, que ya le agarró el gusto a ganar. Al Faraón, ni uno: alineó una defensa de vacaciones. Y a La Dona, ni un beso: que se lo dé el letrero. / Miroslava, que no necesita VAR" |
+| 2026-11-10 | Gallamijos (jornada 9) | "A George, un beso con rodillera. Al Doctor, uno de 0.2. Y a La Dona, un pateador con moño: la mochila no se arma sola. / Miroslava, con la mochila de emergencia lista" |
+| 2026-11-10 | Dinastía (jornada 9) | "A Charly, un beso por cada punto: 158.6. Al Faraón, un corredor que sí juegue. Y a Dave, que Josh Allen le devuelva el cariño. / Miroslava, que da fe" |
 | 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
@@ -513,7 +519,7 @@ existe solo para re-revisar algo ya enviado.
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
 bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
-sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · banco por rellenar: abrir con un acta de comisionado.*
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · ~~acta~~ (usado Dinastía 11-10) · ~~aviso de Protección Civil~~ (usado Gallamijos 11-10) · banco por rellenar: comunicado de prensa de la directiva · ticket/recibo · alerta sísmica de la liga.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -787,6 +793,16 @@ cambios suyos sobre mi borrador, cada uno una regla:
   · **Jugadores repetidos entre las 2 notas del martes** (Pollard, Hubbard, Omar Cooper Jr., Lamar, Dicker): se cede en una de las dos.
   · Remate que contradice el dato ("sin pateador" cuando el pateador hizo -1.0) y "El imperio contraataca" explicado: se reescribieron.
   · No se encontró viral mexicano confirmado de la semana (la búsqueda no devolvió nada fechado); se usó el Día de Muertos/*Coco* en una sola nota.
+- 2026-11-10 · **Pase del editor a la J9**:
+  · **Sin sección Putiza el periódico se queda sin primera plana**: `destape_visual.py` usa la Putiza como nota principal; si la apertura es un boletín (acta, aviso), la Putiza va igual como sección propia.
+  · **El corte de trades se lee de `trade_deadline`**, no se infiere: "cierra la semana que entra" era falso (deadline 11, jornada recién jugada 9).
+  · **"Los Rams descartan" vs "según los reportes"**: el verbo sigue a la fuente; la misma noticia NFL en las 2 notas del martes va con frase distinta (Puka), y "un beso de MVP" tampoco se repite entre cierres.
+  · **El molde "su equipo NFL ganó; él no"** va una vez por edición (Cowboys de La Dona y Bills de Jebus en la misma nota).
+  · **Un margen, una vez** también entre líneas vecinas del ranking (19.1 en Pythons y Taquito).
+  · **El molde de supervivencia del Termómetro rota** (*Los juegos del hambre* J8 → *La casa de los famosos* J9).
+  · **🧂 en el ranking exige mala suerte**: Dave (Sukuna) perdió por 36.7 sin nada de sal → 📉.
+  · **"Siguen vivos en la calculadora"** sin cálculo de eliminación es dato no verificado: se dice la distancia ("a 4 victorias con 5 jornadas").
+  · Discrepé del editor en 2: quería cortar "oferta de 2ª ronda" de Taylor por no estar en la hoja; tenía fuente web (Schefter/Rapoport, 10-nov) y se quedó. Y su línea para Rul traía a Christian Watson 31.1, que ya salía con Rul en la Gallamijos: se dejó fuera.
 - *Confirmado otra vez el remate corto*: cortó "La liga alinea dos. El Chapo
   va a mandar su primer lineup con la casilla de RB2 en blanco" — con "un solo
   corredor en diecisiete rondas" ya estaba dicho.
