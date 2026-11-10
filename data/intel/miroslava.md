@@ -879,7 +879,7 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 18 de 28** tras la jornada 8 (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 21 de 32** tras la jornada 9 (18 de 28 tras la 8) (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
@@ -894,7 +894,8 @@ cambios suyos sobre mi borrador, cada uno una regla:
    Jornada 7 (10-20): Gallamijos — Alacrán > Chapo ✗ (Chapo 99.7-98.3, su 1ª victoria), La Dona > Gallagher ✗;
    Dinastía — La Dona > el Bebé ✓, Gallagher > Buz ✓ → **16 de 24**.
    Jornada 8 (11-03): Gallamijos — Frijol > Rorro ✗, Alacrán > Buz ✓; Dinastía — La Dona > Gallagher ✗, Dave > Fer ✓ → **18 de 28**.
-   Pendientes del 11-03 (jornada 9): Gallamijos — Frijol > Charly, Doctor > Cano; Dinastía — Rul > Gallagher, La Dona > Buz.
+   Jornada 9 (11-10): Gallamijos — Frijol > Charly ✓ (152.0-148.6), Doctor > Cano ✗ (Cano por 0.2); Dinastía — Rul > Gallagher ✓, La Dona > Buz ✓ → **21 de 32**.
+   Pendientes del 11-10 (jornada 10): Gallamijos — Doctor > Frijol, Chapo > Dave; Dinastía — Rorro > Fer, Dave > Gallagher.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
