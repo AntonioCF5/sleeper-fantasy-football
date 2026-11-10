@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-09",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -40,6 +40,26 @@
    "drop": null,
    "date": "2026-11-03",
    "why": "Not a waiver: pgarza rosters him. Handcuff cross-check: Allgeier is ARI dc2 behind YOUR Jeremiyah Love, who has a NEW ankle injury per LaFleur, with an update later this week. Allgeier went 11-147-1 plus 5-44-1 in Week 8 while Conner, Benson and Knight are all hurt. If Love misses time, Allgeier is the ARI lead back with Minshew now starting. He's a buy-low target from pgarza only if Love's update is multi-week. Do not overpay for a 2-3 week fill-in on a 3-5 dynasty roster."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "Audric Estime (RB, NO)",
+   "player_id": "11579",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "Led NO with 15 carries/72 yds/TD (68% regulation carry share) while Kamara had 3; but TRC is at 34/34 with no droppable non-protected asset and owns no Saints back. Skip unless a named drop appears; LoR/Gallamijos Dyn: already rostered by others."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "Zonovan Knight (RB, ARI)",
+   "player_id": "8122",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "why": "Sal 87%-available add: concussion only, retakes ARI backfield (Love on IR). TRC at cap 34/34, no named drop; owns Conner/Benson on IR so ARI path is covered. Skip."
   }
  ],
  "roster_compliance": {

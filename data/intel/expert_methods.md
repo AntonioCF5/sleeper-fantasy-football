@@ -1715,3 +1715,10 @@ without testing it.
 - Quarterback change reprices every pass-catcher on the team (Brissett trade, Minshew/Beck): look up QB's last-year YPA/TD rate before holding WRs/TE.
 - Sal's trade framework: sell players with perceived value off a big game for buy-low guys (injury/bye/dud) ranked above them in ROS list; target 1-for-1 asks across positions, then packages; ROS top-100 is 'gross' (anyone projecting ~9 pts is top 100).
 - Mike's start/sit decisions: when two same-team players compete, prefer known workload (Braelon Allen over Rhamondre) and higher implied team totals; in full PPR lean volume (Bernard over Mason), in half/standard lean TD (Mason).
+
+
+## 2026-11-09 additions
+- Garbage-time filter: when judging a back/WR box score, check what share came with backups in a 20+ point blowout (Kinder 7 of 8 carries); discount, and use post-injury opportunity share (Ryan Heath style) instead.
+- Trace the pre-game news gap: warm-up scratches with no report (McConkey) mean Sunday-morning inactive checks and Sleeper auto-sub on later games are the only protection.
+- Hamstring re-injury grade heuristic: a re-aggravated hamstring that has already cost 5 weeks is likely grade 2, 6-8 weeks if grade 3 (Etienne).
+- Concussion base rate: usually miss at most one game; treat bye-week concussions as the best timing (Burden).
