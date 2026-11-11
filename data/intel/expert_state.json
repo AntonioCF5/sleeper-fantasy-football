@@ -938,19 +938,54 @@
    "published": "2026-11-10",
    "source": "fantasy-footballers",
    "processed": "2026-11-09"
+  },
+  "4HCcfQTkynE": {
+   "video_id": "4HCcfQTkynE",
+   "title": "5 Players I\u2019m Panicking About in Fantasy Football Right Now",
+   "published": "2026-11-10",
+   "source": "sal-vetri",
+   "processed": "2026-11-10"
+  },
+  "-6kFg-vWhtE": {
+   "video_id": "-6kFg-vWhtE",
+   "title": "Kirk Cousins has been traded to the Vikings \ud83d\udc40",
+   "published": "2026-11-10",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-10"
+  },
+  "anp6c7olvYU": {
+   "video_id": "anp6c7olvYU",
+   "title": "Week 10 Waivers & Streamers + Breaking News??? | Fantasy Football 2026 - Ep. 2012",
+   "published": "2026-11-10",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-10"
+  },
+  "C8cpuHBOJ4c": {
+   "video_id": "C8cpuHBOJ4c",
+   "title": "Is C.J. Stroud locked into your starting lineup going forward?",
+   "published": "2026-11-10",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-10"
+  },
+  "54IxS5XhU74": {
+   "video_id": "54IxS5XhU74",
+   "title": "Puka Nacua has been placed on IR \ud83d\ude14",
+   "published": "2026-11-11",
+   "source": "fantasy-footballers",
+   "processed": "2026-11-10"
   }
  },
  "feed_health": {
   "sal-vetri": {
    "consecutive_failures": 0,
-   "last_success": "2026-11-09",
+   "last_success": "2026-11-10",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0
   },
   "fantasy-footballers": {
    "consecutive_failures": 0,
-   "last_success": "2026-11-09",
+   "last_success": "2026-11-10",
    "last_failure": "2026-09-16",
    "via": "rss",
    "rss_failures": 0

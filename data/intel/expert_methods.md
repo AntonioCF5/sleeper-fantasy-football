@@ -1722,3 +1722,9 @@ without testing it.
 - Trace the pre-game news gap: warm-up scratches with no report (McConkey) mean Sunday-morning inactive checks and Sleeper auto-sub on later games are the only protection.
 - Hamstring re-injury grade heuristic: a re-aggravated hamstring that has already cost 5 weeks is likely grade 2, 6-8 weeks if grade 3 (Etienne).
 - Concussion base rate: usually miss at most one game; treat bye-week concussions as the best timing (Burden).
+## 2026-11-10 additions
+- Two-scale panic (Sal): rate the offense and the player separately (LAR offense 7/10, Kyren 2/10). Trust snap, route and carry share over a rival back's TD-driven outscoring.
+- A deadline-traded RB or WR is a short-term downgrade (FF). Expect 1-3 limited games while he learns the playbook; that timing hurts most right before the fantasy playoffs.
+- TE aDOT next to target share (Sal): a 4.3 aDOT means RB-style targets that need TDs or YAC, so a high share in a bad offense still scores like a waiver TE (Warren).
+- Spend FAAB on ceiling changers, meaning talent plus a path (Tyson, McGowan-if-Taylor-moves). Bid $0 on committee fill-ins (the GB backs behind Jacobs).
+- Deadline-reporting filter (FF): "drew interest but unlikely to be moved" is noise. Act only on concrete reports (Engram and LaPorta both stayed, as filtered).
