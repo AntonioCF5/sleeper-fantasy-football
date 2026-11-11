@@ -266,8 +266,28 @@ tells the user to re-check news once before accepting.
   - Los que NO: Singletary, Shedeur, Waller, Justice Hill, Sutton y Perine.
   - **Re-correr `podcast_recap.py 9` después del MNF** para calificar las
     bajas y el partido de BUF@MIN.
-  - **La semana 10 todavía no tiene guion:** falta `podcast_prep.py 10`, la
-    investigación y el rundown.
+  - Después del MNF quedó **3-0** (las bajas de BUF/MIN salieron con 29
+    puntos), 4-5 en la temporada.
+  **Semana 10 (mié 11 nov, dos episodios el mismo día):** News & TNF y La
+  Previa, desde el run-of-show y el dossier de predictapp más el addendum de
+  Late-Round.
+  - `rundown.md` tiene las secciones de los dos episodios, los 14 partidos
+    con Noticias y una sección de correcciones para el productor.
+  - Picks:
+    - ★★ CAR +2.5 (la alerta, con los tres modelos);
+    - ★ NE +2.5;
+    - ★ Bajas MIN/GB 42.5;
+    - ★ Bajas JAX/TEN 46.5.
+  - Survivor: LAR. JAX se usó en la semana 9, pero `survivor.json` no lo
+    registra y el plan lo propone para la 12: hay que marcarlo.
+  - Titulares en `qb_start`: ARI Beck, MIA McCord, LV Mendoza, MIN Cousins
+    (esperado, sin confirmar), BAL Brissett, CLE Watson y SEA Lock.
+  - Nuevo `scripts/usage_lookup.py` para verificar números de newsletters.
+  - Múnich (FC Bayern Munich Stadium) ya se reconoce como estadio abierto en
+    `weather.py`.
+  - Pendiente el viernes: los reportes oficiales de práctica, la reserva de
+    Puka y la de Jacobs (el sábado), si Cousins arranca, Pickens, Evans y
+    Deebo.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

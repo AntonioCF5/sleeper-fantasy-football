@@ -12,7 +12,7 @@
   "vac_rush_pct": 50.4,
   "play_caller": "Mike LaFleur (HC)",
   "hc": "Mike LaFleur",
-  "qb_start": "Gardner Minshew"
+  "qb_start": "Carson Beck"
  },
  "ATL": {
   "win_total": 6.5,
@@ -39,7 +39,7 @@
   "vac_tgt_pct": 27.7,
   "vac_rush_pct": 12.6,
   "play_caller": "Declan Doyle (OC — CONFIRMED 2026-09-02: Ravens' own site, first time calling plays in his career, called both preseason games from the booth)",
-  "qb_start": "Joe Fagnano"
+  "qb_start": "Jacoby Brissett"
  },
  "BUF": {
   "win_total": 10.5,
@@ -107,7 +107,8 @@
   "slow_start": true,
   "vac_tgt_pct": 26.3,
   "vac_rush_pct": 8.1,
-  "play_caller": "Todd Monken (HC)"
+  "play_caller": "Todd Monken (HC)",
+  "qb_start": "Deshaun Watson"
  },
  "DAL": {
   "win_total": 9.5,
@@ -226,7 +227,8 @@
   "slow_start": true,
   "vac_tgt_pct": 16.3,
   "vac_rush_pct": 21.7,
-  "play_caller": "Klint Kubiak (HC)"
+  "play_caller": "Klint Kubiak (HC)",
+  "qb_start": "Fernando Mendoza"
  },
  "LAC": {
   "win_total": 9.5,
@@ -268,7 +270,8 @@
   "slow_start": true,
   "vac_tgt_pct": 52.8,
   "vac_rush_pct": 8.3,
-  "play_caller": "Bobby Slowik (OC)"
+  "play_caller": "Bobby Slowik (OC)",
+  "qb_start": "Kyle McCord"
  },
  "MIN": {
   "win_total": 8.5,
@@ -280,7 +283,8 @@
   "vac_tgt_pct": 14.5,
   "vac_rush_pct": 5.4,
   "play_caller": "Kevin O'Connell (HC)",
-  "hc": "Kevin O'Connell"
+  "hc": "Kevin O'Connell",
+  "qb_start": "Kirk Cousins"
  },
  "NE": {
   "win_total": 10.5,
@@ -345,8 +349,7 @@
   "vac_tgt_pct": 36.9,
   "vac_rush_pct": 2.5,
   "play_caller": "Sean Mannion (OC)",
-  "hc": "Nick Sirianni",
-  "qb_start": "Joe Milton"
+  "hc": "Nick Sirianni"
  },
  "PIT": {
   "win_total": 8.5,

@@ -44,7 +44,7 @@ STADIUMS = {
 VENUES = {
     "Bernabéu": (40.4531, -3.6883, "retractable"), "Tottenham": (51.6043, -0.0664, "open"),
     "Wembley": (51.5560, -0.2796, "open"), "Olympiastadion": (52.5147, 13.2395, "open"),
-    "Allianz Arena": (48.2188, 11.6247, "open"), "Azteca": (19.3029, -99.1505, "open"),
+    "Allianz Arena": (48.2188, 11.6247, "open"), "Bayern Munich": (48.2188, 11.6247, "open"),  # ESPN: "FC Bayern Munich Stadium" "Azteca": (19.3029, -99.1505, "open"),
     "Banorte": (19.3029, -99.1505, "open"), "Neo Química": (-23.5453, -46.4742, "open"),
     "Melbourne Cricket": (-37.8200, 144.9834, "open"), "Croke Park": (53.3607, -6.2512, "open"),
     "Maracanã": (-22.9121, -43.2302, "open"),

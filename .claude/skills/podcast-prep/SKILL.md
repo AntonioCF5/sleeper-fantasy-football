@@ -89,6 +89,54 @@ Asked something smaller, do only that piece:
 - "what does X mean" / "how do I read this table" → §7, answered in Spanish
   with the user's own screenshot rows as the examples.
 
+### Producer briefs (predictapp run-of-show / dossier / Late-Round addendum)
+
+Some weeks the user hands over the producer's files from Downloads: a
+`run-of-show.md`, a `research-dossier.md`, sometimes a
+`late-round-source-addendum.md`. Wk 10 had two episodes recorded the same
+day: **News & TNF** and **La Previa**.
+
+**Treat the brief as input to audit, not text to repeat.** Its model numbers
+are predictapp's (Neon, PRE_INACTIVES, timestamped). Its newsletter numbers
+come from Late-Round and are unaudited.
+
+The run, in order:
+1. Read every file, then do the normal run: `podcast_prep.py`, 3 news agents,
+   survivor.
+   - Brief the agents with the dossier's paths and its "verify" items, and
+     ask for corrections explicitly.
+   - Wk 10 they caught: Buckner and Nelson traded Oct 27, not at the
+     deadline; and confirmed Beck, McCord, Mendoza, Watson and Brissett as
+     starters.
+2. Verify every testable usage claim with `python3 scripts/usage_lookup.py
+   "<name>" ... --weeks a-b [--team X]` before it goes on air.
+   - Wk 10: 13 of 15 held. Two didn't: "Taylor <70% snaps three straight"
+     was really two of three, and "Tuten 50% snaps" was really 36%.
+3. **Audit the model before echoing a model edge.**
+   - Near-zero QB projections (wk 10: Stafford 0.9, Beck 0.1, McCord 0.1) are
+     a lineup bug. Any total built on them is "audit first", not "altas".
+   - Our naive PF/PA total is just as blind to QB changes. When both models
+     say over in a QB-change game, the market's lower number has more
+     information.
+   - Compare every predictapp win-% gap with our FPI/SRS, and say whether
+     ours side with the market (wk 10: GB 68% and DAL 41% weren't backed).
+4. Write ONE `rundown.md` for both episodes:
+   - Episode 1 segments as `## Episodio 1 — …` sections, following the
+     run-of-show's segments.
+   - La Previa's cold open, record and corrections as `## Episodio 2 — …`.
+   - Every game, TNF included, as the usual `### AWAY @ HOME` blocks, tagged
+     PROFUNDO / rápido per the run-of-show.
+   - The card, the fantasy radar, the model-vs-market audit, survivor, and
+     final verdicts.
+   - Include a "Correcciones al dossier y a Late-Round (para el productor)"
+     section.
+5. Respect the brief's boundaries:
+   - Don't reveal member-only picks.
+   - Label predictapp and Late-Round numbers as theirs, with their
+     timestamp.
+   - Hosts speak unscripted: give them questions and data, not invented
+     quotes.
+
 ## 1. Data layer (always first)
 
 ```

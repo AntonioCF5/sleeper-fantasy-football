@@ -1,6 +1,6 @@
 # Recap semana 9
 
-*Escrito el lunes 9 de noviembre en la noche, con el Monday Night (Bills @ Vikingos) todavía pendiente. Lesiones y roles con lo que dijeron los coaches el lunes. La fecha límite de cambios es mañana martes a las 3 pm CDMX. Descansan en la semana 10: Osos, Broncos, Águilas y Bucaneros.*
+*Escrito el lunes 9 de noviembre en la noche, actualizado el miércoles 11 con el resultado del Monday Night (Bills 23, Vikingos 6). Lesiones y roles con lo que dijeron los coaches el lunes. La fecha límite de cambios es mañana martes a las 3 pm CDMX. Descansan en la semana 10: Osos, Broncos, Águilas y Bucaneros.*
 
 ## Lo que pasó
 
@@ -10,10 +10,11 @@
 
 ## Nuestros picks
 
-**2-0 en la semana**, con las Bajas 45.5 de Bills-Vikingos pendientes para esta noche. En la temporada vamos **3-5**.
+**3-0 en la semana**, nuestra mejor semana del año. En la temporada vamos **4-5**.
 
 - **Bengalíes -3 en Madrid:** ganaron por 17. Burrow completó 24 de 29 con tres touchdowns por aire y uno por tierra, y Cincinnati no perdió un solo balón.
 - **Bucaneros +6 en Chicago:** perdieron por 3 y cubrimos. Bucky corrió 20 veces para 97 yardas y dos touchdowns, y los Osos ganaron a pesar de cinco balones perdidos.
+- **Bajas 45.5 Bills-Vikingos:** salieron 29 puntos. Minnesota se quedó en 178 yardas, 0 de 8 en tercera oportunidad, y perdió tres balones.
 - **La que no jugamos:** las Bajas de Green Bay-Nueva Inglaterra. El total bajó a 45.5, pasado nuestro tope de 46, y la quitamos el miércoles. Salieron 72 puntos. El "sirve hasta" nos ahorró una derrota.
 - **Survivor:** Jacksonville ganó 33-10. Seguimos vivos.
 
@@ -69,7 +70,7 @@
 - **El dato:** **Chicago ganó con cinco balones perdidos**: Caleb Williams tiró cuatro intercepciones. Tampa cubrió el +6 (nuestro pick) con dos touchdowns de Bucky Irving.
 
 ### BUF @ MIN
-- **El dato:** se juega esta noche. Tenemos las Bajas 45.5: Minnesota llega 1-6 a las bajas y con la mejor defensiva de la liga.
+- **El dato:** Minnesota se quedó en **178 yardas y 0 de 8 en tercera oportunidad**, y Búfalo tuvo la pelota 42 minutos y medio. James Cook corrió 31 veces para 107 yardas. Las bajas (29 puntos en un total de 45.5) completaron nuestro 3-0.
 
 ## Lesiones
 

@@ -82,7 +82,42 @@
         "side": "under",
         "line": 45.5,
         "conf": 1,
-        "why": "MIN 1-6 under, last 5 totals 25-39; #1 scoring D vs 27th offense; Murray hamstring (Wentz if out)"
+        "why": "MIN 1-6 under, last 5 totals 25-39; #1 scoring D vs 27th offense; Murray hamstring (Wentz if out)",
+        "result": "W"
+      }
+    ],
+    "10": [
+      {
+        "game": "CAR@NO",
+        "bet": "spread",
+        "side": "CAR",
+        "line": 2.5,
+        "conf": 2,
+        "why": "🚩 SRS -2.9 / FPI -2.5 vs market + predictapp NO 51% vs 55.5%; NO C McCoy out, Shough playing with 2 broken bones in non-throwing hand, Etienne out; Hubbard 81% backfield vs NO (1st most PPR allowed to RB)"
+      },
+      {
+        "game": "NE@DET",
+        "bet": "spread",
+        "side": "NE",
+        "line": 2.5,
+        "conf": 1,
+        "why": "All three models lean NE (SRS -2.8, FPI -1.5, predictapp DET 55.6 vs 58.4 market); DET D without Kerby Joseph, Jack Campbell (IR), Reed/Mays doubtful; DET #1 in PPR allowed to QBs"
+      },
+      {
+        "game": "MIN@GB",
+        "bet": "total",
+        "side": "under",
+        "line": 42.5,
+        "conf": 1,
+        "why": "Naive total 39.0 and predictapp 39.1 vs 42.5; MIN allows 15 ppg last 5, Jacobs out, Cousins 4 days into the system"
+      },
+      {
+        "game": "JAX@TEN",
+        "bet": "total",
+        "side": "under",
+        "line": 46.5,
+        "conf": 1,
+        "why": "Naive total 43.3, predictapp P(over) 41%; JAX added Bates/Davis/Godchaux; TEN implied 18, Carnell Tate DNP Wed"
       }
     ]
   }
