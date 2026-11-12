@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -62,39 +62,6 @@
    "why": "Sal 87%-available add: concussion only, retakes ARI backfield (Love on IR). TRC at cap 34/34, no named drop; owns Conner/Benson on IR so ARI path is covered. Skip."
   },
   {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "CJ Daniels (WR, LAR)",
-   "player_id": "13270",
-   "verdict": "claim",
-   "bid": 5,
-   "drop": "Cody White (WR, LV, 27)",
-   "date": "2026-11-10",
-   "why": "Puka Nacua (MCL/PCL + turf toe) is headed to IR for at least a month, and McVay said Monday there is 'no doubt' Daniels gets more snaps. Daniels is a 24-year-old rookie: a young asset on a rebuilding roster, so it fits the dynasty rule. Cody White is 27, in year 6, LV depth-4 with a ROS projection of 8 and no market: the textbook aging no-value drop. Week 10 is past the weeks 1-6 aggression window, so this is a sober bid in the speculative-to-role tier with an odd number. Roster is 23/23 active, so the claim must carry the drop."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "CJ Daniels (WR, LAR)",
-   "player_id": "13270",
-   "verdict": "claim",
-   "bid": 5,
-   "drop": "Elijah Mitchell (RB, PHI, 28)",
-   "date": "2026-11-10",
-   "why": "Same Puka-IR mechanism. Mitchell reverted to PHI's practice squad on 11/9 (ROS 8): he was already flagged as the first cut in the aging-vet bucket. The 26/26 active roster with IR 4/4 means the drop is mandatory. Daniels (24) is a young asset with a near-term snap increase. Atwell (LAR WR2, five Week 9 targets) is the points alternative but is 27. Daniels is preferred on asset value."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Tutu Atwell (WR, LAR)",
-   "player_id": "7562",
-   "verdict": "claim",
-   "bid": null,
-   "drop": "Joe Milton (QB, PHI)",
-   "date": "2026-11-10",
-   "why": "MEXICA has Garrett Wilson (concussion) and Carnell Tate (shoulder) both Out, and the bench WRs are Tre' Harris (3.9 proj) and Chris Bell (4.7). Atwell is LAR's depth-2 WR, now moving up with Puka headed to IR: five targets Week 9 and 6.4 projected Week 10, the best FA WR under MEXICA scoring. Rolling waivers with the user at priority 18 (last, because 7-2), so this only lands if nobody ahead claims. Milton is a QB2 behind Lawrence in a 1QB redraft (ROS 12) and is dead weight. The roster is 19/19 with no IR slots, so the drop is required. Rashid Shaheed (dropped 61h ago) is Out, so skip him."
-  },
-  {
    "league_id": "1385473470141313024",
    "league": "FANTASY MEXICA",
    "player": "Rashid Shaheed (WR, SEA)",
@@ -115,6 +82,46 @@
    "drop": null,
    "date": "2026-11-10",
    "why": "Mendoza (#1 overall pick) starts Week 10 after the Cousins trade, and he is the #4 trending add. Gallamijos Lg is 1QB and already rosters Mayfield plus Shough. A third QB has no lineup path, so skip."
+  },
+  {
+   "league_id": "1338269686810300416",
+   "league": "Dynasty Mexica",
+   "player": "CJ Daniels (WR, LAR)",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-11",
+   "why": "Your 11/11 run took Atwell ($0, drop E. Mitchell) over Daniels: a points call on a 4-5 team, and that was your choice from the prior review item. Roster is 26/26 with IR 4/4 full, and the only remaining drops are protected stashes/handcuffs (E. Johnson, J. Hill, Vidal) or startable pieces. Daniels (24) is still a free agent here; revisit only if DeVonta Smith (Out, hamstring) needs a second week and a cut opens, never by cutting a young stash."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Tutu Atwell (WR, LAR)",
+   "verdict": "lost",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-11",
+   "why": "The claim failed: a team ahead of you on rolling waivers took him (dropping E. Mitchell). Savion Williams (claimed, drop Chris Bell) is the WR depth now. Joe Milton (QB3) stays the designated cut for the next claim."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "CJ Daniels (WR, LAR)",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-11",
+   "why": "In 1QB redraft, 4.1 projected for Week 10 is no better than Tre' Harris/Savion. Not worth the Milton cut this week; hold Milton's slot for a real breakout."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Brian Thomas Jr. / Marvin Harrison Jr. (WR)",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-11",
+   "why": "Both were dropped by rivals and show 186-195 ROS projections, but that number is a stale preseason line. Measured usage: BTJ ran 34% of snaps with 0 targets in Week 9 and 2-3 targets a game in Weeks 5-8 (JAX dc3); MHJ ran 46% of snaps with 3 targets and a new hamstring (limited Wed). Neither beats Atwell or Ekeler for a 17-man roster in 1QB redraft. Revisit only on a role change."
   }
  ],
  "roster_compliance": {

@@ -1728,3 +1728,9 @@ without testing it.
 - TE aDOT next to target share (Sal): a 4.3 aDOT means RB-style targets that need TDs or YAC, so a high share in a bad offense still scores like a waiver TE (Warren).
 - Spend FAAB on ceiling changers, meaning talent plus a path (Tyson, McGowan-if-Taylor-moves). Bid $0 on committee fill-ins (the GB backs behind Jacobs).
 - Deadline-reporting filter (FF): "drew interest but unlikely to be moved" is noise. Act only on concrete reports (Engram and LaPorta both stayed, as filtered).
+## 2026-11-11 additions
+- Injured-star buy test (FF): if his projected return lands inside the fantasy playoffs (Puka, weeks 14-15), a contender doesn't buy, because timelines slip past elimination. In redraft, flip him for a healthy WR who plays every remaining week.
+- Buy-low timing trigger (Sal): make the offer when the target is DNP or limited on Wednesday AND his owner faces a must-win week. That owner can't absorb a zero.
+- Teammate overlap check (Sal): compare man-vs-zone YPRR. Complementary profiles (Downs beats man, Rice beats zone) cannibalize fewer targets than the headline implies.
+- Bye ledger on traded players (FF): moving from a team still owed its bye to one past it (Cousins, LV to MIN) adds a playable week for the stretch run.
+- Sell the narrative peak after a QB-upgrade trade (FF): when league-mates price the beneficiary a tier above your rank (Jefferson as WR3 vs your WR11), that's the week the value is debatable enough to sell.

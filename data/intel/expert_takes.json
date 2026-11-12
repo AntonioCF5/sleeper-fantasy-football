@@ -17,1326 +17,6 @@
  },
  "takes": [
   {
-   "player": "Germie Bernard",
-   "team": "PIT",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "league-winner",
-   "conviction": "high",
-   "why": "Top waiver add of the week; Sal would spend ~100% of FAAB in most leagues.",
-   "mechanism": "Rookie that Aaron Rodgers already trusts, earning heavy targets (12 in Week 6 alongside Metcalf's 15) in a pass-every-down offense.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13274",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Germie Bernard",
-   "team": "PIT",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Startable breakout rookie; Rodgers' praise plus target share has held in both real opportunities.",
-   "mechanism": "Rodgers says Bernard is always where he needs to be; 12 targets in Week 6 with Roman Wilson now on IR.",
-   "videos": [
-    "QdA0hcf0C2g",
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "13274",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Omar Cooper",
-   "team": "NYJ",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Bank on it: Cooper is now a fixture of the Jets offense, not a one-week fluke.",
-   "mechanism": "First-round talent/capital (traded up 33->30), 82% snaps and 6-103-1 (plus a TD called back) in first game back from ankle; leapfrogged Isaiah Williams.",
-   "videos": [
-    "4Dk3fHQQpas",
-    "9VxAMMRJ6NA"
-   ],
-   "player_id": "13276",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Omar Cooper",
-   "team": "NYJ",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Worth a stash, but don't pay as if 6-100-1 repeats weekly.",
-   "mechanism": "Week 6 boosted by Christian Gonzalez shadowing Garrett Wilson and Adonai Mitchell's absence; Mitchell returns soon and Wilson normally commands ~10 targets.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13276",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Ja'Kobi Lane",
-   "team": "BAL",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Preferred waiver WR add in Baltimore; could be the No. 2 option and primary red-zone target with Lamar back.",
-   "mechanism": "Returned from IR wrist: 31 snaps, 22 routes, 5 targets (2nd on team); big-body end-zone role (3 end-zone targets in Week 1); Rashod Bateman left with a shoulder (possible AC joint) injury.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13293",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendrick Bourne",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Solid bye-week flex add now that Marvin Harrison Jr. is gone.",
-   "mechanism": "Led ARI WRs in receiving yards in all 3 games with extended run; 61% routes and team-high 16% WR target share in first game post-Harrison; ahead of Michael Wilson in target share.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "4454",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendrick Bourne",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Preferred flex over Xavier Worthy/Brandin Cooks for more reliable volume.",
-   "mechanism": "Distrust of Worthy/Cooks volume; Christian Kirk could jump Cooks in SF.",
-   "videos": [
-    "QdA0hcf0C2g"
-   ],
-   "player_id": "4454",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Michael Wilson",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Not a set-and-forget top-12 WR despite Harrison's departure.",
-   "mechanism": "ARI passing game is spread out; Wilson used on WR screens while Bourne has led the room.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "10232",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Michael Wilson",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "bust-risk",
-   "conviction": "medium",
-   "why": "Volume (165-target pace) isn't converting with Brissett.",
-   "mechanism": "4-30 and 4-32 last two weeks; Brissett not pushing the ball downfield; Cardinals scoring few touchdowns.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "10232",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendre Miller",
-   "team": "NO",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Fool's gold: max ~5% FAAB and only in deep leagues, never 10-20%.",
-   "mechanism": "20 carries but only 32/72 snaps, 3.5 YPC, in a three-way split with CJ Donaldson and Alvin Kamara; Travis Etienne due back from IR in 1-2 weeks.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "9757",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Dylan Sampson",
-   "team": "CLE",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Stash in deeper leagues; likely returns from IR in Week 7.",
-   "mechanism": "Was practicing (limited Thu/Fri) before being held one more week; passing-down back on a 4-2 offense; Judkins re-aggravated the foot/ankle he had surgery on.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "12469",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Travis Hunter",
-   "team": "JAX",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Don't chase his offensive breakout.",
-   "mechanism": "Too valuable at CB (shadowed Nico Collins, INT); Meyers/Washington/Strange remain the clear top 3 targets; only 4 targets.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "12530",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Brian Thomas Jr.",
-   "team": "JAX",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "high",
-   "why": "Unusable in fantasy right now.",
-   "mechanism": "22% snaps (15/70), fourth among JAX WRs; only one game all season with 3+ targets; dropped a chunk play and may have been benched.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "11631",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Jaylin Noel",
-   "team": "HOU",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Stash only in deep/14-team or double-flex leagues.",
-   "mechanism": "Clear slot WR, 2nd among HOU WRs in routes; 4-107-1 but targets have been 2,5,2,3,5,4 and Marvin Harrison Jr. will ramp up.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "12536",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Marvin Harrison Jr.",
-   "team": "HOU",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Expected to take over the Xavier Hutchinson No. 2 role in Houston.",
-   "mechanism": "Played 12 snaps but drew 4 targets in debut; HOU paid a 2nd-round-plus trade price, so they are incentivized to involve him.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "11628",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "DeMario Douglas",
-   "team": "NE",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Now worth an add/stash.",
-   "mechanism": "3 TDs in last 2 games; 26 routes and 8 targets in Week 6; Romeo Doubs (possible AC joint sprain) may miss time; he is Drake Maye's off-script target.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "9501",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyrone Tracy Jr.",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "high",
-   "why": "Let league-mates add him; avoid the Giants backfield.",
-   "mechanism": "TD and catches came in garbage time with NYG trailing; a four-back rotation (Singletary 31 snaps, Tracy 29, Najee Harris 11, Skattebo 6).",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "11655",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyrone Tracy Jr.",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Don't bank on any Giants RB.",
-   "mechanism": "Harbaugh says four backs are rotating and none has taken the job; Tracy's day came on 8 opportunities in a blowout.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "11655",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Najee Harris",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Reported as the new primary back but produced nothing.",
-   "mechanism": "Only 11 snaps, 4 carries for 2 yards despite pregame reports he'd lead.",
-   "videos": [
-    "QdA0hcf0C2g",
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "7528",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Caleb Douglas",
-   "team": "MIA",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Stash coming out of the bye.",
-   "mechanism": "Healthy-game sample: 5-94 on a team-high 7 targets in Week 1; ankle injury should be healed after the bye.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13296",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Malik Washington",
-   "team": "MIA",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Add him above Caleb Douglas; available in 59% of leagues.",
-   "mechanism": "He is Miami's No. 1 receiver and was dropped by managers going into the bye.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "11610",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Keenan Allen",
-   "team": "IND",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Effectively IND's WR1 while Alec Pierce is out; add if available.",
-   "mechanism": "9, 9 and 12 targets in three games without Pierce, who isn't putting weight on the re-injured ankle (2-3+ more weeks).",
-   "videos": [
-    "oOhxfhrXvz8",
-    "MtfaeBVwZY4"
-   ],
-   "player_id": "1479",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Josh Downs",
-   "team": "IND",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "high",
-   "why": "Stop waiting on a Downs breakout.",
-   "mechanism": "Even without Warren and Pierce, best finish is WR34; last four weeks pace 63-765-0 while Keenan Allen draws 9-11 targets.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "9500",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Zonovan Knight",
-   "team": "ARI",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Stash if Jeremiyah Love misses again.",
-   "mechanism": "15-80 (5.3 YPC) plus 2-18 receiving vs Allgeier's 18-38; Love missed all practice with a re-aggravated ankle.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "8122",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyler Allgeier",
-   "team": "ARI",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Not the Arizona back to start; Knight outplayed him.",
-   "mechanism": "Allgeier was terrible (8 carries for 8 yards at one point) while Bam Knight ran well against the Rams.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "8132",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kaelon Black",
-   "team": "SF",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Hold as the Christian McCaffrey handcuff.",
-   "mechanism": "Direct backup to McCaffrey.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13414",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Emmett Johnson",
-   "team": "KC",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Hold as the Kenneth Walker III handcuff.",
-   "mechanism": "Walker carries a heavy workload; Johnson is next up.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "13337",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Brian Robinson Jr.",
-   "team": "ATL",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Hold as the Bijan Robinson handcuff.",
-   "mechanism": "Direct backup to Bijan.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "8154",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Konata Mumpfield",
-   "team": "LAR",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Possible add if Davante Adams misses time.",
-   "mechanism": "Adams left late in Week 6 with a lower-leg injury.",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "player_id": "12718",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tre Tucker",
-   "team": "LV",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Don't bank on it: boom-bust, schedule turns hard.",
-   "mechanism": "WR1 of Week 6 (5-97-2) and WR6 in Week 2 but inconsistent; Jalen Nailor's injury helped; upcoming LAR, NYJ, SF, SEA, DEN, CLE (ARI in championship week is the exception).",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "10213",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kenneth Walker III",
-   "team": "KC",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Elite RB1 who is dominating the league.",
-   "mechanism": "RB1 in Week 6 (19-128-2); 665 rushing yards in his first five games with the team (a record); weekly finishes RB2, 2, 6, 1, 1; goal-line misuse is the only drag.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "8151",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Bhayshul Tuten",
-   "team": "JAX",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Should be a solid play from here on.",
-   "mechanism": "Heavy opportunity all year with TD regression finally arriving (2 receiving TDs); Chris Rodriguez (11-55) is a minor threat.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "12490",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Isaiah Likely",
-   "team": "NYG",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Season-long TE1 producer under Harbaugh.",
-   "mechanism": "TE1 in 3 of 6 weeks; 11 targets, 6-99-1 plus a 2-point conversion in Week 6.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "8131",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kyle Pitts",
-   "team": "ATL",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Lean Pitts over Dalton Kincaid ROS.",
-   "mechanism": "Two straight good weeks with a real target-share increase (2 TDs, TE2 in Week 6).",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "7553",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyler Shough",
-   "team": "NO",
-   "pos": "QB",
-   "source": "fantasy-footballers",
-   "direction": "bust-risk",
-   "conviction": "medium",
-   "why": "Hit-or-miss streamer; tough matchup next.",
-   "mechanism": "Four TDs on only 144 passing yards; the offensive line is in shambles; next opponent PIT (T.J. Watt), though it is at home.",
-   "videos": [
-    "QdA0hcf0C2g",
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "12545",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "DeVonta Smith",
-   "team": "PHI",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Still viable with Tanner McKee taking over.",
-   "mechanism": "14 targets (7-75-1) in Week 6; watch the hamstring after he re-tweaked it.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "7525",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Darren Waller",
-   "team": "CAR",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Touchdown-only, dangerous play.",
-   "mechanism": "Laid an egg in a tough PHI matchup coming off a toe injury.",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "2505",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "MarShawn Lloyd",
-   "team": "GB",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "high",
-   "why": "Drop/bench now that Jacobs is back.",
-   "mechanism": "Jacobs reinstated as starter; Lloyd has been very disappointing (3 carries for -2 in Week 6).",
-   "videos": [
-    "4Dk3fHQQpas",
-    "QdA0hcf0C2g"
-   ],
-   "player_id": "11581",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Jalen Coker",
-   "team": "CAR",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Rank him ahead of a returning A.J. Brown.",
-   "mechanism": "Truly great play and a projection several points higher.",
-   "videos": [
-    "QdA0hcf0C2g"
-   ],
-   "player_id": "11646",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Bucky Irving",
-   "team": "TB",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Keep playing him; Baker Mayfield's return lifts the outlook.",
-   "mechanism": "85% snaps and 19 carries in Week 6 with Sean Tucker out; Baker Mayfield expected back next week vs CAR.",
-   "videos": [
-    "QdA0hcf0C2g",
-    "4Dk3fHQQpas"
-   ],
-   "player_id": "11584",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Braelon Allen",
-   "team": "NYJ",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Three-down back while Breece Hall is out (Hall is near a return).",
-   "mechanism": "89% snaps (top 3 in NFL), 88% of rush attempts, 72% of routes in the two games without Hall.",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "player_id": "11576",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Cam Skattebo",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "high",
-   "why": "Full panic: unstartable going forward; Sal would not have a Giants RB in his top 30-36 next week.",
-   "mechanism": "Benched after 4 fumbles in 5 games: 0 carries, 6 snaps (9%) in Wk6 while Singletary/Tracy/Harris split work; was averaging ~3.0 YPC even on 20 touches/game.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "12481",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyrone Tracy Jr.",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Fine pickup (under 10% rostered) whose value does not require another injury; passing-down role.",
-   "mechanism": "2 TDs on only 8 opportunities plus 6 targets in Wk6; NYG has not used Skattebo in the pass game.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "11655",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tyrone Tracy Jr.",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Do not add, trade for, or start any Giants RB in this committee.",
-   "mechanism": "Five-RB committee in Wk6 (Singletary 42% snaps, Tracy 38%, Harris 16%); Tracy's share was trailing-script driven.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "11655",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Devin Singletary",
-   "team": "NYG",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Skip despite leading the backfield in snaps.",
-   "mechanism": "42% snaps out of nowhere in a committee; no stable role.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "6130",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Jaylen Waddle",
-   "team": "DEN",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "high",
-   "why": "Full panic: unstartable (WR52 through Wk6), hold rather than drop except in shallow 10-team.",
-   "mechanism": "Bo Nix's 4.9 aDOT and refusal to throw middle/deep kills him; 30% target share in Wk6 yielded 4-24 on 7 targets as Nix went 17/27 for 107; DEN bottom-5 in yards/play; pace 646 yds/3 TD.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "7526",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Josh Downs",
-   "team": "IND",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "medium",
-   "why": "Moderate panic: has produced like a waiver WR for a month even without Alec Pierce/Tyler Warren.",
-   "mechanism": "Lines of 11 tgt/77, 3-17, 3-47, 4-40 since Pierce injury; Daniel Jones ~50% completions, checkdown offense, no explosives; Downs needs 10-target games to matter.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "9500",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Keenan Allen",
-   "team": "IND",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Usable PPR volume piece while Pierce/Warren are out.",
-   "mechanism": "8-82 on team-high 12 targets (age 34) in Wk6 with Warren a late scratch.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "1479",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Keenan Allen",
-   "team": "IND",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Bye-week spot start for target volume.",
-   "mechanism": "Double-digit targets every week; Tyler Warren absence helped.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "1479",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Bucky Irving",
-   "team": "TB",
-   "pos": "RB",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "low",
-   "why": "4/10 panic: matchup-dependent RB2/flex, but the role is too good to sell.",
-   "mechanism": "85% snaps, 90% of RB rushes, all routes with Sean Tucker inactive — but 21 touches for 49 yds with backup QB and stacked boxes; 2025 with hurt Baker averaged 10.2 PPG on 19 touches.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "11584",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Michael Wilson",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "bust-risk",
-   "conviction": "medium",
-   "why": "7/10 panic if you expected a top-20 WR after the MHJ trade; he is a WR3/flex ranked ~WR20-30.",
-   "mechanism": "Two straight weeks 3rd on team (4-32); 4 of 7 targets were screens; tied 18% target share with Bourne; 1 good matchup (DAL) in next 5 (DEN, DAL, SEA, LAR, KC).",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "10232",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendrick Bourne",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "sal-vetri",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Worthy waiver add and flex option, especially in double-flex leagues during byes.",
-   "mechanism": "8 targets in each of 3 starts, averaging 64 yds; 5-47 in Wk6.",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "player_id": "4454",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendrick Bourne",
-   "team": "ARI",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Bye-week spot-start target.",
-   "mechanism": "8 targets in Wk6 and expected to continue.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "4454",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Jordan Mason",
-   "team": "MIN",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Top RB add if available (66% rostered): immediately startable low-end RB2 when active.",
-   "mechanism": "21-day practice window opened; coaches want the run game; ~15 carries/game projected; good matchups (IND, BUF, GB); not a pass catcher, so TD-dependent.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "8408",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kendre Miller",
-   "team": "NO",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "No. 2 RB add as a one-week starter; don't spend much FAAB.",
-   "mechanism": "20 carries for 70 in Wk6 with goal-line work; under 50% rostered; irrelevant when Travis Etienne returns; PIT then bye then CLE.",
-   "videos": [
-    "FevBuG3TztM",
-    "7kkALCAbwGM"
-   ],
-   "faab": "$10 (of $100)",
-   "player_id": "9757",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Jaleel McLaughlin",
-   "team": "CLE",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Interesting one-week start vs TEN if Quinshon Judkins sits again; pick up in deeper leagues.",
-   "mechanism": "Shared time in Wk6 (9-41); Dylan Sampson's return window is the threat.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "11439",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Mike Washington",
-   "team": "LV",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Insurance back with upside behind Ashton Jeanty.",
-   "mechanism": "Led LV in rushing (9-43) as Jeanty barely played the second half with poor efficiency.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "13305",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Emmett Johnson",
-   "team": "KC",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Insurance back with upside worth stashing.",
-   "mechanism": "Named among contingent-upside handcuffs; no detail given.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "13337",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "MarShawn Lloyd",
-   "team": "GB",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Drop candidate.",
-   "mechanism": "Josh Jacobs returning in Wk7.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "11581",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Emanuel Wilson",
-   "team": "SEA",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "medium",
-   "why": "Drop candidate.",
-   "mechanism": "Josh Jacobs returning in Wk7.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "11435",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Omarion Hampton",
-   "team": "LAC",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Floated as drop candidate on bye; hosts split — hold for first-round upside, but drop him for Germie Bernard.",
-   "mechanism": "Has disappointed; LAC offense bad; potential OC/HC changes could help.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "12507",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Germie Bernard",
-   "team": "PIT",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "No. 1 overall add this week by a mile; go hard (~50% FAAB).",
-   "mechanism": "11 catches + TD (only Ja'Marr Chase matched that as a rookie in 10 yrs); Roman Wilson to IR locks his slot role with Rodgers (Randall Cobb comp); caution: Pittman returns and Wk6 went to OT.",
-   "videos": [
-    "FevBuG3TztM",
-    "dfnaamRyNNk"
-   ],
-   "faab": "~50%",
-   "player_id": "13274",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Ja'Kobi Lane",
-   "team": "BAL",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Will be BAL's WR2 rest of season; one host's No. 2 pickup over Antonio Williams.",
-   "mechanism": "Big game with backup QB; standout camp; Rashod Bateman hurt and Mark Andrews 'toast'; Devontae Walker ran ahead route-wise; WR2 in BAL historically low value.",
-   "videos": [
-    "FevBuG3TztM",
-    "dfnaamRyNNk"
-   ],
-   "faab": "go a little harder (unspecified)",
-   "player_id": "13293",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Omar Cooper Jr.",
-   "team": "NYJ",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Barely rostered breakout rookie worth a couple bucks, but high variance.",
-   "mechanism": "First-round pick; tough upcoming matchups; Adonai Mitchell and a healthier Kenyon Sadiq return to squeeze targets behind Garrett Wilson; red-zone role.",
-   "videos": [
-    "FevBuG3TztM",
-    "dfnaamRyNNk"
-   ],
-   "faab": "a couple bucks",
-   "player_id": "13276",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tre Tucker",
-   "team": "LV",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Bye-week spot start option.",
-   "mechanism": "Target volume.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "10213",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Ryan Flournoy",
-   "team": "DAL",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Bye-week spot start option; roughly even with Pickens this year.",
-   "mechanism": "Target volume.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "11783",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Konata Mumpfield",
-   "team": "LAR",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Speculative add.",
-   "mechanism": "Big week with Puka Nacua out; Davante Adams now out 6-10 weeks.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "12718",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Stefon Diggs",
-   "team": "WAS",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Floor rises to elite-safe PPR possession role (~9 targets/game); low ceiling.",
-   "mechanism": "McLaurin out; 6-44 last night; Keenan-Allen-type usage.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "2449",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Chig Okonkwo",
-   "team": "WAS",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Biggest week-to-week beneficiary of McLaurin injury; season-long add (14% rostered) but WAS on bye.",
-   "mechanism": "7-7-69 last night; athletic big-play TE who outplayed Antonio Williams when Diggs was out.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "8210",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kyle Pitts",
-   "team": "ATL",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Add if available (63% rostered).",
-   "mechanism": "12 and 20 points the last two weeks; looks like the hyped version; recently paid.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "7553",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Terrance Ferguson",
-   "team": "LAR",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "sleeper",
-   "conviction": "medium",
-   "why": "Long-term stash; one more week on IR.",
-   "mechanism": "Was dominating explosively before injury; Davante Adams out opens targets.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "12487",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Michael Mayer",
-   "team": "LV",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Not bad; one of LV's two primary receivers.",
-   "mechanism": "LV's two TEs are their primary receivers.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "9482",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Kyler Murray",
-   "team": "MIN",
-   "pos": "QB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Streaming QB pick vs IND (available in 50%+ of leagues).",
-   "mechanism": "More acclimated each week in the system; IND defense bad; dome/no weather.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "5849",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Baker Mayfield",
-   "team": "TB",
-   "pos": "QB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Grab off waivers (27% rostered) if he starts vs CAR.",
-   "mechanism": "CAR 24th in schedule-adjusted points to QBs; was dropped widely during thumb injury.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "4892",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Minnesota Vikings D/ST",
-   "team": "MIN",
-   "pos": "DEF",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Grab if available.",
-   "mechanism": "Matchup vs IND per show; bye-week streaming.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "MIN",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Cleveland Browns D/ST",
-   "team": "CLE",
-   "pos": "DEF",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Awesome stream vs TEN.",
-   "mechanism": "Browns D has been really good; TEN a target offense.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "CLE",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "New York Jets D/ST",
-   "team": "NYJ",
-   "pos": "DEF",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Stream vs MIA.",
-   "mechanism": "MIA a target offense.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "NYJ",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Carolina Panthers D/ST",
-   "team": "CAR",
-   "pos": "DEF",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Stream vs TB if Jalon Daniels starts at QB.",
-   "mechanism": "Backup QB start.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "CAR",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tennessee Titans D/ST",
-   "team": "TEN",
-   "pos": "DEF",
-   "source": "fantasy-footballers",
-   "direction": "sleeper",
-   "conviction": "low",
-   "why": "Contrarian stream vs CLE (2% rostered).",
-   "mechanism": "Deshaun Watson takes more sacks than anyone and throws picks.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "TEN",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Tee Higgins",
-   "team": "CIN",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Accept DeVonta Smith-for-Higgins straight up (Jason).",
-   "mechanism": "PHI without Jalen Hurts on Tanner McKee/Joe Milton; Burrow-led CIN.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "6801",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "DeVonta Smith",
-   "team": "PHI",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Sell for Tee Higgins; don't drop for Tre Tucker.",
-   "mechanism": "Hurts out: QB downgrade to McKee despite 14 targets in first game without Hurts.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "7525",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Matthew Golden",
-   "team": "GB",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "high",
-   "why": "Trade George Pickens for Golden straight up.",
-   "mechanism": "WR7 on season; TD in 3 of last 4 (WR4/10/3); Jordan Love trusts him on scrambles and goal line.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "12501",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Harold Fannin Jr.",
-   "team": "CLE",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Keep Fannin over Juwan Johnson rest of season.",
-   "mechanism": "Juwan has bye next and Jordyn Tyson returning to NO.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "12506",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Juwan Johnson",
-   "team": "NO",
-   "pos": "TE",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Drop over Fannin.",
-   "mechanism": "Bye plus Tyson's return.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "7002",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Cyrus Allen",
-   "team": "KC",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "fade",
-   "conviction": "low",
-   "why": "Don't drop in dynasty unless for a locked-in RB, but only ~4% chance he works out.",
-   "mechanism": "Two catches last week; KC WR depth moves pending.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "13413",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Treylon Burks",
-   "team": "WAS",
-   "pos": "WR",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "low",
-   "why": "Will have opportunities post-McLaurin; would hold over Cyrus Allen.",
-   "mechanism": "Looked really good.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "8135",
-   "date": "2026-10-20"
-  },
-  {
-   "player": "Christian McCaffrey",
-   "team": "SF",
-   "pos": "RB",
-   "source": "fantasy-footballers",
-   "direction": "target",
-   "conviction": "medium",
-   "why": "Workload managed for playoffs — fine for fantasy but ceiling held back.",
-   "mechanism": "80 opportunities vs 130 at same point last year; Wk6 16 carries + 10 targets was season high.",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "player_id": "4034",
-   "date": "2026-10-20"
-  },
-  {
    "player": "DJ Moore",
    "team": "BUF",
    "pos": "WR",
@@ -14450,6 +13130,718 @@
     "54IxS5XhU74"
    ],
    "date": "2026-11-10"
+  },
+  {
+   "player": "Bhayshul Tuten",
+   "player_id": "12490",
+   "team": "JAX",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy low now: top-25 ROS player coming off a 36%-snap injury/rain dud.",
+   "mechanism": "Elite JAX team plays with leads (more second-half carries); the dud was a limited ankle/foot game in a blowout, after RB2/RB3 weeks of 30 and 25 points; owner may panic if he's limited Wednesday.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Ollie Gordon",
+   "player_id": "12495",
+   "team": "MIA",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Buy low on a workhorse: top-50 ROS (4th-5th round redraft value), projects as an RB15.",
+   "mechanism": "79% snaps and 76% of rush attempts over 3 games since Achane got hurt, ~17 touches/game; the catch gap (7 in 9 games) is QB-driven (Willis scrambles instead of checking down), not ability.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Kyren Williams",
+   "player_id": "8150",
+   "team": "LAR",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy-low temperature check: top-20 ROS, his usage should rise with Puka on IR and Adams out.",
+   "mechanism": "63% snaps, 54% rush attempts, 44% routes, 5 targets/game and 14-15% target share; with Puka and Davante out, more red-zone runs and backfield targets go to him; a lower LAR team total washes against more usage.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Blake Corum",
+   "player_id": "11586",
+   "team": "LAR",
+   "pos": "RB",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Sal changed his tune: Corum is solid ROS alongside Kyren, not a fade.",
+   "mechanism": "Five TDs in five games (14.5 PPG vs Kyren's 13.9 over that span); Puka's IR pushes LAR toward the run game, especially in the red zone; still a TD-propped role on fewer snaps.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Zay Flowers",
+   "player_id": "9997",
+   "team": "BAL",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Top-20 ROS player; buy before the Brissett offense kicks in.",
+   "mechanism": "Brissett threw 42+ times/game in completed starts last year and 38 att/game this year (2nd in NFL), and isn't a runner like Lamar; Lamar could return weeks 15-18 against soft playoff matchups (LAC, CAR, HOU, TB).",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Zay Flowers",
+   "player_id": "9997",
+   "team": "BAL",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "In redraft, trade Puka for Zay Flowers right now; Zay is currently the WR11.",
+   "mechanism": "Flowers plays every remaining game with a pass-first QB upgrade (Brissett); Puka's return is uncertain.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Carnell Tate",
+   "player_id": "13279",
+   "team": "TEN",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy low coming out of the bye: top-50 ROS rookie WR the market hasn't noticed.",
+   "mechanism": "Last 4 games: 14 PPR PPG, 7.8 targets, 72 yds/game; ranks 5th in receptions and 7th in yards among the last 20 years of top-10-pick rookie WRs through 8 games; the soft run is JAX (garbage time) then DAL then JAX; shoulder re-injury is minor.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Rashee Rice",
+   "player_id": "10229",
+   "team": "KC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Buy low (top-40-ish ROS); if the Downs trade causes panic, he's an even better buy.",
+   "mechanism": "Target shares of 21% and 24% since returning, a season-high 67% slot rate, red-zone role; Worthy's hamstring likely costs time; deadline WRs rarely integrate before the postseason, and Rice wins vs zone where Downs wins vs man.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Xavier Worthy",
+   "player_id": "11624",
+   "team": "KC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Expect him to miss time despite the 'day-to-day' tag.",
+   "mechanism": "A hamstring on a speed WR is rarely really day-to-day; KC trading for Downs at the buzzer hints the injury is real.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Josh Downs",
+   "player_id": "9500",
+   "team": "KC",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Don't expect fantasy relevance from Downs until the fantasy postseason at best.",
+   "mechanism": "Deadline WR acquisitions (Diontae Johnson, Amari Cooper, Shaheed, Meyers) rarely produce right away because they have no offseason install time; KC's bye is already behind them.",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Josh Downs",
+   "player_id": "9500",
+   "team": "KC",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Sell Downs on the Chiefs hype if anyone will pay; he's a 5-6 catch PPR piece at best.",
+   "mechanism": "Mahomes has the league's lowest air yards/attempt and the 2nd-lowest downfield rate; the undersized, separation-based Downs isn't a goal-line threat and won't be stretched downfield.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "EzOBRNc8RoU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Antonio Williams",
+   "player_id": "13301",
+   "team": "WAS",
+   "pos": "WR",
+   "source": "sal-vetri",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Top-1/2 waiver add and a buy-low trade target (top-75 upside ROS, flex in double-flex leagues).",
+   "mechanism": "Has led WAS in routes for 3 straight weeks since McLaurin went down, with a career-high 84% of snaps; schedule softens after NYG (CIN, ARI, TEN, HOU, ATL).",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Antonio Williams",
+   "player_id": "13301",
+   "team": "WAS",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Not a start: FF would play Jeremy Bernard or Jordan Tyson over him (but Williams over Caleb Douglas).",
+   "mechanism": "74% snaps over 5 games but only 36 yds/game; the WAS receiving corps is spread thin (Diggs, Burks, Van Jefferson).",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Justin Jefferson",
+   "player_id": "6794",
+   "team": "MIN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Mike: Jefferson is the ROS WR3 with Cousins, above Amon-Ra; easy playoff matchups in weeks 16-17.",
+   "mechanism": "Cousins is near the league lead in passing TDs, has no bye left, and knows KOC's offense; KOC stays pass-happy; weeks 16-17 are TEN and ARI (week 15 at DEN is tough).",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Justin Jefferson",
+   "player_id": "6794",
+   "team": "MIN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Jason: sell Jefferson at peak hype if your league prices him as a top-3 WR; he's more like a low-end WR1 (~WR11).",
+   "mechanism": "Cousins and the Vikings offense aren't what they were in the 35-PPG era; elite WRs who slip rarely get back to the top tier. A first game at GB is a tough start.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Kirk Cousins",
+   "player_id": "1166",
+   "team": "MIN",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Upgrade: could finish as the NFL passing-TD leader, playing every remaining week for MIN.",
+   "mechanism": "Cousins is 3 TDs off the league lead; he had no bye with LV and MIN's bye has passed; he's re-joining a familiar KOC system.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jordan Addison",
+   "player_id": "9756",
+   "team": "MIN",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Cousins' arrival lifts Addison along with the rest of the MIN offense.",
+   "mechanism": "QB upgrade from a passing game with no quarterback to a near-league-leading TD passer.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "T.J. Hockenson",
+   "player_id": "5844",
+   "team": "MIN",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "Cousins is an upgrade for Hockenson; he's already TE11 on the season.",
+   "mechanism": "Completions per game should climb sharply with Cousins (a past Hockenson connection), and he has looked better athletically than Warren.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jordan Mason",
+   "player_id": "8408",
+   "team": "MIN",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Cousins gives the MIN run game some viability.",
+   "mechanism": "Defenses can't stack the box against a functional passing offense.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Brock Bowers",
+   "player_id": "11604",
+   "team": "LV",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Rookie Mendoza lowers Bowers from 'TE1-plus-plus' to plain TE1; still a must-start.",
+   "mechanism": "Losing a near-league-leading TD passer for a rookie QB; Bowers had been averaging 17.7 PPG (6.9 rec/game).",
+   "videos": [
+    "9Ke2Cipva-c",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Trey McBride",
+   "player_id": "8130",
+   "team": "ARI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "low",
+   "why": "Also now catching from a rookie (Carson Beck); FF would rather be on the Bowers side of the rookie-QB TE comparison.",
+   "mechanism": "Gardner Minshew went to IR, so rookie Beck starts; McBride's volume (8.1 rec/game, 73 catches) is the cushion.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Keenan Allen",
+   "player_id": "1479",
+   "team": "SF",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "An okay PPR flex right now while SF's WRs are hurt; not a fantasy factor once they get healthy.",
+   "mechanism": "Mike Evans is out and Purdy is an upgrade over IND's banged-up QB; when healthy he's 3rd in line for targets.",
+   "videos": [
+    "9Ke2Cipva-c",
+    "ycrDzHvKNjs"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Seth McGowan",
+   "player_id": "13424",
+   "team": "IND",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "The bet on McGowan starting ROS lost: IND kept Jonathan Taylor (Mike is still holding him for now).",
+   "mechanism": "No Taylor trade means McGowan stays a backup; IND says it can deal Taylor in the offseason.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jonathan Taylor",
+   "player_id": "6813",
+   "team": "IND",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Stays in IND; FF expects at least two more seasons of elite production (dynasty hold).",
+   "mechanism": "An outlier athlete who should still be good at 31-32.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Caleb Douglas",
+   "player_id": "13296",
+   "team": "MIA",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "A downgrade with Kyle McCord starting for the IR'd Malik Willis.",
+   "mechanism": "FF doubts McCord can sustain the rookie WR's usable production; they'd still start him over Emmitt Johnson.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Puka Nacua",
+   "player_id": "9493",
+   "team": "LAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Contenders shouldn't trade for Puka; in redraft, trade him for a healthy WR (e.g. Zay Flowers).",
+   "mechanism": "On IR with a PCL injury, expected back weeks 14-15 at best (his last PCL strain took 6 weeks), so the return could slip to week 16, after you're eliminated.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Cam Skattebo",
+   "player_id": "12481",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A 'dangerous but good' start in his return on TNF vs WAS.",
+   "mechanism": "He was close to playing last week and is now the lone back after Singletary's historically bad 23-touch, sub-5-point game; the hamstring re-aggravation risk is the danger.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Devin Singletary",
+   "player_id": "6130",
+   "team": "NYG",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "high",
+   "why": "Drop/ignore: lowest fantasy output by any RB with 23+ touches in a decade.",
+   "mechanism": "23 touches for under 5 fantasy points; Skattebo's return erases his role.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Malik Nabers",
+   "player_id": "11632",
+   "team": "NYG",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Not worried after a 5-43 dud; the worry is the QB.",
+   "mechanism": "He had four straight 100-yard games before this; McCarthy (hip) vs Winston is the variable, and the low 41.5 total caps him this week.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Isaiah Likely",
+   "player_id": "8131",
+   "team": "NYG",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "low",
+   "why": "No confidence he holds up with McCarthy; he was better in the Jameis Winston sample.",
+   "mechanism": "Likely has been worse with McCarthy, though the full-game sample is about one game.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Chig Okonkwo",
+   "player_id": "8210",
+   "team": "WAS",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "high",
+   "why": "Pick him up now; FF would flex him over the WAS wideouts.",
+   "mechanism": "Targets of 6, 7, 4, 7 over 4 games since the WAS WR injuries; the brutal TE matchups are behind him.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Stefon Diggs",
+   "player_id": "2449",
+   "team": "WAS",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "low",
+   "why": "Startable but disappointing; his target share has been bizarre (out-targeted by Van Jefferson).",
+   "mechanism": "A 33-year-old slot WR can't carry the offense; ~40 yds/game; the NYG defense keeps improving.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Colston Loveland",
+   "player_id": "12517",
+   "team": "CHI",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "The best TE trade target outside Bowers and McBride.",
+   "mechanism": "50+ yards in every game since Caleb returned, on 12/9/7/6 targets; he has the upside path the rest of the muddled TE tier lacks.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Tyler Warren",
+   "player_id": "12518",
+   "team": "IND",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "A PPR volume play: he has to get ~8 targets/game now.",
+   "mechanism": "Keenan Allen and Josh Downs were both traded out of IND, which vacates targets; he's TE31 in recent PPG after missing two weeks and looking poor on film.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Tucker Kraft",
+   "player_id": "9484",
+   "team": "GB",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "No confidence he finishes as a top-5 TE; Andy bought Harold Fannin insurance.",
+   "mechanism": "Matthew Golden is on a ~175-target pace nobody projected, and it's soaking up the targets Kraft needed.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jayden Daniels",
+   "player_id": "11566",
+   "team": "WAS",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "Mike says ROS QB5 and Jason says QB6, but Andy says nowhere near; he'd lock in Goff over Daniels.",
+   "mechanism": "Recent TD drought, McLaurin isn't coming back, he's working back from injury, and the receiving corps is thin; he's QB7 in PPG.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jared Goff",
+   "player_id": "3163",
+   "team": "DET",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "Andy would lock in Goff over Jayden Daniels ROS.",
+   "mechanism": "He's been awesome apart from last week, with a high-scoring DET offense.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Trevor Lawrence",
+   "player_id": "7523",
+   "team": "JAX",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "A locked-in starter with the best remaining QB schedule.",
+   "mechanism": "Soft schedule, though JAX doesn't need to throw much.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Brock Purdy",
+   "player_id": "8183",
+   "team": "SF",
+   "pos": "QB",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "medium",
+   "why": "QB3 in points per game, producing without his WRs.",
+   "mechanism": "He still has McCaffrey and Kittle, and Keenan Allen adds a body.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "A.J. Brown",
+   "player_id": "5859",
+   "team": "NE",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "bust-risk",
+   "conviction": "medium",
+   "why": "If you can't stand him in your lineup, deal him for Garrett Wilson, Jameson Williams or Zay Flowers; otherwise ride it out.",
+   "mechanism": "Long absence, with a 'done forever' tail risk; the AJB + Maye run upside is real but uncertain; he's traveling with the team this week.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Garrett Wilson",
+   "player_id": "8146",
+   "team": "NYJ",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "FF prefers him to A.J. Brown ROS; a buy-low target since he's been on the shelf.",
+   "mechanism": "Health-discounted price; full-time role when active.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Jameson Williams",
+   "player_id": "8148",
+   "team": "DET",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "FF prefers Jamo to A.J. Brown ROS.",
+   "mechanism": "A healthy, active role in a strong offense.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Tetairoa McMillan",
+   "player_id": "12526",
+   "team": "CAR",
+   "pos": "WR",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "A trade target who could go on a run (an A.J. Brown swap idea).",
+   "mechanism": "Bryce Young leads the NFL in passing yards by ~300.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Emmett Johnson",
+   "player_id": "13337",
+   "team": "KC",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "fade",
+   "conviction": "medium",
+   "why": "Don't start him vs ATL even after back-to-back double-digit games.",
+   "mechanism": "Only ~6 carries a game; his points were TD-driven.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Kaelon Black",
+   "player_id": "13414",
+   "team": "SF",
+   "pos": "RB",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Startable next to McCaffrey vs DAL in a thin week.",
+   "mechanism": "Double-digit touches with scoring chances in a good matchup.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "George Kittle",
+   "player_id": "4217",
+   "team": "SF",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "target",
+   "conviction": "low",
+   "why": "The 'next man up' TE trade target after Loveland, though not outrageous.",
+   "mechanism": "A stable role in a high-scoring SF offense.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "player": "Harold Fannin Jr.",
+   "player_id": "12506",
+   "team": "CLE",
+   "pos": "TE",
+   "source": "fantasy-footballers",
+   "direction": "sleeper",
+   "conviction": "low",
+   "why": "Upside TE option in a muddled tier; just one of several hopeful-upside names.",
+   "mechanism": "Recent volume, but no TE outside Bowers/McBride is a clear separator.",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
   }
  ],
  "strategy_notes": [
@@ -15012,798 +14404,6 @@
   "Camp-buzz rookies confirmed by preseason usage: De'Zhaun Stribling (SF), Caleb Douglas (MIA), Pat Bryant (DEN)."
  ],
  "facts": [
-  {
-   "fact": "Braelon Allen: 89% snaps, 88% of RB rush attempts, 72% of routes over the last two games without Breece Hall.",
-   "about": "Braelon Allen",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11576"
-  },
-  {
-   "fact": "Breece Hall missed a third straight game with a quad injury, originally reported as 2-3 weeks.",
-   "about": "Breece Hall",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "8155"
-  },
-  {
-   "fact": "Without DJ Moore (Week 5), Khalil Shakir led BUF with 86% routes and a team-high 17% target share.",
-   "about": "Khalil Shakir",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "8134"
-  },
-  {
-   "fact": "DJ Moore re-injured his AC joint (shoulder) sprain and missed Week 6; BUF bye in Week 7, Moore expected back after.",
-   "about": "DJ Moore",
-   "source": "fantasy-footballers",
-   "videos": [
-    "MtfaeBVwZY4",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "4983"
-  },
-  {
-   "fact": "With Tyler Huntley at QB, Zay Flowers had a 30% target share (9 targets) and Rashod Bateman 20%.",
-   "about": "Zay Flowers",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "9997"
-  },
-  {
-   "fact": "Mike Evans had a 33% target share over the two weeks before Week 6 while playing through broken ribs; also listed with an Achilles injury in Week 6.",
-   "about": "Mike Evans",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "2216"
-  },
-  {
-   "fact": "David Montgomery groin injury after 9 snaps; Woody Marks took 53 snaps vs 1 for Darrynton Evans.",
-   "about": "Woody Marks",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20",
-   "player_id": "12474"
-  },
-  {
-   "fact": "Week 5 NO: Kamara 28% snaps, CJ Donaldson 42%, Kendre Miller 30% snaps but 56% of carries.",
-   "about": "NO backfield",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Week 6 NO: Kendre Miller 20 carries, 32 of 72 snaps, ~3.5 YPC; Donaldson 24 snaps (6 carries, 6.5 YPC); Kamara 19 snaps, 7 carries.",
-   "about": "Kendre Miller",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "9757"
-  },
-  {
-   "fact": "Ja'Kobi Lane Week 6: 31 snaps (3rd), 22 routes, 5 targets (2nd behind Zay Flowers' 11); 3 end-zone targets in Week 1.",
-   "about": "Ja'Kobi Lane",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "13293"
-  },
-  {
-   "fact": "Ja'Kobi Lane college (USC): 49 catches, 745 yards, 18% target share in final season; 3rd-round pick.",
-   "about": "Ja'Kobi Lane",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "13293"
-  },
-  {
-   "fact": "Cardinals beat the Rams as 12.5-point underdogs in Week 6; Brissett threw 35 times; Kendrick Bourne 8 targets (5-47), tied for team high with Trey McBride.",
-   "about": "Kendrick Bourne",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "4454"
-  },
-  {
-   "fact": "Week 5 (first game without Marvin Harrison Jr.): Kendrick Bourne 61% routes, team-high 16% target share among WRs, 70+ receiving yards.",
-   "about": "Kendrick Bourne",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "4454"
-  },
-  {
-   "fact": "Michael Wilson: 4-30 and 4-32 the last two weeks; on pace for 165 targets.",
-   "about": "Michael Wilson",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "10232"
-  },
-  {
-   "fact": "Cardinals allowed 31, 36, 36 and 45 points in successive weeks, then held the Rams to 16.",
-   "about": "ARI defense",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Brian Thomas Jr. played 22% of snaps (15 of ~70) in Week 6, 4th among JAX WRs; one game all season with more than 3 targets.",
-   "about": "Brian Thomas Jr.",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11631"
-  },
-  {
-   "fact": "JAX Week 6 targets: Parker Washington 11, Jakobi Meyers 10, Brenton Strange 7, Travis Hunter 4 (4-59-1), Brian Thomas 2.",
-   "about": "JAX passing game",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Jaylin Noel Week 6: 4-107-1 on 4 targets (26 yds/catch); season targets 2,5,2,3,5,4; 2nd among HOU WRs in routes.",
-   "about": "Jaylin Noel",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "12536"
-  },
-  {
-   "fact": "Marvin Harrison Jr. (traded ARI->HOU for a 2nd-round-plus price) played 12 snaps with 4 targets in his HOU debut.",
-   "about": "Marvin Harrison Jr.",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11628"
-  },
-  {
-   "fact": "Omar Cooper Jr. Week 6: 6-103-1 (another TD called back for penalty), 82% snaps, 7 targets; Garrett Wilson 6 targets, Mason Taylor 6.",
-   "about": "Omar Cooper",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas",
-    "9VxAMMRJ6NA",
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "13276"
-  },
-  {
-   "fact": "Christian Gonzalez shadowed Garrett Wilson for 17 routes, allowing 2 catches for 20 yards.",
-   "about": "Garrett Wilson",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "8146"
-  },
-  {
-   "fact": "Omar Cooper Jr. at Indiana: 70 catches, 961 yards; Jets traded up from 33 to 30 to draft him; missed 4 games with an ankle sprain.",
-   "about": "Omar Cooper",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "13276"
-  },
-  {
-   "fact": "A.J. Brown's first game back from a high-ankle sprain: 52 of 68 snaps, 34 routes (team high), 9-10 targets, 3-27 with multiple drops (incl. a TD) and a muffed onside kick.",
-   "about": "A.J. Brown",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "5859"
-  },
-  {
-   "fact": "Week 6 NE: Efton Chism 42 snaps but only 10 routes; DeMario Douglas 26 routes, 8 targets, 7-86-1; Douglas has 3 TDs in the last 2 games.",
-   "about": "DeMario Douglas",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "9501"
-  },
-  {
-   "fact": "Base rate: WRs usually need 2-3 weeks after a high-ankle sprain to be fully back (Sal); per FF, high-ankle sprains are 'either zero or three weeks'.",
-   "about": "high ankle sprain",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4",
-    "QdA0hcf0C2g"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Base rate: most WR hamstring injuries cost 2-3+ weeks.",
-   "about": "hamstring",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Giants Week 6 RB snaps: Devin Singletary 31 (~40%), Tyrone Tracy 29, Najee Harris 11, Cam Skattebo 6 (0 touches); Skattebo has fumbled in 4 of his first 5 games.",
-   "about": "NYG backfield",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Caleb Douglas (MIA) Week 1: 5-94 on a team-high 7 targets; then an ankle injury.",
-   "about": "Caleb Douglas",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "13296"
-  },
-  {
-   "fact": "Malik Washington is available in 59% of leagues coming out of the MIA bye.",
-   "about": "Malik Washington",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11610"
-  },
-  {
-   "fact": "Keenan Allen: 9, 9 and 12 (or 11) targets in three games without Alec Pierce; 8-82 on a team-high 11 targets in Week 6.",
-   "about": "Keenan Allen",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "1479"
-  },
-  {
-   "fact": "Josh Downs' best finish this season is WR34; recent finishes WR78, 47, 38; four-week pace 63-765-0.",
-   "about": "Josh Downs",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "9500"
-  },
-  {
-   "fact": "Week 6 ARI: Zonovan Knight 15-80 (5.3 YPC) plus 2-18 receiving; Tyler Allgeier 18-38.",
-   "about": "ARI backfield",
-   "source": "sal-vetri",
-   "videos": [
-    "oOhxfhrXvz8",
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Tre Tucker 17-game pace: 99 targets, 68-1,009; WR1 in Week 6 (5-97-2), WR6 in Week 2; final year of his contract.",
-   "about": "Tre Tucker",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "10213"
-  },
-  {
-   "fact": "Kenneth Walker III: 665 rushing yards in his first five games with KC, the most ever for a player's first five games with a team; Week 6 19-128-2; RB finishes 2, 2, 6, 1, 1.",
-   "about": "Kenneth Walker III",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "8151"
-  },
-  {
-   "fact": "No player had reached 30 fantasy points in Week 6 before MNF, the first full week without one since the start of 2025 (Field Yates).",
-   "about": "league",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bhayshul Tuten went 12-39 rushing with 2 receiving TDs; Chris Rodriguez went 11-55.",
-   "about": "JAX backfield",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Chuba Hubbard had 28 carries in Week 6 and has 13+ fantasy points in every game.",
-   "about": "Chuba Hubbard",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "7594"
-  },
-  {
-   "fact": "Drake Maye: QB1 over the last 3 weeks at ~30 PPG with a 10% TD rate; next opponents CHI, MIA.",
-   "about": "Drake Maye",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11564"
-  },
-  {
-   "fact": "Bo Nix average depth of target is 4.9; in the second half of Week 5 his average throw was behind the line of scrimmage.",
-   "about": "Bo Nix",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11563"
-  },
-  {
-   "fact": "Dak Prescott went 34/54 over the last two weeks; 48% catch rate when targeting CeeDee Lamb (17 of 21 targets referenced) across the TB and GB games; DAL is 2-4.",
-   "about": "Dak Prescott",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "3294"
-  },
-  {
-   "fact": "Isaiah Likely Week 6: 11 targets, 6-99-1 plus a 2-point conversion; TE1 in 3 of 6 weeks and TE1 on the season.",
-   "about": "Isaiah Likely",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "8131"
-  },
-  {
-   "fact": "Tyler Shough Week 6: 3 passing TDs on 144 yards plus a rushing TD (32 yards); next opponent PIT.",
-   "about": "Tyler Shough",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "12545"
-  },
-  {
-   "fact": "CHI Week 6 routes: Rome Odunze ~40 (most), Kalif Raymond 2nd, Luther Burden 18 routes with 8 catches; Loveland 5-60-1 in the first half.",
-   "about": "CHI passing game",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Germie Bernard drew 12 targets and DK Metcalf 15 (11-93; 44% of first-read targets) in Week 6.",
-   "about": "PIT passing game",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "DeVonta Smith drew 14 targets (7-75-1) in Week 6.",
-   "about": "DeVonta Smith",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bucky Irving: 85% snaps, 19 carries for 46 yards with Sean Tucker out.",
-   "about": "Bucky Irving",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20",
-   "player_id": "11584"
-  },
-  {
-   "fact": "Corey Kiner took the clock-killing carries for NE; TreVeyon Henderson fumbled again.",
-   "about": "NE backfield",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Week 6 TE2 Kyle Pitts (2 TDs), TE3 Tommy Tremble (no Waller).",
-   "about": "TE",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bears implied team total of 26.5 in Week 6 (5th highest).",
-   "about": "CHI",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Chargers 0-6 with no game over 15 points; LAC bye in Week 7.",
-   "about": "LAC",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas",
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Chiefs WR room thin: Tyquan Thornton on IR; Rashee Rice (hamstring) out; Sal projected Kelce 13.7, Worthy 12.9, Jalen Royals 6, Cyrus Allen 3.",
-   "about": "KC passing game",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Eagles RB depth: Saquon Barkley (hamstring) out; Will Shipley to IR; Tank Bigsby on IR after core-muscle surgery for 4-5+ more weeks; Dameon Pierce RB1 with Carson Steele/Jaden Blue.",
-   "about": "PHI backfield",
-   "source": "sal-vetri",
-   "videos": [
-    "MtfaeBVwZY4"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Rams/Chargers have fewer combined wins at SoFi than the Cardinals (2-0 there).",
-   "about": "ARI",
-   "source": "fantasy-footballers",
-   "videos": [
-    "4Dk3fHQQpas"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Wk6 NYG RB carries: Tracy 6, Singletary 4, Harris 4, Skattebo 0; snaps Singletary 42%, Tracy 38%, Harris 16%, fullback 16%, Skattebo 9% (6 snaps).",
-   "about": "Cam Skattebo",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Skattebo had 4 fumbles in first 5 games.",
-   "about": "Cam Skattebo",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Waddle Wk6: 30% target share, 80% routes, 4-24 on 7 targets; shoulder injury briefly before half.",
-   "about": "Jaylen Waddle",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bo Nix Wk6: 17/27, 107 yds (4.0 YPA); season aDOT 4.9.",
-   "about": "Bo Nix",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Waddle is WR52 through Wk6; excluding Wk2: 14-90, long 13; pace 646 yds 3 TD.",
-   "about": "Jaylen Waddle",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "DEN ranks bottom-5 in yards per play through 6 games.",
-   "about": "DEN",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "A.J. Brown Wk6: 97% routes, 76% snaps, 34% target share (10 targets), 3-27, 2-4 drops.",
-   "about": "A.J. Brown",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Romeo Doubs shoulder (likely AC sprain) — placed on IR.",
-   "about": "Romeo Doubs",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Josh Downs Wk6: 4-40 on 8 targets; Keenan Allen 8-82 on 12 targets; Daniel Jones 42 attempts, ~50% comp, 2 INT.",
-   "about": "IND",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bucky Irving Wk6: 19 carries + 2 catches, 49 yds; 85% snaps, 90% RB rushes; Gainwell 15%; Sean Tucker inactive.",
-   "about": "Bucky Irving",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Bucky averaged 10.2 PPG on 19 touches/game during 2025 stretch with injured Baker.",
-   "about": "Bucky Irving",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Jaylen Warren Wk6: 74% snaps, 63% rush att, 55% routes, 14 carries vs 7 for Dowdle; Rodgers 49 att vs 22 rushes.",
-   "about": "Jaylen Warren",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Trey McBride NFL record: 7+ catches in each of first 6 games.",
-   "about": "Trey McBride",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "ARI last 2 weeks: Wilson and Bourne tied 18% target share; Bourne 8 targets in each of 3 starts, 64 ypg.",
-   "about": "ARI",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "ARI next 5: DEN, DAL, SEA, LAR, KC.",
-   "about": "Michael Wilson",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Mike Evans has played 100% of the time when listed questionable/doubtful.",
-   "about": "Mike Evans",
-   "source": "sal-vetri",
-   "videos": [
-    "H86DYSf7-YI"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "McCaffrey: 80 opportunities this season vs 130 at same point last year; ~17 opp/game first 5 weeks.",
-   "about": "Christian McCaffrey",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "49ers 23, Commanders 17 (MNF Wk6); SF undefeated; Kittle 5-69-TD; Evans 3-94 before injury.",
-   "about": "SF",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Germie Bernard: 11 catches + TD — only rookie WR besides Ja'Marr Chase with such a game in 10 yrs; 57% rostered.",
-   "about": "Germie Bernard",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Jordan Mason rostered 66%; Kyle Pitts 63%; Chig Okonkwo 14%; Baker 27%; Kendre Miller <50%; Tracy <10%.",
-   "about": "waiver",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Kendre Miller Wk6: 20-70; NO season-high 175 rush yds.",
-   "about": "Kendre Miller",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Chig Okonkwo Wk6: 7-7-69.",
-   "about": "Chig Okonkwo",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Matthew Golden WR7 on season; finishes WR4, WR10, WR3 in three of last four weeks with TDs.",
-   "about": "Matthew Golden",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Stroud with Nico Collins active (4 games): 71% comp, ~300 yds/g, 20+ FPPG; HOU 10-pt home fav vs NYG.",
-   "about": "C.J. Stroud",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Carolina 24th in schedule-adjusted points allowed to QBs.",
-   "about": "CAR",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "CHI-NE TNF over/under 50.5.",
-   "about": "CHI/NE",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "NFC East odds: DAL +130, NYG +154.",
-   "about": "NFC East",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Week 7 byes: BUF, LAC, WAS, JAX.",
-   "about": "bye weeks",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "Ja'Kobi Lane drafted 3rd round by BAL; BAL also drafted Elijah Sarratt.",
-   "about": "Ja'Kobi Lane",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
-  {
-   "fact": "FF offseason study: oldest WRs drafted in top 6 rounds (Adams, Evans, McLaurin) all suffered major injuries this season.",
-   "about": "age risk",
-   "source": "fantasy-footballers",
-   "videos": [
-    "FevBuG3TztM"
-   ],
-   "date": "2026-10-20"
-  },
   {
    "fact": "DJ Moore: 17% season target share skewed by 2 early exits; 38% (career high) in week 1 (5-100-1 vs HOU) and 30% in week 3 (6-67) while playing through an AC joint sprain; averaged 33%+ in healthy games",
    "about": "DJ Moore",
@@ -21163,7 +19763,261 @@
     "54IxS5XhU74"
    ],
    "date": "2026-11-10"
+  },
+  {
+   "fact": "Bhayshul Tuten played 36% of snaps on TNF (12 carries, 2.4 YPC, 1 TD) through an ankle/foot game-time decision; the prior two games were 30 pts (RB2) and 25 pts (RB3); RB13 entering the game, 6 TDs.",
+   "about": "Bhayshul Tuten",
+   "player_id": "12490",
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Ollie Gordon over the last 3 games since Achane's injury: 79% snaps, 76% rush attempts, ~17 touches/game, top-20 RB output; 7 catches in 9 games, 2 in the last 4; 285 carries + 40 rec in 2023 college.",
+   "about": "Ollie Gordon",
+   "player_id": "12495",
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Last 5 games: Blake Corum 14.5 PPR PPG vs Kyren Williams 13.9 (JJ Zachariason); Kyren at 63% snaps, 54% rush attempts, 44% routes, 5 targets/game, 14-15% target share, 5+ YPC (career first).",
+   "about": "LAR backfield",
+   "player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Jacoby Brissett: 42+ pass attempts/game in completed starts last year (ARI); 38 att/game this season (2nd in NFL). Lamar Jackson (6-9 week timeline) could return weeks 15-18 vs LAC, CAR, HOU, TB.",
+   "about": "BAL passing game",
+   "player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Carnell Tate last 4 games: 14 PPR PPG, 7.8 targets, 72 rec yds/game; 5th in receptions and 7th in yards among 21 top-10-pick rookie WRs (last 20 yrs) through 8 games; 1 TD. Upcoming: JAX (TEN +10.5), DAL, JAX; JAX allows 4th-most PPR points.",
+   "about": "Carnell Tate",
+   "player_id": "13279",
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Rashee Rice target shares of 21% and 24% in 2 games since returning; 67% slot rate in week 9 (season high by ~20 points); Josh Downs' career YPRR vs man exceeds Rice's, Rice's vs zone exceeds Downs' (NGS via Zachariason).",
+   "about": "Rashee Rice",
+   "player_id": "10229",
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Base rate: deadline-acquired WRs (Diontae Johnson, Amari Cooper, Rashid Shaheed, Jakobi Meyers) mostly gave little fantasy value after the trade; KC's bye (week 5) is already past.",
+   "about": "Deadline WR trades",
+   "player_id": null,
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Antonio Williams has led WAS in routes for 3 straight weeks since McLaurin's injury, at a season-high 84% of snaps (3-25 last week); FF: 74% of snaps over 5 games, 36 yds/game.",
+   "about": "Antonio Williams",
+   "player_id": "13301",
+   "source": "sal-vetri",
+   "videos": [
+    "R7laK5Jk8kU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Mahomes has the NFL's fewest air yards per attempt and the 2nd-lowest downfield throw rate.",
+   "about": "KC passing game",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c",
+    "EzOBRNc8RoU"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "KC paid a 4th + 5th for Josh Downs + a 7th; IND got a 6th for Keenan Allen (to SF); LV got a 3rd for Kirk Cousins (to MIN).",
+   "about": "Deadline trades",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c",
+    "EzOBRNc8RoU",
+    "ycrDzHvKNjs",
+    "WyC1yOZxrpM"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Kirk Cousins' LV contract was $11M with a $650K cap hit; he's 3 passing TDs behind the league lead; he had no bye with LV and MIN is past its bye.",
+   "about": "Kirk Cousins",
+   "player_id": "1166",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "MIN schedule: week 10 at GB; week 15 DEN (tough); weeks 16-17 TEN and ARI.",
+   "about": "MIN",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Brock Bowers: 17.7 PPR PPG, 6.9 rec/game in 7 games. Trey McBride: 73 receptions (next-highest TE has 48), 8.1/game; Michael Mayer is 3rd among TEs with 39 catches.",
+   "about": "TE landscape",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Last-5-week TE PPG order: Bowers, McBride, Likely, Loveland, Kittle, Fannin, Hockenson, Kelce, ..., Kincaid, Kraft 12th, Waller 18th, Tyler Warren 31st (missed 2 weeks). Hockenson is TE11 on the season.",
+   "about": "TE landscape",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Colston Loveland since Caleb Williams' return: 12/9/7/6 targets, 50+ yds every game. Chig Okonkwo: 6/7/4/7 targets over the last 4. Tucker Kraft target lines in 4 of the last 6: 5, 12, 6, 6.",
+   "about": "TE targets",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Matthew Golden is on a ~175-target pace (GB).",
+   "about": "Matthew Golden",
+   "player_id": "12501",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Devin Singletary had 23 touches for under 5 PPR points, the lowest by any RB with that many touches in a decade.",
+   "about": "Devin Singletary",
+   "player_id": "6130",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Malik Nabers had four straight 100-yard games before a 5-43 week (with a dropped TD).",
+   "about": "Malik Nabers",
+   "player_id": "11632",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "WAS (2-5-1) at NYG (5-2-1) on TNF: NYG -2.5, O/U 41.5; week 5 meeting ended in a 27-27 tie.",
+   "about": "WAS @ NYG",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "QB PPG: Jayden Daniels 7th (tied with Cousins and Dak); Purdy 3rd; Stroud, Maye, Love, Purdy, Burrow and Allen are above Daniels.",
+   "about": "QB landscape",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Jordan Love leads the NFL in passing yards, ahead of Bryce Young; Herbert and Drake Maye tie for the INT lead (then Darnold, Daniel Jones, Stafford); Stafford leads in pass attempts and has thrown more INTs than in all of 2025 (8); Burrow leads in completion % (74%), Caleb Williams ~69%.",
+   "about": "QB league leaders",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "De'Andre Swift leads the NFL with 10 rushing TDs (the only double-digit RB); Gibbs, McCaffrey and Javonte Williams tie for 2nd; Derrick Henry is 7th.",
+   "about": "Rushing TD leaders",
+   "player_id": null,
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Bucky Irving is the RB1 in fantasy since week 4.",
+   "about": "Bucky Irving",
+   "player_id": "11584",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Puka Nacua (IR, PCL) is expected back weeks 14-15; his previous PCL strain cost 6 weeks.",
+   "about": "Puka Nacua",
+   "player_id": "9493",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "fact": "Emmett Johnson has had ~6 carries in each of the last two games (double-digit points via TDs).",
+   "about": "Emmett Johnson",
+   "player_id": "13337",
+   "source": "fantasy-footballers",
+   "videos": [
+    "9Ke2Cipva-c"
+   ],
+   "date": "2026-11-11"
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }
