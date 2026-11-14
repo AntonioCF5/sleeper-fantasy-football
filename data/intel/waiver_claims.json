@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-13",
  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
@@ -15,11 +15,11 @@
   {
    "league_id": "1314652488325922816",
    "player": "Jaydon Blue (RB, PHI)",
-   "verdict": "hold-pending",
+   "verdict": "drop",
    "bid": null,
    "drop": null,
-   "date": "2026-11-10",
-   "why": "PHI WAIVED Blue on 11/10 (no offensive snap Week 9). Hold through the NFL waiver period: if another team claims him he keeps a dynasty path; if he clears to a practice squad or goes unsigned, he is LoR's first cut (22, young, but no NFL role = no asset). Re-rule Thursday."
+   "date": "2026-11-13",
+   "why": "PHI waived Blue 11/10 and no NFL team claimed him (Sleeper team=None 11/14). No NFL role means no dynasty asset, so per the 11/10 hold-pending ruling he's LoR's first cut. LoR is 28/28 active; cutting him opens the bench spot for weekly DEF/K streams (12-team league). Taxi is 7/8, but an unsigned player is not worth a taxi slot either."
   },
   {
    "league_id": "1338269686810300416",
@@ -122,11 +122,41 @@
    "drop": null,
    "date": "2026-11-11",
    "why": "Both were dropped by rivals and show 186-195 ROS projections, but that number is a stale preseason line. Measured usage: BTJ ran 34% of snaps with 0 targets in Week 9 and 2-3 targets a game in Weeks 5-8 (JAX dc3); MHJ ran 46% of snaps with 3 targets and a new hamstring (limited Wed). Neither beats Atwell or Ekeler for a 17-man roster in 1QB redraft. Revisit only on a role change."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Marcus Jones (DB, NE)",
+   "verdict": "add-fill",
+   "bid": 0,
+   "drop": "Pittsburgh Steelers DEF",
+   "date": "2026-11-13",
+   "why": "COMPLIANCE: the starting DB slot is EMPTY (Bishop was dropped for the TB DEF in the Week-10 waiver run). The best unrostered DB over Weeks 6-9 under league scoring is Marcus Jones (25.5 pts), with no injury tag, playing Sunday in Munich (9:30am ET). Nick Scott (CAR, 25.0, 1pm) is the fallback. McMillian and Mukuba scored more but DEN and PHI are on bye. The roster is 17/17, so drop the PIT DEF: LAR DEF starts this week and TB DEF (claimed for Week 11) is the next stream. Free-agent add, not a waiver claim."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Emmett Johnson (RB, KC)",
+   "verdict": "watch-trade",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-13",
+   "why": "He's the handcuff to YOUR RB1 Kenneth Walker (groin, DNP Friday, Questionable), and he's rostered by LaloCura. Reid said Johnson takes the bulk of the carries if Walker sits. He isn't claimable. Your Walker fallback is Kimani Vidal (LAC, Monday night), so wait for KC's inactives at 11:30am ET Sunday."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Chimere Dike (WR, TEN)",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-13",
+   "why": "Tate (Out) opens a one-week role; Dike projects 6.9 vs 3.9 for your bench WRs. But Milton is the designated cut for a real breakout only, and Dike matters only if Garrett Wilson (concussion, Q; Glenn 'confident') also sits. Not a breakout."
   }
  ],
  "roster_compliance": {
-  "read_live": "2026-10-31",
-  "Gallamijos League": "17/17 active, IR 0/2 (every reserve_allow_* = 0). All IDP slots filled (Watt/Bolton/Woodson). Week 9: PIT DEF on bench is on bye. A. Mitchell claim pairs with the Ekeler drop.",
+  "read_live": "2026-11-13",
+  "Gallamijos League": "17/17 active, IR 0/2 (reserve_allow_* all 0). DB starter slot EMPTY since the Week-10 TB DEF claim dropped Bishop. Fill: Marcus Jones (NE) for the PIT DEF.",
   "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0.",
   "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",
