@@ -356,6 +356,58 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
 .lu-bench summary::-webkit-details-marker { color: var(--muted); }
 .lu-cell b { font-size: 10.5px; color: var(--muted); text-align: center; }
 .lu-cell .lu-meta { font-size: 11px; }
+/* navigation: programa section, crumbs, ir-a bar, grouped tabs, home hub */
+.nav-sep { margin-top: 6px; padding-left: 16px; }
+.nav-prog { grid-template-columns: 1fr auto; }
+.nav-prog .overview-item svg { color: var(--muted); flex: none; }
+.nav-prog[aria-current="true"] .overview-item svg { color: var(--accent); }
+.crumbs { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin: 0 0 10px; }
+.crumbs button { all: unset; cursor: pointer; color: var(--muted); border-radius: 4px; padding: 1px 2px; }
+.crumbs button:hover { color: var(--accent); text-decoration: underline; }
+.crumbs button:focus-visible { outline: 2px solid var(--accent); }
+.crumbs .sep { color: var(--faint); }
+.crumbs [aria-current] { color: var(--text); font-weight: 600; }
+.toc { position: sticky; top: var(--tabs-h, 42px); z-index: 2; display: flex; gap: 6px; align-items: center; overflow-x: auto; scrollbar-width: none;
+  padding: 8px 0; margin: -6px 0 14px; background: var(--bg); border-bottom: 1px solid var(--border); }
+.toc::-webkit-scrollbar { display: none; }
+.toc-l { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--faint); flex: none; }
+.toc-g { font-size: 11px; font-weight: 700; color: var(--muted); margin-left: 8px; padding-left: 10px; border-left: 1px solid var(--border); flex: none; }
+.toc button { all: unset; cursor: pointer; flex: none; font-size: 12.5px; font-weight: 600; padding: 4px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text); white-space: nowrap; }
+.toc button:hover { background: var(--accent-soft); color: var(--accent); }
+.toc button:focus-visible { outline: 2px solid var(--accent); }
+[id^="r-"], [id^="g-"] { scroll-margin-top: 110px; }
+h2.grp { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 22px 0 10px; font-weight: 800; }
+.tab-group { flex: none; align-self: center; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--faint);
+  padding: 0 4px 0 12px; margin-left: 6px; border-left: 1px solid var(--border); }
+.tab-group:first-child { border-left: 0; margin-left: 0; padding-left: 2px; }
+.ep-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.ep { display: flex; flex-direction: column; gap: 12px; }
+.ep h2 { margin: 0; font-size: 20px; letter-spacing: -.01em; }
+.ep-k { display: flex; gap: 6px; align-items: center; font-size: 12px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
+.ep-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.ep-stats div { background: var(--surface-2); border-radius: 10px; padding: 8px 10px; }
+.ep-stats span { display: block; font-size: 11px; color: var(--muted); font-weight: 600; }
+.ep-stats b { font-size: 18px; }
+.ep-links { display: flex; flex-wrap: wrap; gap: 6px; }
+.ep-links button, .game-link { all: unset; cursor: pointer; font-size: 12.5px; font-weight: 600; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); }
+.ep-links button:hover, .game-link:hover { border-color: var(--accent); color: var(--accent); }
+.ep-links button:focus-visible, .game-link:focus-visible, .game-card:focus-visible, .mini-pick:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.ep-go { align-self: flex-start; margin-top: auto; }
+.ep-surv { margin: 0; font-size: 13px; color: var(--muted); }
+.mini-picks { display: grid; gap: 6px; }
+.mini-pick { all: unset; cursor: pointer; display: flex; align-items: center; gap: 6px; font-size: 13px; padding: 6px 8px; border-radius: 8px; background: var(--surface-2); }
+.mini-pick b { margin-left: auto; } .mini-pick:hover { background: var(--accent-soft); }
+.game-links { display: flex; flex-wrap: wrap; gap: 6px; } .game-link { display: inline-flex; gap: 4px; align-items: center; }
+.day-l { font-size: 12px; font-weight: 700; color: var(--faint); margin: 12px 0 6px; }
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.game-card { all: unset; cursor: pointer; display: grid; gap: 4px; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow); }
+.game-card:hover { border-color: var(--accent); }
+.gc-teams { display: flex; align-items: center; gap: 6px; font-weight: 700; }
+.gc-line { display: grid; font-size: 13px; } .gc-line span { font-size: 12px; }
+.gc-badges { display: flex; gap: 4px; flex-wrap: wrap; min-height: 4px; }
+.kbd-hint { margin-top: 18px; font-size: 12px; }
+.callout.result { border-left-color: var(--good); }
+@media (max-width: 860px) { .ep-grid { grid-template-columns: 1fr; } }
 .help { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; place-items: center; z-index: 20; padding: 16px; }
 .help.open { display: grid; }
 .help .card { max-width: 420px; width: 100%; }
@@ -447,7 +499,7 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
     <h3>Atajos de teclado</h3>
     <div class="stat-row"><span>Partido siguiente / anterior</span><span><span class="kbd">J</span><span class="kbd">K</span> o <span class="kbd">↓</span><span class="kbd">↑</span></span></div>
     <div class="stat-row"><span>Cambiar de pestaña</span><span><span class="kbd">1</span>–<span class="kbd">9</span>, <span class="kbd">0</span> o <span class="kbd">←</span><span class="kbd">→</span></span></div>
-    <div class="stat-row"><span>Cartelera completa</span><span class="kbd">G</span></div>
+    <div class="stat-row"><span>Inicio</span><span class="kbd">G</span></div>
     <div class="stat-row"><span>Buscar</span><span class="kbd">/</span></div>
     <div class="stat-row"><span>Rankings de la temporada</span><span class="kbd">R</span></div>
     <div class="stat-row"><span>Tema claro / oscuro</span><span class="kbd">T</span></div>
@@ -472,11 +524,25 @@ const NAMES = {
   NYJ:"Jets",PHI:"Águilas",PIT:"Acereros",SF:"49ers",SEA:"Halcones Marinos",TB:"Bucaneros",TEN:"Titanes",WSH:"Comandantes"
 };
 const SL = t => t === "WSH" ? "WAS" : t;   // ESPN code → Sleeper code
+const svg = d => `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+const ICON = {
+  home: svg('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/>'),
+  mic: svg('<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>'),
+  doc: svg('<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/>'),
+  grid: svg('<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>'),
+  notes: svg('<path d="M4 5h16M4 10h16M4 15h10M4 20h7"/>'),
+  chart: svg('<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>'),
+};
+// game tabs, in recording order and grouped: on air · the game · fantasy · source
 const TABS = [
-  ["resumen","Resumen"],["equipos","Equipos"],["historia","Historia"],["fantasy","Fantasy"],
-  ["jugadores","Jugadores clave"],["alineaciones","Alineaciones"],["uso","Uso"],["lesiones","Lesiones"],["guion","Guion"],["hoja","Hoja completa"]
+  ["resumen","Resumen"],["guion","Guion"],
+  ["equipos","Equipos"],["historia","Historia"],["lesiones","Lesiones"],
+  ["fantasy","Fantasy"],["jugadores","Jugadores clave"],["alineaciones","Alineaciones"],["uso","Uso"],
+  ["hoja","Hoja completa"]
 ];
-const OV_TABS = [["cartelera","Cartelera"],["recap","Recap y waivers"],["guion","Guion general"],["hoja","Notas de la hoja"]];
+const TAB_GROUPS = {resumen: "Al aire", equipos: "El partido", fantasy: "Fantasy", hoja: "Fuente"};
+const OV_TABS = [["inicio","Inicio"],["recap","Recap y waivers"],["guion","Guion"],["cartelera","Cartelera"],["hoja","Notas de la hoja"]];
+const OV_LABEL = Object.fromEntries(OV_TABS);
 const DAY_ORDER = {jue:0, vie:1, sáb:2, dom:3, lun:4, mar:5, mié:6};
 const DAY_NAME = {jue:"Jueves", vie:"Viernes", sáb:"Sábado", dom:"Domingo", lun:"Lunes", mar:"Martes", mié:"Miércoles"};
 
@@ -644,7 +710,7 @@ function parseHash() {
   return {season, week, game, tab};
 }
 function go(game, tab, replace = false) {
-  const h = `#/${S.season}/${S.week}/${game || "cartelera"}/${tab || (game ? "resumen" : "cartelera")}`;
+  const h = `#/${S.season}/${S.week}/${game || "cartelera"}/${tab || (game ? "resumen" : "inicio")}`;
   if (replace) history.replaceState(null, "", h); else if (location.hash !== h) location.hash = h; else route();
   if (replace) route();
 }
@@ -690,9 +756,18 @@ function renderNav() {
   const groups = {};
   for (const g of S.games.filter(matches)) (groups[g.sheet.day] ||= []).push(g);
   const days = Object.keys(groups).sort((a, b) => (DAY_ORDER[a] ?? 9) - (DAY_ORDER[b] ?? 9));
-  let h = `<div class="nav-group"><button class="nav-item" data-game="" aria-current="${!S.game}">
-      <span class="overview-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Cartelera completa</span>
-      <span class="chip">${S.games.length}</span></button></div>`;
+  const r = S.data.recap, picks = S.data.picks || [];
+  const prog = [
+    ["inicio", "Inicio", ICON.home, ""],
+    ["recap", r ? `Recap semana ${r.week}` : "Recap y waivers", ICON.mic, r?.pending?.length ? `<span class="chip warn" title="Partidos pendientes">${r.pending.length}</span>` : ""],
+    ["guion", `Guion semana ${S.week}`, ICON.doc, picks.length ? `<span class="chip accent" title="Picks registrados">${picks.length}★</span>` : ""],
+    ["cartelera", "Cartelera", ICON.grid, `<span class="chip">${S.games.length}</span>`],
+    ["hoja", "Notas de la hoja", ICON.notes, ""],
+  ];
+  let h = `<div class="nav-group"><div class="nav-label">Programa</div>${prog.map(([k, l, ic, b]) =>
+    `<button class="nav-item nav-prog" data-ov="${k}" aria-current="${!S.game && S.tab === k}"><span class="overview-item">${ic}${esc(l)}</span>${b}</button>`).join("")}
+    <button class="nav-item nav-prog" data-rank="1"><span class="overview-item">${ICON.chart}Rankings</span><span class="kbd">R</span></button></div>
+    <div class="nav-label nav-sep">Partidos · semana ${S.week}</div>`;
   for (const d of days) {
     h += `<div class="nav-group"><div class="nav-label">${DAY_NAME[d] || d}</div>`;
     for (const g of groups[d]) {
@@ -711,26 +786,50 @@ function renderNav() {
   markNav();
 }
 function markNav() {
-  document.querySelectorAll("#nav .nav-item").forEach(b => b.setAttribute("aria-current", String((b.dataset.game || null) === S.game)));
+  document.querySelectorAll("#nav .nav-item").forEach(b => b.setAttribute("aria-current", String(
+    b.dataset.ov ? !S.game && S.tab === b.dataset.ov : b.dataset.rank ? false : (b.dataset.game || null) === S.game)));
 }
 $("#nav").addEventListener("click", e => {
   const b = e.target.closest(".nav-item"); if (!b) return;
+  if (b.dataset.rank) { $("#rankBtn").click(); $("#sidebar").classList.remove("open"); return; }
+  if (b.dataset.ov) { go(null, b.dataset.ov); return; }
   const g = b.dataset.game;
   go(g || null, g ? (TABS.some(t => t[0] === S.tab) ? S.tab : "resumen") : "cartelera");
 });
 
 // ------------------------------------------------------------------ views
 function tabsHtml(list) {
+  const groups = list === TABS ? TAB_GROUPS : {};
   return `<div class="tabs" role="tablist">${list.map(([k, l], i) =>
-    `<button class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}<span class="kbd">${(i + 1) % 10}</span></button>`).join("")}</div>`;
+    `${groups[k] ? `<span class="tab-group" aria-hidden="true">${groups[k]}</span>` : ""}<button class="tab" role="tab" data-tab="${k}" aria-selected="${S.tab === k}">${l}<span class="kbd">${(i + 1) % 10}</span></button>`).join("")}</div>`;
+}
+// where am I: Semana N › section › game › tab (each crumb clickable)
+function crumbs(parts) {
+  return `<nav class="crumbs" aria-label="Ruta">${parts.map(([label, ov, game], i) => i === parts.length - 1
+    ? `<span aria-current="page">${label}</span>`
+    : `<button type="button" data-ov="${ov || ""}" ${game ? `data-go="${game}"` : ""}>${label}</button>`).join('<span class="sep">›</span>')}</nav>`;
+}
+// "Ir a" bar for long pages; items: [{id, label, group?}]
+function toc(items) {
+  if (!items.length) return "";
+  let last = null;
+  return `<nav class="toc" aria-label="Ir a una sección"><span class="toc-l">Ir a</span>${items.map(x => {
+    const g = x.group && x.group !== last ? `<span class="toc-g">${esc(x.group)}</span>` : ""; last = x.group || last;
+    return `${g}<button type="button" data-anchor="${x.id}">${esc(x.label)}</button>`; }).join("")}</nav>`;
 }
 function renderView() {
   const v = $("#view");
   v.innerHTML = S.game ? gameView(S.byKey[S.game]) : overview();
   v.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => go(S.game, b.dataset.tab)));
   v.querySelectorAll("[data-go]").forEach(el => el.addEventListener("click", e => { if (!e.target.closest("a")) go(el.dataset.go, el.dataset.tab || "resumen"); }));
+  v.querySelectorAll("[data-ov]:not([data-go])").forEach(el => el.addEventListener("click", () => go(null, el.dataset.ov)));
+  v.querySelectorAll("[data-jump]").forEach(el => el.addEventListener("click", () => { const [ov, id] = el.dataset.jump.split("#"); S.anchor = id; go(null, ov); }));
+  v.querySelectorAll("[data-anchor]").forEach(el => el.addEventListener("click", () => document.getElementById(el.dataset.anchor)?.scrollIntoView({behavior: "smooth", block: "start"})));
   autoLink(v);
+  // the "Ir a" bar sticks right under the tab bar: overlap 1px so no sliver of content shows between them
+  const tb = v.querySelector(".tabs"); if (tb) v.style.setProperty("--tabs-h", `${tb.offsetHeight - 1}px`);
   $("#main").scrollTop = 0;
+  if (S.anchor) { const el = document.getElementById(S.anchor); S.anchor = null; if (el) el.scrollIntoView({block: "start"}); }
 }
 function renderError(e) {
   $("#view").innerHTML = `<div class="card empty" style="margin-top:40px"><h3 style="justify-content:center">No hay datos para mostrar</h3>
@@ -743,22 +842,19 @@ function overview() {
   const flags = S.games.filter(g => g.flag).length;
   const totals = S.games.map(g => g.odds?.total).filter(x => x != null);
   const imp = S.games.flatMap(g => Object.entries(g.implied || {}).filter(([, v]) => v != null)).sort((a, b) => b[1] - a[1]);
-  let h = `<div class="ov-head"><div><h1>Semana ${d.week}</h1>
-    <p>${S.games.length} partidos por jugar${d.byes?.length ? ` · descansan ${d.byes.join(", ")}` : ""}${d.record ? ` · ${inline(d.record)}` : ""}</p></div></div>`;
-  h += `<div class="kpis">
+  let h = crumbs([[`Semana ${d.week}`, "inicio"], [OV_LABEL[S.tab] || ""]]) + `<div class="ov-head"><div><h1>${S.tab === "inicio" ? `Semana ${d.week}` : esc(OV_LABEL[S.tab] || "")}</h1>
+    <p>${(() => { const played = S.games.filter(gameResult).length, left = S.games.length - played;
+      return played ? `${played} jugados · ${left} por jugar` : `${S.games.length} partidos por jugar`; })()}${d.byes?.length ? ` · descansan ${d.byes.join(", ")}` : ""}${d.record ? ` · ${inline(d.record)}` : ""}</p></div></div>`;
+  const kpis = `<div class="kpis">
     <div class="kpi"><div class="l">Picks registrados</div><div class="v">${picks.length}</div><div class="s">${picks.filter(p => p.conf >= 2).length} apuestas ★★ o más</div></div>
     <div class="kpi"><div class="l">Alertas de línea</div><div class="v">${flags}</div><div class="s">los dos modelos lejos del mercado</div></div>
     <div class="kpi"><div class="l">Total más alto</div><div class="v">${totals.length ? Math.max(...totals) : "—"}</div><div class="s">${esc((S.games.find(g => g.odds?.total === Math.max(...totals)) || {}).game || "")}</div></div>
     <div class="kpi"><div class="l">Total implícito más alto</div><div class="v">${imp[0] ? fmt1(imp[0][1]) : "—"}</div><div class="s">${imp[0] ? imp[0][0] : ""}</div></div>
   </div>`;
   h += tabsHtml(OV_TABS);
+  if (S.tab === "inicio") return h + tabInicio();
   if (S.tab === "recap") return h + tabRecap();
-  if (S.tab === "guion") {
-    const secs = d.rundown?.sections || [];
-    h += secs.length ? `<div class="grid cols-2">${secs.map(s => `<div class="card ${/tarjeta|fantasy/i.test(s.title) ? "span-2" : ""}"><h3>${esc(s.title)}</h3><div class="md compact">${md(s.md)}</div></div>`).join("")}</div>`
-      : `<div class="card empty">Todavía no hay guion para esta semana (<code>rundown.md</code>).</div>`;
-    return h;
-  }
+  if (S.tab === "guion") return h + tabGuionGeneral();
   if (S.tab === "hoja") {
     const parts = String(d.slate_md || "").split(/\n(?=### )/).filter(p => p.startsWith("### "));
     h += `<div class="grid cols-2">${parts.map(p => { const [t, ...rest] = p.split("\n");
@@ -766,6 +862,7 @@ function overview() {
     return h;
   }
   // cartelera
+  h += kpis;
   if (picks.length) {
     h += `<div class="card" style="margin-bottom:16px"><h3>Nuestros picks <span class="chip">${picks.length}</span></h3><div class="picks">${
       [...picks].sort((a, b) => b.conf - a.conf).map(p => { const [aw, hm] = p.game.split("@");
@@ -807,6 +904,83 @@ function overview() {
 document.addEventListener("keydown", e => {
   if (e.key === "Enter" && e.target instanceof Element && e.target.matches("tr[data-go]")) go(e.target.dataset.go);
 });
+
+// guion sections grouped by episode: "Episodio 1 — X" → group "Episodio 1", title "X"
+function guionGroups() {
+  const secs = S.data.rundown?.sections || [];
+  return secs.map((x, i) => {
+    const m = x.title.match(/^(Episodio \d+)\s*[—-]\s*(.*)$/);
+    return {id: `g-sec-${i}`, group: m ? m[1] : "La previa", label: m ? m[2] : x.title, md: x.md, raw: x.title};
+  });
+}
+function tabGuionGeneral() {
+  const secs = guionGroups();
+  if (!secs.length) return `<div class="card empty">Todavía no hay guion para esta semana (<code>rundown.md</code>).</div>`;
+  const games = S.games.filter(g => S.data.rundown?.games?.[g.game]);
+  let h = toc([...secs, ...(games.length ? [{id: "g-games", label: "Partido por partido", group: "Partidos"}] : [])]);
+  let last = null;
+  for (const x of secs) {
+    if (x.group !== last) { if (last) h += `</div>`; h += `<h2 class="grp">${esc(x.group)}</h2><div class="grid cols-2">`; last = x.group; }
+    h += `<div class="card ${/tarjeta|fantasy|radar|correcciones/i.test(x.label) ? "span-2" : ""}" id="${x.id}"><h3>${esc(x.label)}</h3><div class="md compact">${md(x.md)}</div></div>`;
+  }
+  h += `</div>`;
+  if (games.length) h += `<h2 class="grp" id="g-games">Partido por partido</h2><div class="card"><p class="muted" style="margin:0 0 10px">El segmento de cada partido está en su pestaña <b>Guion</b>:</p><div class="game-links">${
+    games.map(g => { const sh = g.sheet, ps = S.picksBy[g.game] || [];
+      return `<button class="game-link" data-go="${g.game}" data-tab="guion">${logo(sh.away)}${sh.away} <span class="faint">@</span> ${logo(sh.home)}${sh.home}${ps.length ? ` <span class="chip accent">${"★".repeat(Math.max(...ps.map(p => p.conf)))}</span>` : ""}</button>`; }).join("")}</div></div>`;
+  return h;
+}
+
+// result of a game already played this week (recap of the same week): score, casino line, the spoken fact
+function gameResult(g) {
+  const r = S.data.recap;
+  if (!r || r.week !== S.week) return null;
+  return (r.results || []).find(x => x.game === g.game && x.as != null) || null;
+}
+
+function tabInicio() {
+  const d = S.data, r = d.recap, picks = d.picks || [];
+  const recSecs = (r?.spoken || []).map((x, i) => ({id: `r-sec-${i}`, label: x.title}));
+  const gSecs = guionGroups();
+  const pickRow = p => { const [aw, hm] = p.game.split("@");
+    return `<button class="mini-pick" data-go="${p.game}">${logo(aw)}${aw} @ ${logo(hm)}${hm}<b>${esc(pickText(p))}</b><span>${"★".repeat(p.conf)}</span>${p.result ? resultChip(p) : ""}</button>`; };
+  const surv = (gSecs.find(x => /survivor/i.test(x.label))?.md || "").split("\n")[0].replace(/\*\*/g, "");
+  let h = `<div class="ep-grid">`;
+  // recap episode
+  h += `<section class="card ep"><div class="ep-k">${ICON.mic} Episodio de recap</div><h2>Recap de la semana ${r ? r.week : "—"}</h2>`;
+  if (r) {
+    const rec = (r.record || "").match(/Semana \d+: \*\*([^*]+)\*\*/), sea = (r.record || "").match(/Temporada: \*\*([^*]+)\*\*/);
+    h += `<div class="ep-stats"><div><span>Picks</span><b>${esc(rec ? rec[1] : "—")}</b></div><div><span>Temporada</span><b>${esc(sea ? sea[1] : "—")}</b></div><div><span>Partidos</span><b>${(r.results || []).length}${r.pending?.length ? ` <small class="faint">+${r.pending.length} pend.</small>` : ""}</b></div></div>`;
+    h += `<div class="ep-links">${recSecs.map(x => `<button data-jump="recap#${x.id}">${esc(x.label)}</button>`).join("")}
+      <button data-jump="recap#r-games">Partido por partido</button><button data-jump="recap#r-waivers">Waivers (tablas)</button><button data-jump="recap#r-data">Resultados y lesiones</button></div>`;
+    h += `<button class="btn primary ep-go" data-ov="recap">Abrir el recap →</button>`;
+  } else h += `<p class="muted">Todavía no hay recap.</p>`;
+  h += `</section>`;
+  // preview episode
+  h += `<section class="card ep"><div class="ep-k">${ICON.doc} Episodio de previa</div><h2>Previa de la semana ${d.week}</h2>
+    <div class="ep-stats"><div><span>Picks</span><b>${picks.length}</b></div><div><span>Alertas</span><b>${S.games.filter(g => g.flag).length}</b></div><div><span>Partidos</span><b>${S.games.length}</b></div></div>`;
+  if (picks.length) h += `<div class="mini-picks">${[...picks].sort((a, b) => b.conf - a.conf).map(pickRow).join("")}</div>`;
+  if (surv) h += `<p class="ep-surv"><b>Survivor:</b> ${esc(surv.slice(0, 140))}${surv.length > 140 ? "…" : ""}</p>`;
+  if (gSecs.length) h += `<div class="ep-links">${gSecs.map(x => `<button data-jump="guion#${x.id}" title="${esc(x.raw)}">${esc(x.group !== "La previa" ? x.group.replace("Episodio ", "Ep. ") + " · " : "")}${esc(x.label)}</button>`).join("")}</div>`;
+  h += `<button class="btn primary ep-go" data-ov="guion">Abrir el guion →</button></section></div>`;
+  // games grid
+  const days = {};
+  for (const g of S.games) (days[g.sheet.day] ||= []).push(g);
+  h += `<h2 class="grp">Partidos</h2>`;
+  for (const dk of Object.keys(days).sort((a, b) => (DAY_ORDER[a] ?? 9) - (DAY_ORDER[b] ?? 9))) {
+    h += `<div class="day-l">${DAY_NAME[dk] || dk}</div><div class="game-grid">`;
+    for (const g of days[dk]) {
+      const sh = g.sheet, res = gameResult(g), ps = S.picksBy[g.game] || [];
+      const line = res ? `<b>${sh.away} ${res.as} · ${sh.home} ${res.hs}</b><span class="faint">${res.ats ? (res.ats === "push" ? "empate vs línea" : `cubrió ${res.ats} por ${res.cover_by}`) : ""}${res.ou ? ` · ${res.ou}` : ""}</span>`
+        : `<b>${esc(sh.line_txt)}</b><span class="faint">O/U ${g.odds?.total ?? "—"} · ${esc(sh.kick_mx.split(", ").pop())}</span>`;
+      h += `<button class="game-card" data-go="${g.game}"><span class="gc-teams">${logo(sh.away)}${sh.away}<span class="faint">@</span>${logo(sh.home)}${sh.home}</span>
+        <span class="gc-line">${line}</span>
+        <span class="gc-badges">${res ? '<span class="chip">Final</span>' : ""}${g.flag ? '<span class="chip flag">🚩</span>' : ""}${ps.map(p => `<span class="chip ${p.result === "W" ? "good" : p.result === "L" ? "bad" : p.conf >= 2 ? "solid" : "accent"}">${esc(pickText(p))}</span>`).join("")}</span></button>`;
+    }
+    h += `</div>`;
+  }
+  h += `<p class="faint kbd-hint">Atajos: <span class="kbd">/</span> buscar · <span class="kbd">J</span><span class="kbd">K</span> partido siguiente/anterior · <span class="kbd">G</span> inicio · <span class="kbd">R</span> rankings · <span class="kbd">?</span> todos</p>`;
+  return h;
+}
 
 
 // ---------- recap + waivers (scripts/podcast_recap.py → recap.json; Claude's recap.md → spoken)
@@ -893,9 +1067,22 @@ function tabRecap() {
     ${gen ? `<span class="faint">· generado ${esc(gen)}</span>` : ""}
     ${(r.pending || []).map(p => `<span class="chip warn">Pendiente: ${esc(p.game.replace("@", " @ "))}</span>`).join("")}</div>`;
 
-  // Claude's spoken recap, when written
-  const sp = r.spoken || [];
-  if (sp.length) h += `<div class="grid cols-2" style="margin-bottom:16px">${sp.map(x => `<div class="card callout ${/waiver|resultados|lesion|comprar/i.test(x.title) ? "span-2" : ""}"><h3>${esc(x.title)}</h3><div class="md compact">${md(x.md)}</div></div>`).join("")}</div>`;
+  // spoken recap first (what gets said), split: story cards · waiver cards
+  const sp = (r.spoken || []).map((x, i) => ({...x, id: `r-sec-${i}`}));
+  const isW = x => /waiver|los que no/i.test(x.title);
+  const card = x => `<div class="card callout ${/waiver|resultados|lesion|comprar|partido/i.test(x.title) ? "span-2" : ""}" id="${x.id}"><h3>${esc(x.title)}</h3><div class="md compact">${md(x.md)}</div></div>`;
+  h += toc([...sp.filter(x => !isW(x)).map(x => ({id: x.id, label: x.title, group: "Al aire"})),
+            {id: "r-games", label: "Partido por partido", group: "Al aire"},
+            ...sp.filter(isW).map(x => ({id: x.id, label: x.title, group: "Waivers"})),
+            {id: "r-waivers", label: "Tablas por posición", group: "Waivers"},
+            {id: "r-data", label: "Resultados", group: "Datos"}, {id: "r-inj", label: "Lesiones", group: "Datos"},
+            {id: "r-buy", label: "Comprar y vender", group: "Datos"}]);
+  if (sp.some(x => !isW(x))) h += `<div class="grid cols-2" style="margin-bottom:16px">${sp.filter(x => !isW(x)).map(card).join("")}</div>`;
+  h += recapGames(r);
+  if (sp.some(isW)) h += `<h2 class="grp">Waivers</h2><div class="grid cols-2" style="margin-bottom:16px">${sp.filter(isW).map(card).join("")}</div>`;
+  const waiverIdx = s_waivers(r);
+  h += waiverIdx;
+  h += `<h2 class="grp" id="r-data">Resultados, lesiones y tendencias</h2>`;
 
   // KPIs
   const sm = r.summary || {};
@@ -938,7 +1125,7 @@ function tabRecap() {
 
   // injuries
   const inj = r.injuries || [];
-  h += `<div class="card" style="margin-bottom:16px"><h3>Lesiones que mueven el fantasy</h3>`;
+  h += `<div class="card" style="margin-bottom:16px" id="r-inj"><h3>Lesiones que mueven el fantasy</h3>`;
   if (!inj.length) h += `<div class="empty">Sin lesiones de titulares registradas durante los partidos.</div>`;
   else {
     h += `<div class="table-wrap"><table class="pl"><thead><tr>${[
@@ -963,7 +1150,7 @@ function tabRecap() {
   const Wt = r.watch || {};
   const schedTxt = sc => sc?.opps?.length ? `<div class="faint" style="font-size:11px">próximos: ${sc.opps.map((o, k) => esc(o) + (sc.ranks?.[k] ? ` ${sc.ranks[k]}º` : "")).join(", ")}${sc.avg ? ` · prom. ${Math.round(sc.avg)}º` : ""}</div>` : "";
   if ((Wt.streaks || []).length || (Wt.losers || []).length || (Wt.flops || []).length || (Wt.qbs || []).length) {
-    h += `<div class="sec-title">Para comprar, vender y vigilar</div><div class="grid cols-2" style="margin-bottom:16px">`;
+    h += `<div class="sec-title" id="r-buy">Para comprar, vender y vigilar</div><div class="grid cols-2" style="margin-bottom:16px">`;
     if ((Wt.flops || []).length) h += `<div class="card span-2"><h3>Titulares que fallaron <span class="chip">menos de la mitad de su promedio</span></h3><div class="table-wrap"><table class="pl"><thead><tr>${[
       TH("Jugador", "Posición, nombre y equipo; abajo, sus próximos rivales y su línea de la semana."),
       TH("Puntos", "Puntos PPR de la semana; abajo, su promedio de la temporada.", "c"),
@@ -987,6 +1174,11 @@ function tabRecap() {
       Wt.streaks.map(x => `<tr><td>${playerCell(x)}</td><td><b>${x.n} seguidos</b> <span class="faint">${esc(x.what)}</span></td><td>${(x.sched?.opps || []).map((o, k) => `${esc(o)} ${rankChip(x.sched.ranks?.[k])}`).join(" ")}</td></tr>`).join("")}</tbody></table></div></div>`;
     h += `</div>`;
   }
+  return h;
+}
+
+function s_waivers(r) {
+  let h = `<div id="r-waivers"></div>`;
   // waivers by position
   const W = r.waivers || {};
   const POS = [["QB", "Mariscales"], ["RB", "Corredores"], ["WR", "Receptores"], ["TE", "Alas cerradas"]];
@@ -1044,6 +1236,11 @@ function tabRecap() {
     <div class="faint" style="font-size:12px;margin-top:8px">Antes de recomendar a cualquiera de estos, hay que saber por qué lo están agregando.</div></div>`;
   h += `</div>`;
 
+  return h;
+}
+
+function recapGames(r) {
+  let h = `<div id="r-games"></div>`;
   // game by game
   h += `<div class="sec-title">Partido por partido</div><div class="grid cols-2">`;
   for (const g of r.games || []) {
@@ -1097,7 +1294,8 @@ function gameView(g) {
     finalChip(g),
     ...picks.map(p => `<span class="chip pick">${esc(pickText(p))} ${"★".repeat(p.conf)}</span>`)
   ].join("");
-  let h = `<section class="hero" style="--away:${COLORS[a]};--home:${COLORS[hm]}">
+  let h = crumbs([[`Semana ${S.week}`, "inicio"], ["Partidos", "cartelera"], [`${a} @ ${hm}`, null, g.game], [(TABS.find(t => t[0] === S.tab) || [])[1] || ""]]) +
+    `<section class="hero" style="--away:${COLORS[a]};--home:${COLORS[hm]}">
     <div class="hero-inner">
       <div class="hero-team">${logo(a, "logo-lg")}<div class="hero-name"><div class="hero-abbr">${a}</div><div class="hero-rec">${NAMES[a] || ""} · ${esc(rec(a))}</div></div></div>
       <div class="hero-mid"><div class="hero-line">${esc(sh.line_txt)}</div><div class="hero-total">Total ${g.odds?.total ?? "—"}${g.odds?.ml_home != null ? ` · ML ${hm} ${g.odds.ml_home > 0 ? "+" : ""}${g.odds.ml_home}` : ""}</div>
@@ -1119,6 +1317,17 @@ function tabResumen(g) {
   const sh = g.sheet, a = sh.away, hm = sh.home, o = g.odds || {};
   const rd = rundownOf(g);
   let h = `<div class="grid cols-3">`;
+  const res = gameResult(g);
+  if (res) {
+    const dato = block(S.data.recap?.spoken_games?.[g.game]?.md, "El dato");
+    h += `<div class="card span-all callout result"><h3>Resultado: ${a} ${res.as} · ${hm} ${res.hs}</h3>
+      <div class="summary-line">${res.line_txt ? `<span class="chip">Cierre ${esc(res.line_txt)} · total ${res.total}</span>` : ""}
+      ${res.ats ? `<span class="chip accent">${res.ats === "push" ? "Empate vs línea" : `${res.ats} cubrió por ${res.cover_by}`}</span>` : ""}
+      ${res.ou ? `<span class="chip ${res.ou === "altas" ? "good" : "bad"}">${res.ou}</span>` : ""}
+      ${(res.picks || []).map(p => `<span class="chip ${p.result === "W" ? "good" : p.result === "L" ? "bad" : ""}">Pick: ${esc(pickText(p))}</span>`).join("")}</div>
+      ${dato ? `<div class="md" style="margin-top:8px">${md(dato)}</div>` : ""}
+      <button class="btn" style="margin-top:8px" data-ov="recap">Ver el recap completo →</button></div>`;
+  }
   h += callout(block(rd?.md, "El pick"), "El pick al aire");
   h += callout(block(rd?.md, "Noticias"), "Noticias del partido");
   // line card
@@ -1507,7 +1716,7 @@ document.addEventListener("keydown", e => {
   else if (k === "k" || e.key === "ArrowUp") { e.preventDefault(); if (i > 0) go(list[i - 1], S.tab); else go(null, "cartelera"); }
   else if (e.key === "ArrowRight" || e.key === "ArrowLeft") { const ti = tabs.indexOf(S.tab); go(S.game, tabs[(ti + (e.key === "ArrowRight" ? 1 : tabs.length - 1)) % tabs.length]); }
   else if (/^[0-9]$/.test(e.key) && tabs[(+e.key || 10) - 1]) go(S.game, tabs[(+e.key || 10) - 1]);
-  else if (k === "g") go(null, "cartelera");
+  else if (k === "g") go(null, "inicio");
   else if (k === "t") $("#themeBtn").click();
   else if (k === "r") $("#rankBtn").click();
   else if (e.key === "/") { e.preventDefault(); $("#sidebar").classList.add("open"); $("#search").focus(); }

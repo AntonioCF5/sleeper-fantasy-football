@@ -13,7 +13,7 @@ build takes the same podcast_app.html and:
   - embeds team logos and the offensive starters' Sleeper headshots as data: URIs
     (every other avatar falls back to initials, logos to the colored team chip);
   - swaps the #/season/week/game/tab router for plain hashes
-    (#cartelera, #recap, #general-guion, #cin-atl-fantasy);
+    (#inicio, #cartelera, #recap, #general-guion, #cin-atl-fantasy);
   - hides Actualizar and the week picker (one frozen week).
 Re-run it after any refresh to republish the artifact.
 """
@@ -68,17 +68,17 @@ def images(payload):
 
 
 STATIC_ROUTER = r'''
-// ---- static build: plain-hash router (#cartelera, #recap, #general-guion, #cin-atl-fantasy)
+// ---- static build: plain-hash router (#inicio, #cartelera, #recap, #general-guion, #cin-atl-fantasy)
 function parseHash() {
   const h = decodeURIComponent(location.hash.replace(/^#/, "")).toLowerCase();
   const m = h.match(/^([a-z]+)-([a-z]+)-([a-z]+)$/);
   if (m) { const g = (S.games || []).find(x => x.game.toLowerCase() === `${m[1]}@${m[2]}`); if (g) return {game: g.game, tab: m[3]}; }
   if (h.startsWith("general-")) return {game: "cartelera", tab: h.slice(8)};
-  return {game: "cartelera", tab: h || "cartelera"};
+  return {game: "cartelera", tab: h || "inicio"};
 }
 function hashFor(game, tab) {
   if (game && game !== "cartelera") return `#${game.toLowerCase().replace("@", "-")}-${tab}`;
-  return tab === "cartelera" || tab === "recap" ? `#${tab}` : `#general-${tab}`;
+  return ["inicio", "cartelera", "recap"].includes(tab) ? `#${tab}` : `#general-${tab}`;
 }
 function go(game, tab, replace = false) {
   const h = hashFor(game, tab || (game ? "resumen" : "cartelera"));

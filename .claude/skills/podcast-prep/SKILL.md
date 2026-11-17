@@ -468,6 +468,35 @@ UI (HTML, CSS and JS in one file).
     shows the final score.
   - Guion general: the rundown's `##` sections.
   - Notas de la hoja: `slate_md`.
+- **Navigation (user 2026-11-16: "arrange everything so I can navigate it simply, with good UI/UX practices")**:
+  - **The sidebar's "Programa" section is always visible:** Inicio, Recap semana N
+    (with a badge for pending games), Guion semana N (with the picks count),
+    Cartelera, Notas de la hoja, and Rankings. Below it, the games by day.
+  - **Inicio is the hub and the landing page:**
+    - Two episode cards. Recap shows the record, season and games, with jump
+      links to every spoken section plus Partido por partido and the tables.
+      Previa shows picks with their results, the survivor line, and jump
+      links to every guion section grouped by episode.
+    - A grid of games with the score and the cover/O-U chip once a game is
+      final.
+    - A shortcut hint.
+  - **Long pages get a sticky "Ir a" bar** under the tabs (`toc()`):
+    - Recap is ordered for recording: spoken cards → Partido por partido →
+      waivers (spoken cards + tables) → data tables.
+    - The guion groups the `## Episodio N — …` sections under episode headers,
+      and ends with links to every game's Guion tab.
+  - **Breadcrumbs everywhere** (`crumbs()`), and every crumb is clickable.
+  - **Game tabs in recording order, grouped:**
+    - Al aire: Resumen, Guion.
+    - El partido: Equipos, Historia, Lesiones.
+    - Fantasy: Fantasy, Jugadores clave, Alineaciones, Uso.
+    - Fuente: Hoja completa.
+  - Once the recap of the same week exists, a final game's Resumen opens
+    with a **Resultado** card: score, casino line, picks, and the recap's
+    "El dato".
+  - When you add a new page or section, give it an id, put it in the
+    relevant `toc()`, and link it from Inicio when it's something read on
+    air.
 - Per game:
   - **Banner** (top of every game): venue, the kickoff-hour forecast chip
     (°C, sky, wind/gusts in km/h, rain %, "techo retráctil"; tooltip in °F/mph),
