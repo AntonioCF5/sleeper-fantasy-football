@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13",
- "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+ "updated": "2026-11-16",
+ "note": "Curated waiver rulings \u2014 the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
    "league_id": "1385473470141313024",
@@ -15,11 +15,11 @@
   {
    "league_id": "1314652488325922816",
    "player": "Jaydon Blue (RB, PHI)",
-   "verdict": "drop",
+   "verdict": "hold",
    "bid": null,
    "drop": null,
-   "date": "2026-11-13",
-   "why": "PHI waived Blue 11/10 and no NFL team claimed him (Sleeper team=None 11/14). No NFL role means no dynasty asset, so per the 11/10 hold-pending ruling he's LoR's first cut. LoR is 28/28 active; cutting him opens the bench spot for weekly DEF/K streams (12-team league). Taxi is 7/8, but an unsigned player is not worth a taxi slot either."
+   "date": "2026-11-16",
+   "why": "REVERSED 11/16: PHI signed Blue to the practice squad Monday, so he has an NFL home. Hold; move to LoR taxi (7/8) if Sleeper allows it, freeing an active spot for DEF/K streams."
   },
   {
    "league_id": "1338269686810300416",
@@ -28,7 +28,7 @@
    "bid": null,
    "drop": null,
    "date": "2026-10-31",
-   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
+   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays \u2014 keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
   },
   {
    "league_id": "1338269686810300416",
@@ -152,6 +152,39 @@
    "drop": null,
    "date": "2026-11-13",
    "why": "Tate (Out) opens a one-week role; Dike projects 6.9 vs 3.9 for your bench WRs. But Milton is the designated cut for a real breakout only, and Dike matters only if Garrett Wilson (concussion, Q; Glenn 'confident') also sits. Not a breakout."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Gavin Bartholomew (TE, MIN)",
+   "player_id": "12700",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-16",
+   "why": "77% snaps only because Hockenson was out; O'Connell expects Hockenson back vs SF. Okonkwo (Q) is your only TE, so recheck Friday."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Xavier Hutchinson (WR, HOU)",
+   "player_id": "10218",
+   "verdict": "optional",
+   "bid": null,
+   "drop": "Tutu Atwell",
+   "date": "2026-11-16",
+   "why": "3 straight TD games, 9 targets in Week 10. Priority waivers (no FAAB); roster 17/17 so the drop is named."
+  },
+  {
+   "league_id": "1388097370255794176",
+   "league": "Gallamijos Dynasty",
+   "player": "Ladd McConkey (WR, LAC)",
+   "player_id": "11635",
+   "verdict": "ir-move",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-16",
+   "why": "Out (back); IR is 2/4 and allow_out=1, so IR him to open an active spot. No drop needed."
   }
  ],
  "roster_compliance": {
@@ -159,9 +192,9 @@
   "Gallamijos League": "17/17 active, IR 0/2 (reserve_allow_* all 0). DB starter slot EMPTY since the Week-10 TB DEF claim dropped Bishop. Fill: Marcus Jones (NE) for the PIT DEF.",
   "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0.",
-  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",
+  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed \u2014 Saquon plays).",
   "League of Record": "28/28 active after the Blue add, IR 5/8, taxi 7/8. Read live 10/31.",
-  "Guillotine TRC": "14/14, no IR. Lamar off the injury report — starts Week 8. FAAB 469/1000 left.",
+  "Guillotine TRC": "14/14, no IR. Lamar off the injury report \u2014 starts Week 8. FAAB 469/1000 left.",
   "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
  }
 }

@@ -1736,3 +1736,9 @@ without testing it.
 - Sell the narrative peak after a QB-upgrade trade (FF): when league-mates price the beneficiary a tier above your rank (Jefferson as WR3 vs your WR11), that's the week the value is debatable enough to sell.
 - Teammate-absence sell screen (Sal, 2026-11-13): before buying or holding a spike, check whether the snap share jumped while a teammate was out (Pollard 76-80% without Spears vs a 55% max with him) and how much of the season total one game supplies (McMillan: 43% from one game). Either one = sell the box score. Our audit add: test "out-snapped" claims against CARRY share too. Allen out-snapped Hall 59/43 in Week 9, but Hall had 60% of the carries to Allen's 32%.
 - Sunk-cost reset (FF, 2026-11-13): re-value expensive acquisitions (high picks, big trades) on current usage, not on the price paid, and don't assume an elite-position edge survives a QB change (Bowers with Mendoza, Kraft after Golden/Watson absorbed targets). Spend upgrade effort on the flex instead.
+
+## 2026-11-16 additions
+- Injury → explicit next-man-up chain with conditional rankings (Sal: Walker out ⇒ Emmett Johnson top-12 RB; Marks out/Montgomery in ⇒ split).
+- Usage vs TD luck: check inside-the-5 usage before buying TD regression (Chase Brown: steady opportunities, TDs below norm).
+- Trade-deadline buy-low: one dud beside a teammate's breakout (Olave after Tyson) is where owners panic.
+- After a QB injury, fade the whole offense at once (Maye out → Rhamondre, Henry, AJ Brown all drop).
