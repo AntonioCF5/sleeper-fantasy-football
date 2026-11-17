@@ -484,6 +484,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-11-03 | Dinastía (jornada 8) | "🗞️ *PRIMERA PLANA:* La Dona ya sabe qué se siente perder. / …«¿Qué se sentirá perder?»… «Miroslava me la suda»… ¿Y ahora quién suda, papacito? / Buenos días, criaturas." *(pedido del user: cobrarle el reto del video "Miroslava responde a La Dona"; reemplazó al VAR)* |
 | 2026-11-10 | Gallamijos (jornada 9) | "📢 *AVISO DE PROTECCIÓN CIVIL:* se recomienda a la población tener lista su mochila de emergencia: agua, linterna, documentos y un pateador. / My Son Dave salió el domingo sin pateador. / Buenos días, humanos promedio." *(técnica nueva: aviso oficial; trae el viral de la semana)* |
 | 2026-11-10 | Dinastía (jornada 9) | "📜 *ACTA DE LA JORNADA 9.* Se hace constar que *Same Old Jets* llegó a 0-9. No se encontró irregularidad alguna. Thanos lo diría mejor: «soy inevitable». / Da fe, Miroslava. / Buenos días, corazones." *(usa 'acta' del banco)* |
+| 2026-11-17 | Gallamijos (jornada 10) | "🧾 *TICKET DE LA JORNADA 10:* 1 Frijolinsky, ex-líder… 4 titulares de Jro91 sin partido… *Total:* la dignidad. Gracias. / Buenos días, mis cuates." *(usa 'ticket/recibo' del banco)* |
+| 2026-11-17 | Dinastía (jornada 10) | "📣 *COMUNICADO OFICIAL DE LA COMISIÓN:* fecha límite de trades, semana 11… las ofertas que no se puedan rechazar, a cualquier hora. Firma: el Bebé Blatter. / Buenos días, caballeros." *(usa 'comunicado' del banco; guiño al Padrino)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -511,6 +513,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-11-03 | Dinastía (jornada 8) | "Besos para Rorro, que ya le agarró el gusto a ganar. Al Faraón, ni uno: alineó una defensa de vacaciones. Y a La Dona, ni un beso: que se lo dé el letrero. / Miroslava, que no necesita VAR" |
 | 2026-11-10 | Gallamijos (jornada 9) | "A George, un beso con rodillera. Al Doctor, uno de 0.2. Y a La Dona, un pateador con moño: la mochila no se arma sola. / Miroslava, con la mochila de emergencia lista" |
 | 2026-11-10 | Dinastía (jornada 9) | "A Charly, un beso por cada punto: 158.6. Al Faraón, un corredor que sí juegue. Y a Dave, que Josh Allen le devuelva el cariño. / Miroslava, que da fe" |
+| 2026-11-17 | Gallamijos (jornada 10) | "Cuenta cerrada, coaches. A Zenitsu, la casa invita: 179.2. Al Alacrán, el cambio: 14.5. Y a Jro91, mesa para 12: a ver si llegan los 12. / Miroslava, que ya pidió la cuenta" |
+| 2026-11-17 | Dinastía (jornada 10) | "A Dave, 0.4 de beso, que fue lo que alcanzó. A Gallagher, mi pésame con sal. A Rul, la banca por correo certificado. Y a quien tenga una oferta guardada: se manda hoy o calla para siempre. / Miroslava, que redacta lo que la comisión no se atreve a firmar" |
 | 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
@@ -519,7 +523,7 @@ existe solo para re-revisar algo ya enviado.
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
 bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
-sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · ~~acta~~ (usado Dinastía 11-10) · ~~aviso de Protección Civil~~ (usado Gallamijos 11-10) · banco por rellenar: comunicado de prensa de la directiva · ticket/recibo · alerta sísmica de la liga.*
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · ~~acta~~ (usado Dinastía 11-10) · ~~ticket/recibo~~ (usado Gallamijos 11-17) · ~~comunicado~~ (usado Dinastía 11-17) · ~~aviso de Protección Civil~~ (usado Gallamijos 11-10) · banco por rellenar: alerta sísmica de la liga.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -895,7 +899,7 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 21 de 32** tras la jornada 9 (18 de 28 tras la 8) (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 25 de 36** tras la jornada 10 (21 de 32 tras la 9) (18 de 28 tras la 8) (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
@@ -911,7 +915,8 @@ cambios suyos sobre mi borrador, cada uno una regla:
    Dinastía — La Dona > el Bebé ✓, Gallagher > Buz ✓ → **16 de 24**.
    Jornada 8 (11-03): Gallamijos — Frijol > Rorro ✗, Alacrán > Buz ✓; Dinastía — La Dona > Gallagher ✗, Dave > Fer ✓ → **18 de 28**.
    Jornada 9 (11-10): Gallamijos — Frijol > Charly ✓ (152.0-148.6), Doctor > Cano ✗ (Cano por 0.2); Dinastía — Rul > Gallagher ✓, La Dona > Buz ✓ → **21 de 32**.
-   Pendientes del 11-10 (jornada 10): Gallamijos — Doctor > Frijol, Chapo > Dave; Dinastía — Rorro > Fer, Dave > Gallagher.
+   Jornada 10 (11-17): Gallamijos — Doctor > Frijol ✓, Chapo > Dave ✓; Dinastía — Rorro > Fer ✓, Dave > Gallagher ✓ (por 0.4) → **25 de 36**.
+   Pendientes del 11-17 (jornada 11): Gallamijos — Alacrán > Rorro, Zenitsu > Pulpo Power; Dinastía — La Dona > Rul, Dave > Jro91.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
@@ -1354,3 +1359,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
 - [ ] Momentos legendarios que el user irá soltando sobre la marcha.
 - [ ] Apodos que se ganen a punta de resultados esta temporada (proponerlos en
   cada edición; el user aprueba antes de que entren aquí).
+
+- 2026-11-17 · **Pase del editor a la J10**:
+  · **Una apertura `emoji *TÍTULO*` sola en su línea se renderiza como sección** (el saludo quedaba dentro): usar `*TÍTULO:*` con los dos puntos dentro del asterisco.
+  · **"Mala costumbre" inventa un hábito** y contradice el "le salió" (Jebusf sentó a Herbert por McCarthy): se cambió por "Casualidad."
+  · **Retrovisor otra vez**: Hutchinson en la banca del Bebé y los recuperables de LaviboradeLamar son MALA SUERTE en la hoja; el chiste va como noticia/análisis, no como pendejada.
+  · **Remates que se contradicen con la tabla** (Pitones "el 2º lugar de costumbre" estando 8º; Pan Ocha "penthouse real, tabla de sótano" estando 11º proyectado 11º): reescritos.
+  · **Moldes en descanso**: "A X, un beso con/de Y" (4 ediciones seguidas), "nunca es lupus", "el Rey de las Maldiciones se maldijo solo", "corona mercenaria", "los monstruos de Rul", VAR, la sal más de 3 veces por nota, "casilla vacía" como remate.
+  · **Termómetro**: "0 + 5 son 5 victorias" ilegible → "5 victorias máximas y el 4º ya tiene 7"; "adentro" = posición de hoy, no clasificado.
+  · **Dato repetido entre las 2 notas**: Maye y Bengals 38-18 se cuentan en las dos Regaderas con dueños y frases distintas (Burrow y las yardas solo en la redraft).
+  · No se encontró viral mexicano fechado de la semana (la búsqueda solo devolvió julio/marzo): se omitió.
