@@ -288,6 +288,15 @@ tells the user to re-check news once before accepting.
   - Pendiente el viernes: los reportes oficiales de práctica, la reserva de
     Puka y la de Jacobs (el sábado), si Cousins arranca, Pickens, Evans y
     Deebo.
+  **Recap semana 10 (lun 16 nov, antes del MNF LAC@BAL):**
+  - Picks 2-2: ganaron CAR +2.5 y las Bajas MIN/GB; perdieron NE +2.5 (Maye
+    se lastimó en el primer cuarto) y las Bajas JAX/TEN. Temporada 6-7.
+    Survivor LAR ganó.
+  - `recap.md` lleva un "El dato" por partido con "Qué pasó" y "Qué
+    significa".
+  - Faltan: correr `podcast_recap.py 10` después del MNF y escribir el dato
+    de LAC@BAL; los waivers de la semana 11 no se escribieron (el user no
+    los pidió).
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

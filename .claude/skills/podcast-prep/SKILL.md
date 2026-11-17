@@ -979,6 +979,17 @@ esta noche" line until it's final.
   card.
 - The `##` sections stay as the cards above.
 
+**Two points per game** (user 2026-11-16: "1-2 important points of what
+happened and how it affects that team's future or fantasy"). Under `El dato`
+(the headline), indent two sub-bullets:
+- `**Qué pasó:**` the box-score fact with its usage number;
+- `**Qué significa:**` the forward read: standings or division race, who
+  starts at QB next week, a role that changed, and the fantasy action.
+
+`block()` keeps indented lines, so the app's game card shows all three.
+Every number is checked against `recap-prep.md`. Standings come from records
+after the game.
+
 **The waiver ruling lives in recap.md.** The mechanical tiers in the
 waiver tables below it are only the starting point. Wk 9 example: the
 script put Singletary at A, and research dropped him to "Los que NO",

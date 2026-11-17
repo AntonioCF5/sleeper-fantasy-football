@@ -1,0 +1,6217 @@
+{
+ "season": "2026",
+ "week": 10,
+ "generated": "2026-11-16T19:14:03.318560-06:00",
+ "record": "Semana 10: **2-2** · Temporada: **6-7**",
+ "picks": [
+  {
+   "game": "CAR@NO",
+   "bet": "spread",
+   "side": "CAR",
+   "line": 2.5,
+   "conf": 2,
+   "why": "🚩 SRS -2.9 / FPI -2.5 vs market + predictapp NO 51% vs 55.5%; NO C McCoy out, Shough playing with 2 broken bones in non-throwing hand, Etienne out; Hubbard 81% backfield vs NO (1st most PPR allowed to RB)",
+   "result": "W"
+  },
+  {
+   "game": "NE@DET",
+   "bet": "spread",
+   "side": "NE",
+   "line": 2.5,
+   "conf": 1,
+   "why": "All three models lean NE (SRS -2.8, FPI -1.5, predictapp DET 55.6 vs 58.4 market); DET D without Kerby Joseph, Jack Campbell (IR), Reed/Mays doubtful; DET #1 in PPR allowed to QBs",
+   "result": "L"
+  },
+  {
+   "game": "MIN@GB",
+   "bet": "total",
+   "side": "under",
+   "line": 42.5,
+   "conf": 1,
+   "why": "Naive total 39.0 and predictapp 39.1 vs 42.5; MIN allows 15 ppg last 5, Jacobs out, Cousins 4 days into the system",
+   "result": "W"
+  },
+  {
+   "game": "JAX@TEN",
+   "bet": "total",
+   "side": "under",
+   "line": 46.5,
+   "conf": 1,
+   "why": "Naive total 43.3, predictapp P(over) 41%; JAX added Bates/Davis/Godchaux; TEN implied 18, Carnell Tate DNP Wed",
+   "result": "L"
+  }
+ ],
+ "summary": {
+  "fav": [
+   8,
+   5,
+   0
+  ],
+  "home": [
+   3,
+   10,
+   0
+  ],
+  "ou": [
+   8,
+   5,
+   0
+  ]
+ },
+ "results": [
+  {
+   "game": "WSH@NYG",
+   "away": "WSH",
+   "home": "NYG",
+   "as": 24,
+   "hs": 21,
+   "winner": "WSH",
+   "spread": -2.5,
+   "total": 40.5,
+   "line_txt": "NYG -2.5",
+   "ats": "WSH",
+   "cover_by": 5.5,
+   "miss": -5.5,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "NE@DET",
+   "away": "NE",
+   "home": "DET",
+   "as": 10,
+   "hs": 35,
+   "winner": "DET",
+   "spread": -2.5,
+   "total": 51.5,
+   "line_txt": "DET -2.5",
+   "ats": "DET",
+   "cover_by": 22.5,
+   "miss": 22.5,
+   "ou": "bajas",
+   "picks": [
+    {
+     "game": "NE@DET",
+     "bet": "spread",
+     "side": "NE",
+     "line": 2.5,
+     "conf": 1,
+     "why": "All three models lean NE (SRS -2.8, FPI -1.5, predictapp DET 55.6 vs 58.4 market); DET D without Kerby Joseph, Jack Campbell (IR), Reed/Mays doubtful; DET #1 in PPR allowed to QBs",
+     "result": "L"
+    }
+   ]
+  },
+  {
+   "game": "KC@ATL",
+   "away": "KC",
+   "home": "ATL",
+   "as": 35,
+   "hs": 13,
+   "winner": "KC",
+   "spread": 3.0,
+   "total": 46.5,
+   "line_txt": "KC -3",
+   "ats": "KC",
+   "cover_by": 19.0,
+   "miss": -19.0,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "HOU@CLE",
+   "away": "HOU",
+   "home": "CLE",
+   "as": 24,
+   "hs": 27,
+   "winner": "CLE",
+   "spread": 4.5,
+   "total": 41.5,
+   "line_txt": "HOU -4.5",
+   "ats": "CLE",
+   "cover_by": 7.5,
+   "miss": 7.5,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "MIN@GB",
+   "away": "MIN",
+   "home": "GB",
+   "as": 30,
+   "hs": 10,
+   "winner": "MIN",
+   "spread": -3.0,
+   "total": 42.5,
+   "line_txt": "GB -3",
+   "ats": "MIN",
+   "cover_by": 23.0,
+   "miss": -23.0,
+   "ou": "bajas",
+   "picks": [
+    {
+     "game": "MIN@GB",
+     "bet": "total",
+     "side": "under",
+     "line": 42.5,
+     "conf": 1,
+     "why": "Naive total 39.0 and predictapp 39.1 vs 42.5; MIN allows 15 ppg last 5, Jacobs out, Cousins 4 days into the system",
+     "result": "W"
+    }
+   ]
+  },
+  {
+   "game": "JAX@TEN",
+   "away": "JAX",
+   "home": "TEN",
+   "as": 40,
+   "hs": 23,
+   "winner": "JAX",
+   "spread": 10.5,
+   "total": 46.5,
+   "line_txt": "JAX -10.5",
+   "ats": "JAX",
+   "cover_by": 6.5,
+   "miss": -6.5,
+   "ou": "altas",
+   "picks": [
+    {
+     "game": "JAX@TEN",
+     "bet": "total",
+     "side": "under",
+     "line": 46.5,
+     "conf": 1,
+     "why": "Naive total 43.3, predictapp P(over) 41%; JAX added Bates/Davis/Godchaux; TEN implied 18, Carnell Tate DNP Wed",
+     "result": "L"
+    }
+   ]
+  },
+  {
+   "game": "MIA@IND",
+   "away": "MIA",
+   "home": "IND",
+   "as": 22,
+   "hs": 24,
+   "winner": "IND",
+   "spread": -3.5,
+   "total": 38.5,
+   "line_txt": "IND -3.5",
+   "ats": "MIA",
+   "cover_by": 1.5,
+   "miss": -1.5,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "CAR@NO",
+   "away": "CAR",
+   "home": "NO",
+   "as": 20,
+   "hs": 17,
+   "winner": "CAR",
+   "spread": -2.5,
+   "total": 48.5,
+   "line_txt": "NO -2.5",
+   "ats": "CAR",
+   "cover_by": 5.5,
+   "miss": -5.5,
+   "ou": "bajas",
+   "picks": [
+    {
+     "game": "CAR@NO",
+     "bet": "spread",
+     "side": "CAR",
+     "line": 2.5,
+     "conf": 2,
+     "why": "🚩 SRS -2.9 / FPI -2.5 vs market + predictapp NO 51% vs 55.5%; NO C McCoy out, Shough playing with 2 broken bones in non-throwing hand, Etienne out; Hubbard 81% backfield vs NO (1st most PPR allowed to RB)",
+     "result": "W"
+    }
+   ]
+  },
+  {
+   "game": "BUF@NYJ",
+   "away": "BUF",
+   "home": "NYJ",
+   "as": 31,
+   "hs": 12,
+   "winner": "BUF",
+   "spread": 8.5,
+   "total": 50.5,
+   "line_txt": "BUF -8.5",
+   "ats": "BUF",
+   "cover_by": 10.5,
+   "miss": -10.5,
+   "ou": "bajas",
+   "picks": []
+  },
+  {
+   "game": "SEA@LV",
+   "away": "SEA",
+   "home": "LV",
+   "as": 21,
+   "hs": 13,
+   "winner": "SEA",
+   "spread": 6.5,
+   "total": 40.5,
+   "line_txt": "SEA -6.5",
+   "ats": "SEA",
+   "cover_by": 1.5,
+   "miss": -1.5,
+   "ou": "bajas",
+   "picks": []
+  },
+  {
+   "game": "LAR@ARI",
+   "away": "LAR",
+   "home": "ARI",
+   "as": 34,
+   "hs": 6,
+   "winner": "LAR",
+   "spread": 9.5,
+   "total": 39.5,
+   "line_txt": "LAR -9.5",
+   "ats": "LAR",
+   "cover_by": 18.5,
+   "miss": -18.5,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "SF@DAL",
+   "away": "SF",
+   "home": "DAL",
+   "as": 46,
+   "hs": 40,
+   "winner": "SF",
+   "spread": 3.5,
+   "total": 55.5,
+   "line_txt": "SF -3.5",
+   "ats": "SF",
+   "cover_by": 2.5,
+   "miss": -2.5,
+   "ou": "altas",
+   "picks": []
+  },
+  {
+   "game": "PIT@CIN",
+   "away": "PIT",
+   "home": "CIN",
+   "as": 18,
+   "hs": 38,
+   "winner": "CIN",
+   "spread": -3.5,
+   "total": 49.5,
+   "line_txt": "CIN -3.5",
+   "ats": "CIN",
+   "cover_by": 16.5,
+   "miss": 16.5,
+   "ou": "altas",
+   "picks": []
+  }
+ ],
+ "pending": [
+  {
+   "game": "LAC@BAL",
+   "date": "2026-11-17T01:15:00+00:00"
+  }
+ ],
+ "games": [
+  {
+   "game": "WSH@NYG",
+   "away": "WSH",
+   "home": "NYG",
+   "away_id": "28",
+   "home_id": "19",
+   "as": 24,
+   "hs": 21,
+   "row": {
+    "game": "WSH@NYG",
+    "away": "WSH",
+    "home": "NYG",
+    "as": 24,
+    "hs": 21,
+    "winner": "WSH",
+    "spread": -2.5,
+    "total": 40.5,
+    "line_txt": "NYG -2.5",
+    "ats": "WSH",
+    "cover_by": 5.5,
+    "miss": -5.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "WSH": {
+     "yds": "340",
+     "ypp": "5.1",
+     "to": "2",
+     "third": "7-14",
+     "sacks": "1",
+     "rz": "1-1",
+     "top": "30:22",
+     "ypa": "6.9",
+     "ypc": "3.2"
+    },
+    "NYG": {
+     "yds": "399",
+     "ypp": "6.2",
+     "to": "2",
+     "third": "4-12",
+     "sacks": "1",
+     "rz": "2-4",
+     "top": "29:38",
+     "ypa": "7.6",
+     "ypc": "4.3"
+    }
+   },
+   "top": [
+    {
+     "pid": "8131",
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "team": "NYG",
+     "ppr": 27.7,
+     "line": "9/11, 127 yds, 1 TD"
+    },
+    {
+     "pid": "12481",
+     "name": "Cam Skattebo",
+     "pos": "RB",
+     "team": "NYG",
+     "ppr": 27.2,
+     "line": "tierra 18-78, 2 TD · recepción 3/4, 44 yds"
+    },
+    {
+     "pid": "11566",
+     "name": "Jayden Daniels",
+     "pos": "QB",
+     "team": "WAS",
+     "ppr": 22.8,
+     "line": "23/33, 249 yds, 3 TD, 2 INT · por tierra 11-28"
+    },
+    {
+     "pid": "2449",
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "team": "WAS",
+     "ppr": 20.3,
+     "line": "6/10, 83 yds, 1 TD"
+    },
+    {
+     "pid": "11565",
+     "name": "J.J. McCarthy",
+     "pos": "QB",
+     "team": "NYG",
+     "ppr": 18.1,
+     "line": "23/36, 293 yds, 1 TD, 1 INT · por tierra 6-34"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "2306",
+     "name": "Jameis Winston",
+     "pos": "QB",
+     "team": "NYG",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.046153846153846156,
+       "pre": 0.6823770491803278
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "11565",
+     "name": "J.J. McCarthy",
+     "pos": "QB",
+     "team": "NYG",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.9538461538461539,
+       "pre": 0.49498327759197325
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12481",
+     "name": "Cam Skattebo",
+     "pos": "RB",
+     "team": "NYG",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.9545454545454546,
+       "pre": 0.5706806282722513
+      },
+      {
+       "k": "snap",
+       "now": 0.8923076923076924,
+       "pre": 0.5448979591836735
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "4663",
+     "name": "Austin Ekeler",
+     "pos": "RB",
+     "team": "WAS",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.48148148148148145,
+       "pre": 0.27522935779816515
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "WSH",
+     "name": "Jacory Croskey-Merritt",
+     "pos": "RB",
+     "pid": "12533",
+     "status": "Injured Reserve",
+     "body": "Ingle",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T20:18Z",
+     "role": 0.5373134328358209,
+     "key": "touch",
+     "played": true,
+     "now": null,
+     "heir": {
+      "pid": "4663",
+      "name": "Austin Ekeler",
+      "now": 0.48148148148148145,
+      "snap": 0.43478260869565216,
+      "owned": 12.5
+     },
+     "game": "WSH@NYG",
+     "news": "Jacory Croskey-Merritt - Trending in right direction, per coach"
+    },
+    {
+     "team": "WSH",
+     "name": "Colson Yankoff",
+     "pos": "TE",
+     "pid": "11942",
+     "status": "Out",
+     "body": "Rodilla",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T20:11Z",
+     "role": 0.020242914979757085,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "WSH@NYG"
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "NE@DET",
+   "away": "NE",
+   "home": "DET",
+   "away_id": "17",
+   "home_id": "8",
+   "as": 10,
+   "hs": 35,
+   "row": {
+    "game": "NE@DET",
+    "away": "NE",
+    "home": "DET",
+    "as": 10,
+    "hs": 35,
+    "winner": "DET",
+    "spread": -2.5,
+    "total": 51.5,
+    "line_txt": "DET -2.5",
+    "ats": "DET",
+    "cover_by": 22.5,
+    "miss": 22.5,
+    "ou": "bajas",
+    "picks": [
+     {
+      "game": "NE@DET",
+      "bet": "spread",
+      "side": "NE",
+      "line": 2.5,
+      "conf": 1,
+      "why": "All three models lean NE (SRS -2.8, FPI -1.5, predictapp DET 55.6 vs 58.4 market); DET D without Kerby Joseph, Jack Campbell (IR), Reed/Mays doubtful; DET #1 in PPR allowed to QBs",
+      "result": "L"
+     }
+    ]
+   },
+   "box": {
+    "NE": {
+     "yds": "151",
+     "ypp": "2.7",
+     "to": "1",
+     "third": "4-13",
+     "sacks": "5",
+     "rz": "1-2",
+     "top": "27:03",
+     "ypa": "2.7",
+     "ypc": "2.8"
+    },
+    "DET": {
+     "yds": "494",
+     "ypp": "7.3",
+     "to": "2",
+     "third": "8-15",
+     "sacks": "2",
+     "rz": "2-3",
+     "top": "32:57",
+     "ypa": "8.9",
+     "ypc": "5.6"
+    }
+   },
+   "top": [
+    {
+     "pid": "9221",
+     "name": "Jahmyr Gibbs",
+     "pos": "RB",
+     "team": "DET",
+     "ppr": 44.2,
+     "line": "tierra 22-153, 2 TD · recepción 7/8, 99 yds"
+    },
+    {
+     "pid": "7547",
+     "name": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "team": "DET",
+     "ppr": 25.8,
+     "line": "4/5, 98 yds, 2 TD"
+    },
+    {
+     "pid": "3163",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "ppr": 22.4,
+     "line": "20/31, 303 yds, 3 TD, 2 INT"
+    },
+    {
+     "pid": "12535",
+     "name": "Isaac TeSlaa",
+     "pos": "WR",
+     "team": "DET",
+     "ppr": 9.9,
+     "line": "2/5, 19 yds, 1 TD"
+    },
+    {
+     "pid": "4177",
+     "name": "Mack Hollins",
+     "pos": "WR",
+     "team": "NE",
+     "ppr": 9.8,
+     "line": "5/6, 48 yds"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "11564",
+     "name": "Drake Maye",
+     "pos": "QB",
+     "team": "NE",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.1694915254237288,
+       "pre": 0.958974358974359
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "11292",
+     "name": "Tommy DeVito",
+     "pos": "QB",
+     "team": "NE",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.8305084745762712,
+       "pre": 0.19047619047619047
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "4177",
+     "name": "Mack Hollins",
+     "pos": "WR",
+     "team": "NE",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.9152542372881356,
+       "pre": 0.6432926829268293
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12491",
+     "name": "Corey Kiner",
+     "pos": "RB",
+     "team": "NE",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.47619047619047616,
+       "pre": 0.2139917695473251
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "NE",
+     "name": "Drake Maye",
+     "pos": "QB",
+     "pid": "11564",
+     "status": "Doubtful",
+     "body": "Tobillo",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T17:16Z",
+     "role": 0.958974358974359,
+     "key": "snap",
+     "played": true,
+     "now": 0.1694915254237288,
+     "heir": {
+      "pid": "11292",
+      "name": "Tommy DeVito",
+      "now": 0.8305084745762712,
+      "snap": 0.8305084745762712,
+      "owned": 0
+     },
+     "game": "NE@DET",
+     "news": "Drake Maye - Not expected to be available after bye",
+     "mates": [
+      {
+       "pid": "4177",
+       "name": "Mack Hollins",
+       "pos": "WR",
+       "line": "5/6, 48 yds"
+      },
+      {
+       "pid": "5859",
+       "name": "A.J. Brown",
+       "pos": "WR",
+       "line": "2/6, 27 yds"
+      },
+      {
+       "pid": "3214",
+       "name": "Hunter Henry",
+       "pos": "TE",
+       "line": "2/3, 22 yds"
+      }
+     ]
+    }
+   ],
+   "blowout": 25
+  },
+  {
+   "game": "KC@ATL",
+   "away": "KC",
+   "home": "ATL",
+   "away_id": "12",
+   "home_id": "1",
+   "as": 35,
+   "hs": 13,
+   "row": {
+    "game": "KC@ATL",
+    "away": "KC",
+    "home": "ATL",
+    "as": 35,
+    "hs": 13,
+    "winner": "KC",
+    "spread": 3.0,
+    "total": 46.5,
+    "line_txt": "KC -3",
+    "ats": "KC",
+    "cover_by": 19.0,
+    "miss": -19.0,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "KC": {
+     "yds": "461",
+     "ypp": "7.3",
+     "to": "0",
+     "third": "4-13",
+     "sacks": "1",
+     "rz": "3-3",
+     "top": "28:36",
+     "ypa": "9.4",
+     "ypc": "4.5"
+    },
+    "ATL": {
+     "yds": "370",
+     "ypp": "5.6",
+     "to": "2",
+     "third": "5-16",
+     "sacks": "3",
+     "rz": "1-5",
+     "top": "31:24",
+     "ypa": "5.9",
+     "ypc": "5.0"
+    }
+   },
+   "top": [
+    {
+     "pid": "4046",
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KC",
+     "ppr": 35.4,
+     "line": "22/35, 348 yds, 5 TD, 0 INT"
+    },
+    {
+     "pid": "13337",
+     "name": "Emmett Johnson",
+     "pos": "RB",
+     "team": "KC",
+     "ppr": 35.1,
+     "line": "tierra 22-101 · recepción 6/7, 70 yds, 2 TD"
+    },
+    {
+     "pid": "9509",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "ppr": 17.7,
+     "line": "tierra 16-71, 1 TD · recepción 4/5, 6 yds"
+    },
+    {
+     "pid": "8112",
+     "name": "Drake London",
+     "pos": "WR",
+     "team": "ATL",
+     "ppr": 16.9,
+     "line": "6/12, 109 yds"
+    },
+    {
+     "pid": "9500",
+     "name": "Josh Downs",
+     "pos": "WR",
+     "team": "KC",
+     "ppr": 15.3,
+     "line": "4/5, 53 yds, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "13337",
+     "name": "Emmett Johnson",
+     "pos": "RB",
+     "team": "KC",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.9333333333333333,
+       "pre": 0.17467248908296942
+      },
+      {
+       "k": "snap",
+       "now": 0.8769230769230769,
+       "pre": 0.2627450980392157
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "9500",
+     "name": "Josh Downs",
+     "pos": "WR",
+     "team": "KC",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.16923076923076924,
+       "pre": 0.8077571669477235
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "1466",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.3076923076923077,
+       "pre": 0.7686274509803922
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "7828",
+     "name": "Noah Gray",
+     "pos": "TE",
+     "team": "KC",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.8461538461538461,
+       "pre": 0.5823529411764706
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "ATL",
+     "name": "Zachariah Branch",
+     "pos": "WR",
+     "pid": "13320",
+     "status": "Out",
+     "body": "Isquiotibial",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T17:38Z",
+     "role": 0.05555555555555555,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "KC@ATL"
+    },
+    {
+     "team": "KC",
+     "name": "Kenneth Walker III",
+     "pos": "RB",
+     "pid": "8151",
+     "status": "Out",
+     "body": "Ingle",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:23Z",
+     "role": 0.8078602620087336,
+     "key": "touch",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "13337",
+      "name": "Emmett Johnson",
+      "now": 0.9333333333333333,
+      "snap": 0.8769230769230769,
+      "owned": 85.0
+     },
+     "game": "KC@ATL",
+     "news": "Chiefs Believe Kenneth Walker Has Short-Term Injury"
+    },
+    {
+     "team": "KC",
+     "name": "Jaydn Ott",
+     "pos": "RB",
+     "pid": "13419",
+     "status": "Out",
+     "body": "Isquiotibial",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:23Z",
+     "role": 0.0967741935483871,
+     "key": "touch",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "KC@ATL"
+    },
+    {
+     "team": "KC",
+     "name": "Jared Wiley",
+     "pos": "TE",
+     "pid": "11595",
+     "status": "Out",
+     "body": "Tobillo",
+     "side": "Right",
+     "detail": "Fracture",
+     "date": "2026-11-15T21:50Z",
+     "role": 0.0,
+     "key": "tgt",
+     "played": true,
+     "now": 0.03076923076923077,
+     "heir": null,
+     "game": "KC@ATL"
+    }
+   ],
+   "blowout": 22
+  },
+  {
+   "game": "HOU@CLE",
+   "away": "HOU",
+   "home": "CLE",
+   "away_id": "34",
+   "home_id": "5",
+   "as": 24,
+   "hs": 27,
+   "row": {
+    "game": "HOU@CLE",
+    "away": "HOU",
+    "home": "CLE",
+    "as": 24,
+    "hs": 27,
+    "winner": "CLE",
+    "spread": 4.5,
+    "total": 41.5,
+    "line_txt": "HOU -4.5",
+    "ats": "CLE",
+    "cover_by": 7.5,
+    "miss": 7.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "HOU": {
+     "yds": "290",
+     "ypp": "4.6",
+     "to": "1",
+     "third": "3-12",
+     "sacks": "1",
+     "rz": "3-3",
+     "top": "29:38",
+     "ypa": "5.2",
+     "ypc": "3.7"
+    },
+    "CLE": {
+     "yds": "379",
+     "ypp": "5.7",
+     "to": "1",
+     "third": "7-15",
+     "sacks": "4",
+     "rz": "3-5",
+     "top": "30:22",
+     "ypa": "6.4",
+     "ypc": "4.3"
+    }
+   },
+   "top": [
+    {
+     "pid": "7569",
+     "name": "Nico Collins",
+     "pos": "WR",
+     "team": "HOU",
+     "ppr": 24.4,
+     "line": "9/16, 94 yds, 1 TD"
+    },
+    {
+     "pid": "4017",
+     "name": "Deshaun Watson",
+     "pos": "QB",
+     "team": "CLE",
+     "ppr": 22.4,
+     "line": "25/40, 312 yds, 0 TD, 1 INT · por tierra 8-49, 1 TD"
+    },
+    {
+     "pid": "9758",
+     "name": "C.J. Stroud",
+     "pos": "QB",
+     "team": "HOU",
+     "ppr": 21.4,
+     "line": "20/38, 211 yds, 3 TD, 1 INT · por tierra 3-20"
+    },
+    {
+     "pid": "12506",
+     "name": "Harold Fannin Jr.",
+     "pos": "TE",
+     "team": "CLE",
+     "ppr": 16.1,
+     "line": "7/9, 91 yds"
+    },
+    {
+     "pid": "12512",
+     "name": "Quinshon Judkins",
+     "pos": "RB",
+     "team": "CLE",
+     "ppr": 16.1,
+     "line": "tierra 10-38, 1 TD · recepción 3/5, 33 yds"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "7569",
+     "name": "Nico Collins",
+     "pos": "WR",
+     "team": "HOU",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.4444444444444444,
+       "pre": 0.20207253886010362
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "HOU",
+     "name": "Woody Marks",
+     "pos": "RB",
+     "pid": "12474",
+     "status": "Doubtful",
+     "body": "Conmoción",
+     "side": "Not Specified",
+     "detail": "Concussion",
+     "date": "2026-11-17T00:49Z",
+     "role": 0.5978260869565217,
+     "key": "touch",
+     "played": true,
+     "now": 0.44776119402985076,
+     "heir": {
+      "pid": "11199",
+      "name": "Emari Demercado",
+      "now": 0.34782608695652173,
+      "snap": 0.3283582089552239,
+      "owned": 2.1
+     },
+     "game": "HOU@CLE",
+     "news": "Woody Marks - DNP on Monday"
+    },
+    {
+     "team": "HOU",
+     "name": "Marvin Harrison Jr.",
+     "pos": "WR",
+     "pid": "11628",
+     "status": "Out",
+     "body": "Isquiotibial",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-17T00:44Z",
+     "role": 0.09795918367346938,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "HOU@CLE"
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "MIN@GB",
+   "away": "MIN",
+   "home": "GB",
+   "away_id": "16",
+   "home_id": "9",
+   "as": 30,
+   "hs": 10,
+   "row": {
+    "game": "MIN@GB",
+    "away": "MIN",
+    "home": "GB",
+    "as": 30,
+    "hs": 10,
+    "winner": "MIN",
+    "spread": -3.0,
+    "total": 42.5,
+    "line_txt": "GB -3",
+    "ats": "MIN",
+    "cover_by": 23.0,
+    "miss": -23.0,
+    "ou": "bajas",
+    "picks": [
+     {
+      "game": "MIN@GB",
+      "bet": "total",
+      "side": "under",
+      "line": 42.5,
+      "conf": 1,
+      "why": "Naive total 39.0 and predictapp 39.1 vs 42.5; MIN allows 15 ppg last 5, Jacobs out, Cousins 4 days into the system",
+      "result": "W"
+     }
+    ]
+   },
+   "box": {
+    "MIN": {
+     "yds": "312",
+     "ypp": "4.8",
+     "to": "1",
+     "third": "8-16",
+     "sacks": "3",
+     "rz": "1-4",
+     "top": "35:16",
+     "ypa": "5.4",
+     "ypc": "4.2"
+    },
+    "GB": {
+     "yds": "220",
+     "ypp": "4.1",
+     "to": "4",
+     "third": "3-10",
+     "sacks": "8",
+     "rz": "0-1",
+     "top": "24:44",
+     "ypa": "4.4",
+     "ypc": "3.3"
+    }
+   },
+   "top": [
+    {
+     "pid": "6794",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "ppr": 16.4,
+     "line": "9/13, 74 yds"
+    },
+    {
+     "pid": "1166",
+     "name": "Kirk Cousins",
+     "pos": "QB",
+     "team": "MIN",
+     "ppr": 16.4,
+     "line": "21/31, 207 yds, 2 TD, 1 INT"
+    },
+    {
+     "pid": "13075",
+     "name": "Myles Price",
+     "pos": "WR",
+     "team": "MIN",
+     "ppr": 16.1,
+     "line": "4/4, 49 yds, 1 TD"
+    },
+    {
+     "pid": "12700",
+     "name": "Gavin Bartholomew",
+     "pos": "TE",
+     "team": "MIN",
+     "ppr": 12.6,
+     "line": "3/4, 36 yds, 1 TD"
+    },
+    {
+     "pid": "4199",
+     "name": "Aaron Jones Sr.",
+     "pos": "RB",
+     "team": "MIN",
+     "ppr": 12.5,
+     "line": "tierra 11-47, 1 TD · recepción 1/1, 8 yds"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "12700",
+     "name": "Gavin Bartholomew",
+     "pos": "TE",
+     "team": "MIN",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.7681159420289855,
+       "pre": 0.21739130434782608
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12496",
+     "name": "Tai Felton",
+     "pos": "WR",
+     "team": "MIN",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.16666666666666666,
+       "pre": 0.036458333333333336
+      },
+      {
+       "k": "snap",
+       "now": 0.855072463768116,
+       "pre": 0.3233256351039261
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "6794",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.43333333333333335,
+       "pre": 0.28651685393258425
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "GB",
+     "name": "Skyy Moore",
+     "pos": "WR",
+     "pid": "8168",
+     "status": "Questionable",
+     "body": "Tobillo",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T20:17Z",
+     "role": 0.07734806629834254,
+     "key": "tgt",
+     "played": true,
+     "now": null,
+     "heir": null,
+     "game": "MIN@GB"
+    },
+    {
+     "team": "MIN",
+     "name": "Jordan Addison",
+     "pos": "WR",
+     "pid": "9756",
+     "status": "Out",
+     "body": "Pulgar",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T18:45Z",
+     "role": 0.1978021978021978,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "6794",
+      "name": "Justin Jefferson",
+      "now": 0.43333333333333335,
+      "snap": 0.9130434782608695,
+      "owned": 99.1
+     },
+     "game": "MIN@GB",
+     "news": "Jordan Addison (thumb) to likely go on short-term IR"
+    },
+    {
+     "team": "MIN",
+     "name": "T.J. Hockenson",
+     "pos": "TE",
+     "pid": "5844",
+     "status": "Out",
+     "body": "Muñeca",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T18:43Z",
+     "role": 0.20853080568720378,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "12700",
+      "name": "Gavin Bartholomew",
+      "now": 0.13333333333333333,
+      "snap": 0.7681159420289855,
+      "owned": 0
+     },
+     "game": "MIN@GB",
+     "news": "Vikings Expect T.J. Hockenson to Progress for Sunday Against 49ers"
+    }
+   ],
+   "blowout": 20
+  },
+  {
+   "game": "JAX@TEN",
+   "away": "JAX",
+   "home": "TEN",
+   "away_id": "30",
+   "home_id": "10",
+   "as": 40,
+   "hs": 23,
+   "row": {
+    "game": "JAX@TEN",
+    "away": "JAX",
+    "home": "TEN",
+    "as": 40,
+    "hs": 23,
+    "winner": "JAX",
+    "spread": 10.5,
+    "total": 46.5,
+    "line_txt": "JAX -10.5",
+    "ats": "JAX",
+    "cover_by": 6.5,
+    "miss": -6.5,
+    "ou": "altas",
+    "picks": [
+     {
+      "game": "JAX@TEN",
+      "bet": "total",
+      "side": "under",
+      "line": 46.5,
+      "conf": 1,
+      "why": "Naive total 43.3, predictapp P(over) 41%; JAX added Bates/Davis/Godchaux; TEN implied 18, Carnell Tate DNP Wed",
+      "result": "L"
+     }
+    ]
+   },
+   "box": {
+    "JAX": {
+     "yds": "459",
+     "ypp": "6.4",
+     "to": "1",
+     "third": "7-14",
+     "sacks": "1",
+     "rz": "3-5",
+     "top": "38:10",
+     "ypa": "9.3",
+     "ypc": "3.4"
+    },
+    "TEN": {
+     "yds": "327",
+     "ypp": "5.7",
+     "to": "1",
+     "third": "2-11",
+     "sacks": "1",
+     "rz": "1-1",
+     "top": "21:50",
+     "ypa": "5.6",
+     "ypc": "6.2"
+    }
+   },
+   "top": [
+    {
+     "pid": "9487",
+     "name": "Parker Washington",
+     "pos": "WR",
+     "team": "JAX",
+     "ppr": 28.2,
+     "line": "7/9, 152 yds, 1 TD"
+    },
+    {
+     "pid": "7523",
+     "name": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAX",
+     "ppr": 27.8,
+     "line": "25/35, 352 yds, 3 TD, 1 INT · por tierra 4-27"
+    },
+    {
+     "pid": "5967",
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "team": "TEN",
+     "ppr": 23.9,
+     "line": "tierra 9-33 · recepción 8/9, 66 yds, 1 TD"
+    },
+    {
+     "pid": "12490",
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "team": "JAX",
+     "ppr": 20.3,
+     "line": "tierra 26-88, 1 TD · recepción 3/4, 25 yds"
+    },
+    {
+     "pid": "12522",
+     "name": "Cam Ward",
+     "pos": "QB",
+     "team": "TEN",
+     "ppr": 20.1,
+     "line": "28/39, 231 yds, 2 TD, 1 INT · por tierra 3-39"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "12540",
+     "name": "Chimere Dike",
+     "pos": "WR",
+     "team": "TEN",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.9473684210526315,
+       "pre": 0.2415966386554622
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12499",
+     "name": "Elic Ayomanor",
+     "pos": "WR",
+     "team": "TEN",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.2702702702702703,
+       "pre": 0.11063829787234042
+      },
+      {
+       "k": "snap",
+       "now": 0.9473684210526315,
+       "pre": 0.6491596638655462
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12490",
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "team": "JAX",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.8787878787878788,
+       "pre": 0.6116071428571429
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "TEN",
+     "name": "Carnell Tate",
+     "pos": "WR",
+     "pid": "13279",
+     "status": "Out",
+     "body": "Hombro",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T14:23Z",
+     "role": 0.2602040816326531,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "12499",
+      "name": "Elic Ayomanor",
+      "now": 0.2702702702702703,
+      "snap": 0.9473684210526315,
+      "owned": 8.7
+     },
+     "game": "JAX@TEN",
+     "news": "Carnell Tate - Expected back for Week 11"
+    },
+    {
+     "team": "TEN",
+     "name": "Wan'Dale Robinson",
+     "pos": "WR",
+     "pid": "8126",
+     "status": "Questionable",
+     "body": "Tobillo",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-15T21:09Z",
+     "role": 0.2127659574468085,
+     "key": "tgt",
+     "played": true,
+     "now": 0.3508771929824561,
+     "heir": {
+      "pid": "12499",
+      "name": "Elic Ayomanor",
+      "now": 0.2702702702702703,
+      "snap": 0.9473684210526315,
+      "owned": 8.7
+     },
+     "game": "JAX@TEN",
+     "news": "Wan'Dale Robinson quiet in loss to Jags"
+    }
+   ],
+   "blowout": 17
+  },
+  {
+   "game": "MIA@IND",
+   "away": "MIA",
+   "home": "IND",
+   "away_id": "15",
+   "home_id": "11",
+   "as": 22,
+   "hs": 24,
+   "row": {
+    "game": "MIA@IND",
+    "away": "MIA",
+    "home": "IND",
+    "as": 22,
+    "hs": 24,
+    "winner": "IND",
+    "spread": -3.5,
+    "total": 38.5,
+    "line_txt": "IND -3.5",
+    "ats": "MIA",
+    "cover_by": 1.5,
+    "miss": -1.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "MIA": {
+     "yds": "293",
+     "ypp": "4.7",
+     "to": "1",
+     "third": "3-11",
+     "sacks": "3",
+     "rz": "1-2",
+     "top": "29:16",
+     "ypa": "6.0",
+     "ypc": "3.0"
+    },
+    "IND": {
+     "yds": "276",
+     "ypp": "4.8",
+     "to": "2",
+     "third": "3-11",
+     "sacks": "1",
+     "rz": "2-2",
+     "top": "30:44",
+     "ypa": "4.5",
+     "ypc": "5.1"
+    }
+   },
+   "top": [
+    {
+     "pid": "12495",
+     "name": "Ollie Gordon II",
+     "pos": "RB",
+     "team": "MIA",
+     "ppr": 15.5,
+     "line": "tierra 20-76 · recepción 4/5, 39 yds"
+    },
+    {
+     "pid": "13424",
+     "name": "Seth McGowan",
+     "pos": "RB",
+     "team": "IND",
+     "ppr": 13.7,
+     "line": "tierra 12-77, 1 TD"
+    },
+    {
+     "pid": "11610",
+     "name": "Malik Washington",
+     "pos": "WR",
+     "team": "MIA",
+     "ppr": 13.4,
+     "line": "3/3, 50 yds"
+    },
+    {
+     "pid": "8117",
+     "name": "Jalen Tolbert",
+     "pos": "WR",
+     "team": "MIA",
+     "ppr": 12.9,
+     "line": "2/2, 49 yds, 1 TD"
+    },
+    {
+     "pid": "12494",
+     "name": "Kyle McCord",
+     "pos": "QB",
+     "team": "MIA",
+     "ppr": 12.8,
+     "line": "17/32, 209 yds, 0 TD, 0 INT · por tierra 2-4, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "12494",
+     "name": "Kyle McCord",
+     "pos": "QB",
+     "team": "MIA",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 1.0,
+       "pre": 0
+      }
+     ],
+     "first": true
+    },
+    {
+     "pid": "11762",
+     "name": "Anthony Gould",
+     "pos": "WR",
+     "team": "IND",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.19047619047619047,
+       "pre": 0.014285714285714285
+      },
+      {
+       "k": "snap",
+       "now": 0.5423728813559322,
+       "pre": 0.013605442176870748
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "13333",
+     "name": "Deion Burks",
+     "pos": "WR",
+     "team": "IND",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.576271186440678,
+       "pre": 0.1725417439703154
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "13424",
+     "name": "Seth McGowan",
+     "pos": "RB",
+     "team": "IND",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.4,
+       "pre": 0.1991701244813278
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "IND",
+     "name": "Will Mallory",
+     "pos": "TE",
+     "pid": "10220",
+     "status": "Out",
+     "body": "Isquiotibial",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-17T00:24Z",
+     "role": 0.10112359550561797,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "MIA@IND"
+    },
+    {
+     "team": "IND",
+     "name": "Anthony Gould",
+     "pos": "WR",
+     "pid": "11762",
+     "status": "Questionable",
+     "body": "Dedo del pie",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-17T00:20Z",
+     "role": 0.014285714285714285,
+     "key": "tgt",
+     "played": true,
+     "now": 0.5423728813559322,
+     "heir": null,
+     "game": "MIA@IND"
+    },
+    {
+     "team": "MIA",
+     "name": "Jared Wayne",
+     "pos": "WR",
+     "pid": "11056",
+     "status": "Out",
+     "body": "Cuádriceps",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:28Z",
+     "role": null,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "MIA@IND"
+    },
+    {
+     "team": "MIA",
+     "name": "Chris Bell",
+     "pos": "WR",
+     "pid": "13311",
+     "status": "Out",
+     "body": "Rodilla",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:27Z",
+     "role": 0.13366336633663367,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "MIA@IND"
+    },
+    {
+     "team": "MIA",
+     "name": "Malik Willis",
+     "pos": "QB",
+     "pid": "8161",
+     "status": "Injured Reserve",
+     "body": "Abdomen",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T17:27Z",
+     "role": 1.0,
+     "key": "snap",
+     "played": true,
+     "now": null,
+     "heir": {
+      "pid": "12494",
+      "name": "Kyle McCord",
+      "now": 1.0,
+      "snap": 1.0,
+      "owned": 4.5
+     },
+     "game": "MIA@IND",
+     "news": "Malik Willis' surgery decision still pending",
+     "mates": [
+      {
+       "pid": "13296",
+       "name": "Caleb Douglas",
+       "pos": "WR",
+       "line": "3/8, 71 yds"
+      },
+      {
+       "pid": "13338",
+       "name": "Kevin Coleman Jr.",
+       "pos": "WR",
+       "line": "1/6, 6 yds"
+      },
+      {
+       "pid": "12495",
+       "name": "Ollie Gordon II",
+       "pos": "RB",
+       "line": "tierra 20-76 · recepción 4/5, 39 yds"
+      }
+     ]
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "CAR@NO",
+   "away": "CAR",
+   "home": "NO",
+   "away_id": "29",
+   "home_id": "18",
+   "as": 20,
+   "hs": 17,
+   "row": {
+    "game": "CAR@NO",
+    "away": "CAR",
+    "home": "NO",
+    "as": 20,
+    "hs": 17,
+    "winner": "CAR",
+    "spread": -2.5,
+    "total": 48.5,
+    "line_txt": "NO -2.5",
+    "ats": "CAR",
+    "cover_by": 5.5,
+    "miss": -5.5,
+    "ou": "bajas",
+    "picks": [
+     {
+      "game": "CAR@NO",
+      "bet": "spread",
+      "side": "CAR",
+      "line": 2.5,
+      "conf": 2,
+      "why": "🚩 SRS -2.9 / FPI -2.5 vs market + predictapp NO 51% vs 55.5%; NO C McCoy out, Shough playing with 2 broken bones in non-throwing hand, Etienne out; Hubbard 81% backfield vs NO (1st most PPR allowed to RB)",
+      "result": "W"
+     }
+    ]
+   },
+   "box": {
+    "CAR": {
+     "yds": "283",
+     "ypp": "4.4",
+     "to": "0",
+     "third": "4-14",
+     "sacks": "3",
+     "rz": "2-3",
+     "top": "31:25",
+     "ypa": "5.6",
+     "ypc": "3.0"
+    },
+    "NO": {
+     "yds": "222",
+     "ypp": "3.6",
+     "to": "2",
+     "third": "5-13",
+     "sacks": "3",
+     "rz": "2-2",
+     "top": "28:35",
+     "ypa": "4.6",
+     "ypc": "2.1"
+    }
+   },
+   "top": [
+    {
+     "pid": "7594",
+     "name": "Chuba Hubbard",
+     "pos": "RB",
+     "team": "CAR",
+     "ppr": 34.2,
+     "line": "tierra 27-92, 2 TD · recepción 5/5, 80 yds"
+    },
+    {
+     "pid": "13281",
+     "name": "Jordyn Tyson",
+     "pos": "WR",
+     "team": "NO",
+     "ppr": 19.0,
+     "line": "11/13, 80 yds"
+    },
+    {
+     "pid": "4035",
+     "name": "Alvin Kamara",
+     "pos": "RB",
+     "team": "NO",
+     "ppr": 16.4,
+     "line": "tierra 2-4, 1 TD · recepción 3/4, 10 yds, 1 TD"
+    },
+    {
+     "pid": "12545",
+     "name": "Tyler Shough",
+     "pos": "QB",
+     "team": "NO",
+     "ppr": 11.0,
+     "line": "25/35, 187 yds, 1 TD, 1 INT · por tierra 6-25"
+    },
+    {
+     "pid": "7694",
+     "name": "Tommy Tremble",
+     "pos": "TE",
+     "team": "CAR",
+     "ppr": 8.8,
+     "line": "4/5, 48 yds"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "13420",
+     "name": "Bryce Lance",
+     "pos": "WR",
+     "team": "NO",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.14285714285714285,
+       "pre": 0.6666666666666666
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "13281",
+     "name": "Jordyn Tyson",
+     "pos": "WR",
+     "team": "NO",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.3939393939393939,
+       "pre": 0.15625
+      },
+      {
+       "k": "snap",
+       "now": 0.7142857142857143,
+       "pre": 0.24
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "NO",
+     "name": "CJ Donaldson",
+     "pos": "RB",
+     "pid": "13277",
+     "status": "Out",
+     "body": "Hombro",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:32Z",
+     "role": 0.1099476439790576,
+     "key": "touch",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "CAR@NO"
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "BUF@NYJ",
+   "away": "BUF",
+   "home": "NYJ",
+   "away_id": "2",
+   "home_id": "20",
+   "as": 31,
+   "hs": 12,
+   "row": {
+    "game": "BUF@NYJ",
+    "away": "BUF",
+    "home": "NYJ",
+    "as": 31,
+    "hs": 12,
+    "winner": "BUF",
+    "spread": 8.5,
+    "total": 50.5,
+    "line_txt": "BUF -8.5",
+    "ats": "BUF",
+    "cover_by": 10.5,
+    "miss": -10.5,
+    "ou": "bajas",
+    "picks": []
+   },
+   "box": {
+    "BUF": {
+     "yds": "389",
+     "ypp": "7.2",
+     "to": "2",
+     "third": "2-10",
+     "sacks": "1",
+     "rz": "2-3",
+     "top": "27:59",
+     "ypa": "8.5",
+     "ypc": "6.3"
+    },
+    "NYJ": {
+     "yds": "376",
+     "ypp": "5.5",
+     "to": "2",
+     "third": "3-13",
+     "sacks": "4",
+     "rz": "0-2",
+     "top": "32:01",
+     "ypa": "5.9",
+     "ypc": "4.7"
+    }
+   },
+   "top": [
+    {
+     "pid": "4984",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "ppr": 23.3,
+     "line": "11/21, 196 yds, 1 TD, 1 INT · por tierra 5-5, 2 TD"
+    },
+    {
+     "pid": "8138",
+     "name": "James Cook III",
+     "pos": "RB",
+     "team": "BUF",
+     "ppr": 21.7,
+     "line": "tierra 18-157, 1 TD · recepción 0/1, 0 yds"
+    },
+    {
+     "pid": "4983",
+     "name": "DJ Moore",
+     "pos": "WR",
+     "team": "BUF",
+     "ppr": 19.4,
+     "line": "4/6, 90 yds, 1 TD"
+    },
+    {
+     "pid": "8146",
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "team": "NYJ",
+     "ppr": 15.6,
+     "line": "7/14, 106 yds"
+    },
+    {
+     "pid": "8155",
+     "name": "Breece Hall",
+     "pos": "RB",
+     "team": "NYJ",
+     "ppr": 14.8,
+     "line": "tierra 11-41 · recepción 4/4, 67 yds"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "13276",
+     "name": "Omar Cooper Jr.",
+     "pos": "WR",
+     "team": "NYJ",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.014084507042253521,
+       "pre": 0.6285714285714286
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "1373",
+     "name": "Geno Smith",
+     "pos": "QB",
+     "team": "NYJ",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.4788732394366197,
+       "pre": 1.0
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "13303",
+     "name": "Cade Klubnik",
+     "pos": "QB",
+     "team": "NYJ",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.5211267605633803,
+       "pre": 0
+      }
+     ],
+     "first": true
+    },
+    {
+     "pid": "11608",
+     "name": "Isaiah Williams",
+     "pos": "WR",
+     "team": "NYJ",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.175,
+       "pre": 0.05813953488372093
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "4983",
+     "name": "DJ Moore",
+     "pos": "WR",
+     "team": "BUF",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.2857142857142857,
+       "pre": 0.1839080459770115
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "NYJ",
+     "name": "Geno Smith",
+     "pos": "QB",
+     "pid": "1373",
+     "status": "Questionable",
+     "body": "Tobillo",
+     "side": "Left",
+     "detail": "Not Specified",
+     "date": "2026-11-17T00:15Z",
+     "role": 1.0,
+     "key": "snap",
+     "played": true,
+     "now": 0.4788732394366197,
+     "heir": {
+      "pid": "13303",
+      "name": "Cade Klubnik",
+      "now": 0.5211267605633803,
+      "snap": 0.5211267605633803,
+      "owned": 0
+     },
+     "game": "BUF@NYJ",
+     "news": "Geno Smith - Undergoes tests on ankle",
+     "mates": [
+      {
+       "pid": "8146",
+       "name": "Garrett Wilson",
+       "pos": "WR",
+       "line": "7/14, 106 yds"
+      },
+      {
+       "pid": "11625",
+       "name": "Adonai Mitchell",
+       "pos": "WR",
+       "line": "3/8, 59 yds"
+      },
+      {
+       "pid": "11608",
+       "name": "Isaiah Williams",
+       "pos": "WR",
+       "line": "4/7, 24 yds"
+      }
+     ]
+    },
+    {
+     "team": "NYJ",
+     "name": "Omar Cooper Jr.",
+     "pos": "WR",
+     "pid": "13276",
+     "status": "Questionable",
+     "body": "Tobillo",
+     "side": "Right",
+     "detail": "Not Specified",
+     "date": "2026-11-16T14:55Z",
+     "role": 0.16901408450704225,
+     "key": "tgt",
+     "played": true,
+     "now": 0.014084507042253521,
+     "heir": null,
+     "game": "BUF@NYJ"
+    }
+   ],
+   "blowout": 19
+  },
+  {
+   "game": "SEA@LV",
+   "away": "SEA",
+   "home": "LV",
+   "away_id": "26",
+   "home_id": "13",
+   "as": 21,
+   "hs": 13,
+   "row": {
+    "game": "SEA@LV",
+    "away": "SEA",
+    "home": "LV",
+    "as": 21,
+    "hs": 13,
+    "winner": "SEA",
+    "spread": 6.5,
+    "total": 40.5,
+    "line_txt": "SEA -6.5",
+    "ats": "SEA",
+    "cover_by": 1.5,
+    "miss": -1.5,
+    "ou": "bajas",
+    "picks": []
+   },
+   "box": {
+    "SEA": {
+     "yds": "382",
+     "ypp": "6.9",
+     "to": "2",
+     "third": "7-12",
+     "sacks": "3",
+     "rz": "1-2",
+     "top": "31:41",
+     "ypa": "11.6",
+     "ypc": "4.3"
+    },
+    "LV": {
+     "yds": "163",
+     "ypp": "2.8",
+     "to": "0",
+     "third": "7-17",
+     "sacks": "6",
+     "rz": "1-3",
+     "top": "28:19",
+     "ypa": "2.8",
+     "ypc": "2.7"
+    }
+   },
+   "top": [
+    {
+     "pid": "9488",
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "team": "SEA",
+     "ppr": 31.1,
+     "line": "8/10, 171 yds, 1 TD"
+    },
+    {
+     "pid": "5854",
+     "name": "Drew Lock",
+     "pos": "QB",
+     "team": "SEA",
+     "ppr": 15.6,
+     "line": "14/17, 240 yds, 2 TD, 0 INT · por tierra 6-20"
+    },
+    {
+     "pid": "13269",
+     "name": "Fernando Mendoza",
+     "pos": "QB",
+     "team": "LV",
+     "ppr": 13.9,
+     "line": "17/29, 143 yds, 0 TD, 0 INT · por tierra 6-22, 1 TD"
+    },
+    {
+     "pid": "13286",
+     "name": "Jadarian Price",
+     "pos": "RB",
+     "team": "SEA",
+     "ppr": 11.4,
+     "line": "tierra 9-36, 1 TD · recepción 1/1, 8 yds"
+    },
+    {
+     "pid": "4039",
+     "name": "Cooper Kupp",
+     "pos": "WR",
+     "team": "SEA",
+     "ppr": 10.4,
+     "line": "1/1, 34 yds, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "13269",
+     "name": "Fernando Mendoza",
+     "pos": "QB",
+     "team": "LV",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 1.0,
+       "pre": 0.16666666666666666
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "11604",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "team": "LV",
+     "notes": [
+      {
+       "k": "drop",
+       "now": 0.1864406779661017,
+       "pre": 0.8503253796095445
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "8180",
+     "name": "Jalen Nailor",
+     "pos": "WR",
+     "team": "LV",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.864406779661017,
+       "pre": 0.5582706766917294
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "9753",
+     "name": "Zach Charbonnet",
+     "pos": "RB",
+     "team": "SEA",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.7192982456140351,
+       "pre": 0.46923076923076923
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "9488",
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "team": "SEA",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.5882352941176471,
+       "pre": 0.3574007220216607
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "12483",
+     "name": "Jack Bech",
+     "pos": "WR",
+     "team": "LV",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.25925925925925924,
+       "pre": 0.0547945205479452
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "LV",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "pid": "11604",
+     "status": "Questionable",
+     "body": "Tobillo",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T21:00Z",
+     "role": 0.2755905511811024,
+     "key": "tgt",
+     "played": true,
+     "now": 0.1864406779661017,
+     "heir": {
+      "pid": "9482",
+      "name": "Michael Mayer",
+      "now": 0.1111111111111111,
+      "snap": 0.8305084745762712,
+      "owned": 21.4
+     },
+     "game": "SEA@LV",
+     "news": "Brock Bowers (ankle) confirmed to be day-to-day "
+    },
+    {
+     "team": "SEA",
+     "name": "George Holani",
+     "pos": "RB",
+     "pid": "12048",
+     "status": "Questionable",
+     "body": "Rodilla - LCM",
+     "side": "Not Specified",
+     "detail": "Sprain",
+     "date": "2026-11-16T20:56Z",
+     "role": 0.19444444444444445,
+     "key": "touch",
+     "played": true,
+     "now": null,
+     "heir": null,
+     "game": "SEA@LV"
+    },
+    {
+     "team": "SEA",
+     "name": "Sam Darnold",
+     "pos": "QB",
+     "pid": "4943",
+     "status": "Out",
+     "body": "Cuádriceps",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T18:03Z",
+     "role": 0.9015317286652079,
+     "key": "snap",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "5854",
+      "name": "Drew Lock",
+      "now": 1.0,
+      "snap": 1.0,
+      "owned": 16.4
+     },
+     "game": "SEA@LV",
+     "news": "Sam Darnold could return in Week 12",
+     "mates": [
+      {
+       "pid": "9488",
+       "name": "Jaxon Smith-Njigba",
+       "pos": "WR",
+       "line": "8/10, 171 yds, 1 TD"
+      },
+      {
+       "pid": "11603",
+       "name": "AJ Barner",
+       "pos": "TE",
+       "line": "3/3, 19 yds"
+      },
+      {
+       "pid": "8676",
+       "name": "Rashid Shaheed",
+       "pos": "WR",
+       "line": "1/2, 8 yds"
+      }
+     ]
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "LAR@ARI",
+   "away": "LAR",
+   "home": "ARI",
+   "away_id": "14",
+   "home_id": "22",
+   "as": 34,
+   "hs": 6,
+   "row": {
+    "game": "LAR@ARI",
+    "away": "LAR",
+    "home": "ARI",
+    "as": 34,
+    "hs": 6,
+    "winner": "LAR",
+    "spread": 9.5,
+    "total": 39.5,
+    "line_txt": "LAR -9.5",
+    "ats": "LAR",
+    "cover_by": 18.5,
+    "miss": -18.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "LAR": {
+     "yds": "436",
+     "ypp": "5.9",
+     "to": "1",
+     "third": "7-12",
+     "sacks": "2",
+     "rz": "3-5",
+     "top": "42:23",
+     "ypa": "8.4",
+     "ypc": "4.4"
+    },
+    "ARI": {
+     "yds": "123",
+     "ypp": "3.6",
+     "to": "2",
+     "third": "0-6",
+     "sacks": "5",
+     "rz": "0-0",
+     "top": "17:37",
+     "ypa": "3.9",
+     "ypc": "3.1"
+    }
+   },
+   "top": [
+    {
+     "pid": "11586",
+     "name": "Blake Corum",
+     "pos": "RB",
+     "team": "LAR",
+     "ppr": 20.9,
+     "line": "tierra 17-100, 1 TD · recepción 3/4, 19 yds"
+    },
+    {
+     "pid": "421",
+     "name": "Matthew Stafford",
+     "pos": "QB",
+     "team": "LAR",
+     "ppr": 20.8,
+     "line": "18/26, 249 yds, 3 TD, 1 INT"
+    },
+    {
+     "pid": "11168",
+     "name": "Xavier Smith",
+     "pos": "WR",
+     "team": "LAR",
+     "ppr": 12.0,
+     "line": "2/2, 40 yds, 1 TD"
+    },
+    {
+     "pid": "12718",
+     "name": "Konata Mumpfield",
+     "pos": "WR",
+     "team": "LAR",
+     "ppr": 11.1,
+     "line": "3/4, 81 yds"
+    },
+    {
+     "pid": "3271",
+     "name": "Tyler Higbee",
+     "pos": "TE",
+     "team": "LAR",
+     "ppr": 10.7,
+     "line": "3/4, 17 yds, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "13272",
+     "name": "Carson Beck",
+     "pos": "QB",
+     "team": "ARI",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 1.0,
+       "pre": 0
+      }
+     ],
+     "first": true
+    },
+    {
+     "pid": "13270",
+     "name": "CJ Daniels",
+     "pos": "WR",
+     "team": "LAR",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.6052631578947368,
+       "pre": 0.029850746268656716
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "7812",
+     "name": "Simi Fehoko",
+     "pos": "WR",
+     "team": "ARI",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.7428571428571429,
+       "pre": 0.19381443298969073
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "8122",
+     "name": "Zonovan Knight",
+     "pos": "RB",
+     "team": "ARI",
+     "notes": [
+      {
+       "k": "touch",
+       "now": 0.5,
+       "pre": 0.21656050955414013
+      },
+      {
+       "k": "snap",
+       "now": 0.5428571428571428,
+       "pre": 0.24305555555555555
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "10231",
+     "name": "Elijah Higgins",
+     "pos": "TE",
+     "team": "ARI",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.6857142857142857,
+       "pre": 0.4122257053291536
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [],
+   "blowout": 28
+  },
+  {
+   "game": "SF@DAL",
+   "away": "SF",
+   "home": "DAL",
+   "away_id": "25",
+   "home_id": "6",
+   "as": 46,
+   "hs": 40,
+   "row": {
+    "game": "SF@DAL",
+    "away": "SF",
+    "home": "DAL",
+    "as": 46,
+    "hs": 40,
+    "winner": "SF",
+    "spread": 3.5,
+    "total": 55.5,
+    "line_txt": "SF -3.5",
+    "ats": "SF",
+    "cover_by": 2.5,
+    "miss": -2.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "SF": {
+     "yds": "584",
+     "ypp": "9.4",
+     "to": "0",
+     "third": "6-11",
+     "sacks": "5",
+     "rz": "2-3",
+     "top": "31:47",
+     "ypa": "11.2",
+     "ypc": "7.4"
+    },
+    "DAL": {
+     "yds": "439",
+     "ypp": "5.8",
+     "to": "2",
+     "third": "7-16",
+     "sacks": "1",
+     "rz": "3-3",
+     "top": "28:13",
+     "ypa": "6.6",
+     "ypc": "4.0"
+    }
+   },
+   "top": [
+    {
+     "pid": "4034",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "ppr": 46.3,
+     "line": "tierra 13-62, 1 TD · recepción 4/4, 161 yds, 2 TD"
+    },
+    {
+     "pid": "8137",
+     "name": "George Pickens",
+     "pos": "WR",
+     "team": "DAL",
+     "ppr": 43.5,
+     "line": "11/18, 145 yds, 3 TD"
+    },
+    {
+     "pid": "3294",
+     "name": "Dak Prescott",
+     "pos": "QB",
+     "team": "DAL",
+     "ppr": 35.4,
+     "line": "30/51, 343 yds, 5 TD, 1 INT"
+    },
+    {
+     "pid": "8183",
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "team": "SF",
+     "ppr": 31.7,
+     "line": "22/28, 389 yds, 3 TD, 0 INT · por tierra 2-21"
+    },
+    {
+     "pid": "5872",
+     "name": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "team": "SF",
+     "ppr": 25.9,
+     "line": "3/3, 31 yds, 1 TD · tierra 3-78, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "8137",
+     "name": "George Pickens",
+     "pos": "WR",
+     "team": "DAL",
+     "notes": [
+      {
+       "k": "tgt",
+       "now": 0.375,
+       "pre": 0.21379310344827587
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "DAL",
+     "name": "Jonathan Mingo",
+     "pos": "WR",
+     "pid": "10225",
+     "status": "Out",
+     "body": "Tobillo",
+     "side": "Not Specified",
+     "detail": "Not Specified",
+     "date": "2026-11-16T19:10Z",
+     "role": 0.033950617283950615,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": null,
+     "game": "SF@DAL"
+    },
+    {
+     "team": "SF",
+     "name": "Mike Evans",
+     "pos": "WR",
+     "pid": "2216",
+     "status": "Out",
+     "body": "Aquiles",
+     "side": "Right",
+     "detail": "Tendinitis",
+     "date": "2026-11-16T22:05Z",
+     "role": 0.2484076433121019,
+     "key": "tgt",
+     "played": false,
+     "now": null,
+     "heir": {
+      "pid": "1479",
+      "name": "Keenan Allen",
+      "now": 0.25,
+      "snap": 0.47692307692307695,
+      "owned": 61.3
+     },
+     "game": "SF@DAL",
+     "news": "Mike Evans - Poised to practice this week"
+    }
+   ],
+   "blowout": null
+  },
+  {
+   "game": "PIT@CIN",
+   "away": "PIT",
+   "home": "CIN",
+   "away_id": "23",
+   "home_id": "4",
+   "as": 18,
+   "hs": 38,
+   "row": {
+    "game": "PIT@CIN",
+    "away": "PIT",
+    "home": "CIN",
+    "as": 18,
+    "hs": 38,
+    "winner": "CIN",
+    "spread": -3.5,
+    "total": 49.5,
+    "line_txt": "CIN -3.5",
+    "ats": "CIN",
+    "cover_by": 16.5,
+    "miss": 16.5,
+    "ou": "altas",
+    "picks": []
+   },
+   "box": {
+    "PIT": {
+     "yds": "222",
+     "ypp": "3.8",
+     "to": "0",
+     "third": "5-13",
+     "sacks": "3",
+     "rz": "0-2",
+     "top": "24:51",
+     "ypa": "3.4",
+     "ypc": "4.4"
+    },
+    "CIN": {
+     "yds": "484",
+     "ypp": "7.4",
+     "to": "0",
+     "third": "2-7",
+     "sacks": "1",
+     "rz": "5-6",
+     "top": "35:09",
+     "ypa": "9.0",
+     "ypc": "3.9"
+    }
+   },
+   "top": [
+    {
+     "pid": "7564",
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "team": "CIN",
+     "ppr": 34.1,
+     "line": "11/14, 231 yds"
+    },
+    {
+     "pid": "6770",
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "team": "CIN",
+     "ppr": 33.2,
+     "line": "35/44, 409 yds, 4 TD, 0 INT"
+    },
+    {
+     "pid": "9224",
+     "name": "Chase Brown",
+     "pos": "RB",
+     "team": "CIN",
+     "ppr": 28.3,
+     "line": "tierra 10-44 · recepción 8/9, 39 yds, 2 TD"
+    },
+    {
+     "pid": "96",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "PIT",
+     "ppr": 15.6,
+     "line": "15/29, 143 yds, 2 TD, 0 INT"
+    },
+    {
+     "pid": "5846",
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "team": "PIT",
+     "ppr": 15.4,
+     "line": "2/6, 54 yds, 1 TD"
+    }
+   ],
+   "swings": [
+    {
+     "pid": "7865",
+     "name": "Brandon Smith",
+     "pos": "WR",
+     "team": "PIT",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.7704918032786885,
+       "pre": 0.4083969465648855
+      }
+     ],
+     "first": false
+    },
+    {
+     "pid": "13274",
+     "name": "Germie Bernard",
+     "pos": "WR",
+     "team": "PIT",
+     "notes": [
+      {
+       "k": "snap",
+       "now": 0.9508196721311475,
+       "pre": 0.6397748592870544
+      }
+     ],
+     "first": false
+    }
+   ],
+   "injuries": [
+    {
+     "team": "PIT",
+     "name": "Michael Pittman Jr.",
+     "pos": "WR",
+     "pid": "6819",
+     "status": "Injured Reserve",
+     "body": "Pie",
+     "side": "Left",
+     "detail": "Plantar Fasciitis",
+     "date": "2026-11-16T20:39Z",
+     "role": 0.11214953271028037,
+     "key": "tgt",
+     "played": true,
+     "now": null,
+     "heir": null,
+     "game": "PIT@CIN"
+    },
+    {
+     "team": "PIT",
+     "name": "Roman Wilson",
+     "pos": "WR",
+     "pid": "11630",
+     "status": "Injured Reserve",
+     "body": "Dedo",
+     "side": "Left",
+     "detail": "Not Specified",
+     "date": "2026-11-16T20:37Z",
+     "role": 0.14367816091954022,
+     "key": "tgt",
+     "played": true,
+     "now": null,
+     "heir": null,
+     "game": "PIT@CIN"
+    }
+   ],
+   "blowout": 20
+  }
+ ],
+ "injuries": [
+  {
+   "team": "WSH",
+   "name": "Jacory Croskey-Merritt",
+   "pos": "RB",
+   "pid": "12533",
+   "status": "Injured Reserve",
+   "body": "Ingle",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T20:18Z",
+   "role": 0.5373134328358209,
+   "key": "touch",
+   "played": true,
+   "now": null,
+   "heir": {
+    "pid": "4663",
+    "name": "Austin Ekeler",
+    "now": 0.48148148148148145,
+    "snap": 0.43478260869565216,
+    "owned": 12.5
+   },
+   "game": "WSH@NYG",
+   "news": "Jacory Croskey-Merritt - Trending in right direction, per coach"
+  },
+  {
+   "team": "NE",
+   "name": "Drake Maye",
+   "pos": "QB",
+   "pid": "11564",
+   "status": "Doubtful",
+   "body": "Tobillo",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T17:16Z",
+   "role": 0.958974358974359,
+   "key": "snap",
+   "played": true,
+   "now": 0.1694915254237288,
+   "heir": {
+    "pid": "11292",
+    "name": "Tommy DeVito",
+    "now": 0.8305084745762712,
+    "snap": 0.8305084745762712,
+    "owned": 0
+   },
+   "game": "NE@DET",
+   "news": "Drake Maye - Not expected to be available after bye",
+   "mates": [
+    {
+     "pid": "4177",
+     "name": "Mack Hollins",
+     "pos": "WR",
+     "line": "5/6, 48 yds"
+    },
+    {
+     "pid": "5859",
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "line": "2/6, 27 yds"
+    },
+    {
+     "pid": "3214",
+     "name": "Hunter Henry",
+     "pos": "TE",
+     "line": "2/3, 22 yds"
+    }
+   ]
+  },
+  {
+   "team": "KC",
+   "name": "Kenneth Walker III",
+   "pos": "RB",
+   "pid": "8151",
+   "status": "Out",
+   "body": "Ingle",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T19:23Z",
+   "role": 0.8078602620087336,
+   "key": "touch",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "13337",
+    "name": "Emmett Johnson",
+    "now": 0.9333333333333333,
+    "snap": 0.8769230769230769,
+    "owned": 85.0
+   },
+   "game": "KC@ATL",
+   "news": "Chiefs Believe Kenneth Walker Has Short-Term Injury"
+  },
+  {
+   "team": "HOU",
+   "name": "Woody Marks",
+   "pos": "RB",
+   "pid": "12474",
+   "status": "Doubtful",
+   "body": "Conmoción",
+   "side": "Not Specified",
+   "detail": "Concussion",
+   "date": "2026-11-17T00:49Z",
+   "role": 0.5978260869565217,
+   "key": "touch",
+   "played": true,
+   "now": 0.44776119402985076,
+   "heir": {
+    "pid": "11199",
+    "name": "Emari Demercado",
+    "now": 0.34782608695652173,
+    "snap": 0.3283582089552239,
+    "owned": 2.1
+   },
+   "game": "HOU@CLE",
+   "news": "Woody Marks - DNP on Monday"
+  },
+  {
+   "team": "MIN",
+   "name": "Jordan Addison",
+   "pos": "WR",
+   "pid": "9756",
+   "status": "Out",
+   "body": "Pulgar",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T18:45Z",
+   "role": 0.1978021978021978,
+   "key": "tgt",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "6794",
+    "name": "Justin Jefferson",
+    "now": 0.43333333333333335,
+    "snap": 0.9130434782608695,
+    "owned": 99.1
+   },
+   "game": "MIN@GB",
+   "news": "Jordan Addison (thumb) to likely go on short-term IR"
+  },
+  {
+   "team": "MIN",
+   "name": "T.J. Hockenson",
+   "pos": "TE",
+   "pid": "5844",
+   "status": "Out",
+   "body": "Muñeca",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T18:43Z",
+   "role": 0.20853080568720378,
+   "key": "tgt",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "12700",
+    "name": "Gavin Bartholomew",
+    "now": 0.13333333333333333,
+    "snap": 0.7681159420289855,
+    "owned": 0
+   },
+   "game": "MIN@GB",
+   "news": "Vikings Expect T.J. Hockenson to Progress for Sunday Against 49ers"
+  },
+  {
+   "team": "TEN",
+   "name": "Carnell Tate",
+   "pos": "WR",
+   "pid": "13279",
+   "status": "Out",
+   "body": "Hombro",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T14:23Z",
+   "role": 0.2602040816326531,
+   "key": "tgt",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "12499",
+    "name": "Elic Ayomanor",
+    "now": 0.2702702702702703,
+    "snap": 0.9473684210526315,
+    "owned": 8.7
+   },
+   "game": "JAX@TEN",
+   "news": "Carnell Tate - Expected back for Week 11"
+  },
+  {
+   "team": "TEN",
+   "name": "Wan'Dale Robinson",
+   "pos": "WR",
+   "pid": "8126",
+   "status": "Questionable",
+   "body": "Tobillo",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-15T21:09Z",
+   "role": 0.2127659574468085,
+   "key": "tgt",
+   "played": true,
+   "now": 0.3508771929824561,
+   "heir": {
+    "pid": "12499",
+    "name": "Elic Ayomanor",
+    "now": 0.2702702702702703,
+    "snap": 0.9473684210526315,
+    "owned": 8.7
+   },
+   "game": "JAX@TEN",
+   "news": "Wan'Dale Robinson quiet in loss to Jags"
+  },
+  {
+   "team": "MIA",
+   "name": "Malik Willis",
+   "pos": "QB",
+   "pid": "8161",
+   "status": "Injured Reserve",
+   "body": "Abdomen",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T17:27Z",
+   "role": 1.0,
+   "key": "snap",
+   "played": true,
+   "now": null,
+   "heir": {
+    "pid": "12494",
+    "name": "Kyle McCord",
+    "now": 1.0,
+    "snap": 1.0,
+    "owned": 4.5
+   },
+   "game": "MIA@IND",
+   "news": "Malik Willis' surgery decision still pending",
+   "mates": [
+    {
+     "pid": "13296",
+     "name": "Caleb Douglas",
+     "pos": "WR",
+     "line": "3/8, 71 yds"
+    },
+    {
+     "pid": "13338",
+     "name": "Kevin Coleman Jr.",
+     "pos": "WR",
+     "line": "1/6, 6 yds"
+    },
+    {
+     "pid": "12495",
+     "name": "Ollie Gordon II",
+     "pos": "RB",
+     "line": "tierra 20-76 · recepción 4/5, 39 yds"
+    }
+   ]
+  },
+  {
+   "team": "NYJ",
+   "name": "Geno Smith",
+   "pos": "QB",
+   "pid": "1373",
+   "status": "Questionable",
+   "body": "Tobillo",
+   "side": "Left",
+   "detail": "Not Specified",
+   "date": "2026-11-17T00:15Z",
+   "role": 1.0,
+   "key": "snap",
+   "played": true,
+   "now": 0.4788732394366197,
+   "heir": {
+    "pid": "13303",
+    "name": "Cade Klubnik",
+    "now": 0.5211267605633803,
+    "snap": 0.5211267605633803,
+    "owned": 0
+   },
+   "game": "BUF@NYJ",
+   "news": "Geno Smith - Undergoes tests on ankle",
+   "mates": [
+    {
+     "pid": "8146",
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "line": "7/14, 106 yds"
+    },
+    {
+     "pid": "11625",
+     "name": "Adonai Mitchell",
+     "pos": "WR",
+     "line": "3/8, 59 yds"
+    },
+    {
+     "pid": "11608",
+     "name": "Isaiah Williams",
+     "pos": "WR",
+     "line": "4/7, 24 yds"
+    }
+   ]
+  },
+  {
+   "team": "LV",
+   "name": "Brock Bowers",
+   "pos": "TE",
+   "pid": "11604",
+   "status": "Questionable",
+   "body": "Tobillo",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T21:00Z",
+   "role": 0.2755905511811024,
+   "key": "tgt",
+   "played": true,
+   "now": 0.1864406779661017,
+   "heir": {
+    "pid": "9482",
+    "name": "Michael Mayer",
+    "now": 0.1111111111111111,
+    "snap": 0.8305084745762712,
+    "owned": 21.4
+   },
+   "game": "SEA@LV",
+   "news": "Brock Bowers (ankle) confirmed to be day-to-day "
+  },
+  {
+   "team": "SEA",
+   "name": "Sam Darnold",
+   "pos": "QB",
+   "pid": "4943",
+   "status": "Out",
+   "body": "Cuádriceps",
+   "side": "Not Specified",
+   "detail": "Not Specified",
+   "date": "2026-11-16T18:03Z",
+   "role": 0.9015317286652079,
+   "key": "snap",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "5854",
+    "name": "Drew Lock",
+    "now": 1.0,
+    "snap": 1.0,
+    "owned": 16.4
+   },
+   "game": "SEA@LV",
+   "news": "Sam Darnold could return in Week 12",
+   "mates": [
+    {
+     "pid": "9488",
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "line": "8/10, 171 yds, 1 TD"
+    },
+    {
+     "pid": "11603",
+     "name": "AJ Barner",
+     "pos": "TE",
+     "line": "3/3, 19 yds"
+    },
+    {
+     "pid": "8676",
+     "name": "Rashid Shaheed",
+     "pos": "WR",
+     "line": "1/2, 8 yds"
+    }
+   ]
+  },
+  {
+   "team": "SF",
+   "name": "Mike Evans",
+   "pos": "WR",
+   "pid": "2216",
+   "status": "Out",
+   "body": "Aquiles",
+   "side": "Right",
+   "detail": "Tendinitis",
+   "date": "2026-11-16T22:05Z",
+   "role": 0.2484076433121019,
+   "key": "tgt",
+   "played": false,
+   "now": null,
+   "heir": {
+    "pid": "1479",
+    "name": "Keenan Allen",
+    "now": 0.25,
+    "snap": 0.47692307692307695,
+    "owned": 61.3
+   },
+   "game": "SF@DAL",
+   "news": "Mike Evans - Poised to practice this week"
+  }
+ ],
+ "waivers": {
+  "QB": [
+   {
+    "pid": "12494",
+    "name": "Kyle McCord",
+    "pos": "QB",
+    "team": "MIA",
+    "owned": 4.5,
+    "started": 2.5,
+    "trend": 9344,
+    "pts_wk": 12.8,
+    "line_wk": "17/32, 209 yds, 0 TD, 0 INT · por tierra 2-4, 1 TD",
+    "now": {
+     "snap": 1.0,
+     "tgt": 0.0,
+     "rush": 0.07692307692307693,
+     "touch": null,
+     "g": 1
+    },
+    "pre": null,
+    "proj": 10.8,
+    "uproj": null,
+    "est": 10.8,
+    "opp": "@ BUF",
+    "opp_rank": 23,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Malik Willis (injured reserve, abdomen; tenía 100% de los snaps)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "BUF",
+      "NYJ",
+      "DEN",
+      "CHI"
+     ],
+     "ranks": [
+      23,
+      13,
+      17,
+      11
+     ],
+     "avg": 16.0,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "13303",
+    "name": "Cade Klubnik",
+    "pos": "QB",
+    "team": "NYJ",
+    "owned": 0,
+    "started": 0,
+    "trend": 19584,
+    "pts_wk": 7.1,
+    "line_wk": "11/20, 137 yds, 0 TD, 1 INT · por tierra 3-26",
+    "now": {
+     "snap": 0.5211267605633803,
+     "tgt": 0.0,
+     "rush": 0.13043478260869565,
+     "touch": null,
+     "g": 1
+    },
+    "pre": null,
+    "proj": 0,
+    "uproj": null,
+    "est": 0,
+    "opp": "@ LAC",
+    "opp_rank": 21,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Geno Smith (cuestionable, tobillo; tenía 100% de los snaps)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "LAC",
+      "MIA",
+      "DEN"
+     ],
+     "ranks": [
+      21,
+      19,
+      17
+     ],
+     "avg": 19.0,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "11292",
+    "name": "Tommy DeVito",
+    "pos": "QB",
+    "team": "NE",
+    "owned": 0,
+    "started": 0,
+    "trend": 13163,
+    "pts_wk": 8.1,
+    "line_wk": "12/24, 81 yds, 1 TD, 1 INT",
+    "now": {
+     "snap": 0.8305084745762712,
+     "tgt": 0.0,
+     "rush": 0.18181818181818182,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.19047619047619047,
+     "tgt": 0.0,
+     "rush": 0.023809523809523808,
+     "touch": null,
+     "g": 2
+    },
+    "proj": 0,
+    "uproj": null,
+    "est": 0,
+    "opp": "descansa",
+    "opp_rank": null,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Drake Maye (dudoso, tobillo; tenía 96% de los snaps)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "LAC",
+      "BUF",
+      "MIN"
+     ],
+     "ranks": [
+      21,
+      23,
+      32
+     ],
+     "avg": 25.333333333333332,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "5854",
+    "name": "Drew Lock",
+    "pos": "QB",
+    "team": "SEA",
+    "owned": 16.4,
+    "started": 10.7,
+    "trend": 0,
+    "pts_wk": 15.6,
+    "line_wk": "14/17, 240 yds, 2 TD, 0 INT · por tierra 6-20",
+    "now": {
+     "snap": 1.0,
+     "tgt": 0.0,
+     "rush": 0.17142857142857143,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.9732620320855615,
+     "tgt": 0.0,
+     "rush": 0.07368421052631578,
+     "touch": null,
+     "g": 3
+    },
+    "proj": 0,
+    "uproj": null,
+    "est": 0,
+    "opp": "descansa",
+    "opp_rank": null,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Sam Darnold (fuera, cuádriceps; tenía 90% de los snaps)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "SF",
+      "DAL",
+      "NYG"
+     ],
+     "ranks": [
+      15,
+      3,
+      6
+     ],
+     "avg": 8.0,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "12522",
+    "name": "Cam Ward",
+    "pos": "QB",
+    "team": "TEN",
+    "owned": 12.9,
+    "started": 4.8,
+    "trend": 0,
+    "pts_wk": 20.1,
+    "line_wk": "28/39, 231 yds, 2 TD, 1 INT · por tierra 3-39",
+    "now": {
+     "snap": 1.0,
+     "tgt": 0.0,
+     "rush": 0.17647058823529413,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 1.0,
+     "tgt": 0.0,
+     "rush": 0.13756613756613756,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 17.1,
+    "uproj": null,
+    "est": 17.1,
+    "opp": "@ DAL",
+    "opp_rank": 3,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DAL",
+      "JAX",
+      "WAS",
+      "DET"
+     ],
+     "ranks": [
+      3,
+      28,
+      7,
+      1
+     ],
+     "avg": 9.75,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "6797",
+    "name": "Justin Herbert",
+    "pos": "QB",
+    "team": "LAC",
+    "owned": 29.9,
+    "started": 13.8,
+    "trend": 0,
+    "pts_wk": null,
+    "line_wk": "juega el lunes",
+    "now": null,
+    "pre": {
+     "snap": 0.9717514124293786,
+     "tgt": 0.004347826086956522,
+     "rush": 0.15178571428571427,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 16.2,
+    "uproj": null,
+    "est": 16.2,
+    "opp": "vs NYJ",
+    "opp_rank": 13,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "NYJ",
+      "NE",
+      "TB",
+      "LV"
+     ],
+     "ranks": [
+      13,
+      12,
+      29,
+      4
+     ],
+     "avg": 14.5,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "4892",
+    "name": "Baker Mayfield",
+    "pos": "QB",
+    "team": "TB",
+    "owned": 23.1,
+    "started": 3.7,
+    "trend": 0,
+    "pts_wk": null,
+    "line_wk": "descansó",
+    "now": null,
+    "pre": {
+     "snap": 0.9738219895287958,
+     "tgt": 0.0,
+     "rush": 0.08542713567839195,
+     "touch": null,
+     "g": 6
+    },
+    "proj": 15.5,
+    "uproj": null,
+    "est": 15.5,
+    "opp": "@ DET",
+    "opp_rank": 1,
+    "inj": "Questionable",
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DET",
+      "CAR",
+      "LAC",
+      "BAL"
+     ],
+     "ranks": [
+      1,
+      22,
+      21,
+      14
+     ],
+     "avg": 14.5,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "11565",
+    "name": "J.J. McCarthy",
+    "pos": "QB",
+    "team": "NYG",
+    "owned": 22.9,
+    "started": 12.6,
+    "trend": 23259,
+    "pts_wk": 18.1,
+    "line_wk": "23/36, 293 yds, 1 TD, 1 INT · por tierra 6-34",
+    "now": {
+     "snap": 0.9538461538461539,
+     "tgt": 0.0,
+     "rush": 0.2222222222222222,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.49498327759197325,
+     "tgt": 0.0,
+     "rush": 0.07964601769911504,
+     "touch": null,
+     "g": 4
+    },
+    "proj": 15.2,
+    "uproj": null,
+    "est": 15.2,
+    "opp": "vs JAX",
+    "opp_rank": 28,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "JAX",
+      "IND",
+      "SF",
+      "SEA"
+     ],
+     "ranks": [
+      28,
+      16,
+      15,
+      31
+     ],
+     "avg": 22.5,
+     "pos": "QB"
+    }
+   }
+  ],
+  "RB": [
+   {
+    "pid": "11199",
+    "name": "Emari Demercado",
+    "pos": "RB",
+    "team": "HOU",
+    "owned": 2.1,
+    "started": 0.9,
+    "trend": 0,
+    "pts_wk": 2.5,
+    "line_wk": "tierra 7-16 · recepción 1/2, -1 yds",
+    "now": {
+     "snap": 0.3283582089552239,
+     "tgt": 0.05555555555555555,
+     "rush": 0.2916666666666667,
+     "touch": 0.34782608695652173,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.16393442622950818,
+     "tgt": 0.02040816326530612,
+     "rush": 0.16923076923076924,
+     "touch": 0.1875,
+     "g": 3
+    },
+    "proj": 7.4,
+    "uproj": 5.6,
+    "est": 6.5,
+    "opp": "vs IND",
+    "opp_rank": 6,
+    "inj": null,
+    "tier": "A",
+    "faab": "30-60%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Woody Marks (dudoso, conmoción; tenía 60% de los toques del backfield)",
+     "uso al alza: 35% de los toques del backfield (antes 19%)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "IND",
+      "BAL",
+      "PIT",
+      "WAS"
+     ],
+     "ranks": [
+      6,
+      24,
+      12,
+      19
+     ],
+     "avg": 15.25,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "4663",
+    "name": "Austin Ekeler",
+    "pos": "RB",
+    "team": "WAS",
+    "owned": 12.5,
+    "started": 6.7,
+    "trend": 23248,
+    "pts_wk": 9.2,
+    "line_wk": "tierra 9-26 · recepción 4/4, 26 yds",
+    "now": {
+     "snap": 0.43478260869565216,
+     "tgt": 0.12121212121212122,
+     "rush": 0.2727272727272727,
+     "touch": 0.48148148148148145,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.24761904761904763,
+     "tgt": 0.05194805194805195,
+     "rush": 0.21052631578947367,
+     "touch": 0.27522935779816515,
+     "g": 5
+    },
+    "proj": 4.8,
+    "uproj": 8.6,
+    "est": 6.7,
+    "opp": "vs CIN",
+    "opp_rank": 18,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Jacory Croskey-Merritt (injured reserve, ingle; tenía 54% de los toques del backfield)",
+     "uso al alza: 48% de los toques del backfield (antes 28%)",
+     "la proyección de Sleeper (4.8) todavía no refleja el uso (8.6)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CIN",
+      "ARI",
+      "TEN",
+      "HOU"
+     ],
+     "ranks": [
+      18,
+      14,
+      17,
+      16
+     ],
+     "avg": 16.25,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "13414",
+    "name": "Kaelon Black",
+    "pos": "RB",
+    "team": "SF",
+    "owned": 39.4,
+    "started": 6.0,
+    "trend": 67809,
+    "pts_wk": 14.6,
+    "line_wk": "tierra 11-53, 1 TD · recepción 2/2, 13 yds",
+    "now": {
+     "snap": 0.4,
+     "tgt": 0.07142857142857142,
+     "rush": 0.3793103448275862,
+     "touch": 0.43333333333333335,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.2891566265060241,
+     "tgt": 0.027777777777777776,
+     "rush": 0.2918454935622318,
+     "touch": 0.3256880733944954,
+     "g": 8
+    },
+    "proj": 4.8,
+    "uproj": 13.0,
+    "est": 8.9,
+    "opp": "vs MIN",
+    "opp_rank": 29,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "uso al alza: 43% de los toques del backfield (antes 33%)",
+     "la proyección de Sleeper (4.8) todavía no refleja el uso (13.0)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "MIN",
+      "SEA",
+      "NYG",
+      "LAR"
+     ],
+     "ranks": [
+      29,
+      22,
+      28,
+      30
+     ],
+     "avg": 27.25,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "8122",
+    "name": "Zonovan Knight",
+    "pos": "RB",
+    "team": "ARI",
+    "owned": 21.9,
+    "started": 9.9,
+    "trend": 0,
+    "pts_wk": 1.9,
+    "line_wk": "tierra 5-19 · recepción 0/2, 0 yds",
+    "now": {
+     "snap": 0.5428571428571428,
+     "tgt": 0.11764705882352941,
+     "rush": 0.45454545454545453,
+     "touch": 0.5,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.24305555555555555,
+     "tgt": 0.039473684210526314,
+     "rush": 0.18064516129032257,
+     "touch": 0.21656050955414013,
+     "g": 6
+    },
+    "proj": 6.9,
+    "uproj": 8.6,
+    "est": 7.8,
+    "opp": "@ KC",
+    "opp_rank": 26,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "uso al alza: 50% de los toques del backfield (antes 22%)",
+     "ojo: su partido se decidió por 28 — confirmar que no fue uso de paliza"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "KC",
+      "WAS",
+      "PHI"
+     ],
+     "ranks": [
+      26,
+      19,
+      23
+     ],
+     "avg": 22.666666666666668,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "11647",
+    "name": "Kimani Vidal",
+    "pos": "RB",
+    "team": "LAC",
+    "owned": 16.0,
+    "started": 4.9,
+    "trend": 10850,
+    "pts_wk": null,
+    "line_wk": "juega el lunes",
+    "now": null,
+    "pre": {
+     "snap": 0.3050847457627119,
+     "tgt": 0.07391304347826087,
+     "rush": 0.16071428571428573,
+     "touch": 0.2062780269058296,
+     "g": 8
+    },
+    "proj": 7.7,
+    "uproj": null,
+    "est": 7.7,
+    "opp": "vs NYJ",
+    "opp_rank": 10,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "NYJ",
+      "NE",
+      "TB",
+      "LV"
+     ],
+     "ranks": [
+      10,
+      15,
+      32,
+      5
+     ],
+     "avg": 15.5,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "13424",
+    "name": "Seth McGowan",
+    "pos": "RB",
+    "team": "IND",
+    "owned": 26.0,
+    "started": 5.3,
+    "trend": 202608,
+    "pts_wk": 13.7,
+    "line_wk": "tierra 12-77, 1 TD",
+    "now": {
+     "snap": 0.288135593220339,
+     "tgt": 0.0,
+     "rush": 0.35294117647058826,
+     "touch": 0.4,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.224283305227656,
+     "tgt": 0.020905923344947737,
+     "rush": 0.17269076305220885,
+     "touch": 0.1991701244813278,
+     "g": 9
+    },
+    "proj": 6.2,
+    "uproj": 8.7,
+    "est": 7.4,
+    "opp": "@ HOU",
+    "opp_rank": 16,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "uso al alza: 40% de los toques del backfield (antes 20%)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "HOU",
+      "NYG",
+      "PHI"
+     ],
+     "ranks": [
+      16,
+      28,
+      23
+     ],
+     "avg": 22.333333333333332,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "4147",
+    "name": "Samaje Perine",
+    "pos": "RB",
+    "team": "CIN",
+    "owned": 13.6,
+    "started": 4.1,
+    "trend": 14304,
+    "pts_wk": 13.9,
+    "line_wk": "tierra 6-14, 1 TD · recepción 4/4, 25 yds",
+    "now": {
+     "snap": 0.30303030303030304,
+     "tgt": 0.09523809523809523,
+     "rush": 0.3,
+     "touch": 0.3225806451612903,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.3577075098814229,
+     "tgt": 0.03806228373702422,
+     "rush": 0.2598870056497175,
+     "touch": 0.271356783919598,
+     "g": 8
+    },
+    "proj": 7.4,
+    "uproj": 6.8,
+    "est": 7.1,
+    "opp": "@ WAS",
+    "opp_rank": 19,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "WAS",
+      "NO",
+      "CLE",
+      "KC"
+     ],
+     "ranks": [
+      19,
+      2,
+      20,
+      26
+     ],
+     "avg": 16.75,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "5995",
+    "name": "Justice Hill",
+    "pos": "RB",
+    "team": "BAL",
+    "owned": 29.9,
+    "started": 16.0,
+    "trend": 171027,
+    "pts_wk": null,
+    "line_wk": "juega el lunes",
+    "now": null,
+    "pre": {
+     "snap": 0.44028520499108736,
+     "tgt": 0.11666666666666667,
+     "rush": 0.12452830188679245,
+     "touch": 0.21544715447154472,
+     "g": 9
+    },
+    "proj": 7.1,
+    "uproj": null,
+    "est": 7.1,
+    "opp": "@ CAR",
+    "opp_rank": 3,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CAR",
+      "HOU",
+      "TB"
+     ],
+     "ranks": [
+      3,
+      16,
+      32
+     ],
+     "avg": 17.0,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "7567",
+    "name": "Kenny Gainwell",
+    "pos": "RB",
+    "team": "TB",
+    "owned": 43.2,
+    "started": 5.2,
+    "trend": 13632,
+    "pts_wk": null,
+    "line_wk": "descansó",
+    "now": null,
+    "pre": {
+     "snap": 0.3716216216216216,
+     "tgt": 0.09090909090909091,
+     "rush": 0.21428571428571427,
+     "touch": 0.2765957446808511,
+     "g": 9
+    },
+    "proj": 6.8,
+    "uproj": null,
+    "est": 6.8,
+    "opp": "@ DET",
+    "opp_rank": 31,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DET",
+      "CAR",
+      "LAC",
+      "BAL"
+     ],
+     "ranks": [
+      31,
+      3,
+      13,
+      24
+     ],
+     "avg": 17.75,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "9511",
+    "name": "Keaton Mitchell",
+    "pos": "RB",
+    "team": "LAC",
+    "owned": 15.2,
+    "started": 3.5,
+    "trend": 13419,
+    "pts_wk": null,
+    "line_wk": "juega el lunes",
+    "now": null,
+    "pre": {
+     "snap": 0.3069679849340866,
+     "tgt": 0.09565217391304348,
+     "rush": 0.20535714285714285,
+     "touch": 0.28699551569506726,
+     "g": 8
+    },
+    "proj": 6.7,
+    "uproj": null,
+    "est": 6.7,
+    "opp": "vs NYJ",
+    "opp_rank": 10,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "NYJ",
+      "NE",
+      "TB",
+      "LV"
+     ],
+     "ranks": [
+      10,
+      15,
+      32,
+      5
+     ],
+     "avg": 15.5,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "13305",
+    "name": "Mike Washington Jr.",
+    "pos": "RB",
+    "team": "LV",
+    "owned": 34.3,
+    "started": 5.5,
+    "trend": 0,
+    "pts_wk": 3.7,
+    "line_wk": "tierra 8-23 · recepción 1/1, 4 yds",
+    "now": {
+     "snap": 0.288135593220339,
+     "tgt": 0.037037037037037035,
+     "rush": 0.3333333333333333,
+     "touch": 0.375,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.26182432432432434,
+     "tgt": 0.019230769230769232,
+     "rush": 0.31981981981981983,
+     "touch": 0.3008130081300813,
+     "g": 9
+    },
+    "proj": 5.3,
+    "uproj": 7.8,
+    "est": 6.5,
+    "opp": "@ DEN",
+    "opp_rank": 11,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DEN",
+      "CLE",
+      "LAC"
+     ],
+     "ranks": [
+      11,
+      20,
+      13
+     ],
+     "avg": 14.666666666666666,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "9508",
+    "name": "Tyjae Spears",
+    "pos": "RB",
+    "team": "TEN",
+    "owned": 14.1,
+    "started": 2.0,
+    "trend": 0,
+    "pts_wk": 3.8,
+    "line_wk": "tierra 4-28 · recepción 1/1, 0 yds",
+    "now": {
+     "snap": 0.2807017543859649,
+     "tgt": 0.02702702702702703,
+     "rush": 0.23529411764705882,
+     "touch": 0.22727272727272727,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.4166666666666667,
+     "tgt": 0.10303030303030303,
+     "rush": 0.13740458015267176,
+     "touch": 0.2426470588235294,
+     "g": 6
+    },
+    "proj": 7.5,
+    "uproj": 4.4,
+    "est": 6.0,
+    "opp": "@ DAL",
+    "opp_rank": 1,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DAL",
+      "JAX",
+      "WAS",
+      "DET"
+     ],
+     "ranks": [
+      1,
+      27,
+      19,
+      31
+     ],
+     "avg": 19.5,
+     "pos": "RB"
+    }
+   }
+  ],
+  "WR": [
+   {
+    "pid": "13281",
+    "name": "Jordyn Tyson",
+    "pos": "WR",
+    "team": "NO",
+    "owned": 67.6,
+    "started": 31.4,
+    "trend": 197032,
+    "pts_wk": 19.0,
+    "line_wk": "11/13, 80 yds",
+    "now": {
+     "snap": 0.7142857142857143,
+     "tgt": 0.3939393939393939,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.24,
+     "tgt": 0.15625,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "proj": 11.5,
+    "uproj": 25.0,
+    "est": 18.2,
+    "opp": "@ CHI",
+    "opp_rank": 23,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": false,
+    "why": [
+     "uso al alza: 39% de los targets (antes 16%)",
+     "la proyección de Sleeper (11.5) todavía no refleja el uso (25.0)"
+    ],
+    "deep": true,
+    "sched": {
+     "opps": [
+      "CHI",
+      "CIN",
+      "GB",
+      "CAR"
+     ],
+     "ranks": [
+      23,
+      22,
+      6,
+      19
+     ],
+     "avg": 17.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "12499",
+    "name": "Elic Ayomanor",
+    "pos": "WR",
+    "team": "TEN",
+    "owned": 8.7,
+    "started": 4.4,
+    "trend": 48820,
+    "pts_wk": 12.9,
+    "line_wk": "5/10, 79 yds",
+    "now": {
+     "snap": 0.9473684210526315,
+     "tgt": 0.2702702702702703,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6491596638655462,
+     "tgt": 0.11063829787234042,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 8.6,
+    "uproj": 14.2,
+    "est": 11.4,
+    "opp": "@ DAL",
+    "opp_rank": 7,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Carnell Tate (fuera, hombro; tenía 26% de los targets)",
+     "uso al alza: 27% de los targets (antes 11%)",
+     "ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza",
+     "la proyección de Sleeper (8.6) todavía no refleja el uso (14.2)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DAL",
+      "JAX",
+      "WAS",
+      "DET"
+     ],
+     "ranks": [
+      7,
+      15,
+      14,
+      13
+     ],
+     "avg": 12.25,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "1479",
+    "name": "Keenan Allen",
+    "pos": "WR",
+    "team": "SF",
+    "owned": 61.3,
+    "started": 24.2,
+    "trend": 15500,
+    "pts_wk": 11.1,
+    "line_wk": "5/7, 61 yds",
+    "now": {
+     "snap": 0.47692307692307695,
+     "tgt": 0.25,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.5882352941176471,
+     "tgt": 0.2248062015503876,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 5.8,
+    "uproj": 11.8,
+    "est": 8.8,
+    "opp": "vs MIN",
+    "opp_rank": 28,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Mike Evans (fuera, aquiles; tenía 25% de los targets)",
+     "la proyección de Sleeper (5.8) todavía no refleja el uso (11.8)"
+    ],
+    "deep": true,
+    "sched": {
+     "opps": [
+      "MIN",
+      "SEA",
+      "NYG",
+      "LAR"
+     ],
+     "ranks": [
+      28,
+      32,
+      20,
+      29
+     ],
+     "avg": 27.25,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "10218",
+    "name": "Xavier Hutchinson",
+    "pos": "WR",
+    "team": "HOU",
+    "owned": 3.0,
+    "started": 1.0,
+    "trend": 197211,
+    "pts_wk": 15.8,
+    "line_wk": "4/9, 58 yds, 1 TD",
+    "now": {
+     "snap": 0.7611940298507462,
+     "tgt": 0.25,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.5814393939393939,
+     "tgt": 0.16791044776119404,
+     "rush": 0.020512820512820513,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 5.5,
+    "uproj": 14.7,
+    "est": 10.1,
+    "opp": "vs IND",
+    "opp_rank": 21,
+    "inj": "Questionable",
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "la proyección de Sleeper (5.5) todavía no refleja el uso (14.7)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "IND",
+      "BAL",
+      "PIT",
+      "WAS"
+     ],
+     "ranks": [
+      21,
+      10,
+      17,
+      14
+     ],
+     "avg": 15.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "11625",
+    "name": "Adonai Mitchell",
+    "pos": "WR",
+    "team": "NYJ",
+    "owned": 44.5,
+    "started": 14.0,
+    "trend": 20936,
+    "pts_wk": 8.9,
+    "line_wk": "3/8, 59 yds",
+    "now": {
+     "snap": 0.8732394366197183,
+     "tgt": 0.2,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6972477064220184,
+     "tgt": 0.22818791946308725,
+     "rush": 0.0,
+     "touch": null,
+     "g": 5
+    },
+    "proj": 8.2,
+    "uproj": 10.4,
+    "est": 9.3,
+    "opp": "@ LAC",
+    "opp_rank": 4,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "LAC",
+      "MIA",
+      "DEN"
+     ],
+     "ranks": [
+      4,
+      30,
+      27
+     ],
+     "avg": 20.333333333333332,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "12483",
+    "name": "Jack Bech",
+    "pos": "WR",
+    "team": "LV",
+    "owned": 1.8,
+    "started": 0.1,
+    "trend": 0,
+    "pts_wk": 3.0,
+    "line_wk": "2/7, 10 yds",
+    "now": {
+     "snap": 0.559322033898305,
+     "tgt": 0.25925925925925924,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.3630573248407643,
+     "tgt": 0.0547945205479452,
+     "rush": 0.0,
+     "touch": null,
+     "g": 5
+    },
+    "proj": 3.1,
+    "uproj": 15.3,
+    "est": 9.2,
+    "opp": "@ DEN",
+    "opp_rank": 27,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "uso al alza: 26% de los targets (antes 5%)",
+     "la proyección de Sleeper (3.1) todavía no refleja el uso (15.3)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DEN",
+      "CLE",
+      "LAC"
+     ],
+     "ranks": [
+      27,
+      18,
+      4
+     ],
+     "avg": 16.333333333333332,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "12492",
+    "name": "Pat Bryant",
+    "pos": "WR",
+    "team": "DEN",
+    "owned": 13.3,
+    "started": 2.2,
+    "trend": 85448,
+    "pts_wk": null,
+    "line_wk": "descansó",
+    "now": null,
+    "pre": {
+     "snap": 0.603125,
+     "tgt": 0.10759493670886076,
+     "rush": 0.008547008547008548,
+     "touch": null,
+     "g": 5
+    },
+    "proj": 8.4,
+    "uproj": null,
+    "est": 8.4,
+    "opp": "vs LV",
+    "opp_rank": 9,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "LV",
+      "PIT",
+      "MIA",
+      "NYJ"
+     ],
+     "ranks": [
+      9,
+      17,
+      30,
+      26
+     ],
+     "avg": 20.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "11834",
+    "name": "Devaughn Vele",
+    "pos": "WR",
+    "team": "NO",
+    "owned": 49.1,
+    "started": 13.7,
+    "trend": 0,
+    "pts_wk": 3.4,
+    "line_wk": "2/2, 14 yds",
+    "now": {
+     "snap": 0.873015873015873,
+     "tgt": 0.06060606060606061,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.9153153153153153,
+     "tgt": 0.17627118644067796,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 5.6,
+    "uproj": 11.2,
+    "est": 8.4,
+    "opp": "@ CHI",
+    "opp_rank": 23,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "la proyección de Sleeper (5.6) todavía no refleja el uso (11.2)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CHI",
+      "CIN",
+      "GB",
+      "CAR"
+     ],
+     "ranks": [
+      23,
+      22,
+      6,
+      19
+     ],
+     "avg": 17.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "13301",
+    "name": "Antonio Williams",
+    "pos": "WR",
+    "team": "WAS",
+    "owned": 36.0,
+    "started": 12.6,
+    "trend": 0,
+    "pts_wk": 12.2,
+    "line_wk": "2/2, 42 yds, 1 TD",
+    "now": {
+     "snap": 0.855072463768116,
+     "tgt": 0.06060606060606061,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6133333333333333,
+     "tgt": 0.15789473684210525,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 8.1,
+    "uproj": 8.6,
+    "est": 8.3,
+    "opp": "vs CIN",
+    "opp_rank": 22,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CIN",
+      "ARI",
+      "TEN",
+      "HOU"
+     ],
+     "ranks": [
+      22,
+      16,
+      1,
+      5
+     ],
+     "avg": 11.0,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "11637",
+    "name": "Keon Coleman",
+    "pos": "WR",
+    "team": "BUF",
+    "owned": 38.5,
+    "started": 13.2,
+    "trend": 0,
+    "pts_wk": 2.1,
+    "line_wk": "1/3, 11 yds",
+    "now": {
+     "snap": 0.5263157894736842,
+     "tgt": 0.14285714285714285,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6842105263157895,
+     "tgt": 0.14864864864864866,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 9.1,
+    "uproj": 7.0,
+    "est": 8.1,
+    "opp": "vs MIA",
+    "opp_rank": 30,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "MIA",
+      "KC",
+      "NE",
+      "GB"
+     ],
+     "ranks": [
+      30,
+      31,
+      2,
+      6
+     ],
+     "avg": 17.25,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "5045",
+    "name": "Courtland Sutton",
+    "pos": "WR",
+    "team": "DEN",
+    "owned": 48.7,
+    "started": 8.0,
+    "trend": 11817,
+    "pts_wk": null,
+    "line_wk": "descansó",
+    "now": null,
+    "pre": {
+     "snap": 0.784070796460177,
+     "tgt": 0.17898832684824903,
+     "rush": 0.0,
+     "touch": null,
+     "g": 9
+    },
+    "proj": 8.0,
+    "uproj": null,
+    "est": 8.0,
+    "opp": "vs LV",
+    "opp_rank": 9,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "LV",
+      "PIT",
+      "MIA",
+      "NYJ"
+     ],
+     "ranks": [
+      9,
+      17,
+      30,
+      26
+     ],
+     "avg": 20.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "9754",
+    "name": "Quentin Johnston",
+    "pos": "WR",
+    "team": "LAC",
+    "owned": 27.2,
+    "started": 11.4,
+    "trend": 222628,
+    "pts_wk": null,
+    "line_wk": "juega el lunes",
+    "now": null,
+    "pre": {
+     "snap": 0.8125,
+     "tgt": 0.14354066985645933,
+     "rush": 0.015789473684210527,
+     "touch": null,
+     "g": 7
+    },
+    "proj": 7.6,
+    "uproj": null,
+    "est": 7.6,
+    "opp": "vs NYJ",
+    "opp_rank": 26,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "NYJ",
+      "NE",
+      "TB",
+      "LV"
+     ],
+     "ranks": [
+      26,
+      2,
+      24,
+      9
+     ],
+     "avg": 15.25,
+     "pos": "WR"
+    }
+   }
+  ],
+  "TE": [
+   {
+    "pid": "8210",
+    "name": "Chig Okonkwo",
+    "pos": "TE",
+    "team": "WAS",
+    "owned": 22.1,
+    "started": 10.9,
+    "trend": 0,
+    "pts_wk": 6.4,
+    "line_wk": "4/8, 24 yds",
+    "now": {
+     "snap": 0.5942028985507246,
+     "tgt": 0.24242424242424243,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6831168831168831,
+     "tgt": 0.16939890710382513,
+     "rush": 0.0,
+     "touch": null,
+     "g": 6
+    },
+    "proj": 10.2,
+    "uproj": 13.7,
+    "est": 11.9,
+    "opp": "vs CIN",
+    "opp_rank": 9,
+    "inj": "Questionable",
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": false,
+    "why": [
+     "la proyección de Sleeper (10.2) todavía no refleja el uso (13.7)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CIN",
+      "ARI",
+      "TEN",
+      "HOU"
+     ],
+     "ranks": [
+      9,
+      5,
+      19,
+      27
+     ],
+     "avg": 15.0,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "9482",
+    "name": "Michael Mayer",
+    "pos": "TE",
+    "team": "LV",
+    "owned": 21.4,
+    "started": 7.0,
+    "trend": 181791,
+    "pts_wk": 3.8,
+    "line_wk": "2/3, 16 yds",
+    "now": {
+     "snap": 0.8305084745762712,
+     "tgt": 0.1111111111111111,
+     "rush": 0.041666666666666664,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.8074324324324325,
+     "tgt": 0.14743589743589744,
+     "rush": 0.0,
+     "touch": null,
+     "g": 9
+    },
+    "proj": 8.5,
+    "uproj": 9.0,
+    "est": 8.8,
+    "opp": "@ DEN",
+    "opp_rank": 3,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de Brock Bowers (cuestionable, tobillo; tenía 28% de los targets)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "DEN",
+      "CLE",
+      "LAC"
+     ],
+     "ranks": [
+      3,
+      12,
+      31
+     ],
+     "avg": 15.333333333333334,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "12700",
+    "name": "Gavin Bartholomew",
+    "pos": "TE",
+    "team": "MIN",
+    "owned": 0,
+    "started": 0,
+    "trend": 65034,
+    "pts_wk": 12.6,
+    "line_wk": "3/4, 36 yds, 1 TD",
+    "now": {
+     "snap": 0.7681159420289855,
+     "tgt": 0.13333333333333333,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.21739130434782608,
+     "tgt": 0.047337278106508875,
+     "rush": 0.0,
+     "touch": null,
+     "g": 6
+    },
+    "proj": 2.3,
+    "uproj": 6.5,
+    "est": 4.4,
+    "opp": "@ SF",
+    "opp_rank": 17,
+    "inj": null,
+    "tier": "B",
+    "faab": "15-25%",
+    "heir": true,
+    "why": [
+     "hereda el rol de T.J. Hockenson (fuera, muñeca; tenía 21% de los targets)",
+     "la proyección de Sleeper (2.3) todavía no refleja el uso (6.5)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "SF",
+      "ATL",
+      "CAR",
+      "NE"
+     ],
+     "ranks": [
+      17,
+      22,
+      21,
+      29
+     ],
+     "avg": 22.25,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "5001",
+    "name": "Dalton Schultz",
+    "pos": "TE",
+    "team": "HOU",
+    "owned": 26.4,
+    "started": 11.0,
+    "trend": 0,
+    "pts_wk": 8.1,
+    "line_wk": "1/2, 11 yds, 1 TD",
+    "now": {
+     "snap": 0.6567164179104478,
+     "tgt": 0.05555555555555555,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.5587121212121212,
+     "tgt": 0.17537313432835822,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 8.2,
+    "uproj": 10.7,
+    "est": 9.4,
+    "opp": "vs IND",
+    "opp_rank": 15,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "IND",
+      "BAL",
+      "PIT",
+      "WAS"
+     ],
+     "ranks": [
+      15,
+      13,
+      18,
+      2
+     ],
+     "avg": 12.0,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "2505",
+    "name": "Darren Waller",
+    "pos": "TE",
+    "team": "CAR",
+    "owned": 46.5,
+    "started": 31.0,
+    "trend": 43020,
+    "pts_wk": 4.4,
+    "line_wk": "2/4, 24 yds",
+    "now": {
+     "snap": 0.6142857142857143,
+     "tgt": 0.13793103448275862,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.4875,
+     "tgt": 0.12367491166077739,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 8.8,
+    "uproj": 8.7,
+    "est": 8.8,
+    "opp": "vs BAL",
+    "opp_rank": 13,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "BAL",
+      "TB",
+      "MIN",
+      "NO"
+     ],
+     "ranks": [
+      13,
+      10,
+      32,
+      7
+     ],
+     "avg": 15.5,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "7002",
+    "name": "Juwan Johnson",
+    "pos": "TE",
+    "team": "NO",
+    "owned": 48.5,
+    "started": 25.4,
+    "trend": 0,
+    "pts_wk": 4.8,
+    "line_wk": "2/3, 28 yds",
+    "now": {
+     "snap": 0.6825396825396826,
+     "tgt": 0.09090909090909091,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6468468468468469,
+     "tgt": 0.13220338983050847,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 8.8,
+    "uproj": 8.7,
+    "est": 8.8,
+    "opp": "@ CHI",
+    "opp_rank": 23,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "CHI",
+      "CIN",
+      "GB",
+      "CAR"
+     ],
+     "ranks": [
+      23,
+      9,
+      30,
+      21
+     ],
+     "avg": 20.75,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "7694",
+    "name": "Tommy Tremble",
+    "pos": "TE",
+    "team": "CAR",
+    "owned": 0,
+    "started": 0,
+    "trend": 8144,
+    "pts_wk": 8.8,
+    "line_wk": "4/5, 48 yds",
+    "now": {
+     "snap": 0.6714285714285714,
+     "tgt": 0.1724137931034483,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.5732142857142857,
+     "tgt": 0.10600706713780919,
+     "rush": 0.0,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 5.7,
+    "uproj": 10.8,
+    "est": 8.2,
+    "opp": "vs BAL",
+    "opp_rank": 13,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [
+     "la proyección de Sleeper (5.7) todavía no refleja el uso (10.8)"
+    ],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "BAL",
+      "TB",
+      "MIN",
+      "NO"
+     ],
+     "ranks": [
+      13,
+      10,
+      32,
+      7
+     ],
+     "avg": 15.5,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "7600",
+    "name": "Pat Freiermuth",
+    "pos": "TE",
+    "team": "PIT",
+    "owned": 41.6,
+    "started": 19.8,
+    "trend": 0,
+    "pts_wk": 11.5,
+    "line_wk": "2/3, 35 yds, 1 TD",
+    "now": {
+     "snap": 0.5409836065573771,
+     "tgt": 0.10344827586206896,
+     "rush": 0.0,
+     "touch": null,
+     "g": 1
+    },
+    "pre": {
+     "snap": 0.6547842401500938,
+     "tgt": 0.13059701492537312,
+     "rush": 0.02072538860103627,
+     "touch": null,
+     "g": 8
+    },
+    "proj": 7.7,
+    "uproj": 7.8,
+    "est": 7.8,
+    "opp": "@ PHI",
+    "opp_rank": 28,
+    "inj": null,
+    "tier": "C",
+    "faab": "1-5%",
+    "heir": false,
+    "why": [],
+    "deep": false,
+    "sched": {
+     "opps": [
+      "PHI",
+      "DEN",
+      "HOU",
+      "JAX"
+     ],
+     "ranks": [
+      28,
+      3,
+      27,
+      26
+     ],
+     "avg": 21.0,
+     "pos": "TE"
+    }
+   }
+  ],
+  "DST": [
+   {
+    "pid": "BUF",
+    "name": "BUF",
+    "pos": "DST",
+    "team": "BUF",
+    "owned": 47.8,
+    "proj": 8.2,
+    "opp": "vs MIA",
+    "opp_implied": 14.5,
+    "sacks": 2.99,
+    "takeaways": 1.57,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "CHI",
+    "name": "CHI",
+    "pos": "DST",
+    "team": "CHI",
+    "owned": 30.1,
+    "proj": 7.5,
+    "opp": "vs NO",
+    "opp_implied": 18.5,
+    "sacks": 2.73,
+    "takeaways": 1.4,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "LAC",
+    "name": "LAC",
+    "pos": "DST",
+    "team": "LAC",
+    "owned": 6.1,
+    "proj": 6.8,
+    "opp": "vs NYJ",
+    "opp_implied": 18.75,
+    "sacks": 2.5,
+    "takeaways": 1.25,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "DET",
+    "name": "DET",
+    "pos": "DST",
+    "team": "DET",
+    "owned": 27.0,
+    "proj": 6.8,
+    "opp": "vs TB",
+    "opp_implied": 20.0,
+    "sacks": 2.32,
+    "takeaways": 1.33,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "DAL",
+    "name": "DAL",
+    "pos": "DST",
+    "team": "DAL",
+    "owned": 7.8,
+    "proj": 6.2,
+    "opp": "vs TEN",
+    "opp_implied": 23.0,
+    "sacks": 2.79,
+    "takeaways": 1.4,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "SF",
+    "name": "SF",
+    "pos": "DST",
+    "team": "SF",
+    "owned": 40.9,
+    "proj": 5.9,
+    "opp": "vs MIN",
+    "opp_implied": 21.75,
+    "sacks": 2.48,
+    "takeaways": 1.31,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "CIN",
+    "name": "CIN",
+    "pos": "DST",
+    "team": "CIN",
+    "owned": 41.1,
+    "proj": 5.8,
+    "opp": "@ WAS",
+    "opp_implied": 23.0,
+    "sacks": 2.65,
+    "takeaways": 1.29,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   },
+   {
+    "pid": "NYJ",
+    "name": "NYJ",
+    "pos": "DST",
+    "team": "NYJ",
+    "owned": 4.4,
+    "proj": 5.5,
+    "opp": "@ LAC",
+    "opp_implied": 21.75,
+    "sacks": 2.68,
+    "takeaways": 1.1,
+    "tier": "DST",
+    "faab": "0-1%",
+    "why": []
+   }
+  ]
+ },
+ "hot": [
+  {
+   "pid": "9754",
+   "name": "Quentin Johnston",
+   "pos": "WR",
+   "team": "LAC",
+   "adds": 222628,
+   "owned": 27.2,
+   "pts_wk": null,
+   "line_wk": "juega el lunes",
+   "inj": null
+  },
+  {
+   "pid": "13424",
+   "name": "Seth McGowan",
+   "pos": "RB",
+   "team": "IND",
+   "adds": 202608,
+   "owned": 26.0,
+   "pts_wk": 13.7,
+   "line_wk": "tierra 12-77, 1 TD",
+   "inj": null
+  },
+  {
+   "pid": "10218",
+   "name": "Xavier Hutchinson",
+   "pos": "WR",
+   "team": "HOU",
+   "adds": 197211,
+   "owned": 3.0,
+   "pts_wk": 15.8,
+   "line_wk": "4/9, 58 yds, 1 TD",
+   "inj": "Questionable"
+  },
+  {
+   "pid": "13281",
+   "name": "Jordyn Tyson",
+   "pos": "WR",
+   "team": "NO",
+   "adds": 197032,
+   "owned": 67.6,
+   "pts_wk": 19.0,
+   "line_wk": "11/13, 80 yds",
+   "inj": null
+  },
+  {
+   "pid": "9482",
+   "name": "Michael Mayer",
+   "pos": "TE",
+   "team": "LV",
+   "adds": 181791,
+   "owned": 21.4,
+   "pts_wk": 3.8,
+   "line_wk": "2/3, 16 yds",
+   "inj": null
+  },
+  {
+   "pid": "5995",
+   "name": "Justice Hill",
+   "pos": "RB",
+   "team": "BAL",
+   "adds": 171027,
+   "owned": 29.9,
+   "pts_wk": null,
+   "line_wk": "juega el lunes",
+   "inj": null
+  },
+  {
+   "pid": "11783",
+   "name": "Ryan Flournoy",
+   "pos": "WR",
+   "team": "DAL",
+   "adds": 135464,
+   "owned": 51.7,
+   "pts_wk": 19.1,
+   "line_wk": "6/7, 71 yds, 1 TD",
+   "inj": null
+  },
+  {
+   "pid": "13337",
+   "name": "Emmett Johnson",
+   "pos": "RB",
+   "team": "KC",
+   "adds": 98640,
+   "owned": 85.0,
+   "pts_wk": 35.1,
+   "line_wk": "tierra 22-101 · recepción 6/7, 70 yds, 2 TD",
+   "inj": null
+  },
+  {
+   "pid": "12492",
+   "name": "Pat Bryant",
+   "pos": "WR",
+   "team": "DEN",
+   "adds": 85448,
+   "owned": 13.3,
+   "pts_wk": null,
+   "line_wk": "descansó",
+   "inj": null
+  },
+  {
+   "pid": "4017",
+   "name": "Deshaun Watson",
+   "pos": "QB",
+   "team": "CLE",
+   "adds": 72384,
+   "owned": 15.9,
+   "pts_wk": 22.4,
+   "line_wk": "25/40, 312 yds, 0 TD, 1 INT · por tierra 8-49, 1 TD",
+   "inj": null
+  },
+  {
+   "pid": "13414",
+   "name": "Kaelon Black",
+   "pos": "RB",
+   "team": "SF",
+   "adds": 67809,
+   "owned": 39.4,
+   "pts_wk": 14.6,
+   "line_wk": "tierra 11-53, 1 TD · recepción 2/2, 13 yds",
+   "inj": null
+  },
+  {
+   "pid": "12700",
+   "name": "Gavin Bartholomew",
+   "pos": "TE",
+   "team": "MIN",
+   "adds": 65034,
+   "owned": 0,
+   "pts_wk": 12.6,
+   "line_wk": "3/4, 36 yds, 1 TD",
+   "inj": null
+  }
+ ],
+ "watch": {
+  "streaks": [
+   {
+    "pid": "6770",
+    "name": "Joe Burrow",
+    "pos": "QB",
+    "team": "CIN",
+    "what": "20+ puntos",
+    "n": 7,
+    "owned": 98.9,
+    "sched": {
+     "opps": [
+      "WAS",
+      "NO",
+      "CLE",
+      "KC"
+     ],
+     "ranks": [
+      7,
+      20,
+      24,
+      30
+     ],
+     "avg": 20.25,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "9488",
+    "name": "Jaxon Smith-Njigba",
+    "pos": "WR",
+    "team": "SEA",
+    "what": "8+ targets",
+    "n": 6,
+    "owned": 99.4,
+    "sched": {
+     "opps": [
+      "SF",
+      "DAL",
+      "NYG"
+     ],
+     "ranks": [
+      12,
+      7,
+      20
+     ],
+     "avg": 13.0,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "8138",
+    "name": "James Cook III",
+    "pos": "RB",
+    "team": "BUF",
+    "what": "100+ yardas totales y 17+ acarreos",
+    "n": 5,
+    "owned": 99.2,
+    "sched": {
+     "opps": [
+      "MIA",
+      "KC",
+      "NE",
+      "GB"
+     ],
+     "ranks": [
+      8,
+      26,
+      15,
+      7
+     ],
+     "avg": 14.0,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "9221",
+    "name": "Jahmyr Gibbs",
+    "pos": "RB",
+    "team": "DET",
+    "what": "17+ acarreos",
+    "n": 5,
+    "owned": 99.4,
+    "sched": {
+     "opps": [
+      "TB",
+      "CHI",
+      "ATL",
+      "TEN"
+     ],
+     "ranks": [
+      32,
+      21,
+      4,
+      17
+     ],
+     "avg": 18.5,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "12501",
+    "name": "Matthew Golden",
+    "pos": "WR",
+    "team": "GB",
+    "what": "8+ targets",
+    "n": 5,
+    "owned": 96.4,
+    "sched": {
+     "opps": [
+      "LAR",
+      "NO",
+      "BUF"
+     ],
+     "ranks": [
+      29,
+      25,
+      11
+     ],
+     "avg": 21.666666666666668,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "6786",
+    "name": "CeeDee Lamb",
+    "pos": "WR",
+    "team": "DAL",
+    "what": "8+ targets",
+    "n": 5,
+    "owned": 99.4,
+    "sched": {
+     "opps": [
+      "TEN",
+      "PHI",
+      "SEA"
+     ],
+     "ranks": [
+      1,
+      3,
+      32
+     ],
+     "avg": 12.0,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "4217",
+    "name": "George Kittle",
+    "pos": "TE",
+    "team": "SF",
+    "what": "7+ targets",
+    "n": 4,
+    "owned": 97.7,
+    "sched": {
+     "opps": [
+      "MIN",
+      "SEA",
+      "NYG",
+      "LAR"
+     ],
+     "ranks": [
+      32,
+      25,
+      16,
+      24
+     ],
+     "avg": 24.25,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "6794",
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "team": "MIN",
+    "what": "8+ targets",
+    "n": 3,
+    "owned": 99.1,
+    "sched": {
+     "opps": [
+      "SF",
+      "ATL",
+      "CAR",
+      "NE"
+     ],
+     "ranks": [
+      12,
+      8,
+      19,
+      2
+     ],
+     "avg": 10.25,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "7564",
+    "name": "Ja'Marr Chase",
+    "pos": "WR",
+    "team": "CIN",
+    "what": "8+ targets",
+    "n": 3,
+    "owned": 99.4,
+    "sched": {
+     "opps": [
+      "WAS",
+      "NO",
+      "CLE",
+      "KC"
+     ],
+     "ranks": [
+      14,
+      25,
+      18,
+      31
+     ],
+     "avg": 22.0,
+     "pos": "WR"
+    }
+   }
+  ],
+  "losers": [
+   {
+    "pid": "8150",
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "team": "LAR",
+    "k": "touch",
+    "now": 0.2857142857142857,
+    "pre": 0.6150943396226415,
+    "snap": 0.5131578947368421,
+    "line": "tierra 12-23 · recepción 2/5, 9 yds",
+    "blowout": 28
+   },
+   {
+    "pid": "13346",
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "team": "CLE",
+    "k": "tgt",
+    "now": 0.05,
+    "pre": 0.22262773722627738,
+    "snap": 0.8529411764705882,
+    "line": "1/2, 16 yds",
+    "blowout": null
+   }
+  ],
+  "flops": [
+   {
+    "pid": "8167",
+    "name": "Christian Watson",
+    "pos": "WR",
+    "team": "GB",
+    "pts": 6.7,
+    "avg": 19.7,
+    "k": "tgt",
+    "now": 0.1724137931034483,
+    "pre": 0.22492401215805471,
+    "held": false,
+    "line": "3/5, 37 yds",
+    "owned": 98.1,
+    "sched": {
+     "opps": [
+      "LAR",
+      "NO",
+      "BUF"
+     ],
+     "ranks": [
+      29,
+      25,
+      11
+     ],
+     "avg": 21.666666666666668,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "8150",
+    "name": "Kyren Williams",
+    "pos": "RB",
+    "team": "LAR",
+    "pts": 5.2,
+    "avg": 17.7,
+    "k": "touch",
+    "now": 0.2857142857142857,
+    "pre": 0.6150943396226415,
+    "held": false,
+    "line": "tierra 12-23 · recepción 2/5, 9 yds",
+    "owned": 99.0,
+    "sched": {
+     "opps": [
+      "GB",
+      "KC",
+      "SF"
+     ],
+     "ranks": [
+      7,
+      26,
+      25
+     ],
+     "avg": 19.333333333333332,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "8144",
+    "name": "Chris Olave",
+    "pos": "WR",
+    "team": "NO",
+    "pts": 6.0,
+    "avg": 17.7,
+    "k": "tgt",
+    "now": 0.12121212121212122,
+    "pre": 0.28135593220338984,
+    "held": false,
+    "line": "3/4, 30 yds",
+    "owned": 98.7,
+    "sched": {
+     "opps": [
+      "CHI",
+      "CIN",
+      "GB",
+      "CAR"
+     ],
+     "ranks": [
+      23,
+      22,
+      6,
+      19
+     ],
+     "avg": 17.5,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "7611",
+    "name": "Rhamondre Stevenson",
+    "pos": "RB",
+    "team": "NE",
+    "pts": 1.5,
+    "avg": 12.6,
+    "k": "touch",
+    "now": 0.3333333333333333,
+    "pre": 0.5267489711934157,
+    "held": false,
+    "line": "tierra 6-4 · recepción 1/1, 1 yds",
+    "owned": 89.9,
+    "sched": {
+     "opps": [
+      "LAC",
+      "BUF",
+      "MIN"
+     ],
+     "ranks": [
+      13,
+      9,
+      29
+     ],
+     "avg": 17.0,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "9228",
+    "name": "Bryce Young",
+    "pos": "QB",
+    "team": "CAR",
+    "pts": 8.1,
+    "avg": 19.1,
+    "k": "snap",
+    "now": 1.0,
+    "pre": 0.9571428571428572,
+    "held": true,
+    "line": "17/30, 200 yds, 0 TD, 0 INT",
+    "owned": 81.4,
+    "sched": {
+     "opps": [
+      "BAL",
+      "TB",
+      "MIN",
+      "NO"
+     ],
+     "ranks": [
+      14,
+      29,
+      32,
+      20
+     ],
+     "avg": 23.75,
+     "pos": "QB"
+    }
+   },
+   {
+    "pid": "7588",
+    "name": "Javonte Williams",
+    "pos": "RB",
+    "team": "DAL",
+    "pts": 7.7,
+    "avg": 17.7,
+    "k": "touch",
+    "now": 0.85,
+    "pre": 0.7841409691629956,
+    "held": true,
+    "line": "tierra 16-63 · recepción 1/1, 4 yds",
+    "owned": 98.8,
+    "sched": {
+     "opps": [
+      "TEN",
+      "PHI",
+      "SEA"
+     ],
+     "ranks": [
+      17,
+      23,
+      22
+     ],
+     "avg": 20.666666666666668,
+     "pos": "RB"
+    }
+   },
+   {
+    "pid": "12518",
+    "name": "Tyler Warren",
+    "pos": "TE",
+    "team": "IND",
+    "pts": 2.4,
+    "avg": 12.0,
+    "k": "tgt",
+    "now": 0.14285714285714285,
+    "pre": 0.2324561403508772,
+    "held": false,
+    "line": "2/3, 1 yds",
+    "owned": 95.8,
+    "sched": {
+     "opps": [
+      "HOU",
+      "NYG",
+      "PHI"
+     ],
+     "ranks": [
+      27,
+      16,
+      28
+     ],
+     "avg": 23.666666666666668,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "8130",
+    "name": "Trey McBride",
+    "pos": "TE",
+    "team": "ARI",
+    "pts": 8.7,
+    "avg": 18.1,
+    "k": "tgt",
+    "now": 0.29411764705882354,
+    "pre": 0.27485380116959063,
+    "held": true,
+    "line": "5/5, 37 yds",
+    "owned": 99.2,
+    "sched": {
+     "opps": [
+      "KC",
+      "WAS",
+      "PHI"
+     ],
+     "ranks": [
+      6,
+      2,
+      28
+     ],
+     "avg": 12.0,
+     "pos": "TE"
+    }
+   },
+   {
+    "pid": "12526",
+    "name": "Tetairoa McMillan",
+    "pos": "WR",
+    "team": "CAR",
+    "pts": 6.5,
+    "avg": 15.6,
+    "k": "tgt",
+    "now": 0.2413793103448276,
+    "pre": 0.2508833922261484,
+    "held": true,
+    "line": "3/7, 35 yds",
+    "owned": 97.6,
+    "sched": {
+     "opps": [
+      "BAL",
+      "TB",
+      "MIN",
+      "NO"
+     ],
+     "ranks": [
+      10,
+      24,
+      28,
+      25
+     ],
+     "avg": 21.75,
+     "pos": "WR"
+    }
+   },
+   {
+    "pid": "10859",
+    "name": "Sam LaPorta",
+    "pos": "TE",
+    "team": "DET",
+    "pts": 2.6,
+    "avg": 11.6,
+    "k": "tgt",
+    "now": 0.125,
+    "pre": 0.1821561338289963,
+    "held": false,
+    "line": "1/4, 16 yds",
+    "owned": 96.5,
+    "sched": {
+     "opps": [
+      "TB",
+      "CHI",
+      "ATL",
+      "TEN"
+     ],
+     "ranks": [
+      10,
+      23,
+      22,
+      19
+     ],
+     "avg": 18.5,
+     "pos": "TE"
+    }
+   }
+  ],
+  "qbs": [
+   {
+    "pid": "4179",
+    "name": "Joshua Dobbs",
+    "team": "DET",
+    "starter": "Jared Goff",
+    "snap": 0.14084507042253522,
+    "line": "1/1, 7 yds, 0 TD, 0 INT",
+    "owned": 0,
+    "why": "paliza de 25: puede ser solo relevo"
+   },
+   {
+    "pid": "11292",
+    "name": "Tommy DeVito",
+    "team": "NE",
+    "starter": "Drake Maye",
+    "snap": 0.8305084745762712,
+    "line": "12/24, 81 yds, 1 TD, 1 INT",
+    "owned": 0,
+    "why": "relevo por lesión"
+   },
+   {
+    "pid": "827",
+    "name": "Tyrod Taylor",
+    "team": "GB",
+    "starter": "Jordan Love",
+    "snap": 0.05454545454545454,
+    "line": "1/2, 3 yds, 0 TD, 0 INT",
+    "owned": 0,
+    "why": "paliza de 20: puede ser solo relevo"
+   },
+   {
+    "pid": "13303",
+    "name": "Cade Klubnik",
+    "team": "NYJ",
+    "starter": "Geno Smith",
+    "snap": 0.5211267605633803,
+    "line": "11/20, 137 yds, 0 TD, 1 INT · por tierra 3-26",
+    "owned": 0,
+    "why": "paliza de 19: puede ser solo relevo"
+   },
+   {
+    "pid": "4972",
+    "name": "Mason Rudolph",
+    "team": "PIT",
+    "starter": "Aaron Rodgers",
+    "snap": 0.18032786885245902,
+    "line": "1/3, 2 yds, 0 TD, 0 INT",
+    "owned": 0,
+    "why": "paliza de 20: puede ser solo relevo"
+   }
+  ]
+ },
+ "md": "# Recap del podcast — Semana 10, 2026\n\n*Generado lun 16 nov, 7:14 pm CDMX · 13 partidos terminados · pendientes: LAC @ BAL (lun 16 nov 7:15 pm) (vuelve a correr después)*\n\n**Nuestro récord de picks** — Semana 10: **2-2** · Temporada: **6-7**\n\n- CAR@NO: CAR +2.5 ★★ → ✅ ganado\n- NE@DET: NE +2.5 ★ → ❌ perdido\n- MIN@GB: bajas 42.5 ★ → ✅ ganado\n- JAX@TEN: bajas 46.5 ★ → ❌ perdido\n\n## Resultados\n\n| Partido | Final | Línea de cierre | Contra la línea | Total | Altas/bajas |\n|---|---|---|---|---|---|\n| WSH @ NYG | WSH 24 - 21 NYG | NYG -2.5 | WSH por 5.5 | 45 (40.5) | altas |\n| NE @ DET | NE 10 - 35 DET | DET -2.5 | DET por 22.5 | 45 (51.5) | bajas |\n| KC @ ATL | KC 35 - 13 ATL | KC -3 | KC por 19 | 48 (46.5) | altas |\n| HOU @ CLE | HOU 24 - 27 CLE | HOU -4.5 | CLE por 7.5 | 51 (41.5) | altas |\n| MIN @ GB | MIN 30 - 10 GB | GB -3 | MIN por 23 | 40 (42.5) | bajas |\n| JAX @ TEN | JAX 40 - 23 TEN | JAX -10.5 | JAX por 6.5 | 63 (46.5) | altas |\n| MIA @ IND | MIA 22 - 24 IND | IND -3.5 | MIA por 1.5 | 46 (38.5) | altas |\n| CAR @ NO | CAR 20 - 17 NO | NO -2.5 | CAR por 5.5 | 37 (48.5) | bajas |\n| BUF @ NYJ | BUF 31 - 12 NYJ | BUF -8.5 | BUF por 10.5 | 43 (50.5) | bajas |\n| SEA @ LV | SEA 21 - 13 LV | SEA -6.5 | SEA por 1.5 | 34 (40.5) | bajas |\n| LAR @ ARI | LAR 34 - 6 ARI | LAR -9.5 | LAR por 18.5 | 40 (39.5) | altas |\n| SF @ DAL | SF 46 - 40 DAL | SF -3.5 | SF por 2.5 | 86 (55.5) | altas |\n| PIT @ CIN | PIT 18 - 38 CIN | CIN -3.5 | CIN por 16.5 | 56 (49.5) | altas |\n\n## La semana en números\n\n- Favoritos contra la línea: **8-5** · locales: **3-10** · altas/bajas: **8-5**\n- Donde más falló el mercado: MIN @ GB (MIN cubrió por 23); NE @ DET (DET cubrió por 22.5); KC @ ATL (KC cubrió por 19)\n\n## Lesiones que mueven el fantasy\n\n| Jugador | Lesión | Estatus | Rol antes | Jugó (snaps) | Quién lo absorbió |\n|---|---|---|---|---|---|\n| Malik Willis (QB, MIA) | Abdomen | Injured Reserve | 100% de snaps | — | Kyle McCord (100% de snaps, 4% en ligas) |\n|  ↳ *Malik Willis' surgery decision still pending* | | | | | |\n| Geno Smith (QB, NYJ) | Tobillo | Cuestionable | 100% de snaps | 48% | Cade Klubnik (52% de snaps, 0% en ligas) |\n|  ↳ *Geno Smith - Undergoes tests on ankle* | | | | | |\n| Drake Maye (QB, NE) | Tobillo | Dudoso | 96% de snaps | 17% | Tommy DeVito (83% de snaps, 0% en ligas) |\n|  ↳ *Drake Maye - Not expected to be available after bye* | | | | | |\n| Sam Darnold (QB, SEA) | Cuádriceps | Fuera | 90% de snaps | — | Drew Lock (100% de snaps, 16% en ligas) |\n|  ↳ *Sam Darnold could return in Week 12* | | | | | |\n| Kenneth Walker III (RB, KC) | Ingle | Fuera | 81% de toques backfield | — | Emmett Johnson (93% de toques backfield, 85% en ligas) |\n|  ↳ *Chiefs Believe Kenneth Walker Has Short-Term Injury* | | | | | |\n| Woody Marks (RB, HOU) | Conmoción | Dudoso | 60% de toques backfield | 45% | Emari Demercado (35% de toques backfield, 2% en ligas) |\n|  ↳ *Woody Marks - DNP on Monday* | | | | | |\n| Jacory Croskey-Merritt (RB, WSH) | Ingle | Injured Reserve | 54% de toques backfield | — | Austin Ekeler (48% de toques backfield, 12% en ligas) |\n|  ↳ *Jacory Croskey-Merritt - Trending in right direction, per coach* | | | | | |\n| Brock Bowers (TE, LV) | Tobillo | Cuestionable | 28% de targets | 19% | Michael Mayer (11% de targets, 21% en ligas) |\n|  ↳ *Brock Bowers (ankle) confirmed to be day-to-day * | | | | | |\n| Carnell Tate (WR, TEN) | Hombro | Fuera | 26% de targets | — | Elic Ayomanor (27% de targets, 9% en ligas) |\n|  ↳ *Carnell Tate - Expected back for Week 11* | | | | | |\n| Mike Evans (WR, SF) | Aquiles | Fuera | 25% de targets | — | Keenan Allen (25% de targets, 61% en ligas) |\n|  ↳ *Mike Evans - Poised to practice this week* | | | | | |\n| Wan'Dale Robinson (WR, TEN) | Tobillo | Cuestionable | 21% de targets | 35% | Elic Ayomanor (27% de targets, 9% en ligas) |\n|  ↳ *Wan'Dale Robinson quiet in loss to Jags* | | | | | |\n| T.J. Hockenson (TE, MIN) | Muñeca | Fuera | 21% de targets | — | Gavin Bartholomew (13% de targets, 0% en ligas) |\n|  ↳ *Vikings Expect T.J. Hockenson to Progress for Sunday Against 49ers* | | | | | |\n| Jordan Addison (WR, MIN) | Pulgar | Fuera | 20% de targets | — | Justin Jefferson (43% de targets, 99% en ligas) |\n|  ↳ *Jordan Addison (thumb) to likely go on short-term IR* | | | | | |\n\nOtras: Colson Yankoff (TE, WSH, fuera); Zachariah Branch (WR, ATL, fuera); Jaydn Ott (RB, KC, fuera); Jared Wiley (TE, KC, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Skyy Moore (WR, GB, cuestionable); Will Mallory (TE, IND, fuera); Anthony Gould (WR, IND, cuestionable); Jared Wayne (WR, MIA, fuera); Chris Bell (WR, MIA, fuera); CJ Donaldson (RB, NO, fuera); Omar Cooper Jr. (WR, NYJ, cuestionable); George Holani (RB, SEA, cuestionable); Jonathan Mingo (WR, DAL, fuera); Michael Pittman Jr. (WR, PIT, injured reserve); Roman Wilson (WR, PIT, injured reserve)\n\n## Partido por partido\n\n### WSH @ NYG: WSH 24, NYG 21\n\n- **La línea:** cerró NYG -2.5, total 40.5 → WSH cubrió por 5.5; 45 puntos (altas)\n- **WSH:** 340 yds (5.1 por jugada; 6.9 por pase, 3.2 por acarreo) · balones perdidos 2 · 3ª 7-14 · capturas recibidas 1 · zona roja 1-1 · posesión 30:22\n- **NYG:** 399 yds (6.2 por jugada; 7.6 por pase, 4.3 por acarreo) · balones perdidos 2 · 3ª 4-12 · capturas recibidas 1 · zona roja 2-4 · posesión 29:38\n- **Fantasy (PPR):** Isaiah Likely (TE, NYG) 27.7 — 9/11, 127 yds, 1 TD; Cam Skattebo (RB, NYG) 27.2 — tierra 18-78, 2 TD · recepción 3/4, 44 yds; Jayden Daniels (QB, WAS) 22.8 — 23/33, 249 yds, 3 TD, 2 INT · por tierra 11-28; Stefon Diggs (WR, WAS) 20.3 — 6/10, 83 yds, 1 TD; J.J. McCarthy (QB, NYG) 18.1 — 23/36, 293 yds, 1 TD, 1 INT · por tierra 6-34\n- **Uso:** Jameis Winston (QB, NYG): jugó solo 5% de los snaps (antes 68%); J.J. McCarthy (QB, NYG): 95% de los snaps (antes 49%); Cam Skattebo (RB, NYG): 95% de los toques del backfield (antes 57%), 89% de los snaps (antes 54%); Austin Ekeler (RB, WAS): 48% de los toques del backfield (antes 28%)\n- **Lesiones:** Jacory Croskey-Merritt (RB, WSH) Ingle — Injured Reserve; Colson Yankoff (TE, WSH) Rodilla — Fuera\n\n### NE @ DET: NE 10, DET 35\n\n- **La línea:** cerró DET -2.5, total 51.5 → DET cubrió por 22.5; 45 puntos (bajas)\n- **Nuestro pick:** NE +2.5 → perdido\n- **NE:** 151 yds (2.7 por jugada; 2.7 por pase, 2.8 por acarreo) · balones perdidos 1 · 3ª 4-13 · capturas recibidas 5 · zona roja 1-2 · posesión 27:03\n- **DET:** 494 yds (7.3 por jugada; 8.9 por pase, 5.6 por acarreo) · balones perdidos 2 · 3ª 8-15 · capturas recibidas 2 · zona roja 2-3 · posesión 32:57\n- **Fantasy (PPR):** Jahmyr Gibbs (RB, DET) 44.2 — tierra 22-153, 2 TD · recepción 7/8, 99 yds; Amon-Ra St. Brown (WR, DET) 25.8 — 4/5, 98 yds, 2 TD; Jared Goff (QB, DET) 22.4 — 20/31, 303 yds, 3 TD, 2 INT; Isaac TeSlaa (WR, DET) 9.9 — 2/5, 19 yds, 1 TD; Mack Hollins (WR, NE) 9.8 — 5/6, 48 yds\n- **Uso:** Drake Maye (QB, NE): jugó solo 17% de los snaps (antes 96%); Tommy DeVito (QB, NE): 83% de los snaps (antes 19%); Mack Hollins (WR, NE): 92% de los snaps (antes 64%); Corey Kiner (RB, NE): 48% de los toques del backfield (antes 21%) *(partido decidido por 25: confirmar que no es uso de paliza)*\n- **Lesiones:** Drake Maye (QB, NE) Tobillo — Dudoso\n\n### KC @ ATL: KC 35, ATL 13\n\n- **La línea:** cerró KC -3, total 46.5 → KC cubrió por 19; 48 puntos (altas)\n- **KC:** 461 yds (7.3 por jugada; 9.4 por pase, 4.5 por acarreo) · balones perdidos 0 · 3ª 4-13 · capturas recibidas 1 · zona roja 3-3 · posesión 28:36\n- **ATL:** 370 yds (5.6 por jugada; 5.9 por pase, 5.0 por acarreo) · balones perdidos 2 · 3ª 5-16 · capturas recibidas 3 · zona roja 1-5 · posesión 31:24\n- **Fantasy (PPR):** Patrick Mahomes (QB, KC) 35.4 — 22/35, 348 yds, 5 TD, 0 INT; Emmett Johnson (RB, KC) 35.1 — tierra 22-101 · recepción 6/7, 70 yds, 2 TD; Bijan Robinson (RB, ATL) 17.7 — tierra 16-71, 1 TD · recepción 4/5, 6 yds; Drake London (WR, ATL) 16.9 — 6/12, 109 yds; Josh Downs (WR, KC) 15.3 — 4/5, 53 yds, 1 TD\n- **Uso:** Emmett Johnson (RB, KC): 93% de los toques del backfield (antes 17%), 88% de los snaps (antes 26%); Josh Downs (WR, KC): jugó solo 17% de los snaps (antes 81%); Travis Kelce (TE, KC): jugó solo 31% de los snaps (antes 77%); Noah Gray (TE, KC): 85% de los snaps (antes 58%) *(partido decidido por 22: confirmar que no es uso de paliza)*\n- **Lesiones:** Zachariah Branch (WR, ATL) Isquiotibial — Fuera; Kenneth Walker III (RB, KC) Ingle — Fuera; Jaydn Ott (RB, KC) Isquiotibial — Fuera; Jared Wiley (TE, KC) Tobillo — Fuera\n\n### HOU @ CLE: HOU 24, CLE 27\n\n- **La línea:** cerró HOU -4.5, total 41.5 → CLE cubrió por 7.5; 51 puntos (altas)\n- **HOU:** 290 yds (4.6 por jugada; 5.2 por pase, 3.7 por acarreo) · balones perdidos 1 · 3ª 3-12 · capturas recibidas 1 · zona roja 3-3 · posesión 29:38\n- **CLE:** 379 yds (5.7 por jugada; 6.4 por pase, 4.3 por acarreo) · balones perdidos 1 · 3ª 7-15 · capturas recibidas 4 · zona roja 3-5 · posesión 30:22\n- **Fantasy (PPR):** Nico Collins (WR, HOU) 24.4 — 9/16, 94 yds, 1 TD; Deshaun Watson (QB, CLE) 22.4 — 25/40, 312 yds, 0 TD, 1 INT · por tierra 8-49, 1 TD; C.J. Stroud (QB, HOU) 21.4 — 20/38, 211 yds, 3 TD, 1 INT · por tierra 3-20; Harold Fannin Jr. (TE, CLE) 16.1 — 7/9, 91 yds; Quinshon Judkins (RB, CLE) 16.1 — tierra 10-38, 1 TD · recepción 3/5, 33 yds\n- **Uso:** Nico Collins (WR, HOU): 44% de los targets (antes 20%)\n- **Lesiones:** Woody Marks (RB, HOU) Conmoción — Dudoso; Marvin Harrison Jr. (WR, HOU) Isquiotibial — Fuera\n\n### MIN @ GB: MIN 30, GB 10\n\n- **La línea:** cerró GB -3, total 42.5 → MIN cubrió por 23; 40 puntos (bajas)\n- **Nuestro pick:** bajas 42.5 → ganado\n- **MIN:** 312 yds (4.8 por jugada; 5.4 por pase, 4.2 por acarreo) · balones perdidos 1 · 3ª 8-16 · capturas recibidas 3 · zona roja 1-4 · posesión 35:16\n- **GB:** 220 yds (4.1 por jugada; 4.4 por pase, 3.3 por acarreo) · balones perdidos 4 · 3ª 3-10 · capturas recibidas 8 · zona roja 0-1 · posesión 24:44\n- **Fantasy (PPR):** Justin Jefferson (WR, MIN) 16.4 — 9/13, 74 yds; Kirk Cousins (QB, MIN) 16.4 — 21/31, 207 yds, 2 TD, 1 INT; Myles Price (WR, MIN) 16.1 — 4/4, 49 yds, 1 TD; Gavin Bartholomew (TE, MIN) 12.6 — 3/4, 36 yds, 1 TD; Aaron Jones Sr. (RB, MIN) 12.5 — tierra 11-47, 1 TD · recepción 1/1, 8 yds\n- **Uso:** Gavin Bartholomew (TE, MIN): 77% de los snaps (antes 22%); Tai Felton (WR, MIN): 17% de los targets (antes 4%), 86% de los snaps (antes 32%); Justin Jefferson (WR, MIN): 43% de los targets (antes 29%) *(partido decidido por 20: confirmar que no es uso de paliza)*\n- **Lesiones:** Skyy Moore (WR, GB) Tobillo — Cuestionable; Jordan Addison (WR, MIN) Pulgar — Fuera; T.J. Hockenson (TE, MIN) Muñeca — Fuera\n\n### JAX @ TEN: JAX 40, TEN 23\n\n- **La línea:** cerró JAX -10.5, total 46.5 → JAX cubrió por 6.5; 63 puntos (altas)\n- **Nuestro pick:** bajas 46.5 → perdido\n- **JAX:** 459 yds (6.4 por jugada; 9.3 por pase, 3.4 por acarreo) · balones perdidos 1 · 3ª 7-14 · capturas recibidas 1 · zona roja 3-5 · posesión 38:10\n- **TEN:** 327 yds (5.7 por jugada; 5.6 por pase, 6.2 por acarreo) · balones perdidos 1 · 3ª 2-11 · capturas recibidas 1 · zona roja 1-1 · posesión 21:50\n- **Fantasy (PPR):** Parker Washington (WR, JAX) 28.2 — 7/9, 152 yds, 1 TD; Trevor Lawrence (QB, JAX) 27.8 — 25/35, 352 yds, 3 TD, 1 INT · por tierra 4-27; Tony Pollard (RB, TEN) 23.9 — tierra 9-33 · recepción 8/9, 66 yds, 1 TD; Bhayshul Tuten (RB, JAX) 20.3 — tierra 26-88, 1 TD · recepción 3/4, 25 yds; Cam Ward (QB, TEN) 20.1 — 28/39, 231 yds, 2 TD, 1 INT · por tierra 3-39\n- **Uso:** Chimere Dike (WR, TEN): 95% de los snaps (antes 24%); Elic Ayomanor (WR, TEN): 27% de los targets (antes 11%), 95% de los snaps (antes 65%); Bhayshul Tuten (RB, JAX): 88% de los toques del backfield (antes 61%) *(partido decidido por 17: confirmar que no es uso de paliza)*\n- **Lesiones:** Carnell Tate (WR, TEN) Hombro — Fuera; Wan'Dale Robinson (WR, TEN) Tobillo — Cuestionable\n\n### MIA @ IND: MIA 22, IND 24\n\n- **La línea:** cerró IND -3.5, total 38.5 → MIA cubrió por 1.5; 46 puntos (altas)\n- **MIA:** 293 yds (4.7 por jugada; 6.0 por pase, 3.0 por acarreo) · balones perdidos 1 · 3ª 3-11 · capturas recibidas 3 · zona roja 1-2 · posesión 29:16\n- **IND:** 276 yds (4.8 por jugada; 4.5 por pase, 5.1 por acarreo) · balones perdidos 2 · 3ª 3-11 · capturas recibidas 1 · zona roja 2-2 · posesión 30:44\n- **Fantasy (PPR):** Ollie Gordon II (RB, MIA) 15.5 — tierra 20-76 · recepción 4/5, 39 yds; Seth McGowan (RB, IND) 13.7 — tierra 12-77, 1 TD; Malik Washington (WR, MIA) 13.4 — 3/3, 50 yds; Jalen Tolbert (WR, MIA) 12.9 — 2/2, 49 yds, 1 TD; Kyle McCord (QB, MIA) 12.8 — 17/32, 209 yds, 0 TD, 0 INT · por tierra 2-4, 1 TD\n- **Uso:** Kyle McCord (QB, MIA): 100% de los snaps (antes 0%) — primer partido con snaps; Anthony Gould (WR, IND): 19% de los targets (antes 1%), 54% de los snaps (antes 1%); Deion Burks (WR, IND): 58% de los snaps (antes 17%); Seth McGowan (RB, IND): 40% de los toques del backfield (antes 20%)\n- **Lesiones:** Will Mallory (TE, IND) Isquiotibial — Fuera; Anthony Gould (WR, IND) Dedo del pie — Cuestionable; Jared Wayne (WR, MIA) Cuádriceps — Fuera; Chris Bell (WR, MIA) Rodilla — Fuera; Malik Willis (QB, MIA) Abdomen — Injured Reserve\n\n### CAR @ NO: CAR 20, NO 17\n\n- **La línea:** cerró NO -2.5, total 48.5 → CAR cubrió por 5.5; 37 puntos (bajas)\n- **Nuestro pick:** CAR +2.5 → ganado\n- **CAR:** 283 yds (4.4 por jugada; 5.6 por pase, 3.0 por acarreo) · balones perdidos 0 · 3ª 4-14 · capturas recibidas 3 · zona roja 2-3 · posesión 31:25\n- **NO:** 222 yds (3.6 por jugada; 4.6 por pase, 2.1 por acarreo) · balones perdidos 2 · 3ª 5-13 · capturas recibidas 3 · zona roja 2-2 · posesión 28:35\n- **Fantasy (PPR):** Chuba Hubbard (RB, CAR) 34.2 — tierra 27-92, 2 TD · recepción 5/5, 80 yds; Jordyn Tyson (WR, NO) 19.0 — 11/13, 80 yds; Alvin Kamara (RB, NO) 16.4 — tierra 2-4, 1 TD · recepción 3/4, 10 yds, 1 TD; Tyler Shough (QB, NO) 11.0 — 25/35, 187 yds, 1 TD, 1 INT · por tierra 6-25; Tommy Tremble (TE, CAR) 8.8 — 4/5, 48 yds\n- **Uso:** Bryce Lance (WR, NO): jugó solo 14% de los snaps (antes 67%); Jordyn Tyson (WR, NO): 39% de los targets (antes 16%), 71% de los snaps (antes 24%)\n- **Lesiones:** CJ Donaldson (RB, NO) Hombro — Fuera\n\n### BUF @ NYJ: BUF 31, NYJ 12\n\n- **La línea:** cerró BUF -8.5, total 50.5 → BUF cubrió por 10.5; 43 puntos (bajas)\n- **BUF:** 389 yds (7.2 por jugada; 8.5 por pase, 6.3 por acarreo) · balones perdidos 2 · 3ª 2-10 · capturas recibidas 1 · zona roja 2-3 · posesión 27:59\n- **NYJ:** 376 yds (5.5 por jugada; 5.9 por pase, 4.7 por acarreo) · balones perdidos 2 · 3ª 3-13 · capturas recibidas 4 · zona roja 0-2 · posesión 32:01\n- **Fantasy (PPR):** Josh Allen (QB, BUF) 23.3 — 11/21, 196 yds, 1 TD, 1 INT · por tierra 5-5, 2 TD; James Cook III (RB, BUF) 21.7 — tierra 18-157, 1 TD · recepción 0/1, 0 yds; DJ Moore (WR, BUF) 19.4 — 4/6, 90 yds, 1 TD; Garrett Wilson (WR, NYJ) 15.6 — 7/14, 106 yds; Breece Hall (RB, NYJ) 14.8 — tierra 11-41 · recepción 4/4, 67 yds\n- **Uso:** Omar Cooper Jr. (WR, NYJ): jugó solo 1% de los snaps (antes 63%); Geno Smith (QB, NYJ): jugó solo 48% de los snaps (antes 100%); Cade Klubnik (QB, NYJ): 52% de los snaps (antes 0%) — primer partido con snaps; Isaiah Williams (WR, NYJ): 18% de los targets (antes 6%); DJ Moore (WR, BUF): 29% de los targets (antes 18%) *(partido decidido por 19: confirmar que no es uso de paliza)*\n- **Lesiones:** Geno Smith (QB, NYJ) Tobillo — Cuestionable; Omar Cooper Jr. (WR, NYJ) Tobillo — Cuestionable\n\n### SEA @ LV: SEA 21, LV 13\n\n- **La línea:** cerró SEA -6.5, total 40.5 → SEA cubrió por 1.5; 34 puntos (bajas)\n- **SEA:** 382 yds (6.9 por jugada; 11.6 por pase, 4.3 por acarreo) · balones perdidos 2 · 3ª 7-12 · capturas recibidas 3 · zona roja 1-2 · posesión 31:41\n- **LV:** 163 yds (2.8 por jugada; 2.8 por pase, 2.7 por acarreo) · balones perdidos 0 · 3ª 7-17 · capturas recibidas 6 · zona roja 1-3 · posesión 28:19\n- **Fantasy (PPR):** Jaxon Smith-Njigba (WR, SEA) 31.1 — 8/10, 171 yds, 1 TD; Drew Lock (QB, SEA) 15.6 — 14/17, 240 yds, 2 TD, 0 INT · por tierra 6-20; Fernando Mendoza (QB, LV) 13.9 — 17/29, 143 yds, 0 TD, 0 INT · por tierra 6-22, 1 TD; Jadarian Price (RB, SEA) 11.4 — tierra 9-36, 1 TD · recepción 1/1, 8 yds; Cooper Kupp (WR, SEA) 10.4 — 1/1, 34 yds, 1 TD\n- **Uso:** Fernando Mendoza (QB, LV): 100% de los snaps (antes 17%); Brock Bowers (TE, LV): jugó solo 19% de los snaps (antes 85%); Jalen Nailor (WR, LV): 86% de los snaps (antes 56%); Zach Charbonnet (RB, SEA): 72% de los snaps (antes 47%); Jaxon Smith-Njigba (WR, SEA): 59% de los targets (antes 36%)\n- **Lesiones:** Brock Bowers (TE, LV) Tobillo — Cuestionable; George Holani (RB, SEA) Rodilla - LCM — Cuestionable; Sam Darnold (QB, SEA) Cuádriceps — Fuera\n\n### LAR @ ARI: LAR 34, ARI 6\n\n- **La línea:** cerró LAR -9.5, total 39.5 → LAR cubrió por 18.5; 40 puntos (altas)\n- **LAR:** 436 yds (5.9 por jugada; 8.4 por pase, 4.4 por acarreo) · balones perdidos 1 · 3ª 7-12 · capturas recibidas 2 · zona roja 3-5 · posesión 42:23\n- **ARI:** 123 yds (3.6 por jugada; 3.9 por pase, 3.1 por acarreo) · balones perdidos 2 · 3ª 0-6 · capturas recibidas 5 · zona roja 0-0 · posesión 17:37\n- **Fantasy (PPR):** Blake Corum (RB, LAR) 20.9 — tierra 17-100, 1 TD · recepción 3/4, 19 yds; Matthew Stafford (QB, LAR) 20.8 — 18/26, 249 yds, 3 TD, 1 INT; Xavier Smith (WR, LAR) 12.0 — 2/2, 40 yds, 1 TD; Konata Mumpfield (WR, LAR) 11.1 — 3/4, 81 yds; Tyler Higbee (TE, LAR) 10.7 — 3/4, 17 yds, 1 TD\n- **Uso:** Carson Beck (QB, ARI): 100% de los snaps (antes 0%) — primer partido con snaps; CJ Daniels (WR, LAR): 61% de los snaps (antes 3%); Simi Fehoko (WR, ARI): 74% de los snaps (antes 19%); Zonovan Knight (RB, ARI): 50% de los toques del backfield (antes 22%), 54% de los snaps (antes 24%); Elijah Higgins (TE, ARI): 69% de los snaps (antes 41%) *(partido decidido por 28: confirmar que no es uso de paliza)*\n\n### SF @ DAL: SF 46, DAL 40\n\n- **La línea:** cerró SF -3.5, total 55.5 → SF cubrió por 2.5; 86 puntos (altas)\n- **SF:** 584 yds (9.4 por jugada; 11.2 por pase, 7.4 por acarreo) · balones perdidos 0 · 3ª 6-11 · capturas recibidas 5 · zona roja 2-3 · posesión 31:47\n- **DAL:** 439 yds (5.8 por jugada; 6.6 por pase, 4.0 por acarreo) · balones perdidos 2 · 3ª 7-16 · capturas recibidas 1 · zona roja 3-3 · posesión 28:13\n- **Fantasy (PPR):** Christian McCaffrey (RB, SF) 46.3 — tierra 13-62, 1 TD · recepción 4/4, 161 yds, 2 TD; George Pickens (WR, DAL) 43.5 — 11/18, 145 yds, 3 TD; Dak Prescott (QB, DAL) 35.4 — 30/51, 343 yds, 5 TD, 1 INT; Brock Purdy (QB, SF) 31.7 — 22/28, 389 yds, 3 TD, 0 INT · por tierra 2-21; Deebo Samuel Sr. (WR, SF) 25.9 — 3/3, 31 yds, 1 TD · tierra 3-78, 1 TD\n- **Uso:** George Pickens (WR, DAL): 38% de los targets (antes 21%)\n- **Lesiones:** Jonathan Mingo (WR, DAL) Tobillo — Fuera; Mike Evans (WR, SF) Aquiles — Fuera\n\n### PIT @ CIN: PIT 18, CIN 38\n\n- **La línea:** cerró CIN -3.5, total 49.5 → CIN cubrió por 16.5; 56 puntos (altas)\n- **PIT:** 222 yds (3.8 por jugada; 3.4 por pase, 4.4 por acarreo) · balones perdidos 0 · 3ª 5-13 · capturas recibidas 3 · zona roja 0-2 · posesión 24:51\n- **CIN:** 484 yds (7.4 por jugada; 9.0 por pase, 3.9 por acarreo) · balones perdidos 0 · 3ª 2-7 · capturas recibidas 1 · zona roja 5-6 · posesión 35:09\n- **Fantasy (PPR):** Ja'Marr Chase (WR, CIN) 34.1 — 11/14, 231 yds; Joe Burrow (QB, CIN) 33.2 — 35/44, 409 yds, 4 TD, 0 INT; Chase Brown (RB, CIN) 28.3 — tierra 10-44 · recepción 8/9, 39 yds, 2 TD; Aaron Rodgers (QB, PIT) 15.6 — 15/29, 143 yds, 2 TD, 0 INT; DK Metcalf (WR, PIT) 15.4 — 2/6, 54 yds, 1 TD\n- **Uso:** Brandon Smith (WR, PIT): 77% de los snaps (antes 41%); Germie Bernard (WR, PIT): 95% de los snaps (antes 64%) *(partido decidido por 20: confirmar que no es uso de paliza)*\n- **Lesiones:** Michael Pittman Jr. (WR, PIT) Pie — Injured Reserve; Roman Wilson (WR, PIT) Dedo — Injured Reserve\n\n## Para comprar, vender y vigilar\n\n**Rachas** (partidos seguidos; calendario = lugar del rival en puntos que permite a la posición, 1º = el más blando):\n- Joe Burrow (QB, CIN, 99% en ligas): 7 seguidos con 20+ puntos — próximos: WAS 7º, NO 20º, CLE 24º, KC 30º (promedio 20º)\n- Jaxon Smith-Njigba (WR, SEA, 99% en ligas): 6 seguidos con 8+ targets — próximos: SF 12º, DAL 7º, NYG 20º (promedio 13º)\n- James Cook III (RB, BUF, 99% en ligas): 5 seguidos con 100+ yardas totales y 17+ acarreos — próximos: MIA 8º, KC 26º, NE 15º, GB 7º (promedio 14º)\n- Jahmyr Gibbs (RB, DET, 99% en ligas): 5 seguidos con 17+ acarreos — próximos: TB 32º, CHI 21º, ATL 4º, TEN 17º (promedio 18º)\n- Matthew Golden (WR, GB, 96% en ligas): 5 seguidos con 8+ targets — próximos: LAR 29º, NO 25º, BUF 11º (promedio 22º)\n- CeeDee Lamb (WR, DAL, 99% en ligas): 5 seguidos con 8+ targets — próximos: TEN 1º, PHI 3º, SEA 32º (promedio 12º)\n- George Kittle (TE, SF, 98% en ligas): 4 seguidos con 7+ targets — próximos: MIN 32º, SEA 25º, NYG 16º, LAR 24º (promedio 24º)\n- Justin Jefferson (WR, MIN, 99% en ligas): 3 seguidos con 8+ targets — próximos: SF 12º, ATL 8º, CAR 19º, NE 2º (promedio 10º)\n- Ja'Marr Chase (WR, CIN, 99% en ligas): 3 seguidos con 8+ targets — próximos: WAS 14º, NO 25º, CLE 18º, KC 31º (promedio 22º)\n\n**Perdieron el rol sin estar lesionados:**\n- Kyren Williams (RB, LAR): 29% de los toques del backfield (antes 62%) con 51% de los snaps — tierra 12-23 · recepción 2/5, 9 yds *(paliza de 28: puede ser guion)*\n- Denzel Boston (WR, CLE): 5% de los targets (antes 22%) con 85% de los snaps — 1/2, 16 yds\n\n**Titulares que fallaron** (menos de la mitad de su promedio):\n- Christian Watson (WR, GB): 6.7 contra 19.7 de promedio — 3/5, 37 yds; 17% de targets (antes 22%): el uso también bajó: cuidado. próximos: LAR 29º, NO 25º, BUF 11º (promedio 22º)\n- Kyren Williams (RB, LAR): 5.2 contra 17.7 de promedio — tierra 12-23 · recepción 2/5, 9 yds; 29% de toques del backfield (antes 62%): el uso también bajó: cuidado. próximos: GB 7º, KC 26º, SF 25º (promedio 19º)\n- Chris Olave (WR, NO): 6.0 contra 17.7 de promedio — 3/4, 30 yds; 12% de targets (antes 28%): el uso también bajó: cuidado. próximos: CHI 23º, CIN 22º, GB 6º, CAR 19º (promedio 18º)\n- Rhamondre Stevenson (RB, NE): 1.5 contra 12.6 de promedio — tierra 6-4 · recepción 1/1, 1 yds; 33% de toques del backfield (antes 53%): el uso también bajó: cuidado. próximos: LAC 13º, BUF 9º, MIN 29º (promedio 17º)\n- Bryce Young (QB, CAR): 8.1 contra 19.1 de promedio — 17/30, 200 yds, 0 TD, 0 INT; 100% de snaps (antes 96%): uso intacto: candidato a comprar barato. próximos: BAL 14º, TB 29º, MIN 32º, NO 20º (promedio 24º)\n- Javonte Williams (RB, DAL): 7.7 contra 17.7 de promedio — tierra 16-63 · recepción 1/1, 4 yds; 85% de toques del backfield (antes 78%): uso intacto: candidato a comprar barato. próximos: TEN 17º, PHI 23º, SEA 22º (promedio 21º)\n- Tyler Warren (TE, IND): 2.4 contra 12.0 de promedio — 2/3, 1 yds; 14% de targets (antes 23%): el uso también bajó: cuidado. próximos: HOU 27º, NYG 16º, PHI 28º (promedio 24º)\n- Trey McBride (TE, ARI): 8.7 contra 18.1 de promedio — 5/5, 37 yds; 29% de targets (antes 27%): uso intacto: candidato a comprar barato. próximos: KC 6º, WAS 2º, PHI 28º (promedio 12º)\n- Tetairoa McMillan (WR, CAR): 6.5 contra 15.6 de promedio — 3/7, 35 yds; 24% de targets (antes 25%): uso intacto: candidato a comprar barato. próximos: BAL 10º, TB 24º, MIN 28º, NO 25º (promedio 22º)\n- Sam LaPorta (TE, DET): 2.6 contra 11.6 de promedio — 1/4, 16 yds; 12% de targets (antes 18%): el uso también bajó: cuidado. próximos: TB 10º, CHI 23º, ATL 22º, TEN 19º (promedio 18º)\n- Malik Nabers (WR, NYG): 7.4 contra 16.2 de promedio — 5/7, 44 yds; 21% de targets (antes 30%): el uso también bajó: cuidado. próximos: JAX 15º, IND 21º, SF 12º, SEA 32º (promedio 20º)\n- Travis Kelce (TE, KC): 5.0 contra 12.4 de promedio — 2/2, 30 yds; 6% de targets (antes 20%): el uso también bajó: cuidado. próximos: ARI 5º, BUF 20º, LAR 24º, CIN 9º (promedio 14º)\n- Tucker Kraft (TE, GB): 2.9 contra 10.0 de promedio — 1/4, 19 yds; 14% de targets (antes 16%): uso intacto: candidato a comprar barato. próximos: LAR 24º, NO 7º, BUF 20º (promedio 17º)\n- Braelon Allen (RB, NYJ): 5.6 contra 11.7 de promedio — tierra 8-40 · recepción 1/1, 6 yds; 36% de toques del backfield (antes 58%): el uso también bajó: cuidado. próximos: LAC 13º, MIA 8º, DEN 11º (promedio 11º)\n\n**Mariscales en duda** (alguien más jugó):\n- Joshua Dobbs (DET, 0% en ligas) por Jared Goff: 14% de los snaps, 1/1, 7 yds, 0 TD, 0 INT — paliza de 25: puede ser solo relevo\n- Tommy DeVito (NE, 0% en ligas) por Drake Maye: 83% de los snaps, 12/24, 81 yds, 1 TD, 1 INT — relevo por lesión\n- Tyrod Taylor (GB, 0% en ligas) por Jordan Love: 5% de los snaps, 1/2, 3 yds, 0 TD, 0 INT — paliza de 20: puede ser solo relevo\n- Cade Klubnik (NYJ, 0% en ligas) por Geno Smith: 52% de los snaps, 11/20, 137 yds, 0 TD, 1 INT · por tierra 3-26 — paliza de 19: puede ser solo relevo\n- Mason Rudolph (PIT, 0% en ligas) por Aaron Rodgers: 18% de los snaps, 1/3, 2 yds, 0 TD, 0 INT — paliza de 20: puede ser solo relevo\n\n**Sin Drake Maye:** Mack Hollins (WR) 5/6, 48 yds; A.J. Brown (WR) 2/6, 27 yds; Hunter Henry (TE) 2/3, 22 yds\n**Sin Malik Willis:** Caleb Douglas (WR) 3/8, 71 yds; Kevin Coleman Jr. (WR) 1/6, 6 yds; Ollie Gordon II (RB) tierra 20-76 · recepción 4/5, 39 yds\n**Sin Geno Smith:** Garrett Wilson (WR) 7/14, 106 yds; Adonai Mitchell (WR) 3/8, 59 yds; Isaiah Williams (WR) 4/7, 24 yds\n**Sin Sam Darnold:** Jaxon Smith-Njigba (WR) 8/10, 171 yds, 1 TD; AJ Barner (TE) 3/3, 19 yds; Rashid Shaheed (WR) 1/2, 8 yds\n\n## Waivers para la semana 11\n\n*Disponibles = en 50% de las ligas redraft de Sleeper o menos (hasta 80% si su rol cambió esta semana: \"si está libre en tu liga\"). Orden: nivel (A heredó un backfield de trabajo · B rol o proyección de titular · C profundidad), luego la proyección PPR de la semana 11 (promedio de la de Sleeper y la implícita por el uso). FAAB = % del presupuesto. Confirma la duración de cada lesión antes de decir un nivel A al aire.*\n\n### Mariscales\n\n| # | Jugador | % ligas | Semana 10 | Uso sem. 10 (antes) | Semana 11: rival | Proy. Sleeper / por uso | Por qué | FAAB |\n|---|---|---|---|---|---|---|---|---|\n| 1 | Kyle McCord (MIA) 📈9,344 | 4% | 12.8 — 17/32, 209 yds, 0 TD, 0 INT · por tierra 2-4, 1 TD | 100% (—) snaps<br>8% (—) acarreos | @ BUF (23º que más permite) | 10.8 / — | hereda el rol de Malik Willis (injured reserve, abdomen; tenía 100% de los snaps) | **B** 15-25% |\n| 2 | Cade Klubnik (NYJ) 📈19,584 | 0% | 7.1 — 11/20, 137 yds, 0 TD, 1 INT · por tierra 3-26 | 52% (—) snaps<br>13% (—) acarreos | @ LAC (21º que más permite) | 0 / — | hereda el rol de Geno Smith (cuestionable, tobillo; tenía 100% de los snaps) | **B** 15-25% |\n| 3 | Tommy DeVito (NE) 📈13,163 | 0% | 8.1 — 12/24, 81 yds, 1 TD, 1 INT | 83% (19%) snaps<br>18% (2%) acarreos | descansa | 0 / — | hereda el rol de Drake Maye (dudoso, tobillo; tenía 96% de los snaps) | **B** 15-25% |\n| 4 | Drew Lock (SEA) | 16% | 15.6 — 14/17, 240 yds, 2 TD, 0 INT · por tierra 6-20 | 100% (97%) snaps<br>17% (7%) acarreos | descansa | 0 / — | hereda el rol de Sam Darnold (fuera, cuádriceps; tenía 90% de los snaps) | **B** 15-25% |\n| 5 | Cam Ward (TEN) | 13% | 20.1 — 28/39, 231 yds, 2 TD, 1 INT · por tierra 3-39 | 100% (100%) snaps<br>18% (14%) acarreos | @ DAL (3º que más permite) | 17.1 / — | — | **C** 1-5% |\n| 6 | Justin Herbert (LAC) | 30% | juega el lunes | — | vs NYJ (13º que más permite) | 16.2 / — | — | **C** 1-5% |\n| 7 | Baker Mayfield (TB) **Cuestionable** | 23% | descansó | — | @ DET (1º que más permite) | 15.5 / — | — | **C** 1-5% |\n| 8 | J.J. McCarthy (NYG) 📈23,259 | 23% | 18.1 — 23/36, 293 yds, 1 TD, 1 INT · por tierra 6-34 | 95% (49%) snaps<br>22% (8%) acarreos | vs JAX (28º que más permite) | 15.2 / — | — | **C** 1-5% |\n\n### Corredores\n\n| # | Jugador | % ligas | Semana 10 | Uso sem. 10 (antes) | Semana 11: rival | Proy. Sleeper / por uso | Por qué | FAAB |\n|---|---|---|---|---|---|---|---|---|\n| 1 | Emari Demercado (HOU) | 2% | 2.5 — tierra 7-16 · recepción 1/2, -1 yds | 33% (16%) snaps<br>35% (19%) backfield<br>29% (17%) acarreos<br>6% (2%) targets | vs IND (6º que más permite) | 7.4 / 5.6 | hereda el rol de Woody Marks (dudoso, conmoción; tenía 60% de los toques del backfield); uso al alza: 35% de los toques del backfield (antes 19%) | **A** 30-60% |\n| 2 | Austin Ekeler (WAS) 📈23,248 | 12% | 9.2 — tierra 9-26 · recepción 4/4, 26 yds | 43% (25%) snaps<br>48% (28%) backfield<br>27% (21%) acarreos<br>12% (5%) targets | vs CIN (18º que más permite) | 4.8 / 8.6 | hereda el rol de Jacory Croskey-Merritt (injured reserve, ingle; tenía 54% de los toques del backfield); uso al alza: 48% de los toques del backfield (antes 28%); la proyección de Sleeper (4.8) todavía no refleja el uso (8.6) | **B** 15-25% |\n| 3 | Kaelon Black (SF) 📈67,809 | 39% | 14.6 — tierra 11-53, 1 TD · recepción 2/2, 13 yds | 40% (29%) snaps<br>43% (33%) backfield<br>38% (29%) acarreos<br>7% (3%) targets | vs MIN (29º que más permite) | 4.8 / 13.0 | uso al alza: 43% de los toques del backfield (antes 33%); la proyección de Sleeper (4.8) todavía no refleja el uso (13.0) | **C** 1-5% |\n| 4 | Zonovan Knight (ARI) | 22% | 1.9 — tierra 5-19 · recepción 0/2, 0 yds | 54% (24%) snaps<br>50% (22%) backfield<br>45% (18%) acarreos<br>12% (4%) targets | @ KC (26º que más permite) | 6.9 / 8.6 | uso al alza: 50% de los toques del backfield (antes 22%); ojo: su partido se decidió por 28 — confirmar que no fue uso de paliza | **C** 1-5% |\n| 5 | Kimani Vidal (LAC) 📈10,850 | 16% | juega el lunes | — | vs NYJ (10º que más permite) | 7.7 / — | — | **C** 1-5% |\n| 6 | Seth McGowan (IND) 📈202,608 | 26% | 13.7 — tierra 12-77, 1 TD | 29% (22%) snaps<br>40% (20%) backfield<br>35% (17%) acarreos<br>0% (2%) targets | @ HOU (16º que más permite) | 6.2 / 8.7 | uso al alza: 40% de los toques del backfield (antes 20%) | **C** 1-5% |\n| 7 | Samaje Perine (CIN) 📈14,304 | 14% | 13.9 — tierra 6-14, 1 TD · recepción 4/4, 25 yds | 30% (36%) snaps<br>32% (27%) backfield<br>30% (26%) acarreos<br>10% (4%) targets | @ WAS (19º que más permite) | 7.4 / 6.8 | — | **C** 1-5% |\n| 8 | Justice Hill (BAL) 📈171,027 | 30% | juega el lunes | — | @ CAR (3º que más permite) | 7.1 / — | — | **C** 1-5% |\n| 9 | Kenny Gainwell (TB) 📈13,632 | 43% | descansó | — | @ DET (31º que más permite) | 6.8 / — | — | **C** 1-5% |\n| 10 | Keaton Mitchell (LAC) 📈13,419 | 15% | juega el lunes | — | vs NYJ (10º que más permite) | 6.7 / — | — | **C** 1-5% |\n| 11 | Mike Washington Jr. (LV) | 34% | 3.7 — tierra 8-23 · recepción 1/1, 4 yds | 29% (26%) snaps<br>38% (30%) backfield<br>33% (32%) acarreos<br>4% (2%) targets | @ DEN (11º que más permite) | 5.3 / 7.8 | — | **C** 1-5% |\n| 12 | Tyjae Spears (TEN) | 14% | 3.8 — tierra 4-28 · recepción 1/1, 0 yds | 28% (42%) snaps<br>23% (24%) backfield<br>24% (14%) acarreos<br>3% (10%) targets | @ DAL (1º que más permite) | 7.5 / 4.4 | — | **C** 1-5% |\n\n### Receptores\n\n| # | Jugador | % ligas | Semana 10 | Uso sem. 10 (antes) | Semana 11: rival | Proy. Sleeper / por uso | Por qué | FAAB |\n|---|---|---|---|---|---|---|---|---|\n| 1 | Jordyn Tyson (NO) 📈197,032 | 68% (libre en 32%) | 19.0 — 11/13, 80 yds | 71% (24%) snaps<br>39% (16%) targets | @ CHI (23º que más permite) | 11.5 / 25.0 | uso al alza: 39% de los targets (antes 16%); la proyección de Sleeper (11.5) todavía no refleja el uso (25.0) | **B** 15-25% |\n| 2 | Elic Ayomanor (TEN) 📈48,820 | 9% | 12.9 — 5/10, 79 yds | 95% (65%) snaps<br>27% (11%) targets | @ DAL (7º que más permite) | 8.6 / 14.2 | hereda el rol de Carnell Tate (fuera, hombro; tenía 26% de los targets); uso al alza: 27% de los targets (antes 11%); ojo: su partido se decidió por 17 — confirmar que no fue uso de paliza; la proyección de Sleeper (8.6) todavía no refleja el uso (14.2) | **B** 15-25% |\n| 3 | Keenan Allen (SF) 📈15,500 | 61% (libre en 39%) | 11.1 — 5/7, 61 yds | 48% (59%) snaps<br>25% (22%) targets | vs MIN (28º que más permite) | 5.8 / 11.8 | hereda el rol de Mike Evans (fuera, aquiles; tenía 25% de los targets); la proyección de Sleeper (5.8) todavía no refleja el uso (11.8) | **B** 15-25% |\n| 4 | Xavier Hutchinson (HOU) **Cuestionable** 📈197,211 | 3% | 15.8 — 4/9, 58 yds, 1 TD | 76% (58%) snaps<br>25% (17%) targets | vs IND (21º que más permite) | 5.5 / 14.7 | la proyección de Sleeper (5.5) todavía no refleja el uso (14.7) | **C** 1-5% |\n| 5 | Adonai Mitchell (NYJ) 📈20,936 | 44% | 8.9 — 3/8, 59 yds | 87% (70%) snaps<br>20% (23%) targets | @ LAC (4º que más permite) | 8.2 / 10.4 | — | **C** 1-5% |\n| 6 | Jack Bech (LV) | 2% | 3.0 — 2/7, 10 yds | 56% (36%) snaps<br>26% (5%) targets | @ DEN (27º que más permite) | 3.1 / 15.3 | uso al alza: 26% de los targets (antes 5%); la proyección de Sleeper (3.1) todavía no refleja el uso (15.3) | **C** 1-5% |\n| 7 | Pat Bryant (DEN) 📈85,448 | 13% | descansó | — | vs LV (9º que más permite) | 8.4 / — | — | **C** 1-5% |\n| 8 | Devaughn Vele (NO) | 49% | 3.4 — 2/2, 14 yds | 87% (92%) snaps<br>6% (18%) targets | @ CHI (23º que más permite) | 5.6 / 11.2 | la proyección de Sleeper (5.6) todavía no refleja el uso (11.2) | **C** 1-5% |\n| 9 | Antonio Williams (WAS) | 36% | 12.2 — 2/2, 42 yds, 1 TD | 86% (61%) snaps<br>6% (16%) targets | vs CIN (22º que más permite) | 8.1 / 8.6 | — | **C** 1-5% |\n| 10 | Keon Coleman (BUF) | 38% | 2.1 — 1/3, 11 yds | 53% (68%) snaps<br>14% (15%) targets | vs MIA (30º que más permite) | 9.1 / 7.0 | — | **C** 1-5% |\n| 11 | Courtland Sutton (DEN) 📈11,817 | 49% | descansó | — | vs LV (9º que más permite) | 8.0 / — | — | **C** 1-5% |\n| 12 | Quentin Johnston (LAC) 📈222,628 | 27% | juega el lunes | — | vs NYJ (26º que más permite) | 7.6 / — | — | **C** 1-5% |\n\n### Alas cerradas\n\n| # | Jugador | % ligas | Semana 10 | Uso sem. 10 (antes) | Semana 11: rival | Proy. Sleeper / por uso | Por qué | FAAB |\n|---|---|---|---|---|---|---|---|---|\n| 1 | Chig Okonkwo (WAS) **Cuestionable** | 22% | 6.4 — 4/8, 24 yds | 59% (68%) snaps<br>24% (17%) targets | vs CIN (9º que más permite) | 10.2 / 13.7 | la proyección de Sleeper (10.2) todavía no refleja el uso (13.7) | **B** 15-25% |\n| 2 | Michael Mayer (LV) 📈181,791 | 21% | 3.8 — 2/3, 16 yds | 83% (81%) snaps<br>11% (15%) targets | @ DEN (3º que más permite) | 8.5 / 9.0 | hereda el rol de Brock Bowers (cuestionable, tobillo; tenía 28% de los targets) | **B** 15-25% |\n| 3 | Gavin Bartholomew (MIN) 📈65,034 | 0% | 12.6 — 3/4, 36 yds, 1 TD | 77% (22%) snaps<br>13% (5%) targets | @ SF (17º que más permite) | 2.3 / 6.5 | hereda el rol de T.J. Hockenson (fuera, muñeca; tenía 21% de los targets); la proyección de Sleeper (2.3) todavía no refleja el uso (6.5) | **B** 15-25% |\n| 4 | Dalton Schultz (HOU) | 26% | 8.1 — 1/2, 11 yds, 1 TD | 66% (56%) snaps<br>6% (18%) targets | vs IND (15º que más permite) | 8.2 / 10.7 | — | **C** 1-5% |\n| 5 | Darren Waller (CAR) 📈43,020 | 46% | 4.4 — 2/4, 24 yds | 61% (49%) snaps<br>14% (12%) targets | vs BAL (13º que más permite) | 8.8 / 8.7 | — | **C** 1-5% |\n| 6 | Juwan Johnson (NO) | 48% | 4.8 — 2/3, 28 yds | 68% (65%) snaps<br>9% (13%) targets | @ CHI (23º que más permite) | 8.8 / 8.7 | — | **C** 1-5% |\n| 7 | Tommy Tremble (CAR) 📈8,144 | 0% | 8.8 — 4/5, 48 yds | 67% (57%) snaps<br>17% (11%) targets | vs BAL (13º que más permite) | 5.7 / 10.8 | la proyección de Sleeper (5.7) todavía no refleja el uso (10.8) | **C** 1-5% |\n| 8 | Pat Freiermuth (PIT) | 42% | 11.5 — 2/3, 35 yds, 1 TD | 54% (65%) snaps<br>10% (13%) targets | @ PHI (28º que más permite) | 7.7 / 7.8 | — | **C** 1-5% |\n\n### Defensivas (streaming)\n\n| # | Defensiva | % ligas | Rival | Puntos implícitos del rival | Proyección | Capturas / robos proy. |\n|---|---|---|---|---|---|---|\n| 1 | BUF | 48% | vs MIA | 14.5 | 8.2 | 3.0 / 1.6 |\n| 2 | CHI | 30% | vs NO | 18.5 | 7.5 | 2.7 / 1.4 |\n| 3 | LAC | 6% | vs NYJ | 18.8 | 6.8 | 2.5 / 1.2 |\n| 4 | DET | 27% | vs TB | 20.0 | 6.8 | 2.3 / 1.3 |\n| 5 | DAL | 8% | vs TEN | 23.0 | 6.2 | 2.8 / 1.4 |\n| 6 | SF | 41% | vs MIN | 21.8 | 5.9 | 2.5 / 1.3 |\n| 7 | CIN | 41% | @ WAS | 23.0 | 5.8 | 2.6 / 1.3 |\n| 8 | NYJ | 4% | @ LAC | 21.8 | 5.5 | 2.7 / 1.1 |\n\n### Los más agregados en Sleeper (24 h) — resolver por qué antes de recomendarlos\n\n| Jugador | Agregados | % ligas | Semana 10 |\n|---|---|---|---|\n| Quentin Johnston (WR, LAC) | 222,628 | 27% | juega el lunes |\n| Seth McGowan (RB, IND) | 202,608 | 26% | 13.7 — tierra 12-77, 1 TD |\n| Xavier Hutchinson (WR, HOU) **Cuestionable** | 197,211 | 3% | 15.8 — 4/9, 58 yds, 1 TD |\n| Jordyn Tyson (WR, NO) | 197,032 | 68% | 19.0 — 11/13, 80 yds |\n| Michael Mayer (TE, LV) | 181,791 | 21% | 3.8 — 2/3, 16 yds |\n| Justice Hill (RB, BAL) | 171,027 | 30% | juega el lunes |\n| Ryan Flournoy (WR, DAL) | 135,464 | 52% | 19.1 — 6/7, 71 yds, 1 TD |\n| Emmett Johnson (RB, KC) | 98,640 | 85% | 35.1 — tierra 22-101 · recepción 6/7, 70 yds, 2 TD |\n| Pat Bryant (WR, DEN) | 85,448 | 13% | descansó |\n| Deshaun Watson (QB, CLE) | 72,384 | 16% | 22.4 — 25/40, 312 yds, 0 TD, 1 INT · por tierra 8-49, 1 TD |\n| Kaelon Black (RB, SF) | 67,809 | 39% | 14.6 — tierra 11-53, 1 TD · recepción 2/2, 13 yds |\n| Gavin Bartholomew (TE, MIN) | 65,034 | 0% | 12.6 — 3/4, 36 yds, 1 TD |\n\n*Método: línea de cierre de DraftKings vía ESPN; lesiones = lista de ESPN del partido con fecha desde la patada inicial (las bajas previas al partido no cuentan); uso = participación de la semana contra la de la temporada antes de esta semana (Sleeper); % en ligas = ligas redraft de Sleeper; proyecciones de Sleeper recalculadas en PPR; defensivas en puntuación estándar.*\n"
+}
