@@ -294,9 +294,17 @@ tells the user to re-check news once before accepting.
     Survivor LAR ganó.
   - `recap.md` lleva un "El dato" por partido con "Qué pasó" y "Qué
     significa".
-  - Faltan: correr `podcast_recap.py 10` después del MNF y escribir el dato
-    de LAC@BAL; los waivers de la semana 11 no se escribieron (el user no
-    los pidió).
+  - Waivers de la semana 11 escritos; es una semana flaca, sin ningún nivel
+    A real.
+    - RB: Kaelon Black 7%, Ekeler 5%.
+    - WR: Tyson 19%, Keenan Allen 13%.
+    - TE: Okonkwo 7%.
+    - QB: Cam Ward 5%.
+    - DST: BUF.
+    - Bajé a Demercado de A (Montgomery volvió a practicar) y saqué a
+      Klubnik, DeVito y Lock.
+  - Falta: correr `podcast_recap.py 10` después del MNF, escribir el dato de
+    LAC@BAL y decidir los waivers de LAC y BAL.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

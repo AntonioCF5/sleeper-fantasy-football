@@ -106,3 +106,53 @@
 - **Puka Nacua (LAR):** en la reserva desde el 12 de noviembre, mínimo cuatro partidos.
 - **Mike Evans (SF):** sigue fuera; esperan que practique esta semana.
 - **Sam Darnold (SEA):** apunta a regresar en la semana 12.
+
+## Waivers por posición
+
+*Uso de la semana 10, con la temporada antes entre paréntesis: % de snaps, % del backfield, % de los acarreos y % de los targets. En la semana 11 descansan Atlanta, Cleveland, Green Bay, Rams, Nueva Inglaterra y Seattle. Es una semana flaca: no hay ningún nivel A de verdad. Los jugadores de los Cargadores y de Baltimore se deciden después del Monday Night.*
+
+**Corredores** (ninguno hereda un backfield completo)
+1. **Kaelon Black (SF, 39% en ligas):** 40% de snaps (29%), **43% del backfield** (33%), 38% de los acarreos y 7% de los targets. Tuvo 11 acarreos y un touchdown en un partido cerrado, no en una paliza. Es el suplente directo de McCaffrey en un equipo que va 8-1, y ya tiene rol propio. Enfrenta a Minnesota, de las que menos permiten. — **7%**
+2. **Austin Ekeler (WSH, 12%):** 43% de snaps (25%), **48% del backfield** (28%), 27% de los acarreos y **12% de los targets** (5%). Vale mientras Croskey-Merritt siga en la reserva; Quinn dice que va "en la dirección correcta", y su regreso puede ser el lunes contra Cincinnati. — **5%**
+3. **Seth McGowan (IND, 26%):** 29% de snaps (22%), **40% del backfield** (20%) y 35% de los acarreos, sin targets. Corre detrás de Taylor en un ataque que ya no tiene receptores. Es el suplente de Taylor con un poco de rol propio, y el segundo más agregado de la semana. — **3%**
+4. **Emari Demercado (HOU, 2%):** 33% de snaps, 35% del backfield. Sirve solo para el jueves contra Indianápolis, la sexta que más permite a corredores, si Marks no pasa el protocolo, y Montgomery ya volvió a practicar. Es para salir de un apuro, no un rol. — **3%**
+5. **Zonovan Knight (ARI, 22%):** 54% de snaps (24%) y **50% del backfield** (22%), pero en una paliza de 28 puntos y en la ofensiva que hizo 123 yardas. Va a Kansas City. — **1%**
+6. **Guárdalo si tienes lugar:** Emmett Johnson (KC) está en el 85% de las ligas. Si está libre en la tuya, **es el suplente más valioso de la liga**: hizo 35 puntos con el 93% del backfield sin Walker. — **9%**
+
+**Receptores**
+1. **Jordyn Tyson (NO, libre en 32%):** **71% de snaps** (24%) y **39% de los targets** (16%), 11 de 13. El novato pasó a ser el receptor principal de Nueva Orleans, con Olave abajo en 12%. Su uso implica 25 puntos; Sleeper lo proyecta en 11.5. Va a Chicago. — **19%**
+2. **Keenan Allen (SF, libre en 39%):** **25% de los targets** con solo el 48% de los snaps en su debut (5 de 7, 61 yardas). Los snaps van a subir; el riesgo es que Evans regrese de la tendinitis. Enfrenta a Minnesota en la Ciudad de México. — **13%**
+3. **Xavier Hutchinson (HOU, 3%):** 76% de snaps (58%), **25% de los targets** (17%) y un touchdown. Harrison Jr. está fuera otra vez y Houston juega el jueves contra Indianápolis. — **7%**
+4. **Elic Ayomanor (TEN, 9%):** **95% de snaps** (65%), 27% de los targets (11%), 5 de 10 para 79. Tate podría regresar contra Dallas: si practica, Ayomanor baja. — **5%**
+5. **Adonai Mitchell (NYJ, 44%):** 87% de snaps (70%), 20% de los targets. Omar Cooper difícilmente juega con el tobillo. Va a Los Ángeles. — **3%**
+6. **Jack Bech (LV, 2%):** 56% de snaps (36%) y **26% de los targets** (5%) con Mendoza y sin Bowers. Si Bowers se pierde Denver, es el que más sube. — **3%**
+
+**Alas cerradas** (posición flaca)
+1. **Chig Okonkwo (WSH, 22%):** 59% de snaps, **24% de los targets** (17%). El lunes enfrenta a Cincinnati, la novena que más permite a alas cerradas. — **7%**
+2. **Michael Mayer (LV, 21%):** 83% de snaps, pero solo 11% de los targets. **Arranca solo si Bowers no juega** en Denver, la tercera que más permite a alas cerradas. — **5%**
+3. **Tommy Tremble (CAR, 0%):** 67% de snaps (57%), 17% de los targets (11%), 4 de 5. Está por arriba de Waller en el uso. — **3%**
+4. **Dalton Schultz (HOU, 26%):** 66% de snaps, pero 6% de los targets. Solo para streaming el jueves. — **1%**
+
+**Mariscales**
+1. **Cam Ward (TEN, 13%):** 100% de snaps, 18% de los acarreos del equipo, 28 de 39 con dos touchdowns. Va a Dallas, la tercera defensa que más permite a mariscales. Sleeper lo proyecta en 17.1. — **5%**
+2. **J.J. McCarthy (NYG, 23%):** 95% de snaps y 22% de los acarreos; viene de su mejor partido (293 yardas). Recibe a Jacksonville. — **3%**
+3. **Baker Mayfield (TB, 23%):** regresa de su semana de descanso para ir a Detroit, la defensa que más permite a mariscales y ahora sin Hutchinson. Revisa el reporte del pulgar. — **3%**
+4. **Justin Herbert (LAC, 30%):** contra los Jets; primero hay que ver cómo sale del lunes. — **1%**
+5. **Kyle McCord (MIA, 4%):** 100% de snaps, pero va a Búfalo. Solo para superflex profundo. — **1%**
+
+**Defensivas** (0-1%)
+1. **Búfalo (48%):** contra Miami y McCord, con un total implícito de 14.5.
+2. **Chicago (30%):** contra Nueva Orleans.
+3. **Cargadores (6%):** contra los Jets.
+4. **Detroit (27%):** contra Tampa, aunque ya sin Hutchinson.
+5. **Dallas (8%):** contra Tennessee.
+
+## Los que NO
+
+- **Cade Klubnik:** Glenn dice que Geno es el titular y los estudios del tobillo salieron limpios.
+- **Tommy DeVito y Drew Lock:** Nueva Inglaterra y Seattle descansan, y Darnold apunta a la semana 12.
+- **Gavin Bartholomew:** 12.6 puntos con un touchdown, pero se espera a Hockenson contra San Francisco.
+- **Pat Bryant y Courtland Sutton:** Waddle regresa en la semana 11.
+- **Ryan Flournoy (DAL):** 19 puntos, pero con CeeDee y Pickens sanos es el tercer receptor. Corre muchas rutas y recibe pocos targets.
+- **Kaelon Black como titular:** guárdalo, pero no lo arranques mientras McCaffrey esté sano (223 yardas el domingo).
+
