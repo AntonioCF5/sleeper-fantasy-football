@@ -201,6 +201,23 @@ def league_facts(lg_cfg, season, week, players):
     else:
         lines.append("- SIN RESULTADOS todavía (semana no jugada) — el Destape NO inventa marcadores.")
 
+    # Rachas (user 2026-11-17: "alaba a Zenitsu, 4 seguidas"): ≥3 iguales al
+    # final del récord de Sleeper (metadata.record, una letra por jornada).
+    rachas = []
+    for r in rosters:
+        rec = (r.get("metadata") or {}).get("record") or ""
+        if not rec:
+            continue
+        ult = rec[-1]
+        n = len(rec) - len(rec.rstrip(ult))
+        if n >= 3 and ult in "WL":
+            rachas.append((n, ult, rid_owner.get(r["roster_id"], "?"), rec))
+    if rachas:
+        lines.append("\n## Rachas (3 o más seguidas)")
+        for n, ult, dn, rec in sorted(rachas, reverse=True):
+            lines.append(f"- {'🔥' if ult == 'W' else '🧊'} **{dn}**: {n} "
+                         f"{'victorias' if ult == 'W' else 'derrotas'} seguidas (récord jornada a jornada: {rec})")
+
     # Calendario NFL de la semana mostrada: equipos que jugaron (para cachar
     # titulares en bye) y el último partido (Monday Night) para las remontadas.
     juegos = []

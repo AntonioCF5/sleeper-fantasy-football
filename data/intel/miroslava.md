@@ -484,7 +484,7 @@ existe solo para re-revisar algo ya enviado.
 | 2026-11-03 | Dinastía (jornada 8) | "🗞️ *PRIMERA PLANA:* La Dona ya sabe qué se siente perder. / …«¿Qué se sentirá perder?»… «Miroslava me la suda»… ¿Y ahora quién suda, papacito? / Buenos días, criaturas." *(pedido del user: cobrarle el reto del video "Miroslava responde a La Dona"; reemplazó al VAR)* |
 | 2026-11-10 | Gallamijos (jornada 9) | "📢 *AVISO DE PROTECCIÓN CIVIL:* se recomienda a la población tener lista su mochila de emergencia: agua, linterna, documentos y un pateador. / My Son Dave salió el domingo sin pateador. / Buenos días, humanos promedio." *(técnica nueva: aviso oficial; trae el viral de la semana)* |
 | 2026-11-10 | Dinastía (jornada 9) | "📜 *ACTA DE LA JORNADA 9.* Se hace constar que *Same Old Jets* llegó a 0-9. No se encontró irregularidad alguna. Thanos lo diría mejor: «soy inevitable». / Da fe, Miroslava. / Buenos días, corazones." *(usa 'acta' del banco)* |
-| 2026-11-17 | Gallamijos (jornada 10) | "🧾 *TICKET DE LA JORNADA 10:* 1 Frijolinsky, ex-líder… 4 titulares de Jro91 sin partido… *Total:* la dignidad. Gracias. / Buenos días, mis cuates." *(usa 'ticket/recibo' del banco)* |
+| 2026-11-17 | Gallamijos (jornada 10) | "🧾 *TICKET DE LA JORNADA 10 — Mesa: Zenitsu*: J7 El General +42.0 · J8 el Chapo +30.7 · J9 Buz +46.9 · J10 Gallagher +57.2 / *Total:* 4 victorias seguidas, 176.8 de margen. Pendiente de cobro: el boleto a playoffs. / Buenos días, mis cuates." *(versión corregida por el user: el ticket original no cuadraba)* |
 | 2026-11-17 | Dinastía (jornada 10) | "📣 *COMUNICADO OFICIAL DE LA COMISIÓN:* fecha límite de trades, semana 11… las ofertas que no se puedan rechazar, a cualquier hora. Firma: el Bebé Blatter. / Buenos días, caballeros." *(usa 'comunicado' del banco; guiño al Padrino)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
@@ -1360,6 +1360,17 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
 - [ ] Apodos que se ganen a punta de resultados esta temporada (proponerlos en
   cada edición; el user aprueba antes de que entren aquí).
 
+- 2026-11-17 · **Pase del user a la Gallamijos J10**: (1) el TICKET de apertura
+  "no hacía sentido": renglones sin relación entre sí (un marcador, un "$0 de
+  suerte", "cortesía del calendario") y un total ("la dignidad") que no salía
+  de sumar nada. Regla: un formato-recibo (ticket, cuenta, factura) tiene que
+  SUMAR — renglones del mismo tipo, con número, y un total que sea la suma o
+  la conclusión directa. (2) La Putiza decía "los otros 10 titulares sumaron
+  1.7" cuando fueron 66.3 (147.9 − 81.6): el 1.7 era la diferencia contra el
+  Frijol. Toda resta/suma de la Putiza se rehace contra la hoja antes de
+  publicar. (3) Pidió alabar a Zenitsu: 0-4, 1-5 y luego 4 seguidas (J7-J10)
+  para quedar 5-5, a 1 del corte. Las rachas (≥3 seguidas, ganando o
+  perdiendo) son material obligado del Termómetro y del ranking.
 - 2026-11-17 · **Pase del editor a la J10**:
   · **Una apertura `emoji *TÍTULO*` sola en su línea se renderiza como sección** (el saludo quedaba dentro): usar `*TÍTULO:*` con los dos puntos dentro del asterisco.
   · **"Mala costumbre" inventa un hábito** y contradice el "le salió" (Jebusf sentó a Herbert por McCarthy): se cambió por "Casualidad."
