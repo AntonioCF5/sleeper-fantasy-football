@@ -982,6 +982,10 @@ esta noche" line until it's final.
 **Two points per game** (user 2026-11-16: "1-2 important points of what
 happened and how it affects that team's future or fantasy"). Under `El dato`
 (the headline), indent two sub-bullets:
+- `**Contra el casino:**` (user 2026-11-16) the closing spread, who covered
+  and by how much, and the closing total against the actual points (altas or
+  bajas, by how much). Generate it from `recap.json` `results`: `line_txt`,
+  `ats`, `cover_by`, `total`, `ou`. Never type it by hand;
 - `**Qué pasó:**` the box-score fact with its usage number;
 - `**Qué significa:**` the forward read: standings or division race, who
   starts at QB next week, a role that changed, and the fantasy action.
