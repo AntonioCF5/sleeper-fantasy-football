@@ -485,6 +485,12 @@ UI (HTML, CSS and JS in one file).
       waivers (spoken cards + tables) → data tables.
     - The guion groups the `## Episodio N — …` sections under episode headers,
       and ends with links to every game's Guion tab.
+  - **Recap → Partido por partido has a game picker** (user 2026-11-16):
+    - "Todos" or one game, each chip showing its score.
+    - ‹ › step through the games in kickoff order.
+    - The choice persists in `S.recapGame` across re-renders.
+    - It toggles the cards' `hidden` attribute in the DOM and never
+      re-renders the page.
   - **Breadcrumbs everywhere** (`crumbs()`), and every crumb is clickable.
   - **Game tabs in recording order, grouped:**
     - Al aire: Resumen, Guion.

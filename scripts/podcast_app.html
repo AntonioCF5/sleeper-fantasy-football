@@ -408,6 +408,17 @@ h2.grp { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; colo
 .kbd-hint { margin-top: 18px; font-size: 12px; }
 .callout.result { border-left-color: var(--good); }
 @media (max-width: 860px) { .ep-grid { grid-template-columns: 1fr; } }
+.game-picker { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 12px; scroll-margin-top: 110px; }
+.game-picker button { all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 4px; font-size: 12.5px; font-weight: 600;
+  padding: 5px 9px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface); white-space: nowrap; }
+.game-picker button img { width: 16px; height: 16px; }
+.game-picker button:hover { border-color: var(--accent); }
+.game-picker button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.game-picker button[aria-pressed="true"] .faint { color: rgba(255,255,255,.75); }
+.game-picker button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.gp-step { display: inline-flex; gap: 4px; margin-left: auto; }
+.gp-step button { font-size: 16px; padding: 3px 12px; }
+#r-games-grid.one { grid-template-columns: minmax(0, 1fr); max-width: 760px; }
 .help { position: fixed; inset: 0; background: rgba(0,0,0,.45); display: none; place-items: center; z-index: 20; padding: 16px; }
 .help.open { display: grid; }
 .help .card { max-width: 420px; width: 100%; }
@@ -905,6 +916,26 @@ document.addEventListener("keydown", e => {
   if (e.key === "Enter" && e.target instanceof Element && e.target.matches("tr[data-go]")) go(e.target.dataset.go);
 });
 
+// recap game picker: show one game (or all) without re-rendering; ‹ › step in order
+function pickRecapGame(game) {
+  S.recapGame = game || null;
+  const grid = document.getElementById("r-games-grid"); if (!grid) return;
+  grid.classList.toggle("one", !!S.recapGame);
+  grid.querySelectorAll("[data-rg]").forEach(c => { c.hidden = !!S.recapGame && c.dataset.rg !== S.recapGame; });
+  document.querySelectorAll("[data-pick-game]").forEach(b => b.setAttribute("aria-pressed", String((b.dataset.pickGame || null) === S.recapGame)));
+  document.getElementById("r-games")?.scrollIntoView({block: "start"});
+}
+$("#view").addEventListener("click", e => {
+  const b = e.target.closest("[data-pick-game]");
+  if (b) return pickRecapGame(b.dataset.pickGame);
+  const st = e.target.closest("[data-pick-step]");
+  if (st) {
+    const list = [...document.querySelectorAll("[data-pick-game]")].map(x => x.dataset.pickGame).filter(Boolean);
+    const i = list.indexOf(S.recapGame), d = +st.dataset.pickStep;
+    pickRecapGame(list[i < 0 ? (d > 0 ? 0 : list.length - 1) : (i + d + list.length) % list.length]);
+  }
+});
+
 // guion sections grouped by episode: "Episodio 1 — X" → group "Episodio 1", title "X"
 function guionGroups() {
   const secs = S.data.rundown?.sections || [];
@@ -1242,7 +1273,15 @@ function s_waivers(r) {
 function recapGames(r) {
   let h = `<div id="r-games"></div>`;
   // game by game
-  h += `<div class="sec-title">Partido por partido</div><div class="grid cols-2">`;
+  // game picker (user 2026-11-16): pick one game to review, or see them all; ‹ › step through in kickoff order
+  const sel = (r.games || []).some(g => g.game === S.recapGame) ? S.recapGame : null;
+  h += `<div class="sec-title">Partido por partido</div>
+    <div class="game-picker" role="group" aria-label="Elige un partido para revisar">
+      <button type="button" data-pick-game="" aria-pressed="${!sel}">Todos <span class="faint">${(r.games || []).length}</span></button>
+      ${(r.games || []).map(g => { const x = g.row || {};
+        return `<button type="button" data-pick-game="${g.game}" aria-pressed="${sel === g.game}">${logo(g.away)}${g.away} <b>${x.as ?? ""}</b><span class="faint">-</span><b>${x.hs ?? ""}</b> ${g.home}${logo(g.home)}</button>`; }).join("")}
+      <span class="gp-step"><button type="button" data-pick-step="-1" aria-label="Partido anterior" title="Partido anterior">‹</button><button type="button" data-pick-step="1" aria-label="Partido siguiente" title="Partido siguiente">›</button></span>
+    </div><div class="grid cols-2 ${sel ? "one" : ""}" id="r-games-grid">`;
   for (const g of r.games || []) {
     const x = g.row || {}, b = g.box || {}, a = g.away, hm = g.home;
     const here = r.week === S.week && S.byKey[g.game];
@@ -1250,7 +1289,7 @@ function recapGames(r) {
                ["Por pase · por acarreo", t => `${b[t]?.ypa ?? "—"} · ${b[t]?.ypc ?? "—"}`],
                ["Balones perdidos", t => b[t]?.to ?? "—"], ["3ª oportunidad", t => b[t]?.third ?? "—"],
                ["Capturas recibidas", t => b[t]?.sacks ?? "—"], ["Zona roja", t => b[t]?.rz ?? "—"], ["Posesión", t => b[t]?.top ?? "—"]];
-    h += `<div class="card"><h3 style="text-transform:none;letter-spacing:0;font-size:15px;color:var(--text)">${logo(a)} ${scoreHtml({...x, away: a, home: hm})} ${logo(hm)}
+    h += `<div class="card" data-rg="${g.game}" ${sel && sel !== g.game ? "hidden" : ""}><h3 style="text-transform:none;letter-spacing:0;font-size:15px;color:var(--text)">${logo(a)} ${scoreHtml({...x, away: a, home: hm})} ${logo(hm)}
         ${here ? `<button class="btn" style="margin-left:auto" data-go="${g.game}" data-tab="resumen">Previa →</button>` : ""}</h3>
       ${(() => { const d = block(r.spoken_games?.[g.game]?.md, "El dato"); return d ? `<div class="callout" style="margin:0 0 10px"><div class="md compact">${md(d)}</div></div>` : ""; })()}
       <div class="summary-line" style="margin:0 0 10px">${x.line_txt ? `<span class="chip">Cierre ${esc(x.line_txt)} · total ${x.total}</span>` : ""}
