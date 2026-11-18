@@ -1742,3 +1742,10 @@ without testing it.
 - Usage vs TD luck: check inside-the-5 usage before buying TD regression (Chase Brown: steady opportunities, TDs below norm).
 - Trade-deadline buy-low: one dud beside a teammate's breakout (Olave after Tyson) is where owners panic.
 - After a QB injury, fade the whole offense at once (Maye out → Rhamondre, Henry, AJ Brown all drop).
+
+## 2026-11-17 additions
+- Handcuff "duality" screen (Sal): prefer backups who already carry standalone work (30-40% snaps, double-digit touches, goal-line share) so the stash doubles as a bye-week flex (Kaelon Black, McGowan).
+- Carries-per-snap and goal-line share beat raw snap % for committee backs (McGowan 12 carries on 17 snaps, ~50% of RZ carries).
+- Rookie-WR signal test (Sal): count 60+ yard games vs rookie peers plus YPRR rank, not the box score alone (Caleb Douglas 4 of 6).
+- Late-season deadline sell screen (FF): write out the remaining schedule incl. bye and weeks 15-17; sell aging RBs whose yardage pace halved even when TDs mask it (Henry ~1,600 → ~750 yd pace).
+- Young-QB philosophy change (no-huddle 13% → 40%, designed runs) is a streaming signal before the market adjusts (Cam Ward).

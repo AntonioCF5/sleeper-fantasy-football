@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-16",
- "note": "Curated waiver rulings \u2014 the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+ "updated": "2026-11-17",
+ "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
  "claims": [
   {
    "league_id": "1385473470141313024",
@@ -13,22 +13,13 @@
    "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
   },
   {
-   "league_id": "1314652488325922816",
-   "player": "Jaydon Blue (RB, PHI)",
-   "verdict": "hold",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-16",
-   "why": "REVERSED 11/16: PHI signed Blue to the practice squad Monday, so he has an NFL home. Hold; move to LoR taxi (7/8) if Sleeper allows it, freeing an active spot for DEF/K streams."
-  },
-  {
    "league_id": "1338269686810300416",
    "player": "Jaydon Blue (RB, PHI)",
    "verdict": "skip",
    "bid": null,
    "drop": null,
    "date": "2026-10-31",
-   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays \u2014 keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
+   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
   },
   {
    "league_id": "1338269686810300416",
@@ -165,17 +156,6 @@
    "why": "77% snaps only because Hockenson was out; O'Connell expects Hockenson back vs SF. Okonkwo (Q) is your only TE, so recheck Friday."
   },
   {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Xavier Hutchinson (WR, HOU)",
-   "player_id": "10218",
-   "verdict": "optional",
-   "bid": null,
-   "drop": "Tutu Atwell",
-   "date": "2026-11-16",
-   "why": "3 straight TD games, 9 targets in Week 10. Priority waivers (no FAAB); roster 17/17 so the drop is named."
-  },
-  {
    "league_id": "1388097370255794176",
    "league": "Gallamijos Dynasty",
    "player": "Ladd McConkey (WR, LAC)",
@@ -185,6 +165,83 @@
    "drop": null,
    "date": "2026-11-16",
    "why": "Out (back); IR is 2/4 and allow_out=1, so IR him to open an active spot. No drop needed."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Michael Mayer (TE, LV)",
+   "player_id": "9482",
+   "verdict": "claim",
+   "bid": "priority",
+   "drop": "Tutu Atwell",
+   "date": "2026-11-17",
+   "why": "Bowers (ankle) is day-to-day at best and FF reads a high-ankle sprain, so Mayer is LV's TE1 vs DEN; 41-404 on 49 targets already. Week 11 your FLEX is a zero (Concepcion bye, Corum bye, Marks ruled out): Mayer projects 8.6 there and doubles as Okonkwo (Q, back) insurance. Priority waivers, roster 17/17 so it needs a drop: Atwell (ROS 11, LAR bye) is the weakest asset. Replaces the 11/16 Hutchinson ruling: only one FLEX hole, Sal fades Hutchinson, and Mayer projects higher."
+  },
+  {
+   "league_id": "1395839320077656064",
+   "league": "Gallamijos League",
+   "player": "Xavier Hutchinson (WR, HOU)",
+   "player_id": "10218",
+   "verdict": "skip",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-17",
+   "why": "Superseded by Mayer: one FLEX hole this week, Mayer projects 8.6 vs 7.7, and Sal passes on him (FF split). Revisit only if the Mayer claim fails before Thursday's HOU-IND kickoff."
+  },
+  {
+   "league_id": "1385473470141313024",
+   "league": "FANTASY MEXICA",
+   "player": "Elic Ayomanor (WR, TEN)",
+   "player_id": "12499",
+   "verdict": "claim",
+   "bid": "priority",
+   "drop": "Joe Milton",
+   "date": "2026-11-17",
+   "why": "Wan'Dale Robinson went to IR Tuesday and Tate is Out, so Ayomanor (10 targets, 5-79 last week) is TEN's WR1 at DAL in a 54.5 total. Projects 8.6 vs Njoku 3.6 at FLEX. Roster 19/19, no IR: drop Milton, a 1QB-league backup whose only job (Lawrence's bye) ended in week 7."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "Buffalo Bills DEF",
+   "player_id": "BUF",
+   "verdict": "claim",
+   "bid": "1",
+   "drop": "Green Bay Packers DEF",
+   "date": "2026-11-17",
+   "why": "10-team stream: GB is on bye; BUF hosts MIA/McCord (FF's top stream; 13/14/10 the last three weeks), projects 11.2 vs NO 6.5. Roster 25/25, so drop the bye-week GB DEF. $1 of $64."
+  },
+  {
+   "league_id": "1315407698006646784",
+   "league": "DYNASTY TRC",
+   "player": "Cairo Santos (K, CHI)",
+   "player_id": "2020",
+   "verdict": "claim",
+   "bid": "1",
+   "drop": "Tutu Atwell",
+   "date": "2026-11-17",
+   "why": "K stream: Santos projects 8.3 vs Ryland 6.3. Atwell (27, ROS 11, LAR bye, no trade market) is the dynasty-rule first drop. Optional, $1."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "league": "League of Record",
+   "player": "Jaydon Blue (RB, PHI)",
+   "player_id": "12457",
+   "verdict": "hold",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-17",
+   "why": "PHI promoted Blue to the 53-man roster Tuesday. Hold; taxi is 7/8 if you need the active spot."
+  },
+  {
+   "league_id": "1314652488325922816",
+   "league": "League of Record",
+   "player": "Jacory Croskey-Merritt (RB, WAS)",
+   "player_id": "12533",
+   "verdict": "hold",
+   "bid": null,
+   "drop": null,
+   "date": "2026-11-17",
+   "why": "WAS opened his 21-day practice window Tuesday; FF calls him the top RB add of the week (ARI/TEN/HOU/ATL stretch). He stays on IR until activated, then he's a flex in LoR."
   }
  ],
  "roster_compliance": {
@@ -192,9 +249,9 @@
   "Gallamijos League": "17/17 active, IR 0/2 (reserve_allow_* all 0). DB starter slot EMPTY since the Week-10 TB DEF claim dropped Bishop. Fill: Marcus Jones (NE) for the PIT DEF.",
   "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
   "FANTASY MEXICA": "19/19, reserve_slots=0.",
-  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed \u2014 Saquon plays).",
+  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",
   "League of Record": "28/28 active after the Blue add, IR 5/8, taxi 7/8. Read live 10/31.",
-  "Guillotine TRC": "14/14, no IR. Lamar off the injury report \u2014 starts Week 8. FAAB 469/1000 left.",
+  "Guillotine TRC": "14/14, no IR. Lamar off the injury report — starts Week 8. FAAB 469/1000 left.",
   "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
  }
 }
