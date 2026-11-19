@@ -1,6 +1,6 @@
 # Preparación del podcast — Semana 11, 2026
 
-*Generado mié 18 nov, 9:40 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: ATL, CLE, GB, LAR, NE, SEA*
+*Generado mié 18 nov, 9:50 pm CDMX · líneas de DraftKings vía ESPN · horarios en CDMX (ET entre paréntesis) · descansan: ATL, CLE, GB, LAR, NE, SEA*
 
 **Nuestro récord de picks** — Semana pasada: **2-2** · Temporada: **6-7**
 

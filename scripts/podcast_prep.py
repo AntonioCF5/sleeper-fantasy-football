@@ -431,7 +431,7 @@ def load_sleeper(season, week):
         team_l4 = sorted(team_tot[team])[-L4:]
         l4 = [w for w in weeks if w in team_l4]
         log = []
-        for w in reversed(team_l3):  # newest first; a game he missed stays in as "no jugó"
+        for w in reversed(team_l4):  # newest first, last 4 (the sheet prints 3); a missed game stays in as "no jugó"
             u = usage[pid].get(w)
             if not u or not u["snp"]:
                 log.append({"w": w, "played": False})
@@ -592,23 +592,35 @@ def usage_data(t, proj):
         l3, sz = sh.get("l3") or {}, sh["season"]
         pair = lambda k: [l3.get(k) if l3.get("g") else None, sz.get(k)]  # noqa: E731
         rb = p["pos"] == "RB"
+        l4 = sh.get("l4") or {}
+        w4 = lambda k: l4.get(k) if l4.get("g") else None  # noqa: E731
         rows.append({"pid": p["pid"], "name": p["name"], "pos": p["pos"], "missed": sh.get("missed_l3") or 0,
                      "snap": pair("snap"), "tgt": pair("tgt"), "tgt_g": (l3 if l3.get("g") else sz)["tgt_g"],
                      "touch_g": (l3 if l3.get("g") else sz)["touch_g"],
                      "air": None if rb else pair("air"), "rz": pair("rz_rush" if rb else "rz_tgt"),
-                     "rz_kind": "acarreos" if rb else "targets", "touch": pair("touch") if rb else None})
+                     "rz_kind": "acarreos" if rb else "targets", "touch": pair("touch") if rb else None,
+                     # the same numbers over the team's last 4 games
+                     "l4": {"missed": sh.get("missed_l4") or 0, "snap": w4("snap"), "tgt": w4("tgt"),
+                            "tgt_g": (l4 if l4.get("g") else sz)["tgt_g"], "touch_g": (l4 if l4.get("g") else sz)["touch_g"],
+                            "air": None if rb else w4("air"), "rz": w4("rz_rush" if rb else "rz_tgt"),
+                            "touch": w4("touch") if rb else None}})
     out = {"team": t, "rows": rows}
-    if rbs:
-        cur = lambda p: (p["share"].get("l3") or {}).get("touch") or p["share"]["season"]["touch"]  # noqa: E731
-        top = cur(rbs[0])
-        # a back returning from injury can show a big share over the games he did play
-        second = max((cur(p) for p in rbs[1:]), default=0)
-        label = ("comité" if second >= 0.30 else "un solo hombre" if top >= 0.70
-                 else "reparto claro" if top >= 0.55 else "comité")
-        out["backfield"] = {"label": label, "name": rbs[0]["name"], "pid": rbs[0]["pid"], "share": top}
-    if len(rec) >= 2:
-        two = sum(((p["share"].get("l3") or {}).get("tgt") or p["share"]["season"]["tgt"]) for p in rec[:2])
-        out["top2"] = {"share": two, "label": "árbol concentrado" if two >= 0.50 else "reparto abierto" if two < 0.38 else ""}
+    for win, suf in (("l3", ""), ("l4", "_l4")):
+        # order by the window first (a player out for the whole window sorts last), season as tie-break
+        order = lambda p, k: ((p["share"].get(win) or {}).get(k) or 0, p["share"]["season"].get(k) or 0)  # noqa: E731
+        if rbs:
+            cur = lambda p: (p["share"].get(win) or {}).get("touch") or p["share"]["season"]["touch"]  # noqa: E731
+            lead = max(rbs, key=lambda p: order(p, "touch"))
+            top = cur(lead)
+            # a back returning from injury can show a big share over the games he did play
+            second = max((cur(p) for p in rbs if p is not lead), default=0)
+            label = ("comité" if second >= 0.30 else "un solo hombre" if top >= 0.70
+                     else "reparto claro" if top >= 0.55 else "comité")
+            out["backfield" + suf] = {"label": label, "name": lead["name"], "pid": lead["pid"], "share": top}
+        if len(rec) >= 2:
+            cur = lambda p: (p["share"].get(win) or {}).get("tgt") or p["share"]["season"]["tgt"]  # noqa: E731
+            two = sum(cur(p) for p in sorted(rec, key=lambda p: order(p, "tgt"), reverse=True)[:2])
+            out["top2" + suf] = {"share": two, "label": "árbol concentrado" if two >= 0.50 else "reparto abierto" if two < 0.38 else ""}
     return out
 
 
@@ -809,6 +821,7 @@ def key_players(t, proj, ranks=None):
     return [{"pid": p["pid"], "name": p["name"], "pos": p["pos"], "ppr": p["ppr"],
              "inj": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
              "missed": p["share"].get("missed_l3") or 0, "l3": p["share"].get("l3") or {"g": 0},
+             "missed4": p["share"].get("missed_l4") or 0, "l4": p["share"].get("l4") or {"g": 0},
              "season": p["share"]["season"], "log": p["share"].get("log") or [],
              "rk": _rank_of(ranks, p["pos"], p["pid"])}
             for p in qbs + rbs + rec]
@@ -854,7 +867,7 @@ def key_table(t, rows):
         name = f"{r['name']} ({r['pos']})" + (f" · {r['inj']}" if r["inj"] else "") \
             + (f" *(se perdió {r['missed']})*" if r["missed"] else "") \
             + (f"<br>*{_rank_txt(r['pos'], r.get('rk'))}*" if r.get("rk") else "")
-        logs = "<br>".join(_log_txt(e, r["pos"]) for e in r["log"])
+        logs = "<br>".join(_log_txt(e, r["pos"]) for e in r["log"][:3])
         if r["pos"] == "QB":
             rec_cell = (f"{f1(l3, 'cmp_g')}/{f1(l3, 'att_g')} · {f1(l3, 'pass_yd_g')} yds · {pc(l3, 'cmp_pct')}"
                         if l3.get("g") else "—") + f" (temp. {f1(sz, 'pass_yd_g')} yds)"

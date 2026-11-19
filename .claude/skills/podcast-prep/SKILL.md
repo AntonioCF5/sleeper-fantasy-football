@@ -232,9 +232,18 @@ What the sheet holds, and how to read it:
     (`fpa_l4` / `fpa_rank_l4`, `matchup_rank_l4` on each player). When the two
     disagree, the defense changed. The recent rank wins, unless those 4
     opponents were unusually easy or hard.
-  - **Fantasy shares** also carry `l4` and `missed_l4` beside `l3`. The app's
-    Fantasy tab has a **Últimos 3 / Últimos 4** toggle (`S.win`, remembered in
-    localStorage) that switches the bold numbers. Gray is always the season.
+  - **Fantasy shares** also carry `l4` and `missed_l4` beside `l3`.
+  - Usage rows carry an `l4` block (snap, tgt, air, rz, touch, tgt_g, touch_g,
+    missed) plus `backfield_l4` / `top2_l4`. Key players carry `l4` /
+    `missed4`, and their `log` now holds the team's last 4 games.
+  - **One toggle, three tabs:** Fantasy, Jugadores clave and Uso all have a
+    **Últimos 3 / Últimos 4** toggle, `winBar()` in the app.
+    - All three read the same `S.win`, remembered in localStorage under
+      `fantasyWin`.
+    - It switches the bold numbers, the Uso bars and the game log length.
+    - Gray is always the season.
+    - The sheet markdown stays on 3. The rundown quotes the last 3 unless it
+      says otherwise.
 - **Usage by team** (user 2026-10-28: usage numbers back up the arguments):
   per team, the top 3 RBs by backfield share and the top 6 WR/TE by target
   share, each shown as last 3 games (season). Columns: snap %, target %,
