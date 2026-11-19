@@ -1749,3 +1749,13 @@ without testing it.
 - Rookie-WR signal test (Sal): count 60+ yard games vs rookie peers plus YPRR rank, not the box score alone (Caleb Douglas 4 of 6).
 - Late-season deadline sell screen (FF): write out the remaining schedule incl. bye and weeks 15-17; sell aging RBs whose yardage pace halved even when TDs mask it (Henry ~1,600 → ~750 yd pace).
 - Young-QB philosophy change (no-huddle 13% → 40%, designed runs) is a streaming signal before the market adjusts (Cam Ward).
+
+## 2026-11-18 additions
+- Schedule-adjusted SOS for the playoffs (FF): fantasy points allowed vs expectation after adjusting for opponents; flag "red alert" defenses only at outlier magnitude (MIN −7.7 QB pts vs the usual ±1-2).
+- A bad matchup taxes an offense's secondary pieces more than its alpha: start the target hog, move the WR2/TE (Amon-Ra stays, Jameson Williams is the sell).
+- Two-QB playoff platoon with complementary weeks (Goff + Stafford) instead of paying for one clean three-week slate.
+- Playoff DST picks follow the opposing QBs (sack/INT-prone starters) more than the defense's own quality (CLE's draw beats elite JAX's).
+- Read a defense's adjusted number through game script: a pass defense graded well because opponents led and ran doesn't transfer to an offense that can't run.
+- Zero-cost playoff fliers: add schedule-driven speculative pieces only when free, let weeks 11-14 confirm the role before a playoff start.
+- Panic meter (Sal): downgrade only when usage share erodes (snaps/routes/targets/RZ), never on a blowout box-score dud.
+- IR 21-day windows are hard deadlines; log the date (Ferguson Nov 25).

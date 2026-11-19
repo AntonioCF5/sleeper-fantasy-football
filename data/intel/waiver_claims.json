@@ -1,257 +1,285 @@
 {
- "updated": "2026-11-17",
- "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
- "claims": [
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Terry McLaurin (WR, WAS)",
-   "player_id": "5927",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "player": "Jaydon Blue (RB, PHI)",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-10-31",
-   "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "Tyler Allgeier (RB, ARI)",
-   "player_id": "8132",
-   "verdict": "watch-trade",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-03",
-   "why": "Not a waiver: pgarza rosters him. Handcuff cross-check: Allgeier is ARI dc2 behind YOUR Jeremiyah Love, who has a NEW ankle injury per LaFleur, with an update later this week. Allgeier went 11-147-1 plus 5-44-1 in Week 8 while Conner, Benson and Knight are all hurt. If Love misses time, Allgeier is the ARI lead back with Minshew now starting. He's a buy-low target from pgarza only if Love's update is multi-week. Do not overpay for a 2-3 week fill-in on a 3-5 dynasty roster."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Audric Estime (RB, NO)",
-   "player_id": "11579",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "why": "Led NO with 15 carries/72 yds/TD (68% regulation carry share) while Kamara had 3; but TRC is at 34/34 with no droppable non-protected asset and owns no Saints back. Skip unless a named drop appears; LoR/Gallamijos Dyn: already rostered by others."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Zonovan Knight (RB, ARI)",
-   "player_id": "8122",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "why": "Sal 87%-available add: concussion only, retakes ARI backfield (Love on IR). TRC at cap 34/34, no named drop; owns Conner/Benson on IR so ARI path is covered. Skip."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Rashid Shaheed (WR, SEA)",
-   "player_id": "8676",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-10",
-   "why": "Dropped by panchocruz 61h ago with a 115 ROS projection, but he is currently Out and SEA depth-5. MEXICA has no IR slot to park him. Re-check if he returns to practice."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Fernando Mendoza (QB, LV)",
-   "player_id": "13269",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-10",
-   "why": "Mendoza (#1 overall pick) starts Week 10 after the Cousins trade, and he is the #4 trending add. Gallamijos Lg is 1QB and already rosters Mayfield plus Shough. A third QB has no lineup path, so skip."
-  },
-  {
-   "league_id": "1338269686810300416",
-   "league": "Dynasty Mexica",
-   "player": "CJ Daniels (WR, LAR)",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-11",
-   "why": "Your 11/11 run took Atwell ($0, drop E. Mitchell) over Daniels: a points call on a 4-5 team, and that was your choice from the prior review item. Roster is 26/26 with IR 4/4 full, and the only remaining drops are protected stashes/handcuffs (E. Johnson, J. Hill, Vidal) or startable pieces. Daniels (24) is still a free agent here; revisit only if DeVonta Smith (Out, hamstring) needs a second week and a cut opens, never by cutting a young stash."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Tutu Atwell (WR, LAR)",
-   "verdict": "lost",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-11",
-   "why": "The claim failed: a team ahead of you on rolling waivers took him (dropping E. Mitchell). Savion Williams (claimed, drop Chris Bell) is the WR depth now. Joe Milton (QB3) stays the designated cut for the next claim."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "CJ Daniels (WR, LAR)",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-11",
-   "why": "In 1QB redraft, 4.1 projected for Week 10 is no better than Tre' Harris/Savion. Not worth the Milton cut this week; hold Milton's slot for a real breakout."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Brian Thomas Jr. / Marvin Harrison Jr. (WR)",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-11",
-   "why": "Both were dropped by rivals and show 186-195 ROS projections, but that number is a stale preseason line. Measured usage: BTJ ran 34% of snaps with 0 targets in Week 9 and 2-3 targets a game in Weeks 5-8 (JAX dc3); MHJ ran 46% of snaps with 3 targets and a new hamstring (limited Wed). Neither beats Atwell or Ekeler for a 17-man roster in 1QB redraft. Revisit only on a role change."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Marcus Jones (DB, NE)",
-   "verdict": "add-fill",
-   "bid": 0,
-   "drop": "Pittsburgh Steelers DEF",
-   "date": "2026-11-13",
-   "why": "COMPLIANCE: the starting DB slot is EMPTY (Bishop was dropped for the TB DEF in the Week-10 waiver run). The best unrostered DB over Weeks 6-9 under league scoring is Marcus Jones (25.5 pts), with no injury tag, playing Sunday in Munich (9:30am ET). Nick Scott (CAR, 25.0, 1pm) is the fallback. McMillian and Mukuba scored more but DEN and PHI are on bye. The roster is 17/17, so drop the PIT DEF: LAR DEF starts this week and TB DEF (claimed for Week 11) is the next stream. Free-agent add, not a waiver claim."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Emmett Johnson (RB, KC)",
-   "verdict": "watch-trade",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-13",
-   "why": "He's the handcuff to YOUR RB1 Kenneth Walker (groin, DNP Friday, Questionable), and he's rostered by LaloCura. Reid said Johnson takes the bulk of the carries if Walker sits. He isn't claimable. Your Walker fallback is Kimani Vidal (LAC, Monday night), so wait for KC's inactives at 11:30am ET Sunday."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Chimere Dike (WR, TEN)",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-13",
-   "why": "Tate (Out) opens a one-week role; Dike projects 6.9 vs 3.9 for your bench WRs. But Milton is the designated cut for a real breakout only, and Dike matters only if Garrett Wilson (concussion, Q; Glenn 'confident') also sits. Not a breakout."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Gavin Bartholomew (TE, MIN)",
-   "player_id": "12700",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-16",
-   "why": "77% snaps only because Hockenson was out; O'Connell expects Hockenson back vs SF. Okonkwo (Q) is your only TE, so recheck Friday."
-  },
-  {
-   "league_id": "1388097370255794176",
-   "league": "Gallamijos Dynasty",
-   "player": "Ladd McConkey (WR, LAC)",
-   "player_id": "11635",
-   "verdict": "ir-move",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-16",
-   "why": "Out (back); IR is 2/4 and allow_out=1, so IR him to open an active spot. No drop needed."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Michael Mayer (TE, LV)",
-   "player_id": "9482",
-   "verdict": "claim",
-   "bid": "priority",
-   "drop": "Tutu Atwell",
-   "date": "2026-11-17",
-   "why": "Bowers (ankle) is day-to-day at best and FF reads a high-ankle sprain, so Mayer is LV's TE1 vs DEN; 41-404 on 49 targets already. Week 11 your FLEX is a zero (Concepcion bye, Corum bye, Marks ruled out): Mayer projects 8.6 there and doubles as Okonkwo (Q, back) insurance. Priority waivers, roster 17/17 so it needs a drop: Atwell (ROS 11, LAR bye) is the weakest asset. Replaces the 11/16 Hutchinson ruling: only one FLEX hole, Sal fades Hutchinson, and Mayer projects higher."
-  },
-  {
-   "league_id": "1395839320077656064",
-   "league": "Gallamijos League",
-   "player": "Xavier Hutchinson (WR, HOU)",
-   "player_id": "10218",
-   "verdict": "skip",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-17",
-   "why": "Superseded by Mayer: one FLEX hole this week, Mayer projects 8.6 vs 7.7, and Sal passes on him (FF split). Revisit only if the Mayer claim fails before Thursday's HOU-IND kickoff."
-  },
-  {
-   "league_id": "1385473470141313024",
-   "league": "FANTASY MEXICA",
-   "player": "Elic Ayomanor (WR, TEN)",
-   "player_id": "12499",
-   "verdict": "claim",
-   "bid": "priority",
-   "drop": "Joe Milton",
-   "date": "2026-11-17",
-   "why": "Wan'Dale Robinson went to IR Tuesday and Tate is Out, so Ayomanor (10 targets, 5-79 last week) is TEN's WR1 at DAL in a 54.5 total. Projects 8.6 vs Njoku 3.6 at FLEX. Roster 19/19, no IR: drop Milton, a 1QB-league backup whose only job (Lawrence's bye) ended in week 7."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Buffalo Bills DEF",
-   "player_id": "BUF",
-   "verdict": "claim",
-   "bid": "1",
-   "drop": "Green Bay Packers DEF",
-   "date": "2026-11-17",
-   "why": "10-team stream: GB is on bye; BUF hosts MIA/McCord (FF's top stream; 13/14/10 the last three weeks), projects 11.2 vs NO 6.5. Roster 25/25, so drop the bye-week GB DEF. $1 of $64."
-  },
-  {
-   "league_id": "1315407698006646784",
-   "league": "DYNASTY TRC",
-   "player": "Cairo Santos (K, CHI)",
-   "player_id": "2020",
-   "verdict": "claim",
-   "bid": "1",
-   "drop": "Tutu Atwell",
-   "date": "2026-11-17",
-   "why": "K stream: Santos projects 8.3 vs Ryland 6.3. Atwell (27, ROS 11, LAR bye, no trade market) is the dynasty-rule first drop. Optional, $1."
-  },
-  {
-   "league_id": "1314652488325922816",
-   "league": "League of Record",
-   "player": "Jaydon Blue (RB, PHI)",
-   "player_id": "12457",
-   "verdict": "hold",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-17",
-   "why": "PHI promoted Blue to the 53-man roster Tuesday. Hold; taxi is 7/8 if you need the active spot."
-  },
-  {
-   "league_id": "1314652488325922816",
-   "league": "League of Record",
-   "player": "Jacory Croskey-Merritt (RB, WAS)",
-   "player_id": "12533",
-   "verdict": "hold",
-   "bid": null,
-   "drop": null,
-   "date": "2026-11-17",
-   "why": "WAS opened his 21-day practice window Tuesday; FF calls him the top RB add of the week (ARI/TEN/HOU/ATL stretch). He stays on IR until activated, then he's a flex in LoR."
+  "updated": "2026-11-18",
+  "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
+  "claims": [
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Terry McLaurin (WR, WAS)",
+      "player_id": "5927",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "why": "Dropped 96h ago but out for the season (knee); MEXICA has no IR slots. Not a stash."
+    },
+    {
+      "league_id": "1338269686810300416",
+      "player": "Jaydon Blue (RB, PHI)",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-10-31",
+      "why": "Reversed 10/31: Saquon was removed from the injury report Friday and plays Week 8, so the Blue-for-Mitchell swap no longer buys a Week-8 start. Blue is now rostered in LoR, not available here per the live FA scan. Mitchell (#1 trending add, 178k, on stale 'Saquon out' news) stays — keep him as the PHI insurance only until a roster spot is needed; he is the first cut in the aging-vet bucket."
+    },
+    {
+      "league_id": "1338269686810300416",
+      "league": "Dynasty Mexica",
+      "player": "Tyler Allgeier (RB, ARI)",
+      "player_id": "8132",
+      "verdict": "watch-trade",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-03",
+      "why": "Not a waiver: pgarza rosters him. Handcuff cross-check: Allgeier is ARI dc2 behind YOUR Jeremiyah Love, who has a NEW ankle injury per LaFleur, with an update later this week. Allgeier went 11-147-1 plus 5-44-1 in Week 8 while Conner, Benson and Knight are all hurt. If Love misses time, Allgeier is the ARI lead back with Minshew now starting. He's a buy-low target from pgarza only if Love's update is multi-week. Do not overpay for a 2-3 week fill-in on a 3-5 dynasty roster."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Audric Estime (RB, NO)",
+      "player_id": "11579",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "why": "Led NO with 15 carries/72 yds/TD (68% regulation carry share) while Kamara had 3; but TRC is at 34/34 with no droppable non-protected asset and owns no Saints back. Skip unless a named drop appears; LoR/Gallamijos Dyn: already rostered by others."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Zonovan Knight (RB, ARI)",
+      "player_id": "8122",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "why": "Sal 87%-available add: concussion only, retakes ARI backfield (Love on IR). TRC at cap 34/34, no named drop; owns Conner/Benson on IR so ARI path is covered. Skip."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Rashid Shaheed (WR, SEA)",
+      "player_id": "8676",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-10",
+      "why": "Dropped by panchocruz 61h ago with a 115 ROS projection, but he is currently Out and SEA depth-5. MEXICA has no IR slot to park him. Re-check if he returns to practice."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Fernando Mendoza (QB, LV)",
+      "player_id": "13269",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-10",
+      "why": "Mendoza (#1 overall pick) starts Week 10 after the Cousins trade, and he is the #4 trending add. Gallamijos Lg is 1QB and already rosters Mayfield plus Shough. A third QB has no lineup path, so skip."
+    },
+    {
+      "league_id": "1338269686810300416",
+      "league": "Dynasty Mexica",
+      "player": "CJ Daniels (WR, LAR)",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-11",
+      "why": "Your 11/11 run took Atwell ($0, drop E. Mitchell) over Daniels: a points call on a 4-5 team, and that was your choice from the prior review item. Roster is 26/26 with IR 4/4 full, and the only remaining drops are protected stashes/handcuffs (E. Johnson, J. Hill, Vidal) or startable pieces. Daniels (24) is still a free agent here; revisit only if DeVonta Smith (Out, hamstring) needs a second week and a cut opens, never by cutting a young stash."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Tutu Atwell (WR, LAR)",
+      "verdict": "lost",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-11",
+      "why": "The claim failed: a team ahead of you on rolling waivers took him (dropping E. Mitchell). Savion Williams (claimed, drop Chris Bell) is the WR depth now. Joe Milton (QB3) stays the designated cut for the next claim."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "CJ Daniels (WR, LAR)",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-11",
+      "why": "In 1QB redraft, 4.1 projected for Week 10 is no better than Tre' Harris/Savion. Not worth the Milton cut this week; hold Milton's slot for a real breakout."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Brian Thomas Jr. / Marvin Harrison Jr. (WR)",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-11",
+      "why": "Both were dropped by rivals and show 186-195 ROS projections, but that number is a stale preseason line. Measured usage: BTJ ran 34% of snaps with 0 targets in Week 9 and 2-3 targets a game in Weeks 5-8 (JAX dc3); MHJ ran 46% of snaps with 3 targets and a new hamstring (limited Wed). Neither beats Atwell or Ekeler for a 17-man roster in 1QB redraft. Revisit only on a role change."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Marcus Jones (DB, NE)",
+      "verdict": "add-fill",
+      "bid": 0,
+      "drop": "Pittsburgh Steelers DEF",
+      "date": "2026-11-13",
+      "why": "COMPLIANCE: the starting DB slot is EMPTY (Bishop was dropped for the TB DEF in the Week-10 waiver run). The best unrostered DB over Weeks 6-9 under league scoring is Marcus Jones (25.5 pts), with no injury tag, playing Sunday in Munich (9:30am ET). Nick Scott (CAR, 25.0, 1pm) is the fallback. McMillian and Mukuba scored more but DEN and PHI are on bye. The roster is 17/17, so drop the PIT DEF: LAR DEF starts this week and TB DEF (claimed for Week 11) is the next stream. Free-agent add, not a waiver claim."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Emmett Johnson (RB, KC)",
+      "verdict": "watch-trade",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-13",
+      "why": "He's the handcuff to YOUR RB1 Kenneth Walker (groin, DNP Friday, Questionable), and he's rostered by LaloCura. Reid said Johnson takes the bulk of the carries if Walker sits. He isn't claimable. Your Walker fallback is Kimani Vidal (LAC, Monday night), so wait for KC's inactives at 11:30am ET Sunday."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Chimere Dike (WR, TEN)",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-13",
+      "why": "Tate (Out) opens a one-week role; Dike projects 6.9 vs 3.9 for your bench WRs. But Milton is the designated cut for a real breakout only, and Dike matters only if Garrett Wilson (concussion, Q; Glenn 'confident') also sits. Not a breakout."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Gavin Bartholomew (TE, MIN)",
+      "player_id": "12700",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-16",
+      "why": "77% snaps only because Hockenson was out; O'Connell expects Hockenson back vs SF. Okonkwo (Q) is your only TE, so recheck Friday."
+    },
+    {
+      "league_id": "1388097370255794176",
+      "league": "Gallamijos Dynasty",
+      "player": "Ladd McConkey (WR, LAC)",
+      "player_id": "11635",
+      "verdict": "start",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-18",
+      "why": "Now Questionable (back), limited Wednesday; Q is not IR-eligible in Gallamijos Dyn (allow_doubtful=0, only Out/NA/SUS/COV). He projects 11.9 and starts at WR1 if he's active Sunday (LAC); fallback A. Mitchell 8.3."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Michael Mayer (TE, LV)",
+      "player_id": "9482",
+      "verdict": "lost",
+      "bid": "priority",
+      "drop": "Tutu Atwell",
+      "date": "2026-11-18",
+      "why": "Claim failed Wed 2:10am (a team ahead on priority took him); your run instead landed Jack Bech (drop Atwell) and Myles Price (drop Julian Love). No re-chase: Okonkwo is healthy (off the injury report) and starts at TE, Price fills FLEX."
+    },
+    {
+      "league_id": "1395839320077656064",
+      "league": "Gallamijos League",
+      "player": "Xavier Hutchinson (WR, HOU)",
+      "player_id": "10218",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-17",
+      "why": "Superseded by Mayer: one FLEX hole this week, Mayer projects 8.6 vs 7.7, and Sal passes on him (FF split). Revisit only if the Mayer claim fails before Thursday's HOU-IND kickoff."
+    },
+    {
+      "league_id": "1385473470141313024",
+      "league": "FANTASY MEXICA",
+      "player": "Elic Ayomanor (WR, TEN)",
+      "player_id": "12499",
+      "verdict": "lost",
+      "bid": "priority",
+      "drop": "Joe Milton",
+      "date": "2026-11-18",
+      "why": "Not claimed in your Wed run (you took Noah Gray and Myles Price instead); Ayomanor is now rostered by a rival. Tate (limited Wed) returns to the WR2 slot, so the hole is closed."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Buffalo Bills DEF",
+      "player_id": "BUF",
+      "verdict": "won",
+      "bid": "1",
+      "drop": "Green Bay Packers DEF",
+      "date": "2026-11-18",
+      "why": "Processed Wed: BUF added for $0, NO DEF dropped (GB stays rostered through its bye). BUF starts Week 11 (11.2)."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Cairo Santos (K, CHI)",
+      "player_id": "2020",
+      "verdict": "lost",
+      "bid": "1",
+      "drop": "Tutu Atwell",
+      "date": "2026-11-18",
+      "why": "Not submitted; a rival rostered Santos. Superseded by the McLaughlin K stream."
+    },
+    {
+      "league_id": "1314652488325922816",
+      "league": "League of Record",
+      "player": "Jaydon Blue (RB, PHI)",
+      "player_id": "12457",
+      "verdict": "hold",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-17",
+      "why": "PHI promoted Blue to the 53-man roster Tuesday. Hold; taxi is 7/8 if you need the active spot."
+    },
+    {
+      "league_id": "1314652488325922816",
+      "league": "League of Record",
+      "player": "Jacory Croskey-Merritt (RB, WAS)",
+      "player_id": "12533",
+      "verdict": "hold",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-18",
+      "why": "WAS opened his 21-day practice window Tuesday; FF calls him the top RB add of the week (ARI/TEN/HOU/ATL stretch). He stays on IR until activated, then he's a flex in LoR. 11/18: LoR is at its 28/28 active cap and allow_out=0, so activating him (when WAS does) needs a drop: Tutu Atwell (27, no market, 9 ROS) goes. Dynasty-value order: aging no-market vets first."
+    },
+    {
+      "league_id": "1388097370255794176",
+      "league": "Gallamijos Dynasty",
+      "player": "Miami Dolphins DEF",
+      "player_id": "MIA",
+      "verdict": "drop",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-18",
+      "why": "COMPLIANCE: Gallamijos Dyn is 24/23 active (33 rostered − 3 IR − 6 taxi) after Wednesday's Bartholomew + Myles Price claims with no drops. Over-limit rosters cannot process moves. Cut the second DEF: MIA projects 2.5 vs BUF 9.1 starting, DEF has zero dynasty asset value in a 12-team streaming league. Ty Johnson (29) is NOT the cut: he's BUF RB2 behind James Cook (clean-handcuff protected). Do it before Thursday's HOU lock."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Chase McLaughlin (K, TB)",
+      "player_id": "6650",
+      "verdict": "claim",
+      "bid": "1",
+      "drop": "Chad Ryland (K, ARI)",
+      "date": "2026-11-18",
+      "why": "≤12-team K stream: McLaughlin (TB) projects 8.1 vs Ryland 6.3 (+1.8). K-for-K swap keeps the 25/25 active count. $1, odd bid."
+    },
+    {
+      "league_id": "1315407698006646784",
+      "league": "DYNASTY TRC",
+      "player": "Brian Robinson Jr. (RB, ATL)",
+      "player_id": "8154",
+      "verdict": "ir-move",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-18",
+      "why": "BRob has been on NFL IR (hamstring) since 11/07 but sits on your active bench because TRC's 4 IR slots are full. Roman Wilson was designated to return Wednesday (full practice). When PIT activates Wilson, move Wilson to active and BRob into the freed IR slot: net zero on the 25/25 active cap, no drop needed."
+    }
+  ],
+  "roster_compliance": {
+    "date": "2026-11-18",
+    "Gallamijos Dynasty": "24/23 active — cut MIA DEF before Thursday",
+    "others": "Gallamijos Lg 17/17, MEXICA 19/19, Dynasty Mexica 26/26, LoR 28/28, TRC 25/25 — at cap, every add names a drop"
   }
- ],
- "roster_compliance": {
-  "read_live": "2026-11-13",
-  "Gallamijos League": "17/17 active, IR 0/2 (reserve_allow_* all 0). DB starter slot EMPTY since the Week-10 TB DEF claim dropped Bishop. Fill: Marcus Jones (NE) for the PIT DEF.",
-  "Gallamijos Dynasty": "23/23, IR 4/4, taxi 6/6. No ineligible players on IR.",
-  "FANTASY MEXICA": "19/19, reserve_slots=0.",
-  "Dynasty Mexica": "26/26, IR 4/4. Spears (Out) is on IR; DeVonta Smith Out on the active bench. Mitchell kept (Blue swap reversed — Saquon plays).",
-  "League of Record": "28/28 active after the Blue add, IR 5/8, taxi 7/8. Read live 10/31.",
-  "Guillotine TRC": "14/14, no IR. Lamar off the injury report — starts Week 8. FAAB 469/1000 left.",
-  "DYNASTY TRC": "25/25, IR 4/4 (Bech, R. Wilson, Conner, Benson), taxi 5/5. Tracy went on NFL IR 10/27 but can't take a slot while IR is full. When LV activates Bech, move Bech to active and Tracy to IR in the same session: it's roster-neutral."
- }
 }
