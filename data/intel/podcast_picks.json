@@ -123,6 +123,48 @@
         "why": "Naive total 43.3, predictapp P(over) 41%; JAX added Bates/Davis/Godchaux; TEN implied 18, Carnell Tate DNP Wed",
         "result": "L"
       }
+    ],
+    "11": [
+      {
+        "game": "JAX@NYG",
+        "bet": "spread",
+        "side": "JAX",
+        "line": -6,
+        "conf": 2,
+        "why": "🚩 SRS -2.2 / FPI -5.8 vs market; JAX 1st SRS, +9 TO diff, 2nd net yds/att vs NYG backup McCarthy (Dart out for season). Risk: 57 km/h gusts at MetLife"
+      },
+      {
+        "game": "CIN@WSH",
+        "bet": "spread",
+        "side": "CIN",
+        "line": -6.5,
+        "conf": 1,
+        "why": "🚩 SRS -2.2 / FPI -3.2 vs market; CIN 5 straight wins with 31+, SRS 3rd vs 24th; WSH LT Tunsil IR, C Patrick concussion, McLaurin out for season"
+      },
+      {
+        "game": "BAL@CAR",
+        "bet": "spread",
+        "side": "CAR",
+        "line": -2.5,
+        "conf": 1,
+        "why": "Mild lean both models (SRS +1.8, FPI CAR 69% vs 55% market); BAL short week + travel after MNF, 5-game skid, Madubuike DNP, 1.1 yds/carry Monday; Lamar out until wk 15+"
+      },
+      {
+        "game": "TB@DET",
+        "bet": "spread",
+        "side": "TB",
+        "line": 7,
+        "conf": 1,
+        "why": "🚩 SRS -4.1 / FPI -3.1 vs market; DET lost Hutchinson (season), TB 1-6 in one-score games, 1st in yds/carry. Conditional on Mayfield (foot, DNP Wed, decision Friday); against: Bowles 2-6 after bye"
+      },
+      {
+        "game": "NO@CHI",
+        "bet": "total",
+        "side": "under",
+        "line": 48.5,
+        "conf": 1,
+        "why": "Rain 54% + 46 km/h gusts at Soldier Field; NO OL gutted (Fuaga, McCoy, Richards DNP), NO -8 TO diff; total rose 2 pts against the forecast"
+      }
     ]
   }
 }

@@ -1,6 +1,6 @@
 # Recap semana 10
 
-*Escrito el lunes 16 de noviembre, antes del Monday Night (Cargadores @ Cuervos). Lesiones y declaraciones de los coaches del lunes. Descansan en la semana 11 Atlanta, Cleveland, Green Bay, Rams, Nueva Inglaterra y Seattle.*
+*Escrito el lunes 16 de noviembre; el Monday Night (Cargadores @ Cuervos) se agregó el miércoles 18. Lesiones y declaraciones de los coaches del lunes. Descansan en la semana 11 Atlanta, Cleveland, Green Bay, Rams, Nueva Inglaterra y Seattle.*
 
 ## Lo que pasó
 
@@ -104,7 +104,10 @@
   - **Qué significa:** la semana pasada dudamos de Chase Brown por los acarreos, y el ajuste vino por aire: mientras sea así, es RB1 en PPR. Burrow lleva siete partidos seguidos con 20 puntos o más. Pittsburgh (6-3) pierde al guardia McCormick con una lesión de tobillo que parece grave.
 
 ### LAC @ BAL
-- **El dato:** se juega esta noche: Brissett en su debut como titular de Baltimore contra unos Cargadores que van 0-8.
+- **El dato:** los Cargadores ganaron su primer partido del año, 23-20 en Baltimore, y cortaron una racha de 11 derrotas. Brissett tiró 49 pases para 340 yardas en su debut, pero Baltimore corrió para 1.1 yardas por acarreo.
+  - **Contra el casino:** cerró Baltimore -4.5. Ganaron los Cargadores, que cubrieron por 7.5. El total cerró en 38.5 y salieron 43 puntos: altas por 4.5.
+  - **Qué pasó:** se acabó la rotación de corredores en Los Ángeles. Hampton tuvo 22 acarreos para 105 yardas y un touchdown, con el 77% de los toques del backfield (antes 51%). Tre' Harris jugó el 98% de los snaps con el 31% de los targets: 5 recepciones para 86. Henry corrió 10 veces para 10 yardas, pero con dos touchdowns. Andrews atrapó los 8 pases que le tiraron (82 yardas). El último balón lo perdió Flowers.
+  - **Qué significa:** Baltimore queda 4-6 con cinco derrotas seguidas y juega el domingo en Carolina con semana corta. Lamar no regresa antes de la semana 15. Los Cargadores quedan 1-8. Para fantasy, Hampton es ahora corredor de arranque, Harris es un agregado para ligas profundas y Andrews es el mejor ala cerrada de streaming con Brissett.
 
 ## Lesiones
 

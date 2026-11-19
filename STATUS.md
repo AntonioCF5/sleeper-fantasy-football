@@ -303,8 +303,19 @@ tells the user to re-check news once before accepting.
     - DST: BUF.
     - Bajé a Demercado de A (Montgomery volvió a practicar) y saqué a
       Klubnik, DeVito y Lock.
-  - Falta: correr `podcast_recap.py 10` después del MNF, escribir el dato de
-    LAC@BAL y decidir los waivers de LAC y BAL.
+  - MNF agregado el 18 nov: LAC 23-20 en BAL (LAC +4.5 cubrió, altas). Dato
+    de LAC@BAL escrito: Hampton 77% del backfield, Tre' Harris 31% de los
+    targets, Andrews 8/8.
+  **Previa semana 11 (mié 18 nov):** `week11/rundown.md`, 13 partidos.
+  - Picks (5): ★★ JAX -6; ★ CIN -6.5, CAR -2.5, TB +7 (solo si juega
+    Mayfield, decisión el viernes), Bajas NO/CHI 48.5. Se pasó la 🚩 de
+    IND@HOU: los modelos no saben que IND juega sin sus dos tackles.
+  - Survivor: BUF vs MIA. `survivor.json` sigue sin las semanas 6-10 (JAX
+    en la 9, LAR en la 10); el plan no sirve más allá de esta semana hasta
+    que el user las anote.
+  - Pendiente el viernes: Mayfield (si cae, el pick TB +7 queda sin valor),
+    Walker, Bowers, Evans, Geno Smith, Garrett Wilson y McConkey. TB sigue
+    sin `qb_start`: Sleeper pone a Mayfield.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y
