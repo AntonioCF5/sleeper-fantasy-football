@@ -28,7 +28,7 @@
 - **Fantasy:**
   - **Arranca la defensiva de Houston**, la mejor de la semana: 3.7 capturas por partido contra un ataque con 19 balones perdidos.
   - **Arranca a Montgomery como RB2.** Tenía el 52% del backfield antes de lastimarse, y Indianápolis es la sexta defensa que más permite a corredores. Demercado (28% de los snaps) se va a la banca.
-  - **Ojo con Jonathan Taylor:** en los últimos tres tiene el 62% del backfield (76% en la temporada) y 9.5 puntos por partido. Arranca como RB2, no como RB1, y ahora sin línea ofensiva.
+  - **Ojo con Jonathan Taylor:** en los últimos tres tiene el 62% del backfield (76% en la temporada) y 9.5 puntos por partido. Arranca como RB2, no como RB1, y ahora sin línea ofensiva. Lo que sí le ayuda: Houston es 16º contra corredores en la temporada, pero en el último mes, ajustado por los ataques que enfrentó, es la quinta defensa que más permite.
   - **Sorpresa:** Xavier Hutchinson. Tiene el 20% de los targets y el 72% de los snaps, y anotó en tres partidos seguidos. Harrison Jr. está fuera otra vez.
 
 ### MIA @ BUF: Bills -16.5, total 45.5, domingo 12:00 pm CDMX (1:00 pm ET)
@@ -56,7 +56,7 @@
 - **Historia:** Kellen Moore va 9-4 contra la línea de visitante. Es color.
 - **Fantasy:**
   - **Arranca a Swift:** Nueva Orleans es la segunda defensa que más permite a corredores. **Pero ojo con su 84% del backfield:** lo hizo sin Monangai, que antes de lastimarse se llevaba el 38% de los acarreos. Swift es RB2, no RB1.
-  - **Arranca a Loveland:** 27% de los targets en los últimos tres (19% en la temporada), contra la séptima defensa que más permite a alas cerradas.
+  - **Arranca a Loveland:** 27% de los targets en los últimos tres (19% en la temporada). Arranca por volumen, no por el rival: Nueva Orleans es la séptima que más permite a alas cerradas en la temporada, pero con peso baja al 22º.
   - **Arranca a Tyson si juega:** tiene el 28% de los targets.
   - **Banca a Shough:** perdió cuatro balones la semana pasada, juega sin línea ofensiva y con lluvia.
 
@@ -115,7 +115,7 @@
 - **El pick:** gana Pittsburgh. **Paso en el spread y en el total.** La inclinación por Pittsburgh es leve, y 37.5 ya incluye a Milton y el viento.
 - **Historia, en contra de Pittsburgh:** Sirianni va 7-1 directo y 5-2-1 contra la línea después de su semana de descanso. Rodgers va 5-2 contra Filadelfia. Las dos son color.
 - **Fantasy:**
-  - **Arranca a Metcalf:** tiene el 23% de los targets y Filadelfia es la tercera defensa que más permite a receptores.
+  - **Arranca a Metcalf:** tiene el 23% de los targets. Filadelfia es la tercera defensa que más permite a receptores en la temporada, aunque con peso baja a la décima.
   - **Banca a Barkley** si tienes otra opción: en los últimos tres tiene el 42% de los acarreos con el 36% de los snaps, y ahora con Milton.
   - **Sorpresa:** Makai Lemon. Tiene el 27% de los targets en los últimos tres (19% en la temporada), con el 93% de los snaps. Si regresa Smith, baja.
 
@@ -171,10 +171,10 @@
 - **El pick:** **★★ Jaguares -6, sirve hasta -6.5 (en -7 paso).** El SRS los tiene 8 puntos arriba y el FPI 12; los dos sin contar a un mariscal suplente enfrente. **El riesgo es el viento:** la ventaja de Jacksonville es su juego aéreo.
 - **Historia:** Coen va 12-5 contra la línea como favorito. Es color.
 - **Fantasy:**
-  - **Arranca a Parker Washington:** tiene el 25% de los targets y 12.7 yardas por target en los últimos tres.
+  - **Arranca a Parker Washington:** tiene el 25% de los targets y 12.7 yardas por target en los últimos tres. Pero ojo: con peso, los Gigantes son la quinta defensa que menos permite a receptores, y hay viento.
   - **Arranca a Lawrence:** los Gigantes son la sexta defensa que más permite a mariscales. Baja un poco la expectativa por el viento.
   - **Banca a Tuten:** llega limitado y los Gigantes son de las defensas que menos permiten a corredores (28º).
-  - **Arranca a Skattebo como flex:** tiene el 71% del backfield, aunque el rival es difícil (27º).
+  - **Arranca a Skattebo como flex:** tiene el 71% del backfield. Jacksonville es 27º contra corredores en la temporada, pero con peso es 15º: un rival neutral.
 
 ### MIN @ SF: 49ers -3, total 45.5, domingo 7:20 pm CDMX (8:20 pm ET) · SNF · en la Ciudad de México
 
@@ -201,7 +201,7 @@
   - **Clima:** ráfagas de 41 km/h.
 - **El pick:** **★ inclinación Bengalíes -6.5, sirve hasta -6.5 (en -7 paso).** Cincinnati es 3º en SRS y Washington 24º, y los dos modelos ven a Cincinnati por 9 puntos. Washington llega sin su tackle izquierdo ni su mejor receptor. **Paso en el total:** nuestro modelo dice 49 y hay viento, pero los últimos cinco de Cincinnati promediaron 58 puntos.
 - **Fantasy:**
-  - **Arranca a Chase:** tiene el 36% de los targets en los últimos tres: 14 por partido, el volumen más alto de la semana.
+  - **Arranca a Chase:** tiene el 36% de los targets en los últimos tres: 14 por partido, el volumen más alto de la semana. El rival no ayuda: con peso, Washington es la octava defensa que menos permite a receptores. Arranca por volumen.
   - **Arranca a Burrow:** Sleeper lo proyecta en 26.4, el más alto de la semana.
   - **Sorpresa:** Mike Gesicki. Washington es la segunda defensa que más permite a alas cerradas. Del otro lado, **Okonkwo** (20% de los targets) es streaming.
   - **Banca a Rachaad White y a Ekeler** si regresa Croskey-Merritt: antes de lastimarse tenía el 45% de los acarreos.

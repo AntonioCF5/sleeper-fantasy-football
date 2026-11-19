@@ -244,6 +244,44 @@ What the sheet holds, and how to read it:
     - Gray is always the season.
     - The sheet markdown stays on 3. The rundown quotes the last 3 unless it
       says otherwise.
+
+  **"Con peso": opponent-adjusted and weighted by stability** (user 2026-11-18,
+  "darle un peso a esos valores dependiendo de los equipos contra los que
+  jugaron"):
+  - **Opponent adjustment.** Each game is judged against what that opponent
+    usually does: adjusted = actual − (opponent norm − league average).
+    - The opponent norm is its average in its OTHER games.
+    - One game's gap is capped at ±`CAP_SD` (2) league standard deviations,
+      the same idea as SRS capping blowouts.
+  - **Team stats** use `team_weighted()`, which reads every final's ESPN box
+    score (cached a week via `espn.summary(final=True)`).
+    - The adjusted last 4 is blended with the adjusted season by how stable
+      the stat is (`ADJ_METRICS`):
+      - 35% recent: yds/att, ypc, 3rd down, sacks, points;
+      - 20% recent: red zone, turnovers;
+      - 50% recent: plays.
+    - The data is `sheet.team_rows_w` (counts per game) and `w_weights`.
+    - The Equipos tab shows a **con peso** line under "últ. 4", and its
+      tooltip states the weight.
+    - The sheet prints a "Con peso y ajustado por rival" table.
+  - **Rival.** It is the same rule on Sleeper PPR by position: `fpa_adj4`,
+    `fpa_w` and their ranks, blended 50/50 (`FPA_W_RECENT`).
+    - The Rival cell shows temp. / últ. 4 / **peso**. Peso is the number to
+      decide with.
+    - «ajust. Nº» appears when the adjustment moves the last-4 rank by 6 or
+      more.
+  - **Players.** "Con peso" is the toggle's third option, `share.w` from
+    `weighted_share()` with `PLAYER_W`:
+    - 70% last 4 for usage and volume;
+    - 50% for yards and PPR per game;
+    - 35% for efficiency;
+    - TDs stay the season's.
+    - Player usage is NOT opponent-adjusted, because it is the coach's
+      decision; the defense is adjusted, in the Rival column.
+  - **Rundown rule.** Before saying "the Nth defense that allows the most to
+    X", check its peso rank too. When season and peso disagree by 6+ places,
+    say both, or use peso. Wk 11: Loveland's "7th vs TE" was 22nd with peso,
+    and Houston's 16th vs RB was 5th.
 - **Usage by team** (user 2026-10-28: usage numbers back up the arguments):
   per team, the top 3 RBs by backfield share and the top 6 WR/TE by target
   share, each shown as last 3 games (season). Columns: snap %, target %,

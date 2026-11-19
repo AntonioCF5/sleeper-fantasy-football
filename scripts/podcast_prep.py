@@ -329,6 +329,117 @@ def team_last4(finals, n=L4):
     return out
 
 
+# Opponent adjustment + weight of the last 4 vs the season (user 2026-11-18).
+# Every game is judged against what that opponent usually allows (its average in
+# its OTHER games): adjusted = actual - (opponent norm - league average). One game
+# can't swing the window: the gap vs the norm is capped at ±CAP_SD league standard
+# deviations (the same idea as SRS capping blowouts at ±21). Then the adjusted last
+# 4 and the adjusted season are blended by how stable the stat is: usage-like
+# numbers stabilize fast, efficiency slowly, TDs/red zone/turnovers barely at all.
+CAP_SD = 2.0
+FPA_W_RECENT = 0.50
+# player numbers, "con peso": share of the last 4 by how fast the stat stabilizes; the rest is the season.
+# Usage is the coach's decision and barely depends on the opponent, so it isn't opponent-adjusted.
+PLAYER_W = {**{k: 0.70 for k in ("snap", "tgt", "rush", "touch", "air", "rz_tgt", "rz_rush", "tgt_snap",
+                                  "tgt_g", "touch_g", "att_g", "rec_g", "rush_g", "cmp_g")},
+            **{k: 0.35 for k in ("ypa", "ypt", "ypc", "cmp_pct")},
+            **{k: 0.50 for k in ("rec_yd_g", "rush_yd_g", "pass_yd_g", "ppr_g")}}
+
+
+def weighted_share(l4, sz):
+    """Blend a player's last-4 window with his season (PLAYER_W); TD counts stay the season's."""
+    if not l4.get("g"):
+        return {**sz, "g": 0}
+    out = dict(sz)
+    for k, wr in PLAYER_W.items():
+        a, b = l4.get(k), sz.get(k)
+        out[k] = (wr * a + (1 - wr) * b) if a is not None and b is not None else (b if a is None else a)
+    out["g"] = l4["g"]
+    return out
+  # defense vs a position: half last 4 (adjusted), half season (adjusted)
+# key -> (box getter -> value, side: 'off' = the team's own number, judged vs the opponent's
+#         defense; 'def' = the opponent's number, judged vs the opponent's offense), recent weight
+ADJ_METRICS = {
+    "passing.netYardsPerPassAttempt": ("npa", "off", 0.35),
+    "rushing.yardsPerRushAttempt": ("ypc", "off", 0.35),
+    "miscellaneous.thirdDownConvPct": ("third", "off", 0.35),
+    "miscellaneous.redzoneTouchdownPct": ("rz", "off", 0.20),
+    "miscellaneous.turnOverDifferential": ("to", None, 0.20),
+    "passing.sacks": ("sk", "off", 0.35),
+    "defensive.sacks": ("sk", "def", 0.35),
+    "pace": ("plays", "off", 0.50),
+    "pf": ("pts", "off", 0.35),
+    "pa": ("pts", "def", 0.35),
+}
+
+
+def _box_line(me, pts):
+    """One team's per-game numbers from an ESPN box score (None when absent)."""
+    sk = _pair(me.get("sacksYardsLost"))[0]
+    att = _pair(str(me.get("completionAttempts", "")).replace("/", "-"))[1]
+    c, a3 = _pair(me.get("thirdDownEff"))
+    td, trips = _pair(me.get("redZoneAttempts"))
+    ratt = _num(me.get("rushingAttempts"))
+    return {"npa": _num(me.get("netPassingYards")) / (att + sk) if att + sk else None,
+            "ypc": _num(me.get("rushingYards")) / ratt if ratt else None,
+            "third": 100 * c / a3 if a3 else None, "rz": 100 * td / trips if trips else None,
+            "give": _num(me.get("turnovers")), "sk": sk, "plays": _num(me.get("totalOffensivePlays")), "pts": pts}
+
+
+def team_weighted(finals, n=L4):
+    """Per team and TEAM_METRICS key (+ pf/pa): {'adj4', 'adjS', 'w'} — the opponent-adjusted
+    last n, the opponent-adjusted season, and the blend. Counts (sacks, turnovers) are per game."""
+    finals = sorted(finals, key=lambda g: g["date"])
+    with ThreadPoolExecutor(12) as ex:
+        sums = dict(zip([g["id"] for g in finals], ex.map(lambda g: espn.summary(g["id"], final=True), finals)))
+    line = {}                                   # (gid, team) -> numbers
+    games = defaultdict(list)                   # team -> [(gid, opp)]
+    for g in finals:
+        box = {t["team"]["abbreviation"]: {x["name"]: x.get("displayValue") for x in t.get("statistics") or []}
+               for t in (sums.get(g["id"]) or {}).get("boxscore", {}).get("teams") or []}
+        if g["home"] not in box or g["away"] not in box:
+            continue
+        for team, opp, pts in ((g["home"], g["away"], g["hs"]), (g["away"], g["home"], g["as"])):
+            line[(g["id"], team)] = _box_line(box[team], pts)
+            games[team].append((g["id"], opp))
+    vals = lambda k: [v[k] for v in line.values() if v.get(k) is not None]  # noqa: E731
+    lg = {k: sum(vals(k)) / len(vals(k)) for k in ("npa", "ypc", "third", "rz", "give", "sk", "plays", "pts")}
+    sd = {k: (sum((x - lg[k]) ** 2 for x in vals(k)) / len(vals(k))) ** 0.5 for k in lg}
+
+    def norm(team, k, side, skip):
+        """What `team` usually does (side='off') or allows (side='def') in stat k, excluding game `skip`."""
+        xs = [line[(gid, team if side == "off" else opp)].get(k) for gid, opp in games[team] if gid != skip]
+        xs = [x for x in xs if x is not None]
+        return sum(xs) / len(xs) if xs else lg[k]
+
+    def adj(team, gid, opp, k, side):
+        """`team`'s number in stat k for that game, minus how far its opponent sits from the league."""
+        actual = line[(gid, team if side == "off" else opp)].get(k)
+        if actual is None:
+            return None
+        # side 'off': judged vs the opponent's DEFENSE (what it allows); 'def': vs the opponent's OFFENSE
+        expected = norm(opp, k, "def" if side == "off" else "off", gid)
+        gap = max(-CAP_SD * sd[k], min(CAP_SD * sd[k], actual - expected))
+        return lg[k] + gap
+
+    out = {}
+    for team, gl in games.items():
+        res = {}
+        for key, (k, side, wr) in ADJ_METRICS.items():
+            def window(gs):
+                if key == "miscellaneous.turnOverDifferential":  # takeaways - giveaways, each adjusted
+                    xs = [(adj(team, gid, opp, "give", "def"), adj(team, gid, opp, "give", "off")) for gid, opp in gs]
+                    xs = [a - b for a, b in xs if a is not None and b is not None]
+                else:
+                    xs = [x for x in (adj(team, gid, opp, k, side) for gid, opp in gs) if x is not None]
+                return sum(xs) / len(xs) if xs else None
+            a4, aS = window(gl[-n:]), window(gl)
+            res[key] = {"adj4": a4, "adjS": aS,
+                        "w": (wr * a4 + (1 - wr) * aS) if a4 is not None and aS is not None else aS, "wr": wr}
+        out[team] = res
+    return out
+
+
 # ------------------------------------------------------ sleeper layer
 
 def load_sleeper(season, week):
@@ -342,6 +453,8 @@ def load_sleeper(season, week):
         rows_by_week[w] = f.result() or []
 
     fpa = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))  # def -> week -> pos -> pts
+    fpo = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))  # offense -> week -> pos -> pts scored
+    faced = defaultdict(dict)                                            # def -> week -> offense it faced
     dst = defaultdict(lambda: defaultdict(list))                         # team -> stat -> [per game]
     usage = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "snp": 0, "tm_snp": 0}))
     team_tot = defaultdict(lambda: defaultdict(lambda: {"tgt": 0, "rush": 0, "air": 0, "rz_tgt": 0,
@@ -365,6 +478,8 @@ def load_sleeper(season, week):
             meta[r["player_id"]] = {"name": f"{pl.get('first_name', '')} {pl.get('last_name', '')}".strip(), "pos": pos}
             if opp:
                 fpa[opp][w][pos] += pts
+                fpo[team][w][pos] += pts
+                faced[opp][w] = team
             u = usage[r["player_id"]][w]
             # rec_air_yd is COMPLETED air yards (rec_yd - rec_yar), not air yards on every target
             u.update(tgt=st.get("rec_tgt") or 0, rush=st.get("rush_att") or 0,
@@ -390,6 +505,26 @@ def load_sleeper(season, week):
     fpa_l4 = {d: {p: sum(weeks[w][p] for w in sorted(weeks)[-L4:]) / len(sorted(weeks)[-L4:]) for p in SKILL}
               for d, weeks in fpa.items()}
     fpa_rank_l4 = {p: rank_map({d: v[p] for d, v in fpa_l4.items()}) for p in SKILL}
+    # opponent-adjusted (same rule as team_weighted): each game vs what that offense scores to the
+    # position in its OTHER games, gap capped at ±CAP_SD league SD; then 50% last 4 + 50% season
+    allg = {p: [wk[p] for weeks in fpo.values() for wk in weeks.values()] for p in SKILL}
+    lgp = {p: sum(x) / len(x) for p, x in allg.items() if x}
+    sdp = {p: (sum((v - lgp[p]) ** 2 for v in allg[p]) / len(allg[p])) ** 0.5 for p in lgp}
+
+    def fadj(d, w, p):
+        off = faced[d].get(w)
+        others = [wk[p] for x, wk in fpo[off].items() if x != w] if off else []
+        exp = sum(others) / len(others) if others else lgp[p]
+        return lgp[p] + max(-CAP_SD * sdp[p], min(CAP_SD * sdp[p], fpa[d][w][p] - exp))
+    fpa_adj4, fpa_w = {}, {}
+    for d, weeks in fpa.items():
+        ws = sorted(weeks)
+        a4 = {p: sum(fadj(d, w, p) for w in ws[-L4:]) / len(ws[-L4:]) for p in SKILL}
+        aS = {p: sum(fadj(d, w, p) for w in ws) / len(ws) for p in SKILL}
+        fpa_adj4[d] = a4
+        fpa_w[d] = {p: FPA_W_RECENT * a4[p] + (1 - FPA_W_RECENT) * aS[p] for p in SKILL}
+    fpa_rank_adj4 = {p: rank_map({d: v[p] for d, v in fpa_adj4.items()}) for p in SKILL}
+    fpa_rank_w = {p: rank_map({d: v[p] for d, v in fpa_w.items()}) for p in SKILL}
 
     def shares(pid):
         weeks = sorted(w for w, u in usage[pid].items() if u["snp"] > 0)
@@ -442,7 +577,8 @@ def load_sleeper(season, week):
                                                                    "rush_td", "pass_att", "pass_cmp", "pass_yd",
                                                                    "pass_td", "pass_int")}})
         return {"season": agg(weeks), "l3": agg(l3) if l3 else {"g": 0}, "missed_l3": len(team_l3) - len(l3),
-                "l4": agg(l4) if l4 else {"g": 0}, "missed_l4": len(team_l4) - len(l4), "log": log}
+                "l4": agg(l4) if l4 else {"g": 0}, "missed_l4": len(team_l4) - len(l4), "log": log,
+                "w": weighted_share(agg(l4) if l4 else {"g": 0}, agg(weeks))}
 
     proj = []
     for r in api.get_week_projections(season, week) or []:
@@ -457,7 +593,9 @@ def load_sleeper(season, week):
                      "ppr": score_stat_line(st, PPR), "half": score_stat_line(st, HALF),
                      "share": shares(r["player_id"])})
     dst_avg = {t: {k: sum(v) / len(v) for k, v in s.items() if v} for t, s in dst.items()}
-    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "fpa_l4": fpa_l4, "fpa_rank_l4": fpa_rank_l4, "proj": proj, "dst": dst_avg,
+    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "fpa_l4": fpa_l4, "fpa_rank_l4": fpa_rank_l4,
+            "fpa_adj4": fpa_adj4, "fpa_rank_adj4": fpa_rank_adj4, "fpa_w": fpa_w, "fpa_rank_w": fpa_rank_w,
+            "proj": proj, "dst": dst_avg,
             "rankings": rankings(usage, team_tot, meta)}
 
 
@@ -594,6 +732,8 @@ def usage_data(t, proj):
         rb = p["pos"] == "RB"
         l4 = sh.get("l4") or {}
         w4 = lambda k: l4.get(k) if l4.get("g") else None  # noqa: E731
+        ww = sh.get("w") or {}
+        wv = lambda k: ww.get(k) if ww.get("g") else None  # noqa: E731
         rows.append({"pid": p["pid"], "name": p["name"], "pos": p["pos"], "missed": sh.get("missed_l3") or 0,
                      "snap": pair("snap"), "tgt": pair("tgt"), "tgt_g": (l3 if l3.get("g") else sz)["tgt_g"],
                      "touch_g": (l3 if l3.get("g") else sz)["touch_g"],
@@ -603,9 +743,13 @@ def usage_data(t, proj):
                      "l4": {"missed": sh.get("missed_l4") or 0, "snap": w4("snap"), "tgt": w4("tgt"),
                             "tgt_g": (l4 if l4.get("g") else sz)["tgt_g"], "touch_g": (l4 if l4.get("g") else sz)["touch_g"],
                             "air": None if rb else w4("air"), "rz": w4("rz_rush" if rb else "rz_tgt"),
-                            "touch": w4("touch") if rb else None}})
+                            "touch": w4("touch") if rb else None},
+                     "w": {"missed": 0, "snap": wv("snap"), "tgt": wv("tgt"),
+                           "tgt_g": (ww if ww.get("g") else sz)["tgt_g"], "touch_g": (ww if ww.get("g") else sz)["touch_g"],
+                           "air": None if rb else wv("air"), "rz": wv("rz_rush" if rb else "rz_tgt"),
+                           "touch": wv("touch") if rb else None}})
     out = {"team": t, "rows": rows}
-    for win, suf in (("l3", ""), ("l4", "_l4")):
+    for win, suf in (("l3", ""), ("l4", "_l4"), ("w", "_w")):
         # order by the window first (a player out for the whole window sorts last), season as tie-break
         order = lambda p, k: ((p["share"].get(win) or {}).get(k) or 0, p["share"]["season"].get(k) or 0)  # noqa: E731
         if rbs:
@@ -822,6 +966,7 @@ def key_players(t, proj, ranks=None):
              "inj": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
              "missed": p["share"].get("missed_l3") or 0, "l3": p["share"].get("l3") or {"g": 0},
              "missed4": p["share"].get("missed_l4") or 0, "l4": p["share"].get("l4") or {"g": 0},
+             "w": p["share"].get("w") or {"g": 0},
              "season": p["share"]["season"], "log": p["share"].get("log") or [],
              "rk": _rank_of(ranks, p["pos"], p["pid"])}
             for p in qbs + rbs + rec]
@@ -1181,6 +1326,9 @@ def main():
     papg = {t: sum(r["pa"]) / len(r["pa"]) for t, r in rec.items() if r["pa"]}
     ppg_rank, papg_rank = rank_map(ppg), rank_map(papg, False)
     tl4 = team_last4(finals)
+    tw = team_weighted(finals)
+    better = {k: hb for k, _, hb, _ in TEAM_METRICS} | {"pf": True, "pa": False}
+    w_ranks = {k: rank_map({t: s[k]["w"] for t, s in tw.items()}, better[k]) for k in ADJ_METRICS}
     l4_ranks = {k: rank_map({t: s.get(k) for t, s in tl4.items()}, hb) for k, _, hb, _ in TEAM_METRICS}
     l4_ranks["pf"], l4_ranks["pa"] = rank_map({t: s["pf"] for t, s in tl4.items()}), rank_map({t: s["pa"] for t, s in tl4.items()}, False)
 
@@ -1373,10 +1521,36 @@ def main():
             return None
         team_rows_l4 = {label: [l4cell(a, label), l4cell(h, label)] for label, _, _ in team_rows}
         team_rows_l4 = {k: v for k, v in team_rows_l4.items() if any(v)}
+
         if team_rows_l4:
             L.append(f"**Últimos {L4} partidos** (lugar de 32 en esa ventana; capturas y balones son totales de los {L4})\n")
             L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
             for label, (va, vh) in team_rows_l4.items():
+                L.append(f"| {label} | {va or '—'} | {vh or '—'} |")
+            L.append("")
+        # the working number: opponent-adjusted, last 4 blended with the season by stat stability
+        def wcell(t, label):
+            s = tw.get(t)
+            if not s:
+                return None
+            if label.startswith("Puntos a favor"):
+                pf, pa = s["pf"], s["pa"]
+                return (f"{pf['w']:.1f} ({ordinal(w_ranks['pf'][t])}) / {pa['w']:.1f} ({ordinal(w_ranks['pa'][t])})"
+                        if pf["w"] is not None and pa["w"] is not None else None)
+            for k, lab, _, f in TEAM_METRICS:
+                if lab == label and k in s and s[k]["w"] is not None:
+                    x = s[k]["w"]
+                    per_game = k in ("miscellaneous.turnOverDifferential", "passing.sacks", "defensive.sacks")
+                    txt = f"{x:+.1f}" if k == "miscellaneous.turnOverDifferential" else (f"{x:.1f}" if per_game else f.format(x))
+                    return f"{txt}{'/partido' if per_game else ''} ({ordinal(w_ranks[k][t])})"
+            return None
+        team_rows_w = {label: [wcell(a, label), wcell(h, label)] for label, _, _ in team_rows}
+        team_rows_w = {k: v for k, v in team_rows_w.items() if any(v)}
+        if team_rows_w:
+            L.append(f"**Con peso y ajustado por rival** (últimos {L4} y temporada, cada partido contra lo que ese rival "
+                     "suele permitir; el peso de los últimos 4 depende de qué tan estable es el stat)\n")
+            L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
+            for label, (va, vh) in team_rows_w.items():
                 L.append(f"| {label} | {va or '—'} | {vh or '—'} |")
             L.append("")
         last5 = {t: list(reversed(((rec.get(t) or {}).get("log") or [])[-5:])) for t in (a, h)}
@@ -1440,12 +1614,18 @@ def main():
                 fp = (slr["fpa"].get(sl(opp)) or {}).get(p["pos"])
                 rk4 = slr["fpa_rank_l4"][p["pos"]].get(sl(opp))
                 fp4 = (slr["fpa_l4"].get(sl(opp)) or {}).get(p["pos"])
+                rka = slr["fpa_rank_adj4"][p["pos"]].get(sl(opp))
+                fpa_a = (slr["fpa_adj4"].get(sl(opp)) or {}).get(p["pos"])
+                rkw = slr["fpa_rank_w"][p["pos"]].get(sl(opp))
+                fpw = (slr["fpa_w"].get(sl(opp)) or {}).get(p["pos"])
                 mu = "—"
                 if rk:
                     tag = "🟢" if rk <= 8 else "🔴" if rk >= 25 else ""
                     mu = f"{tag} {opp} es {ordinal(rk)} que más permite a {p['pos']} ({fp:.1f})"
                     if rk4:
                         mu += f"; últ. {L4}: {ordinal(rk4)} ({fp4:.1f})"
+                    if rkw:
+                        mu += f"; **con peso: {ordinal(rkw)}**"
                 trend = ""
                 if l3 and sz and l3.get("g", 0) >= 2:
                     dt = l3["tgt"] - sz["tgt"]
@@ -1469,6 +1649,7 @@ def main():
                                      "team_code": t, "opp": opp, "fpa": fp, "trend": trend.strip(),
                                      "inj_es": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
                                      "matchup_rank": rk, "matchup_rank_l4": rk4, "fpa_l4": fp4,
+                                     "matchup_rank_adj4": rka, "fpa_adj4": fpa_a, "matchup_rank_w": rkw, "fpa_w": fpw,
                                      "share": p["share"], "trending": trending.get(p["pid"])})
         L.append("\n**Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)\n")
         usage = {t: usage_data(t, slr["proj"]) for t in (a, h)}
@@ -1514,7 +1695,10 @@ def main():
                                "line_txt": fmt_spread(fav, fav_line), "open_txt": fmt_spread(fav, open_fav) if open_fav is not None else None,
                                "srs_line": fmt_spread(h, round(-srs_margin * 2) / 2) if srs_margin is not None else None,
                                "verdict": verdict, "mkt_margin": mkt_margin,
-                               "team_rows": team_rows, "team_rows_l4": team_rows_l4, "last5": last5, "injuries": injuries,
+                               "team_rows": team_rows, "team_rows_l4": team_rows_l4, "team_rows_w": team_rows_w,
+                               "w_weights": {lab: ADJ_METRICS[k][2] for k, lab, _, _ in TEAM_METRICS if k in ADJ_METRICS}
+                               | {"Puntos a favor / en contra": ADJ_METRICS["pf"][2]},
+                               "last5": last5, "injuries": injuries,
                                "lineups": {t: lineups.get(t) for t in (a, h)},
                                "usage": usage, "key_players": key, "dst": dst_lines, "series": series, "notables": notables,
                                "md": "\n".join(L)}})
