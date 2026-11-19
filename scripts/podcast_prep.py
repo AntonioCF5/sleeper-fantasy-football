@@ -240,6 +240,95 @@ def rank_map(values, higher_better=True):
     return {t: i + 1 for i, (_, t) in enumerate(vals)}
 
 
+L4 = 4  # "último mes" (user 2026-11-18): the team's last 4 games, next to the season
+
+
+def _num(x):
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _pair(x):
+    """'7-14' -> (7, 14); ESPN's redZoneAttempts is 'TDs-trips', thirdDownEff 'conv-att'."""
+    try:
+        a, b = str(x).split("-")[:2]
+        return float(a), float(b)
+    except (TypeError, ValueError):
+        return 0.0, 0.0
+
+
+def team_last4(finals, n=L4):
+    """Per team, its last n games rebuilt from ESPN box scores, on the same keys as
+    TEAM_METRICS (rates over the window; sacks/turnovers are totals, like the season
+    numbers) plus record, margin and points for/against per game. ESPN's team stats
+    endpoint is season-only, so the window has to come from the game summaries."""
+    by_team = defaultdict(list)
+    for g in sorted(finals, key=lambda g: g["date"]):
+        by_team[g["home"]].append(g)
+        by_team[g["away"]].append(g)
+    need = {g["id"]: g for gs in by_team.values() for g in gs[-n:]}
+    with ThreadPoolExecutor(12) as ex:
+        sums = dict(zip(need, ex.map(lambda i: espn.summary(i, final=True), need)))
+    box = {}
+    for gid, s in sums.items():
+        box[gid] = {}
+        for t in (s.get("boxscore") or {}).get("teams") or []:
+            box[gid][t["team"]["abbreviation"]] = {x["name"]: x.get("displayValue") for x in t.get("statistics") or []}
+    out = {}
+    for team, gs in by_team.items():
+        acc = defaultdict(float)
+        w = l = tie = 0
+        games = 0
+        for g in gs[-n:]:
+            home = g["home"] == team
+            opp = g["away"] if home else g["home"]
+            pf, pa = (g["hs"], g["as"]) if home else (g["as"], g["hs"])
+            w, l, tie = w + (pf > pa), l + (pf < pa), tie + (pf == pa)
+            acc["pf"] += pf
+            acc["pa"] += pa
+            games += 1
+            me, them = box.get(g["id"], {}).get(team), box.get(g["id"], {}).get(opp)
+            if not me or not them:
+                continue
+            acc["box"] += 1
+            sk = _pair(me.get("sacksYardsLost"))[0]
+            att = _pair(str(me.get("completionAttempts", "")).replace("/", "-"))[1]
+            acc["npy"] += _num(me.get("netPassingYards"))
+            acc["dropbacks"] += att + sk
+            acc["ryd"] += _num(me.get("rushingYards"))
+            acc["ratt"] += _num(me.get("rushingAttempts"))
+            c, a3 = _pair(me.get("thirdDownEff"))
+            acc["3c"] += c
+            acc["3a"] += a3
+            td, trips = _pair(me.get("redZoneAttempts"))
+            acc["rzt"] += td
+            acc["rza"] += trips
+            acc["to"] += _num(me.get("turnovers"))
+            acc["take"] += _num(them.get("turnovers"))
+            acc["sk_taken"] += sk
+            acc["sk_made"] += _pair(them.get("sacksYardsLost"))[0]
+            acc["plays"] += _num(me.get("totalOffensivePlays"))
+        if not games:
+            continue
+        nb = acc["box"]
+        d = lambda a, b: a / b if b else None  # noqa: E731
+        out[team] = {
+            "g": games, "su": f"{w}-{l}" + (f"-{tie}" if tie else ""),
+            "pf": acc["pf"] / games, "pa": acc["pa"] / games, "margin": (acc["pf"] - acc["pa"]) / games,
+            "passing.netYardsPerPassAttempt": d(acc["npy"], acc["dropbacks"]),
+            "rushing.yardsPerRushAttempt": d(acc["ryd"], acc["ratt"]),
+            "miscellaneous.thirdDownConvPct": d(100 * acc["3c"], acc["3a"]),
+            "miscellaneous.redzoneTouchdownPct": d(100 * acc["rzt"], acc["rza"]),
+            "miscellaneous.turnOverDifferential": acc["take"] - acc["to"] if nb else None,
+            "passing.sacks": acc["sk_taken"] if nb else None,
+            "defensive.sacks": acc["sk_made"] if nb else None,
+            "pace": d(acc["plays"], nb),
+        }
+    return out
+
+
 # ------------------------------------------------------ sleeper layer
 
 def load_sleeper(season, week):
@@ -297,6 +386,10 @@ def load_sleeper(season, week):
     fpa_avg = {d: {p: sum(wk[p] for wk in weeks.values()) / len(weeks) for p in SKILL}
                for d, weeks in fpa.items()}
     fpa_rank = {p: rank_map({d: v[p] for d, v in fpa_avg.items()}) for p in SKILL}
+    # the defense's last 4 games ("último mes"): who it has been lately, not since September
+    fpa_l4 = {d: {p: sum(weeks[w][p] for w in sorted(weeks)[-L4:]) / len(sorted(weeks)[-L4:]) for p in SKILL}
+              for d, weeks in fpa.items()}
+    fpa_rank_l4 = {p: rank_map({d: v[p] for d, v in fpa_l4.items()}) for p in SKILL}
 
     def shares(pid):
         weeks = sorted(w for w, u in usage[pid].items() if u["snp"] > 0)
@@ -335,6 +428,8 @@ def load_sleeper(season, week):
         team = usage[pid][weeks[-1]]["team"]
         team_l3 = sorted(team_tot[team])[-3:]
         l3 = [w for w in weeks if w in team_l3]
+        team_l4 = sorted(team_tot[team])[-L4:]
+        l4 = [w for w in weeks if w in team_l4]
         log = []
         for w in reversed(team_l3):  # newest first; a game he missed stays in as "no jugó"
             u = usage[pid].get(w)
@@ -347,7 +442,7 @@ def load_sleeper(season, week):
                                                                    "rush_td", "pass_att", "pass_cmp", "pass_yd",
                                                                    "pass_td", "pass_int")}})
         return {"season": agg(weeks), "l3": agg(l3) if l3 else {"g": 0}, "missed_l3": len(team_l3) - len(l3),
-                "log": log}
+                "l4": agg(l4) if l4 else {"g": 0}, "missed_l4": len(team_l4) - len(l4), "log": log}
 
     proj = []
     for r in api.get_week_projections(season, week) or []:
@@ -362,7 +457,7 @@ def load_sleeper(season, week):
                      "ppr": score_stat_line(st, PPR), "half": score_stat_line(st, HALF),
                      "share": shares(r["player_id"])})
     dst_avg = {t: {k: sum(v) / len(v) for k, v in s.items() if v} for t, s in dst.items()}
-    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "proj": proj, "dst": dst_avg,
+    return {"fpa": fpa_avg, "fpa_rank": fpa_rank, "fpa_l4": fpa_l4, "fpa_rank_l4": fpa_rank_l4, "proj": proj, "dst": dst_avg,
             "rankings": rankings(usage, team_tot, meta)}
 
 
@@ -1072,6 +1167,9 @@ def main():
     ppg = {t: sum(r["pf"]) / len(r["pf"]) for t, r in rec.items() if r["pf"]}
     papg = {t: sum(r["pa"]) / len(r["pa"]) for t, r in rec.items() if r["pa"]}
     ppg_rank, papg_rank = rank_map(ppg), rank_map(papg, False)
+    tl4 = team_last4(finals)
+    l4_ranks = {k: rank_map({t: s.get(k) for t, s in tl4.items()}, hb) for k, _, hb, _ in TEAM_METRICS}
+    l4_ranks["pf"], l4_ranks["pa"] = rank_map({t: s["pf"] for t, s in tl4.items()}), rank_map({t: s["pa"] for t, s in tl4.items()}, False)
 
     slr = load_sleeper(season, week)
     ros = load_ros(week, season, slr["fpa_rank"])
@@ -1244,6 +1342,30 @@ def main():
         for label, va, vh in team_rows:
             L.append(f"| {label} | {va} | {vh} |")
         L.append("")
+
+        # the same numbers over each team's last 4 games (rank of 32 over that window)
+        def l4cell(t, label):
+            s = tl4.get(t)
+            if not s:
+                return None
+            if label.startswith("Récord"):
+                return s["su"]
+            if label.startswith("Margen"):
+                return f"{s['margin']:+.1f}"
+            if label.startswith("Puntos a favor"):
+                return (f"{s['pf']:.1f} ({ordinal(l4_ranks['pf'][t])}) / {s['pa']:.1f} ({ordinal(l4_ranks['pa'][t])})")
+            for k, lab, _, f in TEAM_METRICS:
+                if lab == label and s.get(k) is not None and t in l4_ranks[k]:
+                    return f"{f.format(s[k])} ({ordinal(l4_ranks[k][t])})"
+            return None
+        team_rows_l4 = {label: [l4cell(a, label), l4cell(h, label)] for label, _, _ in team_rows}
+        team_rows_l4 = {k: v for k, v in team_rows_l4.items() if any(v)}
+        if team_rows_l4:
+            L.append(f"**Últimos {L4} partidos** (lugar de 32 en esa ventana; capturas y balones son totales de los {L4})\n")
+            L.append(f"| | **{a}** | **{h}** |\n|---|---|---|")
+            for label, (va, vh) in team_rows_l4.items():
+                L.append(f"| {label} | {va or '—'} | {vh or '—'} |")
+            L.append("")
         last5 = {t: list(reversed(((rec.get(t) or {}).get("log") or [])[-5:])) for t in (a, h)}
         for t in (a, h):
             log = (rec.get(t) or {}).get("log") or []
@@ -1303,10 +1425,14 @@ def main():
                 l3, sz = sh.get("l3") or {}, sh.get("season") or {}
                 rk = slr["fpa_rank"][p["pos"]].get(sl(opp))
                 fp = (slr["fpa"].get(sl(opp)) or {}).get(p["pos"])
+                rk4 = slr["fpa_rank_l4"][p["pos"]].get(sl(opp))
+                fp4 = (slr["fpa_l4"].get(sl(opp)) or {}).get(p["pos"])
                 mu = "—"
                 if rk:
                     tag = "🟢" if rk <= 8 else "🔴" if rk >= 25 else ""
                     mu = f"{tag} {opp} es {ordinal(rk)} que más permite a {p['pos']} ({fp:.1f})"
+                    if rk4:
+                        mu += f"; últ. {L4}: {ordinal(rk4)} ({fp4:.1f})"
                 trend = ""
                 if l3 and sz and l3.get("g", 0) >= 2:
                     dt = l3["tgt"] - sz["tgt"]
@@ -1329,7 +1455,8 @@ def main():
                 game_players.append({**{k: p[k] for k in ("pid", "name", "pos", "team", "ppr", "half", "inj")},
                                      "team_code": t, "opp": opp, "fpa": fp, "trend": trend.strip(),
                                      "inj_es": STATUS_ES.get(p["inj"], p["inj"]) if p["inj"] else None,
-                                     "matchup_rank": rk, "share": p["share"], "trending": trending.get(p["pid"])})
+                                     "matchup_rank": rk, "matchup_rank_l4": rk4, "fpa_l4": fp4,
+                                     "share": p["share"], "trending": trending.get(p["pid"])})
         L.append("\n**Uso por equipo** (últimos 3 del equipo · temporada entre paréntesis)\n")
         usage = {t: usage_data(t, slr["proj"]) for t in (a, h)}
         for t in (a, h):
@@ -1374,7 +1501,7 @@ def main():
                                "line_txt": fmt_spread(fav, fav_line), "open_txt": fmt_spread(fav, open_fav) if open_fav is not None else None,
                                "srs_line": fmt_spread(h, round(-srs_margin * 2) / 2) if srs_margin is not None else None,
                                "verdict": verdict, "mkt_margin": mkt_margin,
-                               "team_rows": team_rows, "last5": last5, "injuries": injuries,
+                               "team_rows": team_rows, "team_rows_l4": team_rows_l4, "last5": last5, "injuries": injuries,
                                "lineups": {t: lineups.get(t) for t in (a, h)},
                                "usage": usage, "key_players": key, "dst": dst_lines, "series": series, "notables": notables,
                                "md": "\n".join(L)}})

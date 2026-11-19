@@ -79,8 +79,10 @@ def scoreboard(week: int, season, final=False):
     return events
 
 
-def summary(event_id):
-    return _get(f"{SITE}/summary?event={event_id}", LIVE_TTL) or {}
+def summary(event_id, final=False):
+    """Game summary. final=True caches a finished game's box score for a week
+    (the recap keeps the default: its injuries and notes settle the day after)."""
+    return _get(f"{SITE}/summary?event={event_id}", FINAL_TTL if final else LIVE_TTL) or {}
 
 
 def odds(event_id, final=False):

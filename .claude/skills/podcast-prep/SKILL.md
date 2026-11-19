@@ -213,6 +213,28 @@ What the sheet holds, and how to read it:
 
   DST line: sacks, takeaways and points allowed vs the opponent's sacks taken
   and giveaways.
+
+  **Last 4 games, "el último mes"** (user 2026-11-18):
+  - **Team table:** a second table, "Últimos 4 partidos", carries the same
+    rows over each team's last 4 games, each with its rank of 32 in that
+    window.
+    - It covers record, margin, points for/against and every
+      `TEAM_METRICS` row.
+    - It is built by `team_last4()` from ESPN box scores, because ESPN's
+      team-stats endpoint is season-only:
+      - net yds/att = net passing yds ÷ (attempts + sacks);
+      - red zone comes from `redZoneAttempts` (TDs-trips);
+      - sacks and turnover differential are totals over the 4 games, like
+        the season numbers.
+    - The data is in `sheet.team_rows_l4` (label → [away, home]).
+    - The Equipos tab shows it as an "últ. 4" line under each cell.
+  - **Rival column:** shows the season rank plus the defense's last 4 games
+    (`fpa_l4` / `fpa_rank_l4`, `matchup_rank_l4` on each player). When the two
+    disagree, the defense changed. The recent rank wins, unless those 4
+    opponents were unusually easy or hard.
+  - **Fantasy shares** also carry `l4` and `missed_l4` beside `l3`. The app's
+    Fantasy tab has a **Últimos 3 / Últimos 4** toggle (`S.win`, remembered in
+    localStorage) that switches the bold numbers. Gray is always the season.
 - **Usage by team** (user 2026-10-28: usage numbers back up the arguments):
   per team, the top 3 RBs by backfield share and the top 6 WR/TE by target
   share, each shown as last 3 games (season). Columns: snap %, target %,

@@ -328,6 +328,10 @@ button.rk:hover { color: var(--text); } button.rk:focus-visible { outline: 2px s
 .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
 .seg button { all: unset; cursor: pointer; padding: 5px 10px; font-size: 12px; font-weight: 600; color: var(--muted); }
 .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.win-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 10px 14px; }
+table.cmp td.v .l4 { font-size: 11.5px; color: var(--muted); margin-top: 2px; font-weight: 400; }
+table.cmp td.v .l4 .chip { font-size: 10.5px; }
+td.rival > div { white-space: nowrap; font-size: 12px; line-height: 1.7; }
 .drawer-body { overflow: auto; flex: 1; }
 .drawer-body table { font-size: 12.5px; } .drawer-body td, .drawer-body th { padding: 6px 8px; }
 .drawer-body thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; }
@@ -559,11 +563,14 @@ const DAY_NAME = {jue:"Jueves", vie:"Viernes", sáb:"Sábado", dom:"Domingo", lu
 
 // ------------------------------------------------------------------ state
 const S = { data: null, season: null, week: null, game: null, tab: "resumen", filter: "" };
+// recent window of the Fantasy table: the team's last 3 or last 4 games (user 2026-11-18)
 const $ = s => document.querySelector(s);
 const store = {
   get(k) { try { return localStorage.getItem(k); } catch { return null; } },
   set(k, v) { try { localStorage.setItem(k, v); } catch {} }
 };
+
+S.win = store.get("fantasyWin") === "4" ? 4 : 3;
 
 // ------------------------------------------------------------------ helpers
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -926,6 +933,8 @@ function pickRecapGame(game) {
   document.getElementById("r-games")?.scrollIntoView({block: "start"});
 }
 $("#view").addEventListener("click", e => {
+  const wb = e.target.closest("[data-win]");
+  if (wb) { S.win = +wb.dataset.win; store.set("fantasyWin", String(S.win)); const y = scrollY; renderView(); scrollTo(0, y); return; }
   const b = e.target.closest("[data-pick-game]");
   if (b) return pickRecapGame(b.dataset.pickGame);
   const st = e.target.closest("[data-pick-step]");
@@ -1422,10 +1431,12 @@ function tabEquipos(g) {
     const ra = single ? parseRank(va) : null, rh = single ? parseRank(vh) : null;
     // every "(Nº)" in the text becomes a rank chip in place (points for / against carry two)
     const chips = v => esc(String(v)).replace(/\s*\((\d+)º\)/g, (m, r) => rankChip(+r));
-    const cell = (v, r, other) => `<td class="v ${r && other && r < other ? "better" : ""}">${chips(v)}</td>`;
-    h += `<tr><td${rowTip(label) ? ` data-tip="${esc(rowTip(label))}"` : ""}>${esc(label)}</td>${cell(va, ra, rh)}${cell(vh, rh, ra)}</tr>`;
+    const l4 = (sh.team_rows_l4 || {})[label];
+    const sub = i => l4?.[i] ? `<div class="l4">últ. 4: ${chips(l4[i])}</div>` : "";
+    const cell = (v, r, other, i) => `<td class="v ${r && other && r < other ? "better" : ""}">${chips(v)}${sub(i)}</td>`;
+    h += `<tr><td${rowTip(label) ? ` data-tip="${esc(rowTip(label))}"` : ""}>${esc(label)}</td>${cell(va, ra, rh, 0)}${cell(vh, rh, ra, 1)}</tr>`;
   }
-  h += `</tbody></table></div><div class="faint" style="font-size:12px;margin-top:8px">El lugar va de 1 (mejor) a 32. Verde = top 8, rojo = últimos 8.</div></div>`;
+  h += `</tbody></table></div><div class="faint" style="font-size:12px;margin-top:8px">El lugar va de 1 (mejor) a 32. Verde = top 8, rojo = últimos 8. Debajo de cada número, <b>últ. 4</b>: lo mismo en los últimos 4 partidos de cada equipo, con su lugar de 32 en esa ventana (sacado de los box scores de ESPN). Capturas y diferencial de balones son totales de esos 4.</div></div>`;
   for (const t of [a, hm]) {
     const log = sh.last5?.[t] || [];
     h += `<div class="card"><h3>${logo(t)} ${t} · últimos 5</h3>${log.length ? `<div class="log">${log.map(l => {
@@ -1460,7 +1471,13 @@ function tabHistoria(g) {
 
 function tabFantasy(g) {
   const sh = g.sheet, rd = rundownOf(g);
-  let h = `<div class="grid cols-2">${callout(block(rd?.md, "Fantasy"), "Lo que decimos al aire")}`;
+  const W = S.win, wk = W === 4 ? "l4" : "l3";
+  const LW = `Negritas = últimos ${W} partidos del equipo; gris = temporada.`;
+  let h = `<div class="grid cols-2">${callout(block(rd?.md, "Fantasy"), "Lo que decimos al aire")}
+    <div class="card span-all win-bar"><span class="faint">Números recientes de la tabla:</span>
+      <div class="seg" role="group" aria-label="Ventana reciente">${[3, 4].map(n =>
+        `<button type="button" data-win="${n}" aria-pressed="${W === n}">Últimos ${n}</button>`).join("")}</div>
+      <span class="faint" style="font-size:12px">En gris, siempre la temporada. El rival muestra la temporada y los últimos 4 partidos de esa defensa.</span></div>`;
   for (const t of [sh.away, sh.home]) {
     const ps = (g.players || []).filter(p => (p.team_code || p.team) === t || p.team === SL(t));
     h += `<div class="card"><h3>${logo(t)} ${t} <span class="chip">vs ${t === sh.away ? sh.home : sh.away}</span></h3>`;
@@ -1468,30 +1485,31 @@ function tabFantasy(g) {
     h += `<div class="table-wrap"><table class="pl"><thead><tr>${[
       TH("Jugador", "Posición y nombre (abre su página de Sleeper). Chips: estatus de lesión, ▲/▼ uso en ascenso o a la baja, 📈 agregados en Sleeper en 48 h."),
       TH("PPR", "Proyección de Sleeper para esta semana recalculada en PPR completo (1 punto por recepción). Abajo, la misma en half PPR (0.5 por recepción).", "r"),
-      TH("Targets · pases QB", `Receptores y corredores: % de los targets del equipo. Mariscal: intentos de pase por partido (▲/▼ = 3 o más de diferencia contra la temporada). ${L3}`, "c"),
-      TH("Yds/pase · Yds/target", `Eficiencia. Mariscal: yardas por intento de pase. Resto: yardas por target. ▲/▼ = 1 yarda o más de diferencia contra la temporada; — con menos de 5 pases o targets. ${L3}`, "c"),
-      TH("Acarreos", `% de los acarreos del equipo. ${L3}`, "c"),
-      TH("Snaps", "% de las jugadas ofensivas del equipo en las que estuvo en el campo, últimos 3 partidos (temporada si no ha jugado en ese periodo).", "c"),
-      TH("Rival", "Lugar de 32 de la defensa rival en puntos PPR permitidos a esta posición (1º = la más blanda, el mejor partido). Abajo, los puntos por partido que permite.", "c"),
+      TH("Targets · pases QB", `Receptores y corredores: % de los targets del equipo. Mariscal: intentos de pase por partido (▲/▼ = 3 o más de diferencia contra la temporada). ${LW}`, "c"),
+      TH("Yds/pase · Yds/target", `Eficiencia. Mariscal: yardas por intento de pase. Resto: yardas por target. ▲/▼ = 1 yarda o más de diferencia contra la temporada; — con menos de 5 pases o targets. ${LW}`, "c"),
+      TH("Acarreos", `% de los acarreos del equipo. ${LW}`, "c"),
+      TH("Snaps", `% de las jugadas ofensivas del equipo en las que estuvo en el campo, últimos ${W} partidos (temporada si no ha jugado en ese periodo).`, "c"),
+      TH("Rival", "Lugar de 32 de la defensa rival en puntos PPR permitidos a esta posición (1º = la más blanda, el mejor partido). Arriba, la temporada; abajo, los últimos 4 partidos de esa defensa (el último mes), con los puntos por partido que permite en cada periodo. Si los dos no coinciden, la defensa cambió: manda el reciente, salvo que esos 4 rivales hayan sido muy fáciles o muy difíciles.", "c"),
     ].join("")}</tr></thead><tbody>`;
     for (const p of ps) {
-      const s3 = p.share?.l3 || {}, ss = p.share?.season || {};
+      const s3 = p.share?.[wk] || {}, ss = p.share?.season || {};
+      const missed = W === 4 ? p.share?.missed_l4 : p.share?.missed_l3;
       const has3 = s3.g > 0;
       const sh2 = (k) => has3 ? `<b>${pct(s3[k])}</b> <span class="faint">${pct(ss[k])}</span>` : `<span class="faint">${pct(ss[k])}</span>`;
       h += `<tr><td>${playerName(p.pos, sleeperLink(p.pid, p.name), [
           injChip(p.inj_es, /Fuera|Duda/.test(p.inj_es || "")),
           p.trend === "⬆️" ? '<span class="chip good" title="Uso en ascenso">▲</span>' : p.trend === "⬇️" ? '<span class="chip bad" title="Uso a la baja">▼</span>' : "",
           p.trending ? `<span class="chip accent" title="Agregados en Sleeper, 48h">📈 ${p.trending.toLocaleString("es-MX")}</span>` : ""])}
-          ${p.share?.missed_l3 ? `<div class="faint" style="font-size:11px">se perdió ${p.share.missed_l3} de los últimos 3</div>` : ""}</td>
+          ${missed ? `<div class="faint" style="font-size:11px">se perdió ${missed} de los últimos ${W}</div>` : ""}</td>
         <td class="r"><b>${fmt1(p.ppr)}</b><div class="faint" style="font-size:11px">half ${fmt1(p.half)}</div></td>
         <td class="c">${p.pos === "QB" ? attCell(s3, ss, has3) : sh2("tgt")}</td><td class="c">${effCell(s3, ss, has3, p.pos === "QB" ? "ypa" : "ypt")}</td><td class="c">${sh2("rush")}</td><td class="c">${has3 ? pct(s3.snap) : pct(ss.snap)}</td>
-        <td class="c">${p.matchup_rank ? `${rankChip(p.matchup_rank)}<div class="faint" style="font-size:11px">${fmt1(p.fpa)} pts</div>` : "—"}</td></tr>`;
+        <td class="c rival">${p.matchup_rank ? `<div><span class="faint">temp.</span> ${rankChip(p.matchup_rank)} <span class="faint">${fmt1(p.fpa)}</span></div>` : "—"}${p.matchup_rank_l4 ? `<div><span class="faint">últ. 4</span> ${rankChip(p.matchup_rank_l4)} <span class="faint">${fmt1(p.fpa_l4)}</span></div>` : ""}</td></tr>`;
     }
     h += `</tbody></table></div>`;
     if (sh.dst?.[t]) h += `<div class="verdict"><b>DST ${t}:</b> ${esc(sh.dst[t])}</div>`;
     h += `</div>`;
   }
-  h += `<div class="card span-all faint" style="font-size:12px">% en negritas = últimos 3 partidos del equipo; en gris = temporada. QB: intentos de pase por partido (▲/▼ = 3 o más de diferencia contra la temporada). Yds/pase (QB) y yds/target (resto): ▲/▼ = 1 yarda o más de diferencia; sale — con menos de 5 pases o targets en el periodo. Rival: lugar de 32 en puntos PPR permitidos a la posición (1º = el más blando). Proyecciones de Sleeper recalculadas en PPR / half.</div>`;
+  h += `<div class="card span-all faint" style="font-size:12px">% en negritas = últimos ${W} partidos del equipo (cámbialo arriba entre 3 y 4); en gris = temporada. QB: intentos de pase por partido (▲/▼ = 3 o más de diferencia contra la temporada). Yds/pase (QB) y yds/target (resto): ▲/▼ = 1 yarda o más de diferencia; sale — con menos de 5 pases o targets en el periodo. Rival: lugar de 32 en puntos PPR permitidos a la posición (1º = el más blando), en la temporada y en los últimos 4 partidos de esa defensa, con sus puntos por partido. Proyecciones de Sleeper recalculadas en PPR / half.</div>`;
   return h + `</div>`;
 }
 
