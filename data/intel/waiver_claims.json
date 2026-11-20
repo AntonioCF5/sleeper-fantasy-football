@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -248,11 +248,11 @@
       "league": "Gallamijos Dynasty",
       "player": "Miami Dolphins DEF",
       "player_id": "MIA",
-      "verdict": "drop",
+      "verdict": "settled",
       "bid": null,
       "drop": null,
-      "date": "2026-11-18",
-      "why": "COMPLIANCE: Gallamijos Dyn is 24/23 active (33 rostered − 3 IR − 6 taxi) after Wednesday's Bartholomew + Myles Price claims with no drops. Over-limit rosters cannot process moves. Cut the second DEF: MIA projects 2.5 vs BUF 9.1 starting, DEF has zero dynasty asset value in a 12-team streaming league. Ty Johnson (29) is NOT the cut: he's BUF RB2 behind James Cook (clean-handcuff protected). Do it before Thursday's HOU lock."
+      "date": "2026-11-19",
+      "why": "Compliance cleared 11/19 08:59: you dropped Isaiah Bond instead of MIA DEF, so Gallamijos Dyn is back at 23/23 active (32 rostered - 3 IR - 6 taxi). No action left."
     },
     {
       "league_id": "1315407698006646784",
@@ -275,6 +275,28 @@
       "drop": null,
       "date": "2026-11-18",
       "why": "BRob has been on NFL IR (hamstring) since 11/07 but sits on your active bench because TRC's 4 IR slots are full. Roman Wilson was designated to return Wednesday (full practice). When PIT activates Wilson, move Wilson to active and BRob into the freed IR slot: net zero on the 25/25 active cap, no drop needed."
+    },
+    {
+      "league_id": "1314652488325922816",
+      "league": "League of Record",
+      "player": "Chris Rodriguez Jr. (RB, JAX)",
+      "player_id": "10219",
+      "verdict": "watch-trade",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-19",
+      "why": "Tuten (your RB2, 14.2 proj) was downgraded to DNP Thursday (ankle/foot). Rodriguez is the JAX dc2 handcuff and is trending (+141k), but Shao rosters him in LoR, so he's not a claim. Fallback if Tuten is out Friday: Kamara to RB, Myles Price (4.4) to FLEX. Rodriguez is also limited (hand)."
+    },
+    {
+      "league_id": "1314652488325922816",
+      "league": "League of Record",
+      "player": "Jalen Coker (WR, CAR)",
+      "player_id": "11646",
+      "verdict": "start",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-19",
+      "why": "FF says bail and don't play him vs BAL; Sal called him droppable 11/18. Disagree for Week 11: 14% target share for four straight weeks on 80%+ snaps, 10.6 projected, and the next-best LoR WR projects 4.4 (Price/Felton). Keep him in."
     }
   ],
   "roster_compliance": {

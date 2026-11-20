@@ -1759,3 +1759,6 @@ without testing it.
 - Zero-cost playoff fliers: add schedule-driven speculative pieces only when free, let weeks 11-14 confirm the role before a playoff start.
 - Panic meter (Sal): downgrade only when usage share erodes (snaps/routes/targets/RZ), never on a blowout box-score dud.
 - IR 21-day windows are hard deadlines; log the date (Ferguson Nov 25).
+- Buy efficiency before volume (Sal, 11/19): high targets-per-route on a still-limited route share (Downs 5 targets on 8 routes; Tyson 0.42 TPRR on 72% routes) projects upward once routes normalize — buy before the share catches up.
+- QB-level receiving tendencies travel (FF, 11/19): TE/RB target share by QB (Brissett #1 TE share since 2021) predicts role changes when the starter changes; chase a one-game spike only when the QB rate backs it.
+- Pace shift as leading indicator (FF, 11/19): a coaching move from slow huddle to no-huddle reprices a whole offense (TEN Pollard 7.9 → 27.4 PPR/g) before projections catch up.
