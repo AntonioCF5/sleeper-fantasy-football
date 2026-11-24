@@ -73,12 +73,14 @@
 - **Clima:** pronóstico de 2 °C, **nieve con 96% de probabilidad y ráfagas de 48 km/h** en Orchard Park.
 - **Noticias:**
   - **Kenneth Walker (ingle) no practicó el lunes** y se perdió dos partidos. Emmett Johnson sigue de titular. Mahomes (codo) practicó completo, igual que Rice y Trey Smith. El ala cerrada Noah Gray no practicó.
+  - **DJ Moore (rodilla):** salió un momento contra Miami y regresó en la siguiente posesión, y arrastra un esguince en el hombro. El doctor David Chao, analista externo, ve el jueves en riesgo; el equipo no ha dado estatus. Es el dato a revisar en el reporte del martes.
   - En Búfalo, **Kincaid** (pulgar y tobillo) practicó limitado; no jugó contra Miami. El esquinero Benford no practicó, y Hamlin y Rousseau practicaron limitados.
   - Búfalo va 9-1, su mejor arranque desde 1991, y Kansas City 8-2 peleando la AFC Oeste con Denver.
 - **Por Kansas City:** es 4º en yardas por pase con peso y el que menos capturas recibe (1.3 por partido con peso).
 - **Por Búfalo:** permitió 9.2 puntos por partido en los últimos cuatro, el mejor de la liga, y Cook anotó en nueve partidos seguidos. Pero va 4-1 en partidos de una posesión, 1.8 victorias arriba de su diferencial.
 - **El pick:** gana Búfalo, por muy poco. **Paso en el spread:** en -3 no hay valor. **★ inclinación Bajas 47.5, sirve hasta 46.5** (si encuentras 50.5, mejor). Nieve y ráfagas de 48 km/h, y las dos defensivas están en el top 5 de puntos permitidos en el último mes (Búfalo 9.2, Kansas City 15.0).
 - **Fantasy:**
+  - **DJ Moore, arranca solo si practica el martes o el miércoles, y como WR3:** tiene el 22% de los targets en los últimos tres, pero llega con la rodilla y el hombro, en la nieve, contra una defensa que es 16º contra receptores con peso. Si no juega, sube Shakir (17% de los targets).
   - **Arranca a Cook:** tiene el 79% del backfield, aunque Kansas City es de las que menos permiten a corredores (27º). En la nieve el volumen por tierra sube.
   - **Mahomes y Allen, de mariscales de media tabla esta semana:** con peso, Búfalo es la tercera defensa que menos permite a mariscales y Kansas City la 22ª, y hay nieve.
   - **Arranca a Emmett Johnson si Walker no juega:** tuvo el 82% del backfield el domingo.

@@ -38,7 +38,7 @@
 ### MIA @ BUF
 - **El dato:** Búfalo le ganó 26-9 a Miami sin permitir touchdown y va 9-1. James Cook anotó por tierra en su noveno partido seguido, récord de una temporada en la NFL.
   - **Contra el casino:** cerró Bills -16.5, y **cubrió Búfalo por apenas 0.5**. El total de cierre era 45.5 y salieron 35 puntos: **bajas** por 10.5.
-  - **Qué pasó:** McCord sacó 2.5 yardas por pase y Miami no pasó de 185 yardas. DJ Moore atrapó 8 de 10 para 91 yardas y un touchdown, y Shakir 5 para 101.
+  - **Qué pasó:** McCord sacó 2.5 yardas por pase y Miami no pasó de 185 yardas. DJ Moore atrapó 8 de 10 para 91 yardas y un touchdown, y Shakir 5 para 101. Moore salió un momento con la rodilla y regresó en la siguiente posesión.
   - **Qué significa:** Búfalo recibe a Kansas City el jueves con el primer lugar de la AFC en juego. A Miami (1-9), con McCord, no se le arranca a nadie: Caleb Douglas atrapó 2 de 10.
 
 ### NO @ CHI
@@ -117,6 +117,7 @@
 - **Jordan Addison (MIN):** se ve difícil para la semana 12. Felton sigue.
 - **Para el jueves:** LaPorta (tobillo) y Goedert (espinilla) practicaron limitados. Kincaid (pulgar y tobillo) también, y no jugó contra Miami.
 - **Saquon Barkley (PHI):** salió del partido contra Pittsburgh con una lesión de cuello (se cree que es un stinger) y no regresó. Practicó limitado el lunes (cuello y enfermedad), en un reporte estimado. Se espera que juegue el jueves en Dallas, pero no al 100%. Detrás está Will Shipley, también limitado.
+- **DJ Moore (BUF):** salió un momento con la rodilla contra Miami y regresó en la siguiente posesión. Además arrastra un esguince en el hombro (articulación acromioclavicular). El doctor David Chao, un analista externo, cree que fue una hiperextensión y que el jueves está en riesgo; el equipo no ha dicho nada, y el reporte del lunes no lo encontramos. Juega el jueves contra Kansas City.
 - **Kyren Williams (LAR):** dedo del pie. Practicó limitado el domingo y completo el lunes, y McVay dice que no le preocupa. Se espera que juegue el miércoles contra Green Bay.
 - **Derrick Henry (BAL):** lo revisaron por conmoción y lo liberaron. Juega en Houston.
 
