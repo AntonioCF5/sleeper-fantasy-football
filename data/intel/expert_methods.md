@@ -1762,3 +1762,12 @@ without testing it.
 - Buy efficiency before volume (Sal, 11/19): high targets-per-route on a still-limited route share (Downs 5 targets on 8 routes; Tyson 0.42 TPRR on 72% routes) projects upward once routes normalize — buy before the share catches up.
 - QB-level receiving tendencies travel (FF, 11/19): TE/RB target share by QB (Brissett #1 TE share since 2021) predicts role changes when the starter changes; chase a one-game spike only when the QB rate backs it.
 - Pace shift as leading indicator (FF, 11/19): a coaching move from slow huddle to no-huddle reprices a whole offense (TEN Pollard 7.9 → 27.4 PPR/g) before projections catch up.
+
+## 2026-11-23 additions
+- Role-erosion by window (Sal): split snap/rush/target share into early vs recent windows (wks 1-6 vs 7-10). A workhorse can lose his role while his box score still looks fine (Jonathan Taylor's rush share went 74% → 49%). This is the companion to the panic meter: a usage drop shows up in the split before it shows up in points.
+- Expected vs actual points as the sell-high trigger (Sal): a 26-point week on 6.2 expected points (low target share, long-TD outliers) is a sell into the box score. The inverse is the buy-low signal.
+- Alignment in Kellen Moore offenses (Sal, via Andrew Cooper): fantasy production follows slot snap share. Track week-to-week alignment changes, because a WR pushed outside becomes boom/bust (Olave lost the slot to Tyson).
+- Script-adjusted target expectation (Sal): turn the spread and expected script into expected pass attempts (a 30-point blowout is ~26 attempts; a -3 game is 35+), then scale the WR's target share. Do this before calling a quiet week a role loss.
+- Weight the last ~6 weeks plus personnel changes over full-season totals for playoff DEF streams (FF: NYG, CHI). Pairs with the 11/18 rule to pick streams by the opposing QB.
+- MNF base-rate math (FF): to decide whether a Monday player can clear the points you need, count how often he has cleared that number this season, rather than going by feel.
+- Market note (FF): leagues now pre-roster insurance RBs, so the classic 50-70% FAAB dump on an injury replacement comes up less often. This supports our rule to spend FAAB early rather than hoard it.
