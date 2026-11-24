@@ -21,14 +21,15 @@
   - **Parsons regresa** (Rapoport), en su primer partido desde que se rompió el cruzado y el menisco en diciembre de 2025. El reporte de ESPN todavía lo marca fuera.
   - Josh Jacobs (dedo fracturado, operado) practicó limitado y lo más probable es que no juegue (Demovsky). **Kaleb Johnson es el corredor principal.**
   - **Puka Nacua:** operado del ligamento colateral de la rodilla, fuera de 4 a 5 meses, y suspendido tres partidos por conducta. Adams (isquiotibial, reserva) es "muy poco probable".
-  - Stafford (codo) practicó completo. Kyren Williams (dedo del pie) subió a completo el lunes. El ala cerrada Terrance Ferguson está fuera por la temporada.
+  - **Kyren Williams (dedo del pie):** practicó limitado el domingo y completo el lunes, y McVay dice que no le preocupa. Se espera que juegue, pero hay que confirmarlo en el reporte del martes.
+  - Stafford (codo) practicó completo. El ala cerrada Terrance Ferguson está fuera por la temporada.
 - **Por Green Bay:** va +5 en diferencial de balones (8º) y llega con Parsons. Ganó los últimos cinco de la serie y McVay va 1-5 contra Green Bay, aunque las dos cosas son color.
 - **Por los Rams:** ganaron cuatro seguidos y permitieron 12.2 puntos por partido en los últimos cuatro (2º de la liga). Corren para 4.6 yardas por acarreo (5º con peso) contra un ataque de Green Bay que es el peor de la liga por tierra: 3.1 yardas por acarreo.
 - **El pick:** ganan los Rams. **Paso en el spread y en el total.** El FPI le da a Los Ángeles 67%, pero los modelos no saben que el equipo perdió a su receptor con casi la mitad de los targets. Y el total ya bajó cinco puntos.
 - **Fantasy:**
   - **Arranca a Matthew Golden:** tiene el 34% de los targets en los últimos tres. Los Rams son la tercera defensa que menos permite a receptores en la temporada, pero con peso son 13º: neutral.
   - **Sorpresa: Konata Mumpfield.** Es el receptor número uno que les queda a los Rams, y Green Bay es la cuarta defensa que más permite a receptores con peso. En la semana 10 jugó el 63% de los snaps con el 15% de los targets.
-  - **Corum sobre Kyren, si tienes que escoger uno.** En el último partido Corum corrió 17 veces para 100 yardas y Kyren 12 para 23. Green Bay es 19º contra corredores con peso: un partido neutral.
+  - **Corum sobre Kyren, si tienes que escoger uno.** En el último partido Corum corrió 17 veces para 100 yardas y Kyren 12 para 23, y Kyren llega con el dedo del pie lastimado. Green Bay es 19º contra corredores con peso: un partido neutral. Si Kyren no juega, Corum se vuelve corredor de arranque.
   - **Banca a Kaleb Johnson:** tiene el 49% de los acarreos, pero los Rams son la quinta defensa que menos permite a corredores con peso.
 
 ### CHI @ DET: Osos -2.5, total 55.5, jueves 12:00 pm CDMX (1:00 pm ET) · Thanksgiving · 🚩
@@ -53,14 +54,15 @@
 - **La línea:** abrió Dallas -1.5 y va en -8.5. La apertura casi seguro es de antes de la lesión de Hurts y de la racha de siete derrotas de Filadelfia.
 - **Noticias:**
   - En Filadelfia **arranca Joe Milton**, que ya ganó un partido como titular. McKee (costilla) se fue a la banca. Hurts está fuera por la temporada (coágulos).
-  - El esquinero Quinyon Mitchell (isquiotibial, desde el domingo) no practicó, ni Jonathan Jones. **Barkley (cuello) y Goedert (espinilla) practicaron limitados.**
+  - **Barkley salió del partido del domingo con una lesión de cuello** (se cree que es un stinger) y no regresó. En el reporte estimado del lunes aparece limitado, con cuello y enfermedad. Se espera que juegue, pero no al 100%, y en semana corta. Detrás está Will Shipley, también limitado.
+  - El esquinero Quinyon Mitchell (isquiotibial, desde el domingo) no practicó, ni Jonathan Jones. Goedert (espinilla) practicó limitado.
   - En Dallas, Prescott practicó completo (mano izquierda). **Jake Ferguson (rodilla) no practicó** y no jugó contra Tennessee. Pettine llama la defensiva desde la semana pasada, y aun así permitió 30.
 - **Por Filadelfia:** Dallas es la peor defensiva de la liga con peso (32 puntos permitidos por partido), y Barkley y Smith tienen rol de titulares.
 - **Por Dallas:** es 3º en puntos con peso, anotó en sus 8 posesiones el domingo, y Prescott va 11-4 contra Filadelfia. Con peso, Filadelfia es 31º en yardas por pase y recibe 3.6 capturas por partido (30º).
 - **El pick:** gana Dallas. **Paso en el spread y en el total:** los modelos no se ponen de acuerdo, y nuestro total (49.7) está en el número del mercado. Schottenheimer va 2-8-1 contra la línea después de una victoria, pero es color.
 - **Fantasy:**
   - **Arranca a Lamb y a Pickens:** tienen el 36% y el 35% de los targets en los últimos tres.
-  - **Arranca a Barkley:** se quedó con el 81% del backfield el domingo, y Dallas es la segunda defensa que más permite a corredores con peso.
+  - **Barkley, arranca si juega, pero como RB2 y no como RB1:** tuvo el 81% del backfield el domingo antes de salir con el cuello, y Dallas es la segunda defensa que más permite a corredores con peso. El matchup es de partidazo; el riesgo es que juegue limitado o salga otra vez. Revisa el reporte del martes y del miércoles.
   - **Arranca a DeVonta Smith:** con Milton se quedó con el 57% de los targets, y Dallas es la segunda que más permite a receptores con peso.
   - **Milton es mariscal de streaming para superflex:** Dallas es la segunda que más permite a mariscales con peso, y él corre (27% de los acarreos del equipo en sus partidos).
   - **Javonte Williams arranca por volumen** (75% del backfield), aunque Filadelfia es 25º contra corredores.

@@ -965,6 +965,19 @@ What it holds:
    will last. Was it a teammate's injury, a depth-chart move, or blowout
    garbage time? Cross-check `data/intel/expert_takes.json`.
 
+**Starters tagged in Sleeper are an injury list too** (user 2026-11-23:
+"Kyren Williams y Saquon Barkley tienen lesiones, esas son importantes").
+ESPN's per-game injury list missed Barkley leaving PIT@PHI with a neck injury
+(possible stinger). So before writing either the recap or the preview:
+1. Scan the sheet's Fantasy tables for every RB1, WR1-2, TE1 and QB with an
+   injury chip (Cuestionable, Dudoso or Fuera).
+2. Give the injury agent those names explicitly, and ask for "left the game
+   and did not return" for each team's starters.
+3. Each tagged starter gets:
+   - a line in Lesiones (recap) and in that game's Noticias (preview);
+   - a fantasy call that names the risk: "arranca si juega, como RB2", plus
+     who replaces him.
+
 The mechanical tier is a starting point. Research moves it:
 - An A tier holds only if the injury is multi-week.
 - A one-week fill-in drops to C.

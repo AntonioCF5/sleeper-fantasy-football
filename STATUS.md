@@ -316,6 +316,20 @@ tells the user to re-check news once before accepting.
   - Pendiente el viernes: Mayfield (si cae, el pick TB +7 queda sin valor),
     Walker, Bowers, Evans, Geno Smith, Garrett Wilson y McConkey. TB sigue
     sin `qb_start`: Sleeper pone a Mayfield.
+  **Recap semana 11 (lun 23 nov):**
+  - Resultado: 1-3 con CIN -6.5 pendiente hasta el MNF; temporada 7-10.
+    Survivor BUF ganó.
+  - `recap.md` lleva "El dato" con Contra el casino por partido.
+  - Waivers semana 12: Rodriguez 7%, Dike 9%, Felton 7%, Mumpfield 7% (juega
+    el miércoles), Engram 3%, Geno 5%.
+  - Los que NO: Knox, Mayer, Mitchell, Perine, Hurst.
+  **Previa semana 12, solo miércoles y Thanksgiving (lun 23 nov):**
+  `week12/rundown.md` cubre GB@LAR, CHI@DET, PHI@DAL y KC@BUF.
+  - Picks: ★ DET +2.5 (🚩), ★ Bajas CHI/DET 55.5, ★ Bajas KC/BUF 47.5
+    (nieve).
+  - Survivor: CIN vs NO el domingo. JAX ya se usó en la semana 9.
+  - **Falta:** los otros 12 partidos de la semana 12 (domingo y lunes), y
+    anotar en `survivor.json` las semanas 6-11.
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

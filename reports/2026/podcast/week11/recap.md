@@ -68,8 +68,8 @@
 ### PIT @ PHI
 - **El dato:** Filadelfia cortó una racha de siete derrotas, 19-16, con cuatro goles de campo y un pase de Milton en tercera oportunidad para cerrar.
   - **Contra el casino:** cerró Acereros -4.5, y **cubrió Filadelfia por 7.5**. El total de cierre era 37.5 y salieron 35 puntos: **bajas** por 2.5.
-  - **Qué pasó:** Barkley se quedó con el 81% del backfield (antes 45%) y anotó en una carrera de 38 yardas. Darius Cooper jugó el 92% de los snaps con el 24% de los targets. Metcalf fue expulsado en el tercer cuarto.
-  - **Qué significa:** Milton sigue de titular para el jueves en Dallas. Barkley anotó por tierra en cuatro partidos seguidos y vuelve a ser el dueño del backfield.
+  - **Qué pasó:** Barkley se quedó con el 81% del backfield (antes 45%) y anotó en una carrera de 38 yardas, pero **salió con una lesión de cuello y no regresó** (se cree que es un stinger). Darius Cooper jugó el 92% de los snaps con el 24% de los targets. Metcalf fue expulsado en el tercer cuarto.
+  - **Qué significa:** Milton sigue de titular para el jueves en Dallas. Barkley anotó por tierra en cuatro partidos seguidos y es el dueño del backfield, pero llega en duda a una semana corta.
 
 ### BAL @ CAR
 - **El dato:** Carolina ganó 35-33 con un gol de campo de Young al final. Baltimore suma seis derrotas seguidas.
@@ -116,6 +116,8 @@
 - **Brock Bowers (LV):** Kubiak es optimista para el domingo en Cleveland.
 - **Jordan Addison (MIN):** se ve difícil para la semana 12. Felton sigue.
 - **Para el jueves:** LaPorta (tobillo) y Goedert (espinilla) practicaron limitados. Kincaid (pulgar y tobillo) también, y no jugó contra Miami.
+- **Saquon Barkley (PHI):** salió del partido contra Pittsburgh con una lesión de cuello (se cree que es un stinger) y no regresó. Practicó limitado el lunes (cuello y enfermedad), en un reporte estimado. Se espera que juegue el jueves en Dallas, pero no al 100%. Detrás está Will Shipley, también limitado.
+- **Kyren Williams (LAR):** dedo del pie. Practicó limitado el domingo y completo el lunes, y McVay dice que no le preocupa. Se espera que juegue el miércoles contra Green Bay.
 - **Derrick Henry (BAL):** lo revisaron por conmoción y lo liberaron. Juega en Houston.
 
 ## Comprar, vender y vigilar
