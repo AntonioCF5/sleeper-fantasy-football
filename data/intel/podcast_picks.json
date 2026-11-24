@@ -131,7 +131,8 @@
         "side": "JAX",
         "line": -6,
         "conf": 2,
-        "why": "🚩 SRS -2.2 / FPI -5.8 vs market; JAX 1st SRS, +9 TO diff, 2nd net yds/att vs NYG backup McCarthy (Dart out for season). Risk: 57 km/h gusts at MetLife"
+        "why": "🚩 SRS -2.2 / FPI -5.8 vs market; JAX 1st SRS, +9 TO diff, 2nd net yds/att vs NYG backup McCarthy (Dart out for season). Risk: 57 km/h gusts at MetLife",
+        "result": "L"
       },
       {
         "game": "CIN@WSH",
@@ -147,7 +148,8 @@
         "side": "CAR",
         "line": -2.5,
         "conf": 1,
-        "why": "Mild lean both models (SRS +1.8, FPI CAR 69% vs 55% market); BAL short week + travel after MNF, 5-game skid, Madubuike DNP, 1.1 yds/carry Monday; Lamar out until wk 15+"
+        "why": "Mild lean both models (SRS +1.8, FPI CAR 69% vs 55% market); BAL short week + travel after MNF, 5-game skid, Madubuike DNP, 1.1 yds/carry Monday; Lamar out until wk 15+",
+        "result": "L"
       },
       {
         "game": "TB@DET",
@@ -155,7 +157,8 @@
         "side": "TB",
         "line": 7,
         "conf": 1,
-        "why": "🚩 SRS -4.1 / FPI -3.1 vs market; DET lost Hutchinson (season), TB 1-6 in one-score games, 1st in yds/carry. Conditional on Mayfield (foot, DNP Wed, decision Friday); against: Bowles 2-6 after bye"
+        "why": "🚩 SRS -4.1 / FPI -3.1 vs market; DET lost Hutchinson (season), TB 1-6 in one-score games, 1st in yds/carry. Conditional on Mayfield (foot, DNP Wed, decision Friday); against: Bowles 2-6 after bye",
+        "result": "L"
       },
       {
         "game": "NO@CHI",
@@ -163,7 +166,34 @@
         "side": "under",
         "line": 48.5,
         "conf": 1,
-        "why": "Rain 54% + 46 km/h gusts at Soldier Field; NO OL gutted (Fuaga, McCoy, Richards DNP), NO -8 TO diff; total rose 2 pts against the forecast"
+        "why": "Rain 54% + 46 km/h gusts at Soldier Field; NO OL gutted (Fuaga, McCoy, Richards DNP), NO -8 TO diff; total rose 2 pts against the forecast",
+        "result": "W"
+      }
+    ],
+    "12": [
+      {
+        "game": "CHI@DET",
+        "bet": "spread",
+        "side": "DET",
+        "line": 2.5,
+        "conf": 1,
+        "why": "🚩 SRS +4.0 / FPI +4.1 vs market; line flipped from DET -2.5 (opener likely pre-Hutchinson); DET weighted 5th yds/att, 4th ypc vs CHI 8th/20th; home dome. Against: Campbell 2-5-1 ATS on short rest"
+      },
+      {
+        "game": "CHI@DET",
+        "bet": "total",
+        "side": "under",
+        "line": 55.5,
+        "conf": 1,
+        "why": "Naive total 48.4 vs 55.5; both top-5 in sacks (DET 36, CHI 32); DET last 5 games averaged 39 total points"
+      },
+      {
+        "game": "KC@BUF",
+        "bet": "total",
+        "side": "under",
+        "line": 47.5,
+        "conf": 1,
+        "why": "Forecast 2C, snow 96%, gusts 48 km/h; BUF allowed 9.2 ppg and KC 15.0 over last 4 (both top 5); some books at 50.5"
       }
     ]
   }
