@@ -4,7 +4,7 @@
 Dinastía. ÚNICA fuente de verdad: la tarea programada `roast-semanal-gallamijos`
 lee este archivo; todo apodo, chiste, momento o regla nueva se agrega AQUÍ en el
 mismo commit en que aparezca (regla de coherencia). Última actualización:
-2026-11-10.*
+2026-11-24.*
 
 ---
 
@@ -321,6 +321,10 @@ comparar el borrador contra la edición anterior.
 | 2026-11-10 | Gallamijos J9: AVISO DE PROTECCIÓN CIVIL como apertura (viral de la mochila de emergencia: «agua, linterna, documentos y un pateador» — La Dona con la casilla de K vacía; callback en cierre y firma) · "Imagínense con 12" (Zenitsu, 2 titulares sin jugar) · "Pobre Doctor" (Salado por 0.2) · "la cagó en una sola casilla" (Charly/Higbee) · *Juego de Tronos* "Buz fue a la Boda Roja de su propio equipo" (Allen 13.9 y BUF 23-6 MIN) · *La casa de los famosos* "10 nominados, 3 se salvan" (Termómetro) · *Show me the money* (Frijol/Taylor) · "el MVP depende de una máquina" (Puka) · "el paciente se dio de alta solo" (Mahomes) · "con el lineup perfecto, empataba" (Alacrán 123.2-123.2) · *Better Call Saul* "un tecnicismo, Licenciado" (Cano por 0.2) · "al comisionado el error le sale gratis" (Pythons) · "Ni con DeLorean" (Tommy, le faltaban 0.4) · "Del pulgar de Lamar a la agencia libre en una semana" (Bebé/Shedeur) · "vino de oyente" (Jebus) · "Le tocó el MVP" (Chapo) · "un beso con rodillera" | usados — descansar |
 | 2026-11-10 | Dinastía J9: ACTA DE LA JORNADA como apertura (Fer 0-9, Thanos «soy inevitable», "Da fe, Miroslava") · "cancha doble, derrota doble" (Jets 35-12) · "No contaban con su astucia" (La Dona, $35 por Joe Milton sobre Daniels) · *El club de la pelea* "no hablar de Gallagher" (2 Tylers de Rul) · "No cuentan" (Bebé 36.6 de taxi) · "nadie sienta a Allen" (Dave/Stroud) · *Rocky* "tampoco se levantó" (Eagles 19-11) · "la liga paga por victorias, qué cabrona" (Charly 6º) · *stormtrooper* (Adonai, 7 targets 0 recepciones) · "con el yate no alcanzó" (Faraón) · Einstein "la misma chingadera esperando otro resultado" (Fer) · "Al oso le volvieron a esconder la miel" (Rorro Salado) · "2 plagas y apenas es noviembre" (Faraón) · "más difícil el boleto que el del Vive Latino" · "solo gana cuando se pelea solo" (Sin Bandera 1-1 entre ellos) · "un beso por cada punto" | usados — descansar. La marmota (Same Old Jets) se cortó: el molde ya salió el 10-27 con Fer |
 | 2026-10-20 | Rul Del Toro "hasta los monstruos llenan el cuadro" · "Penix gana en la banca" (Cano, 2 semanas) | Penix en la banca: DESCANSAR (molde agotado tras J6/J7) |
+| 2026-11-17 | Gallamijos J10: TICKET (Zenitsu) · *Destino final* (Alacrán) · *Lost* (Jro91) · *Titanic* 8 botes (Termómetro) · *Demon Slayer* "el que dormía es el que más pega" · "Este mensaje se autodestruirá" (Maye) · pastilla roja (Palpitote) · "Casualidad." (Jebus/Herbert) · Dinastía J10: COMUNICADO de la comisión · *El laberinto del fauno* (Rul) · *Toy Story* taxi (Charly) · *Gladiador* (Fer) · *Game of Thrones* trono (Dave/Corum) · *Rápidos y Furiosos* cuarto de milla (Dave) · 14,000,605 futuros | usados — descansar (anotados tarde, en la J11) |
+| 2026-11-24 | Gallamijos J11: ACCIÓN DE GRACIAS como apertura (Jro91 con 2 en bye ganó · Sukuna le perdió a ese lineup · Zenitsu "arrancó de pavo y hoy es el que trincha") · callback publicado «Casualidad» → "esta semana le llegó la cuenta" + *¿Quién quiere ser millonario?* "¿Es su respuesta final, Jebus? —McCarthy" · Trade del Payaso DESIERTO + *Ocean's Eleven* "nadie salió robado. Todavía" · *Terminator* «Hasta la vista, baby» (Salado Bebé) · *El juego del calamar* "la muñeca ya volteó" (Termómetro) · "Putiza y Muerto en el mismo boleto" · "a 0.1 de la Putiza" · Treadwell titular en 0 · "La pizarra de Pepe Silvia, sin hilo" · "domingo sin sufrir, raro en un Galla" · brindis de Thanksgiving (pierna/hueso de la suerte) | usados — descansar. Thanksgiving es estacional |
+| 2026-11-24 | Dinastía J11: CIERRE DE VENTANILLA como apertura ("Trades cerrados desde la semana 2: 0. Ni el Bebé se mandó una a sí mismo") · *Memento* "los firmó y se le olvidó para qué" (Dave, K y DEF vacías con Slye y CAR en banca) · *Rul Kubrick* / *El resplandor* «¡Aquí está Rul!» · "Desde Bucarest se ve el marcador; la banca, no" · *Los Simpson* «¡Ja-ja!» (Fer eliminado) · *Ghost* (Pitts en bye) · *Star Wars* «Yo soy tu padre» (Palpitote La Dona-Dave) · «Era el 14,000,606» · "De La Cagada a MVP en 7 días" · "uno ganó y el otro es Fer" · "la ventanilla cerró; la banca, no" | usados — descansar |
+| 2026-11-24 | Moldes a descansar (editor J11): "Nº en puntos, Nº en la tabla" (3 ediciones seguidas) · "5 victorias máximas y el 8º tiene N" · "Pobre X" en el Salado (J9, J10 seguidas — se evitó en la J11) · "con la proyección pidiéndolo" más de 2 veces por nota | descansar |
 
 **Apodos y términos de trato** — misma regla: el que se usó la edición
 pasada descansa la siguiente. El validador los lee de esta tabla, así que
@@ -330,9 +334,9 @@ hay que MOVER el estado a "libre" cuando ya pasó una edición.
 |---|---|---|
 | 2026-11-10 | humanos promedio | usado (Gallamijos 11-10) — descansar |
 | 2026-11-10 | corazones | usado (Dinastía 11-10) — descansar |
-| 2026-10-27 | mis amores | libre (ya descansó la edición del 11-03) |
-| 2026-10-27 | coaches | libre (ya descansó la edición del 11-03) |
-| 2026-10-13 | bola de pendejos hermosos | libre (ya descansó la edición del 10-20) |
+| 2026-11-24 | mis amores | usado (Dinastía 11-24) — descansar |
+| 2026-11-17 | coaches | usado en el CIERRE Gallamijos 11-17 — libre desde el 12-01 |
+| 2026-11-24 | bola de pendejos hermosos | usado (Gallamijos 11-24) — descansar |
 | — | cabrones | libre (comodín, no cuenta como apodo de trato) |
 | 2026-10-13 | criaturas | libre (ya descansó la edición del 10-20) |
 | 2026-09-09 | pinches salados | libre (tema de la sal: viene del himno, es vocabulario renovable) |
@@ -486,6 +490,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-11-10 | Dinastía (jornada 9) | "📜 *ACTA DE LA JORNADA 9.* Se hace constar que *Same Old Jets* llegó a 0-9. No se encontró irregularidad alguna. Thanos lo diría mejor: «soy inevitable». / Da fe, Miroslava. / Buenos días, corazones." *(usa 'acta' del banco)* |
 | 2026-11-17 | Gallamijos (jornada 10) | "🧾 *TICKET DE LA JORNADA 10 — Mesa: Zenitsu*: J7 El General +42.0 · J8 el Chapo +30.7 · J9 Buz +46.9 · J10 Gallagher +57.2 / *Total:* 4 victorias seguidas, 176.8 de margen. Pendiente de cobro: el boleto a playoffs. / Buenos días, mis cuates." *(versión corregida por el user: el ticket original no cuadraba)* |
 | 2026-11-17 | Dinastía (jornada 10) | "📣 *COMUNICADO OFICIAL DE LA COMISIÓN:* fecha límite de trades, semana 11… las ofertas que no se puedan rechazar, a cualquier hora. Firma: el Bebé Blatter. / Buenos días, caballeros." *(usa 'comunicado' del banco; guiño al Padrino)* |
+| 2026-11-24 | Gallamijos (jornada 11) | "🦃 *ACCIÓN DE GRACIAS:* Es semana de Thanksgiving, y Miroslava da gracias: Por Jro91, que alineó a 2 en bye… y ganó. Por Ryomen Sukuna, que le perdió a ese lineup… Y por Zenitsu, que arrancó de pavo y hoy es el que trincha. / Buenos días, bola de pendejos hermosos." *(técnica nueva: lista de agradecimientos, estacional)* |
+| 2026-11-24 | Dinastía (jornada 11) | "🗂️ *CIERRE DE VENTANILLA:* La comisión abrió la ventanilla de trades hasta la semana 11 y pidió «ofertas que no se puedan rechazar». Trades cerrados desde la semana 2: 0. Ni el Bebé se mandó una a sí mismo. / Buenos días, mis amores." *(técnica nueva: cierre de trámite; callback al comunicado publicado)* |
 
 ## Bitácora de despedidas usadas (no repetir; anotar cada edición nueva)
 
@@ -515,6 +521,8 @@ existe solo para re-revisar algo ya enviado.
 | 2026-11-10 | Dinastía (jornada 9) | "A Charly, un beso por cada punto: 158.6. Al Faraón, un corredor que sí juegue. Y a Dave, que Josh Allen le devuelva el cariño. / Miroslava, que da fe" |
 | 2026-11-17 | Gallamijos (jornada 10) | "Cuenta cerrada, coaches. A Zenitsu, la casa invita: 179.2. Al Alacrán, el cambio: 14.5. Y a Jro91, mesa para 12: a ver si llegan los 12. / Miroslava, que ya pidió la cuenta" |
 | 2026-11-17 | Dinastía (jornada 10) | "A Dave, 0.4 de beso, que fue lo que alcanzó. A Gallagher, mi pésame con sal. A Rul, la banca por correo certificado. Y a quien tenga una oferta guardada: se manda hoy o calla para siempre. / Miroslava, que redacta lo que la comisión no se atreve a firmar" |
+| 2026-11-24 | Gallamijos (jornada 11) | "La jornada arranca el miércoles con Packers en Los Ángeles: el lineup va antes del pavo. Brindo por Zenitsu, que se queda con la pierna. Por el Bebé, que se queda con el hueso de la suerte. Y por Jebus, que esta semana alinee al quarterback bueno. / Miroslava, que ya trinchó el pavo" *(molde nuevo: brindis)* |
+| 2026-11-24 | Dinastía (jornada 11) | "Que La Dona y Dave se midan en la cancha, y que gane el que alinee completo. Que Fer se siga presentando. Y que el Bebé abra su lineup: la ventanilla cerró; la banca, no. / Miroslava, con la ventanilla cerrada y la libreta abierta" *(molde nuevo: deseos con 'Que…')* |
 | 2026-10-13 | Dinastía (jornada 5) | "Lo que se alinea el domingo se sentencia el martes, y el juez soy yo. / Besos a La Dona, que no pierde. A Amarante, mi más sentido «ya era hora». / Miroslava, que esta semana sí tuvo noticia de última hora" |
 
 *Nota: la edición del draft 2026-08-30 reusó por error el cierre de la Edición
@@ -523,7 +531,7 @@ existe solo para re-revisar algo ya enviado.
 *Ideas sin usar (banco de arranques): entrar a media frase como si ya estuviera
 al aire · ~~abrir con un dato demoledor antes de saludar~~ (usado Dinastía 09-15) · ~~saludar solo a un
 bando y ningunear al otro~~ (usado Dinastía 09-29) · ~~fe de erratas~~ (usado Gallamijos 09-29) · ~~llegar "tarde"~~ (usado Dinastía 10-06) · ~~abrir con una pregunta directa al grupo~~ (usado Gallamijos 10-06) · ~~entrar citando un rumor
-sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · ~~acta~~ (usado Dinastía 11-10) · ~~ticket/recibo~~ (usado Gallamijos 11-17) · ~~comunicado~~ (usado Dinastía 11-17) · ~~aviso de Protección Civil~~ (usado Gallamijos 11-10) · banco por rellenar: alerta sísmica de la liga.*
+sin contexto~~ (usado Gallamijos 10-13) · ~~flash de última hora~~ (usado Dinastía 10-13) · ~~esquela~~ (usado Gallamijos 10-13) · ~~abrir con un 'en exclusiva' falso~~ (usado Gallamijos 10-20) · ~~pronóstico del clima~~ (usado Dinastía 10-20) · ~~abrir con un parte médico~~ (usado Gallamijos 10-27) · ~~abrir con una carta de lector~~ (usado Dinastía 10-27) · ~~dictado de un VAR~~ (usado Dinastía 11-03) · ~~receta de cocina~~ (usado Gallamijos 11-03) · ~~acta~~ (usado Dinastía 11-10) · ~~ticket/recibo~~ (usado Gallamijos 11-17) · ~~comunicado~~ (usado Dinastía 11-17) · ~~acción de gracias~~ (usado Gallamijos 11-24, estacional) · ~~cierre de ventanilla~~ (usado Dinastía 11-24) · ~~aviso de Protección Civil~~ (usado Gallamijos 11-10) · banco por rellenar: alerta sísmica de la liga.*
 
 ## Lecciones editoriales acumuladas (el user corrige, aquí se aprende)
 
@@ -899,7 +907,7 @@ cambios suyos sobre mi borrador, cada uno una regla:
    ("pálpito" = corazonada/pronóstico; el doble sentido con el escote es
    intencional y NO se explica jamás, regla 4). Frases de la casa: "el
    escote nunca falla", "me lo dictó el pálpito", llevar marcador de
-   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 25 de 36** tras la jornada 10 (21 de 32 tras la 9) (18 de 28 tras la 8) (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
+   aciertos ("el Palpitote va 3 de 4"). **Marcador real: 28 de 40** tras la jornada 11 (25 de 36 tras la 10) (21 de 32 tras la 9) (18 de 28 tras la 8) (16 de 24 tras la 7) (14 de 20 tras la 6) (12 de 16 tras la 5; 9 de 12 tras la 4; 6 de 8 tras la 3)
    (09-22: Tommy > Zenitsu ✓, Gallagher > Charly ✗, Rul > Amarante ✓, Faraón > Buz ✗ —
    el Faraón sentó a Burrow y con él habría ganado por 0.4). Antes: 4 de 4 tras la jornada 2
    (09-09: Charly > Chapo ✓, Rorro > Buz ✓ · 09-15: La Dona > Dave ✓ por 1.2,
@@ -916,7 +924,8 @@ cambios suyos sobre mi borrador, cada uno una regla:
    Jornada 8 (11-03): Gallamijos — Frijol > Rorro ✗, Alacrán > Buz ✓; Dinastía — La Dona > Gallagher ✗, Dave > Fer ✓ → **18 de 28**.
    Jornada 9 (11-10): Gallamijos — Frijol > Charly ✓ (152.0-148.6), Doctor > Cano ✗ (Cano por 0.2); Dinastía — Rul > Gallagher ✓, La Dona > Buz ✓ → **21 de 32**.
    Jornada 10 (11-17): Gallamijos — Doctor > Frijol ✓, Chapo > Dave ✓; Dinastía — Rorro > Fer ✓, Dave > Gallagher ✓ (por 0.4) → **25 de 36**.
-   Pendientes del 11-17 (jornada 11): Gallamijos — Alacrán > Rorro, Zenitsu > Pulpo Power; Dinastía — La Dona > Rul, Dave > Jro91.
+   Jornada 11 (11-24): Gallamijos — Alacrán > Rorro ✓ (108.7-107.3), Zenitsu > Pulpo Power ✓ (173.2-137.1); Dinastía — La Dona > Rul ✗ (Rul 144.5-138.6), Dave > Jro91 ✓ → **28 de 40**.
+   Pendientes del 11-24 (jornada 12): Gallamijos — Doctor > TDManiacs, El General > Nenes consentidos; Dinastía — La Dona > Dave, Rul > Pitones.
    Actualizar cada martes.
 5b. ⚔️ **MARCADOR DE LA GUERRA — como TABLA** (user, 2026-09-22): se pega
    el bloque monoespaciado que `roast_facts.py` deja listo en la hoja
@@ -1052,7 +1061,7 @@ por ti").
 | Gallaghers4 (Gallagher) | Jorge Luis | Galla, El Fashionista | Eagles | Autor del ÚNICO título Gallagher (redraft 2024, tras 9 temporadas en blanco del bando)... y subcampeón Dynasty 2025: la gloria y la final tirada, seguiditas |
 | canogutierrez (PepeSilvia: Resurrection) | Alejandro Gutiérrez | Cano, El Licenciado, El Abogado del Diablo, El Abogado | Falcons | 28-3 es carrilla válida por siempre; MUY fan del Santos Laguna y sufre la situación actual del club — doble sufrimiento institucional (Falcons + Santos), carrilla renovable cada jornada |
 | tbarg91 (Taquito con catsup) | Tomás Barrios | Tommy, Tobias Smith, Tobias, Bafanana Bafana, El Boliviano | TBD | El retornado: antes 'Marmotas Asesinas', volvió como 'Taquito con catsup' — de asesino a taquito |
-| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki ("función" del 09-15: fotografía preciosa, sin historia), Rul Cuarón (09-29, *Gravity*), Rul Tarantino (09-29); PROPUESTOS 10-20, pendientes de aprobación: Rul Nolan (*Oppenheimer*), Rul Cameron (*Titanic*) | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
+| ElGeneral4 (El General / Dinastía Lombardi) | Raúl Galindo | Rul, Rul Del Toro, Rul D'Onofrio, Rul Fisk, El General, Rul Lubezki ("función" del 09-15: fotografía preciosa, sin historia), Rul Cuarón (09-29, *Gravity*), Rul Tarantino (09-29); PROPUESTOS 10-20, pendientes de aprobación: Rul Nolan (*Oppenheimer*), Rul Cameron (*Titanic*); PROPUESTO 11-24: Rul Kubrick (*El resplandor*, «¡Aquí está Rul!») | Packers | Último Dynasty 2024; apodos de directores de cine = estrenos infinitos |
 | Jebusf (TDManiacs) | Jebus | Jebus | Bills (antes Cowboys) | TRAIDOR — la conversión más conveniente de la historia |
 | davidcruz77 (King in the North en la Dinastía; **Ryomen Sukuna** en la redraft 2026 — el Rey de las Maldiciones, material permanente contra La Sal) | David Cruz | Dave, El Funko Cruz, La Sal, El Mar Muerto, El Arqui, El Delfín | Dolphins | EL MÁS SALADO de la liga (oficial); distraidísimo — no lee los grupos (por eso 'La Sal' y running gags de mensajes ocultos) |
 | hectordavid1989TRC | Héctor Ordaz | Chapo, Chapus | TBD | — |
@@ -1380,3 +1389,13 @@ y sin pudor*, dice el himno, y tú lo cantas más fuerte que nadie").
   · **Termómetro**: "0 + 5 son 5 victorias" ilegible → "5 victorias máximas y el 4º ya tiene 7"; "adentro" = posición de hoy, no clasificado.
   · **Dato repetido entre las 2 notas**: Maye y Bengals 38-18 se cuentan en las dos Regaderas con dueños y frases distintas (Burrow y las yardas solo en la redraft).
   · No se encontró viral mexicano fechado de la semana (la búsqueda solo devolvió julio/marzo): se omitió.
+- 2026-11-24 · **Pase del editor a la J11**:
+  · **"Ofertas recibidas: 0" no es verificable**: Sleeper solo expone trades cerrados, no ofertas. Se dice "trades cerrados desde la semana N: 0" (dato del API).
+  · **"El día del corte" se verifica con la fecha**: el trade Gallagher–Rul fue el 11-18, en la semana del corte, no "el día".
+  · **La remontada del lunes se atribuye con la suma completa**: Perine solo no volteaba a Scary Terry; fueron Perine + Chase Brown (22.3) contra Gesicki (12.7). Y "3.6 abajo" salió idéntico en las 2 ligas: decirlo en una sola.
+  · **Mismo jugador, mismo domingo, en las 2 notas** (Kelce 25.4, Dak 36.9/35.9, Herbert 22.4, Shakir 16.3, Coleman 35.9, McConkey 20.7, Ted Hurst 22.6, Perine 13.7, Antonio Williams 22.2): este domingo hubo una docena de cruces; se repartieron uno por nota antes de escribir. Hacer esa lista PRIMERO.
+  · **Retrovisor en la Putiza**: Jack Bech (22.8, MALA SUERTE) en la banca de Buz se cambió por el 49.5 recuperable.
+  · **"De tal palo" invertido** (La Dona es el papá de Dave en el canon) y un Salado que "también la cagó" contradice la sección — cortado.
+  · **"lo que el apellido no pudo"** era ilegible (La Dona y Dave no comparten apellido).
+  · Discrepé en 1: el editor propuso "Pobre Dona/Pobre Bebé" en los Salados; "Pobre X" ya salió en la J9 y la J10, así que se dejó sin él.
+  · No se encontró viral mexicano fechado de la semana (solo memes de GOTY del 19-nov, ilegibles para el grupo): se usó Thanksgiving en una sola nota.
