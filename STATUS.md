@@ -317,10 +317,10 @@ tells the user to re-check news once before accepting.
     Walker, Bowers, Evans, Geno Smith, Garrett Wilson y McConkey. TB sigue
     sin `qb_start`: Sleeper pone a Mayfield.
   **Recap semana 11 (lun 23 nov):**
-  - Resultado: 1-3 con CIN -6.5 pendiente hasta el MNF; temporada 7-10.
+  - Resultado: 1-4 (CIN -6.5 perdió 22-20 en WSH en el MNF); temporada 7-11.
     Survivor BUF ganó.
   - `recap.md` lleva "El dato" con Contra el casino por partido.
-  - Waivers semana 12: Rodriguez 7%, Dike 9%, Felton 7%, Mumpfield 7% (juega
+  - Waivers semana 12: Antonio Williams 11%, Croskey-Merritt 9% si está libre, Rodriguez 7%, Dike 9%, Felton 7%, Mumpfield 7% (juega
     el miércoles), Engram 3%, Geno 5%.
   - Los que NO: Knox, Mayer, Mitchell, Perine, Hurst.
   **Previa semana 12, solo miércoles y Thanksgiving (lun 23 nov):**

@@ -10,7 +10,7 @@
 
 ## Récord de la semana pasada
 
-**1-3, con Bengalíes -6.5 pendiente en el Monday Night, y 7-10 en la temporada.** Solo ganamos las Bajas de Santos-Osos (salieron 34). Jaguares -6 perdió con una derrota directa ante los Gigantes. Panteras -2.5 ganó por 2 y no cubrió por medio punto. Bucaneros +7 perdió por 10, con Mayfield en el campo. La lección del partido de Jacksonville: apostamos contra el mariscal suplente de enfrente y no medimos la presión que iba a recibir el nuestro.
+**1-4 en la semana y 7-11 en la temporada: la peor semana del año.** Solo ganamos las Bajas de Santos-Osos (salieron 34). Jaguares -6 perdió con una derrota directa ante los Gigantes. Panteras -2.5 ganó por 2 y no cubrió por medio punto. Bucaneros +7 perdió por 10, con Mayfield en el campo. Y Bengalíes -6.5 perdió directo en Washington, 22-20. La lección del partido de Jacksonville: apostamos contra el mariscal suplente de enfrente y no medimos la presión que iba a recibir el nuestro.
 
 ## Partido por partido
 
@@ -97,7 +97,7 @@
 
 ## Survivor
 
-No usamos a nadie del miércoles ni del jueves: Dallas, Búfalo y Kansas City ya están usados, y los demás juegan partidos parejos. **El pick de la semana 12 es Cincinnati contra Nueva Orleans el domingo** (82% según el FPI; la línea todavía no sale porque Cincinnati juega esta noche). Jacksonville sería el favorito más grande (89%), pero ya lo usamos en la semana 9.
+No usamos a nadie del miércoles ni del jueves: Dallas, Búfalo y Kansas City ya están usados, y los demás juegan partidos parejos. **El pick de la semana 12 es Cincinnati contra Nueva Orleans el domingo** (82% según el FPI; la línea todavía no sale). Ojo: Cincinnati viene de perder en Washington. Jacksonville sería el favorito más grande (89%), pero ya lo usamos en la semana 9.
 
 **Pendiente:** `survivor.json` sigue sin las semanas 6 a 11. Hay que anotarlas para que el plan de las semanas que quedan sirva.
 

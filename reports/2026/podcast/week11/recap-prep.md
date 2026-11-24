@@ -1,11 +1,11 @@
 # Recap del podcast — Semana 11, 2026
 
-*Generado lun 23 nov, 9:26 pm CDMX · 12 partidos terminados · pendientes: CIN @ WSH (lun 23 nov 7:15 pm) (vuelve a correr después)*
+*Generado lun 23 nov, 10:20 pm CDMX · 13 partidos terminados*
 
-**Nuestro récord de picks** — Semana 11: **1-3** · Temporada: **7-10**
+**Nuestro récord de picks** — Semana 11: **1-4** · Temporada: **7-11**
 
 - JAX@NYG: JAX -6 ★★ → ❌ perdido
-- CIN@WSH: CIN -6.5 ★ → ⏳ pendiente
+- CIN@WSH: CIN -6.5 ★ → ❌ perdido
 - BAL@CAR: CAR -2.5 ★ → ❌ perdido
 - TB@DET: TB +7 ★ → ❌ perdido
 - NO@CHI: bajas 48.5 ★ → ✅ ganado
@@ -26,10 +26,11 @@
 | LV @ DEN | LV 24 - 38 DEN | DEN -10 | DEN por 4 | 62 (40.5) | altas |
 | JAX @ NYG | JAX 18 - 23 NYG | JAX -6 | NYG por 11 | 41 (46.5) | bajas |
 | MIN @ SF | MIN 10 - 35 SF | SF -3 | SF por 22 | 45 (46.5) | bajas |
+| CIN @ WSH | CIN 20 - 22 WSH | CIN -6.5 | WSH por 8.5 | 42 (54.5) | bajas |
 
 ## La semana en números
 
-- Favoritos contra la línea: **7-5** · locales: **9-3** · altas/bajas: **6-6**
+- Favoritos contra la línea: **7-6** · locales: **10-3** · altas/bajas: **6-7**
 - Donde más falló el mercado: MIN @ SF (SF cubrió por 22); TEN @ DAL (DAL cubrió por 12.5); ARI @ KC (KC cubrió por 11.5)
 
 ## Lesiones que mueven el fantasy
@@ -179,6 +180,14 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 - **Uso:** Carson Wentz (QB, MIN): jugó solo 10% de los snaps (antes 88%); Tai Felton (WR, MIN): 28% de los targets (antes 5%), 72% de los snaps (antes 40%) *(partido decidido por 25: confirmar que no es uso de paliza)*
 - **Lesiones:** Jordan Addison (WR, MIN) Pulgar — Fuera; Kyler Murray (QB, MIN) Isquiotibial — Fuera
 
+### CIN @ WSH: CIN 20, WSH 22
+
+- **La línea:** cerró CIN -6.5, total 54.5 → WSH cubrió por 8.5; 42 puntos (bajas)
+- **Nuestro pick:** CIN -6.5 → perdido
+- **CIN:** 312 yds (5.5 por jugada; 6.5 por pase, 2.2 por acarreo) · balones perdidos 0 · 3ª 4-12 · capturas recibidas 3 · zona roja 1-1 · posesión 28:29
+- **WSH:** 428 yds (6.7 por jugada; 7.3 por pase, 5.8 por acarreo) · balones perdidos 0 · 3ª 2-10 · capturas recibidas 3 · zona roja 1-4 · posesión 31:31
+- **Fantasy (PPR):** Antonio Williams (WR, WAS) 21.2 — 9/11, 122 yds; Joe Burrow (QB, CIN) 19.9 — 28/40, 300 yds, 2 TD, 0 INT; Jayden Daniels (QB, WAS) 17.1 — 23/35, 289 yds, 0 TD, 0 INT · por tierra 6-55; Jacory Croskey-Merritt (RB, WAS) 15.7 — tierra 13-54, 1 TD · recepción 2/3, 23 yds; Samaje Perine (RB, CIN) 13.7 — tierra 6-26 · recepción 4/4, 71 yds
+
 ## Para comprar, vender y vigilar
 
 **Rachas** (partidos seguidos; calendario = lugar del rival en puntos que permite a la posición, 1º = el más blando):
@@ -188,10 +197,11 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 - Bucky Irving (RB, TB, 98% en ligas): 4 seguidos con 100+ yardas totales y 6 con 17+ acarreos — próximos: CAR 1º, LAC 10º, BAL 17º, NO 3º (promedio 8º)
 - DeVonta Smith (WR, PHI, 93% en ligas): 4 seguidos con 8+ targets — próximos: DAL 4º, ARI 12º, IND 20º, SEA 32º (promedio 17º)
 - Justin Jefferson (WR, MIN, 99% en ligas): 4 seguidos con 8+ targets — próximos: ATL 6º, CAR 18º, NE 2º, DET 11º (promedio 9º)
-- Brock Purdy (QB, SF, 97% en ligas): 3 seguidos con 20+ puntos — próximos: SEA 31º, NYG 6º, LAR 25º, LAC 21º (promedio 21º)
-- C.J. Stroud (QB, HOU, 86% en ligas): 3 seguidos con 20+ puntos — próximos: BAL 15º, PIT 28º, WAS 8º, JAX 24º (promedio 19º)
-- Cam Ward (QB, TEN, 40% en ligas): 3 seguidos con 20+ puntos — próximos: JAX 24º, WAS 8º, DET 3º, IND 14º (promedio 12º)
-- Caleb Douglas (WR, MIA, 60% en ligas): 3 seguidos con 8+ targets — próximos: NYJ 26º, DEN 24º, CHI 22º, GB 5º (promedio 19º)
+- Ja'Marr Chase (WR, CIN, 99% en ligas): 4 seguidos con 8+ targets — próximos: NO 26º, CLE 19º, KC 31º, CAR 18º (promedio 24º)
+- Brock Purdy (QB, SF, 97% en ligas): 3 seguidos con 20+ puntos — próximos: SEA 31º, NYG 7º, LAR 25º, LAC 21º (promedio 21º)
+- C.J. Stroud (QB, HOU, 86% en ligas): 3 seguidos con 20+ puntos — próximos: BAL 15º, PIT 28º, WAS 6º, JAX 24º (promedio 18º)
+- Cam Ward (QB, TEN, 40% en ligas): 3 seguidos con 20+ puntos — próximos: JAX 24º, WAS 6º, DET 3º, IND 14º (promedio 12º)
+- Caleb Douglas (WR, MIA, 60% en ligas): 3 seguidos con 8+ targets — próximos: NYJ 27º, DEN 25º, CHI 23º, GB 5º (promedio 20º)
 
 **Perdieron el rol sin estar lesionados:**
 - Dalton Schultz (TE, HOU): 4% de los targets (antes 16%) con 55% de los snaps — 1/1, 11 yds *(paliza de 23: puede ser guion)*
@@ -200,13 +210,13 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 **Titulares que fallaron** (menos de la mitad de su promedio):
 - Kyle Monangai (RB, CHI): 1.8 contra 14.8 de promedio — tierra 8-18 · recepción 0/1, 0 yds; 28% de toques del backfield (antes 44%): el uso también bajó: cuidado. próximos: DET 26º, JAX 30º, MIA 6º, BUF 12º (promedio 18º)
 - Isaiah Likely (TE, NYG): 4.5 contra 17.4 de promedio — 1/3, 35 yds; 8% de targets (antes 27%): el uso también bajó: cuidado. próximos: IND 14º, SF 16º, SEA 26º, CLE 11º (promedio 17º)
-- Luther Burden III (WR, CHI): 3.3 contra 15.1 de promedio — 2/3, 10 yds; 14% de targets (antes 22%): el uso también bajó: cuidado. próximos: DET 11º, JAX 17º, MIA 29º, BUF 14º (promedio 18º)
+- Luther Burden III (WR, CHI): 3.3 contra 15.1 de promedio — 2/3, 10 yds; 14% de targets (antes 22%): el uso también bajó: cuidado. próximos: DET 11º, JAX 17º, MIA 29º, BUF 15º (promedio 18º)
 - Jaylen Warren (RB, PIT): 4.9 contra 16.7 de promedio — tierra 9-28 · recepción 2/3, 1 yds; 55% de toques del backfield (antes 66%): el uso también bajó: cuidado. próximos: DEN 9º, HOU 18º, JAX 30º, BAL 17º (promedio 18º)
-- Kirk Cousins (QB, MIN): 8.4 contra 19.7 de promedio — 26/38, 235 yds, 0 TD, 1 INT; 90% de snaps (antes 98%): uso intacto: candidato a comprar barato. próximos: ATL 7º, CAR 22º, NE 11º, DET 3º (promedio 11º)
+- Kirk Cousins (QB, MIN): 8.4 contra 19.7 de promedio — 26/38, 235 yds, 0 TD, 1 INT; 90% de snaps (antes 98%): uso intacto: candidato a comprar barato. próximos: ATL 8º, CAR 22º, NE 11º, DET 3º (promedio 11º)
 - Jonathan Taylor (RB, IND): 6.7 contra 16.6 de promedio — tierra 11-21 · recepción 4/5, 6 yds; 71% de toques del backfield (antes 76%): uso intacto: candidato a comprar barato. próximos: NYG 28º, PHI 25º, TEN 14º (promedio 22º)
 - Tyler Warren (TE, IND): 3.2 contra 10.8 de promedio — 1/5, 22 yds; 19% de targets (antes 22%): uso intacto: candidato a comprar barato. próximos: NYG 19º, PHI 27º, TEN 15º (promedio 20º)
-- Garrett Wilson (WR, NYJ): 6.9 contra 14.4 de promedio — 3/5, 39 yds; 25% de targets (antes 29%): uso intacto: candidato a comprar barato. próximos: MIA 29º, DEN 24º, ARI 12º (promedio 22º)
-- Cam Skattebo (RB, NYG): 5.8 contra 12.2 de promedio — tierra 14-34 · recepción 3/7, 14 yds; 89% de toques del backfield (antes 61%): uso intacto: candidato a comprar barato. próximos: IND 7º, SF 24º, SEA 22º, CLE 19º (promedio 18º)
+- Garrett Wilson (WR, NYJ): 6.9 contra 14.4 de promedio — 3/5, 39 yds; 25% de targets (antes 29%): uso intacto: candidato a comprar barato. próximos: MIA 29º, DEN 25º, ARI 12º (promedio 22º)
+- Cam Skattebo (RB, NYG): 5.8 contra 12.2 de promedio — tierra 14-34 · recepción 3/7, 14 yds; 89% de toques del backfield (antes 61%): uso intacto: candidato a comprar barato. próximos: IND 7º, SF 24º, SEA 22º, CLE 21º (promedio 18º)
 
 **Mariscales en duda** (alguien más jugó):
 - Anthony Richardson Sr. (IND, 2% en ligas) por Daniel Jones: 6% de los snaps, 0/2, 0 yds, 0 TD, 0 INT — paliza de 23: puede ser solo relevo
@@ -227,10 +237,10 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 
 | # | Jugador | % ligas | Semana 11 | Uso sem. 11 (antes) | Semana 12: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Geno Smith (NYJ) 📈9,644 | 22% | 19.4 — 17/21, 176 yds, 3 TD, 0 INT | 100% (94%) snaps<br>3% (9%) acarreos | @ MIA (17º que más permite) | 17.8 / — | — | **B** 15-25% |
+| 1 | Geno Smith (NYJ) 📈9,644 | 22% | 19.4 — 17/21, 176 yds, 3 TD, 0 INT | 100% (94%) snaps<br>3% (9%) acarreos | @ MIA (18º que más permite) | 17.8 / — | — | **B** 15-25% |
 | 2 | Joe Milton (PHI) | 9% | 6.3 — 11/21, 141 yds, 0 TD, 0 INT | 100% (100%) snaps<br>19% (36%) acarreos | @ DAL (4º que más permite) | 14.4 / — | hereda el rol de Tanner McKee (cuestionable, costillas; tenía 100% de los snaps) | **B** 15-25% |
 | 3 | Kyle McCord (MIA) | 5% | 4.0 — 12/33, 102 yds, 0 TD, 1 INT | 100% (100%) snaps<br>10% (8%) acarreos | vs NYJ (9º que más permite) | 13.6 / — | hereda el rol de Malik Willis (injured reserve, abdomen; tenía 100% de los snaps) | **B** 15-25% |
-| 4 | Josh Johnson (ARI) | 2% | 10.7 — 18/31, 155 yds, 1 TD, 0 INT | 104% (—) snaps<br>10% (—) acarreos | vs WAS (8º que más permite) | 0 / — | hereda el rol de Carson Beck (fuera, espalda; tenía 100% de los snaps) | **B** 15-25% |
+| 4 | Josh Johnson (ARI) | 2% | 10.7 — 18/31, 155 yds, 1 TD, 0 INT | 104% (—) snaps<br>10% (—) acarreos | vs WAS (6º que más permite) | 0 / — | hereda el rol de Carson Beck (fuera, espalda; tenía 100% de los snaps) | **B** 15-25% |
 | 5 | J.J. McCarthy (NYG) 📈4,440 | 26% | 14.2 — 18/38, 173 yds, 1 TD, 0 INT · por tierra 7-33 | 93% (58%) snaps<br>28% (11%) acarreos | @ IND (14º que más permite) | 17.6 / — | — | **C** 1-5% |
 | 6 | Deshaun Watson (CLE) 📈15,840 | 16% | descansó | — | vs LV (5º que más permite) | 16.5 / — | — | **C** 1-5% |
 | 7 | Baker Mayfield (TB) | 23% | 19.1 — 20/33, 187 yds, 2 TD, 0 INT · por tierra 6-36 | 100% (97%) snaps<br>21% (9%) acarreos | vs CAR (22º que más permite) | 15.4 / — | — | **C** 1-5% |
@@ -243,11 +253,11 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 | 1 | Tyler Allgeier (ARI) | 71% (libre en 29%) | 2.3 — tierra 7-23 | 56% (55%) snaps<br>47% (48%) backfield<br>33% (40%) acarreos<br>0% (7%) targets | vs WAS (20º que más permite) | 11.5 / 7.6 | hereda el rol de Jeremiyah Love (injured reserve, tobillo; tenía 55% de los toques del backfield) | **A** 30-60% |
 | 2 | Dylan Sampson (CLE) 📈10,395 | 27% | descansó | — | vs LV (4º que más permite) | 9.2 / — | — | **C** 1-5% |
 | 3 | Zonovan Knight (ARI) | 17% | 5.5 — tierra 7-35 · recepción 1/1, 10 yds | — | vs WAS (20º que más permite) | 9.1 / — | — | **C** 1-5% |
-| 4 | Samaje Perine (CIN) 📈45,688 | 29% | 10.9 — tierra 4-18 · recepción 4/4, 71 yds | — | vs NO (3º que más permite) | 8.1 / — | — | **C** 1-5% |
+| 4 | Samaje Perine (CIN) 📈45,688 | 29% | 13.7 — tierra 6-26 · recepción 4/4, 71 yds | — | vs NO (3º que más permite) | 8.1 / — | — | **C** 1-5% |
 | 5 | Justice Hill (BAL) 📈182,673 | 39% | 17.6 — tierra 6-69, 1 TD · recepción 4/5, 27 yds | 55% (44%) snaps<br>37% (23%) backfield<br>27% (13%) acarreos<br>14% (12%) targets | @ HOU (18º que más permite) | 6.8 / 9.1 | uso al alza: 37% de los toques del backfield (antes 23%) | **C** 1-5% |
 | 6 | Corey Kiner (NE) | 30% | descansó | — | @ LAC (10º que más permite) | 7.0 / — | — | **C** 1-5% |
 | 7 | Kimani Vidal (LAC) | 15% | 7.4 — tierra 7-36 · recepción 2/2, 18 yds | 43% (30%) snaps<br>36% (20%) backfield<br>23% (15%) acarreos<br>10% (8%) targets | vs NE (15º que más permite) | 6.4 / 7.3 | uso al alza: 36% de los toques del backfield (antes 20%) | **C** 1-5% |
-| 8 | Mike Washington Jr. (LV) | 30% | 4.2 — tierra 9-42 | 21% (26%) snaps<br>36% (31%) backfield<br>38% (32%) acarreos<br>0% (2%) targets | @ CLE (19º que más permite) | 5.8 / 7.9 | — | **C** 1-5% |
+| 8 | Mike Washington Jr. (LV) | 30% | 4.2 — tierra 9-42 | 21% (26%) snaps<br>36% (31%) backfield<br>38% (32%) acarreos<br>0% (2%) targets | @ CLE (21º que más permite) | 5.8 / 7.9 | — | **C** 1-5% |
 | 9 | Kenny Gainwell (TB) 📈23,048 | 50% | 9.9 — tierra 4-16 · recepción 4/5, 43 yds | 41% (37%) snaps<br>28% (28%) backfield<br>14% (21%) acarreos<br>16% (9%) targets | vs CAR (1º que más permite) | 6.2 / 7.5 | — | **C** 1-5% |
 | 10 | Kaelon Black (SF) 📈7,098 | 48% | 2.5 — tierra 6-8 · recepción 1/1, 7 yds | 30% (30%) snaps<br>30% (34%) backfield<br>24% (30%) acarreos<br>4% (3%) targets | vs SEA (22º que más permite) | 4.4 / 8.8 | la proyección de Sleeper (4.4) todavía no refleja el uso (8.8) | **C** 1-5% |
 | 11 | Chris Rodriguez Jr. (JAX) 📈220,077 | 37% | 5.1 — tierra 4-28 · recepción 1/1, 13 yds | 38% (25%) snaps<br>26% (25%) backfield<br>24% (22%) acarreos<br>2% (2%) targets | vs TEN (14º que más permite) | 6.7 / 6.1 | — | **C** 1-5% |
@@ -259,29 +269,29 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 |---|---|---|---|---|---|---|---|---|
 | 1 | Tai Felton (MIN) 📈21,012 | 0% | 10.2 — 6/12, 42 yds | 72% (40%) snaps<br>28% (5%) targets | vs ATL (6º que más permite) | 7.3 / 13.7 | hereda el rol de Jordan Addison (fuera, pulgar; tenía 20% de los targets); uso al alza: 28% de los targets (antes 5%); ojo: su partido se decidió por 25 — confirmar que no fue uso de paliza; la proyección de Sleeper (7.3) todavía no refleja el uso (13.7) | **B** 15-25% |
 | 2 | Chimere Dike (TEN) 📈83,277 | 32% | 13.3 — 6/7, 69 yds | 78% (32%) snaps<br>25% (6%) targets | @ JAX (17º que más permite) | 8.6 / 13.0 | uso al alza: 25% de los targets (antes 6%); ojo: su partido se decidió por 21 — confirmar que no fue uso de paliza; la proyección de Sleeper (8.6) todavía no refleja el uso (13.0) | **C** 1-5% |
-| 3 | Xavier Hutchinson (HOU) 📈5,292 | 41% | 3.3 — 2/3, 13 yds | 82% (60%) snaps<br>12% (18%) targets | vs BAL (15º que más permite) | 8.1 / 10.2 | — | **C** 1-5% |
+| 3 | Xavier Hutchinson (HOU) 📈5,292 | 41% | 3.3 — 2/3, 13 yds | 82% (60%) snaps<br>12% (18%) targets | vs BAL (16º que más permite) | 8.1 / 10.2 | — | **C** 1-5% |
 | 4 | Kalif Raymond (CHI) | 10% | 2.4 — 1/4, 14 yds | 69% (63%) snaps<br>19% (14%) targets | @ DET (11º que más permite) | 7.6 / 10.4 | — | **C** 1-5% |
 | 5 | Jack Bech (LV) 📈82,252 | 2% | 22.8 — 8/9, 88 yds, 1 TD | 79% (39%) snaps<br>24% (9%) targets | @ CLE (19º que más permite) | 3.4 / 14.4 | uso al alza: 24% de los targets (antes 9%); la proyección de Sleeper (3.4) todavía no refleja el uso (14.4) | **C** 1-5% |
-| 6 | Devaughn Vele (NO) 📈24,451 | 35% | 14.6 — 7/7, 76 yds | 89% (91%) snaps<br>18% (16%) targets | @ CIN (27º que más permite) | 5.8 / 11.4 | la proyección de Sleeper (5.8) todavía no refleja el uso (11.4) | **C** 1-5% |
-| 7 | Antonio Williams (WAS) 📈4,760 | 41% | 5.3 — 3/4, 23 yds | — | @ ARI (12º que más permite) | 8.3 / — | — | **C** 1-5% |
-| 8 | Harrison Wallace III (ARI) | 0% | 9.7 — 4/7, 57 yds | 67% (8%) snaps<br>23% (2%) targets | vs WAS (16º que más permite) | 2.3 / 13.9 | uso al alza: 23% de los targets (antes 2%); ojo: su partido se decidió por 27 — confirmar que no fue uso de paliza; la proyección de Sleeper (2.3) todavía no refleja el uso (13.9) | **C** 1-5% |
+| 6 | Devaughn Vele (NO) 📈24,451 | 35% | 14.6 — 7/7, 76 yds | 89% (91%) snaps<br>18% (16%) targets | @ CIN (22º que más permite) | 5.8 / 11.4 | la proyección de Sleeper (5.8) todavía no refleja el uso (11.4) | **C** 1-5% |
+| 7 | Antonio Williams (WAS) 📈4,760 | 41% | 21.2 — 9/11, 122 yds | — | @ ARI (12º que más permite) | 8.3 / — | — | **C** 1-5% |
+| 8 | Harrison Wallace III (ARI) | 0% | 9.7 — 4/7, 57 yds | 67% (8%) snaps<br>23% (2%) targets | vs WAS (13º que más permite) | 2.3 / 13.9 | uso al alza: 23% de los targets (antes 2%); ojo: su partido se decidió por 27 — confirmar que no fue uso de paliza; la proyección de Sleeper (2.3) todavía no refleja el uso (13.9) | **C** 1-5% |
 | 9 | Konata Mumpfield (LAR) 📈49,716 | 34% | descansó | — | vs GB (5º que más permite) | 8.0 / — | — | **C** 1-5% |
 | 10 | Chris Godwin Jr. (TB) | 49% | 4.3 — 3/3, 13 yds | 87% (83%) snaps<br>10% (16%) targets | vs CAR (18º que más permite) | 8.2 / 7.5 | — | **C** 1-5% |
 | 11 | Darius Cooper (PHI) | 9% | 9.9 — 4/5, 59 yds | 92% (67%) snaps<br>24% (11%) targets | @ DAL (4º que más permite) | 2.9 / 12.7 | uso al alza: 24% de los targets (antes 11%); la proyección de Sleeper (2.9) todavía no refleja el uso (12.7) | **C** 1-5% |
-| 12 | Simi Fehoko (ARI) | 0% | 7.9 — 1/5, 2 yds, 1 TD · tierra 3-7 | 96% (23%) snaps<br>16% (1%) targets | vs WAS (16º que más permite) | 5.4 / 9.9 | uso al alza: 16% de los targets (antes 1%); ojo: su partido se decidió por 27 — confirmar que no fue uso de paliza; la proyección de Sleeper (5.4) todavía no refleja el uso (9.9) | **C** 1-5% |
+| 12 | Simi Fehoko (ARI) | 0% | 7.9 — 1/5, 2 yds, 1 TD · tierra 3-7 | 96% (23%) snaps<br>16% (1%) targets | vs WAS (13º que más permite) | 5.4 / 9.9 | uso al alza: 16% de los targets (antes 1%); ojo: su partido se decidió por 27 — confirmar que no fue uso de paliza; la proyección de Sleeper (5.4) todavía no refleja el uso (9.9) | **C** 1-5% |
 
 ### Alas cerradas
 
 | # | Jugador | % ligas | Semana 11 | Uso sem. 11 (antes) | Semana 12: rival | Proy. Sleeper / por uso | Por qué | FAAB |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Noah Fant (NO) | 0% | 3.9 — 2/5, 19 yds | 68% (50%) snaps<br>13% (7%) targets | @ CIN (10º que más permite) | 6.0 / 8.5 | hereda el rol de Juwan Johnson (cuestionable, isquiotibial; tenía 13% de los targets) | **B** 15-25% |
+| 1 | Noah Fant (NO) | 0% | 3.9 — 2/5, 19 yds | 68% (50%) snaps<br>13% (7%) targets | @ CIN (9º que más permite) | 6.0 / 8.5 | hereda el rol de Juwan Johnson (cuestionable, isquiotibial; tenía 13% de los targets) | **B** 15-25% |
 | 2 | Michael Mayer (LV) 📈10,422 | 66% (libre en 34%) | 1.4 — 1/4, 4 yds | 67% (81%) snaps<br>11% (14%) targets | @ CLE (11º que más permite) | 7.2 / 6.7 | hereda el rol de Brock Bowers (fuera, tobillo; tenía 26% de los targets) | **B** 15-25% |
 | 3 | Evan Engram (DEN) 📈36,528 | 4% | 13.4 — 6/8, 74 yds | 45% (53%) snaps<br>25% (12%) targets | @ PIT (21º que más permite) | 5.6 / 13.1 | uso al alza: 25% de los targets (antes 12%); la proyección de Sleeper (5.6) todavía no refleja el uso (13.1) | **C** 1-5% |
 | 4 | Dalton Schultz (HOU) | 29% | 2.1 — 1/1, 11 yds | 55% (57%) snaps<br>4% (16%) targets | vs BAL (12º que más permite) | 8.6 / 9.6 | — | **C** 1-5% |
 | 5 | Greg Dulcich (MIA) | 5% | 3.2 — 2/7, 12 yds | 60% (66%) snaps<br>21% (15%) targets | vs NYJ (13º que más permite) | 6.9 / 10.3 | la proyección de Sleeper (6.9) todavía no refleja el uso (10.3) | **C** 1-5% |
 | 6 | Hunter Henry (NE) | 48% | descansó | — | @ LAC (23º que más permite) | 8.5 / — | — | **C** 1-5% |
 | 7 | Tyler Higbee (LAR) 📈28,737 | 24% | descansó | — | vs GB (30º que más permite) | 8.1 / — | — | **C** 1-5% |
-| 8 | Darren Waller (CAR) 📈15,246 | 40% | 7.2 — 3/3, 42 yds | 46% (50%) snaps<br>10% (12%) targets | @ TB (9º que más permite) | 8.3 / 7.7 | — | **C** 1-5% |
+| 8 | Darren Waller (CAR) 📈15,246 | 40% | 7.2 — 3/3, 42 yds | 46% (50%) snaps<br>10% (12%) targets | @ TB (10º que más permite) | 8.3 / 7.7 | — | **C** 1-5% |
 
 ### Defensivas (streaming)
 
@@ -305,10 +315,10 @@ Otras: Brevin Jordan (TE, HOU, fuera); Marvin Harrison Jr. (WR, HOU, fuera); Set
 | Fernando Mendoza (QB, LV) | 95,840 | 33% | 23.9 — 18/37, 267 yds, 3 TD, 1 INT · por tierra 4-22 |
 | Chimere Dike (WR, TEN) | 83,277 | 32% | 13.3 — 6/7, 69 yds |
 | Jack Bech (WR, LV) | 82,252 | 2% | 22.8 — 8/9, 88 yds, 1 TD |
-| Jacory Croskey-Merritt (RB, WAS) | 71,253 | 61% | 12.8 — tierra 9-40, 1 TD · recepción 1/1, 18 yds |
+| Jacory Croskey-Merritt (RB, WAS) | 71,253 | 61% | 15.7 — tierra 13-54, 1 TD · recepción 2/3, 23 yds |
 | Ted Hurst III (WR, TB) | 52,878 | 4% | 22.6 — 5/7, 56 yds, 2 TD |
 | Konata Mumpfield (WR, LAR) | 49,716 | 34% | descansó |
-| Samaje Perine (RB, CIN) | 45,688 | 29% | 10.9 — tierra 4-18 · recepción 4/4, 71 yds |
+| Samaje Perine (RB, CIN) | 45,688 | 29% | 13.7 — tierra 6-26 · recepción 4/4, 71 yds |
 | Evan Engram (TE, DEN) | 36,528 | 4% | 13.4 — 6/8, 74 yds |
 
 *Método: línea de cierre de DraftKings vía ESPN; lesiones = lista de ESPN del partido con fecha desde la patada inicial (las bajas previas al partido no cuentan); uso = participación de la semana contra la de la temporada antes de esta semana (Sleeper); % en ligas = ligas redraft de Sleeper; proyecciones de Sleeper recalculadas en PPR; defensivas en puntuación estándar.*

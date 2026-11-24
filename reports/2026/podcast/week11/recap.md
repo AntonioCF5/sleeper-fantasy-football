@@ -1,6 +1,6 @@
 # Recap semana 11
 
-*Escrito el lunes 23 de noviembre, con el Monday Night (Bengalíes @ Comandantes) todavía en juego. Lesiones y declaraciones de los coaches del lunes. Ojo con los waivers: el miércoles juegan Empacadores y Carneros, y el jueves hay tres partidos de Thanksgiving. Los jugadores de esos equipos se bloquean al empezar su partido.*
+*Escrito el lunes 23 de noviembre; el Monday Night (Washington 22, Cincinnati 20) se agregó al terminar. Sleeper todavía no publica los snaps de ese partido. Lesiones y declaraciones de los coaches del lunes. Ojo con los waivers: el miércoles juegan Empacadores y Carneros, y el jueves hay tres partidos de Thanksgiving. Los jugadores de esos equipos se bloquean al empezar su partido.*
 
 ## Lo que pasó
 
@@ -10,17 +10,18 @@
 
 ## Nuestros picks
 
-**1-3 en la semana y 7-10 en la temporada, con Bengalíes -6.5 pendiente esta noche.**
+**1-4 en la semana y 7-11 en la temporada: nuestra peor semana del año.**
 
 - **Bajas 48.5 Santos-Osos:** salieron 34. La lluvia y la línea ofensiva destrozada de Nueva Orleans pesaron.
 - **Jaguares -6 (★★):** perdieron 23-18. Apostamos a que un mariscal suplente no aguantaba enfrente, y el que no aguantó fue Lawrence: 25 de 47, dos intercepciones, presionado en casi la mitad de sus pases. Jacksonville llegó 6 veces a la zona roja y anotó en una. El viento que señalamos como riesgo sí jugó.
 - **Panteras -2.5:** ganaron 35-33 y no cubrieron por medio punto. Le atinamos al ganador, pero Baltimore metió 33 puntos aun con 4 balones perdidos.
 - **Bucaneros +7:** perdieron por 10. Mayfield jugó, que era la condición, pero Goff sacó 9.6 yardas por pase y Gibbs anotó dos veces. Detroit sin Hutchinson siguió capturando: 4 veces.
+- **Bengalíes -6.5:** perdieron 22-20 en Washington. La tesis era la línea ofensiva de Washington sin su tackle izquierdo, y Washington corrió para 5.8 yardas por acarreo y sumó 428 yardas. Cincinnati corrió para 2.2, y Chase atrapó 5 pases para 31 yardas.
 - **Survivor:** Búfalo ganó 26-9. Seguimos vivos.
 
 ## Contra la línea
 
-- Los favoritos se fueron **7-5**, los locales **9-3** y las altas **6-6**, sin contar el Monday Night.
+- Los favoritos se fueron **7-6**, los locales **10-3** y las altas **6-7**.
 - **Donde más falló el mercado:**
   - San Francisco cubrió por 22: Minnesota perdió 2 balones, uno regresado para touchdown, y Cousins no tiró ningún pase de anotación.
   - Dallas cubrió por 12.5.
@@ -102,7 +103,10 @@
   - **Qué significa:** con Evans de regreso, Keenan Allen baja. Felton vale mientras Addison no juegue, y la semana 12 se ve difícil para Addison.
 
 ### CIN @ WSH
-- **El dato:** se juega esta noche. Cincinnati llega con cinco victorias seguidas.
+- **El dato:** Washington cortó la racha de cinco victorias de Cincinnati, 22-20. El novato Antonio Williams atrapó 9 de 11 para 122 yardas: 11 de los 32 targets del equipo.
+  - **Contra el casino:** cerró Bengalíes -6.5, y **ganó Washington, que cubrió por 8.5**. El total de cierre era 54.5 y salieron 42 puntos: **bajas** por 12.5.
+  - **Qué pasó:** Washington sumó 428 yardas y corrió para 5.8 por acarreo. Croskey-Merritt regresó de la reserva con 13 acarreos, 54 yardas y un touchdown; Ekeler tuvo 7. Burrow tiró para 300 yardas y 2 touchdowns, pero Cincinnati corrió para 2.2 y Chase atrapó 5 pases para 31 yardas.
+  - **Qué significa:** Cincinnati queda 7-3 y recibe a Nueva Orleans, que es nuestro survivor. Washington (4-5-1) tiene un receptor de verdad en Williams, y Croskey-Merritt vuelve a ser el corredor principal.
 
 ## Lesiones
 
@@ -149,6 +153,7 @@
 
 **Corredores** (nadie hereda un backfield completo)
 
+- **Si está libre en tu liga: Jacory Croskey-Merritt (WAS, 61% en ligas).** Regresó de la reserva y tuvo 13 acarreos contra 7 de Ekeler, con un touchdown. Vuelve a ser el corredor principal. — **9%**
 1. **Chris Rodriguez Jr. (JAX, 37%):** 38% de snaps (25%), 26% del backfield (25%), 24% de los acarreos (22%) y 2% de los targets. Es el suplente directo de Tuten, que se volvió a lastimar el tobillo, en un equipo que es favorito por 14.5 contra Tennessee. — **7%**
 2. **Kaelon Black (SF, 48%):** 30% de snaps (30%), 30% del backfield (34%) y 24% de los acarreos (30%). Sigue siendo el suplente más valioso: detrás de McCaffrey, en el equipo que va 9-1. — **5%**
 3. **Tyler Allgeier (ARI, libre en 29%):** 56% de snaps (55%), 47% del backfield (48%) y 33% de los acarreos (40%), pero 7 acarreos para 23 yardas. Love puede regresar en la semana 13 y Arizona descansa en la 14. Es para una semana. — **3%**
@@ -158,12 +163,13 @@
 
 **Receptores**
 
-1. **Chimere Dike (TEN, 32%):** 78% de snaps (32%) y 25% de los targets (6%). Wan'Dale Robinson está fuera por la temporada, así que el rol se queda. — **9%**
-2. **Tai Felton (MIN, 0%):** 72% de snaps (40%) y 28% de los targets (5%); 17 targets en dos partidos. Vale mientras Addison no regrese, y Atlanta es la sexta defensa que más permite a receptores. — **7%**
-3. **Konata Mumpfield (LAR, 34%):** 63% de los snaps y 15% de los targets en la semana 10. Con Puka fuera por la temporada y Adams hasta diciembre, es el receptor número uno que les queda a los Rams. **Juega el miércoles** contra la quinta defensa que más permite a receptores. — **7%**
-4. **Darius Cooper (PHI, 9%):** 92% de snaps (67%) y 24% de los targets (11%). El jueves en Dallas, una de las defensas que más permiten a receptores. — **3%**
-5. **Jack Bech (LV, 2%):** 79% de snaps (39%) y 24% de los targets (9%): 8 recepciones para 88 yardas y un touchdown. Baja si regresa Bowers. — **3%**
-6. **Roman Wilson (PIT):** regresó de la reserva con el 69% de los snaps y el 14% de los targets (6). Metcalf fue expulsado. Es para ligas profundas. — **1%**
+1. **Antonio Williams (WAS, 41%):** 11 de los 32 targets de Washington (34%), 9 recepciones para 122 yardas en el Monday Night; los snaps todavía no salen. Es el receptor número uno de Washington sin McLaurin, y va a Arizona. — **11%**
+2. **Chimere Dike (TEN, 32%):** 78% de snaps (32%) y 25% de los targets (6%). Wan'Dale Robinson está fuera por la temporada, así que el rol se queda. — **9%**
+3. **Tai Felton (MIN, 0%):** 72% de snaps (40%) y 28% de los targets (5%); 17 targets en dos partidos. Vale mientras Addison no regrese, y Atlanta es la sexta defensa que más permite a receptores. — **7%**
+4. **Konata Mumpfield (LAR, 34%):** 63% de los snaps y 15% de los targets en la semana 10. Con Puka fuera por la temporada y Adams hasta diciembre, es el receptor número uno que les queda a los Rams. **Juega el miércoles** contra la quinta defensa que más permite a receptores. — **7%**
+5. **Darius Cooper (PHI, 9%):** 92% de snaps (67%) y 24% de los targets (11%). El jueves en Dallas, una de las defensas que más permiten a receptores. — **3%**
+6. **Jack Bech (LV, 2%):** 79% de snaps (39%) y 24% de los targets (9%): 8 recepciones para 88 yardas y un touchdown. Baja si regresa Bowers. — **3%**
+7. **Roman Wilson (PIT):** regresó de la reserva con el 69% de los snaps y el 14% de los targets (6). Metcalf fue expulsado. Es para ligas profundas. — **1%**
 
 **Alas cerradas**
 
