@@ -1771,3 +1771,10 @@ without testing it.
 - Weight the last ~6 weeks plus personnel changes over full-season totals for playoff DEF streams (FF: NYG, CHI). Pairs with the 11/18 rule to pick streams by the opposing QB.
 - MNF base-rate math (FF): to decide whether a Monday player can clear the points you need, count how often he has cleared that number this season, rather than going by feel.
 - Market note (FF): leagues now pre-roster insurance RBs, so the classic 50-70% FAAB dump on an injury replacement comes up less often. This supports our rule to spend FAAB early rather than hoard it.
+
+## 2026-11-24 additions
+- WR handcuff (Sal): a WR3 in an elite passing offense who already posts his own spike weeks (red-zone target rank, top-20 efficiency) carries contingent league-winner value the way an RB handcuff does, in the Tyler Boyd mold (Flournoy). Rank him above deep-league WR3s who have no standalone role.
+- Handcuff quality (Sal): judge a backup by his per-touch efficiency (EPA rank, yards per touch) and his snap-share trend, not his standalone points. When the backup is more efficient than a struggling starter, the split can drift without any injury (Perine vs Chase Brown).
+- The passing-down back is not the injury replacement (Sal: Ray Davis vs Ty Johnson). To find the real replacement, check who got the carries during the starter's last actual absence, not who wins trailing or two-minute snaps.
+- Re-read strength of schedule against the CURRENT opposing QB (FF). A "bad matchup" defense becomes a stream once its starter is out (NE without Maye, ARI with Johnson/Beck). Stash DEFs that have runs of soft matchups, and buy them when they're dropped during their bye (TB).
+- Insurance season, from week 12 (FF): prefer clean handcuffs behind big workloads (Black, Gainwell, Shipley) over vague insurance backs whose path runs through another returning player (Dobbins, Mason, Allgeier). This is the same test as our clean-handcuff rule.
