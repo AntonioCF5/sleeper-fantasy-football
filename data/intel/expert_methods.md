@@ -1778,3 +1778,11 @@ without testing it.
 - The passing-down back is not the injury replacement (Sal: Ray Davis vs Ty Johnson). To find the real replacement, check who got the carries during the starter's last actual absence, not who wins trailing or two-minute snaps.
 - Re-read strength of schedule against the CURRENT opposing QB (FF). A "bad matchup" defense becomes a stream once its starter is out (NE without Maye, ARI with Johnson/Beck). Stash DEFs that have runs of soft matchups, and buy them when they're dropped during their bye (TB).
 - Insurance season, from week 12 (FF): prefer clean handcuffs behind big workloads (Black, Gainwell, Shipley) over vague insurance backs whose path runs through another returning player (Dobbins, Mason, Allgeier). This is the same test as our clean-handcuff rule.
+
+## 2026-11-25 additions
+- Route participation by quarter (FF, Jordyn Tyson): before calling a low-snap game a demotion, split route participation by quarter. A personnel freeze during a no-huddle stretch (11% in Q3, 52% in Q4) is a game-plan quirk, not a role change.
+- Full-games-only filter (FF, DJ Moore): for a player who's been in and out of lineups, judge his weekly value only from the games where he played a full snap load, not from his season PPG.
+- Opponent-quality audit on a defense's surge (FF, BUF): discount a defense's last-N-weeks fantasy rank when it came against backup QBs. This mirrors our 11/24 rule of re-reading strength of schedule against the current QB, applied in reverse.
+- Weather routing (FF, KC@BUF at 94% precipitation): in heavy rain, lean toward short-area/YAC PPR receivers and RB carries, and away from downfield WRs. The 10/1 caution still applies: rain-made volume is a one-week call, not a role.
+- Championship-week rematch check (FF): flag players whose week-17 opponent is the same soft defense they face now (Loveland and CHI vs DET). It's a cheap ceiling filter for phase-2 calls.
+- Coaching shelf life (FF): a play-caller whose edge came from scheme surprise (Moore, McDaniel) fades once defenses adjust; Shanahan, McVay and Reid are the exceptions. Treat a "proven offensive coach" bump as perishable in team_env reviews.
