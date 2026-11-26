@@ -195,6 +195,30 @@
         "line": 47.5,
         "conf": 1,
         "why": "Forecast 2C, snow 96%, gusts 48 km/h; BUF allowed 9.2 ppg and KC 15.0 over last 4 (both top 5); some books at 50.5"
+      },
+      {
+        "game": "BAL@HOU",
+        "bet": "spread",
+        "side": "HOU",
+        "line": -6.5,
+        "conf": 1,
+        "why": "FPI HOU 83% vs 74% market; BAL -1.1 TO/game (32nd, weighted), 6 straight losses, Henry back in concussion protocol, Flowers limited, Madubuike DNP; HOU 3.3 sacks/game (4th) and 1-5 in one-score games. Against: Hunter DNP"
+      },
+      {
+        "game": "CAR@TB",
+        "bet": "spread",
+        "side": "TB",
+        "line": -3,
+        "conf": 1,
+        "why": "FPI TB 67% vs 59%; TB 1-6 in one-score games (-2.4 wins vs point diff), +1.1 TO/game weighted (1st); Irving vs CAR 3rd-most to RB weighted; McMillan foot. Against: Mayfield plantar fasciitis + thumb, TB CBs hurt"
+      },
+      {
+        "game": "ATL@MIN",
+        "bet": "total",
+        "side": "under",
+        "line": 41.5,
+        "conf": 1,
+        "why": "MIN weighted 1st in points allowed (15.0) and sacks (3.8/g); MIN 31st and ATL 26th in plays; MIN last 5 games averaged 35 total points; MIN 1-9 to the under (color)"
       }
     ]
   }

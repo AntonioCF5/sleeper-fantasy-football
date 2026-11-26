@@ -328,8 +328,17 @@ tells the user to re-check news once before accepting.
   - Picks: ★ DET +2.5 (🚩), ★ Bajas CHI/DET 55.5, ★ Bajas KC/BUF 47.5
     (nieve).
   - Survivor: CIN vs NO el domingo. JAX ya se usó en la semana 9.
-  - **Falta:** los otros 12 partidos de la semana 12 (domingo y lunes), y
-    anotar en `survivor.json` las semanas 6-11.
+  **Previa semana 12, fin de semana (mié 25 nov):** `week12/rundown.md` tiene ya
+  los 16 partidos, con Episodio 2 para viernes a lunes.
+  - Picks: ★ HOU -6.5, ★ TB -3, ★ Bajas ATL/MIN 41.5.
+  - Pendientes del viernes: SF -3 si practica Purdy, e IND +6 si Richardson
+    se ve bien.
+  - `qb_start`: IND Anthony Richardson (cortaron a Jones) y PIT Mason Rudolph
+    (sentaron y cortaron a Rodgers).
+  - Survivor: CIN -10 vs NO.
+  - **Falta:** anotar en `survivor.json` las semanas 6-11, y correr de nuevo
+    la hoja el viernes con los estatus finales (Purdy, Henry, Herbert,
+    Tuten, Beck, Murray).
 - **Capa gráfica del Destape** (todo con SVG→`sips`+ffmpeg; el ffmpeg de brew
   NO trae drawtext): `destape_guion.py` (WhatsApp→guion hablado),
   `destape_montaje.py` (video 1080x1920 con escudo, escaleta de cintillos y

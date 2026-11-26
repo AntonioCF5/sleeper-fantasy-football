@@ -188,7 +188,8 @@
   "vac_tgt_pct": 25.5,
   "vac_rush_pct": 5.7,
   "play_caller": "Shane Steichen (HC)",
-  "hc": "Shane Steichen"
+  "hc": "Shane Steichen",
+  "qb_start": "Anthony Richardson"
  },
  "JAX": {
   "win_total": 8.5,
@@ -362,7 +363,8 @@
   "new_oc": true,
   "vac_tgt_pct": 50.5,
   "vac_rush_pct": 33.9,
-  "play_caller": "Mike McCarthy (HC)"
+  "play_caller": "Mike McCarthy (HC)",
+  "qb_start": "Mason Rudolph"
  },
  "SF": {
   "win_total": 9.5,
