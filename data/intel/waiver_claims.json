@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -273,10 +273,21 @@
       "player": "Will Shipley (RB, PHI)",
       "player_id": "11577",
       "verdict": "claim",
-      "bid": 3,
+      "bid": 11,
       "drop": "Buffalo Bills DEF (2nd DEF)",
-      "date": "2026-11-25",
-      "why": "Still unrostered in TRC. Original drop Noah Gray was already cut by co-owner, so TRC is back at 25/25 active and needs a new drop: BUF DEF is the idle second DEF in a 10-team stream league (WAS DEF starts). Saquon is off the injury report but says he won't be 100% the rest of the season; Shipley is the clean PHI dc2 behind a 200+ workload = contingent league-winner. Daily waivers: if he shows as FA, add instantly before PHI@DAL Thursday lock; otherwise claim $3."
+      "date": "2026-11-26",
+      "why": "Raised $3 -> $11 (~19% of the $58 left). Saquon left Thanksgiving at DAL with a stinger after 5 carries; Shipley led the PHI backfield (10-46). Still unrostered in TRC and now locked on waivers, so rivals see the same box score. Clean dc2 behind a 200+ workload = contingent league-winner; if Saquon is ruled out for week 13 this becomes a 30-60% tier claim, so raise to $21+ then. Drop: BUF DEF, the idle second DEF behind WAS in a 10-team stream league (drop processes after BUF's Thursday game locks clear). TRC at 25/25 active."
+    },
+    {
+      "league_id": "1338269686810300416",
+      "league": "Dynasty Mexica",
+      "player": "Sam Roush (TE, CHI)",
+      "player_id": "13322",
+      "verdict": "skip",
+      "bid": null,
+      "drop": null,
+      "date": "2026-11-26",
+      "why": "Trending because Loveland (yours) left Thanksgiving with a knee injury and Kmet is on IR, making Roush (23, rookie) CHI's TE1 for now (5-5-31). Dynasty Mexica already carries LaPorta, Henry, D. Washington and Delp at TE, so he adds no lineup value; TRC has Kelce/Kraft/Stowers. Skip in both."
     }
   ],
   "roster_compliance": {
