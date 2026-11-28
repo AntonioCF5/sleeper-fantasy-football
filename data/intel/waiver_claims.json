@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-28",
   "note": "Curated waiver rulings — the single source of truth for claim recommendations. The daily newsletter task maintains this file (add/update/remove on every run, same commit as the edition); the dashboard's Moves tab overlays these on top of its automatic signals, and a newsletter ruling ALWAYS wins over an auto signal for that player. verdict: claim | optional | skip | protected-hold.",
   "claims": [
     {
@@ -275,8 +275,8 @@
       "verdict": "claim",
       "bid": 11,
       "drop": "Buffalo Bills DEF (2nd DEF)",
-      "date": "2026-11-26",
-      "why": "Raised $3 -> $11 (~19% of the $58 left). Saquon left Thanksgiving at DAL with a stinger after 5 carries; Shipley led the PHI backfield (10-46). Still unrostered in TRC and now locked on waivers, so rivals see the same box score. Clean dc2 behind a 200+ workload = contingent league-winner; if Saquon is ruled out for week 13 this becomes a 30-60% tier claim, so raise to $21+ then. Drop: BUF DEF, the idle second DEF behind WAS in a 10-team stream league (drop processes after BUF's Thursday game locks clear). TRC at 25/25 active."
+      "date": "2026-11-28",
+      "why": "Raised $3 -> $11 (~19% of the $58 left). Saquon left Thanksgiving at DAL with a stinger after 5 carries; Shipley led the PHI backfield (10-46). Still unrostered in TRC and now locked on waivers, so rivals see the same box score. Clean dc2 behind a 200+ workload = contingent league-winner; if Saquon is ruled out for week 13 this becomes a 30-60% tier claim, so raise to $21+ then. Drop: BUF DEF, the idle second DEF behind WAS in a 10-team stream league (drop processes after BUF's Thursday game locks clear). TRC at 25/25 active. | 2026-11-28: still a FA in TRC (unclaimed through the holiday window); claim stands at $11 with the BUF DEF drop and processes at the next TRC waiver run. No week-13 word on Saquon's stinger yet — raise to $21+ the moment he's ruled out."
     },
     {
       "league_id": "1338269686810300416",
